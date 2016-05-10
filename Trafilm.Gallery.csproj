@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5A748034-E893-4F20-AF54-0E9C9DAAAEDA}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Trafilm.Gallery</RootNamespace>
+    <AssemblyName>Trafilm.Gallery</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <TargetFrameworkProfile />
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="film\default.html" />
+    <Content Include="metadata\Countries.xml" />
+    <Content Include="metadata\Count.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="scene\default.html" />
+    <Content Include="scene\metadata\default.aspx" />
+    <Content Include="ClientAccessPolicy.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="crossdomain.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="css\metadata.css" />
+    <Content Include="favicon.ico" />
+    <Content Include="seajax\css\PivotView.css" />
+    <Content Include="seajax\css\search.gif" />
+    <Content Include="seajax\seadragon-pivot-standalone-min.js" />
+    <Content Include="utterance\default.html" />
+    <Content Include="utterance\metadata\L3meaningDesiphered.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="utterance\metadata\L3representationsVisual.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="utterance\metadata\L3representationsOral.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="utterance\metadata\LmainMode.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="utterance\metadata\L3represented.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="utterance\metadata\L3STmodeChange.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="utterance\metadata\L3speakerPerformance.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="utterance\metadata\L3messageUnderstanding.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="utterance\metadata\L3constructedBasedOn.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="utterance\metadata\L3audienceUnderstanding.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="utterance\metadata\L3languageType.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="utterance\metadata\L3mode.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="utterance\metadata\L3functions.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="utterance\metadata\L3type.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="utterance\metadata\default.aspx" />
+    <Content Include="metadata\Languages.xml" />
+    <Content Include="metadata\Default.aspx" />
+    <Content Include="film\metadata\default.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="metadata\CXMLFragmentStorage.cs" />
+    <Compile Include="scene\metadata\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="scene\metadata\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="metadata\BaseMetadataPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="utterance\metadata\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="utterance\metadata\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="metadata\UI.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="film\metadata\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="film\metadata\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Pages.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Metadata.CXML, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Metadata.CXML.1.0.1\lib\portable-net403+sl5+win8+wpa81+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Metadata.CXML.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NDatabase3, Version=3.8.0.13, Culture=neutral, PublicKeyToken=31d8e3cda240c056, processorArchitecture=MSIL">
+      <HintPath>packages\NDatabase.3.8.0\lib\net45\NDatabase3.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Trafilm.Metadata, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Trafilm.Metadata.1.1.0\lib\portable-net403+sl5+win8+wpa81+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Trafilm.Metadata.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Utils.cd" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>17901</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
