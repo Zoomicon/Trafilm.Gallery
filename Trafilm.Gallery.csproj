@@ -151,10 +151,6 @@
       <HintPath>packages\Metadata.CXML.1.0.1\lib\portable-net403+sl5+win8+wpa81+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Metadata.CXML.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="NDatabase3, Version=3.8.0.13, Culture=neutral, PublicKeyToken=31d8e3cda240c056, processorArchitecture=MSIL">
-      <HintPath>packages\NDatabase.3.8.0\lib\net45\NDatabase3.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Web" />
     <Reference Include="System.Xml" />
