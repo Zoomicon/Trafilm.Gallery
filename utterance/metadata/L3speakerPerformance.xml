@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!--
+Project: Trafilm.Gallery (http://trafilm.net)
+Filename: utterance/metadata/L3speakerPerformance.xml
+Version: 20160509
+-->
+
+<Facet Name="L3speakerPerformance">
+  <String Value="native or proficient" />
+  <String Value="clearly non-native or deficient" />
+  <String Value="clearly deficient or farcical" />
+  
+  <!--
+  <String Value="native (standard)" />
+  <String Value="native (non-standard, e.g. dialectal, jargon, slang)" />
+  <String Value="proficient non-native" />
+  <String Value="clearly non-native" />
+  <String Value="pseudo-L3, farcical, parody" />
+  <String Value="other" />
+  <String Value="don’t know / not sure" />
+  -->
+</Facet>
