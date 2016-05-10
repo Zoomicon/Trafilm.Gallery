@@ -13,13 +13,24 @@ using System.Linq;
 namespace Trafilm.Gallery
 {
 
-  public class CXMLFragmentStorage<T> : ICXMLMetadataStorage where T:ICXMLMetadata, new()
+  public class CXMLFragmentStorage<I, T> : ICXMLMetadataStorage<I> where I: ICXMLMetadata where T : ICXMLMetadata, new()
   {
+
+    #region --- Initialization ---
+
+    public CXMLFragmentStorage(string collectionFile, string fragmentsFolder, string fragmentsFilter)
+    {
+      this.CollectionFile = collectionFile;
+      this.FragmentsFolder = fragmentsFolder;
+      this.FragmentsFilter = fragmentsFilter;
+    }
+
+    #endregion
 
     #region --- Properties ---
 
-    public string CollectionFile { get; set; }
-    public string FragmentsFolder { get; set; }
+    public string CollectionFile { get; set; } = "../collection.cxml";
+    public string FragmentsFolder { get; set; } = ".";
 
     public string FragmentsFilter { get; set; } = "*.cxml"; //can be used to select hierarchically named fragments, e.g. "BigBuckBunny.*.cxml" to filter for scenes of film "BigBuckBunny" and "BigBuckBunny.15.*.cxml" to filter for Utterances of scene "15" in "BigBuckBunny" film
 
@@ -27,11 +38,11 @@ namespace Trafilm.Gallery
       return FragmentsFolder + "/" + key + ".cxml";
     }
 
-    public ICXMLMetadata this[string key]
+    public I this[string key]
     {
       get
       {
-        return new T().Load(key, CreateXmlReader(FragmentFile(key)), CreateXmlReader(CollectionFile));
+        return (I)new T().Load(key, CreateXmlReader(FragmentFile(key)), CreateXmlReader(CollectionFile)); //CollectionFile is used as fallback
       }
       set
       {
@@ -65,11 +76,11 @@ namespace Trafilm.Gallery
       }
     }
 
-    public ICollection<ICXMLMetadata> Values
+    public ICollection<I> Values
     {
       get
       {
-        return Keys.Select(key => this[key]).ToList<ICXMLMetadata>();
+        return Keys.Select(key => this[key]).ToList<I>();
       }
     }
 
@@ -77,12 +88,12 @@ namespace Trafilm.Gallery
 
     #region --- Methods ---
 
-    public void Add(KeyValuePair<string, ICXMLMetadata> item)
+    public void Add(KeyValuePair<string, I> item)
     {
       this[item.Key] = item.Value;
     }
 
-    public void Add(string key, ICXMLMetadata value)
+    public void Add(string key, I value)
     {
       this[key] = value;
     }
@@ -93,7 +104,7 @@ namespace Trafilm.Gallery
         File.Delete(file);
     }
 
-    public bool Contains(KeyValuePair<string, ICXMLMetadata> item)
+    public bool Contains(KeyValuePair<string, I> item)
     {
       return File.Exists(FragmentFile(item.Key)); //TODO: should load CXML and compare somehow values?
     }
@@ -103,17 +114,17 @@ namespace Trafilm.Gallery
       return File.Exists(FragmentFile(key));
     }
 
-    public void CopyTo(KeyValuePair<string, ICXMLMetadata>[] array, int arrayIndex)
+    public void CopyTo(KeyValuePair<string, I>[] array, int arrayIndex)
     {
       throw new NotImplementedException();
     }
 
-    public IEnumerator<KeyValuePair<string, ICXMLMetadata>> GetEnumerator()
+    public IEnumerator<KeyValuePair<string, I>> GetEnumerator()
     {
       throw new NotImplementedException();
     }
 
-    public bool Remove(KeyValuePair<string, ICXMLMetadata> item)
+    public bool Remove(KeyValuePair<string, I> item)
     {
       File.Delete(FragmentFile(item.Key)); //ignoring what the value is, just removing by key
       return true; //TODO: check documentation
@@ -132,7 +143,7 @@ namespace Trafilm.Gallery
       }
     }
 
-    public bool TryGetValue(string key, out ICXMLMetadata value)
+    public bool TryGetValue(string key, out I value)
     {
       if (ContainsKey(key))
       {
@@ -141,7 +152,7 @@ namespace Trafilm.Gallery
       }
       else
       {
-        value = null;
+        value = default(I);
         return false;
       }
     }
