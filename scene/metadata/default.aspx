@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://trafilm.net)
 Filename: scene\metadata\default.aspx
-Version: 20160509
+Version: 20160510
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -187,9 +187,6 @@ Version: 20160509
             height="50"
             OnClick="btnSave_Click"
             />
-          &nbsp;
-          &nbsp;
-          <i>Gallery contents are updated once a day from saved metadata</i>
         </div>
 
         <%-- EXTRA PADDING AT THE END --%>

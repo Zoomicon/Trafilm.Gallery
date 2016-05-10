@@ -115,7 +115,7 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="metadata\CXMLFragmentStorage.cs" />
+    <Compile Include="utils\CXMLFragmentStorage.cs" />
     <Compile Include="scene\metadata\default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -133,7 +133,7 @@
     <Compile Include="utterance\metadata\default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="metadata\UI.cs" />
+    <Compile Include="utils\UI.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="film\metadata\default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>

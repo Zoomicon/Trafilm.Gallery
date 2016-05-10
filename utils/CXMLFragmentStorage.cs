@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://trafilm.net)
 //Filename: CXMLFileStorage.cs
-//Version: 20150508
+//Version: 20150510
 
 using System;
 using System.Collections;
@@ -16,26 +16,12 @@ namespace Trafilm.Gallery
   public class CXMLFragmentStorage<T> : ICXMLMetadataStorage where T:ICXMLMetadata, new()
   {
 
-    #region --- Helpers ---
-
-    public static XmlReader CreateXmlReader(string inputUri)
-    {
-      try { return XmlReader.Create(inputUri); }
-      catch { return null; }
-    }
-
-    public static XmlWriter CreateXmlWriter(string outputFile)
-    {
-      Directory.CreateDirectory(Path.GetDirectoryName(Path.GetFullPath(outputFile))); //create any parent directories needed
-      return XmlWriter.Create(outputFile);
-    }
-
-    #endregion
-
     #region --- Properties ---
 
     public string CollectionFile { get; set; }
     public string FragmentsFolder { get; set; }
+
+    public string FragmentsFilter { get; set; } = "*.cxml"; //can be used to select hierarchically named fragments, e.g. "BigBuckBunny.*.cxml" to filter for scenes of film "BigBuckBunny" and "BigBuckBunny.15.*.cxml" to filter for Utterances of scene "15" in "BigBuckBunny" film
 
     public string FragmentFile(string key) {
       return FragmentsFolder + "/" + key + ".cxml";
@@ -55,14 +41,11 @@ namespace Trafilm.Gallery
       }
     }
 
-    #endregion
-
-
     public int Count
     {
       get
       {
-        return Directory.GetFiles(FragmentsFolder, "*.cxml").Length;
+        return Directory.GetFiles(FragmentsFolder, FragmentsFilter).Length;
       }
     }
 
@@ -78,7 +61,7 @@ namespace Trafilm.Gallery
     {
       get
       {
-        return Directory.GetFiles(FragmentsFolder, "*.cxml").Select(file => Path.GetFileNameWithoutExtension(file)).ToList<string>();
+        return Directory.GetFiles(FragmentsFolder, FragmentsFilter).Select(file => Path.GetFileNameWithoutExtension(file)).ToList<string>();
       }
     }
 
@@ -89,6 +72,10 @@ namespace Trafilm.Gallery
         return Keys.Select(key => this[key]).ToList<ICXMLMetadata>();
       }
     }
+
+    #endregion
+
+    #region --- Methods ---
 
     public void Add(KeyValuePair<string, ICXMLMetadata> item)
     {
@@ -102,7 +89,7 @@ namespace Trafilm.Gallery
 
     public void Clear()
     {
-      foreach (string file in Directory.GetFiles(FragmentsFolder, "*.cxml"))
+      foreach (string file in Directory.GetFiles(FragmentsFolder, FragmentsFilter))
         File.Delete(file);
     }
 
@@ -163,6 +150,24 @@ namespace Trafilm.Gallery
     {
       throw new NotImplementedException();
     }
+
+    #endregion
+
+    #region --- Helpers ---
+
+    public static XmlReader CreateXmlReader(string inputUri)
+    {
+      try { return XmlReader.Create(inputUri); }
+      catch { return null; }
+    }
+
+    public static XmlWriter CreateXmlWriter(string outputFile)
+    {
+      Directory.CreateDirectory(Path.GetDirectoryName(Path.GetFullPath(outputFile))); //create any parent directories needed
+      return XmlWriter.Create(outputFile);
+    }
+
+    #endregion
   }
 
 }
