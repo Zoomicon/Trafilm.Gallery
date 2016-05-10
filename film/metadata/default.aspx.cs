@@ -64,9 +64,13 @@ namespace Trafilm.Gallery
        DisplayMetadata(key, LoadFilm(key));
     }
 
+    CXMLFragmentStorage<IFilm, Film> filmStorage = new CXMLFragmentStorage<IFilm, Film>("../films.cxml", ".", "*.cxml");
+    CXMLFragmentStorage<IScene, Scene> sceneStorage = new CXMLFragmentStorage<IScene, Scene>("../scenes.cxml", "../../scene/metadata", "");
+
     private IFilm LoadFilm(string key)
     {
-      throw new NotImplementedException(); //TODO
+      sceneStorage.FragmentsFilter = key + ".*.cxml";
+      return (IFilm)filmStorage[key];
     }
 
     public void DisplayMetadata(string key, IFilm film)
