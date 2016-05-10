@@ -283,9 +283,6 @@ Version: 20160510
             height="50"
             OnClick="btnSave_Click"
             />
-          &nbsp;
-          &nbsp;
-          <i>Gallery contents are updated once a day from saved metadata</i>
         </div>
 
         <%-- EXTRA PADDING AT THE END --%>

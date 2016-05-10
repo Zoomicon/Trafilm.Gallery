@@ -115,7 +115,7 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="metadata\CXMLFragmentStorage.cs" />
+    <Compile Include="utils\CXMLFragmentStorage.cs" />
     <Compile Include="scene\metadata\default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -133,7 +133,7 @@
     <Compile Include="utterance\metadata\default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="metadata\UI.cs" />
+    <Compile Include="utils\UI.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="film\metadata\default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
@@ -149,10 +149,6 @@
   <ItemGroup>
     <Reference Include="Metadata.CXML, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Metadata.CXML.1.0.1\lib\portable-net403+sl5+win8+wpa81+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Metadata.CXML.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="NDatabase3, Version=3.8.0.13, Culture=neutral, PublicKeyToken=31d8e3cda240c056, processorArchitecture=MSIL">
-      <HintPath>packages\NDatabase.3.8.0\lib\net45\NDatabase3.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
