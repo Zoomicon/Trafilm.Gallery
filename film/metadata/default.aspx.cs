@@ -28,9 +28,6 @@ namespace Trafilm.Gallery
         SelectFromQueryString(listFilms, null, null);
       }
 
-      panelMetadata.Visible = (listFilms.SelectedIndex > 0);
-
-
       sceneStorage = new CXMLFragmentStorage<IScene, Scene>(Path.Combine(Request.PhysicalApplicationPath, "scene/scenes.cxml"), Path.Combine(Request.PhysicalApplicationPath, "scene/metadata"), listFilms.SelectedValue + ".*.cxml");
     }
 
@@ -187,7 +184,7 @@ namespace Trafilm.Gallery
 
     #region Calculated from Scenes
 
-    private int CalculateSceneCount(string key) //TODO
+    private int CalculateSceneCount(string key)
     {
       return sceneStorage.Count;
     }
@@ -209,7 +206,10 @@ namespace Trafilm.Gallery
 
     protected void listFilms_SelectedIndexChanged(object sender, EventArgs e)
     {
-      DisplayMetadata(listFilms.SelectedValue);
+      bool visible = (listFilms.SelectedIndex > 0);
+      panelMetadata.Visible = visible;
+      if (visible)
+        DisplayMetadata(listFilms.SelectedValue);
     }
 
     protected void btnAddFilm_Click(object sender, EventArgs e)

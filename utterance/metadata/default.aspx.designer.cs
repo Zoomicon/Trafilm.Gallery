@@ -13,13 +13,13 @@ namespace Trafilm.Gallery {
     public partial class UtteranceMetadataPage {
         
         /// <summary>
-        /// xmlL3type control.
+        /// xmlL3kind control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.XmlDataSource xmlL3type;
+        protected global::System.Web.UI.WebControls.XmlDataSource xmlL3kind;
         
         /// <summary>
         /// xmlLmainLanguage control.
@@ -220,13 +220,13 @@ namespace Trafilm.Gallery {
         protected global::System.Web.UI.WebControls.Button btnAddUtterance;
         
         /// <summary>
-        /// uiMetadata control.
+        /// panelMetadata control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel uiMetadata;
+        protected global::System.Web.UI.WebControls.Panel panelMetadata;
         
         /// <summary>
         /// txtTitle control.
@@ -283,13 +283,13 @@ namespace Trafilm.Gallery {
         protected global::System.Web.UI.WebControls.TextBox txtKeywords;
         
         /// <summary>
-        /// listL3type control.
+        /// listL3kind control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList listL3type;
+        protected global::System.Web.UI.WebControls.DropDownList listL3kind;
         
         /// <summary>
         /// listLmainLanguage control.

@@ -3,10 +3,11 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: utterance/metadata/LmainMode.xml
-Version: 20160510
+Version: 20160512
 -->
 
 <Facet Name="LmainMode">
+  <String Value="" />
   <String Value="oral / dubbed" />
   <String Value="text / subtitled" />
 </Facet>

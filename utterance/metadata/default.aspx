@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: utterance\metadata\default.aspx
-Version: 20160511
+Version: 20160512
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -20,8 +20,8 @@ Version: 20160511
 
     <%-- DATA SOURCES --%>
 
-    <asp:XmlDataSource ID="xmlL3type" runat="server" DataFile="~/utterance/metadata/L3type.xml" XPath="Facet/String" />
-    <asp:XmlDataSource ID="xmlLmainLanguage" runat="server" DataFile="~/metadata/Languages.xml" XPath="Facet/String" />
+    <asp:XmlDataSource ID="xmlL3kind" runat="server" DataFile="~/utterance/metadata/L3kind.xml" XPath="Facet/String" />
+    <asp:XmlDataSource ID="xmlLmainLanguage" runat="server" DataFile="~/utterance/metadata/LmainLanguage.xml" XPath="Facet/String" />
     <asp:XmlDataSource ID="xmlLmainMode" runat="server" DataFile="~/utterance/metadata/LmainMode.xml" XPath="Facet/String" />    
     <asp:XmlDataSource ID="xmlL3languageType" runat="server" DataFile="~/utterance/metadata/L3languageType.xml" XPath="Facet/String" />
     <asp:XmlDataSource ID="xmlL3constructedBasedOn" runat="server" DataFile="~/utterance/metadata/L3constructedBasedOn.xml" XPath="Facet/String" />
@@ -90,7 +90,7 @@ Version: 20160511
 
       <%-- METADATA INPUT UI --%>
 
-      <asp:Panel ID="uiMetadata" runat="server" Visible="false">
+      <asp:Panel ID="panelMetadata" runat="server" Visible="false">
 
         <%-- ICXMLMetadata--%>
 
@@ -124,10 +124,10 @@ Version: 20160511
         <%-- IUtteranceMetadata --%>
 
         <div>
-          <div class="label"><%=Trafilm.Metadata.UtteranceMetadataFacets.FACET_L3_TYPE%></div>
+          <div class="label"><%=Trafilm.Metadata.UtteranceMetadataFacets.FACET_L3_KIND%></div>
           <asp:DropDownList 
-            ID="listL3type" runat="server"
-            DataSourceID="xmlL3type" DataTextField="Value" DataValueField="Value" />
+            ID="listL3kind" runat="server"
+            DataSourceID="xmlL3kind" DataTextField="Value" DataValueField="Value" />
         </div>
 
 

@@ -3,10 +3,11 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: utterance/metadata/L3speakerPerformance.xml
-Version: 20160509
+Version: 20160512
 -->
 
 <Facet Name="L3speakerPerformance">
+  <String Value="" />
   <String Value="native or proficient" />
   <String Value="clearly non-native or deficient" />
   <String Value="clearly deficient or farcical" />

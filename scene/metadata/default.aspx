@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: scene\metadata\default.aspx
-Version: 20160511
+Version: 20160512
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -21,7 +21,8 @@ Version: 20160511
     <%-- DATA SOURCES --%>
 
     <asp:XmlDataSource ID="xmlCount" runat="server" DataFile="~/metadata/Count.xml" XPath="Facet/String" />
-    <asp:XmlDataSource ID="xmlLanguages" runat="server" DataFile="~/metadata/Language.xml" XPath="Facet/String" />
+    <asp:XmlDataSource ID="xmlLanguages" runat="server" DataFile="~/metadata/Languages.xml" XPath="Facet/String" />
+    <asp:XmlDataSource ID="xmlL3languageTypes" runat="server" DataFile="~/scene/metadata/L3languageTypes.xml" XPath="Facet/String" />
     
     <%-- NAVIGATION MENU --%>
 
@@ -69,7 +70,7 @@ Version: 20160511
 
       <%-- METADATA INPUT UI --%>
 
-      <asp:Panel ID="uiMetadata" runat="server" Visible="false">
+      <asp:Panel ID="panelMetadata" runat="server" Visible="false">
 
         <%-- ICXMLMetadata--%>
 
@@ -114,13 +115,13 @@ Version: 20160511
         
 
         <div>
-          <div class="label"><%=Trafilm.Metadata.SceneMetadataFacets.FACET_L1_SOURCE_LANGUAGE_PRESENT%></div>
-          <asp:CheckBox ID="cbL1sourceLanguagePresent" runat="server" />
+          <div class="label"><%=Trafilm.Metadata.SceneMetadataFacets.FACET_L1_LANGUAGE_PRESENT%></div>
+          <asp:CheckBox ID="cbL1languagePresent" runat="server" />
         </div>
 
         <div>
-          <div class="label"><%=Trafilm.Metadata.SceneMetadataFacets.FACET_L2_TRANSLATED_LANGUAGE_PRESENT%></div>
-          <asp:CheckBox ID="cbL2translatedLanguagePresent" runat="server" />
+          <div class="label"><%=Trafilm.Metadata.SceneMetadataFacets.FACET_L2_LANGUAGE_PRESENT%></div>
+          <asp:CheckBox ID="cbL2languagePresent" runat="server" />
         </div>
 
 
@@ -142,18 +143,18 @@ Version: 20160511
         <%-- Calculatable from Utterances --%>
 
         <div>
-          <div class="label"><%=Trafilm.Metadata.SceneMetadataFacets.FACET_L3_OTHER_LANGUAGES_COUNT%></div>
-          <asp:Label ID="lblL3otherLanguagesCount" runat="server"></asp:Label>
+          <div class="label"><%=Trafilm.Metadata.SceneMetadataFacets.FACET_L3_LANGUAGES_COUNT%></div>
+          <asp:Label ID="lblL3languagesCount" runat="server"></asp:Label>
         </div>  
 
         <div>
-          <div class="label"><%=Trafilm.Metadata.SceneMetadataFacets.FACET_L3_OTHER_LANGUAGES%></div>
+          <div class="label"><%=Trafilm.Metadata.SceneMetadataFacets.FACET_L3_LANGUAGES%></div>
           <asp:Panel runat="server" 
             Height="100" Width="250"
             ScrollBars="Auto"
             Enabled="false"
             >
-            <asp:CheckBoxList ID="clistL3otherLanguages" runat="server" 
+            <asp:CheckBoxList ID="clistL3languages" runat="server" 
               DataSourceID="xmlLanguages" DataTextField="Value" DataValueField="Value" 
               />
            </asp:Panel>
@@ -161,19 +162,19 @@ Version: 20160511
 
 
         <div>
-          <div class="label"><%=Trafilm.Metadata.SceneMetadataFacets.FACET_L3_OTHER_TYPES_COUNT%></div>
-          <asp:Label ID="lblL3otherTypesCount" runat="server"></asp:Label>
+          <div class="label"><%=Trafilm.Metadata.SceneMetadataFacets.FACET_L3_LANGUAGE_TYPES_COUNT%></div>
+          <asp:Label ID="lblL3languageTypesCount" runat="server"></asp:Label>
         </div> 
         
         <div>
-          <div class="label"><%=Trafilm.Metadata.SceneMetadataFacets.FACET_L3_OTHER_TYPES%></div>
+          <div class="label"><%=Trafilm.Metadata.SceneMetadataFacets.FACET_L3_LANGUAGE_TYPES%></div>
           <asp:Panel runat="server" 
             Height="100" Width="250"
             ScrollBars="Auto"
             Enabled="false"
             >
-            <asp:CheckBoxList ID="clistL3otherTypes" runat="server" 
-              DataSourceID="xmlLanguages" DataTextField="Value" DataValueField="Value" 
+            <asp:CheckBoxList ID="clistL3languageTypes" runat="server" 
+              DataSourceID="xmlL3languageTypes" DataTextField="Value" DataValueField="Value" 
               />
            </asp:Panel>
         </div>            

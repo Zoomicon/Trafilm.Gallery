@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: utterance\metadata\default.aspx.cs
-//Version: 20160511
+//Version: 20160512
 
 using Trafilm.Metadata;
 using Trafilm.Metadata.Models;
@@ -87,7 +87,7 @@ namespace Trafilm.Gallery
       UI.Load(listFilms, utterance.FilmReferenceId);
       UI.Load(listScenes, utterance.SceneReferenceId);
 
-      UI.Load(listL3type, utterance.L3type);
+      UI.Load(listL3kind, utterance.L3kind);
 
       UI.Load(listLmainLanguage, utterance.LmainLanguage);
       UI.Load(listLmainMode, utterance.LmainMode);
@@ -146,7 +146,7 @@ namespace Trafilm.Gallery
       utterance.FilmReferenceId = listFilms.SelectedValue;
       utterance.SceneReferenceId = listScenes.SelectedValue;
 
-      utterance.L3type = listL3type.SelectedValue;
+      utterance.L3kind = listL3kind.SelectedValue;
 
       utterance.LmainLanguage = listLmainLanguage.SelectedValue;
       utterance.LmainMode = listLmainMode.SelectedValue;
@@ -211,7 +211,10 @@ namespace Trafilm.Gallery
 
     protected void listUtterances_SelectedIndexChanged(object sender, EventArgs e)
     {
-      DisplayMetadata(listUtterances.SelectedValue);
+      bool visible = (listUtterances.SelectedIndex > 0);
+      panelMetadata.Visible = visible;
+      if (visible)
+        DisplayMetadata(listUtterances.SelectedValue);
     }
 
     protected void btnAddUtterance_Click(object sender, EventArgs e)

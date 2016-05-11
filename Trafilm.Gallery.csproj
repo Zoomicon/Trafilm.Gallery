@@ -62,11 +62,14 @@
     </Content>
     <Content Include="css\metadata.css" />
     <Content Include="favicon.ico" />
+    <Content Include="scene\metadata\L3languageTypes.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="seajax\css\PivotView.css" />
     <Content Include="seajax\css\search.gif" />
     <Content Include="seajax\seadragon-pivot-standalone-min.js" />
     <Content Include="utterance\default.html" />
-    <Content Include="utterance\metadata\L3meaningDesiphered.xml">
+    <Content Include="utterance\metadata\L3meaningDeciphered.xml">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="utterance\metadata\L3representationsVisual.xml">
@@ -75,6 +78,7 @@
     <Content Include="utterance\metadata\L3representationsOral.xml">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="utterance\metadata\LmainLanguage.xml" />
     <Content Include="utterance\metadata\LmainMode.xml">
       <SubType>Designer</SubType>
     </Content>
@@ -105,7 +109,7 @@
     <Content Include="utterance\metadata\L3functions.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="utterance\metadata\L3type.xml">
+    <Content Include="utterance\metadata\L3kind.xml">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="utterance\metadata\default.aspx" />
@@ -156,7 +160,7 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="Trafilm.Metadata, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\Trafilm.Metadata.1.3.0\lib\portable-net403+sl5+win8+wpa81+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Trafilm.Metadata.dll</HintPath>
+      <HintPath>packages\Trafilm.Metadata.3.0.0\lib\portable-net403+sl5+win8+wpa81+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Trafilm.Metadata.dll</HintPath>
       <Private>True</Private>
     </Reference>
   </ItemGroup>

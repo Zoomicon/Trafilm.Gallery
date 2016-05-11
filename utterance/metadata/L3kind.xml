@@ -2,11 +2,12 @@
 
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
-Filename: utterance/metadata/L3type.xml
-Version: 20160509
+Filename: utterance/metadata/L3kind.xml
+Version: 20160512
 -->
 
-<Facet Name="L3type">
+<Facet Name="L3kind">
+  <String Value="" />
   <String Value="L3ST" />
   <String Value="L3TT" />
 </Facet>
