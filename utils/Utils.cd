@@ -4,14 +4,14 @@
     <Position X="0.5" Y="0.5" Width="3" />
     <TypeIdentifier>
       <HashCode>AAAAgAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>metadata\UI.cs</FileName>
+      <FileName>utils\UI.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Trafilm.Gallery.CXMLFragmentStorage&lt;T&gt;">
-    <Position X="4" Y="0.5" Width="4.75" />
+  <Class Name="Trafilm.Gallery.CXMLFragmentStorage&lt;I, T&gt;">
+    <Position X="4" Y="0.5" Width="5.25" />
     <TypeIdentifier>
-      <HashCode>CAICAAAAAAAEABAQCCAABAQAAACAAAAEEAAgAABQIAA=</HashCode>
-      <FileName>metadata\CXMLFragmentStorage.cs</FileName>
+      <HashCode>CAICAAAAAEAEABAQCCAABAQAAACAAAAEEAAgAABQIAA=</HashCode>
+      <FileName>utils\CXMLFragmentStorage.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
