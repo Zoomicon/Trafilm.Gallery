@@ -2,12 +2,11 @@
 
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
-Filename: utterance/metadata/L3languageType.xml
+Filename: scene/metadata/L3languageTypes.xml
 Version: 20160512
 -->
 
-<Facet Name="L3languageType">
-  <String Value="" />
+<Facet Name="L3languageTypes">
   <String Value="real" />
   <String Value="invented" />
   <String Value="Lmain variety, real dialect, slang or other" />

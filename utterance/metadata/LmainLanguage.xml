@@ -2,11 +2,12 @@
 
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
-Filename: metadata/Languages.xml
-Version: 20160430
+Filename: metadata/LmainLanguage.xml
+Version: 20160512
 -->
 
-<Facet Name="Language">
+<Facet Name="LmainLanguage">
+  <String Value="" />
   <String Value="English" />
   <String Value="Spanish" />
   <String Value="Catalan" />

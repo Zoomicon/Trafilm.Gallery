@@ -1,16 +1,16 @@
-﻿//Project: Trafilm.Gallery (http://trafilm.net)
+﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: BaseMetadataPage.cs
-//Version: 20140620
+//Version: 20160511
 
 using Metadata.CXML;
-
-using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Web.UI.WebControls;
 using System.Xml;
 using System.Xml.Linq;
+using Trafilm.Metadata;
+using Trafilm.Metadata.Models;
 
 namespace Trafilm.Gallery
 {
@@ -18,67 +18,47 @@ namespace Trafilm.Gallery
   public abstract class BaseMetadataPage : System.Web.UI.Page
   {
 
-    protected DropDownList _listItems;
+    #region --- Fields ---
 
-    protected override void OnPreRenderComplete(EventArgs e)
-    {
-      base.OnPreRenderComplete(e);
-
-      if (!IsPostBack)
-      {
-        if (Request.QueryString["report"] != null)
-          Report();
-
-        UpdateSelection();
-      }
-    }
-
-    protected XmlReader CreateXmlReader(string inputUri)
-    {
-      try { return XmlReader.Create(inputUri);  }
-      catch { return null; }
-    }
-    
-    #region --- Select ---
-
-    public void UpdateSelection(string key)
-    {
-      ShowMetadataUI(!key.StartsWith("*"));
-      DisplayMetadata(key);
-    }
-
-    protected void UpdateSelection()
-    {
-      UpdateSelection(_listItems.SelectedValue);
-    }
+    protected CXMLFragmentStorage<IFilm, Film> filmStorage;
+    protected CXMLFragmentStorage<IScene, Scene> sceneStorage;
+    protected CXMLFragmentStorage<IUtterance, Utterance> utteranceStorage;
 
     #endregion
 
-    #region --- Save ---
+    #region --- Methods ---
 
-    protected void DoSave()
+    public void UpdateList(ListControl list, ICollection<string> keys)
     {
-      SaveMetadata();
-      /**/
-      Report();
-      UpdateSelection(); //do to check that the metadata was saved OK
+      list.DataSource = new[] { "* Please select..." }.Concat(keys);
+      list.DataBind(); //must call this
     }
 
-    protected void SaveMetadata()
+    public void UpdateFilmsList(ListControl list)
     {
-      SaveMetadata(_listItems.SelectedValue);
+      UpdateList(list, filmStorage.Keys);
     }
 
-    protected void SaveMetadata(string key)
+    public void UpdateScenesList(ListControl list)
     {
-      /*
-      if (key.StartsWith("*")) return; //just for safety in case somebody manages to try saving the "* Please select..." item
+      UpdateList(list, sceneStorage.Keys);
+    }
 
-      string cxmlFilename = GetMetadataFilepath(key);
-      Directory.CreateDirectory(Path.GetDirectoryName(Path.GetFullPath(cxmlFilename))); //create any parent directories needed
-      using (XmlWriter cxml = XmlWriter.Create(cxmlFilename))
-        ExtractMetadata(key).Save(cxml);
-        */
+    public void UpdateUtterancesList(ListControl list)
+    {
+      UpdateList(list, utteranceStorage.Keys);
+    }
+
+    public void SelectFromQueryString(ListControl listFilms, ListControl listScenes, ListControl listUtterances) //must do after DataBind
+    {
+      if (listFilms != null && Request.QueryString["film"] != null)
+        listFilms.SelectedValue = Request.QueryString["film"];
+
+      if (listScenes != null && Request.QueryString["scenes"] != null)
+        listScenes.SelectedValue = Request.QueryString["scenes"];
+
+      if (listUtterances != null && Request.QueryString["utterance"] != null)
+        listUtterances.SelectedValue = Request.QueryString["utterances"];
     }
 
     protected void Report(string cxmlFilename, string collectionTitle, IEnumerable<XElement> facetCategories, IEnumerable<ICXMLMetadata> metadataItems)
@@ -89,16 +69,6 @@ namespace Trafilm.Gallery
     }
 
     #endregion
-
-    #region --- Abstract methods ---
-
-    public abstract void Report();
-    public abstract void ShowMetadataUI(bool visible);
-    public abstract void DisplayMetadata(string key);
-    public abstract ICXMLMetadata ExtractMetadata(string key);
-
-    #endregion
-
   }
 
 }

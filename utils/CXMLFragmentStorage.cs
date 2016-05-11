@@ -1,6 +1,6 @@
-﻿//Project: Trafilm.Gallery (http://trafilm.net)
+﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: CXMLFileStorage.cs
-//Version: 20150510
+//Version: 20150511
 
 using System;
 using System.Collections;
@@ -42,7 +42,9 @@ namespace Trafilm.Gallery
     {
       get
       {
-        return (I)new T().Load(key, CreateXmlReader(FragmentFile(key)), CreateXmlReader(CollectionFile)); //CollectionFile is used as fallback
+        using (XmlReader cxml = CreateXmlReader(FragmentFile(key)))
+          using (XmlReader cxmlFallback = CreateXmlReader(CollectionFile))
+            return (I)new T().Load(key, cxml, cxmlFallback);
       }
       set
       {

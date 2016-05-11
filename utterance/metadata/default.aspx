@@ -3,9 +3,9 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <!--
-Project: Trafilm.Gallery (http://trafilm.net)
+Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: utterance\metadata\default.aspx
-Version: 20160510
+Version: 20160512
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -19,8 +19,9 @@ Version: 20160510
   <body>
 
     <%-- DATA SOURCES --%>
-    <asp:XmlDataSource ID="xmlL3type" runat="server" DataFile="~/utterance/metadata/L3type.xml" XPath="Facet/String" />
-    <asp:XmlDataSource ID="xmlLmainLanguage" runat="server" DataFile="~/metadata/Languages.xml" XPath="Facet/String" />
+
+    <asp:XmlDataSource ID="xmlL3kind" runat="server" DataFile="~/utterance/metadata/L3kind.xml" XPath="Facet/String" />
+    <asp:XmlDataSource ID="xmlLmainLanguage" runat="server" DataFile="~/utterance/metadata/LmainLanguage.xml" XPath="Facet/String" />
     <asp:XmlDataSource ID="xmlLmainMode" runat="server" DataFile="~/utterance/metadata/LmainMode.xml" XPath="Facet/String" />    
     <asp:XmlDataSource ID="xmlL3languageType" runat="server" DataFile="~/utterance/metadata/L3languageType.xml" XPath="Facet/String" />
     <asp:XmlDataSource ID="xmlL3constructedBasedOn" runat="server" DataFile="~/utterance/metadata/L3constructedBasedOn.xml" XPath="Facet/String" />
@@ -36,6 +37,7 @@ Version: 20160510
     <asp:XmlDataSource ID="xmlL3functions" runat="server" DataFile="~/utterance/metadata/L3functions.xml" XPath="Facet/String" />
 
     <%-- NAVIGATION MENU --%>
+
     <div class="navigation">
        <a href="../../film/metadata/">Film Metadata</a>
        &nbsp;&nbsp;-&nbsp;&nbsp;
@@ -45,40 +47,50 @@ Version: 20160510
     </div>
 
     <%-- INSTRUCTIONS BOX --%>
+
     <div class="instructions">
-    Please fill in the following information for the Utterance of your choice. Select the Utterance from the dropdown list.<br />
-    Try to fill the metadata as fully and accurately as possible, as they will be used for searching and filtering Utterances.<br />
-    Don't forget to press the SAVE METADATA button. Thank you!
+      Please fill in the following information for the Utterance of your choice. Select the Utterance from the dropdown list.<br />
+      Try to fill the metadata as fully and accurately as possible, as they will be used for searching and filtering Utterances.<br />
+      Don't forget to press the SAVE METADATA button. Thank you!
     </div>
 
     <form id="form1" runat="server">
 
       <%-- INFO BOX --%>
+
       <div class="bar">
 
-        <div class="label">Utterance</div> 
-        <asp:DropDownList ID="listUtterances" runat="server" AutoPostBack="True" 
-          DataTextField="Filename" DataValueField="Filename" 
-          OnSelectedIndexChanged="listUtterances_SelectedIndexChanged"
+        <div class="label"><%=Trafilm.Metadata.UtteranceMetadataFacets.FACET_FILM_REFERENCE_ID%></div> 
+        <asp:DropDownList ID="listFilms" runat="server" AutoPostBack="True"
+          OnSelectedIndexChanged="listFilms_SelectedIndexChanged"
           />
+        
+        <asp:Panel runat="server" ID="panelSceneId" Visible="false">
+          <div class="label"><%=Trafilm.Metadata.UtteranceMetadataFacets.FACET_SCENE_REFERENCE_ID%></div> 
+          <asp:DropDownList ID="listScenes" runat="server" AutoPostBack="True"
+            OnSelectedIndexChanged="listScenes_SelectedIndexChanged"
+            />
 
-        <br />
+          <asp:Panel runat="server" ID="panelUtteranceId" Visible="false">
+            <div class="label">Utterance</div> 
+            <asp:DropDownList ID="listUtterances" runat="server" AutoPostBack="True" 
+              OnSelectedIndexChanged="listUtterances_SelectedIndexChanged"
+              />
 
-        <div class="label">Url</div>
-        <asp:HyperLink ID="linkUrl" runat="server" Target="_blank"/>
-    
-        <div>
-          <span class="label"><%=Trafilm.Metadata.TrafilmMetadataFacets.FACET_INFO_CREATED%>: </span>
-          <asp:Label ID="lblInfoCreated" runat="server" />
-          <span class="label"> - <%=Trafilm.Metadata.TrafilmMetadataFacets.FACET_INFO_UPDATED%>: </span>
-          <asp:Label ID="lblInfoUpdated" runat="server" />
-        </div>
+            <div>
+              <div class="label">or add new Utterance Id</div>
+              <asp:TextBox ID="txtUtterance" runat="server" />
+              <asp:Button ID="btnAddUtterance" runat="server" Text="Add" OnClick="btnAddUtterance_Click" />
+            </div>
+          </asp:Panel>
+
+        </asp:Panel>
 
       </div>
 
       <%-- METADATA INPUT UI --%>
 
-      <asp:Panel ID="uiMetadata" runat="server" Visible="false">
+      <asp:Panel ID="panelMetadata" runat="server" Visible="false">
 
         <%-- ICXMLMetadata--%>
 
@@ -92,6 +104,16 @@ Version: 20160510
           <asp:TextBox ID="txtDescription" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
         </div>
 
+        <div class="label">Url</div>
+        <asp:HyperLink ID="linkUrl" runat="server" Target="_blank"/>
+    
+        <div>
+          <span class="label"><%=Trafilm.Metadata.TrafilmMetadataFacets.FACET_INFO_CREATED%>: </span>
+          <asp:Label ID="lblInfoCreated" runat="server" />
+          <span class="label"> - <%=Trafilm.Metadata.TrafilmMetadataFacets.FACET_INFO_UPDATED%>: </span>
+          <asp:Label ID="lblInfoUpdated" runat="server" />
+        </div>
+
         <%-- ITrafilmMetadata --%>
 
         <div>
@@ -101,24 +123,11 @@ Version: 20160510
 
         <%-- IUtteranceMetadata --%>
 
-        <div class="label"><%=Trafilm.Metadata.UtteranceMetadataFacets.FACET_FILM_REFERENCE_ID%></div> 
-        <asp:DropDownList ID="listFilms" runat="server" AutoPostBack="True" 
-          DataTextField="Filename" DataValueField="Filename"
-          OnSelectedIndexChanged="listFilms_SelectedIndexChanged"
-          />
-        
-        <div class="label"><%=Trafilm.Metadata.UtteranceMetadataFacets.FACET_SCENE_REFERENCE_ID%></div> 
-        <asp:DropDownList ID="listScenes" runat="server" AutoPostBack="True" 
-          DataTextField="Filename" DataValueField="Filename"
-          OnSelectedIndexChanged="listScenes_SelectedIndexChanged"
-          />
-
-
         <div>
-          <div class="label"><%=Trafilm.Metadata.UtteranceMetadataFacets.FACET_L3_TYPE%></div>
+          <div class="label"><%=Trafilm.Metadata.UtteranceMetadataFacets.FACET_L3_KIND%></div>
           <asp:DropDownList 
-            ID="listL3type" runat="server"
-            DataSourceID="xmlL3type" DataTextField="Value" DataValueField="Value" />
+            ID="listL3kind" runat="server"
+            DataSourceID="xmlL3kind" DataTextField="Value" DataValueField="Value" />
         </div>
 
 
@@ -164,7 +173,7 @@ Version: 20160510
         <div>
           <div class="label"><%=Trafilm.Metadata.UtteranceMetadataFacets.FACET_L3_CONSTRUCTED_BASED_ON%></div>
           <asp:Panel runat="server" 
-            Height="450" Width="250"
+            Height="100" Width="250"
             ScrollBars="Auto"
             >
             <asp:CheckBoxList ID="clistL3constructedBasedOn" runat="server" 
@@ -207,7 +216,7 @@ Version: 20160510
         <div>
           <div class="label"><%=Trafilm.Metadata.UtteranceMetadataFacets.FACET_L3_MODE%></div>
           <asp:Panel runat="server" 
-            Height="450" Width="250"
+            Height="100" Width="250"
             ScrollBars="Auto"
             >
             <asp:CheckBoxList ID="clistL3mode" runat="server" 
@@ -227,7 +236,7 @@ Version: 20160510
         <div>
           <div class="label"><%=Trafilm.Metadata.UtteranceMetadataFacets.FACET_L3_REPRESENTED%></div>
           <asp:Panel runat="server" 
-            Height="450" Width="250"
+            Height="100" Width="250"
             ScrollBars="Auto"
             >
             <asp:CheckBoxList ID="clistL3represented" runat="server" 
@@ -239,7 +248,7 @@ Version: 20160510
         <div>
           <div class="label"><%=Trafilm.Metadata.UtteranceMetadataFacets.FACET_L3_REPRESENTATIONS_ORAL%></div>
           <asp:Panel runat="server" 
-            Height="450" Width="250"
+            Height="100" Width="250"
             ScrollBars="Auto"
             >
             <asp:CheckBoxList ID="clistL3representationsOral" runat="server" 
@@ -251,7 +260,7 @@ Version: 20160510
         <div>
           <div class="label"><%=Trafilm.Metadata.UtteranceMetadataFacets.FACET_L3_REPRESENTATIONS_VISUAL%></div>
           <asp:Panel runat="server" 
-            Height="450" Width="250"
+            Height="100" Width="250"
             ScrollBars="Auto"
             >
             <asp:CheckBoxList ID="clistL3representationsVisual" runat="server" 
@@ -264,7 +273,7 @@ Version: 20160510
         <div>
           <div class="label"><%=Trafilm.Metadata.UtteranceMetadataFacets.FACET_L3_FUNCTIONS%></div>
           <asp:Panel runat="server" 
-            Height="450" Width="250"
+            Height="100" Width="250"
             ScrollBars="Auto"
             >
             <asp:CheckBoxList ID="clistL3functions" runat="server" 
