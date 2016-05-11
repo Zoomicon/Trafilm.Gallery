@@ -14,7 +14,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Diagrams", "Diagrams", "{6EF3814F-5C63-4860-BEED-D83C266B9192}"
 	ProjectSection(SolutionItems) = preProject
 		Pages.cd = Pages.cd
-		Utils.cd = Utils.cd
+		utils\Utils.cd = utils\Utils.cd
 	EndProjectSection
 EndProject
 Global
