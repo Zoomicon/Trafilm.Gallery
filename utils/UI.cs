@@ -1,4 +1,4 @@
-﻿//Project: Trafilm.Gallery (http://trafilm.net)
+﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: UI.cs
 //Version: 20160509
 

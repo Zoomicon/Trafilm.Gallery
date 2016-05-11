@@ -1,6 +1,6 @@
-﻿//Project: Trafilm.Gallery (http://trafilm.net)
+﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: film\metadata\default.aspx.cs
-//Version: 20160510
+//Version: 20160511
 
 using Trafilm.Metadata;
 using Trafilm.Metadata.Models;
@@ -8,73 +8,67 @@ using Metadata.CXML;
 
 using System;
 using System.IO;
-using System.Linq;
-using System.Web;
 using System.Globalization;
-using System.Collections.Generic;
 
 namespace Trafilm.Gallery
 {
   public partial class FilmMetadataPage : BaseMetadataPage
   {
 
-    private string path = HttpContext.Current.Server.MapPath("~/film/metadata");
+    #region --- Initialization ---
 
     protected void Page_Load(object sender, EventArgs e)
     {
-      _listItems = listFilms; //allow the ancestor class to access our listFilms UI object 
-      
+      filmStorage = new CXMLFragmentStorage<IFilm, Film>(Path.Combine(Request.PhysicalApplicationPath, "film/films.cxml"), Path.Combine(Request.PhysicalApplicationPath, "film/metadata"), "*.cxml");
+
       if (!IsPostBack)
       {
-        var itemPleaseSelect = new[] { new { Filename = "* Please select..." } };
+        UpdateFilmsList(listFilms);
 
-        var items = Directory.EnumerateFiles(path, "*.cxml") //Available in .NET4, more efficient than GetFiles
-                             .Select(f => new { Filename = Path.GetFileName(f) });
-
-        listFilms.DataSource = itemPleaseSelect.Concat(items);
-
-        listFilms.DataBind(); //must call this
-
-        if (Request.QueryString["item"] != null)
-          listFilms.SelectedValue = Request.QueryString["item"]; //must do after listFilms.DataBind
+        SelectFromQueryString(listFilms, null, null);
       }
-    }
-  
-    protected void listFilms_SelectedIndexChanged(object sender, EventArgs e)
-    {
-      UpdateSelection();
-    }
 
-    #region UI
+      panelMetadata.Visible = (listFilms.SelectedIndex > 0);
 
-    public override void ShowMetadataUI(bool visible)
-    {
-      if (uiMetadata != null)
-        uiMetadata.Visible = visible;
 
-      linkUrl.Visible = visible;
+      sceneStorage = new CXMLFragmentStorage<IScene, Scene>(Path.Combine(Request.PhysicalApplicationPath, "scene/scenes.cxml"), Path.Combine(Request.PhysicalApplicationPath, "scene/metadata"), listFilms.SelectedValue + ".*.cxml");
     }
 
     #endregion
 
-    #region --- Load ---
+    #region --- Methods ---
 
-    public override void DisplayMetadata(string key)
+    public void AddFilm()
     {
-       DisplayMetadata(key, LoadFilm(key));
+      string filmId = txtFilm.Text;
+
+      if (filmStorage.Keys.Contains(filmId))
+      {
+        UpdateFilmsList(listFilms);
+        listFilms.SelectedValue = filmId;
+      }
+      else
+      {
+        IFilm film = new Film();
+        film.Clear();
+        film.Title = filmId;
+        film.ReferenceId = filmId;
+
+        filmStorage[filmId] = film;
+      }
     }
 
-    CXMLFragmentStorage<IFilm, Film> filmStorage = new CXMLFragmentStorage<IFilm, Film>("../films.cxml", ".", "*.cxml");
-    CXMLFragmentStorage<IScene, Scene> sceneStorage = new CXMLFragmentStorage<IScene, Scene>("../scenes.cxml", "../../scene/metadata", "");
+    #region Load
 
-    private IFilm LoadFilm(string key)
+    public void DisplayMetadata(string key)
     {
-      sceneStorage.FragmentsFilter = key + ".*.cxml";
-      return (IFilm)filmStorage[key];
+       DisplayMetadata(filmStorage[key]);
     }
 
-    public void DisplayMetadata(string key, IFilm film)
+    public void DisplayMetadata(IFilm film)
     {
+      string key = film.ReferenceId;
+
       //ICXMLMetadata//
 
       //Ignoring the Id field, since some Pivot Tools expect it to be sequential
@@ -116,30 +110,35 @@ namespace Trafilm.Gallery
       //Calculatable from Scenes//
 
       UI.Load(lblSceneCount, CalculateSceneCount(key).ToString());
-      UI.Load(lblScenesDuration, CalculateScenesDuration(key).ToString("HH:MM:SS"));
+      UI.Load(lblScenesDuration, CalculateScenesDuration(key).ToString(@"hh\:mm\:ss"));
     }
-
+ 
     #endregion
 
-    #region --- Save ---
+    #region Save
 
-    public override ICXMLMetadata ExtractMetadata(string key)
+    public ICXMLMetadata GetMetadataFromUI()
     {
       IFilm film = new Film();
+      string key = listFilms.SelectedValue;
 
       //ICXMLMetadata//
 
       film.Title = txtTitle.Text;
-      film.Image = "../film/" + key + "/" + key + "_thumb.jpg"; //TODO
+      film.Image = ""; //TODO
       film.Url = new Uri("http://gallery.trafilm.net/?film=" + key);
       film.Description = txtDescription.Text;
 
       //ITrafilmMetadata//
 
       film.ReferenceId = key;
-      string folderPath = Path.Combine(path, key); //TODO
-      film.InfoCreated = DateTime.ParseExact(lblInfoCreated.Text, CXML.DEFAULT_DATETIME_FORMAT, CultureInfo.InvariantCulture);
-      film.InfoUpdated = DateTime.ParseExact(lblInfoUpdated.Text, CXML.DEFAULT_DATETIME_FORMAT, CultureInfo.InvariantCulture);
+
+      try { film.InfoCreated = DateTime.ParseExact(lblInfoCreated.Text, CXML.DEFAULT_DATETIME_FORMAT, CultureInfo.InvariantCulture); }
+      catch { film.InfoCreated = DateTime.Now; }
+
+      try { film.InfoUpdated = DateTime.ParseExact(lblInfoUpdated.Text, CXML.DEFAULT_DATETIME_FORMAT, CultureInfo.InvariantCulture); }
+      catch { film.InfoUpdated = DateTime.Now; }
+
       film.Keywords = UI.GetCommaSeparated(txtKeywords);
 
       //IFilm//
@@ -148,7 +147,7 @@ namespace Trafilm.Gallery
       film.Title_ca = txtTitle_ca.Text;
       //...
 
-      film.Duration = txtDuration.Text.ToNullableTimeSpan("HH:MM:SS");
+      film.Duration = txtDuration.Text.ToNullableTimeSpan(@"hh\:mm\:ss");
 
       film.Directors = UI.GetCommaSeparated(txtDirectors);
       film.Scriptwriters = UI.GetCommaSeparated(txtScriptwriters);
@@ -173,34 +172,54 @@ namespace Trafilm.Gallery
       return film;
     }
 
-    protected void btnSave_Click(object sender, EventArgs e)
+    public void Save()
     {
       lblInfoUpdated.Text = DateTime.Now.ToString(CXML.DEFAULT_DATETIME_FORMAT);
-      DoSave();
+      filmStorage[listFilms.SelectedValue] = (IFilm)GetMetadataFromUI();
     }
 
-    public override void Report()
+    public void Report()
     {
-      Report("../films.cxml", "Trafilm Gallery Films", Film.MakeFilmFacetCategories(), LoadFilms());
-    }
-
-    private IEnumerable<ICXMLMetadata> LoadFilms()
-    {
-      throw new NotImplementedException(); //TODO
+      Report(Path.Combine(Request.PhysicalApplicationPath, "film/films.cxml"), "Trafilm Gallery Films", Film.MakeFilmFacetCategories(), filmStorage.Values);
     }
 
     #endregion
 
-    #region --- Calculated from Scenes ---
+    #region Calculated from Scenes
 
     private int CalculateSceneCount(string key) //TODO
     {
-      throw new NotImplementedException();
+      return sceneStorage.Count;
     }
 
     private TimeSpan CalculateScenesDuration(string key) //TODO
     {
-      throw new NotImplementedException();
+      TimeSpan duration = TimeSpan.Zero;
+      foreach (IScene scene in sceneStorage.Values)
+        if (scene.Duration != null)
+          duration += (TimeSpan)scene.Duration;
+      return duration;
+    }
+
+    #endregion
+
+    #endregion
+
+    #region --- Events ---
+
+    protected void listFilms_SelectedIndexChanged(object sender, EventArgs e)
+    {
+      DisplayMetadata(listFilms.SelectedValue);
+    }
+
+    protected void btnAddFilm_Click(object sender, EventArgs e)
+    {
+      AddFilm();
+    }
+
+    protected void btnSave_Click(object sender, EventArgs e)
+    {
+      Save();
     }
 
     #endregion

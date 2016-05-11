@@ -40,6 +40,24 @@ namespace Trafilm.Gallery {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
+        /// listFilms control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList listFilms;
+        
+        /// <summary>
+        /// panelSceneId control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel panelSceneId;
+        
+        /// <summary>
         /// listScenes control.
         /// </summary>
         /// <remarks>
@@ -49,31 +67,22 @@ namespace Trafilm.Gallery {
         protected global::System.Web.UI.WebControls.DropDownList listScenes;
         
         /// <summary>
-        /// linkUrl control.
+        /// txtScene control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink linkUrl;
+        protected global::System.Web.UI.WebControls.TextBox txtScene;
         
         /// <summary>
-        /// lblInfoCreated control.
+        /// btnAddScene control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblInfoCreated;
-        
-        /// <summary>
-        /// lblInfoUpdated control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblInfoUpdated;
+        protected global::System.Web.UI.WebControls.Button btnAddScene;
         
         /// <summary>
         /// uiMetadata control.
@@ -103,6 +112,33 @@ namespace Trafilm.Gallery {
         protected global::System.Web.UI.WebControls.TextBox txtDescription;
         
         /// <summary>
+        /// linkUrl control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.HyperLink linkUrl;
+        
+        /// <summary>
+        /// lblInfoCreated control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblInfoCreated;
+        
+        /// <summary>
+        /// lblInfoUpdated control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblInfoUpdated;
+        
+        /// <summary>
         /// txtKeywords control.
         /// </summary>
         /// <remarks>
@@ -110,15 +146,6 @@ namespace Trafilm.Gallery {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtKeywords;
-        
-        /// <summary>
-        /// listFilms control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList listFilms;
         
         /// <summary>
         /// txtStartTime control.

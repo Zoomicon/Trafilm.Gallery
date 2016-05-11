@@ -3,9 +3,9 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <!--
-Project: Trafilm.Gallery (http://trafilm.net)
+Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: scene\metadata\default.aspx
-Version: 20160510
+Version: 20160511
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -19,10 +19,12 @@ Version: 20160510
   <body>
 
     <%-- DATA SOURCES --%>
+
     <asp:XmlDataSource ID="xmlCount" runat="server" DataFile="~/metadata/Count.xml" XPath="Facet/String" />
     <asp:XmlDataSource ID="xmlLanguages" runat="server" DataFile="~/metadata/Language.xml" XPath="Facet/String" />
     
     <%-- NAVIGATION MENU --%>
+
     <div class="navigation">
        <a href="../../film/metadata/">Film Metadata</a>
        &nbsp;&nbsp;-&nbsp;&nbsp;
@@ -32,34 +34,36 @@ Version: 20160510
     </div>
 
     <%-- INSTRUCTION BOX --%>
+
     <div class="instructions">
-    Please fill in the following information for the Scene of your choice. Select the Scene from the dropdown list.<br />
-    Try to fill the metadata as fully and accurately as possible, as they will be used for searching and filtering Scenes.<br />
-    Don't forget to press the SAVE METADATA button. Thank you!
+      Please fill in the following information for the Scene of your choice. Select the Scene from the dropdown list.<br />
+      Try to fill the metadata as fully and accurately as possible, as they will be used for searching and filtering Scenes.<br />
+      Don't forget to press the SAVE METADATA button. Thank you!
     </div>
 
     <form id="form1" runat="server">
 
       <%-- INFO BOX --%>
+
       <div class="bar">
 
-        <div class="label">Scene</div> 
-        <asp:DropDownList ID="listScenes" runat="server" AutoPostBack="True" 
-          DataTextField="Filename" DataValueField="Filename"
-          OnSelectedIndexChanged="listScenes_SelectedIndexChanged"
+        <div class="label"><%=Trafilm.Metadata.SceneMetadataFacets.FACET_FILM_REFERENCE_ID%></div> 
+        <asp:DropDownList ID="listFilms" runat="server" AutoPostBack="True"
+          OnSelectedIndexChanged="listFilms_SelectedIndexChanged"
           />
 
-        <br />
+        <asp:Panel runat="server" ID="panelSceneId" Visible="false">
+          <div class="label">Select a Scene Id</div> 
+          <asp:DropDownList ID="listScenes" runat="server" AutoPostBack="True" 
+            OnSelectedIndexChanged="listScenes_SelectedIndexChanged"
+            />
 
-        <div class="label">Url</div>
-        <asp:HyperLink ID="linkUrl" runat="server" Target="_blank"/>
-    
-        <div>
-          <span class="label"><%=Trafilm.Metadata.TrafilmMetadataFacets.FACET_INFO_CREATED%>: </span>
-          <asp:Label ID="lblInfoCreated" runat="server" />
-          <span class="label"> - <%=Trafilm.Metadata.TrafilmMetadataFacets.FACET_INFO_UPDATED%>: </span>
-          <asp:Label ID="lblInfoUpdated" runat="server" />
-        </div>
+          <div>
+            <div class="label">or add new Scene Id</div>
+            <asp:TextBox ID="txtScene" runat="server" />
+            <asp:Button ID="btnAddScene" runat="server" Text="Add" OnClick="btnAddScene_Click" />
+          </div>
+        </asp:Panel>
 
       </div>
 
@@ -79,6 +83,16 @@ Version: 20160510
           <asp:TextBox ID="txtDescription" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
         </div>
 
+        <div class="label">Url</div>
+        <asp:HyperLink ID="linkUrl" runat="server" Target="_blank"/>
+    
+        <div>
+          <span class="label"><%=Trafilm.Metadata.TrafilmMetadataFacets.FACET_INFO_CREATED%>: </span>
+          <asp:Label ID="lblInfoCreated" runat="server" />
+          <span class="label"> - <%=Trafilm.Metadata.TrafilmMetadataFacets.FACET_INFO_UPDATED%>: </span>
+          <asp:Label ID="lblInfoUpdated" runat="server" />
+        </div>
+
         <%-- ITrafilmMetadata --%>
 
         <div>
@@ -87,13 +101,6 @@ Version: 20160510
         </div>
 
         <%-- ISceneMetadata --%>
-
-        <div class="label"><%=Trafilm.Metadata.SceneMetadataFacets.FACET_FILM_REFERENCE_ID%></div> 
-        <asp:DropDownList ID="listFilms" runat="server" AutoPostBack="True" 
-          DataTextField="Filename" DataValueField="Filename"
-          OnSelectedIndexChanged="listItems_SelectedIndexChanged"
-          />
-
 
         <div>
           <div class="label"><%=Trafilm.Metadata.SceneMetadataFacets.FACET_START_TIME%></div>
@@ -142,7 +149,7 @@ Version: 20160510
         <div>
           <div class="label"><%=Trafilm.Metadata.SceneMetadataFacets.FACET_L3_OTHER_LANGUAGES%></div>
           <asp:Panel runat="server" 
-            Height="450" Width="250"
+            Height="100" Width="250"
             ScrollBars="Auto"
             Enabled="false"
             >
@@ -161,7 +168,7 @@ Version: 20160510
         <div>
           <div class="label"><%=Trafilm.Metadata.SceneMetadataFacets.FACET_L3_OTHER_TYPES%></div>
           <asp:Panel runat="server" 
-            Height="450" Width="250"
+            Height="100" Width="250"
             ScrollBars="Auto"
             Enabled="false"
             >

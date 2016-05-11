@@ -4,7 +4,7 @@
 %>
 
 <%--
-Project: Trafilm.Gallery (http://trafilm.net)
+Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: metadata/Default.aspx
 Version: 20160509
 --%>
