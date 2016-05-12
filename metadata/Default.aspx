@@ -38,8 +38,8 @@ iframe
 </head>
 
 <body>
-  <iframe src="http://trafilm.net/gallery/film/metadata">
-    <a href="http://trafilm.net/gallery/film/metadata">Trafilm Film Gallery Metadata</a>
+  <iframe src="http://gallery.trafilm.net/film/metadata">
+    <a href="http://gallery.trafilm.net/film/metadata">Trafilm Film Gallery Metadata</a>
   </iframe>
 </body>
 

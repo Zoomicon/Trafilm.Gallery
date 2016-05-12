@@ -85,7 +85,7 @@ namespace Trafilm.Gallery
       //Ignoring the Id field, since some Pivot Tools expect it to be sequential
       UI.Load(txtTitle, utterance.Title);
       //Not showing any Image field
-      UI.Load(linkUrl, new Uri("http://trafilm.net/gallery/?utterance=" + key));
+      UI.Load(linkUrl, new Uri("http://gallery.trafilm.net/?utterance=" + key));
       UI.Load(txtDescription, utterance.Description);
 
       //ITrafilmMetadata//
