@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: film\metadata\default.aspx.cs
-//Version: 20160511
+//Version: 20160512
 
 using Trafilm.Metadata;
 using Trafilm.Metadata.Models;
@@ -38,13 +38,9 @@ namespace Trafilm.Gallery
     public void AddFilm()
     {
       string filmId = txtFilm.Text;
+      txtFilm.Text = "";
 
-      if (filmStorage.Keys.Contains(filmId))
-      {
-        UpdateFilmsList(listFilms);
-        listFilms.SelectedValue = filmId;
-      }
-      else
+      if (!filmStorage.Keys.Contains(filmId))
       {
         IFilm film = new Film();
         film.Clear();
@@ -53,13 +49,22 @@ namespace Trafilm.Gallery
 
         filmStorage[filmId] = film;
       }
+
+      SelectFilm(filmId);
+    }
+
+    public void SelectFilm(string filmId)
+    {
+      UpdateFilmsList(listFilms); //update list since it may not be up-to-date
+      listFilms.SelectedValue = filmId;
+      listFilms_SelectedIndexChanged(listFilms, null);
     }
 
     #region Load
 
-    public void DisplayMetadata(string key)
+    public void DisplayMetadata(string filmId)
     {
-       DisplayMetadata(filmStorage[key]);
+       DisplayMetadata(filmStorage[filmId]);
     }
 
     public void DisplayMetadata(IFilm film)

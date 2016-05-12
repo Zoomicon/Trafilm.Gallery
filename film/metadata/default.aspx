@@ -47,7 +47,7 @@ Version: 20160510
 
       <div class="bar">
 
-        <div class="label">Select a Film Id</div> 
+        <div class="label">Select a Film</div> 
         <asp:DropDownList ID="listFilms" runat="server" AutoPostBack="True" OnSelectedIndexChanged="listFilms_SelectedIndexChanged" />
 
         <div>

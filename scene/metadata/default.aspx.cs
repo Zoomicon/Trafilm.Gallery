@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: scene\metadata\default.aspx.cs
-//Version: 20160511
+//Version: 20160512
 
 using Metadata.CXML;
 using Trafilm.Metadata.Models;
@@ -26,6 +26,8 @@ namespace Trafilm.Gallery
       {
         UpdateFilmsList(listFilms);
         UpdateScenesList(listScenes);
+
+        SelectFromQueryString(listFilms, listScenes, null);
       }
 
       utteranceStorage = new CXMLFragmentStorage<IUtterance, Utterance>(Path.Combine(Request.PhysicalApplicationPath, "utterance/utterances.cxml"), Path.Combine(Request.PhysicalApplicationPath, "utterance/metadata"), listFilms.SelectedValue + ".*.cxml");
@@ -39,10 +41,9 @@ namespace Trafilm.Gallery
     {
       string filmId = listFilms.SelectedValue;
       string sceneId = filmId + "." + txtScene.Text;
+      txtScene.Text = "";
 
-      if (sceneStorage.Keys.Contains(sceneId))
-        listScenes.SelectedValue = sceneId;
-      else
+      if (!sceneStorage.Keys.Contains(sceneId))
       {
         IScene scene = new Scene();
         scene.Clear();
@@ -52,13 +53,22 @@ namespace Trafilm.Gallery
 
         sceneStorage[sceneId] = scene;
       }
+
+      SelectScene(sceneId);
+    }
+
+    public void SelectScene(string sceneId)
+    {
+      UpdateScenesList(listScenes); //update list since it may not be up-to-date
+      listScenes.SelectedValue = sceneId;
+      listScenes_SelectedIndexChanged(listScenes, null);
     }
 
     #region Load
 
-    public void DisplayMetadata(string key)
+    public void DisplayMetadata(string sceneId)
     {
-       DisplayMetadata(sceneStorage[key]);
+       DisplayMetadata(sceneStorage[sceneId]);
     }
 
     public void DisplayMetadata(IScene scene)

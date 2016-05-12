@@ -28,6 +28,8 @@ namespace Trafilm.Gallery
         UpdateFilmsList(listFilms);
         UpdateScenesList(listScenes);
         UpdateUtterancesList(listUtterances);
+
+        SelectFromQueryString(listFilms, listScenes, listUtterances);
       }
     }
 
@@ -40,10 +42,9 @@ namespace Trafilm.Gallery
       string filmId = listFilms.SelectedValue;
       string sceneId = listScenes.SelectedValue;
       string utteranceId = sceneId + "." + txtUtterance.Text; //that sceneId already contains the filmId in it
+      txtUtterance.Text = "";
 
-      if (utteranceStorage.Keys.Contains(utteranceId))
-        listUtterances.SelectedValue = utteranceId;
-      else
+      if (!utteranceStorage.Keys.Contains(utteranceId))
       {
         IUtterance utterance = new Utterance();
         utterance.Clear();
@@ -54,13 +55,22 @@ namespace Trafilm.Gallery
 
         utteranceStorage[utteranceId] = utterance;
       }
+
+      SelectUtterance(utteranceId);
+    }
+
+    public void SelectUtterance(string utteranceId)
+    {
+      UpdateUtterancesList(listUtterances); //update list since it may not be up-to-date
+      listUtterances.SelectedValue = utteranceId;
+      listUtterances_SelectedIndexChanged(listUtterances, null);
     }
 
     #region Load
 
-    public void DisplayMetadata(string key)
+    public void DisplayMetadata(string utteranceId)
     {
-      DisplayMetadata(utteranceStorage[key]);
+      DisplayMetadata(utteranceStorage[utteranceId]);
     }
 
     public void DisplayMetadata(IUtterance utterance)
