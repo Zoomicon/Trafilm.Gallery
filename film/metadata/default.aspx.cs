@@ -7,8 +7,9 @@ using Trafilm.Metadata.Models;
 using Metadata.CXML;
 
 using System;
-using System.IO;
 using System.Globalization;
+using System.IO;
+using System.Linq;
 
 namespace Trafilm.Gallery
 {
@@ -20,15 +21,14 @@ namespace Trafilm.Gallery
     protected void Page_Load(object sender, EventArgs e)
     {
       filmStorage = new CXMLFragmentStorage<IFilm, Film>(Path.Combine(Request.PhysicalApplicationPath, "film/films.cxml"), Path.Combine(Request.PhysicalApplicationPath, "film/metadata"), "*.cxml");
+      sceneStorage = new CXMLFragmentStorage<IScene, Scene>(Path.Combine(Request.PhysicalApplicationPath, "scene/scenes.cxml"), Path.Combine(Request.PhysicalApplicationPath, "scene/metadata"), listFilms.SelectedValue + ".*.cxml");
+      utteranceStorage = new CXMLFragmentStorage<IUtterance, Utterance>(Path.Combine(Request.PhysicalApplicationPath, "utterance/utterances.cxml"), Path.Combine(Request.PhysicalApplicationPath, "utterance/metadata"), listFilms.SelectedValue + ".*.cxml");
 
       if (!IsPostBack)
       {
-        UpdateFilmsList(listFilms);
-
-        SelectFromQueryString(listFilms, null, null);
+        UpdateFilmsList(listFilms, "film");
+        listFilms_SelectedIndexChanged(listFilms, null);
       }
-
-      sceneStorage = new CXMLFragmentStorage<IScene, Scene>(Path.Combine(Request.PhysicalApplicationPath, "scene/scenes.cxml"), Path.Combine(Request.PhysicalApplicationPath, "scene/metadata"), listFilms.SelectedValue + ".*.cxml");
     }
 
     #endregion
@@ -112,7 +112,7 @@ namespace Trafilm.Gallery
       //Calculatable from Scenes//
 
       UI.Load(lblSceneCount, CalculateSceneCount(key).ToString());
-      UI.Load(lblScenesDuration, CalculateScenesDuration(key).ToString(@"hh\:mm\:ss"));
+      UI.Load(lblScenesDuration, CalculateScenesDuration(key).ToString(FilmMetadata.DEFAULT_TIMESPAN_DURATION_FORMAT));
     }
  
     #endregion
@@ -149,7 +149,7 @@ namespace Trafilm.Gallery
       film.Title_ca = txtTitle_ca.Text;
       //...
 
-      film.Duration = txtDuration.Text.ToNullableTimeSpan(@"hh\:mm\:ss");
+      film.Duration = txtDuration.Text.ToNullableTimeSpan(FilmMetadata.DEFAULT_TIMESPAN_DURATION_FORMAT);
 
       film.Directors = UI.GetCommaSeparated(txtDirectors);
       film.Scriptwriters = UI.GetCommaSeparated(txtScriptwriters);
@@ -211,10 +211,17 @@ namespace Trafilm.Gallery
 
     protected void listFilms_SelectedIndexChanged(object sender, EventArgs e)
     {
+      sceneStorage = new CXMLFragmentStorage<IScene, Scene>(Path.Combine(Request.PhysicalApplicationPath, "scene/scenes.cxml"), Path.Combine(Request.PhysicalApplicationPath, "scene/metadata"), listFilms.SelectedValue + ".*.cxml");
+      sceneStorage = new CXMLFragmentStorage<IScene, Scene>(Path.Combine(Request.PhysicalApplicationPath, "scene/scenes.cxml"), Path.Combine(Request.PhysicalApplicationPath, "scene/metadata"), listFilms.SelectedValue + ".*.cxml");
+      utteranceStorage = new CXMLFragmentStorage<IUtterance, Utterance>(Path.Combine(Request.PhysicalApplicationPath, "utterance/utterances.cxml"), Path.Combine(Request.PhysicalApplicationPath, "utterance/metadata"), listFilms.SelectedValue + ".*.cxml");
+
       bool visible = (listFilms.SelectedIndex > 0);
       panelMetadata.Visible = visible;
       if (visible)
+      {
         DisplayMetadata(listFilms.SelectedValue);
+        UpdateRepeater(repeaterScenes, sceneStorage.Keys.Select(x => new { filmId = listFilms.SelectedValue, sceneId = x }) );
+      }
     }
 
     protected void btnAddFilm_Click(object sender, EventArgs e)

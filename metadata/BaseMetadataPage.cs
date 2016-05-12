@@ -1,16 +1,17 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: BaseMetadataPage.cs
-//Version: 20160511
+//Version: 20160512
 
 using Metadata.CXML;
+using Trafilm.Metadata;
+using Trafilm.Metadata.Models;
+
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Web.UI.WebControls;
 using System.Xml;
 using System.Xml.Linq;
-using Trafilm.Metadata;
-using Trafilm.Metadata.Models;
 
 namespace Trafilm.Gallery
 {
@@ -28,37 +29,34 @@ namespace Trafilm.Gallery
 
     #region --- Methods ---
 
-    public void UpdateList(ListControl list, ICollection<string> keys)
+    public void UpdateRepeater(Repeater repeater, object data)
+    {
+      repeater.DataSource = data;
+      repeater.DataBind();
+    }
+
+    public void UpdateList(ListControl list, ICollection<string> keys, string queryStringItem)
     {
       list.DataSource = new[] { "* Please select..." }.Concat(keys);
       list.DataBind(); //must call this
+
+      if ((queryStringItem != null) && (Request.QueryString[queryStringItem] != null))
+        list.SelectedValue = Request.QueryString[queryStringItem];
     }
 
-    public void UpdateFilmsList(ListControl list)
+    public void UpdateFilmsList(ListControl list, string queryStringItem = null)
     {
-      UpdateList(list, filmStorage.Keys);
+      UpdateList(list, filmStorage.Keys, queryStringItem);
     }
 
-    public void UpdateScenesList(ListControl list)
+    public void UpdateScenesList(ListControl list, string queryStringItem = null)
     {
-      UpdateList(list, sceneStorage.Keys);
+      UpdateList(list, sceneStorage.Keys, queryStringItem);
     }
 
-    public void UpdateUtterancesList(ListControl list)
+    public void UpdateUtterancesList(ListControl list, string queryStringItem = null)
     {
-      UpdateList(list, utteranceStorage.Keys);
-    }
-
-    public void SelectFromQueryString(ListControl listFilms, ListControl listScenes, ListControl listUtterances) //must do after DataBind
-    {
-      if (listFilms != null && Request.QueryString["film"] != null)
-        listFilms.SelectedValue = Request.QueryString["film"];
-
-      if (listScenes != null && Request.QueryString["scenes"] != null)
-        listScenes.SelectedValue = Request.QueryString["scenes"];
-
-      if (listUtterances != null && Request.QueryString["utterance"] != null)
-        listUtterances.SelectedValue = Request.QueryString["utterances"];
+      UpdateList(list, utteranceStorage.Keys, queryStringItem);
     }
 
     protected void Report(string cxmlFilename, string collectionTitle, IEnumerable<XElement> facetCategories, IEnumerable<ICXMLMetadata> metadataItems)

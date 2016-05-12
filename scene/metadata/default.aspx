@@ -39,6 +39,7 @@ Version: 20160512
     <div class="instructions">
       Please fill in the following information for the Scene of your choice. Select the Scene from the dropdown list.<br />
       Try to fill the metadata as fully and accurately as possible, as they will be used for searching and filtering Scenes.<br />
+      Move the mouse over a question to see tooltip for it.
       Don't forget to press the SAVE METADATA button. Thank you!
     </div>
 
@@ -90,7 +91,10 @@ Version: 20160512
         <div>
           <span class="label"><%=Trafilm.Metadata.TrafilmMetadataFacets.FACET_INFO_CREATED%>: </span>
           <asp:Label ID="lblInfoCreated" runat="server" />
-          <span class="label"> - <%=Trafilm.Metadata.TrafilmMetadataFacets.FACET_INFO_UPDATED%>: </span>
+        </div>
+
+        <div>
+          <span class="label"><%=Trafilm.Metadata.TrafilmMetadataFacets.FACET_INFO_UPDATED%>: </span>
           <asp:Label ID="lblInfoUpdated" runat="server" />
         </div>
 
@@ -105,12 +109,12 @@ Version: 20160512
 
         <div>
           <div class="label"><%=Trafilm.Metadata.SceneMetadataFacets.FACET_START_TIME%></div>
-          <asp:TextBox ID="txtStartTime" runat="server" Columns="150"></asp:TextBox>
+          <asp:TextBox ID="txtStartTime" runat="server" Columns="25"></asp:TextBox>
         </div>
 
         <div>
           <div class="label"><%=Trafilm.Metadata.SceneMetadataFacets.FACET_DURATION%></div>
-          <asp:TextBox ID="txtDuration" runat="server" Columns="150"></asp:TextBox>
+          <asp:TextBox ID="txtDuration" runat="server" Columns="25"></asp:TextBox>
         </div>
         
 
@@ -143,12 +147,12 @@ Version: 20160512
         <%-- Calculatable from Utterances --%>
 
         <div>
-          <div class="label"><%=Trafilm.Metadata.SceneMetadataFacets.FACET_L3_LANGUAGES_COUNT%></div>
+          <div class="label"><%=Trafilm.Metadata.SceneMetadataFacets.FACET_L3_LANGUAGES_COUNT%> (Calculated from Utterances)</div>
           <asp:Label ID="lblL3languagesCount" runat="server"></asp:Label>
         </div>  
 
         <div>
-          <div class="label"><%=Trafilm.Metadata.SceneMetadataFacets.FACET_L3_LANGUAGES%></div>
+          <div class="label"><%=Trafilm.Metadata.SceneMetadataFacets.FACET_L3_LANGUAGES%> (Calculated from Utterances)</div>
           <asp:Panel runat="server" 
             Height="100" Width="250"
             ScrollBars="Auto"
@@ -162,12 +166,12 @@ Version: 20160512
 
 
         <div>
-          <div class="label"><%=Trafilm.Metadata.SceneMetadataFacets.FACET_L3_LANGUAGE_TYPES_COUNT%></div>
+          <div class="label"><%=Trafilm.Metadata.SceneMetadataFacets.FACET_L3_LANGUAGE_TYPES_COUNT%> (Calculated from Utterances)</div>
           <asp:Label ID="lblL3languageTypesCount" runat="server"></asp:Label>
         </div> 
         
         <div>
-          <div class="label"><%=Trafilm.Metadata.SceneMetadataFacets.FACET_L3_LANGUAGE_TYPES%></div>
+          <div class="label"><%=Trafilm.Metadata.SceneMetadataFacets.FACET_L3_LANGUAGE_TYPES%> (Calculated from Utterances)</div>
           <asp:Panel runat="server" 
             Height="100" Width="250"
             ScrollBars="Auto"
@@ -181,9 +185,21 @@ Version: 20160512
 
 
         <div>
-          <div class="label"><%=Trafilm.Metadata.SceneMetadataFacets.FACET_UTTERANCE_COUNT%></div>
+          <div class="label"><%=Trafilm.Metadata.SceneMetadataFacets.FACET_UTTERANCE_COUNT%> (Calculated from Utterances)</div>
           <asp:Label ID="lblUtteranceCount" runat="server"></asp:Label>
-        </div>                      
+        </div>    
+        
+        
+        <%-- Utterances list --%>                  
+
+        <asp:Repeater ID="repeaterUtterances" runat="server">
+          <HeaderTemplate>
+            <div class="label">List of Utterances<div>
+          </HeaderTemplate>
+          <ItemTemplate>
+            <a href="../../utterance/metadata/?film=<%#Eval("filmId")%>&scene=<%#Eval("sceneId")%>&utterance=<%#Eval("utteranceId")%>"><%#Eval("utteranceId")%></a>&nbsp;&nbsp;
+          </ItemTemplate>
+        </asp:Repeater>
 
 
         <%-- SAVE BUTTON --%>

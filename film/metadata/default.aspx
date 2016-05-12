@@ -198,14 +198,26 @@ Version: 20160510
         <%-- Calculatable from Scenes --%>
 
         <div>
-          <div class="label"><%=Trafilm.Metadata.FilmMetadataFacets.FACET_SCENE_COUNT%></div>
+          <div class="label"><%=Trafilm.Metadata.FilmMetadataFacets.FACET_SCENE_COUNT%> (Calculated from Scenes)</div>
           <asp:Label ID="lblSceneCount" runat="server"></asp:Label>
         </div>
         
         <div>
-          <div class="label"><%=Trafilm.Metadata.FilmMetadataFacets.FACET_SCENES_DURATION%></div>
+          <div class="label"><%=Trafilm.Metadata.FilmMetadataFacets.FACET_SCENES_DURATION%> (Calculated from Scenes)</div>
           <asp:Label ID="lblScenesDuration" runat="server"></asp:Label>
         </div>                            
+
+
+       <%-- Scenes list --%>                  
+
+        <asp:Repeater ID="repeaterScenes" runat="server">
+          <HeaderTemplate>
+            <div class="label">List of Scenes<div>
+          </HeaderTemplate>
+          <ItemTemplate>
+            <a href="../../scene/metadata/?film=<%#Eval("filmId")%>&scene=<%#Eval("sceneId")%>"><%#Eval("sceneId")%></a>&nbsp;&nbsp;
+          </ItemTemplate>
+        </asp:Repeater>
 
 
         <%-- SAVE BUTTON --%>
