@@ -72,13 +72,13 @@ Version: 20160512
             />
 
           <asp:Panel runat="server" ID="panelUtteranceId" Visible="false">
-            <div class="label">Utterance</div> 
+            <div class="label">Select an Utterance</div> 
             <asp:DropDownList ID="listUtterances" runat="server" AutoPostBack="True" 
               OnSelectedIndexChanged="listUtterances_SelectedIndexChanged"
               />
 
             <div>
-              <div class="label">or add new Utterance Id</div>
+              <div class="label">or add new Utterance (partial) Id</div>
               <asp:TextBox ID="txtUtterance" runat="server" />
               <asp:Button ID="btnAddUtterance" runat="server" Text="Add" OnClick="btnAddUtterance_Click" />
             </div>
