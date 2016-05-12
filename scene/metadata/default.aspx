@@ -89,12 +89,10 @@ Version: 20160512
         <asp:HyperLink ID="linkUrl" runat="server" Target="_blank"/>
     
         <div>
-          <span class="label"><%=Trafilm.Metadata.TrafilmMetadataFacets.FACET_INFO_CREATED%>: </span>
+          <span class="label">Info created: </span>
           <asp:Label ID="lblInfoCreated" runat="server" />
-        </div>
 
-        <div>
-          <span class="label"><%=Trafilm.Metadata.TrafilmMetadataFacets.FACET_INFO_UPDATED%>: </span>
+          <span class="label"> - Info Updated: </span>
           <asp:Label ID="lblInfoUpdated" runat="server" />
         </div>
 
