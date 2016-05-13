@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: BaseMetadataPage.cs
-//Version: 20160512
+//Version: 20160513
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -28,6 +28,54 @@ namespace Trafilm.Gallery
     #endregion
 
     #region --- Methods ---
+
+    #region Create
+
+    public void CreateFilm(string filmId) //don't return IFilm to avoid loading a .CXML file if already exists
+    {
+      if (!filmStorage.Keys.Contains(filmId))
+      {
+        IFilm film = new Film();
+        film.Clear();
+        film.Title = filmId;
+        film.ReferenceId = filmId;
+
+        filmStorage[filmId] = film;
+      }
+    }
+
+    public void CreateScene(string filmId, string sceneId) //don't return IScene to avoid loading a .CXML file if already exists
+    {
+      if (!sceneStorage.Keys.Contains(sceneId))
+      {
+        IScene scene = new Scene();
+        scene.Clear();
+        scene.Title = sceneId;
+        scene.FilmReferenceId = filmId;
+        scene.ReferenceId = sceneId;
+
+        sceneStorage[sceneId] = scene;
+      }
+    }
+
+    public void CreateUtterance(string filmId, string sceneId, string utteranceId) //don't return IUtterance to avoid loading a .CXML file if already exists
+    {
+      if (!utteranceStorage.Keys.Contains(utteranceId))
+      {
+        IUtterance utterance = new Utterance();
+        utterance.Clear();
+        utterance.Title = utteranceId;
+        utterance.FilmReferenceId = filmId;
+        utterance.SceneReferenceId = sceneId;
+        utterance.ReferenceId = utteranceId;
+
+        utteranceStorage[utteranceId] = utterance;
+      }
+    }
+
+    #endregion
+
+    #region Update UI
 
     public void UpdateRepeater(Repeater repeater, object data)
     {
@@ -59,12 +107,18 @@ namespace Trafilm.Gallery
       UpdateList(list, utteranceStorage.Keys, queryStringItem);
     }
 
+    #endregion
+
+    #region Save
+
     protected void SaveCollection(string cxmlFilename, string collectionTitle, IEnumerable<XElement> facetCategories, IEnumerable<ICXMLMetadata> metadataItems)
     {
       Directory.CreateDirectory(Path.GetDirectoryName(Path.GetFullPath(cxmlFilename))); //create any parent directories needed
       using (XmlWriter cxml = XmlWriter.Create(cxmlFilename))
         CXMLMetadata.Save(cxml, collectionTitle, facetCategories, metadataItems.ToArray());
     }
+
+    #endregion
 
     #endregion
   }

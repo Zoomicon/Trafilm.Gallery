@@ -3,8 +3,9 @@
 //Version: 20160513
 
 using Metadata.CXML;
-using Trafilm.Metadata.Models;
 using Trafilm.Metadata;
+using Trafilm.Metadata.Models;
+using Trafilm.Metadata.Utils;
 
 using System;
 using System.Globalization;
@@ -44,17 +45,7 @@ namespace Trafilm.Gallery
       string sceneId = filmId + "." + txtScene.Text;
       txtScene.Text = "";
 
-      if (!sceneStorage.Keys.Contains(sceneId))
-      {
-        IScene scene = new Scene();
-        scene.Clear();
-        scene.Title = sceneId;
-        scene.FilmReferenceId = filmId;
-        scene.ReferenceId = sceneId;
-
-        sceneStorage[sceneId] = scene;
-      }
-
+      CreateScene(filmId, sceneId);
       SelectScene(sceneId);
     }
 
@@ -95,8 +86,8 @@ namespace Trafilm.Gallery
 
       UI.Load(listFilms, scene.FilmReferenceId);
 
-      UI.Load(txtStartTime, scene.StartTime.ToString(SceneMetadata.DEFAULT_TIMESPAN_POSITION_FORMAT));
-      UI.Load(txtDuration, scene.Duration.ToString(SceneMetadata.DEFAULT_TIMESPAN_DURATION_FORMAT));
+      UI.Load(txtStartTime, scene.StartTime.ToString(SceneMetadata.DEFAULT_POSITION_FORMAT));
+      UI.Load(txtDuration, scene.Duration.ToString(SceneMetadata.DEFAULT_DURATION_FORMAT));
 
       UI.Load(cbL1languagePresent, scene.L1languagePresent);
       UI.Load(cbL2languagePresent, scene.L2languagePresent);
@@ -142,8 +133,8 @@ namespace Trafilm.Gallery
 
       scene.FilmReferenceId = listFilms.SelectedValue;
 
-      scene.StartTime = TimeSpan.ParseExact(txtStartTime.Text, SceneMetadata.DEFAULT_TIMESPAN_POSITION_FORMAT, CultureInfo.InvariantCulture);
-      scene.Duration = TimeSpan.ParseExact(txtDuration.Text, SceneMetadata.DEFAULT_TIMESPAN_DURATION_FORMAT, CultureInfo.InvariantCulture);
+      scene.StartTime = TimeSpan.ParseExact(txtStartTime.Text, SceneMetadata.DEFAULT_POSITION_FORMAT, CultureInfo.InvariantCulture);
+      scene.Duration = TimeSpan.ParseExact(txtDuration.Text, SceneMetadata.DEFAULT_DURATION_FORMAT, CultureInfo.InvariantCulture);
 
       scene.L1languagePresent = cbL1languagePresent.Checked;
       scene.L2languagePresent = cbL2languagePresent.Checked;

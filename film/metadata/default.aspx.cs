@@ -2,9 +2,10 @@
 //Filename: film\metadata\default.aspx.cs
 //Version: 20160513
 
+using Metadata.CXML;
 using Trafilm.Metadata;
 using Trafilm.Metadata.Models;
-using Metadata.CXML;
+using Trafilm.Metadata.Utils;
 
 using System;
 using System.Globalization;
@@ -40,16 +41,7 @@ namespace Trafilm.Gallery
       string filmId = txtFilm.Text;
       txtFilm.Text = "";
 
-      if (!filmStorage.Keys.Contains(filmId))
-      {
-        IFilm film = new Film();
-        film.Clear();
-        film.Title = filmId;
-        film.ReferenceId = filmId;
-
-        filmStorage[filmId] = film;
-      }
-
+      CreateFilm(filmId);
       SelectFilm(filmId);
     }
 
@@ -92,7 +84,7 @@ namespace Trafilm.Gallery
       UI.Load(txtTitle_ca, film.Title_ca);
       //...
 
-      UI.Load(txtDuration, film.Duration.ToString("HH:MM:SS"));
+      UI.Load(txtDuration, film.Duration.ToString(FilmMetadata.DEFAULT_DURATION_FORMAT));
 
       UI.Load(txtDirectors, film.Directors);
       UI.Load(txtScriptwriters, film.Scriptwriters);
@@ -112,7 +104,7 @@ namespace Trafilm.Gallery
       //Calculatable from Scenes//
 
       UI.Load(lblSceneCount, CalculateSceneCount(key).ToString());
-      UI.Load(lblScenesDuration, CalculateScenesDuration(key).ToString(FilmMetadata.DEFAULT_TIMESPAN_DURATION_FORMAT));
+      UI.Load(lblScenesDuration, CalculateScenesDuration(key).ToString(SceneMetadata.DEFAULT_DURATION_FORMAT));
     }
  
     #endregion
@@ -146,10 +138,10 @@ namespace Trafilm.Gallery
       //IFilm//
 
       film.Title_es = txtTitle_es.Text;
-      film.Title_ca = txtTitle_ca.Text;
-      //...
+      film.Title_ca = txtTitle_ca.Text;      //...
 
-      film.Duration = txtDuration.Text.ToNullableTimeSpan(FilmMetadata.DEFAULT_TIMESPAN_DURATION_FORMAT);
+
+      film.Duration = txtDuration.Text.ToNullableTimeSpan(FilmMetadata.DEFAULT_DURATION_FORMAT);
 
       film.Directors = UI.GetCommaSeparated(txtDirectors);
       film.Scriptwriters = UI.GetCommaSeparated(txtScriptwriters);
