@@ -127,11 +127,8 @@ namespace Trafilm.Gallery
 
       film.ReferenceId = key;
 
-      try { film.InfoCreated = DateTime.ParseExact(lblInfoCreated.Text, CXML.DEFAULT_DATETIME_FORMAT, CultureInfo.InvariantCulture); }
-      catch { film.InfoCreated = DateTime.UtcNow; }
-
-      try { film.InfoUpdated = DateTime.ParseExact(lblInfoUpdated.Text, CXML.DEFAULT_DATETIME_FORMAT, CultureInfo.InvariantCulture); }
-      catch { film.InfoUpdated = DateTime.UtcNow; }
+      film.InfoCreated = DateTime.ParseExact(lblInfoCreated.Text, CXML.DEFAULT_DATETIME_FORMAT, CultureInfo.InvariantCulture);
+      film.InfoUpdated = DateTime.ParseExact(lblInfoUpdated.Text, CXML.DEFAULT_DATETIME_FORMAT, CultureInfo.InvariantCulture);
 
       film.Keywords = UI.GetCommaSeparated(txtKeywords);
 
