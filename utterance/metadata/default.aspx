@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: utterance\metadata\default.aspx
-Version: 20160512
+Version: 20160513
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -39,9 +39,9 @@ Version: 20160512
     <%-- NAVIGATION MENU --%>
 
     <div class="navigation">
-       <a href="../../film/metadata/">Film Metadata</a>
+       <a href="../../film/metadata/?film=<%=listFilms.SelectedValue%>">Film Metadata</a>
        &nbsp;&nbsp;-&nbsp;&nbsp;
-       <a href="../../scene/metadata/">Scene Metadata</a>
+       <a href="../../scene/metadata/?film=<%=listFilms.SelectedValue%>&scene=<%=listScenes.SelectedValue%>">Scene Metadata</a>
        &nbsp;&nbsp;-&nbsp;&nbsp;
        <a class="selected" href="../../utterance/metadata/">Utterance Metadata</a>
     </div>
@@ -60,13 +60,13 @@ Version: 20160512
 
       <div class="bar">
 
-        <div class="label"><%=Trafilm.Metadata.UtteranceMetadataFacets.FACET_FILM_REFERENCE_ID%></div> 
+        <div class="label">Select a Film</div> 
         <asp:DropDownList ID="listFilms" runat="server" AutoPostBack="True"
           OnSelectedIndexChanged="listFilms_SelectedIndexChanged"
           />
         
         <asp:Panel runat="server" ID="panelSceneId" Visible="false">
-          <div class="label"><%=Trafilm.Metadata.UtteranceMetadataFacets.FACET_SCENE_REFERENCE_ID%></div> 
+          <div class="label">Select a Scene</div> 
           <asp:DropDownList ID="listScenes" runat="server" AutoPostBack="True"
             OnSelectedIndexChanged="listScenes_SelectedIndexChanged"
             />
@@ -94,17 +94,17 @@ Version: 20160512
 
         <%-- ICXMLMetadata--%>
 
-        <div>
-          <div class="label">Title</div>
+        <div class="question">
+          <div class="label">Utterance Title (optional)</div>
           <asp:TextBox ID="txtTitle" runat="server" Columns="150"></asp:TextBox>
         </div>
 
-        <div>
-          <div class="label">Description</div>
+        <div class="question">
+          <div class="label">Utterance Description (optional)</div>
           <asp:TextBox ID="txtDescription" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
         </div>
 
-        <div class="label">Url</div>
+        <div class="label">Utterance URL</div>
         <asp:HyperLink ID="linkUrl" runat="server" Target="_blank"/>
     
         <div>
@@ -117,62 +117,62 @@ Version: 20160512
 
         <%-- ITrafilmMetadata --%>
 
-        <div>
-          <div class="label"><%=Trafilm.Metadata.TrafilmMetadataFacets.FACET_KEYWORDS%> (comma-separated)</div>
+        <div class="question">
+          <div class="label">Keywords (comma-separated)</div>
           <asp:TextBox ID="txtKeywords" runat="server" Columns="150"></asp:TextBox>
         </div>
 
         <%-- IUtteranceMetadata --%>
 
-        <div>
-          <div class="label"><%=Trafilm.Metadata.UtteranceMetadataFacets.FACET_L3_KIND%></div>
+        <div class="question">
+          <div class="label">L3 kind (L3ST or L3TT)</div>
           <asp:DropDownList 
             ID="listL3kind" runat="server"
             DataSourceID="xmlL3kind" DataTextField="Value" DataValueField="Value" />
         </div>
 
 
-        <div>
-          <div class="label"><%=Trafilm.Metadata.UtteranceMetadataFacets.FACET_L_MAIN_LANGUAGE%></div>
+        <div class="question">
+          <div class="label">L1ST/L2TT language (for L3ST/L3TT kind respectively)</div>
           <asp:DropDownList 
             ID="listLmainLanguage" runat="server"
             DataSourceID="xmlLmainLanguage" DataTextField="Value" DataValueField="Value" />
         </div>
 
-        <div>
-          <div class="label"><%=Trafilm.Metadata.UtteranceMetadataFacets.FACET_L_MAIN_MODE%></div>
+        <div class="question">
+          <div class="label">L1ST/L2TT mode (for L3ST/L3TT kind respectively)</div>
           <asp:DropDownList 
             ID="listLmainMode" runat="server"
             DataSourceID="xmlLmainMode" DataTextField="Value" DataValueField="Value" />
         </div>
 
 
-        <div>
-          <div class="label"><%=Trafilm.Metadata.UtteranceMetadataFacets.FACET_L2_SAME_AS_L3ST%></div>
+        <div class="question">
+          <div class="label">L2 language same as L3ST</div>
           <asp:CheckBox ID="cbL2sameAsL3ST" runat="server" />
         </div>
 
-        <div>
-          <div class="label"><%=Trafilm.Metadata.UtteranceMetadataFacets.FACET_L3ST_CONVEYED_AS_L3TT%></div>
+        <div class="question">
+          <div class="label">L3ST conveyed as L3TT</div>
           <asp:CheckBox ID="cbL3STconveyedAsL3TT" runat="server" />
         </div>
 
 
-        <div>
-          <div class="label"><%=Trafilm.Metadata.UtteranceMetadataFacets.FACET_L3_LANGUAGE_TYPE%></div>
+        <div class="question">
+          <div class="label">L3 language type</div>
           <asp:DropDownList 
             ID="listL3languageType" runat="server"
             DataSourceID="xmlL3languageType" DataTextField="Value" DataValueField="Value" />
         </div>
 
-        <div>
-          <div class="label"><%=Trafilm.Metadata.UtteranceMetadataFacets.FACET_L3_LANGUAGE%></div>
+        <div class="question">
+          <div class="label">L3 language</div>
           <asp:TextBox ID="txtL3language" runat="server" Columns="150"></asp:TextBox>
         </div>
 
 
-        <div>
-          <div class="label"><%=Trafilm.Metadata.UtteranceMetadataFacets.FACET_L3_CONSTRUCTED_BASED_ON%></div>
+        <div class="question">
+          <div class="label">L3 constructed based on</div>
           <asp:Panel runat="server" 
             Height="100" Width="250"
             ScrollBars="Auto"
@@ -184,40 +184,40 @@ Version: 20160512
         </div>
 
 
-        <div>
-          <div class="label"><%=Trafilm.Metadata.UtteranceMetadataFacets.FACET_L3_AUDIENCE_UNDERSTANDING%></div>
+        <div class="question">
+          <div class="label">L3 audience understanding</div>
           <asp:DropDownList 
             ID="listL3audienceUnderstanding" runat="server"
             DataSourceID="xmlL3audienceUnderstanding" DataTextField="Value" DataValueField="Value" />
         </div>
 
-        <div>
-          <div class="label"><%=Trafilm.Metadata.UtteranceMetadataFacets.FACET_L3_MESSAGE_UNDERSTANDING%></div>
+        <div class="question">
+          <div class="label">L3 message understanding</div>
           <asp:DropDownList 
             ID="listL3messageUnderstanding" runat="server"
             DataSourceID="xmlL3messageUnderstanding" DataTextField="Value" DataValueField="Value" />
         </div>
 
-        <div>
-          <div class="label"><%=Trafilm.Metadata.UtteranceMetadataFacets.FACET_L3_MEANING_DECIPHERED%></div>
+        <div class="question">
+          <div class="label">L3 meaning can be deciphered via other means</div>
           <asp:DropDownList 
             ID="listL3meaningDeciphered" runat="server"
             DataSourceID="xmlL3meaningDeciphered" DataTextField="Value" DataValueField="Value" />
         </div>
 
 
-        <div>
-          <div class="label"><%=Trafilm.Metadata.UtteranceMetadataFacets.FACET_L3_SPEAKER_PERFORMANCE%></div>
+        <div class="question">
+          <div class="label">L3 speaker's performance</div>
           <asp:DropDownList 
             ID="listL3speakerPerformance" runat="server"
             DataSourceID="xmlL3speakerPerformance" DataTextField="Value" DataValueField="Value" />
         </div>
 
 
-        <div>
-          <div class="label"><%=Trafilm.Metadata.UtteranceMetadataFacets.FACET_L3_MODE%></div>
+        <div class="question">
+          <div class="label">L3 mode</div>
           <asp:Panel runat="server" 
-            Height="100" Width="250"
+            Height="80" Width="250"
             ScrollBars="Auto"
             >
             <asp:CheckBoxList ID="clistL3mode" runat="server" 
@@ -226,16 +226,16 @@ Version: 20160512
            </asp:Panel>
         </div>
 
-        <div>
-          <div class="label"><%=Trafilm.Metadata.UtteranceMetadataFacets.FACET_L3ST_MODE_CHANGE%></div>
+        <div class="question">
+          <div class="label">L3ST mode change (applicable only to L3TT kind)</div>
           <asp:DropDownList 
             ID="listL3STmodeChange" runat="server"
             DataSourceID="xmlL3STmodeChange" DataTextField="Value" DataValueField="Value" />
         </div>
 
 
-        <div>
-          <div class="label"><%=Trafilm.Metadata.UtteranceMetadataFacets.FACET_L3_REPRESENTED%></div>
+        <div class="question">
+          <div class="label">L3 is represented</div>
           <asp:Panel runat="server" 
             Height="100" Width="250"
             ScrollBars="Auto"
@@ -246,8 +246,8 @@ Version: 20160512
            </asp:Panel>
         </div>
 
-        <div>
-          <div class="label"><%=Trafilm.Metadata.UtteranceMetadataFacets.FACET_L3_REPRESENTATIONS_ORAL%></div>
+        <div class="question">
+          <div class="label">L3 oral representations (if any)</div>
           <asp:Panel runat="server" 
             Height="100" Width="250"
             ScrollBars="Auto"
@@ -258,8 +258,8 @@ Version: 20160512
            </asp:Panel>
         </div>
 
-        <div>
-          <div class="label"><%=Trafilm.Metadata.UtteranceMetadataFacets.FACET_L3_REPRESENTATIONS_VISUAL%></div>
+        <div class="question">
+          <div class="label">L3 visual representations (if any)</div>
           <asp:Panel runat="server" 
             Height="100" Width="250"
             ScrollBars="Auto"
@@ -271,8 +271,8 @@ Version: 20160512
         </div>
 
 
-        <div>
-          <div class="label"><%=Trafilm.Metadata.UtteranceMetadataFacets.FACET_L3_FUNCTIONS%></div>
+        <div class="question">
+          <div class="label">L3 functions</div>
           <asp:Panel runat="server" 
             Height="100" Width="250"
             ScrollBars="Auto"

@@ -59,7 +59,7 @@ namespace Trafilm.Gallery
       UpdateList(list, utteranceStorage.Keys, queryStringItem);
     }
 
-    protected void Report(string cxmlFilename, string collectionTitle, IEnumerable<XElement> facetCategories, IEnumerable<ICXMLMetadata> metadataItems)
+    protected void SaveCollection(string cxmlFilename, string collectionTitle, IEnumerable<XElement> facetCategories, IEnumerable<ICXMLMetadata> metadataItems)
     {
       Directory.CreateDirectory(Path.GetDirectoryName(Path.GetFullPath(cxmlFilename))); //create any parent directories needed
       using (XmlWriter cxml = XmlWriter.Create(cxmlFilename))

@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: film\metadata\default.aspx.cs
-//Version: 20160512
+//Version: 20160513
 
 using Trafilm.Metadata;
 using Trafilm.Metadata.Models;
@@ -136,10 +136,10 @@ namespace Trafilm.Gallery
       film.ReferenceId = key;
 
       try { film.InfoCreated = DateTime.ParseExact(lblInfoCreated.Text, CXML.DEFAULT_DATETIME_FORMAT, CultureInfo.InvariantCulture); }
-      catch { film.InfoCreated = DateTime.Now; }
+      catch { film.InfoCreated = DateTime.UtcNow; }
 
       try { film.InfoUpdated = DateTime.ParseExact(lblInfoUpdated.Text, CXML.DEFAULT_DATETIME_FORMAT, CultureInfo.InvariantCulture); }
-      catch { film.InfoUpdated = DateTime.Now; }
+      catch { film.InfoUpdated = DateTime.UtcNow; }
 
       film.Keywords = UI.GetCommaSeparated(txtKeywords);
 
@@ -176,13 +176,13 @@ namespace Trafilm.Gallery
 
     public void Save()
     {
-      lblInfoUpdated.Text = DateTime.Now.ToString(CXML.DEFAULT_DATETIME_FORMAT);
+      lblInfoUpdated.Text = DateTime.UtcNow.ToString(CXML.DEFAULT_DATETIME_FORMAT);
       filmStorage[listFilms.SelectedValue] = (IFilm)GetMetadataFromUI();
     }
 
-    public void Report()
+    public void SaveCollection()
     {
-      Report(Path.Combine(Request.PhysicalApplicationPath, "film/films.cxml"), "Trafilm Gallery Films", Film.MakeFilmFacetCategories(), filmStorage.Values);
+      SaveCollection(Path.Combine(Request.PhysicalApplicationPath, "film/films.cxml"), "Trafilm Gallery Films", Film.MakeFilmFacetCategories(), filmStorage.Values);
     }
 
     #endregion
@@ -232,6 +232,7 @@ namespace Trafilm.Gallery
     protected void btnSave_Click(object sender, EventArgs e)
     {
       Save();
+      SaveCollection();
     }
 
     #endregion

@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: scene\metadata\default.aspx
-Version: 20160512
+Version: 20160513
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -27,11 +27,11 @@ Version: 20160512
     <%-- NAVIGATION MENU --%>
 
     <div class="navigation">
-       <a href="../../film/metadata/">Film Metadata</a>
+       <a href="../../film/metadata/?film=<%=listFilms.SelectedValue%>">Film Metadata</a>
        &nbsp;&nbsp;-&nbsp;&nbsp;
        <a class="selected" href="../../scene/metadata/">Scene Metadata</a>
        &nbsp;&nbsp;-&nbsp;&nbsp;
-       <a href="../../utterance/metadata/">Utterance Metadata</a>
+       <a href="../../utterance/metadata/?film=<%=listFilms.SelectedValue%>&scene=<%=listScenes.SelectedValue%>">Utterance Metadata</a>
     </div>
 
     <%-- INSTRUCTION BOX --%>
@@ -49,7 +49,7 @@ Version: 20160512
 
       <div class="bar">
 
-        <div class="label"><%=Trafilm.Metadata.SceneMetadataFacets.FACET_FILM_REFERENCE_ID%></div> 
+        <div class="label">Select a Film</div> 
         <asp:DropDownList ID="listFilms" runat="server" AutoPostBack="True"
           OnSelectedIndexChanged="listFilms_SelectedIndexChanged"
           />
@@ -75,17 +75,17 @@ Version: 20160512
 
         <%-- ICXMLMetadata--%>
 
-        <div>
-          <div class="label">Title</div>
+        <div class="question">
+          <div class="label">Scene Title (optional)</div>
           <asp:TextBox ID="txtTitle" runat="server" Columns="150"></asp:TextBox>
         </div>
 
-        <div>
-          <div class="label">Description</div>
+        <div class="question">
+          <div class="label">Scene Description (optional)</div>
           <asp:TextBox ID="txtDescription" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
         </div>
 
-        <div class="label">Url</div>
+        <div class="label">Scene URL</div>
         <asp:HyperLink ID="linkUrl" runat="server" Target="_blank"/>
     
         <div>
@@ -98,59 +98,59 @@ Version: 20160512
 
         <%-- ITrafilmMetadata --%>
 
-        <div>
-          <div class="label"><%=Trafilm.Metadata.TrafilmMetadataFacets.FACET_KEYWORDS%> (comma-separated)</div>
+        <div class="question">
+          <div class="label">Keywords (comma-separated)</div>
           <asp:TextBox ID="txtKeywords" runat="server" Columns="150"></asp:TextBox>
         </div>
 
         <%-- ISceneMetadata --%>
 
-        <div>
-          <div class="label"><%=Trafilm.Metadata.SceneMetadataFacets.FACET_START_TIME%></div>
+        <div class="question">
+          <div class="label">Scene Start Time (hh:mm:ss.ff)</div>
           <asp:TextBox ID="txtStartTime" runat="server" Columns="25"></asp:TextBox>
         </div>
 
-        <div>
-          <div class="label"><%=Trafilm.Metadata.SceneMetadataFacets.FACET_DURATION%></div>
+        <div class="question">
+          <div class="label">Scene Duration (mm:ss.ff)</div>
           <asp:TextBox ID="txtDuration" runat="server" Columns="25"></asp:TextBox>
         </div>
         
 
-        <div>
-          <div class="label"><%=Trafilm.Metadata.SceneMetadataFacets.FACET_L1_LANGUAGE_PRESENT%></div>
+        <div class="question">
+          <div class="label">L1 (source) language present</div>
           <asp:CheckBox ID="cbL1languagePresent" runat="server" />
         </div>
 
-        <div>
-          <div class="label"><%=Trafilm.Metadata.SceneMetadataFacets.FACET_L2_LANGUAGE_PRESENT%></div>
+        <div class="question">
+          <div class="label">L2 (translated) language present</div>
           <asp:CheckBox ID="cbL2languagePresent" runat="server" />
         </div>
 
 
-        <div>
-          <div class="label"><%=Trafilm.Metadata.SceneMetadataFacets.FACET_SPEAKING_CHARACTERS_COUNT%></div>
+        <div class="question">
+          <div class="label">Speaking characters count</div>
           <asp:DropDownList 
             ID="listSpeakingCharactersCount" runat="server"
             DataSourceID="xmlCount" DataTextField="Value" DataValueField="Value" />
         </div>
 
-        <div>
-          <div class="label"><%=Trafilm.Metadata.SceneMetadataFacets.FACET_L3_SPEAKING_CHARACTERS_COUNT%></div>
+        <div class="question">
+          <div class="label">L3 (other) language speaking characters count</div>
           <asp:DropDownList 
             ID="listL3speakingCharactersCount" runat="server"
             DataSourceID="xmlCount" DataTextField="Value" DataValueField="Value" />
         </div>
         
 
-        <%-- Calculatable from Utterances --%>
+        <%-- Calculated from Utterances --%>
 
         <div>
-          <div class="label"><%=Trafilm.Metadata.SceneMetadataFacets.FACET_L3_LANGUAGES_COUNT%> (Calculated from Utterances)</div>
+          <div class="label">Count of L3 (other) languages in Scene (Calculated from Utterances)</div>
           <asp:Label ID="lblL3languagesCount" runat="server"></asp:Label>
         </div>  
 
         <div>
-          <div class="label"><%=Trafilm.Metadata.SceneMetadataFacets.FACET_L3_LANGUAGES%> (Calculated from Utterances)</div>
+          <div class="label">L3 (other) languages in Scene (Calculated from Utterances)</div>
           <asp:Panel runat="server" 
             Height="100" Width="250"
             ScrollBars="Auto"
@@ -164,12 +164,12 @@ Version: 20160512
 
 
         <div>
-          <div class="label"><%=Trafilm.Metadata.SceneMetadataFacets.FACET_L3_LANGUAGE_TYPES_COUNT%> (Calculated from Utterances)</div>
+          <div class="label">Count of L3 language types in Scene (Calculated from Utterances)</div>
           <asp:Label ID="lblL3languageTypesCount" runat="server"></asp:Label>
         </div> 
         
         <div>
-          <div class="label"><%=Trafilm.Metadata.SceneMetadataFacets.FACET_L3_LANGUAGE_TYPES%> (Calculated from Utterances)</div>
+          <div class="label">L3 language types in Scene (Calculated from Utterances)</div>
           <asp:Panel runat="server" 
             Height="100" Width="250"
             ScrollBars="Auto"
@@ -183,7 +183,7 @@ Version: 20160512
 
 
         <div>
-          <div class="label"><%=Trafilm.Metadata.SceneMetadataFacets.FACET_UTTERANCE_COUNT%> (Calculated from Utterances)</div>
+          <div class="label">Count of Utterances (Calculated)</div>
           <asp:Label ID="lblUtteranceCount" runat="server"></asp:Label>
         </div>    
         

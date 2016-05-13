@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: film\metadata\default.aspx
-Version: 20160512
+Version: 20160513
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -28,9 +28,9 @@ Version: 20160512
     <div class="navigation">
        <a class="selected" href="../../film/metadata/">Film Metadata</a>
        &nbsp;&nbsp;-&nbsp;&nbsp;
-       <a href="../../scene/metadata/">Scene Metadata</a>
+       <a href="../../scene/metadata/?film=<%=listFilms.SelectedValue%>">Scene Metadata</a>
        &nbsp;&nbsp;-&nbsp;&nbsp;
-       <a href="../../utterance/metadata/">Utterance Metadata</a>
+       <a href="../../utterance/metadata/?film=<%=listFilms.SelectedValue%>">Utterance Metadata</a>
     </div>
 
     <%-- INSTRUCTION BOX --%>
@@ -64,17 +64,17 @@ Version: 20160512
 
         <%-- ICXMLMetadata--%>
 
-        <div>
-          <div class="label">Title</div>
+        <div class="question">
+          <div class="label">Film Title</div>
           <asp:TextBox ID="txtTitle" runat="server" Columns="150"></asp:TextBox>
         </div>
 
-        <div>
-          <div class="label">Description</div>
+        <div class="question">
+          <div class="label">Film Description</div>
           <asp:TextBox ID="txtDescription" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
         </div>
 
-        <div class="label">Url</div>
+        <div class="label">Film URL</div>
         <asp:HyperLink ID="linkUrl" runat="server" Target="_blank"/>
     
         <div>
@@ -87,45 +87,45 @@ Version: 20160512
 
         <%-- ITrafilmMetadata --%>
 
-        <div>
-          <div class="label"><%=Trafilm.Metadata.TrafilmMetadataFacets.FACET_KEYWORDS%> (comma-separated)</div>
+        <div class="question">
+          <div class="label">Keywords (comma-separated)</div>
           <asp:TextBox ID="txtKeywords" runat="server" Columns="150"></asp:TextBox>
         </div>
 
         <%-- IFilmMetadata --%>
 
-        <div>
-          <div class="label"><%=Trafilm.Metadata.FilmMetadataFacets.FACET_TITLE_ES%></div>
+        <div class="question">
+          <div class="label">Title in Spanish</div>
           <asp:TextBox ID="txtTitle_es" runat="server" Columns="150"></asp:TextBox>
         </div>
 
-        <div>
-          <div class="label"><%=Trafilm.Metadata.FilmMetadataFacets.FACET_TITLE_CA%></div>
+        <div class="question">
+          <div class="label">Title in Catalan</div>
           <asp:TextBox ID="txtTitle_ca" runat="server" Columns="150"></asp:TextBox>
         </div>
 
         <%-- ... --%>
 
 
-        <div>
-          <div class="label"><%=Trafilm.Metadata.FilmMetadataFacets.FACET_DURATION%></div>
+        <div class="question">
+          <div class="label">Film duration (hh:mm:ss)</div>
           <asp:TextBox ID="txtDuration" runat="server"></asp:TextBox>
         </div>
 
 
-        <div>
-          <div class="label"><%=Trafilm.Metadata.FilmMetadataFacets.FACET_DIRECTORS%> (comma-separated)</div>
+        <div class="question">
+          <div class="label">Directors (comma-separated)</div>
           <asp:TextBox ID="txtDirectors" runat="server" Columns="150"></asp:TextBox>
         </div>
 
-        <div>
-          <div class="label"><%=Trafilm.Metadata.FilmMetadataFacets.FACET_SCRIPTWRITERS%> (comma-separated)</div>
+        <div class="question">
+          <div class="label">Scriptwriters (comma-separated)</div>
           <asp:TextBox ID="txtScriptwriters" runat="server" Columns="150"></asp:TextBox>
         </div>
 
 
-        <div>
-          <div class="label"><%=Trafilm.Metadata.FilmMetadataFacets.FACET_PRODUCTION_COUNTRIES%></div>
+        <div class="question">
+          <div class="label">Production countries</div>
           <asp:Panel runat="server" 
             Height="100" Width="250"
             ScrollBars="Auto"
@@ -136,25 +136,25 @@ Version: 20160512
            </asp:Panel>
         </div>
 
-        <div>
-          <div class="label"><%=Trafilm.Metadata.FilmMetadataFacets.FACET_PRODUCTION_COMPANIES%> (comma-separated)</div>
+        <div class="question">
+          <div class="label">Production companies (comma-separated)</div>
           <asp:TextBox ID="txtProductionCompanies" runat="server" Columns="150"></asp:TextBox>
         </div>
 
 
-        <div>
-          <div class="label"><%=Trafilm.Metadata.FilmMetadataFacets.FACET_BOX_OFFICE%></div>
+        <div class="question">
+          <div class="label">Box office</div>
           <asp:TextBox ID="txtBoxOffice" runat="server"></asp:TextBox>
         </div>
 
-        <div>
-          <div class="label"><%=Trafilm.Metadata.FilmMetadataFacets.FACET_YEAR%></div>
+        <div class="question">
+          <div class="label">Year released</div>
           <asp:TextBox ID="txtYear" runat="server"></asp:TextBox>
         </div>
 
 
-        <div>
-          <div class="label"><%=Trafilm.Metadata.FilmMetadataFacets.FACET_SOURCE_LANGUAGES%></div>
+        <div class="question">
+          <div class="label">Source languages</div>
           <asp:Panel runat="server" 
             Height="100" Width="250"
             ScrollBars="Auto"
@@ -166,13 +166,13 @@ Version: 20160512
         </div>
 
 
-        <div>
-          <div class="label"><%=Trafilm.Metadata.FilmMetadataFacets.FACET_YEAR_TRANSLATED%></div>
+        <div class="question">
+          <div class="label">Year translated</div>
           <asp:TextBox ID="txtYearTranslated" runat="server"></asp:TextBox>
         </div>
         
-        <div>
-          <div class="label"><%=Trafilm.Metadata.FilmMetadataFacets.FACET_DUBBED_LANGUAGES%></div>
+        <div class="question">
+          <div class="label">Dubbed languages</div>
           <asp:Panel runat="server" 
             Height="100" Width="250"
             ScrollBars="Auto"
@@ -183,8 +183,8 @@ Version: 20160512
            </asp:Panel>
         </div>
         
-        <div>
-          <div class="label"><%=Trafilm.Metadata.FilmMetadataFacets.FACET_SUBTITLED_LANGUAGES%></div>
+        <div class="question">
+          <div class="label">Subtitled languages</div>
           <asp:Panel runat="server" 
             Height="100" Width="250"
             ScrollBars="Auto"
@@ -196,17 +196,17 @@ Version: 20160512
         </div>   
         
 
-        <%-- Calculatable from Scenes --%>
-
-        <div>
-          <div class="label"><%=Trafilm.Metadata.FilmMetadataFacets.FACET_SCENE_COUNT%> (Calculated from Scenes)</div>
-          <asp:Label ID="lblSceneCount" runat="server"></asp:Label>
-        </div>
+        <%-- Calculated from Scenes --%>
         
         <div>
-          <div class="label"><%=Trafilm.Metadata.FilmMetadataFacets.FACET_SCENES_DURATION%> (Calculated from Scenes)</div>
+          <div class="label">Scenes' duration (hh:mm:ss) (Calculated from Scenes)</div>
           <asp:Label ID="lblScenesDuration" runat="server"></asp:Label>
         </div>                            
+
+        <div>
+          <div class="label">Count of Scenes (Calculated)</div>
+          <asp:Label ID="lblSceneCount" runat="server"></asp:Label>
+        </div>
 
 
        <%-- Scenes list --%>                  

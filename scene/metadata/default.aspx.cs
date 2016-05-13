@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: scene\metadata\default.aspx.cs
-//Version: 20160512
+//Version: 20160513
 
 using Metadata.CXML;
 using Trafilm.Metadata.Models;
@@ -166,13 +166,13 @@ namespace Trafilm.Gallery
 
     public void Save()
     {
-      lblInfoUpdated.Text = DateTime.Now.ToString(CXML.DEFAULT_DATETIME_FORMAT);
+      lblInfoUpdated.Text = DateTime.UtcNow.ToString(CXML.DEFAULT_DATETIME_FORMAT);
       sceneStorage[listScenes.SelectedValue] = (IScene)GetMetadataFromUI();
     }
 
-    public void Report()
+    public void SaveCollection()
     {
-      Report(Path.Combine(Request.PhysicalApplicationPath, "scene/scenes.cxml"), "Trafilm Gallery Scenes", Scene.MakeSceneFacetCategories(), sceneStorage.Values);
+      SaveCollection(Path.Combine(Request.PhysicalApplicationPath, "scene/scenes.cxml"), "Trafilm Gallery Scenes", Scene.MakeSceneFacetCategories(), sceneStorage.Values);
     }
 
     #endregion
@@ -241,6 +241,7 @@ namespace Trafilm.Gallery
     protected void btnSave_Click(object sender, EventArgs e)
     {
       Save();
+      SaveCollection();
     }
 
     #endregion
