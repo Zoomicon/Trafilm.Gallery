@@ -110,7 +110,7 @@ Version: 20160513
 
 
         <div class="question">
-          <div class="label">Film duration (hh:mm:ss)</div>
+          <div class="label">Film duration (h:m:s.f) - CAN USE 0 FOR HOURS, BUT NOT SKIP THEM</div>
           <asp:TextBox ID="txtDuration" runat="server"></asp:TextBox>
         </div>
 
@@ -201,7 +201,7 @@ Version: 20160513
         <%-- Calculated from Scenes --%>
         
         <div>
-          <div class="label">Scenes' duration (hh:mm:ss) (Calculated from Scenes)</div>
+          <div class="label">Scenes' duration (h:m:s.f) (Calculated from Scenes)</div>
           <asp:Label ID="lblScenesDuration" runat="server"></asp:Label>
         </div>                            
 
