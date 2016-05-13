@@ -44,17 +44,7 @@ namespace Trafilm.Gallery
       string sceneId = filmId + "." + txtScene.Text;
       txtScene.Text = "";
 
-      if (!sceneStorage.Keys.Contains(sceneId))
-      {
-        IScene scene = new Scene();
-        scene.Clear();
-        scene.Title = sceneId;
-        scene.FilmReferenceId = filmId;
-        scene.ReferenceId = sceneId;
-
-        sceneStorage[sceneId] = scene;
-      }
-
+      CreateScene(filmId, sceneId);
       SelectScene(sceneId);
     }
 

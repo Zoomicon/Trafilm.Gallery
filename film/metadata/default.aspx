@@ -47,8 +47,10 @@ Version: 20160513
 
       <div class="bar">
 
-        <div class="label">Select a Film</div> 
-        <asp:DropDownList ID="listFilms" runat="server" AutoPostBack="True" OnSelectedIndexChanged="listFilms_SelectedIndexChanged" />
+        <div>
+          <div class="label">Select a Film</div> 
+          <asp:DropDownList ID="listFilms" runat="server" AutoPostBack="True" OnSelectedIndexChanged="listFilms_SelectedIndexChanged" />
+        </div>
 
         <div>
           <div class="label">or add new Film Id</div>

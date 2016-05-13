@@ -40,16 +40,7 @@ namespace Trafilm.Gallery
       string filmId = txtFilm.Text;
       txtFilm.Text = "";
 
-      if (!filmStorage.Keys.Contains(filmId))
-      {
-        IFilm film = new Film();
-        film.Clear();
-        film.Title = filmId;
-        film.ReferenceId = filmId;
-
-        filmStorage[filmId] = film;
-      }
-
+      CreateFilm(filmId);
       SelectFilm(filmId);
     }
 

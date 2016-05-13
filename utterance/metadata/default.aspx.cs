@@ -47,18 +47,7 @@ namespace Trafilm.Gallery
       string utteranceId = sceneId + "." + txtUtterance.Text; //that sceneId already contains the filmId in it
       txtUtterance.Text = "";
 
-      if (!utteranceStorage.Keys.Contains(utteranceId))
-      {
-        IUtterance utterance = new Utterance();
-        utterance.Clear();
-        utterance.Title = utteranceId;
-        utterance.FilmReferenceId = filmId;
-        utterance.SceneReferenceId = sceneId;
-        utterance.ReferenceId = utteranceId;
-
-        utteranceStorage[utteranceId] = utterance;
-      }
-
+      CreateUtterance(filmId, sceneId, utteranceId);
       SelectUtterance(utteranceId);
     }
 

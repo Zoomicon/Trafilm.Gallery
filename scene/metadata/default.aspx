@@ -49,16 +49,14 @@ Version: 20160513
 
       <div class="bar">
 
-        <div class="label">Select a Film</div> 
-        <asp:DropDownList ID="listFilms" runat="server" AutoPostBack="True"
-          OnSelectedIndexChanged="listFilms_SelectedIndexChanged"
-          />
+        <div>
+          <div class="label">Select a Film</div> 
+          <asp:DropDownList ID="listFilms" runat="server" AutoPostBack="True" OnSelectedIndexChanged ="listFilms_SelectedIndexChanged" />
+        </div>
 
         <asp:Panel runat="server" ID="panelSceneId" Visible="false">
           <div class="label">Select a Scene</div> 
-          <asp:DropDownList ID="listScenes" runat="server" AutoPostBack="True" 
-            OnSelectedIndexChanged="listScenes_SelectedIndexChanged"
-            />
+          <asp:DropDownList ID="listScenes" runat="server" AutoPostBack="True" OnSelectedIndexChanged="listScenes_SelectedIndexChanged" />
 
           <div>
             <div class="label">or add new Scene (partial) Id</div>
