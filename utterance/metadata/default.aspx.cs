@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: utterance\metadata\default.aspx.cs
-//Version: 20160512
+//Version: 20160513
 
 using Trafilm.Metadata;
 using Trafilm.Metadata.Models;
@@ -192,12 +192,13 @@ namespace Trafilm.Gallery
 
     public void Save()
     {
+      lblInfoUpdated.Text = DateTime.UtcNow.ToString(CXML.DEFAULT_DATETIME_FORMAT);
       utteranceStorage[listUtterances.SelectedValue] = (IUtterance)GetMetadataFromUI();
     }
 
-    public void Report()
+    public void SaveCollection()
     {
-      Report(Path.Combine(Request.PhysicalApplicationPath, "utterance/utterances.cxml"), "Trafilm Gallery Utterances", Utterance.MakeUtteranceFacetCategories(), utteranceStorage.Values);
+      SaveCollection(Path.Combine(Request.PhysicalApplicationPath, "utterance/utterances.cxml"), "Trafilm Gallery Utterances", Utterance.MakeUtteranceFacetCategories(), utteranceStorage.Values);
     }
 
     #endregion
@@ -241,8 +242,8 @@ namespace Trafilm.Gallery
 
     protected void btnSave_Click(object sender, EventArgs e)
     {
-      lblInfoUpdated.Text = DateTime.Now.ToString(CXML.DEFAULT_DATETIME_FORMAT);
       Save();
+      SaveCollection();
     }
 
     #endregion
