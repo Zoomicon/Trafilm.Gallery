@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: scene\metadata\default.aspx
-Version: 20160513
+Version: 20160514
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -104,12 +104,12 @@ Version: 20160513
         <%-- ISceneMetadata --%>
 
         <div class="question">
-          <div class="label">Scene Start Time (hh:mm:ss.ff)</div>
+          <div class="label">Scene Start Time (h:m:s.f) - CAN USE 0 FOR HOURS, BUT NOT SKIP THEM</div>
           <asp:TextBox ID="txtStartTime" runat="server" Columns="25"></asp:TextBox>
         </div>
 
         <div class="question">
-          <div class="label">Scene Duration (mm:ss.ff)</div>
+          <div class="label">Scene Duration (h:m:s.f) - CAN USE 0 FOR HOURS, BUT NOT SKIP THEM</div>
           <asp:TextBox ID="txtDuration" runat="server" Columns="25"></asp:TextBox>
         </div>
         

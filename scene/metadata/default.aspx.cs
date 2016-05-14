@@ -133,8 +133,8 @@ namespace Trafilm.Gallery
 
       scene.FilmReferenceId = listFilms.SelectedValue;
 
-      scene.StartTime = TimeSpan.ParseExact(txtStartTime.Text, SceneMetadata.DEFAULT_POSITION_FORMAT, CultureInfo.InvariantCulture);
-      scene.Duration = TimeSpan.ParseExact(txtDuration.Text, SceneMetadata.DEFAULT_DURATION_FORMAT, CultureInfo.InvariantCulture);
+      scene.StartTime = txtStartTime.Text.ToNullableTimeSpan(SceneMetadata.DEFAULT_POSITION_FORMAT);
+      scene.Duration = txtDuration.Text.ToNullableTimeSpan(SceneMetadata.DEFAULT_DURATION_FORMAT);
 
       scene.L1languagePresent = cbL1languagePresent.Checked;
       scene.L2languagePresent = cbL2languagePresent.Checked;
