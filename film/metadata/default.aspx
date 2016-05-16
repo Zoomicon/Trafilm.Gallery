@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: film\metadata\default.aspx
-Version: 20160513
+Version: 20160516
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -110,7 +110,7 @@ Version: 20160513
 
 
         <div class="question">
-          <div class="label">Film duration (h:m:s.f) - CAN USE 0 FOR HOURS, BUT NOT SKIP THEM</div>
+          <div class="label">Film duration (h:m:s.f)</div>
           <asp:TextBox ID="txtDuration" runat="server"></asp:TextBox>
         </div>
 
