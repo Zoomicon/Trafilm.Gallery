@@ -21,8 +21,6 @@ Version: 20160516
     <%-- DATA SOURCES --%>
 
     <asp:XmlDataSource ID="xmlCount" runat="server" DataFile="~/metadata/Count.xml" XPath="Facet/String" />
-    <asp:XmlDataSource ID="xmlLanguages" runat="server" DataFile="~/metadata/Languages.xml" XPath="Facet/String" />
-    <asp:XmlDataSource ID="xmlL3languageTypes" runat="server" DataFile="~/scene/metadata/L3languageTypes.xml" XPath="Facet/String" />
     
     <%-- NAVIGATION MENU --%>
 
@@ -149,14 +147,11 @@ Version: 20160516
 
         <div>
           <div class="label">L3 (other) languages in Scene (Calculated from Utterances)</div>
-          <asp:Panel runat="server" 
-            Height="100" Width="250"
+          <asp:Panel runat="server"
             ScrollBars="Auto"
             Enabled="false"
             >
-            <asp:ListBox ID="clistL3languages" runat="server" 
-              DataSourceID="xmlLanguages" DataTextField="Value" DataValueField="Value" 
-              />
+            <asp:ListBox ID="clistL3languages" runat="server" />
            </asp:Panel>
         </div>    
 
@@ -169,13 +164,10 @@ Version: 20160516
         <div>
           <div class="label">L3 language types in Scene (Calculated from Utterances)</div>
           <asp:Panel runat="server" 
-            Height="100" Width="250"
             ScrollBars="Auto"
             Enabled="false"
             >
-            <asp:ListBox ID="clistL3languageTypes" runat="server" 
-              DataSourceID="xmlL3languageTypes" DataTextField="Value" DataValueField="Value" 
-              />
+            <asp:ListBox ID="clistL3languageTypes" runat="server" />
            </asp:Panel>
         </div>            
 

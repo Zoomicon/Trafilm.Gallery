@@ -97,10 +97,10 @@ namespace Trafilm.Gallery
       //Calculatable from Utterances//
 
       UI.Load(lblL3languagesCount, CalculateL3languagesCount(key).ToString());
-      UI.Load(clistL3languages, CalculateL3languages(key));
+      clistL3languages.DataSource = CalculateL3languages(key);
 
       UI.Load(lblL3languageTypesCount, CalculateL3languageTypesCount(key).ToString());
-      UI.Load(clistL3languageTypes, CalculateL3languageTypes(key));
+      clistL3languageTypes.DataSource = CalculateL3languageTypes(key);
 
       UI.Load(lblUtteranceCount, CalculateUtteranceCount(key).ToString());
     }

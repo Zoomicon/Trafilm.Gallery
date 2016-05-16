@@ -62,9 +62,6 @@
     </Content>
     <Content Include="css\metadata.css" />
     <Content Include="favicon.ico" />
-    <Content Include="scene\metadata\L3languageTypes.xml">
-      <SubType>Designer</SubType>
-    </Content>
     <Content Include="seajax\css\PivotView.css" />
     <Content Include="seajax\css\search.gif" />
     <Content Include="seajax\seadragon-pivot-standalone-min.js" />
