@@ -247,31 +247,31 @@ namespace Trafilm.Gallery {
         protected global::System.Web.UI.WebControls.CheckBoxList clistSubtitledLanguages;
         
         /// <summary>
-        /// lblScenesDuration control.
+        /// lblConversationsDuration control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblScenesDuration;
+        protected global::System.Web.UI.WebControls.Label lblConversationsDuration;
         
         /// <summary>
-        /// lblSceneCount control.
+        /// lblConversationCount control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblSceneCount;
+        protected global::System.Web.UI.WebControls.Label lblConversationCount;
         
         /// <summary>
-        /// repeaterScenes control.
+        /// repeaterConversations control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Repeater repeaterScenes;
+        protected global::System.Web.UI.WebControls.Repeater repeaterConversations;
         
         /// <summary>
         /// btnSave control.

@@ -12,7 +12,7 @@ using System.IO;
 
 namespace Trafilm.Gallery
 {
-  public partial class UtteranceMetadataPage : BaseMetadataPage
+  public partial class L3occurenceMetadataPage : BaseMetadataPage
   {
 
     #region --- Initialization ---
@@ -20,8 +20,8 @@ namespace Trafilm.Gallery
     protected void Page_Load(object sender, EventArgs e)
     {
       filmStorage = new CXMLFragmentStorage<IFilm, Film>(Path.Combine(Request.PhysicalApplicationPath, @"film\films.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"film\metadata"), "*.cxml");
-      sceneStorage = new CXMLFragmentStorage<IScene, Scene>(Path.Combine(Request.PhysicalApplicationPath, @"scene\scenes.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"scene\metadata"), listFilms.SelectedValue + ".*.cxml");
-      utteranceStorage = new CXMLFragmentStorage<IUtterance, Utterance>(Path.Combine(Request.PhysicalApplicationPath, @"utterance\utterances.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"utterance\metadata"), listFilms.SelectedValue + ".*.cxml");
+      sceneStorage = new CXMLFragmentStorage<IConversation, Conversation>(Path.Combine(Request.PhysicalApplicationPath, @"scene\scenes.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"scene\metadata"), listFilms.SelectedValue + ".*.cxml");
+      utteranceStorage = new CXMLFragmentStorage<IL3occurence, L3occurence>(Path.Combine(Request.PhysicalApplicationPath, @"utterance\utterances.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"utterance\metadata"), listFilms.SelectedValue + ".*.cxml");
 
       UpdateFilmsList(listFilms, (IsPostBack) ? listFilms.SelectedValue : "film", !IsPostBack);
       if (!IsPostBack)
@@ -29,11 +29,11 @@ namespace Trafilm.Gallery
 
       if (!IsPostBack)
       {
-        UpdateScenesList(listScenes, "scene", !IsPostBack);
-        listScenes_SelectedIndexChanged(listScenes, null);
+        UpdateConversationsList(listConversations, "scene", !IsPostBack);
+        listConversations_SelectedIndexChanged(listConversations, null);
 
-        UpdateUtterancesList(listUtterances, "utterance", !IsPostBack);
-        listUtterances_SelectedIndexChanged(listUtterances, null);
+        UpdateL3occurencesList(listL3occurences, "utterance", !IsPostBack);
+        listL3occurences_SelectedIndexChanged(listL3occurences, null);
       }
     }
 
@@ -41,27 +41,27 @@ namespace Trafilm.Gallery
 
     #region --- Methods ---
 
-    public void AddUtterance()
+    public void AddL3occurence()
     {
       string filmId = listFilms.SelectedValue;
-      string sceneId = listScenes.SelectedValue;
-      string utteranceId = sceneId + "." + txtUtterance.Text; //that sceneId already contains the filmId in it
-      txtUtterance.Text = "";
+      string sceneId = listConversations.SelectedValue;
+      string utteranceId = sceneId + "." + txtL3occurence.Text; //that sceneId already contains the filmId in it
+      txtL3occurence.Text = "";
 
-      CreateUtterance(filmId, sceneId, utteranceId);
-      SelectUtterance(utteranceId);
+      CreateL3occurence(filmId, sceneId, utteranceId);
+      SelectL3occurence(utteranceId);
     }
 
-    public void SelectScene(string sceneId)
+    public void SelectConversation(string sceneId)
     {
-      UpdateScenesList(listScenes, sceneId); //update list since it may not be up-to-date
-      listScenes_SelectedIndexChanged(listScenes, null);
+      UpdateConversationsList(listConversations, sceneId); //update list since it may not be up-to-date
+      listConversations_SelectedIndexChanged(listConversations, null);
     }
 
-    public void SelectUtterance(string utteranceId)
+    public void SelectL3occurence(string utteranceId)
     {
-      UpdateUtterancesList(listUtterances, utteranceId); //update list since it may not be up-to-date
-      listUtterances_SelectedIndexChanged(listUtterances, null);
+      UpdateL3occurencesList(listL3occurences, utteranceId); //update list since it may not be up-to-date
+      listL3occurences_SelectedIndexChanged(listL3occurences, null);
     }
 
     #region Load
@@ -71,7 +71,7 @@ namespace Trafilm.Gallery
       DisplayMetadata(utteranceStorage[utteranceId]);
     }
 
-    public void DisplayMetadata(IUtterance utterance)
+    public void DisplayMetadata(IL3occurence utterance)
     {
       string key = utterance.ReferenceId;
 
@@ -90,10 +90,10 @@ namespace Trafilm.Gallery
       UI.Load(lblInfoUpdated, utterance.InfoUpdated.ToString(CXML.DEFAULT_DATETIME_FORMAT));
       UI.Load(txtKeywords, utterance.Keywords);
 
-      //IUtterance//
+      //IL3occurence//
 
       UI.Load(listFilms, utterance.FilmReferenceId);
-      UI.Load(listScenes, utterance.SceneReferenceId);
+      UI.Load(listConversations, utterance.ConversationReferenceId);
 
       UI.Load(listL3kind, utterance.L3kind);
 
@@ -130,7 +130,7 @@ namespace Trafilm.Gallery
 
     public ICXMLMetadata GetMetadataFromUI()
     {
-      IUtterance utterance = new Utterance();
+      IL3occurence utterance = new L3occurence();
       string key = listFilms.SelectedValue;
 
       //ICXMLMetadata//
@@ -147,12 +147,12 @@ namespace Trafilm.Gallery
       utterance.InfoUpdated = DateTime.ParseExact(lblInfoUpdated.Text, CXML.DEFAULT_DATETIME_FORMAT, CultureInfo.InvariantCulture);
       utterance.Keywords = UI.GetCommaSeparated(txtKeywords);
 
-      //IUtterance//
+      //IL3occurence//
 
-      utterance.SceneReferenceId = listScenes.SelectedValue;
+      utterance.ConversationReferenceId = listConversations.SelectedValue;
 
       utterance.FilmReferenceId = listFilms.SelectedValue;
-      utterance.SceneReferenceId = listScenes.SelectedValue;
+      utterance.ConversationReferenceId = listConversations.SelectedValue;
 
       utterance.L3kind = listL3kind.SelectedValue;
 
@@ -188,12 +188,12 @@ namespace Trafilm.Gallery
     public void Save()
     {
       lblInfoUpdated.Text = DateTime.UtcNow.ToString(CXML.DEFAULT_DATETIME_FORMAT);
-      utteranceStorage[listUtterances.SelectedValue] = (IUtterance)GetMetadataFromUI();
+      utteranceStorage[listL3occurences.SelectedValue] = (IL3occurence)GetMetadataFromUI();
     }
 
     public void SaveCollection()
     {
-      SaveCollection(Path.Combine(Request.PhysicalApplicationPath, "utterance/utterances.cxml"), "Trafilm Gallery Utterances", Utterance.MakeUtteranceFacetCategories(), utteranceStorage.Values);
+      SaveCollection(Path.Combine(Request.PhysicalApplicationPath, "utterance/utterances.cxml"), "Trafilm Gallery L3occurences", L3occurence.MakeL3occurenceFacetCategories(), utteranceStorage.Values);
     }
 
     #endregion
@@ -204,35 +204,35 @@ namespace Trafilm.Gallery
 
     protected void listFilms_SelectedIndexChanged(object sender, EventArgs e)
     {
-      sceneStorage = new CXMLFragmentStorage<IScene, Scene>(Path.Combine(Request.PhysicalApplicationPath, @"scene\scenes.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"scene\metadata"), listFilms.SelectedValue + ".*.cxml");
+      sceneStorage = new CXMLFragmentStorage<IConversation, Conversation>(Path.Combine(Request.PhysicalApplicationPath, @"scene\scenes.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"scene\metadata"), listFilms.SelectedValue + ".*.cxml");
 
       bool visible = (listFilms.SelectedIndex > 0);
-      panelSceneId.Visible = visible;
+      panelConversationId.Visible = visible;
       if (visible)
-        SelectScene(null);
+        SelectConversation(null);
     }
 
-    protected void listScenes_SelectedIndexChanged(object sender, EventArgs e)
+    protected void listConversations_SelectedIndexChanged(object sender, EventArgs e)
     {
-      utteranceStorage = new CXMLFragmentStorage<IUtterance, Utterance>(Path.Combine(Request.PhysicalApplicationPath, @"utterance\utterances.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"utterance\metadata"), listScenes.SelectedValue + ".*.cxml");
+      utteranceStorage = new CXMLFragmentStorage<IL3occurence, L3occurence>(Path.Combine(Request.PhysicalApplicationPath, @"utterance\utterances.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"utterance\metadata"), listConversations.SelectedValue + ".*.cxml");
 
-      bool visible = (listScenes.SelectedIndex > 0);
-      panelUtteranceId.Visible = visible;
+      bool visible = (listConversations.SelectedIndex > 0);
+      panelL3occurenceId.Visible = visible;
       if (visible)
-        SelectUtterance(null); //this will also hide panelMetadata
+        SelectL3occurence(null); //this will also hide panelMetadata
     }
 
-    protected void listUtterances_SelectedIndexChanged(object sender, EventArgs e)
+    protected void listL3occurences_SelectedIndexChanged(object sender, EventArgs e)
     {
-      bool visible = (listUtterances.SelectedIndex > 0);
+      bool visible = (listL3occurences.SelectedIndex > 0);
       panelMetadata.Visible = visible;
       if (visible)
-        DisplayMetadata(listUtterances.SelectedValue);
+        DisplayMetadata(listL3occurences.SelectedValue);
     }
 
-    protected void btnAddUtterance_Click(object sender, EventArgs e)
+    protected void btnAddL3occurence_Click(object sender, EventArgs e)
     {
-      AddUtterance();
+      AddL3occurence();
     }
 
     protected void btnSave_Click(object sender, EventArgs e)

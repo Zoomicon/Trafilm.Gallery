@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="FilmMetadataPage.aspx.cs" Inherits="Trafilm.Gallery.FilmMetadataPage" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="Trafilm.Gallery.FilmMetadataPage" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
@@ -28,9 +28,9 @@ Version: 20160516
     <div class="navigation">
        <a class="selected" href="../../film/metadata/">Film Metadata</a>
        &nbsp;&nbsp;-&nbsp;&nbsp;
-       <a href="../../scene/metadata/?film=<%=listFilms.SelectedValue%>">Scene Metadata</a>
+       <a href="../../scene/metadata/?film=<%=listFilms.SelectedValue%>">Conversation Metadata</a>
        &nbsp;&nbsp;-&nbsp;&nbsp;
-       <a href="../../utterance/metadata/?film=<%=listFilms.SelectedValue%>">Utterance Metadata</a>
+       <a href="../../utterance/metadata/?film=<%=listFilms.SelectedValue%>">L3occurence Metadata</a>
     </div>
 
     <%-- INSTRUCTION BOX --%>
@@ -128,12 +128,10 @@ Version: 20160516
 
         <div class="question">
           <div class="label">Production countries</div>
-          <asp:Panel runat="server" 
-            Height="100" Width="250"
-            ScrollBars="Auto"
-            >
+          <asp:Panel runat="server" ScrollBars="Auto" Height="100">
             <asp:CheckBoxList ID="clistProductionCountries" runat="server" 
-              DataSourceID="xmlCountries" DataTextField="Value" DataValueField="Value" 
+              DataSourceID="xmlCountries" DataTextField="Value" DataValueField="Value"
+              RepeatLayout="Table" RepeatColumns="10" RepeatDirection="Vertical"
               />
            </asp:Panel>
         </div>
@@ -157,12 +155,10 @@ Version: 20160516
 
         <div class="question">
           <div class="label">Source languages</div>
-          <asp:Panel runat="server" 
-            Height="100" Width="250"
-            ScrollBars="Auto"
-            >
+          <asp:Panel runat="server" Height="100" ScrollBars="Auto">
             <asp:CheckBoxList ID="clistSourceLanguages" runat="server" 
-              DataSourceID="xmlLanguages" DataTextField="Value" DataValueField="Value" 
+              DataSourceID="xmlLanguages" DataTextField="Value" DataValueField="Value"
+              RepeatLayout="Table" RepeatColumns="10" RepeatDirection="Vertical"               
               />
            </asp:Panel>
         </div>
@@ -175,47 +171,43 @@ Version: 20160516
         
         <div class="question">
           <div class="label">Dubbed languages</div>
-          <asp:Panel runat="server" 
-            Height="100" Width="250"
-            ScrollBars="Auto"
-            >
+          <asp:Panel runat="server" Height="100" ScrollBars="Auto">
             <asp:CheckBoxList ID="clistDubbedLanguages" runat="server" 
               DataSourceID="xmlLanguages" DataTextField="Value" DataValueField="Value" 
+              RepeatLayout="Table" RepeatColumns="10" RepeatDirection="Vertical"
               />
            </asp:Panel>
         </div>
         
         <div class="question">
           <div class="label">Subtitled languages</div>
-          <asp:Panel runat="server" 
-            Height="100" Width="250"
-            ScrollBars="Auto"
-            >
+          <asp:Panel runat="server" Height="100" ScrollBars="Auto">
             <asp:CheckBoxList ID="clistSubtitledLanguages" runat="server" 
-              DataSourceID="xmlLanguages" DataTextField="Value" DataValueField="Value" 
+              DataSourceID="xmlLanguages" DataTextField="Value" DataValueField="Value"
+              RepeatLayout="Table" RepeatColumns="10" RepeatDirection="Vertical"               
               />
            </asp:Panel>
         </div>   
         
 
-        <%-- Calculated from Scenes --%>
+        <%-- Calculated from Conversations --%>
         
         <div>
-          <div class="label">Scenes' duration (h:m:s.f) (Calculated from Scenes)</div>
-          <asp:Label ID="lblScenesDuration" runat="server"></asp:Label>
+          <div class="label">Conversations' duration (h:m:s.f) (Calculated from Conversations)</div>
+          <asp:Label ID="lblConversationsDuration" runat="server"></asp:Label>
         </div>                            
 
         <div>
-          <div class="label">Count of Scenes (Calculated)</div>
-          <asp:Label ID="lblSceneCount" runat="server"></asp:Label>
+          <div class="label">Count of Conversations (Calculated)</div>
+          <asp:Label ID="lblConversationCount" runat="server"></asp:Label>
         </div>
 
 
-       <%-- Scenes list --%>                  
+       <%-- Conversations list --%>                  
 
-        <asp:Repeater ID="repeaterScenes" runat="server">
+        <asp:Repeater ID="repeaterConversations" runat="server">
           <HeaderTemplate>
-            <div class="label">List of Scenes<div>
+            <div class="label">List of Conversations<div>
           </HeaderTemplate>
           <ItemTemplate>
             <a href="../../scene/metadata/?film=<%#Eval("filmId")%>&scene=<%#Eval("sceneId")%>"><%#Eval("sceneId")%></a>&nbsp;&nbsp;

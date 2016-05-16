@@ -1,17 +1,17 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="UtteranceMetadataPage.aspx.cs" Inherits="Trafilm.Gallery.UtteranceMetadataPage" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="Trafilm.Gallery.L3occurenceMetadataPage" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: utterance\metadata\default.aspx
-Version: 20160513
+Version: 20160516
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 
   <head runat="server">
-    <title>Trafilm Gallery - Utterance Metadata</title>
+    <title>Trafilm Gallery - L3-occurence Metadata</title>
 
     <link href="../../css/metadata.css" rel="stylesheet" type="text/css" />
   </head>
@@ -41,16 +41,16 @@ Version: 20160513
     <div class="navigation">
        <a href="../../film/metadata/?film=<%=listFilms.SelectedValue%>">Film Metadata</a>
        &nbsp;&nbsp;-&nbsp;&nbsp;
-       <a href="../../scene/metadata/?film=<%=listFilms.SelectedValue%>&scene=<%=listScenes.SelectedValue%>">Scene Metadata</a>
+       <a href="../../scene/metadata/?film=<%=listFilms.SelectedValue%>&scene=<%=listConversations.SelectedValue%>">Conversation Metadata</a>
        &nbsp;&nbsp;-&nbsp;&nbsp;
-       <a class="selected" href="../../utterance/metadata/">Utterance Metadata</a>
+       <a class="selected" href="../../utterance/metadata/">L3-occurence Metadata</a>
     </div>
 
     <%-- INSTRUCTIONS BOX --%>
 
     <div class="instructions">
-      Please fill in the following information for the Utterance of your choice. Select the Utterance from the dropdown list.<br />
-      Try to fill the metadata as fully and accurately as possible, as they will be used for searching and filtering Utterances.<br />
+      Please fill in the following information for the L3-occurence of your choice. Select the L3-occurence from the dropdown list.<br />
+      Try to fill the metadata as fully and accurately as possible, as they will be used for searching and filtering L3-occurences.<br />
       Don't forget to press the SAVE METADATA button. Thank you!
     </div>
 
@@ -65,20 +65,20 @@ Version: 20160513
           <asp:DropDownList ID="listFilms" runat="server" AutoPostBack="True" OnSelectedIndexChanged="listFilms_SelectedIndexChanged" />
         </div>
         
-        <asp:Panel runat="server" ID="panelSceneId" Visible="false">
+        <asp:Panel runat="server" ID="panelConversationId" Visible="false">
           <div>
-            <div class="label">Select a Scene</div> 
-            <asp:DropDownList ID="listScenes" runat="server" AutoPostBack="True" OnSelectedIndexChanged="listScenes_SelectedIndexChanged" />
+            <div class="label">Select a Conversation</div> 
+            <asp:DropDownList ID="listConversations" runat="server" AutoPostBack="True" OnSelectedIndexChanged="listConversations_SelectedIndexChanged" />
           </div>
 
-          <asp:Panel runat="server" ID="panelUtteranceId" Visible="false">
-            <div class="label">Select an Utterance</div> 
-            <asp:DropDownList ID="listUtterances" runat="server" AutoPostBack="True" OnSelectedIndexChanged="listUtterances_SelectedIndexChanged" />
+          <asp:Panel runat="server" ID="panelL3occurenceId" Visible="false">
+            <div class="label">Select an L3-occurence</div> 
+            <asp:DropDownList ID="listL3occurences" runat="server" AutoPostBack="True" OnSelectedIndexChanged="listL3occurences_SelectedIndexChanged" />
 
             <div>
-              <div class="label">or add new Utterance Id (do not include the Film Id and Scene Id prefixes)</div>
-              <asp:TextBox ID="txtUtterance" runat="server" />
-              <asp:Button ID="btnAddUtterance" runat="server" Text="Add" OnClick="btnAddUtterance_Click" />
+              <div class="label">or add new L3-occurence Id (do not include the Film Id and Conversation Id prefixes)</div>
+              <asp:TextBox ID="txtL3occurence" runat="server" />
+              <asp:Button ID="btnAddL3occurence" runat="server" Text="Add" OnClick="btnAddL3occurence_Click" />
             </div>
           </asp:Panel>
 
@@ -93,16 +93,16 @@ Version: 20160513
         <%-- ICXMLMetadata--%>
 
         <div class="question">
-          <div class="label">Utterance Title (optional)</div>
+          <div class="label">L3-occurence Title (optional)</div>
           <asp:TextBox ID="txtTitle" runat="server" Columns="150"></asp:TextBox>
         </div>
 
         <div class="question">
-          <div class="label">Utterance Description (optional)</div>
+          <div class="label">L3-occurence Description (optional)</div>
           <asp:TextBox ID="txtDescription" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
         </div>
 
-        <div class="label">Utterance URL</div>
+        <div class="label">L3-occurence URL</div>
         <asp:HyperLink ID="linkUrl" runat="server" Target="_blank"/>
     
         <div>
@@ -120,7 +120,7 @@ Version: 20160513
           <asp:TextBox ID="txtKeywords" runat="server" Columns="150"></asp:TextBox>
         </div>
 
-        <%-- IUtteranceMetadata --%>
+        <%-- IL3occurenceMetadata --%>
 
         <div class="question">
           <div class="label">L3 kind (L3ST or L3TT)</div>
@@ -171,12 +171,10 @@ Version: 20160513
 
         <div class="question">
           <div class="label">L3 constructed based on</div>
-          <asp:Panel runat="server" 
-            Height="100" Width="250"
-            ScrollBars="Auto"
-            >
+          <asp:Panel runat="server" Height="100" ScrollBars="Auto">
             <asp:CheckBoxList ID="clistL3constructedBasedOn" runat="server" 
-              DataSourceID="xmlL3constructedBasedOn" DataTextField="Value" DataValueField="Value" 
+              DataSourceID="xmlL3constructedBasedOn" DataTextField="Value" DataValueField="Value"
+              RepeatLayout="Table" RepeatColumns="10" RepeatDirection="Vertical"               
               />
            </asp:Panel>
         </div>
@@ -214,12 +212,10 @@ Version: 20160513
 
         <div class="question">
           <div class="label">L3 mode</div>
-          <asp:Panel runat="server" 
-            Height="80" Width="250"
-            ScrollBars="Auto"
-            >
+          <asp:Panel runat="server" Height="80" ScrollBars="Auto">
             <asp:CheckBoxList ID="clistL3mode" runat="server" 
-              DataSourceID="xmlL3mode" DataTextField="Value" DataValueField="Value" 
+              DataSourceID="xmlL3mode" DataTextField="Value" DataValueField="Value"
+              RepeatLayout="Table" RepeatColumns="10" RepeatDirection="Vertical"               
               />
            </asp:Panel>
         </div>
@@ -234,36 +230,30 @@ Version: 20160513
 
         <div class="question">
           <div class="label">L3 is represented</div>
-          <asp:Panel runat="server" 
-            Height="100" Width="250"
-            ScrollBars="Auto"
-            >
+          <asp:Panel runat="server" Height="100" ScrollBars="Auto">
             <asp:CheckBoxList ID="clistL3represented" runat="server" 
-              DataSourceID="xmlL3represented" DataTextField="Value" DataValueField="Value" 
+              DataSourceID="xmlL3represented" DataTextField="Value" DataValueField="Value"
+              RepeatLayout="Table" RepeatColumns="10" RepeatDirection="Vertical"               
               />
            </asp:Panel>
         </div>
 
         <div class="question">
           <div class="label">L3 oral representations (if any)</div>
-          <asp:Panel runat="server" 
-            Height="100" Width="250"
-            ScrollBars="Auto"
-            >
+          <asp:Panel runat="server" Height="100" ScrollBars="Auto">
             <asp:CheckBoxList ID="clistL3representationsOral" runat="server" 
-              DataSourceID="xmlL3representationsOral" DataTextField="Value" DataValueField="Value" 
+              DataSourceID="xmlL3representationsOral" DataTextField="Value" DataValueField="Value"
+              RepeatLayout="Table" RepeatColumns="10" RepeatDirection="Vertical"               
               />
            </asp:Panel>
         </div>
 
         <div class="question">
           <div class="label">L3 visual representations (if any)</div>
-          <asp:Panel runat="server" 
-            Height="100" Width="250"
-            ScrollBars="Auto"
-            >
+          <asp:Panel runat="server" Height="100" ScrollBars="Auto">
             <asp:CheckBoxList ID="clistL3representationsVisual" runat="server" 
               DataSourceID="xmlL3representationsVisual" DataTextField="Value" DataValueField="Value" 
+              RepeatLayout="Table" RepeatColumns="10" RepeatDirection="Vertical"
               />
            </asp:Panel>
         </div>
@@ -271,12 +261,10 @@ Version: 20160513
 
         <div class="question">
           <div class="label">L3 functions</div>
-          <asp:Panel runat="server" 
-            Height="100" Width="250"
-            ScrollBars="Auto"
-            >
+          <asp:Panel runat="server" Height="100" ScrollBars="Auto">
             <asp:CheckBoxList ID="clistL3functions" runat="server" 
-              DataSourceID="xmlL3functions" DataTextField="Value" DataValueField="Value" 
+              DataSourceID="xmlL3functions" DataTextField="Value" DataValueField="Value"
+              RepeatLayout="Table" RepeatColumns="10" RepeatDirection="Vertical"               
               />
            </asp:Panel>
         </div>

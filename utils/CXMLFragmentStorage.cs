@@ -38,7 +38,7 @@ namespace Trafilm.Gallery
     public string CollectionFile { get; set; } = "../collection.cxml";
     public string FragmentsFolder { get; set; } = ".";
 
-    public string FragmentsFilter { get; set; } = "*.cxml"; //can be used to select hierarchically named fragments, e.g. "BigBuckBunny.*.cxml" to filter for scenes of film "BigBuckBunny" and "BigBuckBunny.15.*.cxml" to filter for Utterances of scene "15" in "BigBuckBunny" film
+    public string FragmentsFilter { get; set; } = "*.cxml"; //can be used to select hierarchically named fragments, e.g. "BigBuckBunny.*.cxml" to filter for scenes of film "BigBuckBunny" and "BigBuckBunny.15.*.cxml" to filter for L3occurences of scene "15" in "BigBuckBunny" film
 
     public XmlWriterSettings XmlWritterSettings { get; set; } = DEFAULT_XML_WRITER_SETTINGS;
 

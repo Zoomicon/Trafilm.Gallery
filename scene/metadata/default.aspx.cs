@@ -14,7 +14,7 @@ using System.Linq;
 
 namespace Trafilm.Gallery
 {
-  public partial class SceneMetadataPage : BaseMetadataPage
+  public partial class ConversationMetadataPage : BaseMetadataPage
   {
 
     #region --- Initialization ---
@@ -22,16 +22,16 @@ namespace Trafilm.Gallery
     protected void Page_Load(object sender, EventArgs e)
     {
       filmStorage = new CXMLFragmentStorage<IFilm, Film>(Path.Combine(Request.PhysicalApplicationPath, @"film\films.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"film\metadata"), "*.cxml");
-      sceneStorage = new CXMLFragmentStorage<IScene, Scene>(Path.Combine(Request.PhysicalApplicationPath, @"scene\scenes.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"scene\metadata"), listFilms.SelectedValue + ".*.cxml");
-      utteranceStorage = new CXMLFragmentStorage<IUtterance, Utterance>(Path.Combine(Request.PhysicalApplicationPath, @"utterance\utterances.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"utterance\metadata"), listFilms.SelectedValue + ".*.cxml");
+      sceneStorage = new CXMLFragmentStorage<IConversation, Conversation>(Path.Combine(Request.PhysicalApplicationPath, @"scene\scenes.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"scene\metadata"), listFilms.SelectedValue + ".*.cxml");
+      utteranceStorage = new CXMLFragmentStorage<IL3occurence, L3occurence>(Path.Combine(Request.PhysicalApplicationPath, @"utterance\utterances.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"utterance\metadata"), listFilms.SelectedValue + ".*.cxml");
 
       if (!IsPostBack)
       {
         UpdateFilmsList(listFilms, "film", !IsPostBack);
         listFilms_SelectedIndexChanged(listFilms, null);
 
-        UpdateScenesList(listScenes, "scene", !IsPostBack);
-        listScenes_SelectedIndexChanged(listScenes, null);
+        UpdateConversationsList(listConversations, "scene", !IsPostBack);
+        listConversations_SelectedIndexChanged(listConversations, null);
       }
     }
 
@@ -39,20 +39,20 @@ namespace Trafilm.Gallery
 
     #region --- Methods ---
 
-    public void AddScene()
+    public void AddConversation()
     {
       string filmId = listFilms.SelectedValue;
-      string sceneId = filmId + "." + txtScene.Text;
-      txtScene.Text = "";
+      string sceneId = filmId + "." + txtConversation.Text;
+      txtConversation.Text = "";
 
-      CreateScene(filmId, sceneId);
-      SelectScene(sceneId);
+      CreateConversation(filmId, sceneId);
+      SelectConversation(sceneId);
     }
 
-    public void SelectScene(string sceneId)
+    public void SelectConversation(string sceneId)
     {
-      UpdateScenesList(listScenes, sceneId); //update list since it may not be up-to-date
-      listScenes_SelectedIndexChanged(listScenes, null);
+      UpdateConversationsList(listConversations, sceneId); //update list since it may not be up-to-date
+      listConversations_SelectedIndexChanged(listConversations, null);
     }
 
     #region Load
@@ -62,7 +62,7 @@ namespace Trafilm.Gallery
       DisplayMetadata(sceneStorage[sceneId]);
     }
 
-    public void DisplayMetadata(IScene scene)
+    public void DisplayMetadata(IConversation scene)
     {
       string key = scene.ReferenceId;
 
@@ -81,12 +81,12 @@ namespace Trafilm.Gallery
       UI.Load(lblInfoUpdated, scene.InfoUpdated.ToString(CXML.DEFAULT_DATETIME_FORMAT));
       UI.Load(txtKeywords, scene.Keywords);
 
-      //IScene//
+      //IConversation//
 
       UI.Load(listFilms, scene.FilmReferenceId);
 
-      UI.Load(txtStartTime, scene.StartTime.ToString(SceneMetadata.DEFAULT_POSITION_FORMAT));
-      UI.Load(txtDuration, scene.Duration.ToString(SceneMetadata.DEFAULT_DURATION_FORMAT));
+      UI.Load(txtStartTime, scene.StartTime.ToString(ConversationMetadata.DEFAULT_POSITION_FORMAT));
+      UI.Load(txtDuration, scene.Duration.ToString(ConversationMetadata.DEFAULT_DURATION_FORMAT));
 
       UI.Load(cbL1languagePresent, scene.L1languagePresent);
       UI.Load(cbL2languagePresent, scene.L2languagePresent);
@@ -94,7 +94,7 @@ namespace Trafilm.Gallery
       UI.Load(listSpeakingCharactersCount, scene.SpeakingCharactersCount);
       UI.Load(listL3speakingCharactersCount, scene.L3speakingCharactersCount);
 
-      //Calculatable from Utterances//
+      //Calculatable from L3occurences//
 
       UI.Load(lblL3languagesCount, CalculateL3languagesCount(key).ToString());
       clistL3languages.DataSource = CalculateL3languages(key);
@@ -102,7 +102,7 @@ namespace Trafilm.Gallery
       UI.Load(lblL3languageTypesCount, CalculateL3languageTypesCount(key).ToString());
       clistL3languageTypes.DataSource = CalculateL3languageTypes(key);
 
-      UI.Load(lblUtteranceCount, CalculateUtteranceCount(key).ToString());
+      UI.Load(lblL3occurenceCount, CalculateL3occurenceCount(key).ToString());
     }
 
     #endregion
@@ -111,7 +111,7 @@ namespace Trafilm.Gallery
 
     public ICXMLMetadata GetMetadataFromUI()
     {
-      IScene scene = new Scene();
+      IConversation scene = new Conversation();
       string key = listFilms.SelectedValue;
 
       //ICXMLMetadata//
@@ -128,12 +128,12 @@ namespace Trafilm.Gallery
       scene.InfoUpdated = DateTime.ParseExact(lblInfoUpdated.Text, CXML.DEFAULT_DATETIME_FORMAT, CultureInfo.InvariantCulture);
       scene.Keywords = UI.GetCommaSeparated(txtKeywords);
 
-      //IScene//
+      //IConversation//
 
       scene.FilmReferenceId = listFilms.SelectedValue;
 
-      scene.StartTime = txtStartTime.Text.ToNullableTimeSpan(SceneMetadata.DEFAULT_POSITION_FORMAT);
-      scene.Duration = txtDuration.Text.ToNullableTimeSpan(SceneMetadata.DEFAULT_DURATION_FORMAT);
+      scene.StartTime = txtStartTime.Text.ToNullableTimeSpan(ConversationMetadata.DEFAULT_POSITION_FORMAT);
+      scene.Duration = txtDuration.Text.ToNullableTimeSpan(ConversationMetadata.DEFAULT_DURATION_FORMAT);
 
       scene.L1languagePresent = cbL1languagePresent.Checked;
       scene.L2languagePresent = cbL2languagePresent.Checked;
@@ -141,7 +141,7 @@ namespace Trafilm.Gallery
       scene.SpeakingCharactersCount = listSpeakingCharactersCount.SelectedValue; //e.g. 1, 2, 3, more than 3
       scene.L3speakingCharactersCount = listL3speakingCharactersCount.SelectedValue; //e.g. 1, 2, 3, more than 3
 
-      //Calculatable from Utterances//
+      //Calculatable from L3occurences//
 
       scene.L3languagesCount = CalculateL3languagesCount(key);
       scene.L3languages = CalculateL3languages(key);
@@ -149,7 +149,7 @@ namespace Trafilm.Gallery
       scene.L3languageTypesCount = CalculateL3languageTypesCount(key);
       scene.L3languageTypes = CalculateL3languageTypes(key);
 
-      scene.UtteranceCount = CalculateUtteranceCount(key);
+      scene.L3occurenceCount = CalculateL3occurenceCount(key);
 
       return scene;
     }
@@ -157,17 +157,17 @@ namespace Trafilm.Gallery
     public void Save()
     {
       lblInfoUpdated.Text = DateTime.UtcNow.ToString(CXML.DEFAULT_DATETIME_FORMAT);
-      sceneStorage[listScenes.SelectedValue] = (IScene)GetMetadataFromUI();
+      sceneStorage[listConversations.SelectedValue] = (IConversation)GetMetadataFromUI();
     }
 
     public void SaveCollection()
     {
-      SaveCollection(Path.Combine(Request.PhysicalApplicationPath, "scene/scenes.cxml"), "Trafilm Gallery Scenes", Scene.MakeSceneFacetCategories(), sceneStorage.Values);
+      SaveCollection(Path.Combine(Request.PhysicalApplicationPath, "scene/scenes.cxml"), "Trafilm Gallery Conversations", Conversation.MakeConversationFacetCategories(), sceneStorage.Values);
     }
 
     #endregion
 
-    #region Calculated from Utterances
+    #region Calculated from L3occurences
 
     private int CalculateL3languagesCount(string key) //TODO
     {
@@ -189,7 +189,7 @@ namespace Trafilm.Gallery
       return new string[] { };
     }
 
-    private int CalculateUtteranceCount(string key)
+    private int CalculateL3occurenceCount(string key)
     {
       return utteranceStorage.Count;
     }
@@ -202,30 +202,30 @@ namespace Trafilm.Gallery
 
     protected void listFilms_SelectedIndexChanged(object sender, EventArgs e)
     {
-      sceneStorage = new CXMLFragmentStorage<IScene, Scene>(Path.Combine(Request.PhysicalApplicationPath, @"scene\scenes.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"scene\metadata"), listFilms.SelectedValue + ".*.cxml");
+      sceneStorage = new CXMLFragmentStorage<IConversation, Conversation>(Path.Combine(Request.PhysicalApplicationPath, @"scene\scenes.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"scene\metadata"), listFilms.SelectedValue + ".*.cxml");
 
       bool visible = (listFilms.SelectedIndex > 0);
-      panelSceneId.Visible = visible;
+      panelConversationId.Visible = visible;
       if (visible)
-        SelectScene(null); //this will also hide panelMetadata
+        SelectConversation(null); //this will also hide panelMetadata
     }
 
-    protected void listScenes_SelectedIndexChanged(object sender, EventArgs e)
+    protected void listConversations_SelectedIndexChanged(object sender, EventArgs e)
     {
-      utteranceStorage = new CXMLFragmentStorage<IUtterance, Utterance>(Path.Combine(Request.PhysicalApplicationPath, @"utterance\utterances.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"utterance\metadata"), listFilms.SelectedValue + ".*.cxml");
+      utteranceStorage = new CXMLFragmentStorage<IL3occurence, L3occurence>(Path.Combine(Request.PhysicalApplicationPath, @"utterance\utterances.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"utterance\metadata"), listFilms.SelectedValue + ".*.cxml");
 
-      bool visible = (listScenes.SelectedIndex > 0);
+      bool visible = (listConversations.SelectedIndex > 0);
       panelMetadata.Visible = visible;
       if (visible)
       {
-        DisplayMetadata(listScenes.SelectedValue);
-        UpdateRepeater(repeaterUtterances, utteranceStorage.Keys.Select(x=> new { filmId=listFilms.SelectedValue, sceneId=listScenes.SelectedValue, utteranceId = x }) );
+        DisplayMetadata(listConversations.SelectedValue);
+        UpdateRepeater(repeaterL3occurences, utteranceStorage.Keys.Select(x=> new { filmId=listFilms.SelectedValue, sceneId=listConversations.SelectedValue, utteranceId = x }) );
       }
     }
 
-    protected void btnAddScene_Click(object sender, EventArgs e)
+    protected void btnAddConversation_Click(object sender, EventArgs e)
     {
-      AddScene();
+      AddConversation();
     }
 
     protected void btnSave_Click(object sender, EventArgs e)

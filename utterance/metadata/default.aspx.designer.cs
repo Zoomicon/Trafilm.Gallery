@@ -10,7 +10,7 @@
 namespace Trafilm.Gallery {
     
     
-    public partial class UtteranceMetadataPage {
+    public partial class L3occurenceMetadataPage {
         
         /// <summary>
         /// xmlL3kind control.
@@ -166,58 +166,58 @@ namespace Trafilm.Gallery {
         protected global::System.Web.UI.WebControls.DropDownList listFilms;
         
         /// <summary>
-        /// panelSceneId control.
+        /// panelConversationId control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel panelSceneId;
+        protected global::System.Web.UI.WebControls.Panel panelConversationId;
         
         /// <summary>
-        /// listScenes control.
+        /// listConversations control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList listScenes;
+        protected global::System.Web.UI.WebControls.DropDownList listConversations;
         
         /// <summary>
-        /// panelUtteranceId control.
+        /// panelL3occurenceId control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel panelUtteranceId;
+        protected global::System.Web.UI.WebControls.Panel panelL3occurenceId;
         
         /// <summary>
-        /// listUtterances control.
+        /// listL3occurences control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList listUtterances;
+        protected global::System.Web.UI.WebControls.DropDownList listL3occurences;
         
         /// <summary>
-        /// txtUtterance control.
+        /// txtL3occurence control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtUtterance;
+        protected global::System.Web.UI.WebControls.TextBox txtL3occurence;
         
         /// <summary>
-        /// btnAddUtterance control.
+        /// btnAddL3occurence control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnAddUtterance;
+        protected global::System.Web.UI.WebControls.Button btnAddL3occurence;
         
         /// <summary>
         /// panelMetadata control.

@@ -22,8 +22,8 @@ namespace Trafilm.Gallery
     protected void Page_Load(object sender, EventArgs e)
     {
       filmStorage = new CXMLFragmentStorage<IFilm, Film>(Path.Combine(Request.PhysicalApplicationPath, @"film\films.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"film\metadata"), "*.cxml");
-      sceneStorage = new CXMLFragmentStorage<IScene, Scene>(Path.Combine(Request.PhysicalApplicationPath, @"scene\scenes.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"scene\metadata"), listFilms.SelectedValue + ".*.cxml");
-      utteranceStorage = new CXMLFragmentStorage<IUtterance, Utterance>(Path.Combine(Request.PhysicalApplicationPath, @"utterance\utterances.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"utterance\metadata"), listFilms.SelectedValue + ".*.cxml");
+      sceneStorage = new CXMLFragmentStorage<IConversation, Conversation>(Path.Combine(Request.PhysicalApplicationPath, @"scene\scenes.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"scene\metadata"), listFilms.SelectedValue + ".*.cxml");
+      utteranceStorage = new CXMLFragmentStorage<IL3occurence, L3occurence>(Path.Combine(Request.PhysicalApplicationPath, @"utterance\utterances.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"utterance\metadata"), listFilms.SelectedValue + ".*.cxml");
 
       if (!IsPostBack)
       {
@@ -100,10 +100,10 @@ namespace Trafilm.Gallery
       UI.Load(clistDubbedLanguages, film.DubbedLanguages);
       UI.Load(clistSubtitledLanguages, film.SubtitledLanguages);
 
-      //Calculatable from Scenes//
+      //Calculatable from Conversations//
 
-      UI.Load(lblSceneCount, CalculateSceneCount(key).ToString());
-      UI.Load(lblScenesDuration, CalculateScenesDuration(key).ToString(SceneMetadata.DEFAULT_DURATION_FORMAT));
+      UI.Load(lblConversationCount, CalculateConversationCount(key).ToString());
+      UI.Load(lblConversationsDuration, CalculateConversationsDuration(key).ToString(ConversationMetadata.DEFAULT_DURATION_FORMAT));
     }
  
     #endregion
@@ -154,10 +154,10 @@ namespace Trafilm.Gallery
       film.DubbedLanguages = UI.GetSelected(clistDubbedLanguages);
       film.SubtitledLanguages = UI.GetSelected(clistSubtitledLanguages);
 
-      //Calculatable from Scenes//
+      //Calculatable from Conversations//
 
-      film.SceneCount = CalculateSceneCount(key);
-      film.ScenesDuration = CalculateScenesDuration(key);
+      film.ConversationCount = CalculateConversationCount(key);
+      film.ConversationsDuration = CalculateConversationsDuration(key);
 
       return film;
     }
@@ -175,17 +175,17 @@ namespace Trafilm.Gallery
 
     #endregion
 
-    #region Calculated from Scenes
+    #region Calculated from Conversations
 
-    private int CalculateSceneCount(string key)
+    private int CalculateConversationCount(string key)
     {
       return sceneStorage.Count;
     }
 
-    private TimeSpan CalculateScenesDuration(string key) //TODO
+    private TimeSpan CalculateConversationsDuration(string key) //TODO
     {
       TimeSpan duration = TimeSpan.Zero;
-      foreach (IScene scene in sceneStorage.Values)
+      foreach (IConversation scene in sceneStorage.Values)
         if (scene.Duration != null)
           duration += (TimeSpan)scene.Duration;
       return duration;
@@ -199,15 +199,15 @@ namespace Trafilm.Gallery
 
     protected void listFilms_SelectedIndexChanged(object sender, EventArgs e)
     {
-      sceneStorage = new CXMLFragmentStorage<IScene, Scene>(Path.Combine(Request.PhysicalApplicationPath, @"scene\scenes.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"scene\metadata"), listFilms.SelectedValue + ".*.cxml");
-      utteranceStorage = new CXMLFragmentStorage<IUtterance, Utterance>(Path.Combine(Request.PhysicalApplicationPath, @"utterance\utterances.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"utterance\metadata"), listFilms.SelectedValue + ".*.cxml");
+      sceneStorage = new CXMLFragmentStorage<IConversation, Conversation>(Path.Combine(Request.PhysicalApplicationPath, @"scene\scenes.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"scene\metadata"), listFilms.SelectedValue + ".*.cxml");
+      utteranceStorage = new CXMLFragmentStorage<IL3occurence, L3occurence>(Path.Combine(Request.PhysicalApplicationPath, @"utterance\utterances.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"utterance\metadata"), listFilms.SelectedValue + ".*.cxml");
 
       bool visible = (listFilms.SelectedIndex > 0);
       panelMetadata.Visible = visible;
       if (visible)
       {
         DisplayMetadata(listFilms.SelectedValue);
-        UpdateRepeater(repeaterScenes, sceneStorage.Keys.Select(x => new { filmId = listFilms.SelectedValue, sceneId = x }) );
+        UpdateRepeater(repeaterConversations, sceneStorage.Keys.Select(x => new { filmId = listFilms.SelectedValue, sceneId = x }) );
       }
     }
 

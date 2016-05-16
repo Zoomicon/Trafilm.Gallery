@@ -10,7 +10,7 @@
 namespace Trafilm.Gallery {
     
     
-    public partial class SceneMetadataPage {
+    public partial class ConversationMetadataPage {
         
         /// <summary>
         /// xmlCount control.
@@ -40,40 +40,40 @@ namespace Trafilm.Gallery {
         protected global::System.Web.UI.WebControls.DropDownList listFilms;
         
         /// <summary>
-        /// panelSceneId control.
+        /// panelConversationId control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel panelSceneId;
+        protected global::System.Web.UI.WebControls.Panel panelConversationId;
         
         /// <summary>
-        /// listScenes control.
+        /// listConversations control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList listScenes;
+        protected global::System.Web.UI.WebControls.DropDownList listConversations;
         
         /// <summary>
-        /// txtScene control.
+        /// txtConversation control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtScene;
+        protected global::System.Web.UI.WebControls.TextBox txtConversation;
         
         /// <summary>
-        /// btnAddScene control.
+        /// btnAddConversation control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnAddScene;
+        protected global::System.Web.UI.WebControls.Button btnAddConversation;
         
         /// <summary>
         /// panelMetadata control.
@@ -229,22 +229,22 @@ namespace Trafilm.Gallery {
         protected global::System.Web.UI.WebControls.ListBox clistL3languageTypes;
         
         /// <summary>
-        /// lblUtteranceCount control.
+        /// lblL3occurenceCount control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblUtteranceCount;
+        protected global::System.Web.UI.WebControls.Label lblL3occurenceCount;
         
         /// <summary>
-        /// repeaterUtterances control.
+        /// repeaterL3occurences control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Repeater repeaterUtterances;
+        protected global::System.Web.UI.WebControls.Repeater repeaterL3occurences;
         
         /// <summary>
         /// btnSave control.
