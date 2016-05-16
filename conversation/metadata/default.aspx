@@ -115,13 +115,11 @@ Version: 20160516
         
 
         <div class="question">
-          <div class="label">L1 (source) language present</div>
-          <asp:CheckBox ID="cbL1languagePresent" runat="server" />
+          <asp:CheckBox ID="cbL1languagePresent" runat="server" Text="L1 (source) language present" CssClass="label" />
         </div>
 
         <div class="question">
-          <div class="label">L2 (translated) language present</div>
-          <asp:CheckBox ID="cbL2languagePresent" runat="server" />
+          <asp:CheckBox ID="cbL2languagePresent" runat="server" Text=">L2 (translated) language present" CssClass="label" />
         </div>
 
 
