@@ -160,13 +160,11 @@ Version: 20160516
 
 
         <div class="question">
-          <div class="label">L2 language same as L3ST</div>
-          <asp:CheckBox ID="cbL2sameAsL3ST" runat="server" />
+          <asp:CheckBox ID="cbL2sameAsL3ST" runat="server" Text="L2 language same as L3ST" CssClass="label" />
         </div>
 
         <div class="question">
-          <div class="label">L3ST conveyed as L3TT</div>
-          <asp:CheckBox ID="cbL3STconveyedAsL3TT" runat="server" />
+          <asp:CheckBox ID="cbL3STconveyedAsL3TT" runat="server" Text="L3ST conveyed as L3TT" CssClass="label" />
         </div>
 
 
