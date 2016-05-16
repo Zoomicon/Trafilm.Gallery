@@ -226,7 +226,7 @@ namespace Trafilm.Gallery {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBoxList clistL3languages;
+        protected global::System.Web.UI.WebControls.ListBox clistL3languages;
         
         /// <summary>
         /// lblL3languageTypesCount control.
@@ -244,7 +244,7 @@ namespace Trafilm.Gallery {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBoxList clistL3languageTypes;
+        protected global::System.Web.UI.WebControls.ListBox clistL3languageTypes;
         
         /// <summary>
         /// lblUtteranceCount control.

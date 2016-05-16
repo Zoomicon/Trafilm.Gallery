@@ -104,12 +104,12 @@ Version: 20160516
         <%-- ISceneMetadata --%>
 
         <div class="question">
-          <div class="label">Scene Start Time (h:m:s.f)</div>
+          <div class="label">Scene Start Time (h:m:s)</div>
           <asp:TextBox ID="txtStartTime" runat="server" Columns="25"></asp:TextBox>
         </div>
 
         <div class="question">
-          <div class="label">Scene Duration (h:m:s.f)</div>
+          <div class="label">Scene Duration (h:m:s)</div>
           <asp:TextBox ID="txtDuration" runat="server" Columns="25"></asp:TextBox>
         </div>
         
@@ -154,7 +154,7 @@ Version: 20160516
             ScrollBars="Auto"
             Enabled="false"
             >
-            <asp:CheckBoxList ID="clistL3languages" runat="server" 
+            <asp:ListBox ID="clistL3languages" runat="server" 
               DataSourceID="xmlLanguages" DataTextField="Value" DataValueField="Value" 
               />
            </asp:Panel>
@@ -173,7 +173,7 @@ Version: 20160516
             ScrollBars="Auto"
             Enabled="false"
             >
-            <asp:CheckBoxList ID="clistL3languageTypes" runat="server" 
+            <asp:ListBox ID="clistL3languageTypes" runat="server" 
               DataSourceID="xmlL3languageTypes" DataTextField="Value" DataValueField="Value" 
               />
            </asp:Panel>
