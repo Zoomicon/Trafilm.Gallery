@@ -2,12 +2,12 @@
 
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
-Filename: utterance/metadata/L3messageUnderstanding.xml
+Filename: L3occurence/metadata/L3messageUnderstanding.xml
 Version: 20160512
 -->
 
 <Facet Name="L3messageUnderstanding">
   <String Value="" />
   <String Value="YES" />
-  <String Value="NO, scene can be followed regardless of meaning" />
+  <String Value="NO, conversation can be followed regardless of meaning" />
 </Facet>

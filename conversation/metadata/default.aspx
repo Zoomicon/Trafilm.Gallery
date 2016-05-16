@@ -4,7 +4,7 @@
 
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
-Filename: scene\metadata\default.aspx
+Filename: conversation\metadata\default.aspx
 Version: 20160516
 -->
 
@@ -27,9 +27,9 @@ Version: 20160516
     <div class="navigation">
        <a href="../../film/metadata/?film=<%=listFilms.SelectedValue%>">Film Metadata</a>
        &nbsp;&nbsp;-&nbsp;&nbsp;
-       <a class="selected" href="../../scene/metadata/">Conversation Metadata</a>
+       <a class="selected" href="../../conversation/metadata/">Conversation Metadata</a>
        &nbsp;&nbsp;-&nbsp;&nbsp;
-       <a href="../../utterance/metadata/?film=<%=listFilms.SelectedValue%>&scene=<%=listConversations.SelectedValue%>">L3occurence Metadata</a>
+       <a href="../../L3occurence/metadata/?film=<%=listFilms.SelectedValue%>&conversation=<%=listConversations.SelectedValue%>">L3occurence Metadata</a>
     </div>
 
     <%-- INSTRUCTION BOX --%>
@@ -185,7 +185,7 @@ Version: 20160516
             <div class="label">List of L3occurences<div>
           </HeaderTemplate>
           <ItemTemplate>
-            <a href="../../utterance/metadata/?film=<%#Eval("filmId")%>&scene=<%#Eval("sceneId")%>&utterance=<%#Eval("utteranceId")%>"><%#Eval("utteranceId")%></a>&nbsp;&nbsp;
+            <a href="../../L3occurence/metadata/?film=<%#Eval("filmId")%>&conversation=<%#Eval("conversationId")%>&L3occurence=<%#Eval("L3occurenceId")%>"><%#Eval("L3occurenceId")%></a>&nbsp;&nbsp;
           </ItemTemplate>
         </asp:Repeater>
 

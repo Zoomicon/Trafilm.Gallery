@@ -4,7 +4,7 @@
 
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
-Filename: utterance\metadata\default.aspx
+Filename: L3occurence\metadata\default.aspx
 Version: 20160516
 -->
 
@@ -20,30 +20,30 @@ Version: 20160516
 
     <%-- DATA SOURCES --%>
 
-    <asp:XmlDataSource ID="xmlL3kind" runat="server" DataFile="~/utterance/metadata/L3kind.xml" XPath="Facet/String" />
-    <asp:XmlDataSource ID="xmlLmainLanguage" runat="server" DataFile="~/utterance/metadata/LmainLanguage.xml" XPath="Facet/String" />
-    <asp:XmlDataSource ID="xmlLmainMode" runat="server" DataFile="~/utterance/metadata/LmainMode.xml" XPath="Facet/String" />    
-    <asp:XmlDataSource ID="xmlL3languageType" runat="server" DataFile="~/utterance/metadata/L3languageType.xml" XPath="Facet/String" />
-    <asp:XmlDataSource ID="xmlL3constructedBasedOn" runat="server" DataFile="~/utterance/metadata/L3constructedBasedOn.xml" XPath="Facet/String" />
-    <asp:XmlDataSource ID="xmlL3audienceUnderstanding" runat="server" DataFile="~/utterance/metadata/L3audienceUnderstanding.xml" XPath="Facet/String" />
-    <asp:XmlDataSource ID="xmlL3messageUnderstanding" runat="server" DataFile="~/utterance/metadata/L3messageUnderstanding.xml" XPath="Facet/String" />
-    <asp:XmlDataSource ID="xmlL3meaningDeciphered" runat="server" DataFile="~/utterance/metadata/L3meaningDeciphered.xml" XPath="Facet/String" />
-    <asp:XmlDataSource ID="xmlL3speakerPerformance" runat="server" DataFile="~/utterance/metadata/L3speakerPerformance.xml" XPath="Facet/String" />
-    <asp:XmlDataSource ID="xmlL3mode" runat="server" DataFile="~/utterance/metadata/L3mode.xml" XPath="Facet/String" />
-    <asp:XmlDataSource ID="xmlL3STmodeChange" runat="server" DataFile="~/utterance/metadata/L3STmodeChange.xml" XPath="Facet/String" />
-    <asp:XmlDataSource ID="xmlL3represented" runat="server" DataFile="~/utterance/metadata/L3represented.xml" XPath="Facet/String" />
-    <asp:XmlDataSource ID="xmlL3representationsOral" runat="server" DataFile="~/utterance/metadata/L3representationsOral.xml" XPath="Facet/String" />
-    <asp:XmlDataSource ID="xmlL3representationsVisual" runat="server" DataFile="~/utterance/metadata/L3representationsVisual.xml" XPath="Facet/String" />
-    <asp:XmlDataSource ID="xmlL3functions" runat="server" DataFile="~/utterance/metadata/L3functions.xml" XPath="Facet/String" />
+    <asp:XmlDataSource ID="xmlL3kind" runat="server" DataFile="~/L3occurence/metadata/L3kind.xml" XPath="Facet/String" />
+    <asp:XmlDataSource ID="xmlLmainLanguage" runat="server" DataFile="~/L3occurence/metadata/LmainLanguage.xml" XPath="Facet/String" />
+    <asp:XmlDataSource ID="xmlLmainMode" runat="server" DataFile="~/L3occurence/metadata/LmainMode.xml" XPath="Facet/String" />    
+    <asp:XmlDataSource ID="xmlL3languageType" runat="server" DataFile="~/L3occurence/metadata/L3languageType.xml" XPath="Facet/String" />
+    <asp:XmlDataSource ID="xmlL3constructedBasedOn" runat="server" DataFile="~/L3occurence/metadata/L3constructedBasedOn.xml" XPath="Facet/String" />
+    <asp:XmlDataSource ID="xmlL3audienceUnderstanding" runat="server" DataFile="~/L3occurence/metadata/L3audienceUnderstanding.xml" XPath="Facet/String" />
+    <asp:XmlDataSource ID="xmlL3messageUnderstanding" runat="server" DataFile="~/L3occurence/metadata/L3messageUnderstanding.xml" XPath="Facet/String" />
+    <asp:XmlDataSource ID="xmlL3meaningDeciphered" runat="server" DataFile="~/L3occurence/metadata/L3meaningDeciphered.xml" XPath="Facet/String" />
+    <asp:XmlDataSource ID="xmlL3speakerPerformance" runat="server" DataFile="~/L3occurence/metadata/L3speakerPerformance.xml" XPath="Facet/String" />
+    <asp:XmlDataSource ID="xmlL3mode" runat="server" DataFile="~/L3occurence/metadata/L3mode.xml" XPath="Facet/String" />
+    <asp:XmlDataSource ID="xmlL3STmodeChange" runat="server" DataFile="~/L3occurence/metadata/L3STmodeChange.xml" XPath="Facet/String" />
+    <asp:XmlDataSource ID="xmlL3represented" runat="server" DataFile="~/L3occurence/metadata/L3represented.xml" XPath="Facet/String" />
+    <asp:XmlDataSource ID="xmlL3representationsOral" runat="server" DataFile="~/L3occurence/metadata/L3representationsOral.xml" XPath="Facet/String" />
+    <asp:XmlDataSource ID="xmlL3representationsVisual" runat="server" DataFile="~/L3occurence/metadata/L3representationsVisual.xml" XPath="Facet/String" />
+    <asp:XmlDataSource ID="xmlL3functions" runat="server" DataFile="~/L3occurence/metadata/L3functions.xml" XPath="Facet/String" />
 
     <%-- NAVIGATION MENU --%>
 
     <div class="navigation">
        <a href="../../film/metadata/?film=<%=listFilms.SelectedValue%>">Film Metadata</a>
        &nbsp;&nbsp;-&nbsp;&nbsp;
-       <a href="../../scene/metadata/?film=<%=listFilms.SelectedValue%>&scene=<%=listConversations.SelectedValue%>">Conversation Metadata</a>
+       <a href="../../conversation/metadata/?film=<%=listFilms.SelectedValue%>&conversation=<%=listConversations.SelectedValue%>">Conversation Metadata</a>
        &nbsp;&nbsp;-&nbsp;&nbsp;
-       <a class="selected" href="../../utterance/metadata/">L3-occurence Metadata</a>
+       <a class="selected" href="../../L3occurence/metadata/">L3-occurence Metadata</a>
     </div>
 
     <%-- INSTRUCTIONS BOX --%>

@@ -22,8 +22,8 @@ namespace Trafilm.Gallery
     #region --- Fields ---
 
     protected CXMLFragmentStorage<IFilm, Film> filmStorage;
-    protected CXMLFragmentStorage<IConversation, Conversation> sceneStorage;
-    protected CXMLFragmentStorage<IL3occurence, L3occurence> utteranceStorage;
+    protected CXMLFragmentStorage<IConversation, Conversation> conversationStorage;
+    protected CXMLFragmentStorage<IL3occurence, L3occurence> L3occurenceStorage;
 
     #endregion
 
@@ -44,32 +44,32 @@ namespace Trafilm.Gallery
       }
     }
 
-    public void CreateConversation(string filmId, string sceneId) //don't return IConversation to avoid loading a .CXML file if already exists
+    public void CreateConversation(string filmId, string conversationId) //don't return IConversation to avoid loading a .CXML file if already exists
     {
-      if (!sceneStorage.Keys.Contains(sceneId))
+      if (!conversationStorage.Keys.Contains(conversationId))
       {
-        IConversation scene = new Conversation();
-        scene.Clear();
-        scene.Title = sceneId;
-        scene.FilmReferenceId = filmId;
-        scene.ReferenceId = sceneId;
+        IConversation conversation = new Conversation();
+        conversation.Clear();
+        conversation.Title = conversationId;
+        conversation.FilmReferenceId = filmId;
+        conversation.ReferenceId = conversationId;
 
-        sceneStorage[sceneId] = scene;
+        conversationStorage[conversationId] = conversation;
       }
     }
 
-    public void CreateL3occurence(string filmId, string sceneId, string utteranceId) //don't return IL3occurence to avoid loading a .CXML file if already exists
+    public void CreateL3occurence(string filmId, string conversationId, string L3occurenceId) //don't return IL3occurence to avoid loading a .CXML file if already exists
     {
-      if (!utteranceStorage.Keys.Contains(utteranceId))
+      if (!L3occurenceStorage.Keys.Contains(L3occurenceId))
       {
-        IL3occurence utterance = new L3occurence();
-        utterance.Clear();
-        utterance.Title = utteranceId;
-        utterance.FilmReferenceId = filmId;
-        utterance.ConversationReferenceId = sceneId;
-        utterance.ReferenceId = utteranceId;
+        IL3occurence L3occurence = new L3occurence();
+        L3occurence.Clear();
+        L3occurence.Title = L3occurenceId;
+        L3occurence.FilmReferenceId = filmId;
+        L3occurence.ConversationReferenceId = conversationId;
+        L3occurence.ReferenceId = L3occurenceId;
 
-        utteranceStorage[utteranceId] = utterance;
+        L3occurenceStorage[L3occurenceId] = L3occurence;
       }
     }
 
@@ -109,12 +109,12 @@ namespace Trafilm.Gallery
 
     public void UpdateConversationsList(ListControl list, string selectedValue = null, bool isQueryStringItem = false)
     {
-      UpdateList(list, sceneStorage.Keys, selectedValue, isQueryStringItem);
+      UpdateList(list, conversationStorage.Keys, selectedValue, isQueryStringItem);
     }
 
     public void UpdateL3occurencesList(ListControl list, string selectedValue = null, bool isQueryStringItem = false)
     {
-      UpdateList(list, utteranceStorage.Keys, selectedValue, isQueryStringItem);
+      UpdateList(list, L3occurenceStorage.Keys, selectedValue, isQueryStringItem);
     }
 
     #endregion

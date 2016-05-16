@@ -2,12 +2,12 @@
 
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
-Filename: utterance/metadata/L3meaningDeciphered.xml
+Filename: L3occurence/metadata/LmainMode.xml
 Version: 20160512
 -->
 
-<Facet Name="L3meaningDeciphered">
+<Facet Name="LmainMode">
   <String Value="" />
-  <String Value="YES, translation or clear from picture" />
-  <String Value="NO" />
+  <String Value="oral / dubbed" />
+  <String Value="text / subtitled" />
 </Facet>

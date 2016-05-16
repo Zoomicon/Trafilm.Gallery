@@ -28,9 +28,9 @@ Version: 20160516
     <div class="navigation">
        <a class="selected" href="../../film/metadata/">Film Metadata</a>
        &nbsp;&nbsp;-&nbsp;&nbsp;
-       <a href="../../scene/metadata/?film=<%=listFilms.SelectedValue%>">Conversation Metadata</a>
+       <a href="../../conversation/metadata/?film=<%=listFilms.SelectedValue%>">Conversation Metadata</a>
        &nbsp;&nbsp;-&nbsp;&nbsp;
-       <a href="../../utterance/metadata/?film=<%=listFilms.SelectedValue%>">L3occurence Metadata</a>
+       <a href="../../L3occurence/metadata/?film=<%=listFilms.SelectedValue%>">L3occurence Metadata</a>
     </div>
 
     <%-- INSTRUCTION BOX --%>
@@ -210,7 +210,7 @@ Version: 20160516
             <div class="label">List of Conversations<div>
           </HeaderTemplate>
           <ItemTemplate>
-            <a href="../../scene/metadata/?film=<%#Eval("filmId")%>&scene=<%#Eval("sceneId")%>"><%#Eval("sceneId")%></a>&nbsp;&nbsp;
+            <a href="../../conversation/metadata/?film=<%#Eval("filmId")%>&conversation=<%#Eval("conversationId")%>"><%#Eval("conversationId")%></a>&nbsp;&nbsp;
           </ItemTemplate>
         </asp:Repeater>
 

@@ -52,8 +52,8 @@
     <Content Include="metadata\Count.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="scene\default.html" />
-    <Content Include="scene\metadata\default.aspx" />
+    <Content Include="conversation\default.html" />
+    <Content Include="conversation\metadata\default.aspx" />
     <Content Include="ClientAccessPolicy.xml">
       <SubType>Designer</SubType>
     </Content>
@@ -65,51 +65,51 @@
     <Content Include="seajax\css\PivotView.css" />
     <Content Include="seajax\css\search.gif" />
     <Content Include="seajax\seadragon-pivot-standalone-min.js" />
-    <Content Include="utterance\default.html" />
-    <Content Include="utterance\metadata\L3meaningDeciphered.xml">
+    <Content Include="L3occurence\default.html" />
+    <Content Include="L3occurence\metadata\L3meaningDeciphered.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="utterance\metadata\L3representationsVisual.xml">
+    <Content Include="L3occurence\metadata\L3representationsVisual.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="utterance\metadata\L3representationsOral.xml">
+    <Content Include="L3occurence\metadata\L3representationsOral.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="utterance\metadata\LmainLanguage.xml" />
-    <Content Include="utterance\metadata\LmainMode.xml">
+    <Content Include="L3occurence\metadata\LmainLanguage.xml" />
+    <Content Include="L3occurence\metadata\LmainMode.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="utterance\metadata\L3represented.xml">
+    <Content Include="L3occurence\metadata\L3represented.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="utterance\metadata\L3STmodeChange.xml">
+    <Content Include="L3occurence\metadata\L3STmodeChange.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="utterance\metadata\L3speakerPerformance.xml">
+    <Content Include="L3occurence\metadata\L3speakerPerformance.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="utterance\metadata\L3messageUnderstanding.xml">
+    <Content Include="L3occurence\metadata\L3messageUnderstanding.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="utterance\metadata\L3constructedBasedOn.xml">
+    <Content Include="L3occurence\metadata\L3constructedBasedOn.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="utterance\metadata\L3audienceUnderstanding.xml">
+    <Content Include="L3occurence\metadata\L3audienceUnderstanding.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="utterance\metadata\L3languageType.xml">
+    <Content Include="L3occurence\metadata\L3languageType.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="utterance\metadata\L3mode.xml">
+    <Content Include="L3occurence\metadata\L3mode.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="utterance\metadata\L3functions.xml">
+    <Content Include="L3occurence\metadata\L3functions.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="utterance\metadata\L3kind.xml">
+    <Content Include="L3occurence\metadata\L3kind.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="utterance\metadata\default.aspx" />
+    <Content Include="L3occurence\metadata\default.aspx" />
     <Content Include="metadata\Languages.xml" />
     <Content Include="metadata\Default.aspx" />
     <Content Include="film\metadata\default.aspx" />
@@ -117,21 +117,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="utils\CXMLFragmentStorage.cs" />
-    <Compile Include="scene\metadata\default.aspx.cs">
+    <Compile Include="conversation\metadata\default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="scene\metadata\default.aspx.designer.cs">
+    <Compile Include="conversation\metadata\default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
     </Compile>
     <Compile Include="metadata\BaseMetadataPage.cs">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="utterance\metadata\default.aspx.cs">
+    <Compile Include="L3occurence\metadata\default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="utterance\metadata\default.aspx.designer.cs">
+    <Compile Include="L3occurence\metadata\default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
     </Compile>
     <Compile Include="utils\UI.cs" />

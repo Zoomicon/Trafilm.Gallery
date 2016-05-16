@@ -22,8 +22,8 @@ namespace Trafilm.Gallery
     protected void Page_Load(object sender, EventArgs e)
     {
       filmStorage = new CXMLFragmentStorage<IFilm, Film>(Path.Combine(Request.PhysicalApplicationPath, @"film\films.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"film\metadata"), "*.cxml");
-      sceneStorage = new CXMLFragmentStorage<IConversation, Conversation>(Path.Combine(Request.PhysicalApplicationPath, @"scene\scenes.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"scene\metadata"), listFilms.SelectedValue + ".*.cxml");
-      utteranceStorage = new CXMLFragmentStorage<IL3occurence, L3occurence>(Path.Combine(Request.PhysicalApplicationPath, @"utterance\utterances.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"utterance\metadata"), listFilms.SelectedValue + ".*.cxml");
+      conversationStorage = new CXMLFragmentStorage<IConversation, Conversation>(Path.Combine(Request.PhysicalApplicationPath, @"conversation\conversations.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"conversation\metadata"), listFilms.SelectedValue + ".*.cxml");
+      L3occurenceStorage = new CXMLFragmentStorage<IL3occurence, L3occurence>(Path.Combine(Request.PhysicalApplicationPath, @"L3occurence\L3occurences.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"L3occurence\metadata"), listFilms.SelectedValue + ".*.cxml");
 
       if (!IsPostBack)
       {
@@ -179,15 +179,15 @@ namespace Trafilm.Gallery
 
     private int CalculateConversationCount(string key)
     {
-      return sceneStorage.Count;
+      return conversationStorage.Count;
     }
 
     private TimeSpan CalculateConversationsDuration(string key) //TODO
     {
       TimeSpan duration = TimeSpan.Zero;
-      foreach (IConversation scene in sceneStorage.Values)
-        if (scene.Duration != null)
-          duration += (TimeSpan)scene.Duration;
+      foreach (IConversation conversation in conversationStorage.Values)
+        if (conversation.Duration != null)
+          duration += (TimeSpan)conversation.Duration;
       return duration;
     }
 
@@ -199,15 +199,15 @@ namespace Trafilm.Gallery
 
     protected void listFilms_SelectedIndexChanged(object sender, EventArgs e)
     {
-      sceneStorage = new CXMLFragmentStorage<IConversation, Conversation>(Path.Combine(Request.PhysicalApplicationPath, @"scene\scenes.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"scene\metadata"), listFilms.SelectedValue + ".*.cxml");
-      utteranceStorage = new CXMLFragmentStorage<IL3occurence, L3occurence>(Path.Combine(Request.PhysicalApplicationPath, @"utterance\utterances.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"utterance\metadata"), listFilms.SelectedValue + ".*.cxml");
+      conversationStorage = new CXMLFragmentStorage<IConversation, Conversation>(Path.Combine(Request.PhysicalApplicationPath, @"conversation\conversations.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"conversation\metadata"), listFilms.SelectedValue + ".*.cxml");
+      L3occurenceStorage = new CXMLFragmentStorage<IL3occurence, L3occurence>(Path.Combine(Request.PhysicalApplicationPath, @"L3occurence\L3occurences.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"L3occurence\metadata"), listFilms.SelectedValue + ".*.cxml");
 
       bool visible = (listFilms.SelectedIndex > 0);
       panelMetadata.Visible = visible;
       if (visible)
       {
         DisplayMetadata(listFilms.SelectedValue);
-        UpdateRepeater(repeaterConversations, sceneStorage.Keys.Select(x => new { filmId = listFilms.SelectedValue, sceneId = x }) );
+        UpdateRepeater(repeaterConversations, conversationStorage.Keys.Select(x => new { filmId = listFilms.SelectedValue, conversationId = x }) );
       }
     }
 
