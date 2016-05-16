@@ -22,8 +22,8 @@ namespace Trafilm.Gallery
     protected void Page_Load(object sender, EventArgs e)
     {
       filmStorage = new CXMLFragmentStorage<IFilm, Film>(Path.Combine(Request.PhysicalApplicationPath, @"film\films.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"film\metadata"), "*.cxml");
-      sceneStorage = new CXMLFragmentStorage<IScene, Scene>(Path.Combine(Request.PhysicalApplicationPath, @"scene\scenes.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"scene\metadata"), listFilms.SelectedValue + ".*.cxml");
-      utteranceStorage = new CXMLFragmentStorage<IUtterance, Utterance>(Path.Combine(Request.PhysicalApplicationPath, @"utterance\utterances.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"utterance\metadata"), listFilms.SelectedValue + ".*.cxml");
+      conversationStorage = new CXMLFragmentStorage<IConversation, Conversation>(Path.Combine(Request.PhysicalApplicationPath, @"conversation\conversations.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"conversation\metadata"), listFilms.SelectedValue + ".*.cxml");
+      L3occurenceStorage = new CXMLFragmentStorage<IL3occurence, L3occurence>(Path.Combine(Request.PhysicalApplicationPath, @"L3occurence\L3occurences.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"L3occurence\metadata"), listFilms.SelectedValue + ".*.cxml");
 
       if (!IsPostBack)
       {
@@ -58,52 +58,52 @@ namespace Trafilm.Gallery
        DisplayMetadata(filmStorage[filmId]);
     }
 
-    public void DisplayMetadata(IFilm film)
+    public void DisplayMetadata(IFilm metadata)
     {
-      string key = film.ReferenceId;
+      string key = metadata.ReferenceId;
 
       //ICXMLMetadata//
 
       //Ignoring the Id field, since some Pivot Tools expect it to be sequential
-      UI.Load(txtTitle, film.Title);
+      UI.Load(txtTitle, metadata.Title);
       //Not showing any Image field
       UI.Load(linkUrl, new Uri("http://gallery.trafilm.net/?film=" + key));
-      UI.Load(txtDescription, film.Description);
+      UI.Load(txtDescription, metadata.Description);
 
       //ITrafilmMetadata//
 
       //No need to show film.ReferenceId since we calculate and show the URL, plus the ReferenceId is used as the key and shown at the dropdown list
-      UI.Load(lblInfoCreated, film.InfoCreated.ToString(CXML.DEFAULT_DATETIME_FORMAT));
-      UI.Load(lblInfoUpdated, film.InfoUpdated.ToString(CXML.DEFAULT_DATETIME_FORMAT));
-      UI.Load(txtKeywords, film.Keywords);
+      UI.Load(lblInfoCreated, metadata.InfoCreated.ToString(CXML.DEFAULT_DATETIME_FORMAT));
+      UI.Load(lblInfoUpdated, metadata.InfoUpdated.ToString(CXML.DEFAULT_DATETIME_FORMAT));
+      UI.Load(txtKeywords, metadata.Keywords);
 
       //IFilm//
 
-      UI.Load(txtTitle_es, film.Title_es);
-      UI.Load(txtTitle_ca, film.Title_ca);
+      UI.Load(txtTitle_es, metadata.Title_es);
+      UI.Load(txtTitle_ca, metadata.Title_ca);
       //...
 
-      UI.Load(txtDuration, film.Duration.ToString(FilmMetadata.DEFAULT_DURATION_FORMAT));
+      UI.Load(txtDuration, metadata.Duration.ToString(FilmMetadata.DEFAULT_DURATION_FORMAT));
 
-      UI.Load(txtDirectors, film.Directors);
-      UI.Load(txtScriptwriters, film.Scriptwriters);
+      UI.Load(txtDirectors, metadata.Directors);
+      UI.Load(txtScriptwriters, metadata.Scriptwriters);
 
-      UI.Load(clistProductionCountries, film.ProductionCountries);
-      UI.Load(txtProductionCompanies, film.ProductionCompanies);
+      UI.Load(clistProductionCountries, metadata.ProductionCountries);
+      UI.Load(txtProductionCompanies, metadata.ProductionCompanies);
 
-      UI.Load(txtBoxOffice, film.BoxOffice);
-      UI.Load(txtYear, film.Year.ToString());
+      UI.Load(txtBoxOffice, metadata.BoxOffice);
+      UI.Load(txtYear, metadata.Year.ToString());
 
-      UI.Load(clistSourceLanguages, film.SourceLanguages);
+      UI.Load(clistSourceLanguages, metadata.SourceLanguages);
 
-      UI.Load(txtYearTranslated, film.YearTranslated.ToString());
-      UI.Load(clistDubbedLanguages, film.DubbedLanguages);
-      UI.Load(clistSubtitledLanguages, film.SubtitledLanguages);
+      UI.Load(txtYearTranslated, metadata.YearTranslated.ToString());
+      UI.Load(clistDubbedLanguages, metadata.DubbedLanguages);
+      UI.Load(clistSubtitledLanguages, metadata.SubtitledLanguages);
 
-      //Calculatable from Scenes//
+      //Calculatable from Conversations//
 
-      UI.Load(lblSceneCount, CalculateSceneCount(key).ToString());
-      UI.Load(lblScenesDuration, CalculateScenesDuration(key).ToString(SceneMetadata.DEFAULT_DURATION_FORMAT));
+      UI.Load(lblConversationCount, CalculateConversationCount(key).ToString());
+      UI.Load(lblConversationsDuration, CalculateConversationsDuration(key).ToString(ConversationMetadata.DEFAULT_DURATION_FORMAT));
     }
  
     #endregion
@@ -112,54 +112,54 @@ namespace Trafilm.Gallery
 
     public ICXMLMetadata GetMetadataFromUI()
     {
-      IFilm film = new Film();
+      IFilm metadata = new Film();
       string key = listFilms.SelectedValue;
 
       //ICXMLMetadata//
 
-      film.Title = txtTitle.Text;
-      film.Image = ""; //TODO
-      film.Url = new Uri("http://gallery.trafilm.net/?film=" + key);
-      film.Description = txtDescription.Text;
+      metadata.Title = txtTitle.Text;
+      metadata.Image = ""; //TODO
+      metadata.Url = new Uri("http://gallery.trametadata.net/?film=" + key);
+      metadata.Description = txtDescription.Text;
 
-      //ITrafilmMetadata//
+      //ITrametadataMetadata//
 
-      film.ReferenceId = key;
+      metadata.ReferenceId = key;
 
-      film.InfoCreated = DateTime.ParseExact(lblInfoCreated.Text, CXML.DEFAULT_DATETIME_FORMAT, CultureInfo.InvariantCulture);
-      film.InfoUpdated = DateTime.ParseExact(lblInfoUpdated.Text, CXML.DEFAULT_DATETIME_FORMAT, CultureInfo.InvariantCulture);
+      metadata.InfoCreated = DateTime.ParseExact(lblInfoCreated.Text, CXML.DEFAULT_DATETIME_FORMAT, CultureInfo.InvariantCulture);
+      metadata.InfoUpdated = DateTime.ParseExact(lblInfoUpdated.Text, CXML.DEFAULT_DATETIME_FORMAT, CultureInfo.InvariantCulture);
 
-      film.Keywords = UI.GetCommaSeparated(txtKeywords);
+      metadata.Keywords = UI.GetCommaSeparated(txtKeywords);
 
       //IFilm//
 
-      film.Title_es = txtTitle_es.Text;
-      film.Title_ca = txtTitle_ca.Text;      //...
+      metadata.Title_es = txtTitle_es.Text;
+      metadata.Title_ca = txtTitle_ca.Text;
+      //...
 
+      metadata.Duration = txtDuration.Text.ToNullableTimeSpan(FilmMetadata.DEFAULT_DURATION_FORMAT);
 
-      film.Duration = txtDuration.Text.ToNullableTimeSpan(FilmMetadata.DEFAULT_DURATION_FORMAT);
+      metadata.Directors = UI.GetCommaSeparated(txtDirectors);
+      metadata.Scriptwriters = UI.GetCommaSeparated(txtScriptwriters);
 
-      film.Directors = UI.GetCommaSeparated(txtDirectors);
-      film.Scriptwriters = UI.GetCommaSeparated(txtScriptwriters);
+      metadata.ProductionCountries = UI.GetSelected(clistProductionCountries);
+      metadata.ProductionCompanies = UI.GetCommaSeparated(txtProductionCompanies);
 
-      film.ProductionCountries = UI.GetSelected(clistProductionCountries);
-      film.ProductionCompanies = UI.GetCommaSeparated(txtProductionCompanies);
+      metadata.BoxOffice = txtBoxOffice.Text;
+      metadata.Year = txtYear.Text.ToNullableInt();
 
-      film.BoxOffice = txtBoxOffice.Text;
-      film.Year = txtYear.Text.ToNullableInt();
+      metadata.SourceLanguages = UI.GetSelected(clistSourceLanguages);
 
-      film.SourceLanguages = UI.GetSelected(clistSourceLanguages);
+      metadata.YearTranslated = txtYearTranslated.Text.ToNullableInt();
+      metadata.DubbedLanguages = UI.GetSelected(clistDubbedLanguages);
+      metadata.SubtitledLanguages = UI.GetSelected(clistSubtitledLanguages);
 
-      film.YearTranslated = txtYearTranslated.Text.ToNullableInt();
-      film.DubbedLanguages = UI.GetSelected(clistDubbedLanguages);
-      film.SubtitledLanguages = UI.GetSelected(clistSubtitledLanguages);
+      //Calculatable from Conversations//
 
-      //Calculatable from Scenes//
+      metadata.ConversationCount = CalculateConversationCount(key);
+      metadata.ConversationsDuration = CalculateConversationsDuration(key);
 
-      film.SceneCount = CalculateSceneCount(key);
-      film.ScenesDuration = CalculateScenesDuration(key);
-
-      return film;
+      return metadata;
     }
 
     public void Save()
@@ -175,19 +175,19 @@ namespace Trafilm.Gallery
 
     #endregion
 
-    #region Calculated from Scenes
+    #region Calculated from Conversations
 
-    private int CalculateSceneCount(string key)
+    private int CalculateConversationCount(string key)
     {
-      return sceneStorage.Count;
+      return conversationStorage.Count;
     }
 
-    private TimeSpan CalculateScenesDuration(string key) //TODO
+    private TimeSpan CalculateConversationsDuration(string key) //TODO
     {
       TimeSpan duration = TimeSpan.Zero;
-      foreach (IScene scene in sceneStorage.Values)
-        if (scene.Duration != null)
-          duration += (TimeSpan)scene.Duration;
+      foreach (IConversation conversation in conversationStorage.Values)
+        if (conversation.Duration != null)
+          duration += (TimeSpan)conversation.Duration;
       return duration;
     }
 
@@ -199,15 +199,15 @@ namespace Trafilm.Gallery
 
     protected void listFilms_SelectedIndexChanged(object sender, EventArgs e)
     {
-      sceneStorage = new CXMLFragmentStorage<IScene, Scene>(Path.Combine(Request.PhysicalApplicationPath, @"scene\scenes.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"scene\metadata"), listFilms.SelectedValue + ".*.cxml");
-      utteranceStorage = new CXMLFragmentStorage<IUtterance, Utterance>(Path.Combine(Request.PhysicalApplicationPath, @"utterance\utterances.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"utterance\metadata"), listFilms.SelectedValue + ".*.cxml");
+      conversationStorage = new CXMLFragmentStorage<IConversation, Conversation>(Path.Combine(Request.PhysicalApplicationPath, @"conversation\conversations.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"conversation\metadata"), listFilms.SelectedValue + ".*.cxml");
+      L3occurenceStorage = new CXMLFragmentStorage<IL3occurence, L3occurence>(Path.Combine(Request.PhysicalApplicationPath, @"L3occurence\L3occurences.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"L3occurence\metadata"), listFilms.SelectedValue + ".*.cxml");
 
       bool visible = (listFilms.SelectedIndex > 0);
       panelMetadata.Visible = visible;
       if (visible)
       {
         DisplayMetadata(listFilms.SelectedValue);
-        UpdateRepeater(repeaterScenes, sceneStorage.Keys.Select(x => new { filmId = listFilms.SelectedValue, sceneId = x }) );
+        UpdateRepeater(repeaterConversations, conversationStorage.Keys.Select(x => new { filmId = listFilms.SelectedValue, conversationId = x }) );
       }
     }
 

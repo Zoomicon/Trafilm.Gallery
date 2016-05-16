@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: UI.cs
-//Version: 20160509
+//Version: 20160516
 
 using System;
 using System.Collections.Generic;
@@ -51,7 +51,7 @@ namespace Trafilm.Gallery
 
     public static void Load(HyperLink hyperlink, Uri url)
     {
-      string s = url.ToString();
+      string s = Uri.EscapeUriString(url.ToString());
       hyperlink.Text = s;
       hyperlink.NavigateUrl = s;
     }

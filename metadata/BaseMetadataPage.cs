@@ -22,8 +22,8 @@ namespace Trafilm.Gallery
     #region --- Fields ---
 
     protected CXMLFragmentStorage<IFilm, Film> filmStorage;
-    protected CXMLFragmentStorage<IScene, Scene> sceneStorage;
-    protected CXMLFragmentStorage<IUtterance, Utterance> utteranceStorage;
+    protected CXMLFragmentStorage<IConversation, Conversation> conversationStorage;
+    protected CXMLFragmentStorage<IL3occurence, L3occurence> L3occurenceStorage;
 
     #endregion
 
@@ -31,45 +31,63 @@ namespace Trafilm.Gallery
 
     #region Create
 
-    public void CreateFilm(string filmId) //don't return IFilm to avoid loading a .CXML file if already exists
+    public void CreateFilm(string filmId, IFilm metadata = null) //don't return IFilm to avoid loading a .CXML file if already exists
     {
       if (!filmStorage.Keys.Contains(filmId))
       {
-        IFilm film = new Film();
-        film.Clear();
-        film.Title = filmId;
-        film.ReferenceId = filmId;
+        if (metadata == null)
+        {
+          metadata = new Film();
+          metadata.Clear();
+        }
+        else
+          metadata.ClearCalculated();
 
-        filmStorage[filmId] = film;
+        metadata.Title = filmId;
+        metadata.ReferenceId = filmId;
+
+        filmStorage[filmId] = metadata;
       }
     }
 
-    public void CreateScene(string filmId, string sceneId) //don't return IScene to avoid loading a .CXML file if already exists
+    public void CreateConversation(string filmId, string conversationId, IConversation metadata = null) //don't return IConversation to avoid loading a .CXML file if already exists
     {
-      if (!sceneStorage.Keys.Contains(sceneId))
+      if (!conversationStorage.Keys.Contains(conversationId))
       {
-        IScene scene = new Scene();
-        scene.Clear();
-        scene.Title = sceneId;
-        scene.FilmReferenceId = filmId;
-        scene.ReferenceId = sceneId;
+        if (metadata == null)
+        {
+          metadata = new Conversation();
+          metadata.Clear();
+          metadata.FilmReferenceId = filmId;
+        }
+        else
+          metadata.ClearCalculated();
 
-        sceneStorage[sceneId] = scene;
+        metadata.Title = conversationId;
+        metadata.ReferenceId = conversationId;
+
+        conversationStorage[conversationId] = metadata;
       }
     }
 
-    public void CreateUtterance(string filmId, string sceneId, string utteranceId) //don't return IUtterance to avoid loading a .CXML file if already exists
+    public void CreateL3occurence(string filmId, string conversationId, string L3occurenceId, IL3occurence metadata = null) //don't return IL3occurence to avoid loading a .CXML file if already exists
     {
-      if (!utteranceStorage.Keys.Contains(utteranceId))
+      if (!L3occurenceStorage.Keys.Contains(L3occurenceId))
       {
-        IUtterance utterance = new Utterance();
-        utterance.Clear();
-        utterance.Title = utteranceId;
-        utterance.FilmReferenceId = filmId;
-        utterance.SceneReferenceId = sceneId;
-        utterance.ReferenceId = utteranceId;
+        if (metadata == null)
+        {
+          metadata = new L3occurence();
+          metadata.Clear();
+          metadata.FilmReferenceId = filmId;
+          metadata.ConversationReferenceId = conversationId;
+        }
+        else
+          metadata.ClearCalculated();
 
-        utteranceStorage[utteranceId] = utterance;
+        metadata.Title = L3occurenceId;
+        metadata.ReferenceId = L3occurenceId;
+
+        L3occurenceStorage[L3occurenceId] = metadata;
       }
     }
 
@@ -107,14 +125,14 @@ namespace Trafilm.Gallery
       UpdateList(list, filmStorage.Keys, selectedValue, isQueryStringItem);
     }
 
-    public void UpdateScenesList(ListControl list, string selectedValue = null, bool isQueryStringItem = false)
+    public void UpdateConversationsList(ListControl list, string selectedValue = null, bool isQueryStringItem = false)
     {
-      UpdateList(list, sceneStorage.Keys, selectedValue, isQueryStringItem);
+      UpdateList(list, conversationStorage.Keys, selectedValue, isQueryStringItem);
     }
 
-    public void UpdateUtterancesList(ListControl list, string selectedValue = null, bool isQueryStringItem = false)
+    public void UpdateL3occurencesList(ListControl list, string selectedValue = null, bool isQueryStringItem = false)
     {
-      UpdateList(list, utteranceStorage.Keys, selectedValue, isQueryStringItem);
+      UpdateList(list, L3occurenceStorage.Keys, selectedValue, isQueryStringItem);
     }
 
     #endregion
