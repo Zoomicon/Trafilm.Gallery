@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: L3occurence\metadata\default.aspx.cs
-//Version: 20160516
+//Version: 20160517
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -135,7 +135,7 @@ namespace Trafilm.Gallery
     public IL3occurence GetMetadataFromUI()
     {
       IL3occurence metadata = new L3occurence();
-      string key = listFilms.SelectedValue;
+      string key = listL3occurences.SelectedValue;
 
       //ICXMLMetadata//
 

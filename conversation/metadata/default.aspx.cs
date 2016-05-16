@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: conversation\metadata\default.aspx.cs
-//Version: 20160516
+//Version: 20160517
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -112,7 +112,7 @@ namespace Trafilm.Gallery
     public IConversation GetMetadataFromUI()
     {
       IConversation metadata = new Conversation();
-      string key = listFilms.SelectedValue;
+      string key = listConversations.SelectedValue;
 
       //ICXMLMetadata//
 
