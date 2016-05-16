@@ -23,15 +23,16 @@ namespace Trafilm.Gallery
       sceneStorage = new CXMLFragmentStorage<IScene, Scene>(Path.Combine(Request.PhysicalApplicationPath, @"scene\scenes.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"scene\metadata"), listFilms.SelectedValue + ".*.cxml");
       utteranceStorage = new CXMLFragmentStorage<IUtterance, Utterance>(Path.Combine(Request.PhysicalApplicationPath, @"utterance\utterances.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"utterance\metadata"), listFilms.SelectedValue + ".*.cxml");
 
+      UpdateFilmsList(listFilms, (IsPostBack) ? listFilms.SelectedValue : "film", !IsPostBack);
       if (!IsPostBack)
-      {
-        UpdateFilmsList(listFilms, "film");
         listFilms_SelectedIndexChanged(listFilms, null);
 
-        UpdateScenesList(listScenes, "scene");
+      if (!IsPostBack)
+      {
+        UpdateScenesList(listScenes, "scene", !IsPostBack);
         listScenes_SelectedIndexChanged(listScenes, null);
 
-        UpdateUtterancesList(listUtterances, "utterance");
+        UpdateUtterancesList(listUtterances, "utterance", !IsPostBack);
         listUtterances_SelectedIndexChanged(listUtterances, null);
       }
     }
@@ -51,10 +52,15 @@ namespace Trafilm.Gallery
       SelectUtterance(utteranceId);
     }
 
+    public void SelectScene(string sceneId)
+    {
+      UpdateScenesList(listScenes, sceneId); //update list since it may not be up-to-date
+      listScenes_SelectedIndexChanged(listScenes, null);
+    }
+
     public void SelectUtterance(string utteranceId)
     {
-      UpdateUtterancesList(listUtterances); //update list since it may not be up-to-date
-      listUtterances.SelectedValue = utteranceId;
+      UpdateUtterancesList(listUtterances, utteranceId); //update list since it may not be up-to-date
       listUtterances_SelectedIndexChanged(listUtterances, null);
     }
 
@@ -203,7 +209,7 @@ namespace Trafilm.Gallery
       bool visible = (listFilms.SelectedIndex > 0);
       panelSceneId.Visible = visible;
       if (visible)
-        UpdateScenesList(listScenes);
+        SelectScene(null);
     }
 
     protected void listScenes_SelectedIndexChanged(object sender, EventArgs e)
@@ -213,7 +219,7 @@ namespace Trafilm.Gallery
       bool visible = (listScenes.SelectedIndex > 0);
       panelUtteranceId.Visible = visible;
       if (visible)
-        UpdateUtterancesList(listUtterances);
+        SelectUtterance(null); //this will also hide panelMetadata
     }
 
     protected void listUtterances_SelectedIndexChanged(object sender, EventArgs e)

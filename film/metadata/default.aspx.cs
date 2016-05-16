@@ -27,7 +27,7 @@ namespace Trafilm.Gallery
 
       if (!IsPostBack)
       {
-        UpdateFilmsList(listFilms, "film");
+        UpdateFilmsList(listFilms, "film", !IsPostBack);
         listFilms_SelectedIndexChanged(listFilms, null);
       }
     }
@@ -47,8 +47,7 @@ namespace Trafilm.Gallery
 
     public void SelectFilm(string filmId)
     {
-      UpdateFilmsList(listFilms); //update list since it may not be up-to-date
-      listFilms.SelectedValue = filmId;
+      UpdateFilmsList(listFilms, filmId); //update list since it may not be up-to-date
       listFilms_SelectedIndexChanged(listFilms, null);
     }
 

@@ -27,10 +27,10 @@ namespace Trafilm.Gallery
 
       if (!IsPostBack)
       {
-        UpdateFilmsList(listFilms, "film");
+        UpdateFilmsList(listFilms, "film", !IsPostBack);
         listFilms_SelectedIndexChanged(listFilms, null);
 
-        UpdateScenesList(listScenes, "scene");
+        UpdateScenesList(listScenes, "scene", !IsPostBack);
         listScenes_SelectedIndexChanged(listScenes, null);
       }
     }
@@ -51,8 +51,7 @@ namespace Trafilm.Gallery
 
     public void SelectScene(string sceneId)
     {
-      UpdateScenesList(listScenes); //update list since it may not be up-to-date
-      listScenes.SelectedValue = sceneId;
+      UpdateScenesList(listScenes, sceneId); //update list since it may not be up-to-date
       listScenes_SelectedIndexChanged(listScenes, null);
     }
 
@@ -208,7 +207,7 @@ namespace Trafilm.Gallery
       bool visible = (listFilms.SelectedIndex > 0);
       panelSceneId.Visible = visible;
       if (visible)
-        UpdateScenesList(listScenes);
+        SelectScene(null); //this will also hide panelMetadata
     }
 
     protected void listScenes_SelectedIndexChanged(object sender, EventArgs e)
