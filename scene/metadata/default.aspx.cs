@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: scene\metadata\default.aspx.cs
-//Version: 20160513
+//Version: 20160516
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -21,16 +21,16 @@ namespace Trafilm.Gallery
 
     protected void Page_Load(object sender, EventArgs e)
     {
-      filmStorage = new CXMLFragmentStorage<IFilm, Film>(Path.Combine(Request.PhysicalApplicationPath, "film/films.cxml"), Path.Combine(Request.PhysicalApplicationPath, "film/metadata"), "*.cxml");
-      sceneStorage = new CXMLFragmentStorage<IScene, Scene>(Path.Combine(Request.PhysicalApplicationPath, "scene/scenes.cxml"), Path.Combine(Request.PhysicalApplicationPath, "scene/metadata"), listFilms.SelectedValue + ".*.cxml");
-      utteranceStorage = new CXMLFragmentStorage<IUtterance, Utterance>(Path.Combine(Request.PhysicalApplicationPath, "utterance/utterances.cxml"), Path.Combine(Request.PhysicalApplicationPath, "utterance/metadata"), listFilms.SelectedValue + ".*.cxml");
+      filmStorage = new CXMLFragmentStorage<IFilm, Film>(Path.Combine(Request.PhysicalApplicationPath, @"film\films.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"film\metadata"), "*.cxml");
+      sceneStorage = new CXMLFragmentStorage<IScene, Scene>(Path.Combine(Request.PhysicalApplicationPath, @"scene\scenes.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"scene\metadata"), listFilms.SelectedValue + ".*.cxml");
+      utteranceStorage = new CXMLFragmentStorage<IUtterance, Utterance>(Path.Combine(Request.PhysicalApplicationPath, @"utterance\utterances.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"utterance\metadata"), listFilms.SelectedValue + ".*.cxml");
 
       if (!IsPostBack)
       {
-        UpdateFilmsList(listFilms, "film");
+        UpdateFilmsList(listFilms, "film", !IsPostBack);
         listFilms_SelectedIndexChanged(listFilms, null);
 
-        UpdateScenesList(listScenes, "scene");
+        UpdateScenesList(listScenes, "scene", !IsPostBack);
         listScenes_SelectedIndexChanged(listScenes, null);
       }
     }
@@ -51,8 +51,7 @@ namespace Trafilm.Gallery
 
     public void SelectScene(string sceneId)
     {
-      UpdateScenesList(listScenes); //update list since it may not be up-to-date
-      listScenes.SelectedValue = sceneId;
+      UpdateScenesList(listScenes, sceneId); //update list since it may not be up-to-date
       listScenes_SelectedIndexChanged(listScenes, null);
     }
 
@@ -203,17 +202,17 @@ namespace Trafilm.Gallery
 
     protected void listFilms_SelectedIndexChanged(object sender, EventArgs e)
     {
-      sceneStorage = new CXMLFragmentStorage<IScene, Scene>(Path.Combine(Request.PhysicalApplicationPath, "scene/scenes.cxml"), Path.Combine(Request.PhysicalApplicationPath, "scene/metadata"), listFilms.SelectedValue + ".*.cxml");
+      sceneStorage = new CXMLFragmentStorage<IScene, Scene>(Path.Combine(Request.PhysicalApplicationPath, @"scene\scenes.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"scene\metadata"), listFilms.SelectedValue + ".*.cxml");
 
       bool visible = (listFilms.SelectedIndex > 0);
       panelSceneId.Visible = visible;
       if (visible)
-        UpdateScenesList(listScenes);
+        SelectScene(null); //this will also hide panelMetadata
     }
 
     protected void listScenes_SelectedIndexChanged(object sender, EventArgs e)
     {
-      utteranceStorage = new CXMLFragmentStorage<IUtterance, Utterance>(Path.Combine(Request.PhysicalApplicationPath, "utterance/utterances.cxml"), Path.Combine(Request.PhysicalApplicationPath, "utterance/metadata"), listFilms.SelectedValue + ".*.cxml");
+      utteranceStorage = new CXMLFragmentStorage<IUtterance, Utterance>(Path.Combine(Request.PhysicalApplicationPath, @"utterance\utterances.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"utterance\metadata"), listFilms.SelectedValue + ".*.cxml");
 
       bool visible = (listScenes.SelectedIndex > 0);
       panelMetadata.Visible = visible;
