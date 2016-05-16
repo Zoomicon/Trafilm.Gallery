@@ -76,7 +76,7 @@ Version: 20160513
             <asp:DropDownList ID="listUtterances" runat="server" AutoPostBack="True" OnSelectedIndexChanged="listUtterances_SelectedIndexChanged" />
 
             <div>
-              <div class="label">or add new Utterance (partial) Id</div>
+              <div class="label">or add new Utterance Id (do not include the Film Id and Scene Id prefixes)</div>
               <asp:TextBox ID="txtUtterance" runat="server" />
               <asp:Button ID="btnAddUtterance" runat="server" Text="Add" OnClick="btnAddUtterance_Click" />
             </div>

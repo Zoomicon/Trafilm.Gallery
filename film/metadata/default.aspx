@@ -53,7 +53,7 @@ Version: 20160516
         </div>
 
         <div>
-          <div class="label">or add new Film Id</div>
+          <div class="label">or enter a new Film Id</div>
           <asp:TextBox ID="txtFilm" runat="server" />
           <asp:Button ID="btnAddFilm" runat="server" Text="Add" OnClick="btnAddFilm_Click" />
         </div>

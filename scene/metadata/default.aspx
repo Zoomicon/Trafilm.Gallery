@@ -57,7 +57,7 @@ Version: 20160516
           <asp:DropDownList ID="listScenes" runat="server" AutoPostBack="True" OnSelectedIndexChanged="listScenes_SelectedIndexChanged" />
 
           <div>
-            <div class="label">or add new Scene (partial) Id</div>
+            <div class="label">or enter a new Scene Id (do not include the Film Id prefix)</div>
             <asp:TextBox ID="txtScene" runat="server" />
             <asp:Button ID="btnAddScene" runat="server" Text="Add" OnClick="btnAddScene_Click" />
           </div>
