@@ -119,7 +119,7 @@ Version: 20160516
         </div>
 
         <div class="question">
-          <asp:CheckBox ID="cbL2languagePresent" runat="server" Text=">L2 (translated) language present" CssClass="label" />
+          <asp:CheckBox ID="cbL2languagePresent" runat="server" Text="L2 (translated) language present" CssClass="label" />
         </div>
 
 
