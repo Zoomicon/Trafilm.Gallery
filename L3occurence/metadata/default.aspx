@@ -79,6 +79,8 @@ Version: 20160516
               <div class="label">or add new L3-occurence Id (do not include the Film Id and Conversation Id prefixes)</div>
               <asp:TextBox ID="txtL3occurence" runat="server" />
               <asp:Button ID="btnAddL3occurence" runat="server" Text="Add" OnClick="btnAddL3occurence_Click" />
+              &nbsp;
+              <asp:CheckBox ID="cbClone" Text="Copy from selected" runat="server" />
             </div>
           </asp:Panel>
 
@@ -121,6 +123,18 @@ Version: 20160516
         </div>
 
         <%-- IL3occurenceMetadata --%>
+
+
+        <div class="question">
+          <div class="label">L3-occurence Start Time (h:m:s)</div>
+          <asp:TextBox ID="txtStartTime" runat="server" Columns="25"></asp:TextBox>
+        </div>
+
+        <div class="question">
+          <div class="label">L3-occurence Duration (h:m:s)</div>
+          <asp:TextBox ID="txtDuration" runat="server" Columns="25"></asp:TextBox>
+        </div>
+        
 
         <div class="question">
           <div class="label">L3 kind (L3ST or L3TT)</div>
@@ -171,7 +185,7 @@ Version: 20160516
 
         <div class="question">
           <div class="label">L3 constructed based on</div>
-          <asp:Panel runat="server" Height="100" ScrollBars="Auto">
+          <asp:Panel runat="server" MaxHeight="100" ScrollBars="Auto">
             <asp:CheckBoxList ID="clistL3constructedBasedOn" runat="server" 
               DataSourceID="xmlL3constructedBasedOn" DataTextField="Value" DataValueField="Value"
               RepeatLayout="Table" RepeatColumns="10" RepeatDirection="Vertical"               
@@ -212,7 +226,7 @@ Version: 20160516
 
         <div class="question">
           <div class="label">L3 mode</div>
-          <asp:Panel runat="server" Height="80" ScrollBars="Auto">
+          <asp:Panel runat="server" MaxHeight="100" ScrollBars="Auto">
             <asp:CheckBoxList ID="clistL3mode" runat="server" 
               DataSourceID="xmlL3mode" DataTextField="Value" DataValueField="Value"
               RepeatLayout="Table" RepeatColumns="10" RepeatDirection="Vertical"               
@@ -230,7 +244,7 @@ Version: 20160516
 
         <div class="question">
           <div class="label">L3 is represented</div>
-          <asp:Panel runat="server" Height="100" ScrollBars="Auto">
+          <asp:Panel runat="server" MaxHeight="100" ScrollBars="Auto">
             <asp:CheckBoxList ID="clistL3represented" runat="server" 
               DataSourceID="xmlL3represented" DataTextField="Value" DataValueField="Value"
               RepeatLayout="Table" RepeatColumns="10" RepeatDirection="Vertical"               
@@ -240,7 +254,7 @@ Version: 20160516
 
         <div class="question">
           <div class="label">L3 oral representations (if any)</div>
-          <asp:Panel runat="server" Height="100" ScrollBars="Auto">
+          <asp:Panel runat="server" MaxHeight="100" ScrollBars="Auto">
             <asp:CheckBoxList ID="clistL3representationsOral" runat="server" 
               DataSourceID="xmlL3representationsOral" DataTextField="Value" DataValueField="Value"
               RepeatLayout="Table" RepeatColumns="10" RepeatDirection="Vertical"               
@@ -250,7 +264,7 @@ Version: 20160516
 
         <div class="question">
           <div class="label">L3 visual representations (if any)</div>
-          <asp:Panel runat="server" Height="100" ScrollBars="Auto">
+          <asp:Panel runat="server" MaxHeight="100" ScrollBars="Auto">
             <asp:CheckBoxList ID="clistL3representationsVisual" runat="server" 
               DataSourceID="xmlL3representationsVisual" DataTextField="Value" DataValueField="Value" 
               RepeatLayout="Table" RepeatColumns="10" RepeatDirection="Vertical"
@@ -261,7 +275,7 @@ Version: 20160516
 
         <div class="question">
           <div class="label">L3 functions</div>
-          <asp:Panel runat="server" Height="100" ScrollBars="Auto">
+          <asp:Panel runat="server" MaxHeight="100" ScrollBars="Auto">
             <asp:CheckBoxList ID="clistL3functions" runat="server" 
               DataSourceID="xmlL3functions" DataTextField="Value" DataValueField="Value"
               RepeatLayout="Table" RepeatColumns="10" RepeatDirection="Vertical"               

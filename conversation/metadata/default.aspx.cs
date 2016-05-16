@@ -62,37 +62,37 @@ namespace Trafilm.Gallery
       DisplayMetadata(conversationStorage[conversationId]);
     }
 
-    public void DisplayMetadata(IConversation conversation)
+    public void DisplayMetadata(IConversation metadata)
     {
-      string key = conversation.ReferenceId;
+      string key = metadata.ReferenceId;
 
       //ICXMLMetadata//
 
       //Ignoring the Id field, since some Pivot Tools expect it to be sequential
-      UI.Load(txtTitle, conversation.Title);
+      UI.Load(txtTitle, metadata.Title);
       //Not showing any Image field
       UI.Load(linkUrl, new Uri("http://gallery.trafilm.net/?conversation=" + key));
-      UI.Load(txtDescription, conversation.Description);
+      UI.Load(txtDescription, metadata.Description);
 
       //ITrafilmMetadata//
 
       //No need to show conversation.ReferenceId since we calculate and show the URL, plus the ReferenceId is used as the key and shown at the dropdown list
-      UI.Load(lblInfoCreated, conversation.InfoCreated.ToString(CXML.DEFAULT_DATETIME_FORMAT));
-      UI.Load(lblInfoUpdated, conversation.InfoUpdated.ToString(CXML.DEFAULT_DATETIME_FORMAT));
-      UI.Load(txtKeywords, conversation.Keywords);
+      UI.Load(lblInfoCreated, metadata.InfoCreated.ToString(CXML.DEFAULT_DATETIME_FORMAT));
+      UI.Load(lblInfoUpdated, metadata.InfoUpdated.ToString(CXML.DEFAULT_DATETIME_FORMAT));
+      UI.Load(txtKeywords, metadata.Keywords);
 
       //IConversation//
 
-      UI.Load(listFilms, conversation.FilmReferenceId);
+      UI.Load(listFilms, metadata.FilmReferenceId);
 
-      UI.Load(txtStartTime, conversation.StartTime.ToString(ConversationMetadata.DEFAULT_POSITION_FORMAT));
-      UI.Load(txtDuration, conversation.Duration.ToString(ConversationMetadata.DEFAULT_DURATION_FORMAT));
+      UI.Load(txtStartTime, metadata.StartTime.ToString(ConversationMetadata.DEFAULT_POSITION_FORMAT));
+      UI.Load(txtDuration, metadata.Duration.ToString(ConversationMetadata.DEFAULT_DURATION_FORMAT));
 
-      UI.Load(cbL1languagePresent, conversation.L1languagePresent);
-      UI.Load(cbL2languagePresent, conversation.L2languagePresent);
+      UI.Load(cbL1languagePresent, metadata.L1languagePresent);
+      UI.Load(cbL2languagePresent, metadata.L2languagePresent);
 
-      UI.Load(listSpeakingCharactersCount, conversation.SpeakingCharactersCount);
-      UI.Load(listL3speakingCharactersCount, conversation.L3speakingCharactersCount);
+      UI.Load(listSpeakingCharactersCount, metadata.SpeakingCharactersCount);
+      UI.Load(listL3speakingCharactersCount, metadata.L3speakingCharactersCount);
 
       //Calculatable from L3occurences//
 
@@ -111,47 +111,47 @@ namespace Trafilm.Gallery
 
     public ICXMLMetadata GetMetadataFromUI()
     {
-      IConversation conversation = new Conversation();
+      IConversation metadata = new Conversation();
       string key = listFilms.SelectedValue;
 
       //ICXMLMetadata//
 
-      conversation.Title = txtTitle.Text;
-      conversation.Image = ""; //TODO
-      conversation.Url = new Uri("http://gallery.trafilm.net/?conversation=" + key); //TODO: could set to jump to movie time
-      conversation.Description = txtDescription.Text;
+      metadata.Title = txtTitle.Text;
+      metadata.Image = ""; //TODO
+      metadata.Url = new Uri("http://gallery.trafilm.net/?conversation=" + key); //TODO: could set to jump to movie time
+      metadata.Description = txtDescription.Text;
 
       //ITrafilmMetadata//
 
-      conversation.ReferenceId = key;
-      conversation.InfoCreated = DateTime.ParseExact(lblInfoCreated.Text, CXML.DEFAULT_DATETIME_FORMAT, CultureInfo.InvariantCulture);
-      conversation.InfoUpdated = DateTime.ParseExact(lblInfoUpdated.Text, CXML.DEFAULT_DATETIME_FORMAT, CultureInfo.InvariantCulture);
-      conversation.Keywords = UI.GetCommaSeparated(txtKeywords);
+      metadata.ReferenceId = key;
+      metadata.InfoCreated = DateTime.ParseExact(lblInfoCreated.Text, CXML.DEFAULT_DATETIME_FORMAT, CultureInfo.InvariantCulture);
+      metadata.InfoUpdated = DateTime.ParseExact(lblInfoUpdated.Text, CXML.DEFAULT_DATETIME_FORMAT, CultureInfo.InvariantCulture);
+      metadata.Keywords = UI.GetCommaSeparated(txtKeywords);
 
       //IConversation//
 
-      conversation.FilmReferenceId = listFilms.SelectedValue;
+      metadata.FilmReferenceId = listFilms.SelectedValue;
 
-      conversation.StartTime = txtStartTime.Text.ToNullableTimeSpan(ConversationMetadata.DEFAULT_POSITION_FORMAT);
-      conversation.Duration = txtDuration.Text.ToNullableTimeSpan(ConversationMetadata.DEFAULT_DURATION_FORMAT);
+      metadata.StartTime = txtStartTime.Text.ToNullableTimeSpan(ConversationMetadata.DEFAULT_POSITION_FORMAT);
+      metadata.Duration = txtDuration.Text.ToNullableTimeSpan(ConversationMetadata.DEFAULT_DURATION_FORMAT);
 
-      conversation.L1languagePresent = cbL1languagePresent.Checked;
-      conversation.L2languagePresent = cbL2languagePresent.Checked;
+      metadata.L1languagePresent = cbL1languagePresent.Checked;
+      metadata.L2languagePresent = cbL2languagePresent.Checked;
 
-      conversation.SpeakingCharactersCount = listSpeakingCharactersCount.SelectedValue; //e.g. 1, 2, 3, more than 3
-      conversation.L3speakingCharactersCount = listL3speakingCharactersCount.SelectedValue; //e.g. 1, 2, 3, more than 3
+      metadata.SpeakingCharactersCount = listSpeakingCharactersCount.SelectedValue; //e.g. 1, 2, 3, more than 3
+      metadata.L3speakingCharactersCount = listL3speakingCharactersCount.SelectedValue; //e.g. 1, 2, 3, more than 3
 
       //Calculatable from L3occurences//
 
-      conversation.L3languagesCount = CalculateL3languagesCount(key);
-      conversation.L3languages = CalculateL3languages(key);
+      metadata.L3languagesCount = CalculateL3languagesCount(key);
+      metadata.L3languages = CalculateL3languages(key);
 
-      conversation.L3languageTypesCount = CalculateL3languageTypesCount(key);
-      conversation.L3languageTypes = CalculateL3languageTypes(key);
+      metadata.L3languageTypesCount = CalculateL3languageTypesCount(key);
+      metadata.L3languageTypes = CalculateL3languageTypes(key);
 
-      conversation.L3occurenceCount = CalculateL3occurenceCount(key);
+      metadata.L3occurenceCount = CalculateL3occurenceCount(key);
 
-      return conversation;
+      return metadata;
     }
 
     public void Save()
@@ -206,8 +206,7 @@ namespace Trafilm.Gallery
 
       bool visible = (listFilms.SelectedIndex > 0);
       panelConversationId.Visible = visible;
-      if (visible)
-        SelectConversation(null); //this will also hide panelMetadata
+      SelectConversation(null); //this will also hide panelMetadata
     }
 
     protected void listConversations_SelectedIndexChanged(object sender, EventArgs e)

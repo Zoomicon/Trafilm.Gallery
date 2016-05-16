@@ -60,6 +60,8 @@ Version: 20160516
             <div class="label">or enter a new Conversation Id (do not include the Film Id prefix)</div>
             <asp:TextBox ID="txtConversation" runat="server" />
             <asp:Button ID="btnAddConversation" runat="server" Text="Add" OnClick="btnAddConversation_Click" />
+            &nbsp;
+            <asp:CheckBox ID="cbClone" Text="Copy from selected" runat="server" />
           </div>
         </asp:Panel>
 

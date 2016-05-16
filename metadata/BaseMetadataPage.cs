@@ -31,45 +31,63 @@ namespace Trafilm.Gallery
 
     #region Create
 
-    public void CreateFilm(string filmId) //don't return IFilm to avoid loading a .CXML file if already exists
+    public void CreateFilm(string filmId, IFilm metadata = null) //don't return IFilm to avoid loading a .CXML file if already exists
     {
       if (!filmStorage.Keys.Contains(filmId))
       {
-        IFilm film = new Film();
-        film.Clear();
-        film.Title = filmId;
-        film.ReferenceId = filmId;
+        if (metadata == null)
+        {
+          metadata = new Film();
+          metadata.Clear();
+        }
+        else
+          metadata.ClearCalculated();
 
-        filmStorage[filmId] = film;
+        metadata.Title = filmId;
+        metadata.ReferenceId = filmId;
+
+        filmStorage[filmId] = metadata;
       }
     }
 
-    public void CreateConversation(string filmId, string conversationId) //don't return IConversation to avoid loading a .CXML file if already exists
+    public void CreateConversation(string filmId, string conversationId, IConversation metadata = null) //don't return IConversation to avoid loading a .CXML file if already exists
     {
       if (!conversationStorage.Keys.Contains(conversationId))
       {
-        IConversation conversation = new Conversation();
-        conversation.Clear();
-        conversation.Title = conversationId;
-        conversation.FilmReferenceId = filmId;
-        conversation.ReferenceId = conversationId;
+        if (metadata == null)
+        {
+          metadata = new Conversation();
+          metadata.Clear();
+          metadata.FilmReferenceId = filmId;
+        }
+        else
+          metadata.ClearCalculated();
 
-        conversationStorage[conversationId] = conversation;
+        metadata.Title = conversationId;
+        metadata.ReferenceId = conversationId;
+
+        conversationStorage[conversationId] = metadata;
       }
     }
 
-    public void CreateL3occurence(string filmId, string conversationId, string L3occurenceId) //don't return IL3occurence to avoid loading a .CXML file if already exists
+    public void CreateL3occurence(string filmId, string conversationId, string L3occurenceId, IL3occurence metadata = null) //don't return IL3occurence to avoid loading a .CXML file if already exists
     {
       if (!L3occurenceStorage.Keys.Contains(L3occurenceId))
       {
-        IL3occurence L3occurence = new L3occurence();
-        L3occurence.Clear();
-        L3occurence.Title = L3occurenceId;
-        L3occurence.FilmReferenceId = filmId;
-        L3occurence.ConversationReferenceId = conversationId;
-        L3occurence.ReferenceId = L3occurenceId;
+        if (metadata == null)
+        {
+          metadata = new L3occurence();
+          metadata.Clear();
+          metadata.FilmReferenceId = filmId;
+          metadata.ConversationReferenceId = conversationId;
+        }
+        else
+          metadata.ClearCalculated();
 
-        L3occurenceStorage[L3occurenceId] = L3occurence;
+        metadata.Title = L3occurenceId;
+        metadata.ReferenceId = L3occurenceId;
+
+        L3occurenceStorage[L3occurenceId] = metadata;
       }
     }
 

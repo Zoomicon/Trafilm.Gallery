@@ -56,6 +56,8 @@ Version: 20160516
           <div class="label">or enter a new Film Id</div>
           <asp:TextBox ID="txtFilm" runat="server" />
           <asp:Button ID="btnAddFilm" runat="server" Text="Add" OnClick="btnAddFilm_Click" />
+          &nbsp;
+          <asp:CheckBox ID="cbClone" Text="Copy from selected" runat="server" />
         </div>
 
       </div>
@@ -128,7 +130,7 @@ Version: 20160516
 
         <div class="question">
           <div class="label">Production countries</div>
-          <asp:Panel runat="server" ScrollBars="Auto" Height="100">
+          <asp:Panel runat="server" MaxHeight="100" ScrollBars="Auto">
             <asp:CheckBoxList ID="clistProductionCountries" runat="server" 
               DataSourceID="xmlCountries" DataTextField="Value" DataValueField="Value"
               RepeatLayout="Table" RepeatColumns="10" RepeatDirection="Vertical"
@@ -155,7 +157,7 @@ Version: 20160516
 
         <div class="question">
           <div class="label">Source languages</div>
-          <asp:Panel runat="server" Height="100" ScrollBars="Auto">
+          <asp:Panel runat="server" MaxHeight="100" ScrollBars="Auto">
             <asp:CheckBoxList ID="clistSourceLanguages" runat="server" 
               DataSourceID="xmlLanguages" DataTextField="Value" DataValueField="Value"
               RepeatLayout="Table" RepeatColumns="10" RepeatDirection="Vertical"               
@@ -171,7 +173,7 @@ Version: 20160516
         
         <div class="question">
           <div class="label">Dubbed languages</div>
-          <asp:Panel runat="server" Height="100" ScrollBars="Auto">
+          <asp:Panel runat="server" MaxHeight="100" ScrollBars="Auto">
             <asp:CheckBoxList ID="clistDubbedLanguages" runat="server" 
               DataSourceID="xmlLanguages" DataTextField="Value" DataValueField="Value" 
               RepeatLayout="Table" RepeatColumns="10" RepeatDirection="Vertical"
@@ -181,7 +183,7 @@ Version: 20160516
         
         <div class="question">
           <div class="label">Subtitled languages</div>
-          <asp:Panel runat="server" Height="100" ScrollBars="Auto">
+          <asp:Panel runat="server" MaxHeight="100" ScrollBars="Auto">
             <asp:CheckBoxList ID="clistSubtitledLanguages" runat="server" 
               DataSourceID="xmlLanguages" DataTextField="Value" DataValueField="Value"
               RepeatLayout="Table" RepeatColumns="10" RepeatDirection="Vertical"               

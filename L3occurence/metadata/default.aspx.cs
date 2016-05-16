@@ -5,6 +5,7 @@
 using Metadata.CXML;
 using Trafilm.Metadata;
 using Trafilm.Metadata.Models;
+using Trafilm.Metadata.Utils;
 
 using System;
 using System.Globalization;
@@ -71,57 +72,60 @@ namespace Trafilm.Gallery
       DisplayMetadata(L3occurenceStorage[L3occurenceId]);
     }
 
-    public void DisplayMetadata(IL3occurence L3occurence)
+    public void DisplayMetadata(IL3occurence metadata)
     {
-      string key = L3occurence.ReferenceId;
+      string key = metadata.ReferenceId;
 
       //ICXMLMetadata//
 
       //Ignoring the Id field, since some Pivot Tools expect it to be sequential
-      UI.Load(txtTitle, L3occurence.Title);
+      UI.Load(txtTitle, metadata.Title);
       //Not showing any Image field
       UI.Load(linkUrl, new Uri("http://gallery.trafilm.net/?L3occurence=" + key));
-      UI.Load(txtDescription, L3occurence.Description);
+      UI.Load(txtDescription, metadata.Description);
 
       //ITrafilmMetadata//
 
       //No need to show L3occurence.ReferenceId since we calculate and show the URL, plus the ReferenceId is used as the key and shown at the dropdown list
-      UI.Load(lblInfoCreated, L3occurence.InfoCreated.ToString(CXML.DEFAULT_DATETIME_FORMAT));
-      UI.Load(lblInfoUpdated, L3occurence.InfoUpdated.ToString(CXML.DEFAULT_DATETIME_FORMAT));
-      UI.Load(txtKeywords, L3occurence.Keywords);
+      UI.Load(lblInfoCreated, metadata.InfoCreated.ToString(CXML.DEFAULT_DATETIME_FORMAT));
+      UI.Load(lblInfoUpdated, metadata.InfoUpdated.ToString(CXML.DEFAULT_DATETIME_FORMAT));
+      UI.Load(txtKeywords, metadata.Keywords);
 
       //IL3occurence//
 
-      UI.Load(listFilms, L3occurence.FilmReferenceId);
-      UI.Load(listConversations, L3occurence.ConversationReferenceId);
+      UI.Load(listFilms, metadata.FilmReferenceId);
+      UI.Load(listConversations, metadata.ConversationReferenceId);
 
-      UI.Load(listL3kind, L3occurence.L3kind);
+      UI.Load(txtStartTime, metadata.StartTime.ToString(L3occurenceMetadata.DEFAULT_POSITION_FORMAT));
+      UI.Load(txtDuration, metadata.Duration.ToString(L3occurenceMetadata.DEFAULT_DURATION_FORMAT));
 
-      UI.Load(listLmainLanguage, L3occurence.LmainLanguage);
-      UI.Load(listLmainMode, L3occurence.LmainMode);
+      UI.Load(listL3kind, metadata.L3kind);
 
-      UI.Load(cbL2sameAsL3ST, L3occurence.L2sameAsL3ST);
-      UI.Load(cbL3STconveyedAsL3TT, L3occurence.L3STconveyedAsL3TT);
+      UI.Load(listLmainLanguage, metadata.LmainLanguage);
+      UI.Load(listLmainMode, metadata.LmainMode);
 
-      UI.Load(listL3languageType, L3occurence.L3languageType);
-      UI.Load(txtL3language, L3occurence.L3language);
+      UI.Load(cbL2sameAsL3ST, metadata.L2sameAsL3ST);
+      UI.Load(cbL3STconveyedAsL3TT, metadata.L3STconveyedAsL3TT);
 
-      UI.Load(clistL3constructedBasedOn, L3occurence.L3constructedBasedOn);
+      UI.Load(listL3languageType, metadata.L3languageType);
+      UI.Load(txtL3language, metadata.L3language);
 
-      UI.Load(listL3audienceUnderstanding, L3occurence.L3audienceUnderstanding);
-      UI.Load(listL3messageUnderstanding, L3occurence.L3messageUnderstanding);
-      UI.Load(listL3meaningDeciphered, L3occurence.L3meaningDeciphered);
+      UI.Load(clistL3constructedBasedOn, metadata.L3constructedBasedOn);
 
-      UI.Load(listL3speakerPerformance, L3occurence.L3speakerPerformance);
+      UI.Load(listL3audienceUnderstanding, metadata.L3audienceUnderstanding);
+      UI.Load(listL3messageUnderstanding, metadata.L3messageUnderstanding);
+      UI.Load(listL3meaningDeciphered, metadata.L3meaningDeciphered);
 
-      UI.Load(clistL3mode, L3occurence.L3mode);
-      UI.Load(listL3STmodeChange, L3occurence.L3STmodeChange);
+      UI.Load(listL3speakerPerformance, metadata.L3speakerPerformance);
 
-      UI.Load(clistL3represented, L3occurence.L3represented);
-      UI.Load(clistL3representationsOral, L3occurence.L3representationsOral);
-      UI.Load(clistL3representationsVisual, L3occurence.L3representationsVisual);
+      UI.Load(clistL3mode, metadata.L3mode);
+      UI.Load(listL3STmodeChange, metadata.L3STmodeChange);
 
-      UI.Load(clistL3functions, L3occurence.L3functions);
+      UI.Load(clistL3represented, metadata.L3represented);
+      UI.Load(clistL3representationsOral, metadata.L3representationsOral);
+      UI.Load(clistL3representationsVisual, metadata.L3representationsVisual);
+
+      UI.Load(clistL3functions, metadata.L3functions);
     }
 
     #endregion
@@ -130,59 +134,62 @@ namespace Trafilm.Gallery
 
     public ICXMLMetadata GetMetadataFromUI()
     {
-      IL3occurence L3occurence = new L3occurence();
+      IL3occurence metadata = new L3occurence();
       string key = listFilms.SelectedValue;
 
       //ICXMLMetadata//
 
-      L3occurence.Title = txtTitle.Text;
-      L3occurence.Image = ""; //TODO
-      L3occurence.Url = new Uri("http://gallery.trafilm.net/?L3occurence=" + key); //TODO: could set to jump to movie time
-      L3occurence.Description = txtDescription.Text;
+      metadata.Title = txtTitle.Text;
+      metadata.Image = ""; //TODO
+      metadata.Url = new Uri("http://gallery.trafilm.net/?L3occurence=" + key); //TODO: could set to jump to movie time
+      metadata.Description = txtDescription.Text;
 
       //ITrafilmMetadata//
 
-      L3occurence.ReferenceId = key;
-      L3occurence.InfoCreated = DateTime.ParseExact(lblInfoCreated.Text, CXML.DEFAULT_DATETIME_FORMAT, CultureInfo.InvariantCulture);
-      L3occurence.InfoUpdated = DateTime.ParseExact(lblInfoUpdated.Text, CXML.DEFAULT_DATETIME_FORMAT, CultureInfo.InvariantCulture);
-      L3occurence.Keywords = UI.GetCommaSeparated(txtKeywords);
+      metadata.ReferenceId = key;
+      metadata.InfoCreated = DateTime.ParseExact(lblInfoCreated.Text, CXML.DEFAULT_DATETIME_FORMAT, CultureInfo.InvariantCulture);
+      metadata.InfoUpdated = DateTime.ParseExact(lblInfoUpdated.Text, CXML.DEFAULT_DATETIME_FORMAT, CultureInfo.InvariantCulture);
+      metadata.Keywords = UI.GetCommaSeparated(txtKeywords);
 
-      //IL3occurence//
+      //Imetadata//
 
-      L3occurence.ConversationReferenceId = listConversations.SelectedValue;
+      metadata.ConversationReferenceId = listConversations.SelectedValue;
 
-      L3occurence.FilmReferenceId = listFilms.SelectedValue;
-      L3occurence.ConversationReferenceId = listConversations.SelectedValue;
+      metadata.FilmReferenceId = listFilms.SelectedValue;
+      metadata.ConversationReferenceId = listConversations.SelectedValue;
 
-      L3occurence.L3kind = listL3kind.SelectedValue;
+      metadata.StartTime = txtStartTime.Text.ToNullableTimeSpan(L3occurenceMetadata.DEFAULT_POSITION_FORMAT);
+      metadata.Duration = txtDuration.Text.ToNullableTimeSpan(L3occurenceMetadata.DEFAULT_DURATION_FORMAT);
 
-      L3occurence.LmainLanguage = listLmainLanguage.SelectedValue;
-      L3occurence.LmainMode = listLmainMode.SelectedValue;
+      metadata.L3kind = listL3kind.SelectedValue;
 
-      L3occurence.L2sameAsL3ST = cbL2sameAsL3ST.Checked;
-      L3occurence.L3STconveyedAsL3TT = cbL3STconveyedAsL3TT.Checked;
+      metadata.LmainLanguage = listLmainLanguage.SelectedValue;
+      metadata.LmainMode = listLmainMode.SelectedValue;
 
-      L3occurence.L3languageType = listL3languageType.SelectedValue;
-      L3occurence.L3language = txtL3language.Text;
+      metadata.L2sameAsL3ST = cbL2sameAsL3ST.Checked;
+      metadata.L3STconveyedAsL3TT = cbL3STconveyedAsL3TT.Checked;
 
-      L3occurence.L3constructedBasedOn = UI.GetSelected(clistL3constructedBasedOn);
+      metadata.L3languageType = listL3languageType.SelectedValue;
+      metadata.L3language = txtL3language.Text;
 
-      L3occurence.L3audienceUnderstanding = listL3audienceUnderstanding.SelectedValue;
-      L3occurence.L3messageUnderstanding = listL3messageUnderstanding.SelectedValue;
-      L3occurence.L3meaningDeciphered = listL3meaningDeciphered.SelectedValue;
+      metadata.L3constructedBasedOn = UI.GetSelected(clistL3constructedBasedOn);
 
-      L3occurence.L3speakerPerformance = listL3speakerPerformance.SelectedValue;
+      metadata.L3audienceUnderstanding = listL3audienceUnderstanding.SelectedValue;
+      metadata.L3messageUnderstanding = listL3messageUnderstanding.SelectedValue;
+      metadata.L3meaningDeciphered = listL3meaningDeciphered.SelectedValue;
 
-      L3occurence.L3mode = UI.GetSelected(clistL3mode);
-      L3occurence.L3STmodeChange = listL3STmodeChange.SelectedValue;
+      metadata.L3speakerPerformance = listL3speakerPerformance.SelectedValue;
 
-      L3occurence.L3represented = UI.GetSelected(clistL3represented);
-      L3occurence.L3representationsOral = UI.GetSelected(clistL3representationsOral);
-      L3occurence.L3representationsVisual = UI.GetSelected(clistL3representationsVisual);
+      metadata.L3mode = UI.GetSelected(clistL3mode);
+      metadata.L3STmodeChange = listL3STmodeChange.SelectedValue;
 
-      L3occurence.L3functions = UI.GetSelected(clistL3functions);
+      metadata.L3represented = UI.GetSelected(clistL3represented);
+      metadata.L3representationsOral = UI.GetSelected(clistL3representationsOral);
+      metadata.L3representationsVisual = UI.GetSelected(clistL3representationsVisual);
 
-      return L3occurence;
+      metadata.L3functions = UI.GetSelected(clistL3functions);
+
+      return metadata;
     }
 
     public void Save()
@@ -208,8 +215,7 @@ namespace Trafilm.Gallery
 
       bool visible = (listFilms.SelectedIndex > 0);
       panelConversationId.Visible = visible;
-      if (visible)
-        SelectConversation(null);
+      SelectConversation(null);
     }
 
     protected void listConversations_SelectedIndexChanged(object sender, EventArgs e)
@@ -218,8 +224,7 @@ namespace Trafilm.Gallery
 
       bool visible = (listConversations.SelectedIndex > 0);
       panelL3occurenceId.Visible = visible;
-      if (visible)
-        SelectL3occurence(null); //this will also hide panelMetadata
+      SelectL3occurence(null); //this will also hide panelMetadata
     }
 
     protected void listL3occurences_SelectedIndexChanged(object sender, EventArgs e)
