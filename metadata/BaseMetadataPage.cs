@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: BaseMetadataPage.cs
-//Version: 20160513
+//Version: 20160516
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -114,7 +114,7 @@ namespace Trafilm.Gallery
     protected void SaveCollection(string cxmlFilename, string collectionTitle, IEnumerable<XElement> facetCategories, IEnumerable<ICXMLMetadata> metadataItems)
     {
       Directory.CreateDirectory(Path.GetDirectoryName(Path.GetFullPath(cxmlFilename))); //create any parent directories needed
-      using (XmlWriter cxml = XmlWriter.Create(cxmlFilename))
+      using (XmlWriter cxml = XmlWriter.Create(cxmlFilename, CXMLFragmentStorage<ICXMLMetadata, FilmMetadata>.DEFAULT_XML_WRITER_SETTINGS)) //note: FilmMetadata is used there just to access the DEFAULT_XML_WRITER_SETTINGS constant, not instantiating the CXMLFragmentStorage 
         CXMLMetadata.Save(cxml, collectionTitle, facetCategories, metadataItems.ToArray());
     }
 

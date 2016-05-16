@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: CXMLFileStorage.cs
-//Version: 20150511
+//Version: 20150516
 
 using System;
 using System.Collections;
@@ -15,6 +15,12 @@ namespace Trafilm.Gallery
 
   public class CXMLFragmentStorage<I, T> : ICXMLMetadataStorage<I> where I: ICXMLMetadata where T : ICXMLMetadata, new()
   {
+
+    #region --- Constants ---
+
+    public static XmlWriterSettings DEFAULT_XML_WRITER_SETTINGS = new XmlWriterSettings() { Indent = true, IndentChars = "  " };
+
+    #endregion
 
     #region --- Initialization ---
 
@@ -34,8 +40,10 @@ namespace Trafilm.Gallery
 
     public string FragmentsFilter { get; set; } = "*.cxml"; //can be used to select hierarchically named fragments, e.g. "BigBuckBunny.*.cxml" to filter for scenes of film "BigBuckBunny" and "BigBuckBunny.15.*.cxml" to filter for Utterances of scene "15" in "BigBuckBunny" film
 
+    public XmlWriterSettings XmlWritterSettings { get; set; } = DEFAULT_XML_WRITER_SETTINGS;
+
     public string FragmentFile(string key) {
-      return FragmentsFolder + "/" + key + ".cxml";
+      return Path.Combine(FragmentsFolder, key + ".cxml");
     }
 
     public I this[string key]
@@ -174,10 +182,10 @@ namespace Trafilm.Gallery
       catch { return null; }
     }
 
-    public static XmlWriter CreateXmlWriter(string outputFile)
+    public static XmlWriter CreateXmlWriter(string outputFile, XmlWriterSettings settings = null)
     {
       Directory.CreateDirectory(Path.GetDirectoryName(Path.GetFullPath(outputFile))); //create any parent directories needed
-      return XmlWriter.Create(outputFile);
+      return XmlWriter.Create(outputFile, settings ?? DEFAULT_XML_WRITER_SETTINGS);
     }
 
     #endregion
