@@ -49,7 +49,7 @@ namespace Trafilm.Gallery
       string L3occurenceId = conversationId + "." + txtL3occurence.Text; //that conversationId already contains the filmId in it
       txtL3occurence.Text = "";
 
-      CreateL3occurence(filmId, conversationId, L3occurenceId);
+      CreateL3occurence(filmId, conversationId, L3occurenceId, ((listL3occurences.SelectedIndex > 0) && cbClone.Checked) ? GetMetadataFromUI() : null);
       SelectL3occurence(L3occurenceId);
     }
 
@@ -132,7 +132,7 @@ namespace Trafilm.Gallery
 
     #region Save
 
-    public ICXMLMetadata GetMetadataFromUI()
+    public IL3occurence GetMetadataFromUI()
     {
       IL3occurence metadata = new L3occurence();
       string key = listFilms.SelectedValue;
@@ -231,6 +231,7 @@ namespace Trafilm.Gallery
     {
       bool visible = (listL3occurences.SelectedIndex > 0);
       panelMetadata.Visible = visible;
+      cbClone.Visible = visible;
       if (visible)
         DisplayMetadata(listL3occurences.SelectedValue);
     }

@@ -61,7 +61,7 @@ Version: 20160516
             <asp:TextBox ID="txtConversation" runat="server" />
             <asp:Button ID="btnAddConversation" runat="server" Text="Add" OnClick="btnAddConversation_Click" />
             &nbsp;
-            <asp:CheckBox ID="cbClone" Text="Copy from selected" runat="server" />
+            <asp:CheckBox ID="cbClone" Text="Copy from selected" runat="server" Visible="false" />
           </div>
         </asp:Panel>
 
