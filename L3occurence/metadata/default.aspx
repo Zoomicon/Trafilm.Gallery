@@ -165,19 +165,19 @@ Version: 20160516
 
 
         <div class="question">
-          <div class="tip"></div>
-          <asp:CheckBox ID="cbL2sameAsL3ST" runat="server" Text="L2 language same as L3ST" CssClass="label" />
+          <div class="label">L2 same as L3ST</div>
+          <asp:CheckBox ID="cbL2sameAsL3ST" runat="server" Text="Is L2 same language as L3ST?" CssClass="label" />
         </div>
 
         <div class="question">
-          <div class="tip"></div>
-          <asp:CheckBox ID="cbL3STconveyedAsL3TT" runat="server" Text="L3ST conveyed as L3TT" CssClass="label" />
+          <div class="label">L3ST conveyed as L3TT</div>
+          <asp:CheckBox ID="cbL3STconveyedAsL3TT" runat="server" Text="Has L3ST been conveyed as some sort of L3 in the TT?" CssClass="label" />
         </div>
 
 
         <div class="question">
           <div class="label">L3 language type</div>
-          <div class="tip"></div>
+          <div class="tip">What type of language is L3?</div>
           <asp:DropDownList 
             ID="listL3languageType" runat="server"
             DataSourceID="xmlL3languageType" DataTextField="Value" DataValueField="Value" />
@@ -185,14 +185,14 @@ Version: 20160516
 
         <div class="question">
           <div class="label">L3 language</div>
-          <div class="tip"></div>
+          <div class="tip">Which language is L3?</div>
           <asp:TextBox ID="txtL3language" runat="server" Columns="150"></asp:TextBox>
         </div>
 
 
         <div class="question">
           <div class="label">L3 constructed based on</div>
-          <div class="tip"></div>
+          <div class="tip">If L3 is “constructed”, then is based on:</div>
           <asp:Panel runat="server" MaxHeight="100" ScrollBars="Auto">
             <asp:CheckBoxList ID="clistL3constructedBasedOn" runat="server" 
               DataSourceID="xmlL3constructedBasedOn" DataTextField="Value" DataValueField="Value"
@@ -204,7 +204,7 @@ Version: 20160516
 
         <div class="question">
           <div class="label">L3 meant to be understood</div>
-          <div class="tip"></div>
+          <div class="tip">Is L3 meant to be understood by most of the audience?</div>
           <asp:DropDownList 
             ID="listL3audienceUnderstanding" runat="server"
             DataSourceID="xmlL3audienceUnderstanding" DataTextField="Value" DataValueField="Value" />
@@ -220,7 +220,7 @@ Version: 20160516
 
         <div class="question">
           <div class="label">L3 meaning decipherable</div>
-          <div class="tip"></div>
+          <div class="tip">Can the meaning (pragmatic) of L3 be deciphered by other means? </div>
           <asp:DropDownList 
             ID="listL3meaningDecipherable" runat="server"
             DataSourceID="xmlL3meaningDeciphered" DataTextField="Value" DataValueField="Value" />
@@ -228,8 +228,8 @@ Version: 20160516
 
 
         <div class="question">
-          <div class="label">L3 speaker's performance</div>
-          <div class="tip"></div>
+          <div class="label">L3 speaker performance</div>
+          <div class="tip">Select speaker’s L3-TT proficiency and performance:</div>
           <asp:DropDownList 
             ID="listL3speakerPerformance" runat="server"
             DataSourceID="xmlL3speakerPerformance" DataTextField="Value" DataValueField="Value" />
@@ -238,7 +238,7 @@ Version: 20160516
 
         <div class="question">
           <div class="label">L3 mode</div>
-          <div class="tip"></div>
+          <div class="tip">Mode of L3?</div>
           <asp:Panel runat="server" MaxHeight="100" ScrollBars="Auto">
             <asp:CheckBoxList ID="clistL3mode" runat="server" 
               DataSourceID="xmlL3mode" DataTextField="Value" DataValueField="Value"
@@ -248,8 +248,8 @@ Version: 20160516
         </div>
 
         <div class="question">
-          <div class="label">L3ST mode change (applicable only to L3TT kind)</div>
-          <div class="tip"></div>
+          <div class="label">L3ST mode change</div>
+          <div class="tip">L3ST mode change in TT (oral to written, written to oral) - applies only to L3TT occurence kind (leave empty if “L3 kind” is L3ST):</div>
           <asp:DropDownList 
             ID="listL3STmodeChange" runat="server"
             DataSourceID="xmlL3STmodeChange" DataTextField="Value" DataValueField="Value" />
@@ -257,8 +257,8 @@ Version: 20160516
 
 
         <div class="question">
-          <div class="label">L3 is represented</div>
-          <div class="tip"></div>
+          <div class="label">L3 represented</div>
+          <div class="tip">L3 is represented: </div>
           <asp:Panel runat="server" MaxHeight="100" ScrollBars="Auto">
             <asp:CheckBoxList ID="clistL3represented" runat="server" 
               DataSourceID="xmlL3represented" DataTextField="Value" DataValueField="Value"
@@ -268,7 +268,8 @@ Version: 20160516
         </div>
 
         <div class="question">
-          <div class="label">L3 oral representations (if any)</div>
+          <div class="label">L3 oral representations</div>
+          <div class="tip">If “oral” selected for L3 representations, which:</div>
           <div class="tip"></div>
           <asp:Panel runat="server" MaxHeight="100" ScrollBars="Auto">
             <asp:CheckBoxList ID="clistL3representationsOral" runat="server" 
@@ -279,8 +280,8 @@ Version: 20160516
         </div>
 
         <div class="question">
-          <div class="label">L3 visual representations (if any)</div>
-          <div class="tip"></div>
+          <div class="label">L3 visual representations</div>
+          <div class="tip">If “visual” selected for L3 representations, which:</div>
           <asp:Panel runat="server" MaxHeight="100" ScrollBars="Auto">
             <asp:CheckBoxList ID="clistL3representationsVisual" runat="server" 
               DataSourceID="xmlL3representationsVisual" DataTextField="Value" DataValueField="Value" 
@@ -292,7 +293,7 @@ Version: 20160516
 
         <div class="question">
           <div class="label">L3 functions</div>
-          <div class="tip"></div>
+          <%-- <div class="tip"></div> --%>
           <asp:Panel runat="server" MaxHeight="100" ScrollBars="Auto">
             <asp:CheckBoxList ID="clistL3functions" runat="server" 
               DataSourceID="xmlL3functions" DataTextField="Value" DataValueField="Value"
