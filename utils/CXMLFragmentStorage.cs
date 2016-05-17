@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: CXMLFileStorage.cs
-//Version: 20150516
+//Version: 20150517
 
 using System;
 using System.Collections;
@@ -56,8 +56,7 @@ namespace Trafilm.Gallery
       }
       set
       {
-        string fragmentFile = FragmentFile(key);
-        using (XmlWriter cxml = CreateXmlWriter(fragmentFile)) //will create any folder path if needed and replace existing file fragment
+        using (XmlWriter cxml = CreateXmlWriter(FragmentFile(key))) //will create any folder path if needed and replace existing file fragment
           value.Save(cxml);
       }
     }
