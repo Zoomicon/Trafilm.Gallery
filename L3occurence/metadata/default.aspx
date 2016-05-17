@@ -157,7 +157,7 @@ Version: 20160516
 
         <div class="question">
           <div class="label">L1/L2 mode (for ST/TT respectively)</div>
-          <div class="tip"></div>
+          <div class="tip">Mode of L1/L2 (for an L3ST/L3TT occurence respectively)?</div>
           <asp:DropDownList 
             ID="listLmainMode" runat="server"
             DataSourceID="xmlLmainMode" DataTextField="Value" DataValueField="Value" />
@@ -258,7 +258,7 @@ Version: 20160516
 
         <div class="question">
           <div class="label">L3 represented</div>
-          <div class="tip">L3 is represented: </div>
+          <%-- <div class="tip">L3 is represented:</div> --%>
           <asp:Panel runat="server" MaxHeight="100" ScrollBars="Auto">
             <asp:CheckBoxList ID="clistL3represented" runat="server" 
               DataSourceID="xmlL3represented" DataTextField="Value" DataValueField="Value"
