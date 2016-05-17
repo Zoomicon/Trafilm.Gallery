@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: conversation\metadata\default.aspx.cs
-//Version: 20160516
+//Version: 20160517
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -45,7 +45,7 @@ namespace Trafilm.Gallery
       string conversationId = filmId + "." + txtConversation.Text;
       txtConversation.Text = "";
 
-      CreateConversation(filmId, conversationId);
+      CreateConversation(filmId, conversationId, ((listConversations.SelectedIndex > 0) && cbClone.Checked) ? GetMetadataFromUI() : null);
       SelectConversation(conversationId);
     }
 
@@ -109,10 +109,10 @@ namespace Trafilm.Gallery
 
     #region Save
 
-    public ICXMLMetadata GetMetadataFromUI()
+    public IConversation GetMetadataFromUI()
     {
       IConversation metadata = new Conversation();
-      string key = listFilms.SelectedValue;
+      string key = listConversations.SelectedValue;
 
       //ICXMLMetadata//
 
@@ -157,7 +157,7 @@ namespace Trafilm.Gallery
     public void Save()
     {
       lblInfoUpdated.Text = DateTime.UtcNow.ToString(CXML.DEFAULT_DATETIME_FORMAT);
-      conversationStorage[listConversations.SelectedValue] = (IConversation)GetMetadataFromUI();
+      conversationStorage[listConversations.SelectedValue] = GetMetadataFromUI();
     }
 
     public void SaveCollection()
@@ -215,6 +215,7 @@ namespace Trafilm.Gallery
 
       bool visible = (listConversations.SelectedIndex > 0);
       panelMetadata.Visible = visible;
+      cbClone.Visible = visible;
       if (visible)
       {
         DisplayMetadata(listConversations.SelectedValue);

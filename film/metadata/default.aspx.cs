@@ -41,7 +41,7 @@ namespace Trafilm.Gallery
       string filmId = txtFilm.Text;
       txtFilm.Text = "";
 
-      CreateFilm(filmId);
+      CreateFilm(filmId, ((listFilms.SelectedIndex > 0) && cbClone.Checked) ? GetMetadataFromUI() : null);
       SelectFilm(filmId);
     }
 
@@ -110,7 +110,7 @@ namespace Trafilm.Gallery
 
     #region Save
 
-    public ICXMLMetadata GetMetadataFromUI()
+    public IFilm GetMetadataFromUI()
     {
       IFilm metadata = new Film();
       string key = listFilms.SelectedValue;
@@ -204,6 +204,7 @@ namespace Trafilm.Gallery
 
       bool visible = (listFilms.SelectedIndex > 0);
       panelMetadata.Visible = visible;
+      cbClone.Visible = visible;
       if (visible)
       {
         DisplayMetadata(listFilms.SelectedValue);

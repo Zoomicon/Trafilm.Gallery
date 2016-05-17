@@ -57,7 +57,7 @@ Version: 20160516
           <asp:TextBox ID="txtFilm" runat="server" />
           <asp:Button ID="btnAddFilm" runat="server" Text="Add" OnClick="btnAddFilm_Click" />
           &nbsp;
-          <asp:CheckBox ID="cbClone" Text="Copy from selected" runat="server" />
+          <asp:CheckBox ID="cbClone" Text="Copy from selected" runat="server" Visible="false" />
         </div>
 
       </div>
