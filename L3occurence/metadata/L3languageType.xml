@@ -3,14 +3,14 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: L3occurence/metadata/L3languageType.xml
-Version: 20160512
+Version: 20160517
 -->
 
 <Facet Name="L3languageType">
   <String Value="" />
   <String Value="real" />
-  <String Value="invented" />
-  <String Value="Lmain variety, real dialect, slang or other" />
-  <String Value="no L3TT: L3occurence omitted" />
-  <String Value="no L3TT: L3occurence in L2" />
+  <String Value="constructed" />
+  <String Value="L1/L2 variety, real dialect, slang or other" />
+  <String Value="no L3TT: L3-occurence omitted" />
+  <String Value="no L3TT: L3-occurence in L2" />
 </Facet>
