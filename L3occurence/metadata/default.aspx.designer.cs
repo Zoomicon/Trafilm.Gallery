@@ -400,13 +400,13 @@ namespace Trafilm.Gallery {
         protected global::System.Web.UI.WebControls.DropDownList listL3messageUnderstanding;
         
         /// <summary>
-        /// listL3meaningDeciphered control.
+        /// listL3meaningDecipherable control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList listL3meaningDeciphered;
+        protected global::System.Web.UI.WebControls.DropDownList listL3meaningDecipherable;
         
         /// <summary>
         /// listL3speakerPerformance control.

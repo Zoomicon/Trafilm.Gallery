@@ -114,7 +114,7 @@ namespace Trafilm.Gallery
 
       UI.Load(listL3audienceUnderstanding, metadata.L3audienceUnderstanding);
       UI.Load(listL3messageUnderstanding, metadata.L3messageUnderstanding);
-      UI.Load(listL3meaningDeciphered, metadata.L3meaningDeciphered);
+      UI.Load(listL3meaningDecipherable, metadata.L3meaningDecipherable);
 
       UI.Load(listL3speakerPerformance, metadata.L3speakerPerformance);
 
@@ -176,7 +176,7 @@ namespace Trafilm.Gallery
 
       metadata.L3audienceUnderstanding = listL3audienceUnderstanding.SelectedValue;
       metadata.L3messageUnderstanding = listL3messageUnderstanding.SelectedValue;
-      metadata.L3meaningDeciphered = listL3meaningDeciphered.SelectedValue;
+      metadata.L3meaningDecipherable = listL3meaningDecipherable.SelectedValue;
 
       metadata.L3speakerPerformance = listL3speakerPerformance.SelectedValue;
 
