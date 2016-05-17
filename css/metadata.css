@@ -1,12 +1,12 @@
 ﻿/*
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: metadata.cs
-Version: 20160513
+Version: 20160517
 */
 
 div
 {
-  margin-top: 15px;
+  margin-top: 12px;
   margin-bottom: 5px;
 }
 
@@ -60,4 +60,12 @@ div
 .label
 {
   font-weight: bold;
+}
+
+.tip
+{
+  font-style: italic;
+  text-align: justify;
+  color: grey;
+  margin-top: 0px;
 }

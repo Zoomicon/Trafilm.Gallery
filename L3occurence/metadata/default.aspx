@@ -132,6 +132,7 @@ Version: 20160516
 
         <div class="question">
           <div class="label">L3-occurence Duration (h:m:s)</div>
+          <div class="tip">How long does L3-ST last? (if the L3 is interrupted by other speech, count total seconds from onset to end of final L3-occurence)</div>
           <asp:TextBox ID="txtDuration" runat="server" Columns="25"></asp:TextBox>
         </div>
         

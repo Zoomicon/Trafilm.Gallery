@@ -3,7 +3,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: metadata/LmainLanguage.xml
-Version: 20160512
+Version: 20160517
 -->
 
 <Facet Name="LmainLanguage">
@@ -11,6 +11,9 @@ Version: 20160512
   <String Value="English" />
   <String Value="Spanish" />
   <String Value="Catalan" />
+  <String Value="Other" />
+  <String Value="Silent" />
+  <String Value="Unintelligible (e.g. gibberish)" />
   <String Value="Albanian" />
   <String Value="Arabic" />
   <String Value="Basque" />
