@@ -100,10 +100,10 @@ namespace Trafilm.Gallery
       //Calculated properties//
 
       UI.Load(lblL3languagesCount, metadata.L3languagesCount.ToString());
-      clistL3languages.DataSource = metadata.L3languages;
+      UI.LoadContent(clistL3languages, metadata.L3languages); //do not use Load, use LoadContent to add values, not select them
 
       UI.Load(lblL3languageTypesCount, metadata.L3languageTypesCount.ToString());
-      clistL3languageTypes.DataSource = metadata.L3languageTypes;
+      UI.LoadContent(clistL3languageTypes, metadata.L3languageTypes); //do not use Load, use LoadContent to add values, not select them
 
       UI.Load(lblL3occurenceCount, metadata.L3occurenceCount.ToString());
     }
