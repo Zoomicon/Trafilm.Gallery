@@ -23,7 +23,7 @@ namespace Trafilm.Gallery
 
     protected CXMLFragmentStorage<IFilm, Film> filmStorage;
     protected CXMLFragmentStorage<IConversation, Conversation> conversationStorage;
-    protected CXMLFragmentStorage<IL3occurence, L3occurence> L3occurenceStorage;
+    protected CXMLFragmentStorage<IL3occurence, L3occurence> l3occurenceStorage;
 
     #endregion
 
@@ -72,7 +72,7 @@ namespace Trafilm.Gallery
 
     public void CreateL3occurence(string filmId, string conversationId, string L3occurenceId, IL3occurence metadata = null) //don't return IL3occurence to avoid loading a .CXML file if already exists
     {
-      if (!L3occurenceStorage.Keys.Contains(L3occurenceId))
+      if (!l3occurenceStorage.Keys.Contains(L3occurenceId))
       {
         if (metadata == null)
         {
@@ -87,7 +87,7 @@ namespace Trafilm.Gallery
         metadata.Title = L3occurenceId;
         metadata.ReferenceId = L3occurenceId;
 
-        L3occurenceStorage[L3occurenceId] = metadata;
+        l3occurenceStorage[L3occurenceId] = metadata;
       }
     }
 
@@ -132,7 +132,7 @@ namespace Trafilm.Gallery
 
     public void UpdateL3occurencesList(ListControl list, string selectedValue = null, bool isQueryStringItem = false)
     {
-      UpdateList(list, L3occurenceStorage.Keys, selectedValue, isQueryStringItem);
+      UpdateList(list, l3occurenceStorage.Keys, selectedValue, isQueryStringItem);
     }
 
     #endregion

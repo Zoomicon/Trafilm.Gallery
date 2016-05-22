@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: film\metadata\default.aspx.cs
-//Version: 20160516
+//Version: 20160522
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -23,7 +23,6 @@ namespace Trafilm.Gallery
     {
       filmStorage = new CXMLFragmentStorage<IFilm, Film>(Path.Combine(Request.PhysicalApplicationPath, @"film\films.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"film\metadata"), "*.cxml");
       conversationStorage = new CXMLFragmentStorage<IConversation, Conversation>(Path.Combine(Request.PhysicalApplicationPath, @"conversation\conversations.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"conversation\metadata"), listFilms.SelectedValue + ".*.cxml");
-      L3occurenceStorage = new CXMLFragmentStorage<IL3occurence, L3occurence>(Path.Combine(Request.PhysicalApplicationPath, @"L3occurence\L3occurences.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"L3occurence\metadata"), listFilms.SelectedValue + ".*.cxml");
 
       if (!IsPostBack)
       {
@@ -55,7 +54,10 @@ namespace Trafilm.Gallery
 
     public void DisplayMetadata(string filmId)
     {
-       DisplayMetadata(filmStorage[filmId]);
+      IFilm metadata = filmStorage[filmId];
+      conversationStorage = new CXMLFragmentStorage<IConversation, Conversation>(Path.Combine(Request.PhysicalApplicationPath, @"conversation\conversations.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"conversation\metadata"), filmId + ".*.cxml");
+      metadata.Conversations = conversationStorage.Values; //this updates calculated properties //assumes "conversationStorage" has been updated
+      DisplayMetadata(metadata);
     }
 
     public void DisplayMetadata(IFilm metadata)
@@ -100,10 +102,10 @@ namespace Trafilm.Gallery
       UI.Load(clistDubbedLanguages, metadata.DubbedLanguages);
       UI.Load(clistSubtitledLanguages, metadata.SubtitledLanguages);
 
-      //Calculatable from Conversations//
+      //Calculated properties//
 
-      UI.Load(lblConversationCount, CalculateConversationCount(key).ToString());
-      UI.Load(lblConversationsDuration, CalculateConversationsDuration(key).ToString(ConversationMetadata.DEFAULT_DURATION_FORMAT));
+      UI.Load(lblConversationCount, metadata.ConversationCount.ToString());
+      UI.Load(lblConversationsDuration, metadata.ConversationsDuration.ToString(ConversationMetadata.DEFAULT_DURATION_FORMAT));
     }
  
     #endregion
@@ -154,10 +156,11 @@ namespace Trafilm.Gallery
       metadata.DubbedLanguages = UI.GetSelected(clistDubbedLanguages);
       metadata.SubtitledLanguages = UI.GetSelected(clistSubtitledLanguages);
 
-      //Calculatable from Conversations//
 
-      metadata.ConversationCount = CalculateConversationCount(key);
-      metadata.ConversationsDuration = CalculateConversationsDuration(key);
+      //Calculated properties//
+
+      conversationStorage = new CXMLFragmentStorage<IConversation, Conversation>(Path.Combine(Request.PhysicalApplicationPath, @"conversation\conversations.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"conversation\metadata"), key + ".*.cxml");
+      metadata.Conversations = conversationStorage.Values; //this updates calculated properties //assumes "conversationStorage" has been updated
 
       return metadata;
     }
@@ -175,24 +178,6 @@ namespace Trafilm.Gallery
 
     #endregion
 
-    #region Calculated from Conversations
-
-    private int CalculateConversationCount(string key)
-    {
-      return conversationStorage.Count;
-    }
-
-    private TimeSpan CalculateConversationsDuration(string key) //TODO
-    {
-      TimeSpan duration = TimeSpan.Zero;
-      foreach (IConversation conversation in conversationStorage.Values)
-        if (conversation.Duration != null)
-          duration += (TimeSpan)conversation.Duration;
-      return duration;
-    }
-
-    #endregion
-
     #endregion
 
     #region --- Events ---
@@ -200,14 +185,13 @@ namespace Trafilm.Gallery
     protected void listFilms_SelectedIndexChanged(object sender, EventArgs e)
     {
       conversationStorage = new CXMLFragmentStorage<IConversation, Conversation>(Path.Combine(Request.PhysicalApplicationPath, @"conversation\conversations.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"conversation\metadata"), listFilms.SelectedValue + ".*.cxml");
-      L3occurenceStorage = new CXMLFragmentStorage<IL3occurence, L3occurence>(Path.Combine(Request.PhysicalApplicationPath, @"L3occurence\L3occurences.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"L3occurence\metadata"), listFilms.SelectedValue + ".*.cxml");
 
       bool visible = (listFilms.SelectedIndex > 0);
       panelMetadata.Visible = visible;
       cbClone.Visible = visible;
       if (visible)
       {
-        DisplayMetadata(listFilms.SelectedValue);
+        DisplayMetadata(listFilms.SelectedValue); //assumes "conversationStorage" has been updated
         UpdateRepeater(repeaterConversations, conversationStorage.Keys.Select(x => new { filmId = listFilms.SelectedValue, conversationId = x }) );
       }
     }
