@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: UI.cs
-//Version: 20160516
+//Version: 20160522
 
 using System;
 using System.Collections.Generic;
@@ -27,6 +27,12 @@ namespace Trafilm.Gallery
     }
 
     //
+
+    public static void LoadContent(ListControl list, string[] values)
+    {
+      list.DataSource = values;
+      list.DataBind();
+    }
 
     public static void Load(ListControl list, string[] values)
     {
