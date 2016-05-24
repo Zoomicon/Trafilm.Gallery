@@ -23,7 +23,7 @@ namespace Trafilm.Gallery
 
     protected CXMLFragmentStorage<IFilm, Film> filmStorage;
     protected CXMLFragmentStorage<IConversation, Conversation> conversationStorage;
-    protected CXMLFragmentStorage<IL3occurence, L3occurence> l3occurenceStorage;
+    protected CXMLFragmentStorage<IL3occurrence, L3occurrence> l3occurrenceStorage;
 
     #endregion
 
@@ -70,13 +70,13 @@ namespace Trafilm.Gallery
       }
     }
 
-    public void CreateL3occurence(string filmId, string conversationId, string L3occurenceId, IL3occurence metadata = null) //don't return IL3occurence to avoid loading a .CXML file if already exists
+    public void CreateL3occurrence(string filmId, string conversationId, string L3occurrenceId, IL3occurrence metadata = null) //don't return IL3occurrence to avoid loading a .CXML file if already exists
     {
-      if (!l3occurenceStorage.Keys.Contains(L3occurenceId))
+      if (!l3occurrenceStorage.Keys.Contains(L3occurrenceId))
       {
         if (metadata == null)
         {
-          metadata = new L3occurence();
+          metadata = new L3occurrence();
           metadata.Clear();
           metadata.FilmReferenceId = filmId;
           metadata.ConversationReferenceId = conversationId;
@@ -84,10 +84,10 @@ namespace Trafilm.Gallery
         else
           metadata.ClearCalculated();
 
-        metadata.Title = L3occurenceId;
-        metadata.ReferenceId = L3occurenceId;
+        metadata.Title = L3occurrenceId;
+        metadata.ReferenceId = L3occurrenceId;
 
-        l3occurenceStorage[L3occurenceId] = metadata;
+        l3occurrenceStorage[L3occurrenceId] = metadata;
       }
     }
 
@@ -130,9 +130,9 @@ namespace Trafilm.Gallery
       UpdateList(list, conversationStorage.Keys, selectedValue, isQueryStringItem);
     }
 
-    public void UpdateL3occurencesList(ListControl list, string selectedValue = null, bool isQueryStringItem = false)
+    public void UpdateL3occurrencesList(ListControl list, string selectedValue = null, bool isQueryStringItem = false)
     {
-      UpdateList(list, l3occurenceStorage.Keys, selectedValue, isQueryStringItem);
+      UpdateList(list, l3occurrenceStorage.Keys, selectedValue, isQueryStringItem);
     }
 
     #endregion

@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: conversation\metadata\default.aspx
-Version: 20160516
+Version: 20160524
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -29,7 +29,7 @@ Version: 20160516
        &nbsp;&nbsp;-&nbsp;&nbsp;
        <a class="selected" href="../../conversation/metadata/">Conversation Metadata</a>
        &nbsp;&nbsp;-&nbsp;&nbsp;
-       <a href="../../L3occurence/metadata/?film=<%=listFilms.SelectedValue%>&conversation=<%=listConversations.SelectedValue%>">L3occurence Metadata</a>
+       <a href="../../L3occurrence/metadata/?film=<%=listFilms.SelectedValue%>&conversation=<%=listConversations.SelectedValue%>">L3occurrence Metadata</a>
     </div>
 
     <%-- INSTRUCTION BOX --%>
@@ -74,12 +74,12 @@ Version: 20160516
         <%-- ICXMLMetadata--%>
 
         <div class="question">
-          <div class="label">Conversation Title (optional)</div>
+          <div class="label">1. Conversation Title (optional)</div>
           <asp:TextBox ID="txtTitle" runat="server" Columns="150"></asp:TextBox>
         </div>
 
         <div class="question">
-          <div class="label">Conversation Description (optional)</div>
+          <div class="label">2. Conversation Description (optional)</div>
           <asp:TextBox ID="txtDescription" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
         </div>
 
@@ -97,34 +97,35 @@ Version: 20160516
         <%-- ITrafilmMetadata --%>
 
         <div class="question">
-          <div class="label">Keywords (comma-separated)</div>
+          <div class="label">3. Keywords (comma-separated)</div>
+          <div class="tip">Enter OPTIONAL list of keywords to help identify this item</div>
           <asp:TextBox ID="txtKeywords" runat="server" Columns="150"></asp:TextBox>
         </div>
 
         <%-- IConversationMetadata --%>
 
         <div class="question">
-          <div class="label">Conversation Start Time (h:m:s)</div>
+          <div class="label">4. Conversation Start Time (h:m:s)</div>
           <asp:TextBox ID="txtStartTime" runat="server" Columns="25"></asp:TextBox>
         </div>
 
         <div class="question">
-          <div class="label">Conversation Duration (h:m:s)</div>
+          <div class="label">5. Conversation Duration (h:m:s)</div>
           <asp:TextBox ID="txtDuration" runat="server" Columns="25"></asp:TextBox>
         </div>
         
 
         <div class="question">
-          <asp:CheckBox ID="cbL1languagePresent" runat="server" Text="L1 (source) language present" CssClass="label" />
+          <span>6. </span><asp:CheckBox ID="cbL1languagePresent" runat="server" Text="L1 (source) language present" CssClass="label" />
         </div>
 
         <div class="question">
-          <asp:CheckBox ID="cbL2languagePresent" runat="server" Text="L2 (translated) language present" CssClass="label" />
+          <span>7. </span><asp:CheckBox ID="cbL2languagePresent" runat="server" Text="L2 (translated) language present" CssClass="label" />
         </div>
 
 
         <div class="question">
-          <div class="label">Speaking characters count</div>
+          <div class="label">8. Speaking characters count</div>
           <asp:DropDownList 
             ID="listSpeakingCharactersCount" runat="server"
             DataSourceID="xmlCount" DataTextField="Value" DataValueField="Value"
@@ -132,7 +133,7 @@ Version: 20160516
         </div>
 
         <div class="question">
-          <div class="label">L3 (other) language speaking characters count</div>
+          <div class="label">9. L3 (other) language speaking characters count</div>
           <asp:DropDownList 
             ID="listL3speakingCharactersCount" runat="server"
             DataSourceID="xmlCount" DataTextField="Value" DataValueField="Value"
@@ -140,15 +141,15 @@ Version: 20160516
         </div>
         
 
-        <%-- Calculated from L3occurences --%>
+        <%-- Calculated from L3occurrences --%>
 
         <div>
-          <div class="label">Count of L3 (other) languages in Conversation (Calculated from L3occurences)</div>
+          <div class="label">Count of L3 (other) languages in Conversation (Calculated from L3occurrences)</div>
           <asp:Label ID="lblL3languagesCount" runat="server"></asp:Label>
         </div>  
 
         <div>
-          <div class="label">L3 (other) languages in Conversation (Calculated from L3occurences)</div>
+          <div class="label">L3 (other) languages in Conversation (Calculated from L3occurrences)</div>
           <asp:Panel runat="server" ScrollBars="Auto">
             <asp:ListBox ID="clistL3languages" runat="server" Enabled="false"
               RepeatLayout="Table" RepeatColumns="10" RepeatDirection="Vertical"
@@ -158,12 +159,12 @@ Version: 20160516
 
 
         <div>
-          <div class="label">Count of L3 language types in Conversation (Calculated from L3occurences)</div>
+          <div class="label">Count of L3 language types in Conversation (Calculated from L3occurrences)</div>
           <asp:Label ID="lblL3languageTypesCount" runat="server"></asp:Label>
         </div> 
         
         <div>
-          <div class="label">L3 language types in Conversation (Calculated from L3occurences)</div>
+          <div class="label">L3 language types in Conversation (Calculated from L3occurrences)</div>
           <asp:Panel runat="server" ScrollBars="Auto">
             <asp:ListBox ID="clistL3languageTypes" runat="server" Enabled="false"
               RepeatLayout="Table" RepeatColumns="10" RepeatDirection="Vertical"    
@@ -173,19 +174,19 @@ Version: 20160516
 
 
         <div>
-          <div class="label">Count of L3occurences (Calculated)</div>
-          <asp:Label ID="lblL3occurenceCount" runat="server"></asp:Label>
+          <div class="label">Count of L3occurrences (Calculated)</div>
+          <asp:Label ID="lblL3occurrenceCount" runat="server"></asp:Label>
         </div>    
         
         
-        <%-- L3occurences list --%>                  
+        <%-- L3occurrences list --%>                  
 
-        <asp:Repeater ID="repeaterL3occurences" runat="server">
+        <asp:Repeater ID="repeaterL3occurrences" runat="server">
           <HeaderTemplate>
-            <div class="label">List of L3occurences<div>
+            <div class="label">List of L3occurrences<div>
           </HeaderTemplate>
           <ItemTemplate>
-            <a href="../../L3occurence/metadata/?film=<%#Eval("filmId")%>&conversation=<%#Eval("conversationId")%>&L3occurence=<%#Eval("L3occurenceId")%>"><%#Eval("L3occurenceId")%></a>&nbsp;&nbsp;
+            <a href="../../L3occurrence/metadata/?film=<%#Eval("filmId")%>&conversation=<%#Eval("conversationId")%>&L3occurrence=<%#Eval("L3occurrenceId")%>"><%#Eval("L3occurrenceId")%></a>&nbsp;&nbsp;
           </ItemTemplate>
         </asp:Repeater>
 

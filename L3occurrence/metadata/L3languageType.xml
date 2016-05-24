@@ -2,7 +2,7 @@
 
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
-Filename: L3occurence/metadata/L3languageType.xml
+Filename: L3occurrence/metadata/L3languageType.xml
 Version: 20160517
 -->
 
@@ -11,6 +11,6 @@ Version: 20160517
   <String Value="real" />
   <String Value="constructed" />
   <String Value="L1/L2 variety, real dialect, slang or other" />
-  <String Value="no L3TT: L3-occurence omitted" />
-  <String Value="no L3TT: L3-occurence in L2" />
+  <String Value="no L3TT: L3-occurrence omitted" />
+  <String Value="no L3TT: L3-occurrence in L2" />
 </Facet>

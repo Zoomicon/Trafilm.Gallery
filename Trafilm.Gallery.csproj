@@ -65,51 +65,51 @@
     <Content Include="seajax\css\PivotView.css" />
     <Content Include="seajax\css\search.gif" />
     <Content Include="seajax\seadragon-pivot-standalone-min.js" />
-    <Content Include="L3occurence\default.html" />
-    <Content Include="L3occurence\metadata\L3meaningDeciphered.xml">
+    <Content Include="L3occurrence\default.html" />
+    <Content Include="L3occurrence\metadata\L3meaningDeciphered.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="L3occurence\metadata\L3representationsVisual.xml">
+    <Content Include="L3occurrence\metadata\L3representationsVisual.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="L3occurence\metadata\L3representationsOral.xml">
+    <Content Include="L3occurrence\metadata\L3representationsOral.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="L3occurence\metadata\LmainLanguage.xml" />
-    <Content Include="L3occurence\metadata\LmainMode.xml">
+    <Content Include="L3occurrence\metadata\LmainLanguage.xml" />
+    <Content Include="L3occurrence\metadata\LmainMode.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="L3occurence\metadata\L3represented.xml">
+    <Content Include="L3occurrence\metadata\L3represented.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="L3occurence\metadata\L3STmodeChange.xml">
+    <Content Include="L3occurrence\metadata\L3STmodeChange.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="L3occurence\metadata\L3speakerPerformance.xml">
+    <Content Include="L3occurrence\metadata\L3speakerPerformance.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="L3occurence\metadata\L3messageUnderstanding.xml">
+    <Content Include="L3occurrence\metadata\L3messageUnderstanding.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="L3occurence\metadata\L3constructedBasedOn.xml">
+    <Content Include="L3occurrence\metadata\L3constructedBasedOn.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="L3occurence\metadata\L3audienceUnderstanding.xml">
+    <Content Include="L3occurrence\metadata\L3audienceUnderstanding.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="L3occurence\metadata\L3languageType.xml">
+    <Content Include="L3occurrence\metadata\L3languageType.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="L3occurence\metadata\L3mode.xml">
+    <Content Include="L3occurrence\metadata\L3mode.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="L3occurence\metadata\L3functions.xml">
+    <Content Include="L3occurrence\metadata\L3functions.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="L3occurence\metadata\L3kind.xml">
+    <Content Include="L3occurrence\metadata\L3kind.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="L3occurence\metadata\default.aspx" />
+    <Content Include="L3occurrence\metadata\default.aspx" />
     <Content Include="metadata\Languages.xml" />
     <Content Include="metadata\Default.aspx" />
     <Content Include="film\metadata\default.aspx" />
@@ -127,11 +127,11 @@
     <Compile Include="metadata\BaseMetadataPage.cs">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="L3occurence\metadata\default.aspx.cs">
+    <Compile Include="L3occurrence\metadata\default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="L3occurence\metadata\default.aspx.designer.cs">
+    <Compile Include="L3occurrence\metadata\default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
     </Compile>
     <Compile Include="utils\UI.cs" />
@@ -157,7 +157,7 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="Trafilm.Metadata, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\Trafilm.Metadata.4.5.0\lib\portable-net403+sl5+win8+wpa81+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Trafilm.Metadata.dll</HintPath>
+      <HintPath>packages\Trafilm.Metadata.5.0.0\lib\portable-net403+sl5+win8+wpa81+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Trafilm.Metadata.dll</HintPath>
       <Private>True</Private>
     </Reference>
   </ItemGroup>
