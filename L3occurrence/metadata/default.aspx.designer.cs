@@ -10,7 +10,7 @@
 namespace Trafilm.Gallery {
     
     
-    public partial class L3occurenceMetadataPage {
+    public partial class L3occurrenceMetadataPage {
         
         /// <summary>
         /// xmlL3kind control.
@@ -184,40 +184,40 @@ namespace Trafilm.Gallery {
         protected global::System.Web.UI.WebControls.DropDownList listConversations;
         
         /// <summary>
-        /// panelL3occurenceId control.
+        /// panelL3occurrenceId control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel panelL3occurenceId;
+        protected global::System.Web.UI.WebControls.Panel panelL3occurrenceId;
         
         /// <summary>
-        /// listL3occurences control.
+        /// listL3occurrences control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList listL3occurences;
+        protected global::System.Web.UI.WebControls.DropDownList listL3occurrences;
         
         /// <summary>
-        /// txtL3occurence control.
+        /// txtL3occurrence control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtL3occurence;
+        protected global::System.Web.UI.WebControls.TextBox txtL3occurrence;
         
         /// <summary>
-        /// btnAddL3occurence control.
+        /// btnAddL3occurrence control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnAddL3occurence;
+        protected global::System.Web.UI.WebControls.Button btnAddL3occurrence;
         
         /// <summary>
         /// cbClone control.

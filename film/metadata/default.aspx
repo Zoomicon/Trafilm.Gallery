@@ -30,7 +30,7 @@ Version: 20160524
        &nbsp;&nbsp;-&nbsp;&nbsp;
        <a href="../../conversation/metadata/?film=<%=listFilms.SelectedValue%>">Conversation Metadata</a>
        &nbsp;&nbsp;-&nbsp;&nbsp;
-       <a href="../../L3occurence/metadata/?film=<%=listFilms.SelectedValue%>">L3occurence Metadata</a>
+       <a href="../../L3occurrence/metadata/?film=<%=listFilms.SelectedValue%>">L3occurrence Metadata</a>
     </div>
 
     <%-- INSTRUCTION BOX --%>
