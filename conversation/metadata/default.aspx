@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: conversation\metadata\default.aspx
-Version: 20160516
+Version: 20160524
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -98,6 +98,7 @@ Version: 20160516
 
         <div class="question">
           <div class="label">Keywords (comma-separated)</div>
+          <div class="tip">Enter OPTIONAL list of keywords to help identify this item</div>
           <asp:TextBox ID="txtKeywords" runat="server" Columns="150"></asp:TextBox>
         </div>
 

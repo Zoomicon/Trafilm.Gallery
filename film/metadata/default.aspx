@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: film\metadata\default.aspx
-Version: 20160517
+Version: 20160524
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -36,8 +36,8 @@ Version: 20160517
     <%-- INSTRUCTION BOX --%>
 
     <div class="instructions">
-      Please fill in the following information for the clip of your choice. Select the clip from the dropdown list.<br />
-      Try to fill the metadata as fully and accurately as possible, as they will be used for searching and filtering clips.<br />
+      Please fill in the following information for the film of your choice. Select the film from the dropdown list.<br />
+      Try to fill the metadata as fully and accurately as possible, as they will be used for searching and filtering film.<br />
       Don't forget to press the SAVE METADATA button. Thank you!
     </div>
 
@@ -93,6 +93,7 @@ Version: 20160517
 
         <div class="question">
           <div class="label">Keywords (comma-separated)</div>
+          <div class="tip">Enter OPTIONAL list of keywords to help identify this item</div>
           <asp:TextBox ID="txtKeywords" runat="server" Columns="150"></asp:TextBox>
         </div>
 
