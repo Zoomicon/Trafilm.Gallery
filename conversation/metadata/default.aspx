@@ -74,12 +74,12 @@ Version: 20160524
         <%-- ICXMLMetadata--%>
 
         <div class="question">
-          <div class="label">Conversation Title (optional)</div>
+          <div class="label">1. Conversation Title (optional)</div>
           <asp:TextBox ID="txtTitle" runat="server" Columns="150"></asp:TextBox>
         </div>
 
         <div class="question">
-          <div class="label">Conversation Description (optional)</div>
+          <div class="label">2. Conversation Description (optional)</div>
           <asp:TextBox ID="txtDescription" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
         </div>
 
@@ -97,7 +97,7 @@ Version: 20160524
         <%-- ITrafilmMetadata --%>
 
         <div class="question">
-          <div class="label">Keywords (comma-separated)</div>
+          <div class="label">3. Keywords (comma-separated)</div>
           <div class="tip">Enter OPTIONAL list of keywords to help identify this item</div>
           <asp:TextBox ID="txtKeywords" runat="server" Columns="150"></asp:TextBox>
         </div>
@@ -105,27 +105,27 @@ Version: 20160524
         <%-- IConversationMetadata --%>
 
         <div class="question">
-          <div class="label">Conversation Start Time (h:m:s)</div>
+          <div class="label">4. Conversation Start Time (h:m:s)</div>
           <asp:TextBox ID="txtStartTime" runat="server" Columns="25"></asp:TextBox>
         </div>
 
         <div class="question">
-          <div class="label">Conversation Duration (h:m:s)</div>
+          <div class="label">5. Conversation Duration (h:m:s)</div>
           <asp:TextBox ID="txtDuration" runat="server" Columns="25"></asp:TextBox>
         </div>
         
 
         <div class="question">
-          <asp:CheckBox ID="cbL1languagePresent" runat="server" Text="L1 (source) language present" CssClass="label" />
+          <span>6. </span><asp:CheckBox ID="cbL1languagePresent" runat="server" Text="L1 (source) language present" CssClass="label" />
         </div>
 
         <div class="question">
-          <asp:CheckBox ID="cbL2languagePresent" runat="server" Text="L2 (translated) language present" CssClass="label" />
+          <span>7. </span><asp:CheckBox ID="cbL2languagePresent" runat="server" Text="L2 (translated) language present" CssClass="label" />
         </div>
 
 
         <div class="question">
-          <div class="label">Speaking characters count</div>
+          <div class="label">8. Speaking characters count</div>
           <asp:DropDownList 
             ID="listSpeakingCharactersCount" runat="server"
             DataSourceID="xmlCount" DataTextField="Value" DataValueField="Value"
@@ -133,7 +133,7 @@ Version: 20160524
         </div>
 
         <div class="question">
-          <div class="label">L3 (other) language speaking characters count</div>
+          <div class="label">9. L3 (other) language speaking characters count</div>
           <asp:DropDownList 
             ID="listL3speakingCharactersCount" runat="server"
             DataSourceID="xmlCount" DataTextField="Value" DataValueField="Value"

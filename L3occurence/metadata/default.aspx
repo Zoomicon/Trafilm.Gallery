@@ -95,12 +95,12 @@ Version: 20160524
         <%-- ICXMLMetadata--%>
 
         <div class="question">
-          <div class="label">L3-occurence Title (optional)</div>
+          <div class="label">1. L3-occurence Title (optional)</div>
           <asp:TextBox ID="txtTitle" runat="server" Columns="150"></asp:TextBox>
         </div>
 
         <div class="question">
-          <div class="label">L3-occurence Description (optional)</div>
+          <div class="label">2. L3-occurence Description (optional)</div>
           <asp:TextBox ID="txtDescription" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
         </div>
 
@@ -118,7 +118,7 @@ Version: 20160524
         <%-- ITrafilmMetadata --%>
 
         <div class="question">
-          <div class="label">Keywords (comma-separated)</div>
+          <div class="label">3. Keywords (comma-separated)</div>
           <div class="tip">Enter OPTIONAL list of keywords to help identify this item</div>
           <asp:TextBox ID="txtKeywords" runat="server" Columns="150"></asp:TextBox>
         </div>
@@ -127,20 +127,20 @@ Version: 20160524
 
 
         <div class="question">
-          <div class="label">L3-occurence Start Time (h:m:s)</div>
-          <div class="tip">What part of the film is L3-ST in? (i.e. how many minutes and seconds from the start)</div>
+          <div class="label">4. L3-occurence Start Time (h:m:s)</div>
+          <div class="tip">What part of the film is L3 in? (i.e. how many minutes and seconds from the start)</div>
           <asp:TextBox ID="txtStartTime" runat="server" Columns="25"></asp:TextBox>
         </div>
 
         <div class="question">
-          <div class="label">L3-occurence Duration (h:m:s)</div>
+          <div class="label">5. L3-occurence Duration (h:m:s)</div>
           <div class="tip">How long does L3 last? (if the L3 is interrupted by other speech, count total seconds from onset to end of final L3-occurence)</div>
           <asp:TextBox ID="txtDuration" runat="server" Columns="25"></asp:TextBox>
         </div>
         
 
         <div class="question">
-          <div class="label">L3 kind</div>
+          <div class="label">6. L3 kind</div>
           <div class="tip">Is this an L3ST or L3TT occurence?</div>
           <asp:DropDownList 
             ID="listL3kind" runat="server"
@@ -149,7 +149,7 @@ Version: 20160524
 
 
         <div class="question">
-          <div class="label">L1/L2 language (for ST/TT respectively)</div>
+          <div class="label">7. L1/L2 language (for ST/TT respectively)</div>
           <div class="tip">What language is L1/L2 (for an L3ST/L3TT occurence respectively) in?</div>
           <asp:DropDownList 
             ID="listLmainLanguage" runat="server"
@@ -157,7 +157,7 @@ Version: 20160524
         </div>
 
         <div class="question">
-          <div class="label">L1/L2 mode (for ST/TT respectively)</div>
+          <div class="label">8. L1/L2 mode (for ST/TT respectively)</div>
           <div class="tip">Mode of L1/L2 (for an L3ST/L3TT occurence respectively)?</div>
           <asp:DropDownList 
             ID="listLmainMode" runat="server"
@@ -166,18 +166,18 @@ Version: 20160524
 
 
         <div class="question">
-          <div class="label">L2 same as L3ST</div>
+          <div class="label">9. L2 same as L3ST</div>
           <asp:CheckBox ID="cbL2sameAsL3ST" runat="server" Text="Is L2 same language as L3ST?" CssClass="label" />
         </div>
 
         <div class="question">
-          <div class="label">L3ST conveyed as L3TT</div>
+          <div class="label">10. L3ST conveyed as L3TT</div>
           <asp:CheckBox ID="cbL3STconveyedAsL3TT" runat="server" Text="Has L3ST been conveyed as some sort of L3 in the TT?" CssClass="label" />
         </div>
 
 
         <div class="question">
-          <div class="label">L3 language type</div>
+          <div class="label">11. L3 language type</div>
           <div class="tip">What type of language is L3?</div>
           <asp:DropDownList 
             ID="listL3languageType" runat="server"
@@ -185,14 +185,14 @@ Version: 20160524
         </div>
 
         <div class="question">
-          <div class="label">L3 language</div>
+          <div class="label">12. L3 language</div>
           <div class="tip">Which language is L3?</div>
           <asp:TextBox ID="txtL3language" runat="server" Columns="150"></asp:TextBox>
         </div>
 
 
         <div class="question">
-          <div class="label">L3 constructed based on</div>
+          <div class="label">13. L3 constructed based on</div>
           <div class="tip">If L3 is “constructed”, then is based on:</div>
           <asp:Panel runat="server" MaxHeight="100" ScrollBars="Auto">
             <asp:CheckBoxList ID="clistL3constructedBasedOn" runat="server" 
@@ -204,7 +204,7 @@ Version: 20160524
 
 
         <div class="question">
-          <div class="label">L3 meant to be understood</div>
+          <div class="label">14. L3 meant to be understood</div>
           <div class="tip">Is L3 meant to be understood by most of the audience?</div>
           <asp:DropDownList 
             ID="listL3audienceUnderstanding" runat="server"
@@ -212,7 +212,7 @@ Version: 20160524
         </div>
 
         <div class="question">
-          <div class="label">L3 required for understanding</div>
+          <div class="label">15. L3 required for understanding</div>
           <div class="tip">Does L3 carry a meaningful message or one that requires it to be understood?</div>
           <asp:DropDownList 
             ID="listL3messageUnderstanding" runat="server"
@@ -220,7 +220,7 @@ Version: 20160524
         </div>
 
         <div class="question">
-          <div class="label">L3 meaning decipherable</div>
+          <div class="label">16. L3 meaning decipherable</div>
           <div class="tip">Can the meaning (pragmatic) of L3 be deciphered by other means? </div>
           <asp:DropDownList 
             ID="listL3meaningDecipherable" runat="server"
@@ -229,8 +229,8 @@ Version: 20160524
 
 
         <div class="question">
-          <div class="label">L3 speaker performance</div>
-          <div class="tip">Select speaker’s L3-TT proficiency and performance:</div>
+          <div class="label">17. L3 speaker performance</div>
+          <div class="tip">Select speaker’s L3 proficiency and performance:</div>
           <asp:DropDownList 
             ID="listL3speakerPerformance" runat="server"
             DataSourceID="xmlL3speakerPerformance" DataTextField="Value" DataValueField="Value" />
@@ -238,7 +238,7 @@ Version: 20160524
 
 
         <div class="question">
-          <div class="label">L3 mode</div>
+          <div class="label">18. L3 mode</div>
           <div class="tip">Mode of L3?</div>
           <asp:Panel runat="server" MaxHeight="100" ScrollBars="Auto">
             <asp:CheckBoxList ID="clistL3mode" runat="server" 
@@ -249,7 +249,7 @@ Version: 20160524
         </div>
 
         <div class="question">
-          <div class="label">L3ST mode change</div>
+          <div class="label">19. L3ST mode change</div>
           <div class="tip">L3ST mode change in TT (oral to written, written to oral) - applies only to L3TT occurence kind (leave empty if “L3 kind” is L3ST):</div>
           <asp:DropDownList 
             ID="listL3STmodeChange" runat="server"
@@ -258,7 +258,7 @@ Version: 20160524
 
 
         <div class="question">
-          <div class="label">L3 represented</div>
+          <div class="label">20. L3 represented</div>
           <%-- <div class="tip">L3 is represented:</div> --%>
           <asp:Panel runat="server" MaxHeight="100" ScrollBars="Auto">
             <asp:CheckBoxList ID="clistL3represented" runat="server" 
@@ -269,7 +269,7 @@ Version: 20160524
         </div>
 
         <div class="question">
-          <div class="label">L3 oral representations</div>
+          <div class="label">21. L3 oral representations</div>
           <div class="tip">If “oral” selected for L3 representations, which:</div>
           <div class="tip"></div>
           <asp:Panel runat="server" MaxHeight="100" ScrollBars="Auto">
@@ -281,7 +281,7 @@ Version: 20160524
         </div>
 
         <div class="question">
-          <div class="label">L3 visual representations</div>
+          <div class="label">22. L3 visual representations</div>
           <div class="tip">If “visual” selected for L3 representations, which:</div>
           <asp:Panel runat="server" MaxHeight="100" ScrollBars="Auto">
             <asp:CheckBoxList ID="clistL3representationsVisual" runat="server" 
@@ -293,7 +293,7 @@ Version: 20160524
 
 
         <div class="question">
-          <div class="label">L3 functions</div>
+          <div class="label">23. L3 functions</div>
           <%-- <div class="tip"></div> --%>
           <asp:Panel runat="server" MaxHeight="100" ScrollBars="Auto">
             <asp:CheckBoxList ID="clistL3functions" runat="server" 

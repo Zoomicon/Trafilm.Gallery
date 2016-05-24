@@ -69,12 +69,12 @@ Version: 20160524
         <%-- ICXMLMetadata--%>
 
         <div class="question">
-          <div class="label">Film Title</div>
+          <div class="label">1. Film Title</div>
           <asp:TextBox ID="txtTitle" runat="server" Columns="150"></asp:TextBox>
         </div>
 
         <div class="question">
-          <div class="label">Film Description</div>
+          <div class="label">2. Film Description</div>
           <asp:TextBox ID="txtDescription" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
         </div>
 
@@ -92,7 +92,7 @@ Version: 20160524
         <%-- ITrafilmMetadata --%>
 
         <div class="question">
-          <div class="label">Keywords (comma-separated)</div>
+          <div class="label">3. Keywords (comma-separated)</div>
           <div class="tip">Enter OPTIONAL list of keywords to help identify this item</div>
           <asp:TextBox ID="txtKeywords" runat="server" Columns="150"></asp:TextBox>
         </div>
@@ -100,12 +100,12 @@ Version: 20160524
         <%-- IFilmMetadata --%>
 
         <div class="question">
-          <div class="label">Title in Spanish</div>
+          <div class="label">4. Title in Spanish</div>
           <asp:TextBox ID="txtTitle_es" runat="server" Columns="150"></asp:TextBox>
         </div>
 
         <div class="question">
-          <div class="label">Title in Catalan</div>
+          <div class="label">5. Title in Catalan</div>
           <asp:TextBox ID="txtTitle_ca" runat="server" Columns="150"></asp:TextBox>
         </div>
 
@@ -113,24 +113,24 @@ Version: 20160524
 
 
         <div class="question">
-          <div class="label">Film duration (h:m:s)</div>
+          <div class="label">6. Film duration (h:m:s)</div>
           <asp:TextBox ID="txtDuration" runat="server"></asp:TextBox>
         </div>
 
 
         <div class="question">
-          <div class="label">Directors (comma-separated)</div>
+          <div class="label">7. Directors (comma-separated)</div>
           <asp:TextBox ID="txtDirectors" runat="server" Columns="150"></asp:TextBox>
         </div>
 
         <div class="question">
-          <div class="label">Scriptwriters (comma-separated)</div>
+          <div class="label">8. Scriptwriters (comma-separated)</div>
           <asp:TextBox ID="txtScriptwriters" runat="server" Columns="150"></asp:TextBox>
         </div>
 
 
         <div class="question">
-          <div class="label">Production countries</div>
+          <div class="label">9. Production countries</div>
           <asp:Panel runat="server" MaxHeight="100" ScrollBars="Auto">
             <asp:CheckBoxList ID="clistProductionCountries" runat="server" 
               DataSourceID="xmlCountries" DataTextField="Value" DataValueField="Value"
@@ -140,24 +140,25 @@ Version: 20160524
         </div>
 
         <div class="question">
-          <div class="label">Production companies (comma-separated)</div>
+          <div class="label">10. Production companies (comma-separated)</div>
           <asp:TextBox ID="txtProductionCompanies" runat="server" Columns="150"></asp:TextBox>
         </div>
 
 
         <div class="question">
-          <div class="label">Box office</div>
+          <div class="label">11. Box office</div>
+          <div class="tip">Box office where the film was originally released</div>
           <asp:TextBox ID="txtBoxOffice" runat="server"></asp:TextBox>
         </div>
 
         <div class="question">
-          <div class="label">Year released</div>
+          <div class="label">12. Year released</div>
           <asp:TextBox ID="txtYear" runat="server"></asp:TextBox>
         </div>
 
 
         <div class="question">
-          <div class="label">Source languages</div>
+          <div class="label">13. Source languages</div>
           <asp:Panel runat="server" MaxHeight="100" ScrollBars="Auto">
             <asp:CheckBoxList ID="clistSourceLanguages" runat="server" 
               DataSourceID="xmlLanguages" DataTextField="Value" DataValueField="Value"
@@ -168,12 +169,12 @@ Version: 20160524
 
 
         <div class="question">
-          <div class="label">Year translated</div>
+          <div class="label">14. Year translated</div>
           <asp:TextBox ID="txtYearTranslated" runat="server"></asp:TextBox>
         </div>
         
         <div class="question">
-          <div class="label">Dubbed languages</div>
+          <div class="label">15. Dubbed languages</div>
           <asp:Panel runat="server" MaxHeight="100" ScrollBars="Auto">
             <asp:CheckBoxList ID="clistDubbedLanguages" runat="server" 
               DataSourceID="xmlLanguages" DataTextField="Value" DataValueField="Value" 
@@ -183,7 +184,7 @@ Version: 20160524
         </div>
         
         <div class="question">
-          <div class="label">Subtitled languages</div>
+          <div class="label">16. Subtitled languages</div>
           <asp:Panel runat="server" MaxHeight="100" ScrollBars="Auto">
             <asp:CheckBoxList ID="clistSubtitledLanguages" runat="server" 
               DataSourceID="xmlLanguages" DataTextField="Value" DataValueField="Value"
