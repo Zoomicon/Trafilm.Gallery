@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: film\metadata\default.aspx.cs
-//Version: 20160522
+//Version: 20160525
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -120,11 +120,11 @@ namespace Trafilm.Gallery
       //ICXMLMetadata//
 
       metadata.Title = txtTitle.Text;
-      metadata.Image = ""; //TODO
-      metadata.Url = new Uri("http://gallery.trametadata.net/?film=" + key);
+      metadata.Image = "../film/image/" + key + ".png";
+      metadata.Url = new Uri("http://gallery.trafilm.net/?film=" + key);
       metadata.Description = txtDescription.Text;
 
-      //ITrametadataMetadata//
+      //ITrafilmMetadata//
 
       metadata.ReferenceId = key;
 

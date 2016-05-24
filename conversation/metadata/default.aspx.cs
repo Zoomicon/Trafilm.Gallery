@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: conversation\metadata\default.aspx.cs
-//Version: 20160522
+//Version: 20160525
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -120,8 +120,8 @@ namespace Trafilm.Gallery
       //ICXMLMetadata//
 
       metadata.Title = txtTitle.Text;
-      metadata.Image = ""; //TODO
-      metadata.Url = new Uri("http://gallery.trafilm.net/?conversation=" + key); //TODO: could set to jump to movie time
+      metadata.Image = "../conversation/image/" + key + ".png";
+      metadata.Url = new Uri("http://gallery.trafilm.net/?conversation=" + key);
       metadata.Description = txtDescription.Text;
 
       //ITrafilmMetadata//

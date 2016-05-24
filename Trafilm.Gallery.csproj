@@ -47,7 +47,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="conversation\template.html" />
+    <Content Include="conversation\template_image.png" />
     <Content Include="film\default.html" />
+    <Content Include="film\template.html" />
+    <Content Include="film\template_image.png" />
+    <Content Include="L3occurrence\template.html" />
+    <Content Include="L3occurrence\template_image.png" />
     <Content Include="metadata\Countries.xml" />
     <Content Include="metadata\Count.xml">
       <SubType>Designer</SubType>
@@ -170,7 +176,14 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="film\update_cxml.bat" />
     <None Include="Properties\PublishProfiles\Trafilm Gallery.pubxml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="collection\" />
+    <Folder Include="conversation\image\" />
+    <Folder Include="film\image\" />
+    <Folder Include="L3occurrence\image\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
