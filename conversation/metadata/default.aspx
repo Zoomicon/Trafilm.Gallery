@@ -29,7 +29,7 @@ Version: 20160524
        &nbsp;&nbsp;-&nbsp;&nbsp;
        <a class="selected" href="../../conversation/metadata/">Conversation Metadata</a>
        &nbsp;&nbsp;-&nbsp;&nbsp;
-       <a href="../../L3occurrence/metadata/?film=<%=listFilms.SelectedValue%>&conversation=<%=listConversations.SelectedValue%>">L3occurrence Metadata</a>
+       <a href="../../L3occurrence/metadata/?film=<%=listFilms.SelectedValue%>&conversation=<%=listConversations.SelectedValue%>">L3-occurrence Metadata</a>
     </div>
 
     <%-- INSTRUCTION BOX --%>
@@ -144,12 +144,12 @@ Version: 20160524
         <%-- Calculated from L3occurrences --%>
 
         <div>
-          <div class="label">Count of L3 (other) languages in Conversation (Calculated from L3occurrences)</div>
+          <div class="label">Count of L3 (other) languages in Conversation (Calculated from L3-occurrences)</div>
           <asp:Label ID="lblL3languagesCount" runat="server"></asp:Label>
         </div>  
 
         <div>
-          <div class="label">L3 (other) languages in Conversation (Calculated from L3occurrences)</div>
+          <div class="label">L3 (other) languages in Conversation (Calculated from L3-occurrences)</div>
           <asp:Panel runat="server" ScrollBars="Auto">
             <asp:ListBox ID="clistL3languages" runat="server" Enabled="false"
               RepeatLayout="Table" RepeatColumns="10" RepeatDirection="Vertical"
@@ -159,12 +159,12 @@ Version: 20160524
 
 
         <div>
-          <div class="label">Count of L3 language types in Conversation (Calculated from L3occurrences)</div>
+          <div class="label">Count of L3 language types in Conversation (Calculated from L3-occurrences)</div>
           <asp:Label ID="lblL3languageTypesCount" runat="server"></asp:Label>
         </div> 
         
         <div>
-          <div class="label">L3 language types in Conversation (Calculated from L3occurrences)</div>
+          <div class="label">L3 language types in Conversation (Calculated from L3-occurrences)</div>
           <asp:Panel runat="server" ScrollBars="Auto">
             <asp:ListBox ID="clistL3languageTypes" runat="server" Enabled="false"
               RepeatLayout="Table" RepeatColumns="10" RepeatDirection="Vertical"    
@@ -174,7 +174,7 @@ Version: 20160524
 
 
         <div>
-          <div class="label">Count of L3occurrences (Calculated)</div>
+          <div class="label">Count of L3-occurrences (Calculated)</div>
           <asp:Label ID="lblL3occurrenceCount" runat="server"></asp:Label>
         </div>    
         
@@ -183,7 +183,7 @@ Version: 20160524
 
         <asp:Repeater ID="repeaterL3occurrences" runat="server">
           <HeaderTemplate>
-            <div class="label">List of L3occurrences<div>
+            <div class="label">List of L3-occurrences<div>
           </HeaderTemplate>
           <ItemTemplate>
             <a href="../../L3occurrence/metadata/?film=<%#Eval("filmId")%>&conversation=<%#Eval("conversationId")%>&L3occurrence=<%#Eval("L3occurrenceId")%>"><%#Eval("L3occurrenceId")%></a>&nbsp;&nbsp;
