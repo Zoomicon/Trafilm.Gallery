@@ -136,8 +136,8 @@ Version: 20160524
         </div>
 
         <div class="question">
-          <div class="label">9. L3-speaking characters count</div>
-          <div class="info">How many persons are speaking some form of L3?</div>
+          <div class="label">9. L3ST-speaking characters count</div>
+          <div class="info">How many persons are speaking some form of L3ST?</div>
           <asp:DropDownList 
             ID="listL3speakingCharactersCount" runat="server"
             DataSourceID="xmlCount" DataTextField="Value" DataValueField="Value"
@@ -148,12 +148,12 @@ Version: 20160524
         <%-- Calculated from L3SToccurrences --%>
 
         <div>
-          <div class="label">Count of L3 (other) languages in Conversation (Calculated from L3-occurrences)</div>
+          <div class="label">Count of L3ST languages in Conversation (Calculated from L3ST-occurrences)</div>
           <asp:Label ID="lblL3languagesCount" runat="server"></asp:Label>
         </div>  
 
         <div>
-          <div class="label">L3 (other) languages in Conversation (Calculated from L3-occurrences)</div>
+          <div class="label">L3ST languages in Conversation (Calculated from L3ST-occurrences)</div>
           <asp:Panel runat="server" ScrollBars="Auto">
             <asp:ListBox ID="clistL3languages" runat="server" Enabled="false"
               RepeatLayout="Table" RepeatColumns="10" RepeatDirection="Vertical"
@@ -163,12 +163,12 @@ Version: 20160524
 
 
         <div>
-          <div class="label">Count of L3 language types in Conversation (Calculated from L3-occurrences)</div>
+          <div class="label">Count of L3ST language types in Conversation (Calculated from L3ST-occurrences)</div>
           <asp:Label ID="lblL3languageTypesCount" runat="server"></asp:Label>
         </div> 
         
         <div>
-          <div class="label">L3 language types in Conversation (Calculated from L3-occurrences)</div>
+          <div class="label">L3ST language types in Conversation (Calculated from L3ST-occurrences)</div>
           <asp:Panel runat="server" ScrollBars="Auto">
             <asp:ListBox ID="clistL3languageTypes" runat="server" Enabled="false"
               RepeatLayout="Table" RepeatColumns="10" RepeatDirection="Vertical"    
@@ -178,7 +178,7 @@ Version: 20160524
 
 
         <div>
-          <div class="label">Count of L3-occurrences (Calculated)</div>
+          <div class="label">Count of L3ST-occurrences (Calculated)</div>
           <asp:Label ID="lblL3SToccurrenceCount" runat="server"></asp:Label>
         </div>    
         
@@ -187,7 +187,7 @@ Version: 20160524
 
         <asp:Repeater ID="repeaterL3SToccurrences" runat="server">
           <HeaderTemplate>
-            <div class="label">List of L3-occurrences<div>
+            <div class="label">List of L3ST-occurrences<div>
           </HeaderTemplate>
           <ItemTemplate>
             <a href="../../L3SToccurrence/metadata/?film=<%#Eval("filmId")%>&conversation=<%#Eval("conversationId")%>&L3SToccurrence=<%#Eval("L3SToccurrenceId")%>"><%#Eval("L3SToccurrenceId")%></a>&nbsp;&nbsp;

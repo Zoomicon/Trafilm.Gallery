@@ -22,6 +22,15 @@ namespace Trafilm.Gallery {
         protected global::System.Web.UI.WebControls.XmlDataSource xmlCountries;
         
         /// <summary>
+        /// XmlL1language control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.XmlDataSource XmlL1language;
+        
+        /// <summary>
         /// xmlLanguages control.
         /// </summary>
         /// <remarks>

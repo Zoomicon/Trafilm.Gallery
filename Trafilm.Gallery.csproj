@@ -54,49 +54,6 @@
     <Content Include="film\template_image.png" />
     <Content Include="L3TToccurrence\default.html" />
     <Content Include="L3TToccurrence\metadata\default.aspx" />
-    <Content Include="L3TToccurrence\metadata\L3audienceUnderstanding.xml">
-      <SubType>Designer</SubType>
-    </Content>
-    <Content Include="L3TToccurrence\metadata\L3constructedBasedOn.xml">
-      <SubType>Designer</SubType>
-    </Content>
-    <Content Include="L3TToccurrence\metadata\L3functions.xml">
-      <SubType>Designer</SubType>
-    </Content>
-    <Content Include="L3TToccurrence\metadata\L3kind.xml">
-      <SubType>Designer</SubType>
-    </Content>
-    <Content Include="L3TToccurrence\metadata\L3languageType.xml">
-      <SubType>Designer</SubType>
-    </Content>
-    <Content Include="L3TToccurrence\metadata\L3meaningDeciphered.xml">
-      <SubType>Designer</SubType>
-    </Content>
-    <Content Include="L3TToccurrence\metadata\L3messageUnderstanding.xml">
-      <SubType>Designer</SubType>
-    </Content>
-    <Content Include="L3TToccurrence\metadata\L3mode.xml">
-      <SubType>Designer</SubType>
-    </Content>
-    <Content Include="L3TToccurrence\metadata\L3representationsOral.xml">
-      <SubType>Designer</SubType>
-    </Content>
-    <Content Include="L3TToccurrence\metadata\L3representationsVisual.xml">
-      <SubType>Designer</SubType>
-    </Content>
-    <Content Include="L3TToccurrence\metadata\L3represented.xml">
-      <SubType>Designer</SubType>
-    </Content>
-    <Content Include="L3TToccurrence\metadata\L3speakerPerformance.xml">
-      <SubType>Designer</SubType>
-    </Content>
-    <Content Include="L3TToccurrence\metadata\L3STmodeChange.xml">
-      <SubType>Designer</SubType>
-    </Content>
-    <Content Include="L3TToccurrence\metadata\LmainLanguage.xml" />
-    <Content Include="L3TToccurrence\metadata\LmainMode.xml">
-      <SubType>Designer</SubType>
-    </Content>
     <Content Include="L3TToccurrence\template.html" />
     <Content Include="L3TToccurrence\template_image.png" />
     <Content Include="L3SToccurrence\template.html" />
@@ -115,6 +72,10 @@
     </Content>
     <Content Include="css\metadata.css" />
     <Content Include="favicon.ico" />
+    <Content Include="metadata\L1language.xml" />
+    <Content Include="metadata\L3TTrepresentationsOral.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="seajax\css\PivotView.css" />
     <Content Include="seajax\css\search.gif" />
     <Content Include="seajax\seadragon-pivot-standalone-min.js" />
@@ -125,7 +86,7 @@
     <Content Include="metadata\L3representationsVisual.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="metadata\L3representationsOral.xml">
+    <Content Include="metadata\L3STrepresentationsOral.xml">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="metadata\L2language.xml" />
