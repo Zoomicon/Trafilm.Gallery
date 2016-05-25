@@ -10,6 +10,7 @@ using Trafilm.Metadata.Utils;
 using System;
 using System.Globalization;
 using System.IO;
+using System.Linq;
 
 namespace Trafilm.Gallery
 {
@@ -23,13 +24,13 @@ namespace Trafilm.Gallery
       filmStorage = new CXMLFragmentStorage<IFilm, Film>(Path.Combine(Request.PhysicalApplicationPath, @"film\films.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"film\metadata"), "*.cxml");
       conversationStorage = new CXMLFragmentStorage<IConversation, Conversation>(Path.Combine(Request.PhysicalApplicationPath, @"conversation\conversations.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"conversation\metadata"), listFilms.SelectedValue + ".*.cxml");
       l3SToccurrenceStorage = new CXMLFragmentStorage<IL3SToccurrence, L3SToccurrence>(Path.Combine(Request.PhysicalApplicationPath, @"L3SToccurrence\L3SToccurrences.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"L3SToccurrence\metadata"), listConversations.SelectedValue + ".*.cxml");
-
-      UpdateFilmsList(listFilms, (IsPostBack) ? listFilms.SelectedValue : "film", !IsPostBack);
-      if (!IsPostBack)
-        listFilms_SelectedIndexChanged(listFilms, null);
+      l3TToccurrenceStorage = new CXMLFragmentStorage<IL3TToccurrence, L3TToccurrence>(Path.Combine(Request.PhysicalApplicationPath, @"L3TToccurrence\L3TToccurrences.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"L3TToccurrence\metadata"), listL3SToccurrences.SelectedValue + ".*.cxml");
 
       if (!IsPostBack)
       {
+        UpdateFilmsList(listFilms, "film", !IsPostBack);
+        listFilms_SelectedIndexChanged(listFilms, null);
+
         UpdateConversationsList(listConversations, "conversation", !IsPostBack);
         listConversations_SelectedIndexChanged(listConversations, null);
 
@@ -67,9 +68,11 @@ namespace Trafilm.Gallery
 
     #region Load
 
-    public void DisplayMetadata(string L3SToccurrenceId)
+    public void DisplayMetadata(string l3SToccurrenceId)
     {
-      IL3SToccurrence metadata = l3SToccurrenceStorage[L3SToccurrenceId];
+      IL3SToccurrence metadata = l3SToccurrenceStorage[l3SToccurrenceId];
+      l3TToccurrenceStorage = new CXMLFragmentStorage<IL3TToccurrence, L3TToccurrence>(Path.Combine(Request.PhysicalApplicationPath, @"L3TToccurrence\L3TToccurrences.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"L3TToccurrence\metadata"), l3SToccurrenceId + ".*.cxml");
+      //TODO// metadata.L3TToccurrences = l3TToccurrenceStorage.Values; //this updates calculated properties //assumes "l3TToccurrenceStorage" has been updated
       DisplayMetadata(metadata);
     }
 
@@ -118,6 +121,10 @@ namespace Trafilm.Gallery
       UI.Load(clistL3STrepresentationsVisual, metadata.L3STrepresentationsVisual);
 
       UI.Load(clistL3STfunctions, metadata.L3STfunctions);
+
+      //Calculated properties//
+
+      //TODO// UI.Load(lblL3TToccurrenceCount, metadata.L3TToccurrenceCount.ToString());
     }
 
     #endregion
@@ -172,6 +179,11 @@ namespace Trafilm.Gallery
 
       metadata.L3STfunctions = UI.GetSelected(clistL3STfunctions);
 
+      //Calculated properties//
+
+      l3TToccurrenceStorage = new CXMLFragmentStorage<IL3TToccurrence, L3TToccurrence>(Path.Combine(Request.PhysicalApplicationPath, @"L3TToccurrence\L3TToccurrences.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"L3TToccurrence\metadata"), key + ".*.cxml");
+      //TODO// metadata.L3TToccurrences = l3TToccurrenceStorage.Values; //this updates calculated properties //assumes "l3TToccurrenceStorage" has been updated
+
       return metadata;
     }
 
@@ -216,7 +228,10 @@ namespace Trafilm.Gallery
       panelMetadata.Visible = visible;
       cbClone.Visible = visible;
       if (visible)
+      {
         DisplayMetadata(listL3SToccurrences.SelectedValue);
+        UpdateRepeater(repeaterL3TToccurrences, l3TToccurrenceStorage.Keys.Select(x => new { filmId = listFilms.SelectedValue, conversationId = listConversations.SelectedValue, l3SToccurrenceId = listL3SToccurrences.SelectedValue, L3TToccurrenceId = x }));
+      }
     }
 
     protected void btnAddL3SToccurrence_Click(object sender, EventArgs e)

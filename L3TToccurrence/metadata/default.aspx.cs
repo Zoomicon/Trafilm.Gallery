@@ -24,14 +24,16 @@ namespace Trafilm.Gallery
       l3SToccurrenceStorage = new CXMLFragmentStorage<IL3SToccurrence, L3SToccurrence>(Path.Combine(Request.PhysicalApplicationPath, @"L3SToccurrence\L3SToccurrences.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"L3SToccurrence\metadata"), listL3SToccurrences.SelectedValue + ".*.cxml");
       l3TToccurrenceStorage = new CXMLFragmentStorage<IL3TToccurrence, L3TToccurrence>(Path.Combine(Request.PhysicalApplicationPath, @"L3TToccurrence\L3TToccurrences.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"L3TToccurrence\metadata"), listConversations.SelectedValue + ".*.cxml");
 
-      UpdateFilmsList(listFilms, (IsPostBack) ? listFilms.SelectedValue : "film", !IsPostBack);
-      if (!IsPostBack)
-        listFilms_SelectedIndexChanged(listFilms, null);
-
       if (!IsPostBack)
       {
+        UpdateFilmsList(listFilms, "film", !IsPostBack);
+        listFilms_SelectedIndexChanged(listFilms, null);
+
         UpdateConversationsList(listConversations, "conversation", !IsPostBack);
         listConversations_SelectedIndexChanged(listConversations, null);
+
+        UpdateL3SToccurrencesList(listL3SToccurrences, "L3SToccurrence", !IsPostBack);
+        listL3SToccurrences_SelectedIndexChanged(listL3SToccurrences, null);
 
         UpdateL3TToccurrencesList(listL3TToccurrences, "L3TToccurrence", !IsPostBack);
         listL3TToccurrences_SelectedIndexChanged(listL3TToccurrences, null);

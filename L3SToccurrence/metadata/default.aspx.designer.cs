@@ -382,6 +382,24 @@ namespace Trafilm.Gallery {
         protected global::System.Web.UI.WebControls.CheckBoxList clistL3STfunctions;
         
         /// <summary>
+        /// lblL3TToccurrenceCount control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblL3TToccurrenceCount;
+        
+        /// <summary>
+        /// repeaterL3TToccurrences control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Repeater repeaterL3TToccurrences;
+        
+        /// <summary>
         /// btnSave control.
         /// </summary>
         /// <remarks>
