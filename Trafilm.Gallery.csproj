@@ -128,8 +128,8 @@
     <Content Include="metadata\L3representationsOral.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="metadata\LmainLanguage.xml" />
-    <Content Include="metadata\LmainMode.xml">
+    <Content Include="metadata\L2language.xml" />
+    <Content Include="metadata\L2mode.xml">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="metadata\L3represented.xml">
@@ -157,9 +157,6 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="metadata\L3functions.xml">
-      <SubType>Designer</SubType>
-    </Content>
-    <Content Include="metadata\L3kind.xml">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="L3SToccurrence\metadata\default.aspx" />
