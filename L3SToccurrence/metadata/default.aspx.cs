@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: L3SToccurrence\metadata\default.aspx.cs
-//Version: 20160525
+//Version: 20160526
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -72,7 +72,7 @@ namespace Trafilm.Gallery
     {
       IL3SToccurrence metadata = l3SToccurrenceStorage[l3SToccurrenceId];
       l3TToccurrenceStorage = new CXMLFragmentStorage<IL3TToccurrence, L3TToccurrence>(Path.Combine(Request.PhysicalApplicationPath, @"L3TToccurrence\L3TToccurrences.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"L3TToccurrence\metadata"), l3SToccurrenceId + ".*.cxml");
-      //TODO// metadata.L3TToccurrences = l3TToccurrenceStorage.Values; //this updates calculated properties //assumes "l3TToccurrenceStorage" has been updated
+      metadata.L3TToccurrences = l3TToccurrenceStorage.Values; //this updates calculated properties //assumes "l3TToccurrenceStorage" has been updated
       DisplayMetadata(metadata);
     }
 
@@ -124,7 +124,7 @@ namespace Trafilm.Gallery
 
       //Calculated properties//
 
-      //TODO// UI.Load(lblL3TToccurrenceCount, metadata.L3TToccurrenceCount.ToString());
+      UI.Load(lblL3TToccurrenceCount, metadata.L3TToccurrenceCount.ToString());
     }
 
     #endregion
@@ -182,7 +182,7 @@ namespace Trafilm.Gallery
       //Calculated properties//
 
       l3TToccurrenceStorage = new CXMLFragmentStorage<IL3TToccurrence, L3TToccurrence>(Path.Combine(Request.PhysicalApplicationPath, @"L3TToccurrence\L3TToccurrences.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"L3TToccurrence\metadata"), key + ".*.cxml");
-      //TODO// metadata.L3TToccurrences = l3TToccurrenceStorage.Values; //this updates calculated properties //assumes "l3TToccurrenceStorage" has been updated
+      metadata.L3TToccurrences = l3TToccurrenceStorage.Values; //this updates calculated properties //assumes "l3TToccurrenceStorage" has been updated
 
       return metadata;
     }
