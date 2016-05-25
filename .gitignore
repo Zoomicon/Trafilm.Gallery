@@ -3,7 +3,12 @@
 
 # PivotViewer collection files
 *.cxml
+/collection/
+/film/image/
+/conversation/image/
+/L3occurrence/images/
 
+# LocalHistory extension for VisualStudio
 .localhistory/
 
 # User-specific files
@@ -242,5 +247,3 @@ _Pvt_Extensions
 
 # FAKE - F# Make
 .fake/
-/collection/test.jpg
-/film/test.jpg
