@@ -126,6 +126,7 @@ Version: 20160524
 
         <div class="question">
           <div class="label">8. Speaking characters count</div>
+          <div class="info">How many persons are speaking?</div>
           <asp:DropDownList 
             ID="listSpeakingCharactersCount" runat="server"
             DataSourceID="xmlCount" DataTextField="Value" DataValueField="Value"
@@ -134,6 +135,7 @@ Version: 20160524
 
         <div class="question">
           <div class="label">9. L3 (other) language speaking characters count</div>
+          <div class="info">How many persons are speaking some form of L3?</div>
           <asp:DropDownList 
             ID="listL3speakingCharactersCount" runat="server"
             DataSourceID="xmlCount" DataTextField="Value" DataValueField="Value"
