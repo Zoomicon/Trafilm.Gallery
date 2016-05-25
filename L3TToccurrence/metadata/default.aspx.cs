@@ -63,7 +63,7 @@ namespace Trafilm.Gallery
     public void SelectL3SToccurrence(string l3SToccurrenceId)
     {
       UpdateL3SToccurrencesList(listL3SToccurrences, l3SToccurrenceId); //update list since it may not be up-to-date
-      listConversations_SelectedIndexChanged(listL3SToccurrences, null);
+      listL3SToccurrences_SelectedIndexChanged(listL3SToccurrences, null);
     }
 
     public void SelectL3TToccurrence(string L3TToccurrenceId)

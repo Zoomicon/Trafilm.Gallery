@@ -21,6 +21,7 @@ Version: 20160525
     <%-- DATA SOURCES --%>
 
     <asp:XmlDataSource ID="xmlCountries" runat="server" DataFile="~/metadata/Countries.xml" XPath="Facet/String" />
+    <asp:XmlDataSource ID="XmlL1language" runat="server" DataFile="~/metadata/L1language.xml" XPath="Facet/String" />
     <asp:XmlDataSource ID="xmlLanguages" runat="server" DataFile="~/metadata/Languages.xml" XPath="Facet/String" />
 
     <%-- NAVIGATION MENU --%>
@@ -163,7 +164,7 @@ Version: 20160525
           <div class="label">13. L1/Source language</div>
           <asp:Panel runat="server" MaxHeight="100" ScrollBars="Auto">
             <asp:DropDownList ID="listL1language" runat="server"
-              DataSourceID="xmlLanguages" DataTextField="Value" DataValueField="Value"
+              DataSourceID="xmlL1language" DataTextField="Value" DataValueField="Value"
               />
            </asp:Panel>
         </div>
