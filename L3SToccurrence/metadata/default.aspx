@@ -257,6 +257,26 @@ Version: 20160525
         </div>
 
 
+        <%-- Calculated from L3TToccurrences --%>
+
+        <div>
+          <div class="label">Count of L3TT-occurrences (Calculated)</div>
+          <asp:Label ID="lblL3TToccurrenceCount" runat="server"></asp:Label>
+        </div>    
+        
+        
+        <%-- L3TToccurrences list --%>                  
+
+        <asp:Repeater ID="repeaterL3TToccurrences" runat="server">
+          <HeaderTemplate>
+            <div class="label">List of L3TT-occurrences<div>
+          </HeaderTemplate>
+          <ItemTemplate>
+            <a href="../../L3TToccurrence/metadata/?film=<%#Eval("filmId")%>&conversation=<%#Eval("conversationId")%>&L3SToccurrence=<%#Eval("L3SToccurrenceId")%>&L3TToccurrence=<%#Eval("L3TToccurrenceId")%>"><%#Eval("L3TToccurrenceId")%></a>&nbsp;&nbsp;
+          </ItemTemplate>
+        </asp:Repeater>
+
+
         <%-- SAVE BUTTON --%>
            
         <div>

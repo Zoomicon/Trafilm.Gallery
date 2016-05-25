@@ -29,7 +29,7 @@ Version: 20160525
     <asp:XmlDataSource ID="xmlL3TTmeaningDeciphered" runat="server" DataFile="~/metadata/L3meaningDeciphered.xml" XPath="Facet/String" />
     <asp:XmlDataSource ID="xmlL3TTspeakerPerformance" runat="server" DataFile="~/metadata/L3speakerPerformance.xml" XPath="Facet/String" />
     <asp:XmlDataSource ID="xmlL3TTmode" runat="server" DataFile="~/metadata/L3mode.xml" XPath="Facet/String" />
-    <asp:XmlDataSource ID="xmlL3TTSTmodeChange" runat="server" DataFile="~/metadata/L3STmodeChange.xml" XPath="Facet/String" />
+    <asp:XmlDataSource ID="xmlL3STmodeChange" runat="server" DataFile="~/metadata/L3STmodeChange.xml" XPath="Facet/String" />
     <asp:XmlDataSource ID="xmlL3TTrepresented" runat="server" DataFile="~/metadata/L3represented.xml" XPath="Facet/String" />
     <asp:XmlDataSource ID="xmlL3TTrepresentationsOral" runat="server" DataFile="~/metadata/L3TTrepresentationsOral.xml" XPath="Facet/String" />
     <asp:XmlDataSource ID="xmlL3TTrepresentationsVisual" runat="server" DataFile="~/metadata/L3representationsVisual.xml" XPath="Facet/String" />
@@ -42,7 +42,7 @@ Version: 20160525
        &nbsp;&nbsp;-&nbsp;&nbsp;
        <a href="../../conversation/metadata/?film=<%=listFilms.SelectedValue%>&conversation=<%=listConversations.SelectedValue%>">Conversation Metadata</a>
        &nbsp;&nbsp;-&nbsp;&nbsp;
-       <a href="../../L3SToccurrence/metadata/?film=<%=listFilms.SelectedValue%>&conversation=<%=listConversations.SelectedValue%>&L3TTSToccurrence=<%=listL3SToccurrences.SelectedValue%>">L3ST-occurrence Metadata</a>
+       <a href="../../L3SToccurrence/metadata/?film=<%=listFilms.SelectedValue%>&conversation=<%=listConversations.SelectedValue%>&L3SToccurrence=<%=listL3SToccurrences.SelectedValue%>">L3ST-occurrence Metadata</a>
        &nbsp;&nbsp;-&nbsp;&nbsp;
        <a class="selected" href="../../L3TToccurrence/metadata/">L3TT-occurrence Metadata</a>
     </div>
@@ -83,7 +83,7 @@ Version: 20160525
               <asp:DropDownList ID="listL3TToccurrences" runat="server" AutoPostBack="True" OnSelectedIndexChanged="listL3TToccurrences_SelectedIndexChanged" />
 
               <div>
-                <div class="label">or add new L3TT-occurrence Id (do not include the Film Id, Conversation Id and L3SToccurrence Id prefixes)</div>
+                <div class="label">or add new L3TT-occurrence Id (do not include the Film Id, Conversation Id and L3ST-occurrence Id prefixes)</div>
                 <asp:TextBox ID="txtL3TToccurrence" runat="server" />
                 <asp:Button ID="btnAddL3TToccurrence" runat="server" Text="Add" OnClick="btnAddL3TToccurrence_Click" />
                 &nbsp;
@@ -280,14 +280,16 @@ Version: 20160525
            </asp:Panel>
         </div>
 
+
+        <%-- Calculated from L3SToccurrence --%>
         
         <!-- TODO: calculated fields -->
         <div class="question">
           <div class="label">L3ST mode change</div>
           <div class="tip">L3ST mode change in TT (oral to written, written to oral)?</div>
           <asp:DropDownList 
-            ID="listL3TTSTmodeChange" runat="server"
-            DataSourceID="xmlL3TTSTmodeChange" DataTextField="Value" DataValueField="Value" />
+            ID="listL3STmodeChange" runat="server"
+            DataSourceID="xmlL3STmodeChange" DataTextField="Value" DataValueField="Value" />
         </div>
 
 
