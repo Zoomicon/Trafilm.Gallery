@@ -3,10 +3,11 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: L3occurrence/metadata/L3mode.xml
-Version: 20160509
+Version: 20160525
 -->
 
 <Facet Name="L3mode">
-  <String Value="oral" />
-  <String Value="written on screen" />
+  <String Value="Oral only" />
+  <String Value="Written on screen only" />
+  <String Value="Mixture of oral and written" />
 </Facet>

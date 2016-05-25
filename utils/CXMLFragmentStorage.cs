@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: CXMLFileStorage.cs
-//Version: 20150517
+//Version: 20150525
 
 using System;
 using System.Collections;
@@ -135,8 +135,10 @@ namespace Trafilm.Gallery
 
     public bool Remove(KeyValuePair<string, I> item)
     {
-      File.Delete(FragmentFile(item.Key)); //ignoring what the value is, just removing by key
-      return true; //TODO: check documentation
+      bool result = File.Exists(FragmentFile(item.Key));
+      if (result)
+        File.Delete(FragmentFile(item.Key)); //ignoring what the value is, just removing by key
+      return result;
     }
 
     public bool Remove(string key)
