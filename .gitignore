@@ -3,7 +3,12 @@
 
 # PivotViewer collection files
 *.cxml
+/collection/
+/film/image/
+/conversation/image/
+/L3occurrence/images/
 
+# LocalHistory extension for VisualStudio
 .localhistory/
 
 # User-specific files

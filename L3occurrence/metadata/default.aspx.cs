@@ -140,8 +140,8 @@ namespace Trafilm.Gallery
       //ICXMLMetadata//
 
       metadata.Title = txtTitle.Text;
-      metadata.Image = ""; //TODO
-      metadata.Url = new Uri("http://gallery.trafilm.net/?L3occurrence=" + key); //TODO: could set to jump to movie time
+      metadata.Image = "../L3occurence/image/" + key + ".png";
+      metadata.Url = new Uri("http://gallery.trafilm.net/?L3occurrence=" + key);
       metadata.Description = txtDescription.Text;
 
       //ITrafilmMetadata//
