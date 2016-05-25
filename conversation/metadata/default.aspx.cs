@@ -23,7 +23,7 @@ namespace Trafilm.Gallery
     {
       filmStorage = new CXMLFragmentStorage<IFilm, Film>(Path.Combine(Request.PhysicalApplicationPath, @"film\films.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"film\metadata"), "*.cxml");
       conversationStorage = new CXMLFragmentStorage<IConversation, Conversation>(Path.Combine(Request.PhysicalApplicationPath, @"conversation\conversations.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"conversation\metadata"), listFilms.SelectedValue + ".*.cxml");
-      l3occurrenceStorage = new CXMLFragmentStorage<IL3occurrence, L3occurrence>(Path.Combine(Request.PhysicalApplicationPath, @"L3occurrence\L3occurrences.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"L3occurrence\metadata"), listConversations.SelectedValue + ".*.cxml");
+      l3SToccurrenceStorage = new CXMLFragmentStorage<IL3SToccurrence, L3SToccurrence>(Path.Combine(Request.PhysicalApplicationPath, @"L3SToccurrence\L3SToccurrences.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"L3SToccurrence\metadata"), listConversations.SelectedValue + ".*.cxml");
 
       if (!IsPostBack)
       {
@@ -60,8 +60,8 @@ namespace Trafilm.Gallery
     public void DisplayMetadata(string conversationId)
     {
       IConversation metadata = conversationStorage[conversationId];
-      l3occurrenceStorage = new CXMLFragmentStorage<IL3occurrence, L3occurrence>(Path.Combine(Request.PhysicalApplicationPath, @"L3occurrence\L3occurrences.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"L3occurrence\metadata"), conversationId + ".*.cxml");
-      metadata.L3occurrences = l3occurrenceStorage.Values; //this updates calculated properties //assumes "l3occurrenceStorage" has been updated
+      l3SToccurrenceStorage = new CXMLFragmentStorage<IL3SToccurrence, L3SToccurrence>(Path.Combine(Request.PhysicalApplicationPath, @"L3SToccurrence\L3SToccurrences.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"L3SToccurrence\metadata"), conversationId + ".*.cxml");
+      metadata.L3SToccurrences = l3SToccurrenceStorage.Values; //this updates calculated properties //assumes "l3SToccurrenceStorage" has been updated
       DisplayMetadata(metadata);
     }
 
@@ -95,17 +95,17 @@ namespace Trafilm.Gallery
       UI.Load(cbL2languagePresent, metadata.L2languagePresent);
 
       UI.Load(listSpeakingCharactersCount, metadata.SpeakingCharactersCount);
-      UI.Load(listL3speakingCharactersCount, metadata.L3speakingCharactersCount);
+      UI.Load(listL3speakingCharactersCount, metadata.L3STspeakingCharactersCount);
 
       //Calculated properties//
 
-      UI.Load(lblL3languagesCount, metadata.L3languagesCount.ToString());
-      UI.LoadContent(clistL3languages, metadata.L3languages); //do not use Load, use LoadContent to add values, not select them
+      UI.Load(lblL3languagesCount, metadata.L3STlanguagesCount.ToString());
+      UI.LoadContent(clistL3languages, metadata.L3STlanguages); //do not use Load, use LoadContent to add values, not select them
 
-      UI.Load(lblL3languageTypesCount, metadata.L3languageTypesCount.ToString());
-      UI.LoadContent(clistL3languageTypes, metadata.L3languageTypes); //do not use Load, use LoadContent to add values, not select them
+      UI.Load(lblL3languageTypesCount, metadata.L3STlanguageTypesCount.ToString());
+      UI.LoadContent(clistL3languageTypes, metadata.L3STlanguageTypes); //do not use Load, use LoadContent to add values, not select them
 
-      UI.Load(lblL3occurrenceCount, metadata.L3occurrenceCount.ToString());
+      UI.Load(lblL3SToccurrenceCount, metadata.L3SToccurrenceCount.ToString());
     }
 
     #endregion
@@ -142,12 +142,12 @@ namespace Trafilm.Gallery
       metadata.L2languagePresent = cbL2languagePresent.Checked;
 
       metadata.SpeakingCharactersCount = listSpeakingCharactersCount.SelectedValue; //e.g. 1, 2, 3, more than 3
-      metadata.L3speakingCharactersCount = listL3speakingCharactersCount.SelectedValue; //e.g. 1, 2, 3, more than 3
+      metadata.L3STspeakingCharactersCount = listL3speakingCharactersCount.SelectedValue; //e.g. 1, 2, 3, more than 3
 
       //Calculated properties//
 
-      l3occurrenceStorage = new CXMLFragmentStorage<IL3occurrence, L3occurrence>(Path.Combine(Request.PhysicalApplicationPath, @"L3occurrence\L3occurrences.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"L3occurrence\metadata"), key + ".*.cxml");
-      metadata.L3occurrences = l3occurrenceStorage.Values; //this updates calculated properties //assumes "l3occurrenceStorage" has been updated
+      l3SToccurrenceStorage = new CXMLFragmentStorage<IL3SToccurrence, L3SToccurrence>(Path.Combine(Request.PhysicalApplicationPath, @"L3SToccurrence\L3SToccurrences.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"L3SToccurrence\metadata"), key + ".*.cxml");
+      metadata.L3SToccurrences = l3SToccurrenceStorage.Values; //this updates calculated properties //assumes "l3SToccurrenceStorage" has been updated
 
       return metadata;
     }
@@ -160,12 +160,12 @@ namespace Trafilm.Gallery
 
     public void SaveCollection()
     {
-      SaveCollection(Path.Combine(Request.PhysicalApplicationPath, "conversation/conversations.cxml"), "Trafilm Gallery Conversations", Conversation.MakeConversationFacetCategories(), conversationStorage.Values);
+      SaveCollection(Path.Combine(Request.PhysicalApplicationPath, "conversation/conversations.cxml"), "Trafilm Gallery Conversations", ConversationMetadataFacets.GetCXMLFacetCategories(), conversationStorage.Values);
     }
 
     #endregion
 
-    #region Calculated from L3occurrences
+    #region Calculated from L3SToccurrences
 
     private int CalculateL3languagesCount(string key) //TODO
     {
@@ -187,9 +187,9 @@ namespace Trafilm.Gallery
       return new string[] { };
     }
 
-    private int CalculateL3occurrenceCount(string key)
+    private int CalculateL3SToccurrenceCount(string key)
     {
-      return l3occurrenceStorage.Count;
+      return l3SToccurrenceStorage.Count;
     }
 
     #endregion
@@ -209,7 +209,7 @@ namespace Trafilm.Gallery
 
     protected void listConversations_SelectedIndexChanged(object sender, EventArgs e)
     {
-      l3occurrenceStorage = new CXMLFragmentStorage<IL3occurrence, L3occurrence>(Path.Combine(Request.PhysicalApplicationPath, @"L3occurrence\L3occurrences.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"L3occurrence\metadata"), listConversations.SelectedValue + ".*.cxml");
+      l3SToccurrenceStorage = new CXMLFragmentStorage<IL3SToccurrence, L3SToccurrence>(Path.Combine(Request.PhysicalApplicationPath, @"L3SToccurrence\L3SToccurrences.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"L3SToccurrence\metadata"), listConversations.SelectedValue + ".*.cxml");
 
       bool visible = (listConversations.SelectedIndex > 0);
       panelMetadata.Visible = visible;
@@ -217,7 +217,7 @@ namespace Trafilm.Gallery
       if (visible)
       {
         DisplayMetadata(listConversations.SelectedValue);
-        UpdateRepeater(repeaterL3occurrences, l3occurrenceStorage.Keys.Select(x=> new { filmId=listFilms.SelectedValue, conversationId=listConversations.SelectedValue, L3occurrenceId = x }) );
+        UpdateRepeater(repeaterL3SToccurrences, l3SToccurrenceStorage.Keys.Select(x=> new { filmId=listFilms.SelectedValue, conversationId=listConversations.SelectedValue, L3SToccurrenceId = x }) );
       }
     }
 

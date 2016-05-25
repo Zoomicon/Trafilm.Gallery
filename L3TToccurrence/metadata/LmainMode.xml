@@ -2,12 +2,12 @@
 
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
-Filename: L3occurrence/metadata/L3kind.xml
+Filename: L3SToccurrence/metadata/LmainMode.xml
 Version: 20160512
 -->
 
-<Facet Name="L3kind">
+<Facet Name="LmainMode">
   <String Value="" />
-  <String Value="L3ST" />
-  <String Value="L3TT" />
+  <String Value="oral / dubbed" />
+  <String Value="text / subtitled" />
 </Facet>

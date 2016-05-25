@@ -96,14 +96,14 @@ namespace Trafilm.Gallery
       UI.Load(txtBoxOffice, metadata.BoxOffice);
       UI.Load(txtYear, metadata.Year.ToString());
 
-      UI.Load(clistSourceLanguages, metadata.SourceLanguages);
+      UI.Load(listL1language, metadata.L1language);
 
       UI.Load(txtYearTranslated, metadata.YearTranslated.ToString());
-      UI.Load(clistDubbedLanguages, metadata.DubbedLanguages);
-      UI.Load(clistSubtitledLanguages, metadata.SubtitledLanguages);
+      UI.Load(clistL2dubbedLanguages, metadata.L2dubbedLanguages);
+      UI.Load(clistL2subtitledLanguages, metadata.L2subtitledLanguages);
 
       //Calculated properties//
-
+    
       UI.Load(lblConversationCount, metadata.ConversationCount.ToString());
       UI.Load(lblConversationsDuration, metadata.ConversationsDuration.ToString(ConversationMetadata.DEFAULT_DURATION_FORMAT));
     }
@@ -150,11 +150,11 @@ namespace Trafilm.Gallery
       metadata.BoxOffice = txtBoxOffice.Text;
       metadata.Year = txtYear.Text.ToNullableInt();
 
-      metadata.SourceLanguages = UI.GetSelected(clistSourceLanguages);
+      metadata.L1language = listL1language.SelectedValue;
 
       metadata.YearTranslated = txtYearTranslated.Text.ToNullableInt();
-      metadata.DubbedLanguages = UI.GetSelected(clistDubbedLanguages);
-      metadata.SubtitledLanguages = UI.GetSelected(clistSubtitledLanguages);
+      metadata.L2dubbedLanguages = UI.GetSelected(clistL2dubbedLanguages);
+      metadata.L2subtitledLanguages = UI.GetSelected(clistL2subtitledLanguages);
 
 
       //Calculated properties//
@@ -173,7 +173,7 @@ namespace Trafilm.Gallery
 
     public void SaveCollection()
     {
-      SaveCollection(Path.Combine(Request.PhysicalApplicationPath, @"film\films.cxml"), "Trafilm Gallery Films", Film.MakeFilmFacetCategories(), filmStorage.Values);
+      SaveCollection(Path.Combine(Request.PhysicalApplicationPath, @"film\films.cxml"), "Trafilm Gallery Films", FilmMetadataFacets.GetCXMLFacetCategories(), filmStorage.Values);
     }
 
     #endregion

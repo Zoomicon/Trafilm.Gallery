@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: film\metadata\default.aspx
-Version: 20160524
+Version: 20160525
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -30,7 +30,9 @@ Version: 20160524
        &nbsp;&nbsp;-&nbsp;&nbsp;
        <a href="../../conversation/metadata/?film=<%=listFilms.SelectedValue%>">Conversation Metadata</a>
        &nbsp;&nbsp;-&nbsp;&nbsp;
-       <a href="../../L3occurrence/metadata/?film=<%=listFilms.SelectedValue%>">L3-occurrence Metadata</a>
+       <a href="../../L3SToccurrence/metadata/?film=<%=listFilms.SelectedValue%>">L3ST-occurrence Metadata</a>
+       &nbsp;&nbsp;-&nbsp;&nbsp;
+       <a href="../../L3TToccurrence/metadata/?film=<%=listFilms.SelectedValue%>">L3TT-occurrence Metadata</a>
     </div>
 
     <%-- INSTRUCTION BOX --%>
@@ -158,11 +160,10 @@ Version: 20160524
 
 
         <div class="question">
-          <div class="label">13. Source languages</div>
+          <div class="label">13. L1/Source language</div>
           <asp:Panel runat="server" MaxHeight="100" ScrollBars="Auto">
-            <asp:CheckBoxList ID="clistSourceLanguages" runat="server" 
+            <asp:DropDownList ID="listL1language" runat="server"
               DataSourceID="xmlLanguages" DataTextField="Value" DataValueField="Value"
-              RepeatLayout="Table" RepeatColumns="10" RepeatDirection="Vertical"               
               />
            </asp:Panel>
         </div>
@@ -174,9 +175,9 @@ Version: 20160524
         </div>
         
         <div class="question">
-          <div class="label">15. Dubbed languages</div>
+          <div class="label">15. L2-Dubbed languages</div>
           <asp:Panel runat="server" MaxHeight="100" ScrollBars="Auto">
-            <asp:CheckBoxList ID="clistDubbedLanguages" runat="server" 
+            <asp:CheckBoxList ID="clistL2dubbedLanguages" runat="server" 
               DataSourceID="xmlLanguages" DataTextField="Value" DataValueField="Value" 
               RepeatLayout="Table" RepeatColumns="10" RepeatDirection="Vertical"
               />
@@ -184,9 +185,9 @@ Version: 20160524
         </div>
         
         <div class="question">
-          <div class="label">16. Subtitled languages</div>
+          <div class="label">16. L2-Subtitled languages</div>
           <asp:Panel runat="server" MaxHeight="100" ScrollBars="Auto">
-            <asp:CheckBoxList ID="clistSubtitledLanguages" runat="server" 
+            <asp:CheckBoxList ID="clistL2subtitledLanguages" runat="server" 
               DataSourceID="xmlLanguages" DataTextField="Value" DataValueField="Value"
               RepeatLayout="Table" RepeatColumns="10" RepeatDirection="Vertical"               
               />
