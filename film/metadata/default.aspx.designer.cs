@@ -220,13 +220,13 @@ namespace Trafilm.Gallery {
         protected global::System.Web.UI.WebControls.TextBox txtYear;
         
         /// <summary>
-        /// clistSourceLanguages control.
+        /// listL1language control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBoxList clistSourceLanguages;
+        protected global::System.Web.UI.WebControls.DropDownList listL1language;
         
         /// <summary>
         /// txtYearTranslated control.
@@ -238,22 +238,22 @@ namespace Trafilm.Gallery {
         protected global::System.Web.UI.WebControls.TextBox txtYearTranslated;
         
         /// <summary>
-        /// clistDubbedLanguages control.
+        /// clistL2dubbedLanguages control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBoxList clistDubbedLanguages;
+        protected global::System.Web.UI.WebControls.CheckBoxList clistL2dubbedLanguages;
         
         /// <summary>
-        /// clistSubtitledLanguages control.
+        /// clistL2subtitledLanguages control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBoxList clistSubtitledLanguages;
+        protected global::System.Web.UI.WebControls.CheckBoxList clistL2subtitledLanguages;
         
         /// <summary>
         /// lblConversationsDuration control.

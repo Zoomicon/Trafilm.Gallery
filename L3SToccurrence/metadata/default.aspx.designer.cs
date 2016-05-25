@@ -10,142 +10,106 @@
 namespace Trafilm.Gallery {
     
     
-    public partial class L3occurrenceMetadataPage {
+    public partial class L3SToccurrenceMetadataPage {
         
         /// <summary>
-        /// xmlL3kind control.
+        /// xmlL3STlanguageType control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.XmlDataSource xmlL3kind;
+        protected global::System.Web.UI.WebControls.XmlDataSource xmlL3STlanguageType;
         
         /// <summary>
-        /// xmlLmainLanguage control.
+        /// xmlL3STconstructedBasedOn control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.XmlDataSource xmlLmainLanguage;
+        protected global::System.Web.UI.WebControls.XmlDataSource xmlL3STconstructedBasedOn;
         
         /// <summary>
-        /// xmlLmainMode control.
+        /// xmlL3STaudienceUnderstanding control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.XmlDataSource xmlLmainMode;
+        protected global::System.Web.UI.WebControls.XmlDataSource xmlL3STaudienceUnderstanding;
         
         /// <summary>
-        /// xmlL3languageType control.
+        /// xmlL3STmessageUnderstanding control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.XmlDataSource xmlL3languageType;
+        protected global::System.Web.UI.WebControls.XmlDataSource xmlL3STmessageUnderstanding;
         
         /// <summary>
-        /// xmlL3constructedBasedOn control.
+        /// xmlL3STmeaningDeciphered control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.XmlDataSource xmlL3constructedBasedOn;
+        protected global::System.Web.UI.WebControls.XmlDataSource xmlL3STmeaningDeciphered;
         
         /// <summary>
-        /// xmlL3audienceUnderstanding control.
+        /// xmlL3STspeakerPerformance control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.XmlDataSource xmlL3audienceUnderstanding;
+        protected global::System.Web.UI.WebControls.XmlDataSource xmlL3STspeakerPerformance;
         
         /// <summary>
-        /// xmlL3messageUnderstanding control.
+        /// xmlL3STmode control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.XmlDataSource xmlL3messageUnderstanding;
+        protected global::System.Web.UI.WebControls.XmlDataSource xmlL3STmode;
         
         /// <summary>
-        /// xmlL3meaningDeciphered control.
+        /// xmlL3STrepresented control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.XmlDataSource xmlL3meaningDeciphered;
+        protected global::System.Web.UI.WebControls.XmlDataSource xmlL3STrepresented;
         
         /// <summary>
-        /// xmlL3speakerPerformance control.
+        /// xmlL3STrepresentationsOral control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.XmlDataSource xmlL3speakerPerformance;
+        protected global::System.Web.UI.WebControls.XmlDataSource xmlL3STrepresentationsOral;
         
         /// <summary>
-        /// xmlL3mode control.
+        /// xmlL3STrepresentationsVisual control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.XmlDataSource xmlL3mode;
+        protected global::System.Web.UI.WebControls.XmlDataSource xmlL3STrepresentationsVisual;
         
         /// <summary>
-        /// xmlL3STmodeChange control.
+        /// xmlL3STfunctions control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.XmlDataSource xmlL3STmodeChange;
-        
-        /// <summary>
-        /// xmlL3represented control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.XmlDataSource xmlL3represented;
-        
-        /// <summary>
-        /// xmlL3representationsOral control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.XmlDataSource xmlL3representationsOral;
-        
-        /// <summary>
-        /// xmlL3representationsVisual control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.XmlDataSource xmlL3representationsVisual;
-        
-        /// <summary>
-        /// xmlL3functions control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.XmlDataSource xmlL3functions;
+        protected global::System.Web.UI.WebControls.XmlDataSource xmlL3STfunctions;
         
         /// <summary>
         /// form1 control.
@@ -184,40 +148,40 @@ namespace Trafilm.Gallery {
         protected global::System.Web.UI.WebControls.DropDownList listConversations;
         
         /// <summary>
-        /// panelL3occurrenceId control.
+        /// panelL3SToccurrenceId control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel panelL3occurrenceId;
+        protected global::System.Web.UI.WebControls.Panel panelL3SToccurrenceId;
         
         /// <summary>
-        /// listL3occurrences control.
+        /// listL3SToccurrences control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList listL3occurrences;
+        protected global::System.Web.UI.WebControls.DropDownList listL3SToccurrences;
         
         /// <summary>
-        /// txtL3occurrence control.
+        /// txtL3SToccurrence control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtL3occurrence;
+        protected global::System.Web.UI.WebControls.TextBox txtL3SToccurrence;
         
         /// <summary>
-        /// btnAddL3occurrence control.
+        /// btnAddL3SToccurrence control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnAddL3occurrence;
+        protected global::System.Web.UI.WebControls.Button btnAddL3SToccurrence;
         
         /// <summary>
         /// cbClone control.
@@ -310,166 +274,112 @@ namespace Trafilm.Gallery {
         protected global::System.Web.UI.WebControls.TextBox txtDuration;
         
         /// <summary>
-        /// listL3kind control.
+        /// listL3STlanguageType control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList listL3kind;
+        protected global::System.Web.UI.WebControls.DropDownList listL3STlanguageType;
         
         /// <summary>
-        /// listLmainLanguage control.
+        /// txtL3STlanguage control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList listLmainLanguage;
+        protected global::System.Web.UI.WebControls.TextBox txtL3STlanguage;
         
         /// <summary>
-        /// listLmainMode control.
+        /// clistL3STconstructedBasedOn control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList listLmainMode;
+        protected global::System.Web.UI.WebControls.CheckBoxList clistL3STconstructedBasedOn;
         
         /// <summary>
-        /// cbL2sameAsL3ST control.
+        /// listL3STaudienceUnderstanding control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox cbL2sameAsL3ST;
+        protected global::System.Web.UI.WebControls.DropDownList listL3STaudienceUnderstanding;
         
         /// <summary>
-        /// cbL3STconveyedAsL3TT control.
+        /// listL3STmessageUnderstanding control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox cbL3STconveyedAsL3TT;
+        protected global::System.Web.UI.WebControls.DropDownList listL3STmessageUnderstanding;
         
         /// <summary>
-        /// listL3languageType control.
+        /// listL3STmeaningDecipherable control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList listL3languageType;
+        protected global::System.Web.UI.WebControls.DropDownList listL3STmeaningDecipherable;
         
         /// <summary>
-        /// txtL3language control.
+        /// listL3STspeakerPerformance control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtL3language;
+        protected global::System.Web.UI.WebControls.DropDownList listL3STspeakerPerformance;
         
         /// <summary>
-        /// clistL3constructedBasedOn control.
+        /// clistL3STmode control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBoxList clistL3constructedBasedOn;
+        protected global::System.Web.UI.WebControls.CheckBoxList clistL3STmode;
         
         /// <summary>
-        /// listL3audienceUnderstanding control.
+        /// clistL3STrepresented control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList listL3audienceUnderstanding;
+        protected global::System.Web.UI.WebControls.CheckBoxList clistL3STrepresented;
         
         /// <summary>
-        /// listL3messageUnderstanding control.
+        /// clistL3STrepresentationsOral control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList listL3messageUnderstanding;
+        protected global::System.Web.UI.WebControls.CheckBoxList clistL3STrepresentationsOral;
         
         /// <summary>
-        /// listL3meaningDecipherable control.
+        /// clistL3STrepresentationsVisual control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList listL3meaningDecipherable;
+        protected global::System.Web.UI.WebControls.CheckBoxList clistL3STrepresentationsVisual;
         
         /// <summary>
-        /// listL3speakerPerformance control.
+        /// clistL3STfunctions control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList listL3speakerPerformance;
-        
-        /// <summary>
-        /// clistL3mode control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBoxList clistL3mode;
-        
-        /// <summary>
-        /// listL3STmodeChange control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList listL3STmodeChange;
-        
-        /// <summary>
-        /// clistL3represented control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBoxList clistL3represented;
-        
-        /// <summary>
-        /// clistL3representationsOral control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBoxList clistL3representationsOral;
-        
-        /// <summary>
-        /// clistL3representationsVisual control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBoxList clistL3representationsVisual;
-        
-        /// <summary>
-        /// clistL3functions control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBoxList clistL3functions;
+        protected global::System.Web.UI.WebControls.CheckBoxList clistL3STfunctions;
         
         /// <summary>
         /// btnSave control.

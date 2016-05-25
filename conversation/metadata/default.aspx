@@ -29,7 +29,9 @@ Version: 20160524
        &nbsp;&nbsp;-&nbsp;&nbsp;
        <a class="selected" href="../../conversation/metadata/">Conversation Metadata</a>
        &nbsp;&nbsp;-&nbsp;&nbsp;
-       <a href="../../L3occurrence/metadata/?film=<%=listFilms.SelectedValue%>&conversation=<%=listConversations.SelectedValue%>">L3-occurrence Metadata</a>
+       <a href="../../L3SToccurrence/metadata/?film=<%=listFilms.SelectedValue%>&conversation=<%=listConversations.SelectedValue%>">L3ST-occurrence Metadata</a>
+       &nbsp;&nbsp;-&nbsp;&nbsp;
+       <a href="../../L3TToccurrence/metadata/?film=<%=listFilms.SelectedValue%>&conversation=<%=listConversations.SelectedValue%>">L3TT-occurrence Metadata</a>
     </div>
 
     <%-- INSTRUCTION BOX --%>
@@ -134,7 +136,7 @@ Version: 20160524
         </div>
 
         <div class="question">
-          <div class="label">9. L3 (other) language speaking characters count</div>
+          <div class="label">9. L3-speaking characters count</div>
           <div class="info">How many persons are speaking some form of L3?</div>
           <asp:DropDownList 
             ID="listL3speakingCharactersCount" runat="server"
@@ -143,7 +145,7 @@ Version: 20160524
         </div>
         
 
-        <%-- Calculated from L3occurrences --%>
+        <%-- Calculated from L3SToccurrences --%>
 
         <div>
           <div class="label">Count of L3 (other) languages in Conversation (Calculated from L3-occurrences)</div>
@@ -177,18 +179,18 @@ Version: 20160524
 
         <div>
           <div class="label">Count of L3-occurrences (Calculated)</div>
-          <asp:Label ID="lblL3occurrenceCount" runat="server"></asp:Label>
+          <asp:Label ID="lblL3SToccurrenceCount" runat="server"></asp:Label>
         </div>    
         
         
-        <%-- L3occurrences list --%>                  
+        <%-- L3SToccurrences list --%>                  
 
-        <asp:Repeater ID="repeaterL3occurrences" runat="server">
+        <asp:Repeater ID="repeaterL3SToccurrences" runat="server">
           <HeaderTemplate>
             <div class="label">List of L3-occurrences<div>
           </HeaderTemplate>
           <ItemTemplate>
-            <a href="../../L3occurrence/metadata/?film=<%#Eval("filmId")%>&conversation=<%#Eval("conversationId")%>&L3occurrence=<%#Eval("L3occurrenceId")%>"><%#Eval("L3occurrenceId")%></a>&nbsp;&nbsp;
+            <a href="../../L3SToccurrence/metadata/?film=<%#Eval("filmId")%>&conversation=<%#Eval("conversationId")%>&L3SToccurrence=<%#Eval("L3SToccurrenceId")%>"><%#Eval("L3SToccurrenceId")%></a>&nbsp;&nbsp;
           </ItemTemplate>
         </asp:Repeater>
 

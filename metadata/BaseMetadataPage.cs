@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: BaseMetadataPage.cs
-//Version: 20160516
+//Version: 20160525
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -23,7 +23,8 @@ namespace Trafilm.Gallery
 
     protected CXMLFragmentStorage<IFilm, Film> filmStorage;
     protected CXMLFragmentStorage<IConversation, Conversation> conversationStorage;
-    protected CXMLFragmentStorage<IL3occurrence, L3occurrence> l3occurrenceStorage;
+    protected CXMLFragmentStorage<IL3SToccurrence, L3SToccurrence> l3SToccurrenceStorage;
+    protected CXMLFragmentStorage<IL3TToccurrence, L3TToccurrence> l3TToccurrenceStorage;
 
     #endregion
 
@@ -70,13 +71,13 @@ namespace Trafilm.Gallery
       }
     }
 
-    public void CreateL3occurrence(string filmId, string conversationId, string L3occurrenceId, IL3occurrence metadata = null) //don't return IL3occurrence to avoid loading a .CXML file if already exists
+    public void CreateL3SToccurrence(string filmId, string conversationId, string L3SToccurrenceId, IL3SToccurrence metadata = null) //don't return IL3SToccurrence to avoid loading a .CXML file if already exists
     {
-      if (!l3occurrenceStorage.Keys.Contains(L3occurrenceId))
+      if (!l3SToccurrenceStorage.Keys.Contains(L3SToccurrenceId))
       {
         if (metadata == null)
         {
-          metadata = new L3occurrence();
+          metadata = new L3SToccurrence();
           metadata.Clear();
           metadata.FilmReferenceId = filmId;
           metadata.ConversationReferenceId = conversationId;
@@ -84,10 +85,32 @@ namespace Trafilm.Gallery
         else
           metadata.ClearCalculated();
 
-        metadata.Title = L3occurrenceId;
-        metadata.ReferenceId = L3occurrenceId;
+        metadata.Title = L3SToccurrenceId;
+        metadata.ReferenceId = L3SToccurrenceId;
 
-        l3occurrenceStorage[L3occurrenceId] = metadata;
+        l3SToccurrenceStorage[L3SToccurrenceId] = metadata;
+      }
+    }
+
+    public void CreateL3TToccurrence(string filmId, string conversationId, string l3SToccurrenceId, string l3TToccurrenceId, IL3TToccurrence metadata = null) //don't return IL3TToccurrence to avoid loading a .CXML file if already exists
+    {
+      if (!l3TToccurrenceStorage.Keys.Contains(l3TToccurrenceId))
+      {
+        if (metadata == null)
+        {
+          metadata = new L3TToccurrence();
+          metadata.Clear();
+          metadata.FilmReferenceId = filmId;
+          metadata.ConversationReferenceId = conversationId;
+          metadata.L3SToccurrenceReferenceId = l3SToccurrenceId;
+        }
+        else
+          metadata.ClearCalculated();
+
+        metadata.Title = l3TToccurrenceId;
+        metadata.ReferenceId = l3TToccurrenceId;
+
+        l3TToccurrenceStorage[l3TToccurrenceId] = metadata;
       }
     }
 
@@ -130,11 +153,16 @@ namespace Trafilm.Gallery
       UpdateList(list, conversationStorage.Keys, selectedValue, isQueryStringItem);
     }
 
-    public void UpdateL3occurrencesList(ListControl list, string selectedValue = null, bool isQueryStringItem = false)
+    public void UpdateL3SToccurrencesList(ListControl list, string selectedValue = null, bool isQueryStringItem = false)
     {
-      UpdateList(list, l3occurrenceStorage.Keys, selectedValue, isQueryStringItem);
+      UpdateList(list, l3SToccurrenceStorage.Keys, selectedValue, isQueryStringItem);
     }
 
+    public void UpdateL3TToccurrencesList(ListControl list, string selectedValue = null, bool isQueryStringItem = false)
+    {
+      UpdateList(list, l3TToccurrenceStorage.Keys, selectedValue, isQueryStringItem);
+    }
+   
     #endregion
 
     #region Save

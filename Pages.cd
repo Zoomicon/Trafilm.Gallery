@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
-  <Class Name="Trafilm.Gallery.L3occurrenceMetadataPage">
+  <Class Name="Trafilm.Gallery.L3SToccurrenceMetadataPage">
     <Position X="12" Y="0.75" Width="3.25" />
     <InheritanceLine Type="Trafilm.Gallery.BaseMetadataPage" FixedFromPoint="true" FixedToPoint="true">
       <Path>
@@ -12,7 +12,7 @@
     </InheritanceLine>
     <TypeIdentifier>
       <HashCode>AIiogMIAAAgAsKLCAAAJoAAILUMNAJAARhjAKIICEOw=</HashCode>
-      <FileName>L3occurrence\metadata\default.aspx.cs</FileName>
+      <FileName>L3SToccurrence\metadata\default.aspx.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Trafilm.Gallery.FilmMetadataPage">
