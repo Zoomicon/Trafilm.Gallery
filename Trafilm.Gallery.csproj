@@ -177,6 +177,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="film\update_cxml.bat" />
+    <Content Include="L3occurrence\update_cxml.bat" />
+    <Content Include="conversation\update_cxml.bat" />
     <None Include="Properties\PublishProfiles\Trafilm Gallery.pubxml" />
   </ItemGroup>
   <ItemGroup>
