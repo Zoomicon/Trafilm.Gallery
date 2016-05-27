@@ -74,7 +74,7 @@ Version: 20160525
             <asp:DropDownList ID="listL3SToccurrences" runat="server" AutoPostBack="True" OnSelectedIndexChanged="listL3SToccurrences_SelectedIndexChanged" />
 
             <div>
-              <div class="label">or add new L3ST-occurrence Id (do not include the Film Id and Conversation Id prefixes)</div>
+              <div class="label">or add new L3ST-occurrence Id (e.g. <i>Chinese</i> - do not include the Film Id and Conversation Id prefixes)</div>
               <asp:TextBox ID="txtL3SToccurrence" runat="server" />
               <asp:Button ID="btnAddL3SToccurrence" runat="server" Text="Add" OnClick="btnAddL3SToccurrence_Click" />
               &nbsp;

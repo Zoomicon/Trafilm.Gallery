@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: L3TTTToccurrence\metadata\default.aspx
-Version: 20160525
+Version: 20160527
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -83,7 +83,7 @@ Version: 20160525
               <asp:DropDownList ID="listL3TToccurrences" runat="server" AutoPostBack="True" OnSelectedIndexChanged="listL3TToccurrences_SelectedIndexChanged" />
 
               <div>
-                <div class="label">or add new L3TT-occurrence Id (do not include the Film Id, Conversation Id and L3ST-occurrence Id prefixes)</div>
+                <div class="label">or add new L3TT-occurrence Id (e.g. <i>SpanishDub</i> or <i>SpanishSub</i> - do not include the Film Id, Conversation Id and L3ST-occurrence Id prefixes)</div>
                 <asp:TextBox ID="txtL3TToccurrence" runat="server" />
                 <asp:Button ID="btnAddL3TToccurrence" runat="server" Text="Add" OnClick="btnAddL3TToccurrence_Click" />
                 &nbsp;
