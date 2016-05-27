@@ -451,7 +451,7 @@ namespace Trafilm.Gallery {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList listL3STmodeChange;
+        protected global::System.Web.UI.WebControls.ListBox listL3STmodeChange;
         
         /// <summary>
         /// listL3STfunctionsChange control.
@@ -460,7 +460,7 @@ namespace Trafilm.Gallery {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList listL3STfunctionsChange;
+        protected global::System.Web.UI.WebControls.ListBox listL3STfunctionsChange;
         
         /// <summary>
         /// btnSave control.

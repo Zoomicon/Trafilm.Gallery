@@ -262,6 +262,7 @@ namespace Trafilm.Gallery
     {
       Save();
       SaveCollection();
+      DisplayMetadata(listL3TToccurrences.SelectedValue);
     }
 
     #endregion

@@ -273,7 +273,7 @@ Version: 20160527
           <div class="label">19. L3TT functions</div>
           <%-- <div class="tip"></div> --%>
           <asp:Panel runat="server" MaxHeight="100" ScrollBars="Auto">
-            <asp:CheckBoxList ID="clistL3TTfunctions" runat="server" 
+            <asp:CheckBoxList ID="clistL3TTfunctions" runat="server"
               DataSourceID="xmlL3TTfunctions" DataTextField="Value" DataValueField="Value"
               RepeatLayout="Table" RepeatColumns="10" RepeatDirection="Vertical"               
               />
@@ -283,17 +283,17 @@ Version: 20160527
 
         <%-- Calculated from L3SToccurrence --%>
         
-        <div class="question">
+        <div>
           <div class="label">L3ST mode change (Calculated from L3ST mode and L3TT mode)</div>
-          <div class="tip">L3ST mode change in TT?</div>
-          <asp:DropDownList ID="listL3STmodeChange" runat="server" />
+          <div class="tip">L3ST mode change in TT</div>
+          <asp:ListBox ID="listL3STmodeChange" runat="server" Enabled="false" />
         </div>
 
 
-        <div class="question">
+        <div>
           <div class="label">L3ST functions change (Calculated from L3ST functions and L3TT functions)</div>
           <div class="tip">L3ST functions change in TT</div>
-          <asp:DropDownList ID="listL3STfunctionsChange" runat="server" />
+          <asp:ListBox ID="listL3STfunctionsChange" runat="server" Enabled="false" />
         </div>
 
 
