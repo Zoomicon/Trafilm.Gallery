@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: L3SToccurrence\metadata\default.aspx.cs
-//Version: 20160526
+//Version: 20160527
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -241,6 +241,7 @@ namespace Trafilm.Gallery
     {
       Save();
       SaveCollection();
+      DisplayMetadata(listL3SToccurrences.SelectedValue); //Reload saved data on the UI to confirm what was saved. This is also important to update any calculated fields that make use of the edited object's metadata values
     }
 
     #endregion
