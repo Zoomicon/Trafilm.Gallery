@@ -78,7 +78,9 @@ namespace Trafilm.Gallery
 
     public void DisplayMetadata(string L3TToccurrenceId)
     {
-      DisplayMetadata(l3TToccurrenceStorage[L3TToccurrenceId]);
+      IL3TToccurrence metadata = l3TToccurrenceStorage[L3TToccurrenceId];
+      metadata.L3SToccurrence = l3SToccurrenceStorage[metadata.L3SToccurrenceReferenceId];
+      DisplayMetadata(metadata);
     }
 
     public void DisplayMetadata(IL3TToccurrence metadata)
@@ -104,6 +106,7 @@ namespace Trafilm.Gallery
 
       UI.Load(listFilms, metadata.FilmReferenceId);
       UI.Load(listConversations, metadata.ConversationReferenceId);
+      UI.Load(listL3SToccurrences, metadata.L3SToccurrenceReferenceId);
 
       UI.Load(listL2language, metadata.L2language);
       UI.Load(listL2mode, metadata.L2mode);
@@ -130,7 +133,10 @@ namespace Trafilm.Gallery
 
       UI.Load(clistL3TTfunctions, metadata.L3TTfunctions);
 
-      //TODO//UI.Load(listL3TTmodeChange, metadata.L3TTmodeChange);
+      //Caclculated properties//
+
+      UI.LoadContent(listL3STmodeChange, metadata.L3STmodeChange);
+      UI.LoadContent(listL3STfunctionsChange, metadata.L3STfunctionsChange);
     }
 
     #endregion
@@ -156,12 +162,11 @@ namespace Trafilm.Gallery
       metadata.InfoUpdated = DateTime.ParseExact(lblInfoUpdated.Text, CXML.DEFAULT_DATETIME_FORMAT, CultureInfo.InvariantCulture);
       metadata.Keywords = UI.GetCommaSeparated(txtKeywords);
 
-      //Imetadata//
-
-      metadata.ConversationReferenceId = listConversations.SelectedValue;
+      //IL3TToccurenceMetadata//
 
       metadata.FilmReferenceId = listFilms.SelectedValue;
       metadata.ConversationReferenceId = listConversations.SelectedValue;
+      metadata.L3SToccurrenceReferenceId = listL3SToccurrences.SelectedValue;
 
       metadata.L2language = listL2language.SelectedValue;
       metadata.L2mode = listL2mode.SelectedValue;
@@ -188,7 +193,9 @@ namespace Trafilm.Gallery
 
       metadata.L3TTfunctions = UI.GetSelected(clistL3TTfunctions);
 
-      //TODO//      metadata.L3TTmodeChange = listL3TTmodeChange.SelectedValue;
+      //Calculated properties//
+
+      metadata.L3SToccurrence = l3SToccurrenceStorage[metadata.L3SToccurrenceReferenceId];
 
       return metadata;
     }

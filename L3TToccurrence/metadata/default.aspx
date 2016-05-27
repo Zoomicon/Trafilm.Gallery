@@ -283,13 +283,17 @@ Version: 20160525
 
         <%-- Calculated from L3SToccurrence --%>
         
-        <!-- TODO: calculated fields -->
         <div class="question">
-          <div class="label">L3ST mode change</div>
-          <div class="tip">L3ST mode change in TT (oral to written, written to oral)?</div>
-          <asp:DropDownList 
-            ID="listL3STmodeChange" runat="server"
-            DataSourceID="xmlL3STmodeChange" DataTextField="Value" DataValueField="Value" />
+          <div class="label">L3ST mode change (Calculated from L3ST mode and L3TT mode)</div>
+          <div class="tip">L3ST mode change in TT?</div>
+          <asp:DropDownList ID="listL3STmodeChange" runat="server" />
+        </div>
+
+
+        <div class="question">
+          <div class="label">L3ST functions change (Calculated from L3ST functions and L3TT functions)</div>
+          <div class="tip">L3ST functions change in TT</div>
+          <asp:DropDownList ID="listL3STfunctionsChange" runat="server" />
         </div>
 
 
