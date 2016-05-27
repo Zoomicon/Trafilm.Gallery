@@ -3,11 +3,13 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: metadata/L3mode.xml
-Version: 20160525
+Version: 20160527
 -->
 
 <Facet Name="L3mode">
-  <String Value="Oral only" />
-  <String Value="Written on screen only" />
-  <String Value="Mixture of oral and written" />
+  <String Value="Oral non-diegetic" />
+  <String Value="Oral diegetic on-screen" />
+  <String Value="Oral diegetic off-screen" />
+  <String Value="Written non-diegetic" />
+  <String Value="Written diegetic" />
 </Facet>
