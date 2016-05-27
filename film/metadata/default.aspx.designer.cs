@@ -247,22 +247,22 @@ namespace Trafilm.Gallery {
         protected global::System.Web.UI.WebControls.TextBox txtYearTranslated;
         
         /// <summary>
-        /// clistL2dubbedLanguages control.
+        /// listL2dubbedLanguages control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBoxList clistL2dubbedLanguages;
+        protected global::System.Web.UI.WebControls.ListBox listL2dubbedLanguages;
         
         /// <summary>
-        /// clistL2subtitledLanguages control.
+        /// listL2subtitledLanguages control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBoxList clistL2subtitledLanguages;
+        protected global::System.Web.UI.WebControls.ListBox listL2subtitledLanguages;
         
         /// <summary>
         /// lblConversationsDuration control.

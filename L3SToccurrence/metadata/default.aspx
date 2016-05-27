@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: L3SToccurrence\metadata\default.aspx
-Version: 20160525
+Version: 20160527
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -20,7 +20,7 @@ Version: 20160525
 
     <%-- DATA SOURCES --%>
 
-    <asp:XmlDataSource ID="xmlL3STlanguageType" runat="server" DataFile="~/metadata/L3languageType.xml" XPath="Facet/String" />
+    <asp:XmlDataSource ID="xmlL3STlanguageType" runat="server" DataFile="~/metadata/L3STlanguageType.xml" XPath="Facet/String" />
     <asp:XmlDataSource ID="xmlL3STconstructedBasedOn" runat="server" DataFile="~/metadata/L3constructedBasedOn.xml" XPath="Facet/String" />
     <asp:XmlDataSource ID="xmlL3STaudienceUnderstanding" runat="server" DataFile="~/metadata/L3audienceUnderstanding.xml" XPath="Facet/String" />
     <asp:XmlDataSource ID="xmlL3STmessageUnderstanding" runat="server" DataFile="~/metadata/L3messageUnderstanding.xml" XPath="Facet/String" />

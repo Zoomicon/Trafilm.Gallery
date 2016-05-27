@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: UI.cs
-//Version: 20160522
+//Version: 20160527
 
 using System;
 using System.Collections.Generic;
@@ -36,12 +36,14 @@ namespace Trafilm.Gallery
 
     public static void Load(ListControl list, string[] values)
     {
+      list.DataBind(); //load any items coming from a DataSource
       foreach (ListItem item in list.Items)
         item.Selected = values.Contains(item.Text);
     }
 
     public static void Load(ListControl list, string value)
     {
+      list.DataBind(); //load any items coming from a DataSource
       list.SelectedValue = value;
     }
 

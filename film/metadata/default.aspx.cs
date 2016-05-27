@@ -94,16 +94,17 @@ namespace Trafilm.Gallery
       UI.Load(txtProductionCompanies, metadata.ProductionCompanies);
 
       UI.Load(txtBoxOffice, metadata.BoxOffice);
-      UI.Load(txtYear, metadata.Year.ToString());
+      UI.Load(txtYear, metadata.YearSTreleased.ToString());
 
       UI.Load(listL1language, metadata.L1language);
 
-      UI.Load(txtYearTranslated, metadata.YearTranslated.ToString());
-      UI.Load(clistL2dubbedLanguages, metadata.L2dubbedLanguages);
-      UI.Load(clistL2subtitledLanguages, metadata.L2subtitledLanguages);
+      UI.Load(txtYearTranslated, metadata.YearTTreleased_Spain.ToString());
 
       //Calculated properties//
-    
+
+      UI.LoadContent(listL2dubbedLanguages, metadata.L2dubbedLanguages);
+      UI.LoadContent(listL2subtitledLanguages, metadata.L2subtitledLanguages);
+
       UI.Load(lblConversationCount, metadata.ConversationCount.ToString());
       UI.Load(lblConversationsDuration, metadata.ConversationsDuration.ToString(ConversationMetadata.DEFAULT_DURATION_FORMAT));
     }
@@ -148,14 +149,11 @@ namespace Trafilm.Gallery
       metadata.ProductionCompanies = UI.GetCommaSeparated(txtProductionCompanies);
 
       metadata.BoxOffice = txtBoxOffice.Text;
-      metadata.Year = txtYear.Text.ToNullableInt();
+      metadata.YearSTreleased = txtYear.Text.ToNullableInt();
 
       metadata.L1language = listL1language.SelectedValue;
 
-      metadata.YearTranslated = txtYearTranslated.Text.ToNullableInt();
-      metadata.L2dubbedLanguages = UI.GetSelected(clistL2dubbedLanguages);
-      metadata.L2subtitledLanguages = UI.GetSelected(clistL2subtitledLanguages);
-
+      metadata.YearTTreleased_Spain = txtYearTranslated.Text.ToNullableInt();
 
       //Calculated properties//
 
