@@ -150,9 +150,7 @@ namespace Trafilm.Gallery
       metadata.InfoUpdated = DateTime.ParseExact(lblInfoUpdated.Text, CXML.DEFAULT_DATETIME_FORMAT, CultureInfo.InvariantCulture);
       metadata.Keywords = UI.GetCommaSeparated(txtKeywords);
 
-      //Imetadata//
-
-      metadata.ConversationReferenceId = listConversations.SelectedValue;
+      //IL3SToccurrenceMetadata//
 
       metadata.FilmReferenceId = listFilms.SelectedValue;
       metadata.ConversationReferenceId = listConversations.SelectedValue;
