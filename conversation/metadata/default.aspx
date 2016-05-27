@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: conversation\metadata\default.aspx
-Version: 20160524
+Version: 20160527
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -59,7 +59,7 @@ Version: 20160524
           <asp:DropDownList ID="listConversations" runat="server" AutoPostBack="True" OnSelectedIndexChanged="listConversations_SelectedIndexChanged" />
 
           <div>
-            <div class="label">or enter a new Conversation Id (do not include the Film Id prefix)</div>
+            <div class="label">or enter a new Conversation Id (e.g. <i>ExplainingThePlan</i> - do not include the Film Id prefix)</div>
             <asp:TextBox ID="txtConversation" runat="server" />
             <asp:Button ID="btnAddConversation" runat="server" Text="Add" OnClick="btnAddConversation_Click" />
             &nbsp;

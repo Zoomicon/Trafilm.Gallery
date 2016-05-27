@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: film\metadata\default.aspx
-Version: 20160525
+Version: 20160527
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -56,7 +56,7 @@ Version: 20160525
         </div>
 
         <div>
-          <div class="label">or enter a new Film Id</div>
+          <div class="label">or enter a new Film Id (e.g. <i>OceansEleven_2001</i>)</div>
           <asp:TextBox ID="txtFilm" runat="server" />
           <asp:Button ID="btnAddFilm" runat="server" Text="Add" OnClick="btnAddFilm_Click" />
           &nbsp;
