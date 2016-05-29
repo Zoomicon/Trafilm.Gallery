@@ -31,7 +31,7 @@ Version: 20160529
     <asp:XmlDataSource ID="xmlL3TTmode" runat="server" DataFile="~/metadata/L3mode.xml" XPath="Facet/String" />
     <asp:XmlDataSource ID="xmlL3STmodeChange" runat="server" DataFile="~/metadata/L3STmodeChange.xml" XPath="Facet/String" />
     <asp:XmlDataSource ID="xmlL3TTrepresented" runat="server" DataFile="~/metadata/L3represented.xml" XPath="Facet/String" />
-    <asp:XmlDataSource ID="xmlL3TTrepresentationsOral" runat="server" DataFile="~/metadata/L3TTrepresentationsOral.xml" XPath="Facet/String" />
+    <asp:XmlDataSource ID="xmlL3TTrepresentationsOral" runat="server" DataFile="~/metadata/L3representationsOral.xml" XPath="Facet/String" />
     <asp:XmlDataSource ID="xmlL3TTrepresentationsVisual" runat="server" DataFile="~/metadata/L3representationsVisual.xml" XPath="Facet/String" />
     <asp:XmlDataSource ID="xmlL3TTfunctions" runat="server" DataFile="~/metadata/L3functions.xml" XPath="Facet/String" />
 
@@ -206,7 +206,7 @@ Version: 20160529
 
         <div class="question">
           <div class="label">13. L3TT meaning decipherable</div>
-          <div class="tip">Can the meaning (pragmatic) of L3TT be deciphered by other means? </div>
+          <div class="tip">Can the (pragmatic) meaning of L3TT be deciphered by other means? </div>
           <asp:DropDownList 
             ID="listL3TTmeaningDecipherable" runat="server"
             DataSourceID="xmlL3TTmeaningDeciphered" DataTextField="Value" DataValueField="Value" />
@@ -236,7 +236,7 @@ Version: 20160529
 
         <div class="question">
           <div class="label">16. L3TT represented</div>
-          <%-- <div class="tip">L3TT is represented:</div> --%>
+          <div class="tip">There is no L3TT as such, strictly speaking, but rather, it is hinted at through certain "clues" verbally (in the L2) or non-verbally (visually or otherwise)</div>
           <asp:Panel runat="server" MaxHeight="100" ScrollBars="Auto">
             <asp:CheckBoxList ID="clistL3TTrepresented" runat="server" 
               DataSourceID="xmlL3TTrepresented" DataTextField="Value" DataValueField="Value"
@@ -247,7 +247,7 @@ Version: 20160529
 
         <div class="question">
           <div class="label">17. L3TT represented: oral</div>
-          <div class="tip">If “oral” selected for L3TT representations, which:</div>
+          <div class="tip">If “oral” selected for question on “L3TT represented”, specify how:</div>
           <div class="tip"></div>
           <asp:Panel runat="server" MaxHeight="100" ScrollBars="Auto">
             <asp:CheckBoxList ID="clistL3TTrepresentationsOral" runat="server" 
@@ -259,7 +259,7 @@ Version: 20160529
 
         <div class="question">
           <div class="label">18. L3TT represented: visual</div>
-          <div class="tip">If “visual” selected for L3TT representations, which:</div>
+          <div class="tip">If “visual” selected for question on “L3TT represented”, specify how:</div>
           <asp:Panel runat="server" MaxHeight="100" ScrollBars="Auto">
             <asp:CheckBoxList ID="clistL3TTrepresentationsVisual" runat="server" 
               DataSourceID="xmlL3TTrepresentationsVisual" DataTextField="Value" DataValueField="Value" 
