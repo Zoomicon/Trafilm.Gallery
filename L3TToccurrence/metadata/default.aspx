@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: L3TTTToccurrence\metadata\default.aspx
-Version: 20160527
+Version: 20160529
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -22,7 +22,7 @@ Version: 20160527
 
     <asp:XmlDataSource ID="xmlL2language" runat="server" DataFile="~/metadata/L2language.xml" XPath="Facet/String" />
     <asp:XmlDataSource ID="xmlL2mode" runat="server" DataFile="~/metadata/L2mode.xml" XPath="Facet/String" />    
-    <asp:XmlDataSource ID="xmlL3TTlanguageType" runat="server" DataFile="~/metadata/L3languageType.xml" XPath="Facet/String" />
+    <asp:XmlDataSource ID="xmlL3TTlanguageType" runat="server" DataFile="~/metadata/L3TTlanguageType.xml" XPath="Facet/String" />
     <asp:XmlDataSource ID="xmlL3TTconstructedBasedOn" runat="server" DataFile="~/metadata/L3constructedBasedOn.xml" XPath="Facet/String" />
     <asp:XmlDataSource ID="xmlL3TTaudienceUnderstanding" runat="server" DataFile="~/metadata/L3audienceUnderstanding.xml" XPath="Facet/String" />
     <asp:XmlDataSource ID="xmlL3TTmessageUnderstanding" runat="server" DataFile="~/metadata/L3messageUnderstanding.xml" XPath="Facet/String" />
@@ -163,7 +163,7 @@ Version: 20160527
 
         <div class="question">
           <div class="label">8. L3TT language type</div>
-          <div class="tip">What type of language is L3TT?</div>
+          <div class="tip">With L2 as main language, what type of language is L3TT?</div>
           <asp:DropDownList 
             ID="listL3TTlanguageType" runat="server"
             DataSourceID="xmlL3TTlanguageType" DataTextField="Value" DataValueField="Value" />
@@ -246,7 +246,7 @@ Version: 20160527
         </div>
 
         <div class="question">
-          <div class="label">17. L3TT oral representations</div>
+          <div class="label">17. L3TT represented: oral</div>
           <div class="tip">If “oral” selected for L3TT representations, which:</div>
           <div class="tip"></div>
           <asp:Panel runat="server" MaxHeight="100" ScrollBars="Auto">
@@ -258,7 +258,7 @@ Version: 20160527
         </div>
 
         <div class="question">
-          <div class="label">18. L3TT visual representations</div>
+          <div class="label">18. L3TT represented: visual</div>
           <div class="tip">If “visual” selected for L3TT representations, which:</div>
           <asp:Panel runat="server" MaxHeight="100" ScrollBars="Auto">
             <asp:CheckBoxList ID="clistL3TTrepresentationsVisual" runat="server" 
@@ -284,14 +284,21 @@ Version: 20160527
         <%-- Calculated from L3SToccurrence --%>
         
         <div>
-          <div class="label">L3ST mode change (Calculated from L3ST mode and L3TT mode)</div>
+          <div class="label">L3ST language type change (Calculated from L3ST and L3TT language type)</div>
+          <div class="tip">L3ST language type change in TT</div>
+          <asp:ListBox ID="listL3STlanguageTypeChange" runat="server" Enabled="false" />
+        </div>
+        
+        
+        <div>
+          <div class="label">L3ST mode change (Calculated from L3ST and L3TT mode)</div>
           <div class="tip">L3ST mode change in TT</div>
           <asp:ListBox ID="listL3STmodeChange" runat="server" Enabled="false" />
         </div>
 
 
         <div>
-          <div class="label">L3ST functions change (Calculated from L3ST functions and L3TT functions)</div>
+          <div class="label">L3ST functions change (Calculated from L3ST and L3TT functions)</div>
           <div class="tip">L3ST functions change in TT</div>
           <asp:ListBox ID="listL3STfunctionsChange" runat="server" Enabled="false" />
         </div>

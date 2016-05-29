@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: L3SToccurrence\metadata\default.aspx.cs
-//Version: 20160527
+//Version: 20160529
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -66,13 +66,28 @@ namespace Trafilm.Gallery
       listL3SToccurrences_SelectedIndexChanged(listL3SToccurrences, null);
     }
 
+    #region Linked Data
+
+    public void LinkData(IL3SToccurrence metadata)
+    {
+      string key = metadata.ReferenceId;
+
+      IConversation conversation = conversationStorage[metadata.ConversationReferenceId];
+      conversation.Film = filmStorage[metadata.FilmReferenceId];
+      metadata.Conversation = conversation; //this updates calculated properties (must be set after the above calculation)
+
+      l3TToccurrenceStorage = new CXMLFragmentStorage<IL3TToccurrence, L3TToccurrence>(Path.Combine(Request.PhysicalApplicationPath, @"L3TToccurrence\L3TToccurrences.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"L3TToccurrence\metadata"), key + ".*.cxml");
+      metadata.L3TToccurrences = l3TToccurrenceStorage.Values; //this updates calculated properties //assumes "l3TToccurrenceStorage" has been updated
+    }
+
+    #endregion
+
     #region Load
 
     public void DisplayMetadata(string l3SToccurrenceId)
     {
       IL3SToccurrence metadata = l3SToccurrenceStorage[l3SToccurrenceId];
-      l3TToccurrenceStorage = new CXMLFragmentStorage<IL3TToccurrence, L3TToccurrence>(Path.Combine(Request.PhysicalApplicationPath, @"L3TToccurrence\L3TToccurrences.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"L3TToccurrence\metadata"), l3SToccurrenceId + ".*.cxml");
-      metadata.L3TToccurrences = l3TToccurrenceStorage.Values; //this updates calculated properties //assumes "l3TToccurrenceStorage" has been updated
+      LinkData(metadata);
       DisplayMetadata(metadata);
     }
 
@@ -85,7 +100,7 @@ namespace Trafilm.Gallery
       //Ignoring the Id field, since some Pivot Tools expect it to be sequential
       UI.Load(txtTitle, metadata.Title);
       //Not showing any Image field
-      UI.Load(linkUrl, new Uri("http://gallery.trafilm.net/?L3SToccurrence=" + key));
+      UI.Load(linkUrl, GetL3SToccurrenceUri(key));
       UI.Load(txtDescription, metadata.Description);
 
       //ITrafilmMetadata//
@@ -102,6 +117,8 @@ namespace Trafilm.Gallery
 
       UI.Load(txtStartTime, metadata.StartTime.ToString(L3SToccurrenceMetadata.DEFAULT_POSITION_FORMAT));
       UI.Load(txtDuration, metadata.Duration.ToString(L3SToccurrenceMetadata.DEFAULT_DURATION_FORMAT));
+
+      UI.Load(lblL1language, metadata.L1language);
 
       UI.Load(listL3STlanguageType, metadata.L3STlanguageType);
       UI.Load(txtL3STlanguage, metadata.L3STlanguage);
@@ -140,7 +157,7 @@ namespace Trafilm.Gallery
 
       metadata.Title = txtTitle.Text;
       metadata.Image = "../L3SToccurence/image/" + key + ".png";
-      metadata.Url = new Uri("http://gallery.trafilm.net/?L3SToccurrence=" + key);
+      metadata.Url = GetL3SToccurrenceUri(key);
       metadata.Description = txtDescription.Text;
 
       //ITrafilmMetadata//
@@ -179,8 +196,7 @@ namespace Trafilm.Gallery
 
       //Calculated properties//
 
-      l3TToccurrenceStorage = new CXMLFragmentStorage<IL3TToccurrence, L3TToccurrence>(Path.Combine(Request.PhysicalApplicationPath, @"L3TToccurrence\L3TToccurrences.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"L3TToccurrence\metadata"), key + ".*.cxml");
-      metadata.L3TToccurrences = l3TToccurrenceStorage.Values; //this updates calculated properties //assumes "l3TToccurrenceStorage" has been updated
+      LinkData(metadata);
 
       return metadata;
     }

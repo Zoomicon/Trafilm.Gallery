@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: L3SToccurrence\metadata\default.aspx
-Version: 20160525
+Version: 20160529
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -20,7 +20,7 @@ Version: 20160525
 
     <%-- DATA SOURCES --%>
 
-    <asp:XmlDataSource ID="xmlL3STlanguageType" runat="server" DataFile="~/metadata/L3languageType.xml" XPath="Facet/String" />
+    <asp:XmlDataSource ID="xmlL3STlanguageType" runat="server" DataFile="~/metadata/L3STlanguageType.xml" XPath="Facet/String" />
     <asp:XmlDataSource ID="xmlL3STconstructedBasedOn" runat="server" DataFile="~/metadata/L3constructedBasedOn.xml" XPath="Facet/String" />
     <asp:XmlDataSource ID="xmlL3STaudienceUnderstanding" runat="server" DataFile="~/metadata/L3audienceUnderstanding.xml" XPath="Facet/String" />
     <asp:XmlDataSource ID="xmlL3STmessageUnderstanding" runat="server" DataFile="~/metadata/L3messageUnderstanding.xml" XPath="Facet/String" />
@@ -137,9 +137,16 @@ Version: 20160525
         </div>
 
 
+        <div>
+          <div class="label">L1 language</div>
+          <div class="tip">What language is L1 in?</div>
+          <asp:Label ID="lblL1language" runat="server" />
+        </div>
+
+
         <div class="question">
           <div class="label">6. L3ST language type</div>
-          <div class="tip">What type of language is L3ST?</div>
+          <div class="tip">With L1 as main language, what type of language is L3ST?</div>
           <asp:DropDownList 
             ID="listL3STlanguageType" runat="server"
             DataSourceID="xmlL3STlanguageType" DataTextField="Value" DataValueField="Value" />
@@ -222,7 +229,7 @@ Version: 20160525
         </div>
 
         <div class="question">
-          <div class="label">15. L3ST oral representations</div>
+          <div class="label">15. L3ST represented: oral</div>
           <div class="tip">If “oral” selected for L3ST representations, which:</div>
           <div class="tip"></div>
           <asp:Panel runat="server" MaxHeight="100" ScrollBars="Auto">
@@ -234,7 +241,7 @@ Version: 20160525
         </div>
 
         <div class="question">
-          <div class="label">16. L3ST visual representations</div>
+          <div class="label">16. L3ST represented: visual</div>
           <div class="tip">If “visual” selected for L3ST representations, which:</div>
           <asp:Panel runat="server" MaxHeight="100" ScrollBars="Auto">
             <asp:CheckBoxList ID="clistL3STrepresentationsVisual" runat="server" 

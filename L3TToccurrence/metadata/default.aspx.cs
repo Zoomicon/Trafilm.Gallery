@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: L3TToccurrence\metadata\default.aspx.cs
-//Version: 20160527
+//Version: 20160529
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -74,12 +74,22 @@ namespace Trafilm.Gallery
       listL3TToccurrences_SelectedIndexChanged(listL3TToccurrences, null);
     }
 
+    #region Linked Data
+
+    public void LinkData(IL3TToccurrence metadata)
+    {
+      string key = metadata.L3SToccurrenceReferenceId;
+      metadata.L3SToccurrence = l3SToccurrenceStorage[key]; //this updates calculated properties
+    }
+
+    #endregion
+
     #region Load
 
     public void DisplayMetadata(string L3TToccurrenceId)
     {
       IL3TToccurrence metadata = l3TToccurrenceStorage[L3TToccurrenceId];
-      metadata.L3SToccurrence = l3SToccurrenceStorage[metadata.L3SToccurrenceReferenceId];
+      LinkData(metadata);
       DisplayMetadata(metadata);
     }
 
@@ -92,7 +102,7 @@ namespace Trafilm.Gallery
       //Ignoring the Id field, since some Pivot Tools expect it to be sequential
       UI.Load(txtTitle, metadata.Title);
       //Not showing any Image field
-      UI.Load(linkUrl, new Uri("http://gallery.trafilm.net/?L3TToccurrence=" + key));
+      UI.Load(linkUrl, GetL3TToccurrenceUri(key));
       UI.Load(txtDescription, metadata.Description);
 
       //ITrafilmMetadata//
@@ -133,8 +143,9 @@ namespace Trafilm.Gallery
 
       UI.Load(clistL3TTfunctions, metadata.L3TTfunctions);
 
-      //Caclculated properties//
+      //Calculated properties//
 
+      UI.LoadContent(listL3STlanguageTypeChange, metadata.L3STlanguageTypeChange);
       UI.LoadContent(listL3STmodeChange, metadata.L3STmodeChange);
       UI.LoadContent(listL3STfunctionsChange, metadata.L3STfunctionsChange);
     }
@@ -152,7 +163,7 @@ namespace Trafilm.Gallery
 
       metadata.Title = txtTitle.Text;
       metadata.Image = "../L3TToccurence/image/" + key + ".png";
-      metadata.Url = new Uri("http://gallery.trafilm.net/?L3TToccurrence=" + key);
+      metadata.Url = GetL3TToccurrenceUri(key);
       metadata.Description = txtDescription.Text;
 
       //ITrafilmMetadata//
@@ -195,7 +206,7 @@ namespace Trafilm.Gallery
 
       //Calculated properties//
 
-      metadata.L3SToccurrence = l3SToccurrenceStorage[metadata.L3SToccurrenceReferenceId];
+      LinkData(metadata);
 
       return metadata;
     }

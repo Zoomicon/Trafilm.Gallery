@@ -49,6 +49,7 @@
   <ItemGroup>
     <Content Include="conversation\template.html" />
     <Content Include="conversation\template_image.png" />
+    <Content Include="default.html" />
     <Content Include="film\default.html" />
     <Content Include="film\template.html" />
     <Content Include="film\template_image.png" />
@@ -73,6 +74,9 @@
     <Content Include="css\metadata.css" />
     <Content Include="favicon.ico" />
     <Content Include="metadata\L1language.xml" />
+    <Content Include="metadata\L3TTlanguageType.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="metadata\L3TTrepresentationsOral.xml">
       <SubType>Designer</SubType>
     </Content>
@@ -96,9 +100,6 @@
     <Content Include="metadata\L3represented.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="metadata\L3STmodeChange.xml">
-      <SubType>Designer</SubType>
-    </Content>
     <Content Include="metadata\L3speakerPerformance.xml">
       <SubType>Designer</SubType>
     </Content>
@@ -111,7 +112,7 @@
     <Content Include="metadata\L3audienceUnderstanding.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="metadata\L3languageType.xml">
+    <Content Include="metadata\L3STlanguageType.xml">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="metadata\L3mode.xml">
@@ -175,7 +176,7 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="Trafilm.Metadata, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\Trafilm.Metadata.6.3.0\lib\portable-net403+sl5+win8+wpa81+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Trafilm.Metadata.dll</HintPath>
+      <HintPath>packages\Trafilm.Metadata.6.8.0\lib\portable-net403+sl5+win8+wpa81+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Trafilm.Metadata.dll</HintPath>
       <Private>True</Private>
     </Reference>
   </ItemGroup>

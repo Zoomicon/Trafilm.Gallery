@@ -155,13 +155,13 @@ Version: 20160527
         </div>
 
         <div class="question">
-          <div class="label">12. Year released</div>
+          <div class="label">12. Year ST released</div>
           <asp:TextBox ID="txtYear" runat="server"></asp:TextBox>
         </div>
 
 
         <div class="question">
-          <div class="label">13. L1/Source language</div>
+          <div class="label">13. L1 language</div>
           <asp:Panel runat="server" MaxHeight="100" ScrollBars="Auto">
             <asp:DropDownList ID="listL1language" runat="server"
               DataSourceID="xmlL1language" DataTextField="Value" DataValueField="Value"
@@ -171,30 +171,27 @@ Version: 20160527
 
 
         <div class="question">
-          <div class="label">14. Year translated</div>
+          <div class="label">14. Year TT released in Spain</div>
           <asp:TextBox ID="txtYearTranslated" runat="server"></asp:TextBox>
         </div>
-        
-        <div class="question">
-          <div class="label">15. L2-Dubbed languages</div>
+                
+
+        <%-- Calculated from Conversations.L3SToccurrences.L3TToccurrences --%>
+
+        <div>
+          <div class="label">L2-Dubbed languages</div>
           <asp:Panel runat="server" MaxHeight="100" ScrollBars="Auto">
-            <asp:CheckBoxList ID="clistL2dubbedLanguages" runat="server" 
-              DataSourceID="xmlLanguages" DataTextField="Value" DataValueField="Value" 
-              RepeatLayout="Table" RepeatColumns="10" RepeatDirection="Vertical"
-              />
+            <asp:ListBox ID="listL2dubbedLanguages" runat="server" Enabled="false" />
            </asp:Panel>
         </div>
         
-        <div class="question">
-          <div class="label">16. L2-Subtitled languages</div>
+        <div>
+          <div class="label">L2-Subtitled languages</div>
           <asp:Panel runat="server" MaxHeight="100" ScrollBars="Auto">
-            <asp:CheckBoxList ID="clistL2subtitledLanguages" runat="server" 
-              DataSourceID="xmlLanguages" DataTextField="Value" DataValueField="Value"
-              RepeatLayout="Table" RepeatColumns="10" RepeatDirection="Vertical"               
-              />
+            <asp:ListBox ID="listL2subtitledLanguages" runat="server" Enabled="false" />
            </asp:Panel>
         </div>   
-        
+
 
         <%-- Calculated from Conversations --%>
         
