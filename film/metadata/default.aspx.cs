@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: film\metadata\default.aspx.cs
-//Version: 20160527
+//Version: 20160529
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -50,13 +50,35 @@ namespace Trafilm.Gallery
       listFilms_SelectedIndexChanged(listFilms, null);
     }
 
+    #region Linked Data
+
+    public void LinkData(IFilm metadata)
+    {
+      string key = metadata.ReferenceId;
+
+      conversationStorage = new CXMLFragmentStorage<IConversation, Conversation>(Path.Combine(Request.PhysicalApplicationPath, @"conversation\conversations.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"conversation\metadata"), key + ".*.cxml");
+      var values = conversationStorage.Values; //assumes "conversationStorage" has been updated
+      foreach (IConversation conversation in values)
+      {
+        ICXMLMetadataStorage<IL3SToccurrence> l3SToccs = new CXMLFragmentStorage<IL3SToccurrence, L3SToccurrence>(Path.Combine(Request.PhysicalApplicationPath, @"L3SToccurrence\L3SToccurrences.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"L3SToccurrence\metadata"), conversation.ReferenceId + ".*.cxml");
+        conversation.L3SToccurrences = l3SToccs.Values;
+        foreach (IL3SToccurrence l3SToccurrence in conversation.L3SToccurrences)
+        {
+          ICXMLMetadataStorage<IL3TToccurrence> l3TToccs = new CXMLFragmentStorage<IL3TToccurrence, L3TToccurrence>(Path.Combine(Request.PhysicalApplicationPath, @"L3TToccurrence\L3TToccurrences.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"L3TToccurrence\metadata"), l3SToccurrence.ReferenceId + ".*.cxml");
+          l3SToccurrence.L3TToccurrences = l3TToccs.Values;
+        }
+      }
+      metadata.Conversations = values; //this updates calculated properties (must be set after the above nested calculations)
+    }
+
+    #endregion
+
     #region Load
 
     public void DisplayMetadata(string filmId)
     {
       IFilm metadata = filmStorage[filmId];
-      conversationStorage = new CXMLFragmentStorage<IConversation, Conversation>(Path.Combine(Request.PhysicalApplicationPath, @"conversation\conversations.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"conversation\metadata"), filmId + ".*.cxml");
-      metadata.Conversations = conversationStorage.Values; //this updates calculated properties //assumes "conversationStorage" has been updated
+      LinkData(metadata);
       DisplayMetadata(metadata);
     }
 
@@ -69,7 +91,7 @@ namespace Trafilm.Gallery
       //Ignoring the Id field, since some Pivot Tools expect it to be sequential
       UI.Load(txtTitle, metadata.Title);
       //Not showing any Image field
-      UI.Load(linkUrl, new Uri("http://gallery.trafilm.net/?film=" + key));
+      UI.Load(linkUrl, GetFilmUri(key));
       UI.Load(txtDescription, metadata.Description);
 
       //ITrafilmMetadata//
@@ -122,7 +144,7 @@ namespace Trafilm.Gallery
 
       metadata.Title = txtTitle.Text;
       metadata.Image = "../film/image/" + key + ".png";
-      metadata.Url = new Uri("http://gallery.trafilm.net/?film=" + key);
+      metadata.Url = GetFilmUri(key);
       metadata.Description = txtDescription.Text;
 
       //ITrafilmMetadata//
@@ -157,8 +179,7 @@ namespace Trafilm.Gallery
 
       //Calculated properties//
 
-      conversationStorage = new CXMLFragmentStorage<IConversation, Conversation>(Path.Combine(Request.PhysicalApplicationPath, @"conversation\conversations.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"conversation\metadata"), key + ".*.cxml");
-      metadata.Conversations = conversationStorage.Values; //this updates calculated properties //assumes "conversationStorage" has been updated
+      LinkData(metadata);
 
       return metadata;
     }

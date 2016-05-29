@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: BaseMetadataPage.cs
-//Version: 20160525
+//Version: 20160529
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -12,6 +12,7 @@ using System.Linq;
 using System.Web.UI.WebControls;
 using System.Xml;
 using System.Xml.Linq;
+using System;
 
 namespace Trafilm.Gallery
 {
@@ -21,10 +22,10 @@ namespace Trafilm.Gallery
 
     #region --- Fields ---
 
-    protected CXMLFragmentStorage<IFilm, Film> filmStorage;
-    protected CXMLFragmentStorage<IConversation, Conversation> conversationStorage;
-    protected CXMLFragmentStorage<IL3SToccurrence, L3SToccurrence> l3SToccurrenceStorage;
-    protected CXMLFragmentStorage<IL3TToccurrence, L3TToccurrence> l3TToccurrenceStorage;
+    protected ICXMLMetadataStorage<IFilm> filmStorage;
+    protected ICXMLMetadataStorage<IConversation> conversationStorage;
+    protected ICXMLMetadataStorage<IL3SToccurrence> l3SToccurrenceStorage;
+    protected ICXMLMetadataStorage<IL3TToccurrence> l3TToccurrenceStorage;
 
     #endregion
 
@@ -112,6 +113,30 @@ namespace Trafilm.Gallery
 
         l3TToccurrenceStorage[l3TToccurrenceId] = metadata;
       }
+    }
+
+    #endregion
+
+    #region "URIs"
+
+    public Uri GetFilmUri(string key)
+    {
+      return new Uri("http://gallery.trafilm.net/film/#" + key);
+    }
+
+    public Uri GetConversationUri(string key)
+    {
+      return new Uri("http://gallery.trafilm.net/conversation/#" + key);
+    }
+
+    public Uri GetL3SToccurrenceUri(string key)
+    {
+      return new Uri("http://gallery.trafilm.net/L3SToccurrence/#" + key);
+    }
+
+    public Uri GetL3TToccurrenceUri(string key)
+    {
+      return new Uri("http://gallery.trafilm.net/L3TToccurrence/#" + key);
     }
 
     #endregion
