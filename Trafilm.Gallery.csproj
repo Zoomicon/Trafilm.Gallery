@@ -77,9 +77,6 @@
     <Content Include="metadata\L3TTlanguageType.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="metadata\L3TTrepresentationsOral.xml">
-      <SubType>Designer</SubType>
-    </Content>
     <Content Include="seajax\css\PivotView.css" />
     <Content Include="seajax\css\search.gif" />
     <Content Include="seajax\seadragon-pivot-standalone-min.js" />
@@ -90,7 +87,7 @@
     <Content Include="metadata\L3representationsVisual.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="metadata\L3STrepresentationsOral.xml">
+    <Content Include="metadata\L3representationsOral.xml">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="metadata\L2language.xml" />
