@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: UI.cs
-//Version: 20160527
+//Version: 20160530
 
 using System;
 using System.Collections.Generic;
@@ -21,8 +21,8 @@ namespace Trafilm.Gallery
     {
       List<string> result = new List<string>();
       foreach (ListItem item in clist.Items)
-        if (item.Selected && !string.IsNullOrWhiteSpace(item.Text))
-          result.Add(item.Text);
+        if (item.Selected && !string.IsNullOrWhiteSpace(item.Value))
+          result.Add(item.Value);
       return result.ToArray();
     }
 
@@ -38,7 +38,7 @@ namespace Trafilm.Gallery
     {
       list.DataBind(); //load any items coming from a DataSource
       foreach (ListItem item in list.Items)
-        item.Selected = values.Contains(item.Text);
+        item.Selected = values.Contains(item.Value);
     }
 
     public static void Load(ListControl list, string value)

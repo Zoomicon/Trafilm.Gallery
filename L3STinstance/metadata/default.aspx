@@ -146,10 +146,10 @@ Version: 20160530
 
         <div class="question">
           <div class="label">6. L3ST language type</div>
-          <div class="tip">With L1 as main language, what type of language is L3ST?</div>
+          <div class="tip">With L1 as main language (L-main), what type of language is L3ST?</div>
           <asp:DropDownList 
             ID="listL3STlanguageType" runat="server"
-            DataSourceID="xmlL3STlanguageType" DataTextField="Value" DataValueField="Value" />
+            DataSourceID="xmlL3STlanguageType" DataTextField="Title" DataValueField="Value" />
         </div>
 
         <div class="question">
@@ -234,7 +234,7 @@ Version: 20160530
           <div class="tip"></div>
           <asp:Panel runat="server" MaxHeight="100" ScrollBars="Auto">
             <asp:CheckBoxList ID="clistL3STrepresentationsOral" runat="server" 
-              DataSourceID="xmlL3STrepresentationsOral" DataTextField="Value" DataValueField="Value"
+              DataSourceID="xmlL3STrepresentationsOral" DataTextField="Title" DataValueField="Value"
               RepeatLayout="Table" RepeatColumns="10" RepeatDirection="Vertical"               
               />
            </asp:Panel>

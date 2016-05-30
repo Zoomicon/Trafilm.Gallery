@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: conversation\metadata\default.aspx
-Version: 20160527
+Version: 20160530
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -21,6 +21,7 @@ Version: 20160527
     <%-- DATA SOURCES --%>
 
     <asp:XmlDataSource ID="xmlCount" runat="server" DataFile="~/metadata/Count.xml" XPath="Facet/String" />
+    <asp:XmlDataSource ID="xmlYesNo" runat="server" DataFile="~/metadata/YesNo.xml" XPath="Facet/String" />
     
     <%-- NAVIGATION MENU --%>
 
@@ -118,16 +119,26 @@ Version: 20160527
         
 
         <div class="question">
-          <span>6. </span><asp:CheckBox ID="cbL1languagePresent" runat="server" Text="L1 (source) language present" CssClass="label" />
+          <div class="label">6. L1 language present</div>
+          <div class="tip">Is L1 language present in the conversation?</div>
+          <asp:DropDownList 
+            ID="listL1LanguagePresent" runat="server"
+            DataSourceID="xmlYesNo" DataTextField="Value" DataValueField="Value"
+            />
         </div>
 
         <div class="question">
-          <span>7. </span><asp:CheckBox ID="cbL2languagePresent" runat="server" Text="L2 (translated) language present" CssClass="label" />
+          <div class="label">7. L2 language present</div>
+          <div class="tip">Is L2 language present in the conversation?</div>
+          <asp:DropDownList 
+            ID="listL2LanguagePresent" runat="server"
+            DataSourceID="xmlYesNo" DataTextField="Value" DataValueField="Value"
+            />
         </div>
 
 
         <div class="question">
-          <div class="label">8. Speaking characters count</div>
+          <div class="label">8. Speaking characters: count</div>
           <div class="info">How many persons are speaking?</div>
           <asp:DropDownList 
             ID="listSpeakingCharactersCount" runat="server"
@@ -136,7 +147,7 @@ Version: 20160527
         </div>
 
         <div class="question">
-          <div class="label">9. L3ST-speaking characters count</div>
+          <div class="label">9. L3ST-speaking characters: count</div>
           <div class="info">How many persons are speaking some form of L3ST?</div>
           <asp:DropDownList 
             ID="listL3speakingCharactersCount" runat="server"
@@ -148,31 +159,31 @@ Version: 20160527
         <%-- Calculated from L3STinstances --%>
 
         <div>
-          <div class="label">Count of L3ST languages in Conversation (Calculated from L3ST-instances)</div>
+          <div class="label">L3ST languages: count (Calculated from L3ST-instances)</div>
+          <div class="tip">Count of L3ST languages in Conversation</div>
           <asp:Label ID="lblL3languagesCount" runat="server"></asp:Label>
         </div>  
 
         <div>
-          <div class="label">L3ST languages in Conversation (Calculated from L3ST-instances)</div>
+          <div class="label">L3ST languages (Calculated from L3ST-instances)</div>
+          <div class="tip">L3ST languages in Conversation</div>
           <asp:Panel runat="server" ScrollBars="Auto">
-            <asp:ListBox ID="clistL3languages" runat="server" Enabled="false"
-              RepeatLayout="Table" RepeatColumns="10" RepeatDirection="Vertical"
-              />
+            <asp:ListBox ID="listL3languages" runat="server" Enabled="false" />
           </asp:Panel>
         </div>    
 
 
         <div>
-          <div class="label">Count of L3ST language types in Conversation (Calculated from L3ST-instances)</div>
+          <div class="label">L3ST language types: count (Calculated from L3ST-instances)</div>
+          <div class="tip">Count of L3ST language types in Conversation</div>
           <asp:Label ID="lblL3languageTypesCount" runat="server"></asp:Label>
         </div> 
         
         <div>
-          <div class="label">L3ST language types in Conversation (Calculated from L3ST-instances)</div>
+          <div class="label">L3ST language types (Calculated from L3ST-instances)</div>
+          <div class="tip">L3ST language types in Conversation</div>
           <asp:Panel runat="server" ScrollBars="Auto">
-            <asp:ListBox ID="clistL3languageTypes" runat="server" Enabled="false"
-              RepeatLayout="Table" RepeatColumns="10" RepeatDirection="Vertical"    
-              />
+            <asp:ListBox ID="listL3languageTypes" runat="server" Enabled="false" />
            </asp:Panel>
         </div>            
 

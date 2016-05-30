@@ -22,6 +22,7 @@ Version: 20160530
 
     <asp:XmlDataSource ID="xmlL2language" runat="server" DataFile="~/metadata/L2language.xml" XPath="Facet/String" />
     <asp:XmlDataSource ID="xmlL2mode" runat="server" DataFile="~/metadata/L2mode.xml" XPath="Facet/String" />    
+    <asp:XmlDataSource ID="xmlYesNo" runat="server" DataFile="~/metadata/YesNo.xml" XPath="Facet/String" />    
     <asp:XmlDataSource ID="xmlL3TTlanguageType" runat="server" DataFile="~/metadata/L3TTlanguageType.xml" XPath="Facet/String" />
     <asp:XmlDataSource ID="xmlL3TTconstructedBasedOn" runat="server" DataFile="~/metadata/L3constructedBasedOn.xml" XPath="Facet/String" />
     <asp:XmlDataSource ID="xmlL3TTaudienceUnderstanding" runat="server" DataFile="~/metadata/L3audienceUnderstanding.xml" XPath="Facet/String" />
@@ -152,21 +153,27 @@ Version: 20160530
 
         <div class="question">
           <div class="label">6. L2 same as L3ST</div>
-          <asp:CheckBox ID="cbL2sameAsL3ST" runat="server" Text="Is L2 same language as L3ST?" CssClass="label" />
+          <div class="tip">Is L2 same language as L3ST?</div>
+          <asp:DropDownList 
+            ID="listL2sameAsL3ST" runat="server"
+            DataSourceID="xmlYesNo" DataTextField="Title" DataValueField="Value" />
         </div>
 
         <div class="question">
           <div class="label">7. L3ST conveyed as L3TT</div>
-          <asp:CheckBox ID="cbL3STconveyedAsL3TT" runat="server" Text="Has L3ST been conveyed as some sort of L3TT in the TT?" CssClass="label" />
+          <div class="tip">Has L3ST been conveyed as some sort of L3TT in the TT?</div>
+          <asp:DropDownList 
+            ID="listL3STconveyedAsL3TT" runat="server"
+            DataSourceID="xmlYesNo" DataTextField="Title" DataValueField="Value" />
         </div>
 
 
         <div class="question">
           <div class="label">8. L3TT language type</div>
-          <div class="tip">With L2 as main language, what type of language is L3TT?</div>
+          <div class="tip">With L2 as main language (L-main), what type of language is L3TT?</div>
           <asp:DropDownList 
             ID="listL3TTlanguageType" runat="server"
-            DataSourceID="xmlL3TTlanguageType" DataTextField="Value" DataValueField="Value" />
+            DataSourceID="xmlL3TTlanguageType" DataTextField="Title" DataValueField="Value" />
         </div>
 
         <div class="question">
@@ -251,7 +258,7 @@ Version: 20160530
           <div class="tip"></div>
           <asp:Panel runat="server" MaxHeight="100" ScrollBars="Auto">
             <asp:CheckBoxList ID="clistL3TTrepresentationsOral" runat="server" 
-              DataSourceID="xmlL3TTrepresentationsOral" DataTextField="Value" DataValueField="Value"
+              DataSourceID="xmlL3TTrepresentationsOral" DataTextField="Title" DataValueField="Value"
               RepeatLayout="Table" RepeatColumns="10" RepeatDirection="Vertical"               
               />
            </asp:Panel>

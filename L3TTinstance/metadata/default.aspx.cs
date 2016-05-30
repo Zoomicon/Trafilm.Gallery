@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: L3TTinstance\metadata\default.aspx.cs
-//Version: 20160529
+//Version: 20160530
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -121,8 +121,8 @@ namespace Trafilm.Gallery
       UI.Load(listL2language, metadata.L2language);
       UI.Load(listL2mode, metadata.L2mode);
 
-      UI.Load(cbL2sameAsL3ST, metadata.L2sameAsL3ST);
-      UI.Load(cbL3STconveyedAsL3TT, metadata.L3STconveyedAsL3TT);
+      UI.Load(listL2sameAsL3ST, metadata.L2sameAsL3ST);
+      UI.Load(listL3STconveyedAsL3TT, metadata.L3STconveyedAsL3TT);
 
       UI.Load(listL3TTlanguageType, metadata.L3TTlanguageType);
       UI.Load(txtL3TTlanguage, metadata.L3TTlanguage);
@@ -182,8 +182,8 @@ namespace Trafilm.Gallery
       metadata.L2language = listL2language.SelectedValue;
       metadata.L2mode = listL2mode.SelectedValue;
 
-      metadata.L2sameAsL3ST = cbL2sameAsL3ST.Checked;
-      metadata.L3STconveyedAsL3TT = cbL3STconveyedAsL3TT.Checked;
+      metadata.L2sameAsL3ST = listL2sameAsL3ST.SelectedValue;
+      metadata.L3STconveyedAsL3TT = listL3STconveyedAsL3TT.SelectedValue;
 
       metadata.L3TTlanguageType = listL3TTlanguageType.SelectedValue;
       metadata.L3TTlanguage = txtL3TTlanguage.Text;
