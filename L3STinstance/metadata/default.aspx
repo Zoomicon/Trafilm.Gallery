@@ -1,17 +1,17 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="Trafilm.Gallery.L3SToccurrenceMetadataPage" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="Trafilm.Gallery.L3STinstanceMetadataPage" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
-Filename: L3SToccurrence\metadata\default.aspx
-Version: 20160529
+Filename: L3STinstance\metadata\default.aspx
+Version: 20160530
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 
   <head runat="server">
-    <title>Trafilm Gallery - L3ST-occurrence Metadata</title>
+    <title>Trafilm Gallery - L3ST-instance Metadata</title>
 
     <link href="../../css/metadata.css" rel="stylesheet" type="text/css" />
   </head>
@@ -39,16 +39,16 @@ Version: 20160529
        &nbsp;&nbsp;-&nbsp;&nbsp;
        <a href="../../conversation/metadata/?film=<%=listFilms.SelectedValue%>&conversation=<%=listConversations.SelectedValue%>">Conversation Metadata</a>
        &nbsp;&nbsp;-&nbsp;&nbsp;
-       <a class="selected" href="../../L3SToccurrence/metadata/">L3ST-occurrence Metadata</a>
+       <a class="selected" href="../../L3STinstance/metadata/">L3ST-instance Metadata</a>
        &nbsp;&nbsp;-&nbsp;&nbsp;
-       <a href="../../L3TToccurrence/metadata/?film=<%=listFilms.SelectedValue%>&conversation=<%=listConversations.SelectedValue%>&L3SToccurrence=<%=listL3SToccurrences.SelectedValue%>">L3TT-occurrence Metadata</a>
+       <a href="../../L3TTinstance/metadata/?film=<%=listFilms.SelectedValue%>&conversation=<%=listConversations.SelectedValue%>&L3STinstance=<%=listL3STinstances.SelectedValue%>">L3TT-instance Metadata</a>
     </div>
 
     <%-- INSTRUCTIONS BOX --%>
 
     <div class="instructions">
-      Please fill in the following information for the L3ST-occurrence of your choice. Select the L3ST-occurrence from the dropdown list.<br />
-      Try to fill the metadata as fully and accurately as possible, as they will be used for searching and filtering L3ST-occurrences.<br />
+      Please fill in the following information for the L3ST-instance of your choice. Select the L3ST-instance from the dropdown list.<br />
+      Try to fill the metadata as fully and accurately as possible, as they will be used for searching and filtering L3ST-instances.<br />
       Don't forget to press the SAVE METADATA button. Thank you!
     </div>
 
@@ -69,14 +69,14 @@ Version: 20160529
             <asp:DropDownList ID="listConversations" runat="server" AutoPostBack="True" OnSelectedIndexChanged="listConversations_SelectedIndexChanged" />
           </div>
 
-          <asp:Panel runat="server" ID="panelL3SToccurrenceId" Visible="false">
-            <div class="label">Select an L3ST-occurrence</div> 
-            <asp:DropDownList ID="listL3SToccurrences" runat="server" AutoPostBack="True" OnSelectedIndexChanged="listL3SToccurrences_SelectedIndexChanged" />
+          <asp:Panel runat="server" ID="panelL3STinstanceId" Visible="false">
+            <div class="label">Select an L3ST-instance</div> 
+            <asp:DropDownList ID="listL3STinstances" runat="server" AutoPostBack="True" OnSelectedIndexChanged="listL3STinstances_SelectedIndexChanged" />
 
             <div>
-              <div class="label">or add new L3ST-occurrence Id (e.g. <i>Chinese</i> - do not include the Film Id and Conversation Id prefixes)</div>
-              <asp:TextBox ID="txtL3SToccurrence" runat="server" />
-              <asp:Button ID="btnAddL3SToccurrence" runat="server" Text="Add" OnClick="btnAddL3SToccurrence_Click" />
+              <div class="label">or add new L3ST-instance Id (e.g. <i>Chinese</i> - do not include the Film Id and Conversation Id prefixes)</div>
+              <asp:TextBox ID="txtL3STinstance" runat="server" />
+              <asp:Button ID="btnAddL3STinstance" runat="server" Text="Add" OnClick="btnAddL3STinstance_Click" />
               &nbsp;
               <asp:CheckBox ID="cbClone" Text="Copy from selected" runat="server" Visible="false" />
             </div>
@@ -93,16 +93,16 @@ Version: 20160529
         <%-- ICXMLMetadata--%>
 
         <div class="question">
-          <div class="label">1. L3ST-occurrence Title (optional)</div>
+          <div class="label">1. L3ST-instance Title (optional)</div>
           <asp:TextBox ID="txtTitle" runat="server" Columns="150"></asp:TextBox>
         </div>
 
         <div class="question">
-          <div class="label">2. L3ST-occurrence Description (optional)</div>
+          <div class="label">2. L3ST-instance Description (optional)</div>
           <asp:TextBox ID="txtDescription" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
         </div>
 
-        <div class="label">L3ST-occurrence URL</div>
+        <div class="label">L3ST-instance URL</div>
         <asp:HyperLink ID="linkUrl" runat="server" Target="_blank"/>
     
         <div>
@@ -121,18 +121,18 @@ Version: 20160529
           <asp:TextBox ID="txtKeywords" runat="server" Columns="150"></asp:TextBox>
         </div>
 
-        <%-- IL3SToccurrenceMetadata --%>
+        <%-- IL3STinstanceMetadata --%>
 
 
         <div class="question">
-          <div class="label">4. L3ST-occurrence Start Time (h:m:s)</div>
+          <div class="label">4. L3ST-instance Start Time (h:m:s)</div>
           <div class="tip">What part of the film is L3ST in? (i.e. how many minutes and seconds from the start)</div>
           <asp:TextBox ID="txtStartTime" runat="server" Columns="25"></asp:TextBox>
         </div>
 
         <div class="question">
-          <div class="label">5. L3ST-occurrence Duration (h:m:s)</div>
-          <div class="tip">How long does L3ST last? (if the L3ST is interrupted by other speech, count total seconds from onset to end of final L3ST-occurrence)</div>
+          <div class="label">5. L3ST-instance Duration (h:m:s)</div>
+          <div class="tip">How long does L3ST last? (if the L3ST is interrupted by other speech, count total seconds from onset to end of final L3ST-instance)</div>
           <asp:TextBox ID="txtDuration" runat="server" Columns="25"></asp:TextBox>
         </div>
 
@@ -264,22 +264,22 @@ Version: 20160529
         </div>
 
 
-        <%-- Calculated from L3TToccurrences --%>
+        <%-- Calculated from L3TTinstances --%>
 
         <div>
-          <div class="label">Count of L3TT-occurrences (Calculated)</div>
-          <asp:Label ID="lblL3TToccurrenceCount" runat="server"></asp:Label>
+          <div class="label">Count of L3TT-instances (Calculated)</div>
+          <asp:Label ID="lblL3TTinstanceCount" runat="server"></asp:Label>
         </div>    
         
         
-        <%-- L3TToccurrences list --%>                  
+        <%-- L3TTinstances list --%>                  
 
-        <asp:Repeater ID="repeaterL3TToccurrences" runat="server">
+        <asp:Repeater ID="repeaterL3TTinstances" runat="server">
           <HeaderTemplate>
-            <div class="label">List of L3TT-occurrences<div>
+            <div class="label">List of L3TT-instances<div>
           </HeaderTemplate>
           <ItemTemplate>
-            <a href="../../L3TToccurrence/metadata/?film=<%#Eval("filmId")%>&conversation=<%#Eval("conversationId")%>&L3SToccurrence=<%#Eval("L3SToccurrenceId")%>&L3TToccurrence=<%#Eval("L3TToccurrenceId")%>"><%#Eval("L3TToccurrenceId")%></a>&nbsp;&nbsp;
+            <a href="../../L3TTinstance/metadata/?film=<%#Eval("filmId")%>&conversation=<%#Eval("conversationId")%>&L3STinstance=<%#Eval("L3STinstanceId")%>&L3TTinstance=<%#Eval("L3TTinstanceId")%>"><%#Eval("L3TTinstanceId")%></a>&nbsp;&nbsp;
           </ItemTemplate>
         </asp:Repeater>
 

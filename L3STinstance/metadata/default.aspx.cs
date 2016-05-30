@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
-//Filename: L3SToccurrence\metadata\default.aspx.cs
-//Version: 20160529
+//Filename: L3STinstance\metadata\default.aspx.cs
+//Version: 20160530
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -14,7 +14,7 @@ using System.Linq;
 
 namespace Trafilm.Gallery
 {
-  public partial class L3SToccurrenceMetadataPage : BaseMetadataPage
+  public partial class L3STinstanceMetadataPage : BaseMetadataPage
   {
 
     #region --- Initialization ---
@@ -23,8 +23,8 @@ namespace Trafilm.Gallery
     {
       filmStorage = new CXMLFragmentStorage<IFilm, Film>(Path.Combine(Request.PhysicalApplicationPath, @"film\films.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"film\metadata"), "*.cxml");
       conversationStorage = new CXMLFragmentStorage<IConversation, Conversation>(Path.Combine(Request.PhysicalApplicationPath, @"conversation\conversations.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"conversation\metadata"), listFilms.SelectedValue + ".*.cxml");
-      l3SToccurrenceStorage = new CXMLFragmentStorage<IL3SToccurrence, L3SToccurrence>(Path.Combine(Request.PhysicalApplicationPath, @"L3SToccurrence\L3SToccurrences.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"L3SToccurrence\metadata"), listConversations.SelectedValue + ".*.cxml");
-      l3TToccurrenceStorage = new CXMLFragmentStorage<IL3TToccurrence, L3TToccurrence>(Path.Combine(Request.PhysicalApplicationPath, @"L3TToccurrence\L3TToccurrences.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"L3TToccurrence\metadata"), listL3SToccurrences.SelectedValue + ".*.cxml");
+      l3STinstanceStorage = new CXMLFragmentStorage<IL3STinstance, L3STinstance>(Path.Combine(Request.PhysicalApplicationPath, @"L3STinstance\L3STinstances.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"L3STinstance\metadata"), listConversations.SelectedValue + ".*.cxml");
+      l3TTinstanceStorage = new CXMLFragmentStorage<IL3TTinstance, L3TTinstance>(Path.Combine(Request.PhysicalApplicationPath, @"L3TTinstance\L3TTinstances.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"L3TTinstance\metadata"), listL3STinstances.SelectedValue + ".*.cxml");
 
       if (!IsPostBack)
       {
@@ -34,8 +34,8 @@ namespace Trafilm.Gallery
         UpdateConversationsList(listConversations, "conversation", !IsPostBack);
         listConversations_SelectedIndexChanged(listConversations, null);
 
-        UpdateL3SToccurrencesList(listL3SToccurrences, "L3SToccurrence", !IsPostBack);
-        listL3SToccurrences_SelectedIndexChanged(listL3SToccurrences, null);
+        UpdateL3STinstancesList(listL3STinstances, "L3STinstance", !IsPostBack);
+        listL3STinstances_SelectedIndexChanged(listL3STinstances, null);
       }
     }
 
@@ -43,15 +43,15 @@ namespace Trafilm.Gallery
 
     #region --- Methods ---
 
-    public void AddL3SToccurrence()
+    public void AddL3STinstance()
     {
       string filmId = listFilms.SelectedValue;
       string conversationId = listConversations.SelectedValue;
-      string L3SToccurrenceId = conversationId + "." + txtL3SToccurrence.Text; //that conversationId already contains the filmId in it
-      txtL3SToccurrence.Text = "";
+      string L3STinstanceId = conversationId + "." + txtL3STinstance.Text; //that conversationId already contains the filmId in it
+      txtL3STinstance.Text = "";
 
-      CreateL3SToccurrence(filmId, conversationId, L3SToccurrenceId, ((listL3SToccurrences.SelectedIndex > 0) && cbClone.Checked) ? GetMetadataFromUI() : null);
-      SelectL3SToccurrence(L3SToccurrenceId);
+      CreateL3STinstance(filmId, conversationId, L3STinstanceId, ((listL3STinstances.SelectedIndex > 0) && cbClone.Checked) ? GetMetadataFromUI() : null);
+      SelectL3STinstance(L3STinstanceId);
     }
 
     public void SelectConversation(string conversationId)
@@ -60,15 +60,15 @@ namespace Trafilm.Gallery
       listConversations_SelectedIndexChanged(listConversations, null);
     }
 
-    public void SelectL3SToccurrence(string L3SToccurrenceId)
+    public void SelectL3STinstance(string L3STinstanceId)
     {
-      UpdateL3SToccurrencesList(listL3SToccurrences, L3SToccurrenceId); //update list since it may not be up-to-date
-      listL3SToccurrences_SelectedIndexChanged(listL3SToccurrences, null);
+      UpdateL3STinstancesList(listL3STinstances, L3STinstanceId); //update list since it may not be up-to-date
+      listL3STinstances_SelectedIndexChanged(listL3STinstances, null);
     }
 
     #region Linked Data
 
-    public void LinkData(IL3SToccurrence metadata)
+    public void LinkData(IL3STinstance metadata)
     {
       string key = metadata.ReferenceId;
 
@@ -76,22 +76,22 @@ namespace Trafilm.Gallery
       conversation.Film = filmStorage[metadata.FilmReferenceId];
       metadata.Conversation = conversation; //this updates calculated properties (must be set after the above calculation)
 
-      l3TToccurrenceStorage = new CXMLFragmentStorage<IL3TToccurrence, L3TToccurrence>(Path.Combine(Request.PhysicalApplicationPath, @"L3TToccurrence\L3TToccurrences.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"L3TToccurrence\metadata"), key + ".*.cxml");
-      metadata.L3TToccurrences = l3TToccurrenceStorage.Values; //this updates calculated properties //assumes "l3TToccurrenceStorage" has been updated
+      l3TTinstanceStorage = new CXMLFragmentStorage<IL3TTinstance, L3TTinstance>(Path.Combine(Request.PhysicalApplicationPath, @"L3TTinstance\L3TTinstances.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"L3TTinstance\metadata"), key + ".*.cxml");
+      metadata.L3TTinstances = l3TTinstanceStorage.Values; //this updates calculated properties //assumes "l3TTinstanceStorage" has been updated
     }
 
     #endregion
 
     #region Load
 
-    public void DisplayMetadata(string l3SToccurrenceId)
+    public void DisplayMetadata(string l3STinstanceId)
     {
-      IL3SToccurrence metadata = l3SToccurrenceStorage[l3SToccurrenceId];
+      IL3STinstance metadata = l3STinstanceStorage[l3STinstanceId];
       LinkData(metadata);
       DisplayMetadata(metadata);
     }
 
-    public void DisplayMetadata(IL3SToccurrence metadata)
+    public void DisplayMetadata(IL3STinstance metadata)
     {
       string key = metadata.ReferenceId;
 
@@ -100,23 +100,23 @@ namespace Trafilm.Gallery
       //Ignoring the Id field, since some Pivot Tools expect it to be sequential
       UI.Load(txtTitle, metadata.Title);
       //Not showing any Image field
-      UI.Load(linkUrl, GetL3SToccurrenceUri(key));
+      UI.Load(linkUrl, GetL3STinstanceUri(key));
       UI.Load(txtDescription, metadata.Description);
 
       //ITrafilmMetadata//
 
-      //No need to show L3SToccurrence.ReferenceId since we calculate and show the URL, plus the ReferenceId is used as the key and shown at the dropdown list
+      //No need to show L3STinstance.ReferenceId since we calculate and show the URL, plus the ReferenceId is used as the key and shown at the dropdown list
       UI.Load(lblInfoCreated, metadata.InfoCreated.ToString(CXML.DEFAULT_DATETIME_FORMAT));
       UI.Load(lblInfoUpdated, metadata.InfoUpdated.ToString(CXML.DEFAULT_DATETIME_FORMAT));
       UI.Load(txtKeywords, metadata.Keywords);
 
-      //IL3SToccurrence//
+      //IL3STinstance//
 
       UI.Load(listFilms, metadata.FilmReferenceId);
       UI.Load(listConversations, metadata.ConversationReferenceId);
 
-      UI.Load(txtStartTime, metadata.StartTime.ToString(L3SToccurrenceMetadata.DEFAULT_POSITION_FORMAT));
-      UI.Load(txtDuration, metadata.Duration.ToString(L3SToccurrenceMetadata.DEFAULT_DURATION_FORMAT));
+      UI.Load(txtStartTime, metadata.StartTime.ToString(L3STinstanceMetadata.DEFAULT_POSITION_FORMAT));
+      UI.Load(txtDuration, metadata.Duration.ToString(L3STinstanceMetadata.DEFAULT_DURATION_FORMAT));
 
       UI.Load(lblL1language, metadata.L1language);
 
@@ -141,23 +141,23 @@ namespace Trafilm.Gallery
 
       //Calculated properties//
 
-      UI.Load(lblL3TToccurrenceCount, metadata.L3TToccurrenceCount.ToString());
+      UI.Load(lblL3TTinstanceCount, metadata.L3TTinstanceCount.ToString());
     }
 
     #endregion
 
     #region Save
 
-    public IL3SToccurrence GetMetadataFromUI()
+    public IL3STinstance GetMetadataFromUI()
     {
-      IL3SToccurrence metadata = new L3SToccurrence();
-      string key = listL3SToccurrences.SelectedValue;
+      IL3STinstance metadata = new L3STinstance();
+      string key = listL3STinstances.SelectedValue;
 
       //ICXMLMetadata//
 
       metadata.Title = txtTitle.Text;
-      metadata.Image = "../L3SToccurence/image/" + key + ".png";
-      metadata.Url = GetL3SToccurrenceUri(key);
+      metadata.Image = "../L3STinstance/image/" + key + ".png";
+      metadata.Url = GetL3STinstanceUri(key);
       metadata.Description = txtDescription.Text;
 
       //ITrafilmMetadata//
@@ -167,13 +167,13 @@ namespace Trafilm.Gallery
       metadata.InfoUpdated = DateTime.ParseExact(lblInfoUpdated.Text, CXML.DEFAULT_DATETIME_FORMAT, CultureInfo.InvariantCulture);
       metadata.Keywords = UI.GetCommaSeparated(txtKeywords);
 
-      //IL3SToccurrenceMetadata//
+      //IL3STinstanceMetadata//
 
       metadata.FilmReferenceId = listFilms.SelectedValue;
       metadata.ConversationReferenceId = listConversations.SelectedValue;
 
-      metadata.StartTime = txtStartTime.Text.ToNullableTimeSpan(L3SToccurrenceMetadata.DEFAULT_POSITION_FORMAT);
-      metadata.Duration = txtDuration.Text.ToNullableTimeSpan(L3SToccurrenceMetadata.DEFAULT_DURATION_FORMAT);
+      metadata.StartTime = txtStartTime.Text.ToNullableTimeSpan(L3STinstanceMetadata.DEFAULT_POSITION_FORMAT);
+      metadata.Duration = txtDuration.Text.ToNullableTimeSpan(L3STinstanceMetadata.DEFAULT_DURATION_FORMAT);
 
       metadata.L3STlanguageType = listL3STlanguageType.SelectedValue;
       metadata.L3STlanguage = txtL3STlanguage.Text;
@@ -204,12 +204,12 @@ namespace Trafilm.Gallery
     public void Save()
     {
       lblInfoUpdated.Text = DateTime.UtcNow.ToString(CXML.DEFAULT_DATETIME_FORMAT);
-      l3SToccurrenceStorage[listL3SToccurrences.SelectedValue] = (IL3SToccurrence)GetMetadataFromUI();
+      l3STinstanceStorage[listL3STinstances.SelectedValue] = (IL3STinstance)GetMetadataFromUI();
     }
 
     public void SaveCollection()
     {
-      SaveCollection(Path.Combine(Request.PhysicalApplicationPath, "L3SToccurrence/L3SToccurrences.cxml"), "Trafilm Gallery L3SToccurrences", L3SToccurrenceMetadataFacets.GetCXMLFacetCategories(), l3SToccurrenceStorage.Values);
+      SaveCollection(Path.Combine(Request.PhysicalApplicationPath, "L3STinstance/L3STinstances.cxml"), "Trafilm Gallery L3STinstances", L3STinstanceMetadataFacets.GetCXMLFacetCategories(), l3STinstanceStorage.Values);
     }
 
     #endregion
@@ -229,35 +229,35 @@ namespace Trafilm.Gallery
 
     protected void listConversations_SelectedIndexChanged(object sender, EventArgs e)
     {
-      l3SToccurrenceStorage = new CXMLFragmentStorage<IL3SToccurrence, L3SToccurrence>(Path.Combine(Request.PhysicalApplicationPath, @"L3SToccurrence\L3SToccurrences.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"L3SToccurrence\metadata"), listConversations.SelectedValue + ".*.cxml");
+      l3STinstanceStorage = new CXMLFragmentStorage<IL3STinstance, L3STinstance>(Path.Combine(Request.PhysicalApplicationPath, @"L3STinstance\L3STinstances.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"L3STinstance\metadata"), listConversations.SelectedValue + ".*.cxml");
 
       bool visible = (listConversations.SelectedIndex > 0);
-      panelL3SToccurrenceId.Visible = visible;
-      SelectL3SToccurrence(null); //this will also hide panelMetadata
+      panelL3STinstanceId.Visible = visible;
+      SelectL3STinstance(null); //this will also hide panelMetadata
     }
 
-    protected void listL3SToccurrences_SelectedIndexChanged(object sender, EventArgs e)
+    protected void listL3STinstances_SelectedIndexChanged(object sender, EventArgs e)
     {
-      bool visible = (listL3SToccurrences.SelectedIndex > 0);
+      bool visible = (listL3STinstances.SelectedIndex > 0);
       panelMetadata.Visible = visible;
       cbClone.Visible = visible;
       if (visible)
       {
-        DisplayMetadata(listL3SToccurrences.SelectedValue);
-        UpdateRepeater(repeaterL3TToccurrences, l3TToccurrenceStorage.Keys.Select(x => new { filmId = listFilms.SelectedValue, conversationId = listConversations.SelectedValue, l3SToccurrenceId = listL3SToccurrences.SelectedValue, L3TToccurrenceId = x }));
+        DisplayMetadata(listL3STinstances.SelectedValue);
+        UpdateRepeater(repeaterL3TTinstances, l3TTinstanceStorage.Keys.Select(x => new { filmId = listFilms.SelectedValue, conversationId = listConversations.SelectedValue, l3STinstanceId = listL3STinstances.SelectedValue, L3TTinstanceId = x }));
       }
     }
 
-    protected void btnAddL3SToccurrence_Click(object sender, EventArgs e)
+    protected void btnAddL3STinstance_Click(object sender, EventArgs e)
     {
-      AddL3SToccurrence();
+      AddL3STinstance();
     }
 
     protected void btnSave_Click(object sender, EventArgs e)
     {
       Save();
       SaveCollection();
-      DisplayMetadata(listL3SToccurrences.SelectedValue); //Reload saved data on the UI to confirm what was saved. This is also important to update any calculated fields that make use of the edited object's metadata values
+      DisplayMetadata(listL3STinstances.SelectedValue); //Reload saved data on the UI to confirm what was saved. This is also important to update any calculated fields that make use of the edited object's metadata values
     }
 
     #endregion

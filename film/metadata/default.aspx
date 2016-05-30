@@ -31,9 +31,9 @@ Version: 20160527
        &nbsp;&nbsp;-&nbsp;&nbsp;
        <a href="../../conversation/metadata/?film=<%=listFilms.SelectedValue%>">Conversation Metadata</a>
        &nbsp;&nbsp;-&nbsp;&nbsp;
-       <a href="../../L3SToccurrence/metadata/?film=<%=listFilms.SelectedValue%>">L3ST-occurrence Metadata</a>
+       <a href="../../L3STinstance/metadata/?film=<%=listFilms.SelectedValue%>">L3ST-instance Metadata</a>
        &nbsp;&nbsp;-&nbsp;&nbsp;
-       <a href="../../L3TToccurrence/metadata/?film=<%=listFilms.SelectedValue%>">L3TT-occurrence Metadata</a>
+       <a href="../../L3TTinstance/metadata/?film=<%=listFilms.SelectedValue%>">L3TT-instance Metadata</a>
     </div>
 
     <%-- INSTRUCTION BOX --%>
@@ -176,7 +176,7 @@ Version: 20160527
         </div>
                 
 
-        <%-- Calculated from Conversations.L3SToccurrences.L3TToccurrences --%>
+        <%-- Calculated from Conversations.L3STinstances.L3TTinstances --%>
 
         <div>
           <div class="label">L2-Dubbed languages</div>

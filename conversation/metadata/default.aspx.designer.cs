@@ -238,22 +238,22 @@ namespace Trafilm.Gallery {
         protected global::System.Web.UI.WebControls.ListBox clistL3languageTypes;
         
         /// <summary>
-        /// lblL3SToccurrenceCount control.
+        /// lblL3STinstanceCount control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblL3SToccurrenceCount;
+        protected global::System.Web.UI.WebControls.Label lblL3STinstanceCount;
         
         /// <summary>
-        /// repeaterL3SToccurrences control.
+        /// repeaterL3STinstances control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Repeater repeaterL3SToccurrences;
+        protected global::System.Web.UI.WebControls.Repeater repeaterL3STinstances;
         
         /// <summary>
         /// btnSave control.

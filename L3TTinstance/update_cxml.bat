@@ -7,12 +7,12 @@ goto :EOF
 
 :process
 ECHO ---- Updating collection and DeepZoom assets
-c:\programs\pauthor\pauthor.exe /source cxml L3TToccurrences.cxml /html-template template.html /target deepzoom ..\collection\L3TToccurrences.cxml && (goto OK) || (goto Fail)
+c:\programs\pauthor\pauthor.exe /source cxml L3TTinstances.cxml /html-template template.html /target deepzoom ..\collection\L3TTinstances.cxml && (goto OK) || (goto Fail)
 goto :EOF
 
 :OK
 echo OK
-::start http://gallery.clipflair.net/L3TToccurrences
+::start http://gallery.clipflair.net/L3TTinstances
 goto :EOF
 
 :Fail

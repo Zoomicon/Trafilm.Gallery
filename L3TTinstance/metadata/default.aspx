@@ -1,17 +1,17 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="Trafilm.Gallery.L3TToccurrenceMetadataPage" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="Trafilm.Gallery.L3TTinstanceMetadataPage" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
-Filename: L3TTTToccurrence\metadata\default.aspx
-Version: 20160529
+Filename: L3TTTTinstance\metadata\default.aspx
+Version: 20160530
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 
   <head runat="server">
-    <title>Trafilm Gallery - L3TT-occurrence Metadata</title>
+    <title>Trafilm Gallery - L3TT-instance Metadata</title>
 
     <link href="../../css/metadata.css" rel="stylesheet" type="text/css" />
   </head>
@@ -42,16 +42,16 @@ Version: 20160529
        &nbsp;&nbsp;-&nbsp;&nbsp;
        <a href="../../conversation/metadata/?film=<%=listFilms.SelectedValue%>&conversation=<%=listConversations.SelectedValue%>">Conversation Metadata</a>
        &nbsp;&nbsp;-&nbsp;&nbsp;
-       <a href="../../L3SToccurrence/metadata/?film=<%=listFilms.SelectedValue%>&conversation=<%=listConversations.SelectedValue%>&L3SToccurrence=<%=listL3SToccurrences.SelectedValue%>">L3ST-occurrence Metadata</a>
+       <a href="../../L3STinstance/metadata/?film=<%=listFilms.SelectedValue%>&conversation=<%=listConversations.SelectedValue%>&L3STinstance=<%=listL3STinstances.SelectedValue%>">L3ST-instance Metadata</a>
        &nbsp;&nbsp;-&nbsp;&nbsp;
-       <a class="selected" href="../../L3TToccurrence/metadata/">L3TT-occurrence Metadata</a>
+       <a class="selected" href="../../L3TTinstance/metadata/">L3TT-instance Metadata</a>
     </div>
 
     <%-- INSTRUCTIONS BOX --%>
 
     <div class="instructions">
-      Please fill in the following information for the L3TT-occurrence of your choice. Select the L3TT-occurrence from the dropdown list.<br />
-      Try to fill the metadata as fully and accurately as possible, as they will be used for searching and filtering L3TT-occurrences.<br />
+      Please fill in the following information for the L3TT-instance of your choice. Select the L3TT-instance from the dropdown list.<br />
+      Try to fill the metadata as fully and accurately as possible, as they will be used for searching and filtering L3TT-instances.<br />
       Don't forget to press the SAVE METADATA button. Thank you!
     </div>
 
@@ -72,20 +72,20 @@ Version: 20160529
             <asp:DropDownList ID="listConversations" runat="server" AutoPostBack="True" OnSelectedIndexChanged="listConversations_SelectedIndexChanged" />
           </div>
 
-          <asp:Panel runat="server" ID="panelL3SToccurrenceId" Visible="false">
+          <asp:Panel runat="server" ID="panelL3STinstanceId" Visible="false">
             <div>
-              <div class="label">Select an L3ST-occurrence</div> 
-              <asp:DropDownList ID="listL3SToccurrences" runat="server" AutoPostBack="True" OnSelectedIndexChanged="listL3SToccurrences_SelectedIndexChanged" />
+              <div class="label">Select an L3ST-instance</div> 
+              <asp:DropDownList ID="listL3STinstances" runat="server" AutoPostBack="True" OnSelectedIndexChanged="listL3STinstances_SelectedIndexChanged" />
             </div>
 
-            <asp:Panel runat="server" ID="panelL3TToccurrenceId" Visible="false">
-              <div class="label">Select an L3TT-occurrence</div> 
-              <asp:DropDownList ID="listL3TToccurrences" runat="server" AutoPostBack="True" OnSelectedIndexChanged="listL3TToccurrences_SelectedIndexChanged" />
+            <asp:Panel runat="server" ID="panelL3TTinstanceId" Visible="false">
+              <div class="label">Select an L3TT-instance</div> 
+              <asp:DropDownList ID="listL3TTinstances" runat="server" AutoPostBack="True" OnSelectedIndexChanged="listL3TTinstances_SelectedIndexChanged" />
 
               <div>
-                <div class="label">or add new L3TT-occurrence Id (e.g. <i>SpanishDub</i> or <i>SpanishSub</i> - do not include the Film Id, Conversation Id and L3ST-occurrence Id prefixes)</div>
-                <asp:TextBox ID="txtL3TToccurrence" runat="server" />
-                <asp:Button ID="btnAddL3TToccurrence" runat="server" Text="Add" OnClick="btnAddL3TToccurrence_Click" />
+                <div class="label">or add new L3TT-instance Id (e.g. <i>SpanishDub</i> or <i>SpanishSub</i> - do not include the Film Id, Conversation Id and L3ST-instance Id prefixes)</div>
+                <asp:TextBox ID="txtL3TTinstance" runat="server" />
+                <asp:Button ID="btnAddL3TTinstance" runat="server" Text="Add" OnClick="btnAddL3TTinstance_Click" />
                 &nbsp;
                 <asp:CheckBox ID="cbClone" Text="Copy from selected" runat="server" Visible="false" />
               </div>
@@ -103,16 +103,16 @@ Version: 20160529
         <%-- ICXMLMetadata--%>
 
         <div class="question">
-          <div class="label">1. L3TT-occurrence Title (optional)</div>
+          <div class="label">1. L3TT-instance Title (optional)</div>
           <asp:TextBox ID="txtTitle" runat="server" Columns="150"></asp:TextBox>
         </div>
 
         <div class="question">
-          <div class="label">2. L3TT-occurrence Description (optional)</div>
+          <div class="label">2. L3TT-instance Description (optional)</div>
           <asp:TextBox ID="txtDescription" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
         </div>
 
-        <div class="label">L3TT-occurrence URL</div>
+        <div class="label">L3TT-instance URL</div>
         <asp:HyperLink ID="linkUrl" runat="server" Target="_blank"/>
     
         <div>
@@ -131,7 +131,7 @@ Version: 20160529
           <asp:TextBox ID="txtKeywords" runat="server" Columns="150"></asp:TextBox>
         </div>
 
-        <%-- IL3TToccurrenceMetadata --%>
+        <%-- IL3TTinstanceMetadata --%>
 
         <div class="question">
           <div class="label">4. L2 language</div>
@@ -281,7 +281,7 @@ Version: 20160529
         </div>
 
 
-        <%-- Calculated from L3SToccurrence --%>
+        <%-- Calculated from L3STinstance --%>
         
         <div>
           <div class="label">L3ST language type change (Calculated from L3ST and L3TT language type)</div>

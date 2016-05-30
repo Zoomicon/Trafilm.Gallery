@@ -29,9 +29,9 @@ Version: 20160527
        &nbsp;&nbsp;-&nbsp;&nbsp;
        <a class="selected" href="../../conversation/metadata/">Conversation Metadata</a>
        &nbsp;&nbsp;-&nbsp;&nbsp;
-       <a href="../../L3SToccurrence/metadata/?film=<%=listFilms.SelectedValue%>&conversation=<%=listConversations.SelectedValue%>">L3ST-occurrence Metadata</a>
+       <a href="../../L3STinstance/metadata/?film=<%=listFilms.SelectedValue%>&conversation=<%=listConversations.SelectedValue%>">L3ST-instance Metadata</a>
        &nbsp;&nbsp;-&nbsp;&nbsp;
-       <a href="../../L3TToccurrence/metadata/?film=<%=listFilms.SelectedValue%>&conversation=<%=listConversations.SelectedValue%>">L3TT-occurrence Metadata</a>
+       <a href="../../L3TTinstance/metadata/?film=<%=listFilms.SelectedValue%>&conversation=<%=listConversations.SelectedValue%>">L3TT-instance Metadata</a>
     </div>
 
     <%-- INSTRUCTION BOX --%>
@@ -145,15 +145,15 @@ Version: 20160527
         </div>
         
 
-        <%-- Calculated from L3SToccurrences --%>
+        <%-- Calculated from L3STinstances --%>
 
         <div>
-          <div class="label">Count of L3ST languages in Conversation (Calculated from L3ST-occurrences)</div>
+          <div class="label">Count of L3ST languages in Conversation (Calculated from L3ST-instances)</div>
           <asp:Label ID="lblL3languagesCount" runat="server"></asp:Label>
         </div>  
 
         <div>
-          <div class="label">L3ST languages in Conversation (Calculated from L3ST-occurrences)</div>
+          <div class="label">L3ST languages in Conversation (Calculated from L3ST-instances)</div>
           <asp:Panel runat="server" ScrollBars="Auto">
             <asp:ListBox ID="clistL3languages" runat="server" Enabled="false"
               RepeatLayout="Table" RepeatColumns="10" RepeatDirection="Vertical"
@@ -163,12 +163,12 @@ Version: 20160527
 
 
         <div>
-          <div class="label">Count of L3ST language types in Conversation (Calculated from L3ST-occurrences)</div>
+          <div class="label">Count of L3ST language types in Conversation (Calculated from L3ST-instances)</div>
           <asp:Label ID="lblL3languageTypesCount" runat="server"></asp:Label>
         </div> 
         
         <div>
-          <div class="label">L3ST language types in Conversation (Calculated from L3ST-occurrences)</div>
+          <div class="label">L3ST language types in Conversation (Calculated from L3ST-instances)</div>
           <asp:Panel runat="server" ScrollBars="Auto">
             <asp:ListBox ID="clistL3languageTypes" runat="server" Enabled="false"
               RepeatLayout="Table" RepeatColumns="10" RepeatDirection="Vertical"    
@@ -178,19 +178,19 @@ Version: 20160527
 
 
         <div>
-          <div class="label">Count of L3ST-occurrences (Calculated)</div>
-          <asp:Label ID="lblL3SToccurrenceCount" runat="server"></asp:Label>
+          <div class="label">Count of L3ST-instances (Calculated)</div>
+          <asp:Label ID="lblL3STinstanceCount" runat="server"></asp:Label>
         </div>    
         
         
-        <%-- L3SToccurrences list --%>                  
+        <%-- L3STinstances list --%>                  
 
-        <asp:Repeater ID="repeaterL3SToccurrences" runat="server">
+        <asp:Repeater ID="repeaterL3STinstances" runat="server">
           <HeaderTemplate>
-            <div class="label">List of L3ST-occurrences<div>
+            <div class="label">List of L3ST-instances<div>
           </HeaderTemplate>
           <ItemTemplate>
-            <a href="../../L3SToccurrence/metadata/?film=<%#Eval("filmId")%>&conversation=<%#Eval("conversationId")%>&L3SToccurrence=<%#Eval("L3SToccurrenceId")%>"><%#Eval("L3SToccurrenceId")%></a>&nbsp;&nbsp;
+            <a href="../../L3STinstance/metadata/?film=<%#Eval("filmId")%>&conversation=<%#Eval("conversationId")%>&L3STinstance=<%#Eval("L3STinstanceId")%>"><%#Eval("L3STinstanceId")%></a>&nbsp;&nbsp;
           </ItemTemplate>
         </asp:Repeater>
 

@@ -24,8 +24,8 @@ namespace Trafilm.Gallery
 
     protected ICXMLMetadataStorage<IFilm> filmStorage;
     protected ICXMLMetadataStorage<IConversation> conversationStorage;
-    protected ICXMLMetadataStorage<IL3SToccurrence> l3SToccurrenceStorage;
-    protected ICXMLMetadataStorage<IL3TToccurrence> l3TToccurrenceStorage;
+    protected ICXMLMetadataStorage<IL3STinstance> l3STinstanceStorage;
+    protected ICXMLMetadataStorage<IL3TTinstance> l3TTinstanceStorage;
 
     #endregion
 
@@ -72,13 +72,13 @@ namespace Trafilm.Gallery
       }
     }
 
-    public void CreateL3SToccurrence(string filmId, string conversationId, string L3SToccurrenceId, IL3SToccurrence metadata = null) //don't return IL3SToccurrence to avoid loading a .CXML file if already exists
+    public void CreateL3STinstance(string filmId, string conversationId, string L3STinstanceId, IL3STinstance metadata = null) //don't return IL3STinstance to avoid loading a .CXML file if already exists
     {
-      if (!l3SToccurrenceStorage.Keys.Contains(L3SToccurrenceId))
+      if (!l3STinstanceStorage.Keys.Contains(L3STinstanceId))
       {
         if (metadata == null)
         {
-          metadata = new L3SToccurrence();
+          metadata = new L3STinstance();
           metadata.Clear();
           metadata.FilmReferenceId = filmId;
           metadata.ConversationReferenceId = conversationId;
@@ -86,32 +86,32 @@ namespace Trafilm.Gallery
         else
           metadata.ClearCalculated();
 
-        metadata.Title = L3SToccurrenceId;
-        metadata.ReferenceId = L3SToccurrenceId;
+        metadata.Title = L3STinstanceId;
+        metadata.ReferenceId = L3STinstanceId;
 
-        l3SToccurrenceStorage[L3SToccurrenceId] = metadata;
+        l3STinstanceStorage[L3STinstanceId] = metadata;
       }
     }
 
-    public void CreateL3TToccurrence(string filmId, string conversationId, string l3SToccurrenceId, string l3TToccurrenceId, IL3TToccurrence metadata = null) //don't return IL3TToccurrence to avoid loading a .CXML file if already exists
+    public void CreateL3TTinstance(string filmId, string conversationId, string l3STinstanceId, string l3TTinstanceId, IL3TTinstance metadata = null) //don't return IL3TTinstance to avoid loading a .CXML file if already exists
     {
-      if (!l3TToccurrenceStorage.Keys.Contains(l3TToccurrenceId))
+      if (!l3TTinstanceStorage.Keys.Contains(l3TTinstanceId))
       {
         if (metadata == null)
         {
-          metadata = new L3TToccurrence();
+          metadata = new L3TTinstance();
           metadata.Clear();
           metadata.FilmReferenceId = filmId;
           metadata.ConversationReferenceId = conversationId;
-          metadata.L3SToccurrenceReferenceId = l3SToccurrenceId;
+          metadata.L3STinstanceReferenceId = l3STinstanceId;
         }
         else
           metadata.ClearCalculated();
 
-        metadata.Title = l3TToccurrenceId;
-        metadata.ReferenceId = l3TToccurrenceId;
+        metadata.Title = l3TTinstanceId;
+        metadata.ReferenceId = l3TTinstanceId;
 
-        l3TToccurrenceStorage[l3TToccurrenceId] = metadata;
+        l3TTinstanceStorage[l3TTinstanceId] = metadata;
       }
     }
 
@@ -129,14 +129,14 @@ namespace Trafilm.Gallery
       return new Uri("http://gallery.trafilm.net/conversation/#" + key);
     }
 
-    public Uri GetL3SToccurrenceUri(string key)
+    public Uri GetL3STinstanceUri(string key)
     {
-      return new Uri("http://gallery.trafilm.net/L3SToccurrence/#" + key);
+      return new Uri("http://gallery.trafilm.net/L3STinstance/#" + key);
     }
 
-    public Uri GetL3TToccurrenceUri(string key)
+    public Uri GetL3TTinstanceUri(string key)
     {
-      return new Uri("http://gallery.trafilm.net/L3TToccurrence/#" + key);
+      return new Uri("http://gallery.trafilm.net/L3TTinstance/#" + key);
     }
 
     #endregion
@@ -178,14 +178,14 @@ namespace Trafilm.Gallery
       UpdateList(list, conversationStorage.Keys, selectedValue, isQueryStringItem);
     }
 
-    public void UpdateL3SToccurrencesList(ListControl list, string selectedValue = null, bool isQueryStringItem = false)
+    public void UpdateL3STinstancesList(ListControl list, string selectedValue = null, bool isQueryStringItem = false)
     {
-      UpdateList(list, l3SToccurrenceStorage.Keys, selectedValue, isQueryStringItem);
+      UpdateList(list, l3STinstanceStorage.Keys, selectedValue, isQueryStringItem);
     }
 
-    public void UpdateL3TToccurrencesList(ListControl list, string selectedValue = null, bool isQueryStringItem = false)
+    public void UpdateL3TTinstancesList(ListControl list, string selectedValue = null, bool isQueryStringItem = false)
     {
-      UpdateList(list, l3TToccurrenceStorage.Keys, selectedValue, isQueryStringItem);
+      UpdateList(list, l3TTinstanceStorage.Keys, selectedValue, isQueryStringItem);
     }
    
     #endregion
