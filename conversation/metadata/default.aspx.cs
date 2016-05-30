@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: conversation\metadata\default.aspx.cs
-//Version: 20160529
+//Version: 20160530
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -102,8 +102,8 @@ namespace Trafilm.Gallery
       UI.Load(txtStartTime, metadata.StartTime.ToString(ConversationMetadata.DEFAULT_POSITION_FORMAT));
       UI.Load(txtDuration, metadata.Duration.ToString(ConversationMetadata.DEFAULT_DURATION_FORMAT));
 
-      UI.Load(cbL1languagePresent, metadata.L1languagePresent);
-      UI.Load(cbL2languagePresent, metadata.L2languagePresent);
+      UI.Load(listL1LanguagePresent, metadata.L1languagePresent);
+      UI.Load(listL2LanguagePresent, metadata.L2languagePresent);
 
       UI.Load(listSpeakingCharactersCount, metadata.SpeakingCharactersCount);
       UI.Load(listL3speakingCharactersCount, metadata.L3STspeakingCharactersCount);
@@ -111,10 +111,10 @@ namespace Trafilm.Gallery
       //Calculated properties//
 
       UI.Load(lblL3languagesCount, metadata.L3STlanguagesCount.ToString());
-      UI.LoadContent(clistL3languages, metadata.L3STlanguages); //do not use Load, use LoadContent to add values, not select them
+      UI.LoadContent(listL3languages, metadata.L3STlanguages); //do not use Load, use LoadContent to add values, not select them
 
       UI.Load(lblL3languageTypesCount, metadata.L3STlanguageTypesCount.ToString());
-      UI.LoadContent(clistL3languageTypes, metadata.L3STlanguageTypes); //do not use Load, use LoadContent to add values, not select them
+      UI.LoadContent(listL3languageTypes, metadata.L3STlanguageTypes); //do not use Load, use LoadContent to add values, not select them
 
       UI.Load(lblL3STinstanceCount, metadata.L3STinstanceCount.ToString());
     }
@@ -149,8 +149,8 @@ namespace Trafilm.Gallery
       metadata.StartTime = txtStartTime.Text.ToNullableTimeSpan(ConversationMetadata.DEFAULT_POSITION_FORMAT);
       metadata.Duration = txtDuration.Text.ToNullableTimeSpan(ConversationMetadata.DEFAULT_DURATION_FORMAT);
 
-      metadata.L1languagePresent = cbL1languagePresent.Checked;
-      metadata.L2languagePresent = cbL2languagePresent.Checked;
+      metadata.L1languagePresent = listL1LanguagePresent.SelectedValue;
+      metadata.L2languagePresent = listL2LanguagePresent.SelectedValue;
 
       metadata.SpeakingCharactersCount = listSpeakingCharactersCount.SelectedValue; //e.g. 1, 2, 3, more than 3
       metadata.L3STspeakingCharactersCount = listL3speakingCharactersCount.SelectedValue; //e.g. 1, 2, 3, more than 3

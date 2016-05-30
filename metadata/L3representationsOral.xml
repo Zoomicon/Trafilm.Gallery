@@ -3,11 +3,12 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: metadata/L3representationsOral.xml
-Version: 20160529
+Version: 20160530
 -->
 
 <Facet Name="L3representationsOral">
-  <String Value="L-main Quirkiness or clue" />
-  <String Value="Clearly non-native main language" />
-  <String Value="Farcical L-main" />
+  <String Value="L-main quirkiness or clue" Title="Main language quirkiness or clue"/>
+  <String Value="Clearly non-native L-main" Title="Clearly non-native main language"/>
+  <String Value="Farcical L-main" Title="Farcical main language"/>
+  <String Value="Non-verbal oral" Title="Non-verbal oral (e.g. shriek or throaty noise, creaky / husky voice, without uttering actual words in any language)"/>
 </Facet>

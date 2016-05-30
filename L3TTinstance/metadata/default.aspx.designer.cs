@@ -31,6 +31,15 @@ namespace Trafilm.Gallery {
         protected global::System.Web.UI.WebControls.XmlDataSource xmlL2mode;
         
         /// <summary>
+        /// xmlYesNo control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.XmlDataSource xmlYesNo;
+        
+        /// <summary>
         /// xmlL3TTlanguageType control.
         /// </summary>
         /// <remarks>
@@ -319,22 +328,22 @@ namespace Trafilm.Gallery {
         protected global::System.Web.UI.WebControls.DropDownList listL2mode;
         
         /// <summary>
-        /// cbL2sameAsL3ST control.
+        /// listL2sameAsL3ST control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox cbL2sameAsL3ST;
+        protected global::System.Web.UI.WebControls.DropDownList listL2sameAsL3ST;
         
         /// <summary>
-        /// cbL3STconveyedAsL3TT control.
+        /// listL3STconveyedAsL3TT control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox cbL3STconveyedAsL3TT;
+        protected global::System.Web.UI.WebControls.DropDownList listL3STconveyedAsL3TT;
         
         /// <summary>
         /// listL3TTlanguageType control.

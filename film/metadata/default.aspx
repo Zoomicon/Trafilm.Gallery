@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: film\metadata\default.aspx
-Version: 20160527
+Version: 20160530
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -122,12 +122,14 @@ Version: 20160527
 
 
         <div class="question">
-          <div class="label">7. Directors (comma-separated)</div>
+          <div class="label">7. Director(s)</div>
+          <div class="tip">Comma-separated list of film's director(s)</div>
           <asp:TextBox ID="txtDirectors" runat="server" Columns="150"></asp:TextBox>
         </div>
 
         <div class="question">
-          <div class="label">8. Scriptwriters (comma-separated)</div>
+          <div class="label">8. Scriptwriter(s)</div>
+          <div class="tip">Comma-separated list of film's scriptwriter(s)</div>
           <asp:TextBox ID="txtScriptwriters" runat="server" Columns="150"></asp:TextBox>
         </div>
 
@@ -143,7 +145,8 @@ Version: 20160527
         </div>
 
         <div class="question">
-          <div class="label">10. Production companies (comma-separated)</div>
+          <div class="label">10. Production companies</div>
+          <div class="tip">Comma-separated list of film's production companies</div>
           <asp:TextBox ID="txtProductionCompanies" runat="server" Columns="150"></asp:TextBox>
         </div>
 

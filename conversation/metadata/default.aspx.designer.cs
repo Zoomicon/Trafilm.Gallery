@@ -22,6 +22,15 @@ namespace Trafilm.Gallery {
         protected global::System.Web.UI.WebControls.XmlDataSource xmlCount;
         
         /// <summary>
+        /// xmlYesNo control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.XmlDataSource xmlYesNo;
+        
+        /// <summary>
         /// form1 control.
         /// </summary>
         /// <remarks>
@@ -166,22 +175,22 @@ namespace Trafilm.Gallery {
         protected global::System.Web.UI.WebControls.TextBox txtDuration;
         
         /// <summary>
-        /// cbL1languagePresent control.
+        /// listL1LanguagePresent control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox cbL1languagePresent;
+        protected global::System.Web.UI.WebControls.DropDownList listL1LanguagePresent;
         
         /// <summary>
-        /// cbL2languagePresent control.
+        /// listL2LanguagePresent control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox cbL2languagePresent;
+        protected global::System.Web.UI.WebControls.DropDownList listL2LanguagePresent;
         
         /// <summary>
         /// listSpeakingCharactersCount control.
@@ -211,13 +220,13 @@ namespace Trafilm.Gallery {
         protected global::System.Web.UI.WebControls.Label lblL3languagesCount;
         
         /// <summary>
-        /// clistL3languages control.
+        /// listL3languages control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ListBox clistL3languages;
+        protected global::System.Web.UI.WebControls.ListBox listL3languages;
         
         /// <summary>
         /// lblL3languageTypesCount control.
@@ -229,13 +238,13 @@ namespace Trafilm.Gallery {
         protected global::System.Web.UI.WebControls.Label lblL3languageTypesCount;
         
         /// <summary>
-        /// clistL3languageTypes control.
+        /// listL3languageTypes control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ListBox clistL3languageTypes;
+        protected global::System.Web.UI.WebControls.ListBox listL3languageTypes;
         
         /// <summary>
         /// lblL3STinstanceCount control.

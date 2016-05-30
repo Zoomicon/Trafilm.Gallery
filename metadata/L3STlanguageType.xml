@@ -3,12 +3,12 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: metadata/L3STlanguageType.xml
-Version: 20160529
+Version: 20160530
 -->
 
 <Facet Name="L3languageType">
-  <String Value="" />
-  <String Value="real" />
-  <String Value="constructed" />
-  <String Value="L-main variety, real dialect, slang or other" />
+  <String Value="" Title=""/>
+  <String Value="Real" Title="Real"/>
+  <String Value="Constructed" Title="Constructed" />
+  <String Value="L-main variety, real dialect, slang or other" Title="Main language variety, real dialect, slang or other" />
 </Facet>
