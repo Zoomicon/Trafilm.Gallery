@@ -60,12 +60,12 @@ namespace Trafilm.Gallery
       var values = conversationStorage.Values; //assumes "conversationStorage" has been updated
       foreach (IConversation conversation in values)
       {
-        ICXMLMetadataStorage<IL3SToccurrence> l3SToccs = new CXMLFragmentStorage<IL3SToccurrence, L3SToccurrence>(Path.Combine(Request.PhysicalApplicationPath, @"L3SToccurrence\L3SToccurrences.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"L3SToccurrence\metadata"), conversation.ReferenceId + ".*.cxml");
-        conversation.L3SToccurrences = l3SToccs.Values;
-        foreach (IL3SToccurrence l3SToccurrence in conversation.L3SToccurrences)
+        ICXMLMetadataStorage<IL3STinstance> l3SToccs = new CXMLFragmentStorage<IL3STinstance, L3STinstance>(Path.Combine(Request.PhysicalApplicationPath, @"L3STinstance\L3STinstances.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"L3STinstance\metadata"), conversation.ReferenceId + ".*.cxml");
+        conversation.L3STinstances = l3SToccs.Values;
+        foreach (IL3STinstance l3STinstance in conversation.L3STinstances)
         {
-          ICXMLMetadataStorage<IL3TToccurrence> l3TToccs = new CXMLFragmentStorage<IL3TToccurrence, L3TToccurrence>(Path.Combine(Request.PhysicalApplicationPath, @"L3TToccurrence\L3TToccurrences.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"L3TToccurrence\metadata"), l3SToccurrence.ReferenceId + ".*.cxml");
-          l3SToccurrence.L3TToccurrences = l3TToccs.Values;
+          ICXMLMetadataStorage<IL3TTinstance> l3TToccs = new CXMLFragmentStorage<IL3TTinstance, L3TTinstance>(Path.Combine(Request.PhysicalApplicationPath, @"L3TTinstance\L3TTinstances.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"L3TTinstance\metadata"), l3STinstance.ReferenceId + ".*.cxml");
+          l3STinstance.L3TTinstances = l3TToccs.Values;
         }
       }
       metadata.Conversations = values; //this updates calculated properties (must be set after the above nested calculations)

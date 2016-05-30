@@ -53,12 +53,12 @@
     <Content Include="film\default.html" />
     <Content Include="film\template.html" />
     <Content Include="film\template_image.png" />
-    <Content Include="L3TToccurrence\default.html" />
-    <Content Include="L3TToccurrence\metadata\default.aspx" />
-    <Content Include="L3TToccurrence\template.html" />
-    <Content Include="L3TToccurrence\template_image.png" />
-    <Content Include="L3SToccurrence\template.html" />
-    <Content Include="L3SToccurrence\template_image.png" />
+    <Content Include="L3TTinstance\default.html" />
+    <Content Include="L3TTinstance\metadata\default.aspx" />
+    <Content Include="L3TTinstance\template.html" />
+    <Content Include="L3TTinstance\template_image.png" />
+    <Content Include="L3STinstance\template.html" />
+    <Content Include="L3STinstance\template_image.png" />
     <Content Include="metadata\Countries.xml" />
     <Content Include="metadata\Count.xml">
       <SubType>Designer</SubType>
@@ -80,7 +80,7 @@
     <Content Include="seajax\css\PivotView.css" />
     <Content Include="seajax\css\search.gif" />
     <Content Include="seajax\seadragon-pivot-standalone-min.js" />
-    <Content Include="L3SToccurrence\default.html" />
+    <Content Include="L3STinstance\default.html" />
     <Content Include="metadata\L3meaningDeciphered.xml">
       <SubType>Designer</SubType>
     </Content>
@@ -118,18 +118,18 @@
     <Content Include="metadata\L3functions.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="L3SToccurrence\metadata\default.aspx" />
+    <Content Include="L3STinstance\metadata\default.aspx" />
     <Content Include="metadata\Languages.xml" />
     <Content Include="metadata\Default.aspx" />
     <Content Include="film\metadata\default.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="L3TToccurrence\metadata\default.aspx.cs">
+    <Compile Include="L3TTinstance\metadata\default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="L3TToccurrence\metadata\default.aspx.designer.cs">
+    <Compile Include="L3TTinstance\metadata\default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
     </Compile>
     <Compile Include="utils\CXMLFragmentStorage.cs" />
@@ -143,11 +143,11 @@
     <Compile Include="metadata\BaseMetadataPage.cs">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="L3SToccurrence\metadata\default.aspx.cs">
+    <Compile Include="L3STinstance\metadata\default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="L3SToccurrence\metadata\default.aspx.designer.cs">
+    <Compile Include="L3STinstance\metadata\default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
     </Compile>
     <Compile Include="utils\UI.cs" />
@@ -173,7 +173,7 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="Trafilm.Metadata, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\Trafilm.Metadata.6.8.0\lib\portable-net403+sl5+win8+wpa81+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Trafilm.Metadata.dll</HintPath>
+      <HintPath>packages\Trafilm.Metadata.7.0.1\lib\portable-net403+sl5+win8+wpa81+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Trafilm.Metadata.dll</HintPath>
       <Private>True</Private>
     </Reference>
   </ItemGroup>
@@ -187,17 +187,17 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="film\update_cxml.bat" />
-    <Content Include="L3SToccurrence\update_cxml.bat" />
+    <Content Include="L3STinstance\update_cxml.bat" />
     <Content Include="conversation\update_cxml.bat" />
-    <Content Include="L3TToccurrence\update_cxml.bat" />
+    <Content Include="L3TTinstance\update_cxml.bat" />
     <None Include="Properties\PublishProfiles\Trafilm Gallery.pubxml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="collection\" />
     <Folder Include="conversation\image\" />
     <Folder Include="film\image\" />
-    <Folder Include="L3SToccurrence\image\" />
-    <Folder Include="L3TToccurrence\image\" />
+    <Folder Include="L3STinstance\image\" />
+    <Folder Include="L3TTinstance\image\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

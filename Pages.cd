@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
-  <Class Name="Trafilm.Gallery.L3SToccurrenceMetadataPage">
+  <Class Name="Trafilm.Gallery.L3STinstanceMetadataPage">
     <Position X="12" Y="0.75" Width="3.25" />
     <InheritanceLine Type="Trafilm.Gallery.BaseMetadataPage" FixedFromPoint="true" FixedToPoint="true">
       <Path>
@@ -12,7 +12,7 @@
     </InheritanceLine>
     <TypeIdentifier>
       <HashCode>ASgggMADgBgCMGAEAAEgoAAYqAFAgVAAB4pCAIYDAYQ=</HashCode>
-      <FileName>L3SToccurrence\metadata\default.aspx.cs</FileName>
+      <FileName>L3STinstance\metadata\default.aspx.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Trafilm.Gallery.FilmMetadataPage">
@@ -52,7 +52,7 @@
       <FileName>conversation\metadata\default.aspx.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Trafilm.Gallery.L3TToccurrenceMetadataPage">
+  <Class Name="Trafilm.Gallery.L3TTinstanceMetadataPage">
     <Position X="15.5" Y="0.75" Width="3.25" />
     <InheritanceLine Type="Trafilm.Gallery.BaseMetadataPage" FixedFromPoint="true" FixedToPoint="true">
       <Path>
@@ -64,7 +64,7 @@
     </InheritanceLine>
     <TypeIdentifier>
       <HashCode>ASqhgMABkBkCGHQGQAEQoEAYqANAAFAgBQhAAIYFAYQ=</HashCode>
-      <FileName>L3TToccurrence\metadata\default.aspx.cs</FileName>
+      <FileName>L3TTinstance\metadata\default.aspx.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Tahoma" Size="8.25" />

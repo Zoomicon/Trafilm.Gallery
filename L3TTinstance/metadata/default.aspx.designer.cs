@@ -10,7 +10,7 @@
 namespace Trafilm.Gallery {
     
     
-    public partial class L3TToccurrenceMetadataPage {
+    public partial class L3TTinstanceMetadataPage {
         
         /// <summary>
         /// xmlL2language control.
@@ -175,58 +175,58 @@ namespace Trafilm.Gallery {
         protected global::System.Web.UI.WebControls.DropDownList listConversations;
         
         /// <summary>
-        /// panelL3SToccurrenceId control.
+        /// panelL3STinstanceId control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel panelL3SToccurrenceId;
+        protected global::System.Web.UI.WebControls.Panel panelL3STinstanceId;
         
         /// <summary>
-        /// listL3SToccurrences control.
+        /// listL3STinstances control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList listL3SToccurrences;
+        protected global::System.Web.UI.WebControls.DropDownList listL3STinstances;
         
         /// <summary>
-        /// panelL3TToccurrenceId control.
+        /// panelL3TTinstanceId control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel panelL3TToccurrenceId;
+        protected global::System.Web.UI.WebControls.Panel panelL3TTinstanceId;
         
         /// <summary>
-        /// listL3TToccurrences control.
+        /// listL3TTinstances control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList listL3TToccurrences;
+        protected global::System.Web.UI.WebControls.DropDownList listL3TTinstances;
         
         /// <summary>
-        /// txtL3TToccurrence control.
+        /// txtL3TTinstance control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtL3TToccurrence;
+        protected global::System.Web.UI.WebControls.TextBox txtL3TTinstance;
         
         /// <summary>
-        /// btnAddL3TToccurrence control.
+        /// btnAddL3TTinstance control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnAddL3TToccurrence;
+        protected global::System.Web.UI.WebControls.Button btnAddL3TTinstance;
         
         /// <summary>
         /// cbClone control.
