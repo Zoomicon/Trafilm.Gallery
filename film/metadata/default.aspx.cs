@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: film\metadata\default.aspx.cs
-//Version: 20160529
+//Version: 20160602
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -29,6 +29,8 @@ namespace Trafilm.Gallery
         UpdateFilmsList(listFilms, "film", !IsPostBack);
         listFilms_SelectedIndexChanged(listFilms, null);
       }
+
+      panelMetadata.Enabled = IsUserAllowedToSave("Film");
     }
 
     #endregion
@@ -112,7 +114,7 @@ namespace Trafilm.Gallery
       UI.Load(txtDirectors, metadata.Directors);
       UI.Load(txtScriptwriters, metadata.Scriptwriters);
 
-      UI.Load(clistProductionCountries, metadata.ProductionCountries);
+      UI.Load(txtProductionCountries, metadata.ProductionCountries);
       UI.Load(txtProductionCompanies, metadata.ProductionCompanies);
 
       UI.Load(txtBoxOffice, metadata.BoxOffice);
@@ -167,7 +169,7 @@ namespace Trafilm.Gallery
       metadata.Directors = UI.GetCommaSeparated(txtDirectors);
       metadata.Scriptwriters = UI.GetCommaSeparated(txtScriptwriters);
 
-      metadata.ProductionCountries = UI.GetSelected(clistProductionCountries);
+      metadata.ProductionCountries = UI.GetCommaSeparated(txtProductionCountries);
       metadata.ProductionCompanies = UI.GetCommaSeparated(txtProductionCompanies);
 
       metadata.BoxOffice = txtBoxOffice.Text;
@@ -222,6 +224,8 @@ namespace Trafilm.Gallery
 
     protected void btnSave_Click(object sender, EventArgs e)
     {
+      if (!IsUserAllowedToSave("Film")) return;
+
       Save();
       SaveCollection();
       DisplayMetadata(listFilms.SelectedValue); //Reload saved data on the UI to confirm what was saved. This is also important to update any calculated fields that make use of the edited object's metadata values

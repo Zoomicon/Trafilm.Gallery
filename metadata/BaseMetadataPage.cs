@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: BaseMetadataPage.cs
-//Version: 20160529
+//Version: 20160602
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -191,6 +191,15 @@ namespace Trafilm.Gallery
     #endregion
 
     #region Save
+
+    protected bool IsUserAllowedToSave(string itemType)
+    {
+      return (Request.IsAuthenticated &&
+              (User.IsInRole("Administrators") || 
+               User.IsInRole("MetadataEditors") ||
+               User.IsInRole("MetadataEditors_" + itemType)
+              ));
+    }
 
     protected void SaveCollection(string cxmlFilename, string collectionTitle, IEnumerable<XElement> facetCategories, IEnumerable<ICXMLMetadata> metadataItems)
     {

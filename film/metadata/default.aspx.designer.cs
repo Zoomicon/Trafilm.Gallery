@@ -13,15 +13,6 @@ namespace Trafilm.Gallery {
     public partial class FilmMetadataPage {
         
         /// <summary>
-        /// xmlCountries control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.XmlDataSource xmlCountries;
-        
-        /// <summary>
         /// XmlL1language control.
         /// </summary>
         /// <remarks>
@@ -31,15 +22,6 @@ namespace Trafilm.Gallery {
         protected global::System.Web.UI.WebControls.XmlDataSource XmlL1language;
         
         /// <summary>
-        /// xmlLanguages control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.XmlDataSource xmlLanguages;
-        
-        /// <summary>
         /// form1 control.
         /// </summary>
         /// <remarks>
@@ -47,6 +29,24 @@ namespace Trafilm.Gallery {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        
+        /// <summary>
+        /// loginName control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LoginName loginName;
+        
+        /// <summary>
+        /// loginStatus control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LoginStatus loginStatus;
         
         /// <summary>
         /// listFilms control.
@@ -193,13 +193,13 @@ namespace Trafilm.Gallery {
         protected global::System.Web.UI.WebControls.TextBox txtScriptwriters;
         
         /// <summary>
-        /// clistProductionCountries control.
+        /// txtProductionCountries control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBoxList clistProductionCountries;
+        protected global::System.Web.UI.WebControls.TextBox txtProductionCountries;
         
         /// <summary>
         /// txtProductionCompanies control.

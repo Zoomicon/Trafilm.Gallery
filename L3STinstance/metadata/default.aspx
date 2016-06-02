@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: L3STinstance\metadata\default.aspx
-Version: 20160530
+Version: 20160602
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -53,6 +53,10 @@ Version: 20160530
     </div>
 
     <form id="form1" runat="server">
+
+      <%-- LOGIN STATUS --%>
+
+      <asp:LoginName ID="loginName" runat="server" FormatString="Welcome {0}!" /> [<asp:LoginStatus ID="loginStatus" runat="server"/>]
 
       <%-- INFO BOX --%>
 

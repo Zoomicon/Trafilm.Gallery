@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: L3TTinstance\metadata\default.aspx.cs
-//Version: 20160530
+//Version: 20160602
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -38,6 +38,8 @@ namespace Trafilm.Gallery
         UpdateL3TTinstancesList(listL3TTinstances, "L3TTinstance", !IsPostBack);
         listL3TTinstances_SelectedIndexChanged(listL3TTinstances, null);
       }
+
+      panelMetadata.Enabled = IsUserAllowedToSave("L3TTinstance");
     }
 
     #endregion
@@ -271,6 +273,8 @@ namespace Trafilm.Gallery
 
     protected void btnSave_Click(object sender, EventArgs e)
     {
+      if (!IsUserAllowedToSave("L3TTinstance")) return;
+
       Save();
       SaveCollection();
       DisplayMetadata(listL3TTinstances.SelectedValue); //Reload saved data on the UI to confirm what was saved. This is also important to update any calculated fields that make use of the edited object's metadata values

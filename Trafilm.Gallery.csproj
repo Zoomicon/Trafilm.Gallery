@@ -59,10 +59,10 @@
     <Content Include="L3TTinstance\template_image.png" />
     <Content Include="L3STinstance\template.html" />
     <Content Include="L3STinstance\template_image.png" />
+    <Content Include="login.aspx" />
     <Content Include="metadata\YesNo.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="metadata\Countries.xml" />
     <Content Include="metadata\Count.xml">
       <SubType>Designer</SubType>
     </Content>
@@ -135,6 +135,13 @@
     <Compile Include="L3TTinstance\metadata\default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
     <Compile Include="utils\CXMLFragmentStorage.cs" />
     <Compile Include="conversation\metadata\default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
@@ -172,6 +179,8 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq" />
