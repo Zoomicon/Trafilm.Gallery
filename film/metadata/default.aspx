@@ -97,8 +97,8 @@ Version: 20160602
         <%-- ITrafilmMetadata --%>
 
         <div class="question">
-          <div class="label">3. Keywords (comma-separated)</div>
-          <div class="tip">Enter OPTIONAL list of keywords to help identify this item</div>
+          <div class="label">3. Keywords</div>
+          <div class="tip">Comma-separated list of keywords to help identify this item (OPTIONAL)</div>
           <asp:TextBox ID="txtKeywords" runat="server" Columns="150"></asp:TextBox>
         </div>
 
