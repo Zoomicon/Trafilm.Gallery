@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Collection SchemaVersion="1.0" Name="TheWalk_2015.MeetingPapaRudy" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+  <FacetCategories>
+    <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Start time (h:m:s)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Duration (h:m:s)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="L1 language present" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L2 language present" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Speaking characters: count" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST-speaking characters: count" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST languages: count" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="L3ST languages" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST language types: count" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="L3ST language types" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST-instances: count" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Keywords" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+  </FacetCategories>
+  <Items xmlns="">
+    <Item Id="TheWalk_2015.MeetingPapaRudy" Name="TheWalk_2015.MeetingPapaRudy" Img="../conversation/image/TheWalk_2015.MeetingPapaRudy.png" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk_2015&amp;conversation=TheWalk_2015.MeetingPapaRudy">
+      <Description></Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="TheWalk_2015.MeetingPapaRudy" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-05-31T10:39:50" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-06-06T03:41:23" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="TheWalk_2015" />
+        </Facet>
+        <Facet Name="Start time (h:m:s)">
+          <String Value="0:12:15" />
+        </Facet>
+        <Facet Name="Duration (h:m:s)">
+          <String Value="0:14:05" />
+        </Facet>
+        <Facet Name="L1 language present">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L2 language present">
+          <String Value="No" />
+        </Facet>
+        <Facet Name="Speaking characters: count">
+          <String Value="2" />
+        </Facet>
+        <Facet Name="L3ST-speaking characters: count">
+          <String Value="2" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <String Value="2" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Czech" />
+          <String Value="French" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <String Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <String Value="4" />
+        </Facet>
+      </Facets>
+    </Item>
+  </Items>
+</Collection>

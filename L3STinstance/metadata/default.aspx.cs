@@ -56,6 +56,8 @@ namespace Trafilm.Gallery
       SelectL3STinstance(L3STinstanceId);
     }
 
+    #region Selection
+
     public void SelectConversation(string conversationId)
     {
       UpdateConversationsList(listConversations, conversationId); //update list since it may not be up-to-date
@@ -67,6 +69,8 @@ namespace Trafilm.Gallery
       UpdateL3STinstancesList(listL3STinstances, L3STinstanceId); //update list since it may not be up-to-date
       listL3STinstances_SelectedIndexChanged(listL3STinstances, null);
     }
+
+    #endregion
 
     #region Linked Data
 
@@ -102,7 +106,7 @@ namespace Trafilm.Gallery
       //Ignoring the Id field, since some Pivot Tools expect it to be sequential
       UI.Load(txtTitle, metadata.Title);
       //Not showing any Image field
-      UI.Load(linkUrl, GetL3STinstanceUri(key));
+      UI.Load(linkUrl, GetL3STinstanceUri(metadata.FilmReferenceId, metadata.ConversationReferenceId, key));
       UI.Load(txtDescription, metadata.Description);
 
       //ITrafilmMetadata//
@@ -159,12 +163,14 @@ namespace Trafilm.Gallery
     {
       IL3STinstance metadata = new L3STinstance();
       string key = listL3STinstances.SelectedValue;
+      string filmReferenceId = listFilms.SelectedValue;
+      string conversationReferenceId = listConversations.SelectedValue;
 
       //ICXMLMetadata//
 
       metadata.Title = txtTitle.Text;
       metadata.Image = "../L3STinstance/image/" + key + ".png";
-      metadata.Url = GetL3STinstanceUri(key);
+      metadata.Url = GetL3STinstanceUri(filmReferenceId, conversationReferenceId, key);
       metadata.Description = txtDescription.Text;
 
       //ITrafilmMetadata//
@@ -181,8 +187,8 @@ namespace Trafilm.Gallery
 
       //IL3STinstanceMetadata//
 
-      metadata.FilmReferenceId = listFilms.SelectedValue;
-      metadata.ConversationReferenceId = listConversations.SelectedValue;
+      metadata.FilmReferenceId = filmReferenceId;
+      metadata.ConversationReferenceId = conversationReferenceId;
 
       metadata.StartTime = txtStartTime.Text.ToNullableTimeSpan(L3STinstanceMetadata.DEFAULT_POSITION_FORMAT);
       metadata.Duration = txtDuration.Text.ToNullableTimeSpan(L3STinstanceMetadata.DEFAULT_DURATION_FORMAT);
@@ -221,7 +227,8 @@ namespace Trafilm.Gallery
 
     public void SaveCollection()
     {
-      SaveCollection(Path.Combine(Request.PhysicalApplicationPath, "L3STinstance/L3STinstances.cxml"), "Trafilm Gallery L3STinstances", L3STinstanceMetadataFacets.GetCXMLFacetCategories(), l3STinstanceStorage.Values);
+      ICXMLMetadataStorage<IL3STinstance> allL3STinstancesStorage = new CXMLFragmentStorage<IL3STinstance, L3STinstance>(Path.Combine(Request.PhysicalApplicationPath, @"L3STinstance\L3STinstances.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"L3STinstance\metadata"), "*.cxml");
+      SaveCollection(Path.Combine(Request.PhysicalApplicationPath, @"L3STinstance\L3STinstances.cxml"), "Trafilm Gallery: L3ST-instances", L3STinstanceMetadataFacets.GetCXMLFacetCategories(), allL3STinstancesStorage.Values);
     }
 
     #endregion

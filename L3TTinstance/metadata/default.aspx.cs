@@ -58,6 +58,8 @@ namespace Trafilm.Gallery
       SelectL3TTinstance(l3TTinstanceId);
     }
 
+    #region Selection
+
     public void SelectConversation(string conversationId)
     {
       UpdateConversationsList(listConversations, conversationId); //update list since it may not be up-to-date
@@ -75,6 +77,8 @@ namespace Trafilm.Gallery
       UpdateL3TTinstancesList(listL3TTinstances, L3TTinstanceId); //update list since it may not be up-to-date
       listL3TTinstances_SelectedIndexChanged(listL3TTinstances, null);
     }
+
+    #endregion
 
     #region Linked Data
 
@@ -104,7 +108,7 @@ namespace Trafilm.Gallery
       //Ignoring the Id field, since some Pivot Tools expect it to be sequential
       UI.Load(txtTitle, metadata.Title);
       //Not showing any Image field
-      UI.Load(linkUrl, GetL3TTinstanceUri(key));
+      UI.Load(linkUrl, GetL3TTinstanceUri(metadata.FilmReferenceId, metadata.ConversationReferenceId, metadata.L3STinstanceReferenceId, key));
       UI.Load(txtDescription, metadata.Description);
 
       //ITrafilmMetadata//
@@ -165,12 +169,15 @@ namespace Trafilm.Gallery
     {
       IL3TTinstance metadata = new L3TTinstance();
       string key = listL3TTinstances.SelectedValue;
+      string filmReferenceId = listFilms.SelectedValue;
+      string conversationReferenceId = listConversations.SelectedValue;
+      string l3STinstanceReferenceId = listL3STinstances.SelectedValue;
 
       //ICXMLMetadata//
 
       metadata.Title = txtTitle.Text;
       metadata.Image = "../L3TTinstance/image/" + key + ".png";
-      metadata.Url = GetL3TTinstanceUri(key);
+      metadata.Url = GetL3TTinstanceUri(filmReferenceId, conversationReferenceId, l3STinstanceReferenceId, key);
       metadata.Description = txtDescription.Text;
 
       //ITrafilmMetadata//
@@ -187,9 +194,9 @@ namespace Trafilm.Gallery
 
       //IL3TTinstanceMetadata//
 
-      metadata.FilmReferenceId = listFilms.SelectedValue;
-      metadata.ConversationReferenceId = listConversations.SelectedValue;
-      metadata.L3STinstanceReferenceId = listL3STinstances.SelectedValue;
+      metadata.FilmReferenceId = filmReferenceId;
+      metadata.ConversationReferenceId = conversationReferenceId;
+      metadata.L3STinstanceReferenceId = l3STinstanceReferenceId;
 
       metadata.L2language = listL2language.SelectedValue;
       metadata.L2mode = listL2mode.SelectedValue;
@@ -231,7 +238,8 @@ namespace Trafilm.Gallery
 
     public void SaveCollection()
     {
-      SaveCollection(Path.Combine(Request.PhysicalApplicationPath, "L3TTinstance/L3TTinstances.cxml"), "Trafilm Gallery L3TTinstances", L3TTinstanceMetadataFacets.GetCXMLFacetCategories(), l3TTinstanceStorage.Values);
+      ICXMLMetadataStorage<IL3TTinstance> allL3TTinstancesStorage = new CXMLFragmentStorage<IL3TTinstance, L3TTinstance>(Path.Combine(Request.PhysicalApplicationPath, @"L3TTinstance\L3TTinstances.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"L3TTinstance\metadata"), "*.cxml");
+      SaveCollection(Path.Combine(Request.PhysicalApplicationPath, @"L3TTinstance\L3TTinstances.cxml"), "Trafilm Gallery: L3TT-instances", L3TTinstanceMetadataFacets.GetCXMLFacetCategories(), allL3TTinstancesStorage.Values);
     }
 
     #endregion
