@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: film\metadata\default.aspx.cs
-//Version: 20160602
+//Version: 20160606
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -101,7 +101,12 @@ namespace Trafilm.Gallery
       //No need to show film.ReferenceId since we calculate and show the URL, plus the ReferenceId is used as the key and shown at the dropdown list
       UI.Load(lblInfoCreated, metadata.InfoCreated.ToString(CXML.DEFAULT_DATETIME_FORMAT));
       UI.Load(lblInfoUpdated, metadata.InfoUpdated.ToString(CXML.DEFAULT_DATETIME_FORMAT));
+
+      UI.Load(txtTranscription, metadata.Transcription);
+
       UI.Load(txtKeywords, metadata.Keywords);
+
+      UI.Load(txtRemarks, metadata.Remarks);
 
       //IFilm//
 
@@ -156,7 +161,11 @@ namespace Trafilm.Gallery
       metadata.InfoCreated = DateTime.ParseExact(lblInfoCreated.Text, CXML.DEFAULT_DATETIME_FORMAT, CultureInfo.InvariantCulture);
       metadata.InfoUpdated = DateTime.ParseExact(lblInfoUpdated.Text, CXML.DEFAULT_DATETIME_FORMAT, CultureInfo.InvariantCulture);
 
+      metadata.Transcription = txtTranscription.Text;
+
       metadata.Keywords = UI.GetCommaSeparated(txtKeywords);
+
+      metadata.Remarks = txtRemarks.Text;
 
       //IFilm//
 

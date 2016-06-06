@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: L3TTTTinstance\metadata\default.aspx
-Version: 20160602
+Version: 20160606
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -120,6 +120,11 @@ Version: 20160602
         <div class="label">L3TT-instance URL</div>
         <asp:HyperLink ID="linkUrl" runat="server" Target="_blank"/>
     
+        <%-- TODO: maybe add image control and upload image action here? %>    
+
+
+        <%-- ITrafilmMetadata --%>
+
         <div>
           <span class="label">Info created: </span>
           <asp:Label ID="lblInfoCreated" runat="server" />
@@ -128,18 +133,29 @@ Version: 20160602
           <asp:Label ID="lblInfoUpdated" runat="server" />
         </div>
 
-        <%-- ITrafilmMetadata --%>
+        <div class="question">
+          <div class="label">3. Transcription </div>
+          <div class="tip">Transcription for the specific L3TT-instance (OPTIONAL)</div>
+          <asp:TextBox ID="txtTranscription" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
+        </div>
 
         <div class="question">
-          <div class="label">3. Keywords</div>
+          <div class="label">4. Keywords</div>
           <div class="tip">Comma-separated list of keywords to help identify this item (OPTIONAL)</div>
           <asp:TextBox ID="txtKeywords" runat="server" Columns="150"></asp:TextBox>
         </div>
 
+        <div class="question">
+          <div class="label">5. Remarks </div>
+          <div class="tip">Remarks on the metadata itself (OPTIONAL)</div>
+          <asp:TextBox ID="txtRemarks" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
+        </div>
+
+
         <%-- IL3TTinstanceMetadata --%>
 
         <div class="question">
-          <div class="label">4. L2 language</div>
+          <div class="label">6. L2 language</div>
           <div class="tip">What language is L2 in?</div>
           <asp:DropDownList 
             ID="listL2language" runat="server"
@@ -147,7 +163,7 @@ Version: 20160602
         </div>
 
         <div class="question">
-          <div class="label">5. L2 mode</div>
+          <div class="label">7. L2 mode</div>
           <div class="tip">Mode of L2?</div>
           <asp:DropDownList 
             ID="listL2mode" runat="server"
@@ -156,7 +172,7 @@ Version: 20160602
 
 
         <div class="question">
-          <div class="label">6. L2 same as L3ST</div>
+          <div class="label">8. L2 same as L3ST</div>
           <div class="tip">Is L2 same language as L3ST?</div>
           <asp:DropDownList 
             ID="listL2sameAsL3ST" runat="server"
@@ -164,7 +180,7 @@ Version: 20160602
         </div>
 
         <div class="question">
-          <div class="label">7. L3ST conveyed as L3TT</div>
+          <div class="label">9. L3ST conveyed as L3TT</div>
           <div class="tip">Has L3ST been conveyed as some sort of L3TT in the TT?</div>
           <asp:DropDownList 
             ID="listL3STconveyedAsL3TT" runat="server"
@@ -173,7 +189,7 @@ Version: 20160602
 
 
         <div class="question">
-          <div class="label">8. L3TT language type</div>
+          <div class="label">10. L3TT language type</div>
           <div class="tip">With L2 as main language (L-main), what type of language is L3TT?</div>
           <asp:DropDownList 
             ID="listL3TTlanguageType" runat="server"
@@ -181,14 +197,14 @@ Version: 20160602
         </div>
 
         <div class="question">
-          <div class="label">9. L3TT language</div>
+          <div class="label">11. L3TT language</div>
           <div class="tip">Which language is L3TT?</div>
           <asp:TextBox ID="txtL3TTlanguage" runat="server" Columns="150"></asp:TextBox>
         </div>
 
 
         <div class="question">
-          <div class="label">10. L3TT constructed based on</div>
+          <div class="label">12. L3TT constructed based on</div>
           <div class="tip">If L3TT is “constructed”, then is based on:</div>
           <asp:Panel runat="server" MaxHeight="100" ScrollBars="Auto">
             <asp:CheckBoxList ID="clistL3TTconstructedBasedOn" runat="server" 
@@ -200,7 +216,7 @@ Version: 20160602
 
 
         <div class="question">
-          <div class="label">11. L3TT meant to be understood</div>
+          <div class="label">13. L3TT meant to be understood</div>
           <div class="tip">Is L3TT meant to be understood by most of the audience?</div>
           <asp:DropDownList 
             ID="listL3TTaudienceUnderstanding" runat="server"
@@ -208,7 +224,7 @@ Version: 20160602
         </div>
 
         <div class="question">
-          <div class="label">12. L3TT required for understanding</div>
+          <div class="label">14. L3TT required for understanding</div>
           <div class="tip">Does L3TT carry a meaningful message or one that requires it to be understood?</div>
           <asp:DropDownList 
             ID="listL3TTmessageUnderstanding" runat="server"
@@ -216,7 +232,7 @@ Version: 20160602
         </div>
 
         <div class="question">
-          <div class="label">13. L3TT meaning decipherable</div>
+          <div class="label">15. L3TT meaning decipherable</div>
           <div class="tip">Can the (pragmatic) meaning of L3TT be deciphered by other means? </div>
           <asp:DropDownList 
             ID="listL3TTmeaningDecipherable" runat="server"
@@ -225,7 +241,7 @@ Version: 20160602
 
 
         <div class="question">
-          <div class="label">14. L3TT speaker performance</div>
+          <div class="label">16. L3TT speaker performance</div>
           <div class="tip">Select speaker’s L3TT proficiency and performance:</div>
           <asp:DropDownList 
             ID="listL3TTspeakerPerformance" runat="server"
@@ -234,7 +250,7 @@ Version: 20160602
 
 
         <div class="question">
-          <div class="label">15. L3TT mode</div>
+          <div class="label">17. L3TT mode</div>
           <div class="tip">Mode of L3TT?</div>
           <asp:Panel runat="server" MaxHeight="100" ScrollBars="Auto">
             <asp:CheckBoxList ID="clistL3TTmode" runat="server" 
@@ -246,7 +262,7 @@ Version: 20160602
 
 
         <div class="question">
-          <div class="label">16. L3TT represented</div>
+          <div class="label">18. L3TT represented</div>
           <div class="tip">There is no L3TT as such, strictly speaking, but rather, it is hinted at through certain "clues" verbally (in the L2) or non-verbally (visually or otherwise)</div>
           <asp:Panel runat="server" MaxHeight="100" ScrollBars="Auto">
             <asp:CheckBoxList ID="clistL3TTrepresented" runat="server" 
@@ -257,7 +273,7 @@ Version: 20160602
         </div>
 
         <div class="question">
-          <div class="label">17. L3TT represented: oral</div>
+          <div class="label">19. L3TT represented: oral</div>
           <div class="tip">If “oral” selected for question on “L3TT represented”, specify how:</div>
           <div class="tip"></div>
           <asp:Panel runat="server" MaxHeight="100" ScrollBars="Auto">
@@ -269,7 +285,7 @@ Version: 20160602
         </div>
 
         <div class="question">
-          <div class="label">18. L3TT represented: visual</div>
+          <div class="label">20. L3TT represented: visual</div>
           <div class="tip">If “visual” selected for question on “L3TT represented”, specify how:</div>
           <asp:Panel runat="server" MaxHeight="100" ScrollBars="Auto">
             <asp:CheckBoxList ID="clistL3TTrepresentationsVisual" runat="server" 
@@ -281,7 +297,7 @@ Version: 20160602
 
 
         <div class="question">
-          <div class="label">19. L3TT functions</div>
+          <div class="label">21. L3TT functions</div>
           <%-- <div class="tip"></div> --%>
           <asp:Panel runat="server" MaxHeight="100" ScrollBars="Auto">
             <asp:CheckBoxList ID="clistL3TTfunctions" runat="server"
