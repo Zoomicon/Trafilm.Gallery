@@ -14,6 +14,19 @@
                 width: 100%;
             }
             p {
+            }
+            p.a {
+                font-size: 100px;
+                color: white;
+                background: grey;
+                position: absolute;
+                bottom: 125;
+                left: 0;
+                width: 100%;
+                filter: alpha(opacity=80);
+                padding: 20px;
+            }
+            p.b {
                 font-size: 100px;
                 color: white;
                 background: grey;
@@ -28,6 +41,7 @@
     </head>
     <body>
         <img src="template_image.png" /> <!-- src="{image}" -->
-        <p>{name}</p>
+        <p class="a">{name}</p>
+        <p class="b">({Year ST released})</p>
     </body>
 </html>

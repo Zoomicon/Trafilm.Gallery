@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: conversation\metadata\default.aspx.cs
-//Version: 20160530
+//Version: 20160602
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -33,6 +33,8 @@ namespace Trafilm.Gallery
         UpdateConversationsList(listConversations, "conversation", !IsPostBack);
         listConversations_SelectedIndexChanged(listConversations, null);
       }
+
+      panelMetadata.Enabled = IsUserAllowedToSave("Conversation");
     }
 
     #endregion
@@ -238,6 +240,8 @@ namespace Trafilm.Gallery
 
     protected void btnSave_Click(object sender, EventArgs e)
     {
+      if (!IsUserAllowedToSave("Conversation")) return;
+
       Save();
       SaveCollection();
       DisplayMetadata(listConversations.SelectedValue); //Reload saved data on the UI to confirm what was saved. This is also important to update any calculated fields that make use of the edited object's metadata values

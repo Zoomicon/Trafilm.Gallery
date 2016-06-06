@@ -37,6 +37,8 @@ namespace Trafilm.Gallery
         UpdateL3STinstancesList(listL3STinstances, "L3STinstance", !IsPostBack);
         listL3STinstances_SelectedIndexChanged(listL3STinstances, null);
       }
+
+      panelMetadata.Enabled = IsUserAllowedToSave("L3STinstance");
     }
 
     #endregion
@@ -255,6 +257,8 @@ namespace Trafilm.Gallery
 
     protected void btnSave_Click(object sender, EventArgs e)
     {
+      if (!IsUserAllowedToSave("L3STinstance")) return;
+
       Save();
       SaveCollection();
       DisplayMetadata(listL3STinstances.SelectedValue); //Reload saved data on the UI to confirm what was saved. This is also important to update any calculated fields that make use of the edited object's metadata values

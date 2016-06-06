@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: film\metadata\default.aspx
-Version: 20160530
+Version: 20160602
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -20,9 +20,7 @@ Version: 20160530
 
     <%-- DATA SOURCES --%>
 
-    <asp:XmlDataSource ID="xmlCountries" runat="server" DataFile="~/metadata/Countries.xml" XPath="Facet/String" />
     <asp:XmlDataSource ID="XmlL1language" runat="server" DataFile="~/metadata/L1language.xml" XPath="Facet/String" />
-    <asp:XmlDataSource ID="xmlLanguages" runat="server" DataFile="~/metadata/Languages.xml" XPath="Facet/String" />
 
     <%-- NAVIGATION MENU --%>
 
@@ -45,6 +43,10 @@ Version: 20160530
     </div>
 
     <form id="form1" runat="server">
+
+      <%-- LOGIN STATUS --%>
+
+      <asp:LoginName ID="loginName" runat="server" FormatString="Welcome {0}!" /> [<asp:LoginStatus ID="loginStatus" runat="server"/>]
 
       <%-- INFO BOX --%>
 
@@ -95,8 +97,8 @@ Version: 20160530
         <%-- ITrafilmMetadata --%>
 
         <div class="question">
-          <div class="label">3. Keywords (comma-separated)</div>
-          <div class="tip">Enter OPTIONAL list of keywords to help identify this item</div>
+          <div class="label">3. Keywords</div>
+          <div class="tip">Comma-separated list of keywords to help identify this item (OPTIONAL)</div>
           <asp:TextBox ID="txtKeywords" runat="server" Columns="150"></asp:TextBox>
         </div>
 
@@ -136,12 +138,8 @@ Version: 20160530
 
         <div class="question">
           <div class="label">9. Production countries</div>
-          <asp:Panel runat="server" MaxHeight="100" ScrollBars="Auto">
-            <asp:CheckBoxList ID="clistProductionCountries" runat="server" 
-              DataSourceID="xmlCountries" DataTextField="Value" DataValueField="Value"
-              RepeatLayout="Table" RepeatColumns="10" RepeatDirection="Vertical"
-              />
-           </asp:Panel>
+          <div class="tip">Comma-separated list of film's production countries</div>
+          <asp:TextBox ID="txtProductionCountries" runat="server" Columns="150"></asp:TextBox>
         </div>
 
         <div class="question">
@@ -165,7 +163,7 @@ Version: 20160530
 
         <div class="question">
           <div class="label">13. L1 language</div>
-          <asp:Panel runat="server" MaxHeight="100" ScrollBars="Auto">
+          <asp:Panel runat="server" ScrollBars="Auto">
             <asp:DropDownList ID="listL1language" runat="server"
               DataSourceID="xmlL1language" DataTextField="Value" DataValueField="Value"
               />
@@ -183,14 +181,14 @@ Version: 20160530
 
         <div>
           <div class="label">L2-Dubbed languages</div>
-          <asp:Panel runat="server" MaxHeight="100" ScrollBars="Auto">
+          <asp:Panel runat="server" Height="100" ScrollBars="Auto">
             <asp:ListBox ID="listL2dubbedLanguages" runat="server" Enabled="false" />
            </asp:Panel>
         </div>
         
         <div>
           <div class="label">L2-Subtitled languages</div>
-          <asp:Panel runat="server" MaxHeight="100" ScrollBars="Auto">
+          <asp:Panel runat="server" Height="100" ScrollBars="Auto">
             <asp:ListBox ID="listL2subtitledLanguages" runat="server" Enabled="false" />
            </asp:Panel>
         </div>   
