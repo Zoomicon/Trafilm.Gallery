@@ -147,7 +147,7 @@ Version: 20160606
 
         <div class="question">
           <div class="label">5. Remarks </div>
-          <div class="tip">Remarks on the metadata itself (OPTIONAL)</div>
+          <div class="tip">Remarks on the metadata (OPTIONAL)</div>
           <asp:TextBox ID="txtRemarks" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
         </div>
 

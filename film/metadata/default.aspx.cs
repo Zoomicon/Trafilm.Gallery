@@ -203,7 +203,7 @@ namespace Trafilm.Gallery
 
     public void SaveCollection()
     {
-      SaveCollection(Path.Combine(Request.PhysicalApplicationPath, @"film\films.cxml"), "Trafilm Gallery Films", FilmMetadataFacets.GetCXMLFacetCategories(), filmStorage.Values);
+      SaveCollection(Path.Combine(Request.PhysicalApplicationPath, @"film\films.cxml"), "Trafilm Gallery: Films", FilmMetadataFacets.GetCXMLFacetCategories(), filmStorage.Values);
     }
 
     #endregion

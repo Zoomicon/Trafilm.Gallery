@@ -183,7 +183,7 @@ namespace Trafilm.Gallery
 
     public void SaveCollection()
     {
-      SaveCollection(Path.Combine(Request.PhysicalApplicationPath, "conversation/conversations.cxml"), "Trafilm Gallery Conversations", ConversationMetadataFacets.GetCXMLFacetCategories(), conversationStorage.Values);
+      SaveCollection(Path.Combine(Request.PhysicalApplicationPath, @"conversation\conversations.cxml"), "Trafilm Gallery: Conversations", ConversationMetadataFacets.GetCXMLFacetCategories(), conversationStorage.Values);
     }
 
     #endregion

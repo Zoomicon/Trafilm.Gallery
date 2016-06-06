@@ -231,7 +231,7 @@ namespace Trafilm.Gallery
 
     public void SaveCollection()
     {
-      SaveCollection(Path.Combine(Request.PhysicalApplicationPath, "L3TTinstance/L3TTinstances.cxml"), "Trafilm Gallery L3TTinstances", L3TTinstanceMetadataFacets.GetCXMLFacetCategories(), l3TTinstanceStorage.Values);
+      SaveCollection(Path.Combine(Request.PhysicalApplicationPath, @"L3TTinstance\L3TTinstances.cxml"), "Trafilm Gallery: L3TT-instances", L3TTinstanceMetadataFacets.GetCXMLFacetCategories(), l3TTinstanceStorage.Values);
     }
 
     #endregion
