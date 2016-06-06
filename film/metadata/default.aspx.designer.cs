@@ -139,6 +139,15 @@ namespace Trafilm.Gallery {
         protected global::System.Web.UI.WebControls.Label lblInfoUpdated;
         
         /// <summary>
+        /// txtTranscription control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtTranscription;
+        
+        /// <summary>
         /// txtKeywords control.
         /// </summary>
         /// <remarks>
@@ -146,6 +155,15 @@ namespace Trafilm.Gallery {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtKeywords;
+        
+        /// <summary>
+        /// txtRemarks control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtRemarks;
         
         /// <summary>
         /// txtTitle_es control.

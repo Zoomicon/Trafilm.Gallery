@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: conversation\metadata\default.aspx
-Version: 20160602
+Version: 20160606
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -93,6 +93,11 @@ Version: 20160602
         <div class="label">Conversation URL</div>
         <asp:HyperLink ID="linkUrl" runat="server" Target="_blank"/>
     
+        <%-- TODO: maybe add image control and upload image action here? %>    
+
+
+        <%-- ITrafilmMetadata --%>
+
         <div>
           <span class="label">Info created: </span>
           <asp:Label ID="lblInfoCreated" runat="server" />
@@ -101,29 +106,40 @@ Version: 20160602
           <asp:Label ID="lblInfoUpdated" runat="server" />
         </div>
 
-        <%-- ITrafilmMetadata --%>
+        <div class="question">
+          <div class="label">3. Transcription </div>
+          <div class="tip">Transcription for the specific conversation (OPTIONAL)</div>
+          <asp:TextBox ID="txtTranscription" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
+        </div>
 
         <div class="question">
-          <div class="label">3. Keywords</div>
+          <div class="label">4. Keywords</div>
           <div class="tip">Comma-separated list of keywords to help identify this item (OPTIONAL)</div>
           <asp:TextBox ID="txtKeywords" runat="server" Columns="150"></asp:TextBox>
         </div>
 
+        <div class="question">
+          <div class="label">5. Remarks </div>
+          <div class="tip">Remarks on the metadata itself (OPTIONAL)</div>
+          <asp:TextBox ID="txtRemarks" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
+        </div>
+
+
         <%-- IConversationMetadata --%>
 
         <div class="question">
-          <div class="label">4. Conversation Start Time (h:m:s)</div>
+          <div class="label">6. Conversation Start Time (h:m:s)</div>
           <asp:TextBox ID="txtStartTime" runat="server" Columns="25"></asp:TextBox>
         </div>
 
         <div class="question">
-          <div class="label">5. Conversation Duration (h:m:s)</div>
+          <div class="label">7. Conversation Duration (h:m:s)</div>
           <asp:TextBox ID="txtDuration" runat="server" Columns="25"></asp:TextBox>
         </div>
         
 
         <div class="question">
-          <div class="label">6. L1 language present</div>
+          <div class="label">8. L1 language present</div>
           <div class="tip">Is L1 language present in the conversation?</div>
           <asp:DropDownList 
             ID="listL1LanguagePresent" runat="server"
@@ -132,7 +148,7 @@ Version: 20160602
         </div>
 
         <div class="question">
-          <div class="label">7. L2 language present</div>
+          <div class="label">9. L2 language present</div>
           <div class="tip">Is L2 language present in the conversation?</div>
           <asp:DropDownList 
             ID="listL2LanguagePresent" runat="server"
@@ -142,7 +158,7 @@ Version: 20160602
 
 
         <div class="question">
-          <div class="label">8. Speaking characters: count</div>
+          <div class="label">10. Speaking characters: count</div>
           <div class="info">How many persons are speaking?</div>
           <asp:DropDownList 
             ID="listSpeakingCharactersCount" runat="server"
@@ -151,7 +167,7 @@ Version: 20160602
         </div>
 
         <div class="question">
-          <div class="label">9. L3ST-speaking characters: count</div>
+          <div class="label">11. L3ST-speaking characters: count</div>
           <div class="info">How many persons are speaking some form of L3ST?</div>
           <asp:DropDownList 
             ID="listL3speakingCharactersCount" runat="server"
