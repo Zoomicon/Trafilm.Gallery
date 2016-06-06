@@ -21,7 +21,7 @@
     <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Django Unchained_2012.Slave speaks a little German" Name="Django Unchained_2012.Slave speaks a little German" Img="../conversation/image/Django Unchained_2012.Slave speaks a little German.png" Href="http://gallery.trafilm.net/conversation/#Django Unchained_2012.Slave speaks a little German">
+    <Item Id="Django Unchained_2012.Slave speaks a little German" Name="Django Unchained_2012.Slave speaks a little German" Img="../conversation/image/Django Unchained_2012.Slave speaks a little German.png" Href="http://gallery.trafilm.net/conversation/metadata/?film=Django Unchained_2012&amp;conversation=Django Unchained_2012.Slave speaks a little German">
       <Description>Brunhida is introduced to Schultz and shown off by her owner to speak a little German. She tells the slave to "speak a little German"</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -31,7 +31,7 @@
           <DateTime Value="2016-05-31T12:04:40" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-06T02:29:12" />
+          <DateTime Value="2016-06-06T03:44:57" />
         </Facet>
         <Facet Name="Keywords">
           <String Value="conversation opener" />

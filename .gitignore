@@ -4,13 +4,6 @@
 # Authentication-sensitive stuff
 web.config
 
-# PivotViewer collection files
-/collection/
-/film/image/
-/conversation/image/
-/L3STinstance/images/
-/L3TTinstance/images/
-
 # LocalHistory extension for VisualStudio
 .localhistory/
 

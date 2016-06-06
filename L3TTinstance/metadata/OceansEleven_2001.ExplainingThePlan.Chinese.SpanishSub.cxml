@@ -24,12 +24,14 @@
     <FacetCategory Name="L3ST language type change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3ST mode change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3ST functions change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Keywords" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="OceansEleven_2001.ExplainingThePlan.Chinese.SpanishSub" Name="OceansEleven_2001.ExplainingThePlan.Chinese.SpanishSub" Img="../L3TTinstance/image/OceansEleven_2001.ExplainingThePlan.Chinese.SpanishSub.png" Href="http://gallery.trafilm.net/L3TTinstance/#OceansEleven_2001.ExplainingThePlan.Chinese.SpanishSub">
+    <Item Id="OceansEleven_2001.ExplainingThePlan.Chinese.SpanishSub" Name="OceansEleven_2001.ExplainingThePlan.Chinese.SpanishSub" Img="../L3TTinstance/image/OceansEleven_2001.ExplainingThePlan.Chinese.SpanishSub.png" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=OceansEleven_2001&amp;conversation=OceansEleven_2001.ExplainingThePlan&amp;L3STinstance=OceansEleven_2001.ExplainingThePlan.Chinese&amp;L3TTinstance=OceansEleven_2001.ExplainingThePlan.Chinese.SpanishSub">
       <Description>Subtitled utterance</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -39,7 +41,7 @@
           <DateTime Value="2016-05-26T07:05:07" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-05-30T02:59:15" />
+          <DateTime Value="2016-06-06T03:46:04" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="OceansEleven_2001" />

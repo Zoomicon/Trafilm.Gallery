@@ -24,7 +24,7 @@
     <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Django Unchained_2012" Name="Django Unchained" Img="../film/image/Django Unchained_2012.png" Href="http://gallery.trafilm.net/film/#Django Unchained_2012">
+    <Item Id="Django Unchained_2012" Name="Django Unchained" Img="../film/image/Django Unchained_2012.png" Href="http://gallery.trafilm.net/film/metadata/?film=Django Unchained_2012">
       <Description>Western. A story of slavery and revenge, gunfighters and slavemasters, US South</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -34,7 +34,7 @@
           <DateTime Value="2016-05-31T11:56:17" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-06T02:03:25" />
+          <DateTime Value="2016-06-06T03:40:03" />
         </Facet>
         <Facet Name="Title in Spanish">
           <String Value="Django Desencadenado" />

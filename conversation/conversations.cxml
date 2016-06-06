@@ -21,7 +21,7 @@
     <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Django Unchained_2012.Slave speaks a little German" Name="Django Unchained_2012.Slave speaks a little German" Img="../conversation/image/Django Unchained_2012.Slave speaks a little German.png" Href="http://gallery.trafilm.net/conversation/#Django Unchained_2012.Slave speaks a little German">
+    <Item Id="Django Unchained_2012.Slave speaks a little German" Name="Django Unchained_2012.Slave speaks a little German" Img="../conversation/image/Django Unchained_2012.Slave speaks a little German.png" Href="http://gallery.trafilm.net/conversation/metadata/?film=Django Unchained_2012&amp;conversation=Django Unchained_2012.Slave speaks a little German">
       <Description>Brunhida is introduced to Schultz and shown off by her owner to speak a little German. She tells the slave to "speak a little German"</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -31,7 +31,7 @@
           <DateTime Value="2016-05-31T12:04:40" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-06T02:29:12" />
+          <DateTime Value="2016-06-06T03:44:57" />
         </Facet>
         <Facet Name="Keywords">
           <String Value="conversation opener" />
@@ -75,59 +75,7 @@
         </Facet>
       </Facets>
     </Item>
-    <Item Id="FellowshipOfTheRing_2001." Name="FellowshipOfTheRing_2001." Img="" Href="">
-      <Description></Description>
-      <Facets>
-        <Facet Name="Reference Id">
-          <String Value="FellowshipOfTheRing_2001." />
-        </Facet>
-        <Facet Name="Info created">
-          <DateTime Value="2016-06-01T03:32:10" />
-        </Facet>
-        <Facet Name="Info updated">
-          <DateTime Value="2016-06-01T03:32:10" />
-        </Facet>
-        <Facet Name="Film Reference Id">
-          <String Value="FellowshipOfTheRing_2001" />
-        </Facet>
-        <Facet Name="L3ST languages: count">
-          <String Value="0" />
-        </Facet>
-        <Facet Name="L3ST language types: count">
-          <String Value="0" />
-        </Facet>
-        <Facet Name="L3ST-instances: count">
-          <String Value="0" />
-        </Facet>
-      </Facets>
-    </Item>
-    <Item Id="LoveActually_2003." Name="LoveActually_2003." Img="" Href="">
-      <Description></Description>
-      <Facets>
-        <Facet Name="Reference Id">
-          <String Value="LoveActually_2003." />
-        </Facet>
-        <Facet Name="Info created">
-          <DateTime Value="2016-06-01T04:22:32" />
-        </Facet>
-        <Facet Name="Info updated">
-          <DateTime Value="2016-06-01T04:22:32" />
-        </Facet>
-        <Facet Name="Film Reference Id">
-          <String Value="LoveActually_2003" />
-        </Facet>
-        <Facet Name="L3ST languages: count">
-          <String Value="0" />
-        </Facet>
-        <Facet Name="L3ST language types: count">
-          <String Value="0" />
-        </Facet>
-        <Facet Name="L3ST-instances: count">
-          <String Value="0" />
-        </Facet>
-      </Facets>
-    </Item>
-    <Item Id="LoveActually_2003.Lake Scene" Name="LoveActually_2003.Lake Scene" Img="../conversation/image/LoveActually_2003.Lake Scene.png" Href="http://gallery.trafilm.net/conversation/#LoveActually_2003.Lake Scene">
+    <Item Id="LoveActually_2003.Lake Scene" Name="LoveActually_2003.Lake Scene" Img="../conversation/image/LoveActually_2003.Lake Scene.png" Href="http://gallery.trafilm.net/conversation/metadata/?film=LoveActually_2003&amp;conversation=LoveActually_2003.Lake Scene">
       <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -137,7 +85,7 @@
           <DateTime Value="2016-06-01T04:23:13" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-01T04:24:02" />
+          <DateTime Value="2016-06-06T03:43:50" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="LoveActually_2003" />
@@ -158,14 +106,17 @@
           <String Value="0" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <String Value="0" />
+          <String Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <String Value="0" />
+          <String Value="1" />
         </Facet>
       </Facets>
     </Item>
-    <Item Id="OceansEleven_2001.ExplainingThePlan" Name="Ocean's Eleven - Explaining the plan" Img="../conversation/image/OceansEleven_2001.ExplainingThePlan.png" Href="http://gallery.trafilm.net/conversation/#OceansEleven_2001.ExplainingThePlan">
+    <Item Id="OceansEleven_2001.ExplainingThePlan" Name="Ocean's Eleven - Explaining the plan" Img="../conversation/image/OceansEleven_2001.ExplainingThePlan.png" Href="http://gallery.trafilm.net/conversation/metadata/?film=OceansEleven_2001&amp;conversation=OceansEleven_2001.ExplainingThePlan">
       <Description>They are explaining the plan and the Chinese asks a question. Rusty responds.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -175,7 +126,7 @@
           <DateTime Value="2016-05-25T10:57:47" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-05-30T02:54:36" />
+          <DateTime Value="2016-06-06T03:41:56" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="OceansEleven_2001" />
@@ -209,7 +160,7 @@
         </Facet>
       </Facets>
     </Item>
-    <Item Id="TheWalk_2015.GettingAnInterphone" Name="TheWalk_2015.GettingAnInterphone" Img="../conversation/image/TheWalk_2015.GettingAnInterphone.png" Href="http://gallery.trafilm.net/conversation/#TheWalk_2015.GettingAnInterphone">
+    <Item Id="TheWalk_2015.GettingAnInterphone" Name="TheWalk_2015.GettingAnInterphone" Img="../conversation/image/TheWalk_2015.GettingAnInterphone.png" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk_2015&amp;conversation=TheWalk_2015.GettingAnInterphone">
       <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -219,7 +170,7 @@
           <DateTime Value="2016-05-31T11:05:38" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-05-31T11:08:13" />
+          <DateTime Value="2016-06-06T03:41:02" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="TheWalk_2015" />
@@ -253,7 +204,7 @@
         </Facet>
       </Facets>
     </Item>
-    <Item Id="TheWalk_2015.MeetingAnnie" Name="TheWalk_2015.MeetingAnnie" Img="../conversation/image/TheWalk_2015.MeetingAnnie.png" Href="http://gallery.trafilm.net/conversation/#TheWalk_2015.MeetingAnnie">
+    <Item Id="TheWalk_2015.MeetingAnnie" Name="TheWalk_2015.MeetingAnnie" Img="../conversation/image/TheWalk_2015.MeetingAnnie.png" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk_2015&amp;conversation=TheWalk_2015.MeetingAnnie">
       <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -263,7 +214,7 @@
           <DateTime Value="2016-05-31T10:48:12" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-05-31T10:52:02" />
+          <DateTime Value="2016-06-06T03:41:08" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="TheWalk_2015" />
@@ -297,7 +248,7 @@
         </Facet>
       </Facets>
     </Item>
-    <Item Id="TheWalk_2015.MeetingJean-François" Name="TheWalk_2015.MeetingJean-François" Img="../conversation/image/TheWalk_2015.MeetingJean-François.png" Href="http://gallery.trafilm.net/conversation/#TheWalk_2015.MeetingJean-François">
+    <Item Id="TheWalk_2015.MeetingJean-François" Name="TheWalk_2015.MeetingJean-François" Img="../conversation/image/TheWalk_2015.MeetingJean-François.png" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk_2015&amp;conversation=TheWalk_2015.MeetingJean-François">
       <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -307,7 +258,7 @@
           <DateTime Value="2016-05-31T11:01:52" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-05-31T11:03:57" />
+          <DateTime Value="2016-06-06T03:41:13" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="TheWalk_2015" />
@@ -341,7 +292,7 @@
         </Facet>
       </Facets>
     </Item>
-    <Item Id="TheWalk_2015.MeetingJean-Louis" Name="TheWalk_2015.MeetingJean-Louis" Img="../conversation/image/TheWalk_2015.MeetingJean-Louis.png" Href="http://gallery.trafilm.net/conversation/#TheWalk_2015.MeetingJean-Louis">
+    <Item Id="TheWalk_2015.MeetingJean-Louis" Name="TheWalk_2015.MeetingJean-Louis" Img="../conversation/image/TheWalk_2015.MeetingJean-Louis.png" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk_2015&amp;conversation=TheWalk_2015.MeetingJean-Louis">
       <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -351,7 +302,7 @@
           <DateTime Value="2016-05-31T10:52:52" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-05-31T10:55:33" />
+          <DateTime Value="2016-06-06T03:41:18" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="TheWalk_2015" />
@@ -385,7 +336,7 @@
         </Facet>
       </Facets>
     </Item>
-    <Item Id="TheWalk_2015.MeetingPapaRudy" Name="TheWalk_2015.MeetingPapaRudy" Img="../conversation/image/TheWalk_2015.MeetingPapaRudy.png" Href="http://gallery.trafilm.net/conversation/#TheWalk_2015.MeetingPapaRudy">
+    <Item Id="TheWalk_2015.MeetingPapaRudy" Name="TheWalk_2015.MeetingPapaRudy" Img="../conversation/image/TheWalk_2015.MeetingPapaRudy.png" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk_2015&amp;conversation=TheWalk_2015.MeetingPapaRudy">
       <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -395,7 +346,7 @@
           <DateTime Value="2016-05-31T10:39:50" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-05-31T10:43:00" />
+          <DateTime Value="2016-06-06T03:41:23" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="TheWalk_2015" />
@@ -419,17 +370,24 @@
           <String Value="2" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <String Value="0" />
+          <String Value="2" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Czech" />
+          <String Value="French" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <String Value="0" />
+          <String Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <String Value="0" />
+          <String Value="4" />
         </Facet>
       </Facets>
     </Item>
-    <Item Id="TheWalk_2015.OnTheRoof" Name="TheWalk_2015.OnTheRoof" Img="../conversation/image/TheWalk_2015.OnTheRoof.png" Href="http://gallery.trafilm.net/conversation/#TheWalk_2015.OnTheRoof">
+    <Item Id="TheWalk_2015.OnTheRoof" Name="TheWalk_2015.OnTheRoof" Img="../conversation/image/TheWalk_2015.OnTheRoof.png" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk_2015&amp;conversation=TheWalk_2015.OnTheRoof">
       <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -439,7 +397,7 @@
           <DateTime Value="2016-05-31T11:16:48" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-05-31T11:17:36" />
+          <DateTime Value="2016-06-06T03:41:28" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="TheWalk_2015" />
@@ -469,11 +427,11 @@
           <String Value="0" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <String Value="0" />
+          <String Value="1" />
         </Facet>
       </Facets>
     </Item>
-    <Item Id="TheWalk_2015.PlanningTheCoup" Name="TheWalk_2015.PlanningTheCoup" Img="../conversation/image/TheWalk_2015.PlanningTheCoup.png" Href="http://gallery.trafilm.net/conversation/#TheWalk_2015.PlanningTheCoup">
+    <Item Id="TheWalk_2015.PlanningTheCoup" Name="TheWalk_2015.PlanningTheCoup" Img="../conversation/image/TheWalk_2015.PlanningTheCoup.png" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk_2015&amp;conversation=TheWalk_2015.PlanningTheCoup">
       <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -483,7 +441,7 @@
           <DateTime Value="2016-05-31T10:58:15" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-05-31T11:01:26" />
+          <DateTime Value="2016-06-06T03:41:32" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="TheWalk_2015" />
@@ -517,7 +475,7 @@
         </Facet>
       </Facets>
     </Item>
-    <Item Id="TheWalk_2015.TwinTowers" Name="TheWalk_2015.TwinTowers" Img="../conversation/image/TheWalk_2015.TwinTowers.png" Href="http://gallery.trafilm.net/conversation/#TheWalk_2015.TwinTowers">
+    <Item Id="TheWalk_2015.TwinTowers" Name="TheWalk_2015.TwinTowers" Img="../conversation/image/TheWalk_2015.TwinTowers.png" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk_2015&amp;conversation=TheWalk_2015.TwinTowers">
       <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -527,7 +485,7 @@
           <DateTime Value="2016-05-31T11:12:12" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-05-31T11:14:15" />
+          <DateTime Value="2016-06-06T03:41:37" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="TheWalk_2015" />

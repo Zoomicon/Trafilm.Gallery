@@ -24,7 +24,7 @@
     <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="TheWalk_2015" Name="The Walk" Img="../film/image/TheWalk_2015.png" Href="http://gallery.trafilm.net/film/#TheWalk_2015">
+    <Item Id="TheWalk_2015" Name="The Walk" Img="../film/image/TheWalk_2015.png" Href="http://gallery.trafilm.net/film/metadata/?film=TheWalk_2015">
       <Description>In 1974, high-wire artist Philippe Petit recruits a team of people to help him realize his dream: to walk the immense void between the World Trade Center towers.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -34,7 +34,7 @@
           <DateTime Value="2016-05-31T10:18:51" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-06T02:13:40" />
+          <DateTime Value="2016-06-06T03:40:47" />
         </Facet>
         <Facet Name="Title in Spanish">
           <String Value="El desafío (The Walk)" />

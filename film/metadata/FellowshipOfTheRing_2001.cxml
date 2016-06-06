@@ -17,26 +17,28 @@
     <FacetCategory Name="Conversations: duration (h:m:s)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="L2-Dubbed languages" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L2-Subtitled languages" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Keywords" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="FellowshipOfTheRing_2001" Name="The Fellowship Of The Ring" Img="../film/image/FellowshipOfTheRing_2001.png" Href="http://gallery.trafilm.net/film/#FellowshipOfTheRing_2001">
+    <Item Id="FellowshipOfTheRing_2001" Name="The Fellowship Of The Ring" Img="../film/image/FellowshipOfTheRing_2001.png" Href="http://gallery.trafilm.net/film/metadata/?film=FellowshipOfTheRing_2001">
       <Description>An ancient Ring thought lost for centuries has been found, and through a strange twist in fate has been given to a small Hobbit named Frodo. When Gandalf discovers the Ring is in fact the One Ring of the Dark Lord Sauron, Frodo must make an epic quest to the Cracks of Doom in order to destroy it! However he does not go alone. He is joined by Gandalf, Legolas the elf, Gimli the Dwarf, Aragorn, Boromir and his three Hobbit friends Merry, Pippin and Samwise. Through mountains, snow, darkness, forests, rivers and plains, facing evil and danger at every corner the Fellowship of the Ring must go. Their quest to destroy the One Ring is the only hope for the end of the Dark Lords reign!</Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="FellowshipOfTheRing_2001" />
         </Facet>
-        <Facet Name="Keywords">
-          <String Value="Elvish" />
-          <String Value=" Tolkien" />
-        </Facet>
         <Facet Name="Info created">
           <DateTime Value="2016-06-01T02:48:36" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-02T04:14:59" />
+          <DateTime Value="2016-06-06T03:40:08" />
+        </Facet>
+        <Facet Name="Keywords">
+          <String Value="Elvish" />
+          <String Value=" Tolkien" />
         </Facet>
         <Facet Name="Title in Spanish">
           <String Value="La comunidad del anillo" />

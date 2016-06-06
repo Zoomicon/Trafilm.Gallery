@@ -17,12 +17,14 @@
     <FacetCategory Name="Conversations: duration (h:m:s)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="L2-Dubbed languages" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L2-Subtitled languages" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Keywords" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="OceansEleven_2001" Name="Ocean's Eleven" Img="../film/image/OceansEleven_2001.png" Href="http://gallery.trafilm.net/film/#OceansEleven_2001">
+    <Item Id="OceansEleven_2001" Name="Ocean's Eleven" Img="../film/image/OceansEleven_2001.png" Href="http://gallery.trafilm.net/film/metadata/?film=OceansEleven_2001">
       <Description>Danny Ocean wants to score the biggest heist in history. He combines an eleven member team, including Frank Catton, Rusty Ryan and Linus Caldwell. Their target? The Bellagio, the Mirage and the MGM Grand. All casinos owned by Terry Benedict. It's not going to be easy, as they plan to get in secretly and out with $150 million.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -32,7 +34,7 @@
           <DateTime Value="2016-05-25T10:53:52" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-05-30T03:13:05" />
+          <DateTime Value="2016-06-06T03:40:30" />
         </Facet>
         <Facet Name="Title in Spanish">
           <String Value="Hagan juego" />

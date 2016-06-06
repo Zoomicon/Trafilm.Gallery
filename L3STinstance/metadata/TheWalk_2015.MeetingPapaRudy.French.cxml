@@ -20,12 +20,14 @@
     <FacetCategory Name="L3ST represented: visual" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3ST functions" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3TT-instances: count" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Keywords" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="TheWalk_2015.MeetingPapaRudy.French" Name="TheWalk_2015.MeetingPapaRudy.French" Img="../L3STinstance/image/TheWalk_2015.MeetingPapaRudy.French.png" Href="http://gallery.trafilm.net/L3STinstance/#TheWalk_2015.MeetingPapaRudy.French">
+    <Item Id="TheWalk_2015.MeetingPapaRudy.French" Name="TheWalk_2015.MeetingPapaRudy.French" Img="../L3STinstance/image/TheWalk_2015.MeetingPapaRudy.French.png" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk_2015&amp;conversation=TheWalk_2015.MeetingPapaRudy&amp;L3STinstance=TheWalk_2015.MeetingPapaRudy.French">
       <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -35,7 +37,7 @@
           <DateTime Value="2016-05-31T11:35:28" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-05-31T11:39:35" />
+          <DateTime Value="2016-06-06T03:47:50" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="TheWalk_2015" />

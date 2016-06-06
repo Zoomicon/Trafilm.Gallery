@@ -14,12 +14,14 @@
     <FacetCategory Name="L3ST language types: count" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="L3ST language types" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3ST-instances: count" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Keywords" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="LoveActually_2003.Lake Scene" Name="LoveActually_2003.Lake Scene" Img="../conversation/image/LoveActually_2003.Lake Scene.png" Href="http://gallery.trafilm.net/conversation/#LoveActually_2003.Lake Scene">
+    <Item Id="LoveActually_2003.Lake Scene" Name="LoveActually_2003.Lake Scene" Img="../conversation/image/LoveActually_2003.Lake Scene.png" Href="http://gallery.trafilm.net/conversation/metadata/?film=LoveActually_2003&amp;conversation=LoveActually_2003.Lake Scene">
       <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -29,7 +31,7 @@
           <DateTime Value="2016-06-01T04:23:13" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-01T04:24:02" />
+          <DateTime Value="2016-06-06T03:43:50" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="LoveActually_2003" />
@@ -50,10 +52,13 @@
           <String Value="0" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <String Value="0" />
+          <String Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <String Value="0" />
+          <String Value="1" />
         </Facet>
       </Facets>
     </Item>

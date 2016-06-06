@@ -17,25 +17,27 @@
     <FacetCategory Name="Conversations: duration (h:m:s)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="L2-Dubbed languages" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L2-Subtitled languages" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Keywords" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="LoveActually_2003" Name="Love Actually " Img="../film/image/LoveActually_2003.png" Href="http://gallery.trafilm.net/film/#LoveActually_2003">
+    <Item Id="LoveActually_2003" Name="Love Actually " Img="../film/image/LoveActually_2003.png" Href="http://gallery.trafilm.net/film/metadata/?film=LoveActually_2003">
       <Description>Follows the lives of eight very different couples in dealing with their love lives in various loosely interrelated tales all set during a frantic month before Christmas in London, England. (imdb)</Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="LoveActually_2003" />
         </Facet>
-        <Facet Name="Keywords">
-          <String Value="faltan datos importantes" />
-        </Facet>
         <Facet Name="Info created">
           <DateTime Value="2016-06-01T03:30:55" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-02T11:21:19" />
+          <DateTime Value="2016-06-06T03:40:24" />
+        </Facet>
+        <Facet Name="Keywords">
+          <String Value="faltan datos importantes" />
         </Facet>
         <Facet Name="Title in Spanish">
           <String Value="Love Actually" />

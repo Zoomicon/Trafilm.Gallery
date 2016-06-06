@@ -17,26 +17,28 @@
     <FacetCategory Name="Conversations: duration (h:m:s)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="L2-Dubbed languages" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L2-Subtitled languages" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Keywords" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="TheReturnOfTheKing_2003" Name="The Return Of The King" Img="../film/image/TheReturnOfTheKing_2003.png" Href="http://gallery.trafilm.net/film/#TheReturnOfTheKing_2003">
+    <Item Id="TheReturnOfTheKing_2003" Name="The Return Of The King" Img="../film/image/TheReturnOfTheKing_2003.png" Href="http://gallery.trafilm.net/film/metadata/?film=TheReturnOfTheKing_2003">
       <Description>Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.</Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="TheReturnOfTheKing_2003" />
         </Facet>
-        <Facet Name="Keywords">
-          <String Value="Elvish" />
-          <String Value=" Tolkien" />
-        </Facet>
         <Facet Name="Info created">
           <DateTime Value="2016-06-01T02:48:36" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-02T04:15:21" />
+          <DateTime Value="2016-06-06T03:40:36" />
+        </Facet>
+        <Facet Name="Keywords">
+          <String Value="Elvish" />
+          <String Value=" Tolkien" />
         </Facet>
         <Facet Name="Title in Spanish">
           <String Value="El retorno del rey" />
