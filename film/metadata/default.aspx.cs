@@ -46,11 +46,15 @@ namespace Trafilm.Gallery
       SelectFilm(filmId);
     }
 
+    #region Selection
+
     public void SelectFilm(string filmId)
     {
       UpdateFilmsList(listFilms, filmId); //update list since it may not be up-to-date
       listFilms_SelectedIndexChanged(listFilms, null);
     }
+
+    #endregion
 
     #region Linked Data
 

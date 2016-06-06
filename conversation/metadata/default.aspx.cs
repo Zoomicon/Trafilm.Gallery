@@ -51,11 +51,15 @@ namespace Trafilm.Gallery
       SelectConversation(conversationId);
     }
 
+    #region Selection
+
     public void SelectConversation(string conversationId)
     {
       UpdateConversationsList(listConversations, conversationId); //update list since it may not be up-to-date
       listConversations_SelectedIndexChanged(listConversations, null);
     }
+
+    #endregion
 
     #region Linked Data
 
@@ -87,7 +91,7 @@ namespace Trafilm.Gallery
       //Ignoring the Id field, since some Pivot Tools expect it to be sequential
       UI.Load(txtTitle, metadata.Title);
       //Not showing any Image field
-      UI.Load(linkUrl, GetConversationUri(key));
+      UI.Load(linkUrl, GetConversationUri(metadata.FilmReferenceId, key));
       UI.Load(txtDescription, metadata.Description);
 
       //ITrafilmMetadata//
@@ -134,12 +138,13 @@ namespace Trafilm.Gallery
     {
       IConversation metadata = new Conversation();
       string key = listConversations.SelectedValue;
+      string filmReferenceId = listFilms.SelectedValue;
 
       //ICXMLMetadata//
 
       metadata.Title = txtTitle.Text;
       metadata.Image = "../conversation/image/" + key + ".png";
-      metadata.Url = GetConversationUri(key);
+      metadata.Url = GetConversationUri(filmReferenceId, key);
       metadata.Description = txtDescription.Text;
 
       //ITrafilmMetadata//
@@ -157,7 +162,7 @@ namespace Trafilm.Gallery
 
       //IConversation//
 
-      metadata.FilmReferenceId = listFilms.SelectedValue;
+      metadata.FilmReferenceId = filmReferenceId;
 
       metadata.StartTime = txtStartTime.Text.ToNullableTimeSpan(ConversationMetadata.DEFAULT_POSITION_FORMAT);
       metadata.Duration = txtDuration.Text.ToNullableTimeSpan(ConversationMetadata.DEFAULT_DURATION_FORMAT);
@@ -183,7 +188,8 @@ namespace Trafilm.Gallery
 
     public void SaveCollection()
     {
-      SaveCollection(Path.Combine(Request.PhysicalApplicationPath, @"conversation\conversations.cxml"), "Trafilm Gallery: Conversations", ConversationMetadataFacets.GetCXMLFacetCategories(), conversationStorage.Values);
+      ICXMLMetadataStorage<IConversation> allConversationsStorage = new CXMLFragmentStorage<IConversation, Conversation>(Path.Combine(Request.PhysicalApplicationPath, @"conversation\conversations.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"conversation\metadata"), "*.cxml");
+      SaveCollection(Path.Combine(Request.PhysicalApplicationPath, @"conversation\conversations.cxml"), "Trafilm Gallery: Conversations", ConversationMetadataFacets.GetCXMLFacetCategories(), allConversationsStorage.Values);
     }
 
     #endregion

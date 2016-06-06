@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: BaseMetadataPage.cs
-//Version: 20160602
+//Version: 20160606
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -119,24 +119,24 @@ namespace Trafilm.Gallery
 
     #region "URIs"
 
-    public Uri GetFilmUri(string key)
+    public Uri GetFilmUri(string filmId)
     {
-      return new Uri("http://gallery.trafilm.net/film/#" + key);
+      return new Uri("http://gallery.trafilm.net/film/metadata/?film=" + filmId);
     }
 
-    public Uri GetConversationUri(string key)
+    public Uri GetConversationUri(string filmId, string conversationId)
     {
-      return new Uri("http://gallery.trafilm.net/conversation/#" + key);
+      return new Uri("http://gallery.trafilm.net/conversation/metadata/?film=" + filmId + "&conversation=" + conversationId);
     }
 
-    public Uri GetL3STinstanceUri(string key)
+    public Uri GetL3STinstanceUri(string filmId, string conversationId, string l3STinstanceId)
     {
-      return new Uri("http://gallery.trafilm.net/L3STinstance/#" + key);
+      return new Uri("http://gallery.trafilm.net/L3STinstance/metadata/?film=" + filmId + "&conversation=" + conversationId + "&L3STinstance=" + l3STinstanceId);
     }
 
-    public Uri GetL3TTinstanceUri(string key)
+    public Uri GetL3TTinstanceUri(string filmId, string conversationId, string l3STinstanceId, string l3TTinstanceId)
     {
-      return new Uri("http://gallery.trafilm.net/L3TTinstance/#" + key);
+      return new Uri("http://gallery.trafilm.net/L3TTinstance/metadata/?film=" + filmId + "&conversation=" + conversationId + "&L3STinstance=" + l3STinstanceId + "&L3TTinstance=" + l3TTinstanceId);
     }
 
     #endregion
