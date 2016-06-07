@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: conversation\metadata\default.aspx.cs
-//Version: 20160606
+//Version: 20160608
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -34,7 +34,9 @@ namespace Trafilm.Gallery
         listConversations_SelectedIndexChanged(listConversations, null);
       }
 
-      panelMetadata.Enabled = IsUserAllowedToSave("Conversation");
+      bool canSave = IsUserAllowedToSave("Conversation");
+      panelAdd.Visible = canSave;
+      panelMetadata.Enabled = canSave;
     }
 
     #endregion
@@ -252,6 +254,8 @@ namespace Trafilm.Gallery
 
     protected void btnAddConversation_Click(object sender, EventArgs e)
     {
+      if (!IsUserAllowedToSave("Conversation")) return;
+
       AddConversation();
     }
 

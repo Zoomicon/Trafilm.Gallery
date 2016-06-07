@@ -4,8 +4,8 @@
 
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
-Filename: L3TTTTinstance\metadata\default.aspx
-Version: 20160606
+Filename: L3TTinstance\metadata\default.aspx
+Version: 20160608
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -87,13 +87,13 @@ Version: 20160606
               <div class="label">Select an L3TT-instance</div> 
               <asp:DropDownList ID="listL3TTinstances" runat="server" AutoPostBack="True" OnSelectedIndexChanged="listL3TTinstances_SelectedIndexChanged" />
 
-              <div>
+              <asp:Panel ID="panelAdd" runat="server">
                 <div class="label">or add new L3TT-instance Id (e.g. <i>SpanishDub</i> or <i>SpanishSub</i> - do not include the Film Id, Conversation Id and L3ST-instance Id prefixes)</div>
                 <asp:TextBox ID="txtL3TTinstance" runat="server" />
                 <asp:Button ID="btnAddL3TTinstance" runat="server" Text="Add" OnClick="btnAddL3TTinstance_Click" />
                 &nbsp;
                 <asp:CheckBox ID="cbClone" Text="Copy from selected" runat="server" Visible="false" />
-              </div>
+              </asp:Panel>
             </asp:Panel>
 
           </asp:Panel>

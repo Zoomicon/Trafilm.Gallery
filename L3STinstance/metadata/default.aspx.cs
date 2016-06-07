@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: L3STinstance\metadata\default.aspx.cs
-//Version: 20160606
+//Version: 20160608
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -38,7 +38,9 @@ namespace Trafilm.Gallery
         listL3STinstances_SelectedIndexChanged(listL3STinstances, null);
       }
 
-      panelMetadata.Enabled = IsUserAllowedToSave("L3STinstance");
+      bool canSave = IsUserAllowedToSave("L3STinstance");
+      panelAdd.Visible = canSave;
+      panelMetadata.Enabled = canSave;
     }
 
     #endregion
@@ -269,6 +271,8 @@ namespace Trafilm.Gallery
 
     protected void btnAddL3STinstance_Click(object sender, EventArgs e)
     {
+      if (!IsUserAllowedToSave("L3STinstance")) return;
+
       AddL3STinstance();
     }
 
