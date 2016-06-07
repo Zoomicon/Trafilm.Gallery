@@ -14,7 +14,7 @@ Version: 20160608
 <head>
 
 <title>Trafilm Metadata | The Translation of Multilingual Films in Spain</title>
-<link rel="shortcut icon" type="image/ico" href='favicon.ico' />
+<link rel="shortcut icon" type="image/ico" href='/favicon.ico' />
 
 
 <style type="text/css">
@@ -39,7 +39,7 @@ iframe
 
 <body>
   <iframe src="http://gallery.trafilm.net/film/metadata">
-    <a href="http://gallery.trafilm.net/film/metadata">Trafilm Film Gallery Metadata</a>
+    <a href="http://gallery.trafilm.net/film/metadata">Trafilm Metadata | Films</a>
   </iframe>
 </body>
 

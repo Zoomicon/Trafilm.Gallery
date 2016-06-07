@@ -11,7 +11,7 @@ Version: 20160608
 <html xmlns="http://www.w3.org/1999/xhtml">
 
   <head runat="server">
-    <title>Trafilm Gallery - L3ST-instance Metadata</title>
+    <title>Trafilm Metadata | L3ST-instances</title>
 
     <link href="../../css/metadata.css" rel="stylesheet" type="text/css" />
   </head>
