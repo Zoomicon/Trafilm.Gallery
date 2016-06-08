@@ -42,6 +42,8 @@ namespace Trafilm.Gallery
     public void AddFilm()
     {
       string filmId = txtFilm.Text;
+      if (string.IsNullOrWhiteSpace(filmId)) return;
+
       txtFilm.Text = "";
 
       CreateFilm(filmId, ((listFilms.SelectedIndex > 0) && cbClone.Checked) ? GetMetadataFromUI() : null);

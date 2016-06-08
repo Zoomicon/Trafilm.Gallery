@@ -49,9 +49,13 @@ namespace Trafilm.Gallery
 
     public void AddL3STinstance()
     {
+      string l3STinstancePartialId = txtL3STinstance.Text;
+      if (string.IsNullOrWhiteSpace(l3STinstancePartialId)) return;
+
       string filmId = listFilms.SelectedValue;
       string conversationId = listConversations.SelectedValue;
-      string L3STinstanceId = conversationId + "." + txtL3STinstance.Text; //that conversationId already contains the filmId in it
+      string L3STinstanceId = conversationId + "." + l3STinstancePartialId; //that conversationId already contains the filmId in it
+
       txtL3STinstance.Text = "";
 
       CreateL3STinstance(filmId, conversationId, L3STinstanceId, ((listL3STinstances.SelectedIndex > 0) && cbClone.Checked) ? GetMetadataFromUI() : null);

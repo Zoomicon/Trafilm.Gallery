@@ -50,10 +50,14 @@ namespace Trafilm.Gallery
 
     public void AddL3TTinstance()
     {
+      string l3TTinstancePartialId = txtL3TTinstance.Text;
+      if (string.IsNullOrWhiteSpace(l3TTinstancePartialId)) return;
+
       string filmId = listFilms.SelectedValue;
       string conversationId = listConversations.SelectedValue;
       string l3STinstanceId = listL3STinstances.SelectedValue;
-      string l3TTinstanceId = l3STinstanceId + "." + txtL3TTinstance.Text; //that l3STinstanceId already contains the filmId and conversationId in it
+      string l3TTinstanceId = l3STinstanceId + "." + l3TTinstancePartialId; //that l3STinstanceId already contains the filmId and conversationId in it
+
       txtL3TTinstance.Text = "";
 
       CreateL3TTinstance(filmId, conversationId, l3STinstanceId, l3TTinstanceId, ((listL3TTinstances.SelectedIndex > 0) && cbClone.Checked) ? GetMetadataFromUI() : null);

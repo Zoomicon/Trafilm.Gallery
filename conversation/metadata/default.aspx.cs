@@ -45,8 +45,12 @@ namespace Trafilm.Gallery
 
     public void AddConversation()
     {
+      string conversationPartialId = txtConversation.Text;
+      if (string.IsNullOrWhiteSpace(conversationPartialId)) return;
+
       string filmId = listFilms.SelectedValue;
-      string conversationId = filmId + "." + txtConversation.Text;
+      string conversationId = filmId + "." + conversationPartialId;
+
       txtConversation.Text = "";
 
       CreateConversation(filmId, conversationId, ((listConversations.SelectedIndex > 0) && cbClone.Checked) ? GetMetadataFromUI() : null);
