@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: film\metadata\default.aspx.cs
-//Version: 20160606
+//Version: 20160608
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -30,7 +30,9 @@ namespace Trafilm.Gallery
         listFilms_SelectedIndexChanged(listFilms, null);
       }
 
-      panelMetadata.Enabled = IsUserAllowedToSave("Film");
+      bool canSave = IsUserAllowedToSave("Film");
+      panelAdd.Visible = canSave;
+      panelMetadata.Enabled = canSave;
     }
 
     #endregion
@@ -40,6 +42,8 @@ namespace Trafilm.Gallery
     public void AddFilm()
     {
       string filmId = txtFilm.Text;
+      if (string.IsNullOrWhiteSpace(filmId)) return;
+
       txtFilm.Text = "";
 
       CreateFilm(filmId, ((listFilms.SelectedIndex > 0) && cbClone.Checked) ? GetMetadataFromUI() : null);
@@ -232,6 +236,8 @@ namespace Trafilm.Gallery
 
     protected void btnAddFilm_Click(object sender, EventArgs e)
     {
+      if (!IsUserAllowedToSave("Film")) return;
+
       AddFilm();
     }
 

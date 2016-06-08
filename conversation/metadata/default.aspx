@@ -5,13 +5,13 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: conversation\metadata\default.aspx
-Version: 20160606
+Version: 20160608
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 
   <head runat="server">
-    <title>Trafilm Gallery - Conversation Metadata</title>
+    <title>Trafilm Metadata | Conversations</title>
     
     <link href="../../css/metadata.css" rel="stylesheet" type="text/css" />
   </head>
@@ -63,13 +63,13 @@ Version: 20160606
           <div class="label">Select a Conversation</div> 
           <asp:DropDownList ID="listConversations" runat="server" AutoPostBack="True" OnSelectedIndexChanged="listConversations_SelectedIndexChanged" />
 
-          <div>
+          <asp:Panel ID="panelAdd" runat="server">
             <div class="label">or enter a new Conversation Id (e.g. <i>ExplainingThePlan</i> - do not include the Film Id prefix)</div>
             <asp:TextBox ID="txtConversation" runat="server" />
             <asp:Button ID="btnAddConversation" runat="server" Text="Add" OnClick="btnAddConversation_Click" />
             &nbsp;
             <asp:CheckBox ID="cbClone" Text="Copy from selected" runat="server" Visible="false" />
-          </div>
+          </asp:Panel>
         </asp:Panel>
 
       </div>
@@ -81,12 +81,12 @@ Version: 20160606
         <%-- ICXMLMetadata--%>
 
         <div class="question">
-          <div class="label">1. Conversation Title (optional)</div>
+          <div class="label">1. Conversation Title</div>
           <asp:TextBox ID="txtTitle" runat="server" Columns="150"></asp:TextBox>
         </div>
 
         <div class="question">
-          <div class="label">2. Conversation Description (optional)</div>
+          <div class="label">2. Conversation Description</div>
           <asp:TextBox ID="txtDescription" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
         </div>
 
@@ -108,19 +108,19 @@ Version: 20160606
 
         <div class="question">
           <div class="label">3. Transcription </div>
-          <div class="tip">Transcription for the specific conversation (OPTIONAL)</div>
+          <div class="tip">Transcription for the specific conversation</div>
           <asp:TextBox ID="txtTranscription" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
         </div>
 
         <div class="question">
           <div class="label">4. Keywords</div>
-          <div class="tip">Comma-separated list of keywords to help identify this item (OPTIONAL)</div>
+          <div class="tip">Comma-separated list of keywords to help identify this item</div>
           <asp:TextBox ID="txtKeywords" runat="server" Columns="150"></asp:TextBox>
         </div>
 
         <div class="question">
           <div class="label">5. Remarks </div>
-          <div class="tip">Remarks on the metadata (OPTIONAL)</div>
+          <div class="tip">Remarks on the metadata</div>
           <asp:TextBox ID="txtRemarks" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
         </div>
 

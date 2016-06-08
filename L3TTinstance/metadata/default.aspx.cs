@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: L3TTinstance\metadata\default.aspx.cs
-//Version: 20160606
+//Version: 20160608
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -39,7 +39,9 @@ namespace Trafilm.Gallery
         listL3TTinstances_SelectedIndexChanged(listL3TTinstances, null);
       }
 
-      panelMetadata.Enabled = IsUserAllowedToSave("L3TTinstance");
+      bool canSave = IsUserAllowedToSave("L3TTinstance");
+      panelAdd.Visible = canSave;
+      panelMetadata.Enabled = canSave;
     }
 
     #endregion
@@ -48,10 +50,14 @@ namespace Trafilm.Gallery
 
     public void AddL3TTinstance()
     {
+      string l3TTinstancePartialId = txtL3TTinstance.Text;
+      if (string.IsNullOrWhiteSpace(l3TTinstancePartialId)) return;
+
       string filmId = listFilms.SelectedValue;
       string conversationId = listConversations.SelectedValue;
       string l3STinstanceId = listL3STinstances.SelectedValue;
-      string l3TTinstanceId = l3STinstanceId + "." + txtL3TTinstance.Text; //that l3STinstanceId already contains the filmId and conversationId in it
+      string l3TTinstanceId = l3STinstanceId + "." + l3TTinstancePartialId; //that l3STinstanceId already contains the filmId and conversationId in it
+
       txtL3TTinstance.Text = "";
 
       CreateL3TTinstance(filmId, conversationId, l3STinstanceId, l3TTinstanceId, ((listL3TTinstances.SelectedIndex > 0) && cbClone.Checked) ? GetMetadataFromUI() : null);
@@ -286,6 +292,8 @@ namespace Trafilm.Gallery
 
     protected void btnAddL3TTinstance_Click(object sender, EventArgs e)
     {
+      if (!IsUserAllowedToSave("L3TTinstance")) return;
+
       AddL3TTinstance();
     }
 

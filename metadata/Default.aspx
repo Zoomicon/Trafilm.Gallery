@@ -1,20 +1,20 @@
 <%@ Page Language="C#" 
          AutoEventWireup="true"
-         Title="Trafilm Gallery Metadata"
+         Title="Trafilm Metadata"
 %>
 
 <%--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: metadata/Default.aspx
-Version: 20160509
+Version: 20160608
 --%>
 
 <html>
 
 <head>
 
-<title>Trafilm Gallery Metadata | The Translation of Multilingual Films in Spain</title>
-<link rel="shortcut icon" type="image/ico" href='favicon.ico' />
+<title>Trafilm Metadata | The Translation of Multilingual Films in Spain</title>
+<link rel="shortcut icon" type="image/ico" href='/favicon.ico' />
 
 
 <style type="text/css">
@@ -39,7 +39,7 @@ iframe
 
 <body>
   <iframe src="http://gallery.trafilm.net/film/metadata">
-    <a href="http://gallery.trafilm.net/film/metadata">Trafilm Film Gallery Metadata</a>
+    <a href="http://gallery.trafilm.net/film/metadata">Trafilm Metadata | Films</a>
   </iframe>
 </body>
 

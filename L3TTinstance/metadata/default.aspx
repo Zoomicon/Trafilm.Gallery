@@ -4,14 +4,14 @@
 
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
-Filename: L3TTTTinstance\metadata\default.aspx
-Version: 20160606
+Filename: L3TTinstance\metadata\default.aspx
+Version: 20160608
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 
   <head runat="server">
-    <title>Trafilm Gallery - L3TT-instance Metadata</title>
+    <title>Trafilm Metadata | L3TT-instances</title>
 
     <link href="../../css/metadata.css" rel="stylesheet" type="text/css" />
   </head>
@@ -87,13 +87,13 @@ Version: 20160606
               <div class="label">Select an L3TT-instance</div> 
               <asp:DropDownList ID="listL3TTinstances" runat="server" AutoPostBack="True" OnSelectedIndexChanged="listL3TTinstances_SelectedIndexChanged" />
 
-              <div>
+              <asp:Panel ID="panelAdd" runat="server">
                 <div class="label">or add new L3TT-instance Id (e.g. <i>SpanishDub</i> or <i>SpanishSub</i> - do not include the Film Id, Conversation Id and L3ST-instance Id prefixes)</div>
                 <asp:TextBox ID="txtL3TTinstance" runat="server" />
                 <asp:Button ID="btnAddL3TTinstance" runat="server" Text="Add" OnClick="btnAddL3TTinstance_Click" />
                 &nbsp;
                 <asp:CheckBox ID="cbClone" Text="Copy from selected" runat="server" Visible="false" />
-              </div>
+              </asp:Panel>
             </asp:Panel>
 
           </asp:Panel>
@@ -108,12 +108,12 @@ Version: 20160606
         <%-- ICXMLMetadata--%>
 
         <div class="question">
-          <div class="label">1. L3TT-instance Title (optional)</div>
+          <div class="label">1. L3TT-instance Title</div>
           <asp:TextBox ID="txtTitle" runat="server" Columns="150"></asp:TextBox>
         </div>
 
         <div class="question">
-          <div class="label">2. L3TT-instance Description (optional)</div>
+          <div class="label">2. L3TT-instance Description</div>
           <asp:TextBox ID="txtDescription" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
         </div>
 
@@ -135,19 +135,19 @@ Version: 20160606
 
         <div class="question">
           <div class="label">3. Transcription </div>
-          <div class="tip">Transcription for the specific L3TT-instance (OPTIONAL)</div>
+          <div class="tip">Transcription for the specific L3TT-instance</div>
           <asp:TextBox ID="txtTranscription" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
         </div>
 
         <div class="question">
           <div class="label">4. Keywords</div>
-          <div class="tip">Comma-separated list of keywords to help identify this item (OPTIONAL)</div>
+          <div class="tip">Comma-separated list of keywords to help identify this item</div>
           <asp:TextBox ID="txtKeywords" runat="server" Columns="150"></asp:TextBox>
         </div>
 
         <div class="question">
           <div class="label">5. Remarks </div>
-          <div class="tip">Remarks on the metadata (OPTIONAL)</div>
+          <div class="tip">Remarks on the metadata</div>
           <asp:TextBox ID="txtRemarks" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
         </div>
 
