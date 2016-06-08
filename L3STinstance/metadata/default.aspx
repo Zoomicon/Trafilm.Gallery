@@ -97,12 +97,12 @@ Version: 20160608
         <%-- ICXMLMetadata--%>
 
         <div class="question">
-          <div class="label">1. L3ST-instance Title (optional)</div>
+          <div class="label">1. L3ST-instance Title</div>
           <asp:TextBox ID="txtTitle" runat="server" Columns="150"></asp:TextBox>
         </div>
 
         <div class="question">
-          <div class="label">2. L3ST-instance Description (optional)</div>
+          <div class="label">2. L3ST-instance Description</div>
           <asp:TextBox ID="txtDescription" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
         </div>
 
@@ -124,19 +124,19 @@ Version: 20160608
 
         <div class="question">
           <div class="label">3. Transcription </div>
-          <div class="tip">Transcription for the specific L3ST-instance (OPTIONAL)</div>
+          <div class="tip">Transcription for the specific L3ST-instance</div>
           <asp:TextBox ID="txtTranscription" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
         </div>
 
         <div class="question">
           <div class="label">4. Keywords</div>
-          <div class="tip">Comma-separated list of keywords to help identify this item (OPTIONAL)</div>
+          <div class="tip">Comma-separated list of keywords to help identify this item</div>
           <asp:TextBox ID="txtKeywords" runat="server" Columns="150"></asp:TextBox>
         </div>
 
         <div class="question">
           <div class="label">5. Remarks </div>
-          <div class="tip">Remarks on the metadata (OPTIONAL)</div>
+          <div class="tip">Remarks on the metadata</div>
           <asp:TextBox ID="txtRemarks" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
         </div>
 
