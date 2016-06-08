@@ -35,84 +35,84 @@ namespace Trafilm.Gallery
 
     public void CreateFilm(string filmId, IFilm metadata = null) //don't return IFilm to avoid loading a .CXML file if already exists
     {
-      if (!filmStorage.Keys.Contains(filmId))
+      if (filmStorage.ContainsKey(filmId))
+        return;
+
+      if (metadata == null)
       {
-        if (metadata == null)
-        {
-          metadata = new Film();
-          metadata.Clear();
-        }
-        else
-          metadata.ClearCalculated();
-
-        metadata.Title = filmId;
-        metadata.ReferenceId = filmId;
-
-        filmStorage[filmId] = metadata;
+        metadata = new Film();
+        metadata.Clear();
       }
+      else
+        metadata.ClearCalculated();
+
+      metadata.Title = filmId;
+      metadata.ReferenceId = filmId;
+
+      filmStorage[filmId] = metadata;
     }
 
     public void CreateConversation(string filmId, string conversationId, IConversation metadata = null) //don't return IConversation to avoid loading a .CXML file if already exists
     {
-      if (!conversationStorage.Keys.Contains(conversationId))
+      if (conversationStorage.ContainsKey(conversationId))
+        return;
+
+      if (metadata == null)
       {
-        if (metadata == null)
-        {
-          metadata = new Conversation();
-          metadata.Clear();
-          metadata.FilmReferenceId = filmId;
-        }
-        else
-          metadata.ClearCalculated();
-
-        metadata.Title = conversationId;
-        metadata.ReferenceId = conversationId;
-
-        conversationStorage[conversationId] = metadata;
+        metadata = new Conversation();
+        metadata.Clear();
+        metadata.FilmReferenceId = filmId;
       }
+      else
+        metadata.ClearCalculated();
+
+      metadata.Title = conversationId;
+      metadata.ReferenceId = conversationId;
+
+      conversationStorage[conversationId] = metadata;
     }
 
     public void CreateL3STinstance(string filmId, string conversationId, string L3STinstanceId, IL3STinstance metadata = null) //don't return IL3STinstance to avoid loading a .CXML file if already exists
     {
-      if (!l3STinstanceStorage.Keys.Contains(L3STinstanceId))
+      if (l3STinstanceStorage.ContainsKey(L3STinstanceId))
+        return;
+
+      if (metadata == null)
       {
-        if (metadata == null)
-        {
-          metadata = new L3STinstance();
-          metadata.Clear();
-          metadata.FilmReferenceId = filmId;
-          metadata.ConversationReferenceId = conversationId;
-        }
-        else
-          metadata.ClearCalculated();
-
-        metadata.Title = L3STinstanceId;
-        metadata.ReferenceId = L3STinstanceId;
-
-        l3STinstanceStorage[L3STinstanceId] = metadata;
+        metadata = new L3STinstance();
+        metadata.Clear();
+        metadata.FilmReferenceId = filmId;
+        metadata.ConversationReferenceId = conversationId;
       }
+      else
+        metadata.ClearCalculated();
+
+      metadata.Title = L3STinstanceId;
+      metadata.ReferenceId = L3STinstanceId;
+
+      l3STinstanceStorage[L3STinstanceId] = metadata;
     }
 
     public void CreateL3TTinstance(string filmId, string conversationId, string l3STinstanceId, string l3TTinstanceId, IL3TTinstance metadata = null) //don't return IL3TTinstance to avoid loading a .CXML file if already exists
     {
-      if (!l3TTinstanceStorage.Keys.Contains(l3TTinstanceId))
+      if (l3TTinstanceStorage.ContainsKey(l3TTinstanceId))
+        return;
+
+      if (metadata == null)
       {
-        if (metadata == null)
-        {
-          metadata = new L3TTinstance();
-          metadata.Clear();
-          metadata.FilmReferenceId = filmId;
-          metadata.ConversationReferenceId = conversationId;
-          metadata.L3STinstanceReferenceId = l3STinstanceId;
-        }
-        else
-          metadata.ClearCalculated();
-
-        metadata.Title = l3TTinstanceId;
-        metadata.ReferenceId = l3TTinstanceId;
-
-        l3TTinstanceStorage[l3TTinstanceId] = metadata;
+        metadata = new L3TTinstance();
+        metadata.Clear();
+        metadata.FilmReferenceId = filmId;
+        metadata.ConversationReferenceId = conversationId;
+        metadata.L3STinstanceReferenceId = l3STinstanceId;
       }
+      else
+        metadata.ClearCalculated();
+
+      metadata.Title = l3TTinstanceId;
+      metadata.ReferenceId = l3TTinstanceId;
+
+      l3TTinstanceStorage[l3TTinstanceId] = metadata;
     }
 
     #endregion
