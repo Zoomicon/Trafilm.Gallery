@@ -25,6 +25,7 @@
         <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="false" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="false" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
         <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
+        <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
     </FacetCategories>
     <Items ImgBase="L3STinstances_deepzoom\L3STinstances.dzc">
         <Item Id="Django Unchained_2012.Slave speaks a little German.Slave opens conversation" Name="Django Unchained_2012.Slave speaks a little German.Slave opens conversation" Img="#0" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Django Unchained_2012&amp;conversation=Django Unchained_2012.Slave speaks a little German&amp;L3STinstance=Django Unchained_2012.Slave speaks a little German.Slave opens conversation">
@@ -117,7 +118,72 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="OceansEleven_2001.ExplainingThePlan.Chinese" Name="Speaking Chinese" Img="#2" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=OceansEleven_2001&amp;conversation=OceansEleven_2001.ExplainingThePlan&amp;L3STinstance=OceansEleven_2001.ExplainingThePlan.Chinese">
+        <Item Id="Monsoon Wedding.Conversation in the garden on the phone.Hindi" Name="Conversation in the garden on the phone" Img="#2" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Monsoon Wedding&amp;conversation=Monsoon Wedding.Conversation in the garden on the phone&amp;L3STinstance=Monsoon Wedding.Conversation in the garden on the phone.Hindi">
+            <Description>The father talks on the phone in Hindi. He is outside in the garden. 
+There is another conversation taking place among women at the kitchen.</Description>
+            <Facets>
+                <Facet Name="Conversation Reference Id">
+                    <String Value="Monsoon Wedding.Conversation in the garden on the phone" />
+                </Facet>
+                <Facet Name="Duration (h:m:s)">
+                    <String Value="0:03:50" />
+                </Facet>
+                <Facet Name="Film Reference Id">
+                    <String Value="Monsoon Wedding" />
+                </Facet>
+                <Facet Name="Info created">
+                    <DateTime Value="2016-06-08T01:34:20" />
+                </Facet>
+                <Facet Name="Info updated">
+                    <DateTime Value="2016-06-08T01:50:14" />
+                </Facet>
+                <Facet Name="L1 language">
+                    <String Value="Hindi" />
+                </Facet>
+                <Facet Name="L3ST functions">
+                    <String Value="Character portrayal, nonstereotypical" />
+                    <String Value="Character portrayal, stereotypical" />
+                    <String Value="Comedy / humour" />
+                </Facet>
+                <Facet Name="L3ST language">
+                    <String Value="Hindi" />
+                </Facet>
+                <Facet Name="L3ST language type">
+                    <String Value="Real" />
+                </Facet>
+                <Facet Name="L3ST meaning decipherable">
+                    <String Value="YES, translation or clear from picture" />
+                </Facet>
+                <Facet Name="L3ST mode">
+                    <String Value="Oral diegetic on-screen" />
+                </Facet>
+                <Facet Name="L3ST represented">
+                    <String Value="NO / Not applicable" />
+                </Facet>
+                <Facet Name="L3ST represented: visual">
+                    <String Value="Physical appearance" />
+                </Facet>
+                <Facet Name="L3ST required for understanding">
+                    <String Value="Yes" />
+                </Facet>
+                <Facet Name="L3ST speaker performance">
+                    <String Value="native or proficient" />
+                </Facet>
+                <Facet Name="L3TT-instances: count">
+                    <String Value="1" />
+                </Facet>
+                <Facet Name="Reference Id">
+                    <String Value="Monsoon Wedding.Conversation in the garden on the phone.Hindi" />
+                </Facet>
+                <Facet Name="Remarks">
+                    <String Value="The dubbing and subtitling in English are in Spanish.&#xD;&#xA; " />
+                </Facet>
+                <Facet Name="Start time (h:m:s)">
+                    <String Value="0:02:50" />
+                </Facet>
+            </Facets>
+        </Item>
+        <Item Id="OceansEleven_2001.ExplainingThePlan.Chinese" Name="Speaking Chinese" Img="#3" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=OceansEleven_2001&amp;conversation=OceansEleven_2001.ExplainingThePlan&amp;L3STinstance=OceansEleven_2001.ExplainingThePlan.Chinese">
             <Facets>
                 <Facet Name="Conversation Reference Id">
                     <String Value="OceansEleven_2001.ExplainingThePlan" />
@@ -156,7 +222,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheWalk_2015.MeetingPapaRudy.Czech" Name="TheWalk_2015.MeetingPapaRudy.Czech" Img="#3" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk_2015&amp;conversation=TheWalk_2015.MeetingPapaRudy&amp;L3STinstance=TheWalk_2015.MeetingPapaRudy.Czech">
+        <Item Id="TheWalk_2015.MeetingPapaRudy.Czech" Name="TheWalk_2015.MeetingPapaRudy.Czech" Img="#4" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk_2015&amp;conversation=TheWalk_2015.MeetingPapaRudy&amp;L3STinstance=TheWalk_2015.MeetingPapaRudy.Czech">
             <Facets>
                 <Facet Name="Conversation Reference Id">
                     <String Value="TheWalk_2015.MeetingPapaRudy" />
@@ -220,7 +286,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheWalk_2015.MeetingPapaRudy.French" Name="TheWalk_2015.MeetingPapaRudy.French" Img="#4" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk_2015&amp;conversation=TheWalk_2015.MeetingPapaRudy&amp;L3STinstance=TheWalk_2015.MeetingPapaRudy.French">
+        <Item Id="TheWalk_2015.MeetingPapaRudy.French" Name="TheWalk_2015.MeetingPapaRudy.French" Img="#5" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk_2015&amp;conversation=TheWalk_2015.MeetingPapaRudy&amp;L3STinstance=TheWalk_2015.MeetingPapaRudy.French">
             <Facets>
                 <Facet Name="Conversation Reference Id">
                     <String Value="TheWalk_2015.MeetingPapaRudy" />
@@ -281,7 +347,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheWalk_2015.MeetingPapaRudy.French2" Name="TheWalk_2015.MeetingPapaRudy.French2" Img="#5" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk_2015&amp;conversation=TheWalk_2015.MeetingPapaRudy&amp;L3STinstance=TheWalk_2015.MeetingPapaRudy.French2">
+        <Item Id="TheWalk_2015.MeetingPapaRudy.French2" Name="TheWalk_2015.MeetingPapaRudy.French2" Img="#6" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk_2015&amp;conversation=TheWalk_2015.MeetingPapaRudy&amp;L3STinstance=TheWalk_2015.MeetingPapaRudy.French2">
             <Facets>
                 <Facet Name="Conversation Reference Id">
                     <String Value="TheWalk_2015.MeetingPapaRudy" />
@@ -342,7 +408,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheWalk_2015.MeetingPapaRudy.French3" Name="TheWalk_2015.MeetingPapaRudy.French3" Img="#6" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk_2015&amp;conversation=TheWalk_2015.MeetingPapaRudy&amp;L3STinstance=TheWalk_2015.MeetingPapaRudy.French3">
+        <Item Id="TheWalk_2015.MeetingPapaRudy.French3" Name="TheWalk_2015.MeetingPapaRudy.French3" Img="#7" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk_2015&amp;conversation=TheWalk_2015.MeetingPapaRudy&amp;L3STinstance=TheWalk_2015.MeetingPapaRudy.French3">
             <Facets>
                 <Facet Name="Conversation Reference Id">
                     <String Value="TheWalk_2015.MeetingPapaRudy" />
@@ -403,7 +469,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheWalk_2015.OnTheRoof.Czech" Img="#7" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk_2015&amp;conversation=TheWalk_2015.OnTheRoof&amp;L3STinstance=TheWalk_2015.OnTheRoof.Czech">
+        <Item Id="TheWalk_2015.OnTheRoof.Czech" Img="#8" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk_2015&amp;conversation=TheWalk_2015.OnTheRoof&amp;L3STinstance=TheWalk_2015.OnTheRoof.Czech">
             <Facets>
                 <Facet Name="Conversation Reference Id">
                     <String Value="TheWalk_2015.OnTheRoof" />

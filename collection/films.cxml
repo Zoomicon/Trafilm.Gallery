@@ -22,6 +22,7 @@
         <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="false" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="false" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
         <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
+        <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
     </FacetCategories>
     <Items ImgBase="films_deepzoom\films.dzc">
         <Item Id="Django Unchained_2012" Name="Django Unchained" Img="#0" Href="http://gallery.trafilm.net/film/metadata/?film=Django Unchained_2012">
@@ -231,22 +232,68 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Monsoon Wedding" Name="Monsoon Wedding" Img="#5">
+        <Item Id="Monsoon Wedding" Name="Monsoon Wedding" Img="#5" Href="http://gallery.trafilm.net/film/metadata/?film=Monsoon Wedding">
+            <Description>A stressed father, a bride-to-be with a secret, a smitten event planner, and relatives from around the world create much ado about the preparations for an arranged marriage in India. </Description>
             <Facets>
+                <Facet Name="Box office">
+                    <String Value="$68,546 (USA) (24 February 2002)" />
+                </Facet>
                 <Facet Name="Conversations: count">
-                    <String Value="0" />
+                    <String Value="1" />
                 </Facet>
                 <Facet Name="Conversations: duration (h:m:s)">
                     <String Value="0:00:00" />
+                </Facet>
+                <Facet Name="Director(s)">
+                    <String Value=" Mira Nair " />
+                </Facet>
+                <Facet Name="Duration (h:m:s)">
+                    <String Value="1:54:00" />
                 </Facet>
                 <Facet Name="Info created">
                     <DateTime Value="2016-06-07T03:44:51" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-06-07T03:44:51" />
+                    <DateTime Value="2016-06-08T01:16:21" />
+                </Facet>
+                <Facet Name="Keywords">
+                    <String Value=" Comedy" />
+                    <String Value=" Drama" />
+                    <String Value=" Romance" />
+                </Facet>
+                <Facet Name="L1 language">
+                    <String Value="English" />
+                </Facet>
+                <Facet Name="Production companies">
+                    <String Value="     IFC Productions" />
+                    <String Value=" Mirabai Films" />
+                    <String Value=" Pandora Filmproduktion" />
+                    <String Value="  Paradis Films" />
+                    <String Value=" Baron Pictures (II)" />
+                    <String Value=" Delhi Dot Com" />
+                    <String Value=" Mirabai Films Delhi" />
+                </Facet>
+                <Facet Name="Production countries">
+                    <String Value=" India" />
+                    <String Value=" USA" />
+                    <String Value=" Italy" />
+                    <String Value=" Germany" />
+                    <String Value=" France" />
                 </Facet>
                 <Facet Name="Reference Id">
                     <String Value="Monsoon Wedding" />
+                </Facet>
+                <Facet Name="Scriptwriter(s)">
+                    <String Value="Sabrina Dhawan" />
+                </Facet>
+                <Facet Name="Title in Spanish">
+                    <String Value="La boda del Monzón" />
+                </Facet>
+                <Facet Name="Year ST released">
+                    <String Value="2001" />
+                </Facet>
+                <Facet Name="Year TT released in Spain">
+                    <String Value="2001" />
                 </Facet>
             </Facets>
         </Item>
