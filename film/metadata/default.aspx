@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: film\metadata\default.aspx
-Version: 20160608
+Version: 20160609
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -58,11 +58,13 @@ Version: 20160608
         </div>
 
         <asp:Panel ID="panelAdd" runat="server">
-          <div class="label">or enter a new Film Id (e.g. <i>OceansEleven_2001</i>)</div>
+          <div class="label">or enter a new Film Id (e.g. <i>OceansEleven</i>)</div>
           <asp:TextBox ID="txtFilm" runat="server" />
           <asp:Button ID="btnAddFilm" runat="server" Text="Add" OnClick="btnAddFilm_Click" />
           &nbsp;
           <asp:CheckBox ID="cbClone" Text="Copy from selected" runat="server" Visible="false" />
+          &nbsp;
+          <asp:Button ID="btnRename" runat="server" Text="Rename selected" OnClick="btnRename_Click" />
         </asp:Panel>
 
       </div>

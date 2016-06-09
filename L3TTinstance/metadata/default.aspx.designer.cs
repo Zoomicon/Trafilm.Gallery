@@ -274,6 +274,15 @@ namespace Trafilm.Gallery {
         protected global::System.Web.UI.WebControls.CheckBox cbClone;
         
         /// <summary>
+        /// btnRename control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnRename;
+        
+        /// <summary>
         /// panelMetadata control.
         /// </summary>
         /// <remarks>

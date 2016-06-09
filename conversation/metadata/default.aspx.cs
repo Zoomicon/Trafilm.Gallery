@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: conversation\metadata\default.aspx.cs
-//Version: 20160608
+//Version: 20160609
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -37,6 +37,8 @@ namespace Trafilm.Gallery
       bool canSave = IsUserAllowedToSave("Conversation");
       panelAdd.Visible = canSave;
       panelMetadata.Enabled = canSave;
+
+      btnRename.Visible = IsUserAllowedToRename("Conversation") && (listConversations.SelectedIndex > 0);
     }
 
     #endregion
@@ -45,8 +47,8 @@ namespace Trafilm.Gallery
 
     public void AddConversation()
     {
-      string conversationPartialId = txtConversation.Text;
-      if (string.IsNullOrWhiteSpace(conversationPartialId)) return;
+      string conversationPartialId = txtConversation.Text.Trim();
+      if (conversationPartialId.Length == 0) return;
 
       string filmId = listFilms.SelectedValue;
       string conversationId = filmId + "." + conversationPartialId;
@@ -55,6 +57,11 @@ namespace Trafilm.Gallery
 
       CreateConversation(filmId, conversationId, ((listConversations.SelectedIndex > 0) && cbClone.Checked) ? GetMetadataFromUI() : null);
       SelectConversation(conversationId);
+    }
+
+    public void Rename()
+    {
+      //...
     }
 
     #region Selection
@@ -261,6 +268,13 @@ namespace Trafilm.Gallery
       if (!IsUserAllowedToSave("Conversation")) return;
 
       AddConversation();
+    }
+
+    protected void btnRename_Click(object sender, EventArgs e)
+    {
+      if (!IsUserAllowedToRename("Conversation")) return;
+
+      Rename();
     }
 
     protected void btnSave_Click(object sender, EventArgs e)
