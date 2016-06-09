@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: BaseMetadataPage.cs
-//Version: 20160606
+//Version: 20160609
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -30,6 +30,25 @@ namespace Trafilm.Gallery
     #endregion
 
     #region --- Methods ---
+
+    #region Authorization
+
+    protected bool IsUserAllowedToRename(string itemType) //not using itemType currently, allowing only Administrators to rename items (change their partial id)
+    {
+      return (Request.IsAuthenticated &&
+              User.IsInRole("Administrators"));
+    }
+
+    protected bool IsUserAllowedToSave(string itemType)
+    {
+      return (Request.IsAuthenticated &&
+              (User.IsInRole("Administrators") ||
+               User.IsInRole("MetadataEditors") ||
+               User.IsInRole("MetadataEditors_" + itemType)
+              ));
+    }
+
+    #endregion
 
     #region Create
 
@@ -191,15 +210,6 @@ namespace Trafilm.Gallery
     #endregion
 
     #region Save
-
-    protected bool IsUserAllowedToSave(string itemType)
-    {
-      return (Request.IsAuthenticated &&
-              (User.IsInRole("Administrators") || 
-               User.IsInRole("MetadataEditors") ||
-               User.IsInRole("MetadataEditors_" + itemType)
-              ));
-    }
 
     protected void SaveCollection(string cxmlFilename, string collectionTitle, IEnumerable<XElement> facetCategories, IEnumerable<ICXMLMetadata> metadataItems)
     {

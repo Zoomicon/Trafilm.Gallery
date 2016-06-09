@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: L3TTinstance\metadata\default.aspx
-Version: 20160608
+Version: 20160609
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -93,6 +93,8 @@ Version: 20160608
                 <asp:Button ID="btnAddL3TTinstance" runat="server" Text="Add" OnClick="btnAddL3TTinstance_Click" />
                 &nbsp;
                 <asp:CheckBox ID="cbClone" Text="Copy from selected" runat="server" Visible="false" />
+                &nbsp;
+                <asp:Button ID="btnRename" runat="server" Text="Rename selected" OnClick="btnRename_Click" />
               </asp:Panel>
             </asp:Panel>
 

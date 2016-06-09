@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: L3STinstance\metadata\default.aspx.cs
-//Version: 20160608
+//Version: 20160609
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -41,6 +41,8 @@ namespace Trafilm.Gallery
       bool canSave = IsUserAllowedToSave("L3STinstance");
       panelAdd.Visible = canSave;
       panelMetadata.Enabled = canSave;
+
+      btnRename.Visible = IsUserAllowedToRename("L3STinstance") && (listL3STinstances.SelectedIndex > 0);
     }
 
     #endregion
@@ -49,8 +51,8 @@ namespace Trafilm.Gallery
 
     public void AddL3STinstance()
     {
-      string l3STinstancePartialId = txtL3STinstance.Text;
-      if (string.IsNullOrWhiteSpace(l3STinstancePartialId)) return;
+      string l3STinstancePartialId = txtL3STinstance.Text.Trim();
+      if (l3STinstancePartialId.Length == 0) return;
 
       string filmId = listFilms.SelectedValue;
       string conversationId = listConversations.SelectedValue;
@@ -60,6 +62,11 @@ namespace Trafilm.Gallery
 
       CreateL3STinstance(filmId, conversationId, L3STinstanceId, ((listL3STinstances.SelectedIndex > 0) && cbClone.Checked) ? GetMetadataFromUI() : null);
       SelectL3STinstance(L3STinstanceId);
+    }
+
+    public void Rename()
+    {
+      //...
     }
 
     #region Selection
@@ -278,6 +285,13 @@ namespace Trafilm.Gallery
       if (!IsUserAllowedToSave("L3STinstance")) return;
 
       AddL3STinstance();
+    }
+
+    protected void btnRename_Click(object sender, EventArgs e)
+    {
+      if (!IsUserAllowedToRename("L3STinstance")) return;
+
+      Rename();
     }
 
     protected void btnSave_Click(object sender, EventArgs e)

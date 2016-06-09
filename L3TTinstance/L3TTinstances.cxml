@@ -29,6 +29,7 @@
     <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
     <Item Id="Django Unchained_2012.Slave speaks a little German.Slave opens conversation.Slave's ST German dubbed" Name="Django Unchained_2012.Slave speaks a little German.Slave opens conversation.Slave's ST German dubbed" Img="../L3TTinstance/image/Django Unchained_2012.Slave speaks a little German.Slave opens conversation.Slave's ST German dubbed.png" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Django Unchained_2012&amp;conversation=Django Unchained_2012.Slave speaks a little German&amp;L3STinstance=Django Unchained_2012.Slave speaks a little German.Slave opens conversation&amp;L3TTinstance=Django Unchained_2012.Slave speaks a little German.Slave opens conversation.Slave's ST German dubbed">
@@ -100,6 +101,85 @@
         </Facet>
         <Facet Name="L3ST functions change">
           <String Value="None" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Monsoon Wedding.Conversation in the garden on the phone.Hindi.SapnishDub" Name="Monsoon Wedding.Conversation in the garden on the phone.Hindi.SapnishDub" Img="../L3TTinstance/image/Monsoon Wedding.Conversation in the garden on the phone.Hindi.SapnishDub.png" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Monsoon Wedding&amp;conversation=Monsoon Wedding.Conversation in the garden on the phone&amp;L3STinstance=Monsoon Wedding.Conversation in the garden on the phone.Hindi&amp;L3TTinstance=Monsoon Wedding.Conversation in the garden on the phone.Hindi.SapnishDub">
+      <Description></Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Monsoon Wedding.Conversation in the garden on the phone.Hindi.SapnishDub" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="All translated from Hindi into Spanish" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-06-08T01:44:15" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-06-08T01:47:51" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Monsoon Wedding" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Monsoon Wedding.Conversation in the garden on the phone" />
+        </Facet>
+        <Facet Name="L3ST-instance Reference Id">
+          <String Value="Monsoon Wedding.Conversation in the garden on the phone.Hindi" />
+        </Facet>
+        <Facet Name="L2 language">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L2 mode">
+          <String Value="Dubbed" />
+        </Facet>
+        <Facet Name="L2 same as L3ST">
+          <String Value="No" />
+        </Facet>
+        <Facet Name="L3ST conveyed as L3TT">
+          <String Value="No" />
+        </Facet>
+        <Facet Name="L3TT language type">
+          <String Value="No L3TT: L3-instance omitted" />
+        </Facet>
+        <Facet Name="L3TT language">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L3TT meant to be understood">
+          <String Value="YES, (almost) completely" />
+        </Facet>
+        <Facet Name="L3TT required for understanding">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT meaning decipherable">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="L3TT speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3TT mode">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3TT represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
+        <Facet Name="L3TT represented: visual">
+          <String Value="Physical appearance" />
+        </Facet>
+        <Facet Name="L3TT functions">
+          <String Value="Character portrayal, nonstereotypical" />
+          <String Value="Comedy / humour" />
+        </Facet>
+        <Facet Name="L3ST language type change">
+          <String Value="- Real" />
+          <String Value="+ No L3TT: L3-instance omitted" />
+        </Facet>
+        <Facet Name="L3ST mode change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3ST functions change">
+          <String Value="- Character portrayal, stereotypical" />
         </Facet>
       </Facets>
     </Item>

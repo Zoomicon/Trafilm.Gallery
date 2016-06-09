@@ -22,22 +22,68 @@
     <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Monsoon Wedding" Name="Monsoon Wedding" Img="" Href="">
-      <Description></Description>
+    <Item Id="Monsoon Wedding" Name="Monsoon Wedding" Img="../film/image/Monsoon Wedding.png" Href="http://gallery.trafilm.net/film/metadata/?film=Monsoon Wedding">
+      <Description>A stressed father, a bride-to-be with a secret, a smitten event planner, and relatives from around the world create much ado about the preparations for an arranged marriage in India. </Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="Monsoon Wedding" />
+        </Facet>
+        <Facet Name="Keywords">
+          <String Value=" Comedy" />
+          <String Value=" Drama" />
+          <String Value=" Romance" />
         </Facet>
         <Facet Name="Info created">
           <DateTime Value="2016-06-07T03:44:51" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-07T03:44:51" />
+          <DateTime Value="2016-06-08T01:16:21" />
+        </Facet>
+        <Facet Name="Title in Spanish">
+          <String Value="La boda del Monzón" />
+        </Facet>
+        <Facet Name="Duration (h:m:s)">
+          <String Value="1:54:00" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value=" Mira Nair " />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Sabrina Dhawan" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value=" India" />
+          <String Value=" USA" />
+          <String Value=" Italy" />
+          <String Value=" Germany" />
+          <String Value=" France" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="     IFC Productions" />
+          <String Value=" Mirabai Films" />
+          <String Value=" Pandora Filmproduktion" />
+          <String Value="  Paradis Films" />
+          <String Value=" Baron Pictures (II)" />
+          <String Value=" Delhi Dot Com" />
+          <String Value=" Mirabai Films Delhi" />
+        </Facet>
+        <Facet Name="Box office">
+          <String Value="$68,546 (USA) (24 February 2002)" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <String Value="2001" />
+        </Facet>
+        <Facet Name="L1 language">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="Year TT released in Spain">
+          <String Value="2001" />
         </Facet>
         <Facet Name="Conversations: count">
-          <String Value="0" />
+          <String Value="1" />
         </Facet>
         <Facet Name="Conversations: duration (h:m:s)">
           <String Value="0:00:00" />
