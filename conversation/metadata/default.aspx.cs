@@ -104,15 +104,18 @@ namespace Trafilm.Gallery
 
       //Ignoring the Id field, since some Pivot Tools expect it to be sequential
       UI.Load(txtTitle, metadata.Title);
-      //Not showing any Image field
+      UI.Load(txtImageUrl, metadata.Image);
       UI.Load(linkUrl, GetConversationUri(metadata.FilmReferenceId, key));
       UI.Load(txtDescription, metadata.Description);
 
       //ITrafilmMetadata//
 
       //No need to show conversation.ReferenceId since we calculate and show the URL, plus the ReferenceId is used as the key and shown at the dropdown list
+
       UI.Load(lblInfoCreated, metadata.InfoCreated.ToString(CXML.DEFAULT_DATETIME_FORMAT));
       UI.Load(lblInfoUpdated, metadata.InfoUpdated.ToString(CXML.DEFAULT_DATETIME_FORMAT));
+
+      UI.LoadContent(listMetadataEditors, metadata.MetadataEditors);
 
       UI.Load(txtTranscription, metadata.Transcription);
 
@@ -157,7 +160,7 @@ namespace Trafilm.Gallery
       //ICXMLMetadata//
 
       metadata.Title = txtTitle.Text;
-      metadata.Image = "../conversation/image/" + key + ".png";
+      metadata.Image = txtImageUrl.Text;
       metadata.Url = GetConversationUri(filmReferenceId, key);
       metadata.Description = txtDescription.Text;
 
@@ -167,6 +170,8 @@ namespace Trafilm.Gallery
 
       metadata.InfoCreated = DateTime.ParseExact(lblInfoCreated.Text, CXML.DEFAULT_DATETIME_FORMAT, CultureInfo.InvariantCulture);
       metadata.InfoUpdated = DateTime.ParseExact(lblInfoUpdated.Text, CXML.DEFAULT_DATETIME_FORMAT, CultureInfo.InvariantCulture);
+
+      metadata.MetadataEditors = UI.GetContent(listMetadataEditors);
 
       metadata.Transcription = txtTranscription.Text;
 
@@ -197,6 +202,7 @@ namespace Trafilm.Gallery
     public void Save()
     {
       lblInfoUpdated.Text = DateTime.UtcNow.ToString(CXML.DEFAULT_DATETIME_FORMAT);
+      UI.AppendUserName(listMetadataEditors);
       conversationStorage[listConversations.SelectedValue] = GetMetadataFromUI();
     }
 
