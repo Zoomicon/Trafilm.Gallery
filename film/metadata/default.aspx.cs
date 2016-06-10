@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: film\metadata\default.aspx.cs
-//Version: 20160609
+//Version: 20160610
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -31,8 +31,9 @@ namespace Trafilm.Gallery
       }
 
       bool canSave = IsUserAllowedToSave("Film");
-      panelAdd.Visible = canSave;
       panelMetadata.Enabled = canSave;
+      panelSave.Visible = canSave;
+      panelAdd.Visible = canSave;
 
       btnRename.Visible = IsUserAllowedToRename("Film") && (listFilms.SelectedIndex > 0);
     }

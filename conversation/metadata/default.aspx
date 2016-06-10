@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: conversation\metadata\default.aspx
-Version: 20160609
+Version: 20160610
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -93,55 +93,29 @@ Version: 20160609
         </div>
 
         <div class="label">Conversation URL</div>
-        <asp:HyperLink ID="linkUrl" runat="server" Target="_blank"/>
+        <asp:HyperLink ID="linkUrl" runat="server" Target="_blank" />
     
-        <%-- TODO: maybe add image control and upload image action here? %>    
-
-
-        <%-- ITrafilmMetadata --%>
-
-        <div>
-          <span class="label">Info created: </span>
-          <asp:Label ID="lblInfoCreated" runat="server" />
-
-          <span class="label"> - Info Updated: </span>
-          <asp:Label ID="lblInfoUpdated" runat="server" />
-        </div>
-
         <div class="question">
-          <div class="label">3. Transcription </div>
-          <div class="tip">Transcription for the specific conversation</div>
-          <asp:TextBox ID="txtTranscription" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
-        </div>
-
-        <div class="question">
-          <div class="label">4. Keywords</div>
-          <div class="tip">Comma-separated list of keywords to help identify this item</div>
-          <asp:TextBox ID="txtKeywords" runat="server" Columns="150"></asp:TextBox>
-        </div>
-
-        <div class="question">
-          <div class="label">5. Remarks </div>
-          <div class="tip">Remarks on the metadata</div>
-          <asp:TextBox ID="txtRemarks" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
-        </div>
+          <div class="label">3. Image URL</div>
+          <asp:TextBox ID="txtImageUrl" runat="server" Columns="150"></asp:TextBox>
+        </div>   
 
 
         <%-- IConversationMetadata --%>
 
         <div class="question">
-          <div class="label">6. Conversation Start Time (h:m:s)</div>
+          <div class="label">4. Conversation Start Time (h:m:s)</div>
           <asp:TextBox ID="txtStartTime" runat="server" Columns="25"></asp:TextBox>
         </div>
 
         <div class="question">
-          <div class="label">7. Conversation Duration (h:m:s)</div>
+          <div class="label">5. Conversation Duration (h:m:s)</div>
           <asp:TextBox ID="txtDuration" runat="server" Columns="25"></asp:TextBox>
         </div>
         
 
         <div class="question">
-          <div class="label">8. L1 language present</div>
+          <div class="label">6. L1 language present</div>
           <div class="tip">Is L1 language present in the conversation?</div>
           <asp:DropDownList 
             ID="listL1LanguagePresent" runat="server"
@@ -150,7 +124,7 @@ Version: 20160609
         </div>
 
         <div class="question">
-          <div class="label">9. L2 language present</div>
+          <div class="label">7. L2 language present</div>
           <div class="tip">Is L2 language present in the conversation?</div>
           <asp:DropDownList 
             ID="listL2LanguagePresent" runat="server"
@@ -160,7 +134,7 @@ Version: 20160609
 
 
         <div class="question">
-          <div class="label">10. Speaking characters: count</div>
+          <div class="label">8. Speaking characters: count</div>
           <div class="info">How many persons are speaking?</div>
           <asp:DropDownList 
             ID="listSpeakingCharactersCount" runat="server"
@@ -169,7 +143,7 @@ Version: 20160609
         </div>
 
         <div class="question">
-          <div class="label">11. L3ST-speaking characters: count</div>
+          <div class="label">9. L3ST-speaking characters: count</div>
           <div class="info">How many persons are speaking some form of L3ST?</div>
           <asp:DropDownList 
             ID="listL3speakingCharactersCount" runat="server"
@@ -215,29 +189,71 @@ Version: 20160609
           <asp:Label ID="lblL3STinstanceCount" runat="server"></asp:Label>
         </div>    
         
-        
-        <%-- L3STinstances list --%>                  
 
-        <asp:Repeater ID="repeaterL3STinstances" runat="server">
-          <HeaderTemplate>
-            <div class="label">List of L3ST-instances<div>
-          </HeaderTemplate>
-          <ItemTemplate>
-            <a href="../../L3STinstance/metadata/?film=<%#Eval("filmId")%>&conversation=<%#Eval("conversationId")%>&L3STinstance=<%#Eval("L3STinstanceId")%>"><%#Eval("L3STinstanceId")%></a>&nbsp;&nbsp;
-          </ItemTemplate>
-        </asp:Repeater>
+        <%-- ITrafilmMetadata --%>
+
+        <div class="question">
+          <div class="label">10. Transcription </div>
+          <div class="tip">Transcription for the specific conversation</div>
+          <asp:TextBox ID="txtTranscription" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
+        </div>
+
+        <div class="question">
+          <div class="label">11. Keywords</div>
+          <div class="tip">Comma-separated list of keywords to help identify this item</div>
+          <asp:TextBox ID="txtKeywords" runat="server" Columns="150"></asp:TextBox>
+        </div>
+
+        <div class="question">
+          <div class="label">12. Remarks </div>
+          <div class="tip">Remarks on the metadata</div>
+          <asp:TextBox ID="txtRemarks" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
+        </div>
+
+
+        <div>
+          <span class="label">Info created: </span>
+          <asp:Label ID="lblInfoCreated" runat="server" />
+
+          <span class="label"> - Info Updated: </span>
+          <asp:Label ID="lblInfoUpdated" runat="server" />
+        </div>
+
+        <div>
+          <div class="label">Metadata Editors</div>
+          <asp:Panel runat="server" ScrollBars="Auto" Style="max-height: 100px">
+            <asp:ListBox ID="listMetadataEditors" runat="server" Enabled="false" />
+           </asp:Panel>
+        </div>
 
 
         <%-- SAVE BUTTON --%>
            
-        <div>
+        <asp:Panel ID="panelSave" runat="server">
+          <br />
           <asp:Button ID="btnSave" runat="server"
             Text="Save metadata"
             Font-Bold="true"
             height="50"
             OnClick="btnSave_Click"
             />
+          <br />
+        </asp:Panel>
+
+        
+        <%-- L3STinstances list --%>                  
+
+        <div>
+          <asp:Repeater ID="repeaterL3STinstances" runat="server">
+            <HeaderTemplate>
+              <div class="label">List of L3ST-instances<div>
+            </HeaderTemplate>
+            <ItemTemplate>
+              <a href="../../L3STinstance/metadata/?film=<%#Eval("filmId")%>&conversation=<%#Eval("conversationId")%>&L3STinstance=<%#Eval("L3STinstanceId")%>"><%#Eval("L3STinstanceId")%></a>&nbsp;&nbsp;
+            </ItemTemplate>
+          </asp:Repeater>
         </div>
+
 
         <%-- EXTRA PADDING AT THE END --%>
         <br />
