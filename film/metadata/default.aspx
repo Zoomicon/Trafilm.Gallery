@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: film\metadata\default.aspx
-Version: 20160609
+Version: 20160610
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -88,47 +88,21 @@ Version: 20160609
         <div class="label">Film URL</div>
         <asp:HyperLink ID="linkUrl" runat="server" Target="_blank"/>
 
-        <%-- TODO: maybe add image control and upload image action here? %>    
-
-
-        <%-- ITrafilmMetadata --%>
-
-        <div>
-          <span class="label">Info created: </span>
-          <asp:Label ID="lblInfoCreated" runat="server" />
-
-          <span class="label"> - Info Updated: </span>
-          <asp:Label ID="lblInfoUpdated" runat="server" />
-        </div>
-
         <div class="question">
-          <div class="label">3. Transcription </div>
-          <div class="tip">Transcription for the whole film</div>
-          <asp:TextBox ID="txtTranscription" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
-        </div>
-
-        <div class="question">
-          <div class="label">4. Keywords</div>
-          <div class="tip">Comma-separated list of keywords to help identify this item</div>
-          <asp:TextBox ID="txtKeywords" runat="server" Columns="150"></asp:TextBox>
-        </div>
-
-        <div class="question">
-          <div class="label">5. Remarks </div>
-          <div class="tip">Remarks on the metadata</div>
-          <asp:TextBox ID="txtRemarks" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
+          <div class="label">3. Image URL</div>
+          <asp:TextBox ID="txtImageUrl" runat="server" Columns="150"></asp:TextBox>
         </div>
 
 
         <%-- IFilmMetadata --%>
 
         <div class="question">
-          <div class="label">6. Title in Spanish</div>
+          <div class="label">4. Title in Spanish</div>
           <asp:TextBox ID="txtTitle_es" runat="server" Columns="150"></asp:TextBox>
         </div>
 
         <div class="question">
-          <div class="label">7. Title in Catalan</div>
+          <div class="label">5. Title in Catalan</div>
           <asp:TextBox ID="txtTitle_ca" runat="server" Columns="150"></asp:TextBox>
         </div>
 
@@ -136,51 +110,51 @@ Version: 20160609
 
 
         <div class="question">
-          <div class="label">8. Film duration (h:m:s)</div>
+          <div class="label">6. Film duration (h:m:s)</div>
           <asp:TextBox ID="txtDuration" runat="server"></asp:TextBox>
         </div>
 
 
         <div class="question">
-          <div class="label">9. Director(s)</div>
+          <div class="label">7. Director(s)</div>
           <div class="tip">Comma-separated list of film's director(s)</div>
           <asp:TextBox ID="txtDirectors" runat="server" Columns="150"></asp:TextBox>
         </div>
 
         <div class="question">
-          <div class="label">10. Scriptwriter(s)</div>
+          <div class="label">8. Scriptwriter(s)</div>
           <div class="tip">Comma-separated list of film's scriptwriter(s)</div>
           <asp:TextBox ID="txtScriptwriters" runat="server" Columns="150"></asp:TextBox>
         </div>
 
 
         <div class="question">
-          <div class="label">11. Production countries</div>
+          <div class="label">9. Production countries</div>
           <div class="tip">Comma-separated list of film's production countries</div>
           <asp:TextBox ID="txtProductionCountries" runat="server" Columns="150"></asp:TextBox>
         </div>
 
         <div class="question">
-          <div class="label">12. Production companies</div>
+          <div class="label">10. Production companies</div>
           <div class="tip">Comma-separated list of film's production companies</div>
           <asp:TextBox ID="txtProductionCompanies" runat="server" Columns="150"></asp:TextBox>
         </div>
 
 
         <div class="question">
-          <div class="label">13. Box office</div>
-          <div class="tip">Box office where the film was originally released</div>
+          <div class="label">11. Box office</div>
+          <div class="tip">Box office (ticket sales in US Dollars) where the film was originally released</div>
           <asp:TextBox ID="txtBoxOffice" runat="server"></asp:TextBox>
         </div>
 
         <div class="question">
-          <div class="label">14. Year ST released</div>
+          <div class="label">12. Year ST released</div>
           <asp:TextBox ID="txtYear" runat="server"></asp:TextBox>
         </div>
 
 
         <div class="question">
-          <div class="label">15. L1 language</div>
+          <div class="label">13. L1 language</div>
           <asp:Panel runat="server" ScrollBars="Auto">
             <asp:DropDownList ID="listL1language" runat="server"
               DataSourceID="xmlL1language" DataTextField="Value" DataValueField="Value"
@@ -190,7 +164,7 @@ Version: 20160609
 
 
         <div class="question">
-          <div class="label">16. Year TT released in Spain</div>
+          <div class="label">14. Year TT released in Spain</div>
           <asp:TextBox ID="txtYearTranslated" runat="server"></asp:TextBox>
         </div>
                 
@@ -199,14 +173,14 @@ Version: 20160609
 
         <div>
           <div class="label">L2-Dubbed languages</div>
-          <asp:Panel runat="server" Height="100" ScrollBars="Auto">
+          <asp:Panel runat="server" ScrollBars="Auto" Style="max-height: 100px">
             <asp:ListBox ID="listL2dubbedLanguages" runat="server" Enabled="false" />
            </asp:Panel>
         </div>
         
         <div>
           <div class="label">L2-Subtitled languages</div>
-          <asp:Panel runat="server" Height="100" ScrollBars="Auto">
+          <asp:Panel runat="server" ScrollBars="Auto" Style="max-height: 100px">
             <asp:ListBox ID="listL2subtitledLanguages" runat="server" Enabled="false" />
            </asp:Panel>
         </div>   
@@ -225,28 +199,71 @@ Version: 20160609
         </div>
 
 
-       <%-- Conversations list --%>                  
+        <%-- ITrafilmMetadata --%>
 
-        <asp:Repeater ID="repeaterConversations" runat="server">
-          <HeaderTemplate>
-            <div class="label">List of Conversations<div>
-          </HeaderTemplate>
-          <ItemTemplate>
-            <a href="../../conversation/metadata/?film=<%#Eval("filmId")%>&conversation=<%#Eval("conversationId")%>"><%#Eval("conversationId")%></a>&nbsp;&nbsp;
-          </ItemTemplate>
-        </asp:Repeater>
+        <div class="question">
+          <div class="label">15. Transcription </div>
+          <div class="tip">Transcription for the whole film</div>
+          <asp:TextBox ID="txtTranscription" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
+        </div>
+
+        <div class="question">
+          <div class="label">16. Keywords</div>
+          <div class="tip">Comma-separated list of keywords to help identify this item</div>
+          <asp:TextBox ID="txtKeywords" runat="server" Columns="150"></asp:TextBox>
+        </div>
+
+        <div class="question">
+          <div class="label">17. Remarks </div>
+          <div class="tip">Remarks on the metadata</div>
+          <asp:TextBox ID="txtRemarks" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
+        </div>
+
+
+        <div>
+          <span class="label">Info created: </span>
+          <asp:Label ID="lblInfoCreated" runat="server" />
+
+          <span class="label"> - Info Updated: </span>
+          <asp:Label ID="lblInfoUpdated" runat="server" />
+        </div>
+
+        <div>
+          <div class="label">Metadata Editors</div>
+          <asp:Panel runat="server" ScrollBars="Auto" Style="max-height: 100px">
+            <asp:ListBox ID="listMetadataEditors" runat="server" Enabled="false" />
+           </asp:Panel>
+        </div>
 
 
         <%-- SAVE BUTTON --%>
            
-        <div>
+        <asp:Panel ID="panelSave" runat="server">
+          <br />
           <asp:Button ID="btnSave" runat="server"
             Text="Save metadata"
             Font-Bold="true"
             height="50"
             OnClick="btnSave_Click"
             />
+          <br />
+        </asp:Panel>
+
+        <br />
+
+        <%-- Conversations list --%>                  
+
+        <div>
+          <asp:Repeater ID="repeaterConversations" runat="server">
+            <HeaderTemplate>
+              <div class="label">List of Conversations<div>
+            </HeaderTemplate>
+            <ItemTemplate>
+              <a href="../../conversation/metadata/?film=<%#Eval("filmId")%>&conversation=<%#Eval("conversationId")%>"><%#Eval("conversationId")%></a>&nbsp;&nbsp;
+            </ItemTemplate>
+          </asp:Repeater>
         </div>
+
 
         <%-- EXTRA PADDING AT THE END --%>
         <br />

@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: film\metadata\default.aspx.cs
-//Version: 20160609
+//Version: 20160610
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -31,8 +31,9 @@ namespace Trafilm.Gallery
       }
 
       bool canSave = IsUserAllowedToSave("Film");
-      panelAdd.Visible = canSave;
       panelMetadata.Enabled = canSave;
+      panelSave.Visible = canSave;
+      panelAdd.Visible = canSave;
 
       btnRename.Visible = IsUserAllowedToRename("Film") && (listFilms.SelectedIndex > 0);
     }
@@ -107,15 +108,18 @@ namespace Trafilm.Gallery
 
       //Ignoring the Id field, since some Pivot Tools expect it to be sequential
       UI.Load(txtTitle, metadata.Title);
-      //Not showing any Image field
+      UI.Load(txtImageUrl, metadata.Image);
       UI.Load(linkUrl, GetFilmUri(key));
       UI.Load(txtDescription, metadata.Description);
 
       //ITrafilmMetadata//
 
       //No need to show film.ReferenceId since we calculate and show the URL, plus the ReferenceId is used as the key and shown at the dropdown list
+
       UI.Load(lblInfoCreated, metadata.InfoCreated.ToString(CXML.DEFAULT_DATETIME_FORMAT));
       UI.Load(lblInfoUpdated, metadata.InfoUpdated.ToString(CXML.DEFAULT_DATETIME_FORMAT));
+
+      UI.LoadContent(listMetadataEditors, metadata.MetadataEditors);
 
       UI.Load(txtTranscription, metadata.Transcription);
 
@@ -165,7 +169,7 @@ namespace Trafilm.Gallery
       //ICXMLMetadata//
 
       metadata.Title = txtTitle.Text;
-      metadata.Image = "../film/image/" + key + ".png";
+      metadata.Image = txtImageUrl.Text;
       metadata.Url = GetFilmUri(key);
       metadata.Description = txtDescription.Text;
 
@@ -175,6 +179,8 @@ namespace Trafilm.Gallery
 
       metadata.InfoCreated = DateTime.ParseExact(lblInfoCreated.Text, CXML.DEFAULT_DATETIME_FORMAT, CultureInfo.InvariantCulture);
       metadata.InfoUpdated = DateTime.ParseExact(lblInfoUpdated.Text, CXML.DEFAULT_DATETIME_FORMAT, CultureInfo.InvariantCulture);
+
+      metadata.MetadataEditors = UI.GetContent(listMetadataEditors);
 
       metadata.Transcription = txtTranscription.Text;
 
@@ -213,6 +219,7 @@ namespace Trafilm.Gallery
     public void Save()
     {
       lblInfoUpdated.Text = DateTime.UtcNow.ToString(CXML.DEFAULT_DATETIME_FORMAT);
+      UI.AppendUserName(listMetadataEditors);
       filmStorage[listFilms.SelectedValue] = (IFilm)GetMetadataFromUI();
     }
 

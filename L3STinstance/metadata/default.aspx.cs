@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: L3STinstance\metadata\default.aspx.cs
-//Version: 20160609
+//Version: 20160610
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -39,8 +39,9 @@ namespace Trafilm.Gallery
       }
 
       bool canSave = IsUserAllowedToSave("L3STinstance");
-      panelAdd.Visible = canSave;
       panelMetadata.Enabled = canSave;
+      panelSave.Visible = canSave;
+      panelAdd.Visible = canSave;
 
       btnRename.Visible = IsUserAllowedToRename("L3STinstance") && (listL3STinstances.SelectedIndex > 0);
     }
@@ -118,15 +119,18 @@ namespace Trafilm.Gallery
 
       //Ignoring the Id field, since some Pivot Tools expect it to be sequential
       UI.Load(txtTitle, metadata.Title);
-      //Not showing any Image field
+      UI.Load(txtImageUrl, metadata.Image);
       UI.Load(linkUrl, GetL3STinstanceUri(metadata.FilmReferenceId, metadata.ConversationReferenceId, key));
       UI.Load(txtDescription, metadata.Description);
 
       //ITrafilmMetadata//
 
       //No need to show L3STinstance.ReferenceId since we calculate and show the URL, plus the ReferenceId is used as the key and shown at the dropdown list
+
       UI.Load(lblInfoCreated, metadata.InfoCreated.ToString(CXML.DEFAULT_DATETIME_FORMAT));
       UI.Load(lblInfoUpdated, metadata.InfoUpdated.ToString(CXML.DEFAULT_DATETIME_FORMAT));
+
+      UI.LoadContent(listMetadataEditors, metadata.MetadataEditors);
 
       UI.Load(txtTranscription, metadata.Transcription);
 
@@ -182,15 +186,18 @@ namespace Trafilm.Gallery
       //ICXMLMetadata//
 
       metadata.Title = txtTitle.Text;
-      metadata.Image = "../L3STinstance/image/" + key + ".png";
+      metadata.Image = txtImageUrl.Text;
       metadata.Url = GetL3STinstanceUri(filmReferenceId, conversationReferenceId, key);
       metadata.Description = txtDescription.Text;
 
       //ITrafilmMetadata//
 
       metadata.ReferenceId = key;
+
       metadata.InfoCreated = DateTime.ParseExact(lblInfoCreated.Text, CXML.DEFAULT_DATETIME_FORMAT, CultureInfo.InvariantCulture);
       metadata.InfoUpdated = DateTime.ParseExact(lblInfoUpdated.Text, CXML.DEFAULT_DATETIME_FORMAT, CultureInfo.InvariantCulture);
+
+      metadata.MetadataEditors = UI.GetContent(listMetadataEditors);
 
       metadata.Transcription = txtTranscription.Text;
 
@@ -235,6 +242,7 @@ namespace Trafilm.Gallery
     public void Save()
     {
       lblInfoUpdated.Text = DateTime.UtcNow.ToString(CXML.DEFAULT_DATETIME_FORMAT);
+      UI.AppendUserName(listMetadataEditors);
       l3STinstanceStorage[listL3STinstances.SelectedValue] = (IL3STinstance)GetMetadataFromUI();
     }
 

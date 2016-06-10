@@ -1,10 +1,11 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: UI.cs
-//Version: 20160530
+//Version: 20160610
 
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Web.Security;
 using System.Web.UI.WebControls;
 
 namespace Trafilm.Gallery
@@ -17,12 +18,20 @@ namespace Trafilm.Gallery
       return (string.IsNullOrWhiteSpace(txt.Text)) ? null : txt.Text.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries);
     }
 
-    public static string[] GetSelected(ListControl clist)
+    public static string[] GetSelected(ListControl list)
     {
       List<string> result = new List<string>();
-      foreach (ListItem item in clist.Items)
+      foreach (ListItem item in list.Items)
         if (item.Selected && !string.IsNullOrWhiteSpace(item.Value))
           result.Add(item.Value);
+      return result.ToArray();
+    }
+
+    public static string[] GetContent(ListControl list)
+    {
+      List<string> result = new List<string>();
+      foreach (ListItem item in list.Items)
+        result.Add(item.Value);
       return result.ToArray();
     }
 
@@ -74,6 +83,12 @@ namespace Trafilm.Gallery
       textbox.Text = string.Join(",", values);
     }
 
+    public static void AppendUserName(ListControl list)
+    {
+      string userName = Membership.GetUser().UserName;
+      list.Items.Remove(userName);
+      list.Items.Add(userName);
+    }
   }
   
 }
