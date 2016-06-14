@@ -21,9 +21,11 @@
     <FacetCategory Name="L3TT represented: oral" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3TT represented: visual" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3TT functions" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3TT sources" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3ST language type change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3ST mode change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3ST functions change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST sources change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Keywords" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -32,26 +34,29 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Django Unchained_2012.Slave speaks a little German.Slave opens conversation.Slave's ST German dubbed" Name="Django Unchained_2012.Slave speaks a little German.Slave opens conversation.Slave's ST German dubbed" Img="../L3TTinstance/image/Django Unchained_2012.Slave speaks a little German.Slave opens conversation.Slave's ST German dubbed.png" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Django Unchained_2012&amp;conversation=Django Unchained_2012.Slave speaks a little German&amp;L3STinstance=Django Unchained_2012.Slave speaks a little German.Slave opens conversation&amp;L3TTinstance=Django Unchained_2012.Slave speaks a little German.Slave opens conversation.Slave's ST German dubbed">
+    <Item Id="Django Unchained.Slave speaks a little German.Slave opens conversation.Slave's ST German dubbed" Name="Django Unchained.Slave speaks a little German.Slave opens conversation.Slave's ST German dubbed" Img="../L3TTinstance/image/Django Unchained.Slave speaks a little German.Slave opens conversation.Slave's ST German dubbed.png" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Django Unchained&amp;conversation=Django Unchained.Slave speaks a little German&amp;L3STinstance=Django Unchained.Slave speaks a little German.Slave opens conversation&amp;L3TTinstance=Django Unchained.Slave speaks a little German.Slave opens conversation.Slave's ST German dubbed">
       <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Django Unchained_2012.Slave speaks a little German.Slave opens conversation.Slave's ST German dubbed" />
+          <String Value="Django Unchained.Slave speaks a little German.Slave opens conversation.Slave's ST German dubbed" />
         </Facet>
         <Facet Name="Info created">
           <DateTime Value="2016-06-01T07:33:31" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-06T03:46:18" />
+          <DateTime Value="2016-06-14T11:51:25" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
-          <String Value="Django Unchained_2012" />
+          <String Value="Django Unchained" />
         </Facet>
         <Facet Name="Conversation Reference Id">
-          <String Value="Django Unchained_2012.Slave speaks a little German" />
+          <String Value="Django Unchained.Slave speaks a little German" />
         </Facet>
         <Facet Name="L3ST-instance Reference Id">
-          <String Value="Django Unchained_2012.Slave speaks a little German.Slave opens conversation" />
+          <String Value="Django Unchained.Slave speaks a little German.Slave opens conversation" />
         </Facet>
         <Facet Name="L2 language">
           <String Value="Spanish" />
@@ -100,6 +105,9 @@
           <String Value="+ Oral non-diegetic" />
         </Facet>
         <Facet Name="L3ST functions change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3ST sources change">
           <String Value="None" />
         </Facet>
       </Facets>
@@ -183,11 +191,11 @@
         </Facet>
       </Facets>
     </Item>
-    <Item Id="OceansEleven_2001.ExplainingThePlan.Chinese.SpanishSub" Name="OceansEleven_2001.ExplainingThePlan.Chinese.SpanishSub" Img="../L3TTinstance/image/OceansEleven_2001.ExplainingThePlan.Chinese.SpanishSub.png" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=OceansEleven_2001&amp;conversation=OceansEleven_2001.ExplainingThePlan&amp;L3STinstance=OceansEleven_2001.ExplainingThePlan.Chinese&amp;L3TTinstance=OceansEleven_2001.ExplainingThePlan.Chinese.SpanishSub">
+    <Item Id="OceansEleven.ExplainingThePlan.Chinese.SpanishSub" Name="OceansEleven.ExplainingThePlan.Chinese.SpanishSub" Img="../L3TTinstance/image/OceansEleven.ExplainingThePlan.Chinese.SpanishSub.png" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=OceansEleven&amp;conversation=OceansEleven.ExplainingThePlan&amp;L3STinstance=OceansEleven.ExplainingThePlan.Chinese&amp;L3TTinstance=OceansEleven.ExplainingThePlan.Chinese.SpanishSub">
       <Description>Subtitled utterance</Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="OceansEleven_2001.ExplainingThePlan.Chinese.SpanishSub" />
+          <String Value="OceansEleven.ExplainingThePlan.Chinese.SpanishSub" />
         </Facet>
         <Facet Name="Info created">
           <DateTime Value="2016-05-26T07:05:07" />
@@ -196,13 +204,13 @@
           <DateTime Value="2016-06-06T03:46:04" />
         </Facet>
         <Facet Name="Film Reference Id">
-          <String Value="OceansEleven_2001" />
+          <String Value="OceansEleven" />
         </Facet>
         <Facet Name="Conversation Reference Id">
-          <String Value="OceansEleven_2001.ExplainingThePlan" />
+          <String Value="OceansEleven.ExplainingThePlan" />
         </Facet>
         <Facet Name="L3ST-instance Reference Id">
-          <String Value="OceansEleven_2001.ExplainingThePlan.Chinese" />
+          <String Value="OceansEleven.ExplainingThePlan.Chinese" />
         </Facet>
         <Facet Name="L2 language">
           <String Value="Spanish" />

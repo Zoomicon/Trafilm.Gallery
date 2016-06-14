@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: conversation\metadata\default.aspx
-Version: 20160610
+Version: 20160614
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -20,9 +20,9 @@ Version: 20160610
 
     <%-- DATA SOURCES --%>
 
-    <asp:XmlDataSource ID="xmlCount" runat="server" DataFile="~/metadata/Count.xml" XPath="Facet/String" />
-    <asp:XmlDataSource ID="xmlYesNo" runat="server" DataFile="~/metadata/YesNo.xml" XPath="Facet/String" />
+    <asp:XmlDataSource ID="xmlLanguageSources" runat="server" DataFile="~/metadata/LanguageSources.xml" XPath="Facet/String" />
     
+
     <%-- NAVIGATION MENU --%>
 
     <div class="navigation">
@@ -35,12 +35,12 @@ Version: 20160610
        <a href="../../L3TTinstance/metadata/?film=<%=listFilms.SelectedValue%>&conversation=<%=listConversations.SelectedValue%>">L3TT-instance Metadata</a>
     </div>
 
+
     <%-- INSTRUCTION BOX --%>
 
     <div class="instructions">
       Please fill in the following information for the Conversation of your choice. Select the Conversation from the dropdown list.<br />
       Try to fill the metadata as fully and accurately as possible, as they will be used for searching and filtering Conversations.<br />
-      Move the mouse over a question to see tooltip for it.
       Don't forget to press the SAVE METADATA button. Thank you!
     </div>
 
@@ -113,41 +113,12 @@ Version: 20160610
           <asp:TextBox ID="txtDuration" runat="server" Columns="25"></asp:TextBox>
         </div>
         
-
         <div class="question">
-          <div class="label">6. L1 language present</div>
-          <div class="tip">Is L1 language present in the conversation?</div>
-          <asp:DropDownList 
-            ID="listL1LanguagePresent" runat="server"
-            DataSourceID="xmlYesNo" DataTextField="Value" DataValueField="Value"
-            />
-        </div>
-
-        <div class="question">
-          <div class="label">7. L2 language present</div>
-          <div class="tip">Is L2 language present in the conversation?</div>
-          <asp:DropDownList 
-            ID="listL2LanguagePresent" runat="server"
-            DataSourceID="xmlYesNo" DataTextField="Value" DataValueField="Value"
-            />
-        </div>
-
-
-        <div class="question">
-          <div class="label">8. Speaking characters: count</div>
-          <div class="info">How many persons are speaking?</div>
-          <asp:DropDownList 
-            ID="listSpeakingCharactersCount" runat="server"
-            DataSourceID="xmlCount" DataTextField="Value" DataValueField="Value"
-            />
-        </div>
-
-        <div class="question">
-          <div class="label">9. L3ST-speaking characters: count</div>
-          <div class="info">How many persons are speaking some form of L3ST?</div>
-          <asp:DropDownList 
-            ID="listL3speakingCharactersCount" runat="server"
-            DataSourceID="xmlCount" DataTextField="Value" DataValueField="Value"
+          <div class="label">6. Language sources <i>(oral &amp; written)</i></div>
+          <div class="info">How many “language sources” are there, i.e. characters speaking (total amount in any language) in this conversation, but also counting other relevant sources like narrator or written words?</div>
+          <asp:DropDownList
+            ID="listLanguageSources" runat="server"
+            DataSourceID="xmlLanguageSources" DataTextField="Title" DataValueField="Value"
             />
         </div>
         
@@ -193,19 +164,19 @@ Version: 20160610
         <%-- ITrafilmMetadata --%>
 
         <div class="question">
-          <div class="label">10. Transcription </div>
+          <div class="label">7. Transcription </div>
           <div class="tip">Transcription for the specific conversation</div>
           <asp:TextBox ID="txtTranscription" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
         </div>
 
         <div class="question">
-          <div class="label">11. Keywords</div>
+          <div class="label">8. Keywords</div>
           <div class="tip">Comma-separated list of keywords to help identify this item</div>
           <asp:TextBox ID="txtKeywords" runat="server" Columns="150"></asp:TextBox>
         </div>
 
         <div class="question">
-          <div class="label">12. Remarks </div>
+          <div class="label">9. Remarks </div>
           <div class="tip">Remarks on the metadata</div>
           <asp:TextBox ID="txtRemarks" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
         </div>

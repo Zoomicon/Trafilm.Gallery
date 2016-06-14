@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!--
+Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
+Filename: metadata/L3sources.xml
+Version: 20160614
+-->
+
+<Facet Name="L3sources">
+  <String Value="" Title=""/>
+  <String Value="Oral L3: single source" Title="One speech/utterance from a single character or other source"/>
+  <String Value="Oral L3: different sources " Title="There are two or more characters speaking L3, no main language" />
+  <String Value="Only written L3" Title="Conversation only includes L3 in writing"/>
+  <String Value="Written &amp; oral L3" Title="L3 is conveyed in writing and orally"/>
+  <String Value="Bilingual (L3&amp;main): same source " Title="Same character mixes L3 and main language"/>
+  <String Value="Respond interlingually: different sources " Title="Dialogue between characters speaking / mixing different languages (L3&amp;main)" />
+  <String Value="Rephrase interlingually: different sources" Title="L3 is translated, explained or paraphrased by another character or narrator" />
+  <String Value="Rephrase interlingually: same source" Title="Selftranslation or rewording by same character / source"/>
+  <String Value="Fake/faulty translation: different source" Title="Another character grossly misrepresents L3 message in main language"/>
+  <String Value="Fake/faulty translation: same source" Title="Same character grossly misrepresents own L3 message in main language"/>
+  <String Value="Non-diegetic translation" Title="Translation is offered to the audience extradiegetically"/>
+</Facet>

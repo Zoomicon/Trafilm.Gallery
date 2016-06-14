@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: L3STinstance\metadata\default.aspx.cs
-//Version: 20160610
+//Version: 20160614
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -167,6 +167,8 @@ namespace Trafilm.Gallery
 
       UI.Load(clistL3STfunctions, metadata.L3STfunctions);
 
+      UI.Load(listL3STsources, metadata.L3STsources);
+
       //Calculated properties//
 
       UI.Load(lblL3TTinstanceCount, metadata.L3TTinstanceCount.ToString());
@@ -231,6 +233,8 @@ namespace Trafilm.Gallery
       metadata.L3STrepresentationsVisual = UI.GetSelected(clistL3STrepresentationsVisual);
 
       metadata.L3STfunctions = UI.GetSelected(clistL3STfunctions);
+
+      metadata.L3STsources = listL3STsources.SelectedValue;
 
       //Calculated properties//
 

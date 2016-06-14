@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: L3STinstance\metadata\default.aspx
-Version: 20160610
+Version: 20160614
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -31,6 +31,8 @@ Version: 20160610
     <asp:XmlDataSource ID="xmlL3STrepresentationsOral" runat="server" DataFile="~/metadata/L3representationsOral.xml" XPath="Facet/String" />
     <asp:XmlDataSource ID="xmlL3STrepresentationsVisual" runat="server" DataFile="~/metadata/L3representationsVisual.xml" XPath="Facet/String" />
     <asp:XmlDataSource ID="xmlL3STfunctions" runat="server" DataFile="~/metadata/L3functions.xml" XPath="Facet/String" />
+    <asp:XmlDataSource ID="xmlL3STsources" runat="server" DataFile="~/metadata/L3sources.xml" XPath="Facet/String" />
+
 
     <%-- NAVIGATION MENU --%>
 
@@ -43,6 +45,7 @@ Version: 20160610
        &nbsp;&nbsp;-&nbsp;&nbsp;
        <a href="../../L3TTinstance/metadata/?film=<%=listFilms.SelectedValue%>&conversation=<%=listConversations.SelectedValue%>&L3STinstance=<%=listL3STinstances.SelectedValue%>">L3TT-instance Metadata</a>
     </div>
+
 
     <%-- INSTRUCTIONS BOX --%>
 
@@ -259,6 +262,16 @@ Version: 20160610
            </asp:Panel>
         </div>
 
+        
+        <div class="question">
+          <div class="label">18. L3ST sources <i>(with or without main language mix)</i></div>
+          <div class="info">Choose the description that best explains the number of sources (on or off screen, oral or written) and whether the main language is mixed with L3 (Main language, or “main”, is L1 for L3ST-instances)</div>
+          <asp:DropDownList
+            ID="listL3STsources" runat="server"
+            DataSourceID="xmlL3STsources" DataTextField="Title" DataValueField="Value"
+            />
+        </div>
+
 
         <%-- Calculated from L3TTinstances --%>
 
@@ -271,19 +284,19 @@ Version: 20160610
         <%-- ITrafilmMetadata --%>
 
         <div class="question">
-          <div class="label">18. Transcription </div>
+          <div class="label">19. Transcription </div>
           <div class="tip">Transcription for the specific L3ST-instance</div>
           <asp:TextBox ID="txtTranscription" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
         </div>
 
         <div class="question">
-          <div class="label">19. Keywords</div>
+          <div class="label">20. Keywords</div>
           <div class="tip">Comma-separated list of keywords to help identify this item</div>
           <asp:TextBox ID="txtKeywords" runat="server" Columns="150"></asp:TextBox>
         </div>
 
         <div class="question">
-          <div class="label">20. Remarks </div>
+          <div class="label">21. Remarks </div>
           <div class="tip">Remarks on the metadata</div>
           <asp:TextBox ID="txtRemarks" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
         </div>

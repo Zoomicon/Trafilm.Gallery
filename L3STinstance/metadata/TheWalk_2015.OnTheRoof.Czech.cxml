@@ -27,11 +27,11 @@
     <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="TheWalk_2015.OnTheRoof.Czech" Name="" Img="../L3STinstance/image/TheWalk_2015.OnTheRoof.Czech.png" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk_2015&amp;conversation=TheWalk_2015.OnTheRoof&amp;L3STinstance=TheWalk_2015.OnTheRoof.Czech">
+    <Item Id="TheWalk.OnTheRoof.Czech" Name="TheWalk.OnTheRoof.Czech" Img="../L3STinstance/image/TheWalk.OnTheRoof.Czech.png" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk&amp;conversation=TheWalk.OnTheRoof&amp;L3STinstance=TheWalk.OnTheRoof.Czech">
       <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="TheWalk_2015.OnTheRoof.Czech" />
+          <String Value="TheWalk.OnTheRoof.Czech" />
         </Facet>
         <Facet Name="Info created">
           <DateTime Value="2016-05-31T11:22:00" />
@@ -40,10 +40,10 @@
           <DateTime Value="2016-06-06T03:47:27" />
         </Facet>
         <Facet Name="Film Reference Id">
-          <String Value="TheWalk_2015" />
+          <String Value="TheWalk" />
         </Facet>
         <Facet Name="Conversation Reference Id">
-          <String Value="TheWalk_2015.OnTheRoof" />
+          <String Value="TheWalk.OnTheRoof" />
         </Facet>
         <Facet Name="L1 language">
           <String Value="English" />

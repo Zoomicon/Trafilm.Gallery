@@ -25,7 +25,7 @@
         <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
     </FacetCategories>
     <Items ImgBase="films_deepzoom\films.dzc">
-        <Item Id="Django Unchained_2012" Name="Django Unchained" Img="#0" Href="http://gallery.trafilm.net/film/metadata/?film=Django Unchained_2012">
+        <Item Id="Django Unchained" Name="Django Unchained" Img="#0" Href="http://gallery.trafilm.net/film/metadata/?film=Django Unchained">
             <Description>Western. A story of slavery and revenge, gunfighters and slavemasters, US South</Description>
             <Facets>
                 <Facet Name="Conversations: count">
@@ -59,7 +59,7 @@
                     <String Value="USA" />
                 </Facet>
                 <Facet Name="Reference Id">
-                    <String Value="Django Unchained_2012" />
+                    <String Value="Django Unchained" />
                 </Facet>
                 <Facet Name="Scriptwriter(s)">
                     <String Value="Quentin Tarantino" />
@@ -75,7 +75,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="FellowshipOfTheRing_2001" Name="The Fellowship Of The Ring" Img="#1" Href="http://gallery.trafilm.net/film/metadata/?film=FellowshipOfTheRing_2001">
+        <Item Id="FellowshipOfTheRing" Name="The Fellowship Of The Ring" Img="#1" Href="http://gallery.trafilm.net/film/metadata/?film=FellowshipOfTheRing">
             <Description>An ancient Ring thought lost for centuries has been found, and through a strange twist in fate has been given to a small Hobbit named Frodo. When Gandalf discovers the Ring is in fact the One Ring of the Dark Lord Sauron, Frodo must make an epic quest to the Cracks of Doom in order to destroy it! However he does not go alone. He is joined by Gandalf, Legolas the elf, Gimli the Dwarf, Aragorn, Boromir and his three Hobbit friends Merry, Pippin and Samwise. Through mountains, snow, darkness, forests, rivers and plains, facing evil and danger at every corner the Fellowship of the Ring must go. Their quest to destroy the One Ring is the only hope for the end of the Dark Lords reign!</Description>
             <Facets>
                 <Facet Name="Conversations: count">
@@ -112,7 +112,7 @@
                     <String Value="USA" />
                 </Facet>
                 <Facet Name="Reference Id">
-                    <String Value="FellowshipOfTheRing_2001" />
+                    <String Value="FellowshipOfTheRing" />
                 </Facet>
                 <Facet Name="Scriptwriter(s)">
                     <String Value="Fran Walsh" />
@@ -134,28 +134,67 @@
             </Facets>
         </Item>
         <Item Id="Lost in Translation" Name="Lost in Translation" Img="#2" Href="http://gallery.trafilm.net/film/metadata/?film=Lost in Translation">
+            <Description>A faded movie star and a neglected young woman form an unlikely bond after crossing paths in Tokyo. </Description>
             <Facets>
+                <Facet Name="Box office">
+                    <String Value=" $44.566.004 (USA) " />
+                </Facet>
                 <Facet Name="Conversations: count">
                     <String Value="0" />
                 </Facet>
                 <Facet Name="Conversations: duration (h:m:s)">
                     <String Value="0:00:00" />
                 </Facet>
+                <Facet Name="Director(s)">
+                    <String Value="Sofia Coppola" />
+                </Facet>
+                <Facet Name="Duration (h:m:s)">
+                    <String Value="1:41:00" />
+                </Facet>
                 <Facet Name="Info created">
-                    <DateTime Value="2016-06-03T08:23:19" />
+                    <DateTime Value="2016-06-13T06:54:58" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-06-07T02:40:27" />
+                    <DateTime Value="2016-06-14T02:41:47" />
+                </Facet>
+                <Facet Name="L1 language">
+                    <String Value="English" />
+                </Facet>
+                <Facet Name="Metadata Editors">
+                    <String Value="natalia.faja" />
+                    <String Value="George" />
+                </Facet>
+                <Facet Name="Production companies">
+                    <String Value="Focus Features" />
+                    <String Value=" Tohokushinsha Film Corporation (TFC)" />
+                    <String Value=" American Zoetrope" />
+                    <String Value=" Elemental Films" />
+                </Facet>
+                <Facet Name="Production countries">
+                    <String Value=" USA" />
+                    <String Value=" Japan" />
                 </Facet>
                 <Facet Name="Reference Id">
+                    <String Value="Lost in Translation" />
+                </Facet>
+                <Facet Name="Scriptwriter(s)">
+                    <String Value="Sofia Coppola " />
+                </Facet>
+                <Facet Name="Title in Catalan">
+                    <String Value="Lost in Translation" />
+                </Facet>
+                <Facet Name="Title in Spanish">
                     <String Value="Lost in Translation" />
                 </Facet>
                 <Facet Name="Year ST released">
                     <String Value="2003" />
                 </Facet>
+                <Facet Name="Year TT released in Spain">
+                    <String Value="2004" />
+                </Facet>
             </Facets>
         </Item>
-        <Item Id="LoveActually_2003" Name="Love Actually " Img="#3" Href="http://gallery.trafilm.net/film/metadata/?film=LoveActually_2003">
+        <Item Id="LoveActually" Name="Love Actually " Img="#3" Href="http://gallery.trafilm.net/film/metadata/?film=LoveActually">
             <Description>Follows the lives of eight very different couples in dealing with their love lives in various loosely interrelated tales all set during a frantic month before Christmas in London, England. (imdb)</Description>
             <Facets>
                 <Facet Name="Box office">
@@ -197,7 +236,7 @@
                     <String Value="France" />
                 </Facet>
                 <Facet Name="Reference Id">
-                    <String Value="LoveActually_2003" />
+                    <String Value="LoveActually" />
                 </Facet>
                 <Facet Name="Scriptwriter(s)">
                     <String Value="Richard Curtis" />
@@ -278,7 +317,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="OceansEleven_2001" Name="Ocean's Eleven" Img="#5" Href="http://gallery.trafilm.net/film/metadata/?film=OceansEleven_2001">
+        <Item Id="OceansEleven" Name="Ocean's Eleven" Img="#5" Href="http://gallery.trafilm.net/film/metadata/?film=OceansEleven">
             <Description>Danny Ocean wants to score the biggest heist in history. He combines an eleven member team, including Frank Catton, Rusty Ryan and Linus Caldwell. Their target? The Bellagio, the Mirage and the MGM Grand. All casinos owned by Terry Benedict. It's not going to be easy, as they plan to get in secretly and out with $150 million.</Description>
             <Facets>
                 <Facet Name="Conversations: count">
@@ -314,7 +353,7 @@
                     <String Value=" NPV Entertainment" />
                 </Facet>
                 <Facet Name="Reference Id">
-                    <String Value="OceansEleven_2001" />
+                    <String Value="OceansEleven" />
                 </Facet>
                 <Facet Name="Scriptwriter(s)">
                     <String Value="George Clayton Johnson" />
@@ -328,7 +367,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheReturnOfTheKing_2003" Name="The Return Of The King" Img="#6" Href="http://gallery.trafilm.net/film/metadata/?film=TheReturnOfTheKing_2003">
+        <Item Id="TheReturnOfTheKing" Name="The Return Of The King" Img="#6" Href="http://gallery.trafilm.net/film/metadata/?film=TheReturnOfTheKing">
             <Description>Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.</Description>
             <Facets>
                 <Facet Name="Conversations: count">
@@ -365,7 +404,7 @@
                     <String Value="USA" />
                 </Facet>
                 <Facet Name="Reference Id">
-                    <String Value="TheReturnOfTheKing_2003" />
+                    <String Value="TheReturnOfTheKing" />
                 </Facet>
                 <Facet Name="Scriptwriter(s)">
                     <String Value="Fran Walsh" />
@@ -386,7 +425,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers_2002" Name="The Two Towers" Img="#7" Href="http://gallery.trafilm.net/film/metadata/?film=TheTwoTowers_2002">
+        <Item Id="TheTwoTowers" Name="The Two Towers" Img="#7" Href="http://gallery.trafilm.net/film/metadata/?film=TheTwoTowers">
             <Description>While Frodo and Sam, now accompanied by a new guide, continue their hopeless journey towards the land of shadow to destroy the One Ring, each member of the broken fellowship plays their part in the battle against the evil wizard Saruman and his armies of Isengard. </Description>
             <Facets>
                 <Facet Name="Conversations: count">
@@ -423,7 +462,7 @@
                     <String Value="USA" />
                 </Facet>
                 <Facet Name="Reference Id">
-                    <String Value="TheTwoTowers_2002" />
+                    <String Value="TheTwoTowers" />
                 </Facet>
                 <Facet Name="Scriptwriter(s)">
                     <String Value="Fran Walsh" />
@@ -445,7 +484,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheWalk_2015" Name="The Walk" Img="#8" Href="http://gallery.trafilm.net/film/metadata/?film=TheWalk_2015">
+        <Item Id="TheWalk" Name="The Walk" Img="#8" Href="http://gallery.trafilm.net/film/metadata/?film=TheWalk">
             <Description>In 1974, high-wire artist Philippe Petit recruits a team of people to help him realize his dream: to walk the immense void between the World Trade Center towers.</Description>
             <Facets>
                 <Facet Name="Box office">
@@ -483,7 +522,7 @@
                     <String Value="USA" />
                 </Facet>
                 <Facet Name="Reference Id">
-                    <String Value="TheWalk_2015" />
+                    <String Value="TheWalk" />
                 </Facet>
                 <Facet Name="Scriptwriter(s)">
                     <String Value="Robert Zemeckis" />

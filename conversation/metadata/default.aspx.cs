@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: conversation\metadata\default.aspx.cs
-//Version: 20160610
+//Version: 20160614
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -130,11 +130,7 @@ namespace Trafilm.Gallery
       UI.Load(txtStartTime, metadata.StartTime.ToString(ConversationMetadata.DEFAULT_POSITION_FORMAT));
       UI.Load(txtDuration, metadata.Duration.ToString(ConversationMetadata.DEFAULT_DURATION_FORMAT));
 
-      UI.Load(listL1LanguagePresent, metadata.L1languagePresent);
-      UI.Load(listL2LanguagePresent, metadata.L2languagePresent);
-
-      UI.Load(listSpeakingCharactersCount, metadata.SpeakingCharactersCount);
-      UI.Load(listL3speakingCharactersCount, metadata.L3STspeakingCharactersCount);
+      UI.Load(listLanguageSources, metadata.LanguageSources);
 
       //Calculated properties//
 
@@ -186,11 +182,7 @@ namespace Trafilm.Gallery
       metadata.StartTime = txtStartTime.Text.ToNullableTimeSpan(ConversationMetadata.DEFAULT_POSITION_FORMAT);
       metadata.Duration = txtDuration.Text.ToNullableTimeSpan(ConversationMetadata.DEFAULT_DURATION_FORMAT);
 
-      metadata.L1languagePresent = listL1LanguagePresent.SelectedValue;
-      metadata.L2languagePresent = listL2LanguagePresent.SelectedValue;
-
-      metadata.SpeakingCharactersCount = listSpeakingCharactersCount.SelectedValue; //e.g. 1, 2, 3, more than 3
-      metadata.L3STspeakingCharactersCount = listL3speakingCharactersCount.SelectedValue; //e.g. 1, 2, 3, more than 3
+      metadata.LanguageSources = listLanguageSources.SelectedValue;
 
       //Calculated properties//
 
@@ -210,35 +202,6 @@ namespace Trafilm.Gallery
     {
       ICXMLMetadataStorage<IConversation> allConversationsStorage = new CXMLFragmentStorage<IConversation, Conversation>(Path.Combine(Request.PhysicalApplicationPath, @"conversation\conversations.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"conversation\metadata"), "*.cxml");
       SaveCollection(Path.Combine(Request.PhysicalApplicationPath, @"conversation\conversations.cxml"), "Trafilm Gallery: Conversations", ConversationMetadataFacets.GetCXMLFacetCategories(), allConversationsStorage.Values);
-    }
-
-    #endregion
-
-    #region Calculated from L3STinstances
-
-    private int CalculateL3languagesCount(string key) //TODO
-    {
-      return 0;
-    }
-
-    private string[] CalculateL3languages(string key) //TODO
-    {
-      return new string[] { };
-    }
-
-    private int CalculateL3languageTypesCount(string key) //TODO
-    {
-      return 0;
-    }
-
-    private string[] CalculateL3languageTypes(string key) //TODO
-    {
-      return new string[] { };
-    }
-
-    private int CalculateL3STinstanceCount(string key)
-    {
-      return l3STinstanceStorage.Count;
     }
 
     #endregion

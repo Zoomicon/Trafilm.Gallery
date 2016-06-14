@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!--
+Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
+Filename: metadata/LanguageSources.xml
+Version: 20160614
+-->
+
+<Facet Name="LanguageSources">
+  <String Value="" Title=""/>
+  <String Value="1 source, oral only" Title="1 source, oral only"/>
+  <String Value="2+ onscreen sources, oral only" Title="2 or more onscreen sources, oral only" />
+  <String Value="1 written source" Title="1 written source"/>
+  <String Value="2 or more written sources" Title="2 or more written sources"/>
+  <String Value="Combined: oral (any) &amp; written" Title="Combined sources: oral (on or off screen) &amp; written"/>
+  <String Value="Combined: on &amp; off screen oral" Title="Combined sources: on &amp; off screen oral" />
+</Facet>
