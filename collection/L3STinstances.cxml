@@ -19,6 +19,7 @@
         <FacetCategory Name="L3ST represented: oral" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="L3ST represented: visual" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="L3ST functions" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
+        <FacetCategory Name="L3ST sources" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="L3TT-instances: count" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
         <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="false" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="Keywords" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
@@ -44,7 +45,7 @@
                     <DateTime Value="2016-05-31T12:34:19" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-06-06T03:45:11" />
+                    <DateTime Value="2016-06-14T11:59:58" />
                 </Facet>
                 <Facet Name="Keywords">
                     <String Value="greeting in German" />
@@ -82,6 +83,9 @@
                 <Facet Name="L3TT-instances: count">
                     <String Value="1" />
                 </Facet>
+                <Facet Name="Metadata Editors">
+                    <String Value="George" />
+                </Facet>
                 <Facet Name="Reference Id">
                     <String Value="Django Unchained_2012.Slave speaks a little German.Slave opens conversation" />
                 </Facet>
@@ -102,7 +106,7 @@
                     <DateTime Value="2016-06-01T04:24:35" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-06-06T03:45:40" />
+                    <DateTime Value="2016-06-14T12:00:17" />
                 </Facet>
                 <Facet Name="L3ST language type">
                     <String Value="Real" />
@@ -112,6 +116,9 @@
                 </Facet>
                 <Facet Name="L3TT-instances: count">
                     <String Value="0" />
+                </Facet>
+                <Facet Name="Metadata Editors">
+                    <String Value="George" />
                 </Facet>
                 <Facet Name="Reference Id">
                     <String Value="LoveActually_2003.Lake Scene.Portuguese" />
@@ -183,13 +190,13 @@ There is another conversation taking place among women at the kitchen.</Descript
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="OceansEleven_2001.ExplainingThePlan.Chinese" Name="Speaking Chinese" Img="#3" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=OceansEleven_2001&amp;conversation=OceansEleven_2001.ExplainingThePlan&amp;L3STinstance=OceansEleven_2001.ExplainingThePlan.Chinese">
+        <Item Id="OceansEleven.ExplainingThePlan.Chinese" Name="Speaking Chinese" Img="#3" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=OceansEleven&amp;conversation=OceansEleven.ExplainingThePlan&amp;L3STinstance=OceansEleven.ExplainingThePlan.Chinese">
             <Facets>
                 <Facet Name="Conversation Reference Id">
-                    <String Value="OceansEleven_2001.ExplainingThePlan" />
+                    <String Value="OceansEleven.ExplainingThePlan" />
                 </Facet>
                 <Facet Name="Film Reference Id">
-                    <String Value="OceansEleven_2001" />
+                    <String Value="OceansEleven" />
                 </Facet>
                 <Facet Name="Info created">
                     <DateTime Value="2016-05-25T10:59:12" />
@@ -218,7 +225,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                     <String Value="1" />
                 </Facet>
                 <Facet Name="Reference Id">
-                    <String Value="OceansEleven_2001.ExplainingThePlan.Chinese" />
+                    <String Value="OceansEleven.ExplainingThePlan.Chinese" />
                 </Facet>
             </Facets>
         </Item>

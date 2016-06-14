@@ -29,7 +29,7 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Django Unchained_2012.Slave speaks a little German.Slave opens conversation" Name="Django Unchained_2012.Slave speaks a little German.Slave opens conversation" Img="../L3STinstance/image/Django Unchained_2012.Slave speaks a little German.Slave opens conversation.png" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Django Unchained_2012&amp;conversation=Django Unchained_2012.Slave speaks a little German&amp;L3STinstance=Django Unchained_2012.Slave speaks a little German.Slave opens conversation">
+    <Item Id="Django Unchained_2012.Slave speaks a little German.Slave opens conversation" Name="Django Unchained_2012.Slave speaks a little German.Slave opens conversation" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Django Unchained_2012&amp;conversation=Django Unchained_2012.Slave speaks a little German&amp;L3STinstance=Django Unchained_2012.Slave speaks a little German.Slave opens conversation">
       <Description>Doing as she is told, Brunhilda starts to speak in German, in what we call a conversation opener, a salutation</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -42,7 +42,7 @@
           <DateTime Value="2016-05-31T12:34:19" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-14T11:51:10" />
+          <DateTime Value="2016-06-14T11:59:58" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="George" />
@@ -94,7 +94,7 @@
         </Facet>
       </Facets>
     </Item>
-    <Item Id="LoveActually_2003.Lake Scene.Portuguese" Name="LoveActually_2003.Lake Scene.Portuguese" Img="../L3STinstance/image/LoveActually_2003.Lake Scene.Portuguese.png" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=LoveActually_2003&amp;conversation=LoveActually_2003.Lake Scene&amp;L3STinstance=LoveActually_2003.Lake Scene.Portuguese">
+    <Item Id="LoveActually_2003.Lake Scene.Portuguese" Name="LoveActually_2003.Lake Scene.Portuguese" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=LoveActually_2003&amp;conversation=LoveActually_2003.Lake Scene&amp;L3STinstance=LoveActually_2003.Lake Scene.Portuguese">
       <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -104,7 +104,10 @@
           <DateTime Value="2016-06-01T04:24:35" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-06T03:45:40" />
+          <DateTime Value="2016-06-14T12:00:17" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="LoveActually_2003" />
@@ -188,11 +191,11 @@ There is another conversation taking place among women at the kitchen.</Descript
         </Facet>
       </Facets>
     </Item>
-    <Item Id="OceansEleven_2001.ExplainingThePlan.Chinese" Name="Speaking Chinese" Img="../L3STinstance/image/OceansEleven_2001.ExplainingThePlan.Chinese.png" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=OceansEleven_2001&amp;conversation=OceansEleven_2001.ExplainingThePlan&amp;L3STinstance=OceansEleven_2001.ExplainingThePlan.Chinese">
+    <Item Id="OceansEleven.ExplainingThePlan.Chinese" Name="Speaking Chinese" Img="../L3STinstance/image/OceansEleven.ExplainingThePlan.Chinese.png" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=OceansEleven&amp;conversation=OceansEleven.ExplainingThePlan&amp;L3STinstance=OceansEleven.ExplainingThePlan.Chinese">
       <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="OceansEleven_2001.ExplainingThePlan.Chinese" />
+          <String Value="OceansEleven.ExplainingThePlan.Chinese" />
         </Facet>
         <Facet Name="Info created">
           <DateTime Value="2016-05-25T10:59:12" />
@@ -201,10 +204,10 @@ There is another conversation taking place among women at the kitchen.</Descript
           <DateTime Value="2016-06-06T03:45:55" />
         </Facet>
         <Facet Name="Film Reference Id">
-          <String Value="OceansEleven_2001" />
+          <String Value="OceansEleven" />
         </Facet>
         <Facet Name="Conversation Reference Id">
-          <String Value="OceansEleven_2001.ExplainingThePlan" />
+          <String Value="OceansEleven.ExplainingThePlan" />
         </Facet>
         <Facet Name="L1 language">
           <String Value="Chinese" />

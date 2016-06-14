@@ -5,10 +5,7 @@
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Start time (h:m:s)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Duration (h:m:s)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
-    <FacetCategory Name="L1 language present" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="L2 language present" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="Speaking characters: count" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="L3ST-speaking characters: count" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Language sources" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3ST languages: count" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="L3ST languages" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3ST language types: count" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
@@ -19,34 +16,32 @@
     <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="OceansEleven_2001.ExplainingThePlan" Name="Ocean's Eleven - Explaining the plan" Img="../conversation/image/OceansEleven_2001.ExplainingThePlan.png" Href="http://gallery.trafilm.net/conversation/metadata/?film=OceansEleven_2001&amp;conversation=OceansEleven_2001.ExplainingThePlan">
+    <Item Id="OceansEleven.ExplainingThePlan" Name="Ocean's Eleven - Explaining the plan" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=OceansEleven&amp;conversation=OceansEleven.ExplainingThePlan">
       <Description>They are explaining the plan and the Chinese asks a question. Rusty responds.</Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="OceansEleven_2001.ExplainingThePlan" />
+          <String Value="OceansEleven.ExplainingThePlan" />
         </Facet>
         <Facet Name="Info created">
           <DateTime Value="2016-05-25T10:57:47" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-06T03:41:56" />
+          <DateTime Value="2016-06-14T11:58:50" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
-          <String Value="OceansEleven_2001" />
+          <String Value="OceansEleven" />
         </Facet>
         <Facet Name="Start time (h:m:s)">
           <String Value="0:32:06" />
         </Facet>
         <Facet Name="Duration (h:m:s)">
           <String Value="0:04:00" />
-        </Facet>
-        <Facet Name="L1 language present">
-          <String Value="Yes" />
-        </Facet>
-        <Facet Name="L2 language present">
-          <String Value="No" />
         </Facet>
         <Facet Name="L3ST languages: count">
           <String Value="1" />

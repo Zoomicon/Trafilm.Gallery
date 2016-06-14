@@ -5,10 +5,7 @@
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Start time (h:m:s)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Duration (h:m:s)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
-    <FacetCategory Name="L1 language present" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="L2 language present" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="Speaking characters: count" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="L3ST-speaking characters: count" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Language sources" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3ST languages: count" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="L3ST languages" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3ST language types: count" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
@@ -19,9 +16,10 @@
     <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="TheWalk_2015.GettingAnInterphone" Name="TheWalk_2015.GettingAnInterphone" Img="../conversation/image/TheWalk_2015.GettingAnInterphone.png" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk_2015&amp;conversation=TheWalk_2015.GettingAnInterphone">
+    <Item Id="TheWalk_2015.GettingAnInterphone" Name="TheWalk_2015.GettingAnInterphone" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk_2015&amp;conversation=TheWalk_2015.GettingAnInterphone">
       <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -31,7 +29,10 @@
           <DateTime Value="2016-05-31T11:05:38" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-06T03:41:02" />
+          <DateTime Value="2016-06-14T11:58:25" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="TheWalk_2015" />
@@ -41,18 +42,6 @@
         </Facet>
         <Facet Name="Duration (h:m:s)">
           <String Value="0:51:36" />
-        </Facet>
-        <Facet Name="L1 language present">
-          <String Value="Yes" />
-        </Facet>
-        <Facet Name="L2 language present">
-          <String Value="No" />
-        </Facet>
-        <Facet Name="Speaking characters: count">
-          <String Value="more than 3" />
-        </Facet>
-        <Facet Name="L3ST-speaking characters: count">
-          <String Value="more than 3" />
         </Facet>
         <Facet Name="L3ST languages: count">
           <String Value="0" />

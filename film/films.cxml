@@ -317,11 +317,11 @@
         </Facet>
       </Facets>
     </Item>
-    <Item Id="OceansEleven_2001" Name="Ocean's Eleven" Img="https://upload.wikimedia.org/wikipedia/en/6/68/Ocean%27s_Eleven_2001_Poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=OceansEleven_2001">
+    <Item Id="OceansEleven" Name="Ocean's Eleven" Img="https://upload.wikimedia.org/wikipedia/en/6/68/Ocean%27s_Eleven_2001_Poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=OceansEleven">
       <Description>Danny Ocean wants to score the biggest heist in history. He combines an eleven member team, including Frank Catton, Rusty Ryan and Linus Caldwell. Their target? The Bellagio, the Mirage and the MGM Grand. All casinos owned by Terry Benedict. It's not going to be easy, as they plan to get in secretly and out with $150 million.</Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="OceansEleven_2001" />
+          <String Value="OceansEleven" />
         </Facet>
         <Facet Name="Info created">
           <DateTime Value="2016-05-25T10:53:52" />

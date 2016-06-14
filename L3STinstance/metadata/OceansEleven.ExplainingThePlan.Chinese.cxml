@@ -27,11 +27,11 @@
     <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="OceansEleven_2001.ExplainingThePlan.Chinese" Name="Speaking Chinese" Img="../L3STinstance/image/OceansEleven_2001.ExplainingThePlan.Chinese.png" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=OceansEleven_2001&amp;conversation=OceansEleven_2001.ExplainingThePlan&amp;L3STinstance=OceansEleven_2001.ExplainingThePlan.Chinese">
+    <Item Id="OceansEleven.ExplainingThePlan.Chinese" Name="Speaking Chinese" Img="../L3STinstance/image/OceansEleven.ExplainingThePlan.Chinese.png" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=OceansEleven&amp;conversation=OceansEleven.ExplainingThePlan&amp;L3STinstance=OceansEleven.ExplainingThePlan.Chinese">
       <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="OceansEleven_2001.ExplainingThePlan.Chinese" />
+          <String Value="OceansEleven.ExplainingThePlan.Chinese" />
         </Facet>
         <Facet Name="Info created">
           <DateTime Value="2016-05-25T10:59:12" />
@@ -40,10 +40,10 @@
           <DateTime Value="2016-06-06T03:45:55" />
         </Facet>
         <Facet Name="Film Reference Id">
-          <String Value="OceansEleven_2001" />
+          <String Value="OceansEleven" />
         </Facet>
         <Facet Name="Conversation Reference Id">
-          <String Value="OceansEleven_2001.ExplainingThePlan" />
+          <String Value="OceansEleven.ExplainingThePlan" />
         </Facet>
         <Facet Name="L1 language">
           <String Value="English" />

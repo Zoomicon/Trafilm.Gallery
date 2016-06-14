@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="OceansEleven_2001.ExplainingThePlan.Chinese.SpanishSub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="OceansEleven.ExplainingThePlan.Chinese.SpanishSub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -31,11 +31,11 @@
     <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="OceansEleven_2001.ExplainingThePlan.Chinese.SpanishSub" Name="OceansEleven_2001.ExplainingThePlan.Chinese.SpanishSub" Img="../L3TTinstance/image/OceansEleven_2001.ExplainingThePlan.Chinese.SpanishSub.png" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=OceansEleven_2001&amp;conversation=OceansEleven_2001.ExplainingThePlan&amp;L3STinstance=OceansEleven_2001.ExplainingThePlan.Chinese&amp;L3TTinstance=OceansEleven_2001.ExplainingThePlan.Chinese.SpanishSub">
+    <Item Id="OceansEleven.ExplainingThePlan.Chinese.SpanishSub" Name="OceansEleven.ExplainingThePlan.Chinese.SpanishSub" Img="../L3TTinstance/image/OceansEleven.ExplainingThePlan.Chinese.SpanishSub.png" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=OceansEleven&amp;conversation=OceansEleven.ExplainingThePlan&amp;L3STinstance=OceansEleven.ExplainingThePlan.Chinese&amp;L3TTinstance=OceansEleven.ExplainingThePlan.Chinese.SpanishSub">
       <Description>Subtitled utterance</Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="OceansEleven_2001.ExplainingThePlan.Chinese.SpanishSub" />
+          <String Value="OceansEleven.ExplainingThePlan.Chinese.SpanishSub" />
         </Facet>
         <Facet Name="Info created">
           <DateTime Value="2016-05-26T07:05:07" />
@@ -44,13 +44,13 @@
           <DateTime Value="2016-06-06T03:46:04" />
         </Facet>
         <Facet Name="Film Reference Id">
-          <String Value="OceansEleven_2001" />
+          <String Value="OceansEleven" />
         </Facet>
         <Facet Name="Conversation Reference Id">
-          <String Value="OceansEleven_2001.ExplainingThePlan" />
+          <String Value="OceansEleven.ExplainingThePlan" />
         </Facet>
         <Facet Name="L3ST-instance Reference Id">
-          <String Value="OceansEleven_2001.ExplainingThePlan.Chinese" />
+          <String Value="OceansEleven.ExplainingThePlan.Chinese" />
         </Facet>
         <Facet Name="L2 language">
           <String Value="Spanish" />
