@@ -60,10 +60,13 @@
     <Content Include="L3STinstance\template.html" />
     <Content Include="L3STinstance\template_image.png" />
     <Content Include="login.aspx" />
-    <Content Include="metadata\YesNo.xml">
+    <Content Include="metadata\L3sources.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="metadata\Count.xml">
+    <Content Include="metadata\LanguageSources.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="metadata\YesNo.xml">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="conversation\default.html" />

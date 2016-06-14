@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: conversation\metadata\default.aspx
-Version: 20160610
+Version: 20160614
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -20,8 +20,7 @@ Version: 20160610
 
     <%-- DATA SOURCES --%>
 
-    <asp:XmlDataSource ID="xmlCount" runat="server" DataFile="~/metadata/Count.xml" XPath="Facet/String" />
-    <asp:XmlDataSource ID="xmlYesNo" runat="server" DataFile="~/metadata/YesNo.xml" XPath="Facet/String" />
+    <asp:XmlDataSource ID="xmlLanguageSources" runat="server" DataFile="~/metadata/LanguageSources.xml" XPath="Facet/String" />
     
     <%-- NAVIGATION MENU --%>
 
@@ -112,41 +111,12 @@ Version: 20160610
           <asp:TextBox ID="txtDuration" runat="server" Columns="25"></asp:TextBox>
         </div>
         
-
         <div class="question">
-          <div class="label">6. L1 language present</div>
-          <div class="tip">Is L1 language present in the conversation?</div>
-          <asp:DropDownList 
-            ID="listL1LanguagePresent" runat="server"
-            DataSourceID="xmlYesNo" DataTextField="Value" DataValueField="Value"
-            />
-        </div>
-
-        <div class="question">
-          <div class="label">7. L2 language present</div>
-          <div class="tip">Is L2 language present in the conversation?</div>
-          <asp:DropDownList 
-            ID="listL2LanguagePresent" runat="server"
-            DataSourceID="xmlYesNo" DataTextField="Value" DataValueField="Value"
-            />
-        </div>
-
-
-        <div class="question">
-          <div class="label">8. Speaking characters: count</div>
-          <div class="info">How many persons are speaking?</div>
-          <asp:DropDownList 
-            ID="listSpeakingCharactersCount" runat="server"
-            DataSourceID="xmlCount" DataTextField="Value" DataValueField="Value"
-            />
-        </div>
-
-        <div class="question">
-          <div class="label">9. L3ST-speaking characters: count</div>
-          <div class="info">How many persons are speaking some form of L3ST?</div>
-          <asp:DropDownList 
-            ID="listL3speakingCharactersCount" runat="server"
-            DataSourceID="xmlCount" DataTextField="Value" DataValueField="Value"
+          <div class="label">6. Language sources (oral &amp; written)</div>
+          <div class="info">How many “language sources” are there, i.e. characters speaking (total amount in any language) in this conversation, but also counting other relevant sources like narrator or written words?</div>
+          <asp:DropDownList Enabled="false"
+            ID="listLanguageSources" runat="server"
+            DataSourceID="xmlLanguageSources" DataTextField="Value" DataValueField="Value"
             />
         </div>
         

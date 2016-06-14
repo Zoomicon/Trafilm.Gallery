@@ -13,22 +13,13 @@ namespace Trafilm.Gallery {
     public partial class ConversationMetadataPage {
         
         /// <summary>
-        /// xmlCount control.
+        /// xmlLanguageSources control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.XmlDataSource xmlCount;
-        
-        /// <summary>
-        /// xmlYesNo control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.XmlDataSource xmlYesNo;
+        protected global::System.Web.UI.WebControls.XmlDataSource xmlLanguageSources;
         
         /// <summary>
         /// form1 control.
@@ -193,40 +184,13 @@ namespace Trafilm.Gallery {
         protected global::System.Web.UI.WebControls.TextBox txtDuration;
         
         /// <summary>
-        /// listL1LanguagePresent control.
+        /// listLanguageSources control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList listL1LanguagePresent;
-        
-        /// <summary>
-        /// listL2LanguagePresent control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList listL2LanguagePresent;
-        
-        /// <summary>
-        /// listSpeakingCharactersCount control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList listSpeakingCharactersCount;
-        
-        /// <summary>
-        /// listL3speakingCharactersCount control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList listL3speakingCharactersCount;
+        protected global::System.Web.UI.WebControls.DropDownList listLanguageSources;
         
         /// <summary>
         /// lblL3languagesCount control.

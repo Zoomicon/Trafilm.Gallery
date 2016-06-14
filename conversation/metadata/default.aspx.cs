@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: conversation\metadata\default.aspx.cs
-//Version: 20160610
+//Version: 20160614
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -130,11 +130,7 @@ namespace Trafilm.Gallery
       UI.Load(txtStartTime, metadata.StartTime.ToString(ConversationMetadata.DEFAULT_POSITION_FORMAT));
       UI.Load(txtDuration, metadata.Duration.ToString(ConversationMetadata.DEFAULT_DURATION_FORMAT));
 
-      UI.Load(listL1LanguagePresent, metadata.L1languagePresent);
-      UI.Load(listL2LanguagePresent, metadata.L2languagePresent);
-
-      UI.Load(listSpeakingCharactersCount, metadata.SpeakingCharactersCount);
-      UI.Load(listL3speakingCharactersCount, metadata.L3STspeakingCharactersCount);
+      //TODO//UI.Load(listLanguagesSources, metadata.LanguageSources);
 
       //Calculated properties//
 
@@ -186,11 +182,7 @@ namespace Trafilm.Gallery
       metadata.StartTime = txtStartTime.Text.ToNullableTimeSpan(ConversationMetadata.DEFAULT_POSITION_FORMAT);
       metadata.Duration = txtDuration.Text.ToNullableTimeSpan(ConversationMetadata.DEFAULT_DURATION_FORMAT);
 
-      metadata.L1languagePresent = listL1LanguagePresent.SelectedValue;
-      metadata.L2languagePresent = listL2LanguagePresent.SelectedValue;
-
-      metadata.SpeakingCharactersCount = listSpeakingCharactersCount.SelectedValue; //e.g. 1, 2, 3, more than 3
-      metadata.L3STspeakingCharactersCount = listL3speakingCharactersCount.SelectedValue; //e.g. 1, 2, 3, more than 3
+      //TODO//metadata.LanguageSources = listLanguageSources.SelectedValue;
 
       //Calculated properties//
 
