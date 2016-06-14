@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: L3TTinstance\metadata\default.aspx
-Version: 20160610
+Version: 20160614
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -35,6 +35,8 @@ Version: 20160610
     <asp:XmlDataSource ID="xmlL3TTrepresentationsOral" runat="server" DataFile="~/metadata/L3representationsOral.xml" XPath="Facet/String" />
     <asp:XmlDataSource ID="xmlL3TTrepresentationsVisual" runat="server" DataFile="~/metadata/L3representationsVisual.xml" XPath="Facet/String" />
     <asp:XmlDataSource ID="xmlL3TTfunctions" runat="server" DataFile="~/metadata/L3functions.xml" XPath="Facet/String" />
+    <asp:XmlDataSource ID="xmlL3TTsources" runat="server" DataFile="~/metadata/L3sources.xml" XPath="Facet/String" />
+
 
     <%-- NAVIGATION MENU --%>
 
@@ -47,6 +49,7 @@ Version: 20160610
        &nbsp;&nbsp;-&nbsp;&nbsp;
        <a class="selected" href="../../L3TTinstance/metadata/">L3TT-instance Metadata</a>
     </div>
+
 
     <%-- INSTRUCTIONS BOX --%>
 
@@ -284,6 +287,16 @@ Version: 20160610
         </div>
 
 
+        <div class="question">
+          <div class="label">20. L3TT sources <i>(with or without main language mix)</i></div>
+          <div class="info">Choose the description that best explains the number of sources (on or off screen, oral or written) and whether the main language is mixed with L3 (Main language, or “main”, is L2 for L3TT-instances)</div>
+          <asp:DropDownList
+            ID="listL3TTsources" runat="server"
+            DataSourceID="xmlL3TTsources" DataTextField="Title" DataValueField="Value"
+            />
+        </div>
+
+
         <%-- Calculated from L3STinstance --%>
         
         <div>
@@ -302,6 +315,12 @@ Version: 20160610
           <div class="label">L3ST functions change (Calculated from L3ST and L3TT functions)</div>
           <div class="tip">L3ST functions change in TT</div>
           <asp:ListBox ID="listL3STfunctionsChange" runat="server" Enabled="false" />
+        </div>
+
+        <div>
+          <div class="label">L3ST sources change (Calculated from L3ST and L3TT sources)</div>
+          <div class="tip">L3ST sources change in TT</div>
+          <asp:ListBox ID="listL3STsourcesChange" runat="server" Enabled="false" />
         </div>
 
 

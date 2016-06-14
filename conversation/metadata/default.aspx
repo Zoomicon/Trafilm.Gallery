@@ -22,6 +22,7 @@ Version: 20160614
 
     <asp:XmlDataSource ID="xmlLanguageSources" runat="server" DataFile="~/metadata/LanguageSources.xml" XPath="Facet/String" />
     
+
     <%-- NAVIGATION MENU --%>
 
     <div class="navigation">
@@ -33,6 +34,7 @@ Version: 20160614
        &nbsp;&nbsp;-&nbsp;&nbsp;
        <a href="../../L3TTinstance/metadata/?film=<%=listFilms.SelectedValue%>&conversation=<%=listConversations.SelectedValue%>">L3TT-instance Metadata</a>
     </div>
+
 
     <%-- INSTRUCTION BOX --%>
 
@@ -112,11 +114,11 @@ Version: 20160614
         </div>
         
         <div class="question">
-          <div class="label">6. Language sources (oral &amp; written)</div>
+          <div class="label">6. Language sources <i>(oral &amp; written)</i></div>
           <div class="info">How many “language sources” are there, i.e. characters speaking (total amount in any language) in this conversation, but also counting other relevant sources like narrator or written words?</div>
-          <asp:DropDownList Enabled="false"
+          <asp:DropDownList
             ID="listLanguageSources" runat="server"
-            DataSourceID="xmlLanguageSources" DataTextField="Value" DataValueField="Value"
+            DataSourceID="xmlLanguageSources" DataTextField="Title" DataValueField="Value"
             />
         </div>
         
@@ -162,19 +164,19 @@ Version: 20160614
         <%-- ITrafilmMetadata --%>
 
         <div class="question">
-          <div class="label">10. Transcription </div>
+          <div class="label">7. Transcription </div>
           <div class="tip">Transcription for the specific conversation</div>
           <asp:TextBox ID="txtTranscription" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
         </div>
 
         <div class="question">
-          <div class="label">11. Keywords</div>
+          <div class="label">8. Keywords</div>
           <div class="tip">Comma-separated list of keywords to help identify this item</div>
           <asp:TextBox ID="txtKeywords" runat="server" Columns="150"></asp:TextBox>
         </div>
 
         <div class="question">
-          <div class="label">12. Remarks </div>
+          <div class="label">9. Remarks </div>
           <div class="tip">Remarks on the metadata</div>
           <asp:TextBox ID="txtRemarks" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
         </div>

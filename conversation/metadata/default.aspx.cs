@@ -130,7 +130,7 @@ namespace Trafilm.Gallery
       UI.Load(txtStartTime, metadata.StartTime.ToString(ConversationMetadata.DEFAULT_POSITION_FORMAT));
       UI.Load(txtDuration, metadata.Duration.ToString(ConversationMetadata.DEFAULT_DURATION_FORMAT));
 
-      //TODO//UI.Load(listLanguagesSources, metadata.LanguageSources);
+      UI.Load(listLanguageSources, metadata.LanguageSources);
 
       //Calculated properties//
 
@@ -182,7 +182,7 @@ namespace Trafilm.Gallery
       metadata.StartTime = txtStartTime.Text.ToNullableTimeSpan(ConversationMetadata.DEFAULT_POSITION_FORMAT);
       metadata.Duration = txtDuration.Text.ToNullableTimeSpan(ConversationMetadata.DEFAULT_DURATION_FORMAT);
 
-      //TODO//metadata.LanguageSources = listLanguageSources.SelectedValue;
+      metadata.LanguageSources = listLanguageSources.SelectedValue;
 
       //Calculated properties//
 
@@ -202,35 +202,6 @@ namespace Trafilm.Gallery
     {
       ICXMLMetadataStorage<IConversation> allConversationsStorage = new CXMLFragmentStorage<IConversation, Conversation>(Path.Combine(Request.PhysicalApplicationPath, @"conversation\conversations.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"conversation\metadata"), "*.cxml");
       SaveCollection(Path.Combine(Request.PhysicalApplicationPath, @"conversation\conversations.cxml"), "Trafilm Gallery: Conversations", ConversationMetadataFacets.GetCXMLFacetCategories(), allConversationsStorage.Values);
-    }
-
-    #endregion
-
-    #region Calculated from L3STinstances
-
-    private int CalculateL3languagesCount(string key) //TODO
-    {
-      return 0;
-    }
-
-    private string[] CalculateL3languages(string key) //TODO
-    {
-      return new string[] { };
-    }
-
-    private int CalculateL3languageTypesCount(string key) //TODO
-    {
-      return 0;
-    }
-
-    private string[] CalculateL3languageTypes(string key) //TODO
-    {
-      return new string[] { };
-    }
-
-    private int CalculateL3STinstanceCount(string key)
-    {
-      return l3STinstanceStorage.Count;
     }
 
     #endregion

@@ -5,10 +5,7 @@
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Start time (h:m:s)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Duration (h:m:s)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
-    <FacetCategory Name="L1 language present" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="L2 language present" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="Speaking characters: count" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="L3ST-speaking characters: count" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Language sources" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3ST languages: count" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="L3ST languages" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3ST language types: count" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
@@ -36,7 +33,7 @@
           <DateTime Value="2016-05-31T12:04:40" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-14T02:43:52" />
+          <DateTime Value="2016-06-14T11:51:39" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="George" />
@@ -49,18 +46,6 @@
         </Facet>
         <Facet Name="Duration (h:m:s)">
           <String Value="0:00:11" />
-        </Facet>
-        <Facet Name="L1 language present">
-          <String Value="Yes" />
-        </Facet>
-        <Facet Name="L2 language present">
-          <String Value="Yes" />
-        </Facet>
-        <Facet Name="Speaking characters: count">
-          <String Value="3" />
-        </Facet>
-        <Facet Name="L3ST-speaking characters: count">
-          <String Value="2" />
         </Facet>
         <Facet Name="L3ST languages: count">
           <String Value="1" />
@@ -93,18 +78,6 @@
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="LoveActually_2003" />
-        </Facet>
-        <Facet Name="L1 language present">
-          <String Value="Yes" />
-        </Facet>
-        <Facet Name="L2 language present">
-          <String Value="No" />
-        </Facet>
-        <Facet Name="Speaking characters: count">
-          <String Value="2" />
-        </Facet>
-        <Facet Name="L3ST-speaking characters: count">
-          <String Value="1" />
         </Facet>
         <Facet Name="L3ST languages: count">
           <String Value="0" />
@@ -167,12 +140,6 @@
         <Facet Name="Duration (h:m:s)">
           <String Value="0:04:00" />
         </Facet>
-        <Facet Name="L1 language present">
-          <String Value="Yes" />
-        </Facet>
-        <Facet Name="L2 language present">
-          <String Value="No" />
-        </Facet>
         <Facet Name="L3ST languages: count">
           <String Value="1" />
         </Facet>
@@ -211,18 +178,6 @@
         <Facet Name="Duration (h:m:s)">
           <String Value="0:51:36" />
         </Facet>
-        <Facet Name="L1 language present">
-          <String Value="Yes" />
-        </Facet>
-        <Facet Name="L2 language present">
-          <String Value="No" />
-        </Facet>
-        <Facet Name="Speaking characters: count">
-          <String Value="more than 3" />
-        </Facet>
-        <Facet Name="L3ST-speaking characters: count">
-          <String Value="more than 3" />
-        </Facet>
         <Facet Name="L3ST languages: count">
           <String Value="0" />
         </Facet>
@@ -254,18 +209,6 @@
         </Facet>
         <Facet Name="Duration (h:m:s)">
           <String Value="0:19:04" />
-        </Facet>
-        <Facet Name="L1 language present">
-          <String Value="Yes" />
-        </Facet>
-        <Facet Name="L2 language present">
-          <String Value="No" />
-        </Facet>
-        <Facet Name="Speaking characters: count">
-          <String Value="2" />
-        </Facet>
-        <Facet Name="L3ST-speaking characters: count">
-          <String Value="2" />
         </Facet>
         <Facet Name="L3ST languages: count">
           <String Value="0" />
@@ -299,18 +242,6 @@
         <Facet Name="Duration (h:m:s)">
           <String Value="0:43:21" />
         </Facet>
-        <Facet Name="L1 language present">
-          <String Value="Yes" />
-        </Facet>
-        <Facet Name="L2 language present">
-          <String Value="No" />
-        </Facet>
-        <Facet Name="Speaking characters: count">
-          <String Value="more than 3" />
-        </Facet>
-        <Facet Name="L3ST-speaking characters: count">
-          <String Value="more than 3" />
-        </Facet>
         <Facet Name="L3ST languages: count">
           <String Value="0" />
         </Facet>
@@ -343,18 +274,6 @@
         <Facet Name="Duration (h:m:s)">
           <String Value="0:23:28" />
         </Facet>
-        <Facet Name="L1 language present">
-          <String Value="Yes" />
-        </Facet>
-        <Facet Name="L2 language present">
-          <String Value="No" />
-        </Facet>
-        <Facet Name="Speaking characters: count">
-          <String Value="2" />
-        </Facet>
-        <Facet Name="L3ST-speaking characters: count">
-          <String Value="2" />
-        </Facet>
         <Facet Name="L3ST languages: count">
           <String Value="0" />
         </Facet>
@@ -386,18 +305,6 @@
         </Facet>
         <Facet Name="Duration (h:m:s)">
           <String Value="0:14:05" />
-        </Facet>
-        <Facet Name="L1 language present">
-          <String Value="Yes" />
-        </Facet>
-        <Facet Name="L2 language present">
-          <String Value="No" />
-        </Facet>
-        <Facet Name="Speaking characters: count">
-          <String Value="2" />
-        </Facet>
-        <Facet Name="L3ST-speaking characters: count">
-          <String Value="2" />
         </Facet>
         <Facet Name="L3ST languages: count">
           <String Value="2" />
@@ -438,18 +345,6 @@
         <Facet Name="Duration (h:m:s)">
           <String Value="1:24:24" />
         </Facet>
-        <Facet Name="L1 language present">
-          <String Value="Yes" />
-        </Facet>
-        <Facet Name="L2 language present">
-          <String Value="No" />
-        </Facet>
-        <Facet Name="Speaking characters: count">
-          <String Value="2" />
-        </Facet>
-        <Facet Name="L3ST-speaking characters: count">
-          <String Value="2" />
-        </Facet>
         <Facet Name="L3ST languages: count">
           <String Value="0" />
         </Facet>
@@ -482,18 +377,6 @@
         <Facet Name="Duration (h:m:s)">
           <String Value="0:37:33" />
         </Facet>
-        <Facet Name="L1 language present">
-          <String Value="Yes" />
-        </Facet>
-        <Facet Name="L2 language present">
-          <String Value="No" />
-        </Facet>
-        <Facet Name="Speaking characters: count">
-          <String Value="3" />
-        </Facet>
-        <Facet Name="L3ST-speaking characters: count">
-          <String Value="1" />
-        </Facet>
         <Facet Name="L3ST languages: count">
           <String Value="0" />
         </Facet>
@@ -525,18 +408,6 @@
         </Facet>
         <Facet Name="Duration (h:m:s)">
           <String Value="1:04:33" />
-        </Facet>
-        <Facet Name="L1 language present">
-          <String Value="Yes" />
-        </Facet>
-        <Facet Name="L2 language present">
-          <String Value="No" />
-        </Facet>
-        <Facet Name="Speaking characters: count">
-          <String Value="3" />
-        </Facet>
-        <Facet Name="L3ST-speaking characters: count">
-          <String Value="2" />
         </Facet>
         <Facet Name="L3ST languages: count">
           <String Value="0" />

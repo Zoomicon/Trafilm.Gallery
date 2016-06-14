@@ -19,12 +19,14 @@
     <FacetCategory Name="L3ST represented: oral" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3ST represented: visual" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3ST functions" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST sources" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3TT-instances: count" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Keywords" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
     <Item Id="Django Unchained_2012.Slave speaks a little German.Slave opens conversation" Name="Django Unchained_2012.Slave speaks a little German.Slave opens conversation" Img="../L3STinstance/image/Django Unchained_2012.Slave speaks a little German.Slave opens conversation.png" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Django Unchained_2012&amp;conversation=Django Unchained_2012.Slave speaks a little German&amp;L3STinstance=Django Unchained_2012.Slave speaks a little German.Slave opens conversation">
@@ -33,14 +35,17 @@
         <Facet Name="Reference Id">
           <String Value="Django Unchained_2012.Slave speaks a little German.Slave opens conversation" />
         </Facet>
+        <Facet Name="Keywords">
+          <String Value="greeting in German" />
+        </Facet>
         <Facet Name="Info created">
           <DateTime Value="2016-05-31T12:34:19" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-06T03:45:11" />
+          <DateTime Value="2016-06-14T11:51:10" />
         </Facet>
-        <Facet Name="Keywords">
-          <String Value="greeting in German" />
+        <Facet Name="Metadata Editors">
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Django Unchained_2012" />
