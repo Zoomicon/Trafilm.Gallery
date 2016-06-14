@@ -40,7 +40,6 @@ Version: 20160610
     <div class="instructions">
       Please fill in the following information for the Conversation of your choice. Select the Conversation from the dropdown list.<br />
       Try to fill the metadata as fully and accurately as possible, as they will be used for searching and filtering Conversations.<br />
-      Move the mouse over a question to see tooltip for it.
       Don't forget to press the SAVE METADATA button. Thank you!
     </div>
 
