@@ -19,6 +19,7 @@
         <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="false" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="false" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
         <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
+        <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
     </FacetCategories>
     <Items ImgBase="conversations_deepzoom\conversations.dzc">
         <Item Id="Django Unchained_2012.Slave speaks a little German" Name="Django Unchained_2012.Slave speaks a little German" Img="#0" Href="http://gallery.trafilm.net/conversation/metadata/?film=Django Unchained_2012&amp;conversation=Django Unchained_2012.Slave speaks a little German">
@@ -34,7 +35,7 @@
                     <DateTime Value="2016-05-31T12:04:40" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-06-06T03:44:57" />
+                    <DateTime Value="2016-06-14T02:43:52" />
                 </Facet>
                 <Facet Name="Keywords">
                     <String Value="conversation opener" />
@@ -63,6 +64,9 @@
                 </Facet>
                 <Facet Name="L3ST-speaking characters: count">
                     <String Value="2" />
+                </Facet>
+                <Facet Name="Metadata Editors">
+                    <String Value="George" />
                 </Facet>
                 <Facet Name="Reference Id">
                     <String Value="Django Unchained_2012.Slave speaks a little German" />
@@ -115,7 +119,32 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="OceansEleven_2001.ExplainingThePlan" Name="Ocean's Eleven - Explaining the plan" Img="#2" Href="http://gallery.trafilm.net/conversation/metadata/?film=OceansEleven_2001&amp;conversation=OceansEleven_2001.ExplainingThePlan">
+        <Item Id="Monsoon Wedding.Conversation in the garden on the phone" Name="Monsoon Wedding.Conversation in the garden on the phone" Img="#2">
+            <Facets>
+                <Facet Name="Film Reference Id">
+                    <String Value="Monsoon Wedding" />
+                </Facet>
+                <Facet Name="Info created">
+                    <DateTime Value="2016-06-07T03:54:06" />
+                </Facet>
+                <Facet Name="Info updated">
+                    <DateTime Value="2016-06-07T03:54:06" />
+                </Facet>
+                <Facet Name="L3ST language types: count">
+                    <String Value="0" />
+                </Facet>
+                <Facet Name="L3ST languages: count">
+                    <String Value="0" />
+                </Facet>
+                <Facet Name="L3ST-instances: count">
+                    <String Value="0" />
+                </Facet>
+                <Facet Name="Reference Id">
+                    <String Value="Monsoon Wedding.Conversation in the garden on the phone" />
+                </Facet>
+            </Facets>
+        </Item>
+        <Item Id="OceansEleven_2001.ExplainingThePlan" Name="Ocean's Eleven - Explaining the plan" Img="#3" Href="http://gallery.trafilm.net/conversation/metadata/?film=OceansEleven_2001&amp;conversation=OceansEleven_2001.ExplainingThePlan">
             <Description>They are explaining the plan and the Chinese asks a question. Rusty responds.</Description>
             <Facets>
                 <Facet Name="Duration (h:m:s)">
@@ -159,7 +188,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheWalk_2015.GettingAnInterphone" Name="TheWalk_2015.GettingAnInterphone" Img="#3" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk_2015&amp;conversation=TheWalk_2015.GettingAnInterphone">
+        <Item Id="TheWalk_2015.GettingAnInterphone" Name="TheWalk_2015.GettingAnInterphone" Img="#4" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk_2015&amp;conversation=TheWalk_2015.GettingAnInterphone">
             <Facets>
                 <Facet Name="Duration (h:m:s)">
                     <String Value="0:51:36" />
@@ -202,7 +231,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheWalk_2015.MeetingAnnie" Name="TheWalk_2015.MeetingAnnie" Img="#4" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk_2015&amp;conversation=TheWalk_2015.MeetingAnnie">
+        <Item Id="TheWalk_2015.MeetingAnnie" Name="TheWalk_2015.MeetingAnnie" Img="#5" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk_2015&amp;conversation=TheWalk_2015.MeetingAnnie">
             <Facets>
                 <Facet Name="Duration (h:m:s)">
                     <String Value="0:19:04" />
@@ -245,7 +274,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheWalk_2015.MeetingJean-François" Name="TheWalk_2015.MeetingJean-François" Img="#5" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk_2015&amp;conversation=TheWalk_2015.MeetingJean-François">
+        <Item Id="TheWalk_2015.MeetingJean-François" Name="TheWalk_2015.MeetingJean-François" Img="#6" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk_2015&amp;conversation=TheWalk_2015.MeetingJean-François">
             <Facets>
                 <Facet Name="Duration (h:m:s)">
                     <String Value="0:43:21" />
@@ -288,7 +317,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheWalk_2015.MeetingJean-Louis" Name="TheWalk_2015.MeetingJean-Louis" Img="#6" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk_2015&amp;conversation=TheWalk_2015.MeetingJean-Louis">
+        <Item Id="TheWalk_2015.MeetingJean-Louis" Name="TheWalk_2015.MeetingJean-Louis" Img="#7" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk_2015&amp;conversation=TheWalk_2015.MeetingJean-Louis">
             <Facets>
                 <Facet Name="Duration (h:m:s)">
                     <String Value="0:23:28" />
@@ -331,7 +360,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheWalk_2015.MeetingPapaRudy" Name="TheWalk_2015.MeetingPapaRudy" Img="#7" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk_2015&amp;conversation=TheWalk_2015.MeetingPapaRudy">
+        <Item Id="TheWalk_2015.MeetingPapaRudy" Name="TheWalk_2015.MeetingPapaRudy" Img="#8" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk_2015&amp;conversation=TheWalk_2015.MeetingPapaRudy">
             <Facets>
                 <Facet Name="Duration (h:m:s)">
                     <String Value="0:14:05" />
@@ -381,7 +410,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheWalk_2015.OnTheRoof" Name="TheWalk_2015.OnTheRoof" Img="#8" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk_2015&amp;conversation=TheWalk_2015.OnTheRoof">
+        <Item Id="TheWalk_2015.OnTheRoof" Name="TheWalk_2015.OnTheRoof" Img="#9" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk_2015&amp;conversation=TheWalk_2015.OnTheRoof">
             <Facets>
                 <Facet Name="Duration (h:m:s)">
                     <String Value="1:24:24" />
@@ -424,7 +453,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheWalk_2015.PlanningTheCoup" Name="TheWalk_2015.PlanningTheCoup" Img="#9" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk_2015&amp;conversation=TheWalk_2015.PlanningTheCoup">
+        <Item Id="TheWalk_2015.PlanningTheCoup" Name="TheWalk_2015.PlanningTheCoup" Img="#10" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk_2015&amp;conversation=TheWalk_2015.PlanningTheCoup">
             <Facets>
                 <Facet Name="Duration (h:m:s)">
                     <String Value="0:37:33" />
@@ -467,7 +496,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheWalk_2015.TwinTowers" Name="TheWalk_2015.TwinTowers" Img="#10" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk_2015&amp;conversation=TheWalk_2015.TwinTowers">
+        <Item Id="TheWalk_2015.TwinTowers" Name="TheWalk_2015.TwinTowers" Img="#11" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk_2015&amp;conversation=TheWalk_2015.TwinTowers">
             <Facets>
                 <Facet Name="Duration (h:m:s)">
                     <String Value="1:04:33" />

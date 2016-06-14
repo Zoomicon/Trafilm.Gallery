@@ -133,25 +133,64 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Lost in Translation" Name="Lost in Translation" Img="#2" Href="http://gallery.trafilm.net/film/metadata/?film=Lost in Translation">
+        <Item Id="Lost in Translation_2003" Name="Lost In Translation_2003" Img="#2" Href="http://gallery.trafilm.net/film/metadata/?film=Lost in Translation_2003">
+            <Description>A faded movie star and a neglected young woman form an unlikely bond after crossing paths in Tokyo. </Description>
             <Facets>
+                <Facet Name="Box office">
+                    <String Value=" $44.566.004 (USA) " />
+                </Facet>
                 <Facet Name="Conversations: count">
                     <String Value="0" />
                 </Facet>
                 <Facet Name="Conversations: duration (h:m:s)">
                     <String Value="0:00:00" />
                 </Facet>
+                <Facet Name="Director(s)">
+                    <String Value="Sofia Coppola" />
+                </Facet>
+                <Facet Name="Duration (h:m:s)">
+                    <String Value="1:41:00" />
+                </Facet>
                 <Facet Name="Info created">
-                    <DateTime Value="2016-06-03T08:23:19" />
+                    <DateTime Value="2016-06-13T06:54:58" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-06-07T02:40:27" />
+                    <DateTime Value="2016-06-14T02:41:47" />
+                </Facet>
+                <Facet Name="L1 language">
+                    <String Value="English" />
+                </Facet>
+                <Facet Name="Metadata Editors">
+                    <String Value="natalia.faja" />
+                    <String Value="George" />
+                </Facet>
+                <Facet Name="Production companies">
+                    <String Value="Focus Features" />
+                    <String Value=" Tohokushinsha Film Corporation (TFC)" />
+                    <String Value=" American Zoetrope" />
+                    <String Value=" Elemental Films" />
+                </Facet>
+                <Facet Name="Production countries">
+                    <String Value=" USA" />
+                    <String Value=" Japan" />
                 </Facet>
                 <Facet Name="Reference Id">
+                    <String Value="Lost in Translation_2003" />
+                </Facet>
+                <Facet Name="Scriptwriter(s)">
+                    <String Value="Sofia Coppola " />
+                </Facet>
+                <Facet Name="Title in Catalan">
+                    <String Value="Lost in Translation" />
+                </Facet>
+                <Facet Name="Title in Spanish">
                     <String Value="Lost in Translation" />
                 </Facet>
                 <Facet Name="Year ST released">
                     <String Value="2003" />
+                </Facet>
+                <Facet Name="Year TT released in Spain">
+                    <String Value="2004" />
                 </Facet>
             </Facets>
         </Item>

@@ -19,23 +19,27 @@
     <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Django Unchained_2012.Slave speaks a little German" Name="Django Unchained_2012.Slave speaks a little German" Img="../conversation/image/Django Unchained_2012.Slave speaks a little German.png" Href="http://gallery.trafilm.net/conversation/metadata/?film=Django Unchained_2012&amp;conversation=Django Unchained_2012.Slave speaks a little German">
+    <Item Id="Django Unchained_2012.Slave speaks a little German" Name="Django Unchained_2012.Slave speaks a little German" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Django Unchained_2012&amp;conversation=Django Unchained_2012.Slave speaks a little German">
       <Description>Brunhida is introduced to Schultz and shown off by her owner to speak a little German. She tells the slave to "speak a little German"</Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="Django Unchained_2012.Slave speaks a little German" />
         </Facet>
+        <Facet Name="Keywords">
+          <String Value="conversation opener" />
+          <String Value=" Greeting" />
+        </Facet>
         <Facet Name="Info created">
           <DateTime Value="2016-05-31T12:04:40" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-06T03:44:57" />
+          <DateTime Value="2016-06-14T02:43:52" />
         </Facet>
-        <Facet Name="Keywords">
-          <String Value="conversation opener" />
-          <String Value=" Greeting" />
+        <Facet Name="Metadata Editors">
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Django Unchained_2012" />
@@ -113,6 +117,32 @@
         </Facet>
         <Facet Name="L3ST-instances: count">
           <String Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Monsoon Wedding.Conversation in the garden on the phone" Name="Monsoon Wedding.Conversation in the garden on the phone" Img="" Href="">
+      <Description></Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Monsoon Wedding.Conversation in the garden on the phone" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-06-07T03:54:06" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-06-07T03:54:06" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Monsoon Wedding" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <String Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <String Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <String Value="0" />
         </Facet>
       </Facets>
     </Item>

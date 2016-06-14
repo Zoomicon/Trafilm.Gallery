@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Lost in Translation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Lost In Translation_2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Title in Spanish" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -22,22 +22,61 @@
     <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Lost in Translation" Name="Lost in Translation" Img="../film/image/Lost in Translation.png" Href="http://gallery.trafilm.net/film/metadata/?film=Lost in Translation">
-      <Description></Description>
+    <Item Id="Lost in Translation_2003" Name="Lost In Translation_2003" Img="http://ia.media-imdb.com/images/M/MV5BMTI2NDI5ODk4N15BMl5BanBnXkFtZTYwMTI3NTE3._V1_.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Lost in Translation_2003">
+      <Description>A faded movie star and a neglected young woman form an unlikely bond after crossing paths in Tokyo. </Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Lost in Translation" />
+          <String Value="Lost in Translation_2003" />
         </Facet>
         <Facet Name="Info created">
-          <DateTime Value="2016-06-03T08:23:19" />
+          <DateTime Value="2016-06-13T06:54:58" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-07T02:40:27" />
+          <DateTime Value="2016-06-14T02:41:47" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="natalia.faja" />
+          <String Value="George" />
+        </Facet>
+        <Facet Name="Title in Spanish">
+          <String Value="Lost in Translation" />
+        </Facet>
+        <Facet Name="Title in Catalan">
+          <String Value="Lost in Translation" />
+        </Facet>
+        <Facet Name="Duration (h:m:s)">
+          <String Value="1:41:00" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Sofia Coppola" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Sofia Coppola " />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value=" USA" />
+          <String Value=" Japan" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="Focus Features" />
+          <String Value=" Tohokushinsha Film Corporation (TFC)" />
+          <String Value=" American Zoetrope" />
+          <String Value=" Elemental Films" />
+        </Facet>
+        <Facet Name="Box office">
+          <String Value=" $44.566.004 (USA) " />
         </Facet>
         <Facet Name="Year ST released">
           <String Value="2003" />
+        </Facet>
+        <Facet Name="L1 language">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="Year TT released in Spain">
+          <String Value="2004" />
         </Facet>
         <Facet Name="Conversations: count">
           <String Value="0" />
