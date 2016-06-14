@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="TheWalk_2015.MeetingPapaRudy.French" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="TheWalk.MeetingPapaRudy.French" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -27,11 +27,11 @@
     <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="TheWalk_2015.MeetingPapaRudy.French" Name="TheWalk_2015.MeetingPapaRudy.French" Img="../L3STinstance/image/TheWalk_2015.MeetingPapaRudy.French.png" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk_2015&amp;conversation=TheWalk_2015.MeetingPapaRudy&amp;L3STinstance=TheWalk_2015.MeetingPapaRudy.French">
+    <Item Id="TheWalk.MeetingPapaRudy.French" Name="TheWalk.MeetingPapaRudy.French" Img="../L3STinstance/image/TheWalk.MeetingPapaRudy.French.png" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingPapaRudy&amp;L3STinstance=TheWalk.MeetingPapaRudy.French">
       <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="TheWalk_2015.MeetingPapaRudy.French" />
+          <String Value="TheWalk.MeetingPapaRudy.French" />
         </Facet>
         <Facet Name="Info created">
           <DateTime Value="2016-05-31T11:35:28" />
@@ -40,10 +40,10 @@
           <DateTime Value="2016-06-06T03:47:50" />
         </Facet>
         <Facet Name="Film Reference Id">
-          <String Value="TheWalk_2015" />
+          <String Value="TheWalk" />
         </Facet>
         <Facet Name="Conversation Reference Id">
-          <String Value="TheWalk_2015.MeetingPapaRudy" />
+          <String Value="TheWalk.MeetingPapaRudy" />
         </Facet>
         <Facet Name="Start time (h:m:s)">
           <String Value="0:12:19" />

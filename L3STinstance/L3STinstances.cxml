@@ -29,11 +29,11 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Django Unchained_2012.Slave speaks a little German.Slave opens conversation" Name="Django Unchained_2012.Slave speaks a little German.Slave opens conversation" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Django Unchained_2012&amp;conversation=Django Unchained_2012.Slave speaks a little German&amp;L3STinstance=Django Unchained_2012.Slave speaks a little German.Slave opens conversation">
+    <Item Id="Django Unchained.Slave speaks a little German.Slave opens conversation" Name="Django Unchained.Slave speaks a little German.Slave opens conversation" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Django Unchained&amp;conversation=Django Unchained.Slave speaks a little German&amp;L3STinstance=Django Unchained.Slave speaks a little German.Slave opens conversation">
       <Description>Doing as she is told, Brunhilda starts to speak in German, in what we call a conversation opener, a salutation</Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Django Unchained_2012.Slave speaks a little German.Slave opens conversation" />
+          <String Value="Django Unchained.Slave speaks a little German.Slave opens conversation" />
         </Facet>
         <Facet Name="Keywords">
           <String Value="greeting in German" />
@@ -48,10 +48,10 @@
           <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
-          <String Value="Django Unchained_2012" />
+          <String Value="Django Unchained" />
         </Facet>
         <Facet Name="Conversation Reference Id">
-          <String Value="Django Unchained_2012.Slave speaks a little German" />
+          <String Value="Django Unchained.Slave speaks a little German" />
         </Facet>
         <Facet Name="Start time (h:m:s)">
           <String Value="1:33:13" />
@@ -94,11 +94,11 @@
         </Facet>
       </Facets>
     </Item>
-    <Item Id="LoveActually_2003.Lake Scene.Portuguese" Name="LoveActually_2003.Lake Scene.Portuguese" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=LoveActually_2003&amp;conversation=LoveActually_2003.Lake Scene&amp;L3STinstance=LoveActually_2003.Lake Scene.Portuguese">
+    <Item Id="LoveActually.Lake Scene.Portuguese" Name="LoveActually.Lake Scene.Portuguese" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.Lake Scene&amp;L3STinstance=LoveActually.Lake Scene.Portuguese">
       <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="LoveActually_2003.Lake Scene.Portuguese" />
+          <String Value="LoveActually.Lake Scene.Portuguese" />
         </Facet>
         <Facet Name="Info created">
           <DateTime Value="2016-06-01T04:24:35" />
@@ -110,10 +110,10 @@
           <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
-          <String Value="LoveActually_2003" />
+          <String Value="LoveActually" />
         </Facet>
         <Facet Name="Conversation Reference Id">
-          <String Value="LoveActually_2003.Lake Scene" />
+          <String Value="LoveActually.Lake Scene" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Real" />
@@ -231,11 +231,11 @@ There is another conversation taking place among women at the kitchen.</Descript
         </Facet>
       </Facets>
     </Item>
-    <Item Id="TheWalk_2015.MeetingPapaRudy.Czech" Name="TheWalk_2015.MeetingPapaRudy.Czech" Img="../L3STinstance/image/TheWalk_2015.MeetingPapaRudy.Czech.png" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk_2015&amp;conversation=TheWalk_2015.MeetingPapaRudy&amp;L3STinstance=TheWalk_2015.MeetingPapaRudy.Czech">
+    <Item Id="TheWalk.MeetingPapaRudy.Czech" Name="TheWalk.MeetingPapaRudy.Czech" Img="../L3STinstance/image/TheWalk.MeetingPapaRudy.Czech.png" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingPapaRudy&amp;L3STinstance=TheWalk.MeetingPapaRudy.Czech">
       <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="TheWalk_2015.MeetingPapaRudy.Czech" />
+          <String Value="TheWalk.MeetingPapaRudy.Czech" />
         </Facet>
         <Facet Name="Info created">
           <DateTime Value="2016-05-31T11:33:05" />
@@ -244,10 +244,10 @@ There is another conversation taking place among women at the kitchen.</Descript
           <DateTime Value="2016-06-06T03:47:44" />
         </Facet>
         <Facet Name="Film Reference Id">
-          <String Value="TheWalk_2015" />
+          <String Value="TheWalk" />
         </Facet>
         <Facet Name="Conversation Reference Id">
-          <String Value="TheWalk_2015.MeetingPapaRudy" />
+          <String Value="TheWalk.MeetingPapaRudy" />
         </Facet>
         <Facet Name="Start time (h:m:s)">
           <String Value="0:12:17" />
@@ -296,11 +296,11 @@ There is another conversation taking place among women at the kitchen.</Descript
         </Facet>
       </Facets>
     </Item>
-    <Item Id="TheWalk_2015.MeetingPapaRudy.French" Name="TheWalk_2015.MeetingPapaRudy.French" Img="../L3STinstance/image/TheWalk_2015.MeetingPapaRudy.French.png" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk_2015&amp;conversation=TheWalk_2015.MeetingPapaRudy&amp;L3STinstance=TheWalk_2015.MeetingPapaRudy.French">
+    <Item Id="TheWalk.MeetingPapaRudy.French" Name="TheWalk.MeetingPapaRudy.French" Img="../L3STinstance/image/TheWalk.MeetingPapaRudy.French.png" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingPapaRudy&amp;L3STinstance=TheWalk.MeetingPapaRudy.French">
       <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="TheWalk_2015.MeetingPapaRudy.French" />
+          <String Value="TheWalk.MeetingPapaRudy.French" />
         </Facet>
         <Facet Name="Info created">
           <DateTime Value="2016-05-31T11:35:28" />
@@ -309,10 +309,10 @@ There is another conversation taking place among women at the kitchen.</Descript
           <DateTime Value="2016-06-06T03:47:50" />
         </Facet>
         <Facet Name="Film Reference Id">
-          <String Value="TheWalk_2015" />
+          <String Value="TheWalk" />
         </Facet>
         <Facet Name="Conversation Reference Id">
-          <String Value="TheWalk_2015.MeetingPapaRudy" />
+          <String Value="TheWalk.MeetingPapaRudy" />
         </Facet>
         <Facet Name="Start time (h:m:s)">
           <String Value="0:12:19" />
@@ -358,11 +358,11 @@ There is another conversation taking place among women at the kitchen.</Descript
         </Facet>
       </Facets>
     </Item>
-    <Item Id="TheWalk_2015.MeetingPapaRudy.French2" Name="TheWalk_2015.MeetingPapaRudy.French2" Img="../L3STinstance/image/TheWalk_2015.MeetingPapaRudy.French2.png" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk_2015&amp;conversation=TheWalk_2015.MeetingPapaRudy&amp;L3STinstance=TheWalk_2015.MeetingPapaRudy.French2">
+    <Item Id="TheWalk.MeetingPapaRudy.French2" Name="TheWalk.MeetingPapaRudy.French2" Img="../L3STinstance/image/TheWalk.MeetingPapaRudy.French2.png" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingPapaRudy&amp;L3STinstance=TheWalk.MeetingPapaRudy.French2">
       <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="TheWalk_2015.MeetingPapaRudy.French2" />
+          <String Value="TheWalk.MeetingPapaRudy.French2" />
         </Facet>
         <Facet Name="Info created">
           <DateTime Value="2016-05-31T11:35:28" />
@@ -371,10 +371,10 @@ There is another conversation taking place among women at the kitchen.</Descript
           <DateTime Value="2016-06-06T03:47:55" />
         </Facet>
         <Facet Name="Film Reference Id">
-          <String Value="TheWalk_2015" />
+          <String Value="TheWalk" />
         </Facet>
         <Facet Name="Conversation Reference Id">
-          <String Value="TheWalk_2015.MeetingPapaRudy" />
+          <String Value="TheWalk.MeetingPapaRudy" />
         </Facet>
         <Facet Name="Start time (h:m:s)">
           <String Value="0:12:21" />
@@ -420,11 +420,11 @@ There is another conversation taking place among women at the kitchen.</Descript
         </Facet>
       </Facets>
     </Item>
-    <Item Id="TheWalk_2015.MeetingPapaRudy.French3" Name="TheWalk_2015.MeetingPapaRudy.French3" Img="../L3STinstance/image/TheWalk_2015.MeetingPapaRudy.French3.png" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk_2015&amp;conversation=TheWalk_2015.MeetingPapaRudy&amp;L3STinstance=TheWalk_2015.MeetingPapaRudy.French3">
+    <Item Id="TheWalk.MeetingPapaRudy.French3" Name="TheWalk.MeetingPapaRudy.French3" Img="../L3STinstance/image/TheWalk.MeetingPapaRudy.French3.png" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingPapaRudy&amp;L3STinstance=TheWalk.MeetingPapaRudy.French3">
       <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="TheWalk_2015.MeetingPapaRudy.French3" />
+          <String Value="TheWalk.MeetingPapaRudy.French3" />
         </Facet>
         <Facet Name="Info created">
           <DateTime Value="2016-05-31T11:35:28" />
@@ -433,10 +433,10 @@ There is another conversation taking place among women at the kitchen.</Descript
           <DateTime Value="2016-06-06T03:47:59" />
         </Facet>
         <Facet Name="Film Reference Id">
-          <String Value="TheWalk_2015" />
+          <String Value="TheWalk" />
         </Facet>
         <Facet Name="Conversation Reference Id">
-          <String Value="TheWalk_2015.MeetingPapaRudy" />
+          <String Value="TheWalk.MeetingPapaRudy" />
         </Facet>
         <Facet Name="Start time (h:m:s)">
           <String Value="0:13:40" />
@@ -482,11 +482,11 @@ There is another conversation taking place among women at the kitchen.</Descript
         </Facet>
       </Facets>
     </Item>
-    <Item Id="TheWalk_2015.OnTheRoof.Czech" Name="TheWalk_2015.OnTheRoof.Czech" Img="../L3STinstance/image/TheWalk_2015.OnTheRoof.Czech.png" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk_2015&amp;conversation=TheWalk_2015.OnTheRoof&amp;L3STinstance=TheWalk_2015.OnTheRoof.Czech">
+    <Item Id="TheWalk.OnTheRoof.Czech" Name="TheWalk.OnTheRoof.Czech" Img="../L3STinstance/image/TheWalk.OnTheRoof.Czech.png" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk&amp;conversation=TheWalk.OnTheRoof&amp;L3STinstance=TheWalk.OnTheRoof.Czech">
       <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="TheWalk_2015.OnTheRoof.Czech" />
+          <String Value="TheWalk.OnTheRoof.Czech" />
         </Facet>
         <Facet Name="Info created">
           <DateTime Value="2016-05-31T11:22:00" />
@@ -495,10 +495,10 @@ There is another conversation taking place among women at the kitchen.</Descript
           <DateTime Value="2016-06-06T03:47:27" />
         </Facet>
         <Facet Name="Film Reference Id">
-          <String Value="TheWalk_2015" />
+          <String Value="TheWalk" />
         </Facet>
         <Facet Name="Conversation Reference Id">
-          <String Value="TheWalk_2015.OnTheRoof" />
+          <String Value="TheWalk.OnTheRoof" />
         </Facet>
         <Facet Name="L3TT-instances: count">
           <String Value="0" />
