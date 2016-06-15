@@ -81,7 +81,7 @@ Version: 20160614
             <asp:DropDownList ID="listL3STinstances" runat="server" AutoPostBack="True" OnSelectedIndexChanged="listL3STinstances_SelectedIndexChanged" />
 
             <asp:Panel ID="panelAdd" runat="server">
-              <div class="label">or add new L3ST-instance Id (e.g. <i>Chinese</i> - do not include the Film Id and Conversation Id prefixes)</div>
+              <div class="label">or add new L3ST-instance Id (e.g. <i>Speaking Chinese</i> - do not include the Film Id and Conversation Id prefixes)</div>
               <asp:TextBox ID="txtL3STinstance" runat="server" />
               <asp:Button ID="btnAddL3STinstance" runat="server" Text="Add" OnClick="btnAddL3STinstance_Click" />
               &nbsp;

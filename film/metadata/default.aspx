@@ -58,7 +58,7 @@ Version: 20160610
         </div>
 
         <asp:Panel ID="panelAdd" runat="server">
-          <div class="label">or enter a new Film Id (e.g. <i>OceansEleven</i>)</div>
+          <div class="label">or enter a new Film Id (e.g. <i>Ocean's Eleven</i>)</div>
           <asp:TextBox ID="txtFilm" runat="server" />
           <asp:Button ID="btnAddFilm" runat="server" Text="Add" OnClick="btnAddFilm_Click" />
           &nbsp;

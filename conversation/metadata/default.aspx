@@ -64,7 +64,7 @@ Version: 20160614
           <asp:DropDownList ID="listConversations" runat="server" AutoPostBack="True" OnSelectedIndexChanged="listConversations_SelectedIndexChanged" />
 
           <asp:Panel ID="panelAdd" runat="server">
-            <div class="label">or enter a new Conversation Id (e.g. <i>ExplainingThePlan</i> - do not include the Film Id prefix)</div>
+            <div class="label">or enter a new Conversation Id (e.g. <i>Explaining the plan</i> - do not include the Film Id prefix)</div>
             <asp:TextBox ID="txtConversation" runat="server" />
             <asp:Button ID="btnAddConversation" runat="server" Text="Add" OnClick="btnAddConversation_Click" />
             &nbsp;
