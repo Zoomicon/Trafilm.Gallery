@@ -1,16 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection MaxLevel="7" TileSize="256" Format="png" NextItemId="4" ServerFormat="Default" xmlns="http://schemas.microsoft.com/deepzoom/2009">
+<Collection MaxLevel="7" TileSize="256" Format="png" NextItemId="7" ServerFormat="Default" xmlns="http://schemas.microsoft.com/deepzoom/2009">
   <Items>
     <I Id="0" N="0" Source="Django_Unchained.Slave_speaks_a_little_German.Slave_opens_conversation.dzi">
       <Size Width="1024" Height="576" />
     </I>
-    <I Id="1" N="1" Source="LoveActually.Lake_Scene.Portuguese.dzi">
+    <I Id="1" N="1" Source="LoveActually.JamieProposesToAurelia.Aurelia's_sister.dzi">
       <Size Width="1024" Height="576" />
     </I>
-    <I Id="2" N="2" Source="Monsoon_Wedding.Conversation_in_the_garden_on_the_phone.Hindi.dzi">
+    <I Id="2" N="2" Source="LoveActually.JamieProposesToAurelia.Jamie_in_Portuguese.dzi">
       <Size Width="1024" Height="576" />
     </I>
-    <I Id="3" N="3" Source="OceansEleven.ExplainingThePlan.Chinese.dzi">
+    <I Id="3" N="3" Source="LoveActually.JamieProposesToAurelia.Portuguese.dzi">
+      <Size Width="1024" Height="576" />
+    </I>
+    <I Id="4" N="4" Source="LoveActually.Lake_Scene.Portuguese.dzi">
+      <Size Width="1024" Height="576" />
+    </I>
+    <I Id="5" N="5" Source="Monsoon_Wedding.Conversation_in_the_garden_on_the_phone.Hindi.dzi">
+      <Size Width="1024" Height="576" />
+    </I>
+    <I Id="6" N="6" Source="OceansEleven.ExplainingThePlan.Chinese.dzi">
       <Size Width="1024" Height="576" />
     </I>
   </Items>

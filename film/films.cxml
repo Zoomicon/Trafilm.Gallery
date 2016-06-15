@@ -194,7 +194,7 @@
         </Facet>
       </Facets>
     </Item>
-    <Item Id="LoveActually" Name="Love Actually " Img="../film/image/LoveActually.png" Href="http://gallery.trafilm.net/film/metadata/?film=LoveActually">
+    <Item Id="LoveActually" Name="Love Actually " Img="https://upload.wikimedia.org/wikipedia/en/e/eb/Love_Actually_movie.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=LoveActually">
       <Description>Follows the lives of eight very different couples in dealing with their love lives in various loosely interrelated tales all set during a frantic month before Christmas in London, England. (imdb)</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -207,7 +207,10 @@
           <DateTime Value="2016-06-01T03:30:55" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-06T03:40:24" />
+          <DateTime Value="2016-06-15T01:56:55" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Stavroula" />
         </Facet>
         <Facet Name="Title in Spanish">
           <String Value="Love Actually" />
@@ -248,7 +251,7 @@
           <String Value="2" />
         </Facet>
         <Facet Name="Conversations: duration (h:m:s)">
-          <String Value="0:00:00" />
+          <String Value="0:03:27" />
         </Facet>
       </Facets>
     </Item>
