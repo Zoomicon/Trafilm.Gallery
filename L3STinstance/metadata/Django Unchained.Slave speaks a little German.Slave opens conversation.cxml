@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Django Unchained.Slave speaks a little German.Slave opens conversation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Slave opens conversation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -29,11 +29,14 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Django Unchained.Slave speaks a little German.Slave opens conversation" Name="Django Unchained.Slave speaks a little German.Slave opens conversation" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Django Unchained&amp;conversation=Django Unchained.Slave speaks a little German&amp;L3STinstance=Django Unchained.Slave speaks a little German.Slave opens conversation">
+    <Item Id="Django Unchained.Slave speaks a little German.Slave opens conversation" Name="Slave opens conversation" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Django Unchained&amp;conversation=Django Unchained.Slave speaks a little German&amp;L3STinstance=Django Unchained.Slave speaks a little German.Slave opens conversation">
       <Description>Doing as she is told, Brunhilda starts to speak in German, in what we call a conversation opener, a salutation</Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="Django Unchained.Slave speaks a little German.Slave opens conversation" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Go ahead speak a little German&#xD;&#xA;#German uttered#&#xD;&#xA;subtitles: Pleased to meet you" />
         </Facet>
         <Facet Name="Keywords">
           <String Value="greeting in German" />
@@ -42,9 +45,10 @@
           <DateTime Value="2016-05-31T12:34:19" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-14T11:59:58" />
+          <DateTime Value="2016-06-15T12:37:09" />
         </Facet>
         <Facet Name="Metadata Editors">
+          <String Value="PatrickZabalbeascoa" />
           <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
@@ -88,6 +92,9 @@
           <String Value="Plot (twist)" />
           <String Value="Signals otherness" />
           <String Value="Metalinguistic" />
+        </Facet>
+        <Facet Name="L3ST sources">
+          <String Value="Respond interlingually: different sources " />
         </Facet>
         <Facet Name="L3TT-instances: count">
           <String Value="1" />

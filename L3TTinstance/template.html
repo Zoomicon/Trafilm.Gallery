@@ -8,12 +8,14 @@
             body {
                 margin: 0px;
             }
-            img {
+            
+            img.background {
                 position: absolute;
                 top: 0; left: 0;
                 width: 100%;
             }
-            p {
+            
+            p.title {
                 font-size: 100px;
                 color: white;
                 background: grey;
@@ -23,11 +25,14 @@
                 width: 100%;
                 filter: alpha(opacity=80);
                 padding: 20px;
+                word-break: break-all;                
             }
         </style>
     </head>
+    
     <body>
-        <img src="template_image.png" /> <!-- src="{image}" -->
-        <p>{name}</p>
+        <img class="background" src="template_image.png" /> <!-- src="{image}" -->
+        <p class="title">{name}</p>
     </body>
+
 </html>

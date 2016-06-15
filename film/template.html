@@ -8,14 +8,14 @@
             body {
                 margin: 0px;
             }
-            img {
+            
+            img.background {
                 position: absolute;
                 top: 0; left: 0;
                 width: 100%;
             }
-            p {
-            }
-            p.a {
+            
+            p.title {
                 font-size: 100px;
                 color: white;
                 background: grey;
@@ -25,8 +25,10 @@
                 width: 100%;
                 filter: alpha(opacity=80);
                 padding: 20px;
+                word-break: break-all;
             }
-            p.b {
+            
+            p.year {
                 font-size: 100px;
                 color: white;
                 background: grey;
@@ -39,9 +41,11 @@
             }
         </style>
     </head>
+    
     <body>
-        <img src="template_image.png" /> <!-- src="{image}" -->
-        <p class="a">{name}</p>
-        <p class="b">({Year ST released})</p>
+        <img class="background" src="template_image.png" /> <!-- src="{image}" -->
+        <p class="title">{name}</p>
+        <p class="year">({Year ST released})</p>
     </body>
+    
 </html>
