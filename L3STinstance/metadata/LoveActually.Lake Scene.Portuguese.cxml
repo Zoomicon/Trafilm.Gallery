@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="LoveActually.Lake Scene.Portuguese" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="LoveActually Lake Scene Aurelia" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -29,20 +29,24 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="LoveActually.Lake Scene.Portuguese" Name="LoveActually.Lake Scene.Portuguese" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.Lake Scene&amp;L3STinstance=LoveActually.Lake Scene.Portuguese">
-      <Description></Description>
+    <Item Id="LoveActually.Lake Scene.Portuguese" Name="LoveActually Lake Scene Aurelia" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.Lake Scene&amp;L3STinstance=LoveActually.Lake Scene.Portuguese">
+      <Description>Aurelia expresses anxiety when papers fly.</Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="LoveActually.Lake Scene.Portuguese" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Aurelia: (Portuguese) Nao! Eu peco imensa desculpa. Oh, no. Hold on.&#xD;&#xA;Jamie: God, it's half the book. Oh, no.&#xD;&#xA;Aurelia: Que desastre." />
         </Facet>
         <Facet Name="Info created">
           <DateTime Value="2016-06-01T04:24:35" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-15T12:28:23" />
+          <DateTime Value="2016-06-15T02:40:53" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="George" />
+          <String Value="Stavroula" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="LoveActually" />
@@ -56,8 +60,29 @@
         <Facet Name="L3ST language type">
           <String Value="Real" />
         </Facet>
+        <Facet Name="L3ST language">
+          <String Value="Portuguese" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="L3ST required for understanding">
+          <String Value="Conversation can be followed regardless of meaning" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="YES, translation or clear from picture" />
+        </Facet>
         <Facet Name="L3ST speaker performance">
           <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3ST mode">
+          <String Value="Oral non-diegetic" />
+        </Facet>
+        <Facet Name="L3ST functions">
+          <String Value="Dramatic effect" />
+        </Facet>
+        <Facet Name="L3ST sources">
+          <String Value="Respond interlingually: different sources " />
         </Facet>
         <Facet Name="L3TT-instances: count">
           <String Value="0" />
