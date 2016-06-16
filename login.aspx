@@ -5,7 +5,7 @@
 <%--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: login.aspx
-Version: 20160608
+Version: 20160616
 --%>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -31,7 +31,7 @@ Version: 20160608
                     </td>
                     <td>
                       <asp:TextBox ID="UserName" runat="server"></asp:TextBox>
-                      <asp:RequiredFieldValidator ID="UserNameRequired" runat="server" ControlToValidate="UserName" ErrorMessage="User Name is required." ToolTip="User Name is required." ValidationGroup="loginControl">*</asp:RequiredFieldValidator>
+                      <asp:RequiredFieldValidator ID="UserNameRequired" runat="server" ControlToValidate="UserName" ErrorMessage="User Name is required." ToolTip="User Name is required." ValidationGroup="loginControl" ForeColor="red">*</asp:RequiredFieldValidator>
                     </td>
                   </tr>
                   <tr>
@@ -40,7 +40,7 @@ Version: 20160608
                     </td>
                     <td>
                       <asp:TextBox ID="Password" runat="server" TextMode="Password"></asp:TextBox>
-                      <asp:RequiredFieldValidator ID="PasswordRequired" runat="server" ControlToValidate="Password" ErrorMessage="Password is required." ToolTip="Password is required." ValidationGroup="loginControl">*</asp:RequiredFieldValidator>
+                      <asp:RequiredFieldValidator ID="PasswordRequired" runat="server" ControlToValidate="Password" ErrorMessage="Password is required." ToolTip="Password is required." ValidationGroup="loginControl" ForeColor="red">*</asp:RequiredFieldValidator>
                     </td>
                   </tr>
                   <tr>
