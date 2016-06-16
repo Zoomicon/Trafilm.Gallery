@@ -1,43 +1,46 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection MaxLevel="7" TileSize="256" Format="png" NextItemId="13" ServerFormat="Default" xmlns="http://schemas.microsoft.com/deepzoom/2009">
+<Collection MaxLevel="7" TileSize="256" Format="png" NextItemId="14" ServerFormat="Default" xmlns="http://schemas.microsoft.com/deepzoom/2009">
   <Items>
     <I Id="0" N="0" Source="Django_Unchained.Slave_speaks_a_little_German.dzi">
       <Size Width="1024" Height="576" />
     </I>
-    <I Id="1" N="1" Source="LoveActually.JamieProposesToAurelia.dzi">
+    <I Id="1" N="1" Source="FellowshipOfTheRing.Rivendell_AragornArwen.dzi">
       <Size Width="1024" Height="576" />
     </I>
-    <I Id="2" N="2" Source="LoveActually.Lake_Scene.dzi">
+    <I Id="2" N="2" Source="LoveActually.JamieProposesToAurelia.dzi">
       <Size Width="1024" Height="576" />
     </I>
-    <I Id="3" N="3" Source="Monsoon_Wedding.Conversation_in_the_garden_on_the_phone.dzi">
+    <I Id="3" N="3" Source="LoveActually.Lake_Scene.dzi">
       <Size Width="1024" Height="576" />
     </I>
-    <I Id="4" N="4" Source="OceansEleven.ExplainingThePlan.dzi">
+    <I Id="4" N="4" Source="Monsoon_Wedding.Conversation_in_the_garden_on_the_phone.dzi">
       <Size Width="1024" Height="576" />
     </I>
-    <I Id="5" N="5" Source="TheWalk.GettingAnInterphone.dzi">
+    <I Id="5" N="5" Source="OceansEleven.ExplainingThePlan.dzi">
       <Size Width="1024" Height="576" />
     </I>
-    <I Id="6" N="6" Source="TheWalk.MeetingAnnie.dzi">
+    <I Id="6" N="6" Source="TheWalk.GettingAnInterphone.dzi">
       <Size Width="1024" Height="576" />
     </I>
-    <I Id="7" N="7" Source="TheWalk.MeetingJean-Fran%C3%A7ois.dzi">
+    <I Id="7" N="7" Source="TheWalk.MeetingAnnie.dzi">
       <Size Width="1024" Height="576" />
     </I>
-    <I Id="8" N="8" Source="TheWalk.MeetingJean-Louis.dzi">
+    <I Id="8" N="8" Source="TheWalk.MeetingJean-Fran%C3%A7ois.dzi">
       <Size Width="1024" Height="576" />
     </I>
-    <I Id="9" N="9" Source="TheWalk.MeetingPapaRudy.dzi">
+    <I Id="9" N="9" Source="TheWalk.MeetingJean-Louis.dzi">
       <Size Width="1024" Height="576" />
     </I>
-    <I Id="10" N="10" Source="TheWalk.OnTheRoof.dzi">
+    <I Id="10" N="10" Source="TheWalk.MeetingPapaRudy.dzi">
       <Size Width="1024" Height="576" />
     </I>
-    <I Id="11" N="11" Source="TheWalk.PlanningTheCoup.dzi">
+    <I Id="11" N="11" Source="TheWalk.OnTheRoof.dzi">
       <Size Width="1024" Height="576" />
     </I>
-    <I Id="12" N="12" Source="TheWalk.TwinTowers.dzi">
+    <I Id="12" N="12" Source="TheWalk.PlanningTheCoup.dzi">
+      <Size Width="1024" Height="576" />
+    </I>
+    <I Id="13" N="13" Source="TheWalk.TwinTowers.dzi">
       <Size Width="1024" Height="576" />
     </I>
   </Items>

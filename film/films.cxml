@@ -25,6 +25,60 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
+    <Item Id="Blade II" Name="Blade II" Img="https://en.wikipedia.org/wiki/Blade_II#/media/File:Blade_II_movie.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Blade II">
+      <Description>Blade forms an uneasy alliance with the vampire council in order to combat the Reaper vampires who feed on vampires. </Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Blade II" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-06-16T07:57:45" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-06-16T08:06:19" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="natalia.faja" />
+        </Facet>
+        <Facet Name="Title in Spanish">
+          <String Value="Blade II" />
+        </Facet>
+        <Facet Name="Title in Catalan">
+          <String Value="Blade II" />
+        </Facet>
+        <Facet Name="Duration (h:m:s)">
+          <String Value="1:57:00" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Guillermo del Toro" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="David S. Goyer " />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="USA" />
+          <String Value=" Germany" />
+        </Facet>
+        <Facet Name="Box office">
+          <String Value=" $81.645.152 (USA) " />
+        </Facet>
+        <Facet Name="Year ST released">
+          <String Value="2002" />
+        </Facet>
+        <Facet Name="L1 language">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="Year TT released in Spain">
+          <String Value="2002" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <String Value="0" />
+        </Facet>
+        <Facet Name="Conversations: duration (h:m:s)">
+          <String Value="0:00:00" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Django Unchained" Name="Django Unchained" Img="" Href="http://gallery.trafilm.net/film/metadata/?film=Django Unchained">
       <Description>Western. A story of slavery and revenge, gunfighters and slavemasters, US South</Description>
       <Facets>
@@ -89,7 +143,10 @@
           <DateTime Value="2016-06-01T02:48:36" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-06T03:40:08" />
+          <DateTime Value="2016-06-15T08:53:50" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="miquelpt" />
         </Facet>
         <Facet Name="Title in Spanish">
           <String Value="La comunidad del anillo" />
@@ -126,7 +183,61 @@
           <String Value="2001" />
         </Facet>
         <Facet Name="Conversations: count">
-          <String Value="1" />
+          <String Value="0" />
+        </Facet>
+        <Facet Name="Conversations: duration (h:m:s)">
+          <String Value="0:00:00" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Gangs of New York" Name="Gangs of New York" Img="https://en.wikipedia.org/wiki/Gangs_of_New_York#/media/File:Gangs_of_New_York_Poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Gangs of New York">
+      <Description>In 1863, Amsterdam Vallon returns to the Five Points area of New York City seeking revenge against Bill the Butcher, his father's killer. </Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Gangs of New York" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-06-16T08:02:01" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-06-16T08:05:39" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="natalia.faja" />
+        </Facet>
+        <Facet Name="Title in Spanish">
+          <String Value="Gangs of New York" />
+        </Facet>
+        <Facet Name="Title in Catalan">
+          <String Value="Gangs of New York" />
+        </Facet>
+        <Facet Name="Duration (h:m:s)">
+          <String Value="2:47:00" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Martin Scorsese" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Jay Cocks " />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="USA" />
+          <String Value=" Italy" />
+        </Facet>
+        <Facet Name="Box office">
+          <String Value=" $77.679.638 (USA) " />
+        </Facet>
+        <Facet Name="Year ST released">
+          <String Value="2002" />
+        </Facet>
+        <Facet Name="L1 language">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="Year TT released in Spain">
+          <String Value="2003" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <String Value="0" />
         </Facet>
         <Facet Name="Conversations: duration (h:m:s)">
           <String Value="0:00:00" />
@@ -255,6 +366,59 @@
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Memoirs of a Geisha" Name="Memoirs of a Geisha" Img="https://ca.wikipedia.org/wiki/Mem%C3%B2ries_d'una_geisha_%28pel%C2%B7l%C3%ADcula%29#/media/File:Memories_Geisha_Poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Memoirs of a Geisha">
+      <Description>Nitta Sayuri reveals how she transcended her fishing-village roots and became one of Japan's most celebrated geisha. </Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Memoirs of a Geisha" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-06-16T08:12:46" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-06-16T08:15:30" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="natalia.faja" />
+        </Facet>
+        <Facet Name="Title in Spanish">
+          <String Value="Memorias de una geisha" />
+        </Facet>
+        <Facet Name="Title in Catalan">
+          <String Value="Memòries d'una geisha" />
+        </Facet>
+        <Facet Name="Duration (h:m:s)">
+          <String Value="2:25:00" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Rob Marshall" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value=" Robin Swicord " />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="USA" />
+        </Facet>
+        <Facet Name="Box office">
+          <String Value=" $57.010.853 (USA)" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <String Value="2005" />
+        </Facet>
+        <Facet Name="L1 language">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="Year TT released in Spain">
+          <String Value="2006" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <String Value="0" />
+        </Facet>
+        <Facet Name="Conversations: duration (h:m:s)">
+          <String Value="0:00:00" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Monsoon Wedding" Name="Monsoon Wedding" Img="../film/image/Monsoon Wedding.png" Href="http://gallery.trafilm.net/film/metadata/?film=Monsoon Wedding">
       <Description>A stressed father, a bride-to-be with a secret, a smitten event planner, and relatives from around the world create much ado about the preparations for an arranged marriage in India. </Description>
       <Facets>
@@ -367,6 +531,222 @@
         </Facet>
         <Facet Name="Conversations: duration (h:m:s)">
           <String Value="0:04:00" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Pearl Harbor" Name="Pearl Harbor" Img="" Href="http://gallery.trafilm.net/film/metadata/?film=Pearl Harbor">
+      <Description>Pearl Harbor follows the story of two best friends, Rafe and Danny, and their love lives as they go off to join the war. </Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Pearl Harbor" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-06-16T07:54:12" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-06-16T07:56:41" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="natalia.faja" />
+        </Facet>
+        <Facet Name="Title in Spanish">
+          <String Value="Pearl Harbor" />
+        </Facet>
+        <Facet Name="Title in Catalan">
+          <String Value="Pearl Harbor" />
+        </Facet>
+        <Facet Name="Duration (h:m:s)">
+          <String Value="3:03:00" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Michael Bay" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Randall Wallace" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="USA" />
+        </Facet>
+        <Facet Name="Box office">
+          <String Value="$198.539.855 (USA) " />
+        </Facet>
+        <Facet Name="Year ST released">
+          <String Value="2001" />
+        </Facet>
+        <Facet Name="L1 language">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="Year TT released in Spain">
+          <String Value="2001" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <String Value="0" />
+        </Facet>
+        <Facet Name="Conversations: duration (h:m:s)">
+          <String Value="0:00:00" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Slumdog Millionaire" Name="Slumdog Millionaire" Img="https://upload.wikimedia.org/wikipedia/ca/2/2b/Slumdog_Millionaire.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Slumdog Millionaire">
+      <Description>A Mumbai teen reflects on his upbringing in the slums when he is accused of cheating on the Indian Version of "Who Wants to be a Millionaire?" </Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Slumdog Millionaire" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-06-16T08:16:54" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-06-16T08:21:55" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="natalia.faja" />
+        </Facet>
+        <Facet Name="Title in Spanish">
+          <String Value="Slumdog Millionaire" />
+        </Facet>
+        <Facet Name="Title in Catalan">
+          <String Value="Slumdog Millionaire" />
+        </Facet>
+        <Facet Name="Duration (h:m:s)">
+          <String Value="2:00:00" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Danny Boyle" />
+          <String Value=" Loveleen Tandan " />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value=" Simon Beaufoy " />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="UK" />
+          <String Value=" USA" />
+        </Facet>
+        <Facet Name="Box office">
+          <String Value="$141.319.195 (USA)" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <String Value="2008" />
+        </Facet>
+        <Facet Name="L1 language">
+          <String Value="Other" />
+        </Facet>
+        <Facet Name="Year TT released in Spain">
+          <String Value="2009" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <String Value="0" />
+        </Facet>
+        <Facet Name="Conversations: duration (h:m:s)">
+          <String Value="0:00:00" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Stigmata" Name="Stigmata" Img="" Href="http://gallery.trafilm.net/film/metadata/?film=Stigmata">
+      <Description>When a young woman becomes afflicted by stigmata, a priest is sent to investigate her case, which may have severe ramifications for his faith and for the Catholic Church itself. </Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Stigmata" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-06-16T07:45:24" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-06-16T07:52:25" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="natalia.faja" />
+        </Facet>
+        <Facet Name="Title in Spanish">
+          <String Value="Stigmata" />
+        </Facet>
+        <Facet Name="Title in Catalan">
+          <String Value="Stigmata" />
+        </Facet>
+        <Facet Name="Duration (h:m:s)">
+          <String Value="1:43:00" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Rupert Wainwright" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Tom Lazarus " />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="USA" />
+        </Facet>
+        <Facet Name="Box office">
+          <String Value="$50.041.732 (USA)" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <String Value="1999" />
+        </Facet>
+        <Facet Name="L1 language">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="Year TT released in Spain">
+          <String Value="2000" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <String Value="0" />
+        </Facet>
+        <Facet Name="Conversations: duration (h:m:s)">
+          <String Value="0:00:00" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="The Last Samurai" Name="The Last Samurai" Img="https://en.wikipedia.org/wiki/The_Last_Samurai#/media/File:The_Last_Samurai.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=The Last Samurai">
+      <Description>An American military advisor embraces the Samurai culture he was hired to destroy after he is captured in battle. </Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="The Last Samurai" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-06-16T08:07:14" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-06-16T08:10:36" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="natalia.faja" />
+        </Facet>
+        <Facet Name="Title in Spanish">
+          <String Value="El último samurái" />
+        </Facet>
+        <Facet Name="Title in Catalan">
+          <String Value="L'últim samurai" />
+        </Facet>
+        <Facet Name="Duration (h:m:s)">
+          <String Value="2:34:00" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value=" Edward Zwick " />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="John Logan " />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="USA" />
+          <String Value=" New Zealand" />
+          <String Value=" Japan" />
+        </Facet>
+        <Facet Name="Box office">
+          <String Value=" $111.110.575 (USA) " />
+        </Facet>
+        <Facet Name="Year ST released">
+          <String Value="2003" />
+        </Facet>
+        <Facet Name="L1 language">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="Year TT released in Spain">
+          <String Value="2004" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <String Value="0" />
+        </Facet>
+        <Facet Name="Conversations: duration (h:m:s)">
+          <String Value="0:00:00" />
         </Facet>
       </Facets>
     </Item>

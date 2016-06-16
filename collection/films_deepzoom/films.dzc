@@ -1,31 +1,52 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection MaxLevel="7" TileSize="256" Format="png" NextItemId="9" ServerFormat="Default" xmlns="http://schemas.microsoft.com/deepzoom/2009">
+<Collection MaxLevel="7" TileSize="256" Format="png" NextItemId="16" ServerFormat="Default" xmlns="http://schemas.microsoft.com/deepzoom/2009">
   <Items>
-    <I Id="0" N="0" Source="Django_Unchained.dzi">
+    <I Id="0" N="0" Source="Blade_II.dzi">
       <Size Width="1024" Height="576" />
     </I>
-    <I Id="1" N="1" Source="FellowshipOfTheRing.dzi">
+    <I Id="1" N="1" Source="Django_Unchained.dzi">
       <Size Width="1024" Height="576" />
     </I>
-    <I Id="2" N="2" Source="Lost_in_Translation.dzi">
+    <I Id="2" N="2" Source="FellowshipOfTheRing.dzi">
       <Size Width="1024" Height="576" />
     </I>
-    <I Id="3" N="3" Source="LoveActually.dzi">
+    <I Id="3" N="3" Source="Gangs_of_New_York.dzi">
       <Size Width="1024" Height="576" />
     </I>
-    <I Id="4" N="4" Source="Monsoon_Wedding.dzi">
+    <I Id="4" N="4" Source="Lost_in_Translation.dzi">
       <Size Width="1024" Height="576" />
     </I>
-    <I Id="5" N="5" Source="OceansEleven.dzi">
+    <I Id="5" N="5" Source="LoveActually.dzi">
       <Size Width="1024" Height="576" />
     </I>
-    <I Id="6" N="6" Source="TheReturnOfTheKing.dzi">
+    <I Id="6" N="6" Source="Memoirs_of_a_Geisha.dzi">
       <Size Width="1024" Height="576" />
     </I>
-    <I Id="7" N="7" Source="TheTwoTowers.dzi">
+    <I Id="7" N="7" Source="Monsoon_Wedding.dzi">
       <Size Width="1024" Height="576" />
     </I>
-    <I Id="8" N="8" Source="TheWalk.dzi">
+    <I Id="8" N="8" Source="OceansEleven.dzi">
+      <Size Width="1024" Height="576" />
+    </I>
+    <I Id="9" N="9" Source="Pearl_Harbor.dzi">
+      <Size Width="1024" Height="576" />
+    </I>
+    <I Id="10" N="10" Source="Slumdog_Millionaire.dzi">
+      <Size Width="1024" Height="576" />
+    </I>
+    <I Id="11" N="11" Source="Stigmata.dzi">
+      <Size Width="1024" Height="576" />
+    </I>
+    <I Id="12" N="12" Source="The_Last_Samurai.dzi">
+      <Size Width="1024" Height="576" />
+    </I>
+    <I Id="13" N="13" Source="TheReturnOfTheKing.dzi">
+      <Size Width="1024" Height="576" />
+    </I>
+    <I Id="14" N="14" Source="TheTwoTowers.dzi">
+      <Size Width="1024" Height="576" />
+    </I>
+    <I Id="15" N="15" Source="TheWalk.dzi">
       <Size Width="1024" Height="576" />
     </I>
   </Items>

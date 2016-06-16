@@ -22,6 +22,7 @@
     <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
     <Item Id="FellowshipOfTheRing" Name="The Fellowship Of The Ring" Img="../film/image/FellowshipOfTheRing.png" Href="http://gallery.trafilm.net/film/metadata/?film=FellowshipOfTheRing">
@@ -30,15 +31,18 @@
         <Facet Name="Reference Id">
           <String Value="FellowshipOfTheRing" />
         </Facet>
+        <Facet Name="Keywords">
+          <String Value="Elvish" />
+          <String Value=" Tolkien" />
+        </Facet>
         <Facet Name="Info created">
           <DateTime Value="2016-06-01T02:48:36" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-06T03:40:08" />
+          <DateTime Value="2016-06-15T08:53:50" />
         </Facet>
-        <Facet Name="Keywords">
-          <String Value="Elvish" />
-          <String Value=" Tolkien" />
+        <Facet Name="Metadata Editors">
+          <String Value="miquelpt" />
         </Facet>
         <Facet Name="Title in Spanish">
           <String Value="La comunidad del anillo" />
@@ -75,7 +79,7 @@
           <String Value="2001" />
         </Facet>
         <Facet Name="Conversations: count">
-          <String Value="1" />
+          <String Value="0" />
         </Facet>
         <Facet Name="Conversations: duration (h:m:s)">
           <String Value="0:00:00" />
