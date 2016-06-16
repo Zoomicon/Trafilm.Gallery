@@ -29,27 +29,30 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge" Name="FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Rivendell_AragornArwen&amp;L3STinstance=FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room">
-      <Description>This instance is uttered in the sword room in Rivendell. Arwen speaks aloud Aragorn's inner doubts and raises his spirits by combining both English and Elvish.</Description>
+    <Item Id="FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge" Name="FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Rivendell_AragornArwen&amp;L3STinstance=FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge">
+      <Description>This instance takes place in a bridge in Rivendell. This is the scene in which they explicitly talk about their love relationship. Dialogue combines English and Elvish.</Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge" />
         </Facet>
         <Facet Name="Transcription">
-          <String Value="Arwen: Your time will come. You will face the same evil, and you will defeat it. A si i-Dhúath ú-orthor, &#xD;&#xA;Aragorn. Ú or le a ú or nin. Renech i lu i erui govannen?" />
+          <String Value="Arwen: Renech i lu i erui govannen?&#xD;&#xA;Aragorn: Nauthannem i ned ol reniannen.&#xD;&#xA;Arwen: Gwenwin in enninath...U-arnech in naeth i si celich. Renech i beth i pennen?&#xD;&#xA;Aragorn: You said you'd bind yourself to me. Forsaking the immortal life of your people.&#xD;&#xA;Arwen: And to that I hold. I would rather share one lifetime with you than face all the ages of this world alone." />
         </Facet>
         <Facet Name="Keywords">
           <String Value="Aragorn" />
           <String Value=" Arwen" />
           <String Value=" Elvish" />
-          <String Value=" Sword Room" />
+          <String Value=" Bridge" />
           <String Value=" Rivendell" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="The instance conveys meaningful information through a combination of L3 and L1. " />
         </Facet>
         <Facet Name="Info created">
           <DateTime Value="2016-06-15T09:05:58" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-15T09:53:22" />
+          <DateTime Value="2016-06-16T05:27:18" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="miquelpt" />
@@ -61,10 +64,13 @@
           <String Value="FellowshipOfTheRing.Rivendell_AragornArwen" />
         </Facet>
         <Facet Name="Start time (h:m:s)">
-          <String Value="1:31:15" />
+          <String Value="1:32:08" />
         </Facet>
         <Facet Name="Duration (h:m:s)">
-          <String Value="1:31:53" />
+          <String Value="1:32:55" />
+        </Facet>
+        <Facet Name="L1 language">
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Constructed" />
