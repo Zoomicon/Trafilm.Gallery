@@ -260,7 +260,7 @@
         </Facet>
       </Facets>
     </Item>
-    <Item Id="LoveActually.JamieProposesToAurelia.Aurelia's sister" Name="LoveActually.JamieProposesToAurelia.Aurelia's sister" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia&amp;L3STinstance=LoveActually.JamieProposesToAurelia.Aurelia's sister">
+    <Item Id="LoveActually.JamieProposesToAurelia.Aurelia's sister" Name="LoveActually Jamie Proposes To Aurelia 3" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia&amp;L3STinstance=LoveActually.JamieProposesToAurelia.Aurelia's sister">
       <Description>Aurelia's sister intervenes in Jamie's proposal (humorous effect)</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -276,10 +276,11 @@
           <DateTime Value="2016-06-15T01:43:22" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-15T01:47:57" />
+          <DateTime Value="2016-06-17T04:41:21" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Stavroula" />
+          <String Value="stavroula" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="LoveActually" />
@@ -322,11 +323,11 @@
           <String Value="Written &amp; oral L3" />
         </Facet>
         <Facet Name="L3TT-instances: count">
-          <String Value="0" />
+          <String Value="1" />
         </Facet>
       </Facets>
     </Item>
-    <Item Id="LoveActually.JamieProposesToAurelia.Jamie in Portuguese" Name="LoveActually.JamieProposesToAurelia.Jamie in Portuguese" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia&amp;L3STinstance=LoveActually.JamieProposesToAurelia.Jamie in Portuguese">
+    <Item Id="LoveActually.JamieProposesToAurelia.Jamie in Portuguese" Name="Love Actually Jamie Proposes To Aurelia 2" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia&amp;L3STinstance=LoveActually.JamieProposesToAurelia.Jamie in Portuguese">
       <Description>Jamie proposes in Portuguese</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -339,10 +340,11 @@
           <DateTime Value="2016-06-15T01:37:59" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-15T01:42:41" />
+          <DateTime Value="2016-06-17T04:41:47" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Stavroula" />
+          <String Value="stavroula" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="LoveActually" />
@@ -452,7 +454,7 @@
         </Facet>
       </Facets>
     </Item>
-    <Item Id="LoveActually.Lake Scene.Portuguese" Name="LoveActually Lake Scene Aurelia" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.Lake Scene&amp;L3STinstance=LoveActually.Lake Scene.Portuguese">
+    <Item Id="LoveActually.Lake Scene.Portuguese" Name="LoveActually Lake 1" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.Lake Scene&amp;L3STinstance=LoveActually.Lake Scene.Portuguese">
       <Description>Aurelia expresses anxiety when papers fly.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -465,11 +467,12 @@
           <DateTime Value="2016-06-01T04:24:35" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-15T02:40:53" />
+          <DateTime Value="2016-06-17T04:39:33" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="George" />
           <String Value="Stavroula" />
+          <String Value="stavroula" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="LoveActually" />
@@ -499,16 +502,10 @@
           <String Value="native or proficient" />
         </Facet>
         <Facet Name="L3ST mode">
-          <String Value="Oral non-diegetic" />
-        </Facet>
-        <Facet Name="L3ST functions">
-          <String Value="Dramatic effect" />
-        </Facet>
-        <Facet Name="L3ST sources">
-          <String Value="Respond interlingually: different sources " />
+          <String Value="Oral diegetic on-screen" />
         </Facet>
         <Facet Name="L3TT-instances: count">
-          <String Value="0" />
+          <String Value="1" />
         </Facet>
       </Facets>
     </Item>
