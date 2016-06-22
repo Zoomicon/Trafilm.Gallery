@@ -25,7 +25,7 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Gangs of New York" Name="Gangs of New York" Img="https://en.wikipedia.org/wiki/Gangs_of_New_York#/media/File:Gangs_of_New_York_Poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Gangs of New York">
+    <Item Id="Gangs of New York" Name="Gangs of New York" Img="https://upload.wikimedia.org/wikipedia/en/a/ae/Gangs_of_New_York_Poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Gangs of New York">
       <Description>In 1863, Amsterdam Vallon returns to the Five Points area of New York City seeking revenge against Bill the Butcher, his father's killer. </Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -35,10 +35,11 @@
           <DateTime Value="2016-06-16T08:02:01" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-16T08:05:39" />
+          <DateTime Value="2016-06-22T03:39:39" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="natalia.faja" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Title in Spanish">
           <String Value="Gangs of New York" />

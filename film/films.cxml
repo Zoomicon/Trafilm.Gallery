@@ -25,7 +25,7 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Blade II" Name="Blade II" Img="https://en.wikipedia.org/wiki/Blade_II#/media/File:Blade_II_movie.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Blade II">
+    <Item Id="Blade II" Name="Blade II" Img="https://upload.wikimedia.org/wikipedia/en/6/6d/Blade_II_movie.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Blade II">
       <Description>Blade forms an uneasy alliance with the vampire council in order to combat the Reaper vampires who feed on vampires. </Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -35,10 +35,11 @@
           <DateTime Value="2016-06-16T07:57:45" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-16T08:06:19" />
+          <DateTime Value="2016-06-22T03:37:43" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="natalia.faja" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Title in Spanish">
           <String Value="Blade II" />
@@ -129,7 +130,7 @@
         </Facet>
       </Facets>
     </Item>
-    <Item Id="FellowshipOfTheRing" Name="The Fellowship Of The Ring" Img="../film/image/FellowshipOfTheRing.png" Href="http://gallery.trafilm.net/film/metadata/?film=FellowshipOfTheRing">
+    <Item Id="FellowshipOfTheRing" Name="The Fellowship Of The Ring" Img="" Href="http://gallery.trafilm.net/film/metadata/?film=FellowshipOfTheRing">
       <Description>An ancient Ring thought lost for centuries has been found, and through a strange twist in fate has been given to a small Hobbit named Frodo. When Gandalf discovers the Ring is in fact the One Ring of the Dark Lord Sauron, Frodo must make an epic quest to the Cracks of Doom in order to destroy it! However he does not go alone. He is joined by Gandalf, Legolas the elf, Gimli the Dwarf, Aragorn, Boromir and his three Hobbit friends Merry, Pippin and Samwise. Through mountains, snow, darkness, forests, rivers and plains, facing evil and danger at every corner the Fellowship of the Ring must go. Their quest to destroy the One Ring is the only hope for the end of the Dark Lords reign!</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -143,10 +144,11 @@
           <DateTime Value="2016-06-01T02:48:36" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-15T08:53:50" />
+          <DateTime Value="2016-06-22T03:39:03" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="miquelpt" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Title in Spanish">
           <String Value="La comunidad del anillo" />
@@ -182,15 +184,21 @@
         <Facet Name="Year TT released in Spain">
           <String Value="2001" />
         </Facet>
+        <Facet Name="L2-Dubbed languages">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L2-Subtitled languages">
+          <String Value="Spanish" />
+        </Facet>
         <Facet Name="Conversations: count">
-          <String Value="0" />
+          <String Value="1" />
         </Facet>
         <Facet Name="Conversations: duration (h:m:s)">
-          <String Value="0:00:00" />
+          <String Value="1:33:07" />
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Gangs of New York" Name="Gangs of New York" Img="https://en.wikipedia.org/wiki/Gangs_of_New_York#/media/File:Gangs_of_New_York_Poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Gangs of New York">
+    <Item Id="Gangs of New York" Name="Gangs of New York" Img="https://upload.wikimedia.org/wikipedia/en/a/ae/Gangs_of_New_York_Poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Gangs of New York">
       <Description>In 1863, Amsterdam Vallon returns to the Five Points area of New York City seeking revenge against Bill the Butcher, his father's killer. </Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -200,10 +208,11 @@
           <DateTime Value="2016-06-16T08:02:01" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-16T08:05:39" />
+          <DateTime Value="2016-06-22T03:39:39" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="natalia.faja" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Title in Spanish">
           <String Value="Gangs of New York" />
@@ -318,10 +327,11 @@
           <DateTime Value="2016-06-01T03:30:55" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-15T01:56:55" />
+          <DateTime Value="2016-06-22T03:36:40" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Stavroula" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Title in Spanish">
           <String Value="Love Actually" />
@@ -358,15 +368,18 @@
         <Facet Name="Year TT released in Spain">
           <String Value="2003" />
         </Facet>
+        <Facet Name="L2-Subtitled languages">
+          <String Value="Spanish" />
+        </Facet>
         <Facet Name="Conversations: count">
           <String Value="2" />
         </Facet>
         <Facet Name="Conversations: duration (h:m:s)">
-          <String Value="0:03:27" />
+          <String Value="0:07:16" />
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Memoirs of a Geisha" Name="Memoirs of a Geisha" Img="https://ca.wikipedia.org/wiki/Mem%C3%B2ries_d'una_geisha_%28pel%C2%B7l%C3%ADcula%29#/media/File:Memories_Geisha_Poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Memoirs of a Geisha">
+    <Item Id="Memoirs of a Geisha" Name="Memoirs of a Geisha" Img="https://upload.wikimedia.org/wikipedia/ca/1/1d/Memories_Geisha_Poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Memoirs of a Geisha">
       <Description>Nitta Sayuri reveals how she transcended her fishing-village roots and became one of Japan's most celebrated geisha. </Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -376,10 +389,11 @@
           <DateTime Value="2016-06-16T08:12:46" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-16T08:15:30" />
+          <DateTime Value="2016-06-22T03:41:02" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="natalia.faja" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Title in Spanish">
           <String Value="Memorias de una geisha" />
@@ -419,7 +433,7 @@
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Monsoon Wedding" Name="Monsoon Wedding" Img="../film/image/Monsoon Wedding.png" Href="http://gallery.trafilm.net/film/metadata/?film=Monsoon Wedding">
+    <Item Id="Monsoon Wedding" Name="Monsoon Wedding" Img="" Href="http://gallery.trafilm.net/film/metadata/?film=Monsoon Wedding">
       <Description>A stressed father, a bride-to-be with a secret, a smitten event planner, and relatives from around the world create much ado about the preparations for an arranged marriage in India. </Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -434,7 +448,10 @@
           <DateTime Value="2016-06-07T03:44:51" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-08T01:16:21" />
+          <DateTime Value="2016-06-22T03:41:11" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="George" />
         </Facet>
         <Facet Name="Title in Spanish">
           <String Value="La boda del Monzón" />
@@ -475,6 +492,9 @@
         </Facet>
         <Facet Name="Year TT released in Spain">
           <String Value="2001" />
+        </Facet>
+        <Facet Name="L2-Dubbed languages">
+          <String Value="Spanish" />
         </Facet>
         <Facet Name="Conversations: count">
           <String Value="1" />
@@ -695,7 +715,7 @@
         </Facet>
       </Facets>
     </Item>
-    <Item Id="The Last Samurai" Name="The Last Samurai" Img="https://en.wikipedia.org/wiki/The_Last_Samurai#/media/File:The_Last_Samurai.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=The Last Samurai">
+    <Item Id="The Last Samurai" Name="The Last Samurai" Img="https://upload.wikimedia.org/wikipedia/en/c/c6/The_Last_Samurai.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=The Last Samurai">
       <Description>An American military advisor embraces the Samurai culture he was hired to destroy after he is captured in battle. </Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -705,10 +725,11 @@
           <DateTime Value="2016-06-16T08:07:14" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-16T08:10:36" />
+          <DateTime Value="2016-06-22T03:42:30" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="natalia.faja" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Title in Spanish">
           <String Value="El último samurái" />
@@ -750,7 +771,7 @@
         </Facet>
       </Facets>
     </Item>
-    <Item Id="TheReturnOfTheKing" Name="The Return Of The King" Img="../film/image/TheReturnOfTheKing.png" Href="http://gallery.trafilm.net/film/metadata/?film=TheReturnOfTheKing">
+    <Item Id="TheReturnOfTheKing" Name="The Return Of The King" Img="" Href="http://gallery.trafilm.net/film/metadata/?film=TheReturnOfTheKing">
       <Description>Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -764,7 +785,10 @@
           <DateTime Value="2016-06-01T02:48:36" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-06T03:40:36" />
+          <DateTime Value="2016-06-22T03:43:06" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="George" />
         </Facet>
         <Facet Name="Title in Spanish">
           <String Value="El retorno del rey" />
@@ -808,7 +832,7 @@
         </Facet>
       </Facets>
     </Item>
-    <Item Id="TheTwoTowers" Name="The Two Towers" Img="../film/image/TheTwoTowers.png" Href="http://gallery.trafilm.net/film/metadata/?film=TheTwoTowers">
+    <Item Id="TheTwoTowers" Name="The Two Towers" Img="" Href="http://gallery.trafilm.net/film/metadata/?film=TheTwoTowers">
       <Description>While Frodo and Sam, now accompanied by a new guide, continue their hopeless journey towards the land of shadow to destroy the One Ring, each member of the broken fellowship plays their part in the battle against the evil wizard Saruman and his armies of Isengard. </Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -822,7 +846,10 @@
           <DateTime Value="2016-06-01T02:48:36" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-06T03:40:41" />
+          <DateTime Value="2016-06-22T03:43:12" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="George" />
         </Facet>
         <Facet Name="Title in Spanish">
           <String Value="Las dos torres" />
@@ -867,7 +894,7 @@
         </Facet>
       </Facets>
     </Item>
-    <Item Id="TheWalk" Name="The Walk" Img="../film/image/TheWalk.png" Href="http://gallery.trafilm.net/film/metadata/?film=TheWalk">
+    <Item Id="TheWalk" Name="The Walk" Img="" Href="http://gallery.trafilm.net/film/metadata/?film=TheWalk">
       <Description>In 1974, high-wire artist Philippe Petit recruits a team of people to help him realize his dream: to walk the immense void between the World Trade Center towers.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -877,7 +904,10 @@
           <DateTime Value="2016-05-31T10:18:51" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-06T03:40:47" />
+          <DateTime Value="2016-06-22T03:43:19" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="George" />
         </Facet>
         <Facet Name="Title in Spanish">
           <String Value="El desafío (The Walk)" />

@@ -25,7 +25,7 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Blade II" Name="Blade II" Img="https://en.wikipedia.org/wiki/Blade_II#/media/File:Blade_II_movie.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Blade II">
+    <Item Id="Blade II" Name="Blade II" Img="https://upload.wikimedia.org/wikipedia/en/6/6d/Blade_II_movie.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Blade II">
       <Description>Blade forms an uneasy alliance with the vampire council in order to combat the Reaper vampires who feed on vampires. </Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -35,10 +35,11 @@
           <DateTime Value="2016-06-16T07:57:45" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-16T08:06:19" />
+          <DateTime Value="2016-06-22T03:37:43" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="natalia.faja" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Title in Spanish">
           <String Value="Blade II" />

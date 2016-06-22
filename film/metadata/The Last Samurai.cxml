@@ -25,7 +25,7 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="The Last Samurai" Name="The Last Samurai" Img="https://en.wikipedia.org/wiki/The_Last_Samurai#/media/File:The_Last_Samurai.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=The Last Samurai">
+    <Item Id="The Last Samurai" Name="The Last Samurai" Img="https://upload.wikimedia.org/wikipedia/en/c/c6/The_Last_Samurai.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=The Last Samurai">
       <Description>An American military advisor embraces the Samurai culture he was hired to destroy after he is captured in battle. </Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -35,10 +35,11 @@
           <DateTime Value="2016-06-16T08:07:14" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-16T08:10:36" />
+          <DateTime Value="2016-06-22T03:42:30" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="natalia.faja" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Title in Spanish">
           <String Value="El último samurái" />

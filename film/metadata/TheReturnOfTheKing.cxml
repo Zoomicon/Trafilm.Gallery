@@ -22,23 +22,27 @@
     <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="TheReturnOfTheKing" Name="The Return Of The King" Img="../film/image/TheReturnOfTheKing.png" Href="http://gallery.trafilm.net/film/metadata/?film=TheReturnOfTheKing">
+    <Item Id="TheReturnOfTheKing" Name="The Return Of The King" Img="" Href="http://gallery.trafilm.net/film/metadata/?film=TheReturnOfTheKing">
       <Description>Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.</Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="TheReturnOfTheKing" />
         </Facet>
+        <Facet Name="Keywords">
+          <String Value="Elvish" />
+          <String Value=" Tolkien" />
+        </Facet>
         <Facet Name="Info created">
           <DateTime Value="2016-06-01T02:48:36" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-06T03:40:36" />
+          <DateTime Value="2016-06-22T03:43:06" />
         </Facet>
-        <Facet Name="Keywords">
-          <String Value="Elvish" />
-          <String Value=" Tolkien" />
+        <Facet Name="Metadata Editors">
+          <String Value="George" />
         </Facet>
         <Facet Name="Title in Spanish">
           <String Value="El retorno del rey" />

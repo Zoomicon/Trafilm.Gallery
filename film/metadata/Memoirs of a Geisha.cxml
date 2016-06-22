@@ -25,7 +25,7 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Memoirs of a Geisha" Name="Memoirs of a Geisha" Img="https://ca.wikipedia.org/wiki/Mem%C3%B2ries_d'una_geisha_%28pel%C2%B7l%C3%ADcula%29#/media/File:Memories_Geisha_Poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Memoirs of a Geisha">
+    <Item Id="Memoirs of a Geisha" Name="Memoirs of a Geisha" Img="https://upload.wikimedia.org/wikipedia/ca/1/1d/Memories_Geisha_Poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Memoirs of a Geisha">
       <Description>Nitta Sayuri reveals how she transcended her fishing-village roots and became one of Japan's most celebrated geisha. </Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -35,10 +35,11 @@
           <DateTime Value="2016-06-16T08:12:46" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-16T08:15:30" />
+          <DateTime Value="2016-06-22T03:41:02" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="natalia.faja" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Title in Spanish">
           <String Value="Memorias de una geisha" />
