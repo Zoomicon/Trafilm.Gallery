@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: film\metadata\default.aspx
-Version: 20160610
+Version: 20160622
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -201,20 +201,22 @@ Version: 20160610
 
         <%-- ITrafilmMetadata --%>
 
-        <div class="question">
-          <div class="label">15. Transcription </div>
-          <div class="tip">Transcription for the whole film</div>
-          <asp:TextBox ID="txtTranscription" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
-        </div>
+        <asp:Panel ID="panelNoFilmTranscription" runat="server" Visible="false"> <%-- Film Transcription not available for copyright reasons --%>
+          <div class="question">
+            <div class="label">xx. Transcription </div>
+            <div class="tip">Transcription for the whole film</div>
+            <asp:TextBox ID="txtTranscription" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
+          </div>
+        </asp:Panel>
 
         <div class="question">
-          <div class="label">16. Keywords</div>
+          <div class="label">15. Keywords</div>
           <div class="tip">Comma-separated list of keywords to help identify this item</div>
           <asp:TextBox ID="txtKeywords" runat="server" Columns="150"></asp:TextBox>
         </div>
 
         <div class="question">
-          <div class="label">17. Remarks </div>
+          <div class="label">16. Remarks </div>
           <div class="tip">Remarks on the metadata</div>
           <asp:TextBox ID="txtRemarks" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
         </div>
