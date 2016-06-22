@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: L3STinstance\metadata\default.aspx
-Version: 20160614
+Version: 20160622
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -137,7 +137,7 @@ Version: 20160614
 
 
         <div>
-          <div class="label">L1 language</div>
+          <div class="label">L1 language (Calculated from Film)</div>
           <div class="tip">What language is L1 in?</div>
           <asp:Label ID="lblL1language" runat="server" />
         </div>
