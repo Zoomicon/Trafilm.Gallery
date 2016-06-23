@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: BaseMetadataPage.cs
-//Version: 20160609
+//Version: 20160622
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -136,26 +136,46 @@ namespace Trafilm.Gallery
 
     #endregion
 
-    #region "URIs"
+    #region URI
+
+    public string GetFilmUriHash(string filmId)
+    {
+      return "film=" + filmId;
+    }
+
+    public string GetConversationUriHash(string filmId, string conversationId)
+    {
+      return GetFilmUriHash(filmId) + "&conversation=" + conversationId;
+    }
+
+    public string GetL3STinstanceUriHash(string filmId, string conversationId, string l3STinstanceId)
+    {
+      return GetConversationUriHash(filmId, conversationId) + "&L3STinstance=" + l3STinstanceId;
+    }
+
+    public string GetL3TTinstanceUriHash(string filmId, string conversationId, string l3STinstanceId, string l3TTinstanceId)
+    {
+      return GetL3STinstanceUriHash(filmId, conversationId, l3STinstanceId) + "&L3TTinstance=" + l3TTinstanceId;
+    }
 
     public Uri GetFilmUri(string filmId)
     {
-      return new Uri("http://gallery.trafilm.net/film/metadata/?film=" + filmId);
+      return new Uri("http://gallery.trafilm.net/film/metadata/?" + GetFilmUriHash(filmId));
     }
 
     public Uri GetConversationUri(string filmId, string conversationId)
     {
-      return new Uri("http://gallery.trafilm.net/conversation/metadata/?film=" + filmId + "&conversation=" + conversationId);
+      return new Uri("http://gallery.trafilm.net/conversation/metadata/?" + GetConversationUriHash(filmId, conversationId));
     }
 
     public Uri GetL3STinstanceUri(string filmId, string conversationId, string l3STinstanceId)
     {
-      return new Uri("http://gallery.trafilm.net/L3STinstance/metadata/?film=" + filmId + "&conversation=" + conversationId + "&L3STinstance=" + l3STinstanceId);
+      return new Uri("http://gallery.trafilm.net/L3STinstance/metadata/?" + GetL3STinstanceUriHash(filmId, conversationId, l3STinstanceId));
     }
 
     public Uri GetL3TTinstanceUri(string filmId, string conversationId, string l3STinstanceId, string l3TTinstanceId)
     {
-      return new Uri("http://gallery.trafilm.net/L3TTinstance/metadata/?film=" + filmId + "&conversation=" + conversationId + "&L3STinstance=" + l3STinstanceId + "&L3TTinstance=" + l3TTinstanceId);
+      return new Uri("http://gallery.trafilm.net/L3TTinstance/metadata/?" + GetL3TTinstanceUriHash(filmId, conversationId, l3STinstanceId, l3TTinstanceId));
     }
 
     #endregion

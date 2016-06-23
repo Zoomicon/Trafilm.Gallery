@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: film\metadata\default.aspx.cs
-//Version: 20160610
+//Version: 20160622
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -36,6 +36,11 @@ namespace Trafilm.Gallery
       panelAdd.Visible = canSave;
 
       btnRename.Visible = IsUserAllowedToRename("Film") && (listFilms.SelectedIndex > 0);
+
+      //this.ClientScript.RegisterStartupScript(this.GetType(),
+      //                                        "navigate",
+      //                                        "window.onload = function() {window.location.hash='" + GetFilmUriHash(listFilms.SelectedValue) + "';}",
+      //                                         true);
     }
 
     #endregion
