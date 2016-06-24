@@ -22,22 +22,27 @@
     <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="LoveActually" Name="Love Actually " Img="../film/image/LoveActually.png" Href="http://gallery.trafilm.net/film/metadata/?film=LoveActually">
+    <Item Id="LoveActually" Name="Love Actually " Img="https://upload.wikimedia.org/wikipedia/en/e/eb/Love_Actually_movie.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=LoveActually">
       <Description>Follows the lives of eight very different couples in dealing with their love lives in various loosely interrelated tales all set during a frantic month before Christmas in London, England. (imdb)</Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="LoveActually" />
         </Facet>
+        <Facet Name="Keywords">
+          <String Value="faltan datos importantes" />
+        </Facet>
         <Facet Name="Info created">
           <DateTime Value="2016-06-01T03:30:55" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-06T03:40:24" />
+          <DateTime Value="2016-06-22T03:36:40" />
         </Facet>
-        <Facet Name="Keywords">
-          <String Value="faltan datos importantes" />
+        <Facet Name="Metadata Editors">
+          <String Value="Stavroula" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Title in Spanish">
           <String Value="Love Actually" />
@@ -74,11 +79,14 @@
         <Facet Name="Year TT released in Spain">
           <String Value="2003" />
         </Facet>
+        <Facet Name="L2-Subtitled languages">
+          <String Value="Spanish" />
+        </Facet>
         <Facet Name="Conversations: count">
           <String Value="2" />
         </Facet>
         <Facet Name="Conversations: duration (h:m:s)">
-          <String Value="0:00:00" />
+          <String Value="0:07:16" />
         </Facet>
       </Facets>
     </Item>

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Collection SchemaVersion="1.0" Name="Jamie Proposes To Aurelia" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+  <FacetCategories>
+    <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Start time (h:m:s)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Duration (h:m:s)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Language sources" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST languages: count" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="L3ST languages" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST language types: count" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="L3ST language types" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST-instances: count" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Keywords" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+  </FacetCategories>
+  <Items xmlns="">
+    <Item Id="LoveActually.JamieProposesToAurelia" Name="Jamie Proposes To Aurelia" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia">
+      <Description>Jamie proposes to Aurelia in Portuguese.
+Available at https://www.youtube.com/watch?v=MXslFb_cdG4</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="LoveActually.JamieProposesToAurelia" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="[ Scene #78 ]&#xD;&#xA;(All Spoken Portuguese)&#xD;&#xA;Barros: Where is Aurelia?&#xD;&#xA;R.P.: Why should I tell you?&#xD;&#xA;Barros: This man wants to marry her.&#xD;&#xA;R. P.: He can't do that - she's our best waitress.&#xD;&#xA;Jamie: Boa noite, Aurelia.&#xD;&#xA;Aurelia: Boa noite, Jamie.&#xD;&#xA;Jamie: Beautiful Aurelia... I've come here with a view to asking you...to marriage me. I know I seems an insane person because I hardly knows you but sometimes things are so transparency, they don't need evidential proof. And I will inhabit here, or you can inhabit with me in England.&#xD;&#xA;Aurelia'sister: Definitely go for England, girl. You'll meet Prince William -then you can marry him instead.&#xD;&#xA;Jamie: Of course I don't expecting you　to be as foolish as me, and of course I prediction you say no.... but it's Christmas　and I just wanted to...check.&#xD;&#xA;Aurelia'sister: Oh, God - say yes, you skinny moron.&#xD;&#xA;Aurelia: (English) Thank you. That will be nice. Yes is being my answer. Easy question.&#xD;&#xA;Barros: (Portuguese) What did you say?&#xD;&#xA;Aurelia: Yes, of course.&#xD;&#xA;all: Bravo!&#xD;&#xA;Jamie: (English) You learned English?&#xD;&#xA;Aurelia: Just in cases.&#xD;&#xA;&#xD;&#xA;Copied from http://withmusics.blogspot.gr/2008/12/love-actually-script.html" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-06-15T12:40:30" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-06-15T01:06:59" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Stavroula" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="LoveActually" />
+        </Facet>
+        <Facet Name="Duration (h:m:s)">
+          <String Value="0:03:27" />
+        </Facet>
+        <Facet Name="Language sources">
+          <String Value="Combined: oral (any) &amp; written" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <String Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <String Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <String Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+  </Items>
+</Collection>

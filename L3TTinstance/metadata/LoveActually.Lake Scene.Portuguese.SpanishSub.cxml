@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Collection SchemaVersion="1.0" Name="LoveActually Lake Scene Aurelia SpanishSub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+  <FacetCategories>
+    <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Conversation Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST-instance Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L2 language" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L2 mode" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="L2 same as L3ST" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="L3ST conveyed as L3TT" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="L3TT language type" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3TT language" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3TT constructed based on" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3TT meant to be understood" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3TT required for understanding" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3TT meaning decipherable" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3TT speaker performance" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="L3TT mode" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3TT represented" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3TT represented: oral" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3TT represented: visual" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3TT functions" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3TT sources" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST language type change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST mode change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST functions change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST sources change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Keywords" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+  </FacetCategories>
+  <Items xmlns="">
+    <Item Id="LoveActually.Lake Scene.Portuguese.SpanishSub" Name="LoveActually Lake Scene Aurelia SpanishSub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.Lake Scene&amp;L3STinstance=LoveActually.Lake Scene.Portuguese&amp;L3TTinstance=LoveActually.Lake Scene.Portuguese.SpanishSub">
+      <Description>Aurelia expresses anxiety when papers fly. Subtitles in Spanish.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="LoveActually.Lake Scene.Portuguese.SpanishSub" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="616&#xD;&#xA;00:45:11,406 -- 00:45:14,922&#xD;&#xA;Hola.&#xD;&#xA;&#xD;&#xA;617&#xD;&#xA;00:45:21,448 -- 00:45:23,838&#xD;&#xA;Lo siento.&#xD;&#xA;&#xD;&#xA;618&#xD;&#xA;00:45:27,304 -- 00:45:28,847&#xD;&#xA;Hola.&#xD;&#xA;&#xD;&#xA;619&#xD;&#xA;00:45:44,014 -- 00:45:46,483&#xD;&#xA;- Gracias.&#xD;&#xA;- ¡No!&#xD;&#xA;&#xD;&#xA;620&#xD;&#xA;00:45:46,535 -- 00:45:49,608&#xD;&#xA;- Le pido disculpas.&#xD;&#xA;- No. Espera.&#xD;&#xA;&#xD;&#xA;621&#xD;&#xA;00:45:49,656 -- 00:45:52,124&#xD;&#xA;- Dios, es medio libro. Oh, no.&#xD;&#xA;- ¡Qué desastre!&#xD;&#xA;&#xD;&#xA;622&#xD;&#xA;00:45:52,176 -- 00:45:55,567&#xD;&#xA;Sólo déjalo, ¡por favor!&#xD;&#xA;No son importantes.&#xD;&#xA;&#xD;&#xA;623&#xD;&#xA;00:45:55,617 -- 00:45:58,212&#xD;&#xA;¡No valen nada!&#xD;&#xA;&#xD;&#xA;624&#xD;&#xA;00:45:58,258 -- 00:46:01,092&#xD;&#xA;¡Detente! Detente.&#xD;&#xA;&#xD;&#xA;625&#xD;&#xA;00:46:04,780 -- 00:46:06,896&#xD;&#xA;Es sólo basura.&#xD;&#xA;&#xD;&#xA;626&#xD;&#xA;00:46:08,461 -- 00:46:10,531&#xD;&#xA;Sólo déjalo.&#xD;&#xA;" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-06-15T02:43:24" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-06-17T09:31:00" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="stavroula" />
+          <String Value="Stavroula" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="LoveActually" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="LoveActually.Lake Scene" />
+        </Facet>
+        <Facet Name="L3ST-instance Reference Id">
+          <String Value="LoveActually.Lake Scene.Portuguese" />
+        </Facet>
+        <Facet Name="L2 language">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L2 mode">
+          <String Value="Subtitled" />
+        </Facet>
+        <Facet Name="L2 same as L3ST">
+          <String Value="No" />
+        </Facet>
+        <Facet Name="L3ST conveyed as L3TT">
+          <String Value="No" />
+        </Facet>
+        <Facet Name="L3TT functions">
+          <String Value="Dramatic effect" />
+        </Facet>
+        <Facet Name="L3ST language type change">
+          <String Value="- Real" />
+          <String Value="+ " />
+        </Facet>
+        <Facet Name="L3ST mode change">
+          <String Value="- Oral non-diegetic" />
+        </Facet>
+        <Facet Name="L3ST functions change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3ST sources change">
+          <String Value="- Respond interlingually: different sources " />
+          <String Value="+ " />
+        </Facet>
+      </Facets>
+    </Item>
+  </Items>
+</Collection>

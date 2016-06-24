@@ -22,23 +22,27 @@
     <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="TheTwoTowers" Name="The Two Towers" Img="../film/image/TheTwoTowers.png" Href="http://gallery.trafilm.net/film/metadata/?film=TheTwoTowers">
+    <Item Id="TheTwoTowers" Name="The Two Towers" Img="" Href="http://gallery.trafilm.net/film/metadata/?film=TheTwoTowers">
       <Description>While Frodo and Sam, now accompanied by a new guide, continue their hopeless journey towards the land of shadow to destroy the One Ring, each member of the broken fellowship plays their part in the battle against the evil wizard Saruman and his armies of Isengard. </Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="TheTwoTowers" />
         </Facet>
+        <Facet Name="Keywords">
+          <String Value="Elvish" />
+          <String Value=" Tolkien" />
+        </Facet>
         <Facet Name="Info created">
           <DateTime Value="2016-06-01T02:48:36" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-06T03:40:41" />
+          <DateTime Value="2016-06-22T03:43:12" />
         </Facet>
-        <Facet Name="Keywords">
-          <String Value="Elvish" />
-          <String Value=" Tolkien" />
+        <Facet Name="Metadata Editors">
+          <String Value="George" />
         </Facet>
         <Facet Name="Title in Spanish">
           <String Value="Las dos torres" />
