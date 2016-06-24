@@ -1,5 +1,5 @@
 :: Version: 20160525
-:: Author: George Birbilis <birbilis@kagi.com>
+:: Author: George Birbilis (http://zoomicon.com)
 
 @echo off
 call :process > update_cxml.log
