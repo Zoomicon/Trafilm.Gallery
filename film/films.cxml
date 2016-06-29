@@ -894,7 +894,7 @@
         </Facet>
       </Facets>
     </Item>
-    <Item Id="TheWalk" Name="The Walk" Img="" Href="http://gallery.trafilm.net/film/metadata/?film=TheWalk">
+    <Item Id="TheWalk" Name="The Walk" Img="https://upload.wikimedia.org/wikipedia/en/thumb/5/57/The_Walk_%282015_film%29_poster.jpg/220px-The_Walk_%282015_film%29_poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=TheWalk">
       <Description>In 1974, high-wire artist Philippe Petit recruits a team of people to help him realize his dream: to walk the immense void between the World Trade Center towers.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -904,10 +904,11 @@
           <DateTime Value="2016-05-31T10:18:51" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-22T03:43:19" />
+          <DateTime Value="2016-06-29T12:51:41" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="George" />
+          <String Value="Guillermo" />
         </Facet>
         <Facet Name="Title in Spanish">
           <String Value="El desafío (The Walk)" />
