@@ -25,7 +25,7 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Stigmata" Name="Stigmata" Img="" Href="http://gallery.trafilm.net/film/metadata/?film=Stigmata">
+    <Item Id="Stigmata" Name="Stigmata" Img="https://upload.wikimedia.org/wikipedia/en/8/8e/Stigmata_film.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Stigmata">
       <Description>When a young woman becomes afflicted by stigmata, a priest is sent to investigate her case, which may have severe ramifications for his faith and for the Catholic Church itself. </Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -35,10 +35,11 @@
           <DateTime Value="2016-06-16T07:45:24" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-16T07:52:25" />
+          <DateTime Value="2016-07-04T02:43:44" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="natalia.faja" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Title in Spanish">
           <String Value="Stigmata" />

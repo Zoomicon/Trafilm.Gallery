@@ -22,9 +22,10 @@
     <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Django Unchained" Name="Django Unchained" Img="" Href="http://gallery.trafilm.net/film/metadata/?film=Django Unchained">
+    <Item Id="Django Unchained" Name="Django Unchained" Img="https://upload.wikimedia.org/wikipedia/en/8/8b/Django_Unchained_Poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Django Unchained">
       <Description>Western. A story of slavery and revenge, gunfighters and slavemasters, US South</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -34,7 +35,10 @@
           <DateTime Value="2016-05-31T11:56:17" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-07T09:53:16" />
+          <DateTime Value="2016-07-04T02:37:45" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="George" />
         </Facet>
         <Facet Name="Title in Spanish">
           <String Value="Django Desencadenado" />
