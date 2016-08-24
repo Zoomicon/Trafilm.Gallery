@@ -80,7 +80,7 @@
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Django Unchained" Name="Django Unchained" Img="" Href="http://gallery.trafilm.net/film/metadata/?film=Django Unchained">
+    <Item Id="Django Unchained" Name="Django Unchained" Img="https://upload.wikimedia.org/wikipedia/en/8/8b/Django_Unchained_Poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Django Unchained">
       <Description>Western. A story of slavery and revenge, gunfighters and slavemasters, US South</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -90,7 +90,10 @@
           <DateTime Value="2016-05-31T11:56:17" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-07T09:53:16" />
+          <DateTime Value="2016-07-04T02:37:45" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="George" />
         </Facet>
         <Facet Name="Title in Spanish">
           <String Value="Django Desencadenado" />
@@ -130,7 +133,7 @@
         </Facet>
       </Facets>
     </Item>
-    <Item Id="FellowshipOfTheRing" Name="The Fellowship Of The Ring" Img="" Href="http://gallery.trafilm.net/film/metadata/?film=FellowshipOfTheRing">
+    <Item Id="FellowshipOfTheRing" Name="The Lord of the Rings: The Fellowship of the Ring" Img="https://upload.wikimedia.org/wikipedia/en/0/0c/The_Fellowship_Of_The_Ring.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=FellowshipOfTheRing">
       <Description>An ancient Ring thought lost for centuries has been found, and through a strange twist in fate has been given to a small Hobbit named Frodo. When Gandalf discovers the Ring is in fact the One Ring of the Dark Lord Sauron, Frodo must make an epic quest to the Cracks of Doom in order to destroy it! However he does not go alone. He is joined by Gandalf, Legolas the elf, Gimli the Dwarf, Aragorn, Boromir and his three Hobbit friends Merry, Pippin and Samwise. Through mountains, snow, darkness, forests, rivers and plains, facing evil and danger at every corner the Fellowship of the Ring must go. Their quest to destroy the One Ring is the only hope for the end of the Dark Lords reign!</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -144,7 +147,7 @@
           <DateTime Value="2016-06-01T02:48:36" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-22T03:39:03" />
+          <DateTime Value="2016-07-04T02:42:29" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="miquelpt" />
@@ -433,7 +436,7 @@
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Monsoon Wedding" Name="Monsoon Wedding" Img="" Href="http://gallery.trafilm.net/film/metadata/?film=Monsoon Wedding">
+    <Item Id="Monsoon Wedding" Name="Monsoon Wedding" Img="https://upload.wikimedia.org/wikipedia/en/1/1d/Monsoon_Wedding_poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Monsoon Wedding">
       <Description>A stressed father, a bride-to-be with a secret, a smitten event planner, and relatives from around the world create much ado about the preparations for an arranged marriage in India. </Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -448,7 +451,7 @@
           <DateTime Value="2016-06-07T03:44:51" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-22T03:41:11" />
+          <DateTime Value="2016-07-04T02:40:05" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="George" />
@@ -554,7 +557,7 @@
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Pearl Harbor" Name="Pearl Harbor" Img="" Href="http://gallery.trafilm.net/film/metadata/?film=Pearl Harbor">
+    <Item Id="Pearl Harbor" Name="Pearl Harbor" Img="https://upload.wikimedia.org/wikipedia/en/3/3c/Pearl_harbor_movie_poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Pearl Harbor">
       <Description>Pearl Harbor follows the story of two best friends, Rafe and Danny, and their love lives as they go off to join the war. </Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -564,10 +567,11 @@
           <DateTime Value="2016-06-16T07:54:12" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-16T07:56:41" />
+          <DateTime Value="2016-07-04T02:43:11" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="natalia.faja" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Title in Spanish">
           <String Value="Pearl Harbor" />
@@ -662,7 +666,7 @@
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Stigmata" Name="Stigmata" Img="" Href="http://gallery.trafilm.net/film/metadata/?film=Stigmata">
+    <Item Id="Stigmata" Name="Stigmata" Img="https://upload.wikimedia.org/wikipedia/en/8/8e/Stigmata_film.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Stigmata">
       <Description>When a young woman becomes afflicted by stigmata, a priest is sent to investigate her case, which may have severe ramifications for his faith and for the Catholic Church itself. </Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -672,10 +676,11 @@
           <DateTime Value="2016-06-16T07:45:24" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-16T07:52:25" />
+          <DateTime Value="2016-07-04T02:43:44" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="natalia.faja" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Title in Spanish">
           <String Value="Stigmata" />
@@ -771,7 +776,7 @@
         </Facet>
       </Facets>
     </Item>
-    <Item Id="TheReturnOfTheKing" Name="The Return Of The King" Img="" Href="http://gallery.trafilm.net/film/metadata/?film=TheReturnOfTheKing">
+    <Item Id="TheReturnOfTheKing" Name="The Lord of the Rings: The Return of the King" Img="https://upload.wikimedia.org/wikipedia/en/9/9d/Lord_of_the_Rings_-_The_Return_of_the_King.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=TheReturnOfTheKing">
       <Description>Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -785,7 +790,7 @@
           <DateTime Value="2016-06-01T02:48:36" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-22T03:43:06" />
+          <DateTime Value="2016-07-04T02:39:22" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="George" />
@@ -832,7 +837,7 @@
         </Facet>
       </Facets>
     </Item>
-    <Item Id="TheTwoTowers" Name="The Two Towers" Img="" Href="http://gallery.trafilm.net/film/metadata/?film=TheTwoTowers">
+    <Item Id="TheTwoTowers" Name="The Lord of the Rings: The Two Towers" Img="https://upload.wikimedia.org/wikipedia/en/a/ad/Lord_of_the_Rings_-_The_Two_Towers.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=TheTwoTowers">
       <Description>While Frodo and Sam, now accompanied by a new guide, continue their hopeless journey towards the land of shadow to destroy the One Ring, each member of the broken fellowship plays their part in the battle against the evil wizard Saruman and his armies of Isengard. </Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -846,7 +851,7 @@
           <DateTime Value="2016-06-01T02:48:36" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-22T03:43:12" />
+          <DateTime Value="2016-07-04T02:41:46" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="George" />
@@ -894,7 +899,7 @@
         </Facet>
       </Facets>
     </Item>
-    <Item Id="TheWalk" Name="The Walk" Img="" Href="http://gallery.trafilm.net/film/metadata/?film=TheWalk">
+    <Item Id="TheWalk" Name="The Walk" Img="https://upload.wikimedia.org/wikipedia/en/thumb/5/57/The_Walk_%282015_film%29_poster.jpg/220px-The_Walk_%282015_film%29_poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=TheWalk">
       <Description>In 1974, high-wire artist Philippe Petit recruits a team of people to help him realize his dream: to walk the immense void between the World Trade Center towers.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -904,10 +909,11 @@
           <DateTime Value="2016-05-31T10:18:51" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-22T03:43:19" />
+          <DateTime Value="2016-06-29T12:51:41" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="George" />
+          <String Value="Guillermo" />
         </Facet>
         <Facet Name="Title in Spanish">
           <String Value="El desafío (The Walk)" />
