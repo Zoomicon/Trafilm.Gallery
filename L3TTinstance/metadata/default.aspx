@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: L3TTinstance\metadata\default.aspx
-Version: 20160614
+Version: 20160824
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -220,7 +220,7 @@ Version: 20160614
 
 
         <div class="question">
-          <div class="label">14. L3TT speaker performance</div>
+          <div class="label">14. Quality of L3TT speaker performance</div>
           <div class="tip">Select speaker’s L3TT proficiency and performance:</div>
           <asp:DropDownList 
             ID="listL3TTspeakerPerformance" runat="server"
@@ -229,7 +229,7 @@ Version: 20160614
 
 
         <div class="question">
-          <div class="label">15. L3TT mode</div>
+          <div class="label">15. L3TT mode, written/spoken, diegetic?</div>
           <div class="tip">Mode of L3TT?</div>
           <asp:Panel runat="server" ScrollBars="Auto" Style="max-height: 100px">
             <asp:CheckBoxList ID="clistL3TTmode" runat="server" 
@@ -241,7 +241,7 @@ Version: 20160614
 
 
         <div class="question">
-          <div class="label">16. L3TT represented</div>
+          <div class="label">16. Is L3TT merely represented</div>
           <div class="tip">There is no L3TT as such, strictly speaking, but rather, it is hinted at through certain "clues" verbally (in the L2) or non-verbally (visually or otherwise)</div>
           <asp:Panel runat="server" ScrollBars="Auto" Style="max-height: 100px">
             <asp:CheckBoxList ID="clistL3TTrepresented" runat="server" 
@@ -252,7 +252,7 @@ Version: 20160614
         </div>
 
         <div class="question">
-          <div class="label">17. L3TT represented: oral</div>
+          <div class="label">17. L3TT is merely represented orally</div>
           <div class="tip">If “oral” selected for question on “L3TT represented”, specify how:</div>
           <div class="tip"></div>
           <asp:Panel runat="server" ScrollBars="Auto" Style="max-height: 100px">
