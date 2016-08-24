@@ -205,7 +205,7 @@ Version: 20160824
 
 
         <div class="question">
-          <div class="label">13. L3ST mode, written/spoken, diegetic?</div>
+          <div class="label">13. L3ST mode, written/spoken, diegetic</div>
           <div class="tip">Mode of L3ST?</div>
           <asp:Panel runat="server" ScrollBars="Auto" Style="max-height: 100px">
             <asp:CheckBoxList ID="clistL3STmode" runat="server" 
@@ -217,7 +217,7 @@ Version: 20160824
 
 
         <div class="question">
-          <div class="label">14. Is L3ST merely represented</div>
+          <div class="label">14. L3ST merely represented</div>
           <div class="tip">There is no L3ST as such, strictly speaking, but rather, it is hinted at through certain "clues" verbally (in the L1) or non-verbally (visually or otherwise)</div>
           <asp:Panel runat="server" ScrollBars="Auto" Style="max-height: 100px">
             <asp:CheckBoxList ID="clistL3STrepresented" runat="server" 
@@ -228,7 +228,7 @@ Version: 20160824
         </div>
 
         <div class="question">
-          <div class="label">15. L3ST is merely represented orally</div>
+          <div class="label">15. L3ST merely represented orally</div>
           <div class="tip">If “oral” selected for question on “L3ST represented”, specify how:</div>
           <div class="tip"></div>
           <asp:Panel runat="server" ScrollBars="Auto" Style="max-height: 100px">

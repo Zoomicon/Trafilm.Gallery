@@ -15,15 +15,15 @@
         <FacetCategory Name="L3TT meant to be understood" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="L3TT required for understanding" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="L3TT meaning decipherable" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
-        <FacetCategory Name="L3TT speaker performance" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
-        <FacetCategory Name="L3TT mode" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
-        <FacetCategory Name="L3TT represented" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
-        <FacetCategory Name="L3TT represented: oral" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
+        <FacetCategory Name="Quality of L3TT speaker performance" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
+        <FacetCategory Name="L3TT mode, written/spoken, diegetic" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
+        <FacetCategory Name="L3TT merely represented" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
+        <FacetCategory Name="L3TT merely represented orally" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="L3TT represented: visual" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="L3TT functions" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="L3TT sources" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="L3ST language type change" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
-        <FacetCategory Name="L3ST mode change" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
+        <FacetCategory Name="L3ST mode, written/spoken, diegetic change" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="L3ST functions change" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="L3ST sources change" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="false" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
@@ -66,7 +66,7 @@
                 <Facet Name="L3ST language type change">
                     <String Value="None" />
                 </Facet>
-                <Facet Name="L3ST mode change">
+                <Facet Name="L3ST mode, written/spoken, diegetic change">
                     <String Value="- Oral diegetic on-screen" />
                     <String Value="+ Oral non-diegetic" />
                 </Facet>
@@ -95,18 +95,18 @@
                 <Facet Name="L3TT meant to be understood">
                     <String Value="NO" />
                 </Facet>
-                <Facet Name="L3TT mode">
+                <Facet Name="L3TT mode, written/spoken, diegetic">
                     <String Value="Oral non-diegetic" />
                 </Facet>
                 <Facet Name="L3TT required for understanding">
                     <String Value="Yes" />
                 </Facet>
-                <Facet Name="L3TT speaker performance">
-                    <String Value="native or proficient" />
-                </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="George" />
                     <String Value="PatrickZabalbeascoa" />
+                </Facet>
+                <Facet Name="Quality of L3TT speaker performance">
+                    <String Value="native or proficient" />
                 </Facet>
                 <Facet Name="Reference Id">
                     <String Value="Django Unchained.Slave speaks a little German.Slave opens conversation.Slave's ST German dubbed" />
@@ -146,7 +146,7 @@
                 <Facet Name="L3ST language type change">
                     <String Value="None" />
                 </Facet>
-                <Facet Name="L3ST mode change">
+                <Facet Name="L3ST mode, written/spoken, diegetic change">
                     <String Value="None" />
                 </Facet>
                 <Facet Name="L3ST sources change">
@@ -174,10 +174,10 @@
                 <Facet Name="L3TT meant to be understood">
                     <String Value="NO" />
                 </Facet>
-                <Facet Name="L3TT mode">
+                <Facet Name="L3TT mode, written/spoken, diegetic">
                     <String Value="Oral diegetic on-screen" />
                 </Facet>
-                <Facet Name="L3TT represented">
+                <Facet Name="L3TT merely represented">
                     <String Value="NO / Not applicable" />
                 </Facet>
                 <Facet Name="L3TT required for understanding">
@@ -186,11 +186,11 @@
                 <Facet Name="L3TT sources">
                     <String Value="Non-diegetic translation" />
                 </Facet>
-                <Facet Name="L3TT speaker performance">
-                    <String Value="native or proficient" />
-                </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="miquelpt" />
+                </Facet>
+                <Facet Name="Quality of L3TT speaker performance">
+                    <String Value="native or proficient" />
                 </Facet>
                 <Facet Name="Reference Id">
                     <String Value="FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room.SpanishDub" />
@@ -237,7 +237,7 @@
                     <String Value="- Constructed" />
                     <String Value="+ No L3TT: L3-instance in L2" />
                 </Facet>
-                <Facet Name="L3ST mode change">
+                <Facet Name="L3ST mode, written/spoken, diegetic change">
                     <String Value="- Oral diegetic on-screen" />
                     <String Value="+ Written non-diegetic" />
                 </Facet>
@@ -263,10 +263,10 @@
                 <Facet Name="L3TT meant to be understood">
                     <String Value="YES, (almost) completely" />
                 </Facet>
-                <Facet Name="L3TT mode">
+                <Facet Name="L3TT mode, written/spoken, diegetic">
                     <String Value="Written non-diegetic" />
                 </Facet>
-                <Facet Name="L3TT represented">
+                <Facet Name="L3TT merely represented">
                     <String Value="NO / Not applicable" />
                 </Facet>
                 <Facet Name="L3TT required for understanding">
@@ -275,11 +275,11 @@
                 <Facet Name="L3TT sources">
                     <String Value="Non-diegetic translation" />
                 </Facet>
-                <Facet Name="L3TT speaker performance">
-                    <String Value="native or proficient" />
-                </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="miquelpt" />
+                </Facet>
+                <Facet Name="Quality of L3TT speaker performance">
+                    <String Value="native or proficient" />
                 </Facet>
                 <Facet Name="Reference Id">
                     <String Value="FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room.SpanishSub" />
@@ -325,7 +325,7 @@
                 <Facet Name="L3ST language type change">
                     <String Value="None" />
                 </Facet>
-                <Facet Name="L3ST mode change">
+                <Facet Name="L3ST mode, written/spoken, diegetic change">
                     <String Value="None" />
                 </Facet>
                 <Facet Name="L3ST sources change">
@@ -353,10 +353,10 @@
                 <Facet Name="L3TT meant to be understood">
                     <String Value="NO" />
                 </Facet>
-                <Facet Name="L3TT mode">
+                <Facet Name="L3TT mode, written/spoken, diegetic">
                     <String Value="Oral diegetic on-screen" />
                 </Facet>
-                <Facet Name="L3TT represented">
+                <Facet Name="L3TT merely represented">
                     <String Value="NO / Not applicable" />
                 </Facet>
                 <Facet Name="L3TT required for understanding">
@@ -365,11 +365,11 @@
                 <Facet Name="L3TT sources">
                     <String Value="Non-diegetic translation" />
                 </Facet>
-                <Facet Name="L3TT speaker performance">
-                    <String Value="native or proficient" />
-                </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="miquelpt" />
+                </Facet>
+                <Facet Name="Quality of L3TT speaker performance">
+                    <String Value="native or proficient" />
                 </Facet>
                 <Facet Name="Reference Id">
                     <String Value="FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge.SpanishDub" />
@@ -412,7 +412,7 @@
                 <Facet Name="L3ST language type change">
                     <String Value="None" />
                 </Facet>
-                <Facet Name="L3ST mode change">
+                <Facet Name="L3ST mode, written/spoken, diegetic change">
                     <String Value="None" />
                 </Facet>
                 <Facet Name="L3ST sources change">
@@ -440,10 +440,10 @@
                 <Facet Name="L3TT meant to be understood">
                     <String Value="NO" />
                 </Facet>
-                <Facet Name="L3TT mode">
+                <Facet Name="L3TT mode, written/spoken, diegetic">
                     <String Value="Oral diegetic on-screen" />
                 </Facet>
-                <Facet Name="L3TT represented">
+                <Facet Name="L3TT merely represented">
                     <String Value="NO / Not applicable" />
                 </Facet>
                 <Facet Name="L3TT required for understanding">
@@ -452,11 +452,11 @@
                 <Facet Name="L3TT sources">
                     <String Value="Non-diegetic translation" />
                 </Facet>
-                <Facet Name="L3TT speaker performance">
-                    <String Value="native or proficient" />
-                </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="miquelpt" />
+                </Facet>
+                <Facet Name="Quality of L3TT speaker performance">
+                    <String Value="native or proficient" />
                 </Facet>
                 <Facet Name="Reference Id">
                     <String Value="FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge.SpanishSub" />
@@ -487,7 +487,7 @@
                     <String Value="- Real" />
                     <String Value="+ " />
                 </Facet>
-                <Facet Name="L3ST mode change">
+                <Facet Name="L3ST mode, written/spoken, diegetic change">
                     <String Value="- Oral diegetic on-screen" />
                     <String Value="- Written diegetic" />
                 </Facet>
@@ -543,7 +543,7 @@
                     <String Value="- Real" />
                     <String Value="+ " />
                 </Facet>
-                <Facet Name="L3ST mode change">
+                <Facet Name="L3ST mode, written/spoken, diegetic change">
                     <String Value="- Oral non-diegetic" />
                 </Facet>
                 <Facet Name="L3ST sources change">
@@ -601,7 +601,7 @@
                     <String Value="- Real" />
                     <String Value="+ No L3TT: L3-instance omitted" />
                 </Facet>
-                <Facet Name="L3ST mode change">
+                <Facet Name="L3ST mode, written/spoken, diegetic change">
                     <String Value="None" />
                 </Facet>
                 <Facet Name="L3ST-instance Reference Id">
@@ -623,10 +623,10 @@
                 <Facet Name="L3TT meant to be understood">
                     <String Value="YES, (almost) completely" />
                 </Facet>
-                <Facet Name="L3TT mode">
+                <Facet Name="L3TT mode, written/spoken, diegetic">
                     <String Value="Oral diegetic on-screen" />
                 </Facet>
-                <Facet Name="L3TT represented">
+                <Facet Name="L3TT merely represented">
                     <String Value="NO / Not applicable" />
                 </Facet>
                 <Facet Name="L3TT represented: visual">
@@ -635,7 +635,7 @@
                 <Facet Name="L3TT required for understanding">
                     <String Value="Yes" />
                 </Facet>
-                <Facet Name="L3TT speaker performance">
+                <Facet Name="Quality of L3TT speaker performance">
                     <String Value="native or proficient" />
                 </Facet>
                 <Facet Name="Reference Id">
@@ -682,7 +682,7 @@
                     <String Value="- L-main variety, real dialect, slang or other" />
                     <String Value="+ No L3TT: L3-instance omitted" />
                 </Facet>
-                <Facet Name="L3ST mode change">
+                <Facet Name="L3ST mode, written/spoken, diegetic change">
                     <String Value="+ Oral diegetic on-screen" />
                 </Facet>
                 <Facet Name="L3ST-instance Reference Id">
@@ -695,10 +695,10 @@
                 <Facet Name="L3TT language type">
                     <String Value="No L3TT: L3-instance omitted" />
                 </Facet>
-                <Facet Name="L3TT mode">
+                <Facet Name="L3TT mode, written/spoken, diegetic">
                     <String Value="Oral diegetic on-screen" />
                 </Facet>
-                <Facet Name="L3TT represented: oral">
+                <Facet Name="L3TT merely represented orally">
                     <String Value="Non-verbal oral" />
                 </Facet>
                 <Facet Name="Reference Id">
