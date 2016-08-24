@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection MaxLevel="7" TileSize="256" Format="png" NextItemId="16" ServerFormat="Default" xmlns="http://schemas.microsoft.com/deepzoom/2009">
+<Collection MaxLevel="7" TileSize="256" Format="png" NextItemId="18" ServerFormat="Default" xmlns="http://schemas.microsoft.com/deepzoom/2009">
   <Items>
     <I Id="0" N="0" Source="Blade_II.dzi">
       <Size Width="1050" Height="1547" />
@@ -47,6 +47,12 @@
       <Size Width="1050" Height="1547" />
     </I>
     <I Id="15" N="15" Source="TheWalk.dzi">
+      <Size Width="1050" Height="1547" />
+    </I>
+    <I Id="16" N="16" Source="ToyStory3.dzi">
+      <Size Width="1050" Height="1547" />
+    </I>
+    <I Id="17" N="17" Source="Zootopia.dzi">
       <Size Width="1050" Height="1547" />
     </I>
   </Items>

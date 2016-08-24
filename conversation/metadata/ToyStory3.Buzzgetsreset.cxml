@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Collection SchemaVersion="1.0" Name="ToyStory3.Buzzgetsreset" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+  <FacetCategories>
+    <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Start time (h:m:s)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Duration (h:m:s)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Language sources" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST languages: count" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="L3ST languages" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST language types: count" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="L3ST language types" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST-instances: count" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Keywords" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+  </FacetCategories>
+  <Items xmlns="">
+    <Item Id="ToyStory3.Buzzgetsreset" Name="ToyStory3.Buzzgetsreset" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzgetsreset">
+      <Description></Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="ToyStory3.Buzzgetsreset" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="BUZZ: Bitácora espacial. Me he despertado del hipersueño en un planeta extraño.&#xD;&#xA;WOODY: Now what did you do?&#xD;&#xA;REX: I just did what you told me.&#xD;&#xA;BUZZ: Estoy rodeado por criaturas extrañas y desconozco sus intenciones. ¿Quién anda ahí? ¿Amigo, o enemigo?&#xD;&#xA;WOODY: Uh... Amigos, we're all amigos.&#xD;&#xA;BUZZ: Me debo de haber estrellado y se me ha borrado la memoria. ¿Han visto mi nave espacial?&#xD;&#xA;WOODY: We got to switch him back.&#xD;&#xA;SLINKY: Well, how do we do that?&#xD;&#xA;HAMM: I don't know. That part's in Spanish.&#xD;&#xA;WOODY: We don't have time for this. Come on, El Buzzo.&#xD;&#xA;BUZZ: ¿Mi nave? ¿La encontraste? ¡Excelente!" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-07-11T02:58:22" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-07-11T04:27:21" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Guillermo" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="ToyStory3" />
+        </Facet>
+        <Facet Name="Start time (h:m:s)">
+          <String Value="1:07:32" />
+        </Facet>
+        <Facet Name="Duration (h:m:s)">
+          <String Value="1:08:07" />
+        </Facet>
+        <Facet Name="Language sources">
+          <String Value="2+ onscreen sources, oral only" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <String Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <String Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <String Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+  </Items>
+</Collection>
