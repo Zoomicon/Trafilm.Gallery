@@ -133,7 +133,7 @@
         </Facet>
       </Facets>
     </Item>
-    <Item Id="FellowshipOfTheRing" Name="The Lord of the Rings: The Fellowship of the Ring" Img="https://upload.wikimedia.org/wikipedia/en/0/0c/The_Fellowship_Of_The_Ring.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=FellowshipOfTheRing">
+    <Item Id="FellowshipOfTheRing" Name="The Lord of the Rings: The Fellowship of the Ring" Img="https://upload.wikimedia.org/wikipedia/en/9/9d/The_Lord_of_the_Rings_The_Fellowship_of_the_Ring_%282001%29_theatrical_poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=FellowshipOfTheRing">
       <Description>An ancient Ring thought lost for centuries has been found, and through a strange twist in fate has been given to a small Hobbit named Frodo. When Gandalf discovers the Ring is in fact the One Ring of the Dark Lord Sauron, Frodo must make an epic quest to the Cracks of Doom in order to destroy it! However he does not go alone. He is joined by Gandalf, Legolas the elf, Gimli the Dwarf, Aragorn, Boromir and his three Hobbit friends Merry, Pippin and Samwise. Through mountains, snow, darkness, forests, rivers and plains, facing evil and danger at every corner the Fellowship of the Ring must go. Their quest to destroy the One Ring is the only hope for the end of the Dark Lords reign!</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -147,7 +147,7 @@
           <DateTime Value="2016-06-01T02:48:36" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-07-04T02:42:29" />
+          <DateTime Value="2016-08-24T04:09:14" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="miquelpt" />
@@ -955,6 +955,119 @@
         </Facet>
         <Facet Name="Conversations: duration (h:m:s)">
           <String Value="5:38:04" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="ToyStory3" Name="Toy Story 3" Img="https://upload.wikimedia.org/wikipedia/en/6/69/Toy_Story_3_poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=ToyStory3">
+      <Description>The toys are mistakenly delivered to a day-care center instead of the attic right before Andy leaves for college, and it's up to Woody to convince the other toys that they weren't abandoned and to return home.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="ToyStory3" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-07-11T02:46:56" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-07-11T04:54:31" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Guillermo" />
+        </Facet>
+        <Facet Name="Title in Spanish">
+          <String Value="Toy Story 3" />
+        </Facet>
+        <Facet Name="Title in Catalan">
+          <String Value="Toy Story 3" />
+        </Facet>
+        <Facet Name="Duration (h:m:s)">
+          <String Value="1:43:00" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Lee Unkrich" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="John Lasseter" />
+          <String Value=" Andrew Stanton" />
+          <String Value=" Lee Unkrich" />
+          <String Value=" Michael Arndt" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="USA" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="Walt Disney Pictures" />
+          <String Value=" Pixar Animation Studios" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <String Value="2010" />
+        </Facet>
+        <Facet Name="L1 language">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="Year TT released in Spain">
+          <String Value="2010" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <String Value="7" />
+        </Facet>
+        <Facet Name="Conversations: duration (h:m:s)">
+          <String Value="8:22:50" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Zootopia" Name="Zootopia" Img="https://upload.wikimedia.org/wikipedia/en/thumb/e/ea/Zootopia.jpg/220px-Zootopia.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Zootopia">
+      <Description>In a city of anthropomorphic animals, a rookie bunny cop and a cynical con artist fox must work together to uncover a conspiracy.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Zootopia" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-08-15T09:39:32" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-08-15T09:45:03" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Guillermo" />
+        </Facet>
+        <Facet Name="Title in Spanish">
+          <String Value="Zootrópolis" />
+        </Facet>
+        <Facet Name="Title in Catalan">
+          <String Value="Zootròpolis" />
+        </Facet>
+        <Facet Name="Duration (h:m:s)">
+          <String Value="1:48:32" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Byron Howard" />
+          <String Value=" Rich Moore" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Jared Bush" />
+          <String Value=" Phil Johnston" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="USA" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="Walt Disney Pictures" />
+          <String Value=" Walt Disney Animation Studios " />
+        </Facet>
+        <Facet Name="Year ST released">
+          <String Value="2016" />
+        </Facet>
+        <Facet Name="L1 language">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="Year TT released in Spain">
+          <String Value="2016" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <String Value="0" />
+        </Facet>
+        <Facet Name="Conversations: duration (h:m:s)">
+          <String Value="0:00:00" />
         </Facet>
       </Facets>
     </Item>
