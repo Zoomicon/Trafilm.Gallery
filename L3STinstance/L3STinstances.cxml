@@ -13,10 +13,10 @@
     <FacetCategory Name="L3ST meant to be understood" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3ST required for understanding" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3ST meaning decipherable" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="L3ST speaker performance" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
-    <FacetCategory Name="L3ST mode" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="L3ST represented" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="L3ST represented: oral" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Quality of L3ST speaker performance" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="L3ST mode, written/spoken, diegetic" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST merely represented" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST merely represented orally" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3ST represented: visual" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3ST functions" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3ST sources" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -81,10 +81,10 @@
         <Facet Name="L3ST meaning decipherable">
           <String Value="YES, translation or clear from picture" />
         </Facet>
-        <Facet Name="L3ST speaker performance">
+        <Facet Name="Quality of L3ST speaker performance">
           <String Value="native or proficient" />
         </Facet>
-        <Facet Name="L3ST mode">
+        <Facet Name="L3ST mode, written/spoken, diegetic">
           <String Value="Oral diegetic on-screen" />
         </Facet>
         <Facet Name="L3ST functions">
@@ -159,13 +159,13 @@
         <Facet Name="L3ST meaning decipherable">
           <String Value="NO" />
         </Facet>
-        <Facet Name="L3ST speaker performance">
+        <Facet Name="Quality of L3ST speaker performance">
           <String Value="native or proficient" />
         </Facet>
-        <Facet Name="L3ST mode">
+        <Facet Name="L3ST mode, written/spoken, diegetic">
           <String Value="Oral diegetic on-screen" />
         </Facet>
-        <Facet Name="L3ST represented">
+        <Facet Name="L3ST merely represented">
           <String Value="NO / Not applicable" />
         </Facet>
         <Facet Name="L3ST functions">
@@ -240,13 +240,13 @@
         <Facet Name="L3ST meaning decipherable">
           <String Value="NO" />
         </Facet>
-        <Facet Name="L3ST speaker performance">
+        <Facet Name="Quality of L3ST speaker performance">
           <String Value="native or proficient" />
         </Facet>
-        <Facet Name="L3ST mode">
+        <Facet Name="L3ST mode, written/spoken, diegetic">
           <String Value="Oral diegetic on-screen" />
         </Facet>
-        <Facet Name="L3ST represented">
+        <Facet Name="L3ST merely represented">
           <String Value="NO / Not applicable" />
         </Facet>
         <Facet Name="L3ST functions">
@@ -309,10 +309,10 @@
         <Facet Name="L3ST meaning decipherable">
           <String Value="YES, translation or clear from picture" />
         </Facet>
-        <Facet Name="L3ST speaker performance">
+        <Facet Name="Quality of L3ST speaker performance">
           <String Value="native or proficient" />
         </Facet>
-        <Facet Name="L3ST mode">
+        <Facet Name="L3ST mode, written/spoken, diegetic">
           <String Value="Oral diegetic on-screen" />
           <String Value="Written diegetic" />
         </Facet>
@@ -373,10 +373,10 @@
         <Facet Name="L3ST meaning decipherable">
           <String Value="YES, translation or clear from picture" />
         </Facet>
-        <Facet Name="L3ST speaker performance">
+        <Facet Name="Quality of L3ST speaker performance">
           <String Value="clearly non-native or deficient" />
         </Facet>
-        <Facet Name="L3ST mode">
+        <Facet Name="L3ST mode, written/spoken, diegetic">
           <String Value="Oral diegetic on-screen" />
           <String Value="Written diegetic" />
         </Facet>
@@ -437,10 +437,10 @@
         <Facet Name="L3ST meaning decipherable">
           <String Value="YES, translation or clear from picture" />
         </Facet>
-        <Facet Name="L3ST speaker performance">
+        <Facet Name="Quality of L3ST speaker performance">
           <String Value="native or proficient" />
         </Facet>
-        <Facet Name="L3ST mode">
+        <Facet Name="L3ST mode, written/spoken, diegetic">
           <String Value="Oral diegetic on-screen" />
         </Facet>
         <Facet Name="L3ST functions">
@@ -498,10 +498,10 @@
         <Facet Name="L3ST meaning decipherable">
           <String Value="YES, translation or clear from picture" />
         </Facet>
-        <Facet Name="L3ST speaker performance">
+        <Facet Name="Quality of L3ST speaker performance">
           <String Value="native or proficient" />
         </Facet>
-        <Facet Name="L3ST mode">
+        <Facet Name="L3ST mode, written/spoken, diegetic">
           <String Value="Oral diegetic on-screen" />
         </Facet>
         <Facet Name="L3TT-instances: count">
@@ -552,13 +552,13 @@ There is another conversation taking place among women at the kitchen.</Descript
         <Facet Name="L3ST meaning decipherable">
           <String Value="YES, translation or clear from picture" />
         </Facet>
-        <Facet Name="L3ST speaker performance">
+        <Facet Name="Quality of L3ST speaker performance">
           <String Value="native or proficient" />
         </Facet>
-        <Facet Name="L3ST mode">
+        <Facet Name="L3ST mode, written/spoken, diegetic">
           <String Value="Oral diegetic on-screen" />
         </Facet>
-        <Facet Name="L3ST represented">
+        <Facet Name="L3ST merely represented">
           <String Value="NO / Not applicable" />
         </Facet>
         <Facet Name="L3ST represented: visual">
@@ -604,7 +604,7 @@ There is another conversation taking place among women at the kitchen.</Descript
         <Facet Name="L3ST language">
           <String Value="Chinese" />
         </Facet>
-        <Facet Name="L3ST represented: oral">
+        <Facet Name="L3ST merely represented orally">
           <String Value="Non-verbal oral" />
         </Facet>
         <Facet Name="L3ST functions">
@@ -662,17 +662,17 @@ There is another conversation taking place among women at the kitchen.</Descript
         <Facet Name="L3ST meaning decipherable">
           <String Value="NO" />
         </Facet>
-        <Facet Name="L3ST speaker performance">
+        <Facet Name="Quality of L3ST speaker performance">
           <String Value="native or proficient" />
         </Facet>
-        <Facet Name="L3ST mode">
+        <Facet Name="L3ST mode, written/spoken, diegetic">
           <String Value="Oral diegetic on-screen" />
         </Facet>
-        <Facet Name="L3ST represented">
+        <Facet Name="L3ST merely represented">
           <String Value="YES: orally" />
           <String Value="L3 mentioned, talked about" />
         </Facet>
-        <Facet Name="L3ST represented: oral">
+        <Facet Name="L3ST merely represented orally">
           <String Value="Clearly non-native L-main" />
         </Facet>
         <Facet Name="L3ST functions">
@@ -730,16 +730,16 @@ There is another conversation taking place among women at the kitchen.</Descript
         <Facet Name="L3ST meaning decipherable">
           <String Value="YES, translation or clear from picture" />
         </Facet>
-        <Facet Name="L3ST speaker performance">
+        <Facet Name="Quality of L3ST speaker performance">
           <String Value="native or proficient" />
         </Facet>
-        <Facet Name="L3ST mode">
+        <Facet Name="L3ST mode, written/spoken, diegetic">
           <String Value="Oral diegetic on-screen" />
         </Facet>
-        <Facet Name="L3ST represented">
+        <Facet Name="L3ST merely represented">
           <String Value="YES: orally" />
         </Facet>
-        <Facet Name="L3ST represented: oral">
+        <Facet Name="L3ST merely represented orally">
           <String Value="Clearly non-native L-main" />
         </Facet>
         <Facet Name="L3ST functions">
@@ -795,16 +795,16 @@ There is another conversation taking place among women at the kitchen.</Descript
         <Facet Name="L3ST meaning decipherable">
           <String Value="YES, translation or clear from picture" />
         </Facet>
-        <Facet Name="L3ST speaker performance">
+        <Facet Name="Quality of L3ST speaker performance">
           <String Value="clearly non-native or deficient" />
         </Facet>
-        <Facet Name="L3ST mode">
+        <Facet Name="L3ST mode, written/spoken, diegetic">
           <String Value="Oral diegetic on-screen" />
         </Facet>
-        <Facet Name="L3ST represented">
+        <Facet Name="L3ST merely represented">
           <String Value="YES: orally" />
         </Facet>
-        <Facet Name="L3ST represented: oral">
+        <Facet Name="L3ST merely represented orally">
           <String Value="Clearly non-native L-main" />
         </Facet>
         <Facet Name="L3ST functions">
@@ -860,16 +860,16 @@ There is another conversation taking place among women at the kitchen.</Descript
         <Facet Name="L3ST meaning decipherable">
           <String Value="YES, translation or clear from picture" />
         </Facet>
-        <Facet Name="L3ST speaker performance">
+        <Facet Name="Quality of L3ST speaker performance">
           <String Value="native or proficient" />
         </Facet>
-        <Facet Name="L3ST mode">
+        <Facet Name="L3ST mode, written/spoken, diegetic">
           <String Value="Oral diegetic on-screen" />
         </Facet>
-        <Facet Name="L3ST represented">
+        <Facet Name="L3ST merely represented">
           <String Value="YES: orally" />
         </Facet>
-        <Facet Name="L3ST represented: oral">
+        <Facet Name="L3ST merely represented orally">
           <String Value="Clearly non-native L-main" />
         </Facet>
         <Facet Name="L3ST functions">
