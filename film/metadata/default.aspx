@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: film\metadata\default.aspx
-Version: 20160622
+Version: 20160901
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -77,11 +77,13 @@ Version: 20160622
 
         <div class="question">
           <div class="label">1. Film Title</div>
+          <div class="tip">Full official film title</div>
           <asp:TextBox ID="txtTitle" runat="server" Columns="150"></asp:TextBox>
         </div>
 
         <div class="question">
           <div class="label">2. Film Description</div>
+          <div class="tip">Synopsis and relevant information</div>
           <asp:TextBox ID="txtDescription" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
         </div>
 
@@ -89,7 +91,8 @@ Version: 20160622
         <asp:HyperLink ID="linkUrl" runat="server" Target="_blank"/>
 
         <div class="question">
-          <div class="label">3. Image URL</div>
+          <div class="label">3. Film Poster URL</div>
+          <div class="tip">Provide a link to an image for the film poster</div>
           <asp:TextBox ID="txtImageUrl" runat="server" Columns="150"></asp:TextBox>
         </div>
 
@@ -97,12 +100,12 @@ Version: 20160622
         <%-- IFilmMetadata --%>
 
         <div class="question">
-          <div class="label">4. Title in Spanish</div>
+          <div class="label">0. Title in Spanish</div>
           <asp:TextBox ID="txtTitle_es" runat="server" Columns="150"></asp:TextBox>
         </div>
 
         <div class="question">
-          <div class="label">5. Title in Catalan</div>
+          <div class="label">0. Title in Catalan</div>
           <asp:TextBox ID="txtTitle_ca" runat="server" Columns="150"></asp:TextBox>
         </div>
 
@@ -110,51 +113,54 @@ Version: 20160622
 
 
         <div class="question">
-          <div class="label">6. Film duration (h:m:s)</div>
+          <div class="label">4. Film duration (h:m:s)</div>
+          <div class="tip">How long does the film last? (in hours:minutes:seconds)</div>
           <asp:TextBox ID="txtDuration" runat="server"></asp:TextBox>
         </div>
 
 
         <div class="question">
-          <div class="label">7. Director(s)</div>
-          <div class="tip">Comma-separated list of film's director(s)</div>
+          <div class="label">5. Director(s)</div>
+          <div class="tip">Full name(s), insert a comma (,) between different directors</div>
           <asp:TextBox ID="txtDirectors" runat="server" Columns="150"></asp:TextBox>
         </div>
 
         <div class="question">
-          <div class="label">8. Scriptwriter(s)</div>
-          <div class="tip">Comma-separated list of film's scriptwriter(s)</div>
+          <div class="label">6. Scriptwriter(s)</div>
+          <div class="tip">Full name(s), insert a comma (,) between different scriptwriters</div>
           <asp:TextBox ID="txtScriptwriters" runat="server" Columns="150"></asp:TextBox>
         </div>
 
 
         <div class="question">
-          <div class="label">9. Production countries</div>
-          <div class="tip">Comma-separated list of film's production countries</div>
+          <div class="label">7. Production countries</div>
+          <div class="tip">Full name(s), insert a comma (,) between different countries</div>
           <asp:TextBox ID="txtProductionCountries" runat="server" Columns="150"></asp:TextBox>
         </div>
 
         <div class="question">
-          <div class="label">10. Production companies</div>
-          <div class="tip">Comma-separated list of film's production companies</div>
+          <div class="label">8. Production companies</div>
+          <div class="tip">Full name, insert a comma (,) between different production companies</div>
           <asp:TextBox ID="txtProductionCompanies" runat="server" Columns="150"></asp:TextBox>
         </div>
 
 
         <div class="question">
-          <div class="label">11. Box office</div>
+          <div class="label">9. Box office</div>
           <div class="tip">Box office (ticket sales in US Dollars) where the film was originally released</div>
           <asp:TextBox ID="txtBoxOffice" runat="server"></asp:TextBox>
         </div>
 
         <div class="question">
-          <div class="label">12. Year ST released</div>
+          <div class="label">10. Year ST released</div>
+          <div class="tip">When was the film first released commercially?</div>
           <asp:TextBox ID="txtYear" runat="server"></asp:TextBox>
         </div>
 
 
         <div class="question">
-          <div class="label">13. L1 language</div>
+          <div class="label">11. Main (L1) language</div>
+          <div class="tip">What is the main language of the film? (used as Source Text for Dubbing or Subtitling)</div>
           <asp:Panel runat="server" ScrollBars="Auto">
             <asp:DropDownList ID="listL1language" runat="server"
               DataSourceID="xmlL1language" DataTextField="Value" DataValueField="Value"
@@ -164,7 +170,7 @@ Version: 20160622
 
 
         <div class="question">
-          <div class="label">14. Year TT released in Spain</div>
+          <div class="label">0. Year TT released in Spain</div>
           <asp:TextBox ID="txtYearTranslated" runat="server"></asp:TextBox>
         </div>
                 
@@ -210,14 +216,14 @@ Version: 20160622
         </asp:Panel>
 
         <div class="question">
-          <div class="label">15. Keywords</div>
-          <div class="tip">Comma-separated list of keywords to help identify this item</div>
+          <div class="label">12. Tags</div>
+          <div class="tip">Keywords or other labels for filtering purposes, insert a comma (,) between different ones</div>
           <asp:TextBox ID="txtKeywords" runat="server" Columns="150"></asp:TextBox>
         </div>
 
         <div class="question">
-          <div class="label">16. Remarks </div>
-          <div class="tip">Remarks on the metadata</div>
+          <div class="label">13. Remarks</div>
+          <div class="tip">Issues concerning the analysis or the metadata form design</div>
           <asp:TextBox ID="txtRemarks" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
         </div>
 

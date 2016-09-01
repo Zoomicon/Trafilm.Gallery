@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: L3TTinstance\metadata\default.aspx
-Version: 20160824
+Version: 20160901
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -27,7 +27,7 @@ Version: 20160824
     <asp:XmlDataSource ID="xmlL3TTconstructedBasedOn" runat="server" DataFile="~/metadata/L3constructedBasedOn.xml" XPath="Facet/String" />
     <asp:XmlDataSource ID="xmlL3TTaudienceUnderstanding" runat="server" DataFile="~/metadata/L3audienceUnderstanding.xml" XPath="Facet/String" />
     <asp:XmlDataSource ID="xmlL3TTmessageUnderstanding" runat="server" DataFile="~/metadata/L3messageUnderstanding.xml" XPath="Facet/String" />
-    <asp:XmlDataSource ID="xmlL3TTmeaningDeciphered" runat="server" DataFile="~/metadata/L3meaningDeciphered.xml" XPath="Facet/String" />
+    <asp:XmlDataSource ID="xmlL3TTmeaningDecipherable" runat="server" DataFile="~/metadata/L3meaningDecipherable.xml" XPath="Facet/String" />
     <asp:XmlDataSource ID="xmlL3TTspeakerPerformance" runat="server" DataFile="~/metadata/L3speakerPerformance.xml" XPath="Facet/String" />
     <asp:XmlDataSource ID="xmlL3TTmode" runat="server" DataFile="~/metadata/L3mode.xml" XPath="Facet/String" />
     <asp:XmlDataSource ID="xmlL3STmodeChange" runat="server" DataFile="~/metadata/L3STmodeChange.xml" XPath="Facet/String" />
@@ -114,11 +114,13 @@ Version: 20160824
 
         <div class="question">
           <div class="label">1. L3TT-instance Title</div>
+          <div class="tip">Free text descriptive title (&lt;50 characters)</div>
           <asp:TextBox ID="txtTitle" runat="server" Columns="150"></asp:TextBox>
         </div>
 
         <div class="question">
           <div class="label">2. L3TT-instance Description</div>
+          <div class="tip">Free text brief description (<200 characters)</div>
           <asp:TextBox ID="txtDescription" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
         </div>
 
@@ -184,7 +186,7 @@ Version: 20160824
 
         <div class="question">
           <div class="label">10. L3TT constructed based on</div>
-          <div class="tip">If L3TT is “constructed”, then is based on:</div>
+          <div class="tip">If L3TT is “constructed”, is it based on any of the following options?</div>
           <asp:Panel runat="server" ScrollBars="Auto" Style="max-height: 100px">
             <asp:CheckBoxList ID="clistL3TTconstructedBasedOn" runat="server" 
               DataSourceID="xmlL3TTconstructedBasedOn" DataTextField="Value" DataValueField="Value"
@@ -203,7 +205,7 @@ Version: 20160824
         </div>
 
         <div class="question">
-          <div class="label">12. L3TT required for understanding</div>
+          <div class="label">12. L3TT message required for understanding</div>
           <div class="tip">Does L3TT carry a meaningful message or one that requires it to be understood?</div>
           <asp:DropDownList 
             ID="listL3TTmessageUnderstanding" runat="server"
@@ -215,13 +217,13 @@ Version: 20160824
           <div class="tip">Can the (pragmatic) meaning of L3TT be deciphered by other means? </div>
           <asp:DropDownList 
             ID="listL3TTmeaningDecipherable" runat="server"
-            DataSourceID="xmlL3TTmeaningDeciphered" DataTextField="Value" DataValueField="Value" />
+            DataSourceID="xmlL3TTmeaningDecipherable" DataTextField="Value" DataValueField="Value" />
         </div>
 
 
         <div class="question">
           <div class="label">14. Quality of L3TT speaker performance</div>
-          <div class="tip">Select speaker’s L3TT proficiency and performance:</div>
+          <div class="tip">How well is the L3TT spoken?</div>
           <asp:DropDownList 
             ID="listL3TTspeakerPerformance" runat="server"
             DataSourceID="xmlL3TTspeakerPerformance" DataTextField="Value" DataValueField="Value" />
@@ -242,7 +244,7 @@ Version: 20160824
 
         <div class="question">
           <div class="label">16. L3TT merely represented</div>
-          <div class="tip">There is no L3TT as such, strictly speaking, but rather, it is hinted at through certain "clues" verbally (in the L2) or non-verbally (visually or otherwise)</div>
+          <div class="tip">There is no actual L3TT, but there are clues</div>
           <asp:Panel runat="server" ScrollBars="Auto" Style="max-height: 100px">
             <asp:CheckBoxList ID="clistL3TTrepresented" runat="server" 
               DataSourceID="xmlL3TTrepresented" DataTextField="Value" DataValueField="Value"
@@ -277,7 +279,7 @@ Version: 20160824
 
         <div class="question">
           <div class="label">19. L3TT functions</div>
-          <%-- <div class="tip"></div> --%>
+          <div class="tip">What are the functions for this particular instance of L3TT?</div>
           <asp:Panel runat="server" ScrollBars="Auto" Style="max-height: 100px">
             <asp:CheckBoxList ID="clistL3TTfunctions" runat="server"
               DataSourceID="xmlL3TTfunctions" DataTextField="Value" DataValueField="Value"
