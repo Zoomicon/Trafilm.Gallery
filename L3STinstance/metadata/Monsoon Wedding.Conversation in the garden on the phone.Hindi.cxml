@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Conversation in the garden on the phone" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Monsoon Wedding - Conversation in the garden on the phone" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -19,6 +19,7 @@
     <FacetCategory Name="L3ST merely represented orally" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3ST represented: visual" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3ST functions" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST sources" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3TT-instances: count" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Keywords" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -28,7 +29,7 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Monsoon Wedding.Conversation in the garden on the phone.Hindi" Name="Conversation in the garden on the phone" Img="../L3STinstance/image/Monsoon Wedding.Conversation in the garden on the phone.Hindi.png" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Monsoon Wedding&amp;conversation=Monsoon Wedding.Conversation in the garden on the phone&amp;L3STinstance=Monsoon Wedding.Conversation in the garden on the phone.Hindi">
+    <Item Id="Monsoon Wedding.Conversation in the garden on the phone.Hindi" Name="Monsoon Wedding - Conversation in the garden on the phone" Img="../L3STinstance/image/Monsoon Wedding.Conversation in the garden on the phone.Hindi.png" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Monsoon Wedding&amp;conversation=Monsoon Wedding.Conversation in the garden on the phone&amp;L3STinstance=Monsoon Wedding.Conversation in the garden on the phone.Hindi">
       <Description>The father talks on the phone in Hindi. He is outside in the garden. 
 There is another conversation taking place among women at the kitchen.</Description>
       <Facets>
@@ -42,7 +43,10 @@ There is another conversation taking place among women at the kitchen.</Descript
           <DateTime Value="2016-06-08T01:34:20" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-08T01:50:14" />
+          <DateTime Value="2016-09-01T07:56:13" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Monsoon Wedding" />
@@ -67,9 +71,6 @@ There is another conversation taking place among women at the kitchen.</Descript
         </Facet>
         <Facet Name="L3ST required for understanding">
           <String Value="Yes" />
-        </Facet>
-        <Facet Name="L3ST meaning decipherable">
-          <String Value="YES, translation or clear from picture" />
         </Facet>
         <Facet Name="Quality of L3ST speaker performance">
           <String Value="native or proficient" />

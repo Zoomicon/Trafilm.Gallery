@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Speaking Chinese" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Ocean's Eleven - Speaking Chinese" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -29,7 +29,7 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="OceansEleven.ExplainingThePlan.Chinese" Name="Speaking Chinese" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=OceansEleven&amp;conversation=OceansEleven.ExplainingThePlan&amp;L3STinstance=OceansEleven.ExplainingThePlan.Chinese">
+    <Item Id="OceansEleven.ExplainingThePlan.Chinese" Name="Ocean's Eleven - Speaking Chinese" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=OceansEleven&amp;conversation=OceansEleven.ExplainingThePlan&amp;L3STinstance=OceansEleven.ExplainingThePlan.Chinese">
       <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -39,7 +39,7 @@
           <DateTime Value="2016-05-25T10:59:12" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-09-01T06:40:11" />
+          <DateTime Value="2016-09-01T07:53:48" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="George" />

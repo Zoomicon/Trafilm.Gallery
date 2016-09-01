@@ -29,7 +29,7 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Django Unchained.Slave speaks a little German.Slave opens conversation" Name="Slave opens conversation" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Django Unchained&amp;conversation=Django Unchained.Slave speaks a little German&amp;L3STinstance=Django Unchained.Slave speaks a little German.Slave opens conversation">
+    <Item Id="Django Unchained.Slave speaks a little German.Slave opens conversation" Name="Django Unchained - Slave opens conversation" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Django Unchained&amp;conversation=Django Unchained.Slave speaks a little German&amp;L3STinstance=Django Unchained.Slave speaks a little German.Slave opens conversation">
       <Description>Doing as she is told, Brunhilda starts to speak in German, in what we call a conversation opener, a salutation</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -45,7 +45,7 @@
           <DateTime Value="2016-05-31T12:34:19" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-08-24T05:57:43" />
+          <DateTime Value="2016-09-01T07:55:53" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="PatrickZabalbeascoa" />
@@ -77,9 +77,6 @@
         </Facet>
         <Facet Name="L3ST required for understanding">
           <String Value="Yes" />
-        </Facet>
-        <Facet Name="L3ST meaning decipherable">
-          <String Value="YES, translation or clear from picture" />
         </Facet>
         <Facet Name="Quality of L3ST speaker performance">
           <String Value="native or proficient" />
@@ -260,7 +257,7 @@
         </Facet>
       </Facets>
     </Item>
-    <Item Id="LoveActually.JamieProposesToAurelia.Aurelia's sister" Name="LoveActually Jamie Proposes To Aurelia 3" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia&amp;L3STinstance=LoveActually.JamieProposesToAurelia.Aurelia's sister">
+    <Item Id="LoveActually.JamieProposesToAurelia.Aurelia's sister" Name="Love Actually - Jamie Proposes To Aurelia 3" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia&amp;L3STinstance=LoveActually.JamieProposesToAurelia.Aurelia's sister">
       <Description>Aurelia's sister intervenes in Jamie's proposal (humorous effect)</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -276,11 +273,12 @@
           <DateTime Value="2016-06-15T01:43:22" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-17T04:41:21" />
+          <DateTime Value="2016-09-01T07:56:49" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Stavroula" />
-          <String Value="stavroula" />
+          <String Value="Stavroula" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="LoveActually" />
@@ -306,9 +304,6 @@
         <Facet Name="L3ST required for understanding">
           <String Value="Yes" />
         </Facet>
-        <Facet Name="L3ST meaning decipherable">
-          <String Value="YES, translation or clear from picture" />
-        </Facet>
         <Facet Name="Quality of L3ST speaker performance">
           <String Value="native or proficient" />
         </Facet>
@@ -327,7 +322,7 @@
         </Facet>
       </Facets>
     </Item>
-    <Item Id="LoveActually.JamieProposesToAurelia.Jamie in Portuguese" Name="Love Actually Jamie Proposes To Aurelia 2" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia&amp;L3STinstance=LoveActually.JamieProposesToAurelia.Jamie in Portuguese">
+    <Item Id="LoveActually.JamieProposesToAurelia.Jamie in Portuguese" Name="Love Actually - Jamie Proposes To Aurelia 2" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia&amp;L3STinstance=LoveActually.JamieProposesToAurelia.Jamie in Portuguese">
       <Description>Jamie proposes in Portuguese</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -340,11 +335,12 @@
           <DateTime Value="2016-06-15T01:37:59" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-17T04:41:47" />
+          <DateTime Value="2016-09-01T07:56:35" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Stavroula" />
-          <String Value="stavroula" />
+          <String Value="Stavroula" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="LoveActually" />
@@ -370,9 +366,6 @@
         <Facet Name="L3ST required for understanding">
           <String Value="Yes" />
         </Facet>
-        <Facet Name="L3ST meaning decipherable">
-          <String Value="YES, translation or clear from picture" />
-        </Facet>
         <Facet Name="Quality of L3ST speaker performance">
           <String Value="clearly non-native or deficient" />
         </Facet>
@@ -392,7 +385,7 @@
         </Facet>
       </Facets>
     </Item>
-    <Item Id="LoveActually.JamieProposesToAurelia.Portuguese" Name="LoveActually Jamie Proposes To Aurelia Portuguese" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia&amp;L3STinstance=LoveActually.JamieProposesToAurelia.Portuguese">
+    <Item Id="LoveActually.JamieProposesToAurelia.Portuguese" Name="Love Actually - Jamie Proposes To Aurelia - Portuguese" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia&amp;L3STinstance=LoveActually.JamieProposesToAurelia.Portuguese">
       <Description>Barros asks for Aurelia.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -405,10 +398,11 @@
           <DateTime Value="2016-06-15T01:08:02" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-15T01:36:33" />
+          <DateTime Value="2016-09-01T07:55:31" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Stavroula" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="LoveActually" />
@@ -434,9 +428,6 @@
         <Facet Name="L3ST required for understanding">
           <String Value="Yes" />
         </Facet>
-        <Facet Name="L3ST meaning decipherable">
-          <String Value="YES, translation or clear from picture" />
-        </Facet>
         <Facet Name="Quality of L3ST speaker performance">
           <String Value="native or proficient" />
         </Facet>
@@ -454,7 +445,7 @@
         </Facet>
       </Facets>
     </Item>
-    <Item Id="LoveActually.Lake Scene.Portuguese" Name="LoveActually Lake 1" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.Lake Scene&amp;L3STinstance=LoveActually.Lake Scene.Portuguese">
+    <Item Id="LoveActually.Lake Scene.Portuguese" Name="LoveActually - Lake 1" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.Lake Scene&amp;L3STinstance=LoveActually.Lake Scene.Portuguese">
       <Description>Aurelia expresses anxiety when papers fly.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -467,12 +458,12 @@
           <DateTime Value="2016-06-01T04:24:35" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-17T04:39:33" />
+          <DateTime Value="2016-09-01T07:57:19" />
         </Facet>
         <Facet Name="Metadata Editors">
-          <String Value="George" />
           <String Value="Stavroula" />
-          <String Value="stavroula" />
+          <String Value="Stavroula" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="LoveActually" />
@@ -495,9 +486,6 @@
         <Facet Name="L3ST required for understanding">
           <String Value="Conversation can be followed regardless of meaning" />
         </Facet>
-        <Facet Name="L3ST meaning decipherable">
-          <String Value="YES, translation or clear from picture" />
-        </Facet>
         <Facet Name="Quality of L3ST speaker performance">
           <String Value="native or proficient" />
         </Facet>
@@ -509,7 +497,7 @@
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Monsoon Wedding.Conversation in the garden on the phone.Hindi" Name="Conversation in the garden on the phone" Img="../L3STinstance/image/Monsoon Wedding.Conversation in the garden on the phone.Hindi.png" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Monsoon Wedding&amp;conversation=Monsoon Wedding.Conversation in the garden on the phone&amp;L3STinstance=Monsoon Wedding.Conversation in the garden on the phone.Hindi">
+    <Item Id="Monsoon Wedding.Conversation in the garden on the phone.Hindi" Name="Monsoon Wedding - Conversation in the garden on the phone" Img="../L3STinstance/image/Monsoon Wedding.Conversation in the garden on the phone.Hindi.png" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Monsoon Wedding&amp;conversation=Monsoon Wedding.Conversation in the garden on the phone&amp;L3STinstance=Monsoon Wedding.Conversation in the garden on the phone.Hindi">
       <Description>The father talks on the phone in Hindi. He is outside in the garden. 
 There is another conversation taking place among women at the kitchen.</Description>
       <Facets>
@@ -523,7 +511,10 @@ There is another conversation taking place among women at the kitchen.</Descript
           <DateTime Value="2016-06-08T01:34:20" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-08T01:50:14" />
+          <DateTime Value="2016-09-01T07:56:13" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Monsoon Wedding" />
@@ -549,9 +540,6 @@ There is another conversation taking place among women at the kitchen.</Descript
         <Facet Name="L3ST required for understanding">
           <String Value="Yes" />
         </Facet>
-        <Facet Name="L3ST meaning decipherable">
-          <String Value="YES, translation or clear from picture" />
-        </Facet>
         <Facet Name="Quality of L3ST speaker performance">
           <String Value="native or proficient" />
         </Facet>
@@ -574,7 +562,7 @@ There is another conversation taking place among women at the kitchen.</Descript
         </Facet>
       </Facets>
     </Item>
-    <Item Id="OceansEleven.ExplainingThePlan.Chinese" Name="Speaking Chinese" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=OceansEleven&amp;conversation=OceansEleven.ExplainingThePlan&amp;L3STinstance=OceansEleven.ExplainingThePlan.Chinese">
+    <Item Id="OceansEleven.ExplainingThePlan.Chinese" Name="Ocean's Eleven - Speaking Chinese" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=OceansEleven&amp;conversation=OceansEleven.ExplainingThePlan&amp;L3STinstance=OceansEleven.ExplainingThePlan.Chinese">
       <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -584,7 +572,7 @@ There is another conversation taking place among women at the kitchen.</Descript
           <DateTime Value="2016-05-25T10:59:12" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-09-01T06:40:11" />
+          <DateTime Value="2016-09-01T07:53:48" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="George" />
