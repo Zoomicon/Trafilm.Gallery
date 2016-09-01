@@ -49,13 +49,13 @@ namespace Trafilm.Gallery {
         protected global::System.Web.UI.WebControls.XmlDataSource xmlL3STmessageUnderstanding;
         
         /// <summary>
-        /// xmlL3STmeaningDeciphered control.
+        /// xmlL3STmeaningDecipherable control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.XmlDataSource xmlL3STmeaningDeciphered;
+        protected global::System.Web.UI.WebControls.XmlDataSource xmlL3STmeaningDecipherable;
         
         /// <summary>
         /// xmlL3STspeakerPerformance control.
