@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: UI.cs
-//Version: 20160610
+//Version: 20160901
 
 using System;
 using System.Collections.Generic;
@@ -86,9 +86,27 @@ namespace Trafilm.Gallery
     public static void AppendUserName(ListControl list)
     {
       string userName = Membership.GetUser().UserName;
-      list.Items.Remove(userName);
+      list.Items.RemoveAllCaseInsensitive(userName);
       list.Items.Add(userName);
     }
+
+    public static void RemoveAllCaseInsensitive(this ListItemCollection list, string item)
+    {
+      while (RemoveCaseInsensitive(list, item)); //loop until all matching items are removed
+    }
+
+    public static bool RemoveCaseInsensitive(this ListItemCollection list, string item)
+    {
+      foreach (ListItem i in list)
+        if (i.Value.Equals(item, StringComparison.InvariantCultureIgnoreCase))
+        {
+          list.Remove(i);
+          return true;
+        }
+
+      return false;
+    }
+
   }
   
 }
