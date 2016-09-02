@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Love Actually Jamie Proposes To Aurelia 2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Love Actually - Jamie Proposes To Aurelia 2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -29,7 +29,7 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="LoveActually.JamieProposesToAurelia.Jamie in Portuguese" Name="Love Actually Jamie Proposes To Aurelia 2" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia&amp;L3STinstance=LoveActually.JamieProposesToAurelia.Jamie in Portuguese">
+    <Item Id="LoveActually.JamieProposesToAurelia.Jamie in Portuguese" Name="Love Actually - Jamie Proposes To Aurelia 2" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia&amp;L3STinstance=LoveActually.JamieProposesToAurelia.Jamie in Portuguese">
       <Description>Jamie proposes in Portuguese</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -42,11 +42,11 @@
           <DateTime Value="2016-06-15T01:37:59" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-17T04:41:47" />
+          <DateTime Value="2016-09-01T07:56:35" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Stavroula" />
-          <String Value="stavroula" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="LoveActually" />
@@ -71,9 +71,6 @@
         </Facet>
         <Facet Name="L3ST required for understanding">
           <String Value="Yes" />
-        </Facet>
-        <Facet Name="L3ST meaning decipherable">
-          <String Value="YES, translation or clear from picture" />
         </Facet>
         <Facet Name="Quality of L3ST speaker performance">
           <String Value="clearly non-native or deficient" />
