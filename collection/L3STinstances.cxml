@@ -6,12 +6,12 @@
         <FacetCategory Name="Conversation Reference Id" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="Start time (h:m:s)" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
         <FacetCategory Name="Duration (h:m:s)" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
-        <FacetCategory Name="L1 language" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
+        <FacetCategory Name="Main (L1) language" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="L3ST language type" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="L3ST language" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="L3ST constructed based on" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="L3ST meant to be understood" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
-        <FacetCategory Name="L3ST required for understanding" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
+        <FacetCategory Name="L3ST message required for understanding" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="L3ST meaning decipherable" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="Quality of L3ST speaker performance" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
         <FacetCategory Name="L3ST mode, written/spoken, diegetic" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
@@ -50,7 +50,7 @@
                 <Facet Name="Tags">
                     <String Value="greeting in German" />
                 </Facet>
-                <Facet Name="L1 language">
+                <Facet Name="Main (L1) language">
                     <String Value="German" />
                 </Facet>
                 <Facet Name="L3ST functions">
@@ -71,7 +71,7 @@
                 <Facet Name="L3ST mode, written/spoken, diegetic">
                     <String Value="Oral diegetic on-screen" />
                 </Facet>
-                <Facet Name="L3ST required for understanding">
+                <Facet Name="L3ST message required for understanding">
                     <String Value="Yes" />
                 </Facet>
                 <Facet Name="L3ST sources">
@@ -123,7 +123,7 @@
                     <String Value=" Sword Room" />
                     <String Value=" Rivendell" />
                 </Facet>
-                <Facet Name="L1 language">
+                <Facet Name="Main (L1) language">
                     <String Value="Elvish" />
                 </Facet>
                 <Facet Name="L3ST constructed based on">
@@ -150,7 +150,7 @@
                 <Facet Name="L3ST mode, written/spoken, diegetic">
                     <String Value="Oral diegetic on-screen" />
                 </Facet>
-                <Facet Name="L3ST required for understanding">
+                <Facet Name="L3ST message required for understanding">
                     <String Value="Yes" />
                 </Facet>
                 <Facet Name="L3ST sources">
@@ -201,7 +201,7 @@
                     <String Value=" Bridge" />
                     <String Value=" Rivendell" />
                 </Facet>
-                <Facet Name="L1 language">
+                <Facet Name="Main (L1) language">
                     <String Value="Elvish" />
                 </Facet>
                 <Facet Name="L3ST constructed based on">
@@ -228,7 +228,7 @@
                 <Facet Name="L3ST mode, written/spoken, diegetic">
                     <String Value="Oral diegetic on-screen" />
                 </Facet>
-                <Facet Name="L3ST required for understanding">
+                <Facet Name="L3ST message required for understanding">
                     <String Value="Yes" />
                 </Facet>
                 <Facet Name="L3ST sources">
@@ -278,7 +278,7 @@
                 <Facet Name="Tags">
                     <String Value="Comic effect" />
                 </Facet>
-                <Facet Name="L1 language">
+                <Facet Name="Main (L1) language">
                     <String Value="Portuguese" />
                 </Facet>
                 <Facet Name="L3ST functions">
@@ -297,7 +297,7 @@
                     <String Value="Oral diegetic on-screen" />
                     <String Value="Written diegetic" />
                 </Facet>
-                <Facet Name="L3ST required for understanding">
+                <Facet Name="L3ST message required for understanding">
                     <String Value="Yes" />
                 </Facet>
                 <Facet Name="L3ST sources">
@@ -339,7 +339,7 @@
                 <Facet Name="Info updated">
                     <DateTime Value="2016-09-01T07:56:35" />
                 </Facet>
-                <Facet Name="L1 language">
+                <Facet Name="Main (L1) language">
                     <String Value="Portuguese" />
                 </Facet>
                 <Facet Name="L3ST functions">
@@ -359,7 +359,7 @@
                     <String Value="Oral diegetic on-screen" />
                     <String Value="Written diegetic" />
                 </Facet>
-                <Facet Name="L3ST required for understanding">
+                <Facet Name="L3ST message required for understanding">
                     <String Value="Yes" />
                 </Facet>
                 <Facet Name="L3ST sources">
@@ -401,7 +401,7 @@
                 <Facet Name="Info updated">
                     <DateTime Value="2016-09-01T07:55:31" />
                 </Facet>
-                <Facet Name="L1 language">
+                <Facet Name="Main (L1) language">
                     <String Value="Portuguese" />
                 </Facet>
                 <Facet Name="L3ST functions">
@@ -419,7 +419,7 @@
                 <Facet Name="L3ST mode, written/spoken, diegetic">
                     <String Value="Oral diegetic on-screen" />
                 </Facet>
-                <Facet Name="L3ST required for understanding">
+                <Facet Name="L3ST message required for understanding">
                     <String Value="Yes" />
                 </Facet>
                 <Facet Name="L3ST sources">
@@ -458,7 +458,7 @@
                 <Facet Name="Info updated">
                     <DateTime Value="2016-09-01T07:57:19" />
                 </Facet>
-                <Facet Name="L1 language">
+                <Facet Name="Main (L1) language">
                     <String Value="Portuguese" />
                 </Facet>
                 <Facet Name="L3ST language">
@@ -473,7 +473,7 @@
                 <Facet Name="L3ST mode, written/spoken, diegetic">
                     <String Value="Oral diegetic on-screen" />
                 </Facet>
-                <Facet Name="L3ST required for understanding">
+                <Facet Name="L3ST message required for understanding">
                     <String Value="Conversation can be followed regardless of meaning" />
                 </Facet>
                 <Facet Name="L3TT-instances: count">
@@ -513,7 +513,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                 <Facet Name="Info updated">
                     <DateTime Value="2016-09-01T07:56:13" />
                 </Facet>
-                <Facet Name="L1 language">
+                <Facet Name="Main (L1) language">
                     <String Value="Hindi" />
                 </Facet>
                 <Facet Name="L3ST functions">
@@ -536,7 +536,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                 <Facet Name="L3ST represented: visual">
                     <String Value="Physical appearance" />
                 </Facet>
-                <Facet Name="L3ST required for understanding">
+                <Facet Name="L3ST message required for understanding">
                     <String Value="Yes" />
                 </Facet>
                 <Facet Name="L3TT-instances: count">
@@ -573,7 +573,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                 <Facet Name="Info updated">
                     <DateTime Value="2016-09-01T07:53:48" />
                 </Facet>
-                <Facet Name="L1 language">
+                <Facet Name="Main (L1) language">
                     <String Value="Chinese" />
                 </Facet>
                 <Facet Name="L3ST functions">
@@ -621,7 +621,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                 <Facet Name="Info updated">
                     <DateTime Value="2016-06-15T05:09:20" />
                 </Facet>
-                <Facet Name="L1 language">
+                <Facet Name="Main (L1) language">
                     <String Value="Czech" />
                 </Facet>
                 <Facet Name="L3ST functions">
@@ -651,7 +651,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                 <Facet Name="L3ST mode, written/spoken, diegetic">
                     <String Value="Oral diegetic on-screen" />
                 </Facet>
-                <Facet Name="L3ST required for understanding">
+                <Facet Name="L3ST message required for understanding">
                     <String Value="Conversation can be followed regardless of meaning" />
                 </Facet>
                 <Facet Name="L3TT-instances: count">
@@ -688,7 +688,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                 <Facet Name="Info updated">
                     <DateTime Value="2016-06-15T05:09:40" />
                 </Facet>
-                <Facet Name="L1 language">
+                <Facet Name="Main (L1) language">
                     <String Value="French" />
                 </Facet>
                 <Facet Name="L3ST functions">
@@ -715,7 +715,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                 <Facet Name="L3ST mode, written/spoken, diegetic">
                     <String Value="Oral diegetic on-screen" />
                 </Facet>
-                <Facet Name="L3ST required for understanding">
+                <Facet Name="L3ST message required for understanding">
                     <String Value="Yes" />
                 </Facet>
                 <Facet Name="L3TT-instances: count">
@@ -752,7 +752,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                 <Facet Name="Info updated">
                     <DateTime Value="2016-06-15T05:09:58" />
                 </Facet>
-                <Facet Name="L1 language">
+                <Facet Name="Main (L1) language">
                     <String Value="French" />
                 </Facet>
                 <Facet Name="L3ST functions">
@@ -779,7 +779,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                 <Facet Name="L3ST mode, written/spoken, diegetic">
                     <String Value="Oral diegetic on-screen" />
                 </Facet>
-                <Facet Name="L3ST required for understanding">
+                <Facet Name="L3ST message required for understanding">
                     <String Value="Conversation can be followed regardless of meaning" />
                 </Facet>
                 <Facet Name="L3TT-instances: count">
@@ -816,7 +816,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                 <Facet Name="Info updated">
                     <DateTime Value="2016-06-15T05:10:09" />
                 </Facet>
-                <Facet Name="L1 language">
+                <Facet Name="Main (L1) language">
                     <String Value="French" />
                 </Facet>
                 <Facet Name="L3ST functions">
@@ -843,7 +843,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                 <Facet Name="L3ST mode, written/spoken, diegetic">
                     <String Value="Oral diegetic on-screen" />
                 </Facet>
-                <Facet Name="L3ST required for understanding">
+                <Facet Name="L3ST message required for understanding">
                     <String Value="Conversation can be followed regardless of meaning" />
                 </Facet>
                 <Facet Name="L3TT-instances: count">

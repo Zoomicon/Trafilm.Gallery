@@ -11,7 +11,7 @@
         <FacetCategory Name="Production companies" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="Box office" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="Year ST released" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
-        <FacetCategory Name="L1 language" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
+        <FacetCategory Name="Main (L1) language" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="Year TT released in Spain" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="Conversations: count" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
         <FacetCategory Name="Conversations: duration (h:m:s)" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
@@ -49,7 +49,7 @@
                 <Facet Name="Info updated">
                     <DateTime Value="2016-09-01T08:47:43" />
                 </Facet>
-                <Facet Name="L1 language">
+                <Facet Name="Main (L1) language">
                     <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
@@ -101,7 +101,7 @@
                 <Facet Name="Info updated">
                     <DateTime Value="2016-07-04T02:37:45" />
                 </Facet>
-                <Facet Name="L1 language">
+                <Facet Name="Main (L1) language">
                     <String Value="English" />
                 </Facet>
                 <Facet Name="L2-Dubbed languages">
@@ -158,7 +158,7 @@
                     <String Value="Elvish" />
                     <String Value=" Tolkien" />
                 </Facet>
-                <Facet Name="L1 language">
+                <Facet Name="Main (L1) language">
                     <String Value="English" />
                 </Facet>
                 <Facet Name="L2-Dubbed languages">
@@ -225,7 +225,7 @@
                 <Facet Name="Info updated">
                     <DateTime Value="2016-06-22T03:39:39" />
                 </Facet>
-                <Facet Name="L1 language">
+                <Facet Name="Main (L1) language">
                     <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
@@ -280,7 +280,7 @@
                 <Facet Name="Info updated">
                     <DateTime Value="2016-06-14T02:41:47" />
                 </Facet>
-                <Facet Name="L1 language">
+                <Facet Name="Main (L1) language">
                     <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
@@ -344,7 +344,7 @@
                 <Facet Name="Tags">
                     <String Value="faltan datos importantes" />
                 </Facet>
-                <Facet Name="L1 language">
+                <Facet Name="Main (L1) language">
                     <String Value="English" />
                 </Facet>
                 <Facet Name="L2-Subtitled languages">
@@ -406,7 +406,7 @@
                 <Facet Name="Info updated">
                     <DateTime Value="2016-06-22T03:41:02" />
                 </Facet>
-                <Facet Name="L1 language">
+                <Facet Name="Main (L1) language">
                     <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
@@ -465,7 +465,7 @@
                     <String Value=" Drama" />
                     <String Value=" Romance" />
                 </Facet>
-                <Facet Name="L1 language">
+                <Facet Name="Main (L1) language">
                     <String Value="English" />
                 </Facet>
                 <Facet Name="L2-Dubbed languages">
@@ -528,7 +528,7 @@
                 <Facet Name="Info updated">
                     <DateTime Value="2016-06-10T10:57:27" />
                 </Facet>
-                <Facet Name="L1 language">
+                <Facet Name="Main (L1) language">
                     <String Value="English" />
                 </Facet>
                 <Facet Name="L2-Subtitled languages">
@@ -581,7 +581,7 @@
                 <Facet Name="Info updated">
                     <DateTime Value="2016-07-04T02:43:11" />
                 </Facet>
-                <Facet Name="L1 language">
+                <Facet Name="Main (L1) language">
                     <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
@@ -636,7 +636,7 @@
                 <Facet Name="Info updated">
                     <DateTime Value="2016-09-01T08:52:11" />
                 </Facet>
-                <Facet Name="L1 language">
+                <Facet Name="Main (L1) language">
                     <String Value="Other" />
                 </Facet>
                 <Facet Name="Metadata Editors">
@@ -691,7 +691,7 @@
                 <Facet Name="Info updated">
                     <DateTime Value="2016-07-04T02:43:44" />
                 </Facet>
-                <Facet Name="L1 language">
+                <Facet Name="Main (L1) language">
                     <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
@@ -745,7 +745,7 @@
                 <Facet Name="Info updated">
                     <DateTime Value="2016-06-22T03:42:30" />
                 </Facet>
-                <Facet Name="L1 language">
+                <Facet Name="Main (L1) language">
                     <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
@@ -802,7 +802,7 @@
                     <String Value="Elvish" />
                     <String Value=" Tolkien" />
                 </Facet>
-                <Facet Name="L1 language">
+                <Facet Name="Main (L1) language">
                     <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
@@ -863,7 +863,7 @@
                     <String Value="Elvish" />
                     <String Value=" Tolkien" />
                 </Facet>
-                <Facet Name="L1 language">
+                <Facet Name="Main (L1) language">
                     <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
@@ -924,7 +924,7 @@
                 <Facet Name="Info updated">
                     <DateTime Value="2016-06-29T12:51:41" />
                 </Facet>
-                <Facet Name="L1 language">
+                <Facet Name="Main (L1) language">
                     <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
@@ -980,7 +980,7 @@
                 <Facet Name="Info updated">
                     <DateTime Value="2016-07-11T04:54:31" />
                 </Facet>
-                <Facet Name="L1 language">
+                <Facet Name="Main (L1) language">
                     <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
@@ -1038,7 +1038,7 @@
                 <Facet Name="Info updated">
                     <DateTime Value="2016-08-15T09:45:03" />
                 </Facet>
-                <Facet Name="L1 language">
+                <Facet Name="Main (L1) language">
                     <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">

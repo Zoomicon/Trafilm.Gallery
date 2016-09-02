@@ -13,7 +13,7 @@
         <FacetCategory Name="L3TT language" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="L3TT constructed based on" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="L3TT meant to be understood" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
-        <FacetCategory Name="L3TT required for understanding" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
+        <FacetCategory Name="L3TT message required for understanding" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="L3TT meaning decipherable" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="Quality of L3TT speaker performance" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
         <FacetCategory Name="L3TT mode, written/spoken, diegetic" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
@@ -95,7 +95,7 @@
                 <Facet Name="L3TT mode, written/spoken, diegetic">
                     <String Value="Oral non-diegetic" />
                 </Facet>
-                <Facet Name="L3TT required for understanding">
+                <Facet Name="L3TT message required for understanding">
                     <String Value="Yes" />
                 </Facet>
                 <Facet Name="Metadata Editors">
@@ -174,7 +174,7 @@
                 <Facet Name="L3TT mode, written/spoken, diegetic">
                     <String Value="Oral diegetic on-screen" />
                 </Facet>
-                <Facet Name="L3TT required for understanding">
+                <Facet Name="L3TT message required for understanding">
                     <String Value="Yes" />
                 </Facet>
                 <Facet Name="L3TT sources">
@@ -259,7 +259,7 @@
                 <Facet Name="L3TT mode, written/spoken, diegetic">
                     <String Value="Written non-diegetic" />
                 </Facet>
-                <Facet Name="L3TT required for understanding">
+                <Facet Name="L3TT message required for understanding">
                     <String Value="Yes" />
                 </Facet>
                 <Facet Name="L3TT sources">
@@ -346,7 +346,7 @@
                 <Facet Name="L3TT mode, written/spoken, diegetic">
                     <String Value="Oral diegetic on-screen" />
                 </Facet>
-                <Facet Name="L3TT required for understanding">
+                <Facet Name="L3TT message required for understanding">
                     <String Value="Yes" />
                 </Facet>
                 <Facet Name="L3TT sources">
@@ -430,7 +430,7 @@
                 <Facet Name="L3TT mode, written/spoken, diegetic">
                     <String Value="Oral diegetic on-screen" />
                 </Facet>
-                <Facet Name="L3TT required for understanding">
+                <Facet Name="L3TT message required for understanding">
                     <String Value="Yes" />
                 </Facet>
                 <Facet Name="L3TT sources">
@@ -605,7 +605,7 @@
                 <Facet Name="L3TT represented: visual">
                     <String Value="Physical appearance" />
                 </Facet>
-                <Facet Name="L3TT required for understanding">
+                <Facet Name="L3TT message required for understanding">
                     <String Value="Yes" />
                 </Facet>
                 <Facet Name="Quality of L3TT speaker performance">
