@@ -101,11 +101,11 @@
                 <Facet Name="Info updated">
                     <DateTime Value="2016-07-04T02:37:45" />
                 </Facet>
-                <Facet Name="Main (L1) language">
-                    <String Value="English" />
-                </Facet>
                 <Facet Name="L2-Dubbed languages">
                     <String Value="Spanish" />
+                </Facet>
+                <Facet Name="Main (L1) language">
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="George" />
@@ -154,18 +154,14 @@
                 <Facet Name="Info updated">
                     <DateTime Value="2016-08-24T04:09:14" />
                 </Facet>
-                <Facet Name="Tags">
-                    <String Value="Elvish" />
-                    <String Value=" Tolkien" />
-                </Facet>
-                <Facet Name="Main (L1) language">
-                    <String Value="English" />
-                </Facet>
                 <Facet Name="L2-Dubbed languages">
                     <String Value="Spanish" />
                 </Facet>
                 <Facet Name="L2-Subtitled languages">
                     <String Value="Spanish" />
+                </Facet>
+                <Facet Name="Main (L1) language">
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="miquelpt" />
@@ -186,6 +182,10 @@
                     <String Value="Fran Walsh" />
                     <String Value=" Philippa Boyens" />
                     <String Value=" Peter Jackson" />
+                </Facet>
+                <Facet Name="Tags">
+                    <String Value="Elvish" />
+                    <String Value=" Tolkien" />
                 </Facet>
                 <Facet Name="Title in Catalan">
                     <String Value="La germandat de l'anell" />
@@ -341,14 +341,11 @@
                 <Facet Name="Info updated">
                     <DateTime Value="2016-06-22T03:36:40" />
                 </Facet>
-                <Facet Name="Tags">
-                    <String Value="faltan datos importantes" />
+                <Facet Name="L2-Subtitled languages">
+                    <String Value="Spanish" />
                 </Facet>
                 <Facet Name="Main (L1) language">
                     <String Value="English" />
-                </Facet>
-                <Facet Name="L2-Subtitled languages">
-                    <String Value="Spanish" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="Stavroula" />
@@ -370,6 +367,9 @@
                 </Facet>
                 <Facet Name="Scriptwriter(s)">
                     <String Value="Richard Curtis" />
+                </Facet>
+                <Facet Name="Tags">
+                    <String Value="faltan datos importantes" />
                 </Facet>
                 <Facet Name="Title in Spanish">
                     <String Value="Love Actually" />
@@ -460,16 +460,11 @@
                 <Facet Name="Info updated">
                     <DateTime Value="2016-07-04T02:40:05" />
                 </Facet>
-                <Facet Name="Tags">
-                    <String Value=" Comedy" />
-                    <String Value=" Drama" />
-                    <String Value=" Romance" />
+                <Facet Name="L2-Dubbed languages">
+                    <String Value="Spanish" />
                 </Facet>
                 <Facet Name="Main (L1) language">
                     <String Value="English" />
-                </Facet>
-                <Facet Name="L2-Dubbed languages">
-                    <String Value="Spanish" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="George" />
@@ -495,6 +490,11 @@
                 </Facet>
                 <Facet Name="Scriptwriter(s)">
                     <String Value="Sabrina Dhawan" />
+                </Facet>
+                <Facet Name="Tags">
+                    <String Value=" Comedy" />
+                    <String Value=" Drama" />
+                    <String Value=" Romance" />
                 </Facet>
                 <Facet Name="Title in Spanish">
                     <String Value="La boda del Monzón" />
@@ -528,11 +528,11 @@
                 <Facet Name="Info updated">
                     <DateTime Value="2016-06-10T10:57:27" />
                 </Facet>
-                <Facet Name="Main (L1) language">
-                    <String Value="English" />
-                </Facet>
                 <Facet Name="L2-Subtitled languages">
                     <String Value="Spanish" />
+                </Facet>
+                <Facet Name="Main (L1) language">
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="Stavroula" />
@@ -798,10 +798,6 @@
                 <Facet Name="Info updated">
                     <DateTime Value="2016-07-04T02:39:22" />
                 </Facet>
-                <Facet Name="Tags">
-                    <String Value="Elvish" />
-                    <String Value=" Tolkien" />
-                </Facet>
                 <Facet Name="Main (L1) language">
                     <String Value="English" />
                 </Facet>
@@ -823,6 +819,10 @@
                     <String Value="Fran Walsh" />
                     <String Value=" Philippa Boyens" />
                     <String Value=" Peter Jackson" />
+                </Facet>
+                <Facet Name="Tags">
+                    <String Value="Elvish" />
+                    <String Value=" Tolkien" />
                 </Facet>
                 <Facet Name="Title in Catalan">
                     <String Value="El retorn del rei" />
@@ -859,10 +859,6 @@
                 <Facet Name="Info updated">
                     <DateTime Value="2016-07-04T02:41:46" />
                 </Facet>
-                <Facet Name="Tags">
-                    <String Value="Elvish" />
-                    <String Value=" Tolkien" />
-                </Facet>
                 <Facet Name="Main (L1) language">
                     <String Value="English" />
                 </Facet>
@@ -885,6 +881,10 @@
                     <String Value=" Philippa Boyens" />
                     <String Value=" Stephen Sinclair" />
                     <String Value=" Peter Jackson" />
+                </Facet>
+                <Facet Name="Tags">
+                    <String Value="Elvish" />
+                    <String Value=" Tolkien" />
                 </Facet>
                 <Facet Name="Title in Catalan">
                     <String Value="Les dues torres" />
