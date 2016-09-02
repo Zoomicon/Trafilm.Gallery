@@ -22,7 +22,7 @@
         <FacetCategory Name="L3ST sources" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="L3TT-instances: count" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
         <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="false" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
-        <FacetCategory Name="Keywords" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
+        <FacetCategory Name="Tags" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="false" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="false" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
         <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
@@ -47,7 +47,7 @@
                 <Facet Name="Info updated">
                     <DateTime Value="2016-09-01T08:10:14" />
                 </Facet>
-                <Facet Name="Keywords">
+                <Facet Name="Tags">
                     <String Value="greeting in German" />
                 </Facet>
                 <Facet Name="L1 language">
@@ -116,7 +116,7 @@
                 <Facet Name="Info updated">
                     <DateTime Value="2016-06-15T09:53:22" />
                 </Facet>
-                <Facet Name="Keywords">
+                <Facet Name="Tags">
                     <String Value="Aragorn" />
                     <String Value=" Arwen" />
                     <String Value=" Elvish" />
@@ -194,7 +194,7 @@
                 <Facet Name="Info updated">
                     <DateTime Value="2016-06-16T05:27:18" />
                 </Facet>
-                <Facet Name="Keywords">
+                <Facet Name="Tags">
                     <String Value="Aragorn" />
                     <String Value=" Arwen" />
                     <String Value=" Elvish" />
@@ -275,7 +275,7 @@
                 <Facet Name="Info updated">
                     <DateTime Value="2016-09-01T07:56:49" />
                 </Facet>
-                <Facet Name="Keywords">
+                <Facet Name="Tags">
                     <String Value="Comic effect" />
                 </Facet>
                 <Facet Name="L1 language">

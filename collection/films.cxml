@@ -18,7 +18,7 @@
         <FacetCategory Name="L2-Dubbed languages" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="L2-Subtitled languages" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="false" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
-        <FacetCategory Name="Keywords" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
+        <FacetCategory Name="Tags" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="false" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="false" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
         <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
@@ -154,7 +154,7 @@
                 <Facet Name="Info updated">
                     <DateTime Value="2016-08-24T04:09:14" />
                 </Facet>
-                <Facet Name="Keywords">
+                <Facet Name="Tags">
                     <String Value="Elvish" />
                     <String Value=" Tolkien" />
                 </Facet>
@@ -341,7 +341,7 @@
                 <Facet Name="Info updated">
                     <DateTime Value="2016-06-22T03:36:40" />
                 </Facet>
-                <Facet Name="Keywords">
+                <Facet Name="Tags">
                     <String Value="faltan datos importantes" />
                 </Facet>
                 <Facet Name="L1 language">
@@ -460,7 +460,7 @@
                 <Facet Name="Info updated">
                     <DateTime Value="2016-07-04T02:40:05" />
                 </Facet>
-                <Facet Name="Keywords">
+                <Facet Name="Tags">
                     <String Value=" Comedy" />
                     <String Value=" Drama" />
                     <String Value=" Romance" />
@@ -798,7 +798,7 @@
                 <Facet Name="Info updated">
                     <DateTime Value="2016-07-04T02:39:22" />
                 </Facet>
-                <Facet Name="Keywords">
+                <Facet Name="Tags">
                     <String Value="Elvish" />
                     <String Value=" Tolkien" />
                 </Facet>
@@ -859,7 +859,7 @@
                 <Facet Name="Info updated">
                     <DateTime Value="2016-07-04T02:41:46" />
                 </Facet>
-                <Facet Name="Keywords">
+                <Facet Name="Tags">
                     <String Value="Elvish" />
                     <String Value=" Tolkien" />
                 </Facet>

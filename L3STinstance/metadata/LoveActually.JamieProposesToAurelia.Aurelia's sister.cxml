@@ -22,7 +22,7 @@
     <FacetCategory Name="L3ST sources" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3TT-instances: count" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="Keywords" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Tags" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
@@ -38,7 +38,7 @@
         <Facet Name="Transcription">
           <String Value="Aurelia'sister: Definitely go for England, girl. You'll meet Prince William -then you can marry him instead.&#xD;&#xA;Jamie: Of course I don't expecting you　to be as foolish as me, and of course I prediction you say no.... but it's Christmas　and I just wanted to...check.&#xD;&#xA;Aurelia'sister: Oh, God - say yes, you skinny moron." />
         </Facet>
-        <Facet Name="Keywords">
+        <Facet Name="Tags">
           <String Value="Comic effect" />
         </Facet>
         <Facet Name="Info created">

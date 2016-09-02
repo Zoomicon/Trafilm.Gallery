@@ -22,7 +22,7 @@
     <FacetCategory Name="L3ST sources" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3TT-instances: count" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="Keywords" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Tags" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
@@ -38,7 +38,7 @@
         <Facet Name="Transcription">
           <String Value="Go ahead speak a little German&#xD;&#xA;#German uttered#&#xD;&#xA;subtitles: Pleased to meet you" />
         </Facet>
-        <Facet Name="Keywords">
+        <Facet Name="Tags">
           <String Value="greeting in German" />
         </Facet>
         <Facet Name="Info created">
@@ -107,7 +107,7 @@
         <Facet Name="Transcription">
           <String Value="Arwen: Your time will come. You will face the same evil, and you will defeat it. A si i-Dhúath ú-orthor, &#xD;&#xA;Aragorn. Ú or le a ú or nin. Renech i lu i erui govannen?" />
         </Facet>
-        <Facet Name="Keywords">
+        <Facet Name="Tags">
           <String Value="Aragorn" />
           <String Value=" Arwen" />
           <String Value=" Elvish" />
@@ -185,7 +185,7 @@
         <Facet Name="Transcription">
           <String Value="Arwen: Renech i lu i erui govannen?&#xD;&#xA;Aragorn: Nauthannem i ned ol reniannen.&#xD;&#xA;Arwen: Gwenwin in enninath...U-arnech in naeth i si celich. Renech i beth i pennen?&#xD;&#xA;Aragorn: You said you'd bind yourself to me. Forsaking the immortal life of your people.&#xD;&#xA;Arwen: And to that I hold. I would rather share one lifetime with you than face all the ages of this world alone." />
         </Facet>
-        <Facet Name="Keywords">
+        <Facet Name="Tags">
           <String Value="Aragorn" />
           <String Value=" Arwen" />
           <String Value=" Elvish" />
@@ -266,7 +266,7 @@
         <Facet Name="Transcription">
           <String Value="Aurelia'sister: Definitely go for England, girl. You'll meet Prince William -then you can marry him instead.&#xD;&#xA;Jamie: Of course I don't expecting you　to be as foolish as me, and of course I prediction you say no.... but it's Christmas　and I just wanted to...check.&#xD;&#xA;Aurelia'sister: Oh, God - say yes, you skinny moron." />
         </Facet>
-        <Facet Name="Keywords">
+        <Facet Name="Tags">
           <String Value="Comic effect" />
         </Facet>
         <Facet Name="Info created">
