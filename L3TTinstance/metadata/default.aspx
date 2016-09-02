@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: L3TTinstance\metadata\default.aspx
-Version: 20160901
+Version: 20160902
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -335,9 +335,9 @@ Version: 20160901
         </div>
 
         <div class="question">
-          <div class="label">21. Keywords</div>
-          <div class="tip">Comma-separated list of keywords to help identify this item</div>
-          <asp:TextBox ID="txtKeywords" runat="server" Columns="150"></asp:TextBox>
+          <div class="label">21. Tags</div>
+          <div class="tip">Keywords or other labels for filtering purposes , insert a comma (,) between different ones</div>
+          <asp:TextBox ID="txtTags" runat="server" Columns="150"></asp:TextBox>
         </div>
 
         <div class="question">

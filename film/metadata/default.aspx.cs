@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: film\metadata\default.aspx.cs
-//Version: 20160622
+//Version: 20160902
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -128,7 +128,7 @@ namespace Trafilm.Gallery
 
       UI.Load(txtTranscription, metadata.Transcription);
 
-      UI.Load(txtKeywords, metadata.Keywords);
+      UI.Load(txtTags, metadata.Tags);
 
       UI.Load(txtRemarks, metadata.Remarks);
 
@@ -189,7 +189,7 @@ namespace Trafilm.Gallery
 
       metadata.Transcription = txtTranscription.Text;
 
-      metadata.Keywords = UI.GetCommaSeparated(txtKeywords);
+      metadata.Tags = UI.GetCommaSeparated(txtTags);
 
       metadata.Remarks = txtRemarks.Text;
 
