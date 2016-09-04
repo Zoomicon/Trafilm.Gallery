@@ -454,7 +454,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="LoveActually.JamieProposesToAurelia.Aurelia's sister.SpanishSub" Name="LoveActually.JamieProposesToAurelia.Aurelia's sister.SpanishSub" Img="#5" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia&amp;L3STinstance=LoveActually.JamieProposesToAurelia.Aurelia's sister&amp;L3TTinstance=LoveActually.JamieProposesToAurelia.Aurelia's sister.SpanishSub">
+        <Item Id="LoveActually.JamieProposesToAurelia.Aurelia's sister.SpanishSub" Name="LoveActually - Jamie proposes to Aurelia - Aurelia's sister - Spanish Sub" Img="#5" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia&amp;L3STinstance=LoveActually.JamieProposesToAurelia.Aurelia's sister&amp;L3TTinstance=LoveActually.JamieProposesToAurelia.Aurelia's sister.SpanishSub">
             <Facets>
                 <Facet Name="Conversation Reference Id">
                     <String Value="LoveActually.JamieProposesToAurelia" />
@@ -466,7 +466,7 @@
                     <DateTime Value="2016-06-15T03:00:07" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-06-15T03:00:15" />
+                    <DateTime Value="2016-09-04T09:19:57" />
                 </Facet>
                 <Facet Name="L3ST functions change">
                     <String Value="- Comedy / humour" />
@@ -474,6 +474,10 @@
                 <Facet Name="L3ST language type change">
                     <String Value="- Real" />
                     <String Value="+ " />
+                </Facet>
+                <Facet Name="L3ST mode change">
+                    <String Value="- Oral diegetic on-screen" />
+                    <String Value="- Written diegetic" />
                 </Facet>
                 <Facet Name="L3ST sources change">
                     <String Value="- Written &amp; oral L3" />
@@ -484,6 +488,7 @@
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="Stavroula" />
+                    <String Value="George" />
                 </Facet>
                 <Facet Name="Reference Id">
                     <String Value="LoveActually.JamieProposesToAurelia.Aurelia's sister.SpanishSub" />
@@ -493,7 +498,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="LoveActually.Lake Scene.Portuguese.SpanishSub" Name="LoveActually Lake Scene Aurelia SpanishSub" Img="#6" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.Lake Scene&amp;L3STinstance=LoveActually.Lake Scene.Portuguese&amp;L3TTinstance=LoveActually.Lake Scene.Portuguese.SpanishSub">
+        <Item Id="LoveActually.Lake Scene.Portuguese.SpanishSub" Name="LoveActually - Lake Scene - Aurelia - SpanishSub" Img="#6" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.Lake Scene&amp;L3STinstance=LoveActually.Lake Scene.Portuguese&amp;L3TTinstance=LoveActually.Lake Scene.Portuguese.SpanishSub">
             <Description>Aurelia expresses anxiety when papers fly. Subtitles in Spanish.</Description>
             <Facets>
                 <Facet Name="Conversation Reference Id">
@@ -506,7 +511,7 @@
                     <DateTime Value="2016-06-15T02:43:24" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-06-17T09:31:00" />
+                    <DateTime Value="2016-09-04T09:30:44" />
                 </Facet>
                 <Facet Name="L2 language">
                     <String Value="Spanish" />
@@ -521,15 +526,17 @@
                     <String Value="No" />
                 </Facet>
                 <Facet Name="L3ST functions change">
-                    <String Value="None" />
+                    <String Value="+ Dramatic effect" />
                 </Facet>
                 <Facet Name="L3ST language type change">
                     <String Value="- Real" />
                     <String Value="+ " />
                 </Facet>
+                <Facet Name="L3ST mode change">
+                    <String Value="- Oral diegetic on-screen" />
+                </Facet>
                 <Facet Name="L3ST sources change">
-                    <String Value="- Respond interlingually: different sources " />
-                    <String Value="+ " />
+                    <String Value="None" />
                 </Facet>
                 <Facet Name="L3ST-instance Reference Id">
                     <String Value="LoveActually.Lake Scene.Portuguese" />
@@ -539,6 +546,7 @@
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="Stavroula" />
+                    <String Value="George" />
                 </Facet>
                 <Facet Name="Reference Id">
                     <String Value="LoveActually.Lake Scene.Portuguese.SpanishSub" />
