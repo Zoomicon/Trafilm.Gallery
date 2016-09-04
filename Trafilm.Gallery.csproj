@@ -60,6 +60,7 @@
     <Content Include="L3STinstance\template.html" />
     <Content Include="L3STinstance\template_image.png" />
     <Content Include="login.aspx" />
+    <Content Include="metadata\ConversationTypesFeatures.xml" />
     <Content Include="metadata\L3sources.xml">
       <SubType>Designer</SubType>
     </Content>

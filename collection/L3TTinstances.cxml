@@ -123,7 +123,7 @@
                     <DateTime Value="2016-06-15T09:38:56" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-06-15T09:52:57" />
+                    <DateTime Value="2016-09-02T03:20:44" />
                 </Facet>
                 <Facet Name="L2 language">
                     <String Value="Spanish" />
@@ -141,6 +141,9 @@
                     <String Value="None" />
                 </Facet>
                 <Facet Name="L3ST language type change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3ST mode change">
                     <String Value="None" />
                 </Facet>
                 <Facet Name="L3ST sources change">
@@ -182,6 +185,7 @@
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="miquelpt" />
+                    <String Value="George" />
                 </Facet>
                 <Facet Name="Quality of L3TT speaker performance">
                     <String Value="native or proficient" />
