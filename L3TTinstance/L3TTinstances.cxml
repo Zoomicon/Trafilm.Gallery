@@ -155,7 +155,7 @@
           <String Value="Yes" />
         </Facet>
         <Facet Name="L3TT language type">
-          <String Value="Constructed" />
+          <String Value="Constructed (fictional)" />
         </Facet>
         <Facet Name="L3TT language">
           <String Value="Elvish" />
@@ -275,7 +275,7 @@
           <String Value="Non-diegetic translation" />
         </Facet>
         <Facet Name="L3ST language type change">
-          <String Value="- Constructed" />
+          <String Value="- Constructed (fictional)" />
           <String Value="+ No L3TT: L3-instance in L2" />
         </Facet>
         <Facet Name="L3ST functions change">
@@ -327,7 +327,7 @@
           <String Value="Yes" />
         </Facet>
         <Facet Name="L3TT language type">
-          <String Value="Constructed" />
+          <String Value="Constructed (fictional)" />
         </Facet>
         <Facet Name="L3TT language">
           <String Value="Elvish" />
@@ -411,7 +411,7 @@
           <String Value="Yes" />
         </Facet>
         <Facet Name="L3TT language type">
-          <String Value="Constructed" />
+          <String Value="Constructed (fictional)" />
         </Facet>
         <Facet Name="L3TT language">
           <String Value="Elvish" />
@@ -679,7 +679,7 @@
           <String Value="Suspense" />
         </Facet>
         <Facet Name="L3ST language type change">
-          <String Value="- L-main variety, real dialect, slang or other" />
+          <String Value="- L-main variety (e.g. dialect, sociolect, idiolect, slang)" />
           <String Value="+ No L3TT: L3-instance omitted" />
         </Facet>
         <Facet Name="L3ST mode change">
