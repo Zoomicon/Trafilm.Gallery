@@ -177,7 +177,7 @@ Version: 20160906
 
         <div class="question">
           <div class="label">9. Remarks </div>
-          <div class="tip">Remarks on the metadata</div>
+          <div class="tip">Issues concerning the analysis or the metadata form design</div>
           <asp:TextBox ID="txtRemarks" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
         </div>
 

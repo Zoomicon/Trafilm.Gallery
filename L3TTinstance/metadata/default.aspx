@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: L3TTinstance\metadata\default.aspx
-Version: 20160902
+Version: 20160906
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -329,20 +329,20 @@ Version: 20160902
         <%-- ITrafilmMetadata --%>
 
         <div class="question">
-          <div class="label">20. Transcription </div>
+          <div class="label">21. Transcription </div>
           <div class="tip">Transcription for the specific L3TT-instance</div>
           <asp:TextBox ID="txtTranscription" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
         </div>
 
         <div class="question">
-          <div class="label">21. Tags</div>
+          <div class="label">22. Tags</div>
           <div class="tip">Keywords or other labels for filtering purposes , insert a comma (,) between different ones</div>
           <asp:TextBox ID="txtTags" runat="server" Columns="150"></asp:TextBox>
         </div>
 
         <div class="question">
-          <div class="label">22. Remarks </div>
-          <div class="tip">Remarks on the metadata</div>
+          <div class="label">23. Remarks </div>
+          <div class="tip">Issues concerning the analysis or the metadata form design</div>
           <asp:TextBox ID="txtRemarks" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
         </div>
 
