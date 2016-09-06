@@ -34,7 +34,7 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Django Unchained.Slave speaks a little German.Slave opens conversation.Slave's ST German dubbed" Name="Django Unchained - Slave's ST German dubbed" Img="../L3TTinstance/image/Django Unchained.Slave speaks a little German.Slave opens conversation.Slave's ST German dubbed.png" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Django Unchained&amp;conversation=Django Unchained.Slave speaks a little German&amp;L3STinstance=Django Unchained.Slave speaks a little German.Slave opens conversation&amp;L3TTinstance=Django Unchained.Slave speaks a little German.Slave opens conversation.Slave's ST German dubbed">
+    <Item Id="Django Unchained.Slave speaks a little German.Slave opens conversation.Slave's ST German dubbed" Name="Django Unchained - Slave's ST German dubbed" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Django Unchained&amp;conversation=Django Unchained.Slave speaks a little German&amp;L3STinstance=Django Unchained.Slave speaks a little German.Slave opens conversation&amp;L3TTinstance=Django Unchained.Slave speaks a little German.Slave opens conversation.Slave's ST German dubbed">
       <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -44,7 +44,7 @@
           <DateTime Value="2016-06-01T07:33:31" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-09-06T01:28:53" />
+          <DateTime Value="2016-09-06T06:42:52" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="PatrickZabalbeascoa" />
@@ -103,6 +103,9 @@
           <String Value="+ Oral non-diegetic" />
         </Facet>
         <Facet Name="L3ST functions change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="Types/features related to L3ST change">
           <String Value="None" />
         </Facet>
         <Facet Name="L3ST sources change">
