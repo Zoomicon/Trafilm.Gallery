@@ -31,6 +31,7 @@ Version: 20160906
     <asp:XmlDataSource ID="xmlL3STrepresentationsOral" runat="server" DataFile="~/metadata/L3representationsOral.xml" XPath="Facet/String" />
     <asp:XmlDataSource ID="xmlL3STrepresentationsVisual" runat="server" DataFile="~/metadata/L3representationsVisual.xml" XPath="Facet/String" />
     <asp:XmlDataSource ID="xmlL3STfunctions" runat="server" DataFile="~/metadata/L3functions.xml" XPath="Facet/String" />
+    <asp:XmlDataSource ID="xmlL3STtypesFeatures" runat="server" DataFile="~/metadata/L3typesFeatures.xml" XPath="Facet/String" />
     <asp:XmlDataSource ID="xmlL3STsources" runat="server" DataFile="~/metadata/L3sources.xml" XPath="Facet/String" />
 
 
@@ -264,9 +265,21 @@ Version: 20160906
            </asp:Panel>
         </div>
 
+
+        <div class="question">
+          <div class="label">18. Types/features related to L3ST</div>
+          <div class="tip">Types or features (functional or otherwise) related to L3ST presence</div>
+          <asp:Panel runat="server" ScrollBars="Auto" Style="max-height: 100px">
+            <asp:CheckBoxList ID="clistL3STtypesFeatures" runat="server"
+              DataSourceID="xmlL3STtypesFeatures" DataTextField="Value" DataValueField="Value"
+              RepeatLayout="Table" RepeatColumns="10" RepeatDirection="Vertical"               
+              />
+           </asp:Panel>
+        </div>
+
         
         <div class="question">
-          <div class="label">18. L3ST sources <i>(with or without main language mix)</i></div>
+          <div class="label">19. L3ST sources <i>(with or without main language mix)</i></div>
           <div class="info">Choose the description that best explains the number of sources (on or off screen, oral or written) and whether the main language is mixed with L3 (Main language, or “main”, is L1 for L3ST-instances)</div>
           <asp:DropDownList
             ID="listL3STsources" runat="server"
@@ -286,19 +299,19 @@ Version: 20160906
         <%-- ITrafilmMetadata --%>
 
         <div class="question">
-          <div class="label">19. Transcription </div>
+          <div class="label">20. Transcription </div>
           <div class="tip">Transcription for the specific L3ST-instance</div>
           <asp:TextBox ID="txtTranscription" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
         </div>
 
         <div class="question">
-          <div class="label">20. Tags</div>
+          <div class="label">21. Tags</div>
           <div class="tip">Keywords or other labels for filtering purposes , insert a comma (,) between different ones</div>
           <asp:TextBox ID="txtTags" runat="server" Columns="150"></asp:TextBox>
         </div>
 
         <div class="question">
-          <div class="label">21. Remarks </div>
+          <div class="label">22. Remarks </div>
           <div class="tip">Issues concerning the analysis or the metadata form design</div>
           <asp:TextBox ID="txtRemarks" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
         </div>

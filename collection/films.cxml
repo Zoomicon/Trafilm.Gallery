@@ -11,7 +11,7 @@
         <FacetCategory Name="Production companies" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="Box office" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="Year ST released" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
-        <FacetCategory Name="Main (L1) language" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
+        <FacetCategory Name="Main language (L1)" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="Year TT released in Spain" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="Conversations: count" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
         <FacetCategory Name="Conversations: duration (min)" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
@@ -49,7 +49,7 @@
                 <Facet Name="Info updated">
                     <DateTime Value="2016-09-01T08:47:43" />
                 </Facet>
-                <Facet Name="Main (L1) language">
+                <Facet Name="Main language (L1)">
                     <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
@@ -104,7 +104,7 @@
                 <Facet Name="L2-Dubbed languages">
                     <String Value="Spanish" />
                 </Facet>
-                <Facet Name="Main (L1) language">
+                <Facet Name="Main language (L1)">
                     <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
@@ -160,7 +160,7 @@
                 <Facet Name="L2-Subtitled languages">
                     <String Value="Spanish" />
                 </Facet>
-                <Facet Name="Main (L1) language">
+                <Facet Name="Main language (L1)">
                     <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
@@ -225,7 +225,7 @@
                 <Facet Name="Info updated">
                     <DateTime Value="2016-06-22T03:39:39" />
                 </Facet>
-                <Facet Name="Main (L1) language">
+                <Facet Name="Main language (L1)">
                     <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
@@ -280,7 +280,7 @@
                 <Facet Name="Info updated">
                     <DateTime Value="2016-06-14T02:41:47" />
                 </Facet>
-                <Facet Name="Main (L1) language">
+                <Facet Name="Main language (L1)">
                     <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
@@ -344,7 +344,7 @@
                 <Facet Name="L2-Subtitled languages">
                     <String Value="Spanish" />
                 </Facet>
-                <Facet Name="Main (L1) language">
+                <Facet Name="Main language (L1)">
                     <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
@@ -406,7 +406,7 @@
                 <Facet Name="Info updated">
                     <DateTime Value="2016-06-22T03:41:02" />
                 </Facet>
-                <Facet Name="Main (L1) language">
+                <Facet Name="Main language (L1)">
                     <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
@@ -463,7 +463,7 @@
                 <Facet Name="L2-Dubbed languages">
                     <String Value="Spanish" />
                 </Facet>
-                <Facet Name="Main (L1) language">
+                <Facet Name="Main language (L1)">
                     <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
@@ -531,7 +531,7 @@
                 <Facet Name="L2-Subtitled languages">
                     <String Value="Spanish" />
                 </Facet>
-                <Facet Name="Main (L1) language">
+                <Facet Name="Main language (L1)">
                     <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
@@ -581,7 +581,7 @@
                 <Facet Name="Info updated">
                     <DateTime Value="2016-07-04T02:43:11" />
                 </Facet>
-                <Facet Name="Main (L1) language">
+                <Facet Name="Main language (L1)">
                     <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
@@ -636,7 +636,7 @@
                 <Facet Name="Info updated">
                     <DateTime Value="2016-09-01T08:52:11" />
                 </Facet>
-                <Facet Name="Main (L1) language">
+                <Facet Name="Main language (L1)">
                     <String Value="Other" />
                 </Facet>
                 <Facet Name="Metadata Editors">
@@ -691,7 +691,7 @@
                 <Facet Name="Info updated">
                     <DateTime Value="2016-07-04T02:43:44" />
                 </Facet>
-                <Facet Name="Main (L1) language">
+                <Facet Name="Main language (L1)">
                     <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
@@ -745,7 +745,7 @@
                 <Facet Name="Info updated">
                     <DateTime Value="2016-06-22T03:42:30" />
                 </Facet>
-                <Facet Name="Main (L1) language">
+                <Facet Name="Main language (L1)">
                     <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
@@ -798,7 +798,7 @@
                 <Facet Name="Info updated">
                     <DateTime Value="2016-07-04T02:39:22" />
                 </Facet>
-                <Facet Name="Main (L1) language">
+                <Facet Name="Main language (L1)">
                     <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
@@ -859,7 +859,7 @@
                 <Facet Name="Info updated">
                     <DateTime Value="2016-07-04T02:41:46" />
                 </Facet>
-                <Facet Name="Main (L1) language">
+                <Facet Name="Main language (L1)">
                     <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
@@ -924,7 +924,7 @@
                 <Facet Name="Info updated">
                     <DateTime Value="2016-06-29T12:51:41" />
                 </Facet>
-                <Facet Name="Main (L1) language">
+                <Facet Name="Main language (L1)">
                     <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
@@ -980,7 +980,7 @@
                 <Facet Name="Info updated">
                     <DateTime Value="2016-07-11T04:54:31" />
                 </Facet>
-                <Facet Name="Main (L1) language">
+                <Facet Name="Main language (L1)">
                     <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
@@ -1038,7 +1038,7 @@
                 <Facet Name="Info updated">
                     <DateTime Value="2016-08-15T09:45:03" />
                 </Facet>
-                <Facet Name="Main (L1) language">
+                <Facet Name="Main language (L1)">
                     <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">

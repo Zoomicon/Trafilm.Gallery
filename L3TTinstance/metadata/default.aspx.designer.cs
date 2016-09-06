@@ -148,6 +148,15 @@ namespace Trafilm.Gallery {
         protected global::System.Web.UI.WebControls.XmlDataSource xmlL3TTfunctions;
         
         /// <summary>
+        /// xmlL3TTtypesFeatures control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.XmlDataSource xmlL3TTtypesFeatures;
+        
+        /// <summary>
         /// xmlL3TTsources control.
         /// </summary>
         /// <remarks>
@@ -481,6 +490,15 @@ namespace Trafilm.Gallery {
         protected global::System.Web.UI.WebControls.CheckBoxList clistL3TTfunctions;
         
         /// <summary>
+        /// clistL3TTtypesFeatures control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBoxList clistL3TTtypesFeatures;
+        
+        /// <summary>
         /// listL3TTsources control.
         /// </summary>
         /// <remarks>
@@ -515,6 +533,15 @@ namespace Trafilm.Gallery {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ListBox listL3STfunctionsChange;
+        
+        /// <summary>
+        /// listL3STtypesFeaturesChange control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ListBox listL3STtypesFeaturesChange;
         
         /// <summary>
         /// listL3STsourcesChange control.

@@ -112,6 +112,15 @@ namespace Trafilm.Gallery {
         protected global::System.Web.UI.WebControls.XmlDataSource xmlL3STfunctions;
         
         /// <summary>
+        /// xmlL3STtypesFeatures control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.XmlDataSource xmlL3STtypesFeatures;
+        
+        /// <summary>
         /// xmlL3STsources control.
         /// </summary>
         /// <remarks>
@@ -416,6 +425,15 @@ namespace Trafilm.Gallery {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.CheckBoxList clistL3STfunctions;
+        
+        /// <summary>
+        /// clistL3STtypesFeatures control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBoxList clistL3STtypesFeatures;
         
         /// <summary>
         /// listL3STsources control.

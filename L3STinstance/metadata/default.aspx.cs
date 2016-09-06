@@ -166,6 +166,7 @@ namespace Trafilm.Gallery
       UI.Load(clistL3STrepresentationsVisual, metadata.L3STrepresentationsVisual);
 
       UI.Load(clistL3STfunctions, metadata.L3STfunctions);
+      UI.Load(clistL3STtypesFeatures, metadata.L3STtypesFeatures);
 
       UI.Load(listL3STsources, metadata.L3STsources);
 
@@ -233,6 +234,7 @@ namespace Trafilm.Gallery
       metadata.L3STrepresentationsVisual = UI.GetSelected(clistL3STrepresentationsVisual);
 
       metadata.L3STfunctions = UI.GetSelected(clistL3STfunctions);
+      metadata.L3STtypesFeatures = UI.GetSelected(clistL3STtypesFeatures);
 
       metadata.L3STsources = listL3STsources.SelectedValue;
 
