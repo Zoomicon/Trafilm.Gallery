@@ -3,8 +3,8 @@
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="Start time (h:m:s)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
-    <FacetCategory Name="Duration (h:m:s)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Start time (min)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Duration (min)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Language sources" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3ST languages: count" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="L3ST languages" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -43,11 +43,11 @@
         <Facet Name="Film Reference Id">
           <String Value="ToyStory3" />
         </Facet>
-        <Facet Name="Start time (h:m:s)">
-          <String Value="1:11:10" />
+        <Facet Name="Start time (min)">
+          <String Value="71" />
         </Facet>
-        <Facet Name="Duration (h:m:s)">
-          <String Value="1:11:19" />
+        <Facet Name="Duration (min)">
+          <String Value="1" />
         </Facet>
         <Facet Name="Language sources">
           <String Value="Combined: on &amp; off screen oral" />

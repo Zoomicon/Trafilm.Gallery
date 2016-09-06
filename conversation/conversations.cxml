@@ -3,8 +3,8 @@
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="Start time (h:m:s)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
-    <FacetCategory Name="Duration (h:m:s)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Start time (min)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Duration (min)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Language sources" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3ST languages: count" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="L3ST languages" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -33,7 +33,7 @@
           <DateTime Value="2016-05-31T12:04:40" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-09-01T08:10:05" />
+          <DateTime Value="2016-09-06T01:27:40" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="PatrickZabalbeascoa" />
@@ -42,11 +42,11 @@
         <Facet Name="Film Reference Id">
           <String Value="Django Unchained" />
         </Facet>
-        <Facet Name="Start time (h:m:s)">
-          <String Value="1:33:13" />
+        <Facet Name="Start time (min)">
+          <String Value="93" />
         </Facet>
-        <Facet Name="Duration (h:m:s)">
-          <String Value="0:00:11" />
+        <Facet Name="Duration (min)">
+          <String Value="1" />
         </Facet>
         <Facet Name="L3ST languages: count">
           <String Value="1" />
@@ -96,11 +96,11 @@
         <Facet Name="Film Reference Id">
           <String Value="FellowshipOfTheRing" />
         </Facet>
-        <Facet Name="Start time (h:m:s)">
-          <String Value="1:31:15" />
+        <Facet Name="Start time (min)">
+          <String Value="91" />
         </Facet>
-        <Facet Name="Duration (h:m:s)">
-          <String Value="1:33:07" />
+        <Facet Name="Duration (min)">
+          <String Value="2" />
         </Facet>
         <Facet Name="Language sources">
           <String Value="2+ onscreen sources, oral only" />
@@ -144,8 +144,8 @@ Available at https://www.youtube.com/watch?v=MXslFb_cdG4</Description>
         <Facet Name="Film Reference Id">
           <String Value="LoveActually" />
         </Facet>
-        <Facet Name="Duration (h:m:s)">
-          <String Value="0:03:27" />
+        <Facet Name="Duration (min)">
+          <String Value="3" />
         </Facet>
         <Facet Name="Language sources">
           <String Value="Combined: oral (any) &amp; written" />
@@ -186,8 +186,8 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
         <Facet Name="Film Reference Id">
           <String Value="LoveActually" />
         </Facet>
-        <Facet Name="Duration (h:m:s)">
-          <String Value="0:03:49" />
+        <Facet Name="Duration (min)">
+          <String Value="3" />
         </Facet>
         <Facet Name="Language sources">
           <String Value="Combined: oral (any) &amp; written" />
@@ -262,11 +262,11 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
         <Facet Name="Film Reference Id">
           <String Value="OceansEleven" />
         </Facet>
-        <Facet Name="Start time (h:m:s)">
-          <String Value="0:32:06" />
+        <Facet Name="Start time (min)">
+          <String Value="32" />
         </Facet>
-        <Facet Name="Duration (h:m:s)">
-          <String Value="0:04:00" />
+        <Facet Name="Duration (min)">
+          <String Value="4" />
         </Facet>
         <Facet Name="L3ST languages: count">
           <String Value="1" />
@@ -303,11 +303,11 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
         <Facet Name="Film Reference Id">
           <String Value="TheWalk" />
         </Facet>
-        <Facet Name="Start time (h:m:s)">
-          <String Value="0:50:25" />
+        <Facet Name="Start time (min)">
+          <String Value="50" />
         </Facet>
-        <Facet Name="Duration (h:m:s)">
-          <String Value="0:51:36" />
+        <Facet Name="Duration (min)">
+          <String Value="2" />
         </Facet>
         <Facet Name="L3ST languages: count">
           <String Value="0" />
@@ -338,11 +338,11 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
         <Facet Name="Film Reference Id">
           <String Value="TheWalk" />
         </Facet>
-        <Facet Name="Start time (h:m:s)">
-          <String Value="0:16:02" />
+        <Facet Name="Start time (min)">
+          <String Value="16" />
         </Facet>
-        <Facet Name="Duration (h:m:s)">
-          <String Value="0:19:04" />
+        <Facet Name="Duration (min)">
+          <String Value="3" />
         </Facet>
         <Facet Name="L3ST languages: count">
           <String Value="0" />
@@ -373,11 +373,11 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
         <Facet Name="Film Reference Id">
           <String Value="TheWalk" />
         </Facet>
-        <Facet Name="Start time (h:m:s)">
-          <String Value="0:42:05" />
+        <Facet Name="Start time (min)">
+          <String Value="42" />
         </Facet>
-        <Facet Name="Duration (h:m:s)">
-          <String Value="0:43:21" />
+        <Facet Name="Duration (min)">
+          <String Value="2" />
         </Facet>
         <Facet Name="L3ST languages: count">
           <String Value="0" />
@@ -408,11 +408,11 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
         <Facet Name="Film Reference Id">
           <String Value="TheWalk" />
         </Facet>
-        <Facet Name="Start time (h:m:s)">
-          <String Value="0:21:46" />
+        <Facet Name="Start time (min)">
+          <String Value="21" />
         </Facet>
-        <Facet Name="Duration (h:m:s)">
-          <String Value="0:23:28" />
+        <Facet Name="Duration (min)">
+          <String Value="2" />
         </Facet>
         <Facet Name="L3ST languages: count">
           <String Value="0" />
@@ -443,11 +443,11 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
         <Facet Name="Film Reference Id">
           <String Value="TheWalk" />
         </Facet>
-        <Facet Name="Start time (h:m:s)">
-          <String Value="0:12:15" />
+        <Facet Name="Start time (min)">
+          <String Value="12" />
         </Facet>
-        <Facet Name="Duration (h:m:s)">
-          <String Value="0:14:05" />
+        <Facet Name="Duration (min)">
+          <String Value="2" />
         </Facet>
         <Facet Name="L3ST languages: count">
           <String Value="2" />
@@ -485,11 +485,11 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
         <Facet Name="Film Reference Id">
           <String Value="TheWalk" />
         </Facet>
-        <Facet Name="Start time (h:m:s)">
-          <String Value="1:23:06" />
+        <Facet Name="Start time (min)">
+          <String Value="83" />
         </Facet>
-        <Facet Name="Duration (h:m:s)">
-          <String Value="1:24:24" />
+        <Facet Name="Duration (min)">
+          <String Value="2" />
         </Facet>
         <Facet Name="L3ST languages: count">
           <String Value="0" />
@@ -520,11 +520,11 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
         <Facet Name="Film Reference Id">
           <String Value="TheWalk" />
         </Facet>
-        <Facet Name="Start time (h:m:s)">
-          <String Value="0:35:43" />
+        <Facet Name="Start time (min)">
+          <String Value="35" />
         </Facet>
-        <Facet Name="Duration (h:m:s)">
-          <String Value="0:37:33" />
+        <Facet Name="Duration (min)">
+          <String Value="3" />
         </Facet>
         <Facet Name="L3ST languages: count">
           <String Value="0" />
@@ -555,11 +555,11 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
         <Facet Name="Film Reference Id">
           <String Value="TheWalk" />
         </Facet>
-        <Facet Name="Start time (h:m:s)">
-          <String Value="1:02:56" />
+        <Facet Name="Start time (min)">
+          <String Value="62" />
         </Facet>
-        <Facet Name="Duration (h:m:s)">
-          <String Value="1:04:33" />
+        <Facet Name="Duration (min)">
+          <String Value="3" />
         </Facet>
         <Facet Name="L3ST languages: count">
           <String Value="0" />
@@ -596,11 +596,11 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
         <Facet Name="Film Reference Id">
           <String Value="ToyStory3" />
         </Facet>
-        <Facet Name="Start time (h:m:s)">
-          <String Value="1:10:40" />
+        <Facet Name="Start time (min)">
+          <String Value="70" />
         </Facet>
-        <Facet Name="Duration (h:m:s)">
-          <String Value="1:10:58" />
+        <Facet Name="Duration (min)">
+          <String Value="1" />
         </Facet>
         <Facet Name="Language sources">
           <String Value="1 source, oral only" />
@@ -637,11 +637,11 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
         <Facet Name="Film Reference Id">
           <String Value="ToyStory3" />
         </Facet>
-        <Facet Name="Start time (h:m:s)">
-          <String Value="1:08:34" />
+        <Facet Name="Start time (min)">
+          <String Value="68" />
         </Facet>
-        <Facet Name="Duration (h:m:s)">
-          <String Value="1:08:43" />
+        <Facet Name="Duration (min)">
+          <String Value="1" />
         </Facet>
         <Facet Name="Language sources">
           <String Value="1 source, oral only" />
@@ -678,11 +678,11 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
         <Facet Name="Film Reference Id">
           <String Value="ToyStory3" />
         </Facet>
-        <Facet Name="Start time (h:m:s)">
-          <String Value="1:07:32" />
+        <Facet Name="Start time (min)">
+          <String Value="67" />
         </Facet>
-        <Facet Name="Duration (h:m:s)">
-          <String Value="1:08:07" />
+        <Facet Name="Duration (min)">
+          <String Value="1" />
         </Facet>
         <Facet Name="Language sources">
           <String Value="2+ onscreen sources, oral only" />
@@ -719,11 +719,11 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
         <Facet Name="Film Reference Id">
           <String Value="ToyStory3" />
         </Facet>
-        <Facet Name="Start time (h:m:s)">
-          <String Value="1:16:18" />
+        <Facet Name="Start time (min)">
+          <String Value="76" />
         </Facet>
-        <Facet Name="Duration (h:m:s)">
-          <String Value="1:16:23" />
+        <Facet Name="Duration (min)">
+          <String Value="1" />
         </Facet>
         <Facet Name="Language sources">
           <String Value="1 source, oral only" />
@@ -763,11 +763,11 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
         <Facet Name="Film Reference Id">
           <String Value="ToyStory3" />
         </Facet>
-        <Facet Name="Start time (h:m:s)">
-          <String Value="1:11:10" />
+        <Facet Name="Start time (min)">
+          <String Value="71" />
         </Facet>
-        <Facet Name="Duration (h:m:s)">
-          <String Value="1:11:19" />
+        <Facet Name="Duration (min)">
+          <String Value="1" />
         </Facet>
         <Facet Name="Language sources">
           <String Value="Combined: on &amp; off screen oral" />
@@ -804,11 +804,11 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
         <Facet Name="Film Reference Id">
           <String Value="ToyStory3" />
         </Facet>
-        <Facet Name="Start time (h:m:s)">
-          <String Value="1:15:24" />
+        <Facet Name="Start time (min)">
+          <String Value="75" />
         </Facet>
-        <Facet Name="Duration (h:m:s)">
-          <String Value="1:15:27" />
+        <Facet Name="Duration (min)">
+          <String Value="1" />
         </Facet>
         <Facet Name="Language sources">
           <String Value="1 source, oral only" />
@@ -845,11 +845,11 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
         <Facet Name="Film Reference Id">
           <String Value="ToyStory3" />
         </Facet>
-        <Facet Name="Start time (h:m:s)">
-          <String Value="1:11:50" />
+        <Facet Name="Start time (min)">
+          <String Value="72" />
         </Facet>
-        <Facet Name="Duration (h:m:s)">
-          <String Value="1:11:53" />
+        <Facet Name="Duration (min)">
+          <String Value="1" />
         </Facet>
         <Facet Name="Language sources">
           <String Value="1 source, oral only" />

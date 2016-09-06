@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: conversation\metadata\default.aspx
-Version: 20160902
+Version: 20160906
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -104,12 +104,12 @@ Version: 20160902
         <%-- IConversationMetadata --%>
 
         <div class="question">
-          <div class="label">4. Conversation Start Time (h:m:s)</div>
+          <div class="label">4. Conversation Start Time (min)</div>
           <asp:TextBox ID="txtStartTime" runat="server" Columns="25"></asp:TextBox>
         </div>
 
         <div class="question">
-          <div class="label">5. Conversation Duration (h:m:s)</div>
+          <div class="label">5. Conversation Duration (min)</div>
           <asp:TextBox ID="txtDuration" runat="server" Columns="25"></asp:TextBox>
         </div>
         

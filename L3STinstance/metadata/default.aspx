@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: L3STinstance\metadata\default.aspx
-Version: 20160902
+Version: 20160906
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -126,13 +126,13 @@ Version: 20160902
 
 
         <div class="question">
-          <div class="label">4. L3ST-instance Start Time (h:m:s)</div>
+          <div class="label">4. L3ST-instance Start Time (min)</div>
           <div class="tip">What part of the film is L3ST in? (i.e. how many minutes and seconds from the start)</div>
           <asp:TextBox ID="txtStartTime" runat="server" Columns="25"></asp:TextBox>
         </div>
 
         <div class="question">
-          <div class="label">5. L3ST-instance Duration (h:m:s)</div>
+          <div class="label">5. L3ST-instance Duration (min)</div>
           <div class="tip">How long does L3ST last? (if the L3ST is interrupted by other speech, count total seconds from onset to end of final L3ST-instance)</div>
           <asp:TextBox ID="txtDuration" runat="server" Columns="25"></asp:TextBox>
         </div>

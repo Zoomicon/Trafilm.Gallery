@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: L3STinstance\metadata\default.aspx.cs
-//Version: 20160902
+//Version: 20160906
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -143,8 +143,8 @@ namespace Trafilm.Gallery
       UI.Load(listFilms, metadata.FilmReferenceId);
       UI.Load(listConversations, metadata.ConversationReferenceId);
 
-      UI.Load(txtStartTime, metadata.StartTime.ToString(L3STinstanceMetadata.DEFAULT_POSITION_FORMAT));
-      UI.Load(txtDuration, metadata.Duration.ToString(L3STinstanceMetadata.DEFAULT_DURATION_FORMAT));
+      UI.Load(txtStartTime, metadata.StartTime.ToString());
+      UI.Load(txtDuration, metadata.Duration.ToString());
 
       UI.Load(lblL1language, metadata.L1language);
 
@@ -212,8 +212,8 @@ namespace Trafilm.Gallery
       metadata.FilmReferenceId = filmReferenceId;
       metadata.ConversationReferenceId = conversationReferenceId;
 
-      metadata.StartTime = txtStartTime.Text.ToNullableTimeSpan(L3STinstanceMetadata.DEFAULT_POSITION_FORMAT);
-      metadata.Duration = txtDuration.Text.ToNullableTimeSpan(L3STinstanceMetadata.DEFAULT_DURATION_FORMAT);
+      metadata.StartTime = txtStartTime.Text.ToNullableInt();
+      metadata.Duration = txtDuration.Text.ToNullableInt();
 
       metadata.L3STlanguageType = listL3STlanguageType.SelectedValue;
       metadata.L3STlanguage = txtL3STlanguage.Text;

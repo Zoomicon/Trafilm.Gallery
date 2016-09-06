@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: film\metadata\default.aspx.cs
-//Version: 20160902
+//Version: 20160906
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -138,7 +138,7 @@ namespace Trafilm.Gallery
       UI.Load(txtTitle_ca, metadata.Title_ca);
       //...
 
-      UI.Load(txtDuration, metadata.Duration.ToString(FilmMetadata.DEFAULT_DURATION_FORMAT));
+      UI.Load(txtDuration, metadata.Duration.ToString());
 
       UI.Load(txtDirectors, metadata.Directors);
       UI.Load(txtScriptwriters, metadata.Scriptwriters);
@@ -159,7 +159,7 @@ namespace Trafilm.Gallery
       UI.LoadContent(listL2subtitledLanguages, metadata.L2subtitledLanguages);
 
       UI.Load(lblConversationCount, metadata.ConversationCount.ToString());
-      UI.Load(lblConversationsDuration, metadata.ConversationsDuration.ToString(ConversationMetadata.DEFAULT_DURATION_FORMAT));
+      UI.Load(lblConversationsDuration, metadata.ConversationsDuration.ToString());
     }
  
     #endregion
@@ -199,7 +199,7 @@ namespace Trafilm.Gallery
       metadata.Title_ca = txtTitle_ca.Text;
       //...
 
-      metadata.Duration = txtDuration.Text.ToNullableTimeSpan(FilmMetadata.DEFAULT_DURATION_FORMAT);
+      metadata.Duration = txtDuration.Text.ToNullableInt();
 
       metadata.Directors = UI.GetCommaSeparated(txtDirectors);
       metadata.Scriptwriters = UI.GetCommaSeparated(txtScriptwriters);

@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: film\metadata\default.aspx
-Version: 20160902
+Version: 20160906
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -113,7 +113,7 @@ Version: 20160902
 
 
         <div class="question">
-          <div class="label">4. Film duration (h:m:s)</div>
+          <div class="label">4. Film duration (min)</div>
           <div class="tip">How long does the film last? (in hours:minutes:seconds)</div>
           <asp:TextBox ID="txtDuration" runat="server"></asp:TextBox>
         </div>
@@ -195,7 +195,7 @@ Version: 20160902
         <%-- Calculated from Conversations --%>
         
         <div>
-          <div class="label">Conversations' duration (h:m:s) (Calculated from Conversations)</div>
+          <div class="label">Conversations' duration (min) (Calculated from Conversations)</div>
           <asp:Label ID="lblConversationsDuration" runat="server"></asp:Label>
         </div>                            
 

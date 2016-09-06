@@ -3,8 +3,8 @@
     <FacetCategories>
         <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="false" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
-        <FacetCategory Name="Start time (h:m:s)" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
-        <FacetCategory Name="Duration (h:m:s)" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
+        <FacetCategory Name="Start time (min)" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
+        <FacetCategory Name="Duration (min)" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
         <FacetCategory Name="Language sources" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="L3ST languages: count" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
         <FacetCategory Name="L3ST languages" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
@@ -22,8 +22,8 @@
         <Item Id="Django Unchained.Slave speaks a little German" Name="Slave speaks a little German" Img="#0" Href="http://gallery.trafilm.net/conversation/metadata/?film=Django Unchained&amp;conversation=Django Unchained.Slave speaks a little German">
             <Description>Brunhida is introduced to Schultz and shown off by her owner to speak a little German. She tells the slave to "speak a little German"</Description>
             <Facets>
-                <Facet Name="Duration (h:m:s)">
-                    <String Value="0:00:11" />
+                <Facet Name="Duration (min)">
+                    <String Value="1" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="Django Unchained" />
@@ -32,7 +32,7 @@
                     <DateTime Value="2016-05-31T12:04:40" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-09-01T08:10:05" />
+                    <DateTime Value="2016-09-06T01:27:40" />
                 </Facet>
                 <Facet Name="L3ST language types">
                     <String Value="Real" />
@@ -56,8 +56,8 @@
                 <Facet Name="Reference Id">
                     <String Value="Django Unchained.Slave speaks a little German" />
                 </Facet>
-                <Facet Name="Start time (h:m:s)">
-                    <String Value="1:33:13" />
+                <Facet Name="Start time (min)">
+                    <String Value="93" />
                 </Facet>
                 <Facet Name="Tags">
                     <String Value="conversation opener" />
@@ -68,8 +68,8 @@
         <Item Id="FellowshipOfTheRing.Rivendell_AragornArwen" Name="FellowshipOfTheRing.Rivendell_AragornArwen" Img="#1" Href="http://gallery.trafilm.net/conversation/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Rivendell_AragornArwen">
             <Description>The scene consists in a love scene between Aragorn and Arwen in Rivendell. </Description>
             <Facets>
-                <Facet Name="Duration (h:m:s)">
-                    <String Value="1:33:07" />
+                <Facet Name="Duration (min)">
+                    <String Value="2" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="FellowshipOfTheRing" />
@@ -108,8 +108,8 @@
                 <Facet Name="Remarks">
                     <String Value="The clip combines English as an L1 with Elvish, an invented language, as L3. " />
                 </Facet>
-                <Facet Name="Start time (h:m:s)">
-                    <String Value="1:31:15" />
+                <Facet Name="Start time (min)">
+                    <String Value="91" />
                 </Facet>
                 <Facet Name="Tags">
                     <String Value="Aragorn" />
@@ -126,8 +126,8 @@
             <Description>Jamie proposes to Aurelia in Portuguese.
 Available at https://www.youtube.com/watch?v=MXslFb_cdG4</Description>
             <Facets>
-                <Facet Name="Duration (h:m:s)">
-                    <String Value="0:03:27" />
+                <Facet Name="Duration (min)">
+                    <String Value="3" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="LoveActually" />
@@ -167,8 +167,8 @@ Available at https://www.youtube.com/watch?v=MXslFb_cdG4</Description>
 Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
 </Description>
             <Facets>
-                <Facet Name="Duration (h:m:s)">
-                    <String Value="0:03:49" />
+                <Facet Name="Duration (min)">
+                    <String Value="3" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="LoveActually" />
@@ -246,8 +246,8 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
         <Item Id="OceansEleven.ExplainingThePlan" Name="Ocean's Eleven - Explaining the plan" Img="#5" Href="http://gallery.trafilm.net/conversation/metadata/?film=OceansEleven&amp;conversation=OceansEleven.ExplainingThePlan">
             <Description>They are explaining the plan and the Chinese asks a question. Rusty responds.</Description>
             <Facets>
-                <Facet Name="Duration (h:m:s)">
-                    <String Value="0:04:00" />
+                <Facet Name="Duration (min)">
+                    <String Value="4" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="OceansEleven" />
@@ -279,15 +279,15 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                 <Facet Name="Reference Id">
                     <String Value="OceansEleven.ExplainingThePlan" />
                 </Facet>
-                <Facet Name="Start time (h:m:s)">
-                    <String Value="0:32:06" />
+                <Facet Name="Start time (min)">
+                    <String Value="32" />
                 </Facet>
             </Facets>
         </Item>
         <Item Id="TheWalk.GettingAnInterphone" Name="TheWalk.GettingAnInterphone" Img="#6" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.GettingAnInterphone">
             <Facets>
-                <Facet Name="Duration (h:m:s)">
-                    <String Value="0:51:36" />
+                <Facet Name="Duration (min)">
+                    <String Value="2" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="TheWalk" />
@@ -313,15 +313,15 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                 <Facet Name="Reference Id">
                     <String Value="TheWalk.GettingAnInterphone" />
                 </Facet>
-                <Facet Name="Start time (h:m:s)">
-                    <String Value="0:50:25" />
+                <Facet Name="Start time (min)">
+                    <String Value="50" />
                 </Facet>
             </Facets>
         </Item>
         <Item Id="TheWalk.MeetingAnnie" Name="TheWalk.MeetingAnnie" Img="#7" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingAnnie">
             <Facets>
-                <Facet Name="Duration (h:m:s)">
-                    <String Value="0:19:04" />
+                <Facet Name="Duration (min)">
+                    <String Value="3" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="TheWalk" />
@@ -347,15 +347,15 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                 <Facet Name="Reference Id">
                     <String Value="TheWalk.MeetingAnnie" />
                 </Facet>
-                <Facet Name="Start time (h:m:s)">
-                    <String Value="0:16:02" />
+                <Facet Name="Start time (min)">
+                    <String Value="16" />
                 </Facet>
             </Facets>
         </Item>
         <Item Id="TheWalk.MeetingJean-François" Name="TheWalk.MeetingJean-François" Img="#8" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingJean-François">
             <Facets>
-                <Facet Name="Duration (h:m:s)">
-                    <String Value="0:43:21" />
+                <Facet Name="Duration (min)">
+                    <String Value="2" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="TheWalk" />
@@ -381,15 +381,15 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                 <Facet Name="Reference Id">
                     <String Value="TheWalk.MeetingJean-François" />
                 </Facet>
-                <Facet Name="Start time (h:m:s)">
-                    <String Value="0:42:05" />
+                <Facet Name="Start time (min)">
+                    <String Value="42" />
                 </Facet>
             </Facets>
         </Item>
         <Item Id="TheWalk.MeetingJean-Louis" Name="TheWalk.MeetingJean-Louis" Img="#9" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingJean-Louis">
             <Facets>
-                <Facet Name="Duration (h:m:s)">
-                    <String Value="0:23:28" />
+                <Facet Name="Duration (min)">
+                    <String Value="2" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="TheWalk" />
@@ -415,15 +415,15 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                 <Facet Name="Reference Id">
                     <String Value="TheWalk.MeetingJean-Louis" />
                 </Facet>
-                <Facet Name="Start time (h:m:s)">
-                    <String Value="0:21:46" />
+                <Facet Name="Start time (min)">
+                    <String Value="21" />
                 </Facet>
             </Facets>
         </Item>
         <Item Id="TheWalk.MeetingPapaRudy" Name="TheWalk.MeetingPapaRudy" Img="#10" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingPapaRudy">
             <Facets>
-                <Facet Name="Duration (h:m:s)">
-                    <String Value="0:14:05" />
+                <Facet Name="Duration (min)">
+                    <String Value="2" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="TheWalk" />
@@ -456,15 +456,15 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                 <Facet Name="Reference Id">
                     <String Value="TheWalk.MeetingPapaRudy" />
                 </Facet>
-                <Facet Name="Start time (h:m:s)">
-                    <String Value="0:12:15" />
+                <Facet Name="Start time (min)">
+                    <String Value="12" />
                 </Facet>
             </Facets>
         </Item>
         <Item Id="TheWalk.OnTheRoof" Name="TheWalk.OnTheRoof" Img="#11" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.OnTheRoof">
             <Facets>
-                <Facet Name="Duration (h:m:s)">
-                    <String Value="1:24:24" />
+                <Facet Name="Duration (min)">
+                    <String Value="2" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="TheWalk" />
@@ -490,15 +490,15 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                 <Facet Name="Reference Id">
                     <String Value="TheWalk.OnTheRoof" />
                 </Facet>
-                <Facet Name="Start time (h:m:s)">
-                    <String Value="1:23:06" />
+                <Facet Name="Start time (min)">
+                    <String Value="83" />
                 </Facet>
             </Facets>
         </Item>
         <Item Id="TheWalk.PlanningTheCoup" Name="TheWalk.PlanningTheCoup" Img="#12" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.PlanningTheCoup">
             <Facets>
-                <Facet Name="Duration (h:m:s)">
-                    <String Value="0:37:33" />
+                <Facet Name="Duration (min)">
+                    <String Value="3" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="TheWalk" />
@@ -524,15 +524,15 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                 <Facet Name="Reference Id">
                     <String Value="TheWalk.PlanningTheCoup" />
                 </Facet>
-                <Facet Name="Start time (h:m:s)">
-                    <String Value="0:35:43" />
+                <Facet Name="Start time (min)">
+                    <String Value="35" />
                 </Facet>
             </Facets>
         </Item>
         <Item Id="TheWalk.TwinTowers" Name="TheWalk.TwinTowers" Img="#13" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.TwinTowers">
             <Facets>
-                <Facet Name="Duration (h:m:s)">
-                    <String Value="1:04:33" />
+                <Facet Name="Duration (min)">
+                    <String Value="3" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="TheWalk" />
@@ -558,15 +558,15 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                 <Facet Name="Reference Id">
                     <String Value="TheWalk.TwinTowers" />
                 </Facet>
-                <Facet Name="Start time (h:m:s)">
-                    <String Value="1:02:56" />
+                <Facet Name="Start time (min)">
+                    <String Value="62" />
                 </Facet>
             </Facets>
         </Item>
         <Item Id="ToyStory3.Buzzdances" Name="ToyStory3.Buzzdances" Img="#14" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzdances">
             <Facets>
-                <Facet Name="Duration (h:m:s)">
-                    <String Value="1:10:58" />
+                <Facet Name="Duration (min)">
+                    <String Value="1" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="ToyStory3" />
@@ -598,8 +598,8 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                 <Facet Name="Remarks">
                     <String Value="Buzz baila al ritmo de música flamenca, condicionando la solución de L3 en el TM." />
                 </Facet>
-                <Facet Name="Start time (h:m:s)">
-                    <String Value="1:10:40" />
+                <Facet Name="Start time (min)">
+                    <String Value="70" />
                 </Facet>
                 <Facet Name="Transcription">
                     <String Value="BUZZ: Venga conmigo, señorita. Le enseñaré las maravillas de la galaxia. Y juntos, con nuestro amor, venceremos al mal.&#xD;&#xA;JESSIE: Woody!&#xD;&#xA;WOODY: Come on, we're almost there.&#xD;&#xA;BUZZ: ¡El vaquero!" />
@@ -608,8 +608,8 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
         </Item>
         <Item Id="ToyStory3.Buzzfallsinlove" Name="ToyStory3.Buzzfallsinlove" Img="#15" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzfallsinlove">
             <Facets>
-                <Facet Name="Duration (h:m:s)">
-                    <String Value="1:08:43" />
+                <Facet Name="Duration (min)">
+                    <String Value="1" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="ToyStory3" />
@@ -638,8 +638,8 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                 <Facet Name="Reference Id">
                     <String Value="ToyStory3.Buzzfallsinlove" />
                 </Facet>
-                <Facet Name="Start time (h:m:s)">
-                    <String Value="1:08:34" />
+                <Facet Name="Start time (min)">
+                    <String Value="68" />
                 </Facet>
                 <Facet Name="Transcription">
                     <String Value="BUZZ: Mi florecilla del desierto. Yo nunca había visto la verdadera belleza hasta esta noche.&#xD;&#xA;JESSIE: Did you fix Buzz?&#xD;&#xA;HAMM: Eh... Sort of." />
@@ -648,8 +648,8 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
         </Item>
         <Item Id="ToyStory3.Buzzgetsreset" Name="ToyStory3.Buzzgetsreset" Img="#16" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzgetsreset">
             <Facets>
-                <Facet Name="Duration (h:m:s)">
-                    <String Value="1:08:07" />
+                <Facet Name="Duration (min)">
+                    <String Value="1" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="ToyStory3" />
@@ -678,8 +678,8 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                 <Facet Name="Reference Id">
                     <String Value="ToyStory3.Buzzgetsreset" />
                 </Facet>
-                <Facet Name="Start time (h:m:s)">
-                    <String Value="1:07:32" />
+                <Facet Name="Start time (min)">
+                    <String Value="67" />
                 </Facet>
                 <Facet Name="Transcription">
                     <String Value="BUZZ: Bitácora espacial. Me he despertado del hipersueño en un planeta extraño.&#xD;&#xA;WOODY: Now what did you do?&#xD;&#xA;REX: I just did what you told me.&#xD;&#xA;BUZZ: Estoy rodeado por criaturas extrañas y desconozco sus intenciones. ¿Quién anda ahí? ¿Amigo, o enemigo?&#xD;&#xA;WOODY: Uh... Amigos, we're all amigos.&#xD;&#xA;BUZZ: Me debo de haber estrellado y se me ha borrado la memoria. ¿Han visto mi nave espacial?&#xD;&#xA;WOODY: We got to switch him back.&#xD;&#xA;SLINKY: Well, how do we do that?&#xD;&#xA;HAMM: I don't know. That part's in Spanish.&#xD;&#xA;WOODY: We don't have time for this. Come on, El Buzzo.&#xD;&#xA;BUZZ: ¿Mi nave? ¿La encontraste? ¡Excelente!" />
@@ -688,8 +688,8 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
         </Item>
         <Item Id="ToyStory3.BuzzlooksforJessie" Name="ToyStory3.BuzzlooksforJessie" Img="#17" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.BuzzlooksforJessie">
             <Facets>
-                <Facet Name="Duration (h:m:s)">
-                    <String Value="1:16:23" />
+                <Facet Name="Duration (min)">
+                    <String Value="1" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="ToyStory3" />
@@ -718,8 +718,8 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                 <Facet Name="Reference Id">
                     <String Value="ToyStory3.BuzzlooksforJessie" />
                 </Facet>
-                <Facet Name="Start time (h:m:s)">
-                    <String Value="1:16:18" />
+                <Facet Name="Start time (min)">
+                    <String Value="76" />
                 </Facet>
                 <Facet Name="Transcription">
                     <String Value="BUZZ: ¡Señorita, señorita! ¿Dónde está?&#xD;&#xA;JESSIE: ¡Buzz!&#xD;&#xA;BUZZ: ¡Señorita!" />
@@ -728,8 +728,8 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
         </Item>
         <Item Id="ToyStory3.Buzzopensgate" Name="ToyStory3.Buzzopensgate" Img="#18" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzopensgate">
             <Facets>
-                <Facet Name="Duration (h:m:s)">
-                    <String Value="1:11:19" />
+                <Facet Name="Duration (min)">
+                    <String Value="1" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="ToyStory3" />
@@ -761,8 +761,8 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                 <Facet Name="Remarks">
                     <String Value="Buzz baila al ritmo de música flamenca, condicionando la solución de L3 en el TM." />
                 </Facet>
-                <Facet Name="Start time (h:m:s)">
-                    <String Value="1:11:10" />
+                <Facet Name="Start time (min)">
+                    <String Value="71" />
                 </Facet>
                 <Facet Name="Transcription">
                     <String Value="BUZZ: (OFF) ¡Buzz lightyear al rescate! (ON) Abierto." />
@@ -771,8 +771,8 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
         </Item>
         <Item Id="ToyStory3.Buzzscape" Name="ToyStory3.Woodyfalls" Img="#19" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzscape">
             <Facets>
-                <Facet Name="Duration (h:m:s)">
-                    <String Value="1:15:27" />
+                <Facet Name="Duration (min)">
+                    <String Value="1" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="ToyStory3" />
@@ -801,8 +801,8 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                 <Facet Name="Reference Id">
                     <String Value="ToyStory3.Buzzscape" />
                 </Facet>
-                <Facet Name="Start time (h:m:s)">
-                    <String Value="1:15:24" />
+                <Facet Name="Start time (min)">
+                    <String Value="75" />
                 </Facet>
                 <Facet Name="Transcription">
                     <String Value="WOODY: Ah, for crying out loud!&#xD;&#xA;BUZZ: ¡Vamos, vaquero!" />
@@ -811,8 +811,8 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
         </Item>
         <Item Id="ToyStory3.Buzzspaceship" Name="ToyStory3.Buzzspaceship" Img="#20" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzspaceship">
             <Facets>
-                <Facet Name="Duration (h:m:s)">
-                    <String Value="1:11:53" />
+                <Facet Name="Duration (min)">
+                    <String Value="1" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="ToyStory3" />
@@ -841,8 +841,8 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                 <Facet Name="Reference Id">
                     <String Value="ToyStory3.Buzzspaceship" />
                 </Facet>
-                <Facet Name="Start time (h:m:s)">
-                    <String Value="1:11:50" />
+                <Facet Name="Start time (min)">
+                    <String Value="72" />
                 </Facet>
                 <Facet Name="Transcription">
                     <String Value="BUZZ: ¿Dónde está mi nave?&#xD;&#xA;WOODY: Almost there, guys." />
