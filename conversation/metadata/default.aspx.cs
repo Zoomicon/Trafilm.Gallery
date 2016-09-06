@@ -102,11 +102,13 @@ namespace Trafilm.Gallery
 
       //ICXMLMetadata//
 
+      /*
       //Ignoring the Id field, since some Pivot Tools expect it to be sequential
       UI.Load(txtTitle, metadata.Title);
       UI.Load(txtImageUrl, metadata.Image);
       UI.Load(linkUrl, GetConversationUri(metadata.FilmReferenceId, key));
       UI.Load(txtDescription, metadata.Description);
+      */
 
       //ITrafilmMetadata//
 
@@ -117,29 +119,34 @@ namespace Trafilm.Gallery
 
       UI.LoadContent(listMetadataEditors, metadata.MetadataEditors);
 
+      /*
       UI.Load(txtTranscription, metadata.Transcription);
 
       UI.Load(txtTags, metadata.Tags);
 
       UI.Load(txtRemarks, metadata.Remarks);
+      */
 
       //IConversation//
 
       UI.Load(listFilms, metadata.FilmReferenceId);
 
+      /*
       UI.Load(txtStartTime, metadata.StartTime.ToString());
       UI.Load(txtDuration, metadata.Duration.ToString());
 
       UI.Load(listLanguageSources, metadata.LanguageSources);
+      */
 
       //Calculated properties//
 
+      /*
       UI.Load(lblL3languagesCount, metadata.L3STlanguagesCount.ToString());
       UI.LoadContent(listL3languages, metadata.L3STlanguages); //do not use Load, use LoadContent to add values, not select them
 
       UI.Load(lblL3languageTypesCount, metadata.L3STlanguageTypesCount.ToString());
       UI.LoadContent(listL3languageTypes, metadata.L3STlanguageTypes); //do not use Load, use LoadContent to add values, not select them
-
+      */
       UI.Load(lblL3STinstanceCount, metadata.L3STinstanceCount.ToString());
     }
 
@@ -155,10 +162,12 @@ namespace Trafilm.Gallery
 
       //ICXMLMetadata//
 
+      /*
       metadata.Title = txtTitle.Text;
       metadata.Image = txtImageUrl.Text;
       metadata.Url = GetConversationUri(filmReferenceId, key);
       metadata.Description = txtDescription.Text;
+      */
 
       //ITrafilmMetadata//
 
@@ -169,20 +178,24 @@ namespace Trafilm.Gallery
 
       metadata.MetadataEditors = UI.GetContent(listMetadataEditors);
 
+      /*
       metadata.Transcription = txtTranscription.Text;
 
       metadata.Tags = UI.GetCommaSeparated(txtTags);
 
       metadata.Remarks = txtRemarks.Text;
+      */
 
       //IConversation//
 
       metadata.FilmReferenceId = filmReferenceId;
 
+      /*
       metadata.StartTime = txtStartTime.Text.ToNullableInt();
       metadata.Duration = txtDuration.Text.ToNullableInt();
 
       metadata.LanguageSources = listLanguageSources.SelectedValue;
+      */
 
       //Calculated properties//
 

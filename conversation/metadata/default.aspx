@@ -82,6 +82,7 @@ Version: 20160906
 
         <%-- ICXMLMetadata--%>
 
+        <%--
         <div class="question">
           <div class="label">1. Conversation Title</div>
           <asp:TextBox ID="txtTitle" runat="server" Columns="150"></asp:TextBox>
@@ -94,15 +95,18 @@ Version: 20160906
 
         <div class="label">Conversation URL</div>
         <asp:HyperLink ID="linkUrl" runat="server" Target="_blank" />
-    
+
+
         <div class="question">
           <div class="label">3. Image URL</div>
           <asp:TextBox ID="txtImageUrl" runat="server" Columns="150"></asp:TextBox>
-        </div>   
+        </div>
+        --%>
 
 
         <%-- IConversationMetadata --%>
 
+        <%--
         <div class="question">
           <div class="label">4. Conversation Start Time (min)</div>
           <asp:TextBox ID="txtStartTime" runat="server" Columns="25"></asp:TextBox>
@@ -121,10 +125,11 @@ Version: 20160906
             DataSourceID="xmlLanguageSources" DataTextField="Title" DataValueField="Value"
             />
         </div>
-        
+        --%>
 
         <%-- Calculated from L3STinstances --%>
 
+        <%--
         <div>
           <div class="label">L3ST languages: count (Calculated from L3ST-instances)</div>
           <div class="tip">Count of L3ST languages in Conversation</div>
@@ -152,17 +157,18 @@ Version: 20160906
           <asp:Panel runat="server" ScrollBars="Auto">
             <asp:ListBox ID="listL3languageTypes" runat="server" Enabled="false" />
            </asp:Panel>
-        </div>            
-
+        </div>
+        --%>
 
         <div>
           <div class="label">Count of L3ST-instances (Calculated)</div>
           <asp:Label ID="lblL3STinstanceCount" runat="server"></asp:Label>
-        </div>    
+        </div>
         
 
-        <%-- ITrafilmMetadata --%>
+        <%-- ITrafilmMetadata (1/2) --%>
 
+        <%--
         <div class="question">
           <div class="label">7. Transcription </div>
           <div class="tip">Transcription for the specific conversation</div>
@@ -180,22 +186,7 @@ Version: 20160906
           <div class="tip">Issues concerning the analysis or the metadata form design</div>
           <asp:TextBox ID="txtRemarks" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
         </div>
-
-
-        <div>
-          <span class="label">Info created: </span>
-          <asp:Label ID="lblInfoCreated" runat="server" />
-
-          <span class="label"> - Info Updated: </span>
-          <asp:Label ID="lblInfoUpdated" runat="server" />
-        </div>
-
-        <div>
-          <div class="label">Metadata Editors</div>
-          <asp:Panel runat="server" ScrollBars="Auto" Style="max-height: 100px">
-            <asp:ListBox ID="listMetadataEditors" runat="server" Enabled="false" />
-           </asp:Panel>
-        </div>
+        --%>
 
 
         <%-- SAVE BUTTON --%>
@@ -208,7 +199,7 @@ Version: 20160906
             height="50"
             OnClick="btnSave_Click"
             />
-          <br />
+          <br /><br />
         </asp:Panel>
 
         
@@ -223,6 +214,24 @@ Version: 20160906
               <a href="../../L3STinstance/metadata/?film=<%#Eval("filmId")%>&conversation=<%#Eval("conversationId")%>&L3STinstance=<%#Eval("L3STinstanceId")%>"><%#Eval("L3STinstanceId")%></a>&nbsp;&nbsp;
             </ItemTemplate>
           </asp:Repeater>
+        </div>
+
+
+        <%-- ITrafilmMetadata (2/2) --%>
+
+        <div style="visibility:hidden">
+          <span class="label">Info created: </span>
+          <asp:Label ID="lblInfoCreated" runat="server" />
+
+          <span class="label"> - Info Updated: </span>
+          <asp:Label ID="lblInfoUpdated" runat="server" />
+        </div>
+
+        <div style="visibility:hidden">
+          <div class="label">Metadata Editors</div>
+          <asp:Panel runat="server" ScrollBars="Auto" Style="max-height: 100px">
+            <asp:ListBox ID="listMetadataEditors" runat="server" Enabled="false" />
+           </asp:Panel>
         </div>
 
 
