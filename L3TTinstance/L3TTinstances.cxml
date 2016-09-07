@@ -305,10 +305,11 @@
           <DateTime Value="2016-06-16T05:27:49" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-16T05:44:41" />
+          <DateTime Value="2016-09-07T07:52:53" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="miquelpt" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="FellowshipOfTheRing" />
@@ -367,7 +368,13 @@
         <Facet Name="L3ST language type change">
           <String Value="None" />
         </Facet>
+        <Facet Name="L3ST mode change">
+          <String Value="None" />
+        </Facet>
         <Facet Name="L3ST functions change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="Types/features related to L3ST change">
           <String Value="None" />
         </Facet>
         <Facet Name="L3ST sources change">
