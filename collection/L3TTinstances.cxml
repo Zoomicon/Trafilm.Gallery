@@ -304,7 +304,7 @@
                     <DateTime Value="2016-06-16T05:27:49" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-06-16T05:44:41" />
+                    <DateTime Value="2016-09-07T07:52:53" />
                 </Facet>
                 <Facet Name="L2 language">
                     <String Value="Spanish" />
@@ -322,6 +322,9 @@
                     <String Value="None" />
                 </Facet>
                 <Facet Name="L3ST language type change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3ST mode change">
                     <String Value="None" />
                 </Facet>
                 <Facet Name="L3ST sources change">
@@ -363,6 +366,7 @@
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="miquelpt" />
+                    <String Value="George" />
                 </Facet>
                 <Facet Name="Quality of L3TT speaker performance">
                     <String Value="native or proficient" />
@@ -372,6 +376,9 @@
                 </Facet>
                 <Facet Name="Transcription">
                     <String Value="Arwen: Renich i lú i erui govannem? [SUB: ¿Te acuerdas del día / que nos conocimos?]&#xD;&#xA;Aragorn: Nauthannen i ned ôl reniannen. [SUB: Pensé que me había perdido / en un sueño.]&#xD;&#xA;Arwen: Gwennnin in enninath. Ú-arnech in naeth i si celich. Renich i beth i pennen? [SUB: Largos años han pasado.&#xD;&#xA;Largos años han pasado. SUB: No tenías las preocupaciones que soportas ahora. SUB: ¿Te acuerdas de lo que dije?]&#xD;&#xA;&#xD;&#xA;Aragorn: Dijiste que acabarías uniéndote a mí, renunciando a la vida inmortal, propia de tu pueblo.&#xD;&#xA;Arwen: Y lo sigo diciendo. Antes compartiría una vida contigo que enfrentarme a todas las Edades de este mundo sola. Elijo una vida mortal. &#xD;&#xA;" />
+                </Facet>
+                <Facet Name="Types/features related to L3ST change">
+                    <String Value="None" />
                 </Facet>
             </Facets>
         </Item>

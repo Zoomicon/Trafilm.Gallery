@@ -106,7 +106,9 @@ namespace Trafilm.Gallery
       //Ignoring the Id field, since some Pivot Tools expect it to be sequential
       UI.Load(txtTitle, metadata.Title);
       UI.Load(txtImageUrl, metadata.Image);
+      */
       UI.Load(linkUrl, GetConversationUri(metadata.FilmReferenceId, key));
+      /*
       UI.Load(txtDescription, metadata.Description);
       */
 
@@ -131,10 +133,10 @@ namespace Trafilm.Gallery
 
       UI.Load(listFilms, metadata.FilmReferenceId);
 
-      /*
       UI.Load(txtStartTime, metadata.StartTime.ToString());
       UI.Load(txtDuration, metadata.Duration.ToString());
 
+      /*
       UI.Load(listLanguageSources, metadata.LanguageSources);
       */
 
@@ -157,6 +159,8 @@ namespace Trafilm.Gallery
     public IConversation GetMetadataFromUI()
     {
       IConversation metadata = new Conversation();
+      metadata.Clear(); /* using this since we have removed UI elements (needed for facets to get default values) */
+
       string key = listConversations.SelectedValue;
       string filmReferenceId = listFilms.SelectedValue;
 
@@ -165,7 +169,9 @@ namespace Trafilm.Gallery
       /*
       metadata.Title = txtTitle.Text;
       metadata.Image = txtImageUrl.Text;
+      */
       metadata.Url = GetConversationUri(filmReferenceId, key);
+      /*
       metadata.Description = txtDescription.Text;
       */
 
@@ -190,10 +196,10 @@ namespace Trafilm.Gallery
 
       metadata.FilmReferenceId = filmReferenceId;
 
-      /*
       metadata.StartTime = txtStartTime.Text.ToNullableInt();
       metadata.Duration = txtDuration.Text.ToNullableInt();
-
+      
+      /*
       metadata.LanguageSources = listLanguageSources.SelectedValue;
       */
 
