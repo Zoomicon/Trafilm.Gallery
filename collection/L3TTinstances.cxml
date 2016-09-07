@@ -21,10 +21,12 @@
         <FacetCategory Name="L3TT merely represented orally" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="L3TT represented: visual" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="L3TT functions" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
+        <FacetCategory Name="Types/features related to L3TT" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="L3TT sources" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="L3ST language type change" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="L3ST mode change" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="L3ST functions change" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
+        <FacetCategory Name="Types/features related to L3ST change" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="L3ST sources change" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="false" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="Tags" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
@@ -33,5 +35,675 @@
         <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
         <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
     </FacetCategories>
-    <Items ImgBase="L3TTinstances_deepzoom\L3TTinstances.dzc" />
+    <Items ImgBase="L3TTinstances_deepzoom\L3TTinstances.dzc">
+        <Item Id="Django Unchained.Slave speaks a little German.Slave opens conversation.Slave's ST German dubbed" Name="Django Unchained - Slave's ST German dubbed" Img="#0" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Django Unchained&amp;conversation=Django Unchained.Slave speaks a little German&amp;L3STinstance=Django Unchained.Slave speaks a little German.Slave opens conversation&amp;L3TTinstance=Django Unchained.Slave speaks a little German.Slave opens conversation.Slave's ST German dubbed">
+            <Facets>
+                <Facet Name="Conversation Reference Id">
+                    <String Value="Django Unchained.Slave speaks a little German" />
+                </Facet>
+                <Facet Name="Film Reference Id">
+                    <String Value="Django Unchained" />
+                </Facet>
+                <Facet Name="Info created">
+                    <DateTime Value="2016-06-01T07:33:31" />
+                </Facet>
+                <Facet Name="Info updated">
+                    <DateTime Value="2016-09-07T11:43:25" />
+                </Facet>
+                <Facet Name="L2 language">
+                    <String Value="Spanish" />
+                </Facet>
+                <Facet Name="L2 mode">
+                    <String Value="Dubbed" />
+                </Facet>
+                <Facet Name="L2 same as L3ST">
+                    <String Value="No" />
+                </Facet>
+                <Facet Name="L3ST conveyed as L3TT">
+                    <String Value="Yes" />
+                </Facet>
+                <Facet Name="L3ST functions change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3ST language type change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3ST mode change">
+                    <String Value="- Oral diegetic on-screen" />
+                    <String Value="+ Oral non-diegetic" />
+                </Facet>
+                <Facet Name="L3ST sources change">
+                    <String Value="- Respond interlingually: different sources " />
+                    <String Value="+ " />
+                </Facet>
+                <Facet Name="L3ST-instance Reference Id">
+                    <String Value="Django Unchained.Slave speaks a little German.Slave opens conversation" />
+                </Facet>
+                <Facet Name="L3TT functions">
+                    <String Value="Character portrayal, nonstereotypical" />
+                    <String Value="Plot (twist)" />
+                    <String Value="Signals otherness" />
+                    <String Value="Metalinguistic" />
+                </Facet>
+                <Facet Name="L3TT language">
+                    <String Value="German" />
+                </Facet>
+                <Facet Name="L3TT language type">
+                    <String Value="Real" />
+                </Facet>
+                <Facet Name="L3TT meant to be understood">
+                    <String Value="NO" />
+                </Facet>
+                <Facet Name="L3TT message required for understanding">
+                    <String Value="Yes" />
+                </Facet>
+                <Facet Name="L3TT mode, written/spoken, diegetic">
+                    <String Value="Oral non-diegetic" />
+                </Facet>
+                <Facet Name="Metadata Editors">
+                    <String Value="PatrickZabalbeascoa" />
+                    <String Value="George" />
+                </Facet>
+                <Facet Name="Quality of L3TT speaker performance">
+                    <String Value="native or proficient" />
+                </Facet>
+                <Facet Name="Reference Id">
+                    <String Value="Django Unchained.Slave speaks a little German.Slave opens conversation.Slave's ST German dubbed" />
+                </Facet>
+                <Facet Name="Types/features related to L3ST change">
+                    <String Value="None" />
+                </Facet>
+            </Facets>
+        </Item>
+        <Item Id="FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room.SpanishDub" Name="FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room.SpanishDub" Img="#1" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Rivendell_AragornArwen&amp;L3STinstance=FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room&amp;L3TTinstance=FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room.SpanishDub">
+            <Description>The instance is dubbed into Spanish.</Description>
+            <Facets>
+                <Facet Name="Conversation Reference Id">
+                    <String Value="FellowshipOfTheRing.Rivendell_AragornArwen" />
+                </Facet>
+                <Facet Name="Film Reference Id">
+                    <String Value="FellowshipOfTheRing" />
+                </Facet>
+                <Facet Name="Info created">
+                    <DateTime Value="2016-06-15T09:38:56" />
+                </Facet>
+                <Facet Name="Info updated">
+                    <DateTime Value="2016-09-02T03:20:44" />
+                </Facet>
+                <Facet Name="L2 language">
+                    <String Value="Spanish" />
+                </Facet>
+                <Facet Name="L2 mode">
+                    <String Value="Dubbed" />
+                </Facet>
+                <Facet Name="L2 same as L3ST">
+                    <String Value="No" />
+                </Facet>
+                <Facet Name="L3ST conveyed as L3TT">
+                    <String Value="Yes" />
+                </Facet>
+                <Facet Name="L3ST functions change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3ST language type change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3ST mode change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3ST sources change">
+                    <String Value="- Respond interlingually: different sources " />
+                    <String Value="+ Non-diegetic translation" />
+                </Facet>
+                <Facet Name="L3ST-instance Reference Id">
+                    <String Value="FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room" />
+                </Facet>
+                <Facet Name="L3TT constructed based on">
+                    <String Value="“from scratch”" />
+                </Facet>
+                <Facet Name="L3TT functions">
+                    <String Value="Character portrayal, stereotypical" />
+                </Facet>
+                <Facet Name="L3TT language">
+                    <String Value="Elvish" />
+                </Facet>
+                <Facet Name="L3TT language type">
+                    <String Value="Constructed (fictional)" />
+                </Facet>
+                <Facet Name="L3TT meaning decipherable">
+                    <String Value="NO" />
+                </Facet>
+                <Facet Name="L3TT meant to be understood">
+                    <String Value="NO" />
+                </Facet>
+                <Facet Name="L3TT merely represented">
+                    <String Value="NO / Not applicable" />
+                </Facet>
+                <Facet Name="L3TT message required for understanding">
+                    <String Value="Yes" />
+                </Facet>
+                <Facet Name="L3TT mode, written/spoken, diegetic">
+                    <String Value="Oral diegetic on-screen" />
+                </Facet>
+                <Facet Name="L3TT sources">
+                    <String Value="Non-diegetic translation" />
+                </Facet>
+                <Facet Name="Metadata Editors">
+                    <String Value="miquelpt" />
+                    <String Value="George" />
+                </Facet>
+                <Facet Name="Quality of L3TT speaker performance">
+                    <String Value="native or proficient" />
+                </Facet>
+                <Facet Name="Reference Id">
+                    <String Value="FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room.SpanishDub" />
+                </Facet>
+                <Facet Name="Remarks">
+                    <String Value="The dubbed Spanish version maintains the instance in the original L3 (Elvish as constructed language) but includes a translation of the instance in subtitles.   " />
+                </Facet>
+                <Facet Name="Transcription">
+                    <String Value="La Sombra no se ha cernido aún.&#xD;&#xA;&#xD;&#xA;Ni sobre ti, ni sobre mi.&#xD;&#xA;" />
+                </Facet>
+            </Facets>
+        </Item>
+        <Item Id="FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room.SpanishSub" Name="FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room.SpanishSub" Img="#2" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Rivendell_AragornArwen&amp;L3STinstance=FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room&amp;L3TTinstance=FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room.SpanishSub">
+            <Description>The instance is subtitled into Spanish.</Description>
+            <Facets>
+                <Facet Name="Conversation Reference Id">
+                    <String Value="FellowshipOfTheRing.Rivendell_AragornArwen" />
+                </Facet>
+                <Facet Name="Film Reference Id">
+                    <String Value="FellowshipOfTheRing" />
+                </Facet>
+                <Facet Name="Info created">
+                    <DateTime Value="2016-06-15T09:38:56" />
+                </Facet>
+                <Facet Name="Info updated">
+                    <DateTime Value="2016-06-16T08:49:07" />
+                </Facet>
+                <Facet Name="L2 language">
+                    <String Value="Spanish" />
+                </Facet>
+                <Facet Name="L2 mode">
+                    <String Value="Subtitled" />
+                </Facet>
+                <Facet Name="L2 same as L3ST">
+                    <String Value="No" />
+                </Facet>
+                <Facet Name="L3ST conveyed as L3TT">
+                    <String Value="No" />
+                </Facet>
+                <Facet Name="L3ST functions change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3ST language type change">
+                    <String Value="- Constructed (fictional)" />
+                    <String Value="+ No L3TT: L3-instance in L2" />
+                </Facet>
+                <Facet Name="L3ST sources change">
+                    <String Value="- Respond interlingually: different sources " />
+                    <String Value="+ Non-diegetic translation" />
+                </Facet>
+                <Facet Name="L3ST-instance Reference Id">
+                    <String Value="FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room" />
+                </Facet>
+                <Facet Name="L3TT functions">
+                    <String Value="Character portrayal, stereotypical" />
+                </Facet>
+                <Facet Name="L3TT language">
+                    <String Value="Spanish" />
+                </Facet>
+                <Facet Name="L3TT language type">
+                    <String Value="No L3TT: L3-instance in L2" />
+                </Facet>
+                <Facet Name="L3TT meaning decipherable">
+                    <String Value="NO" />
+                </Facet>
+                <Facet Name="L3TT meant to be understood">
+                    <String Value="YES, (almost) completely" />
+                </Facet>
+                <Facet Name="L3TT merely represented">
+                    <String Value="NO / Not applicable" />
+                </Facet>
+                <Facet Name="L3TT message required for understanding">
+                    <String Value="Yes" />
+                </Facet>
+                <Facet Name="L3TT mode, written/spoken, diegetic">
+                    <String Value="Written non-diegetic" />
+                </Facet>
+                <Facet Name="L3TT sources">
+                    <String Value="Non-diegetic translation" />
+                </Facet>
+                <Facet Name="Metadata Editors">
+                    <String Value="miquelpt" />
+                </Facet>
+                <Facet Name="Quality of L3TT speaker performance">
+                    <String Value="native or proficient" />
+                </Facet>
+                <Facet Name="Reference Id">
+                    <String Value="FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room.SpanishSub" />
+                </Facet>
+                <Facet Name="Remarks">
+                    <String Value="Subtitling does not show any difference in the translation of L1 and L3." />
+                </Facet>
+                <Facet Name="Transcription">
+                    <String Value="La Sombra no se ha cernido aún.&#xD;&#xA;&#xD;&#xA;Ni sobre ti, ni sobre mi.&#xD;&#xA;" />
+                </Facet>
+            </Facets>
+        </Item>
+        <Item Id="FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge.SpanishDub" Name="FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge.SpanishDub" Img="#3" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Rivendell_AragornArwen&amp;L3STinstance=FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge&amp;L3TTinstance=FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge.SpanishDub">
+            <Description>The instance is dubbed into Spanish. </Description>
+            <Facets>
+                <Facet Name="Conversation Reference Id">
+                    <String Value="FellowshipOfTheRing.Rivendell_AragornArwen" />
+                </Facet>
+                <Facet Name="Film Reference Id">
+                    <String Value="FellowshipOfTheRing" />
+                </Facet>
+                <Facet Name="Info created">
+                    <DateTime Value="2016-06-16T05:27:49" />
+                </Facet>
+                <Facet Name="Info updated">
+                    <DateTime Value="2016-06-16T05:44:41" />
+                </Facet>
+                <Facet Name="L2 language">
+                    <String Value="Spanish" />
+                </Facet>
+                <Facet Name="L2 mode">
+                    <String Value="Dubbed" />
+                </Facet>
+                <Facet Name="L2 same as L3ST">
+                    <String Value="No" />
+                </Facet>
+                <Facet Name="L3ST conveyed as L3TT">
+                    <String Value="Yes" />
+                </Facet>
+                <Facet Name="L3ST functions change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3ST language type change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3ST sources change">
+                    <String Value="- Respond interlingually: different sources " />
+                    <String Value="+ Non-diegetic translation" />
+                </Facet>
+                <Facet Name="L3ST-instance Reference Id">
+                    <String Value="FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge" />
+                </Facet>
+                <Facet Name="L3TT constructed based on">
+                    <String Value="“from scratch”" />
+                </Facet>
+                <Facet Name="L3TT functions">
+                    <String Value="Character portrayal, stereotypical" />
+                </Facet>
+                <Facet Name="L3TT language">
+                    <String Value="Elvish" />
+                </Facet>
+                <Facet Name="L3TT language type">
+                    <String Value="Constructed (fictional)" />
+                </Facet>
+                <Facet Name="L3TT meaning decipherable">
+                    <String Value="NO" />
+                </Facet>
+                <Facet Name="L3TT meant to be understood">
+                    <String Value="NO" />
+                </Facet>
+                <Facet Name="L3TT merely represented">
+                    <String Value="NO / Not applicable" />
+                </Facet>
+                <Facet Name="L3TT message required for understanding">
+                    <String Value="Yes" />
+                </Facet>
+                <Facet Name="L3TT mode, written/spoken, diegetic">
+                    <String Value="Oral diegetic on-screen" />
+                </Facet>
+                <Facet Name="L3TT sources">
+                    <String Value="Non-diegetic translation" />
+                </Facet>
+                <Facet Name="Metadata Editors">
+                    <String Value="miquelpt" />
+                </Facet>
+                <Facet Name="Quality of L3TT speaker performance">
+                    <String Value="native or proficient" />
+                </Facet>
+                <Facet Name="Reference Id">
+                    <String Value="FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge.SpanishDub" />
+                </Facet>
+                <Facet Name="Transcription">
+                    <String Value="Arwen: Renich i lú i erui govannem? [SUB: ¿Te acuerdas del día / que nos conocimos?]&#xD;&#xA;Aragorn: Nauthannen i ned ôl reniannen. [SUB: Pensé que me había perdido / en un sueño.]&#xD;&#xA;Arwen: Gwennnin in enninath. Ú-arnech in naeth i si celich. Renich i beth i pennen? [SUB: Largos años han pasado.&#xD;&#xA;Largos años han pasado. SUB: No tenías las preocupaciones que soportas ahora. SUB: ¿Te acuerdas de lo que dije?]&#xD;&#xA;&#xD;&#xA;Aragorn: Dijiste que acabarías uniéndote a mí, renunciando a la vida inmortal, propia de tu pueblo.&#xD;&#xA;Arwen: Y lo sigo diciendo. Antes compartiría una vida contigo que enfrentarme a todas las Edades de este mundo sola. Elijo una vida mortal. &#xD;&#xA;" />
+                </Facet>
+            </Facets>
+        </Item>
+        <Item Id="FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge.SpanishSub" Name="FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge.SpanishSub" Img="#4" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Rivendell_AragornArwen&amp;L3STinstance=FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge&amp;L3TTinstance=FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge.SpanishSub">
+            <Description>The instance is subtitled into Spanish. </Description>
+            <Facets>
+                <Facet Name="Conversation Reference Id">
+                    <String Value="FellowshipOfTheRing.Rivendell_AragornArwen" />
+                </Facet>
+                <Facet Name="Film Reference Id">
+                    <String Value="FellowshipOfTheRing" />
+                </Facet>
+                <Facet Name="Info created">
+                    <DateTime Value="2016-06-16T05:27:49" />
+                </Facet>
+                <Facet Name="Info updated">
+                    <DateTime Value="2016-06-16T05:48:54" />
+                </Facet>
+                <Facet Name="L2 language">
+                    <String Value="Spanish" />
+                </Facet>
+                <Facet Name="L2 mode">
+                    <String Value="Subtitled" />
+                </Facet>
+                <Facet Name="L2 same as L3ST">
+                    <String Value="No" />
+                </Facet>
+                <Facet Name="L3ST conveyed as L3TT">
+                    <String Value="Yes" />
+                </Facet>
+                <Facet Name="L3ST functions change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3ST language type change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3ST sources change">
+                    <String Value="- Respond interlingually: different sources " />
+                    <String Value="+ Non-diegetic translation" />
+                </Facet>
+                <Facet Name="L3ST-instance Reference Id">
+                    <String Value="FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge" />
+                </Facet>
+                <Facet Name="L3TT constructed based on">
+                    <String Value="“from scratch”" />
+                </Facet>
+                <Facet Name="L3TT functions">
+                    <String Value="Character portrayal, stereotypical" />
+                </Facet>
+                <Facet Name="L3TT language">
+                    <String Value="Elvish" />
+                </Facet>
+                <Facet Name="L3TT language type">
+                    <String Value="Constructed (fictional)" />
+                </Facet>
+                <Facet Name="L3TT meaning decipherable">
+                    <String Value="NO" />
+                </Facet>
+                <Facet Name="L3TT meant to be understood">
+                    <String Value="NO" />
+                </Facet>
+                <Facet Name="L3TT merely represented">
+                    <String Value="NO / Not applicable" />
+                </Facet>
+                <Facet Name="L3TT message required for understanding">
+                    <String Value="Yes" />
+                </Facet>
+                <Facet Name="L3TT mode, written/spoken, diegetic">
+                    <String Value="Oral diegetic on-screen" />
+                </Facet>
+                <Facet Name="L3TT sources">
+                    <String Value="Non-diegetic translation" />
+                </Facet>
+                <Facet Name="Metadata Editors">
+                    <String Value="miquelpt" />
+                </Facet>
+                <Facet Name="Quality of L3TT speaker performance">
+                    <String Value="native or proficient" />
+                </Facet>
+                <Facet Name="Reference Id">
+                    <String Value="FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge.SpanishSub" />
+                </Facet>
+                <Facet Name="Transcription">
+                    <String Value="Subtitles:&#xD;&#xA;&#xD;&#xA;¿Te acuerdas del día / que nos conocimos?&#xD;&#xA;Pensé que me había perdido / en un sueño.&#xD;&#xA;Largos años han pasado.&#xD;&#xA;No tenías las preocupaciones que soportas ahora. &#xD;&#xA;¿Te acuerdas de lo que dije?&#xD;&#xA;Dijiste que te unirías a mí&#xD;&#xA;renunciando a la vida inmortal&#xD;&#xA;de tu pueblo.&#xD;&#xA;Y lo mantengo.&#xD;&#xA;Antes compartiría / una vida contigo&#xD;&#xA;que enfrentarme a todas / las edades de este mundo sola.&#xD;&#xA;Elijo una vida mortal." />
+                </Facet>
+            </Facets>
+        </Item>
+        <Item Id="LoveActually.JamieProposesToAurelia.Aurelia's sister.SpanishSub" Name="LoveActually - Jamie proposes to Aurelia - Aurelia's sister - Spanish Sub" Img="#5" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia&amp;L3STinstance=LoveActually.JamieProposesToAurelia.Aurelia's sister&amp;L3TTinstance=LoveActually.JamieProposesToAurelia.Aurelia's sister.SpanishSub">
+            <Facets>
+                <Facet Name="Conversation Reference Id">
+                    <String Value="LoveActually.JamieProposesToAurelia" />
+                </Facet>
+                <Facet Name="Film Reference Id">
+                    <String Value="LoveActually" />
+                </Facet>
+                <Facet Name="Info created">
+                    <DateTime Value="2016-06-15T03:00:07" />
+                </Facet>
+                <Facet Name="Info updated">
+                    <DateTime Value="2016-09-04T09:19:57" />
+                </Facet>
+                <Facet Name="L3ST functions change">
+                    <String Value="- Comedy / humour" />
+                </Facet>
+                <Facet Name="L3ST language type change">
+                    <String Value="- Real" />
+                    <String Value="+ " />
+                </Facet>
+                <Facet Name="L3ST mode change">
+                    <String Value="- Oral diegetic on-screen" />
+                    <String Value="- Written diegetic" />
+                </Facet>
+                <Facet Name="L3ST sources change">
+                    <String Value="- Written &amp; oral L3" />
+                    <String Value="+ " />
+                </Facet>
+                <Facet Name="L3ST-instance Reference Id">
+                    <String Value="LoveActually.JamieProposesToAurelia.Aurelia's sister" />
+                </Facet>
+                <Facet Name="Metadata Editors">
+                    <String Value="Stavroula" />
+                    <String Value="George" />
+                </Facet>
+                <Facet Name="Reference Id">
+                    <String Value="LoveActually.JamieProposesToAurelia.Aurelia's sister.SpanishSub" />
+                </Facet>
+                <Facet Name="Transcription">
+                    <String Value="&#xD;&#xA;&#xD;&#xA;Spanish subtitles&#xD;&#xA;&#xD;&#xA;1382&#xD;&#xA;01:58:34,178 -- 01:58:35,896&#xD;&#xA;Buenas noches, Aurelia.&#xD;&#xA;&#xD;&#xA;1383&#xD;&#xA;01:58:37,379 -- 01:58:39,370&#xD;&#xA;Buenas noches, Jamie.&#xD;&#xA;&#xD;&#xA;1384&#xD;&#xA;01:58:54,063 -- 01:58:56,942&#xD;&#xA;Hermosa Aurelia...&#xD;&#xA;&#xD;&#xA;1385&#xD;&#xA;01:58:56,984 -- 01:59:01,024&#xD;&#xA;he venido aquí con&#xD;&#xA;la intención de pedir...&#xD;&#xA;&#xD;&#xA;1386&#xD;&#xA;01:59:02,065 -- 01:59:04,182&#xD;&#xA;que te cases conmigo.&#xD;&#xA;&#xD;&#xA;1387&#xD;&#xA;01:59:05,466 -- 01:59:10,097&#xD;&#xA;Sé que parezco un demente,&#xD;&#xA;porque apenas te conozco...&#xD;&#xA;&#xD;&#xA;1388&#xD;&#xA;01:59:11,668 -- 01:59:18,382&#xD;&#xA;pero a veces las cosas&#xD;&#xA;se ven tan claras...&#xD;&#xA;&#xD;&#xA;1389&#xD;&#xA;01:59:19,630 -- 01:59:22,907&#xD;&#xA;que no necesitan&#xD;&#xA;pruebas evidentes.&#xD;&#xA;&#xD;&#xA;1390&#xD;&#xA;01:59:24,751 -- 01:59:30,510&#xD;&#xA;Y yo viviré aquí, o tú puedes&#xD;&#xA;vivir conmigo en Inglaterra.&#xD;&#xA;&#xD;&#xA;1391&#xD;&#xA;01:59:30,553 -- 01:59:32,987&#xD;&#xA;Ve a Inglaterra sin dudarlo, muchacha.&#xD;&#xA;&#xD;&#xA;1392&#xD;&#xA;01:59:33,033 -- 01:59:36,185&#xD;&#xA;Conocerás al Príncipe Guillermo,&#xD;&#xA;entonces te podrás casar con él.&#xD;&#xA;&#xD;&#xA;1393&#xD;&#xA;01:59:37,155 -- 01:59:42,913&#xD;&#xA;Por supuesto que no espero&#xD;&#xA;que seas tan cursi como yo...&#xD;&#xA;&#xD;&#xA;1394&#xD;&#xA;01:59:43,756 -- 01:59:48,274&#xD;&#xA;y por supuesto que pienso&#xD;&#xA;que me dirás que no...&#xD;&#xA;&#xD;&#xA;1395&#xD;&#xA;01:59:49,318 -- 01:59:56,908&#xD;&#xA;pero es navidad y tan sólo quería...&#xD;&#xA;asegurarme.&#xD;&#xA;&#xD;&#xA;1396&#xD;&#xA;02:00:00,961 -- 02:00:04,432&#xD;&#xA;¡Por, Dios!&#xD;&#xA;¡Dile que sí, escuálida!&#xD;&#xA;&#xD;&#xA;1397&#xD;&#xA;02:00:07,123 -- 02:00:09,114&#xD;&#xA;Gracias.&#xD;&#xA;&#xD;&#xA;1398&#xD;&#xA;02:00:10,844 -- 02:00:12,835&#xD;&#xA;Eso sería agradable.&#xD;&#xA;&#xD;&#xA;1399&#xD;&#xA;02:00:15,005 -- 02:00:17,678&#xD;&#xA;Mi respuesta es sí.&#xD;&#xA;&#xD;&#xA;1400&#xD;&#xA;02:00:19,286 -- 02:00:21,516&#xD;&#xA;Una pregunta simple.&#xD;&#xA;&#xD;&#xA;1401&#xD;&#xA;02:00:21,566 -- 02:00:23,922&#xD;&#xA;¿Qué dijiste?&#xD;&#xA;&#xD;&#xA;1402&#xD;&#xA;02:00:23,967 -- 02:00:25,286&#xD;&#xA;Sí, por supuesto.&#xD;&#xA;&#xD;&#xA;1403&#xD;&#xA;02:00:27,928 -- 02:00:30,159&#xD;&#xA;¡Bravo!&#xD;&#xA;&#xD;&#xA;1404&#xD;&#xA;02:00:54,495 -- 02:00:56,566&#xD;&#xA;¿Aprendiste inglés?&#xD;&#xA;&#xD;&#xA;1405&#xD;&#xA;02:00:57,056 -- 02:00:59,173&#xD;&#xA;Sólo por si acaso.&#xD;&#xA;" />
+                </Facet>
+            </Facets>
+        </Item>
+        <Item Id="LoveActually.Lake Scene.Portuguese.SpanishSub" Name="LoveActually - Lake Scene - Aurelia - SpanishSub" Img="#6" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.Lake Scene&amp;L3STinstance=LoveActually.Lake Scene.Portuguese&amp;L3TTinstance=LoveActually.Lake Scene.Portuguese.SpanishSub">
+            <Description>Aurelia expresses anxiety when papers fly. Subtitles in Spanish.</Description>
+            <Facets>
+                <Facet Name="Conversation Reference Id">
+                    <String Value="LoveActually.Lake Scene" />
+                </Facet>
+                <Facet Name="Film Reference Id">
+                    <String Value="LoveActually" />
+                </Facet>
+                <Facet Name="Info created">
+                    <DateTime Value="2016-06-15T02:43:24" />
+                </Facet>
+                <Facet Name="Info updated">
+                    <DateTime Value="2016-09-04T09:30:44" />
+                </Facet>
+                <Facet Name="L2 language">
+                    <String Value="Spanish" />
+                </Facet>
+                <Facet Name="L2 mode">
+                    <String Value="Subtitled" />
+                </Facet>
+                <Facet Name="L2 same as L3ST">
+                    <String Value="No" />
+                </Facet>
+                <Facet Name="L3ST conveyed as L3TT">
+                    <String Value="No" />
+                </Facet>
+                <Facet Name="L3ST functions change">
+                    <String Value="+ Dramatic effect" />
+                </Facet>
+                <Facet Name="L3ST language type change">
+                    <String Value="- Real" />
+                    <String Value="+ " />
+                </Facet>
+                <Facet Name="L3ST mode change">
+                    <String Value="- Oral diegetic on-screen" />
+                </Facet>
+                <Facet Name="L3ST sources change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3ST-instance Reference Id">
+                    <String Value="LoveActually.Lake Scene.Portuguese" />
+                </Facet>
+                <Facet Name="L3TT functions">
+                    <String Value="Dramatic effect" />
+                </Facet>
+                <Facet Name="Metadata Editors">
+                    <String Value="Stavroula" />
+                    <String Value="George" />
+                </Facet>
+                <Facet Name="Reference Id">
+                    <String Value="LoveActually.Lake Scene.Portuguese.SpanishSub" />
+                </Facet>
+                <Facet Name="Transcription">
+                    <String Value="616&#xD;&#xA;00:45:11,406 -- 00:45:14,922&#xD;&#xA;Hola.&#xD;&#xA;&#xD;&#xA;617&#xD;&#xA;00:45:21,448 -- 00:45:23,838&#xD;&#xA;Lo siento.&#xD;&#xA;&#xD;&#xA;618&#xD;&#xA;00:45:27,304 -- 00:45:28,847&#xD;&#xA;Hola.&#xD;&#xA;&#xD;&#xA;619&#xD;&#xA;00:45:44,014 -- 00:45:46,483&#xD;&#xA;- Gracias.&#xD;&#xA;- ¡No!&#xD;&#xA;&#xD;&#xA;620&#xD;&#xA;00:45:46,535 -- 00:45:49,608&#xD;&#xA;- Le pido disculpas.&#xD;&#xA;- No. Espera.&#xD;&#xA;&#xD;&#xA;621&#xD;&#xA;00:45:49,656 -- 00:45:52,124&#xD;&#xA;- Dios, es medio libro. Oh, no.&#xD;&#xA;- ¡Qué desastre!&#xD;&#xA;&#xD;&#xA;622&#xD;&#xA;00:45:52,176 -- 00:45:55,567&#xD;&#xA;Sólo déjalo, ¡por favor!&#xD;&#xA;No son importantes.&#xD;&#xA;&#xD;&#xA;623&#xD;&#xA;00:45:55,617 -- 00:45:58,212&#xD;&#xA;¡No valen nada!&#xD;&#xA;&#xD;&#xA;624&#xD;&#xA;00:45:58,258 -- 00:46:01,092&#xD;&#xA;¡Detente! Detente.&#xD;&#xA;&#xD;&#xA;625&#xD;&#xA;00:46:04,780 -- 00:46:06,896&#xD;&#xA;Es sólo basura.&#xD;&#xA;&#xD;&#xA;626&#xD;&#xA;00:46:08,461 -- 00:46:10,531&#xD;&#xA;Sólo déjalo.&#xD;&#xA;" />
+                </Facet>
+            </Facets>
+        </Item>
+        <Item Id="Monsoon Wedding.Conversation in the garden on the phone.Hindi.SpanishDub" Name="Monsoon Wedding.Conversation in the garden on the phone.Hindi.SpanishDub" Img="#7" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Monsoon Wedding&amp;conversation=Monsoon Wedding.Conversation in the garden on the phone&amp;L3STinstance=Monsoon Wedding.Conversation in the garden on the phone.Hindi&amp;L3TTinstance=Monsoon Wedding.Conversation in the garden on the phone.Hindi.SpanishDub">
+            <Facets>
+                <Facet Name="Conversation Reference Id">
+                    <String Value="Monsoon Wedding.Conversation in the garden on the phone" />
+                </Facet>
+                <Facet Name="Film Reference Id">
+                    <String Value="Monsoon Wedding" />
+                </Facet>
+                <Facet Name="Info created">
+                    <DateTime Value="2016-06-08T01:44:15" />
+                </Facet>
+                <Facet Name="Info updated">
+                    <DateTime Value="2016-06-08T01:47:51" />
+                </Facet>
+                <Facet Name="L2 language">
+                    <String Value="Spanish" />
+                </Facet>
+                <Facet Name="L2 mode">
+                    <String Value="Dubbed" />
+                </Facet>
+                <Facet Name="L2 same as L3ST">
+                    <String Value="No" />
+                </Facet>
+                <Facet Name="L3ST conveyed as L3TT">
+                    <String Value="No" />
+                </Facet>
+                <Facet Name="L3ST functions change">
+                    <String Value="- Character portrayal, stereotypical" />
+                </Facet>
+                <Facet Name="L3ST language type change">
+                    <String Value="- Real" />
+                    <String Value="+ No L3TT: L3-instance omitted" />
+                </Facet>
+                <Facet Name="L3ST-instance Reference Id">
+                    <String Value="Monsoon Wedding.Conversation in the garden on the phone.Hindi" />
+                </Facet>
+                <Facet Name="L3TT functions">
+                    <String Value="Character portrayal, nonstereotypical" />
+                    <String Value="Comedy / humour" />
+                </Facet>
+                <Facet Name="L3TT language">
+                    <String Value="Spanish" />
+                </Facet>
+                <Facet Name="L3TT language type">
+                    <String Value="No L3TT: L3-instance omitted" />
+                </Facet>
+                <Facet Name="L3TT meaning decipherable">
+                    <String Value="NO" />
+                </Facet>
+                <Facet Name="L3TT meant to be understood">
+                    <String Value="YES, (almost) completely" />
+                </Facet>
+                <Facet Name="L3TT merely represented">
+                    <String Value="NO / Not applicable" />
+                </Facet>
+                <Facet Name="L3TT message required for understanding">
+                    <String Value="Yes" />
+                </Facet>
+                <Facet Name="L3TT mode, written/spoken, diegetic">
+                    <String Value="Oral diegetic on-screen" />
+                </Facet>
+                <Facet Name="L3TT represented: visual">
+                    <String Value="Physical appearance" />
+                </Facet>
+                <Facet Name="Quality of L3TT speaker performance">
+                    <String Value="native or proficient" />
+                </Facet>
+                <Facet Name="Reference Id">
+                    <String Value="Monsoon Wedding.Conversation in the garden on the phone.Hindi.SpanishDub" />
+                </Facet>
+                <Facet Name="Remarks">
+                    <String Value="All translated from Hindi into Spanish" />
+                </Facet>
+            </Facets>
+        </Item>
+        <Item Id="OceansEleven.ExplainingThePlan.Chinese.SpanishSub" Name="OceansEleven.ExplainingThePlan.Chinese.SpanishSub" Img="#8" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=OceansEleven&amp;conversation=OceansEleven.ExplainingThePlan&amp;L3STinstance=OceansEleven.ExplainingThePlan.Chinese&amp;L3TTinstance=OceansEleven.ExplainingThePlan.Chinese.SpanishSub">
+            <Description>Subtitled utterance</Description>
+            <Facets>
+                <Facet Name="Conversation Reference Id">
+                    <String Value="OceansEleven.ExplainingThePlan" />
+                </Facet>
+                <Facet Name="Film Reference Id">
+                    <String Value="OceansEleven" />
+                </Facet>
+                <Facet Name="Info created">
+                    <DateTime Value="2016-05-26T07:05:07" />
+                </Facet>
+                <Facet Name="Info updated">
+                    <DateTime Value="2016-09-01T06:37:57" />
+                </Facet>
+                <Facet Name="L2 language">
+                    <String Value="Spanish" />
+                </Facet>
+                <Facet Name="L2 mode">
+                    <String Value="Subtitled" />
+                </Facet>
+                <Facet Name="L2 same as L3ST">
+                    <String Value="No" />
+                </Facet>
+                <Facet Name="L3ST conveyed as L3TT">
+                    <String Value="No" />
+                </Facet>
+                <Facet Name="L3ST functions change">
+                    <String Value="- Character portrayal, nonstereotypical" />
+                    <String Value="- Plot (twist)" />
+                    <String Value="+ Suspense" />
+                </Facet>
+                <Facet Name="L3ST language type change">
+                    <String Value="- L-main variety (e.g. dialect, sociolect, idiolect, slang)" />
+                    <String Value="+ No L3TT: L3-instance omitted" />
+                </Facet>
+                <Facet Name="L3ST mode change">
+                    <String Value="+ Oral diegetic on-screen" />
+                </Facet>
+                <Facet Name="L3ST sources change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3ST-instance Reference Id">
+                    <String Value="OceansEleven.ExplainingThePlan.Chinese" />
+                </Facet>
+                <Facet Name="L3TT functions">
+                    <String Value="Comedy / humour" />
+                    <String Value="Suspense" />
+                </Facet>
+                <Facet Name="L3TT language type">
+                    <String Value="No L3TT: L3-instance omitted" />
+                </Facet>
+                <Facet Name="L3TT merely represented">
+                    <String Value="YES: orally" />
+                </Facet>
+                <Facet Name="L3TT merely represented orally">
+                    <String Value="Non-verbal oral" />
+                </Facet>
+                <Facet Name="L3TT mode, written/spoken, diegetic">
+                    <String Value="Oral diegetic on-screen" />
+                </Facet>
+                <Facet Name="Metadata Editors">
+                    <String Value="George" />
+                </Facet>
+                <Facet Name="Reference Id">
+                    <String Value="OceansEleven.ExplainingThePlan.Chinese.SpanishSub" />
+                </Facet>
+            </Facets>
+        </Item>
+    </Items>
 </Collection>

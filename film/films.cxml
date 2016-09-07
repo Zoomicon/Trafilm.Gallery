@@ -10,7 +10,7 @@
     <FacetCategory Name="Production countries" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Production companies" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Box office" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="Year ST released" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Year ST released" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Main language (L1)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Year TT released in Spain" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Conversations: count" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
@@ -35,11 +35,11 @@
           <DateTime Value="2016-06-16T07:57:45" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-09-01T08:47:43" />
+          <DateTime Value="2016-09-07T11:38:45" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="natalia.faja" />
-          <String Value="george" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Title in Spanish">
           <String Value="Blade II" />
@@ -64,7 +64,7 @@
           <String Value=" $81.645.152 (USA) " />
         </Facet>
         <Facet Name="Year ST released">
-          <String Value="2002" />
+          <Number Value="2002.00" />
         </Facet>
         <Facet Name="Main language (L1)">
           <String Value="English" />
@@ -114,7 +114,7 @@
           <String Value="SONY" />
         </Facet>
         <Facet Name="Year ST released">
-          <String Value="2012" />
+          <Number Value="2012.00" />
         </Facet>
         <Facet Name="Main language (L1)">
           <String Value="English" />
@@ -179,7 +179,7 @@
           <String Value=" The Saul Zaentz Company" />
         </Facet>
         <Facet Name="Year ST released">
-          <String Value="2001" />
+          <Number Value="2001.00" />
         </Facet>
         <Facet Name="Main language (L1)">
           <String Value="English" />
@@ -240,7 +240,7 @@
           <String Value=" $77.679.638 (USA) " />
         </Facet>
         <Facet Name="Year ST released">
-          <String Value="2002" />
+          <Number Value="2002.00" />
         </Facet>
         <Facet Name="Main language (L1)">
           <String Value="English" />
@@ -301,7 +301,7 @@
           <String Value=" $44.566.004 (USA) " />
         </Facet>
         <Facet Name="Year ST released">
-          <String Value="2003" />
+          <Number Value="2003.00" />
         </Facet>
         <Facet Name="Main language (L1)">
           <String Value="English" />
@@ -363,7 +363,7 @@
           <String Value="$59,365,105 (USA) (16 February 2004)" />
         </Facet>
         <Facet Name="Year ST released">
-          <String Value="2003" />
+          <Number Value="2003.00" />
         </Facet>
         <Facet Name="Main language (L1)">
           <String Value="English" />
@@ -420,7 +420,7 @@
           <String Value=" $57.010.853 (USA)" />
         </Facet>
         <Facet Name="Year ST released">
-          <String Value="2005" />
+          <Number Value="2005.00" />
         </Facet>
         <Facet Name="Main language (L1)">
           <String Value="English" />
@@ -488,7 +488,7 @@
           <String Value="$68,546 (USA) (24 February 2002)" />
         </Facet>
         <Facet Name="Year ST released">
-          <String Value="2001" />
+          <Number Value="2001.00" />
         </Facet>
         <Facet Name="Main language (L1)">
           <String Value="English" />
@@ -541,7 +541,7 @@
           <String Value=" NPV Entertainment" />
         </Facet>
         <Facet Name="Year ST released">
-          <String Value="2001" />
+          <Number Value="2001.00" />
         </Facet>
         <Facet Name="Main language (L1)">
           <String Value="English" />
@@ -595,7 +595,7 @@
           <String Value="$198.539.855 (USA) " />
         </Facet>
         <Facet Name="Year ST released">
-          <String Value="2001" />
+          <Number Value="2001.00" />
         </Facet>
         <Facet Name="Main language (L1)">
           <String Value="English" />
@@ -651,7 +651,7 @@
           <String Value="$141.319.195 (USA)" />
         </Facet>
         <Facet Name="Year ST released">
-          <String Value="2008" />
+          <Number Value="2008.00" />
         </Facet>
         <Facet Name="Main language (L1)">
           <String Value="Other" />
@@ -705,7 +705,7 @@
           <String Value="$50.041.732 (USA)" />
         </Facet>
         <Facet Name="Year ST released">
-          <String Value="1999" />
+          <Number Value="1999.00" />
         </Facet>
         <Facet Name="Main language (L1)">
           <String Value="English" />
@@ -761,7 +761,7 @@
           <String Value=" $111.110.575 (USA) " />
         </Facet>
         <Facet Name="Year ST released">
-          <String Value="2003" />
+          <Number Value="2003.00" />
         </Facet>
         <Facet Name="Main language (L1)">
           <String Value="English" />
@@ -822,7 +822,7 @@
           <String Value=" The Saul Zaentz Company" />
         </Facet>
         <Facet Name="Year ST released">
-          <String Value="2003" />
+          <Number Value="2003.00" />
         </Facet>
         <Facet Name="Main language (L1)">
           <String Value="English" />
@@ -884,7 +884,7 @@
           <String Value=" The Saul Zaentz Company" />
         </Facet>
         <Facet Name="Year ST released">
-          <String Value="2002" />
+          <Number Value="2002.00" />
         </Facet>
         <Facet Name="Main language (L1)">
           <String Value="English" />
@@ -943,7 +943,7 @@
           <String Value="USA" />
         </Facet>
         <Facet Name="Year ST released">
-          <String Value="2015" />
+          <Number Value="2015.00" />
         </Facet>
         <Facet Name="Main language (L1)">
           <String Value="English" />
@@ -1000,7 +1000,7 @@
           <String Value=" Pixar Animation Studios" />
         </Facet>
         <Facet Name="Year ST released">
-          <String Value="2010" />
+          <Number Value="2010.00" />
         </Facet>
         <Facet Name="Main language (L1)">
           <String Value="English" />
@@ -1056,7 +1056,7 @@
           <String Value=" Walt Disney Animation Studios " />
         </Facet>
         <Facet Name="Year ST released">
-          <String Value="2016" />
+          <Number Value="2016.00" />
         </Facet>
         <Facet Name="Main language (L1)">
           <String Value="English" />

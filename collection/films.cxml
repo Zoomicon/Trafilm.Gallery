@@ -10,7 +10,7 @@
         <FacetCategory Name="Production countries" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="Production companies" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="Box office" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
-        <FacetCategory Name="Year ST released" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
+        <FacetCategory Name="Year ST released" Type="Number" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="Main language (L1)" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="Year TT released in Spain" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="Conversations: count" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
@@ -73,7 +73,7 @@
                     <String Value="Blade II" />
                 </Facet>
                 <Facet Name="Year ST released">
-                    <String Value="2002" />
+          <Number Value="2002" />
                 </Facet>
                 <Facet Name="Year TT released in Spain">
                     <String Value="2002" />
@@ -126,7 +126,7 @@
                     <String Value="Django Desencadenado" />
                 </Facet>
                 <Facet Name="Year ST released">
-                    <String Value="2012" />
+          <Number Value="2012" />
                 </Facet>
                 <Facet Name="Year TT released in Spain">
                     <String Value="2012" />
@@ -194,7 +194,7 @@
                     <String Value="La comunidad del anillo" />
                 </Facet>
                 <Facet Name="Year ST released">
-                    <String Value="2001" />
+          <Number Value="2001" />
                 </Facet>
                 <Facet Name="Year TT released in Spain">
                     <String Value="2001" />
@@ -249,7 +249,7 @@
                     <String Value="Gangs of New York" />
                 </Facet>
                 <Facet Name="Year ST released">
-                    <String Value="2002" />
+          <Number Value="2002" />
                 </Facet>
                 <Facet Name="Year TT released in Spain">
                     <String Value="2003" />
@@ -310,7 +310,7 @@
                     <String Value="Lost in Translation" />
                 </Facet>
                 <Facet Name="Year ST released">
-                    <String Value="2003" />
+          <Number Value="2003" />
                 </Facet>
                 <Facet Name="Year TT released in Spain">
                     <String Value="2004" />
@@ -375,7 +375,7 @@
                     <String Value="Love Actually" />
                 </Facet>
                 <Facet Name="Year ST released">
-                    <String Value="2003" />
+          <Number Value="2003" />
                 </Facet>
                 <Facet Name="Year TT released in Spain">
                     <String Value="2003" />
@@ -429,7 +429,7 @@
                     <String Value="Memorias de una geisha" />
                 </Facet>
                 <Facet Name="Year ST released">
-                    <String Value="2005" />
+          <Number Value="2005" />
                 </Facet>
                 <Facet Name="Year TT released in Spain">
                     <String Value="2006" />
@@ -500,7 +500,7 @@
                     <String Value="La boda del Monzón" />
                 </Facet>
                 <Facet Name="Year ST released">
-                    <String Value="2001" />
+          <Number Value="2001" />
                 </Facet>
                 <Facet Name="Year TT released in Spain">
                     <String Value="2001" />
@@ -553,7 +553,7 @@
                     <String Value="Hagan juego" />
                 </Facet>
                 <Facet Name="Year ST released">
-                    <String Value="2001" />
+          <Number Value="2001" />
                 </Facet>
             </Facets>
         </Item>
@@ -604,7 +604,7 @@
                     <String Value="Pearl Harbor" />
                 </Facet>
                 <Facet Name="Year ST released">
-                    <String Value="2001" />
+          <Number Value="2001" />
                 </Facet>
                 <Facet Name="Year TT released in Spain">
                     <String Value="2001" />
@@ -660,7 +660,7 @@
                     <String Value="Slumdog Millionaire" />
                 </Facet>
                 <Facet Name="Year ST released">
-                    <String Value="2008" />
+          <Number Value="2008" />
                 </Facet>
                 <Facet Name="Year TT released in Spain">
                     <String Value="2009" />
@@ -714,7 +714,7 @@
                     <String Value="Stigmata" />
                 </Facet>
                 <Facet Name="Year ST released">
-                    <String Value="1999" />
+          <Number Value="1999" />
                 </Facet>
                 <Facet Name="Year TT released in Spain">
                     <String Value="2000" />
@@ -770,7 +770,7 @@
                     <String Value="El último samurái" />
                 </Facet>
                 <Facet Name="Year ST released">
-                    <String Value="2003" />
+          <Number Value="2003" />
                 </Facet>
                 <Facet Name="Year TT released in Spain">
                     <String Value="2004" />
@@ -831,7 +831,7 @@
                     <String Value="El retorno del rey" />
                 </Facet>
                 <Facet Name="Year ST released">
-                    <String Value="2003" />
+          <Number Value="2003" />
                 </Facet>
                 <Facet Name="Year TT released in Spain">
                     <String Value="2003" />
@@ -893,7 +893,7 @@
                     <String Value="Las dos torres" />
                 </Facet>
                 <Facet Name="Year ST released">
-                    <String Value="2002" />
+          <Number Value="2002" />
                 </Facet>
                 <Facet Name="Year TT released in Spain">
                     <String Value="2002" />
@@ -952,7 +952,7 @@
                     <String Value="El desafío (The Walk)" />
                 </Facet>
                 <Facet Name="Year ST released">
-                    <String Value="2015" />
+          <Number Value="2015" />
                 </Facet>
                 <Facet Name="Year TT released in Spain">
                     <String Value="2015" />
@@ -1009,7 +1009,7 @@
                     <String Value="Toy Story 3" />
                 </Facet>
                 <Facet Name="Year ST released">
-                    <String Value="2010" />
+          <Number Value="2010" />
                 </Facet>
                 <Facet Name="Year TT released in Spain">
                     <String Value="2010" />
@@ -1065,7 +1065,7 @@
                     <String Value="Zootrópolis" />
                 </Facet>
                 <Facet Name="Year ST released">
-                    <String Value="2016" />
+          <Number Value="2016" />
                 </Facet>
                 <Facet Name="Year TT released in Spain">
                     <String Value="2016" />
