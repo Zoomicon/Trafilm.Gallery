@@ -4,8 +4,8 @@
         <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="false" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="Conversation Reference Id" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
-        <FacetCategory Name="Start time (min)" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
-        <FacetCategory Name="Duration (min)" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
+        <FacetCategory Name="Start time (min)" Type="Number" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
+        <FacetCategory Name="Duration (min)" Type="Number" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
         <FacetCategory Name="Main (L1) language" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="L3ST language type" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="L3ST language" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
@@ -20,7 +20,7 @@
         <FacetCategory Name="L3ST represented: visual" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="L3ST functions" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="L3ST sources" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
-        <FacetCategory Name="L3TT-instances: count" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
+        <FacetCategory Name="L3TT-instances: count" Type="Number" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
         <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="false" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="Tags" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="false" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
@@ -36,7 +36,7 @@
                     <String Value="Django Unchained.Slave speaks a little German" />
                 </Facet>
                 <Facet Name="Duration (min)">
-                    <String Value="1" />
+          <Number Value="1" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="Django Unchained" />
@@ -72,7 +72,7 @@
                     <String Value="Respond interlingually: different sources " />
                 </Facet>
                 <Facet Name="L3TT-instances: count">
-                    <String Value="1" />
+          <Number Value="1" />
                 </Facet>
                 <Facet Name="Main (L1) language">
                     <String Value="German" />
@@ -88,7 +88,7 @@
                     <String Value="Django Unchained.Slave speaks a little German.Slave opens conversation" />
                 </Facet>
                 <Facet Name="Start time (min)">
-                    <String Value="93" />
+          <Number Value="93" />
                 </Facet>
                 <Facet Name="Tags">
                     <String Value="greeting in German" />
@@ -105,7 +105,7 @@
                     <String Value="FellowshipOfTheRing.Rivendell_AragornArwen" />
                 </Facet>
                 <Facet Name="Duration (min)">
-                    <String Value="1" />
+          <Number Value="1" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="FellowshipOfTheRing" />
@@ -147,7 +147,7 @@
                     <String Value="Respond interlingually: different sources " />
                 </Facet>
                 <Facet Name="L3TT-instances: count">
-                    <String Value="2" />
+          <Number Value="2" />
                 </Facet>
                 <Facet Name="Main (L1) language">
                     <String Value="Elvish" />
@@ -163,7 +163,7 @@
                     <String Value="FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room" />
                 </Facet>
                 <Facet Name="Start time (min)">
-                    <String Value="91" />
+          <Number Value="91" />
                 </Facet>
                 <Facet Name="Tags">
                     <String Value="Aragorn" />
@@ -184,7 +184,7 @@
                     <String Value="FellowshipOfTheRing.Rivendell_AragornArwen" />
                 </Facet>
                 <Facet Name="Duration (min)">
-                    <String Value="1" />
+          <Number Value="1" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="FellowshipOfTheRing" />
@@ -226,7 +226,7 @@
                     <String Value="Respond interlingually: different sources " />
                 </Facet>
                 <Facet Name="L3TT-instances: count">
-                    <String Value="0" />
+          <Number Value="0" />
                 </Facet>
                 <Facet Name="Main (L1) language">
                     <String Value="Elvish" />
@@ -244,7 +244,7 @@
                     <String Value="The instance conveys meaningful information through a combination of L3 and L1. " />
                 </Facet>
                 <Facet Name="Start time (min)">
-                    <String Value="92" />
+          <Number Value="92" />
                 </Facet>
                 <Facet Name="Tags">
                     <String Value="Aragorn" />
@@ -265,7 +265,7 @@
                     <String Value="LoveActually.JamieProposesToAurelia" />
                 </Facet>
                 <Facet Name="Duration (min)">
-                    <String Value="1" />
+          <Number Value="1" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="LoveActually" />
@@ -299,7 +299,7 @@
                     <String Value="Written &amp; oral L3" />
                 </Facet>
                 <Facet Name="L3TT-instances: count">
-                    <String Value="1" />
+          <Number Value="1" />
                 </Facet>
                 <Facet Name="Main (L1) language">
                     <String Value="Portuguese" />
@@ -329,7 +329,7 @@
                     <String Value="LoveActually.JamieProposesToAurelia" />
                 </Facet>
                 <Facet Name="Duration (min)">
-                    <String Value="1" />
+          <Number Value="1" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="LoveActually" />
@@ -364,7 +364,7 @@
                     <String Value="Written &amp; oral L3" />
                 </Facet>
                 <Facet Name="L3TT-instances: count">
-                    <String Value="0" />
+          <Number Value="0" />
                 </Facet>
                 <Facet Name="Main (L1) language">
                     <String Value="Portuguese" />
@@ -391,7 +391,7 @@
                     <String Value="LoveActually.JamieProposesToAurelia" />
                 </Facet>
                 <Facet Name="Duration (min)">
-                    <String Value="1" />
+          <Number Value="1" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="LoveActually" />
@@ -424,7 +424,7 @@
                     <String Value="Oral L3: different sources " />
                 </Facet>
                 <Facet Name="L3TT-instances: count">
-                    <String Value="0" />
+          <Number Value="0" />
                 </Facet>
                 <Facet Name="Main (L1) language">
                     <String Value="Portuguese" />
@@ -475,7 +475,7 @@
                     <String Value="Oral diegetic on-screen" />
                 </Facet>
                 <Facet Name="L3TT-instances: count">
-                    <String Value="1" />
+          <Number Value="1" />
                 </Facet>
                 <Facet Name="Main (L1) language">
                     <String Value="Portuguese" />
@@ -503,7 +503,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                     <String Value="Monsoon Wedding.Conversation in the garden on the phone" />
                 </Facet>
                 <Facet Name="Duration (min)">
-                    <String Value="4" />
+          <Number Value="4" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="Monsoon Wedding" />
@@ -538,7 +538,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                     <String Value="Physical appearance" />
                 </Facet>
                 <Facet Name="L3TT-instances: count">
-                    <String Value="1" />
+          <Number Value="1" />
                 </Facet>
                 <Facet Name="Main (L1) language">
                     <String Value="Hindi" />
@@ -556,7 +556,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                     <String Value="The dubbing and subtitling in English are in Spanish.&#xD;&#xA; " />
                 </Facet>
                 <Facet Name="Start time (min)">
-                    <String Value="170" />
+          <Number Value="170" />
                 </Facet>
             </Facets>
         </Item>
@@ -592,7 +592,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                     <String Value="Non-verbal oral" />
                 </Facet>
                 <Facet Name="L3TT-instances: count">
-                    <String Value="1" />
+          <Number Value="1" />
                 </Facet>
                 <Facet Name="Main (L1) language">
                     <String Value="Chinese" />
@@ -611,7 +611,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                     <String Value="TheWalk.MeetingPapaRudy" />
                 </Facet>
                 <Facet Name="Duration (min)">
-                    <String Value="1" />
+          <Number Value="1" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="TheWalk" />
@@ -653,7 +653,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                     <String Value="Oral diegetic on-screen" />
                 </Facet>
                 <Facet Name="L3TT-instances: count">
-                    <String Value="0" />
+          <Number Value="0" />
                 </Facet>
                 <Facet Name="Main (L1) language">
                     <String Value="Czech" />
@@ -668,7 +668,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                     <String Value="TheWalk.MeetingPapaRudy.Czech" />
                 </Facet>
                 <Facet Name="Start time (min)">
-                    <String Value="12" />
+          <Number Value="12" />
                 </Facet>
             </Facets>
         </Item>
@@ -678,7 +678,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                     <String Value="TheWalk.MeetingPapaRudy" />
                 </Facet>
                 <Facet Name="Duration (min)">
-                    <String Value="1" />
+          <Number Value="1" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="TheWalk" />
@@ -717,7 +717,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                     <String Value="Oral diegetic on-screen" />
                 </Facet>
                 <Facet Name="L3TT-instances: count">
-                    <String Value="0" />
+          <Number Value="0" />
                 </Facet>
                 <Facet Name="Main (L1) language">
                     <String Value="French" />
@@ -732,7 +732,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                     <String Value="TheWalk.MeetingPapaRudy.French" />
                 </Facet>
                 <Facet Name="Start time (min)">
-                    <String Value="12" />
+          <Number Value="12" />
                 </Facet>
             </Facets>
         </Item>
@@ -742,7 +742,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                     <String Value="TheWalk.MeetingPapaRudy" />
                 </Facet>
                 <Facet Name="Duration (min)">
-                    <String Value="1" />
+          <Number Value="1" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="TheWalk" />
@@ -781,7 +781,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                     <String Value="Oral diegetic on-screen" />
                 </Facet>
                 <Facet Name="L3TT-instances: count">
-                    <String Value="0" />
+          <Number Value="0" />
                 </Facet>
                 <Facet Name="Main (L1) language">
                     <String Value="French" />
@@ -796,7 +796,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                     <String Value="TheWalk.MeetingPapaRudy.French2" />
                 </Facet>
                 <Facet Name="Start time (min)">
-                    <String Value="12" />
+          <Number Value="12" />
                 </Facet>
             </Facets>
         </Item>
@@ -806,7 +806,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                     <String Value="TheWalk.MeetingPapaRudy" />
                 </Facet>
                 <Facet Name="Duration (min)">
-                    <String Value="1" />
+          <Number Value="1" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="TheWalk" />
@@ -845,7 +845,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                     <String Value="Oral diegetic on-screen" />
                 </Facet>
                 <Facet Name="L3TT-instances: count">
-                    <String Value="0" />
+          <Number Value="0" />
                 </Facet>
                 <Facet Name="Main (L1) language">
                     <String Value="French" />
@@ -860,7 +860,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                     <String Value="TheWalk.MeetingPapaRudy.French3" />
                 </Facet>
                 <Facet Name="Start time (min)">
-                    <String Value="13" />
+          <Number Value="13" />
                 </Facet>
             </Facets>
         </Item>
@@ -879,7 +879,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                     <DateTime Value="2016-06-15T05:10:30" />
                 </Facet>
                 <Facet Name="L3TT-instances: count">
-                    <String Value="0" />
+          <Number Value="0" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="George" />

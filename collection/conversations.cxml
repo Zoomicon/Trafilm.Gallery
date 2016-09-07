@@ -3,14 +3,14 @@
     <FacetCategories>
         <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="false" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
-        <FacetCategory Name="Start time (min)" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
-        <FacetCategory Name="Duration (min)" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
+        <FacetCategory Name="Start time (min)" Type="Number" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
+        <FacetCategory Name="Duration (min)" Type="Number" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
         <FacetCategory Name="Language sources" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
-        <FacetCategory Name="L3ST languages: count" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
+        <FacetCategory Name="L3ST languages: count" Type="Number" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
         <FacetCategory Name="L3ST languages" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
-        <FacetCategory Name="L3ST language types: count" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
+        <FacetCategory Name="L3ST language types: count" Type="Number" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
         <FacetCategory Name="L3ST language types" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
-        <FacetCategory Name="L3ST-instances: count" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
+        <FacetCategory Name="L3ST-instances: count" Type="Number" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
         <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="false" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="Tags" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="false" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
@@ -23,7 +23,7 @@
             <Description>Brunhida is introduced to Schultz and shown off by her owner to speak a little German. She tells the slave to "speak a little German"</Description>
             <Facets>
                 <Facet Name="Duration (min)">
-                    <String Value="1" />
+          <Number Value="1" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="Django Unchained" />
@@ -38,16 +38,16 @@
                     <String Value="Real" />
                 </Facet>
                 <Facet Name="L3ST language types: count">
-                    <String Value="1" />
+          <Number Value="1" />
                 </Facet>
                 <Facet Name="L3ST languages">
                     <String Value="German" />
                 </Facet>
                 <Facet Name="L3ST languages: count">
-                    <String Value="1" />
+          <Number Value="1" />
                 </Facet>
                 <Facet Name="L3ST-instances: count">
-                    <String Value="1" />
+          <Number Value="1" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="PatrickZabalbeascoa" />
@@ -57,7 +57,7 @@
                     <String Value="Django Unchained.Slave speaks a little German" />
                 </Facet>
                 <Facet Name="Start time (min)">
-                    <String Value="93" />
+          <Number Value="93" />
                 </Facet>
                 <Facet Name="Tags">
                     <String Value="conversation opener" />
@@ -69,7 +69,7 @@
             <Description>The scene consists in a love scene between Aragorn and Arwen in Rivendell. </Description>
             <Facets>
                 <Facet Name="Duration (min)">
-                    <String Value="2" />
+          <Number Value="2" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="FellowshipOfTheRing" />
@@ -84,16 +84,16 @@
                     <String Value="Constructed (fictional)" />
                 </Facet>
                 <Facet Name="L3ST language types: count">
-                    <String Value="1" />
+          <Number Value="1" />
                 </Facet>
                 <Facet Name="L3ST languages">
                     <String Value="Elvish" />
                 </Facet>
                 <Facet Name="L3ST languages: count">
-                    <String Value="1" />
+          <Number Value="1" />
                 </Facet>
                 <Facet Name="L3ST-instances: count">
-                    <String Value="2" />
+          <Number Value="2" />
                 </Facet>
                 <Facet Name="Language sources">
                     <String Value="2+ onscreen sources, oral only" />
@@ -109,7 +109,7 @@
                     <String Value="The clip combines English as an L1 with Elvish, an invented language, as L3. " />
                 </Facet>
                 <Facet Name="Start time (min)">
-                    <String Value="91" />
+          <Number Value="91" />
                 </Facet>
                 <Facet Name="Tags">
                     <String Value="Aragorn" />
@@ -127,7 +127,7 @@
 Available at https://www.youtube.com/watch?v=MXslFb_cdG4</Description>
             <Facets>
                 <Facet Name="Duration (min)">
-                    <String Value="3" />
+          <Number Value="3" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="LoveActually" />
@@ -139,13 +139,13 @@ Available at https://www.youtube.com/watch?v=MXslFb_cdG4</Description>
                     <DateTime Value="2016-06-15T01:06:59" />
                 </Facet>
                 <Facet Name="L3ST language types: count">
-                    <String Value="0" />
+          <Number Value="0" />
                 </Facet>
                 <Facet Name="L3ST languages: count">
-                    <String Value="0" />
+          <Number Value="0" />
                 </Facet>
                 <Facet Name="L3ST-instances: count">
-                    <String Value="0" />
+          <Number Value="0" />
                 </Facet>
                 <Facet Name="Language sources">
                     <String Value="Combined: oral (any) &amp; written" />
@@ -168,7 +168,7 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
 </Description>
             <Facets>
                 <Facet Name="Duration (min)">
-                    <String Value="3" />
+          <Number Value="3" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="LoveActually" />
@@ -183,16 +183,16 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                     <String Value="Real" />
                 </Facet>
                 <Facet Name="L3ST language types: count">
-                    <String Value="1" />
+          <Number Value="1" />
                 </Facet>
                 <Facet Name="L3ST languages">
                     <String Value="Portuguese" />
                 </Facet>
                 <Facet Name="L3ST languages: count">
-                    <String Value="1" />
+          <Number Value="1" />
                 </Facet>
                 <Facet Name="L3ST-instances: count">
-                    <String Value="1" />
+          <Number Value="1" />
                 </Facet>
                 <Facet Name="Language sources">
                     <String Value="Combined: oral (any) &amp; written" />
@@ -224,16 +224,16 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                     <String Value="Real" />
                 </Facet>
                 <Facet Name="L3ST language types: count">
-                    <String Value="1" />
+          <Number Value="1" />
                 </Facet>
                 <Facet Name="L3ST languages">
                     <String Value="Hindi" />
                 </Facet>
                 <Facet Name="L3ST languages: count">
-                    <String Value="1" />
+          <Number Value="1" />
                 </Facet>
                 <Facet Name="L3ST-instances: count">
-                    <String Value="1" />
+          <Number Value="1" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="George" />
@@ -247,7 +247,7 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
             <Description>They are explaining the plan and the Chinese asks a question. Rusty responds.</Description>
             <Facets>
                 <Facet Name="Duration (min)">
-                    <String Value="4" />
+          <Number Value="4" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="OceansEleven" />
@@ -262,16 +262,16 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                     <String Value="L-main variety (e.g. dialect, sociolect, idiolect, slang)" />
                 </Facet>
                 <Facet Name="L3ST language types: count">
-                    <String Value="1" />
+          <Number Value="1" />
                 </Facet>
                 <Facet Name="L3ST languages">
                     <String Value="Chinese" />
                 </Facet>
                 <Facet Name="L3ST languages: count">
-                    <String Value="1" />
+          <Number Value="1" />
                 </Facet>
                 <Facet Name="L3ST-instances: count">
-                    <String Value="1" />
+          <Number Value="1" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="George" />
@@ -280,14 +280,14 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                     <String Value="OceansEleven.ExplainingThePlan" />
                 </Facet>
                 <Facet Name="Start time (min)">
-                    <String Value="32" />
+          <Number Value="32" />
                 </Facet>
             </Facets>
         </Item>
         <Item Id="TheWalk.GettingAnInterphone" Name="TheWalk.GettingAnInterphone" Img="#6" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.GettingAnInterphone">
             <Facets>
                 <Facet Name="Duration (min)">
-                    <String Value="2" />
+          <Number Value="2" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="TheWalk" />
@@ -299,13 +299,13 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                     <DateTime Value="2016-06-14T11:58:25" />
                 </Facet>
                 <Facet Name="L3ST language types: count">
-                    <String Value="0" />
+          <Number Value="0" />
                 </Facet>
                 <Facet Name="L3ST languages: count">
-                    <String Value="0" />
+          <Number Value="0" />
                 </Facet>
                 <Facet Name="L3ST-instances: count">
-                    <String Value="0" />
+          <Number Value="0" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="George" />
@@ -314,14 +314,14 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                     <String Value="TheWalk.GettingAnInterphone" />
                 </Facet>
                 <Facet Name="Start time (min)">
-                    <String Value="50" />
+          <Number Value="50" />
                 </Facet>
             </Facets>
         </Item>
         <Item Id="TheWalk.MeetingAnnie" Name="TheWalk.MeetingAnnie" Img="#7" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingAnnie">
             <Facets>
                 <Facet Name="Duration (min)">
-                    <String Value="3" />
+          <Number Value="3" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="TheWalk" />
@@ -333,13 +333,13 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                     <DateTime Value="2016-06-14T11:58:15" />
                 </Facet>
                 <Facet Name="L3ST language types: count">
-                    <String Value="0" />
+          <Number Value="0" />
                 </Facet>
                 <Facet Name="L3ST languages: count">
-                    <String Value="0" />
+          <Number Value="0" />
                 </Facet>
                 <Facet Name="L3ST-instances: count">
-                    <String Value="0" />
+          <Number Value="0" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="George" />
@@ -348,14 +348,14 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                     <String Value="TheWalk.MeetingAnnie" />
                 </Facet>
                 <Facet Name="Start time (min)">
-                    <String Value="16" />
+          <Number Value="16" />
                 </Facet>
             </Facets>
         </Item>
         <Item Id="TheWalk.MeetingJean-François" Name="TheWalk.MeetingJean-François" Img="#8" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingJean-François">
             <Facets>
                 <Facet Name="Duration (min)">
-                    <String Value="2" />
+          <Number Value="2" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="TheWalk" />
@@ -367,13 +367,13 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                     <DateTime Value="2016-06-14T11:58:03" />
                 </Facet>
                 <Facet Name="L3ST language types: count">
-                    <String Value="0" />
+          <Number Value="0" />
                 </Facet>
                 <Facet Name="L3ST languages: count">
-                    <String Value="0" />
+          <Number Value="0" />
                 </Facet>
                 <Facet Name="L3ST-instances: count">
-                    <String Value="0" />
+          <Number Value="0" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="George" />
@@ -382,14 +382,14 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                     <String Value="TheWalk.MeetingJean-François" />
                 </Facet>
                 <Facet Name="Start time (min)">
-                    <String Value="42" />
+          <Number Value="42" />
                 </Facet>
             </Facets>
         </Item>
         <Item Id="TheWalk.MeetingJean-Louis" Name="TheWalk.MeetingJean-Louis" Img="#9" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingJean-Louis">
             <Facets>
                 <Facet Name="Duration (min)">
-                    <String Value="2" />
+          <Number Value="2" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="TheWalk" />
@@ -401,13 +401,13 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                     <DateTime Value="2016-06-14T11:57:52" />
                 </Facet>
                 <Facet Name="L3ST language types: count">
-                    <String Value="0" />
+          <Number Value="0" />
                 </Facet>
                 <Facet Name="L3ST languages: count">
-                    <String Value="0" />
+          <Number Value="0" />
                 </Facet>
                 <Facet Name="L3ST-instances: count">
-                    <String Value="0" />
+          <Number Value="0" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="George" />
@@ -416,14 +416,14 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                     <String Value="TheWalk.MeetingJean-Louis" />
                 </Facet>
                 <Facet Name="Start time (min)">
-                    <String Value="21" />
+          <Number Value="21" />
                 </Facet>
             </Facets>
         </Item>
         <Item Id="TheWalk.MeetingPapaRudy" Name="TheWalk.MeetingPapaRudy" Img="#10" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingPapaRudy">
             <Facets>
                 <Facet Name="Duration (min)">
-                    <String Value="2" />
+          <Number Value="2" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="TheWalk" />
@@ -438,17 +438,17 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                     <String Value="Real" />
                 </Facet>
                 <Facet Name="L3ST language types: count">
-                    <String Value="1" />
+          <Number Value="1" />
                 </Facet>
                 <Facet Name="L3ST languages">
                     <String Value="Czech" />
                     <String Value="French" />
                 </Facet>
                 <Facet Name="L3ST languages: count">
-                    <String Value="2" />
+          <Number Value="2" />
                 </Facet>
                 <Facet Name="L3ST-instances: count">
-                    <String Value="4" />
+          <Number Value="4" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="George" />
@@ -457,14 +457,14 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                     <String Value="TheWalk.MeetingPapaRudy" />
                 </Facet>
                 <Facet Name="Start time (min)">
-                    <String Value="12" />
+          <Number Value="12" />
                 </Facet>
             </Facets>
         </Item>
         <Item Id="TheWalk.OnTheRoof" Name="TheWalk.OnTheRoof" Img="#11" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.OnTheRoof">
             <Facets>
                 <Facet Name="Duration (min)">
-                    <String Value="2" />
+          <Number Value="2" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="TheWalk" />
@@ -476,13 +476,13 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                     <DateTime Value="2016-06-14T11:57:25" />
                 </Facet>
                 <Facet Name="L3ST language types: count">
-                    <String Value="0" />
+          <Number Value="0" />
                 </Facet>
                 <Facet Name="L3ST languages: count">
-                    <String Value="0" />
+          <Number Value="0" />
                 </Facet>
                 <Facet Name="L3ST-instances: count">
-                    <String Value="1" />
+          <Number Value="1" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="George" />
@@ -491,14 +491,14 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                     <String Value="TheWalk.OnTheRoof" />
                 </Facet>
                 <Facet Name="Start time (min)">
-                    <String Value="83" />
+          <Number Value="83" />
                 </Facet>
             </Facets>
         </Item>
         <Item Id="TheWalk.PlanningTheCoup" Name="TheWalk.PlanningTheCoup" Img="#12" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.PlanningTheCoup">
             <Facets>
                 <Facet Name="Duration (min)">
-                    <String Value="3" />
+          <Number Value="3" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="TheWalk" />
@@ -510,13 +510,13 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                     <DateTime Value="2016-06-14T11:57:13" />
                 </Facet>
                 <Facet Name="L3ST language types: count">
-                    <String Value="0" />
+          <Number Value="0" />
                 </Facet>
                 <Facet Name="L3ST languages: count">
-                    <String Value="0" />
+          <Number Value="0" />
                 </Facet>
                 <Facet Name="L3ST-instances: count">
-                    <String Value="0" />
+          <Number Value="0" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="George" />
@@ -525,14 +525,14 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                     <String Value="TheWalk.PlanningTheCoup" />
                 </Facet>
                 <Facet Name="Start time (min)">
-                    <String Value="35" />
+          <Number Value="35" />
                 </Facet>
             </Facets>
         </Item>
         <Item Id="TheWalk.TwinTowers" Name="TheWalk.TwinTowers" Img="#13" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.TwinTowers">
             <Facets>
                 <Facet Name="Duration (min)">
-                    <String Value="3" />
+          <Number Value="3" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="TheWalk" />
@@ -544,13 +544,13 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                     <DateTime Value="2016-06-14T11:57:00" />
                 </Facet>
                 <Facet Name="L3ST language types: count">
-                    <String Value="0" />
+          <Number Value="0" />
                 </Facet>
                 <Facet Name="L3ST languages: count">
-                    <String Value="0" />
+          <Number Value="0" />
                 </Facet>
                 <Facet Name="L3ST-instances: count">
-                    <String Value="0" />
+          <Number Value="0" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="George" />
@@ -559,14 +559,14 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                     <String Value="TheWalk.TwinTowers" />
                 </Facet>
                 <Facet Name="Start time (min)">
-                    <String Value="62" />
+          <Number Value="62" />
                 </Facet>
             </Facets>
         </Item>
         <Item Id="ToyStory3.Buzzdances" Name="ToyStory3.Buzzdances" Img="#14" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzdances">
             <Facets>
                 <Facet Name="Duration (min)">
-                    <String Value="1" />
+          <Number Value="1" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="ToyStory3" />
@@ -578,13 +578,13 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                     <DateTime Value="2016-07-11T04:37:08" />
                 </Facet>
                 <Facet Name="L3ST language types: count">
-                    <String Value="0" />
+          <Number Value="0" />
                 </Facet>
                 <Facet Name="L3ST languages: count">
-                    <String Value="0" />
+          <Number Value="0" />
                 </Facet>
                 <Facet Name="L3ST-instances: count">
-                    <String Value="0" />
+          <Number Value="0" />
                 </Facet>
                 <Facet Name="Language sources">
                     <String Value="1 source, oral only" />
@@ -599,7 +599,7 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                     <String Value="Buzz baila al ritmo de música flamenca, condicionando la solución de L3 en el TM." />
                 </Facet>
                 <Facet Name="Start time (min)">
-                    <String Value="70" />
+          <Number Value="70" />
                 </Facet>
                 <Facet Name="Transcription">
                     <String Value="BUZZ: Venga conmigo, señorita. Le enseñaré las maravillas de la galaxia. Y juntos, con nuestro amor, venceremos al mal.&#xD;&#xA;JESSIE: Woody!&#xD;&#xA;WOODY: Come on, we're almost there.&#xD;&#xA;BUZZ: ¡El vaquero!" />
@@ -609,7 +609,7 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
         <Item Id="ToyStory3.Buzzfallsinlove" Name="ToyStory3.Buzzfallsinlove" Img="#15" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzfallsinlove">
             <Facets>
                 <Facet Name="Duration (min)">
-                    <String Value="1" />
+          <Number Value="1" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="ToyStory3" />
@@ -621,13 +621,13 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                     <DateTime Value="2016-07-11T04:31:25" />
                 </Facet>
                 <Facet Name="L3ST language types: count">
-                    <String Value="0" />
+          <Number Value="0" />
                 </Facet>
                 <Facet Name="L3ST languages: count">
-                    <String Value="0" />
+          <Number Value="0" />
                 </Facet>
                 <Facet Name="L3ST-instances: count">
-                    <String Value="0" />
+          <Number Value="0" />
                 </Facet>
                 <Facet Name="Language sources">
                     <String Value="1 source, oral only" />
@@ -639,7 +639,7 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                     <String Value="ToyStory3.Buzzfallsinlove" />
                 </Facet>
                 <Facet Name="Start time (min)">
-                    <String Value="68" />
+          <Number Value="68" />
                 </Facet>
                 <Facet Name="Transcription">
                     <String Value="BUZZ: Mi florecilla del desierto. Yo nunca había visto la verdadera belleza hasta esta noche.&#xD;&#xA;JESSIE: Did you fix Buzz?&#xD;&#xA;HAMM: Eh... Sort of." />
@@ -649,7 +649,7 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
         <Item Id="ToyStory3.Buzzgetsreset" Name="ToyStory3.Buzzgetsreset" Img="#16" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzgetsreset">
             <Facets>
                 <Facet Name="Duration (min)">
-                    <String Value="1" />
+          <Number Value="1" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="ToyStory3" />
@@ -661,13 +661,13 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                     <DateTime Value="2016-07-11T04:27:21" />
                 </Facet>
                 <Facet Name="L3ST language types: count">
-                    <String Value="0" />
+          <Number Value="0" />
                 </Facet>
                 <Facet Name="L3ST languages: count">
-                    <String Value="0" />
+          <Number Value="0" />
                 </Facet>
                 <Facet Name="L3ST-instances: count">
-                    <String Value="0" />
+          <Number Value="0" />
                 </Facet>
                 <Facet Name="Language sources">
                     <String Value="2+ onscreen sources, oral only" />
@@ -679,7 +679,7 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                     <String Value="ToyStory3.Buzzgetsreset" />
                 </Facet>
                 <Facet Name="Start time (min)">
-                    <String Value="67" />
+          <Number Value="67" />
                 </Facet>
                 <Facet Name="Transcription">
                     <String Value="BUZZ: Bitácora espacial. Me he despertado del hipersueño en un planeta extraño.&#xD;&#xA;WOODY: Now what did you do?&#xD;&#xA;REX: I just did what you told me.&#xD;&#xA;BUZZ: Estoy rodeado por criaturas extrañas y desconozco sus intenciones. ¿Quién anda ahí? ¿Amigo, o enemigo?&#xD;&#xA;WOODY: Uh... Amigos, we're all amigos.&#xD;&#xA;BUZZ: Me debo de haber estrellado y se me ha borrado la memoria. ¿Han visto mi nave espacial?&#xD;&#xA;WOODY: We got to switch him back.&#xD;&#xA;SLINKY: Well, how do we do that?&#xD;&#xA;HAMM: I don't know. That part's in Spanish.&#xD;&#xA;WOODY: We don't have time for this. Come on, El Buzzo.&#xD;&#xA;BUZZ: ¿Mi nave? ¿La encontraste? ¡Excelente!" />
@@ -689,7 +689,7 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
         <Item Id="ToyStory3.BuzzlooksforJessie" Name="ToyStory3.BuzzlooksforJessie" Img="#17" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.BuzzlooksforJessie">
             <Facets>
                 <Facet Name="Duration (min)">
-                    <String Value="1" />
+          <Number Value="1" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="ToyStory3" />
@@ -701,13 +701,13 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                     <DateTime Value="2016-07-11T04:48:23" />
                 </Facet>
                 <Facet Name="L3ST language types: count">
-                    <String Value="0" />
+          <Number Value="0" />
                 </Facet>
                 <Facet Name="L3ST languages: count">
-                    <String Value="0" />
+          <Number Value="0" />
                 </Facet>
                 <Facet Name="L3ST-instances: count">
-                    <String Value="0" />
+          <Number Value="0" />
                 </Facet>
                 <Facet Name="Language sources">
                     <String Value="1 source, oral only" />
@@ -719,7 +719,7 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                     <String Value="ToyStory3.BuzzlooksforJessie" />
                 </Facet>
                 <Facet Name="Start time (min)">
-                    <String Value="76" />
+          <Number Value="76" />
                 </Facet>
                 <Facet Name="Transcription">
                     <String Value="BUZZ: ¡Señorita, señorita! ¿Dónde está?&#xD;&#xA;JESSIE: ¡Buzz!&#xD;&#xA;BUZZ: ¡Señorita!" />
@@ -729,7 +729,7 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
         <Item Id="ToyStory3.Buzzopensgate" Name="ToyStory3.Buzzopensgate" Img="#18" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzopensgate">
             <Facets>
                 <Facet Name="Duration (min)">
-                    <String Value="1" />
+          <Number Value="1" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="ToyStory3" />
@@ -741,13 +741,13 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                     <DateTime Value="2016-07-11T04:39:47" />
                 </Facet>
                 <Facet Name="L3ST language types: count">
-                    <String Value="0" />
+          <Number Value="0" />
                 </Facet>
                 <Facet Name="L3ST languages: count">
-                    <String Value="0" />
+          <Number Value="0" />
                 </Facet>
                 <Facet Name="L3ST-instances: count">
-                    <String Value="0" />
+          <Number Value="0" />
                 </Facet>
                 <Facet Name="Language sources">
                     <String Value="Combined: on &amp; off screen oral" />
@@ -762,7 +762,7 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                     <String Value="Buzz baila al ritmo de música flamenca, condicionando la solución de L3 en el TM." />
                 </Facet>
                 <Facet Name="Start time (min)">
-                    <String Value="71" />
+          <Number Value="71" />
                 </Facet>
                 <Facet Name="Transcription">
                     <String Value="BUZZ: (OFF) ¡Buzz lightyear al rescate! (ON) Abierto." />
@@ -772,7 +772,7 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
         <Item Id="ToyStory3.Buzzscape" Name="ToyStory3.Woodyfalls" Img="#19" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzscape">
             <Facets>
                 <Facet Name="Duration (min)">
-                    <String Value="1" />
+          <Number Value="1" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="ToyStory3" />
@@ -784,13 +784,13 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                     <DateTime Value="2016-07-11T04:46:29" />
                 </Facet>
                 <Facet Name="L3ST language types: count">
-                    <String Value="0" />
+          <Number Value="0" />
                 </Facet>
                 <Facet Name="L3ST languages: count">
-                    <String Value="0" />
+          <Number Value="0" />
                 </Facet>
                 <Facet Name="L3ST-instances: count">
-                    <String Value="0" />
+          <Number Value="0" />
                 </Facet>
                 <Facet Name="Language sources">
                     <String Value="1 source, oral only" />
@@ -802,7 +802,7 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                     <String Value="ToyStory3.Buzzscape" />
                 </Facet>
                 <Facet Name="Start time (min)">
-                    <String Value="75" />
+          <Number Value="75" />
                 </Facet>
                 <Facet Name="Transcription">
                     <String Value="WOODY: Ah, for crying out loud!&#xD;&#xA;BUZZ: ¡Vamos, vaquero!" />
@@ -812,7 +812,7 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
         <Item Id="ToyStory3.Buzzspaceship" Name="ToyStory3.Buzzspaceship" Img="#20" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzspaceship">
             <Facets>
                 <Facet Name="Duration (min)">
-                    <String Value="1" />
+          <Number Value="1" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="ToyStory3" />
@@ -824,13 +824,13 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                     <DateTime Value="2016-07-11T04:42:16" />
                 </Facet>
                 <Facet Name="L3ST language types: count">
-                    <String Value="0" />
+          <Number Value="0" />
                 </Facet>
                 <Facet Name="L3ST languages: count">
-                    <String Value="0" />
+          <Number Value="0" />
                 </Facet>
                 <Facet Name="L3ST-instances: count">
-                    <String Value="0" />
+          <Number Value="0" />
                 </Facet>
                 <Facet Name="Language sources">
                     <String Value="1 source, oral only" />
@@ -842,7 +842,7 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                     <String Value="ToyStory3.Buzzspaceship" />
                 </Facet>
                 <Facet Name="Start time (min)">
-                    <String Value="72" />
+          <Number Value="72" />
                 </Facet>
                 <Facet Name="Transcription">
                     <String Value="BUZZ: ¿Dónde está mi nave?&#xD;&#xA;WOODY: Almost there, guys." />
