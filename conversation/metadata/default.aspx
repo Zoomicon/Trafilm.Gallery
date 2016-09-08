@@ -85,7 +85,7 @@ Version: 20160906
         <%--
         <div class="question">
           <div class="label">1. Conversation Title</div>
-          <asp:TextBox ID="txtTitle" runat="server" Columns="150"></asp:TextBox>
+          <asp:TextBox ID="txtTitle" runat="server" Columns="150" />
         </div>
 
         <div class="question">
@@ -100,7 +100,7 @@ Version: 20160906
         <%--
         <div class="question">
           <div class="label">3. Image URL</div>
-          <asp:TextBox ID="txtImageUrl" runat="server" Columns="150"></asp:TextBox>
+          <asp:TextBox ID="txtImageUrl" runat="server" Columns="150" />
         </div>
         --%>
 
@@ -109,12 +109,14 @@ Version: 20160906
 
         <div class="question">
           <div class="label">3. Conversation Start Time (min)</div>
-          <asp:TextBox ID="txtStartTime" runat="server" Columns="25"></asp:TextBox>
+          <div class="tip">What part of the film is the Conversation in? (i.e. how many minutes and seconds from the start)</div>
+          <asp:TextBox ID="txtStartTime" runat="server" Columns="25" />
         </div>
 
         <div class="question">
           <div class="label">4. Conversation Duration (min)</div>
-          <asp:TextBox ID="txtDuration" runat="server" Columns="25"></asp:TextBox>
+          <div class="tip">How long does the Conversation last? (if L3ST insances are interrupted by other speech, count total seconds from onset to end of final L3ST-instance)</div>
+          <asp:TextBox ID="txtDuration" runat="server" Columns="25" />
         </div>
         
         <%--
@@ -179,7 +181,7 @@ Version: 20160906
         <div class="question">
           <div class="label">8. Tags</div>
           <div class="tip">Keywords or other labels for filtering purposes , insert a comma (,) between different ones</div>
-          <asp:TextBox ID="txtTags" runat="server" Columns="150"></asp:TextBox>
+          <asp:TextBox ID="txtTags" runat="server" Columns="150" />
         </div>
 
         <div class="question">

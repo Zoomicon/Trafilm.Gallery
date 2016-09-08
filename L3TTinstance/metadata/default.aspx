@@ -116,7 +116,7 @@ Version: 20160906
         <div class="question">
           <div class="label">1. L3TT-instance Title</div>
           <div class="tip">Free text descriptive title (&lt;50 characters)</div>
-          <asp:TextBox ID="txtTitle" runat="server" Columns="150"></asp:TextBox>
+          <asp:TextBox ID="txtTitle" runat="server" Columns="150" />
         </div>
 
         <div class="question">
@@ -130,7 +130,7 @@ Version: 20160906
     
         <div class="question">
           <div class="label">3. Image URL</div>
-          <asp:TextBox ID="txtImageUrl" runat="server" Columns="150"></asp:TextBox>
+          <asp:TextBox ID="txtImageUrl" runat="server" Columns="150" />
         </div>   
 
 
@@ -181,7 +181,7 @@ Version: 20160906
         <div class="question">
           <div class="label">9. L3TT language</div>
           <div class="tip">Which language is L3TT?</div>
-          <asp:TextBox ID="txtL3TTlanguage" runat="server" Columns="150"></asp:TextBox>
+          <asp:TextBox ID="txtL3TTlanguage" runat="server" Columns="150" />
         </div>
 
 
@@ -356,7 +356,7 @@ Version: 20160906
         <div class="question">
           <div class="label">23. Tags</div>
           <div class="tip">Keywords or other labels for filtering purposes , insert a comma (,) between different ones</div>
-          <asp:TextBox ID="txtTags" runat="server" Columns="150"></asp:TextBox>
+          <asp:TextBox ID="txtTags" runat="server" Columns="150" />
         </div>
 
         <div class="question">
