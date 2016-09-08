@@ -120,7 +120,7 @@ Version: 20160909
           <asp:TextBox ID="txtTitle" runat="server" Columns="150" />
         </div>
 
-        <div class="question">
+        <div class="label">
           <div class="label">Description (Calculated from L3ST-instance)</div>
           <div class="tip">Free text brief description (<200 characters)</div>
           <asp:TextBox ID="txtDescription" runat="server" TextMode="MultiLine" Rows="5" Columns="110" ReadOnly="true" />
@@ -129,7 +129,7 @@ Version: 20160909
         <div class="label">L3TT-instance URL</div>
         <asp:HyperLink ID="linkUrl" runat="server" Target="_blank"/>
     
-        <div class="question">
+        <div class="label">
           <div class="label">Image URL (Calculated from L3ST-instance)</div>
           <asp:Label ID="lblImageUrl" runat="server" />
         </div>   
@@ -381,7 +381,7 @@ Version: 20160909
           <asp:ListBox ID="listL3STtypesFeaturesChange" runat="server" Enabled="false" />
         </div>
         
-                <div>
+        <div>
           <div class="label">L3ST sources change (Calculated from L3ST and L3TT sources)</div>
           <div class="tip">L3ST sources: change in TT</div>
           <asp:ListBox ID="listL3STsourcesChange" runat="server" Enabled="false" />
