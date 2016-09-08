@@ -51,11 +51,11 @@
           <DateTime Value="2016-06-01T07:33:31" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-09-08T11:58:39" />
+          <DateTime Value="2016-09-08T02:46:03" />
         </Facet>
         <Facet Name="Metadata Editors">
-          <String Value="PatrickZabalbeascoa" />
           <String Value="George" />
+          <String Value="PatrickZabalbeascoa" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Django Unchained" />
@@ -71,6 +71,9 @@
         </Facet>
         <Facet Name="Year TT released">
           <Number Value="2012" />
+        </Facet>
+        <Facet Name="Film TT Blockbuster">
+          <String Value="YES (top 20)" />
         </Facet>
         <Facet Name="L2 language">
           <String Value="Spanish" />
@@ -114,6 +117,13 @@
           <String Value="Signals otherness" />
           <String Value="Metalinguistic" />
         </Facet>
+        <Facet Name="Types/features related to L3TT">
+          <String Value="balanced exchange" />
+          <String Value="introduction" />
+        </Facet>
+        <Facet Name="L3TT sources">
+          <String Value="Oral L3: different sources " />
+        </Facet>
         <Facet Name="L3ST language type change">
           <String Value="None" />
         </Facet>
@@ -125,11 +135,12 @@
           <String Value="None" />
         </Facet>
         <Facet Name="Types/features related to L3ST change">
-          <String Value="None" />
+          <String Value="+ balanced exchange" />
+          <String Value="+ introduction" />
         </Facet>
         <Facet Name="L3ST sources change">
           <String Value="- Respond interlingually: different sources " />
-          <String Value="+ " />
+          <String Value="+ Oral L3: different sources " />
         </Facet>
       </Facets>
     </Item>
