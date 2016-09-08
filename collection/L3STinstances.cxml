@@ -451,6 +451,9 @@
                 <Facet Name="Conversation Reference Id">
                     <String Value="LoveActually.Lake Scene" />
                 </Facet>
+                <Facet Name="Duration (min)">
+                    <Number Value="3" />
+                </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="LoveActually" />
                 </Facet>
@@ -458,7 +461,7 @@
                     <DateTime Value="2016-06-01T04:24:35" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-09-04T09:29:31" />
+                    <DateTime Value="2016-09-08T03:35:03" />
                 </Facet>
                 <Facet Name="L3ST language">
                     <String Value="Portuguese" />
@@ -566,6 +569,9 @@ There is another conversation taking place among women at the kitchen.</Descript
                 <Facet Name="Conversation Reference Id">
                     <String Value="OceansEleven.ExplainingThePlan" />
                 </Facet>
+                <Facet Name="Duration (min)">
+                    <Number Value="4" />
+                </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="OceansEleven" />
                 </Facet>
@@ -573,7 +579,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                     <DateTime Value="2016-05-25T10:59:12" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-09-04T09:13:47" />
+                    <DateTime Value="2016-09-08T03:35:30" />
                 </Facet>
                 <Facet Name="L3ST functions">
                     <String Value="Character portrayal, nonstereotypical" />
@@ -603,6 +609,9 @@ There is another conversation taking place among women at the kitchen.</Descript
                 </Facet>
                 <Facet Name="Reference Id">
                     <String Value="OceansEleven.ExplainingThePlan.Chinese" />
+                </Facet>
+                <Facet Name="Start time (min)">
+                    <Number Value="32" />
                 </Facet>
             </Facets>
         </Item>
@@ -870,6 +879,9 @@ There is another conversation taking place among women at the kitchen.</Descript
                 <Facet Name="Conversation Reference Id">
                     <String Value="TheWalk.OnTheRoof" />
                 </Facet>
+                <Facet Name="Duration (min)">
+                    <Number Value="2" />
+                </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="TheWalk" />
                 </Facet>
@@ -877,7 +889,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                     <DateTime Value="2016-05-31T11:22:00" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-06-15T05:10:30" />
+                    <DateTime Value="2016-09-08T03:36:03" />
                 </Facet>
                 <Facet Name="L3TT-instances: count">
                     <Number Value="0" />
@@ -887,6 +899,9 @@ There is another conversation taking place among women at the kitchen.</Descript
                 </Facet>
                 <Facet Name="Reference Id">
                     <String Value="TheWalk.OnTheRoof.Czech" />
+                </Facet>
+                <Facet Name="Start time (min)">
+                    <Number Value="83" />
                 </Facet>
             </Facets>
         </Item>
