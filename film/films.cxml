@@ -2,17 +2,14 @@
 <Collection SchemaVersion="1.0" Name="Trafilm Gallery: Films" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="Title in Spanish" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="Title in Catalan" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Duration (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Director(s)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Scriptwriter(s)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Production countries" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Production companies" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="Box office" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Blockbuster" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Year ST released" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Main language (L1)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="Year TT released in Spain" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Conversations: count" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Conversations: duration (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="L2-Dubbed languages" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -35,17 +32,11 @@
           <DateTime Value="2016-06-16T07:57:45" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-09-07T07:31:21" />
+          <DateTime Value="2016-09-08T12:03:36" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="natalia.faja" />
           <String Value="George" />
-        </Facet>
-        <Facet Name="Title in Spanish">
-          <String Value="Blade II" />
-        </Facet>
-        <Facet Name="Title in Catalan">
-          <String Value="Blade II" />
         </Facet>
         <Facet Name="Duration (min)">
           <Number Value="117" />
@@ -60,17 +51,11 @@
           <String Value="USA" />
           <String Value=" Germany" />
         </Facet>
-        <Facet Name="Box office">
-          <String Value=" $81.645.152 (USA) " />
-        </Facet>
         <Facet Name="Year ST released">
           <Number Value="2002" />
         </Facet>
         <Facet Name="Main language (L1)">
           <String Value="English" />
-        </Facet>
-        <Facet Name="Year TT released in Spain">
-          <Number Value="2002" />
         </Facet>
         <Facet Name="Conversations: count">
           <Number Value="0" />
@@ -90,13 +75,10 @@
           <DateTime Value="2016-05-31T11:56:17" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-09-06T01:27:29" />
+          <DateTime Value="2016-09-08T12:03:40" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="George" />
-        </Facet>
-        <Facet Name="Title in Spanish">
-          <String Value="Django Desencadenado" />
         </Facet>
         <Facet Name="Duration (min)">
           <Number Value="158" />
@@ -118,9 +100,6 @@
         </Facet>
         <Facet Name="Main language (L1)">
           <String Value="English" />
-        </Facet>
-        <Facet Name="Year TT released in Spain">
-          <Number Value="2012" />
         </Facet>
         <Facet Name="L2-Dubbed languages">
           <String Value="Spanish" />
@@ -147,17 +126,11 @@
           <DateTime Value="2016-06-01T02:48:36" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-09-07T07:56:05" />
+          <DateTime Value="2016-09-08T12:03:44" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="miquelpt" />
           <String Value="George" />
-        </Facet>
-        <Facet Name="Title in Spanish">
-          <String Value="La comunidad del anillo" />
-        </Facet>
-        <Facet Name="Title in Catalan">
-          <String Value="La germandat de l'anell" />
         </Facet>
         <Facet Name="Duration (min)">
           <Number Value="178" />
@@ -184,9 +157,6 @@
         <Facet Name="Main language (L1)">
           <String Value="English" />
         </Facet>
-        <Facet Name="Year TT released in Spain">
-          <Number Value="2001" />
-        </Facet>
         <Facet Name="L2-Dubbed languages">
           <String Value="Spanish" />
         </Facet>
@@ -211,17 +181,11 @@
           <DateTime Value="2016-06-16T08:02:01" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-22T03:39:39" />
+          <DateTime Value="2016-09-08T12:03:48" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="natalia.faja" />
           <String Value="George" />
-        </Facet>
-        <Facet Name="Title in Spanish">
-          <String Value="Gangs of New York" />
-        </Facet>
-        <Facet Name="Title in Catalan">
-          <String Value="Gangs of New York" />
         </Facet>
         <Facet Name="Duration (min)">
           <Number Value="167" />
@@ -236,17 +200,11 @@
           <String Value="USA" />
           <String Value=" Italy" />
         </Facet>
-        <Facet Name="Box office">
-          <String Value=" $77.679.638 (USA) " />
-        </Facet>
         <Facet Name="Year ST released">
           <Number Value="2002" />
         </Facet>
         <Facet Name="Main language (L1)">
           <String Value="English" />
-        </Facet>
-        <Facet Name="Year TT released in Spain">
-          <Number Value="2003" />
         </Facet>
         <Facet Name="Conversations: count">
           <Number Value="0" />
@@ -266,17 +224,11 @@
           <DateTime Value="2016-06-13T06:54:58" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-14T02:41:47" />
+          <DateTime Value="2016-09-08T12:03:53" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="natalia.faja" />
           <String Value="George" />
-        </Facet>
-        <Facet Name="Title in Spanish">
-          <String Value="Lost in Translation" />
-        </Facet>
-        <Facet Name="Title in Catalan">
-          <String Value="Lost in Translation" />
         </Facet>
         <Facet Name="Duration (min)">
           <Number Value="101" />
@@ -297,17 +249,11 @@
           <String Value=" American Zoetrope" />
           <String Value=" Elemental Films" />
         </Facet>
-        <Facet Name="Box office">
-          <String Value=" $44.566.004 (USA) " />
-        </Facet>
         <Facet Name="Year ST released">
           <Number Value="2003" />
         </Facet>
         <Facet Name="Main language (L1)">
           <String Value="English" />
-        </Facet>
-        <Facet Name="Year TT released in Spain">
-          <Number Value="2004" />
         </Facet>
         <Facet Name="Conversations: count">
           <Number Value="0" />
@@ -330,14 +276,11 @@
           <DateTime Value="2016-06-01T03:30:55" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-22T03:36:40" />
+          <DateTime Value="2016-09-08T12:03:57" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Stavroula" />
           <String Value="George" />
-        </Facet>
-        <Facet Name="Title in Spanish">
-          <String Value="Love Actually" />
         </Facet>
         <Facet Name="Duration (min)">
           <Number Value="135" />
@@ -359,17 +302,11 @@
           <String Value=" Working Title Films" />
           <String Value="DNA Films" />
         </Facet>
-        <Facet Name="Box office">
-          <String Value="$59,365,105 (USA) (16 February 2004)" />
-        </Facet>
         <Facet Name="Year ST released">
           <Number Value="2003" />
         </Facet>
         <Facet Name="Main language (L1)">
           <String Value="English" />
-        </Facet>
-        <Facet Name="Year TT released in Spain">
-          <Number Value="2003" />
         </Facet>
         <Facet Name="L2-Subtitled languages">
           <String Value="Spanish" />
@@ -378,7 +315,7 @@
           <Number Value="2" />
         </Facet>
         <Facet Name="Conversations: duration (min)">
-          <Number Value="0" />
+          <Number Value="6" />
         </Facet>
       </Facets>
     </Item>
@@ -392,17 +329,11 @@
           <DateTime Value="2016-06-16T08:12:46" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-22T03:41:02" />
+          <DateTime Value="2016-09-08T12:04:01" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="natalia.faja" />
           <String Value="George" />
-        </Facet>
-        <Facet Name="Title in Spanish">
-          <String Value="Memorias de una geisha" />
-        </Facet>
-        <Facet Name="Title in Catalan">
-          <String Value="Memòries d'una geisha" />
         </Facet>
         <Facet Name="Duration (min)">
           <Number Value="145" />
@@ -416,17 +347,11 @@
         <Facet Name="Production countries">
           <String Value="USA" />
         </Facet>
-        <Facet Name="Box office">
-          <String Value=" $57.010.853 (USA)" />
-        </Facet>
         <Facet Name="Year ST released">
           <Number Value="2005" />
         </Facet>
         <Facet Name="Main language (L1)">
           <String Value="English" />
-        </Facet>
-        <Facet Name="Year TT released in Spain">
-          <Number Value="2006" />
         </Facet>
         <Facet Name="Conversations: count">
           <Number Value="0" />
@@ -451,13 +376,10 @@
           <DateTime Value="2016-06-07T03:44:51" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-07-04T02:40:05" />
+          <DateTime Value="2016-09-08T12:04:06" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="George" />
-        </Facet>
-        <Facet Name="Title in Spanish">
-          <String Value="La boda del Monzón" />
         </Facet>
         <Facet Name="Duration (min)">
           <Number Value="114" />
@@ -484,17 +406,11 @@
           <String Value=" Delhi Dot Com" />
           <String Value=" Mirabai Films Delhi" />
         </Facet>
-        <Facet Name="Box office">
-          <String Value="$68,546 (USA) (24 February 2002)" />
-        </Facet>
         <Facet Name="Year ST released">
           <Number Value="2001" />
         </Facet>
         <Facet Name="Main language (L1)">
           <String Value="English" />
-        </Facet>
-        <Facet Name="Year TT released in Spain">
-          <Number Value="2001" />
         </Facet>
         <Facet Name="L2-Dubbed languages">
           <String Value="Spanish" />
@@ -503,7 +419,7 @@
           <Number Value="1" />
         </Facet>
         <Facet Name="Conversations: duration (min)">
-          <Number Value="0" />
+          <Number Value="4" />
         </Facet>
       </Facets>
     </Item>
@@ -517,13 +433,11 @@
           <DateTime Value="2016-05-25T10:53:52" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-10T10:57:27" />
+          <DateTime Value="2016-09-08T12:04:11" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Stavroula" />
-        </Facet>
-        <Facet Name="Title in Spanish">
-          <String Value="Hagan juego" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Duration (min)">
           <Number Value="161" />
@@ -567,17 +481,11 @@
           <DateTime Value="2016-06-16T07:54:12" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-07-04T02:43:11" />
+          <DateTime Value="2016-09-08T12:04:15" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="natalia.faja" />
           <String Value="George" />
-        </Facet>
-        <Facet Name="Title in Spanish">
-          <String Value="Pearl Harbor" />
-        </Facet>
-        <Facet Name="Title in Catalan">
-          <String Value="Pearl Harbor" />
         </Facet>
         <Facet Name="Duration (min)">
           <Number Value="183" />
@@ -591,17 +499,11 @@
         <Facet Name="Production countries">
           <String Value="USA" />
         </Facet>
-        <Facet Name="Box office">
-          <String Value="$198.539.855 (USA) " />
-        </Facet>
         <Facet Name="Year ST released">
           <Number Value="2001" />
         </Facet>
         <Facet Name="Main language (L1)">
           <String Value="English" />
-        </Facet>
-        <Facet Name="Year TT released in Spain">
-          <Number Value="2001" />
         </Facet>
         <Facet Name="Conversations: count">
           <Number Value="0" />
@@ -621,17 +523,11 @@
           <DateTime Value="2016-06-16T08:16:54" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-09-01T08:52:11" />
+          <DateTime Value="2016-09-08T12:04:19" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="natalia.faja" />
-          <String Value="george" />
-        </Facet>
-        <Facet Name="Title in Spanish">
-          <String Value="Slumdog Millionaire" />
-        </Facet>
-        <Facet Name="Title in Catalan">
-          <String Value="Slumdog Millionaire" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Duration (min)">
           <Number Value="120" />
@@ -647,17 +543,11 @@
           <String Value="UK" />
           <String Value=" USA" />
         </Facet>
-        <Facet Name="Box office">
-          <String Value="$141.319.195 (USA)" />
-        </Facet>
         <Facet Name="Year ST released">
           <Number Value="2008" />
         </Facet>
         <Facet Name="Main language (L1)">
           <String Value="Other" />
-        </Facet>
-        <Facet Name="Year TT released in Spain">
-          <Number Value="2009" />
         </Facet>
         <Facet Name="Conversations: count">
           <Number Value="0" />
@@ -677,17 +567,11 @@
           <DateTime Value="2016-06-16T07:45:24" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-07-04T02:43:44" />
+          <DateTime Value="2016-09-08T12:04:24" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="natalia.faja" />
           <String Value="George" />
-        </Facet>
-        <Facet Name="Title in Spanish">
-          <String Value="Stigmata" />
-        </Facet>
-        <Facet Name="Title in Catalan">
-          <String Value="Stigmata" />
         </Facet>
         <Facet Name="Duration (min)">
           <Number Value="103" />
@@ -701,17 +585,11 @@
         <Facet Name="Production countries">
           <String Value="USA" />
         </Facet>
-        <Facet Name="Box office">
-          <String Value="$50.041.732 (USA)" />
-        </Facet>
         <Facet Name="Year ST released">
           <Number Value="1999" />
         </Facet>
         <Facet Name="Main language (L1)">
           <String Value="English" />
-        </Facet>
-        <Facet Name="Year TT released in Spain">
-          <Number Value="2000" />
         </Facet>
         <Facet Name="Conversations: count">
           <Number Value="0" />
@@ -731,17 +609,11 @@
           <DateTime Value="2016-06-16T08:07:14" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-22T03:42:30" />
+          <DateTime Value="2016-09-08T12:04:29" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="natalia.faja" />
           <String Value="George" />
-        </Facet>
-        <Facet Name="Title in Spanish">
-          <String Value="El último samurái" />
-        </Facet>
-        <Facet Name="Title in Catalan">
-          <String Value="L'últim samurai" />
         </Facet>
         <Facet Name="Duration (min)">
           <Number Value="154" />
@@ -757,17 +629,11 @@
           <String Value=" New Zealand" />
           <String Value=" Japan" />
         </Facet>
-        <Facet Name="Box office">
-          <String Value=" $111.110.575 (USA) " />
-        </Facet>
         <Facet Name="Year ST released">
           <Number Value="2003" />
         </Facet>
         <Facet Name="Main language (L1)">
           <String Value="English" />
-        </Facet>
-        <Facet Name="Year TT released in Spain">
-          <Number Value="2004" />
         </Facet>
         <Facet Name="Conversations: count">
           <Number Value="0" />
@@ -791,16 +657,10 @@
           <DateTime Value="2016-06-01T02:48:36" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-07-04T02:39:22" />
+          <DateTime Value="2016-09-08T12:04:33" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="George" />
-        </Facet>
-        <Facet Name="Title in Spanish">
-          <String Value="El retorno del rey" />
-        </Facet>
-        <Facet Name="Title in Catalan">
-          <String Value="El retorn del rei" />
         </Facet>
         <Facet Name="Duration (min)">
           <Number Value="201" />
@@ -827,9 +687,6 @@
         <Facet Name="Main language (L1)">
           <String Value="English" />
         </Facet>
-        <Facet Name="Year TT released in Spain">
-          <Number Value="2003" />
-        </Facet>
         <Facet Name="Conversations: count">
           <Number Value="0" />
         </Facet>
@@ -852,16 +709,10 @@
           <DateTime Value="2016-06-01T02:48:36" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-07-04T02:41:46" />
+          <DateTime Value="2016-09-08T12:04:39" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="George" />
-        </Facet>
-        <Facet Name="Title in Spanish">
-          <String Value="Las dos torres" />
-        </Facet>
-        <Facet Name="Title in Catalan">
-          <String Value="Les dues torres" />
         </Facet>
         <Facet Name="Duration (min)">
           <Number Value="179" />
@@ -889,9 +740,6 @@
         <Facet Name="Main language (L1)">
           <String Value="English" />
         </Facet>
-        <Facet Name="Year TT released in Spain">
-          <Number Value="2002" />
-        </Facet>
         <Facet Name="Conversations: count">
           <Number Value="0" />
         </Facet>
@@ -910,14 +758,11 @@
           <DateTime Value="2016-05-31T10:18:51" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-29T12:51:41" />
+          <DateTime Value="2016-09-08T12:04:43" />
         </Facet>
         <Facet Name="Metadata Editors">
-          <String Value="George" />
           <String Value="Guillermo" />
-        </Facet>
-        <Facet Name="Title in Spanish">
-          <String Value="El desafío (The Walk)" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Duration (min)">
           <Number Value="123" />
@@ -939,23 +784,17 @@
           <String Value=" LStar Capital" />
           <String Value=" Mel's Cite du Cinema " />
         </Facet>
-        <Facet Name="Box office">
-          <String Value="USA" />
-        </Facet>
         <Facet Name="Year ST released">
           <Number Value="2015" />
         </Facet>
         <Facet Name="Main language (L1)">
           <String Value="English" />
         </Facet>
-        <Facet Name="Year TT released in Spain">
-          <Number Value="2015" />
-        </Facet>
         <Facet Name="Conversations: count">
           <Number Value="8" />
         </Facet>
         <Facet Name="Conversations: duration (min)">
-          <Number Value="0" />
+          <Number Value="19" />
         </Facet>
       </Facets>
     </Item>
@@ -969,16 +808,11 @@
           <DateTime Value="2016-07-11T02:46:56" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-07-11T04:54:31" />
+          <DateTime Value="2016-09-08T12:04:47" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Guillermo" />
-        </Facet>
-        <Facet Name="Title in Spanish">
-          <String Value="Toy Story 3" />
-        </Facet>
-        <Facet Name="Title in Catalan">
-          <String Value="Toy Story 3" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Duration (min)">
           <Number Value="103" />
@@ -1005,14 +839,11 @@
         <Facet Name="Main language (L1)">
           <String Value="English" />
         </Facet>
-        <Facet Name="Year TT released in Spain">
-          <Number Value="2010" />
-        </Facet>
         <Facet Name="Conversations: count">
           <Number Value="7" />
         </Facet>
         <Facet Name="Conversations: duration (min)">
-          <Number Value="0" />
+          <Number Value="7" />
         </Facet>
       </Facets>
     </Item>
@@ -1026,16 +857,11 @@
           <DateTime Value="2016-08-15T09:39:32" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-08-15T09:45:03" />
+          <DateTime Value="2016-09-08T12:04:51" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Guillermo" />
-        </Facet>
-        <Facet Name="Title in Spanish">
-          <String Value="Zootrópolis" />
-        </Facet>
-        <Facet Name="Title in Catalan">
-          <String Value="Zootròpolis" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Duration (min)">
           <Number Value="109" />
@@ -1060,9 +886,6 @@
         </Facet>
         <Facet Name="Main language (L1)">
           <String Value="English" />
-        </Facet>
-        <Facet Name="Year TT released in Spain">
-          <Number Value="2016" />
         </Facet>
         <Facet Name="Conversations: count">
           <Number Value="0" />

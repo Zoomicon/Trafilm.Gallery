@@ -5,6 +5,7 @@
 using Metadata.CXML;
 using Trafilm.Metadata;
 using Trafilm.Metadata.Models;
+using Trafilm.Metadata.Utils;
 
 using System;
 using System.Globalization;
@@ -148,6 +149,10 @@ namespace Trafilm.Gallery
       UI.Load(listConversations, metadata.ConversationReferenceId);
       UI.Load(listL3STinstances, metadata.L3STinstanceReferenceId);
 
+      UI.Load(txtFilmTitleTT, metadata.FilmTitleTT);
+      UI.Load(txtYearTTreleased, metadata.YearTTreleased.ToString());
+      UI.Load(listBlockbusterTT, metadata.BlockbusterTT);
+
       UI.Load(lblStartTime, metadata.StartTime.ToString());
       UI.Load(lblDuration, metadata.Duration.ToString());
 
@@ -227,6 +232,10 @@ namespace Trafilm.Gallery
       metadata.FilmReferenceId = filmReferenceId;
       metadata.ConversationReferenceId = conversationReferenceId;
       metadata.L3STinstanceReferenceId = l3STinstanceReferenceId;
+
+      metadata.FilmTitleTT= txtFilmTitleTT.Text;
+      metadata.YearTTreleased = txtYearTTreleased.Text.ToNullableInt();
+      metadata.BlockbusterTT = listBlockbusterTT.SelectedValue;
 
       metadata.L2language = listL2language.SelectedValue;
       metadata.L2mode = listL2mode.SelectedValue;

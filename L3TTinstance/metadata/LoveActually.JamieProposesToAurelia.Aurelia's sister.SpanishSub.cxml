@@ -5,6 +5,8 @@
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Conversation Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3ST-instance Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Film Title TT" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Year TT released" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Start time (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Duration (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="L2 language" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -45,13 +47,13 @@
           <String Value="LoveActually.JamieProposesToAurelia.Aurelia's sister.SpanishSub" />
         </Facet>
         <Facet Name="Transcription">
-          <String Value="&#xD;&#xA;&#xD;&#xA;Spanish subtitles&#xD;&#xA;&#xD;&#xA;1382&#xD;&#xA;01:58:34,178 -- 01:58:35,896&#xD;&#xA;Buenas noches, Aurelia.&#xD;&#xA;&#xD;&#xA;1383&#xD;&#xA;01:58:37,379 -- 01:58:39,370&#xD;&#xA;Buenas noches, Jamie.&#xD;&#xA;&#xD;&#xA;1384&#xD;&#xA;01:58:54,063 -- 01:58:56,942&#xD;&#xA;Hermosa Aurelia...&#xD;&#xA;&#xD;&#xA;1385&#xD;&#xA;01:58:56,984 -- 01:59:01,024&#xD;&#xA;he venido aquí con&#xD;&#xA;la intención de pedir...&#xD;&#xA;&#xD;&#xA;1386&#xD;&#xA;01:59:02,065 -- 01:59:04,182&#xD;&#xA;que te cases conmigo.&#xD;&#xA;&#xD;&#xA;1387&#xD;&#xA;01:59:05,466 -- 01:59:10,097&#xD;&#xA;Sé que parezco un demente,&#xD;&#xA;porque apenas te conozco...&#xD;&#xA;&#xD;&#xA;1388&#xD;&#xA;01:59:11,668 -- 01:59:18,382&#xD;&#xA;pero a veces las cosas&#xD;&#xA;se ven tan claras...&#xD;&#xA;&#xD;&#xA;1389&#xD;&#xA;01:59:19,630 -- 01:59:22,907&#xD;&#xA;que no necesitan&#xD;&#xA;pruebas evidentes.&#xD;&#xA;&#xD;&#xA;1390&#xD;&#xA;01:59:24,751 -- 01:59:30,510&#xD;&#xA;Y yo viviré aquí, o tú puedes&#xD;&#xA;vivir conmigo en Inglaterra.&#xD;&#xA;&#xD;&#xA;1391&#xD;&#xA;01:59:30,553 -- 01:59:32,987&#xD;&#xA;Ve a Inglaterra sin dudarlo, muchacha.&#xD;&#xA;&#xD;&#xA;1392&#xD;&#xA;01:59:33,033 -- 01:59:36,185&#xD;&#xA;Conocerás al Príncipe Guillermo,&#xD;&#xA;entonces te podrás casar con él.&#xD;&#xA;&#xD;&#xA;1393&#xD;&#xA;01:59:37,155 -- 01:59:42,913&#xD;&#xA;Por supuesto que no espero&#xD;&#xA;que seas tan cursi como yo...&#xD;&#xA;&#xD;&#xA;1394&#xD;&#xA;01:59:43,756 -- 01:59:48,274&#xD;&#xA;y por supuesto que pienso&#xD;&#xA;que me dirás que no...&#xD;&#xA;&#xD;&#xA;1395&#xD;&#xA;01:59:49,318 -- 01:59:56,908&#xD;&#xA;pero es navidad y tan sólo quería...&#xD;&#xA;asegurarme.&#xD;&#xA;&#xD;&#xA;1396&#xD;&#xA;02:00:00,961 -- 02:00:04,432&#xD;&#xA;¡Por, Dios!&#xD;&#xA;¡Dile que sí, escuálida!&#xD;&#xA;&#xD;&#xA;1397&#xD;&#xA;02:00:07,123 -- 02:00:09,114&#xD;&#xA;Gracias.&#xD;&#xA;&#xD;&#xA;1398&#xD;&#xA;02:00:10,844 -- 02:00:12,835&#xD;&#xA;Eso sería agradable.&#xD;&#xA;&#xD;&#xA;1399&#xD;&#xA;02:00:15,005 -- 02:00:17,678&#xD;&#xA;Mi respuesta es sí.&#xD;&#xA;&#xD;&#xA;1400&#xD;&#xA;02:00:19,286 -- 02:00:21,516&#xD;&#xA;Una pregunta simple.&#xD;&#xA;&#xD;&#xA;1401&#xD;&#xA;02:00:21,566 -- 02:00:23,922&#xD;&#xA;¿Qué dijiste?&#xD;&#xA;&#xD;&#xA;1402&#xD;&#xA;02:00:23,967 -- 02:00:25,286&#xD;&#xA;Sí, por supuesto.&#xD;&#xA;&#xD;&#xA;1403&#xD;&#xA;02:00:27,928 -- 02:00:30,159&#xD;&#xA;¡Bravo!&#xD;&#xA;&#xD;&#xA;1404&#xD;&#xA;02:00:54,495 -- 02:00:56,566&#xD;&#xA;¿Aprendiste inglés?&#xD;&#xA;&#xD;&#xA;1405&#xD;&#xA;02:00:57,056 -- 02:00:59,173&#xD;&#xA;Sólo por si acaso.&#xD;&#xA;" />
+          <String Value="Spanish subtitles&#xD;&#xA;&#xD;&#xA;1382&#xD;&#xA;01:58:34,178 -- 01:58:35,896&#xD;&#xA;Buenas noches, Aurelia.&#xD;&#xA;&#xD;&#xA;1383&#xD;&#xA;01:58:37,379 -- 01:58:39,370&#xD;&#xA;Buenas noches, Jamie.&#xD;&#xA;&#xD;&#xA;1384&#xD;&#xA;01:58:54,063 -- 01:58:56,942&#xD;&#xA;Hermosa Aurelia...&#xD;&#xA;&#xD;&#xA;1385&#xD;&#xA;01:58:56,984 -- 01:59:01,024&#xD;&#xA;he venido aquí con&#xD;&#xA;la intención de pedir...&#xD;&#xA;&#xD;&#xA;1386&#xD;&#xA;01:59:02,065 -- 01:59:04,182&#xD;&#xA;que te cases conmigo.&#xD;&#xA;&#xD;&#xA;1387&#xD;&#xA;01:59:05,466 -- 01:59:10,097&#xD;&#xA;Sé que parezco un demente,&#xD;&#xA;porque apenas te conozco...&#xD;&#xA;&#xD;&#xA;1388&#xD;&#xA;01:59:11,668 -- 01:59:18,382&#xD;&#xA;pero a veces las cosas&#xD;&#xA;se ven tan claras...&#xD;&#xA;&#xD;&#xA;1389&#xD;&#xA;01:59:19,630 -- 01:59:22,907&#xD;&#xA;que no necesitan&#xD;&#xA;pruebas evidentes.&#xD;&#xA;&#xD;&#xA;1390&#xD;&#xA;01:59:24,751 -- 01:59:30,510&#xD;&#xA;Y yo viviré aquí, o tú puedes&#xD;&#xA;vivir conmigo en Inglaterra.&#xD;&#xA;&#xD;&#xA;1391&#xD;&#xA;01:59:30,553 -- 01:59:32,987&#xD;&#xA;Ve a Inglaterra sin dudarlo, muchacha.&#xD;&#xA;&#xD;&#xA;1392&#xD;&#xA;01:59:33,033 -- 01:59:36,185&#xD;&#xA;Conocerás al Príncipe Guillermo,&#xD;&#xA;entonces te podrás casar con él.&#xD;&#xA;&#xD;&#xA;1393&#xD;&#xA;01:59:37,155 -- 01:59:42,913&#xD;&#xA;Por supuesto que no espero&#xD;&#xA;que seas tan cursi como yo...&#xD;&#xA;&#xD;&#xA;1394&#xD;&#xA;01:59:43,756 -- 01:59:48,274&#xD;&#xA;y por supuesto que pienso&#xD;&#xA;que me dirás que no...&#xD;&#xA;&#xD;&#xA;1395&#xD;&#xA;01:59:49,318 -- 01:59:56,908&#xD;&#xA;pero es navidad y tan sólo quería...&#xD;&#xA;asegurarme.&#xD;&#xA;&#xD;&#xA;1396&#xD;&#xA;02:00:00,961 -- 02:00:04,432&#xD;&#xA;¡Por, Dios!&#xD;&#xA;¡Dile que sí, escuálida!&#xD;&#xA;&#xD;&#xA;1397&#xD;&#xA;02:00:07,123 -- 02:00:09,114&#xD;&#xA;Gracias.&#xD;&#xA;&#xD;&#xA;1398&#xD;&#xA;02:00:10,844 -- 02:00:12,835&#xD;&#xA;Eso sería agradable.&#xD;&#xA;&#xD;&#xA;1399&#xD;&#xA;02:00:15,005 -- 02:00:17,678&#xD;&#xA;Mi respuesta es sí.&#xD;&#xA;&#xD;&#xA;1400&#xD;&#xA;02:00:19,286 -- 02:00:21,516&#xD;&#xA;Una pregunta simple.&#xD;&#xA;&#xD;&#xA;1401&#xD;&#xA;02:00:21,566 -- 02:00:23,922&#xD;&#xA;¿Qué dijiste?&#xD;&#xA;&#xD;&#xA;1402&#xD;&#xA;02:00:23,967 -- 02:00:25,286&#xD;&#xA;Sí, por supuesto.&#xD;&#xA;&#xD;&#xA;1403&#xD;&#xA;02:00:27,928 -- 02:00:30,159&#xD;&#xA;¡Bravo!&#xD;&#xA;&#xD;&#xA;1404&#xD;&#xA;02:00:54,495 -- 02:00:56,566&#xD;&#xA;¿Aprendiste inglés?&#xD;&#xA;&#xD;&#xA;1405&#xD;&#xA;02:00:57,056 -- 02:00:59,173&#xD;&#xA;Sólo por si acaso.&#xD;&#xA;" />
         </Facet>
         <Facet Name="Info created">
           <DateTime Value="2016-06-15T03:00:07" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-09-08T03:39:38" />
+          <DateTime Value="2016-09-08T11:03:51" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Stavroula" />
@@ -65,6 +67,12 @@
         </Facet>
         <Facet Name="L3ST-instance Reference Id">
           <String Value="LoveActually.JamieProposesToAurelia.Aurelia's sister" />
+        </Facet>
+        <Facet Name="Film Title TT">
+          <String Value="Love Actually" />
+        </Facet>
+        <Facet Name="Year TT released">
+          <Number Value="2003" />
         </Facet>
         <Facet Name="Duration (min)">
           <Number Value="1" />
