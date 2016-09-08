@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: L3TTinstance\metadata\default.aspx.cs
-//Version: 20160908
+//Version: 20160909
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -124,7 +124,7 @@ namespace Trafilm.Gallery
 
       //Ignoring the Id field, since some Pivot Tools expect it to be sequential
       UI.Load(txtTitle, metadata.Title);
-      UI.Load(txtImageUrl, metadata.Image);
+      UI.Load(lblImageUrl, metadata.Image);
       UI.Load(linkUrl, GetL3TTinstanceUri(metadata.FilmReferenceId, metadata.ConversationReferenceId, metadata.L3STinstanceReferenceId, key));
       UI.Load(txtDescription, metadata.Description);
 
@@ -150,14 +150,16 @@ namespace Trafilm.Gallery
       UI.Load(listL3STinstances, metadata.L3STinstanceReferenceId);
 
       UI.Load(txtFilmTitleTT, metadata.FilmTitleTT);
+
+      UI.Load(listL2language, metadata.L2language);
+      UI.Load(listL2mode, metadata.L2mode);
+
+      UI.Load(txtDistributionCountriesTT, metadata.DistributionCountriesTT);
       UI.Load(txtYearTTreleased, metadata.YearTTreleased.ToString());
       UI.Load(listBlockbusterTT, metadata.BlockbusterTT);
 
       UI.Load(lblStartTime, metadata.StartTime.ToString());
       UI.Load(lblDuration, metadata.Duration.ToString());
-
-      UI.Load(listL2language, metadata.L2language);
-      UI.Load(listL2mode, metadata.L2mode);
 
       UI.Load(listL2sameAsL3ST, metadata.L2sameAsL3ST);
       UI.Load(listL3STconveyedAsL3TT, metadata.L3STconveyedAsL3TT);
@@ -208,9 +210,9 @@ namespace Trafilm.Gallery
       //ICXMLMetadata//
 
       metadata.Title = txtTitle.Text;
-      metadata.Image = txtImageUrl.Text;
+      //metadata.Image calculated from L3STinstance
       metadata.Url = GetL3TTinstanceUri(filmReferenceId, conversationReferenceId, l3STinstanceReferenceId, key);
-      metadata.Description = txtDescription.Text;
+      //metadata.Description calculated from L3STinstance
 
       //ITrafilmMetadata//
 
@@ -234,11 +236,13 @@ namespace Trafilm.Gallery
       metadata.L3STinstanceReferenceId = l3STinstanceReferenceId;
 
       metadata.FilmTitleTT= txtFilmTitleTT.Text;
-      metadata.YearTTreleased = txtYearTTreleased.Text.ToNullableInt();
-      metadata.BlockbusterTT = listBlockbusterTT.SelectedValue;
 
       metadata.L2language = listL2language.SelectedValue;
       metadata.L2mode = listL2mode.SelectedValue;
+
+      metadata.DistributionCountriesTT = UI.GetCommaSeparated(txtDistributionCountriesTT);
+      metadata.YearTTreleased = txtYearTTreleased.Text.ToNullableInt();
+      metadata.BlockbusterTT = listBlockbusterTT.SelectedValue;
 
       metadata.L2sameAsL3ST = listL2sameAsL3ST.SelectedValue;
       metadata.L3STconveyedAsL3TT = listL3STconveyedAsL3TT.SelectedValue;

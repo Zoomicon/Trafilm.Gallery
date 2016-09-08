@@ -346,13 +346,13 @@ namespace Trafilm.Gallery {
         protected global::System.Web.UI.WebControls.HyperLink linkUrl;
         
         /// <summary>
-        /// txtImageUrl control.
+        /// lblImageUrl control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtImageUrl;
+        protected global::System.Web.UI.WebControls.Label lblImageUrl;
         
         /// <summary>
         /// txtFilmTitleTT control.
@@ -362,24 +362,6 @@ namespace Trafilm.Gallery {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtFilmTitleTT;
-        
-        /// <summary>
-        /// txtYearTTreleased control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtYearTTreleased;
-        
-        /// <summary>
-        /// listBlockbusterTT control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList listBlockbusterTT;
         
         /// <summary>
         /// listL2language control.
@@ -398,6 +380,33 @@ namespace Trafilm.Gallery {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList listL2mode;
+        
+        /// <summary>
+        /// txtDistributionCountriesTT control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtDistributionCountriesTT;
+        
+        /// <summary>
+        /// txtYearTTreleased control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtYearTTreleased;
+        
+        /// <summary>
+        /// listBlockbusterTT control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList listBlockbusterTT;
         
         /// <summary>
         /// lblStartTime control.
