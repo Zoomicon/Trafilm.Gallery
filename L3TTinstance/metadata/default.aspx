@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: L3TTinstance\metadata\default.aspx
-Version: 20160901
+Version: 20160906
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -35,6 +35,7 @@ Version: 20160901
     <asp:XmlDataSource ID="xmlL3TTrepresentationsOral" runat="server" DataFile="~/metadata/L3representationsOral.xml" XPath="Facet/String" />
     <asp:XmlDataSource ID="xmlL3TTrepresentationsVisual" runat="server" DataFile="~/metadata/L3representationsVisual.xml" XPath="Facet/String" />
     <asp:XmlDataSource ID="xmlL3TTfunctions" runat="server" DataFile="~/metadata/L3functions.xml" XPath="Facet/String" />
+    <asp:XmlDataSource ID="xmlL3TTtypesFeatures" runat="server" DataFile="~/metadata/L3typesFeatures.xml" XPath="Facet/String" />
     <asp:XmlDataSource ID="xmlL3TTsources" runat="server" DataFile="~/metadata/L3sources.xml" XPath="Facet/String" />
 
 
@@ -115,7 +116,7 @@ Version: 20160901
         <div class="question">
           <div class="label">1. L3TT-instance Title</div>
           <div class="tip">Free text descriptive title (&lt;50 characters)</div>
-          <asp:TextBox ID="txtTitle" runat="server" Columns="150"></asp:TextBox>
+          <asp:TextBox ID="txtTitle" runat="server" Columns="150" />
         </div>
 
         <div class="question">
@@ -129,7 +130,7 @@ Version: 20160901
     
         <div class="question">
           <div class="label">3. Image URL</div>
-          <asp:TextBox ID="txtImageUrl" runat="server" Columns="150"></asp:TextBox>
+          <asp:TextBox ID="txtImageUrl" runat="server" Columns="150" />
         </div>   
 
 
@@ -180,7 +181,7 @@ Version: 20160901
         <div class="question">
           <div class="label">9. L3TT language</div>
           <div class="tip">Which language is L3TT?</div>
-          <asp:TextBox ID="txtL3TTlanguage" runat="server" Columns="150"></asp:TextBox>
+          <asp:TextBox ID="txtL3TTlanguage" runat="server" Columns="150" />
         </div>
 
 
@@ -290,7 +291,19 @@ Version: 20160901
 
 
         <div class="question">
-          <div class="label">20. L3TT sources <i>(with or without main language mix)</i></div>
+          <div class="label">20. Types/features related to L3TT</div>
+          <div class="tip">Types or features (functional or otherwise) related to L3TT presence</div>
+          <asp:Panel runat="server" ScrollBars="Auto" Style="max-height: 100px">
+            <asp:CheckBoxList ID="clistL3TTtypesFeatures" runat="server"
+              DataSourceID="xmlL3TTtypesFeatures" DataTextField="Value" DataValueField="Value"
+              RepeatLayout="Table" RepeatColumns="10" RepeatDirection="Vertical"               
+              />
+           </asp:Panel>
+        </div>
+
+
+        <div class="question">
+          <div class="label">21. L3TT sources <i>(with or without main language mix)</i></div>
           <div class="info">Choose the description that best explains the number of sources (on or off screen, oral or written) and whether the main language is mixed with L3 (Main language, or “main”, is L2 for L3TT-instances)</div>
           <asp:DropDownList
             ID="listL3TTsources" runat="server"
@@ -303,25 +316,31 @@ Version: 20160901
         
         <div>
           <div class="label">L3ST language type change (Calculated from L3ST and L3TT language type)</div>
-          <div class="tip">L3ST language type change in TT</div>
+          <div class="tip">L3ST language type: change in TT</div>
           <asp:ListBox ID="listL3STlanguageTypeChange" runat="server" Enabled="false" />
         </div>
                 
         <div>
           <div class="label">L3ST mode change (Calculated from L3ST and L3TT mode)</div>
-          <div class="tip">L3ST mode change in TT</div>
+          <div class="tip">L3ST mode: change in TT</div>
           <asp:ListBox ID="listL3STmodeChange" runat="server" Enabled="false" />
         </div>
 
         <div>
           <div class="label">L3ST functions change (Calculated from L3ST and L3TT functions)</div>
-          <div class="tip">L3ST functions change in TT</div>
+          <div class="tip">L3ST functions: change in TT</div>
           <asp:ListBox ID="listL3STfunctionsChange" runat="server" Enabled="false" />
         </div>
 
         <div>
+          <div class="label">Types/features related to L3ST change (Calculated from L3ST and L3TT functions)</div>
+          <div class="tip">Types/features related to L3ST: change in TT</div>
+          <asp:ListBox ID="listL3STtypesFeaturesChange" runat="server" Enabled="false" />
+        </div>
+        
+                <div>
           <div class="label">L3ST sources change (Calculated from L3ST and L3TT sources)</div>
-          <div class="tip">L3ST sources change in TT</div>
+          <div class="tip">L3ST sources: change in TT</div>
           <asp:ListBox ID="listL3STsourcesChange" runat="server" Enabled="false" />
         </div>
 
@@ -329,20 +348,20 @@ Version: 20160901
         <%-- ITrafilmMetadata --%>
 
         <div class="question">
-          <div class="label">20. Transcription </div>
+          <div class="label">22. Transcription </div>
           <div class="tip">Transcription for the specific L3TT-instance</div>
           <asp:TextBox ID="txtTranscription" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
         </div>
 
         <div class="question">
-          <div class="label">21. Keywords</div>
-          <div class="tip">Comma-separated list of keywords to help identify this item</div>
-          <asp:TextBox ID="txtKeywords" runat="server" Columns="150"></asp:TextBox>
+          <div class="label">23. Tags</div>
+          <div class="tip">Keywords or other labels for filtering purposes , insert a comma (,) between different ones</div>
+          <asp:TextBox ID="txtTags" runat="server" Columns="150" />
         </div>
 
         <div class="question">
-          <div class="label">22. Remarks </div>
-          <div class="tip">Remarks on the metadata</div>
+          <div class="label">24. Remarks </div>
+          <div class="tip">Issues concerning the analysis or the metadata form design</div>
           <asp:TextBox ID="txtRemarks" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
         </div>
 
@@ -373,7 +392,7 @@ Version: 20160901
             height="50"
             OnClick="btnSave_Click"
             />
-          <br />
+          <br /><br />
         </asp:Panel>
 
 

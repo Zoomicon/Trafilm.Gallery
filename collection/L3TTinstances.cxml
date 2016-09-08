@@ -13,7 +13,7 @@
         <FacetCategory Name="L3TT language" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="L3TT constructed based on" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="L3TT meant to be understood" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
-        <FacetCategory Name="L3TT required for understanding" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
+        <FacetCategory Name="L3TT message required for understanding" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="L3TT meaning decipherable" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="Quality of L3TT speaker performance" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
         <FacetCategory Name="L3TT mode, written/spoken, diegetic" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
@@ -21,13 +21,15 @@
         <FacetCategory Name="L3TT merely represented orally" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="L3TT represented: visual" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="L3TT functions" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
+        <FacetCategory Name="Types/features related to L3TT" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="L3TT sources" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="L3ST language type change" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="L3ST mode change" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="L3ST functions change" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
+        <FacetCategory Name="Types/features related to L3ST change" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="L3ST sources change" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="false" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
-        <FacetCategory Name="Keywords" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
+        <FacetCategory Name="Tags" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="false" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="false" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
         <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
@@ -46,7 +48,7 @@
                     <DateTime Value="2016-06-01T07:33:31" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-09-01T08:10:22" />
+                    <DateTime Value="2016-09-07T11:43:25" />
                 </Facet>
                 <Facet Name="L2 language">
                     <String Value="Spanish" />
@@ -92,11 +94,11 @@
                 <Facet Name="L3TT meant to be understood">
                     <String Value="NO" />
                 </Facet>
+                <Facet Name="L3TT message required for understanding">
+                    <String Value="Yes" />
+                </Facet>
                 <Facet Name="L3TT mode, written/spoken, diegetic">
                     <String Value="Oral non-diegetic" />
-                </Facet>
-                <Facet Name="L3TT required for understanding">
-                    <String Value="Yes" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="PatrickZabalbeascoa" />
@@ -107,6 +109,9 @@
                 </Facet>
                 <Facet Name="Reference Id">
                     <String Value="Django Unchained.Slave speaks a little German.Slave opens conversation.Slave's ST German dubbed" />
+                </Facet>
+                <Facet Name="Types/features related to L3ST change">
+                    <String Value="None" />
                 </Facet>
             </Facets>
         </Item>
@@ -123,7 +128,7 @@
                     <DateTime Value="2016-06-15T09:38:56" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-06-15T09:52:57" />
+                    <DateTime Value="2016-09-02T03:20:44" />
                 </Facet>
                 <Facet Name="L2 language">
                     <String Value="Spanish" />
@@ -143,6 +148,9 @@
                 <Facet Name="L3ST language type change">
                     <String Value="None" />
                 </Facet>
+                <Facet Name="L3ST mode change">
+                    <String Value="None" />
+                </Facet>
                 <Facet Name="L3ST sources change">
                     <String Value="- Respond interlingually: different sources " />
                     <String Value="+ Non-diegetic translation" />
@@ -160,7 +168,7 @@
                     <String Value="Elvish" />
                 </Facet>
                 <Facet Name="L3TT language type">
-                    <String Value="Constructed" />
+                    <String Value="Constructed (fictional)" />
                 </Facet>
                 <Facet Name="L3TT meaning decipherable">
                     <String Value="NO" />
@@ -171,17 +179,18 @@
                 <Facet Name="L3TT merely represented">
                     <String Value="NO / Not applicable" />
                 </Facet>
+                <Facet Name="L3TT message required for understanding">
+                    <String Value="Yes" />
+                </Facet>
                 <Facet Name="L3TT mode, written/spoken, diegetic">
                     <String Value="Oral diegetic on-screen" />
-                </Facet>
-                <Facet Name="L3TT required for understanding">
-                    <String Value="Yes" />
                 </Facet>
                 <Facet Name="L3TT sources">
                     <String Value="Non-diegetic translation" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="miquelpt" />
+                    <String Value="George" />
                 </Facet>
                 <Facet Name="Quality of L3TT speaker performance">
                     <String Value="native or proficient" />
@@ -228,7 +237,7 @@
                     <String Value="None" />
                 </Facet>
                 <Facet Name="L3ST language type change">
-                    <String Value="- Constructed" />
+                    <String Value="- Constructed (fictional)" />
                     <String Value="+ No L3TT: L3-instance in L2" />
                 </Facet>
                 <Facet Name="L3ST sources change">
@@ -256,11 +265,11 @@
                 <Facet Name="L3TT merely represented">
                     <String Value="NO / Not applicable" />
                 </Facet>
+                <Facet Name="L3TT message required for understanding">
+                    <String Value="Yes" />
+                </Facet>
                 <Facet Name="L3TT mode, written/spoken, diegetic">
                     <String Value="Written non-diegetic" />
-                </Facet>
-                <Facet Name="L3TT required for understanding">
-                    <String Value="Yes" />
                 </Facet>
                 <Facet Name="L3TT sources">
                     <String Value="Non-diegetic translation" />
@@ -295,7 +304,7 @@
                     <DateTime Value="2016-06-16T05:27:49" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-06-16T05:44:41" />
+                    <DateTime Value="2016-09-07T07:52:53" />
                 </Facet>
                 <Facet Name="L2 language">
                     <String Value="Spanish" />
@@ -315,6 +324,9 @@
                 <Facet Name="L3ST language type change">
                     <String Value="None" />
                 </Facet>
+                <Facet Name="L3ST mode change">
+                    <String Value="None" />
+                </Facet>
                 <Facet Name="L3ST sources change">
                     <String Value="- Respond interlingually: different sources " />
                     <String Value="+ Non-diegetic translation" />
@@ -332,7 +344,7 @@
                     <String Value="Elvish" />
                 </Facet>
                 <Facet Name="L3TT language type">
-                    <String Value="Constructed" />
+                    <String Value="Constructed (fictional)" />
                 </Facet>
                 <Facet Name="L3TT meaning decipherable">
                     <String Value="NO" />
@@ -343,17 +355,18 @@
                 <Facet Name="L3TT merely represented">
                     <String Value="NO / Not applicable" />
                 </Facet>
+                <Facet Name="L3TT message required for understanding">
+                    <String Value="Yes" />
+                </Facet>
                 <Facet Name="L3TT mode, written/spoken, diegetic">
                     <String Value="Oral diegetic on-screen" />
-                </Facet>
-                <Facet Name="L3TT required for understanding">
-                    <String Value="Yes" />
                 </Facet>
                 <Facet Name="L3TT sources">
                     <String Value="Non-diegetic translation" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="miquelpt" />
+                    <String Value="George" />
                 </Facet>
                 <Facet Name="Quality of L3TT speaker performance">
                     <String Value="native or proficient" />
@@ -363,6 +376,9 @@
                 </Facet>
                 <Facet Name="Transcription">
                     <String Value="Arwen: Renich i lú i erui govannem? [SUB: ¿Te acuerdas del día / que nos conocimos?]&#xD;&#xA;Aragorn: Nauthannen i ned ôl reniannen. [SUB: Pensé que me había perdido / en un sueño.]&#xD;&#xA;Arwen: Gwennnin in enninath. Ú-arnech in naeth i si celich. Renich i beth i pennen? [SUB: Largos años han pasado.&#xD;&#xA;Largos años han pasado. SUB: No tenías las preocupaciones que soportas ahora. SUB: ¿Te acuerdas de lo que dije?]&#xD;&#xA;&#xD;&#xA;Aragorn: Dijiste que acabarías uniéndote a mí, renunciando a la vida inmortal, propia de tu pueblo.&#xD;&#xA;Arwen: Y lo sigo diciendo. Antes compartiría una vida contigo que enfrentarme a todas las Edades de este mundo sola. Elijo una vida mortal. &#xD;&#xA;" />
+                </Facet>
+                <Facet Name="Types/features related to L3ST change">
+                    <String Value="None" />
                 </Facet>
             </Facets>
         </Item>
@@ -416,7 +432,7 @@
                     <String Value="Elvish" />
                 </Facet>
                 <Facet Name="L3TT language type">
-                    <String Value="Constructed" />
+                    <String Value="Constructed (fictional)" />
                 </Facet>
                 <Facet Name="L3TT meaning decipherable">
                     <String Value="NO" />
@@ -427,11 +443,11 @@
                 <Facet Name="L3TT merely represented">
                     <String Value="NO / Not applicable" />
                 </Facet>
+                <Facet Name="L3TT message required for understanding">
+                    <String Value="Yes" />
+                </Facet>
                 <Facet Name="L3TT mode, written/spoken, diegetic">
                     <String Value="Oral diegetic on-screen" />
-                </Facet>
-                <Facet Name="L3TT required for understanding">
-                    <String Value="Yes" />
                 </Facet>
                 <Facet Name="L3TT sources">
                     <String Value="Non-diegetic translation" />
@@ -450,7 +466,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="LoveActually.JamieProposesToAurelia.Aurelia's sister.SpanishSub" Name="LoveActually.JamieProposesToAurelia.Aurelia's sister.SpanishSub" Img="#5" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia&amp;L3STinstance=LoveActually.JamieProposesToAurelia.Aurelia's sister&amp;L3TTinstance=LoveActually.JamieProposesToAurelia.Aurelia's sister.SpanishSub">
+        <Item Id="LoveActually.JamieProposesToAurelia.Aurelia's sister.SpanishSub" Name="LoveActually - Jamie proposes to Aurelia - Aurelia's sister - Spanish Sub" Img="#5" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia&amp;L3STinstance=LoveActually.JamieProposesToAurelia.Aurelia's sister&amp;L3TTinstance=LoveActually.JamieProposesToAurelia.Aurelia's sister.SpanishSub">
             <Facets>
                 <Facet Name="Conversation Reference Id">
                     <String Value="LoveActually.JamieProposesToAurelia" />
@@ -462,7 +478,7 @@
                     <DateTime Value="2016-06-15T03:00:07" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-06-15T03:00:15" />
+                    <DateTime Value="2016-09-04T09:19:57" />
                 </Facet>
                 <Facet Name="L3ST functions change">
                     <String Value="- Comedy / humour" />
@@ -470,6 +486,10 @@
                 <Facet Name="L3ST language type change">
                     <String Value="- Real" />
                     <String Value="+ " />
+                </Facet>
+                <Facet Name="L3ST mode change">
+                    <String Value="- Oral diegetic on-screen" />
+                    <String Value="- Written diegetic" />
                 </Facet>
                 <Facet Name="L3ST sources change">
                     <String Value="- Written &amp; oral L3" />
@@ -480,6 +500,7 @@
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="Stavroula" />
+                    <String Value="George" />
                 </Facet>
                 <Facet Name="Reference Id">
                     <String Value="LoveActually.JamieProposesToAurelia.Aurelia's sister.SpanishSub" />
@@ -489,7 +510,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="LoveActually.Lake Scene.Portuguese.SpanishSub" Name="LoveActually Lake Scene Aurelia SpanishSub" Img="#6" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.Lake Scene&amp;L3STinstance=LoveActually.Lake Scene.Portuguese&amp;L3TTinstance=LoveActually.Lake Scene.Portuguese.SpanishSub">
+        <Item Id="LoveActually.Lake Scene.Portuguese.SpanishSub" Name="LoveActually - Lake Scene - Aurelia - SpanishSub" Img="#6" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.Lake Scene&amp;L3STinstance=LoveActually.Lake Scene.Portuguese&amp;L3TTinstance=LoveActually.Lake Scene.Portuguese.SpanishSub">
             <Description>Aurelia expresses anxiety when papers fly. Subtitles in Spanish.</Description>
             <Facets>
                 <Facet Name="Conversation Reference Id">
@@ -502,7 +523,7 @@
                     <DateTime Value="2016-06-15T02:43:24" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-06-17T09:31:00" />
+                    <DateTime Value="2016-09-04T09:30:44" />
                 </Facet>
                 <Facet Name="L2 language">
                     <String Value="Spanish" />
@@ -517,15 +538,17 @@
                     <String Value="No" />
                 </Facet>
                 <Facet Name="L3ST functions change">
-                    <String Value="None" />
+                    <String Value="+ Dramatic effect" />
                 </Facet>
                 <Facet Name="L3ST language type change">
                     <String Value="- Real" />
                     <String Value="+ " />
                 </Facet>
+                <Facet Name="L3ST mode change">
+                    <String Value="- Oral diegetic on-screen" />
+                </Facet>
                 <Facet Name="L3ST sources change">
-                    <String Value="- Respond interlingually: different sources " />
-                    <String Value="+ " />
+                    <String Value="None" />
                 </Facet>
                 <Facet Name="L3ST-instance Reference Id">
                     <String Value="LoveActually.Lake Scene.Portuguese" />
@@ -535,6 +558,7 @@
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="Stavroula" />
+                    <String Value="George" />
                 </Facet>
                 <Facet Name="Reference Id">
                     <String Value="LoveActually.Lake Scene.Portuguese.SpanishSub" />
@@ -599,14 +623,14 @@
                 <Facet Name="L3TT merely represented">
                     <String Value="NO / Not applicable" />
                 </Facet>
+                <Facet Name="L3TT message required for understanding">
+                    <String Value="Yes" />
+                </Facet>
                 <Facet Name="L3TT mode, written/spoken, diegetic">
                     <String Value="Oral diegetic on-screen" />
                 </Facet>
                 <Facet Name="L3TT represented: visual">
                     <String Value="Physical appearance" />
-                </Facet>
-                <Facet Name="L3TT required for understanding">
-                    <String Value="Yes" />
                 </Facet>
                 <Facet Name="Quality of L3TT speaker performance">
                     <String Value="native or proficient" />
@@ -652,7 +676,7 @@
                     <String Value="+ Suspense" />
                 </Facet>
                 <Facet Name="L3ST language type change">
-                    <String Value="- L-main variety, real dialect, slang or other" />
+                    <String Value="- L-main variety (e.g. dialect, sociolect, idiolect, slang)" />
                     <String Value="+ No L3TT: L3-instance omitted" />
                 </Facet>
                 <Facet Name="L3ST mode change">

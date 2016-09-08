@@ -4,14 +4,14 @@
         <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="false" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="Conversation Reference Id" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
-        <FacetCategory Name="Start time (h:m:s)" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
-        <FacetCategory Name="Duration (h:m:s)" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
-        <FacetCategory Name="L1 language" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
+        <FacetCategory Name="Start time (min)" Type="Number" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
+        <FacetCategory Name="Duration (min)" Type="Number" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
+        <FacetCategory Name="Main (L1) language" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="L3ST language type" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="L3ST language" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="L3ST constructed based on" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="L3ST meant to be understood" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
-        <FacetCategory Name="L3ST required for understanding" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
+        <FacetCategory Name="L3ST message required for understanding" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="L3ST meaning decipherable" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="Quality of L3ST speaker performance" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
         <FacetCategory Name="L3ST mode, written/spoken, diegetic" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
@@ -19,10 +19,11 @@
         <FacetCategory Name="L3ST merely represented orally" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="L3ST represented: visual" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="L3ST functions" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
+        <FacetCategory Name="Types/features related to L3ST" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="L3ST sources" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
-        <FacetCategory Name="L3TT-instances: count" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
+        <FacetCategory Name="L3TT-instances: count" Type="Number" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
         <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="false" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
-        <FacetCategory Name="Keywords" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
+        <FacetCategory Name="Tags" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="false" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="false" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
         <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
@@ -35,8 +36,8 @@
                 <Facet Name="Conversation Reference Id">
                     <String Value="Django Unchained.Slave speaks a little German" />
                 </Facet>
-                <Facet Name="Duration (h:m:s)">
-                    <String Value="0:00:00.05" />
+                <Facet Name="Duration (min)">
+                    <Number Value="1" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="Django Unchained" />
@@ -45,13 +46,7 @@
                     <DateTime Value="2016-05-31T12:34:19" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-09-01T08:10:14" />
-                </Facet>
-                <Facet Name="Keywords">
-                    <String Value="greeting in German" />
-                </Facet>
-                <Facet Name="L1 language">
-                    <String Value="German" />
+                    <DateTime Value="2016-09-08T02:08:44" />
                 </Facet>
                 <Facet Name="L3ST functions">
                     <String Value="Character portrayal, nonstereotypical" />
@@ -68,17 +63,20 @@
                 <Facet Name="L3ST meant to be understood">
                     <String Value="NO" />
                 </Facet>
+                <Facet Name="L3ST message required for understanding">
+                    <String Value="Yes" />
+                </Facet>
                 <Facet Name="L3ST mode, written/spoken, diegetic">
                     <String Value="Oral diegetic on-screen" />
-                </Facet>
-                <Facet Name="L3ST required for understanding">
-                    <String Value="Yes" />
                 </Facet>
                 <Facet Name="L3ST sources">
                     <String Value="Respond interlingually: different sources " />
                 </Facet>
                 <Facet Name="L3TT-instances: count">
-                    <String Value="1" />
+                    <Number Value="1" />
+                </Facet>
+                <Facet Name="Main (L1) language">
+                    <String Value="German" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="PatrickZabalbeascoa" />
@@ -90,8 +88,11 @@
                 <Facet Name="Reference Id">
                     <String Value="Django Unchained.Slave speaks a little German.Slave opens conversation" />
                 </Facet>
-                <Facet Name="Start time (h:m:s)">
-                    <String Value="1:33:13" />
+                <Facet Name="Start time (min)">
+                    <Number Value="93" />
+                </Facet>
+                <Facet Name="Tags">
+                    <String Value="greeting in German" />
                 </Facet>
                 <Facet Name="Transcription">
                     <String Value="Go ahead speak a little German&#xD;&#xA;#German uttered#&#xD;&#xA;subtitles: Pleased to meet you" />
@@ -104,8 +105,8 @@
                 <Facet Name="Conversation Reference Id">
                     <String Value="FellowshipOfTheRing.Rivendell_AragornArwen" />
                 </Facet>
-                <Facet Name="Duration (h:m:s)">
-                    <String Value="1:31:53" />
+                <Facet Name="Duration (min)">
+                    <Number Value="1" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="FellowshipOfTheRing" />
@@ -114,17 +115,7 @@
                     <DateTime Value="2016-06-15T09:05:58" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-06-15T09:53:22" />
-                </Facet>
-                <Facet Name="Keywords">
-                    <String Value="Aragorn" />
-                    <String Value=" Arwen" />
-                    <String Value=" Elvish" />
-                    <String Value=" Sword Room" />
-                    <String Value=" Rivendell" />
-                </Facet>
-                <Facet Name="L1 language">
-                    <String Value="Elvish" />
+                    <DateTime Value="2016-09-07T07:55:29" />
                 </Facet>
                 <Facet Name="L3ST constructed based on">
                     <String Value="“from scratch”" />
@@ -136,7 +127,7 @@
                     <String Value="Elvish" />
                 </Facet>
                 <Facet Name="L3ST language type">
-                    <String Value="Constructed" />
+                    <String Value="Constructed (fictional)" />
                 </Facet>
                 <Facet Name="L3ST meaning decipherable">
                     <String Value="NO" />
@@ -147,20 +138,24 @@
                 <Facet Name="L3ST merely represented">
                     <String Value="NO / Not applicable" />
                 </Facet>
+                <Facet Name="L3ST message required for understanding">
+                    <String Value="Yes" />
+                </Facet>
                 <Facet Name="L3ST mode, written/spoken, diegetic">
                     <String Value="Oral diegetic on-screen" />
-                </Facet>
-                <Facet Name="L3ST required for understanding">
-                    <String Value="Yes" />
                 </Facet>
                 <Facet Name="L3ST sources">
                     <String Value="Respond interlingually: different sources " />
                 </Facet>
                 <Facet Name="L3TT-instances: count">
-                    <String Value="1" />
+                    <Number Value="2" />
+                </Facet>
+                <Facet Name="Main (L1) language">
+                    <String Value="Elvish" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="miquelpt" />
+                    <String Value="George" />
                 </Facet>
                 <Facet Name="Quality of L3ST speaker performance">
                     <String Value="native or proficient" />
@@ -168,8 +163,15 @@
                 <Facet Name="Reference Id">
                     <String Value="FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room" />
                 </Facet>
-                <Facet Name="Start time (h:m:s)">
-                    <String Value="1:31:15" />
+                <Facet Name="Start time (min)">
+                    <Number Value="91" />
+                </Facet>
+                <Facet Name="Tags">
+                    <String Value="Aragorn" />
+                    <String Value=" Arwen" />
+                    <String Value=" Elvish" />
+                    <String Value=" Sword Room" />
+                    <String Value=" Rivendell" />
                 </Facet>
                 <Facet Name="Transcription">
                     <String Value="Arwen: Your time will come. You will face the same evil, and you will defeat it. A si i-Dhúath ú-orthor, &#xD;&#xA;Aragorn. Ú or le a ú or nin. Renech i lu i erui govannen?" />
@@ -182,8 +184,8 @@
                 <Facet Name="Conversation Reference Id">
                     <String Value="FellowshipOfTheRing.Rivendell_AragornArwen" />
                 </Facet>
-                <Facet Name="Duration (h:m:s)">
-                    <String Value="1:32:55" />
+                <Facet Name="Duration (min)">
+                    <Number Value="1" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="FellowshipOfTheRing" />
@@ -193,16 +195,6 @@
                 </Facet>
                 <Facet Name="Info updated">
                     <DateTime Value="2016-06-16T05:27:18" />
-                </Facet>
-                <Facet Name="Keywords">
-                    <String Value="Aragorn" />
-                    <String Value=" Arwen" />
-                    <String Value=" Elvish" />
-                    <String Value=" Bridge" />
-                    <String Value=" Rivendell" />
-                </Facet>
-                <Facet Name="L1 language">
-                    <String Value="Elvish" />
                 </Facet>
                 <Facet Name="L3ST constructed based on">
                     <String Value="“from scratch”" />
@@ -214,7 +206,7 @@
                     <String Value="Elvish" />
                 </Facet>
                 <Facet Name="L3ST language type">
-                    <String Value="Constructed" />
+                    <String Value="Constructed (fictional)" />
                 </Facet>
                 <Facet Name="L3ST meaning decipherable">
                     <String Value="NO" />
@@ -225,17 +217,20 @@
                 <Facet Name="L3ST merely represented">
                     <String Value="NO / Not applicable" />
                 </Facet>
+                <Facet Name="L3ST message required for understanding">
+                    <String Value="Yes" />
+                </Facet>
                 <Facet Name="L3ST mode, written/spoken, diegetic">
                     <String Value="Oral diegetic on-screen" />
-                </Facet>
-                <Facet Name="L3ST required for understanding">
-                    <String Value="Yes" />
                 </Facet>
                 <Facet Name="L3ST sources">
                     <String Value="Respond interlingually: different sources " />
                 </Facet>
                 <Facet Name="L3TT-instances: count">
-                    <String Value="0" />
+                    <Number Value="0" />
+                </Facet>
+                <Facet Name="Main (L1) language">
+                    <String Value="Elvish" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="miquelpt" />
@@ -249,22 +244,29 @@
                 <Facet Name="Remarks">
                     <String Value="The instance conveys meaningful information through a combination of L3 and L1. " />
                 </Facet>
-                <Facet Name="Start time (h:m:s)">
-                    <String Value="1:32:08" />
+                <Facet Name="Start time (min)">
+                    <Number Value="92" />
+                </Facet>
+                <Facet Name="Tags">
+                    <String Value="Aragorn" />
+                    <String Value=" Arwen" />
+                    <String Value=" Elvish" />
+                    <String Value=" Bridge" />
+                    <String Value=" Rivendell" />
                 </Facet>
                 <Facet Name="Transcription">
                     <String Value="Arwen: Renech i lu i erui govannen?&#xD;&#xA;Aragorn: Nauthannem i ned ol reniannen.&#xD;&#xA;Arwen: Gwenwin in enninath...U-arnech in naeth i si celich. Renech i beth i pennen?&#xD;&#xA;Aragorn: You said you'd bind yourself to me. Forsaking the immortal life of your people.&#xD;&#xA;Arwen: And to that I hold. I would rather share one lifetime with you than face all the ages of this world alone." />
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="LoveActually.JamieProposesToAurelia.Aurelia's sister" Name="Love Actually - Jamie Proposes To Aurelia 3" Img="#3" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia&amp;L3STinstance=LoveActually.JamieProposesToAurelia.Aurelia's sister">
+        <Item Id="LoveActually.JamieProposesToAurelia.Aurelia's sister" Name="Love Actually - Jamie Proposes To Aurelia - Aurelia's sister" Img="#3" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia&amp;L3STinstance=LoveActually.JamieProposesToAurelia.Aurelia's sister">
             <Description>Aurelia's sister intervenes in Jamie's proposal (humorous effect)</Description>
             <Facets>
                 <Facet Name="Conversation Reference Id">
                     <String Value="LoveActually.JamieProposesToAurelia" />
                 </Facet>
-                <Facet Name="Duration (h:m:s)">
-                    <String Value="0:00:05" />
+                <Facet Name="Duration (min)">
+                    <Number Value="1" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="LoveActually" />
@@ -273,13 +275,7 @@
                     <DateTime Value="2016-06-15T01:43:22" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-09-01T07:56:49" />
-                </Facet>
-                <Facet Name="Keywords">
-                    <String Value="Comic effect" />
-                </Facet>
-                <Facet Name="L1 language">
-                    <String Value="Portuguese" />
+                    <DateTime Value="2016-09-04T09:17:46" />
                 </Facet>
                 <Facet Name="L3ST functions">
                     <String Value="Comedy / humour" />
@@ -293,18 +289,21 @@
                 <Facet Name="L3ST meant to be understood">
                     <String Value="NO" />
                 </Facet>
+                <Facet Name="L3ST message required for understanding">
+                    <String Value="Yes" />
+                </Facet>
                 <Facet Name="L3ST mode, written/spoken, diegetic">
                     <String Value="Oral diegetic on-screen" />
                     <String Value="Written diegetic" />
-                </Facet>
-                <Facet Name="L3ST required for understanding">
-                    <String Value="Yes" />
                 </Facet>
                 <Facet Name="L3ST sources">
                     <String Value="Written &amp; oral L3" />
                 </Facet>
                 <Facet Name="L3TT-instances: count">
-                    <String Value="1" />
+                    <Number Value="1" />
+                </Facet>
+                <Facet Name="Main (L1) language">
+                    <String Value="Portuguese" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="Stavroula" />
@@ -316,19 +315,22 @@
                 <Facet Name="Reference Id">
                     <String Value="LoveActually.JamieProposesToAurelia.Aurelia's sister" />
                 </Facet>
+                <Facet Name="Tags">
+                    <String Value="Comic effect" />
+                </Facet>
                 <Facet Name="Transcription">
                     <String Value="Aurelia'sister: Definitely go for England, girl. You'll meet Prince William -then you can marry him instead.&#xD;&#xA;Jamie: Of course I don't expecting you　to be as foolish as me, and of course I prediction you say no.... but it's Christmas　and I just wanted to...check.&#xD;&#xA;Aurelia'sister: Oh, God - say yes, you skinny moron." />
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="LoveActually.JamieProposesToAurelia.Jamie in Portuguese" Name="Love Actually - Jamie Proposes To Aurelia 2" Img="#4" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia&amp;L3STinstance=LoveActually.JamieProposesToAurelia.Jamie in Portuguese">
+        <Item Id="LoveActually.JamieProposesToAurelia.Jamie in Portuguese" Name="Love Actually - Jamie Proposes To Aurelia - Jamie in Portuguese" Img="#4" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia&amp;L3STinstance=LoveActually.JamieProposesToAurelia.Jamie in Portuguese">
             <Description>Jamie proposes in Portuguese</Description>
             <Facets>
                 <Facet Name="Conversation Reference Id">
                     <String Value="LoveActually.JamieProposesToAurelia" />
                 </Facet>
-                <Facet Name="Duration (h:m:s)">
-                    <String Value="0:01:06" />
+                <Facet Name="Duration (min)">
+                    <Number Value="1" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="LoveActually" />
@@ -337,10 +339,7 @@
                     <DateTime Value="2016-06-15T01:37:59" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-09-01T07:56:35" />
-                </Facet>
-                <Facet Name="L1 language">
-                    <String Value="Portuguese" />
+                    <DateTime Value="2016-09-04T09:18:04" />
                 </Facet>
                 <Facet Name="L3ST functions">
                     <String Value="Character portrayal, stereotypical" />
@@ -355,18 +354,21 @@
                 <Facet Name="L3ST meant to be understood">
                     <String Value="NO" />
                 </Facet>
+                <Facet Name="L3ST message required for understanding">
+                    <String Value="Yes" />
+                </Facet>
                 <Facet Name="L3ST mode, written/spoken, diegetic">
                     <String Value="Oral diegetic on-screen" />
                     <String Value="Written diegetic" />
-                </Facet>
-                <Facet Name="L3ST required for understanding">
-                    <String Value="Yes" />
                 </Facet>
                 <Facet Name="L3ST sources">
                     <String Value="Written &amp; oral L3" />
                 </Facet>
                 <Facet Name="L3TT-instances: count">
-                    <String Value="0" />
+                    <Number Value="0" />
+                </Facet>
+                <Facet Name="Main (L1) language">
+                    <String Value="Portuguese" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="Stavroula" />
@@ -383,14 +385,14 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="LoveActually.JamieProposesToAurelia.Portuguese" Name="Love Actually - Jamie Proposes To Aurelia - Portuguese" Img="#5" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia&amp;L3STinstance=LoveActually.JamieProposesToAurelia.Portuguese">
+        <Item Id="LoveActually.JamieProposesToAurelia.Portuguese" Name="Love Actually - Jamie Proposes To Aurelia - Barros in Portuguese" Img="#5" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia&amp;L3STinstance=LoveActually.JamieProposesToAurelia.Portuguese">
             <Description>Barros asks for Aurelia.</Description>
             <Facets>
                 <Facet Name="Conversation Reference Id">
                     <String Value="LoveActually.JamieProposesToAurelia" />
                 </Facet>
-                <Facet Name="Duration (h:m:s)">
-                    <String Value="0:00:16" />
+                <Facet Name="Duration (min)">
+                    <Number Value="1" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="LoveActually" />
@@ -399,10 +401,7 @@
                     <DateTime Value="2016-06-15T01:08:02" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-09-01T07:55:31" />
-                </Facet>
-                <Facet Name="L1 language">
-                    <String Value="Portuguese" />
+                    <DateTime Value="2016-09-04T09:18:35" />
                 </Facet>
                 <Facet Name="L3ST functions">
                     <String Value="Plot (twist)" />
@@ -416,17 +415,20 @@
                 <Facet Name="L3ST meant to be understood">
                     <String Value="NO" />
                 </Facet>
+                <Facet Name="L3ST message required for understanding">
+                    <String Value="Yes" />
+                </Facet>
                 <Facet Name="L3ST mode, written/spoken, diegetic">
                     <String Value="Oral diegetic on-screen" />
-                </Facet>
-                <Facet Name="L3ST required for understanding">
-                    <String Value="Yes" />
                 </Facet>
                 <Facet Name="L3ST sources">
                     <String Value="Oral L3: different sources " />
                 </Facet>
                 <Facet Name="L3TT-instances: count">
-                    <String Value="0" />
+                    <Number Value="0" />
+                </Facet>
+                <Facet Name="Main (L1) language">
+                    <String Value="Portuguese" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="Stavroula" />
@@ -443,7 +445,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="LoveActually.Lake Scene.Portuguese" Name="LoveActually - Lake 1" Img="#6" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.Lake Scene&amp;L3STinstance=LoveActually.Lake Scene.Portuguese">
+        <Item Id="LoveActually.Lake Scene.Portuguese" Name="LoveActually - Lake Scene - Portuguese" Img="#6" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.Lake Scene&amp;L3STinstance=LoveActually.Lake Scene.Portuguese">
             <Description>Aurelia expresses anxiety when papers fly.</Description>
             <Facets>
                 <Facet Name="Conversation Reference Id">
@@ -456,10 +458,7 @@
                     <DateTime Value="2016-06-01T04:24:35" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-09-01T07:57:19" />
-                </Facet>
-                <Facet Name="L1 language">
-                    <String Value="Portuguese" />
+                    <DateTime Value="2016-09-04T09:29:31" />
                 </Facet>
                 <Facet Name="L3ST language">
                     <String Value="Portuguese" />
@@ -470,14 +469,17 @@
                 <Facet Name="L3ST meant to be understood">
                     <String Value="NO" />
                 </Facet>
+                <Facet Name="L3ST message required for understanding">
+                    <String Value="Conversation can be followed regardless of meaning" />
+                </Facet>
                 <Facet Name="L3ST mode, written/spoken, diegetic">
                     <String Value="Oral diegetic on-screen" />
                 </Facet>
-                <Facet Name="L3ST required for understanding">
-                    <String Value="Conversation can be followed regardless of meaning" />
-                </Facet>
                 <Facet Name="L3TT-instances: count">
-                    <String Value="1" />
+                    <Number Value="1" />
+                </Facet>
+                <Facet Name="Main (L1) language">
+                    <String Value="Portuguese" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="Stavroula" />
@@ -494,15 +496,15 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Monsoon Wedding.Conversation in the garden on the phone.Hindi" Name="Monsoon Wedding - Conversation in the garden on the phone" Img="#7" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Monsoon Wedding&amp;conversation=Monsoon Wedding.Conversation in the garden on the phone&amp;L3STinstance=Monsoon Wedding.Conversation in the garden on the phone.Hindi">
+        <Item Id="Monsoon Wedding.Conversation in the garden on the phone.Hindi" Name="Monsoon Wedding - Conversation in the garden on the phone - Hindi" Img="#7" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Monsoon Wedding&amp;conversation=Monsoon Wedding.Conversation in the garden on the phone&amp;L3STinstance=Monsoon Wedding.Conversation in the garden on the phone.Hindi">
             <Description>The father talks on the phone in Hindi. He is outside in the garden. 
 There is another conversation taking place among women at the kitchen.</Description>
             <Facets>
                 <Facet Name="Conversation Reference Id">
                     <String Value="Monsoon Wedding.Conversation in the garden on the phone" />
                 </Facet>
-                <Facet Name="Duration (h:m:s)">
-                    <String Value="0:03:50" />
+                <Facet Name="Duration (min)">
+                    <Number Value="4" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="Monsoon Wedding" />
@@ -511,10 +513,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                     <DateTime Value="2016-06-08T01:34:20" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-09-01T07:56:13" />
-                </Facet>
-                <Facet Name="L1 language">
-                    <String Value="Hindi" />
+                    <DateTime Value="2016-09-04T09:16:10" />
                 </Facet>
                 <Facet Name="L3ST functions">
                     <String Value="Character portrayal, nonstereotypical" />
@@ -530,17 +529,20 @@ There is another conversation taking place among women at the kitchen.</Descript
                 <Facet Name="L3ST merely represented">
                     <String Value="NO / Not applicable" />
                 </Facet>
+                <Facet Name="L3ST message required for understanding">
+                    <String Value="Yes" />
+                </Facet>
                 <Facet Name="L3ST mode, written/spoken, diegetic">
                     <String Value="Oral diegetic on-screen" />
                 </Facet>
                 <Facet Name="L3ST represented: visual">
                     <String Value="Physical appearance" />
                 </Facet>
-                <Facet Name="L3ST required for understanding">
-                    <String Value="Yes" />
-                </Facet>
                 <Facet Name="L3TT-instances: count">
-                    <String Value="1" />
+                    <Number Value="1" />
+                </Facet>
+                <Facet Name="Main (L1) language">
+                    <String Value="Hindi" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="George" />
@@ -554,12 +556,12 @@ There is another conversation taking place among women at the kitchen.</Descript
                 <Facet Name="Remarks">
                     <String Value="The dubbing and subtitling in English are in Spanish.&#xD;&#xA; " />
                 </Facet>
-                <Facet Name="Start time (h:m:s)">
-                    <String Value="0:02:50" />
+                <Facet Name="Start time (min)">
+                    <Number Value="170" />
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="OceansEleven.ExplainingThePlan.Chinese" Name="Ocean's Eleven - Speaking Chinese" Img="#8" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=OceansEleven&amp;conversation=OceansEleven.ExplainingThePlan&amp;L3STinstance=OceansEleven.ExplainingThePlan.Chinese">
+        <Item Id="OceansEleven.ExplainingThePlan.Chinese" Name="Ocean's Eleven - Explaining the plan - Chinese" Img="#8" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=OceansEleven&amp;conversation=OceansEleven.ExplainingThePlan&amp;L3STinstance=OceansEleven.ExplainingThePlan.Chinese">
             <Facets>
                 <Facet Name="Conversation Reference Id">
                     <String Value="OceansEleven.ExplainingThePlan" />
@@ -571,10 +573,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                     <DateTime Value="2016-05-25T10:59:12" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-09-01T07:53:48" />
-                </Facet>
-                <Facet Name="L1 language">
-                    <String Value="Chinese" />
+                    <DateTime Value="2016-09-04T09:13:47" />
                 </Facet>
                 <Facet Name="L3ST functions">
                     <String Value="Character portrayal, nonstereotypical" />
@@ -585,7 +584,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                     <String Value="Chinese" />
                 </Facet>
                 <Facet Name="L3ST language type">
-                    <String Value="L-main variety, real dialect, slang or other" />
+                    <String Value="L-main variety (e.g. dialect, sociolect, idiolect, slang)" />
                 </Facet>
                 <Facet Name="L3ST merely represented">
                     <String Value="YES: orally" />
@@ -594,7 +593,10 @@ There is another conversation taking place among women at the kitchen.</Descript
                     <String Value="Non-verbal oral" />
                 </Facet>
                 <Facet Name="L3TT-instances: count">
-                    <String Value="1" />
+                    <Number Value="1" />
+                </Facet>
+                <Facet Name="Main (L1) language">
+                    <String Value="Chinese" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="George" />
@@ -609,8 +611,8 @@ There is another conversation taking place among women at the kitchen.</Descript
                 <Facet Name="Conversation Reference Id">
                     <String Value="TheWalk.MeetingPapaRudy" />
                 </Facet>
-                <Facet Name="Duration (h:m:s)">
-                    <String Value="0:00:02" />
+                <Facet Name="Duration (min)">
+                    <Number Value="1" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="TheWalk" />
@@ -620,9 +622,6 @@ There is another conversation taking place among women at the kitchen.</Descript
                 </Facet>
                 <Facet Name="Info updated">
                     <DateTime Value="2016-06-15T05:09:20" />
-                </Facet>
-                <Facet Name="L1 language">
-                    <String Value="Czech" />
                 </Facet>
                 <Facet Name="L3ST functions">
                     <String Value="Character portrayal, nonstereotypical" />
@@ -648,14 +647,17 @@ There is another conversation taking place among women at the kitchen.</Descript
                 <Facet Name="L3ST merely represented orally">
                     <String Value="Clearly non-native L-main" />
                 </Facet>
+                <Facet Name="L3ST message required for understanding">
+                    <String Value="Conversation can be followed regardless of meaning" />
+                </Facet>
                 <Facet Name="L3ST mode, written/spoken, diegetic">
                     <String Value="Oral diegetic on-screen" />
                 </Facet>
-                <Facet Name="L3ST required for understanding">
-                    <String Value="Conversation can be followed regardless of meaning" />
-                </Facet>
                 <Facet Name="L3TT-instances: count">
-                    <String Value="0" />
+                    <Number Value="0" />
+                </Facet>
+                <Facet Name="Main (L1) language">
+                    <String Value="Czech" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="George" />
@@ -666,8 +668,8 @@ There is another conversation taking place among women at the kitchen.</Descript
                 <Facet Name="Reference Id">
                     <String Value="TheWalk.MeetingPapaRudy.Czech" />
                 </Facet>
-                <Facet Name="Start time (h:m:s)">
-                    <String Value="0:12:17" />
+                <Facet Name="Start time (min)">
+                    <Number Value="12" />
                 </Facet>
             </Facets>
         </Item>
@@ -676,8 +678,8 @@ There is another conversation taking place among women at the kitchen.</Descript
                 <Facet Name="Conversation Reference Id">
                     <String Value="TheWalk.MeetingPapaRudy" />
                 </Facet>
-                <Facet Name="Duration (h:m:s)">
-                    <String Value="0:00:02" />
+                <Facet Name="Duration (min)">
+                    <Number Value="1" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="TheWalk" />
@@ -687,9 +689,6 @@ There is another conversation taking place among women at the kitchen.</Descript
                 </Facet>
                 <Facet Name="Info updated">
                     <DateTime Value="2016-06-15T05:09:40" />
-                </Facet>
-                <Facet Name="L1 language">
-                    <String Value="French" />
                 </Facet>
                 <Facet Name="L3ST functions">
                     <String Value="Character portrayal, nonstereotypical" />
@@ -701,7 +700,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                     <String Value="Real" />
                 </Facet>
                 <Facet Name="L3ST meaning decipherable">
-                    <String Value="YES, translation or clear from picture" />
+                    <String Value="YES, through translation or clear from picture" />
                 </Facet>
                 <Facet Name="L3ST meant to be understood">
                     <String Value="YES, the gist, the implications of what is happening" />
@@ -712,14 +711,17 @@ There is another conversation taking place among women at the kitchen.</Descript
                 <Facet Name="L3ST merely represented orally">
                     <String Value="Clearly non-native L-main" />
                 </Facet>
+                <Facet Name="L3ST message required for understanding">
+                    <String Value="Yes" />
+                </Facet>
                 <Facet Name="L3ST mode, written/spoken, diegetic">
                     <String Value="Oral diegetic on-screen" />
                 </Facet>
-                <Facet Name="L3ST required for understanding">
-                    <String Value="Yes" />
-                </Facet>
                 <Facet Name="L3TT-instances: count">
-                    <String Value="0" />
+                    <Number Value="0" />
+                </Facet>
+                <Facet Name="Main (L1) language">
+                    <String Value="French" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="George" />
@@ -730,8 +732,8 @@ There is another conversation taking place among women at the kitchen.</Descript
                 <Facet Name="Reference Id">
                     <String Value="TheWalk.MeetingPapaRudy.French" />
                 </Facet>
-                <Facet Name="Start time (h:m:s)">
-                    <String Value="0:12:19" />
+                <Facet Name="Start time (min)">
+                    <Number Value="12" />
                 </Facet>
             </Facets>
         </Item>
@@ -740,8 +742,8 @@ There is another conversation taking place among women at the kitchen.</Descript
                 <Facet Name="Conversation Reference Id">
                     <String Value="TheWalk.MeetingPapaRudy" />
                 </Facet>
-                <Facet Name="Duration (h:m:s)">
-                    <String Value="0:00:02" />
+                <Facet Name="Duration (min)">
+                    <Number Value="1" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="TheWalk" />
@@ -751,9 +753,6 @@ There is another conversation taking place among women at the kitchen.</Descript
                 </Facet>
                 <Facet Name="Info updated">
                     <DateTime Value="2016-06-15T05:09:58" />
-                </Facet>
-                <Facet Name="L1 language">
-                    <String Value="French" />
                 </Facet>
                 <Facet Name="L3ST functions">
                     <String Value="Metalinguistic" />
@@ -765,7 +764,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                     <String Value="Real" />
                 </Facet>
                 <Facet Name="L3ST meaning decipherable">
-                    <String Value="YES, translation or clear from picture" />
+                    <String Value="YES, through translation or clear from picture" />
                 </Facet>
                 <Facet Name="L3ST meant to be understood">
                     <String Value="YES, (almost) completely" />
@@ -776,14 +775,17 @@ There is another conversation taking place among women at the kitchen.</Descript
                 <Facet Name="L3ST merely represented orally">
                     <String Value="Clearly non-native L-main" />
                 </Facet>
+                <Facet Name="L3ST message required for understanding">
+                    <String Value="Conversation can be followed regardless of meaning" />
+                </Facet>
                 <Facet Name="L3ST mode, written/spoken, diegetic">
                     <String Value="Oral diegetic on-screen" />
                 </Facet>
-                <Facet Name="L3ST required for understanding">
-                    <String Value="Conversation can be followed regardless of meaning" />
-                </Facet>
                 <Facet Name="L3TT-instances: count">
-                    <String Value="0" />
+                    <Number Value="0" />
+                </Facet>
+                <Facet Name="Main (L1) language">
+                    <String Value="French" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="George" />
@@ -794,8 +796,8 @@ There is another conversation taking place among women at the kitchen.</Descript
                 <Facet Name="Reference Id">
                     <String Value="TheWalk.MeetingPapaRudy.French2" />
                 </Facet>
-                <Facet Name="Start time (h:m:s)">
-                    <String Value="0:12:21" />
+                <Facet Name="Start time (min)">
+                    <Number Value="12" />
                 </Facet>
             </Facets>
         </Item>
@@ -804,8 +806,8 @@ There is another conversation taking place among women at the kitchen.</Descript
                 <Facet Name="Conversation Reference Id">
                     <String Value="TheWalk.MeetingPapaRudy" />
                 </Facet>
-                <Facet Name="Duration (h:m:s)">
-                    <String Value="0:00:02" />
+                <Facet Name="Duration (min)">
+                    <Number Value="1" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="TheWalk" />
@@ -815,9 +817,6 @@ There is another conversation taking place among women at the kitchen.</Descript
                 </Facet>
                 <Facet Name="Info updated">
                     <DateTime Value="2016-06-15T05:10:09" />
-                </Facet>
-                <Facet Name="L1 language">
-                    <String Value="French" />
                 </Facet>
                 <Facet Name="L3ST functions">
                     <String Value="Character portrayal, nonstereotypical" />
@@ -829,7 +828,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                     <String Value="Real" />
                 </Facet>
                 <Facet Name="L3ST meaning decipherable">
-                    <String Value="YES, translation or clear from picture" />
+                    <String Value="YES, through translation or clear from picture" />
                 </Facet>
                 <Facet Name="L3ST meant to be understood">
                     <String Value="YES, the gist, the implications of what is happening" />
@@ -840,14 +839,17 @@ There is another conversation taking place among women at the kitchen.</Descript
                 <Facet Name="L3ST merely represented orally">
                     <String Value="Clearly non-native L-main" />
                 </Facet>
+                <Facet Name="L3ST message required for understanding">
+                    <String Value="Conversation can be followed regardless of meaning" />
+                </Facet>
                 <Facet Name="L3ST mode, written/spoken, diegetic">
                     <String Value="Oral diegetic on-screen" />
                 </Facet>
-                <Facet Name="L3ST required for understanding">
-                    <String Value="Conversation can be followed regardless of meaning" />
-                </Facet>
                 <Facet Name="L3TT-instances: count">
-                    <String Value="0" />
+                    <Number Value="0" />
+                </Facet>
+                <Facet Name="Main (L1) language">
+                    <String Value="French" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="George" />
@@ -858,8 +860,8 @@ There is another conversation taking place among women at the kitchen.</Descript
                 <Facet Name="Reference Id">
                     <String Value="TheWalk.MeetingPapaRudy.French3" />
                 </Facet>
-                <Facet Name="Start time (h:m:s)">
-                    <String Value="0:13:40" />
+                <Facet Name="Start time (min)">
+                    <Number Value="13" />
                 </Facet>
             </Facets>
         </Item>
@@ -878,7 +880,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                     <DateTime Value="2016-06-15T05:10:30" />
                 </Facet>
                 <Facet Name="L3TT-instances: count">
-                    <String Value="0" />
+                    <Number Value="0" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="George" />

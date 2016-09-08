@@ -3,14 +3,14 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: metadata/L3TTlanguageType.xml
-Version: 20160530
+Version: 20160904
 -->
 
 <Facet Name="L3TTlanguageType">
   <String Value="" Title=""/>
   <String Value="Real" Title="Real" />
-  <String Value="Constructed" Title="Constructed"/>
-  <String Value="L-main variety, real dialect, slang or other" Title="Main language variety, real dialect, sland or other"/>
+  <String Value="Constructed (fictional)" Title="Constructed (fictional)"/>
+  <String Value="L-main variety (e.g. dialect, sociolect, idiolect, slang)" Title="Main language variety, real dialect, sland or other"/>
   <String Value="No L3TT: L3-instance omitted" Title="No L3TT: L3-instance omitted"/>
   <String Value="No L3TT: L3-instance in L2" Title="No L3TT: L3-instance in L2"/>
 </Facet>

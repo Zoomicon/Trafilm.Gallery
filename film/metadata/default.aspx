@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: film\metadata\default.aspx
-Version: 20160901
+Version: 20160906
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -78,7 +78,7 @@ Version: 20160901
         <div class="question">
           <div class="label">1. Film Title</div>
           <div class="tip">Full official film title</div>
-          <asp:TextBox ID="txtTitle" runat="server" Columns="150"></asp:TextBox>
+          <asp:TextBox ID="txtTitle" runat="server" Columns="150" />
         </div>
 
         <div class="question">
@@ -93,7 +93,7 @@ Version: 20160901
         <div class="question">
           <div class="label">3. Film Poster URL</div>
           <div class="tip">Provide a link to an image for the film poster</div>
-          <asp:TextBox ID="txtImageUrl" runat="server" Columns="150"></asp:TextBox>
+          <asp:TextBox ID="txtImageUrl" runat="server" Columns="150" />
         </div>
 
 
@@ -101,60 +101,60 @@ Version: 20160901
 
         <div class="question">
           <div class="label">0. Title in Spanish</div>
-          <asp:TextBox ID="txtTitle_es" runat="server" Columns="150"></asp:TextBox>
+          <asp:TextBox ID="txtTitle_es" runat="server" Columns="150" />
         </div>
 
         <div class="question">
           <div class="label">0. Title in Catalan</div>
-          <asp:TextBox ID="txtTitle_ca" runat="server" Columns="150"></asp:TextBox>
+          <asp:TextBox ID="txtTitle_ca" runat="server" Columns="150" />
         </div>
 
         <%-- ... --%>
 
 
         <div class="question">
-          <div class="label">4. Film duration (h:m:s)</div>
+          <div class="label">4. Film duration (min)</div>
           <div class="tip">How long does the film last? (in hours:minutes:seconds)</div>
-          <asp:TextBox ID="txtDuration" runat="server"></asp:TextBox>
+          <asp:TextBox ID="txtDuration" runat="server" />
         </div>
 
 
         <div class="question">
           <div class="label">5. Director(s)</div>
           <div class="tip">Full name(s), insert a comma (,) between different directors</div>
-          <asp:TextBox ID="txtDirectors" runat="server" Columns="150"></asp:TextBox>
+          <asp:TextBox ID="txtDirectors" runat="server" Columns="150" />
         </div>
 
         <div class="question">
           <div class="label">6. Scriptwriter(s)</div>
           <div class="tip">Full name(s), insert a comma (,) between different scriptwriters</div>
-          <asp:TextBox ID="txtScriptwriters" runat="server" Columns="150"></asp:TextBox>
+          <asp:TextBox ID="txtScriptwriters" runat="server" Columns="150" />
         </div>
 
 
         <div class="question">
           <div class="label">7. Production countries</div>
           <div class="tip">Full name(s), insert a comma (,) between different countries</div>
-          <asp:TextBox ID="txtProductionCountries" runat="server" Columns="150"></asp:TextBox>
+          <asp:TextBox ID="txtProductionCountries" runat="server" Columns="150" />
         </div>
 
         <div class="question">
           <div class="label">8. Production companies</div>
           <div class="tip">Full name, insert a comma (,) between different production companies</div>
-          <asp:TextBox ID="txtProductionCompanies" runat="server" Columns="150"></asp:TextBox>
+          <asp:TextBox ID="txtProductionCompanies" runat="server" Columns="150" />
         </div>
 
 
         <div class="question">
           <div class="label">9. Box office</div>
           <div class="tip">Box office (ticket sales in US Dollars) where the film was originally released</div>
-          <asp:TextBox ID="txtBoxOffice" runat="server"></asp:TextBox>
+          <asp:TextBox ID="txtBoxOffice" runat="server" />
         </div>
 
         <div class="question">
           <div class="label">10. Year ST released</div>
           <div class="tip">When was the film first released commercially?</div>
-          <asp:TextBox ID="txtYear" runat="server"></asp:TextBox>
+          <asp:TextBox ID="txtYear" runat="server" />
         </div>
 
 
@@ -171,7 +171,7 @@ Version: 20160901
 
         <div class="question">
           <div class="label">0. Year TT released in Spain</div>
-          <asp:TextBox ID="txtYearTranslated" runat="server"></asp:TextBox>
+          <asp:TextBox ID="txtYearTranslated" runat="server" />
         </div>
                 
 
@@ -195,7 +195,7 @@ Version: 20160901
         <%-- Calculated from Conversations --%>
         
         <div>
-          <div class="label">Conversations' duration (h:m:s) (Calculated from Conversations)</div>
+          <div class="label">Conversations' duration (min) (Calculated from Conversations)</div>
           <asp:Label ID="lblConversationsDuration" runat="server"></asp:Label>
         </div>                            
 
@@ -218,7 +218,7 @@ Version: 20160901
         <div class="question">
           <div class="label">12. Tags</div>
           <div class="tip">Keywords or other labels for filtering purposes, insert a comma (,) between different ones</div>
-          <asp:TextBox ID="txtKeywords" runat="server" Columns="150"></asp:TextBox>
+          <asp:TextBox ID="txtTags" runat="server" Columns="150" />
         </div>
 
         <div class="question">
@@ -254,10 +254,9 @@ Version: 20160901
             height="50"
             OnClick="btnSave_Click"
             />
-          <br />
+          <br /><br />
         </asp:Panel>
 
-        <br />
 
         <%-- Conversations list --%>                  
 

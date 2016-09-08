@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: conversation\metadata\default.aspx.cs
-//Version: 20160614
+//Version: 20160906
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -102,11 +102,15 @@ namespace Trafilm.Gallery
 
       //ICXMLMetadata//
 
+      /*
       //Ignoring the Id field, since some Pivot Tools expect it to be sequential
       UI.Load(txtTitle, metadata.Title);
       UI.Load(txtImageUrl, metadata.Image);
+      */
       UI.Load(linkUrl, GetConversationUri(metadata.FilmReferenceId, key));
+      /*
       UI.Load(txtDescription, metadata.Description);
+      */
 
       //ITrafilmMetadata//
 
@@ -117,29 +121,34 @@ namespace Trafilm.Gallery
 
       UI.LoadContent(listMetadataEditors, metadata.MetadataEditors);
 
+      /*
       UI.Load(txtTranscription, metadata.Transcription);
 
-      UI.Load(txtKeywords, metadata.Keywords);
+      UI.Load(txtTags, metadata.Tags);
 
       UI.Load(txtRemarks, metadata.Remarks);
+      */
 
       //IConversation//
 
       UI.Load(listFilms, metadata.FilmReferenceId);
 
-      UI.Load(txtStartTime, metadata.StartTime.ToString(ConversationMetadata.DEFAULT_POSITION_FORMAT));
-      UI.Load(txtDuration, metadata.Duration.ToString(ConversationMetadata.DEFAULT_DURATION_FORMAT));
+      UI.Load(txtStartTime, metadata.StartTime.ToString());
+      UI.Load(txtDuration, metadata.Duration.ToString());
 
+      /*
       UI.Load(listLanguageSources, metadata.LanguageSources);
+      */
 
       //Calculated properties//
 
+      /*
       UI.Load(lblL3languagesCount, metadata.L3STlanguagesCount.ToString());
       UI.LoadContent(listL3languages, metadata.L3STlanguages); //do not use Load, use LoadContent to add values, not select them
 
       UI.Load(lblL3languageTypesCount, metadata.L3STlanguageTypesCount.ToString());
       UI.LoadContent(listL3languageTypes, metadata.L3STlanguageTypes); //do not use Load, use LoadContent to add values, not select them
-
+      */
       UI.Load(lblL3STinstanceCount, metadata.L3STinstanceCount.ToString());
     }
 
@@ -150,15 +159,21 @@ namespace Trafilm.Gallery
     public IConversation GetMetadataFromUI()
     {
       IConversation metadata = new Conversation();
+      metadata.Clear(); /* using this since we have removed UI elements (needed for facets to get default values) */
+
       string key = listConversations.SelectedValue;
       string filmReferenceId = listFilms.SelectedValue;
 
       //ICXMLMetadata//
 
+      /*
       metadata.Title = txtTitle.Text;
       metadata.Image = txtImageUrl.Text;
+      */
       metadata.Url = GetConversationUri(filmReferenceId, key);
+      /*
       metadata.Description = txtDescription.Text;
+      */
 
       //ITrafilmMetadata//
 
@@ -169,20 +184,24 @@ namespace Trafilm.Gallery
 
       metadata.MetadataEditors = UI.GetContent(listMetadataEditors);
 
+      /*
       metadata.Transcription = txtTranscription.Text;
 
-      metadata.Keywords = UI.GetCommaSeparated(txtKeywords);
+      metadata.Tags = UI.GetCommaSeparated(txtTags);
 
       metadata.Remarks = txtRemarks.Text;
+      */
 
       //IConversation//
 
       metadata.FilmReferenceId = filmReferenceId;
 
-      metadata.StartTime = txtStartTime.Text.ToNullableTimeSpan(ConversationMetadata.DEFAULT_POSITION_FORMAT);
-      metadata.Duration = txtDuration.Text.ToNullableTimeSpan(ConversationMetadata.DEFAULT_DURATION_FORMAT);
-
+      metadata.StartTime = txtStartTime.Text.ToNullableInt();
+      metadata.Duration = txtDuration.Text.ToNullableInt();
+      
+      /*
       metadata.LanguageSources = listLanguageSources.SelectedValue;
+      */
 
       //Calculated properties//
 

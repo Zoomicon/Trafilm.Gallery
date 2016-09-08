@@ -112,6 +112,15 @@ namespace Trafilm.Gallery {
         protected global::System.Web.UI.WebControls.XmlDataSource xmlL3STfunctions;
         
         /// <summary>
+        /// xmlL3STtypesFeatures control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.XmlDataSource xmlL3STtypesFeatures;
+        
+        /// <summary>
         /// xmlL3STsources control.
         /// </summary>
         /// <remarks>
@@ -283,22 +292,22 @@ namespace Trafilm.Gallery {
         protected global::System.Web.UI.WebControls.TextBox txtImageUrl;
         
         /// <summary>
-        /// txtStartTime control.
+        /// lblStartTime control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtStartTime;
+        protected global::System.Web.UI.WebControls.Label lblStartTime;
         
         /// <summary>
-        /// txtDuration control.
+        /// lblDuration control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtDuration;
+        protected global::System.Web.UI.WebControls.Label lblDuration;
         
         /// <summary>
         /// lblL1language control.
@@ -418,6 +427,15 @@ namespace Trafilm.Gallery {
         protected global::System.Web.UI.WebControls.CheckBoxList clistL3STfunctions;
         
         /// <summary>
+        /// clistL3STtypesFeatures control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBoxList clistL3STtypesFeatures;
+        
+        /// <summary>
         /// listL3STsources control.
         /// </summary>
         /// <remarks>
@@ -445,13 +463,13 @@ namespace Trafilm.Gallery {
         protected global::System.Web.UI.WebControls.TextBox txtTranscription;
         
         /// <summary>
-        /// txtKeywords control.
+        /// txtTags control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtKeywords;
+        protected global::System.Web.UI.WebControls.TextBox txtTags;
         
         /// <summary>
         /// txtRemarks control.

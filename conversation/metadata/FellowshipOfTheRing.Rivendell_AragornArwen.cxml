@@ -3,16 +3,16 @@
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="Start time (h:m:s)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
-    <FacetCategory Name="Duration (h:m:s)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Start time (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Duration (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Language sources" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="L3ST languages: count" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="L3ST languages: count" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="L3ST languages" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="L3ST language types: count" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="L3ST language types: count" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="L3ST language types" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="L3ST-instances: count" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="L3ST-instances: count" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="Keywords" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Tags" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
@@ -28,7 +28,7 @@
         <Facet Name="Transcription">
           <String Value="In the Sword Room. Rivendell&#xD;&#xA;Arwen: Why do you fear the past? You are Isildur’s heir, not Isildur himself. You are not bound to his fate.&#xD;&#xA;&#xD;&#xA;Strider: The same blood flows in my veins. Same weakness. &#xD;&#xA;&#xD;&#xA;Arwen: Your time will come. You will face the same evil, and you will defeat it. A si i-Dhúath ú-orthor, &#xD;&#xA;Aragorn. Ú or le a ú or nin. Renech i lu i erui govannen?&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;On the bridge. Rivendell&#xD;&#xA;Aragorn: Nauthannem i ned ol reniannen.&#xD;&#xA;&#xD;&#xA;Arwen: Gwenwin in enninath... U-arnech in naeth i si celich. Renech i beth i pennen?&#xD;&#xA;&#xD;&#xA;Aragorn: You said you'd bind yourself to me. Forsaking the immortal life of your people. &#xD;&#xA;&#xD;&#xA;Arwen: And to that I hold. I would rather share one lifetime with you than face all the ages of this world alone. &#xD;&#xA;I choose a mortal life." />
         </Facet>
-        <Facet Name="Keywords">
+        <Facet Name="Tags">
           <String Value="Aragorn" />
           <String Value=" Arwen" />
           <String Value=" Rivendell" />
@@ -41,37 +41,38 @@
           <DateTime Value="2016-06-15T08:54:29" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-16T05:51:02" />
+          <DateTime Value="2016-09-02T03:19:24" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="miquelpt" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="FellowshipOfTheRing" />
         </Facet>
-        <Facet Name="Start time (h:m:s)">
-          <String Value="1:31:15" />
+        <Facet Name="Start time (min)">
+          <Number Value="91" />
         </Facet>
-        <Facet Name="Duration (h:m:s)">
-          <String Value="1:33:07" />
+        <Facet Name="Duration (min)">
+          <Number Value="2" />
         </Facet>
         <Facet Name="Language sources">
           <String Value="2+ onscreen sources, oral only" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <String Value="1" />
+          <Number Value="1" />
         </Facet>
         <Facet Name="L3ST languages">
           <String Value="Elvish" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <String Value="1" />
+          <Number Value="1" />
         </Facet>
         <Facet Name="L3ST language types">
-          <String Value="Constructed" />
+          <String Value="Constructed (fictional)" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <String Value="2" />
+          <Number Value="2" />
         </Facet>
       </Facets>
     </Item>

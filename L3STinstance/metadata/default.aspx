@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: L3STinstance\metadata\default.aspx
-Version: 20160901
+Version: 20160908
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -31,6 +31,7 @@ Version: 20160901
     <asp:XmlDataSource ID="xmlL3STrepresentationsOral" runat="server" DataFile="~/metadata/L3representationsOral.xml" XPath="Facet/String" />
     <asp:XmlDataSource ID="xmlL3STrepresentationsVisual" runat="server" DataFile="~/metadata/L3representationsVisual.xml" XPath="Facet/String" />
     <asp:XmlDataSource ID="xmlL3STfunctions" runat="server" DataFile="~/metadata/L3functions.xml" XPath="Facet/String" />
+    <asp:XmlDataSource ID="xmlL3STtypesFeatures" runat="server" DataFile="~/metadata/L3typesFeatures.xml" XPath="Facet/String" />
     <asp:XmlDataSource ID="xmlL3STsources" runat="server" DataFile="~/metadata/L3sources.xml" XPath="Facet/String" />
 
 
@@ -104,7 +105,7 @@ Version: 20160901
         <div class="question">
           <div class="label">1. L3ST-instance Title</div>
           <div class="tip">Free text descriptive title (&lt;50 characters)</div>
-          <asp:TextBox ID="txtTitle" runat="server" Columns="150"></asp:TextBox>
+          <asp:TextBox ID="txtTitle" runat="server" Columns="150" />
         </div>
 
         <div class="question">
@@ -118,23 +119,22 @@ Version: 20160901
     
         <div class="question">
           <div class="label">3. Image URL</div>
-          <asp:TextBox ID="txtImageUrl" runat="server" Columns="150"></asp:TextBox>
+          <asp:TextBox ID="txtImageUrl" runat="server" Columns="150" />
         </div>
 
 
         <%-- IL3STinstanceMetadata --%>
 
-
-        <div class="question">
-          <div class="label">4. L3ST-instance Start Time (h:m:s)</div>
-          <div class="tip">What part of the film is L3ST in? (i.e. how many minutes and seconds from the start)</div>
-          <asp:TextBox ID="txtStartTime" runat="server" Columns="25"></asp:TextBox>
+        <div class="label">
+          <div class="label">Conversation Start Time (min) (Calculated from Conversation)</div>
+          <div class="tip">What part of the film is the Conversation in? (i.e. how many minutes and seconds from the start)</div>
+          <asp:Label ID="lblStartTime" runat="server" />
         </div>
 
-        <div class="question">
-          <div class="label">5. L3ST-instance Duration (h:m:s)</div>
-          <div class="tip">How long does L3ST last? (if the L3ST is interrupted by other speech, count total seconds from onset to end of final L3ST-instance)</div>
-          <asp:TextBox ID="txtDuration" runat="server" Columns="25"></asp:TextBox>
+        <div class="label">
+          <div class="label">Conversation Duration (min) (Calculated from Conversation)</div>
+          <div class="tip">How long does the Conversation last? (if L3ST insances are interrupted by other speech, count total seconds from onset to end of final L3ST-instance)</div>
+          <asp:Label ID="lblDuration" runat="server" />
         </div>
 
 
@@ -146,7 +146,7 @@ Version: 20160901
 
 
         <div class="question">
-          <div class="label">6. L3ST language type</div>
+          <div class="label">4. L3ST language type</div>
           <div class="tip">With L1 as main language (L-main), what type of language is L3ST?</div>
           <asp:DropDownList 
             ID="listL3STlanguageType" runat="server"
@@ -154,14 +154,14 @@ Version: 20160901
         </div>
 
         <div class="question">
-          <div class="label">7. L3ST language</div>
+          <div class="label">5. L3ST language</div>
           <div class="tip">Which language is L3ST?</div>
-          <asp:TextBox ID="txtL3STlanguage" runat="server" Columns="150"></asp:TextBox>
+          <asp:TextBox ID="txtL3STlanguage" runat="server" Columns="150" />
         </div>
 
 
         <div class="question">
-          <div class="label">8. L3ST constructed based on</div>
+          <div class="label">6. L3ST constructed based on</div>
           <div class="tip">If L3ST is “constructed”, is it based on any of the following options?</div>
           <asp:Panel runat="server" ScrollBars="Auto" Style="max-height: 100px">
             <asp:CheckBoxList ID="clistL3STconstructedBasedOn" runat="server" 
@@ -173,7 +173,7 @@ Version: 20160901
 
 
         <div class="question">
-          <div class="label">9. L3ST meant to be understood</div>
+          <div class="label">7. L3ST meant to be understood</div>
           <div class="tip">Is L3ST meant to be understood by most of the audience?</div>
           <asp:DropDownList 
             ID="listL3STaudienceUnderstanding" runat="server"
@@ -181,7 +181,7 @@ Version: 20160901
         </div>
 
         <div class="question">
-          <div class="label">10. L3ST message required for understanding</div>
+          <div class="label">8. L3ST message required for understanding</div>
           <div class="tip">Does L3ST carry a meaningful message or one that requires it to be understood?</div>
           <asp:DropDownList 
             ID="listL3STmessageUnderstanding" runat="server"
@@ -189,7 +189,7 @@ Version: 20160901
         </div>
 
         <div class="question">
-          <div class="label">11. L3ST meaning decipherable</div>
+          <div class="label">9. L3ST meaning decipherable</div>
           <div class="tip">Can the (pragmatic) meaning of L3ST be deciphered by other means? </div>
           <asp:DropDownList 
             ID="listL3STmeaningDecipherable" runat="server"
@@ -198,7 +198,7 @@ Version: 20160901
 
 
         <div class="question">
-          <div class="label">12. Quality of L3ST speaker performance</div>
+          <div class="label">10. Quality of L3ST speaker performance</div>
           <div class="tip">How well is the L3ST spoken?</div>
           <asp:DropDownList 
             ID="listL3STspeakerPerformance" runat="server"
@@ -207,7 +207,7 @@ Version: 20160901
 
 
         <div class="question">
-          <div class="label">13. L3ST mode, written/spoken, diegetic</div>
+          <div class="label">11. L3ST mode, written/spoken, diegetic</div>
           <div class="tip">Mode of L3ST?</div>
           <asp:Panel runat="server" ScrollBars="Auto" Style="max-height: 100px">
             <asp:CheckBoxList ID="clistL3STmode" runat="server" 
@@ -219,7 +219,7 @@ Version: 20160901
 
 
         <div class="question">
-          <div class="label">14. L3ST merely represented</div>
+          <div class="label">12. L3ST merely represented</div>
           <div class="tip">There is no actual L3ST, but there are clues</div>
           <asp:Panel runat="server" ScrollBars="Auto" Style="max-height: 100px">
             <asp:CheckBoxList ID="clistL3STrepresented" runat="server" 
@@ -230,7 +230,7 @@ Version: 20160901
         </div>
 
         <div class="question">
-          <div class="label">15. L3ST merely represented orally</div>
+          <div class="label">13. L3ST merely represented orally</div>
           <div class="tip">If “oral” selected for question on “L3ST represented”, specify how:</div>
           <div class="tip"></div>
           <asp:Panel runat="server" ScrollBars="Auto" Style="max-height: 100px">
@@ -242,7 +242,7 @@ Version: 20160901
         </div>
 
         <div class="question">
-          <div class="label">16. L3ST represented: visual</div>
+          <div class="label">14. L3ST represented: visual</div>
           <div class="tip">If “visual” selected for question on “L3ST represented”, specify how:</div>
           <asp:Panel runat="server" ScrollBars="Auto" Style="max-height: 100px">
             <asp:CheckBoxList ID="clistL3STrepresentationsVisual" runat="server" 
@@ -254,7 +254,7 @@ Version: 20160901
 
 
         <div class="question">
-          <div class="label">17. L3ST functions</div>
+          <div class="label">15. L3ST functions</div>
           <div class="tip">What are the functions for this particular instance of L3ST?</div>
           <asp:Panel runat="server" ScrollBars="Auto" Style="max-height: 100px">
             <asp:CheckBoxList ID="clistL3STfunctions" runat="server" 
@@ -264,9 +264,21 @@ Version: 20160901
            </asp:Panel>
         </div>
 
+
+        <div class="question">
+          <div class="label">16. Types/features related to L3ST</div>
+          <div class="tip">Types or features (functional or otherwise) related to L3ST presence</div>
+          <asp:Panel runat="server" ScrollBars="Auto" Style="max-height: 100px">
+            <asp:CheckBoxList ID="clistL3STtypesFeatures" runat="server"
+              DataSourceID="xmlL3STtypesFeatures" DataTextField="Value" DataValueField="Value"
+              RepeatLayout="Table" RepeatColumns="10" RepeatDirection="Vertical"               
+              />
+           </asp:Panel>
+        </div>
+
         
         <div class="question">
-          <div class="label">18. L3ST sources <i>(with or without main language mix)</i></div>
+          <div class="label">17. L3ST sources <i>(with or without main language mix)</i></div>
           <div class="info">Choose the description that best explains the number of sources (on or off screen, oral or written) and whether the main language is mixed with L3 (Main language, or “main”, is L1 for L3ST-instances)</div>
           <asp:DropDownList
             ID="listL3STsources" runat="server"
@@ -286,20 +298,20 @@ Version: 20160901
         <%-- ITrafilmMetadata --%>
 
         <div class="question">
-          <div class="label">19. Transcription </div>
+          <div class="label">18. Transcription </div>
           <div class="tip">Transcription for the specific L3ST-instance</div>
           <asp:TextBox ID="txtTranscription" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
         </div>
 
         <div class="question">
-          <div class="label">20. Keywords</div>
-          <div class="tip">Comma-separated list of keywords to help identify this item</div>
-          <asp:TextBox ID="txtKeywords" runat="server" Columns="150"></asp:TextBox>
+          <div class="label">19. Tags</div>
+          <div class="tip">Keywords or other labels for filtering purposes , insert a comma (,) between different ones</div>
+          <asp:TextBox ID="txtTags" runat="server" Columns="150" />
         </div>
 
         <div class="question">
-          <div class="label">21. Remarks </div>
-          <div class="tip">Remarks on the metadata</div>
+          <div class="label">20. Remarks </div>
+          <div class="tip">Issues concerning the analysis or the metadata form design</div>
           <asp:TextBox ID="txtRemarks" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
         </div>
 
@@ -330,7 +342,7 @@ Version: 20160901
             height="50"
             OnClick="btnSave_Click"
             />
-          <br />
+          <br /><br />
         </asp:Panel>
 
 

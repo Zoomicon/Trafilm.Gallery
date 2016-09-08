@@ -1,11 +1,10 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: L3STinstance\metadata\default.aspx.cs
-//Version: 20160614
+//Version: 20160906
 
 using Metadata.CXML;
 using Trafilm.Metadata;
 using Trafilm.Metadata.Models;
-using Trafilm.Metadata.Utils;
 
 using System;
 using System.Globalization;
@@ -134,7 +133,7 @@ namespace Trafilm.Gallery
 
       UI.Load(txtTranscription, metadata.Transcription);
 
-      UI.Load(txtKeywords, metadata.Keywords);
+      UI.Load(txtTags, metadata.Tags);
 
       UI.Load(txtRemarks, metadata.Remarks);
 
@@ -143,8 +142,8 @@ namespace Trafilm.Gallery
       UI.Load(listFilms, metadata.FilmReferenceId);
       UI.Load(listConversations, metadata.ConversationReferenceId);
 
-      UI.Load(txtStartTime, metadata.StartTime.ToString(L3STinstanceMetadata.DEFAULT_POSITION_FORMAT));
-      UI.Load(txtDuration, metadata.Duration.ToString(L3STinstanceMetadata.DEFAULT_DURATION_FORMAT));
+      UI.Load(lblStartTime, metadata.StartTime.ToString());
+      UI.Load(lblDuration, metadata.Duration.ToString());
 
       UI.Load(lblL1language, metadata.L1language);
 
@@ -166,6 +165,7 @@ namespace Trafilm.Gallery
       UI.Load(clistL3STrepresentationsVisual, metadata.L3STrepresentationsVisual);
 
       UI.Load(clistL3STfunctions, metadata.L3STfunctions);
+      UI.Load(clistL3STtypesFeatures, metadata.L3STtypesFeatures);
 
       UI.Load(listL3STsources, metadata.L3STsources);
 
@@ -203,7 +203,7 @@ namespace Trafilm.Gallery
 
       metadata.Transcription = txtTranscription.Text;
 
-      metadata.Keywords = UI.GetCommaSeparated(txtKeywords);
+      metadata.Tags = UI.GetCommaSeparated(txtTags);
 
       metadata.Remarks = txtRemarks.Text;
 
@@ -211,9 +211,6 @@ namespace Trafilm.Gallery
 
       metadata.FilmReferenceId = filmReferenceId;
       metadata.ConversationReferenceId = conversationReferenceId;
-
-      metadata.StartTime = txtStartTime.Text.ToNullableTimeSpan(L3STinstanceMetadata.DEFAULT_POSITION_FORMAT);
-      metadata.Duration = txtDuration.Text.ToNullableTimeSpan(L3STinstanceMetadata.DEFAULT_DURATION_FORMAT);
 
       metadata.L3STlanguageType = listL3STlanguageType.SelectedValue;
       metadata.L3STlanguage = txtL3STlanguage.Text;
@@ -233,6 +230,7 @@ namespace Trafilm.Gallery
       metadata.L3STrepresentationsVisual = UI.GetSelected(clistL3STrepresentationsVisual);
 
       metadata.L3STfunctions = UI.GetSelected(clistL3STfunctions);
+      metadata.L3STtypesFeatures = UI.GetSelected(clistL3STtypesFeatures);
 
       metadata.L3STsources = listL3STsources.SelectedValue;
 

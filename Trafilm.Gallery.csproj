@@ -60,6 +60,7 @@
     <Content Include="L3STinstance\template.html" />
     <Content Include="L3STinstance\template_image.png" />
     <Content Include="login.aspx" />
+    <Content Include="metadata\L3typesFeatures.xml" />
     <Content Include="metadata\L3sources.xml">
       <SubType>Designer</SubType>
     </Content>
@@ -69,7 +70,7 @@
     <Content Include="metadata\YesNo.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="conversation\default.html" />
+    <Content Include="conversation\_default.html" />
     <Content Include="conversation\metadata\default.aspx" />
     <Content Include="ClientAccessPolicy.xml">
       <SubType>Designer</SubType>
@@ -178,7 +179,7 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Metadata.CXML, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\Metadata.CXML.1.1.0\lib\portable-net403+sl5+win8+wpa81+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Metadata.CXML.dll</HintPath>
+      <HintPath>packages\Metadata.CXML.1.4.0\lib\portable-net403+sl5+win8+wpa81+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Metadata.CXML.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
@@ -187,7 +188,7 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="Trafilm.Metadata, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\Trafilm.Metadata.10.0.1\lib\portable-net403+sl5+win8+wpa81+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Trafilm.Metadata.dll</HintPath>
+      <HintPath>packages\Trafilm.Metadata.11.9.0\lib\portable-net403+sl5+win8+wpa81+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Trafilm.Metadata.dll</HintPath>
       <Private>True</Private>
     </Reference>
   </ItemGroup>
@@ -195,15 +196,11 @@
     <Content Include="utils\Utils.cd" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="packages.config">
-      <SubType>Designer</SubType>
-    </Content>
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="film\update_cxml.bat" />
     <Content Include="L3STinstance\update_cxml.bat" />
     <Content Include="conversation\update_cxml.bat" />
     <Content Include="L3TTinstance\update_cxml.bat" />
+    <Content Include="packages.config" />
     <None Include="Properties\PublishProfiles\Trafilm Gallery.pubxml" />
   </ItemGroup>
   <ItemGroup>

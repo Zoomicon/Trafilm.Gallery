@@ -301,13 +301,13 @@ namespace Trafilm.Gallery {
         protected global::System.Web.UI.WebControls.TextBox txtTranscription;
         
         /// <summary>
-        /// txtKeywords control.
+        /// txtTags control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtKeywords;
+        protected global::System.Web.UI.WebControls.TextBox txtTags;
         
         /// <summary>
         /// txtRemarks control.

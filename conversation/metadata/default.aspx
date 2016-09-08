@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: conversation\metadata\default.aspx
-Version: 20160614
+Version: 20160906
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -82,37 +82,44 @@ Version: 20160614
 
         <%-- ICXMLMetadata--%>
 
+        <%--
         <div class="question">
           <div class="label">1. Conversation Title</div>
-          <asp:TextBox ID="txtTitle" runat="server" Columns="150"></asp:TextBox>
+          <asp:TextBox ID="txtTitle" runat="server" Columns="150" />
         </div>
 
         <div class="question">
           <div class="label">2. Conversation Description</div>
           <asp:TextBox ID="txtDescription" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
         </div>
+        --%>
 
         <div class="label">Conversation URL</div>
         <asp:HyperLink ID="linkUrl" runat="server" Target="_blank" />
-    
+
+        <%--
         <div class="question">
           <div class="label">3. Image URL</div>
-          <asp:TextBox ID="txtImageUrl" runat="server" Columns="150"></asp:TextBox>
-        </div>   
+          <asp:TextBox ID="txtImageUrl" runat="server" Columns="150" />
+        </div>
+        --%>
 
 
         <%-- IConversationMetadata --%>
 
         <div class="question">
-          <div class="label">4. Conversation Start Time (h:m:s)</div>
-          <asp:TextBox ID="txtStartTime" runat="server" Columns="25"></asp:TextBox>
+          <div class="label">3. Conversation Start Time (min)</div>
+          <div class="tip">What part of the film is the Conversation in? (i.e. how many minutes and seconds from the start)</div>
+          <asp:TextBox ID="txtStartTime" runat="server" Columns="25" />
         </div>
 
         <div class="question">
-          <div class="label">5. Conversation Duration (h:m:s)</div>
-          <asp:TextBox ID="txtDuration" runat="server" Columns="25"></asp:TextBox>
+          <div class="label">4. Conversation Duration (min)</div>
+          <div class="tip">How long does the Conversation last? (if L3ST insances are interrupted by other speech, count total seconds from onset to end of final L3ST-instance)</div>
+          <asp:TextBox ID="txtDuration" runat="server" Columns="25" />
         </div>
         
+        <%--
         <div class="question">
           <div class="label">6. Language sources <i>(oral &amp; written)</i></div>
           <div class="info">How many “language sources” are there, i.e. characters speaking (total amount in any language) in this conversation, but also counting other relevant sources like narrator or written words?</div>
@@ -121,10 +128,11 @@ Version: 20160614
             DataSourceID="xmlLanguageSources" DataTextField="Title" DataValueField="Value"
             />
         </div>
-        
+        --%>
 
         <%-- Calculated from L3STinstances --%>
 
+        <%--
         <div>
           <div class="label">L3ST languages: count (Calculated from L3ST-instances)</div>
           <div class="tip">Count of L3ST languages in Conversation</div>
@@ -152,17 +160,18 @@ Version: 20160614
           <asp:Panel runat="server" ScrollBars="Auto">
             <asp:ListBox ID="listL3languageTypes" runat="server" Enabled="false" />
            </asp:Panel>
-        </div>            
-
+        </div>
+        --%>
 
         <div>
           <div class="label">Count of L3ST-instances (Calculated)</div>
           <asp:Label ID="lblL3STinstanceCount" runat="server"></asp:Label>
-        </div>    
+        </div>
         
 
         <%-- ITrafilmMetadata --%>
 
+        <%--
         <div class="question">
           <div class="label">7. Transcription </div>
           <div class="tip">Transcription for the specific conversation</div>
@@ -170,16 +179,17 @@ Version: 20160614
         </div>
 
         <div class="question">
-          <div class="label">8. Keywords</div>
-          <div class="tip">Comma-separated list of keywords to help identify this item</div>
-          <asp:TextBox ID="txtKeywords" runat="server" Columns="150"></asp:TextBox>
+          <div class="label">8. Tags</div>
+          <div class="tip">Keywords or other labels for filtering purposes , insert a comma (,) between different ones</div>
+          <asp:TextBox ID="txtTags" runat="server" Columns="150" />
         </div>
 
         <div class="question">
           <div class="label">9. Remarks </div>
-          <div class="tip">Remarks on the metadata</div>
+          <div class="tip">Issues concerning the analysis or the metadata form design</div>
           <asp:TextBox ID="txtRemarks" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
         </div>
+        --%>
 
 
         <div>
@@ -208,7 +218,7 @@ Version: 20160614
             height="50"
             OnClick="btnSave_Click"
             />
-          <br />
+          <br /><br />
         </asp:Panel>
 
         
