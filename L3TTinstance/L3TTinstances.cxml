@@ -140,7 +140,7 @@
           <DateTime Value="2016-06-15T09:38:56" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-09-02T03:20:44" />
+          <DateTime Value="2016-09-08T03:38:39" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="miquelpt" />
@@ -154,6 +154,12 @@
         </Facet>
         <Facet Name="L3ST-instance Reference Id">
           <String Value="FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="91" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="1" />
         </Facet>
         <Facet Name="L2 language">
           <String Value="Spanish" />
@@ -209,6 +215,9 @@
         <Facet Name="L3ST functions change">
           <String Value="None" />
         </Facet>
+        <Facet Name="Types/features related to L3ST change">
+          <String Value="None" />
+        </Facet>
         <Facet Name="L3ST sources change">
           <String Value="- Respond interlingually: different sources " />
           <String Value="+ Non-diegetic translation" />
@@ -231,10 +240,11 @@
           <DateTime Value="2016-06-15T09:38:56" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-16T08:49:07" />
+          <DateTime Value="2016-09-08T03:38:50" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="miquelpt" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="FellowshipOfTheRing" />
@@ -244,6 +254,12 @@
         </Facet>
         <Facet Name="L3ST-instance Reference Id">
           <String Value="FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="91" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="1" />
         </Facet>
         <Facet Name="L2 language">
           <String Value="Spanish" />
@@ -291,7 +307,14 @@
           <String Value="- Constructed (fictional)" />
           <String Value="+ No L3TT: L3-instance in L2" />
         </Facet>
+        <Facet Name="L3ST mode change">
+          <String Value="- Oral diegetic on-screen" />
+          <String Value="+ Written non-diegetic" />
+        </Facet>
         <Facet Name="L3ST functions change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="Types/features related to L3ST change">
           <String Value="None" />
         </Facet>
         <Facet Name="L3ST sources change">
@@ -313,7 +336,7 @@
           <DateTime Value="2016-06-16T05:27:49" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-09-07T07:52:53" />
+          <DateTime Value="2016-09-08T03:39:09" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="miquelpt" />
@@ -327,6 +350,12 @@
         </Facet>
         <Facet Name="L3ST-instance Reference Id">
           <String Value="FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="92" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="1" />
         </Facet>
         <Facet Name="L2 language">
           <String Value="Spanish" />
@@ -404,10 +433,11 @@
           <DateTime Value="2016-06-16T05:27:49" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-16T05:48:54" />
+          <DateTime Value="2016-09-08T03:39:22" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="miquelpt" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="FellowshipOfTheRing" />
@@ -417,6 +447,12 @@
         </Facet>
         <Facet Name="L3ST-instance Reference Id">
           <String Value="FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="92" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="1" />
         </Facet>
         <Facet Name="L2 language">
           <String Value="Spanish" />
@@ -466,7 +502,13 @@
         <Facet Name="L3ST language type change">
           <String Value="None" />
         </Facet>
+        <Facet Name="L3ST mode change">
+          <String Value="None" />
+        </Facet>
         <Facet Name="L3ST functions change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="Types/features related to L3ST change">
           <String Value="None" />
         </Facet>
         <Facet Name="L3ST sources change">
@@ -488,7 +530,7 @@
           <DateTime Value="2016-06-15T03:00:07" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-09-04T09:19:57" />
+          <DateTime Value="2016-09-08T03:39:38" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Stavroula" />
@@ -503,6 +545,9 @@
         <Facet Name="L3ST-instance Reference Id">
           <String Value="LoveActually.JamieProposesToAurelia.Aurelia's sister" />
         </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="1" />
+        </Facet>
         <Facet Name="L3ST language type change">
           <String Value="- Real" />
           <String Value="+ " />
@@ -513,6 +558,9 @@
         </Facet>
         <Facet Name="L3ST functions change">
           <String Value="- Comedy / humour" />
+        </Facet>
+        <Facet Name="Types/features related to L3ST change">
+          <String Value="None" />
         </Facet>
         <Facet Name="L3ST sources change">
           <String Value="- Written &amp; oral L3" />
@@ -533,7 +581,7 @@
           <DateTime Value="2016-06-15T02:43:24" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-09-04T09:30:44" />
+          <DateTime Value="2016-09-08T03:39:52" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Stavroula" />
@@ -547,6 +595,9 @@
         </Facet>
         <Facet Name="L3ST-instance Reference Id">
           <String Value="LoveActually.Lake Scene.Portuguese" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="3" />
         </Facet>
         <Facet Name="L2 language">
           <String Value="Spanish" />
@@ -573,6 +624,9 @@
         <Facet Name="L3ST functions change">
           <String Value="+ Dramatic effect" />
         </Facet>
+        <Facet Name="Types/features related to L3ST change">
+          <String Value="None" />
+        </Facet>
         <Facet Name="L3ST sources change">
           <String Value="None" />
         </Facet>
@@ -591,7 +645,10 @@
           <DateTime Value="2016-06-08T01:44:15" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-08T01:47:51" />
+          <DateTime Value="2016-09-08T03:40:01" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Monsoon Wedding" />
@@ -601,6 +658,12 @@
         </Facet>
         <Facet Name="L3ST-instance Reference Id">
           <String Value="Monsoon Wedding.Conversation in the garden on the phone.Hindi" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="170" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="4" />
         </Facet>
         <Facet Name="L2 language">
           <String Value="Spanish" />
@@ -649,8 +712,17 @@
           <String Value="- Real" />
           <String Value="+ No L3TT: L3-instance omitted" />
         </Facet>
+        <Facet Name="L3ST mode change">
+          <String Value="None" />
+        </Facet>
         <Facet Name="L3ST functions change">
           <String Value="- Character portrayal, stereotypical" />
+        </Facet>
+        <Facet Name="Types/features related to L3ST change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3ST sources change">
+          <String Value="None" />
         </Facet>
       </Facets>
     </Item>
@@ -664,7 +736,7 @@
           <DateTime Value="2016-05-26T07:05:07" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-09-01T06:37:57" />
+          <DateTime Value="2016-09-08T03:40:16" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="George" />
@@ -677,6 +749,12 @@
         </Facet>
         <Facet Name="L3ST-instance Reference Id">
           <String Value="OceansEleven.ExplainingThePlan.Chinese" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="32" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="4" />
         </Facet>
         <Facet Name="L2 language">
           <String Value="Spanish" />
@@ -717,6 +795,9 @@
           <String Value="- Character portrayal, nonstereotypical" />
           <String Value="- Plot (twist)" />
           <String Value="+ Suspense" />
+        </Facet>
+        <Facet Name="Types/features related to L3ST change">
+          <String Value="None" />
         </Facet>
         <Facet Name="L3ST sources change">
           <String Value="None" />

@@ -61,35 +61,6 @@
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Django Unchained.test" Name="Django Unchained.test" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Django Unchained&amp;conversation=Django Unchained.test">
-      <Description></Description>
-      <Facets>
-        <Facet Name="Reference Id">
-          <String Value="Django Unchained.test" />
-        </Facet>
-        <Facet Name="Info created">
-          <DateTime Value="2016-09-07T08:45:13" />
-        </Facet>
-        <Facet Name="Info updated">
-          <DateTime Value="2016-09-07T08:45:15" />
-        </Facet>
-        <Facet Name="Metadata Editors">
-          <String Value="George" />
-        </Facet>
-        <Facet Name="Film Reference Id">
-          <String Value="Django Unchained" />
-        </Facet>
-        <Facet Name="L3ST languages: count">
-          <Number Value="0" />
-        </Facet>
-        <Facet Name="L3ST language types: count">
-          <Number Value="0" />
-        </Facet>
-        <Facet Name="L3ST-instances: count">
-          <Number Value="0" />
-        </Facet>
-      </Facets>
-    </Item>
     <Item Id="FellowshipOfTheRing.Rivendell_AragornArwen" Name="FellowshipOfTheRing.Rivendell_AragornArwen" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Rivendell_AragornArwen">
       <Description>The scene consists in a love scene between Aragorn and Arwen in Rivendell. </Description>
       <Facets>
@@ -234,7 +205,7 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Monsoon Wedding.Conversation in the garden on the phone" Name="Monsoon Wedding - Conversation in the garden on the phone" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Monsoon Wedding&amp;conversation=Monsoon Wedding.Conversation in the garden on the phone">
+    <Item Id="Monsoon Wedding.Conversation in the garden on the phone" Name="Monsoon Wedding.Conversation in the garden on the phone" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Monsoon Wedding&amp;conversation=Monsoon Wedding.Conversation in the garden on the phone">
       <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -244,13 +215,19 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
           <DateTime Value="2016-06-07T03:54:06" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-09-04T09:14:41" />
+          <DateTime Value="2016-09-08T03:30:38" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Monsoon Wedding" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="170" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="4" />
         </Facet>
         <Facet Name="L3ST languages: count">
           <Number Value="1" />
