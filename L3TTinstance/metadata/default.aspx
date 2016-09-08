@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: L3TTinstance\metadata\default.aspx
-Version: 20160906
+Version: 20160908
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -135,6 +135,19 @@ Version: 20160906
 
 
         <%-- IL3TTinstanceMetadata --%>
+
+        <div class="label">
+          <div class="label">Conversation Start Time (min) (Calculated from Conversation)</div>
+          <div class="tip">What part of the film is the Conversation in? (i.e. how many minutes and seconds from the start)</div>
+          <asp:Label ID="lblStartTime" runat="server" />
+        </div>
+
+        <div class="label">
+          <div class="label">Conversation Duration (min) (Calculated from Conversation)</div>
+          <div class="tip">How long does the Conversation last? (if L3ST insances are interrupted by other speech, count total seconds from onset to end of final L3ST-instance)</div>
+          <asp:Label ID="lblDuration" runat="server" />
+        </div>
+
 
         <div class="question">
           <div class="label">4. L2 language</div>
