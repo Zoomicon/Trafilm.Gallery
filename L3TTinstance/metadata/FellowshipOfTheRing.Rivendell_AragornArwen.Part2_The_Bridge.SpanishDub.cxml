@@ -6,11 +6,13 @@
     <FacetCategory Name="Conversation Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3ST-instance Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Title TT" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="Year TT released" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
-    <FacetCategory Name="Start time (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
-    <FacetCategory Name="Duration (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="L2 language" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L2 mode" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Distribution countries (TT)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Year TT released" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Film TT Blockbuster" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Start time (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Duration (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="L2 same as L3ST" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="L3ST conveyed as L3TT" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="L3TT language type" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -41,7 +43,7 @@
   </FacetCategories>
   <Items xmlns="">
     <Item Id="FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge.SpanishDub" Name="FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Rivendell_AragornArwen&amp;L3STinstance=FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge&amp;L3TTinstance=FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge.SpanishDub">
-      <Description>The instance is dubbed into Spanish. </Description>
+      <Description>This instance takes place in a bridge in Rivendell. This is the scene in which they explicitly talk about their love relationship. Dialogue combines English and Elvish.</Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge.SpanishDub" />
@@ -53,7 +55,7 @@
           <DateTime Value="2016-06-16T05:27:49" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-09-08T11:02:08" />
+          <DateTime Value="2016-09-08T10:48:19" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="miquelpt" />
@@ -71,6 +73,12 @@
         <Facet Name="Film Title TT">
           <String Value="La comunidad del anillo" />
         </Facet>
+        <Facet Name="L2 language">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L2 mode">
+          <String Value="Dubbed" />
+        </Facet>
         <Facet Name="Year TT released">
           <Number Value="2001" />
         </Facet>
@@ -79,12 +87,6 @@
         </Facet>
         <Facet Name="Duration (min)">
           <Number Value="1" />
-        </Facet>
-        <Facet Name="L2 language">
-          <String Value="Spanish" />
-        </Facet>
-        <Facet Name="L2 mode">
-          <String Value="Dubbed" />
         </Facet>
         <Facet Name="L2 same as L3ST">
           <String Value="No" />
