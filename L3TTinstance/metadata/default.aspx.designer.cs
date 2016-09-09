@@ -31,6 +31,15 @@ namespace Trafilm.Gallery {
         protected global::System.Web.UI.WebControls.XmlDataSource xmlL2mode;
         
         /// <summary>
+        /// xmlBlockbuster control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.XmlDataSource xmlBlockbuster;
+        
+        /// <summary>
         /// xmlYesNo control.
         /// </summary>
         /// <remarks>
@@ -337,31 +346,22 @@ namespace Trafilm.Gallery {
         protected global::System.Web.UI.WebControls.HyperLink linkUrl;
         
         /// <summary>
-        /// txtImageUrl control.
+        /// lblImageUrl control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtImageUrl;
+        protected global::System.Web.UI.WebControls.Label lblImageUrl;
         
         /// <summary>
-        /// lblStartTime control.
+        /// txtFilmTitleTT control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblStartTime;
-        
-        /// <summary>
-        /// lblDuration control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblDuration;
+        protected global::System.Web.UI.WebControls.TextBox txtFilmTitleTT;
         
         /// <summary>
         /// listL2language control.
@@ -380,6 +380,51 @@ namespace Trafilm.Gallery {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList listL2mode;
+        
+        /// <summary>
+        /// txtDistributionCountriesTT control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtDistributionCountriesTT;
+        
+        /// <summary>
+        /// txtYearTTreleased control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtYearTTreleased;
+        
+        /// <summary>
+        /// listBlockbusterTT control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList listBlockbusterTT;
+        
+        /// <summary>
+        /// lblStartTime control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblStartTime;
+        
+        /// <summary>
+        /// lblDuration control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblDuration;
         
         /// <summary>
         /// listL2sameAsL3ST control.

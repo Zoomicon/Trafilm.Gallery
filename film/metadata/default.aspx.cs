@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: film\metadata\default.aspx.cs
-//Version: 20160906
+//Version: 20160908
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -134,10 +134,6 @@ namespace Trafilm.Gallery
 
       //IFilm//
 
-      UI.Load(txtTitle_es, metadata.Title_es);
-      UI.Load(txtTitle_ca, metadata.Title_ca);
-      //...
-
       UI.Load(txtDuration, metadata.Duration.ToString());
 
       UI.Load(txtDirectors, metadata.Directors);
@@ -146,12 +142,10 @@ namespace Trafilm.Gallery
       UI.Load(txtProductionCountries, metadata.ProductionCountries);
       UI.Load(txtProductionCompanies, metadata.ProductionCompanies);
 
-      UI.Load(txtBoxOffice, metadata.BoxOffice);
+      UI.Load(listBlockbuster, metadata.Blockbuster);
       UI.Load(txtYear, metadata.YearSTreleased.ToString());
 
       UI.Load(listL1language, metadata.L1language);
-
-      UI.Load(txtYearTranslated, metadata.YearTTreleased_Spain.ToString());
 
       //Calculated properties//
 
@@ -195,10 +189,6 @@ namespace Trafilm.Gallery
 
       //IFilm//
 
-      metadata.Title_es = txtTitle_es.Text;
-      metadata.Title_ca = txtTitle_ca.Text;
-      //...
-
       metadata.Duration = txtDuration.Text.ToNullableInt();
 
       metadata.Directors = UI.GetCommaSeparated(txtDirectors);
@@ -207,12 +197,10 @@ namespace Trafilm.Gallery
       metadata.ProductionCountries = UI.GetCommaSeparated(txtProductionCountries);
       metadata.ProductionCompanies = UI.GetCommaSeparated(txtProductionCompanies);
 
-      metadata.BoxOffice = txtBoxOffice.Text;
+      metadata.Blockbuster = listBlockbuster.SelectedValue;
       metadata.YearSTreleased = txtYear.Text.ToNullableInt();
 
       metadata.L1language = listL1language.SelectedValue;
-
-      metadata.YearTTreleased_Spain = txtYearTranslated.Text.ToNullableInt();
 
       //Calculated properties//
 

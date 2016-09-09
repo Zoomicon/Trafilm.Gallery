@@ -5,10 +5,14 @@
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Conversation Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3ST-instance Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="Start time (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
-    <FacetCategory Name="Duration (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Film Title TT" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L2 language" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L2 mode" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Distribution countries (TT)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Year TT released" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Film TT Blockbuster" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Start time (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Duration (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="L2 same as L3ST" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="L3ST conveyed as L3TT" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="L3TT language type" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -38,8 +42,8 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="OceansEleven.ExplainingThePlan.Chinese.SpanishSub" Name="OceansEleven.ExplainingThePlan.Chinese.SpanishSub" Img="../L3TTinstance/image/OceansEleven.ExplainingThePlan.Chinese.SpanishSub.png" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=OceansEleven&amp;conversation=OceansEleven.ExplainingThePlan&amp;L3STinstance=OceansEleven.ExplainingThePlan.Chinese&amp;L3TTinstance=OceansEleven.ExplainingThePlan.Chinese.SpanishSub">
-      <Description>Subtitled utterance</Description>
+    <Item Id="OceansEleven.ExplainingThePlan.Chinese.SpanishSub" Name="OceansEleven.ExplainingThePlan.Chinese.SpanishSub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=OceansEleven&amp;conversation=OceansEleven.ExplainingThePlan&amp;L3STinstance=OceansEleven.ExplainingThePlan.Chinese&amp;L3TTinstance=OceansEleven.ExplainingThePlan.Chinese.SpanishSub">
+      <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="OceansEleven.ExplainingThePlan.Chinese.SpanishSub" />
@@ -48,7 +52,7 @@
           <DateTime Value="2016-05-26T07:05:07" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-09-08T03:40:16" />
+          <DateTime Value="2016-09-08T10:48:50" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="George" />
@@ -62,17 +66,20 @@
         <Facet Name="L3ST-instance Reference Id">
           <String Value="OceansEleven.ExplainingThePlan.Chinese" />
         </Facet>
-        <Facet Name="Start time (min)">
-          <Number Value="32" />
-        </Facet>
-        <Facet Name="Duration (min)">
-          <Number Value="4" />
+        <Facet Name="Film Title TT">
+          <String Value="Hagan juego" />
         </Facet>
         <Facet Name="L2 language">
           <String Value="Spanish" />
         </Facet>
         <Facet Name="L2 mode">
           <String Value="Subtitled" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="32" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="4" />
         </Facet>
         <Facet Name="L2 same as L3ST">
           <String Value="No" />

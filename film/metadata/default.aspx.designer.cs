@@ -22,6 +22,15 @@ namespace Trafilm.Gallery {
         protected global::System.Web.UI.WebControls.XmlDataSource XmlL1language;
         
         /// <summary>
+        /// xmlBlockbuster control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.XmlDataSource xmlBlockbuster;
+        
+        /// <summary>
         /// form1 control.
         /// </summary>
         /// <remarks>
@@ -148,24 +157,6 @@ namespace Trafilm.Gallery {
         protected global::System.Web.UI.WebControls.TextBox txtImageUrl;
         
         /// <summary>
-        /// txtTitle_es control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtTitle_es;
-        
-        /// <summary>
-        /// txtTitle_ca control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtTitle_ca;
-        
-        /// <summary>
         /// txtDuration control.
         /// </summary>
         /// <remarks>
@@ -211,13 +202,13 @@ namespace Trafilm.Gallery {
         protected global::System.Web.UI.WebControls.TextBox txtProductionCompanies;
         
         /// <summary>
-        /// txtBoxOffice control.
+        /// listBlockbuster control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtBoxOffice;
+        protected global::System.Web.UI.WebControls.DropDownList listBlockbuster;
         
         /// <summary>
         /// txtYear control.
@@ -236,15 +227,6 @@ namespace Trafilm.Gallery {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList listL1language;
-        
-        /// <summary>
-        /// txtYearTranslated control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtYearTranslated;
         
         /// <summary>
         /// listL2dubbedLanguages control.

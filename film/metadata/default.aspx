@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: film\metadata\default.aspx
-Version: 20160906
+Version: 20160908
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -21,6 +21,7 @@ Version: 20160906
     <%-- DATA SOURCES --%>
 
     <asp:XmlDataSource ID="XmlL1language" runat="server" DataFile="~/metadata/L1language.xml" XPath="Facet/String" />
+    <asp:XmlDataSource ID="xmlBlockbuster" runat="server" DataFile="~/metadata/Blockbuster.xml" XPath="Facet/String" />      
 
     <%-- NAVIGATION MENU --%>
 
@@ -100,19 +101,6 @@ Version: 20160906
         <%-- IFilmMetadata --%>
 
         <div class="question">
-          <div class="label">0. Title in Spanish</div>
-          <asp:TextBox ID="txtTitle_es" runat="server" Columns="150" />
-        </div>
-
-        <div class="question">
-          <div class="label">0. Title in Catalan</div>
-          <asp:TextBox ID="txtTitle_ca" runat="server" Columns="150" />
-        </div>
-
-        <%-- ... --%>
-
-
-        <div class="question">
           <div class="label">4. Film duration (min)</div>
           <div class="tip">How long does the film last? (in hours:minutes:seconds)</div>
           <asp:TextBox ID="txtDuration" runat="server" />
@@ -146,10 +134,15 @@ Version: 20160906
 
 
         <div class="question">
-          <div class="label">9. Box office</div>
-          <div class="tip">Box office (ticket sales in US Dollars) where the film was originally released</div>
-          <asp:TextBox ID="txtBoxOffice" runat="server" />
+          <div class="label">9. Blockbuster</div>
+          <div class="tip">Is the film ranked in the top 20 where first released (ST)?</div>
+          <asp:Panel runat="server" ScrollBars="Auto">
+            <asp:DropDownList ID="listBlockbuster" runat="server"
+              DataSourceID="xmlBlockbuster" DataTextField="Value" DataValueField="Value"
+              />
+           </asp:Panel>
         </div>
+
 
         <div class="question">
           <div class="label">10. Year ST released</div>
@@ -168,12 +161,6 @@ Version: 20160906
            </asp:Panel>
         </div>
 
-
-        <div class="question">
-          <div class="label">0. Year TT released in Spain</div>
-          <asp:TextBox ID="txtYearTranslated" runat="server" />
-        </div>
-                
 
         <%-- Calculated from Conversations.L3STinstances.L3TTinstances --%>
 

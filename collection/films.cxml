@@ -2,17 +2,14 @@
 <Collection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" Name="Trafilm Gallery: Films" SchemaVersion="1.0" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
     <FacetCategories>
         <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="false" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
-        <FacetCategory Name="Title in Spanish" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
-        <FacetCategory Name="Title in Catalan" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="Duration (min)" Type="Number" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
         <FacetCategory Name="Director(s)" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="Scriptwriter(s)" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="Production countries" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="Production companies" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
-        <FacetCategory Name="Box office" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
+        <FacetCategory Name="Blockbuster" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
         <FacetCategory Name="Year ST released" Type="Number" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
         <FacetCategory Name="Main language (L1)" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
-        <FacetCategory Name="Year TT released in Spain" Type="Number" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
         <FacetCategory Name="Conversations: count" Type="Number" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
         <FacetCategory Name="Conversations: duration (min)" Type="Number" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
         <FacetCategory Name="L2-Dubbed languages" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
@@ -28,9 +25,6 @@
         <Item Id="Blade II" Name="Blade II" Img="#0" Href="http://gallery.trafilm.net/film/metadata/?film=Blade II">
             <Description>Blade forms an uneasy alliance with the vampire council in order to combat the Reaper vampires who feed on vampires. </Description>
             <Facets>
-                <Facet Name="Box office">
-                    <String Value=" $81.645.152 (USA) " />
-                </Facet>
                 <Facet Name="Conversations: count">
                     <Number Value="0" />
                 </Facet>
@@ -47,7 +41,7 @@
                     <DateTime Value="2016-06-16T07:57:45" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-09-07T07:31:21" />
+                    <DateTime Value="2016-09-08T12:03:36" />
                 </Facet>
                 <Facet Name="Main language (L1)">
                     <String Value="English" />
@@ -66,16 +60,7 @@
                 <Facet Name="Scriptwriter(s)">
                     <String Value="David S. Goyer " />
                 </Facet>
-                <Facet Name="Title in Catalan">
-                    <String Value="Blade II" />
-                </Facet>
-                <Facet Name="Title in Spanish">
-                    <String Value="Blade II" />
-                </Facet>
                 <Facet Name="Year ST released">
-                    <Number Value="2002" />
-                </Facet>
-                <Facet Name="Year TT released in Spain">
                     <Number Value="2002" />
                 </Facet>
             </Facets>
@@ -99,7 +84,7 @@
                     <DateTime Value="2016-05-31T11:56:17" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-09-06T01:27:29" />
+                    <DateTime Value="2016-09-08T12:03:40" />
                 </Facet>
                 <Facet Name="L2-Dubbed languages">
                     <String Value="Spanish" />
@@ -122,13 +107,7 @@
                 <Facet Name="Scriptwriter(s)">
                     <String Value="Quentin Tarantino" />
                 </Facet>
-                <Facet Name="Title in Spanish">
-                    <String Value="Django Desencadenado" />
-                </Facet>
                 <Facet Name="Year ST released">
-                    <Number Value="2012" />
-                </Facet>
-                <Facet Name="Year TT released in Spain">
                     <Number Value="2012" />
                 </Facet>
             </Facets>
@@ -152,7 +131,7 @@
                     <DateTime Value="2016-06-01T02:48:36" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-09-07T07:56:05" />
+                    <DateTime Value="2016-09-08T12:03:44" />
                 </Facet>
                 <Facet Name="L2-Dubbed languages">
                     <String Value="Spanish" />
@@ -187,16 +166,7 @@
                     <String Value="Elvish" />
                     <String Value=" Tolkien" />
                 </Facet>
-                <Facet Name="Title in Catalan">
-                    <String Value="La germandat de l'anell" />
-                </Facet>
-                <Facet Name="Title in Spanish">
-                    <String Value="La comunidad del anillo" />
-                </Facet>
                 <Facet Name="Year ST released">
-                    <Number Value="2001" />
-                </Facet>
-                <Facet Name="Year TT released in Spain">
                     <Number Value="2001" />
                 </Facet>
             </Facets>
@@ -204,9 +174,6 @@
         <Item Id="Gangs of New York" Name="Gangs of New York" Img="#3" Href="http://gallery.trafilm.net/film/metadata/?film=Gangs of New York">
             <Description>In 1863, Amsterdam Vallon returns to the Five Points area of New York City seeking revenge against Bill the Butcher, his father's killer. </Description>
             <Facets>
-                <Facet Name="Box office">
-                    <String Value=" $77.679.638 (USA) " />
-                </Facet>
                 <Facet Name="Conversations: count">
                     <Number Value="0" />
                 </Facet>
@@ -223,7 +190,7 @@
                     <DateTime Value="2016-06-16T08:02:01" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-06-22T03:39:39" />
+                    <DateTime Value="2016-09-08T12:03:48" />
                 </Facet>
                 <Facet Name="Main language (L1)">
                     <String Value="English" />
@@ -242,26 +209,14 @@
                 <Facet Name="Scriptwriter(s)">
                     <String Value="Jay Cocks " />
                 </Facet>
-                <Facet Name="Title in Catalan">
-                    <String Value="Gangs of New York" />
-                </Facet>
-                <Facet Name="Title in Spanish">
-                    <String Value="Gangs of New York" />
-                </Facet>
                 <Facet Name="Year ST released">
                     <Number Value="2002" />
-                </Facet>
-                <Facet Name="Year TT released in Spain">
-                    <Number Value="2003" />
                 </Facet>
             </Facets>
         </Item>
         <Item Id="Lost in Translation" Name="Lost in Translation" Img="#4" Href="http://gallery.trafilm.net/film/metadata/?film=Lost in Translation">
             <Description>A faded movie star and a neglected young woman form an unlikely bond after crossing paths in Tokyo. </Description>
             <Facets>
-                <Facet Name="Box office">
-                    <String Value=" $44.566.004 (USA) " />
-                </Facet>
                 <Facet Name="Conversations: count">
                     <Number Value="0" />
                 </Facet>
@@ -278,7 +233,7 @@
                     <DateTime Value="2016-06-13T06:54:58" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-06-14T02:41:47" />
+                    <DateTime Value="2016-09-08T12:03:53" />
                 </Facet>
                 <Facet Name="Main language (L1)">
                     <String Value="English" />
@@ -303,31 +258,19 @@
                 <Facet Name="Scriptwriter(s)">
                     <String Value="Sofia Coppola " />
                 </Facet>
-                <Facet Name="Title in Catalan">
-                    <String Value="Lost in Translation" />
-                </Facet>
-                <Facet Name="Title in Spanish">
-                    <String Value="Lost in Translation" />
-                </Facet>
                 <Facet Name="Year ST released">
                     <Number Value="2003" />
-                </Facet>
-                <Facet Name="Year TT released in Spain">
-                    <Number Value="2004" />
                 </Facet>
             </Facets>
         </Item>
         <Item Id="LoveActually" Name="Love Actually " Img="#5" Href="http://gallery.trafilm.net/film/metadata/?film=LoveActually">
             <Description>Follows the lives of eight very different couples in dealing with their love lives in various loosely interrelated tales all set during a frantic month before Christmas in London, England. (imdb)</Description>
             <Facets>
-                <Facet Name="Box office">
-                    <String Value="$59,365,105 (USA) (16 February 2004)" />
-                </Facet>
                 <Facet Name="Conversations: count">
                     <Number Value="2" />
                 </Facet>
                 <Facet Name="Conversations: duration (min)">
-                    <Number Value="0" />
+                    <Number Value="6" />
                 </Facet>
                 <Facet Name="Director(s)">
                     <String Value="Richard Curtis" />
@@ -339,7 +282,7 @@
                     <DateTime Value="2016-06-01T03:30:55" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-06-22T03:36:40" />
+                    <DateTime Value="2016-09-08T12:03:57" />
                 </Facet>
                 <Facet Name="L2-Subtitled languages">
                     <String Value="Spanish" />
@@ -371,13 +314,7 @@
                 <Facet Name="Tags">
                     <String Value="faltan datos importantes" />
                 </Facet>
-                <Facet Name="Title in Spanish">
-                    <String Value="Love Actually" />
-                </Facet>
                 <Facet Name="Year ST released">
-                    <Number Value="2003" />
-                </Facet>
-                <Facet Name="Year TT released in Spain">
                     <Number Value="2003" />
                 </Facet>
             </Facets>
@@ -385,9 +322,6 @@
         <Item Id="Memoirs of a Geisha" Name="Memoirs of a Geisha" Img="#6" Href="http://gallery.trafilm.net/film/metadata/?film=Memoirs of a Geisha">
             <Description>Nitta Sayuri reveals how she transcended her fishing-village roots and became one of Japan's most celebrated geisha. </Description>
             <Facets>
-                <Facet Name="Box office">
-                    <String Value=" $57.010.853 (USA)" />
-                </Facet>
                 <Facet Name="Conversations: count">
                     <Number Value="0" />
                 </Facet>
@@ -404,7 +338,7 @@
                     <DateTime Value="2016-06-16T08:12:46" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-06-22T03:41:02" />
+                    <DateTime Value="2016-09-08T12:04:01" />
                 </Facet>
                 <Facet Name="Main language (L1)">
                     <String Value="English" />
@@ -422,31 +356,19 @@
                 <Facet Name="Scriptwriter(s)">
                     <String Value=" Robin Swicord " />
                 </Facet>
-                <Facet Name="Title in Catalan">
-                    <String Value="Memòries d'una geisha" />
-                </Facet>
-                <Facet Name="Title in Spanish">
-                    <String Value="Memorias de una geisha" />
-                </Facet>
                 <Facet Name="Year ST released">
                     <Number Value="2005" />
-                </Facet>
-                <Facet Name="Year TT released in Spain">
-                    <Number Value="2006" />
                 </Facet>
             </Facets>
         </Item>
         <Item Id="Monsoon Wedding" Name="Monsoon Wedding" Img="#7" Href="http://gallery.trafilm.net/film/metadata/?film=Monsoon Wedding">
             <Description>A stressed father, a bride-to-be with a secret, a smitten event planner, and relatives from around the world create much ado about the preparations for an arranged marriage in India. </Description>
             <Facets>
-                <Facet Name="Box office">
-                    <String Value="$68,546 (USA) (24 February 2002)" />
-                </Facet>
                 <Facet Name="Conversations: count">
                     <Number Value="1" />
                 </Facet>
                 <Facet Name="Conversations: duration (min)">
-                    <Number Value="0" />
+                    <Number Value="4" />
                 </Facet>
                 <Facet Name="Director(s)">
                     <String Value=" Mira Nair " />
@@ -458,7 +380,7 @@
                     <DateTime Value="2016-06-07T03:44:51" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-07-04T02:40:05" />
+                    <DateTime Value="2016-09-08T12:04:06" />
                 </Facet>
                 <Facet Name="L2-Dubbed languages">
                     <String Value="Spanish" />
@@ -496,13 +418,7 @@
                     <String Value=" Drama" />
                     <String Value=" Romance" />
                 </Facet>
-                <Facet Name="Title in Spanish">
-                    <String Value="La boda del Monzón" />
-                </Facet>
                 <Facet Name="Year ST released">
-                    <Number Value="2001" />
-                </Facet>
-                <Facet Name="Year TT released in Spain">
                     <Number Value="2001" />
                 </Facet>
             </Facets>
@@ -526,7 +442,7 @@
                     <DateTime Value="2016-05-25T10:53:52" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-06-10T10:57:27" />
+                    <DateTime Value="2016-09-08T12:04:11" />
                 </Facet>
                 <Facet Name="L2-Subtitled languages">
                     <String Value="Spanish" />
@@ -536,6 +452,7 @@
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="Stavroula" />
+                    <String Value="George" />
                 </Facet>
                 <Facet Name="Production companies">
                     <String Value="Warner Bros." />
@@ -549,9 +466,6 @@
                     <String Value="George Clayton Johnson" />
                     <String Value=" Jack Golden Russell" />
                 </Facet>
-                <Facet Name="Title in Spanish">
-                    <String Value="Hagan juego" />
-                </Facet>
                 <Facet Name="Year ST released">
                     <Number Value="2001" />
                 </Facet>
@@ -560,9 +474,6 @@
         <Item Id="Pearl Harbor" Name="Pearl Harbor" Img="#9" Href="http://gallery.trafilm.net/film/metadata/?film=Pearl Harbor">
             <Description>Pearl Harbor follows the story of two best friends, Rafe and Danny, and their love lives as they go off to join the war. </Description>
             <Facets>
-                <Facet Name="Box office">
-                    <String Value="$198.539.855 (USA) " />
-                </Facet>
                 <Facet Name="Conversations: count">
                     <Number Value="0" />
                 </Facet>
@@ -579,7 +490,7 @@
                     <DateTime Value="2016-06-16T07:54:12" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-07-04T02:43:11" />
+                    <DateTime Value="2016-09-08T12:04:15" />
                 </Facet>
                 <Facet Name="Main language (L1)">
                     <String Value="English" />
@@ -597,16 +508,7 @@
                 <Facet Name="Scriptwriter(s)">
                     <String Value="Randall Wallace" />
                 </Facet>
-                <Facet Name="Title in Catalan">
-                    <String Value="Pearl Harbor" />
-                </Facet>
-                <Facet Name="Title in Spanish">
-                    <String Value="Pearl Harbor" />
-                </Facet>
                 <Facet Name="Year ST released">
-                    <Number Value="2001" />
-                </Facet>
-                <Facet Name="Year TT released in Spain">
                     <Number Value="2001" />
                 </Facet>
             </Facets>
@@ -614,9 +516,6 @@
         <Item Id="Slumdog Millionaire" Name="Slumdog Millionaire" Img="#10" Href="http://gallery.trafilm.net/film/metadata/?film=Slumdog Millionaire">
             <Description>A Mumbai teen reflects on his upbringing in the slums when he is accused of cheating on the Indian Version of "Who Wants to be a Millionaire?" </Description>
             <Facets>
-                <Facet Name="Box office">
-                    <String Value="$141.319.195 (USA)" />
-                </Facet>
                 <Facet Name="Conversations: count">
                     <Number Value="0" />
                 </Facet>
@@ -634,14 +533,14 @@
                     <DateTime Value="2016-06-16T08:16:54" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-09-01T08:52:11" />
+                    <DateTime Value="2016-09-08T12:04:19" />
                 </Facet>
                 <Facet Name="Main language (L1)">
                     <String Value="Other" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="natalia.faja" />
-                    <String Value="george" />
+                    <String Value="George" />
                 </Facet>
                 <Facet Name="Production countries">
                     <String Value="UK" />
@@ -653,26 +552,14 @@
                 <Facet Name="Scriptwriter(s)">
                     <String Value=" Simon Beaufoy " />
                 </Facet>
-                <Facet Name="Title in Catalan">
-                    <String Value="Slumdog Millionaire" />
-                </Facet>
-                <Facet Name="Title in Spanish">
-                    <String Value="Slumdog Millionaire" />
-                </Facet>
                 <Facet Name="Year ST released">
                     <Number Value="2008" />
-                </Facet>
-                <Facet Name="Year TT released in Spain">
-                    <Number Value="2009" />
                 </Facet>
             </Facets>
         </Item>
         <Item Id="Stigmata" Name="Stigmata" Img="#11" Href="http://gallery.trafilm.net/film/metadata/?film=Stigmata">
             <Description>When a young woman becomes afflicted by stigmata, a priest is sent to investigate her case, which may have severe ramifications for his faith and for the Catholic Church itself. </Description>
             <Facets>
-                <Facet Name="Box office">
-                    <String Value="$50.041.732 (USA)" />
-                </Facet>
                 <Facet Name="Conversations: count">
                     <Number Value="0" />
                 </Facet>
@@ -689,7 +576,7 @@
                     <DateTime Value="2016-06-16T07:45:24" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-07-04T02:43:44" />
+                    <DateTime Value="2016-09-08T12:04:24" />
                 </Facet>
                 <Facet Name="Main language (L1)">
                     <String Value="English" />
@@ -707,26 +594,14 @@
                 <Facet Name="Scriptwriter(s)">
                     <String Value="Tom Lazarus " />
                 </Facet>
-                <Facet Name="Title in Catalan">
-                    <String Value="Stigmata" />
-                </Facet>
-                <Facet Name="Title in Spanish">
-                    <String Value="Stigmata" />
-                </Facet>
                 <Facet Name="Year ST released">
                     <Number Value="1999" />
-                </Facet>
-                <Facet Name="Year TT released in Spain">
-                    <Number Value="2000" />
                 </Facet>
             </Facets>
         </Item>
         <Item Id="The Last Samurai" Name="The Last Samurai" Img="#12" Href="http://gallery.trafilm.net/film/metadata/?film=The Last Samurai">
             <Description>An American military advisor embraces the Samurai culture he was hired to destroy after he is captured in battle. </Description>
             <Facets>
-                <Facet Name="Box office">
-                    <String Value=" $111.110.575 (USA) " />
-                </Facet>
                 <Facet Name="Conversations: count">
                     <Number Value="0" />
                 </Facet>
@@ -743,7 +618,7 @@
                     <DateTime Value="2016-06-16T08:07:14" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-06-22T03:42:30" />
+                    <DateTime Value="2016-09-08T12:04:29" />
                 </Facet>
                 <Facet Name="Main language (L1)">
                     <String Value="English" />
@@ -763,17 +638,8 @@
                 <Facet Name="Scriptwriter(s)">
                     <String Value="John Logan " />
                 </Facet>
-                <Facet Name="Title in Catalan">
-                    <String Value="L'últim samurai" />
-                </Facet>
-                <Facet Name="Title in Spanish">
-                    <String Value="El último samurái" />
-                </Facet>
                 <Facet Name="Year ST released">
                     <Number Value="2003" />
-                </Facet>
-                <Facet Name="Year TT released in Spain">
-                    <Number Value="2004" />
                 </Facet>
             </Facets>
         </Item>
@@ -796,7 +662,7 @@
                     <DateTime Value="2016-06-01T02:48:36" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-07-04T02:39:22" />
+                    <DateTime Value="2016-09-08T12:04:33" />
                 </Facet>
                 <Facet Name="Main language (L1)">
                     <String Value="English" />
@@ -824,16 +690,7 @@
                     <String Value="Elvish" />
                     <String Value=" Tolkien" />
                 </Facet>
-                <Facet Name="Title in Catalan">
-                    <String Value="El retorn del rei" />
-                </Facet>
-                <Facet Name="Title in Spanish">
-                    <String Value="El retorno del rey" />
-                </Facet>
                 <Facet Name="Year ST released">
-                    <Number Value="2003" />
-                </Facet>
-                <Facet Name="Year TT released in Spain">
                     <Number Value="2003" />
                 </Facet>
             </Facets>
@@ -857,7 +714,7 @@
                     <DateTime Value="2016-06-01T02:48:36" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-07-04T02:41:46" />
+                    <DateTime Value="2016-09-08T12:04:39" />
                 </Facet>
                 <Facet Name="Main language (L1)">
                     <String Value="English" />
@@ -886,16 +743,7 @@
                     <String Value="Elvish" />
                     <String Value=" Tolkien" />
                 </Facet>
-                <Facet Name="Title in Catalan">
-                    <String Value="Les dues torres" />
-                </Facet>
-                <Facet Name="Title in Spanish">
-                    <String Value="Las dos torres" />
-                </Facet>
                 <Facet Name="Year ST released">
-                    <Number Value="2002" />
-                </Facet>
-                <Facet Name="Year TT released in Spain">
                     <Number Value="2002" />
                 </Facet>
             </Facets>
@@ -903,14 +751,11 @@
         <Item Id="TheWalk" Name="The Walk" Img="#15" Href="http://gallery.trafilm.net/film/metadata/?film=TheWalk">
             <Description>In 1974, high-wire artist Philippe Petit recruits a team of people to help him realize his dream: to walk the immense void between the World Trade Center towers.</Description>
             <Facets>
-                <Facet Name="Box office">
-                    <String Value="USA" />
-                </Facet>
                 <Facet Name="Conversations: count">
                     <Number Value="8" />
                 </Facet>
                 <Facet Name="Conversations: duration (min)">
-                    <Number Value="0" />
+                    <Number Value="19" />
                 </Facet>
                 <Facet Name="Director(s)">
                     <String Value="Robert Zemeckis" />
@@ -922,14 +767,14 @@
                     <DateTime Value="2016-05-31T10:18:51" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-06-29T12:51:41" />
+                    <DateTime Value="2016-09-08T12:04:43" />
                 </Facet>
                 <Facet Name="Main language (L1)">
                     <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
-                    <String Value="George" />
                     <String Value="Guillermo" />
+                    <String Value="George" />
                 </Facet>
                 <Facet Name="Production companies">
                     <String Value="Sony Pictures Entertainment" />
@@ -948,13 +793,7 @@
                     <String Value="Robert Zemeckis" />
                     <String Value=" Christopher Browne" />
                 </Facet>
-                <Facet Name="Title in Spanish">
-                    <String Value="El desafío (The Walk)" />
-                </Facet>
                 <Facet Name="Year ST released">
-                    <Number Value="2015" />
-                </Facet>
-                <Facet Name="Year TT released in Spain">
                     <Number Value="2015" />
                 </Facet>
             </Facets>
@@ -966,7 +805,7 @@
                     <Number Value="7" />
                 </Facet>
                 <Facet Name="Conversations: duration (min)">
-                    <Number Value="0" />
+                    <Number Value="7" />
                 </Facet>
                 <Facet Name="Director(s)">
                     <String Value="Lee Unkrich" />
@@ -978,13 +817,14 @@
                     <DateTime Value="2016-07-11T02:46:56" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-07-11T04:54:31" />
+                    <DateTime Value="2016-09-08T12:04:47" />
                 </Facet>
                 <Facet Name="Main language (L1)">
                     <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="Guillermo" />
+                    <String Value="George" />
                 </Facet>
                 <Facet Name="Production companies">
                     <String Value="Walt Disney Pictures" />
@@ -1002,16 +842,7 @@
                     <String Value=" Lee Unkrich" />
                     <String Value=" Michael Arndt" />
                 </Facet>
-                <Facet Name="Title in Catalan">
-                    <String Value="Toy Story 3" />
-                </Facet>
-                <Facet Name="Title in Spanish">
-                    <String Value="Toy Story 3" />
-                </Facet>
                 <Facet Name="Year ST released">
-                    <Number Value="2010" />
-                </Facet>
-                <Facet Name="Year TT released in Spain">
                     <Number Value="2010" />
                 </Facet>
             </Facets>
@@ -1036,13 +867,14 @@
                     <DateTime Value="2016-08-15T09:39:32" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-08-15T09:45:03" />
+                    <DateTime Value="2016-09-08T12:04:51" />
                 </Facet>
                 <Facet Name="Main language (L1)">
                     <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="Guillermo" />
+                    <String Value="George" />
                 </Facet>
                 <Facet Name="Production companies">
                     <String Value="Walt Disney Pictures" />
@@ -1058,16 +890,7 @@
                     <String Value="Jared Bush" />
                     <String Value=" Phil Johnston" />
                 </Facet>
-                <Facet Name="Title in Catalan">
-                    <String Value="Zootròpolis" />
-                </Facet>
-                <Facet Name="Title in Spanish">
-                    <String Value="Zootrópolis" />
-                </Facet>
                 <Facet Name="Year ST released">
-                    <Number Value="2016" />
-                </Facet>
-                <Facet Name="Year TT released in Spain">
                     <Number Value="2016" />
                 </Facet>
             </Facets>
