@@ -3,11 +3,13 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: metadata/L2mode.xml
-Version: 20160525
+Version: 20160909
 -->
 
 <Facet Name="L2mode">
   <String Value="" />
   <String Value="Dubbed" />
   <String Value="Subtitled" />
+  <String Value="Audio description" />
+  <String Value="Accessible SDH" />
 </Facet>
