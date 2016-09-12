@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: L3STinstance\metadata\default.aspx
-Version: 20160908
+Version: 20160912
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -31,7 +31,7 @@ Version: 20160908
     <asp:XmlDataSource ID="xmlL3STrepresentationsOral" runat="server" DataFile="~/metadata/L3representationsOral.xml" XPath="Facet/String" />
     <asp:XmlDataSource ID="xmlL3STrepresentationsVisual" runat="server" DataFile="~/metadata/L3representationsVisual.xml" XPath="Facet/String" />
     <asp:XmlDataSource ID="xmlL3STfunctions" runat="server" DataFile="~/metadata/L3functions.xml" XPath="Facet/String" />
-    <asp:XmlDataSource ID="xmlL3STtypesFeatures" runat="server" DataFile="~/metadata/L3typesFeatures.xml" XPath="Facet/String" />
+    <asp:XmlDataSource ID="xmlL3STconversationFeatures" runat="server" DataFile="~/metadata/L3conversationFeatures.xml" XPath="Facet/String" />
     <asp:XmlDataSource ID="xmlL3STsources" runat="server" DataFile="~/metadata/L3sources.xml" XPath="Facet/String" />
 
 
@@ -266,11 +266,11 @@ Version: 20160908
 
 
         <div class="question">
-          <div class="label">16. Types/features related to L3ST</div>
-          <div class="tip">Types or features (functional or otherwise) related to L3ST presence</div>
+          <div class="label">16. Conversation features for L3ST-instance</div>
+          <div class="tip">Conversation types or features (functional or otherwise) related to L3ST presence</div>
           <asp:Panel runat="server" ScrollBars="Auto" Style="max-height: 100px">
-            <asp:CheckBoxList ID="clistL3STtypesFeatures" runat="server"
-              DataSourceID="xmlL3STtypesFeatures" DataTextField="Value" DataValueField="Value"
+            <asp:CheckBoxList ID="clistL3STconversationFeatures" runat="server"
+              DataSourceID="xmlL3STconversationFeatures" DataTextField="Value" DataValueField="Value"
               RepeatLayout="Table" RepeatColumns="10" RepeatDirection="Vertical"               
               />
            </asp:Panel>

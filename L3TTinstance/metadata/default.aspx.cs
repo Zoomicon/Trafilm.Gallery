@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: L3TTinstance\metadata\default.aspx.cs
-//Version: 20160909
+//Version: 20160912
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -182,17 +182,17 @@ namespace Trafilm.Gallery
       UI.Load(clistL3TTrepresentationsVisual, metadata.L3TTrepresentationsVisual);
 
       UI.Load(clistL3TTfunctions, metadata.L3TTfunctions);
-      UI.Load(clistL3TTtypesFeatures, metadata.L3TTtypesFeatures);
+      UI.Load(clistL3TTconversationFeatures, metadata.L3TTconversationFeatures);
 
       UI.Load(listL3TTsources, metadata.L3TTsources);
 
       //Calculated properties//
 
-      UI.LoadContent(listL3STlanguageTypeChange, metadata.L3STlanguageTypeChange);
-      UI.LoadContent(listL3STmodeChange, metadata.L3STmodeChange);
-      UI.LoadContent(listL3STfunctionsChange, metadata.L3STfunctionsChange);
-      UI.LoadContent(listL3STtypesFeaturesChange, metadata.L3STtypesFeaturesChange);
-      UI.LoadContent(listL3STsourcesChange, metadata.L3STsourcesChange);
+      UI.LoadContent(listL3languageTypeChange, metadata.L3languageTypeChange);
+      UI.LoadContent(listL3modeChange, metadata.L3modeChange);
+      UI.LoadContent(listL3functionsChange, metadata.L3functionsChange);
+      UI.LoadContent(listL3conversationFeaturesChange, metadata.L3conversationFeaturesChange);
+      UI.LoadContent(listL3sourcesChange, metadata.L3sourcesChange);
     }
 
     #endregion
@@ -265,7 +265,7 @@ namespace Trafilm.Gallery
       metadata.L3TTrepresentationsVisual = UI.GetSelected(clistL3TTrepresentationsVisual);
 
       metadata.L3TTfunctions = UI.GetSelected(clistL3TTfunctions);
-      metadata.L3TTtypesFeatures = UI.GetSelected(clistL3TTtypesFeatures);
+      metadata.L3TTconversationFeatures = UI.GetSelected(clistL3TTconversationFeatures);
 
       metadata.L3TTsources = listL3TTsources.SelectedValue;
 

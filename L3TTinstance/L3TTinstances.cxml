@@ -27,13 +27,13 @@
     <FacetCategory Name="L3TT merely represented orally" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3TT represented: visual" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3TT functions" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="Types/features related to L3TT" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Conversation features for L3TT-instance" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3TT sources" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="L3ST language type change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="L3ST mode change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="L3ST functions change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="Types/features related to L3ST change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="L3ST sources change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3 language type change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3 mode change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3 functions change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Conversation features for L3-instance change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3 sources change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Tags" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -52,7 +52,7 @@
           <DateTime Value="2016-06-01T07:33:31" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-09-08T10:53:16" />
+          <DateTime Value="2016-09-12T05:33:27" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="PatrickZabalbeascoa" />
@@ -121,28 +121,28 @@
           <String Value="Signals otherness" />
           <String Value="Metalinguistic" />
         </Facet>
-        <Facet Name="Types/features related to L3TT">
+        <Facet Name="Conversation features for L3TT-instance">
           <String Value="balanced exchange" />
           <String Value="introduction" />
         </Facet>
         <Facet Name="L3TT sources">
           <String Value="Oral L3: different sources " />
         </Facet>
-        <Facet Name="L3ST language type change">
+        <Facet Name="L3 language type change">
           <String Value="None" />
         </Facet>
-        <Facet Name="L3ST mode change">
+        <Facet Name="L3 mode change">
           <String Value="- Oral diegetic on-screen" />
           <String Value="+ Oral non-diegetic" />
         </Facet>
-        <Facet Name="L3ST functions change">
+        <Facet Name="L3 functions change">
           <String Value="None" />
         </Facet>
-        <Facet Name="Types/features related to L3ST change">
+        <Facet Name="Conversation features for L3-instance change">
           <String Value="+ balanced exchange" />
           <String Value="+ introduction" />
         </Facet>
-        <Facet Name="L3ST sources change">
+        <Facet Name="L3 sources change">
           <String Value="- Respond interlingually: different sources " />
           <String Value="+ Oral L3: different sources " />
         </Facet>
@@ -236,19 +236,19 @@
         <Facet Name="L3TT sources">
           <String Value="Non-diegetic translation" />
         </Facet>
-        <Facet Name="L3ST language type change">
+        <Facet Name="L3 language type change">
           <String Value="None" />
         </Facet>
-        <Facet Name="L3ST mode change">
+        <Facet Name="L3 mode change">
           <String Value="None" />
         </Facet>
-        <Facet Name="L3ST functions change">
+        <Facet Name="L3 functions change">
           <String Value="None" />
         </Facet>
-        <Facet Name="Types/features related to L3ST change">
+        <Facet Name="Conversation features for L3-instance change">
           <String Value="None" />
         </Facet>
-        <Facet Name="L3ST sources change">
+        <Facet Name="L3 sources change">
           <String Value="- Respond interlingually: different sources " />
           <String Value="+ Non-diegetic translation" />
         </Facet>
@@ -339,21 +339,21 @@
         <Facet Name="L3TT sources">
           <String Value="Non-diegetic translation" />
         </Facet>
-        <Facet Name="L3ST language type change">
+        <Facet Name="L3 language type change">
           <String Value="- Constructed (fictional)" />
           <String Value="+ No L3TT: L3-instance in L2" />
         </Facet>
-        <Facet Name="L3ST mode change">
+        <Facet Name="L3 mode change">
           <String Value="- Oral diegetic on-screen" />
           <String Value="+ Written non-diegetic" />
         </Facet>
-        <Facet Name="L3ST functions change">
+        <Facet Name="L3 functions change">
           <String Value="None" />
         </Facet>
-        <Facet Name="Types/features related to L3ST change">
+        <Facet Name="Conversation features for L3-instance change">
           <String Value="None" />
         </Facet>
-        <Facet Name="L3ST sources change">
+        <Facet Name="L3 sources change">
           <String Value="- Respond interlingually: different sources " />
           <String Value="+ Non-diegetic translation" />
         </Facet>
@@ -444,19 +444,19 @@
         <Facet Name="L3TT sources">
           <String Value="Non-diegetic translation" />
         </Facet>
-        <Facet Name="L3ST language type change">
+        <Facet Name="L3 language type change">
           <String Value="None" />
         </Facet>
-        <Facet Name="L3ST mode change">
+        <Facet Name="L3 mode change">
           <String Value="None" />
         </Facet>
-        <Facet Name="L3ST functions change">
+        <Facet Name="L3 functions change">
           <String Value="None" />
         </Facet>
-        <Facet Name="Types/features related to L3ST change">
+        <Facet Name="Conversation features for L3-instance change">
           <String Value="None" />
         </Facet>
-        <Facet Name="L3ST sources change">
+        <Facet Name="L3 sources change">
           <String Value="- Respond interlingually: different sources " />
           <String Value="+ Non-diegetic translation" />
         </Facet>
@@ -547,19 +547,19 @@
         <Facet Name="L3TT sources">
           <String Value="Non-diegetic translation" />
         </Facet>
-        <Facet Name="L3ST language type change">
+        <Facet Name="L3 language type change">
           <String Value="None" />
         </Facet>
-        <Facet Name="L3ST mode change">
+        <Facet Name="L3 mode change">
           <String Value="None" />
         </Facet>
-        <Facet Name="L3ST functions change">
+        <Facet Name="L3 functions change">
           <String Value="None" />
         </Facet>
-        <Facet Name="Types/features related to L3ST change">
+        <Facet Name="Conversation features for L3-instance change">
           <String Value="None" />
         </Facet>
-        <Facet Name="L3ST sources change">
+        <Facet Name="L3 sources change">
           <String Value="- Respond interlingually: different sources " />
           <String Value="+ Non-diegetic translation" />
         </Facet>
@@ -602,21 +602,21 @@
         <Facet Name="Duration (min)">
           <Number Value="1" />
         </Facet>
-        <Facet Name="L3ST language type change">
+        <Facet Name="L3 language type change">
           <String Value="- Real" />
           <String Value="+ " />
         </Facet>
-        <Facet Name="L3ST mode change">
+        <Facet Name="L3 mode change">
           <String Value="- Oral diegetic on-screen" />
           <String Value="- Written diegetic" />
         </Facet>
-        <Facet Name="L3ST functions change">
+        <Facet Name="L3 functions change">
           <String Value="- Comedy / humour" />
         </Facet>
-        <Facet Name="Types/features related to L3ST change">
+        <Facet Name="Conversation features for L3-instance change">
           <String Value="None" />
         </Facet>
-        <Facet Name="L3ST sources change">
+        <Facet Name="L3 sources change">
           <String Value="- Written &amp; oral L3" />
           <String Value="+ " />
         </Facet>
@@ -674,20 +674,20 @@
         <Facet Name="L3TT functions">
           <String Value="Dramatic effect" />
         </Facet>
-        <Facet Name="L3ST language type change">
+        <Facet Name="L3 language type change">
           <String Value="- Real" />
           <String Value="+ " />
         </Facet>
-        <Facet Name="L3ST mode change">
+        <Facet Name="L3 mode change">
           <String Value="- Oral diegetic on-screen" />
         </Facet>
-        <Facet Name="L3ST functions change">
+        <Facet Name="L3 functions change">
           <String Value="+ Dramatic effect" />
         </Facet>
-        <Facet Name="Types/features related to L3ST change">
+        <Facet Name="Conversation features for L3-instance change">
           <String Value="None" />
         </Facet>
-        <Facet Name="L3ST sources change">
+        <Facet Name="L3 sources change">
           <String Value="None" />
         </Facet>
       </Facets>
@@ -775,20 +775,20 @@ There is another conversation taking place among women at the kitchen.</Descript
           <String Value="Character portrayal, nonstereotypical" />
           <String Value="Comedy / humour" />
         </Facet>
-        <Facet Name="L3ST language type change">
+        <Facet Name="L3 language type change">
           <String Value="- Real" />
           <String Value="+ No L3TT: L3-instance omitted" />
         </Facet>
-        <Facet Name="L3ST mode change">
+        <Facet Name="L3 mode change">
           <String Value="None" />
         </Facet>
-        <Facet Name="L3ST functions change">
+        <Facet Name="L3 functions change">
           <String Value="- Character portrayal, stereotypical" />
         </Facet>
-        <Facet Name="Types/features related to L3ST change">
+        <Facet Name="Conversation features for L3-instance change">
           <String Value="None" />
         </Facet>
-        <Facet Name="L3ST sources change">
+        <Facet Name="L3 sources change">
           <String Value="None" />
         </Facet>
       </Facets>
@@ -803,7 +803,7 @@ There is another conversation taking place among women at the kitchen.</Descript
           <DateTime Value="2016-05-26T07:05:07" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-09-08T10:48:50" />
+          <DateTime Value="2016-09-12T05:30:22" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="George" />
@@ -854,22 +854,22 @@ There is another conversation taking place among women at the kitchen.</Descript
           <String Value="Comedy / humour" />
           <String Value="Suspense" />
         </Facet>
-        <Facet Name="L3ST language type change">
+        <Facet Name="L3 language type change">
           <String Value="- L-main variety (e.g. dialect, sociolect, idiolect, slang)" />
           <String Value="+ No L3TT: L3-instance omitted" />
         </Facet>
-        <Facet Name="L3ST mode change">
+        <Facet Name="L3 mode change">
           <String Value="+ Oral diegetic on-screen" />
         </Facet>
-        <Facet Name="L3ST functions change">
+        <Facet Name="L3 functions change">
           <String Value="- Character portrayal, nonstereotypical" />
           <String Value="- Plot (twist)" />
           <String Value="+ Suspense" />
         </Facet>
-        <Facet Name="Types/features related to L3ST change">
+        <Facet Name="Conversation features for L3-instance change">
           <String Value="None" />
         </Facet>
-        <Facet Name="L3ST sources change">
+        <Facet Name="L3 sources change">
           <String Value="None" />
         </Facet>
       </Facets>

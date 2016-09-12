@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: L3TTinstance\metadata\default.aspx
-Version: 20160909
+Version: 20160912
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -36,7 +36,7 @@ Version: 20160909
     <asp:XmlDataSource ID="xmlL3TTrepresentationsOral" runat="server" DataFile="~/metadata/L3representationsOral.xml" XPath="Facet/String" />
     <asp:XmlDataSource ID="xmlL3TTrepresentationsVisual" runat="server" DataFile="~/metadata/L3representationsVisual.xml" XPath="Facet/String" />
     <asp:XmlDataSource ID="xmlL3TTfunctions" runat="server" DataFile="~/metadata/L3functions.xml" XPath="Facet/String" />
-    <asp:XmlDataSource ID="xmlL3TTtypesFeatures" runat="server" DataFile="~/metadata/L3typesFeatures.xml" XPath="Facet/String" />
+    <asp:XmlDataSource ID="xmlL3TTconversationFeatures" runat="server" DataFile="~/metadata/L3conversationFeatures.xml" XPath="Facet/String" />
     <asp:XmlDataSource ID="xmlL3TTsources" runat="server" DataFile="~/metadata/L3sources.xml" XPath="Facet/String" />
 
 
@@ -334,11 +334,11 @@ Version: 20160909
 
 
         <div class="question">
-          <div class="label">22. Types/features related to L3TT</div>
-          <div class="tip">Types or features (functional or otherwise) related to L3TT presence</div>
+          <div class="label">22. Conversation features for L3TT-instance</div>
+          <div class="tip">Conversation types or features (functional or otherwise) related to L3TT presence</div>
           <asp:Panel runat="server" ScrollBars="Auto" Style="max-height: 100px">
-            <asp:CheckBoxList ID="clistL3TTtypesFeatures" runat="server"
-              DataSourceID="xmlL3TTtypesFeatures" DataTextField="Value" DataValueField="Value"
+            <asp:CheckBoxList ID="clistL3TTconversationFeatures" runat="server"
+              DataSourceID="xmlL3TTconversationFeatures" DataTextField="Value" DataValueField="Value"
               RepeatLayout="Table" RepeatColumns="10" RepeatDirection="Vertical"               
               />
            </asp:Panel>
@@ -358,33 +358,33 @@ Version: 20160909
         <%-- Calculated from L3STinstance --%>
         
         <div>
-          <div class="label">L3ST language type change (Calculated from L3ST and L3TT language type)</div>
+          <div class="label">L3 language type change (Calculated from L3ST-instance and L3TT-instance)</div>
           <div class="tip">L3ST language type: change in TT</div>
-          <asp:ListBox ID="listL3STlanguageTypeChange" runat="server" Enabled="false" />
+          <asp:ListBox ID="listL3languageTypeChange" runat="server" Enabled="false" />
         </div>
                 
         <div>
-          <div class="label">L3ST mode change (Calculated from L3ST and L3TT mode)</div>
+          <div class="label">L3 mode change (Calculated from L3ST-instance and L3TT-instance)</div>
           <div class="tip">L3ST mode: change in TT</div>
-          <asp:ListBox ID="listL3STmodeChange" runat="server" Enabled="false" />
+          <asp:ListBox ID="listL3modeChange" runat="server" Enabled="false" />
         </div>
 
         <div>
-          <div class="label">L3ST functions change (Calculated from L3ST and L3TT functions)</div>
+          <div class="label">L3 functions change (Calculated from L3ST-instance and L3TT-instance)</div>
           <div class="tip">L3ST functions: change in TT</div>
-          <asp:ListBox ID="listL3STfunctionsChange" runat="server" Enabled="false" />
+          <asp:ListBox ID="listL3functionsChange" runat="server" Enabled="false" />
         </div>
 
         <div>
-          <div class="label">Types/features related to L3ST change (Calculated from L3ST and L3TT functions)</div>
-          <div class="tip">Types/features related to L3ST: change in TT</div>
-          <asp:ListBox ID="listL3STtypesFeaturesChange" runat="server" Enabled="false" />
+          <div class="label">Conversation features for L3-instance change (Calculated from L3ST-instance and L3TT-instance)</div>
+          <div class="tip">Conversation features for L3ST-instance: change in TT</div>
+          <asp:ListBox ID="listL3conversationFeaturesChange" runat="server" Enabled="false" />
         </div>
         
         <div>
-          <div class="label">L3ST sources change (Calculated from L3ST and L3TT sources)</div>
+          <div class="label">L3 sources change (Calculated from L3ST-instance and L3TT-instance)</div>
           <div class="tip">L3ST sources: change in TT</div>
-          <asp:ListBox ID="listL3STsourcesChange" runat="server" Enabled="false" />
+          <asp:ListBox ID="listL3sourcesChange" runat="server" Enabled="false" />
         </div>
 
 
