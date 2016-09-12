@@ -157,13 +157,13 @@ namespace Trafilm.Gallery {
         protected global::System.Web.UI.WebControls.XmlDataSource xmlL3TTfunctions;
         
         /// <summary>
-        /// xmlL3TTtypesFeatures control.
+        /// xmlL3TTconversationFeatures control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.XmlDataSource xmlL3TTtypesFeatures;
+        protected global::System.Web.UI.WebControls.XmlDataSource xmlL3TTconversationFeatures;
         
         /// <summary>
         /// xmlL3TTsources control.
@@ -553,13 +553,13 @@ namespace Trafilm.Gallery {
         protected global::System.Web.UI.WebControls.CheckBoxList clistL3TTfunctions;
         
         /// <summary>
-        /// clistL3TTtypesFeatures control.
+        /// clistL3TTconversationFeatures control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBoxList clistL3TTtypesFeatures;
+        protected global::System.Web.UI.WebControls.CheckBoxList clistL3TTconversationFeatures;
         
         /// <summary>
         /// listL3TTsources control.
@@ -571,49 +571,49 @@ namespace Trafilm.Gallery {
         protected global::System.Web.UI.WebControls.DropDownList listL3TTsources;
         
         /// <summary>
-        /// listL3STlanguageTypeChange control.
+        /// listL3languageTypeChange control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ListBox listL3STlanguageTypeChange;
+        protected global::System.Web.UI.WebControls.ListBox listL3languageTypeChange;
         
         /// <summary>
-        /// listL3STmodeChange control.
+        /// listL3modeChange control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ListBox listL3STmodeChange;
+        protected global::System.Web.UI.WebControls.ListBox listL3modeChange;
         
         /// <summary>
-        /// listL3STfunctionsChange control.
+        /// listL3functionsChange control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ListBox listL3STfunctionsChange;
+        protected global::System.Web.UI.WebControls.ListBox listL3functionsChange;
         
         /// <summary>
-        /// listL3STtypesFeaturesChange control.
+        /// listL3conversationFeaturesChange control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ListBox listL3STtypesFeaturesChange;
+        protected global::System.Web.UI.WebControls.ListBox listL3conversationFeaturesChange;
         
         /// <summary>
-        /// listL3STsourcesChange control.
+        /// listL3sourcesChange control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ListBox listL3STsourcesChange;
+        protected global::System.Web.UI.WebControls.ListBox listL3sourcesChange;
         
         /// <summary>
         /// txtTranscription control.
