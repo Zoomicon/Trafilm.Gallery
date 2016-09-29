@@ -33,6 +33,10 @@
         <Item Id="Django Unchained.Slave speaks a little German.Slave opens conversation" Name="Django Unchained - Slave opens conversation" Img="#0" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Django Unchained&amp;conversation=Django Unchained.Slave speaks a little German&amp;L3STinstance=Django Unchained.Slave speaks a little German.Slave opens conversation">
             <Description>Doing as she is told, Brunhilda starts to speak in German, in what we call a conversation opener, a salutation</Description>
             <Facets>
+                <Facet Name="Conversation features for L3ST-instance">
+                    <String Value="introduction" />
+                    <String Value="persuasion" />
+                </Facet>
                 <Facet Name="Conversation Reference Id">
                     <String Value="Django Unchained.Slave speaks a little German" />
                 </Facet>
@@ -46,7 +50,7 @@
                     <DateTime Value="2016-05-31T12:34:19" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-09-08T10:46:44" />
+                    <DateTime Value="2016-09-15T07:34:33" />
                 </Facet>
                 <Facet Name="L3ST functions">
                     <String Value="Character portrayal, nonstereotypical" />
@@ -62,6 +66,9 @@
                 </Facet>
                 <Facet Name="L3ST meant to be understood">
                     <String Value="NO" />
+                </Facet>
+                <Facet Name="L3ST merely represented">
+                    <String Value="NO / Not applicable" />
                 </Facet>
                 <Facet Name="L3ST message required for understanding">
                     <String Value="Yes" />
@@ -79,8 +86,8 @@
                     <String Value="German" />
                 </Facet>
                 <Facet Name="Metadata Editors">
-                    <String Value="PatrickZabalbeascoa" />
                     <String Value="George" />
+                    <String Value="PatrickZabalbeascoa" />
                 </Facet>
                 <Facet Name="Quality of L3ST speaker performance">
                     <String Value="native or proficient" />

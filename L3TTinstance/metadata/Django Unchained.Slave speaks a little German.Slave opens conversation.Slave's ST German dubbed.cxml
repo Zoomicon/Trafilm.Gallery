@@ -52,11 +52,11 @@
           <DateTime Value="2016-06-01T07:33:31" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-09-12T05:33:27" />
+          <DateTime Value="2016-09-15T07:55:20" />
         </Facet>
         <Facet Name="Metadata Editors">
-          <String Value="PatrickZabalbeascoa" />
           <String Value="George" />
+          <String Value="PatrickZabalbeascoa" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Django Unchained" />
@@ -109,11 +109,14 @@
         <Facet Name="L3TT message required for understanding">
           <String Value="Yes" />
         </Facet>
+        <Facet Name="L3TT meaning decipherable">
+          <String Value="NO" />
+        </Facet>
         <Facet Name="Quality of L3TT speaker performance">
           <String Value="native or proficient" />
         </Facet>
         <Facet Name="L3TT mode, written/spoken, diegetic">
-          <String Value="Oral non-diegetic" />
+          <String Value="Oral diegetic on-screen" />
         </Facet>
         <Facet Name="L3TT functions">
           <String Value="Character portrayal, nonstereotypical" />
@@ -132,15 +135,14 @@
           <String Value="None" />
         </Facet>
         <Facet Name="L3 mode change">
-          <String Value="- Oral diegetic on-screen" />
-          <String Value="+ Oral non-diegetic" />
+          <String Value="None" />
         </Facet>
         <Facet Name="L3 functions change">
           <String Value="None" />
         </Facet>
         <Facet Name="Conversation features for L3-instance change">
+          <String Value="- persuasion" />
           <String Value="+ balanced exchange" />
-          <String Value="+ introduction" />
         </Facet>
         <Facet Name="L3 sources change">
           <String Value="- Respond interlingually: different sources " />

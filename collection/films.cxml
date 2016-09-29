@@ -10,10 +10,10 @@
         <FacetCategory Name="Blockbuster" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
         <FacetCategory Name="Year ST released" Type="Number" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
         <FacetCategory Name="Main language (L1)" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
-        <FacetCategory Name="Conversations: count" Type="Number" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
-        <FacetCategory Name="Conversations: duration (min)" Type="Number" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
         <FacetCategory Name="L2-Dubbed languages" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="L2-Subtitled languages" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
+        <FacetCategory Name="Conversations: count" Type="Number" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
+        <FacetCategory Name="Conversations: duration (min)" Type="Number" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
         <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="false" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="Tags" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="false" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
@@ -68,6 +68,9 @@
         <Item Id="Django Unchained" Name="Django Unchained" Img="#1" Href="http://gallery.trafilm.net/film/metadata/?film=Django Unchained">
             <Description>Western. A story of slavery and revenge, gunfighters and slavemasters, US South</Description>
             <Facets>
+                <Facet Name="Blockbuster">
+                    <String Value="YES (top 20)" />
+                </Facet>
                 <Facet Name="Conversations: count">
                     <Number Value="1" />
                 </Facet>
@@ -84,7 +87,7 @@
                     <DateTime Value="2016-05-31T11:56:17" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-09-08T12:03:40" />
+                    <DateTime Value="2016-09-15T07:22:43" />
                 </Facet>
                 <Facet Name="L2-Dubbed languages">
                     <String Value="Spanish" />
@@ -94,6 +97,7 @@
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="George" />
+                    <String Value="PatrickZabalbeascoa" />
                 </Facet>
                 <Facet Name="Production companies">
                     <String Value="SONY" />
@@ -115,6 +119,9 @@
         <Item Id="FellowshipOfTheRing" Name="The Lord of the Rings: The Fellowship of the Ring" Img="#2" Href="http://gallery.trafilm.net/film/metadata/?film=FellowshipOfTheRing">
             <Description>An ancient Ring thought lost for centuries has been found, and through a strange twist in fate has been given to a small Hobbit named Frodo. When Gandalf discovers the Ring is in fact the One Ring of the Dark Lord Sauron, Frodo must make an epic quest to the Cracks of Doom in order to destroy it! However he does not go alone. He is joined by Gandalf, Legolas the elf, Gimli the Dwarf, Aragorn, Boromir and his three Hobbit friends Merry, Pippin and Samwise. Through mountains, snow, darkness, forests, rivers and plains, facing evil and danger at every corner the Fellowship of the Ring must go. Their quest to destroy the One Ring is the only hope for the end of the Dark Lords reign!</Description>
             <Facets>
+                <Facet Name="Blockbuster">
+                    <String Value="YES (top 20)" />
+                </Facet>
                 <Facet Name="Conversations: count">
                     <Number Value="1" />
                 </Facet>
@@ -131,7 +138,7 @@
                     <DateTime Value="2016-06-01T02:48:36" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-09-08T12:03:44" />
+                    <DateTime Value="2016-09-29T04:12:48" />
                 </Facet>
                 <Facet Name="L2-Dubbed languages">
                     <String Value="Spanish" />
@@ -143,8 +150,8 @@
                     <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
-                    <String Value="miquelpt" />
                     <String Value="George" />
+                    <String Value="miquelpt" />
                 </Facet>
                 <Facet Name="Production companies">
                     <String Value="New Line Cinema" />
