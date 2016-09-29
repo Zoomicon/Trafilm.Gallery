@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: conversation\metadata\default.aspx
-Version: 20160906
+Version: 20160929
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -122,7 +122,7 @@ Version: 20160906
         <%--
         <div class="question">
           <div class="label">6. Language sources <i>(oral &amp; written)</i></div>
-          <div class="info">How many “language sources” are there, i.e. characters speaking (total amount in any language) in this conversation, but also counting other relevant sources like narrator or written words?</div>
+          <div class="tip">How many “language sources” are there, i.e. characters speaking (total amount in any language) in this conversation, but also counting other relevant sources like narrator or written words?</div>
           <asp:DropDownList
             ID="listLanguageSources" runat="server"
             DataSourceID="xmlLanguageSources" DataTextField="Title" DataValueField="Value"

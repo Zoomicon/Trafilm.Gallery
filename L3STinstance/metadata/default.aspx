@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: L3STinstance\metadata\default.aspx
-Version: 20160912
+Version: 20160929
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -279,7 +279,7 @@ Version: 20160912
         
         <div class="question">
           <div class="label">17. L3ST sources <i>(with or without main language mix)</i></div>
-          <div class="info">Choose the description that best explains the number of sources (on or off screen, oral or written) and whether the main language is mixed with L3 (Main language, or “main”, is L1 for L3ST-instances)</div>
+          <div class="tip">Choose the description that best explains the number of sources (on or off screen, oral or written) and whether the main language is mixed with L3 (Main language, or “main”, is L1 for L3ST-instances)</div>
           <asp:DropDownList
             ID="listL3STsources" runat="server"
             DataSourceID="xmlL3STsources" DataTextField="Title" DataValueField="Value"

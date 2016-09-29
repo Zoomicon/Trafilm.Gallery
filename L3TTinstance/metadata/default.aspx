@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: L3TTinstance\metadata\default.aspx
-Version: 20160912
+Version: 20160929
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -347,7 +347,7 @@ Version: 20160912
 
         <div class="question">
           <div class="label">23. L3TT sources <i>(with or without main language mix)</i></div>
-          <div class="info">Choose the description that best explains the number of sources (on or off screen, oral or written) and whether the main language is mixed with L3 (Main language, or “main”, is L2 for L3TT-instances)</div>
+          <div class="tip">Choose the description that best explains the number of sources (on or off screen, oral or written) and whether the main language is mixed with L3 (Main language, or “main”, is L2 for L3TT-instances)</div>
           <asp:DropDownList
             ID="listL3TTsources" runat="server"
             DataSourceID="xmlL3TTsources" DataTextField="Title" DataValueField="Value"
