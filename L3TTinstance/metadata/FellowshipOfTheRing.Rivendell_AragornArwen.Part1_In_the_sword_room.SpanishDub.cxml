@@ -58,11 +58,11 @@
           <DateTime Value="2016-06-15T09:38:56" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-09-08T10:48:05" />
+          <DateTime Value="2016-10-01T04:05:59" />
         </Facet>
         <Facet Name="Metadata Editors">
-          <String Value="miquelpt" />
           <String Value="George" />
+          <String Value="miquelpt" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="FellowshipOfTheRing" />
@@ -89,7 +89,7 @@
           <Number Value="91" />
         </Facet>
         <Facet Name="Duration (min)">
-          <Number Value="1" />
+          <Number Value="2" />
         </Facet>
         <Facet Name="L2 same as L3ST">
           <String Value="No" />
@@ -127,6 +127,9 @@
         <Facet Name="L3TT functions">
           <String Value="Character portrayal, stereotypical" />
         </Facet>
+        <Facet Name="Conversation features for L3TT-instance">
+          <String Value="bonding" />
+        </Facet>
         <Facet Name="L3TT sources">
           <String Value="Non-diegetic translation" />
         </Facet>
@@ -143,7 +146,7 @@
           <String Value="None" />
         </Facet>
         <Facet Name="L3 sources change">
-          <String Value="- Respond interlingually: different sources " />
+          <String Value="- Bilingual (L3&amp;main): same source " />
           <String Value="+ Non-diegetic translation" />
         </Facet>
       </Facets>

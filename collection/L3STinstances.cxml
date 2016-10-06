@@ -109,11 +109,14 @@
         <Item Id="FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room" Name="FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room" Img="#1" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Rivendell_AragornArwen&amp;L3STinstance=FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room">
             <Description>This instance is uttered in the sword room in Rivendell. Arwen speaks aloud Aragorn's inner doubts and raises his spirits by combining both English and Elvish.</Description>
             <Facets>
+                <Facet Name="Conversation features for L3ST-instance">
+                    <String Value="bonding" />
+                </Facet>
                 <Facet Name="Conversation Reference Id">
                     <String Value="FellowshipOfTheRing.Rivendell_AragornArwen" />
                 </Facet>
                 <Facet Name="Duration (min)">
-                    <Number Value="1" />
+                    <Number Value="2" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="FellowshipOfTheRing" />
@@ -122,7 +125,7 @@
                     <DateTime Value="2016-06-15T09:05:58" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-09-07T07:55:29" />
+                    <DateTime Value="2016-10-01T03:43:15" />
                 </Facet>
                 <Facet Name="L3ST constructed based on">
                     <String Value="“from scratch”" />
@@ -152,7 +155,7 @@
                     <String Value="Oral diegetic on-screen" />
                 </Facet>
                 <Facet Name="L3ST sources">
-                    <String Value="Respond interlingually: different sources " />
+                    <String Value="Bilingual (L3&amp;main): same source " />
                 </Facet>
                 <Facet Name="L3TT-instances: count">
                     <Number Value="2" />
@@ -161,8 +164,8 @@
                     <String Value="Elvish" />
                 </Facet>
                 <Facet Name="Metadata Editors">
-                    <String Value="miquelpt" />
                     <String Value="George" />
+                    <String Value="miquelpt" />
                 </Facet>
                 <Facet Name="Quality of L3ST speaker performance">
                     <String Value="native or proficient" />

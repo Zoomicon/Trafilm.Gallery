@@ -156,11 +156,14 @@
                 <Facet Name="Conversation features for L3-instance change">
                     <String Value="None" />
                 </Facet>
+                <Facet Name="Conversation features for L3TT-instance">
+                    <String Value="bonding" />
+                </Facet>
                 <Facet Name="Conversation Reference Id">
                     <String Value="FellowshipOfTheRing.Rivendell_AragornArwen" />
                 </Facet>
                 <Facet Name="Duration (min)">
-                    <Number Value="1" />
+                    <Number Value="2" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="FellowshipOfTheRing" />
@@ -172,7 +175,7 @@
                     <DateTime Value="2016-06-15T09:38:56" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-09-08T10:48:05" />
+                    <DateTime Value="2016-10-01T04:05:59" />
                 </Facet>
                 <Facet Name="L2 language">
                     <String Value="Spanish" />
@@ -193,7 +196,7 @@
                     <String Value="None" />
                 </Facet>
                 <Facet Name="L3 sources change">
-                    <String Value="- Respond interlingually: different sources " />
+                    <String Value="- Bilingual (L3&amp;main): same source " />
                     <String Value="+ Non-diegetic translation" />
                 </Facet>
                 <Facet Name="L3ST conveyed as L3TT">
@@ -233,8 +236,8 @@
                     <String Value="Non-diegetic translation" />
                 </Facet>
                 <Facet Name="Metadata Editors">
-                    <String Value="miquelpt" />
                     <String Value="George" />
+                    <String Value="miquelpt" />
                 </Facet>
                 <Facet Name="Quality of L3TT speaker performance">
                     <String Value="native or proficient" />
