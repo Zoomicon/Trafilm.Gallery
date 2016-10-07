@@ -66,7 +66,7 @@ namespace Trafilm.Gallery
 
     public void Rename()
     {
-      //...
+      //TODO
     }
 
     #region Selection

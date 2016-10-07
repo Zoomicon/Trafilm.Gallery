@@ -134,14 +134,16 @@ Version: 20161007
         </div>
         --%>
 
+
         <%-- Calculated from L3STinstances --%>
 
-        <%--
+        <%-- //don't need to display the count since there list of items is also shown
         <div>
           <div class="label">L3ST languages: count (Calculated from L3ST-instances)</div>
           <div class="tip">Count of L3ST languages in Conversation</div>
           <asp:Label ID="lblL3languagesCount" runat="server"></asp:Label>
         </div>  
+        --%>
 
         <div>
           <div class="label">L3ST languages (Calculated from L3ST-instances)</div>
@@ -151,12 +153,13 @@ Version: 20161007
           </asp:Panel>
         </div>    
 
-
+         <%-- //don't need to display the count since there list of items is also shown
         <div>
           <div class="label">L3ST language types: count (Calculated from L3ST-instances)</div>
           <div class="tip">Count of L3ST language types in Conversation</div>
           <asp:Label ID="lblL3languageTypesCount" runat="server"></asp:Label>
-        </div> 
+        </div>
+        --%>
         
         <div>
           <div class="label">L3ST language types (Calculated from L3ST-instances)</div>
@@ -165,7 +168,7 @@ Version: 20161007
             <asp:ListBox ID="listL3languageTypes" runat="server" Enabled="false" />
            </asp:Panel>
         </div>
-        --%>
+
 
         <div>
           <div class="label">Count of L3ST-instances (Calculated)</div>
