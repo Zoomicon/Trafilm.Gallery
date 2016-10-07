@@ -13,7 +13,6 @@
         <FacetCategory Name="L2-Dubbed languages" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="L2-Subtitled languages" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="Conversations: count" Type="Number" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
-        <FacetCategory Name="Conversations: duration (min)" Type="Number" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
         <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="false" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="Tags" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="false" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
@@ -29,10 +28,7 @@
                     <String Value="YES (top 20)" />
                 </Facet>
                 <Facet Name="Conversations: count">
-                    <Number Value="0" />
-                </Facet>
-                <Facet Name="Conversations: duration (min)">
-                    <Number Value="0" />
+                    <Number Value="1" />
                 </Facet>
                 <Facet Name="Director(s)">
                     <String Value="James Cameron" />
@@ -44,13 +40,17 @@
                     <DateTime Value="2016-10-07T12:30:57" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-10-07T12:51:26" />
+                    <DateTime Value="2016-10-07T05:46:33" />
+                </Facet>
+                <Facet Name="L2-Dubbed languages">
+                    <String Value="Spanish" />
                 </Facet>
                 <Facet Name="Main language (L1)">
                     <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="PatrickZabalbeascoa" />
+                    <String Value="George" />
                 </Facet>
                 <Facet Name="Production companies">
                     <String Value="Lightstorm Entertainment" />
@@ -82,9 +82,6 @@
             <Description>Blade forms an uneasy alliance with the vampire council in order to combat the Reaper vampires who feed on vampires. </Description>
             <Facets>
                 <Facet Name="Conversations: count">
-                    <Number Value="0" />
-                </Facet>
-                <Facet Name="Conversations: duration (min)">
                     <Number Value="0" />
                 </Facet>
                 <Facet Name="Director(s)">
@@ -128,9 +125,6 @@
                     <String Value="YES (top 20)" />
                 </Facet>
                 <Facet Name="Conversations: count">
-                    <Number Value="1" />
-                </Facet>
-                <Facet Name="Conversations: duration (min)">
                     <Number Value="1" />
                 </Facet>
                 <Facet Name="Director(s)">
@@ -180,9 +174,6 @@
                 </Facet>
                 <Facet Name="Conversations: count">
                     <Number Value="1" />
-                </Facet>
-                <Facet Name="Conversations: duration (min)">
-                    <Number Value="2" />
                 </Facet>
                 <Facet Name="Director(s)">
                     <String Value="Peter Jackson" />
@@ -240,9 +231,6 @@
                 <Facet Name="Conversations: count">
                     <Number Value="0" />
                 </Facet>
-                <Facet Name="Conversations: duration (min)">
-                    <Number Value="0" />
-                </Facet>
                 <Facet Name="Director(s)">
                     <String Value="Martin Scorsese" />
                 </Facet>
@@ -281,9 +269,6 @@
             <Description>A faded movie star and a neglected young woman form an unlikely bond after crossing paths in Tokyo. </Description>
             <Facets>
                 <Facet Name="Conversations: count">
-                    <Number Value="0" />
-                </Facet>
-                <Facet Name="Conversations: duration (min)">
                     <Number Value="0" />
                 </Facet>
                 <Facet Name="Director(s)">
@@ -331,9 +316,6 @@
             <Facets>
                 <Facet Name="Conversations: count">
                     <Number Value="2" />
-                </Facet>
-                <Facet Name="Conversations: duration (min)">
-                    <Number Value="6" />
                 </Facet>
                 <Facet Name="Director(s)">
                     <String Value="Richard Curtis" />
@@ -388,9 +370,6 @@
                 <Facet Name="Conversations: count">
                     <Number Value="0" />
                 </Facet>
-                <Facet Name="Conversations: duration (min)">
-                    <Number Value="0" />
-                </Facet>
                 <Facet Name="Director(s)">
                     <String Value="Rob Marshall" />
                 </Facet>
@@ -429,9 +408,6 @@
             <Facets>
                 <Facet Name="Conversations: count">
                     <Number Value="1" />
-                </Facet>
-                <Facet Name="Conversations: duration (min)">
-                    <Number Value="4" />
                 </Facet>
                 <Facet Name="Director(s)">
                     <String Value=" Mira Nair " />
@@ -492,9 +468,6 @@
                 <Facet Name="Conversations: count">
                     <Number Value="1" />
                 </Facet>
-                <Facet Name="Conversations: duration (min)">
-                    <Number Value="4" />
-                </Facet>
                 <Facet Name="Director(s)">
                     <String Value="Steven Soderbergh" />
                 </Facet>
@@ -540,9 +513,6 @@
                 <Facet Name="Conversations: count">
                     <Number Value="0" />
                 </Facet>
-                <Facet Name="Conversations: duration (min)">
-                    <Number Value="0" />
-                </Facet>
                 <Facet Name="Director(s)">
                     <String Value="Michael Bay" />
                 </Facet>
@@ -580,9 +550,6 @@
             <Description>A Mumbai teen reflects on his upbringing in the slums when he is accused of cheating on the Indian Version of "Who Wants to be a Millionaire?" </Description>
             <Facets>
                 <Facet Name="Conversations: count">
-                    <Number Value="0" />
-                </Facet>
-                <Facet Name="Conversations: duration (min)">
                     <Number Value="0" />
                 </Facet>
                 <Facet Name="Director(s)">
@@ -626,9 +593,6 @@
                 <Facet Name="Conversations: count">
                     <Number Value="0" />
                 </Facet>
-                <Facet Name="Conversations: duration (min)">
-                    <Number Value="0" />
-                </Facet>
                 <Facet Name="Director(s)">
                     <String Value="Rupert Wainwright" />
                 </Facet>
@@ -666,9 +630,6 @@
             <Description>An American military advisor embraces the Samurai culture he was hired to destroy after he is captured in battle. </Description>
             <Facets>
                 <Facet Name="Conversations: count">
-                    <Number Value="0" />
-                </Facet>
-                <Facet Name="Conversations: duration (min)">
                     <Number Value="0" />
                 </Facet>
                 <Facet Name="Director(s)">
@@ -710,9 +671,6 @@
             <Description>Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.</Description>
             <Facets>
                 <Facet Name="Conversations: count">
-                    <Number Value="0" />
-                </Facet>
-                <Facet Name="Conversations: duration (min)">
                     <Number Value="0" />
                 </Facet>
                 <Facet Name="Director(s)">
@@ -762,9 +720,6 @@
             <Description>While Frodo and Sam, now accompanied by a new guide, continue their hopeless journey towards the land of shadow to destroy the One Ring, each member of the broken fellowship plays their part in the battle against the evil wizard Saruman and his armies of Isengard. </Description>
             <Facets>
                 <Facet Name="Conversations: count">
-                    <Number Value="0" />
-                </Facet>
-                <Facet Name="Conversations: duration (min)">
                     <Number Value="0" />
                 </Facet>
                 <Facet Name="Director(s)">
@@ -817,9 +772,6 @@
                 <Facet Name="Conversations: count">
                     <Number Value="8" />
                 </Facet>
-                <Facet Name="Conversations: duration (min)">
-                    <Number Value="19" />
-                </Facet>
                 <Facet Name="Director(s)">
                     <String Value="Robert Zemeckis" />
                 </Facet>
@@ -867,9 +819,6 @@
                 <Facet Name="Conversations: count">
                     <Number Value="7" />
                 </Facet>
-                <Facet Name="Conversations: duration (min)">
-                    <Number Value="7" />
-                </Facet>
                 <Facet Name="Director(s)">
                     <String Value="Lee Unkrich" />
                 </Facet>
@@ -914,9 +863,6 @@
             <Description>In a city of anthropomorphic animals, a rookie bunny cop and a cynical con artist fox must work together to uncover a conspiracy.</Description>
             <Facets>
                 <Facet Name="Conversations: count">
-                    <Number Value="0" />
-                </Facet>
-                <Facet Name="Conversations: duration (min)">
                     <Number Value="0" />
                 </Facet>
                 <Facet Name="Director(s)">

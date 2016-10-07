@@ -4,8 +4,8 @@
         <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="false" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="Conversation Reference Id" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
-        <FacetCategory Name="Start time (min)" Type="Number" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
-        <FacetCategory Name="Conversation duration (sec)" Type="Number" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
+        <FacetCategory Name="Conversation start time (min)" Type="Number" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
+        <FacetCategory Name="Conversation duration (sec)" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
         <FacetCategory Name="Main (L1) language" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="L3ST language type" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="L3ST language" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
@@ -33,15 +33,15 @@
         <Item Id="Avatar.Calm down, people.Female Na'vi warning" Name="Avatar.Calm down, people.Female Na'vi warning" Img="#0" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Avatar&amp;conversation=Avatar.Calm down, people&amp;L3STinstance=Avatar.Calm down, people.Female Na'vi warning">
             <Description>Female avater tells her people to calm down</Description>
             <Facets>
-                <Facet Name="Conversation duration (sec)">
-                    <Number Value="60" />
-                </Facet>
                 <Facet Name="Conversation features for L3ST-instance">
                     <String Value="persuasion" />
                     <String Value="warning" />
                 </Facet>
                 <Facet Name="Conversation Reference Id">
                     <String Value="Avatar.Calm down, people" />
+                </Facet>
+                <Facet Name="Conversation start time (min)">
+                    <Number Value="43" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="Avatar" />
@@ -50,7 +50,7 @@
                     <DateTime Value="2016-10-07T01:00:20" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-10-07T01:13:52" />
+                    <DateTime Value="2016-10-07T06:24:46" />
                 </Facet>
                 <Facet Name="L3ST constructed based on">
                     <String Value="Sci-fi" />
@@ -69,7 +69,7 @@
                     <String Value="YES, through translation or clear from picture" />
                 </Facet>
                 <Facet Name="L3ST meant to be understood">
-                    <String Value="YES, the gist, the implications of what is happening" />
+                    <String Value="NO" />
                 </Facet>
                 <Facet Name="L3ST merely represented">
                     <String Value="NO / Not applicable" />
@@ -91,15 +91,13 @@
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="PatrickZabalbeascoa" />
+                    <String Value="George" />
                 </Facet>
                 <Facet Name="Quality of L3ST speaker performance">
                     <String Value="native or proficient" />
                 </Facet>
                 <Facet Name="Reference Id">
                     <String Value="Avatar.Calm down, people.Female Na'vi warning" />
-                </Facet>
-                <Facet Name="Start time (min)">
-                    <Number Value="43" />
                 </Facet>
                 <Facet Name="Tags">
                     <String Value="sci-fi language" />
@@ -109,15 +107,15 @@
         <Item Id="Django Unchained.Slave speaks a little German.Slave opens conversation" Name="Django Unchained - Slave opens conversation" Img="#1" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Django Unchained&amp;conversation=Django Unchained.Slave speaks a little German&amp;L3STinstance=Django Unchained.Slave speaks a little German.Slave opens conversation">
             <Description>Doing as she is told, Brunhilda starts to speak in German, in what we call a conversation opener, a salutation</Description>
             <Facets>
-                <Facet Name="Conversation duration (sec)">
-                    <Number Value="1" />
-                </Facet>
                 <Facet Name="Conversation features for L3ST-instance">
                     <String Value="introduction" />
                     <String Value="persuasion" />
                 </Facet>
                 <Facet Name="Conversation Reference Id">
                     <String Value="Django Unchained.Slave speaks a little German" />
+                </Facet>
+                <Facet Name="Conversation start time (min)">
+                    <Number Value="93" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="Django Unchained" />
@@ -171,9 +169,6 @@
                 <Facet Name="Reference Id">
                     <String Value="Django Unchained.Slave speaks a little German.Slave opens conversation" />
                 </Facet>
-                <Facet Name="Start time (min)">
-                    <Number Value="93" />
-                </Facet>
                 <Facet Name="Tags">
                     <String Value="greeting in German" />
                 </Facet>
@@ -185,14 +180,14 @@
         <Item Id="FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room" Name="FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room" Img="#2" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Rivendell_AragornArwen&amp;L3STinstance=FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room">
             <Description>This instance is uttered in the sword room in Rivendell. Arwen speaks aloud Aragorn's inner doubts and raises his spirits by combining both English and Elvish.</Description>
             <Facets>
-                <Facet Name="Conversation duration (sec)">
-                    <Number Value="2" />
-                </Facet>
                 <Facet Name="Conversation features for L3ST-instance">
                     <String Value="bonding" />
                 </Facet>
                 <Facet Name="Conversation Reference Id">
                     <String Value="FellowshipOfTheRing.Rivendell_AragornArwen" />
+                </Facet>
+                <Facet Name="Conversation start time (min)">
+                    <Number Value="91" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="FellowshipOfTheRing" />
@@ -249,9 +244,6 @@
                 <Facet Name="Reference Id">
                     <String Value="FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room" />
                 </Facet>
-                <Facet Name="Start time (min)">
-                    <Number Value="91" />
-                </Facet>
                 <Facet Name="Tags">
                     <String Value="Aragorn" />
                     <String Value=" Arwen" />
@@ -267,11 +259,11 @@
         <Item Id="FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge" Name="FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge" Img="#3" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Rivendell_AragornArwen&amp;L3STinstance=FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge">
             <Description>This instance takes place in a bridge in Rivendell. This is the scene in which they explicitly talk about their love relationship. Dialogue combines English and Elvish.</Description>
             <Facets>
-                <Facet Name="Conversation duration (sec)">
-                    <Number Value="1" />
-                </Facet>
                 <Facet Name="Conversation Reference Id">
                     <String Value="FellowshipOfTheRing.Rivendell_AragornArwen" />
+                </Facet>
+                <Facet Name="Conversation start time (min)">
+                    <Number Value="92" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="FellowshipOfTheRing" />
@@ -330,9 +322,6 @@
                 <Facet Name="Remarks">
                     <String Value="The instance conveys meaningful information through a combination of L3 and L1. " />
                 </Facet>
-                <Facet Name="Start time (min)">
-                    <Number Value="92" />
-                </Facet>
                 <Facet Name="Tags">
                     <String Value="Aragorn" />
                     <String Value=" Arwen" />
@@ -348,9 +337,6 @@
         <Item Id="LoveActually.JamieProposesToAurelia.Aurelia's sister" Name="Love Actually - Jamie Proposes To Aurelia - Aurelia's sister" Img="#4" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia&amp;L3STinstance=LoveActually.JamieProposesToAurelia.Aurelia's sister">
             <Description>Aurelia's sister intervenes in Jamie's proposal (humorous effect)</Description>
             <Facets>
-                <Facet Name="Conversation duration (sec)">
-                    <Number Value="1" />
-                </Facet>
                 <Facet Name="Conversation Reference Id">
                     <String Value="LoveActually.JamieProposesToAurelia" />
                 </Facet>
@@ -412,9 +398,6 @@
         <Item Id="LoveActually.JamieProposesToAurelia.Jamie in Portuguese" Name="Love Actually - Jamie Proposes To Aurelia - Jamie in Portuguese" Img="#5" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia&amp;L3STinstance=LoveActually.JamieProposesToAurelia.Jamie in Portuguese">
             <Description>Jamie proposes in Portuguese</Description>
             <Facets>
-                <Facet Name="Conversation duration (sec)">
-                    <Number Value="1" />
-                </Facet>
                 <Facet Name="Conversation Reference Id">
                     <String Value="LoveActually.JamieProposesToAurelia" />
                 </Facet>
@@ -474,9 +457,6 @@
         <Item Id="LoveActually.JamieProposesToAurelia.Portuguese" Name="Love Actually - Jamie Proposes To Aurelia - Barros in Portuguese" Img="#6" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia&amp;L3STinstance=LoveActually.JamieProposesToAurelia.Portuguese">
             <Description>Barros asks for Aurelia.</Description>
             <Facets>
-                <Facet Name="Conversation duration (sec)">
-                    <Number Value="1" />
-                </Facet>
                 <Facet Name="Conversation Reference Id">
                     <String Value="LoveActually.JamieProposesToAurelia" />
                 </Facet>
@@ -534,9 +514,6 @@
         <Item Id="LoveActually.Lake Scene.Portuguese" Name="LoveActually - Lake Scene - Portuguese" Img="#7" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.Lake Scene&amp;L3STinstance=LoveActually.Lake Scene.Portuguese">
             <Description>Aurelia expresses anxiety when papers fly.</Description>
             <Facets>
-                <Facet Name="Conversation duration (sec)">
-                    <Number Value="3" />
-                </Facet>
                 <Facet Name="Conversation Reference Id">
                     <String Value="LoveActually.Lake Scene" />
                 </Facet>
@@ -589,11 +566,11 @@
             <Description>The father talks on the phone in Hindi. He is outside in the garden. 
 There is another conversation taking place among women at the kitchen.</Description>
             <Facets>
-                <Facet Name="Conversation duration (sec)">
-                    <Number Value="4" />
-                </Facet>
                 <Facet Name="Conversation Reference Id">
                     <String Value="Monsoon Wedding.Conversation in the garden on the phone" />
+                </Facet>
+                <Facet Name="Conversation start time (min)">
+                    <Number Value="170" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="Monsoon Wedding" />
@@ -645,18 +622,15 @@ There is another conversation taking place among women at the kitchen.</Descript
                 <Facet Name="Remarks">
                     <String Value="The dubbing and subtitling in English are in Spanish.&#xD;&#xA; " />
                 </Facet>
-                <Facet Name="Start time (min)">
-                    <Number Value="170" />
-                </Facet>
             </Facets>
         </Item>
         <Item Id="OceansEleven.ExplainingThePlan.Chinese" Name="Ocean's Eleven - Explaining the plan - Chinese" Img="#9" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=OceansEleven&amp;conversation=OceansEleven.ExplainingThePlan&amp;L3STinstance=OceansEleven.ExplainingThePlan.Chinese">
             <Facets>
-                <Facet Name="Conversation duration (sec)">
-                    <Number Value="4" />
-                </Facet>
                 <Facet Name="Conversation Reference Id">
                     <String Value="OceansEleven.ExplainingThePlan" />
+                </Facet>
+                <Facet Name="Conversation start time (min)">
+                    <Number Value="32" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="OceansEleven" />
@@ -696,18 +670,15 @@ There is another conversation taking place among women at the kitchen.</Descript
                 <Facet Name="Reference Id">
                     <String Value="OceansEleven.ExplainingThePlan.Chinese" />
                 </Facet>
-                <Facet Name="Start time (min)">
-                    <Number Value="32" />
-                </Facet>
             </Facets>
         </Item>
         <Item Id="TheWalk.MeetingPapaRudy.Czech" Name="TheWalk.MeetingPapaRudy.Czech" Img="#10" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingPapaRudy&amp;L3STinstance=TheWalk.MeetingPapaRudy.Czech">
             <Facets>
-                <Facet Name="Conversation duration (sec)">
-                    <Number Value="1" />
-                </Facet>
                 <Facet Name="Conversation Reference Id">
                     <String Value="TheWalk.MeetingPapaRudy" />
+                </Facet>
+                <Facet Name="Conversation start time (min)">
+                    <Number Value="12" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="TheWalk" />
@@ -763,18 +734,15 @@ There is another conversation taking place among women at the kitchen.</Descript
                 <Facet Name="Reference Id">
                     <String Value="TheWalk.MeetingPapaRudy.Czech" />
                 </Facet>
-                <Facet Name="Start time (min)">
-                    <Number Value="12" />
-                </Facet>
             </Facets>
         </Item>
         <Item Id="TheWalk.MeetingPapaRudy.French" Name="TheWalk.MeetingPapaRudy.French" Img="#11" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingPapaRudy&amp;L3STinstance=TheWalk.MeetingPapaRudy.French">
             <Facets>
-                <Facet Name="Conversation duration (sec)">
-                    <Number Value="1" />
-                </Facet>
                 <Facet Name="Conversation Reference Id">
                     <String Value="TheWalk.MeetingPapaRudy" />
+                </Facet>
+                <Facet Name="Conversation start time (min)">
+                    <Number Value="12" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="TheWalk" />
@@ -827,18 +795,15 @@ There is another conversation taking place among women at the kitchen.</Descript
                 <Facet Name="Reference Id">
                     <String Value="TheWalk.MeetingPapaRudy.French" />
                 </Facet>
-                <Facet Name="Start time (min)">
-                    <Number Value="12" />
-                </Facet>
             </Facets>
         </Item>
         <Item Id="TheWalk.MeetingPapaRudy.French2" Name="TheWalk.MeetingPapaRudy.French2" Img="#12" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingPapaRudy&amp;L3STinstance=TheWalk.MeetingPapaRudy.French2">
             <Facets>
-                <Facet Name="Conversation duration (sec)">
-                    <Number Value="1" />
-                </Facet>
                 <Facet Name="Conversation Reference Id">
                     <String Value="TheWalk.MeetingPapaRudy" />
+                </Facet>
+                <Facet Name="Conversation start time (min)">
+                    <Number Value="12" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="TheWalk" />
@@ -891,18 +856,15 @@ There is another conversation taking place among women at the kitchen.</Descript
                 <Facet Name="Reference Id">
                     <String Value="TheWalk.MeetingPapaRudy.French2" />
                 </Facet>
-                <Facet Name="Start time (min)">
-                    <Number Value="12" />
-                </Facet>
             </Facets>
         </Item>
         <Item Id="TheWalk.MeetingPapaRudy.French3" Name="TheWalk.MeetingPapaRudy.French3" Img="#13" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingPapaRudy&amp;L3STinstance=TheWalk.MeetingPapaRudy.French3">
             <Facets>
-                <Facet Name="Conversation duration (sec)">
-                    <Number Value="1" />
-                </Facet>
                 <Facet Name="Conversation Reference Id">
                     <String Value="TheWalk.MeetingPapaRudy" />
+                </Facet>
+                <Facet Name="Conversation start time (min)">
+                    <Number Value="13" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="TheWalk" />
@@ -955,18 +917,15 @@ There is another conversation taking place among women at the kitchen.</Descript
                 <Facet Name="Reference Id">
                     <String Value="TheWalk.MeetingPapaRudy.French3" />
                 </Facet>
-                <Facet Name="Start time (min)">
-                    <Number Value="13" />
-                </Facet>
             </Facets>
         </Item>
         <Item Id="TheWalk.OnTheRoof.Czech" Name="TheWalk.OnTheRoof.Czech" Img="#14" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk&amp;conversation=TheWalk.OnTheRoof&amp;L3STinstance=TheWalk.OnTheRoof.Czech">
             <Facets>
-                <Facet Name="Conversation duration (sec)">
-                    <Number Value="2" />
-                </Facet>
                 <Facet Name="Conversation Reference Id">
                     <String Value="TheWalk.OnTheRoof" />
+                </Facet>
+                <Facet Name="Conversation start time (min)">
+                    <Number Value="83" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="TheWalk" />
@@ -985,9 +944,6 @@ There is another conversation taking place among women at the kitchen.</Descript
                 </Facet>
                 <Facet Name="Reference Id">
                     <String Value="TheWalk.OnTheRoof.Czech" />
-                </Facet>
-                <Facet Name="Start time (min)">
-                    <Number Value="83" />
                 </Facet>
             </Facets>
         </Item>

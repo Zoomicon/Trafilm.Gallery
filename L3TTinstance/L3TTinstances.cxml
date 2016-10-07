@@ -12,7 +12,7 @@
     <FacetCategory Name="Year TT released" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Film TT Blockbuster" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Conversation start time (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
-    <FacetCategory Name="Conversation duration (sec)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Conversation duration (sec)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="L2 same as L3ST" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="L3ST conveyed as L3TT" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="L3TT language type" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -58,10 +58,11 @@
           <DateTime Value="2016-10-07T01:07:46" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-07T01:14:19" />
+          <DateTime Value="2016-10-07T06:24:56" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="PatrickZabalbeascoa" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Avatar" />
@@ -93,9 +94,6 @@
         <Facet Name="Conversation start time (min)">
           <Number Value="43" />
         </Facet>
-        <Facet Name="Conversation duration (sec)">
-          <Number Value="60" />
-        </Facet>
         <Facet Name="L2 same as L3ST">
           <String Value="No" />
         </Facet>
@@ -124,6 +122,7 @@
           <String Value="native or proficient" />
         </Facet>
         <Facet Name="L3TT mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
           <String Value="Written diegetic" />
         </Facet>
         <Facet Name="L3TT merely represented">
@@ -144,7 +143,6 @@
           <String Value="None" />
         </Facet>
         <Facet Name="L3 mode change">
-          <String Value="- Oral diegetic on-screen" />
           <String Value="+ Written diegetic" />
         </Facet>
         <Facet Name="L3 functions change">
@@ -203,9 +201,6 @@
         </Facet>
         <Facet Name="Conversation start time (min)">
           <Number Value="93" />
-        </Facet>
-        <Facet Name="Conversation duration (sec)">
-          <Number Value="1" />
         </Facet>
         <Facet Name="L2 same as L3ST">
           <String Value="No" />
@@ -311,9 +306,6 @@
         </Facet>
         <Facet Name="Conversation start time (min)">
           <Number Value="91" />
-        </Facet>
-        <Facet Name="Conversation duration (sec)">
-          <Number Value="2" />
         </Facet>
         <Facet Name="L2 same as L3ST">
           <String Value="No" />
@@ -421,9 +413,6 @@
         <Facet Name="Conversation start time (min)">
           <Number Value="91" />
         </Facet>
-        <Facet Name="Conversation duration (sec)">
-          <Number Value="1" />
-        </Facet>
         <Facet Name="L2 same as L3ST">
           <String Value="No" />
         </Facet>
@@ -522,9 +511,6 @@
         </Facet>
         <Facet Name="Conversation start time (min)">
           <Number Value="92" />
-        </Facet>
-        <Facet Name="Conversation duration (sec)">
-          <Number Value="1" />
         </Facet>
         <Facet Name="L2 same as L3ST">
           <String Value="No" />
@@ -626,9 +612,6 @@
         <Facet Name="Conversation start time (min)">
           <Number Value="92" />
         </Facet>
-        <Facet Name="Conversation duration (sec)">
-          <Number Value="1" />
-        </Facet>
         <Facet Name="L2 same as L3ST">
           <String Value="No" />
         </Facet>
@@ -720,9 +703,6 @@
         <Facet Name="Year TT released">
           <Number Value="2003" />
         </Facet>
-        <Facet Name="Conversation duration (sec)">
-          <Number Value="1" />
-        </Facet>
         <Facet Name="L3 language type change">
           <String Value="- Real" />
           <String Value="+ " />
@@ -782,9 +762,6 @@
         </Facet>
         <Facet Name="Year TT released">
           <Number Value="2003" />
-        </Facet>
-        <Facet Name="Conversation duration (sec)">
-          <Number Value="3" />
         </Facet>
         <Facet Name="L2 same as L3ST">
           <String Value="No" />
@@ -855,9 +832,6 @@ There is another conversation taking place among women at the kitchen.</Descript
         </Facet>
         <Facet Name="Conversation start time (min)">
           <Number Value="170" />
-        </Facet>
-        <Facet Name="Conversation duration (sec)">
-          <Number Value="4" />
         </Facet>
         <Facet Name="L2 same as L3ST">
           <String Value="No" />
@@ -949,9 +923,6 @@ There is another conversation taking place among women at the kitchen.</Descript
         </Facet>
         <Facet Name="Conversation start time (min)">
           <Number Value="32" />
-        </Facet>
-        <Facet Name="Conversation duration (sec)">
-          <Number Value="4" />
         </Facet>
         <Facet Name="L2 same as L3ST">
           <String Value="No" />

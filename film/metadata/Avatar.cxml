@@ -13,7 +13,6 @@
     <FacetCategory Name="L2-Dubbed languages" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L2-Subtitled languages" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Conversations: count" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
-    <FacetCategory Name="Conversations: duration (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Tags" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -38,10 +37,11 @@
           <DateTime Value="2016-10-07T12:30:57" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-07T12:51:26" />
+          <DateTime Value="2016-10-07T05:46:33" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="PatrickZabalbeascoa" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Duration (min)">
           <Number Value="161" />
@@ -70,11 +70,11 @@
         <Facet Name="Main language (L1)">
           <String Value="English" />
         </Facet>
-        <Facet Name="Conversations: count">
-          <Number Value="0" />
+        <Facet Name="L2-Dubbed languages">
+          <String Value="Spanish" />
         </Facet>
-        <Facet Name="Conversations: duration (min)">
-          <Number Value="0" />
+        <Facet Name="Conversations: count">
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>

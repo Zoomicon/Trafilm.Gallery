@@ -12,7 +12,7 @@
         <FacetCategory Name="Year TT released" Type="Number" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
         <FacetCategory Name="Film TT Blockbuster" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
         <FacetCategory Name="Conversation start time (min)" Type="Number" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
-        <FacetCategory Name="Conversation duration (sec)" Type="Number" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
+        <FacetCategory Name="Conversation duration (sec)" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
         <FacetCategory Name="L2 same as L3ST" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
         <FacetCategory Name="L3ST conveyed as L3TT" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
         <FacetCategory Name="L3TT language type" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
@@ -45,9 +45,6 @@
         <Item Id="Avatar.Calm down, people.Female Na'vi warning.SpanishDub" Name="Avatar.Calm down, people.Female Na'vi warning.SpanishDub" Img="#0" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Avatar&amp;conversation=Avatar.Calm down, people&amp;L3STinstance=Avatar.Calm down, people.Female Na'vi warning&amp;L3TTinstance=Avatar.Calm down, people.Female Na'vi warning.SpanishDub">
             <Description>Female avater tells her people to calm down</Description>
             <Facets>
-                <Facet Name="Conversation duration (sec)">
-                    <Number Value="60" />
-                </Facet>
                 <Facet Name="Conversation features for L3-instance change">
                     <String Value="None" />
                 </Facet>
@@ -77,7 +74,7 @@
                     <DateTime Value="2016-10-07T01:07:46" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-10-07T01:14:19" />
+                    <DateTime Value="2016-10-07T06:24:56" />
                 </Facet>
                 <Facet Name="L2 language">
                     <String Value="Spanish" />
@@ -95,7 +92,6 @@
                     <String Value="None" />
                 </Facet>
                 <Facet Name="L3 mode change">
-                    <String Value="- Oral diegetic on-screen" />
                     <String Value="+ Written diegetic" />
                 </Facet>
                 <Facet Name="L3 sources change">
@@ -133,6 +129,7 @@
                     <String Value="Yes" />
                 </Facet>
                 <Facet Name="L3TT mode, written/spoken, diegetic">
+                    <String Value="Oral diegetic on-screen" />
                     <String Value="Written diegetic" />
                 </Facet>
                 <Facet Name="L3TT sources">
@@ -140,6 +137,7 @@
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="PatrickZabalbeascoa" />
+                    <String Value="George" />
                 </Facet>
                 <Facet Name="Quality of L3TT speaker performance">
                     <String Value="native or proficient" />
@@ -161,9 +159,6 @@
         <Item Id="Django Unchained.Slave speaks a little German.Slave opens conversation.Slave's ST German dubbed" Name="Django Unchained - Slave's ST German - Spanish dubbed" Img="#1" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Django Unchained&amp;conversation=Django Unchained.Slave speaks a little German&amp;L3STinstance=Django Unchained.Slave speaks a little German.Slave opens conversation&amp;L3TTinstance=Django Unchained.Slave speaks a little German.Slave opens conversation.Slave's ST German dubbed">
             <Description>Doing as she is told, Brunhilda starts to speak in German, in what we call a conversation opener, a salutation</Description>
             <Facets>
-                <Facet Name="Conversation duration (sec)">
-                    <Number Value="1" />
-                </Facet>
                 <Facet Name="Conversation features for L3-instance change">
                     <String Value="- persuasion" />
                     <String Value="+ balanced exchange" />
@@ -269,9 +264,6 @@
         <Item Id="FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room.SpanishDub" Name="FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room.SpanishDub" Img="#2" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Rivendell_AragornArwen&amp;L3STinstance=FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room&amp;L3TTinstance=FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room.SpanishDub">
             <Description>This instance is uttered in the sword room in Rivendell. Arwen speaks aloud Aragorn's inner doubts and raises his spirits by combining both English and Elvish.</Description>
             <Facets>
-                <Facet Name="Conversation duration (sec)">
-                    <Number Value="2" />
-                </Facet>
                 <Facet Name="Conversation features for L3-instance change">
                     <String Value="None" />
                 </Facet>
@@ -378,9 +370,6 @@
         <Item Id="FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room.SpanishSub" Name="FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room.SpanishSub" Img="#3" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Rivendell_AragornArwen&amp;L3STinstance=FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room&amp;L3TTinstance=FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room.SpanishSub">
             <Description>This instance is uttered in the sword room in Rivendell. Arwen speaks aloud Aragorn's inner doubts and raises his spirits by combining both English and Elvish.</Description>
             <Facets>
-                <Facet Name="Conversation duration (sec)">
-                    <Number Value="1" />
-                </Facet>
                 <Facet Name="Conversation features for L3-instance change">
                     <String Value="None" />
                 </Facet>
@@ -483,9 +472,6 @@
         <Item Id="FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge.SpanishDub" Name="FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge.SpanishDub" Img="#4" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Rivendell_AragornArwen&amp;L3STinstance=FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge&amp;L3TTinstance=FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge.SpanishDub">
             <Description>This instance takes place in a bridge in Rivendell. This is the scene in which they explicitly talk about their love relationship. Dialogue combines English and Elvish.</Description>
             <Facets>
-                <Facet Name="Conversation duration (sec)">
-                    <Number Value="1" />
-                </Facet>
                 <Facet Name="Conversation features for L3-instance change">
                     <String Value="None" />
                 </Facet>
@@ -586,9 +572,6 @@
         <Item Id="FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge.SpanishSub" Name="FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge.SpanishSub" Img="#5" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Rivendell_AragornArwen&amp;L3STinstance=FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge&amp;L3TTinstance=FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge.SpanishSub">
             <Description>This instance takes place in a bridge in Rivendell. This is the scene in which they explicitly talk about their love relationship. Dialogue combines English and Elvish.</Description>
             <Facets>
-                <Facet Name="Conversation duration (sec)">
-                    <Number Value="1" />
-                </Facet>
                 <Facet Name="Conversation features for L3-instance change">
                     <String Value="None" />
                 </Facet>
@@ -689,9 +672,6 @@
         <Item Id="LoveActually.JamieProposesToAurelia.Aurelia's sister.SpanishSub" Name="LoveActually - Jamie proposes to Aurelia - Aurelia's sister - Spanish Sub" Img="#6" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia&amp;L3STinstance=LoveActually.JamieProposesToAurelia.Aurelia's sister&amp;L3TTinstance=LoveActually.JamieProposesToAurelia.Aurelia's sister.SpanishSub">
             <Description>Aurelia's sister intervenes in Jamie's proposal (humorous effect)</Description>
             <Facets>
-                <Facet Name="Conversation duration (sec)">
-                    <Number Value="1" />
-                </Facet>
                 <Facet Name="Conversation features for L3-instance change">
                     <String Value="None" />
                 </Facet>
@@ -746,9 +726,6 @@
         <Item Id="LoveActually.Lake Scene.Portuguese.SpanishSub" Name="LoveActually - Lake Scene - Aurelia - SpanishSub" Img="#7" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.Lake Scene&amp;L3STinstance=LoveActually.Lake Scene.Portuguese&amp;L3TTinstance=LoveActually.Lake Scene.Portuguese.SpanishSub">
             <Description>Aurelia expresses anxiety when papers fly.</Description>
             <Facets>
-                <Facet Name="Conversation duration (sec)">
-                    <Number Value="3" />
-                </Facet>
                 <Facet Name="Conversation features for L3-instance change">
                     <String Value="None" />
                 </Facet>
@@ -817,9 +794,6 @@
             <Description>The father talks on the phone in Hindi. He is outside in the garden. 
 There is another conversation taking place among women at the kitchen.</Description>
             <Facets>
-                <Facet Name="Conversation duration (sec)">
-                    <Number Value="4" />
-                </Facet>
                 <Facet Name="Conversation features for L3-instance change">
                     <String Value="None" />
                 </Facet>
@@ -916,9 +890,6 @@ There is another conversation taking place among women at the kitchen.</Descript
         </Item>
         <Item Id="OceansEleven.ExplainingThePlan.Chinese.SpanishSub" Name="OceansEleven.ExplainingThePlan.Chinese.SpanishSub" Img="#9" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=OceansEleven&amp;conversation=OceansEleven.ExplainingThePlan&amp;L3STinstance=OceansEleven.ExplainingThePlan.Chinese&amp;L3TTinstance=OceansEleven.ExplainingThePlan.Chinese.SpanishSub">
             <Facets>
-                <Facet Name="Conversation duration (sec)">
-                    <Number Value="4" />
-                </Facet>
                 <Facet Name="Conversation features for L3-instance change">
                     <String Value="None" />
                 </Facet>

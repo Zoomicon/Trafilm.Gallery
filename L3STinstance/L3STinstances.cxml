@@ -5,7 +5,7 @@
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Conversation Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Conversation start time (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
-    <FacetCategory Name="Conversation duration (sec)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Conversation duration (sec)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Main (L1) language" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3ST language type" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3ST language" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -43,10 +43,11 @@
           <DateTime Value="2016-10-07T01:00:20" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-07T01:13:52" />
+          <DateTime Value="2016-10-07T06:24:46" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="PatrickZabalbeascoa" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Avatar" />
@@ -56,9 +57,6 @@
         </Facet>
         <Facet Name="Conversation start time (min)">
           <Number Value="43" />
-        </Facet>
-        <Facet Name="Conversation duration (sec)">
-          <Number Value="60" />
         </Facet>
         <Facet Name="Main (L1) language">
           <String Value="Na'vi" />
@@ -73,7 +71,7 @@
           <String Value="Sci-fi" />
         </Facet>
         <Facet Name="L3ST meant to be understood">
-          <String Value="YES, the gist, the implications of what is happening" />
+          <String Value="NO" />
         </Facet>
         <Facet Name="L3ST message required for understanding">
           <String Value="Yes" />
@@ -136,9 +134,6 @@
         </Facet>
         <Facet Name="Conversation start time (min)">
           <Number Value="93" />
-        </Facet>
-        <Facet Name="Conversation duration (sec)">
-          <Number Value="1" />
         </Facet>
         <Facet Name="Main (L1) language">
           <String Value="German" />
@@ -216,9 +211,6 @@
         </Facet>
         <Facet Name="Conversation start time (min)">
           <Number Value="91" />
-        </Facet>
-        <Facet Name="Conversation duration (sec)">
-          <Number Value="2" />
         </Facet>
         <Facet Name="Main (L1) language">
           <String Value="Elvish" />
@@ -301,9 +293,6 @@
         <Facet Name="Conversation start time (min)">
           <Number Value="92" />
         </Facet>
-        <Facet Name="Conversation duration (sec)">
-          <Number Value="1" />
-        </Facet>
         <Facet Name="Main (L1) language">
           <String Value="Elvish" />
         </Facet>
@@ -373,9 +362,6 @@
         <Facet Name="Conversation Reference Id">
           <String Value="LoveActually.JamieProposesToAurelia" />
         </Facet>
-        <Facet Name="Conversation duration (sec)">
-          <Number Value="1" />
-        </Facet>
         <Facet Name="Main (L1) language">
           <String Value="Portuguese" />
         </Facet>
@@ -433,9 +419,6 @@
         </Facet>
         <Facet Name="Conversation Reference Id">
           <String Value="LoveActually.JamieProposesToAurelia" />
-        </Facet>
-        <Facet Name="Conversation duration (sec)">
-          <Number Value="1" />
         </Facet>
         <Facet Name="Main (L1) language">
           <String Value="Portuguese" />
@@ -496,9 +479,6 @@
         <Facet Name="Conversation Reference Id">
           <String Value="LoveActually.JamieProposesToAurelia" />
         </Facet>
-        <Facet Name="Conversation duration (sec)">
-          <Number Value="1" />
-        </Facet>
         <Facet Name="Main (L1) language">
           <String Value="Portuguese" />
         </Facet>
@@ -556,9 +536,6 @@
         <Facet Name="Conversation Reference Id">
           <String Value="LoveActually.Lake Scene" />
         </Facet>
-        <Facet Name="Conversation duration (sec)">
-          <Number Value="3" />
-        </Facet>
         <Facet Name="Main (L1) language">
           <String Value="Portuguese" />
         </Facet>
@@ -612,9 +589,6 @@ There is another conversation taking place among women at the kitchen.</Descript
         </Facet>
         <Facet Name="Conversation start time (min)">
           <Number Value="170" />
-        </Facet>
-        <Facet Name="Conversation duration (sec)">
-          <Number Value="4" />
         </Facet>
         <Facet Name="Main (L1) language">
           <String Value="Hindi" />
@@ -674,9 +648,6 @@ There is another conversation taking place among women at the kitchen.</Descript
         <Facet Name="Conversation start time (min)">
           <Number Value="32" />
         </Facet>
-        <Facet Name="Conversation duration (sec)">
-          <Number Value="4" />
-        </Facet>
         <Facet Name="Main (L1) language">
           <String Value="Chinese" />
         </Facet>
@@ -725,9 +696,6 @@ There is another conversation taking place among women at the kitchen.</Descript
         </Facet>
         <Facet Name="Conversation start time (min)">
           <Number Value="12" />
-        </Facet>
-        <Facet Name="Conversation duration (sec)">
-          <Number Value="1" />
         </Facet>
         <Facet Name="Main (L1) language">
           <String Value="Czech" />
@@ -794,9 +762,6 @@ There is another conversation taking place among women at the kitchen.</Descript
         <Facet Name="Conversation start time (min)">
           <Number Value="12" />
         </Facet>
-        <Facet Name="Conversation duration (sec)">
-          <Number Value="1" />
-        </Facet>
         <Facet Name="Main (L1) language">
           <String Value="French" />
         </Facet>
@@ -858,9 +823,6 @@ There is another conversation taking place among women at the kitchen.</Descript
         </Facet>
         <Facet Name="Conversation start time (min)">
           <Number Value="12" />
-        </Facet>
-        <Facet Name="Conversation duration (sec)">
-          <Number Value="1" />
         </Facet>
         <Facet Name="Main (L1) language">
           <String Value="French" />
@@ -924,9 +886,6 @@ There is another conversation taking place among women at the kitchen.</Descript
         <Facet Name="Conversation start time (min)">
           <Number Value="13" />
         </Facet>
-        <Facet Name="Conversation duration (sec)">
-          <Number Value="1" />
-        </Facet>
         <Facet Name="Main (L1) language">
           <String Value="French" />
         </Facet>
@@ -988,9 +947,6 @@ There is another conversation taking place among women at the kitchen.</Descript
         </Facet>
         <Facet Name="Conversation start time (min)">
           <Number Value="83" />
-        </Facet>
-        <Facet Name="Conversation duration (sec)">
-          <Number Value="2" />
         </Facet>
         <Facet Name="L3TT-instances: count">
           <Number Value="0" />
