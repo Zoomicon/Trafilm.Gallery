@@ -13,7 +13,6 @@
     <FacetCategory Name="L2-Dubbed languages" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L2-Subtitled languages" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Conversations: count" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
-    <FacetCategory Name="Conversations: duration (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Tags" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -38,10 +37,11 @@
           <DateTime Value="2016-10-07T12:30:57" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-07T12:51:26" />
+          <DateTime Value="2016-10-07T05:46:33" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="PatrickZabalbeascoa" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Duration (min)">
           <Number Value="161" />
@@ -70,11 +70,11 @@
         <Facet Name="Main language (L1)">
           <String Value="English" />
         </Facet>
-        <Facet Name="Conversations: count">
-          <Number Value="0" />
+        <Facet Name="L2-Dubbed languages">
+          <String Value="Spanish" />
         </Facet>
-        <Facet Name="Conversations: duration (min)">
-          <Number Value="0" />
+        <Facet Name="Conversations: count">
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>
@@ -114,9 +114,6 @@
           <String Value="English" />
         </Facet>
         <Facet Name="Conversations: count">
-          <Number Value="0" />
-        </Facet>
-        <Facet Name="Conversations: duration (min)">
           <Number Value="0" />
         </Facet>
       </Facets>
@@ -165,9 +162,6 @@
           <String Value="Spanish" />
         </Facet>
         <Facet Name="Conversations: count">
-          <Number Value="1" />
-        </Facet>
-        <Facet Name="Conversations: duration (min)">
           <Number Value="1" />
         </Facet>
       </Facets>
@@ -229,9 +223,6 @@
         <Facet Name="Conversations: count">
           <Number Value="1" />
         </Facet>
-        <Facet Name="Conversations: duration (min)">
-          <Number Value="2" />
-        </Facet>
       </Facets>
     </Item>
     <Item Id="Gangs of New York" Name="Gangs of New York" Img="https://upload.wikimedia.org/wikipedia/en/a/ae/Gangs_of_New_York_Poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Gangs of New York">
@@ -270,9 +261,6 @@
           <String Value="English" />
         </Facet>
         <Facet Name="Conversations: count">
-          <Number Value="0" />
-        </Facet>
-        <Facet Name="Conversations: duration (min)">
           <Number Value="0" />
         </Facet>
       </Facets>
@@ -319,9 +307,6 @@
           <String Value="English" />
         </Facet>
         <Facet Name="Conversations: count">
-          <Number Value="0" />
-        </Facet>
-        <Facet Name="Conversations: duration (min)">
           <Number Value="0" />
         </Facet>
       </Facets>
@@ -377,9 +362,6 @@
         <Facet Name="Conversations: count">
           <Number Value="2" />
         </Facet>
-        <Facet Name="Conversations: duration (min)">
-          <Number Value="6" />
-        </Facet>
       </Facets>
     </Item>
     <Item Id="Memoirs of a Geisha" Name="Memoirs of a Geisha" Img="https://upload.wikimedia.org/wikipedia/ca/1/1d/Memories_Geisha_Poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Memoirs of a Geisha">
@@ -417,9 +399,6 @@
           <String Value="English" />
         </Facet>
         <Facet Name="Conversations: count">
-          <Number Value="0" />
-        </Facet>
-        <Facet Name="Conversations: duration (min)">
           <Number Value="0" />
         </Facet>
       </Facets>
@@ -481,9 +460,6 @@
         <Facet Name="Conversations: count">
           <Number Value="1" />
         </Facet>
-        <Facet Name="Conversations: duration (min)">
-          <Number Value="4" />
-        </Facet>
       </Facets>
     </Item>
     <Item Id="OceansEleven" Name="Ocean's Eleven" Img="https://upload.wikimedia.org/wikipedia/en/6/68/Ocean%27s_Eleven_2001_Poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=OceansEleven">
@@ -529,9 +505,6 @@
         <Facet Name="Conversations: count">
           <Number Value="1" />
         </Facet>
-        <Facet Name="Conversations: duration (min)">
-          <Number Value="4" />
-        </Facet>
       </Facets>
     </Item>
     <Item Id="Pearl Harbor" Name="Pearl Harbor" Img="https://upload.wikimedia.org/wikipedia/en/3/3c/Pearl_harbor_movie_poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Pearl Harbor">
@@ -569,9 +542,6 @@
           <String Value="English" />
         </Facet>
         <Facet Name="Conversations: count">
-          <Number Value="0" />
-        </Facet>
-        <Facet Name="Conversations: duration (min)">
           <Number Value="0" />
         </Facet>
       </Facets>
@@ -615,9 +585,6 @@
         <Facet Name="Conversations: count">
           <Number Value="0" />
         </Facet>
-        <Facet Name="Conversations: duration (min)">
-          <Number Value="0" />
-        </Facet>
       </Facets>
     </Item>
     <Item Id="Stigmata" Name="Stigmata" Img="https://upload.wikimedia.org/wikipedia/en/8/8e/Stigmata_film.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Stigmata">
@@ -655,9 +622,6 @@
           <String Value="English" />
         </Facet>
         <Facet Name="Conversations: count">
-          <Number Value="0" />
-        </Facet>
-        <Facet Name="Conversations: duration (min)">
           <Number Value="0" />
         </Facet>
       </Facets>
@@ -699,9 +663,6 @@
           <String Value="English" />
         </Facet>
         <Facet Name="Conversations: count">
-          <Number Value="0" />
-        </Facet>
-        <Facet Name="Conversations: duration (min)">
           <Number Value="0" />
         </Facet>
       </Facets>
@@ -751,9 +712,6 @@
           <String Value="English" />
         </Facet>
         <Facet Name="Conversations: count">
-          <Number Value="0" />
-        </Facet>
-        <Facet Name="Conversations: duration (min)">
           <Number Value="0" />
         </Facet>
       </Facets>
@@ -806,9 +764,6 @@
         <Facet Name="Conversations: count">
           <Number Value="0" />
         </Facet>
-        <Facet Name="Conversations: duration (min)">
-          <Number Value="0" />
-        </Facet>
       </Facets>
     </Item>
     <Item Id="TheWalk" Name="The Walk" Img="https://upload.wikimedia.org/wikipedia/en/thumb/5/57/The_Walk_%282015_film%29_poster.jpg/220px-The_Walk_%282015_film%29_poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=TheWalk">
@@ -856,9 +811,6 @@
         <Facet Name="Conversations: count">
           <Number Value="8" />
         </Facet>
-        <Facet Name="Conversations: duration (min)">
-          <Number Value="19" />
-        </Facet>
       </Facets>
     </Item>
     <Item Id="ToyStory3" Name="Toy Story 3" Img="https://upload.wikimedia.org/wikipedia/en/6/69/Toy_Story_3_poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=ToyStory3">
@@ -905,9 +857,6 @@
         <Facet Name="Conversations: count">
           <Number Value="7" />
         </Facet>
-        <Facet Name="Conversations: duration (min)">
-          <Number Value="7" />
-        </Facet>
       </Facets>
     </Item>
     <Item Id="Zootopia" Name="Zootopia" Img="https://upload.wikimedia.org/wikipedia/en/thumb/e/ea/Zootopia.jpg/220px-Zootopia.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Zootopia">
@@ -951,9 +900,6 @@
           <String Value="English" />
         </Facet>
         <Facet Name="Conversations: count">
-          <Number Value="0" />
-        </Facet>
-        <Facet Name="Conversations: duration (min)">
           <Number Value="0" />
         </Facet>
       </Facets>
