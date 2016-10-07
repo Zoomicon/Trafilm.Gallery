@@ -4,7 +4,7 @@
         <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="false" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="Start time (min)" Type="Number" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
-        <FacetCategory Name="Duration (min)" Type="Number" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
+        <FacetCategory Name="Duration (sec)" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
         <FacetCategory Name="Language sources" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="L3ST languages: count" Type="Number" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
         <FacetCategory Name="L3ST languages" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
@@ -19,11 +19,46 @@
         <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
     </FacetCategories>
     <Items ImgBase="conversations_deepzoom\conversations.dzc">
-        <Item Id="Django Unchained.Slave speaks a little German" Name="Django Unchained.Slave speaks a little German" Img="#0" Href="http://gallery.trafilm.net/conversation/metadata/?film=Django Unchained&amp;conversation=Django Unchained.Slave speaks a little German">
+        <Item Id="Avatar.Calm down, people" Name="Avatar.Calm down, people" Img="#0" Href="http://gallery.trafilm.net/conversation/metadata/?film=Avatar&amp;conversation=Avatar.Calm down, people">
             <Facets>
-                <Facet Name="Duration (min)">
+                <Facet Name="Film Reference Id">
+                    <String Value="Avatar" />
+                </Facet>
+                <Facet Name="Info created">
+                    <DateTime Value="2016-10-07T05:23:57" />
+                </Facet>
+                <Facet Name="Info updated">
+                    <DateTime Value="2016-10-07T05:49:54" />
+                </Facet>
+                <Facet Name="L3ST language types">
+                    <String Value="Constructed (fictional)" />
+                </Facet>
+                <Facet Name="L3ST language types: count">
                     <Number Value="1" />
                 </Facet>
+                <Facet Name="L3ST languages">
+                    <String Value="Na'vi" />
+                </Facet>
+                <Facet Name="L3ST languages: count">
+                    <Number Value="1" />
+                </Facet>
+                <Facet Name="L3ST-instances: count">
+                    <Number Value="1" />
+                </Facet>
+                <Facet Name="Metadata Editors">
+                    <String Value="PatrickZabalbeascoa" />
+                    <String Value="George" />
+                </Facet>
+                <Facet Name="Reference Id">
+                    <String Value="Avatar.Calm down, people" />
+                </Facet>
+                <Facet Name="Start time (min)">
+                    <Number Value="43" />
+                </Facet>
+            </Facets>
+        </Item>
+        <Item Id="Django Unchained.Slave speaks a little German" Name="Django Unchained.Slave speaks a little German" Img="#1" Href="http://gallery.trafilm.net/conversation/metadata/?film=Django Unchained&amp;conversation=Django Unchained.Slave speaks a little German">
+            <Facets>
                 <Facet Name="Film Reference Id">
                     <String Value="Django Unchained" />
                 </Facet>
@@ -31,7 +66,7 @@
                     <DateTime Value="2016-05-31T12:04:40" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-09-07T08:45:08" />
+                    <DateTime Value="2016-10-07T06:19:26" />
                 </Facet>
                 <Facet Name="L3ST language types">
                     <String Value="Real" />
@@ -60,12 +95,9 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="FellowshipOfTheRing.Rivendell_AragornArwen" Name="FellowshipOfTheRing.Rivendell_AragornArwen" Img="#1" Href="http://gallery.trafilm.net/conversation/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Rivendell_AragornArwen">
+        <Item Id="FellowshipOfTheRing.Rivendell_AragornArwen" Name="FellowshipOfTheRing.Rivendell_AragornArwen" Img="#2" Href="http://gallery.trafilm.net/conversation/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Rivendell_AragornArwen">
             <Description>The scene consists in a love scene between Aragorn and Arwen in Rivendell. </Description>
             <Facets>
-                <Facet Name="Duration (min)">
-                    <Number Value="2" />
-                </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="FellowshipOfTheRing" />
                 </Facet>
@@ -117,13 +149,10 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="LoveActually.JamieProposesToAurelia" Name="Jamie Proposes To Aurelia" Img="#2" Href="http://gallery.trafilm.net/conversation/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia">
+        <Item Id="LoveActually.JamieProposesToAurelia" Name="Jamie Proposes To Aurelia" Img="#3" Href="http://gallery.trafilm.net/conversation/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia">
             <Description>Jamie proposes to Aurelia in Portuguese.
 Available at https://www.youtube.com/watch?v=MXslFb_cdG4</Description>
             <Facets>
-                <Facet Name="Duration (min)">
-                    <Number Value="3" />
-                </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="LoveActually" />
                 </Facet>
@@ -156,15 +185,12 @@ Available at https://www.youtube.com/watch?v=MXslFb_cdG4</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="LoveActually.Lake Scene" Name="LoveActually - Lake Scene" Img="#3" Href="http://gallery.trafilm.net/conversation/metadata/?film=LoveActually&amp;conversation=LoveActually.Lake Scene">
+        <Item Id="LoveActually.Lake Scene" Name="LoveActually - Lake Scene" Img="#4" Href="http://gallery.trafilm.net/conversation/metadata/?film=LoveActually&amp;conversation=LoveActually.Lake Scene">
             <Description>Aurelia brings Jamie a cup of coffee. She accidentally spills his papers which fall in the lake. She apologizes, undresses and falls in the lake to collect them. 
 
 Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
 </Description>
             <Facets>
-                <Facet Name="Duration (min)">
-                    <Number Value="3" />
-                </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="LoveActually" />
                 </Facet>
@@ -204,11 +230,8 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Monsoon Wedding.Conversation in the garden on the phone" Name="Monsoon Wedding.Conversation in the garden on the phone" Img="#4" Href="http://gallery.trafilm.net/conversation/metadata/?film=Monsoon Wedding&amp;conversation=Monsoon Wedding.Conversation in the garden on the phone">
+        <Item Id="Monsoon Wedding.Conversation in the garden on the phone" Name="Monsoon Wedding.Conversation in the garden on the phone" Img="#5" Href="http://gallery.trafilm.net/conversation/metadata/?film=Monsoon Wedding&amp;conversation=Monsoon Wedding.Conversation in the garden on the phone">
             <Facets>
-                <Facet Name="Duration (min)">
-                    <Number Value="4" />
-                </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="Monsoon Wedding" />
                 </Facet>
@@ -244,12 +267,9 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="OceansEleven.ExplainingThePlan" Name="Ocean's Eleven - Explaining the plan" Img="#5" Href="http://gallery.trafilm.net/conversation/metadata/?film=OceansEleven&amp;conversation=OceansEleven.ExplainingThePlan">
+        <Item Id="OceansEleven.ExplainingThePlan" Name="Ocean's Eleven - Explaining the plan" Img="#6" Href="http://gallery.trafilm.net/conversation/metadata/?film=OceansEleven&amp;conversation=OceansEleven.ExplainingThePlan">
             <Description>They are explaining the plan and the Chinese asks a question. Rusty responds.</Description>
             <Facets>
-                <Facet Name="Duration (min)">
-                    <Number Value="4" />
-                </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="OceansEleven" />
                 </Facet>
@@ -285,11 +305,8 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheWalk.GettingAnInterphone" Name="TheWalk.GettingAnInterphone" Img="#6" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.GettingAnInterphone">
+        <Item Id="TheWalk.GettingAnInterphone" Name="TheWalk.GettingAnInterphone" Img="#7" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.GettingAnInterphone">
             <Facets>
-                <Facet Name="Duration (min)">
-                    <Number Value="2" />
-                </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="TheWalk" />
                 </Facet>
@@ -319,11 +336,8 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheWalk.MeetingAnnie" Name="TheWalk.MeetingAnnie" Img="#7" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingAnnie">
+        <Item Id="TheWalk.MeetingAnnie" Name="TheWalk.MeetingAnnie" Img="#8" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingAnnie">
             <Facets>
-                <Facet Name="Duration (min)">
-                    <Number Value="3" />
-                </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="TheWalk" />
                 </Facet>
@@ -353,11 +367,8 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheWalk.MeetingJean-François" Name="TheWalk.MeetingJean-François" Img="#8" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingJean-François">
+        <Item Id="TheWalk.MeetingJean-François" Name="TheWalk.MeetingJean-François" Img="#9" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingJean-François">
             <Facets>
-                <Facet Name="Duration (min)">
-                    <Number Value="2" />
-                </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="TheWalk" />
                 </Facet>
@@ -387,11 +398,8 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheWalk.MeetingJean-Louis" Name="TheWalk.MeetingJean-Louis" Img="#9" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingJean-Louis">
+        <Item Id="TheWalk.MeetingJean-Louis" Name="TheWalk.MeetingJean-Louis" Img="#10" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingJean-Louis">
             <Facets>
-                <Facet Name="Duration (min)">
-                    <Number Value="2" />
-                </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="TheWalk" />
                 </Facet>
@@ -421,11 +429,8 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheWalk.MeetingPapaRudy" Name="TheWalk.MeetingPapaRudy" Img="#10" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingPapaRudy">
+        <Item Id="TheWalk.MeetingPapaRudy" Name="TheWalk.MeetingPapaRudy" Img="#11" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingPapaRudy">
             <Facets>
-                <Facet Name="Duration (min)">
-                    <Number Value="2" />
-                </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="TheWalk" />
                 </Facet>
@@ -462,11 +467,8 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheWalk.OnTheRoof" Name="TheWalk.OnTheRoof" Img="#11" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.OnTheRoof">
+        <Item Id="TheWalk.OnTheRoof" Name="TheWalk.OnTheRoof" Img="#12" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.OnTheRoof">
             <Facets>
-                <Facet Name="Duration (min)">
-                    <Number Value="2" />
-                </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="TheWalk" />
                 </Facet>
@@ -496,11 +498,8 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheWalk.PlanningTheCoup" Name="TheWalk.PlanningTheCoup" Img="#12" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.PlanningTheCoup">
+        <Item Id="TheWalk.PlanningTheCoup" Name="TheWalk.PlanningTheCoup" Img="#13" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.PlanningTheCoup">
             <Facets>
-                <Facet Name="Duration (min)">
-                    <Number Value="3" />
-                </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="TheWalk" />
                 </Facet>
@@ -530,11 +529,8 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheWalk.TwinTowers" Name="TheWalk.TwinTowers" Img="#13" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.TwinTowers">
+        <Item Id="TheWalk.TwinTowers" Name="TheWalk.TwinTowers" Img="#14" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.TwinTowers">
             <Facets>
-                <Facet Name="Duration (min)">
-                    <Number Value="3" />
-                </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="TheWalk" />
                 </Facet>
@@ -564,11 +560,8 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="ToyStory3.Buzzdances" Name="ToyStory3.Buzzdances" Img="#14" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzdances">
+        <Item Id="ToyStory3.Buzzdances" Name="ToyStory3.Buzzdances" Img="#15" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzdances">
             <Facets>
-                <Facet Name="Duration (min)">
-                    <Number Value="1" />
-                </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="ToyStory3" />
                 </Facet>
@@ -607,11 +600,8 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="ToyStory3.Buzzfallsinlove" Name="ToyStory3.Buzzfallsinlove" Img="#15" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzfallsinlove">
+        <Item Id="ToyStory3.Buzzfallsinlove" Name="ToyStory3.Buzzfallsinlove" Img="#16" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzfallsinlove">
             <Facets>
-                <Facet Name="Duration (min)">
-                    <Number Value="1" />
-                </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="ToyStory3" />
                 </Facet>
@@ -647,11 +637,8 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="ToyStory3.Buzzgetsreset" Name="ToyStory3.Buzzgetsreset" Img="#16" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzgetsreset">
+        <Item Id="ToyStory3.Buzzgetsreset" Name="ToyStory3.Buzzgetsreset" Img="#17" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzgetsreset">
             <Facets>
-                <Facet Name="Duration (min)">
-                    <Number Value="1" />
-                </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="ToyStory3" />
                 </Facet>
@@ -687,11 +674,8 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="ToyStory3.BuzzlooksforJessie" Name="ToyStory3.BuzzlooksforJessie" Img="#17" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.BuzzlooksforJessie">
+        <Item Id="ToyStory3.BuzzlooksforJessie" Name="ToyStory3.BuzzlooksforJessie" Img="#18" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.BuzzlooksforJessie">
             <Facets>
-                <Facet Name="Duration (min)">
-                    <Number Value="1" />
-                </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="ToyStory3" />
                 </Facet>
@@ -727,11 +711,8 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="ToyStory3.Buzzopensgate" Name="ToyStory3.Buzzopensgate" Img="#18" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzopensgate">
+        <Item Id="ToyStory3.Buzzopensgate" Name="ToyStory3.Buzzopensgate" Img="#19" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzopensgate">
             <Facets>
-                <Facet Name="Duration (min)">
-                    <Number Value="1" />
-                </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="ToyStory3" />
                 </Facet>
@@ -770,11 +751,8 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="ToyStory3.Buzzscape" Name="ToyStory3.Woodyfalls" Img="#19" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzscape">
+        <Item Id="ToyStory3.Buzzscape" Name="ToyStory3.Woodyfalls" Img="#20" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzscape">
             <Facets>
-                <Facet Name="Duration (min)">
-                    <Number Value="1" />
-                </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="ToyStory3" />
                 </Facet>
@@ -810,11 +788,8 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="ToyStory3.Buzzspaceship" Name="ToyStory3.Buzzspaceship" Img="#20" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzspaceship">
+        <Item Id="ToyStory3.Buzzspaceship" Name="ToyStory3.Buzzspaceship" Img="#21" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzspaceship">
             <Facets>
-                <Facet Name="Duration (min)">
-                    <Number Value="1" />
-                </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="ToyStory3" />
                 </Facet>

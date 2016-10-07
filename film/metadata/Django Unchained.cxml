@@ -10,10 +10,10 @@
     <FacetCategory Name="Blockbuster" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Year ST released" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Main language (L1)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="Conversations: count" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
-    <FacetCategory Name="Conversations: duration (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="L2-Dubbed languages" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L2-Subtitled languages" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Conversations: count" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Conversations: duration (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Tags" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -32,10 +32,11 @@
           <DateTime Value="2016-05-31T11:56:17" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-09-08T12:03:40" />
+          <DateTime Value="2016-09-15T07:22:43" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="George" />
+          <String Value="PatrickZabalbeascoa" />
         </Facet>
         <Facet Name="Duration (min)">
           <Number Value="158" />
@@ -51,6 +52,9 @@
         </Facet>
         <Facet Name="Production companies">
           <String Value="SONY" />
+        </Facet>
+        <Facet Name="Blockbuster">
+          <String Value="YES (top 20)" />
         </Facet>
         <Facet Name="Year ST released">
           <Number Value="2012" />

@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: CXMLFileStorage.cs
-//Version: 20150525
+//Version: 20151007
 
 using System;
 using System.Collections;
@@ -115,7 +115,7 @@ namespace Trafilm.Gallery
 
     public bool Contains(KeyValuePair<string, I> item)
     {
-      return File.Exists(FragmentFile(item.Key)); //TODO: should load CXML and compare somehow values?
+      return File.Exists(FragmentFile(item.Key)); //TODO: to implement this could load CXML and compare somehow item values
     }
 
     public bool ContainsKey(string key)

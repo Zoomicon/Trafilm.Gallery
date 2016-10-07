@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: L3TTinstance\metadata\default.aspx
-Version: 20160912
+Version: 20161007
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -38,6 +38,7 @@ Version: 20160912
     <asp:XmlDataSource ID="xmlL3TTfunctions" runat="server" DataFile="~/metadata/L3functions.xml" XPath="Facet/String" />
     <asp:XmlDataSource ID="xmlL3TTconversationFeatures" runat="server" DataFile="~/metadata/L3conversationFeatures.xml" XPath="Facet/String" />
     <asp:XmlDataSource ID="xmlL3TTsources" runat="server" DataFile="~/metadata/L3sources.xml" XPath="Facet/String" />
+    <asp:XmlDataSource ID="xmlConversationDuration" runat="server" DataFile="~/metadata/ConversationDuration.xml" XPath="Facet/String" />
 
 
     <%-- NAVIGATION MENU --%>
@@ -184,15 +185,15 @@ Version: 20160912
 
 
         <div class="label">
-          <div class="label">Conversation Start Time (min) (Calculated from Conversation)</div>
-          <div class="tip">What part of the film is the Conversation in? (i.e. how many minutes and seconds from the start)</div>
-          <asp:Label ID="lblStartTime" runat="server" />
+          <div class="label">Conversation start time (min) (Calculated from Conversation)</div>
+          <div class="tip">What part of the film is the Conversation in? (i.e. how many minutes from the start)</div>
+          <asp:Label ID="lblConversationStartTime" runat="server" />
         </div>
 
         <div class="label">
-          <div class="label">Conversation Duration (min) (Calculated from Conversation)</div>
-          <div class="tip">How long does the Conversation last? (if L3ST insances are interrupted by other speech, count total seconds from onset to end of final L3ST-instance)</div>
-          <asp:Label ID="lblDuration" runat="server" />
+          <div class="label">Conversation duration (sec) (Calculated from Conversation)</div>
+          <div class="tip">How long does the Conversation last? (if L3ST instances are interrupted by other speech, count total seconds from onset to end of final L3ST-instance)</div>
+          <asp:Label ID="lblConversationDuration" runat="server" />
         </div>
 
 
@@ -347,7 +348,7 @@ Version: 20160912
 
         <div class="question">
           <div class="label">23. L3TT sources <i>(with or without main language mix)</i></div>
-          <div class="info">Choose the description that best explains the number of sources (on or off screen, oral or written) and whether the main language is mixed with L3 (Main language, or “main”, is L2 for L3TT-instances)</div>
+          <div class="tip">Choose the description that best explains the number of sources (on or off screen, oral or written) and whether the main language is mixed with L3 (Main language, or “main”, is L2 for L3TT-instances)</div>
           <asp:DropDownList
             ID="listL3TTsources" runat="server"
             DataSourceID="xmlL3TTsources" DataTextField="Title" DataValueField="Value"

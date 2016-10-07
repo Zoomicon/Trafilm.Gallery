@@ -11,8 +11,8 @@
     <FacetCategory Name="Distribution countries (TT)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Year TT released" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Film TT Blockbuster" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
-    <FacetCategory Name="Start time (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
-    <FacetCategory Name="Duration (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Conversation start time (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Conversation duration (sec)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="L2 same as L3ST" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="L3ST conveyed as L3TT" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="L3TT language type" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -42,6 +42,120 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
+    <Item Id="Avatar.Calm down, people.Female Na'vi warning.SpanishDub" Name="Avatar.Calm down, people.Female Na'vi warning.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Avatar&amp;conversation=Avatar.Calm down, people&amp;L3STinstance=Avatar.Calm down, people.Female Na'vi warning&amp;L3TTinstance=Avatar.Calm down, people.Female Na'vi warning.SpanishDub">
+      <Description>Female avater tells her people to calm down</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Avatar.Calm down, people.Female Na'vi warning.SpanishDub" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Calma, pueblo, calma" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="The version is SpanishDub, but this instance is clarified through Spanish subtitles " />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-07T01:07:46" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-07T06:24:56" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="PatrickZabalbeascoa" />
+          <String Value="George" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Avatar" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Avatar.Calm down, people" />
+        </Facet>
+        <Facet Name="L3ST-instance Reference Id">
+          <String Value="Avatar.Calm down, people.Female Na'vi warning" />
+        </Facet>
+        <Facet Name="Film Title TT">
+          <String Value="Avatar" />
+        </Facet>
+        <Facet Name="L2 language">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L2 mode">
+          <String Value="Dubbed" />
+        </Facet>
+        <Facet Name="Distribution countries (TT)">
+          <String Value="Spain" />
+        </Facet>
+        <Facet Name="Year TT released">
+          <Number Value="2010" />
+        </Facet>
+        <Facet Name="Film TT Blockbuster">
+          <String Value="YES (top 20)" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="43" />
+        </Facet>
+        <Facet Name="L2 same as L3ST">
+          <String Value="No" />
+        </Facet>
+        <Facet Name="L3ST conveyed as L3TT">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT language type">
+          <String Value="Constructed (fictional)" />
+        </Facet>
+        <Facet Name="L3TT language">
+          <String Value="Na'vi" />
+        </Facet>
+        <Facet Name="L3TT constructed based on">
+          <String Value="Sci-fi" />
+        </Facet>
+        <Facet Name="L3TT meant to be understood">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="L3TT message required for understanding">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3TT speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3TT mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+          <String Value="Written diegetic" />
+        </Facet>
+        <Facet Name="L3TT merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
+        <Facet Name="L3TT functions">
+          <String Value="Dramatic effect" />
+          <String Value="Signals otherness" />
+        </Facet>
+        <Facet Name="Conversation features for L3TT-instance">
+          <String Value="persuasion" />
+          <String Value="warning" />
+        </Facet>
+        <Facet Name="L3TT sources">
+          <String Value="Oral L3: single source" />
+        </Facet>
+        <Facet Name="L3 language type change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 mode change">
+          <String Value="+ Written diegetic" />
+        </Facet>
+        <Facet Name="L3 functions change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="Conversation features for L3-instance change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 sources change">
+          <String Value="None" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Django Unchained.Slave speaks a little German.Slave opens conversation.Slave's ST German dubbed" Name="Django Unchained - Slave's ST German - Spanish dubbed" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Django Unchained&amp;conversation=Django Unchained.Slave speaks a little German&amp;L3STinstance=Django Unchained.Slave speaks a little German.Slave opens conversation&amp;L3TTinstance=Django Unchained.Slave speaks a little German.Slave opens conversation.Slave's ST German dubbed">
       <Description>Doing as she is told, Brunhilda starts to speak in German, in what we call a conversation opener, a salutation</Description>
       <Facets>
@@ -52,11 +166,11 @@
           <DateTime Value="2016-06-01T07:33:31" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-09-12T05:33:27" />
+          <DateTime Value="2016-09-15T07:55:20" />
         </Facet>
         <Facet Name="Metadata Editors">
-          <String Value="PatrickZabalbeascoa" />
           <String Value="George" />
+          <String Value="PatrickZabalbeascoa" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Django Unchained" />
@@ -85,11 +199,8 @@
         <Facet Name="Film TT Blockbuster">
           <String Value="YES (top 20)" />
         </Facet>
-        <Facet Name="Start time (min)">
+        <Facet Name="Conversation start time (min)">
           <Number Value="93" />
-        </Facet>
-        <Facet Name="Duration (min)">
-          <Number Value="1" />
         </Facet>
         <Facet Name="L2 same as L3ST">
           <String Value="No" />
@@ -109,11 +220,14 @@
         <Facet Name="L3TT message required for understanding">
           <String Value="Yes" />
         </Facet>
+        <Facet Name="L3TT meaning decipherable">
+          <String Value="NO" />
+        </Facet>
         <Facet Name="Quality of L3TT speaker performance">
           <String Value="native or proficient" />
         </Facet>
         <Facet Name="L3TT mode, written/spoken, diegetic">
-          <String Value="Oral non-diegetic" />
+          <String Value="Oral diegetic on-screen" />
         </Facet>
         <Facet Name="L3TT functions">
           <String Value="Character portrayal, nonstereotypical" />
@@ -132,15 +246,14 @@
           <String Value="None" />
         </Facet>
         <Facet Name="L3 mode change">
-          <String Value="- Oral diegetic on-screen" />
-          <String Value="+ Oral non-diegetic" />
+          <String Value="None" />
         </Facet>
         <Facet Name="L3 functions change">
           <String Value="None" />
         </Facet>
         <Facet Name="Conversation features for L3-instance change">
+          <String Value="- persuasion" />
           <String Value="+ balanced exchange" />
-          <String Value="+ introduction" />
         </Facet>
         <Facet Name="L3 sources change">
           <String Value="- Respond interlingually: different sources " />
@@ -164,11 +277,11 @@
           <DateTime Value="2016-06-15T09:38:56" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-09-08T10:48:05" />
+          <DateTime Value="2016-10-01T04:05:59" />
         </Facet>
         <Facet Name="Metadata Editors">
-          <String Value="miquelpt" />
           <String Value="George" />
+          <String Value="miquelpt" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="FellowshipOfTheRing" />
@@ -191,11 +304,8 @@
         <Facet Name="Year TT released">
           <Number Value="2001" />
         </Facet>
-        <Facet Name="Start time (min)">
+        <Facet Name="Conversation start time (min)">
           <Number Value="91" />
-        </Facet>
-        <Facet Name="Duration (min)">
-          <Number Value="1" />
         </Facet>
         <Facet Name="L2 same as L3ST">
           <String Value="No" />
@@ -233,6 +343,9 @@
         <Facet Name="L3TT functions">
           <String Value="Character portrayal, stereotypical" />
         </Facet>
+        <Facet Name="Conversation features for L3TT-instance">
+          <String Value="bonding" />
+        </Facet>
         <Facet Name="L3TT sources">
           <String Value="Non-diegetic translation" />
         </Facet>
@@ -249,7 +362,7 @@
           <String Value="None" />
         </Facet>
         <Facet Name="L3 sources change">
-          <String Value="- Respond interlingually: different sources " />
+          <String Value="- Bilingual (L3&amp;main): same source " />
           <String Value="+ Non-diegetic translation" />
         </Facet>
       </Facets>
@@ -297,11 +410,8 @@
         <Facet Name="Year TT released">
           <Number Value="2001" />
         </Facet>
-        <Facet Name="Start time (min)">
+        <Facet Name="Conversation start time (min)">
           <Number Value="91" />
-        </Facet>
-        <Facet Name="Duration (min)">
-          <Number Value="1" />
         </Facet>
         <Facet Name="L2 same as L3ST">
           <String Value="No" />
@@ -399,11 +509,8 @@
         <Facet Name="Year TT released">
           <Number Value="2001" />
         </Facet>
-        <Facet Name="Start time (min)">
+        <Facet Name="Conversation start time (min)">
           <Number Value="92" />
-        </Facet>
-        <Facet Name="Duration (min)">
-          <Number Value="1" />
         </Facet>
         <Facet Name="L2 same as L3ST">
           <String Value="No" />
@@ -502,11 +609,8 @@
         <Facet Name="Year TT released">
           <Number Value="2001" />
         </Facet>
-        <Facet Name="Start time (min)">
+        <Facet Name="Conversation start time (min)">
           <Number Value="92" />
-        </Facet>
-        <Facet Name="Duration (min)">
-          <Number Value="1" />
         </Facet>
         <Facet Name="L2 same as L3ST">
           <String Value="No" />
@@ -599,9 +703,6 @@
         <Facet Name="Year TT released">
           <Number Value="2003" />
         </Facet>
-        <Facet Name="Duration (min)">
-          <Number Value="1" />
-        </Facet>
         <Facet Name="L3 language type change">
           <String Value="- Real" />
           <String Value="+ " />
@@ -661,9 +762,6 @@
         </Facet>
         <Facet Name="Year TT released">
           <Number Value="2003" />
-        </Facet>
-        <Facet Name="Duration (min)">
-          <Number Value="3" />
         </Facet>
         <Facet Name="L2 same as L3ST">
           <String Value="No" />
@@ -732,11 +830,8 @@ There is another conversation taking place among women at the kitchen.</Descript
         <Facet Name="Year TT released">
           <Number Value="2001" />
         </Facet>
-        <Facet Name="Start time (min)">
+        <Facet Name="Conversation start time (min)">
           <Number Value="170" />
-        </Facet>
-        <Facet Name="Duration (min)">
-          <Number Value="4" />
         </Facet>
         <Facet Name="L2 same as L3ST">
           <String Value="No" />
@@ -826,11 +921,8 @@ There is another conversation taking place among women at the kitchen.</Descript
         <Facet Name="L2 mode">
           <String Value="Subtitled" />
         </Facet>
-        <Facet Name="Start time (min)">
+        <Facet Name="Conversation start time (min)">
           <Number Value="32" />
-        </Facet>
-        <Facet Name="Duration (min)">
-          <Number Value="4" />
         </Facet>
         <Facet Name="L2 same as L3ST">
           <String Value="No" />

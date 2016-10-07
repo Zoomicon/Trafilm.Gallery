@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: conversation\metadata\default.aspx.cs
-//Version: 20160906
+//Version: 20161007
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -62,7 +62,7 @@ namespace Trafilm.Gallery
 
     public void Rename()
     {
-      //...
+      //TODO
     }
 
     #region Selection
@@ -134,7 +134,7 @@ namespace Trafilm.Gallery
       UI.Load(listFilms, metadata.FilmReferenceId);
 
       UI.Load(txtStartTime, metadata.StartTime.ToString());
-      UI.Load(txtDuration, metadata.Duration.ToString());
+      UI.Load(listDuration, metadata.Duration);
 
       /*
       UI.Load(listLanguageSources, metadata.LanguageSources);
@@ -142,13 +142,12 @@ namespace Trafilm.Gallery
 
       //Calculated properties//
 
-      /*
-      UI.Load(lblL3languagesCount, metadata.L3STlanguagesCount.ToString());
+      //UI.Load(lblL3languagesCount, metadata.L3STlanguagesCount.ToString()); //don't need to display the count since there list of items is also shown
       UI.LoadContent(listL3languages, metadata.L3STlanguages); //do not use Load, use LoadContent to add values, not select them
 
-      UI.Load(lblL3languageTypesCount, metadata.L3STlanguageTypesCount.ToString());
+      //UI.Load(lblL3languageTypesCount, metadata.L3STlanguageTypesCount.ToString()); //don't need to display the count since there list of items is also shown
       UI.LoadContent(listL3languageTypes, metadata.L3STlanguageTypes); //do not use Load, use LoadContent to add values, not select them
-      */
+
       UI.Load(lblL3STinstanceCount, metadata.L3STinstanceCount.ToString());
     }
 
@@ -197,7 +196,7 @@ namespace Trafilm.Gallery
       metadata.FilmReferenceId = filmReferenceId;
 
       metadata.StartTime = txtStartTime.Text.ToNullableInt();
-      metadata.Duration = txtDuration.Text.ToNullableInt();
+      metadata.Duration = listDuration.SelectedValue;
       
       /*
       metadata.LanguageSources = listLanguageSources.SelectedValue;

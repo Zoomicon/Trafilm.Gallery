@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!--
+Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
+Filename: metadata/ConversationDuration.xml
+Version: 20161007
+-->
+
+<Facet Name="ConversationDuration">
+  <String Value="" Title="" />
+  <String Value="A. 1-20" Title="1-20 seconds" />
+  <String Value="B. 21-40" Title="21-40 seconds" />
+  <String Value="C. 41-60" Title="41-60 seconds" />
+  <String Value="D. 61-80" Title="61-80 seconds" />
+  <String Value="E. 81-100" Title="81-100 seconds" />
+  <String Value="F. 101-120" Title="101-120 seconds" />
+  <String Value="G. 121-140" Title="121-140 seconds" />
+  <String Value="H. 141-160" Title="141-160 seconds" />
+  <String Value="I. 161-180" Title="161-180 seconds" />
+  <String Value="J. &gt; 180" Title="&gt; 180 seconds" />
+</Facet>

@@ -4,7 +4,7 @@
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Start time (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
-    <FacetCategory Name="Duration (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Duration (sec)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Language sources" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3ST languages: count" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="L3ST languages" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -29,7 +29,7 @@
           <DateTime Value="2016-05-31T12:04:40" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-09-07T08:45:08" />
+          <DateTime Value="2016-10-07T06:19:26" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="PatrickZabalbeascoa" />
@@ -40,9 +40,6 @@
         </Facet>
         <Facet Name="Start time (min)">
           <Number Value="93" />
-        </Facet>
-        <Facet Name="Duration (min)">
-          <Number Value="1" />
         </Facet>
         <Facet Name="L3ST languages: count">
           <Number Value="1" />

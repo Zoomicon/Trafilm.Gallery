@@ -61,6 +61,7 @@
     <Content Include="L3STinstance\template_image.png" />
     <Content Include="login.aspx" />
     <Content Include="metadata\Blockbuster.xml" />
+    <Content Include="metadata\ConversationDuration.xml" />
     <Content Include="metadata\L3conversationFeatures.xml" />
     <Content Include="metadata\L3sources.xml">
       <SubType>Designer</SubType>
@@ -71,7 +72,7 @@
     <Content Include="metadata\YesNo.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="conversation\_default.html" />
+    <Content Include="conversation\default.html" />
     <Content Include="conversation\metadata\default.aspx" />
     <Content Include="ClientAccessPolicy.xml">
       <SubType>Designer</SubType>
@@ -189,7 +190,7 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="Trafilm.Metadata, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\Trafilm.Metadata.14.3.0\lib\portable-net403+sl5+win8+wpa81+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Trafilm.Metadata.dll</HintPath>
+      <HintPath>packages\Trafilm.Metadata.15.0.0\lib\portable-net403+sl5+win8+wpa81+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Trafilm.Metadata.dll</HintPath>
       <Private>True</Private>
     </Reference>
   </ItemGroup>

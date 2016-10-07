@@ -13,13 +13,13 @@ namespace Trafilm.Gallery {
     public partial class ConversationMetadataPage {
         
         /// <summary>
-        /// xmlLanguageSources control.
+        /// xmlDuration control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.XmlDataSource xmlLanguageSources;
+        protected global::System.Web.UI.WebControls.XmlDataSource xmlDuration;
         
         /// <summary>
         /// form1 control.
@@ -148,13 +148,31 @@ namespace Trafilm.Gallery {
         protected global::System.Web.UI.WebControls.TextBox txtStartTime;
         
         /// <summary>
-        /// txtDuration control.
+        /// listDuration control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtDuration;
+        protected global::System.Web.UI.WebControls.DropDownList listDuration;
+        
+        /// <summary>
+        /// listL3languages control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ListBox listL3languages;
+        
+        /// <summary>
+        /// listL3languageTypes control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ListBox listL3languageTypes;
         
         /// <summary>
         /// lblL3STinstanceCount control.

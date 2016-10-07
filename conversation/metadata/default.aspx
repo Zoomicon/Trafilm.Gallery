@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: conversation\metadata\default.aspx
-Version: 20160906
+Version: 20161007
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -20,7 +20,8 @@ Version: 20160906
 
     <%-- DATA SOURCES --%>
 
-    <asp:XmlDataSource ID="xmlLanguageSources" runat="server" DataFile="~/metadata/LanguageSources.xml" XPath="Facet/String" />
+    <%-- <asp:XmlDataSource ID="xmlLanguageSources" runat="server" DataFile="~/metadata/LanguageSources.xml" XPath="Facet/String" /> --%>
+    <asp:XmlDataSource ID="xmlDuration" runat="server" DataFile="~/metadata/ConversationDuration.xml" XPath="Facet/String" />
     
 
     <%-- NAVIGATION MENU --%>
@@ -108,21 +109,24 @@ Version: 20160906
         <%-- IConversationMetadata --%>
 
         <div class="question">
-          <div class="label">3. Conversation Start Time (min)</div>
-          <div class="tip">What part of the film is the Conversation in? (i.e. how many minutes and seconds from the start)</div>
+          <div class="label">3. Start time (min)</div>
+          <div class="tip">What part of the film is the Conversation in? (i.e. how many minutes from the start)</div>
           <asp:TextBox ID="txtStartTime" runat="server" Columns="25" />
         </div>
 
         <div class="question">
-          <div class="label">4. Conversation Duration (min)</div>
-          <div class="tip">How long does the Conversation last? (if L3ST insances are interrupted by other speech, count total seconds from onset to end of final L3ST-instance)</div>
-          <asp:TextBox ID="txtDuration" runat="server" Columns="25" />
+          <div class="label">4. Duration (sec)</div>
+          <div class="tip">How long does the Conversation last? (if L3ST instances are interrupted by other speech, count total seconds from onset to end of final L3ST-instance)</div>
+          <asp:DropDownList
+            ID="listDuration" runat="server"
+            DataSourceID="xmlDuration" DataTextField="Title" DataValueField="Value"
+            />
         </div>
         
         <%--
         <div class="question">
           <div class="label">6. Language sources <i>(oral &amp; written)</i></div>
-          <div class="info">How many “language sources” are there, i.e. characters speaking (total amount in any language) in this conversation, but also counting other relevant sources like narrator or written words?</div>
+          <div class="tip">How many “language sources” are there, i.e. characters speaking (total amount in any language) in this conversation, but also counting other relevant sources like narrator or written words?</div>
           <asp:DropDownList
             ID="listLanguageSources" runat="server"
             DataSourceID="xmlLanguageSources" DataTextField="Title" DataValueField="Value"
@@ -130,14 +134,16 @@ Version: 20160906
         </div>
         --%>
 
+
         <%-- Calculated from L3STinstances --%>
 
-        <%--
+        <%-- //don't need to display the count since there list of items is also shown
         <div>
           <div class="label">L3ST languages: count (Calculated from L3ST-instances)</div>
           <div class="tip">Count of L3ST languages in Conversation</div>
           <asp:Label ID="lblL3languagesCount" runat="server"></asp:Label>
         </div>  
+        --%>
 
         <div>
           <div class="label">L3ST languages (Calculated from L3ST-instances)</div>
@@ -147,12 +153,13 @@ Version: 20160906
           </asp:Panel>
         </div>    
 
-
+         <%-- //don't need to display the count since there list of items is also shown
         <div>
           <div class="label">L3ST language types: count (Calculated from L3ST-instances)</div>
           <div class="tip">Count of L3ST language types in Conversation</div>
           <asp:Label ID="lblL3languageTypesCount" runat="server"></asp:Label>
-        </div> 
+        </div>
+        --%>
         
         <div>
           <div class="label">L3ST language types (Calculated from L3ST-instances)</div>
@@ -161,7 +168,7 @@ Version: 20160906
             <asp:ListBox ID="listL3languageTypes" runat="server" Enabled="false" />
            </asp:Panel>
         </div>
-        --%>
+
 
         <div>
           <div class="label">Count of L3ST-instances (Calculated)</div>
