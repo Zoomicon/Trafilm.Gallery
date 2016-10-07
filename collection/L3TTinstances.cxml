@@ -11,7 +11,7 @@
         <FacetCategory Name="Distribution countries (TT)" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="Year TT released" Type="Number" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
         <FacetCategory Name="Film TT Blockbuster" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
-        <FacetCategory Name="Start time (min)" Type="Number" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
+        <FacetCategory Name="Conversation start time (min)" Type="Number" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
         <FacetCategory Name="Conversation duration (sec)" Type="Number" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
         <FacetCategory Name="L2 same as L3ST" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
         <FacetCategory Name="L3ST conveyed as L3TT" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
@@ -57,6 +57,9 @@
                 </Facet>
                 <Facet Name="Conversation Reference Id">
                     <String Value="Avatar.Calm down, people" />
+                </Facet>
+                <Facet Name="Conversation start time (min)">
+                    <Number Value="43" />
                 </Facet>
                 <Facet Name="Distribution countries (TT)">
                     <String Value="Spain" />
@@ -147,9 +150,6 @@
                 <Facet Name="Remarks">
                     <String Value="The version is SpanishDub, but this instance is clarified through Spanish subtitles " />
                 </Facet>
-                <Facet Name="Start time (min)">
-                    <Number Value="43" />
-                </Facet>
                 <Facet Name="Transcription">
                     <String Value="Calma, pueblo, calma" />
                 </Facet>
@@ -174,6 +174,9 @@
                 </Facet>
                 <Facet Name="Conversation Reference Id">
                     <String Value="Django Unchained.Slave speaks a little German" />
+                </Facet>
+                <Facet Name="Conversation start time (min)">
+                    <Number Value="93" />
                 </Facet>
                 <Facet Name="Distribution countries (TT)">
                     <String Value="Spain" />
@@ -258,9 +261,6 @@
                 <Facet Name="Reference Id">
                     <String Value="Django Unchained.Slave speaks a little German.Slave opens conversation.Slave's ST German dubbed" />
                 </Facet>
-                <Facet Name="Start time (min)">
-                    <Number Value="93" />
-                </Facet>
                 <Facet Name="Year TT released">
                     <Number Value="2012" />
                 </Facet>
@@ -280,6 +280,9 @@
                 </Facet>
                 <Facet Name="Conversation Reference Id">
                     <String Value="FellowshipOfTheRing.Rivendell_AragornArwen" />
+                </Facet>
+                <Facet Name="Conversation start time (min)">
+                    <Number Value="91" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="FellowshipOfTheRing" />
@@ -364,9 +367,6 @@
                 <Facet Name="Remarks">
                     <String Value="The dubbed Spanish version maintains the instance in the original L3 (Elvish as constructed language) but includes a translation of the instance in subtitles.   " />
                 </Facet>
-                <Facet Name="Start time (min)">
-                    <Number Value="91" />
-                </Facet>
                 <Facet Name="Transcription">
                     <String Value="La Sombra no se ha cernido aún.&#xD;&#xA;&#xD;&#xA;Ni sobre ti, ni sobre mi.&#xD;&#xA;" />
                 </Facet>
@@ -386,6 +386,9 @@
                 </Facet>
                 <Facet Name="Conversation Reference Id">
                     <String Value="FellowshipOfTheRing.Rivendell_AragornArwen" />
+                </Facet>
+                <Facet Name="Conversation start time (min)">
+                    <Number Value="91" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="FellowshipOfTheRing" />
@@ -469,9 +472,6 @@
                 <Facet Name="Remarks">
                     <String Value="Subtitling does not show any difference in the translation of L1 and L3." />
                 </Facet>
-                <Facet Name="Start time (min)">
-                    <Number Value="91" />
-                </Facet>
                 <Facet Name="Transcription">
                     <String Value="La Sombra no se ha cernido aún.&#xD;&#xA;&#xD;&#xA;Ni sobre ti, ni sobre mi.&#xD;&#xA;" />
                 </Facet>
@@ -491,6 +491,9 @@
                 </Facet>
                 <Facet Name="Conversation Reference Id">
                     <String Value="FellowshipOfTheRing.Rivendell_AragornArwen" />
+                </Facet>
+                <Facet Name="Conversation start time (min)">
+                    <Number Value="92" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="FellowshipOfTheRing" />
@@ -572,9 +575,6 @@
                 <Facet Name="Reference Id">
                     <String Value="FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge.SpanishDub" />
                 </Facet>
-                <Facet Name="Start time (min)">
-                    <Number Value="92" />
-                </Facet>
                 <Facet Name="Transcription">
                     <String Value="Arwen: Renich i lú i erui govannem? [SUB: ¿Te acuerdas del día / que nos conocimos?]&#xD;&#xA;Aragorn: Nauthannen i ned ôl reniannen. [SUB: Pensé que me había perdido / en un sueño.]&#xD;&#xA;Arwen: Gwennnin in enninath. Ú-arnech in naeth i si celich. Renich i beth i pennen? [SUB: Largos años han pasado.&#xD;&#xA;Largos años han pasado. SUB: No tenías las preocupaciones que soportas ahora. SUB: ¿Te acuerdas de lo que dije?]&#xD;&#xA;&#xD;&#xA;Aragorn: Dijiste que acabarías uniéndote a mí, renunciando a la vida inmortal, propia de tu pueblo.&#xD;&#xA;Arwen: Y lo sigo diciendo. Antes compartiría una vida contigo que enfrentarme a todas las Edades de este mundo sola. Elijo una vida mortal. &#xD;&#xA;" />
                 </Facet>
@@ -594,6 +594,9 @@
                 </Facet>
                 <Facet Name="Conversation Reference Id">
                     <String Value="FellowshipOfTheRing.Rivendell_AragornArwen" />
+                </Facet>
+                <Facet Name="Conversation start time (min)">
+                    <Number Value="92" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="FellowshipOfTheRing" />
@@ -674,9 +677,6 @@
                 </Facet>
                 <Facet Name="Reference Id">
                     <String Value="FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge.SpanishSub" />
-                </Facet>
-                <Facet Name="Start time (min)">
-                    <Number Value="92" />
                 </Facet>
                 <Facet Name="Transcription">
                     <String Value="Subtitles:&#xD;&#xA;&#xD;&#xA;¿Te acuerdas del día / que nos conocimos?&#xD;&#xA;Pensé que me había perdido / en un sueño.&#xD;&#xA;Largos años han pasado.&#xD;&#xA;No tenías las preocupaciones que soportas ahora. &#xD;&#xA;¿Te acuerdas de lo que dije?&#xD;&#xA;Dijiste que te unirías a mí&#xD;&#xA;renunciando a la vida inmortal&#xD;&#xA;de tu pueblo.&#xD;&#xA;Y lo mantengo.&#xD;&#xA;Antes compartiría / una vida contigo&#xD;&#xA;que enfrentarme a todas / las edades de este mundo sola.&#xD;&#xA;Elijo una vida mortal." />
@@ -826,6 +826,9 @@ There is another conversation taking place among women at the kitchen.</Descript
                 <Facet Name="Conversation Reference Id">
                     <String Value="Monsoon Wedding.Conversation in the garden on the phone" />
                 </Facet>
+                <Facet Name="Conversation start time (min)">
+                    <Number Value="170" />
+                </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="Monsoon Wedding" />
                 </Facet>
@@ -906,9 +909,6 @@ There is another conversation taking place among women at the kitchen.</Descript
                 <Facet Name="Remarks">
                     <String Value="All translated from Hindi into Spanish" />
                 </Facet>
-                <Facet Name="Start time (min)">
-                    <Number Value="170" />
-                </Facet>
                 <Facet Name="Year TT released">
                     <Number Value="2001" />
                 </Facet>
@@ -924,6 +924,9 @@ There is another conversation taking place among women at the kitchen.</Descript
                 </Facet>
                 <Facet Name="Conversation Reference Id">
                     <String Value="OceansEleven.ExplainingThePlan" />
+                </Facet>
+                <Facet Name="Conversation start time (min)">
+                    <Number Value="32" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="OceansEleven" />
@@ -988,9 +991,6 @@ There is another conversation taking place among women at the kitchen.</Descript
                 </Facet>
                 <Facet Name="Reference Id">
                     <String Value="OceansEleven.ExplainingThePlan.Chinese.SpanishSub" />
-                </Facet>
-                <Facet Name="Start time (min)">
-                    <Number Value="32" />
                 </Facet>
             </Facets>
         </Item>

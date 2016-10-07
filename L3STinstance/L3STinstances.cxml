@@ -4,7 +4,7 @@
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Conversation Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="Start time (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Conversation start time (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Conversation duration (sec)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Main (L1) language" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3ST language type" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -54,7 +54,7 @@
         <Facet Name="Conversation Reference Id">
           <String Value="Avatar.Calm down, people" />
         </Facet>
-        <Facet Name="Start time (min)">
+        <Facet Name="Conversation start time (min)">
           <Number Value="43" />
         </Facet>
         <Facet Name="Conversation duration (sec)">
@@ -134,7 +134,7 @@
         <Facet Name="Conversation Reference Id">
           <String Value="Django Unchained.Slave speaks a little German" />
         </Facet>
-        <Facet Name="Start time (min)">
+        <Facet Name="Conversation start time (min)">
           <Number Value="93" />
         </Facet>
         <Facet Name="Conversation duration (sec)">
@@ -214,7 +214,7 @@
         <Facet Name="Conversation Reference Id">
           <String Value="FellowshipOfTheRing.Rivendell_AragornArwen" />
         </Facet>
-        <Facet Name="Start time (min)">
+        <Facet Name="Conversation start time (min)">
           <Number Value="91" />
         </Facet>
         <Facet Name="Conversation duration (sec)">
@@ -298,7 +298,7 @@
         <Facet Name="Conversation Reference Id">
           <String Value="FellowshipOfTheRing.Rivendell_AragornArwen" />
         </Facet>
-        <Facet Name="Start time (min)">
+        <Facet Name="Conversation start time (min)">
           <Number Value="92" />
         </Facet>
         <Facet Name="Conversation duration (sec)">
@@ -610,7 +610,7 @@ There is another conversation taking place among women at the kitchen.</Descript
         <Facet Name="Conversation Reference Id">
           <String Value="Monsoon Wedding.Conversation in the garden on the phone" />
         </Facet>
-        <Facet Name="Start time (min)">
+        <Facet Name="Conversation start time (min)">
           <Number Value="170" />
         </Facet>
         <Facet Name="Conversation duration (sec)">
@@ -671,7 +671,7 @@ There is another conversation taking place among women at the kitchen.</Descript
         <Facet Name="Conversation Reference Id">
           <String Value="OceansEleven.ExplainingThePlan" />
         </Facet>
-        <Facet Name="Start time (min)">
+        <Facet Name="Conversation start time (min)">
           <Number Value="32" />
         </Facet>
         <Facet Name="Conversation duration (sec)">
@@ -723,7 +723,7 @@ There is another conversation taking place among women at the kitchen.</Descript
         <Facet Name="Conversation Reference Id">
           <String Value="TheWalk.MeetingPapaRudy" />
         </Facet>
-        <Facet Name="Start time (min)">
+        <Facet Name="Conversation start time (min)">
           <Number Value="12" />
         </Facet>
         <Facet Name="Conversation duration (sec)">
@@ -791,7 +791,7 @@ There is another conversation taking place among women at the kitchen.</Descript
         <Facet Name="Conversation Reference Id">
           <String Value="TheWalk.MeetingPapaRudy" />
         </Facet>
-        <Facet Name="Start time (min)">
+        <Facet Name="Conversation start time (min)">
           <Number Value="12" />
         </Facet>
         <Facet Name="Conversation duration (sec)">
@@ -856,7 +856,7 @@ There is another conversation taking place among women at the kitchen.</Descript
         <Facet Name="Conversation Reference Id">
           <String Value="TheWalk.MeetingPapaRudy" />
         </Facet>
-        <Facet Name="Start time (min)">
+        <Facet Name="Conversation start time (min)">
           <Number Value="12" />
         </Facet>
         <Facet Name="Conversation duration (sec)">
@@ -921,7 +921,7 @@ There is another conversation taking place among women at the kitchen.</Descript
         <Facet Name="Conversation Reference Id">
           <String Value="TheWalk.MeetingPapaRudy" />
         </Facet>
-        <Facet Name="Start time (min)">
+        <Facet Name="Conversation start time (min)">
           <Number Value="13" />
         </Facet>
         <Facet Name="Conversation duration (sec)">
@@ -986,7 +986,7 @@ There is another conversation taking place among women at the kitchen.</Descript
         <Facet Name="Conversation Reference Id">
           <String Value="TheWalk.OnTheRoof" />
         </Facet>
-        <Facet Name="Start time (min)">
+        <Facet Name="Conversation start time (min)">
           <Number Value="83" />
         </Facet>
         <Facet Name="Conversation duration (sec)">

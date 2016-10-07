@@ -21,7 +21,7 @@ Version: 20161007
     <%-- DATA SOURCES --%>
 
     <%-- <asp:XmlDataSource ID="xmlLanguageSources" runat="server" DataFile="~/metadata/LanguageSources.xml" XPath="Facet/String" /> --%>
-    <asp:XmlDataSource ID="xmlConversationDuration" runat="server" DataFile="~/metadata/ConversationDuration.xml" XPath="Facet/String" />
+    <asp:XmlDataSource ID="xmlDuration" runat="server" DataFile="~/metadata/ConversationDuration.xml" XPath="Facet/String" />
     
 
     <%-- NAVIGATION MENU --%>
