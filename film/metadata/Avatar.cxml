@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Collection SchemaVersion="1.0" Name="Avatar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+  <FacetCategories>
+    <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Duration (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Director(s)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Scriptwriter(s)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Production countries" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Production companies" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Blockbuster" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Year ST released" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Main language (L1)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L2-Dubbed languages" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L2-Subtitled languages" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Conversations: count" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Conversations: duration (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Tags" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+  </FacetCategories>
+  <Items xmlns="">
+    <Item Id="Avatar" Name="Avatar" Img="http://www.movie-poster-artwork-finder.com/wp-content/uploads/2012/10/avatar-2009-poster-artwork-sam-worthington-zoe-saldana-stephen-lang.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Avatar">
+      <Description>Epic science fiction film set in the mid-22nd century, when humans are colonizing Pandora, a lush habitable moon of a gas giant in the Alpha Centauri star system, in order to mine the mineral unobtanium, a room-temperature superconductor. The expansion of the mining colony threatens the continued existence of a local tribe of Na'vi – a humanoid species indigenous to Pandora. The film's title refers to a genetically engineered Na'vi body with the mind of a remotely located human that is used to interact with the natives of Pandora.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Avatar" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="Na'vi" />
+          <String Value=" constructed language" />
+          <String Value=" science-fiction" />
+          <String Value=" avatars" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-07T12:30:57" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-07T12:51:26" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="PatrickZabalbeascoa" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="161" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="James Cameron" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="James Cameron" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="United States" />
+          <String Value=" United Kingdom" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="Lightstorm Entertainment" />
+          <String Value=" Dune Entertainment" />
+          <String Value=" Ingenious Film Partners" />
+        </Facet>
+        <Facet Name="Blockbuster">
+          <String Value="YES (top 20)" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2009" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="Conversations: duration (min)">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+  </Items>
+</Collection>

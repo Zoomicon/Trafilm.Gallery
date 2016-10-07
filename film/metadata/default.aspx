@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: film\metadata\default.aspx
-Version: 20160929
+Version: 20161007
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -181,11 +181,6 @@ Version: 20160929
 
         <%-- Calculated from Conversations --%>
         
-        <div>
-          <div class="label">Conversations' duration (min) (Calculated from Conversations)</div>
-          <asp:Label ID="lblConversationsDuration" runat="server"></asp:Label>
-        </div>                            
-
         <div>
           <div class="label">Count of Conversations (Calculated)</div>
           <asp:Label ID="lblConversationCount" runat="server"></asp:Label>

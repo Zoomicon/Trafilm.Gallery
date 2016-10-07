@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: conversation\metadata\default.aspx.cs
-//Version: 20160906
+//Version: 20161007
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -134,7 +134,7 @@ namespace Trafilm.Gallery
       UI.Load(listFilms, metadata.FilmReferenceId);
 
       UI.Load(txtStartTime, metadata.StartTime.ToString());
-      UI.Load(txtDuration, metadata.Duration.ToString());
+      UI.Load(listDuration, metadata.Duration);
 
       /*
       UI.Load(listLanguageSources, metadata.LanguageSources);
@@ -197,7 +197,7 @@ namespace Trafilm.Gallery
       metadata.FilmReferenceId = filmReferenceId;
 
       metadata.StartTime = txtStartTime.Text.ToNullableInt();
-      metadata.Duration = txtDuration.Text.ToNullableInt();
+      metadata.Duration = listDuration.SelectedValue;
       
       /*
       metadata.LanguageSources = listLanguageSources.SelectedValue;

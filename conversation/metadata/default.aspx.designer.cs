@@ -13,13 +13,13 @@ namespace Trafilm.Gallery {
     public partial class ConversationMetadataPage {
         
         /// <summary>
-        /// xmlLanguageSources control.
+        /// xmlConversationDuration control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.XmlDataSource xmlLanguageSources;
+        protected global::System.Web.UI.WebControls.XmlDataSource xmlConversationDuration;
         
         /// <summary>
         /// form1 control.
@@ -148,13 +148,13 @@ namespace Trafilm.Gallery {
         protected global::System.Web.UI.WebControls.TextBox txtStartTime;
         
         /// <summary>
-        /// txtDuration control.
+        /// listDuration control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtDuration;
+        protected global::System.Web.UI.WebControls.DropDownList listDuration;
         
         /// <summary>
         /// lblL3STinstanceCount control.

@@ -130,6 +130,15 @@ namespace Trafilm.Gallery {
         protected global::System.Web.UI.WebControls.XmlDataSource xmlL3STsources;
         
         /// <summary>
+        /// xmlConversationDuration control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.XmlDataSource xmlConversationDuration;
+        
+        /// <summary>
         /// form1 control.
         /// </summary>
         /// <remarks>
@@ -292,22 +301,22 @@ namespace Trafilm.Gallery {
         protected global::System.Web.UI.WebControls.TextBox txtImageUrl;
         
         /// <summary>
-        /// lblStartTime control.
+        /// lblConversationStartTime control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblStartTime;
+        protected global::System.Web.UI.WebControls.Label lblConversationStartTime;
         
         /// <summary>
-        /// lblDuration control.
+        /// lblConversationDuration control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblDuration;
+        protected global::System.Web.UI.WebControls.Label lblConversationDuration;
         
         /// <summary>
         /// lblL1language control.

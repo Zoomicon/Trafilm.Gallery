@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: film\metadata\default.aspx.cs
-//Version: 20160908
+//Version: 20161007
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -153,7 +153,6 @@ namespace Trafilm.Gallery
       UI.LoadContent(listL2subtitledLanguages, metadata.L2subtitledLanguages);
 
       UI.Load(lblConversationCount, metadata.ConversationCount.ToString());
-      UI.Load(lblConversationsDuration, metadata.ConversationsDuration.ToString());
     }
  
     #endregion

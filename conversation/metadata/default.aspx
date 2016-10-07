@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: conversation\metadata\default.aspx
-Version: 20160929
+Version: 20161007
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -20,7 +20,8 @@ Version: 20160929
 
     <%-- DATA SOURCES --%>
 
-    <asp:XmlDataSource ID="xmlLanguageSources" runat="server" DataFile="~/metadata/LanguageSources.xml" XPath="Facet/String" />
+    <%-- <asp:XmlDataSource ID="xmlLanguageSources" runat="server" DataFile="~/metadata/LanguageSources.xml" XPath="Facet/String" /> --%>
+    <asp:XmlDataSource ID="xmlConversationDuration" runat="server" DataFile="~/metadata/ConversationDuration.xml" XPath="Facet/String" />
     
 
     <%-- NAVIGATION MENU --%>
@@ -108,15 +109,18 @@ Version: 20160929
         <%-- IConversationMetadata --%>
 
         <div class="question">
-          <div class="label">3. Conversation Start Time (min)</div>
-          <div class="tip">What part of the film is the Conversation in? (i.e. how many minutes and seconds from the start)</div>
+          <div class="label">3. Start time (min)</div>
+          <div class="tip">What part of the film is the Conversation in? (i.e. how many minutes from the start)</div>
           <asp:TextBox ID="txtStartTime" runat="server" Columns="25" />
         </div>
 
         <div class="question">
-          <div class="label">4. Conversation Duration (min)</div>
-          <div class="tip">How long does the Conversation last? (if L3ST insances are interrupted by other speech, count total seconds from onset to end of final L3ST-instance)</div>
-          <asp:TextBox ID="txtDuration" runat="server" Columns="25" />
+          <div class="label">4. Duration (sec)</div>
+          <div class="tip">How long does the Conversation last? (if L3ST instances are interrupted by other speech, count total seconds from onset to end of final L3ST-instance)</div>
+          <asp:DropDownList
+            ID="listDuration" runat="server"
+            DataSourceID="xmlDuration" DataTextField="Title" DataValueField="Value"
+            />
         </div>
         
         <%--

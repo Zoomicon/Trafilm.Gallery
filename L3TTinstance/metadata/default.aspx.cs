@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: L3TTinstance\metadata\default.aspx.cs
-//Version: 20160912
+//Version: 20161007
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -158,8 +158,8 @@ namespace Trafilm.Gallery
       UI.Load(txtYearTTreleased, metadata.YearTTreleased.ToString());
       UI.Load(listBlockbusterTT, metadata.BlockbusterTT);
 
-      UI.Load(lblStartTime, metadata.StartTime.ToString());
-      UI.Load(lblDuration, metadata.Duration.ToString());
+      UI.Load(lblConversationStartTime, metadata.ConversationStartTime.ToString());
+      UI.Load(lblConversationDuration, metadata.ConversationDuration);
 
       UI.Load(listL2sameAsL3ST, metadata.L2sameAsL3ST);
       UI.Load(listL3STconveyedAsL3TT, metadata.L3STconveyedAsL3TT);
