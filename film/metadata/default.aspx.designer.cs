@@ -247,33 +247,6 @@ namespace Trafilm.Gallery {
         protected global::System.Web.UI.WebControls.ListBox listL2subtitledLanguages;
         
         /// <summary>
-        /// lblConversationCount control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblConversationCount;
-        
-        /// <summary>
-        /// panelNoFilmTranscription control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel panelNoFilmTranscription;
-        
-        /// <summary>
-        /// txtTranscription control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtTranscription;
-        
-        /// <summary>
         /// txtTags control.
         /// </summary>
         /// <remarks>
@@ -335,6 +308,15 @@ namespace Trafilm.Gallery {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnSave;
+        
+        /// <summary>
+        /// lblConversationCount control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblConversationCount;
         
         /// <summary>
         /// repeaterConversations control.

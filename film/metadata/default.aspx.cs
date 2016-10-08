@@ -126,7 +126,7 @@ namespace Trafilm.Gallery
 
       UI.LoadContent(listMetadataEditors, metadata.MetadataEditors);
 
-      UI.Load(txtTranscription, metadata.Transcription);
+      //UI.Load(txtTranscription, metadata.Transcription);
 
       UI.Load(txtTags, metadata.Tags);
 
@@ -180,7 +180,7 @@ namespace Trafilm.Gallery
 
       metadata.MetadataEditors = UI.GetContent(listMetadataEditors);
 
-      metadata.Transcription = txtTranscription.Text;
+      //metadata.Transcription = txtTranscription.Text;
 
       metadata.Tags = UI.GetCommaSeparated(txtTags);
 
