@@ -115,13 +115,13 @@ Version: 20161007
 
         <%-- ICXMLMetadata--%>
 
-        <div class="question">
+        <div class="question" id="Title">
           <div class="label">1. L3TT-instance Title</div>
           <div class="tip">Free text descriptive title (&lt;50 characters)</div>
           <asp:TextBox ID="txtTitle" runat="server" Columns="150" />
         </div>
 
-        <div class="label">
+        <div class="label" id="Description">
           <div class="label">Description (Calculated from L3ST-instance)</div>
           <div class="tip">Free text brief description (<200 characters)</div>
           <asp:TextBox ID="txtDescription" runat="server" TextMode="MultiLine" Rows="5" Columns="110" ReadOnly="true" />
@@ -130,7 +130,7 @@ Version: 20161007
         <div class="label">L3TT-instance URL</div>
         <asp:HyperLink ID="linkUrl" runat="server" Target="_blank"/>
     
-        <div class="label">
+        <div class="label" id="Image">
           <div class="label">Image URL (Calculated from L3ST-instance)</div>
           <asp:Label ID="lblImageUrl" runat="server" />
         </div>   
@@ -138,13 +138,13 @@ Version: 20161007
 
         <%-- IL3TTinstanceMetadata --%>
 
-        <div class="question">
+        <div class="question" id="FilmTitleTT">
           <div class="label">2. Film Title TT</div>
           <asp:TextBox ID="txtFilmTitleTT" runat="server" Columns="150" />
         </div>
 
 
-        <div class="question">
+        <div class="question" id="L2language">
           <div class="label">3. L2 language</div>
           <div class="tip">What language is L2 in?</div>
           <asp:DropDownList 
@@ -152,7 +152,7 @@ Version: 20161007
             DataSourceID="xmlL2language" DataTextField="Value" DataValueField="Value" />
         </div>
 
-        <div class="question">
+        <div class="question" id="L2mode">
           <div class="label">4. L2 mode</div>
           <div class="tip">Mode of L2?</div>
           <asp:DropDownList 
@@ -161,19 +161,19 @@ Version: 20161007
         </div>
 
 
-        <div class="question">
+        <div class="question" id="DistributionCountriesTT">
           <div class="label">5. Distribution countries (TT)</div>
           <div class="tip">Full name(s), insert a comma (,) between different countries</div>
           <asp:TextBox ID="txtDistributionCountriesTT" runat="server" Columns="150" />
         </div>
 
-        <div class="question">
+        <div class="question" id="YearTTreleased">
           <div class="label">6. Year TT released</div>
           <asp:TextBox ID="txtYearTTreleased" runat="server" />
         </div>
 
 
-        <div class="question">
+        <div class="question" id="FilmTTblockbuster">
           <div class="label">7. Film TT Blockbuster</div>
           <div class="tip">Is the TT version ranked in the top 20 where distributed?</div>
           <asp:Panel runat="server" ScrollBars="Auto">
@@ -197,7 +197,7 @@ Version: 20161007
         </div>
 
 
-        <div class="question">
+        <div class="question" id="L2sameAsL3ST">
           <div class="label">8. L2 same as L3ST</div>
           <div class="tip">Is L2 same language as L3ST?</div>
           <asp:DropDownList 
@@ -205,7 +205,7 @@ Version: 20161007
             DataSourceID="xmlYesNo" DataTextField="Title" DataValueField="Value" />
         </div>
 
-        <div class="question">
+        <div class="question" id="L3STconveyedAsL3TT">
           <div class="label">9. L3ST conveyed as L3TT</div>
           <div class="tip">Has L3ST been conveyed as some sort of L3TT in the TT?</div>
           <asp:DropDownList 
@@ -214,7 +214,7 @@ Version: 20161007
         </div>
 
 
-        <div class="question">
+        <div class="question" id="L3TTlanguageType">
           <div class="label">10. L3TT language type</div>
           <div class="tip">With L2 as main language (L-main), what type of language is L3TT?</div>
           <asp:DropDownList 
@@ -222,14 +222,14 @@ Version: 20161007
             DataSourceID="xmlL3TTlanguageType" DataTextField="Title" DataValueField="Value" />
         </div>
 
-        <div class="question">
+        <div class="question" id="L3TTlanguage">
           <div class="label">11. L3TT language</div>
           <div class="tip">Which language is L3TT?</div>
           <asp:TextBox ID="txtL3TTlanguage" runat="server" Columns="150" />
         </div>
 
 
-        <div class="question">
+        <div class="question" id="L3TTconstructedBasedOn">
           <div class="label">12. L3TT constructed based on</div>
           <div class="tip">If L3TT is “constructed”, is it based on any of the following options?</div>
           <asp:Panel runat="server" ScrollBars="Auto" Style="max-height: 100px">
@@ -241,7 +241,7 @@ Version: 20161007
         </div>
 
 
-        <div class="question">
+        <div class="question" id="L3TTaudienceUnderstanding">
           <div class="label">13. L3TT meant to be understood</div>
           <div class="tip">Is L3TT meant to be understood by most of the audience?</div>
           <asp:DropDownList 
@@ -249,7 +249,7 @@ Version: 20161007
             DataSourceID="xmlL3TTaudienceUnderstanding" DataTextField="Value" DataValueField="Value" />
         </div>
 
-        <div class="question">
+        <div class="question" id="L3TTmessageUnderstanding">
           <div class="label">14. L3TT message required for understanding</div>
           <div class="tip">Does L3TT carry a meaningful message or one that requires it to be understood?</div>
           <asp:DropDownList 
@@ -257,7 +257,7 @@ Version: 20161007
             DataSourceID="xmlL3TTmessageUnderstanding" DataTextField="Value" DataValueField="Value" />
         </div>
 
-        <div class="question">
+        <div class="question" id="L3TTmeaningDecipherable">
           <div class="label">15. L3TT meaning decipherable</div>
           <div class="tip">Can the (pragmatic) meaning of L3TT be deciphered by other means? </div>
           <asp:DropDownList 
@@ -266,7 +266,7 @@ Version: 20161007
         </div>
 
 
-        <div class="question">
+        <div class="question" id="L3TTspeakerPerformance">
           <div class="label">16. Quality of L3TT speaker performance</div>
           <div class="tip">How well is the L3TT spoken?</div>
           <asp:DropDownList 
@@ -275,7 +275,7 @@ Version: 20161007
         </div>
 
 
-        <div class="question">
+        <div class="question" id="L3TTmode">
           <div class="label">17. L3TT mode, written/spoken, diegetic</div>
           <div class="tip">Mode of L3TT?</div>
           <asp:Panel runat="server" ScrollBars="Auto" Style="max-height: 100px">
@@ -287,7 +287,7 @@ Version: 20161007
         </div>
 
 
-        <div class="question">
+        <div class="question" id="L3TTrepresented">
           <div class="label">18. L3TT merely represented</div>
           <div class="tip">There is no actual L3TT, but there are clues</div>
           <asp:Panel runat="server" ScrollBars="Auto" Style="max-height: 100px">
@@ -298,7 +298,7 @@ Version: 20161007
            </asp:Panel>
         </div>
 
-        <div class="question">
+        <div class="question" id="L3TTrepresentedOrally">
           <div class="label">19. L3TT merely represented orally</div>
           <div class="tip">If “oral” selected for question on “L3TT represented”, specify how:</div>
           <div class="tip"></div>
@@ -310,7 +310,7 @@ Version: 20161007
            </asp:Panel>
         </div>
 
-        <div class="question">
+        <div class="question" id="L3TTrepresentedVisually">
           <div class="label">20. L3TT represented: visual</div>
           <div class="tip">If “visual” selected for question on “L3TT represented”, specify how:</div>
           <asp:Panel runat="server" ScrollBars="Auto" Style="max-height: 100px">
@@ -322,7 +322,7 @@ Version: 20161007
         </div>
 
 
-        <div class="question">
+        <div class="question" id="L3TTfunctions">
           <div class="label">21. L3TT functions</div>
           <div class="tip">What are the functions for this particular instance of L3TT?</div>
           <asp:Panel runat="server" ScrollBars="Auto" Style="max-height: 100px">
@@ -334,7 +334,7 @@ Version: 20161007
         </div>
 
 
-        <div class="question">
+        <div class="question" id="L3TTconversationFeatures">
           <div class="label">22. Conversation features for L3TT-instance</div>
           <div class="tip">Conversation types or features (functional or otherwise) related to L3TT presence</div>
           <asp:Panel runat="server" ScrollBars="Auto" Style="max-height: 100px">
@@ -346,7 +346,7 @@ Version: 20161007
         </div>
 
 
-        <div class="question">
+        <div class="question" id="L3TTsources">
           <div class="label">23. L3TT sources <i>(with or without main language mix)</i></div>
           <div class="tip">Choose the description that best explains the number of sources (on or off screen, oral or written) and whether the main language is mixed with L3 (Main language, or “main”, is L2 for L3TT-instances)</div>
           <asp:DropDownList
@@ -391,19 +391,19 @@ Version: 20161007
 
         <%-- ITrafilmMetadata --%>
 
-        <div class="question">
+        <div class="question" id="Transcription">
           <div class="label">24. Transcription </div>
           <div class="tip">Transcription for the specific L3TT-instance</div>
           <asp:TextBox ID="txtTranscription" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
         </div>
 
-        <div class="question">
+        <div class="question" id="Tags">
           <div class="label">25. Tags</div>
           <div class="tip">Keywords or other labels for filtering purposes , insert a comma (,) between different ones</div>
           <asp:TextBox ID="txtTags" runat="server" Columns="150" />
         </div>
 
-        <div class="question">
+        <div class="question" id="Remarks">
           <div class="label">26. Remarks </div>
           <div class="tip">Issues concerning the analysis or the metadata form design</div>
           <asp:TextBox ID="txtRemarks" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />

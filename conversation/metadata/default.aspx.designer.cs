@@ -157,6 +157,15 @@ namespace Trafilm.Gallery {
         protected global::System.Web.UI.WebControls.DropDownList listDuration;
         
         /// <summary>
+        /// lblL3languagesCount control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblL3languagesCount;
+        
+        /// <summary>
         /// listL3languages control.
         /// </summary>
         /// <remarks>
@@ -166,6 +175,15 @@ namespace Trafilm.Gallery {
         protected global::System.Web.UI.WebControls.ListBox listL3languages;
         
         /// <summary>
+        /// lblL3languageTypesCount control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblL3languageTypesCount;
+        
+        /// <summary>
         /// listL3languageTypes control.
         /// </summary>
         /// <remarks>
@@ -173,15 +191,6 @@ namespace Trafilm.Gallery {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ListBox listL3languageTypes;
-        
-        /// <summary>
-        /// lblL3STinstanceCount control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblL3STinstanceCount;
         
         /// <summary>
         /// lblInfoCreated control.
@@ -227,6 +236,15 @@ namespace Trafilm.Gallery {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnSave;
+        
+        /// <summary>
+        /// lblL3STinstanceCount control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblL3STinstanceCount;
         
         /// <summary>
         /// repeaterL3STinstances control.

@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: film\metadata\default.aspx
-Version: 20161007
+Version: 20161008
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -76,13 +76,13 @@ Version: 20161007
 
         <%-- ICXMLMetadata--%>
 
-        <div class="question">
+        <div class="question" id="Title">
           <div class="label">1. Film Title</div>
           <div class="tip">Full official film title</div>
           <asp:TextBox ID="txtTitle" runat="server" Columns="150" />
         </div>
 
-        <div class="question">
+        <div class="question" id="Description">
           <div class="label">2. Film Description</div>
           <div class="tip">Synopsis and relevant information</div>
           <asp:TextBox ID="txtDescription" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
@@ -91,7 +91,7 @@ Version: 20161007
         <div class="label">Film URL</div>
         <asp:HyperLink ID="linkUrl" runat="server" Target="_blank"/>
 
-        <div class="question">
+        <div class="question" id="PosterImage">
           <div class="label">3. Film Poster URL</div>
           <div class="tip">Provide a link to an image for the film poster</div>
           <asp:TextBox ID="txtImageUrl" runat="server" Columns="150" />
@@ -100,40 +100,40 @@ Version: 20161007
 
         <%-- IFilmMetadata --%>
 
-        <div class="question">
+        <div class="question" id="Duration">
           <div class="label">4. Film duration (min)</div>
           <div class="tip">How long does the film last? (in minutes)</div>
           <asp:TextBox ID="txtDuration" runat="server" />
         </div>
 
 
-        <div class="question">
+        <div class="question" id="Directors">
           <div class="label">5. Director(s)</div>
           <div class="tip">Full name(s), insert a comma (,) between different directors</div>
           <asp:TextBox ID="txtDirectors" runat="server" Columns="150" />
         </div>
 
-        <div class="question">
+        <div class="question" id="Scriptwriters">
           <div class="label">6. Scriptwriter(s)</div>
           <div class="tip">Full name(s), insert a comma (,) between different scriptwriters</div>
           <asp:TextBox ID="txtScriptwriters" runat="server" Columns="150" />
         </div>
 
 
-        <div class="question">
+        <div class="question" id="ProductionCountries">
           <div class="label">7. Production countries</div>
           <div class="tip">Full name(s), insert a comma (,) between different countries</div>
           <asp:TextBox ID="txtProductionCountries" runat="server" Columns="150" />
         </div>
 
-        <div class="question">
+        <div class="question" id="ProductionCompanies">
           <div class="label">8. Production companies</div>
           <div class="tip">Full name, insert a comma (,) between different production companies</div>
           <asp:TextBox ID="txtProductionCompanies" runat="server" Columns="150" />
         </div>
 
 
-        <div class="question">
+        <div class="question" id="Blockbuster">
           <div class="label">9. Blockbuster</div>
           <div class="tip">Is the film ranked in the top 20 where first released (ST)?</div>
           <asp:Panel runat="server" ScrollBars="Auto">
@@ -144,14 +144,14 @@ Version: 20161007
         </div>
 
 
-        <div class="question">
+        <div class="question" id="YearSTreleased">
           <div class="label">10. Year ST released</div>
           <div class="tip">When was the film first released commercially?</div>
           <asp:TextBox ID="txtYear" runat="server" />
         </div>
 
 
-        <div class="question">
+        <div class="question" id="L1language">
           <div class="label">11. Main (L1) language</div>
           <div class="tip">What is the main language of the film? (used as Source Text for Dubbing or Subtitling)</div>
           <asp:Panel runat="server" ScrollBars="Auto">
@@ -181,29 +181,31 @@ Version: 20161007
 
         <%-- Calculated from Conversations --%>
         
+        <%-- //Count shown in parentheses next to title of respective list
         <div>
           <div class="label">Count of Conversations (Calculated)</div>
-          <asp:Label ID="lblConversationCount" runat="server"></asp:Label>
+          <asp:Label ID="lblConversationCount" runat="server" />
         </div>
-
+        --%>
 
         <%-- ITrafilmMetadata --%>
 
-        <asp:Panel ID="panelNoFilmTranscription" runat="server" Visible="false"> <%-- Film Transcription not available for copyright reasons --%>
-          <div class="question">
-            <div class="label">xx. Transcription </div>
-            <div class="tip">Transcription for the whole film</div>
-            <asp:TextBox ID="txtTranscription" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
-          </div>
-        </asp:Panel>
 
+        <%-- //Film Transcription not available for copyright and for metadata size reasons
         <div class="question">
+          <div class="label">12. Transcription </div>
+          <div class="tip">Transcription for the whole film</div>
+          <asp:TextBox ID="txtTranscription" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
+        </div>
+        --%>
+
+        <div class="question" id="Tags">
           <div class="label">12. Tags</div>
           <div class="tip">Keywords or other labels for filtering purposes, insert a comma (,) between different ones</div>
           <asp:TextBox ID="txtTags" runat="server" Columns="150" />
         </div>
 
-        <div class="question">
+        <div class="question" id="Remarks">
           <div class="label">13. Remarks</div>
           <div class="tip">Issues concerning the analysis or the metadata form design</div>
           <asp:TextBox ID="txtRemarks" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
@@ -243,10 +245,8 @@ Version: 20161007
         <%-- Conversations list --%>                  
 
         <div>
+          <div class="label">Conversations (#<asp:Label ID="lblConversationCount" runat="server" />)</div>
           <asp:Repeater ID="repeaterConversations" runat="server">
-            <HeaderTemplate>
-              <div class="label">List of Conversations<div>
-            </HeaderTemplate>
             <ItemTemplate>
               <a href="../../conversation/metadata/?film=<%#Eval("filmId")%>&conversation=<%#Eval("conversationId")%>"><%#Eval("conversationId")%></a>&nbsp;&nbsp;
             </ItemTemplate>
