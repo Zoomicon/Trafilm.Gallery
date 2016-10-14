@@ -2,6 +2,8 @@
 <Collection SchemaVersion="1.0" Name="Avatar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Series" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Type" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Duration (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Director(s)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Scriptwriter(s)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -37,7 +39,7 @@
           <DateTime Value="2016-10-07T12:30:57" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-07T05:46:33" />
+          <DateTime Value="2016-10-14T02:37:23" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="PatrickZabalbeascoa" />

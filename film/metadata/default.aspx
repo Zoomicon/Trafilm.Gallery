@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: film\metadata\default.aspx
-Version: 20161008
+Version: 20161014
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -20,7 +20,8 @@ Version: 20161008
 
     <%-- DATA SOURCES --%>
 
-    <asp:XmlDataSource ID="XmlL1language" runat="server" DataFile="~/metadata/L1language.xml" XPath="Facet/String" />
+    <asp:XmlDataSource ID="xmlType" runat="server" DataFile="~/metadata/FilmType.xml" XPath="Facet/String" />
+    <asp:XmlDataSource ID="xmlL1language" runat="server" DataFile="~/metadata/L1language.xml" XPath="Facet/String" />
     <asp:XmlDataSource ID="xmlBlockbuster" runat="server" DataFile="~/metadata/Blockbuster.xml" XPath="Facet/String" />      
 
     <%-- NAVIGATION MENU --%>
@@ -77,8 +78,11 @@ Version: 20161008
         <%-- ICXMLMetadata--%>
 
         <div class="question" id="Title">
-          <div class="label">1. Film Title</div>
-          <div class="tip">Full official film title</div>
+          <div class="label">1. Title</div>
+          <div class="tip">
+            Full official film title<br />
+            For TV series enter series title and season number (e.g. "Game of Thrones - Season 01")
+          </div>
           <asp:TextBox ID="txtTitle" runat="server" Columns="150" />
         </div>
 
@@ -100,10 +104,34 @@ Version: 20161008
 
         <%-- IFilmMetadata --%>
 
+        <div class="question" id="Type">
+          <div class="label">4. Type</div>
+          <div class="tip">Select type of "film" metadata item</div>
+          <asp:Panel runat="server" ScrollBars="Auto">
+            <asp:DropDownList ID="listType" runat="server"
+              DataSourceID="xmlType" DataTextField="Value" DataValueField="Value"
+              />
+           </asp:Panel>
+        </div>
+
+
         <div class="question" id="Duration">
-          <div class="label">4. Film duration (min)</div>
-          <div class="tip">How long does the film last? (in minutes)</div>
+          <div class="label">5. Duration (min)</div>
+          <div class="tip">
+            How long does the film last? (in minutes)<br />
+            When Type is "TV series season", enter duration of longest episode in that season            
+          </div>
           <asp:TextBox ID="txtDuration" runat="server" />
+        </div>
+
+
+        <div class="question" id="Series">
+          <div class="label">6. Series</div>
+          <div class="tip">
+            If the film belongs to a series or 'saga', what is the name for the related series of films?<br />
+            When Type is "TV series season", enter the TV series title
+          </div>
+          <asp:TextBox ID="txtSeries" runat="server" Columns="150" />
         </div>
 
 
@@ -114,27 +142,27 @@ Version: 20161008
         </div>
 
         <div class="question" id="Scriptwriters">
-          <div class="label">6. Scriptwriter(s)</div>
+          <div class="label">7. Scriptwriter(s)</div>
           <div class="tip">Full name(s), insert a comma (,) between different scriptwriters</div>
           <asp:TextBox ID="txtScriptwriters" runat="server" Columns="150" />
         </div>
 
 
         <div class="question" id="ProductionCountries">
-          <div class="label">7. Production countries</div>
+          <div class="label">8. Production countries</div>
           <div class="tip">Full name(s), insert a comma (,) between different countries</div>
           <asp:TextBox ID="txtProductionCountries" runat="server" Columns="150" />
         </div>
 
         <div class="question" id="ProductionCompanies">
-          <div class="label">8. Production companies</div>
+          <div class="label">9. Production companies</div>
           <div class="tip">Full name, insert a comma (,) between different production companies</div>
           <asp:TextBox ID="txtProductionCompanies" runat="server" Columns="150" />
         </div>
 
 
         <div class="question" id="Blockbuster">
-          <div class="label">9. Blockbuster</div>
+          <div class="label">10. Blockbuster</div>
           <div class="tip">Is the film ranked in the top 20 where first released (ST)?</div>
           <asp:Panel runat="server" ScrollBars="Auto">
             <asp:DropDownList ID="listBlockbuster" runat="server"
@@ -145,14 +173,14 @@ Version: 20161008
 
 
         <div class="question" id="YearSTreleased">
-          <div class="label">10. Year ST released</div>
+          <div class="label">11. Year ST released</div>
           <div class="tip">When was the film first released commercially?</div>
           <asp:TextBox ID="txtYear" runat="server" />
         </div>
 
 
         <div class="question" id="L1language">
-          <div class="label">11. Main (L1) language</div>
+          <div class="label">12. Main (L1) language</div>
           <div class="tip">What is the main language of the film? (used as Source Text for Dubbing or Subtitling)</div>
           <asp:Panel runat="server" ScrollBars="Auto">
             <asp:DropDownList ID="listL1language" runat="server"
@@ -193,20 +221,20 @@ Version: 20161008
 
         <%-- //Film Transcription not available for copyright and for metadata size reasons
         <div class="question">
-          <div class="label">12. Transcription </div>
+          <div class="label">13. Transcription </div>
           <div class="tip">Transcription for the whole film</div>
           <asp:TextBox ID="txtTranscription" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
         </div>
         --%>
 
         <div class="question" id="Tags">
-          <div class="label">12. Tags</div>
+          <div class="label">13. Tags</div>
           <div class="tip">Keywords or other labels for filtering purposes, insert a comma (,) between different ones</div>
           <asp:TextBox ID="txtTags" runat="server" Columns="150" />
         </div>
 
         <div class="question" id="Remarks">
-          <div class="label">13. Remarks</div>
+          <div class="label">14. Remarks</div>
           <div class="tip">Issues concerning the analysis or the metadata form design</div>
           <asp:TextBox ID="txtRemarks" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
         </div>
