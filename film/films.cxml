@@ -2,9 +2,9 @@
 <Collection SchemaVersion="1.0" Name="Trafilm Gallery: Films" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="Series" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Type" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Duration (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Series" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Director(s)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Scriptwriter(s)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Production countries" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -39,10 +39,11 @@
           <DateTime Value="2016-10-07T12:30:57" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-14T02:37:23" />
+          <DateTime Value="2016-10-14T11:14:19" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="PatrickZabalbeascoa" />
+          <String Value="Stavroula" />
           <String Value="George" />
         </Facet>
         <Facet Name="Duration (min)">
@@ -90,11 +91,15 @@
           <DateTime Value="2016-06-16T07:57:45" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-08T08:37:17" />
+          <DateTime Value="2016-10-14T01:59:52" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="natalia.faja" />
           <String Value="George" />
+          <String Value="Stavroula" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
         </Facet>
         <Facet Name="Duration (min)">
           <Number Value="117" />
@@ -130,11 +135,15 @@
           <DateTime Value="2016-05-31T11:56:17" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-09-15T07:22:43" />
+          <DateTime Value="2016-10-14T02:00:00" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="George" />
           <String Value="PatrickZabalbeascoa" />
+          <String Value="Stavroula" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
         </Facet>
         <Facet Name="Duration (min)">
           <Number Value="158" />
@@ -182,11 +191,15 @@
           <DateTime Value="2016-06-01T02:48:36" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-09-29T04:12:48" />
+          <DateTime Value="2016-10-14T02:00:09" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="George" />
           <String Value="miquelpt" />
+          <String Value="Stavroula" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
         </Facet>
         <Facet Name="Duration (min)">
           <Number Value="178" />
@@ -223,7 +236,7 @@
           <String Value="Spanish" />
         </Facet>
         <Facet Name="Conversations: count">
-          <Number Value="1" />
+          <Number Value="3" />
         </Facet>
       </Facets>
     </Item>
@@ -237,11 +250,15 @@
           <DateTime Value="2016-06-16T08:02:01" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-09-08T12:03:48" />
+          <DateTime Value="2016-10-14T02:00:17" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="natalia.faja" />
           <String Value="George" />
+          <String Value="Stavroula" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
         </Facet>
         <Facet Name="Duration (min)">
           <Number Value="167" />
@@ -277,11 +294,15 @@
           <DateTime Value="2016-06-13T06:54:58" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-09-08T12:03:53" />
+          <DateTime Value="2016-10-14T02:00:29" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="natalia.faja" />
           <String Value="George" />
+          <String Value="Stavroula" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
         </Facet>
         <Facet Name="Duration (min)">
           <Number Value="101" />
@@ -326,11 +347,14 @@
           <DateTime Value="2016-06-01T03:30:55" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-09-08T12:03:57" />
+          <DateTime Value="2016-10-14T02:41:59" />
         </Facet>
         <Facet Name="Metadata Editors">
-          <String Value="Stavroula" />
           <String Value="George" />
+          <String Value="Stavroula" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
         </Facet>
         <Facet Name="Duration (min)">
           <Number Value="135" />
@@ -351,6 +375,9 @@
           <String Value=" StudioCanal" />
           <String Value=" Working Title Films" />
           <String Value="DNA Films" />
+        </Facet>
+        <Facet Name="Blockbuster">
+          <String Value="YES (top 20)" />
         </Facet>
         <Facet Name="Year ST released">
           <Number Value="2003" />
@@ -376,11 +403,15 @@
           <DateTime Value="2016-06-16T08:12:46" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-09-08T12:04:01" />
+          <DateTime Value="2016-10-14T02:00:45" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="natalia.faja" />
           <String Value="George" />
+          <String Value="Stavroula" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
         </Facet>
         <Facet Name="Duration (min)">
           <Number Value="145" />
@@ -420,10 +451,14 @@
           <DateTime Value="2016-06-07T03:44:51" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-09-08T12:04:06" />
+          <DateTime Value="2016-10-14T02:00:53" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="George" />
+          <String Value="Stavroula" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
         </Facet>
         <Facet Name="Duration (min)">
           <Number Value="114" />
@@ -491,11 +526,14 @@
           <DateTime Value="2016-05-25T10:53:52" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-09-08T12:04:11" />
+          <DateTime Value="2016-10-14T02:01:14" />
         </Facet>
         <Facet Name="Metadata Editors">
-          <String Value="Stavroula" />
           <String Value="George" />
+          <String Value="Stavroula" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
         </Facet>
         <Facet Name="Duration (min)">
           <Number Value="161" />
@@ -536,11 +574,15 @@
           <DateTime Value="2016-06-16T07:54:12" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-09-08T12:04:15" />
+          <DateTime Value="2016-10-14T02:02:29" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="natalia.faja" />
           <String Value="George" />
+          <String Value="Stavroula" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
         </Facet>
         <Facet Name="Duration (min)">
           <Number Value="183" />
@@ -575,11 +617,15 @@
           <DateTime Value="2016-06-16T08:16:54" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-09-08T12:04:19" />
+          <DateTime Value="2016-10-14T02:03:19" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="natalia.faja" />
           <String Value="George" />
+          <String Value="Stavroula" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
         </Facet>
         <Facet Name="Duration (min)">
           <Number Value="120" />
@@ -616,11 +662,15 @@
           <DateTime Value="2016-06-16T07:45:24" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-09-08T12:04:24" />
+          <DateTime Value="2016-10-14T02:02:15" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="natalia.faja" />
           <String Value="George" />
+          <String Value="Stavroula" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
         </Facet>
         <Facet Name="Duration (min)">
           <Number Value="103" />
@@ -655,11 +705,15 @@
           <DateTime Value="2016-06-16T08:07:14" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-09-08T12:04:29" />
+          <DateTime Value="2016-10-14T02:02:05" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="natalia.faja" />
           <String Value="George" />
+          <String Value="Stavroula" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
         </Facet>
         <Facet Name="Duration (min)">
           <Number Value="154" />
@@ -700,10 +754,14 @@
           <DateTime Value="2016-06-01T02:48:36" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-09-08T12:04:33" />
+          <DateTime Value="2016-10-14T02:01:57" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="George" />
+          <String Value="Stavroula" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
         </Facet>
         <Facet Name="Duration (min)">
           <Number Value="201" />
@@ -749,10 +807,14 @@
           <DateTime Value="2016-06-01T02:48:36" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-09-08T12:04:39" />
+          <DateTime Value="2016-10-14T02:01:47" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="George" />
+          <String Value="Stavroula" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
         </Facet>
         <Facet Name="Duration (min)">
           <Number Value="179" />
@@ -795,11 +857,15 @@
           <DateTime Value="2016-05-31T10:18:51" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-09-08T12:04:43" />
+          <DateTime Value="2016-10-14T02:01:39" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Guillermo" />
           <String Value="George" />
+          <String Value="Stavroula" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
         </Facet>
         <Facet Name="Duration (min)">
           <Number Value="123" />
@@ -842,11 +908,15 @@
           <DateTime Value="2016-07-11T02:46:56" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-09-08T12:04:47" />
+          <DateTime Value="2016-10-14T02:01:29" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Guillermo" />
           <String Value="George" />
+          <String Value="Stavroula" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
         </Facet>
         <Facet Name="Duration (min)">
           <Number Value="103" />

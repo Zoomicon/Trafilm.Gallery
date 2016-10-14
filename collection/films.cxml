@@ -2,7 +2,9 @@
 <Collection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" Name="Trafilm Gallery: Films" SchemaVersion="1.0" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
     <FacetCategories>
         <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="false" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
+        <FacetCategory Name="Type" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="Duration (min)" Type="Number" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
+        <FacetCategory Name="Series" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="Director(s)" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="Scriptwriter(s)" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="Production countries" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
@@ -40,7 +42,7 @@
                     <DateTime Value="2016-10-07T12:30:57" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-10-07T05:46:33" />
+                    <DateTime Value="2016-10-14T11:14:19" />
                 </Facet>
                 <Facet Name="L2-Dubbed languages">
                     <String Value="Spanish" />
@@ -50,6 +52,7 @@
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="PatrickZabalbeascoa" />
+                    <String Value="Stavroula" />
                     <String Value="George" />
                 </Facet>
                 <Facet Name="Production companies">
@@ -94,7 +97,7 @@
                     <DateTime Value="2016-06-16T07:57:45" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-10-08T08:37:17" />
+                    <DateTime Value="2016-10-14T01:59:52" />
                 </Facet>
                 <Facet Name="Main language (L1)">
                     <String Value="English" />
@@ -102,6 +105,7 @@
                 <Facet Name="Metadata Editors">
                     <String Value="natalia.faja" />
                     <String Value="George" />
+                    <String Value="Stavroula" />
                 </Facet>
                 <Facet Name="Production countries">
                     <String Value="USA" />
@@ -112,6 +116,9 @@
                 </Facet>
                 <Facet Name="Scriptwriter(s)">
                     <String Value="David S. Goyer " />
+                </Facet>
+                <Facet Name="Type">
+                    <String Value="Feature film" />
                 </Facet>
                 <Facet Name="Year ST released">
                     <Number Value="2002" />
@@ -137,7 +144,7 @@
                     <DateTime Value="2016-05-31T11:56:17" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-09-15T07:22:43" />
+                    <DateTime Value="2016-10-14T02:00:00" />
                 </Facet>
                 <Facet Name="L2-Dubbed languages">
                     <String Value="Spanish" />
@@ -148,6 +155,7 @@
                 <Facet Name="Metadata Editors">
                     <String Value="George" />
                     <String Value="PatrickZabalbeascoa" />
+                    <String Value="Stavroula" />
                 </Facet>
                 <Facet Name="Production companies">
                     <String Value="SONY" />
@@ -161,6 +169,9 @@
                 <Facet Name="Scriptwriter(s)">
                     <String Value="Quentin Tarantino" />
                 </Facet>
+                <Facet Name="Type">
+                    <String Value="Feature film" />
+                </Facet>
                 <Facet Name="Year ST released">
                     <Number Value="2012" />
                 </Facet>
@@ -173,7 +184,7 @@
                     <String Value="YES (top 20)" />
                 </Facet>
                 <Facet Name="Conversations: count">
-                    <Number Value="1" />
+                    <Number Value="3" />
                 </Facet>
                 <Facet Name="Director(s)">
                     <String Value="Peter Jackson" />
@@ -185,7 +196,7 @@
                     <DateTime Value="2016-06-01T02:48:36" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-09-29T04:12:48" />
+                    <DateTime Value="2016-10-14T02:00:09" />
                 </Facet>
                 <Facet Name="L2-Dubbed languages">
                     <String Value="Spanish" />
@@ -199,6 +210,7 @@
                 <Facet Name="Metadata Editors">
                     <String Value="George" />
                     <String Value="miquelpt" />
+                    <String Value="Stavroula" />
                 </Facet>
                 <Facet Name="Production companies">
                     <String Value="New Line Cinema" />
@@ -219,6 +231,9 @@
                 <Facet Name="Tags">
                     <String Value="Elvish" />
                     <String Value=" Tolkien" />
+                </Facet>
+                <Facet Name="Type">
+                    <String Value="Feature film" />
                 </Facet>
                 <Facet Name="Year ST released">
                     <Number Value="2001" />
@@ -241,7 +256,7 @@
                     <DateTime Value="2016-06-16T08:02:01" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-09-08T12:03:48" />
+                    <DateTime Value="2016-10-14T02:00:17" />
                 </Facet>
                 <Facet Name="Main language (L1)">
                     <String Value="English" />
@@ -249,6 +264,7 @@
                 <Facet Name="Metadata Editors">
                     <String Value="natalia.faja" />
                     <String Value="George" />
+                    <String Value="Stavroula" />
                 </Facet>
                 <Facet Name="Production countries">
                     <String Value="USA" />
@@ -259,6 +275,9 @@
                 </Facet>
                 <Facet Name="Scriptwriter(s)">
                     <String Value="Jay Cocks " />
+                </Facet>
+                <Facet Name="Type">
+                    <String Value="Feature film" />
                 </Facet>
                 <Facet Name="Year ST released">
                     <Number Value="2002" />
@@ -281,7 +300,7 @@
                     <DateTime Value="2016-06-13T06:54:58" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-09-08T12:03:53" />
+                    <DateTime Value="2016-10-14T02:00:29" />
                 </Facet>
                 <Facet Name="Main language (L1)">
                     <String Value="English" />
@@ -289,6 +308,7 @@
                 <Facet Name="Metadata Editors">
                     <String Value="natalia.faja" />
                     <String Value="George" />
+                    <String Value="Stavroula" />
                 </Facet>
                 <Facet Name="Production companies">
                     <String Value="Focus Features" />
@@ -306,6 +326,9 @@
                 <Facet Name="Scriptwriter(s)">
                     <String Value="Sofia Coppola " />
                 </Facet>
+                <Facet Name="Type">
+                    <String Value="Feature film" />
+                </Facet>
                 <Facet Name="Year ST released">
                     <Number Value="2003" />
                 </Facet>
@@ -314,6 +337,9 @@
         <Item Id="LoveActually" Name="Love Actually " Img="#6" Href="http://gallery.trafilm.net/film/metadata/?film=LoveActually">
             <Description>Follows the lives of eight very different couples in dealing with their love lives in various loosely interrelated tales all set during a frantic month before Christmas in London, England. (imdb)</Description>
             <Facets>
+                <Facet Name="Blockbuster">
+                    <String Value="YES (top 20)" />
+                </Facet>
                 <Facet Name="Conversations: count">
                     <Number Value="2" />
                 </Facet>
@@ -327,7 +353,7 @@
                     <DateTime Value="2016-06-01T03:30:55" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-09-08T12:03:57" />
+                    <DateTime Value="2016-10-14T02:41:59" />
                 </Facet>
                 <Facet Name="L2-Subtitled languages">
                     <String Value="Spanish" />
@@ -336,8 +362,8 @@
                     <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
-                    <String Value="Stavroula" />
                     <String Value="George" />
+                    <String Value="Stavroula" />
                 </Facet>
                 <Facet Name="Production companies">
                     <String Value="Universal Pictures" />
@@ -358,6 +384,9 @@
                 </Facet>
                 <Facet Name="Tags">
                     <String Value="faltan datos importantes" />
+                </Facet>
+                <Facet Name="Type">
+                    <String Value="Feature film" />
                 </Facet>
                 <Facet Name="Year ST released">
                     <Number Value="2003" />
@@ -380,7 +409,7 @@
                     <DateTime Value="2016-06-16T08:12:46" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-09-08T12:04:01" />
+                    <DateTime Value="2016-10-14T02:00:45" />
                 </Facet>
                 <Facet Name="Main language (L1)">
                     <String Value="English" />
@@ -388,6 +417,7 @@
                 <Facet Name="Metadata Editors">
                     <String Value="natalia.faja" />
                     <String Value="George" />
+                    <String Value="Stavroula" />
                 </Facet>
                 <Facet Name="Production countries">
                     <String Value="USA" />
@@ -397,6 +427,9 @@
                 </Facet>
                 <Facet Name="Scriptwriter(s)">
                     <String Value=" Robin Swicord " />
+                </Facet>
+                <Facet Name="Type">
+                    <String Value="Feature film" />
                 </Facet>
                 <Facet Name="Year ST released">
                     <Number Value="2005" />
@@ -419,7 +452,7 @@
                     <DateTime Value="2016-06-07T03:44:51" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-09-08T12:04:06" />
+                    <DateTime Value="2016-10-14T02:00:53" />
                 </Facet>
                 <Facet Name="L2-Dubbed languages">
                     <String Value="Spanish" />
@@ -429,6 +462,7 @@
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="George" />
+                    <String Value="Stavroula" />
                 </Facet>
                 <Facet Name="Production companies">
                     <String Value="     IFC Productions" />
@@ -457,12 +491,31 @@
                     <String Value=" Drama" />
                     <String Value=" Romance" />
                 </Facet>
+                <Facet Name="Type">
+                    <String Value="Feature film" />
+                </Facet>
                 <Facet Name="Year ST released">
                     <Number Value="2001" />
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="OceansEleven" Name="Ocean's Eleven" Img="#9" Href="http://gallery.trafilm.net/film/metadata/?film=OceansEleven">
+        <Item Id="Munich" Name="Munich" Img="#9">
+            <Facets>
+                <Facet Name="Conversations: count">
+                    <Number Value="0" />
+                </Facet>
+                <Facet Name="Info created">
+                    <DateTime Value="2016-10-11T02:25:26" />
+                </Facet>
+                <Facet Name="Info updated">
+                    <DateTime Value="2016-10-11T02:25:26" />
+                </Facet>
+                <Facet Name="Reference Id">
+                    <String Value="Munich" />
+                </Facet>
+            </Facets>
+        </Item>
+        <Item Id="OceansEleven" Name="Ocean's Eleven" Img="#10" Href="http://gallery.trafilm.net/film/metadata/?film=OceansEleven">
             <Description>Danny Ocean wants to score the biggest heist in history. He combines an eleven member team, including Frank Catton, Rusty Ryan and Linus Caldwell. Their target? The Bellagio, the Mirage and the MGM Grand. All casinos owned by Terry Benedict. It's not going to be easy, as they plan to get in secretly and out with $150 million.</Description>
             <Facets>
                 <Facet Name="Conversations: count">
@@ -478,7 +531,7 @@
                     <DateTime Value="2016-05-25T10:53:52" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-09-08T12:04:11" />
+                    <DateTime Value="2016-10-14T02:01:14" />
                 </Facet>
                 <Facet Name="L2-Subtitled languages">
                     <String Value="Spanish" />
@@ -487,8 +540,8 @@
                     <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
-                    <String Value="Stavroula" />
                     <String Value="George" />
+                    <String Value="Stavroula" />
                 </Facet>
                 <Facet Name="Production companies">
                     <String Value="Warner Bros." />
@@ -502,12 +555,15 @@
                     <String Value="George Clayton Johnson" />
                     <String Value=" Jack Golden Russell" />
                 </Facet>
+                <Facet Name="Type">
+                    <String Value="Feature film" />
+                </Facet>
                 <Facet Name="Year ST released">
                     <Number Value="2001" />
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Pearl Harbor" Name="Pearl Harbor" Img="#10" Href="http://gallery.trafilm.net/film/metadata/?film=Pearl Harbor">
+        <Item Id="Pearl Harbor" Name="Pearl Harbor" Img="#11" Href="http://gallery.trafilm.net/film/metadata/?film=Pearl Harbor">
             <Description>Pearl Harbor follows the story of two best friends, Rafe and Danny, and their love lives as they go off to join the war. </Description>
             <Facets>
                 <Facet Name="Conversations: count">
@@ -523,7 +579,7 @@
                     <DateTime Value="2016-06-16T07:54:12" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-09-08T12:04:15" />
+                    <DateTime Value="2016-10-14T02:02:29" />
                 </Facet>
                 <Facet Name="Main language (L1)">
                     <String Value="English" />
@@ -531,6 +587,7 @@
                 <Facet Name="Metadata Editors">
                     <String Value="natalia.faja" />
                     <String Value="George" />
+                    <String Value="Stavroula" />
                 </Facet>
                 <Facet Name="Production countries">
                     <String Value="USA" />
@@ -541,12 +598,15 @@
                 <Facet Name="Scriptwriter(s)">
                     <String Value="Randall Wallace" />
                 </Facet>
+                <Facet Name="Type">
+                    <String Value="Feature film" />
+                </Facet>
                 <Facet Name="Year ST released">
                     <Number Value="2001" />
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Slumdog Millionaire" Name="Slumdog Millionaire" Img="#11" Href="http://gallery.trafilm.net/film/metadata/?film=Slumdog Millionaire">
+        <Item Id="Slumdog Millionaire" Name="Slumdog Millionaire" Img="#12" Href="http://gallery.trafilm.net/film/metadata/?film=Slumdog Millionaire">
             <Description>A Mumbai teen reflects on his upbringing in the slums when he is accused of cheating on the Indian Version of "Who Wants to be a Millionaire?" </Description>
             <Facets>
                 <Facet Name="Conversations: count">
@@ -563,7 +623,7 @@
                     <DateTime Value="2016-06-16T08:16:54" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-09-08T12:04:19" />
+                    <DateTime Value="2016-10-14T02:03:19" />
                 </Facet>
                 <Facet Name="Main language (L1)">
                     <String Value="Other" />
@@ -571,6 +631,7 @@
                 <Facet Name="Metadata Editors">
                     <String Value="natalia.faja" />
                     <String Value="George" />
+                    <String Value="Stavroula" />
                 </Facet>
                 <Facet Name="Production countries">
                     <String Value="UK" />
@@ -582,12 +643,15 @@
                 <Facet Name="Scriptwriter(s)">
                     <String Value=" Simon Beaufoy " />
                 </Facet>
+                <Facet Name="Type">
+                    <String Value="Feature film" />
+                </Facet>
                 <Facet Name="Year ST released">
                     <Number Value="2008" />
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Stigmata" Name="Stigmata" Img="#12" Href="http://gallery.trafilm.net/film/metadata/?film=Stigmata">
+        <Item Id="Stigmata" Name="Stigmata" Img="#13" Href="http://gallery.trafilm.net/film/metadata/?film=Stigmata">
             <Description>When a young woman becomes afflicted by stigmata, a priest is sent to investigate her case, which may have severe ramifications for his faith and for the Catholic Church itself. </Description>
             <Facets>
                 <Facet Name="Conversations: count">
@@ -603,7 +667,7 @@
                     <DateTime Value="2016-06-16T07:45:24" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-09-08T12:04:24" />
+                    <DateTime Value="2016-10-14T02:02:15" />
                 </Facet>
                 <Facet Name="Main language (L1)">
                     <String Value="English" />
@@ -611,6 +675,7 @@
                 <Facet Name="Metadata Editors">
                     <String Value="natalia.faja" />
                     <String Value="George" />
+                    <String Value="Stavroula" />
                 </Facet>
                 <Facet Name="Production countries">
                     <String Value="USA" />
@@ -621,12 +686,15 @@
                 <Facet Name="Scriptwriter(s)">
                     <String Value="Tom Lazarus " />
                 </Facet>
+                <Facet Name="Type">
+                    <String Value="Feature film" />
+                </Facet>
                 <Facet Name="Year ST released">
                     <Number Value="1999" />
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="The Last Samurai" Name="The Last Samurai" Img="#13" Href="http://gallery.trafilm.net/film/metadata/?film=The Last Samurai">
+        <Item Id="The Last Samurai" Name="The Last Samurai" Img="#14" Href="http://gallery.trafilm.net/film/metadata/?film=The Last Samurai">
             <Description>An American military advisor embraces the Samurai culture he was hired to destroy after he is captured in battle. </Description>
             <Facets>
                 <Facet Name="Conversations: count">
@@ -642,7 +710,7 @@
                     <DateTime Value="2016-06-16T08:07:14" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-09-08T12:04:29" />
+                    <DateTime Value="2016-10-14T02:02:05" />
                 </Facet>
                 <Facet Name="Main language (L1)">
                     <String Value="English" />
@@ -650,6 +718,7 @@
                 <Facet Name="Metadata Editors">
                     <String Value="natalia.faja" />
                     <String Value="George" />
+                    <String Value="Stavroula" />
                 </Facet>
                 <Facet Name="Production countries">
                     <String Value="USA" />
@@ -662,12 +731,15 @@
                 <Facet Name="Scriptwriter(s)">
                     <String Value="John Logan " />
                 </Facet>
+                <Facet Name="Type">
+                    <String Value="Feature film" />
+                </Facet>
                 <Facet Name="Year ST released">
                     <Number Value="2003" />
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheReturnOfTheKing" Name="The Lord of the Rings: The Return of the King" Img="#14" Href="http://gallery.trafilm.net/film/metadata/?film=TheReturnOfTheKing">
+        <Item Id="TheReturnOfTheKing" Name="The Lord of the Rings: The Return of the King" Img="#15" Href="http://gallery.trafilm.net/film/metadata/?film=TheReturnOfTheKing">
             <Description>Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.</Description>
             <Facets>
                 <Facet Name="Conversations: count">
@@ -683,13 +755,14 @@
                     <DateTime Value="2016-06-01T02:48:36" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-09-08T12:04:33" />
+                    <DateTime Value="2016-10-14T02:01:57" />
                 </Facet>
                 <Facet Name="Main language (L1)">
                     <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="George" />
+                    <String Value="Stavroula" />
                 </Facet>
                 <Facet Name="Production companies">
                     <String Value="New Line Cinema" />
@@ -711,12 +784,15 @@
                     <String Value="Elvish" />
                     <String Value=" Tolkien" />
                 </Facet>
+                <Facet Name="Type">
+                    <String Value="Feature film" />
+                </Facet>
                 <Facet Name="Year ST released">
                     <Number Value="2003" />
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers" Name="The Lord of the Rings: The Two Towers" Img="#15" Href="http://gallery.trafilm.net/film/metadata/?film=TheTwoTowers">
+        <Item Id="TheTwoTowers" Name="The Lord of the Rings: The Two Towers" Img="#16" Href="http://gallery.trafilm.net/film/metadata/?film=TheTwoTowers">
             <Description>While Frodo and Sam, now accompanied by a new guide, continue their hopeless journey towards the land of shadow to destroy the One Ring, each member of the broken fellowship plays their part in the battle against the evil wizard Saruman and his armies of Isengard. </Description>
             <Facets>
                 <Facet Name="Conversations: count">
@@ -732,13 +808,14 @@
                     <DateTime Value="2016-06-01T02:48:36" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-09-08T12:04:39" />
+                    <DateTime Value="2016-10-14T02:01:47" />
                 </Facet>
                 <Facet Name="Main language (L1)">
                     <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="George" />
+                    <String Value="Stavroula" />
                 </Facet>
                 <Facet Name="Production companies">
                     <String Value="New Line Cinema" />
@@ -761,12 +838,15 @@
                     <String Value="Elvish" />
                     <String Value=" Tolkien" />
                 </Facet>
+                <Facet Name="Type">
+                    <String Value="Feature film" />
+                </Facet>
                 <Facet Name="Year ST released">
                     <Number Value="2002" />
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheWalk" Name="The Walk" Img="#16" Href="http://gallery.trafilm.net/film/metadata/?film=TheWalk">
+        <Item Id="TheWalk" Name="The Walk" Img="#17" Href="http://gallery.trafilm.net/film/metadata/?film=TheWalk">
             <Description>In 1974, high-wire artist Philippe Petit recruits a team of people to help him realize his dream: to walk the immense void between the World Trade Center towers.</Description>
             <Facets>
                 <Facet Name="Conversations: count">
@@ -782,7 +862,7 @@
                     <DateTime Value="2016-05-31T10:18:51" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-09-08T12:04:43" />
+                    <DateTime Value="2016-10-14T02:01:39" />
                 </Facet>
                 <Facet Name="Main language (L1)">
                     <String Value="English" />
@@ -790,6 +870,7 @@
                 <Facet Name="Metadata Editors">
                     <String Value="Guillermo" />
                     <String Value="George" />
+                    <String Value="Stavroula" />
                 </Facet>
                 <Facet Name="Production companies">
                     <String Value="Sony Pictures Entertainment" />
@@ -808,12 +889,15 @@
                     <String Value="Robert Zemeckis" />
                     <String Value=" Christopher Browne" />
                 </Facet>
+                <Facet Name="Type">
+                    <String Value="Feature film" />
+                </Facet>
                 <Facet Name="Year ST released">
                     <Number Value="2015" />
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="ToyStory3" Name="Toy Story 3" Img="#17" Href="http://gallery.trafilm.net/film/metadata/?film=ToyStory3">
+        <Item Id="ToyStory3" Name="Toy Story 3" Img="#18" Href="http://gallery.trafilm.net/film/metadata/?film=ToyStory3">
             <Description>The toys are mistakenly delivered to a day-care center instead of the attic right before Andy leaves for college, and it's up to Woody to convince the other toys that they weren't abandoned and to return home.</Description>
             <Facets>
                 <Facet Name="Conversations: count">
@@ -829,7 +913,7 @@
                     <DateTime Value="2016-07-11T02:46:56" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-09-08T12:04:47" />
+                    <DateTime Value="2016-10-14T02:01:29" />
                 </Facet>
                 <Facet Name="Main language (L1)">
                     <String Value="English" />
@@ -837,6 +921,7 @@
                 <Facet Name="Metadata Editors">
                     <String Value="Guillermo" />
                     <String Value="George" />
+                    <String Value="Stavroula" />
                 </Facet>
                 <Facet Name="Production companies">
                     <String Value="Walt Disney Pictures" />
@@ -854,12 +939,15 @@
                     <String Value=" Lee Unkrich" />
                     <String Value=" Michael Arndt" />
                 </Facet>
+                <Facet Name="Type">
+                    <String Value="Feature film" />
+                </Facet>
                 <Facet Name="Year ST released">
                     <Number Value="2010" />
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Zootopia" Name="Zootopia" Img="#18" Href="http://gallery.trafilm.net/film/metadata/?film=Zootopia">
+        <Item Id="Zootopia" Name="Zootopia" Img="#19" Href="http://gallery.trafilm.net/film/metadata/?film=Zootopia">
             <Description>In a city of anthropomorphic animals, a rookie bunny cop and a cynical con artist fox must work together to uncover a conspiracy.</Description>
             <Facets>
                 <Facet Name="Conversations: count">
