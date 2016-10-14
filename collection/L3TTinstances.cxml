@@ -74,7 +74,7 @@
                     <DateTime Value="2016-10-07T01:07:46" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-10-07T07:19:29" />
+                    <DateTime Value="2016-10-08T08:37:49" />
                 </Facet>
                 <Facet Name="L2 language">
                     <String Value="Spanish" />
@@ -136,8 +136,8 @@
                     <String Value="Oral L3: single source" />
                 </Facet>
                 <Facet Name="Metadata Editors">
-                    <String Value="George" />
                     <String Value="PatrickZabalbeascoa" />
+                    <String Value="George" />
                 </Facet>
                 <Facet Name="Quality of L3TT speaker performance">
                     <String Value="native or proficient" />
@@ -261,7 +261,446 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room.SpanishDub" Name="FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room.SpanishDub" Img="#2" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Rivendell_AragornArwen&amp;L3STinstance=FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room&amp;L3TTinstance=FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room.SpanishDub">
+        <Item Id="FellowshipOfTheRing.Elrond_Dagorlad_battle.Rally.SpanishDub" Name="FellowshipOfTheRing.Elrond_Dagorlad_battle.Rally.SpanishDub" Img="#2" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Elrond_Dagorlad_battle&amp;L3STinstance=FellowshipOfTheRing.Elrond_Dagorlad_battle.Rally&amp;L3TTinstance=FellowshipOfTheRing.Elrond_Dagorlad_battle.Rally.SpanishDub">
+            <Description>Elrond leads the Last Alliance in the battle of Dagorlad and rallies them in Elvish.</Description>
+            <Facets>
+                <Facet Name="Conversation duration (sec)">
+                    <String Value="A. 1-20" />
+                </Facet>
+                <Facet Name="Conversation features for L3-instance change">
+                    <String Value="- anecdote / story" />
+                </Facet>
+                <Facet Name="Conversation features for L3TT-instance">
+                    <String Value="instruction / training" />
+                </Facet>
+                <Facet Name="Conversation Reference Id">
+                    <String Value="FellowshipOfTheRing.Elrond_Dagorlad_battle" />
+                </Facet>
+                <Facet Name="Film Reference Id">
+                    <String Value="FellowshipOfTheRing" />
+                </Facet>
+                <Facet Name="Film Title TT">
+                    <String Value="La comunidad del Anillo" />
+                </Facet>
+                <Facet Name="Film TT Blockbuster">
+                    <String Value="YES (top 20)" />
+                </Facet>
+                <Facet Name="Info created">
+                    <DateTime Value="2016-10-11T04:40:11" />
+                </Facet>
+                <Facet Name="Info updated">
+                    <DateTime Value="2016-10-11T04:47:04" />
+                </Facet>
+                <Facet Name="L2 language">
+                    <String Value="Spanish" />
+                </Facet>
+                <Facet Name="L2 mode">
+                    <String Value="Dubbed" />
+                </Facet>
+                <Facet Name="L2 same as L3ST">
+                    <String Value="No" />
+                </Facet>
+                <Facet Name="L3 functions change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3 language type change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3 mode change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3 sources change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3ST conveyed as L3TT">
+                    <String Value="No" />
+                </Facet>
+                <Facet Name="L3ST-instance Reference Id">
+                    <String Value="FellowshipOfTheRing.Elrond_Dagorlad_battle.Rally" />
+                </Facet>
+                <Facet Name="L3TT constructed based on">
+                    <String Value="“from scratch”" />
+                </Facet>
+                <Facet Name="L3TT functions">
+                    <String Value="Theme" />
+                </Facet>
+                <Facet Name="L3TT language">
+                    <String Value="Elvish" />
+                </Facet>
+                <Facet Name="L3TT language type">
+                    <String Value="Constructed (fictional)" />
+                </Facet>
+                <Facet Name="L3TT meaning decipherable">
+                    <String Value="YES, through translation or clear from picture" />
+                </Facet>
+                <Facet Name="L3TT meant to be understood">
+                    <String Value="NO" />
+                </Facet>
+                <Facet Name="L3TT merely represented">
+                    <String Value="NO / Not applicable" />
+                </Facet>
+                <Facet Name="L3TT message required for understanding">
+                    <String Value="Conversation can be followed regardless of meaning" />
+                </Facet>
+                <Facet Name="L3TT mode, written/spoken, diegetic">
+                    <String Value="Oral diegetic on-screen" />
+                </Facet>
+                <Facet Name="L3TT sources">
+                    <String Value="Oral L3: single source" />
+                </Facet>
+                <Facet Name="Metadata Editors">
+                    <String Value="miquelpt" />
+                </Facet>
+                <Facet Name="Quality of L3TT speaker performance">
+                    <String Value="native or proficient" />
+                </Facet>
+                <Facet Name="Reference Id">
+                    <String Value="FellowshipOfTheRing.Elrond_Dagorlad_battle.Rally.SpanishDub" />
+                </Facet>
+                <Facet Name="Remarks">
+                    <String Value="The Elvish words are not dubbed or subtitled. We assume the instance is considered merely part of the setting." />
+                </Facet>
+                <Facet Name="Tags">
+                    <String Value="Setting" />
+                </Facet>
+                <Facet Name="Transcription">
+                    <String Value="Tangado haid! Leithio i philinn!" />
+                </Facet>
+                <Facet Name="Year TT released">
+                    <Number Value="2001" />
+                </Facet>
+            </Facets>
+        </Item>
+        <Item Id="FellowshipOfTheRing.Elrond_Dagorlad_battle.Rally.SpanishSub" Name="FellowshipOfTheRing.Elrond_Dagorlad_battle.Rally.SpanishSub" Img="#3" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Elrond_Dagorlad_battle&amp;L3STinstance=FellowshipOfTheRing.Elrond_Dagorlad_battle.Rally&amp;L3TTinstance=FellowshipOfTheRing.Elrond_Dagorlad_battle.Rally.SpanishSub">
+            <Description>Elrond leads the Last Alliance in the battle of Dagorlad and rallies them in Elvish.</Description>
+            <Facets>
+                <Facet Name="Conversation duration (sec)">
+                    <String Value="A. 1-20" />
+                </Facet>
+                <Facet Name="Conversation features for L3-instance change">
+                    <String Value="- anecdote / story" />
+                </Facet>
+                <Facet Name="Conversation features for L3TT-instance">
+                    <String Value="instruction / training" />
+                </Facet>
+                <Facet Name="Conversation Reference Id">
+                    <String Value="FellowshipOfTheRing.Elrond_Dagorlad_battle" />
+                </Facet>
+                <Facet Name="Film Reference Id">
+                    <String Value="FellowshipOfTheRing" />
+                </Facet>
+                <Facet Name="Film Title TT">
+                    <String Value="La comunidad del Anillo" />
+                </Facet>
+                <Facet Name="Film TT Blockbuster">
+                    <String Value="YES (top 20)" />
+                </Facet>
+                <Facet Name="Info created">
+                    <DateTime Value="2016-10-11T04:40:11" />
+                </Facet>
+                <Facet Name="Info updated">
+                    <DateTime Value="2016-10-11T04:47:32" />
+                </Facet>
+                <Facet Name="L2 language">
+                    <String Value="Spanish" />
+                </Facet>
+                <Facet Name="L2 mode">
+                    <String Value="Dubbed" />
+                </Facet>
+                <Facet Name="L2 same as L3ST">
+                    <String Value="No" />
+                </Facet>
+                <Facet Name="L3 functions change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3 language type change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3 mode change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3 sources change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3ST conveyed as L3TT">
+                    <String Value="No" />
+                </Facet>
+                <Facet Name="L3ST-instance Reference Id">
+                    <String Value="FellowshipOfTheRing.Elrond_Dagorlad_battle.Rally" />
+                </Facet>
+                <Facet Name="L3TT constructed based on">
+                    <String Value="“from scratch”" />
+                </Facet>
+                <Facet Name="L3TT functions">
+                    <String Value="Theme" />
+                </Facet>
+                <Facet Name="L3TT language">
+                    <String Value="Elvish" />
+                </Facet>
+                <Facet Name="L3TT language type">
+                    <String Value="Constructed (fictional)" />
+                </Facet>
+                <Facet Name="L3TT meaning decipherable">
+                    <String Value="YES, through translation or clear from picture" />
+                </Facet>
+                <Facet Name="L3TT meant to be understood">
+                    <String Value="NO" />
+                </Facet>
+                <Facet Name="L3TT merely represented">
+                    <String Value="NO / Not applicable" />
+                </Facet>
+                <Facet Name="L3TT message required for understanding">
+                    <String Value="Conversation can be followed regardless of meaning" />
+                </Facet>
+                <Facet Name="L3TT mode, written/spoken, diegetic">
+                    <String Value="Oral diegetic on-screen" />
+                </Facet>
+                <Facet Name="L3TT sources">
+                    <String Value="Oral L3: single source" />
+                </Facet>
+                <Facet Name="Metadata Editors">
+                    <String Value="miquelpt" />
+                </Facet>
+                <Facet Name="Quality of L3TT speaker performance">
+                    <String Value="native or proficient" />
+                </Facet>
+                <Facet Name="Reference Id">
+                    <String Value="FellowshipOfTheRing.Elrond_Dagorlad_battle.Rally.SpanishSub" />
+                </Facet>
+                <Facet Name="Remarks">
+                    <String Value="The Elvish words are not subtitled. We assume the instance is considered merely part of the setting." />
+                </Facet>
+                <Facet Name="Tags">
+                    <String Value="Setting" />
+                </Facet>
+                <Facet Name="Transcription">
+                    <String Value="Tangado haid! Leithio i philinn!" />
+                </Facet>
+                <Facet Name="Year TT released">
+                    <Number Value="2001" />
+                </Facet>
+            </Facets>
+        </Item>
+        <Item Id="FellowshipOfTheRing.Introduction_Galadriel.Off_intro.SpanishDub" Name="FellowshipOfTheRing.Introduction_Galadriel.Off_intro.SpanishDub" Img="#4" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Introduction_Galadriel&amp;L3STinstance=FellowshipOfTheRing.Introduction_Galadriel.Off_intro&amp;L3TTinstance=FellowshipOfTheRing.Introduction_Galadriel.Off_intro.SpanishDub">
+            <Description>Previous to the title credits to the film, with the screen still in black, Galadriel utters some Elvish words as a narrator off-camera.</Description>
+            <Facets>
+                <Facet Name="Conversation duration (sec)">
+                    <String Value="A. 1-20" />
+                </Facet>
+                <Facet Name="Conversation features for L3-instance change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="Conversation features for L3TT-instance">
+                    <String Value="anecdote / story" />
+                    <String Value="literary" />
+                    <String Value="monologue" />
+                    <String Value="recitation" />
+                </Facet>
+                <Facet Name="Conversation Reference Id">
+                    <String Value="FellowshipOfTheRing.Introduction_Galadriel" />
+                </Facet>
+                <Facet Name="Film Reference Id">
+                    <String Value="FellowshipOfTheRing" />
+                </Facet>
+                <Facet Name="Film Title TT">
+                    <String Value="La comunidad del Anillo" />
+                </Facet>
+                <Facet Name="Film TT Blockbuster">
+                    <String Value="YES (top 20)" />
+                </Facet>
+                <Facet Name="Info created">
+                    <DateTime Value="2016-10-11T04:05:36" />
+                </Facet>
+                <Facet Name="Info updated">
+                    <DateTime Value="2016-10-11T04:16:09" />
+                </Facet>
+                <Facet Name="L2 language">
+                    <String Value="Spanish" />
+                </Facet>
+                <Facet Name="L2 mode">
+                    <String Value="Dubbed" />
+                </Facet>
+                <Facet Name="L2 same as L3ST">
+                    <String Value="No" />
+                </Facet>
+                <Facet Name="L3 functions change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3 language type change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3 mode change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3 sources change">
+                    <String Value="- " />
+                    <String Value="+ Rephrase interlingually: same source" />
+                </Facet>
+                <Facet Name="L3ST conveyed as L3TT">
+                    <String Value="Yes" />
+                </Facet>
+                <Facet Name="L3ST-instance Reference Id">
+                    <String Value="FellowshipOfTheRing.Introduction_Galadriel.Off_intro" />
+                </Facet>
+                <Facet Name="L3TT constructed based on">
+                    <String Value="“from scratch”" />
+                </Facet>
+                <Facet Name="L3TT functions">
+                    <String Value="Theme" />
+                </Facet>
+                <Facet Name="L3TT language">
+                    <String Value="Elvish" />
+                </Facet>
+                <Facet Name="L3TT language type">
+                    <String Value="Constructed (fictional)" />
+                </Facet>
+                <Facet Name="L3TT meaning decipherable">
+                    <String Value="NO" />
+                </Facet>
+                <Facet Name="L3TT meant to be understood">
+                    <String Value="NO" />
+                </Facet>
+                <Facet Name="L3TT merely represented">
+                    <String Value="NO / Not applicable" />
+                </Facet>
+                <Facet Name="L3TT message required for understanding">
+                    <String Value="Yes" />
+                </Facet>
+                <Facet Name="L3TT mode, written/spoken, diegetic">
+                    <String Value="Oral diegetic off-screen" />
+                </Facet>
+                <Facet Name="L3TT sources">
+                    <String Value="Rephrase interlingually: same source" />
+                </Facet>
+                <Facet Name="Metadata Editors">
+                    <String Value="miquelpt" />
+                </Facet>
+                <Facet Name="Quality of L3TT speaker performance">
+                    <String Value="native or proficient" />
+                </Facet>
+                <Facet Name="Reference Id">
+                    <String Value="FellowshipOfTheRing.Introduction_Galadriel.Off_intro.SpanishDub" />
+                </Facet>
+                <Facet Name="Transcription">
+                    <String Value="I amar prestar aen.&#xD;&#xA;&#xD;&#xA;El mundo ha cambiado.&#xD;&#xA;&#xD;&#xA;Han mathon ne nen.&#xD;&#xA;&#xD;&#xA;Lo siento en el agua.&#xD;&#xA;&#xD;&#xA;Han mathon ne chae.&#xD;&#xA;&#xD;&#xA;Lo siento en la tierra.&#xD;&#xA;&#xD;&#xA;A han noston ned gwilith.&#xD;&#xA;&#xD;&#xA;Lo huelo en el aire." />
+                </Facet>
+                <Facet Name="Year TT released">
+                    <Number Value="2001" />
+                </Facet>
+            </Facets>
+        </Item>
+        <Item Id="FellowshipOfTheRing.Introduction_Galadriel.Off_intro.SpanishSub" Name="FellowshipOfTheRing.Introduction_Galadriel.Off_intro.SpanishSub" Img="#5" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Introduction_Galadriel&amp;L3STinstance=FellowshipOfTheRing.Introduction_Galadriel.Off_intro&amp;L3TTinstance=FellowshipOfTheRing.Introduction_Galadriel.Off_intro.SpanishSub">
+            <Description>Previous to the title credits to the film, with the screen still in black, Galadriel utters some Elvish words as a narrator off-camera.</Description>
+            <Facets>
+                <Facet Name="Conversation duration (sec)">
+                    <String Value="A. 1-20" />
+                </Facet>
+                <Facet Name="Conversation features for L3-instance change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="Conversation features for L3TT-instance">
+                    <String Value="anecdote / story" />
+                    <String Value="literary" />
+                    <String Value="monologue" />
+                    <String Value="recitation" />
+                </Facet>
+                <Facet Name="Conversation Reference Id">
+                    <String Value="FellowshipOfTheRing.Introduction_Galadriel" />
+                </Facet>
+                <Facet Name="Film Reference Id">
+                    <String Value="FellowshipOfTheRing" />
+                </Facet>
+                <Facet Name="Film Title TT">
+                    <String Value="La comunidad del Anillo" />
+                </Facet>
+                <Facet Name="Film TT Blockbuster">
+                    <String Value="YES (top 20)" />
+                </Facet>
+                <Facet Name="Info created">
+                    <DateTime Value="2016-10-11T04:05:36" />
+                </Facet>
+                <Facet Name="Info updated">
+                    <DateTime Value="2016-10-11T04:24:56" />
+                </Facet>
+                <Facet Name="L2 language">
+                    <String Value="Spanish" />
+                </Facet>
+                <Facet Name="L2 mode">
+                    <String Value="Subtitled" />
+                </Facet>
+                <Facet Name="L2 same as L3ST">
+                    <String Value="No" />
+                </Facet>
+                <Facet Name="L3 functions change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3 language type change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3 mode change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3 sources change">
+                    <String Value="- " />
+                    <String Value="+ Non-diegetic translation" />
+                </Facet>
+                <Facet Name="L3ST conveyed as L3TT">
+                    <String Value="Yes" />
+                </Facet>
+                <Facet Name="L3ST-instance Reference Id">
+                    <String Value="FellowshipOfTheRing.Introduction_Galadriel.Off_intro" />
+                </Facet>
+                <Facet Name="L3TT constructed based on">
+                    <String Value="“from scratch”" />
+                </Facet>
+                <Facet Name="L3TT functions">
+                    <String Value="Theme" />
+                </Facet>
+                <Facet Name="L3TT language">
+                    <String Value="Elvish" />
+                </Facet>
+                <Facet Name="L3TT language type">
+                    <String Value="Constructed (fictional)" />
+                </Facet>
+                <Facet Name="L3TT meaning decipherable">
+                    <String Value="NO" />
+                </Facet>
+                <Facet Name="L3TT meant to be understood">
+                    <String Value="NO" />
+                </Facet>
+                <Facet Name="L3TT merely represented">
+                    <String Value="NO / Not applicable" />
+                </Facet>
+                <Facet Name="L3TT message required for understanding">
+                    <String Value="Yes" />
+                </Facet>
+                <Facet Name="L3TT mode, written/spoken, diegetic">
+                    <String Value="Oral diegetic off-screen" />
+                </Facet>
+                <Facet Name="L3TT sources">
+                    <String Value="Non-diegetic translation" />
+                </Facet>
+                <Facet Name="Metadata Editors">
+                    <String Value="miquelpt" />
+                </Facet>
+                <Facet Name="Quality of L3TT speaker performance">
+                    <String Value="native or proficient" />
+                </Facet>
+                <Facet Name="Reference Id">
+                    <String Value="FellowshipOfTheRing.Introduction_Galadriel.Off_intro.SpanishSub" />
+                </Facet>
+                <Facet Name="Remarks">
+                    <String Value="The Spanish subtitles repeat the English oral translation thus providing an extradiegetical written layer to the intradiegetic oral L1.  " />
+                </Facet>
+                <Facet Name="Transcription">
+                    <String Value="I amar prestar aen.&#xD;&#xA;&#xD;&#xA;El mundo ha cambiado.&#xD;&#xA;&#xD;&#xA;Han mathon ne nen.&#xD;&#xA;&#xD;&#xA;Lo siento en el agua.&#xD;&#xA;&#xD;&#xA;Han mathon ne chae.&#xD;&#xA;&#xD;&#xA;Lo siento en la tierra.&#xD;&#xA;&#xD;&#xA;A han noston ned gwilith.&#xD;&#xA;&#xD;&#xA;Lo huelo en el aire." />
+                </Facet>
+                <Facet Name="Year TT released">
+                    <Number Value="2001" />
+                </Facet>
+            </Facets>
+        </Item>
+        <Item Id="FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room.SpanishDub" Name="FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room.SpanishDub" Img="#6" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Rivendell_AragornArwen&amp;L3STinstance=FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room&amp;L3TTinstance=FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room.SpanishDub">
             <Description>This instance is uttered in the sword room in Rivendell. Arwen speaks aloud Aragorn's inner doubts and raises his spirits by combining both English and Elvish.</Description>
             <Facets>
                 <Facet Name="Conversation features for L3-instance change">
@@ -367,7 +806,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room.SpanishSub" Name="FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room.SpanishSub" Img="#3" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Rivendell_AragornArwen&amp;L3STinstance=FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room&amp;L3TTinstance=FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room.SpanishSub">
+        <Item Id="FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room.SpanishSub" Name="FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room.SpanishSub" Img="#7" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Rivendell_AragornArwen&amp;L3STinstance=FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room&amp;L3TTinstance=FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room.SpanishSub">
             <Description>This instance is uttered in the sword room in Rivendell. Arwen speaks aloud Aragorn's inner doubts and raises his spirits by combining both English and Elvish.</Description>
             <Facets>
                 <Facet Name="Conversation features for L3-instance change">
@@ -469,7 +908,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge.SpanishDub" Name="FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge.SpanishDub" Img="#4" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Rivendell_AragornArwen&amp;L3STinstance=FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge&amp;L3TTinstance=FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge.SpanishDub">
+        <Item Id="FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge.SpanishDub" Name="FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge.SpanishDub" Img="#8" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Rivendell_AragornArwen&amp;L3STinstance=FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge&amp;L3TTinstance=FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge.SpanishDub">
             <Description>This instance takes place in a bridge in Rivendell. This is the scene in which they explicitly talk about their love relationship. Dialogue combines English and Elvish.</Description>
             <Facets>
                 <Facet Name="Conversation features for L3-instance change">
@@ -569,7 +1008,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge.SpanishSub" Name="FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge.SpanishSub" Img="#5" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Rivendell_AragornArwen&amp;L3STinstance=FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge&amp;L3TTinstance=FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge.SpanishSub">
+        <Item Id="FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge.SpanishSub" Name="FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge.SpanishSub" Img="#9" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Rivendell_AragornArwen&amp;L3STinstance=FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge&amp;L3TTinstance=FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge.SpanishSub">
             <Description>This instance takes place in a bridge in Rivendell. This is the scene in which they explicitly talk about their love relationship. Dialogue combines English and Elvish.</Description>
             <Facets>
                 <Facet Name="Conversation features for L3-instance change">
@@ -669,7 +1108,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="LoveActually.JamieProposesToAurelia.Aurelia's sister.SpanishSub" Name="LoveActually - Jamie proposes to Aurelia - Aurelia's sister - Spanish Sub" Img="#6" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia&amp;L3STinstance=LoveActually.JamieProposesToAurelia.Aurelia's sister&amp;L3TTinstance=LoveActually.JamieProposesToAurelia.Aurelia's sister.SpanishSub">
+        <Item Id="LoveActually.JamieProposesToAurelia.Aurelia's sister.SpanishSub" Name="LoveActually - Jamie proposes to Aurelia - Aurelia's sister - Spanish Sub" Img="#10" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia&amp;L3STinstance=LoveActually.JamieProposesToAurelia.Aurelia's sister&amp;L3TTinstance=LoveActually.JamieProposesToAurelia.Aurelia's sister.SpanishSub">
             <Description>Aurelia's sister intervenes in Jamie's proposal (humorous effect)</Description>
             <Facets>
                 <Facet Name="Conversation features for L3-instance change">
@@ -723,7 +1162,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="LoveActually.Lake Scene.Portuguese.SpanishSub" Name="LoveActually - Lake Scene - Aurelia - SpanishSub" Img="#7" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.Lake Scene&amp;L3STinstance=LoveActually.Lake Scene.Portuguese&amp;L3TTinstance=LoveActually.Lake Scene.Portuguese.SpanishSub">
+        <Item Id="LoveActually.Lake Scene.Portuguese.SpanishSub" Name="LoveActually - Lake Scene - Aurelia - SpanishSub" Img="#11" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.Lake Scene&amp;L3STinstance=LoveActually.Lake Scene.Portuguese&amp;L3TTinstance=LoveActually.Lake Scene.Portuguese.SpanishSub">
             <Description>Aurelia expresses anxiety when papers fly.</Description>
             <Facets>
                 <Facet Name="Conversation features for L3-instance change">
@@ -790,7 +1229,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Monsoon Wedding.Conversation in the garden on the phone.Hindi.SpanishDub" Name="Monsoon Wedding.Conversation in the garden on the phone.Hindi.SpanishDub" Img="#8" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Monsoon Wedding&amp;conversation=Monsoon Wedding.Conversation in the garden on the phone&amp;L3STinstance=Monsoon Wedding.Conversation in the garden on the phone.Hindi&amp;L3TTinstance=Monsoon Wedding.Conversation in the garden on the phone.Hindi.SpanishDub">
+        <Item Id="Monsoon Wedding.Conversation in the garden on the phone.Hindi.SpanishDub" Name="Monsoon Wedding.Conversation in the garden on the phone.Hindi.SpanishDub" Img="#12" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Monsoon Wedding&amp;conversation=Monsoon Wedding.Conversation in the garden on the phone&amp;L3STinstance=Monsoon Wedding.Conversation in the garden on the phone.Hindi&amp;L3TTinstance=Monsoon Wedding.Conversation in the garden on the phone.Hindi.SpanishDub">
             <Description>The father talks on the phone in Hindi. He is outside in the garden. 
 There is another conversation taking place among women at the kitchen.</Description>
             <Facets>
@@ -888,7 +1327,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="OceansEleven.ExplainingThePlan.Chinese.SpanishSub" Name="OceansEleven.ExplainingThePlan.Chinese.SpanishSub" Img="#9" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=OceansEleven&amp;conversation=OceansEleven.ExplainingThePlan&amp;L3STinstance=OceansEleven.ExplainingThePlan.Chinese&amp;L3TTinstance=OceansEleven.ExplainingThePlan.Chinese.SpanishSub">
+        <Item Id="OceansEleven.ExplainingThePlan.Chinese.SpanishSub" Name="OceansEleven.ExplainingThePlan.Chinese.SpanishSub" Img="#13" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=OceansEleven&amp;conversation=OceansEleven.ExplainingThePlan&amp;L3STinstance=OceansEleven.ExplainingThePlan.Chinese&amp;L3TTinstance=OceansEleven.ExplainingThePlan.Chinese.SpanishSub">
             <Facets>
                 <Facet Name="Conversation features for L3-instance change">
                     <String Value="None" />

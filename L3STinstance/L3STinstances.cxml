@@ -43,7 +43,7 @@
           <DateTime Value="2016-10-07T01:00:20" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-07T06:24:46" />
+          <DateTime Value="2016-10-08T08:37:40" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="PatrickZabalbeascoa" />
@@ -174,6 +174,155 @@
         </Facet>
         <Facet Name="L3TT-instances: count">
           <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="FellowshipOfTheRing.Elrond_Dagorlad_battle.Rally" Name="FellowshipOfTheRing.Elrond_Dagorlad_battle.Rally" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Elrond_Dagorlad_battle&amp;L3STinstance=FellowshipOfTheRing.Elrond_Dagorlad_battle.Rally">
+      <Description>Elrond leads the Last Alliance in the battle of Dagorlad and rallies them in Elvish.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="FellowshipOfTheRing.Elrond_Dagorlad_battle.Rally" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Tangado haid! Leithio i philinn!" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="Elrond" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-11T04:35:29" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-11T04:40:02" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="miquelpt" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="FellowshipOfTheRing" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="FellowshipOfTheRing.Elrond_Dagorlad_battle" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="Elvish" />
+        </Facet>
+        <Facet Name="L3ST language type">
+          <String Value="Constructed (fictional)" />
+        </Facet>
+        <Facet Name="L3ST language">
+          <String Value="Elvish" />
+        </Facet>
+        <Facet Name="L3ST constructed based on">
+          <String Value="“from scratch”" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Conversation can be followed regardless of meaning" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="Quality of L3ST speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3ST mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3ST merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
+        <Facet Name="L3ST functions">
+          <String Value="Theme" />
+        </Facet>
+        <Facet Name="Conversation features for L3ST-instance">
+          <String Value="anecdote / story" />
+          <String Value="instruction / training" />
+        </Facet>
+        <Facet Name="L3ST sources">
+          <String Value="Oral L3: single source" />
+        </Facet>
+        <Facet Name="L3TT-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="FellowshipOfTheRing.Introduction_Galadriel.Off_intro" Name="FellowshipOfTheRing.Introduction_Galadriel.Off_intro" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Introduction_Galadriel&amp;L3STinstance=FellowshipOfTheRing.Introduction_Galadriel.Off_intro">
+      <Description>Previous to the title credits to the film, with the screen still in black, Galadriel utters some Elvish words as a narrator off-camera.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="FellowshipOfTheRing.Introduction_Galadriel.Off_intro" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="I amar prestar aen…&#xD;&#xA;&#xD;&#xA;The world is changed.&#xD;&#xA;&#xD;&#xA;Han mathon ne nen…&#xD;&#xA;&#xD;&#xA;I feel it in the water.&#xD;&#xA;&#xD;&#xA;Han mathon ne chae…&#xD;&#xA;&#xD;&#xA;I feel it in the Earth.&#xD;&#xA;&#xD;&#xA;A han noston ned gwilith.&#xD;&#xA;&#xD;&#xA;I smell it in the air.&#xD;&#xA;&#xD;&#xA;Much that once was is lost. For none now live who remember it." />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="narrator" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-11T03:47:22" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-11T04:05:05" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="miquelpt" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="FellowshipOfTheRing" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="FellowshipOfTheRing.Introduction_Galadriel" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="Elvish" />
+        </Facet>
+        <Facet Name="L3ST language type">
+          <String Value="Constructed (fictional)" />
+        </Facet>
+        <Facet Name="L3ST language">
+          <String Value="Elvish" />
+        </Facet>
+        <Facet Name="L3ST constructed based on">
+          <String Value="“from scratch”" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="Quality of L3ST speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3ST mode, written/spoken, diegetic">
+          <String Value="Oral diegetic off-screen" />
+        </Facet>
+        <Facet Name="L3ST merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
+        <Facet Name="L3ST functions">
+          <String Value="Theme" />
+        </Facet>
+        <Facet Name="Conversation features for L3ST-instance">
+          <String Value="anecdote / story" />
+          <String Value="literary" />
+          <String Value="monologue" />
+          <String Value="recitation" />
+        </Facet>
+        <Facet Name="L3TT-instances: count">
+          <Number Value="0" />
         </Facet>
       </Facets>
     </Item>

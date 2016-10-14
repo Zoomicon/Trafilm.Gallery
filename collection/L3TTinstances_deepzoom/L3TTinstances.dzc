@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection MaxLevel="7" TileSize="256" Format="png" NextItemId="10" ServerFormat="Default" xmlns="http://schemas.microsoft.com/deepzoom/2009">
+<Collection MaxLevel="7" TileSize="256" Format="png" NextItemId="14" ServerFormat="Default" xmlns="http://schemas.microsoft.com/deepzoom/2009">
   <Items>
     <I Id="0" N="0" Source="Avatar.Calm_down,_people.Female_Na'vi_warning.SpanishDub.dzi">
       <Size Width="1024" Height="576" />
@@ -7,28 +7,40 @@
     <I Id="1" N="1" Source="Django_Unchained.Slave_speaks_a_little_German.Slave_opens_conversation.Slave's_ST_German_dubbed.dzi">
       <Size Width="1024" Height="576" />
     </I>
-    <I Id="2" N="2" Source="FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room.SpanishDub.dzi">
+    <I Id="2" N="2" Source="FellowshipOfTheRing.Elrond_Dagorlad_battle.Rally.SpanishDub.dzi">
       <Size Width="1024" Height="576" />
     </I>
-    <I Id="3" N="3" Source="FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room.SpanishSub.dzi">
+    <I Id="3" N="3" Source="FellowshipOfTheRing.Elrond_Dagorlad_battle.Rally.SpanishSub.dzi">
       <Size Width="1024" Height="576" />
     </I>
-    <I Id="4" N="4" Source="FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge.SpanishDub.dzi">
+    <I Id="4" N="4" Source="FellowshipOfTheRing.Introduction_Galadriel.Off_intro.SpanishDub.dzi">
       <Size Width="1024" Height="576" />
     </I>
-    <I Id="5" N="5" Source="FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge.SpanishSub.dzi">
+    <I Id="5" N="5" Source="FellowshipOfTheRing.Introduction_Galadriel.Off_intro.SpanishSub.dzi">
       <Size Width="1024" Height="576" />
     </I>
-    <I Id="6" N="6" Source="LoveActually.JamieProposesToAurelia.Aurelia's_sister.SpanishSub.dzi">
+    <I Id="6" N="6" Source="FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room.SpanishDub.dzi">
       <Size Width="1024" Height="576" />
     </I>
-    <I Id="7" N="7" Source="LoveActually.Lake_Scene.Portuguese.SpanishSub.dzi">
+    <I Id="7" N="7" Source="FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room.SpanishSub.dzi">
       <Size Width="1024" Height="576" />
     </I>
-    <I Id="8" N="8" Source="Monsoon_Wedding.Conversation_in_the_garden_on_the_phone.Hindi.SpanishDub.dzi">
+    <I Id="8" N="8" Source="FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge.SpanishDub.dzi">
       <Size Width="1024" Height="576" />
     </I>
-    <I Id="9" N="9" Source="OceansEleven.ExplainingThePlan.Chinese.SpanishSub.dzi">
+    <I Id="9" N="9" Source="FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge.SpanishSub.dzi">
+      <Size Width="1024" Height="576" />
+    </I>
+    <I Id="10" N="10" Source="LoveActually.JamieProposesToAurelia.Aurelia's_sister.SpanishSub.dzi">
+      <Size Width="1024" Height="576" />
+    </I>
+    <I Id="11" N="11" Source="LoveActually.Lake_Scene.Portuguese.SpanishSub.dzi">
+      <Size Width="1024" Height="576" />
+    </I>
+    <I Id="12" N="12" Source="Monsoon_Wedding.Conversation_in_the_garden_on_the_phone.Hindi.SpanishDub.dzi">
+      <Size Width="1024" Height="576" />
+    </I>
+    <I Id="13" N="13" Source="OceansEleven.ExplainingThePlan.Chinese.SpanishSub.dzi">
       <Size Width="1024" Height="576" />
     </I>
   </Items>
