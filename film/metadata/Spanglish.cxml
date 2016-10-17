@@ -23,7 +23,7 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Spanglish" Name="Spanglish" Img="https://images-na.ssl-images-amazon.com/images/M/MV5BMTg2MjkwOTExMV5BMl5BanBnXkFtZTcwNTc4MzcyMQ@@._V1_.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Spanglish">
+    <Item Id="Spanglish" Name="Spanglish" Img="https://upload.wikimedia.org/wikipedia/en/7/7f/Spanglish_poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Spanglish">
       <Description>The film is about a divorded woman from Mexico, Flor, who emigrates to Los Angeles with her daughter Cristina. Unexpectedly, she is given the job of housekeeper at the Clasky's family. Flor and the Clasky's don't understand each other since the Clasky's only speak English and Flor only speaks Spanish. Towards the end of the film Flor decides to break through the language barrier by learning some English.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -41,7 +41,7 @@
           <DateTime Value="2016-10-17T09:21:27" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-17T05:45:19" />
+          <DateTime Value="2016-10-17T05:50:22" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="corrius" />

@@ -39,25 +39,35 @@
           <DateTime Value="2016-10-17T05:22:11" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-17T05:23:55" />
+          <DateTime Value="2016-10-17T05:56:49" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="corrius" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
+          <String Value="Um filme falado" />
+        </Facet>
+        <Facet Name="Film/Season title">
           <String Value="Um filme falado" />
         </Facet>
         <Facet Name="Duration (sec)">
           <String Value="A. 1-20" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>

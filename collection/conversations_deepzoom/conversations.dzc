@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection MaxLevel="7" TileSize="256" Format="png" NextItemId="29" ServerFormat="Default" xmlns="http://schemas.microsoft.com/deepzoom/2009">
+<Collection MaxLevel="7" TileSize="256" Format="png" NextItemId="31" ServerFormat="Default" xmlns="http://schemas.microsoft.com/deepzoom/2009">
   <Items>
     <I Id="0" N="0" Source="Avatar.Calm_down,_people.dzi">
       <Size Width="1024" Height="576" />
@@ -86,6 +86,12 @@
       <Size Width="1024" Height="576" />
     </I>
     <I Id="28" N="28" Source="Um_filme_falado.First_port_of_call-Marseille.dzi">
+      <Size Width="1024" Height="576" />
+    </I>
+    <I Id="29" N="29" Source="Um_filme_falado.The_captain_dinner-Captain-speaking_one_language.dzi">
+      <Size Width="1024" Height="576" />
+    </I>
+    <I Id="30" N="30" Source="Um_filme_falado.The_captain_dinner-Captain.dzi">
       <Size Width="1024" Height="576" />
     </I>
   </Items>
