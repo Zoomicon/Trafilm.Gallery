@@ -81,7 +81,7 @@ Version: 20161017
           <div class="label">1. Title</div>
           <div class="tip">
             Full official film title<br />
-            For TV series enter series title and season number (e.g. "Game of Thrones - Season 01")
+            For TV series enter series title and season number (e.g. Game of Thrones - Season 01)
           </div>
           <asp:TextBox ID="txtTitle" runat="server" Columns="150" />
         </div>
