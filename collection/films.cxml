@@ -42,7 +42,7 @@
                     <DateTime Value="2016-10-07T12:30:57" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-10-14T11:14:19" />
+                    <DateTime Value="2016-10-15T01:43:53" />
                 </Facet>
                 <Facet Name="L2-Dubbed languages">
                     <String Value="Spanish" />
@@ -51,9 +51,9 @@
                     <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
-                    <String Value="PatrickZabalbeascoa" />
                     <String Value="Stavroula" />
                     <String Value="George" />
+                    <String Value="PatrickZabalbeascoa" />
                 </Facet>
                 <Facet Name="Production companies">
                     <String Value="Lightstorm Entertainment" />
@@ -75,6 +75,9 @@
                     <String Value=" constructed language" />
                     <String Value=" science-fiction" />
                     <String Value=" avatars" />
+                </Facet>
+                <Facet Name="Type">
+                    <String Value="Feature film" />
                 </Facet>
                 <Facet Name="Year ST released">
                     <Number Value="2009" />
@@ -196,7 +199,7 @@
                     <DateTime Value="2016-06-01T02:48:36" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-10-14T02:00:09" />
+                    <DateTime Value="2016-10-16T07:09:16" />
                 </Facet>
                 <Facet Name="L2-Dubbed languages">
                     <String Value="Spanish" />
@@ -209,8 +212,8 @@
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="George" />
-                    <String Value="miquelpt" />
                     <String Value="Stavroula" />
+                    <String Value="miquelpt" />
                 </Facet>
                 <Facet Name="Production companies">
                     <String Value="New Line Cinema" />
@@ -227,6 +230,9 @@
                     <String Value="Fran Walsh" />
                     <String Value=" Philippa Boyens" />
                     <String Value=" Peter Jackson" />
+                </Facet>
+                <Facet Name="Series">
+                    <String Value="The Lord of the Rings" />
                 </Facet>
                 <Facet Name="Tags">
                     <String Value="Elvish" />
@@ -396,6 +402,9 @@
         <Item Id="Memoirs of a Geisha" Name="Memoirs of a Geisha" Img="#7" Href="http://gallery.trafilm.net/film/metadata/?film=Memoirs of a Geisha">
             <Description>Nitta Sayuri reveals how she transcended her fishing-village roots and became one of Japan's most celebrated geisha. </Description>
             <Facets>
+                <Facet Name="Blockbuster">
+                    <String Value="YES (top 20)" />
+                </Facet>
                 <Facet Name="Conversations: count">
                     <Number Value="0" />
                 </Facet>
@@ -409,7 +418,7 @@
                     <DateTime Value="2016-06-16T08:12:46" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-10-14T02:00:45" />
+                    <DateTime Value="2016-10-17T03:41:45" />
                 </Facet>
                 <Facet Name="Main language (L1)">
                     <String Value="English" />
@@ -418,6 +427,14 @@
                     <String Value="natalia.faja" />
                     <String Value="George" />
                     <String Value="Stavroula" />
+                    <String Value="evaespasa" />
+                </Facet>
+                <Facet Name="Production companies">
+                    <String Value="Columbia Pictures Corporation" />
+                    <String Value=" DreamWorks SKG" />
+                    <String Value=" Spyglass Entertainment" />
+                    <String Value=" Amblin Entertainment" />
+                    <String Value="  Red Wagon Entertainment" />
                 </Facet>
                 <Facet Name="Production countries">
                     <String Value="USA" />
@@ -499,19 +516,61 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Munich" Name="Munich" Img="#9">
+        <Item Id="Munich" Name="Munich" Img="#9" Href="http://gallery.trafilm.net/film/metadata/?film=Munich">
+            <Description>fter Black September's assassination of Israeli athletes at the Munich Olympics in 1972, Prime Minister Golda Meir okays a black-box operation to hunt down and kill all involved. A team of five gathers in Switzerland led by Avner, a low-level Mossad techie whose father was a war hero and whose wife is pregnant. It's an expendable team, but relying on paid informants, they track and kill several in Europe and Lebanon. They must constantly look over their shoulders for the CIA, KGB, PLO, and their own sources.</Description>
             <Facets>
+                <Facet Name="Blockbuster">
+                    <String Value="YES (top 20)" />
+                </Facet>
                 <Facet Name="Conversations: count">
                     <Number Value="0" />
+                </Facet>
+                <Facet Name="Director(s)">
+                    <String Value="Steven Spielberg" />
+                </Facet>
+                <Facet Name="Duration (min)">
+                    <Number Value="164" />
                 </Facet>
                 <Facet Name="Info created">
                     <DateTime Value="2016-10-11T02:25:26" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-10-11T02:25:26" />
+                    <DateTime Value="2016-10-16T07:52:13" />
+                </Facet>
+                <Facet Name="Main language (L1)">
+                    <String Value="English" />
+                </Facet>
+                <Facet Name="Metadata Editors">
+                    <String Value="miquelpt" />
+                </Facet>
+                <Facet Name="Production companies">
+                    <String Value="DreamWorks SKG" />
+                    <String Value=" Universal Pictures" />
+                    <String Value=" Amblin Entertainment" />
+                    <String Value=" Kennedy/Marshall Company" />
+                    <String Value=" The Barry Mendel Productions" />
+                    <String Value=" Alliance Atlantis Communication (in association with)" />
+                    <String Value=" Peninsula Films (executive production)roduction Companies DreamWorks SKG Universal Pictures Amblin Entertainment Kennedy/Marshall Company" />
+                    <String Value=" The Barry Mendel Productions Alliance Atlantis Communications (in association with) Peninsula Films (executive production)" />
+                </Facet>
+                <Facet Name="Production countries">
+                    <String Value="France" />
+                    <String Value=" Canada" />
+                    <String Value=" USA" />
                 </Facet>
                 <Facet Name="Reference Id">
                     <String Value="Munich" />
+                </Facet>
+                <Facet Name="Scriptwriter(s)">
+                    <String Value="Tony Kushner" />
+                    <String Value=" Eric Roth" />
+                    <String Value=" George Jonas" />
+                </Facet>
+                <Facet Name="Type">
+                    <String Value="Feature film" />
+                </Facet>
+                <Facet Name="Year ST released">
+                    <Number Value="2005" />
                 </Facet>
             </Facets>
         </Item>
@@ -651,7 +710,65 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Stigmata" Name="Stigmata" Img="#13" Href="http://gallery.trafilm.net/film/metadata/?film=Stigmata">
+        <Item Id="Spanglish" Name="Spanglish" Img="#13" Href="http://gallery.trafilm.net/film/metadata/?film=Spanglish">
+            <Description>The film is about a divorded woman from Mexico, Flor, who emigrates to Los Angeles with her daughter Cristina. Unexpectedly, she is given the job of housekeeper at the Clasky's family. Flor and the Clasky's don't understand each other since the Clasky's only speak English and Flor only speaks Spanish. Towards the end of the film Flor decides to break through the language barrier by learning some English.</Description>
+            <Facets>
+                <Facet Name="Blockbuster">
+                    <String Value="NO, closer to Art film or niche market" />
+                </Facet>
+                <Facet Name="Conversations: count">
+                    <Number Value="4" />
+                </Facet>
+                <Facet Name="Director(s)">
+                    <String Value="James L. Brooks" />
+                </Facet>
+                <Facet Name="Duration (min)">
+                    <Number Value="131" />
+                </Facet>
+                <Facet Name="Info created">
+                    <DateTime Value="2016-10-17T09:21:27" />
+                </Facet>
+                <Facet Name="Info updated">
+                    <DateTime Value="2016-10-17T03:48:27" />
+                </Facet>
+                <Facet Name="L2-Subtitled languages">
+                    <String Value="Spanish" />
+                </Facet>
+                <Facet Name="Main language (L1)">
+                    <String Value="English" />
+                </Facet>
+                <Facet Name="Metadata Editors">
+                    <String Value="corrius" />
+                </Facet>
+                <Facet Name="Production companies">
+                    <String Value="Columbia Pictures" />
+                </Facet>
+                <Facet Name="Production countries">
+                    <String Value="United States" />
+                </Facet>
+                <Facet Name="Reference Id">
+                    <String Value="Spanglish" />
+                </Facet>
+                <Facet Name="Remarks">
+                    <String Value="The main Language is English although Spanish could also be considered an L1. It is a linguistically mixed film in which the constant mixture of languages might be said to be part of the film's plot.&#xD;&#xA;L1- English is subtitled into Spanish in dialogues and dubbed into Spanish in voice-over&#xD;&#xA;L3 - Spanish is kept in the TT coinciding with L2. In this case the only difference is that L2 is subtitled whereas L3TT can be heard." />
+                </Facet>
+                <Facet Name="Scriptwriter(s)">
+                    <String Value="James L. Brooks" />
+                </Facet>
+                <Facet Name="Tags">
+                    <String Value="Multilingual" />
+                    <String Value=" Spanglish" />
+                    <String Value=" Code-switching" />
+                </Facet>
+                <Facet Name="Type">
+                    <String Value="Feature film" />
+                </Facet>
+                <Facet Name="Year ST released">
+                    <Number Value="2004" />
+                </Facet>
+            </Facets>
+        </Item>
+        <Item Id="Stigmata" Name="Stigmata" Img="#14" Href="http://gallery.trafilm.net/film/metadata/?film=Stigmata">
             <Description>When a young woman becomes afflicted by stigmata, a priest is sent to investigate her case, which may have severe ramifications for his faith and for the Catholic Church itself. </Description>
             <Facets>
                 <Facet Name="Conversations: count">
@@ -694,7 +811,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="The Last Samurai" Name="The Last Samurai" Img="#14" Href="http://gallery.trafilm.net/film/metadata/?film=The Last Samurai">
+        <Item Id="The Last Samurai" Name="The Last Samurai" Img="#15" Href="http://gallery.trafilm.net/film/metadata/?film=The Last Samurai">
             <Description>An American military advisor embraces the Samurai culture he was hired to destroy after he is captured in battle. </Description>
             <Facets>
                 <Facet Name="Conversations: count">
@@ -739,9 +856,12 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheReturnOfTheKing" Name="The Lord of the Rings: The Return of the King" Img="#15" Href="http://gallery.trafilm.net/film/metadata/?film=TheReturnOfTheKing">
+        <Item Id="TheReturnOfTheKing" Name="The Lord of the Rings: The Return of the King" Img="#16" Href="http://gallery.trafilm.net/film/metadata/?film=TheReturnOfTheKing">
             <Description>Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.</Description>
             <Facets>
+                <Facet Name="Blockbuster">
+                    <String Value="YES (top 20)" />
+                </Facet>
                 <Facet Name="Conversations: count">
                     <Number Value="0" />
                 </Facet>
@@ -755,7 +875,7 @@
                     <DateTime Value="2016-06-01T02:48:36" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-10-14T02:01:57" />
+                    <DateTime Value="2016-10-16T07:34:42" />
                 </Facet>
                 <Facet Name="Main language (L1)">
                     <String Value="English" />
@@ -763,6 +883,7 @@
                 <Facet Name="Metadata Editors">
                     <String Value="George" />
                     <String Value="Stavroula" />
+                    <String Value="miquelpt" />
                 </Facet>
                 <Facet Name="Production companies">
                     <String Value="New Line Cinema" />
@@ -792,9 +913,12 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers" Name="The Lord of the Rings: The Two Towers" Img="#16" Href="http://gallery.trafilm.net/film/metadata/?film=TheTwoTowers">
+        <Item Id="TheTwoTowers" Name="The Lord of the Rings: The Two Towers" Img="#17" Href="http://gallery.trafilm.net/film/metadata/?film=TheTwoTowers">
             <Description>While Frodo and Sam, now accompanied by a new guide, continue their hopeless journey towards the land of shadow to destroy the One Ring, each member of the broken fellowship plays their part in the battle against the evil wizard Saruman and his armies of Isengard. </Description>
             <Facets>
+                <Facet Name="Blockbuster">
+                    <String Value="YES (top 20)" />
+                </Facet>
                 <Facet Name="Conversations: count">
                     <Number Value="0" />
                 </Facet>
@@ -808,7 +932,7 @@
                     <DateTime Value="2016-06-01T02:48:36" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-10-14T02:01:47" />
+                    <DateTime Value="2016-10-16T07:34:04" />
                 </Facet>
                 <Facet Name="Main language (L1)">
                     <String Value="English" />
@@ -816,6 +940,7 @@
                 <Facet Name="Metadata Editors">
                     <String Value="George" />
                     <String Value="Stavroula" />
+                    <String Value="miquelpt" />
                 </Facet>
                 <Facet Name="Production companies">
                     <String Value="New Line Cinema" />
@@ -834,6 +959,9 @@
                     <String Value=" Stephen Sinclair" />
                     <String Value=" Peter Jackson" />
                 </Facet>
+                <Facet Name="Series">
+                    <String Value="The Lord of the Rings" />
+                </Facet>
                 <Facet Name="Tags">
                     <String Value="Elvish" />
                     <String Value=" Tolkien" />
@@ -846,7 +974,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheWalk" Name="The Walk" Img="#17" Href="http://gallery.trafilm.net/film/metadata/?film=TheWalk">
+        <Item Id="TheWalk" Name="The Walk" Img="#18" Href="http://gallery.trafilm.net/film/metadata/?film=TheWalk">
             <Description>In 1974, high-wire artist Philippe Petit recruits a team of people to help him realize his dream: to walk the immense void between the World Trade Center towers.</Description>
             <Facets>
                 <Facet Name="Conversations: count">
@@ -897,7 +1025,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="ToyStory3" Name="Toy Story 3" Img="#18" Href="http://gallery.trafilm.net/film/metadata/?film=ToyStory3">
+        <Item Id="ToyStory3" Name="Toy Story 3" Img="#19" Href="http://gallery.trafilm.net/film/metadata/?film=ToyStory3">
             <Description>The toys are mistakenly delivered to a day-care center instead of the attic right before Andy leaves for college, and it's up to Woody to convince the other toys that they weren't abandoned and to return home.</Description>
             <Facets>
                 <Facet Name="Conversations: count">
@@ -947,7 +1075,66 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Zootopia" Name="Zootopia" Img="#19" Href="http://gallery.trafilm.net/film/metadata/?film=Zootopia">
+        <Item Id="Um filme falado" Name="Um filme falado" Img="#20" Href="http://gallery.trafilm.net/film/metadata/?film=Um filme falado">
+            <Description>A history teacher (Rosa Maria) goes on a cruise with her daughter (Maria Joana) from Portugal to India to meet her father. At each port they visit many of the places where so much of what she teaches takes place and they meet different people who speak different languages. Besides this, new people from different nationalities board the ship; Dalphine (a French businesswoman); Francesca (a former Italian model); Helena (a Greek actress). The captain of the ship invites them to have dinner together and each of them speaks their own language. Later they switch the language and they all speak in English.</Description>
+            <Facets>
+                <Facet Name="Blockbuster">
+                    <String Value="NO, closer to Art film or niche market" />
+                </Facet>
+                <Facet Name="Conversations: count">
+                    <Number Value="1" />
+                </Facet>
+                <Facet Name="Director(s)">
+                    <String Value="Manoel de Oliveira" />
+                </Facet>
+                <Facet Name="Duration (min)">
+                    <Number Value="96" />
+                </Facet>
+                <Facet Name="Info created">
+                    <DateTime Value="2016-10-17T04:00:50" />
+                </Facet>
+                <Facet Name="Info updated">
+                    <DateTime Value="2016-10-17T04:56:48" />
+                </Facet>
+                <Facet Name="L2-Subtitled languages">
+                    <String Value="Spanish" />
+                </Facet>
+                <Facet Name="Main language (L1)">
+                    <String Value="Portuguese" />
+                </Facet>
+                <Facet Name="Metadata Editors">
+                    <String Value="corrius" />
+                </Facet>
+                <Facet Name="Production companies">
+                    <String Value="Madragoa Filmes" />
+                </Facet>
+                <Facet Name="Production countries">
+                    <String Value="Portugal" />
+                    <String Value=" France" />
+                    <String Value=" Italy" />
+                </Facet>
+                <Facet Name="Reference Id">
+                    <String Value="Um filme falado" />
+                </Facet>
+                <Facet Name="Remarks">
+                    <String Value="The film contains five different languages (Portuguese, French, English, Italian and Greek) but the main language cannot be easily identifiable, albeit the main protagonists speak Portuguese. As the title indicates it is a film about language, about talking." />
+                </Facet>
+                <Facet Name="Scriptwriter(s)">
+                    <String Value="Manoel de Oliveira" />
+                </Facet>
+                <Facet Name="Tags">
+                    <String Value="Multilingual" />
+                    <String Value=" talking pictures" />
+                </Facet>
+                <Facet Name="Type">
+                    <String Value="Feature film" />
+                </Facet>
+                <Facet Name="Year ST released">
+                    <Number Value="2003" />
+                </Facet>
+            </Facets>
+        </Item>
+        <Item Id="Zootopia" Name="Zootopia" Img="#21" Href="http://gallery.trafilm.net/film/metadata/?film=Zootopia">
             <Description>In a city of anthropomorphic animals, a rookie bunny cop and a cynical con artist fox must work together to uncover a conspiracy.</Description>
             <Facets>
                 <Facet Name="Conversations: count">

@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Collection SchemaVersion="1.0" Name="Spanglish" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+  <FacetCategories>
+    <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Type" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Duration (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Series" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Director(s)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Scriptwriter(s)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Production countries" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Production companies" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Blockbuster" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Year ST released" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Main language (L1)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L2-Dubbed languages" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L2-Subtitled languages" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Conversations: count" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Tags" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+  </FacetCategories>
+  <Items xmlns="">
+    <Item Id="Spanglish" Name="Spanglish" Img="http://www.imdb.com/title/tt0371246/mediaviewer/rm3297156352" Href="http://gallery.trafilm.net/film/metadata/?film=Spanglish">
+      <Description>The film is about a divorded woman from Mexico, Flor, who emigrates to Los Angeles with her daughter Cristina. Unexpectedly, she is given the job of housekeeper at the Clasky's family. Flor and the Clasky's don't understand each other since the Clasky's only speak English and Flor only speaks Spanish. Towards the end of the film Flor decides to break through the language barrier by learning some English.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Spanglish" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="Multilingual" />
+          <String Value=" Spanglish" />
+          <String Value=" Code-switching" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="The main Language is English although Spanish could also be considered an L1. It is a linguistically mixed film in which the constant mixture of languages might be said to be part of the film's plot.&#xD;&#xA;L1- English is subtitled into Spanish in dialogues and dubbed into Spanish in voice-over&#xD;&#xA;L3 - Spanish is kept in the TT coinciding with L2. In this case the only difference is that L2 is subtitled whereas L3TT can be heard." />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-17T09:21:27" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-17T03:48:27" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="corrius" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="131" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="James L. Brooks" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="James L. Brooks" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="United States" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="Columbia Pictures" />
+        </Facet>
+        <Facet Name="Blockbuster">
+          <String Value="NO, closer to Art film or niche market" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2004" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L2-Subtitled languages">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="4" />
+        </Facet>
+      </Facets>
+    </Item>
+  </Items>
+</Collection>

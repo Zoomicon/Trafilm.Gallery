@@ -3,6 +3,8 @@
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Film/Season title" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Season episode name" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Start time (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Duration (sec)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Language sources" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -19,7 +21,7 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Avatar.Calm down, people" Name="Avatar.Calm down, people" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Avatar&amp;conversation=Avatar.Calm down, people">
+    <Item Id="Avatar.Calm down, people" Name="Avatar - Calm down, people" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Avatar&amp;conversation=Avatar.Calm down, people">
       <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -29,13 +31,16 @@
           <DateTime Value="2016-10-07T05:23:57" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-09T10:46:38" />
+          <DateTime Value="2016-10-17T05:39:57" />
         </Facet>
         <Facet Name="Metadata Editors">
-          <String Value="George" />
           <String Value="PatrickZabalbeascoa" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
+          <String Value="Avatar" />
+        </Facet>
+        <Facet Name="Film/Season title">
           <String Value="Avatar" />
         </Facet>
         <Facet Name="Start time (min)">
@@ -154,13 +159,16 @@
           <DateTime Value="2016-10-11T03:45:06" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-11T04:27:10" />
+          <DateTime Value="2016-10-16T07:10:17" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="miquelpt" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="FellowshipOfTheRing" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="1" />
         </Facet>
         <Facet Name="Duration (sec)">
           <String Value="A. 1-20" />
@@ -375,6 +383,151 @@
         </Facet>
         <Facet Name="L3ST language types">
           <String Value="L-main variety (e.g. dialect, sociolect, idiolect, slang)" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Spanglish.At the summer place. An interpreter." Name="Spanglish.At the summer place. An interpreter." Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Spanglish&amp;conversation=Spanglish.At the summer place. An interpreter.">
+      <Description></Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Spanglish.At the summer place. An interpreter." />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="Multilingual" />
+          <String Value=" Spanglish" />
+          <String Value=" Code-switching" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-17T09:49:01" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-17T01:52:25" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="corrius" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Spanglish" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Spanglish.Flor and Cristina at the restaurant" Name="Spanglish.Flor and Cristina at the restaurant" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Spanglish&amp;conversation=Spanglish.Flor and Cristina at the restaurant">
+      <Description></Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Spanglish.Flor and Cristina at the restaurant" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-17T09:47:33" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-17T09:47:52" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="corrius" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Spanglish" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Spanglish.Going to America. Narrator" Name="Spanglish.Going to America. Narrator" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Spanglish&amp;conversation=Spanglish.Going to America. Narrator">
+      <Description></Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Spanglish.Going to America. Narrator" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-17T09:51:12" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-17T01:28:26" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="corrius" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Spanglish" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Spanglish.Introduction to the Clasky's family" Name="Spanglish.Introduction to the Clasky's family" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Spanglish&amp;conversation=Spanglish.Introduction to the Clasky's family">
+      <Description></Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Spanglish.Introduction to the Clasky's family" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-17T09:40:48" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-17T03:42:31" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="corrius" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Spanglish" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
         </Facet>
         <Facet Name="L3ST-instances: count">
           <Number Value="1" />
@@ -905,6 +1058,127 @@
         </Facet>
         <Facet Name="Start time (min)">
           <Number Value="72" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Um filme falado.First port of call-Marseille" Name="Um filme falado.First port of call-Marseille" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Um filme falado&amp;conversation=Um filme falado.First port of call-Marseille">
+      <Description></Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Um filme falado.First port of call-Marseille" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="Fench" />
+          <String Value=" multilingual" />
+          <String Value=" third language" />
+          <String Value=" " />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="Rosa Maria is talking to some fishermen in French but she addresses to her daughter in Portuguese since she doesn't understand French. " />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-17T04:31:52" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-17T04:35:26" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="corrius" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Um filme falado" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Um filme falado.The captain dinner-Captain-speaking one language" Name="Um filme falado.The captain dinner-Captain-speaking one language" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Um filme falado&amp;conversation=Um filme falado.The captain dinner-Captain-speaking one language">
+      <Description></Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Um filme falado.The captain dinner-Captain-speaking one language" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="English" />
+          <String Value=" Babel" />
+          <String Value=" Captain dinner" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="Captain speaking in English" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-17T05:22:11" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-17T05:23:55" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="corrius" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Um filme falado" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Um filme falado.The captain dinner-Captain" Name="Um filme falado.The captain dinner-Captain" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Um filme falado&amp;conversation=Um filme falado.The captain dinner-Captain">
+      <Description></Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Um filme falado.The captain dinner-Captain" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="English" />
+          <String Value=" Babel" />
+          <String Value=" Captain dinner" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="conversation between the ship's captain (John Walesa, an American from Polish background) and three passengers on board: Delphine (French), Francesca (Italian), Helena (Greek. Everybody speaks their own language and they understand each other very well. Later Rosa Maria and Maria Joana join the table and as none of the characters except for the captain understands Portuguese they change into English." />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-17T04:58:25" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-17T05:06:12" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="corrius" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Um filme falado" />
         </Facet>
         <Facet Name="Duration (sec)">
           <String Value="A. 1-20" />

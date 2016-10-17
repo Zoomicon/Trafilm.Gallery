@@ -54,7 +54,13 @@ div
 .question
 {
   background-color: lightgoldenrodyellow;
-  padding: 5px;
+  padding: 1px;
+}
+
+.calculated 
+{
+  background-color: ghostwhite;
+  padding: 1px;
 }
 
 .label

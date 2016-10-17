@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: film\metadata\default.aspx
-Version: 20161014
+Version: 20161017
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -61,7 +61,7 @@ Version: 20161014
 
         <asp:Panel ID="panelAdd" runat="server">
           <div class="label">or enter a new Film Id (e.g. <i>Ocean's Eleven</i>)</div>
-          <asp:TextBox ID="txtFilm" runat="server" />
+          <asp:TextBox ID="txtFilm" runat="server" Columns="50" />
           <asp:Button ID="btnAddFilm" runat="server" Text="Add" OnClick="btnAddFilm_Click" />
           &nbsp;
           <asp:CheckBox ID="cbClone" Text="Copy from selected" runat="server" Visible="false" />
@@ -92,8 +92,10 @@ Version: 20161014
           <asp:TextBox ID="txtDescription" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
         </div>
 
-        <div class="label">Film URL</div>
-        <asp:HyperLink ID="linkUrl" runat="server" Target="_blank"/>
+        <div class="calculated" id="URL">
+          <div class="label">Film URL</div>
+          <asp:HyperLink ID="linkUrl" runat="server" Target="_blank"/>
+        </div>
 
         <div class="question" id="PosterImage">
           <div class="label">3. Film Poster URL</div>
@@ -121,7 +123,7 @@ Version: 20161014
             How long does the film last? (in minutes)<br />
             When Type is "TV series season", enter duration of longest episode in that season            
           </div>
-          <asp:TextBox ID="txtDuration" runat="server" />
+          <asp:TextBox ID="txtDuration" runat="server" Columns="25" />
         </div>
 
 
@@ -175,7 +177,7 @@ Version: 20161014
         <div class="question" id="YearSTreleased">
           <div class="label">11. Year ST released</div>
           <div class="tip">When was the film first released commercially?</div>
-          <asp:TextBox ID="txtYear" runat="server" />
+          <asp:TextBox ID="txtYear" runat="server" Columns="25" />
         </div>
 
 
@@ -192,14 +194,14 @@ Version: 20161014
 
         <%-- Calculated from Conversations.L3STinstances.L3TTinstances --%>
 
-        <div>
+        <div class="calculated" id="L2dubbedLanguages">
           <div class="label">L2-Dubbed languages</div>
           <asp:Panel runat="server" ScrollBars="Auto" Style="max-height: 100px">
             <asp:ListBox ID="listL2dubbedLanguages" runat="server" Enabled="false" />
            </asp:Panel>
         </div>
         
-        <div>
+        <div class="calculated" id="L2subtitledLanguages">
           <div class="label">L2-Subtitled languages</div>
           <asp:Panel runat="server" ScrollBars="Auto" Style="max-height: 100px">
             <asp:ListBox ID="listL2subtitledLanguages" runat="server" Enabled="false" />
@@ -210,7 +212,7 @@ Version: 20161014
         <%-- Calculated from Conversations --%>
         
         <%-- //Count shown in parentheses next to title of respective list
-        <div>
+        <div class="calculated" id="ConversationCount">
           <div class="label">Count of Conversations (Calculated)</div>
           <asp:Label ID="lblConversationCount" runat="server" />
         </div>
@@ -220,7 +222,7 @@ Version: 20161014
 
 
         <%-- //Film Transcription not available for copyright and for metadata size reasons
-        <div class="question">
+        <div class="question" id="Transcription">
           <div class="label">13. Transcription </div>
           <div class="tip">Transcription for the whole film</div>
           <asp:TextBox ID="txtTranscription" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
@@ -240,7 +242,7 @@ Version: 20161014
         </div>
 
 
-        <div>
+        <div class="calculated" id="InfoDates">
           <span class="label">Info created: </span>
           <asp:Label ID="lblInfoCreated" runat="server" />
 
@@ -248,7 +250,7 @@ Version: 20161014
           <asp:Label ID="lblInfoUpdated" runat="server" />
         </div>
 
-        <div>
+        <div class="calculated" id="MetadataEditors">
           <div class="label">Metadata Editors</div>
           <asp:Panel runat="server" ScrollBars="Auto" Style="max-height: 100px">
             <asp:ListBox ID="listMetadataEditors" runat="server" Enabled="false" />
@@ -272,7 +274,7 @@ Version: 20161014
 
         <%-- Conversations list --%>                  
 
-        <div>
+        <div class="calculated" id="Conversations">
           <div class="label">Conversations (#<asp:Label ID="lblConversationCount" runat="server" />)</div>
           <asp:Repeater ID="repeaterConversations" runat="server">
             <ItemTemplate>

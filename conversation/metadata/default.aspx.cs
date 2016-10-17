@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: conversation\metadata\default.aspx.cs
-//Version: 20161008
+//Version: 20161017
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -81,6 +81,8 @@ namespace Trafilm.Gallery
     {
       string key = metadata.ReferenceId;
 
+      metadata.Film = filmStorage[metadata.FilmReferenceId]; //this updates calculated properties
+
       l3STinstanceStorage = new CXMLFragmentStorage<IL3STinstance, L3STinstance>(Path.Combine(Request.PhysicalApplicationPath, @"L3STinstance\L3STinstances.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"L3STinstance\metadata"), key + ".*.cxml");
       metadata.L3STinstances = l3STinstanceStorage.Values; //this updates calculated properties //assumes "l3STinstanceStorage" has been updated
     }
@@ -102,9 +104,9 @@ namespace Trafilm.Gallery
 
       //ICXMLMetadata//
 
-      /*
       //Ignoring the Id field, since some Pivot Tools expect it to be sequential
       UI.Load(txtTitle, metadata.Title);
+      /*
       UI.Load(txtImageUrl, metadata.Image);
       */
       UI.Load(linkUrl, GetConversationUri(metadata.FilmReferenceId, key));
@@ -123,15 +125,18 @@ namespace Trafilm.Gallery
 
       /*
       UI.Load(txtTranscription, metadata.Transcription);
+      */
 
       UI.Load(txtTags, metadata.Tags);
 
       UI.Load(txtRemarks, metadata.Remarks);
-      */
 
       //IConversation//
 
       UI.Load(listFilms, metadata.FilmReferenceId);
+
+      UI.Load(lblFilmOrSeasonTitle, metadata.FilmOrSeasonTitle);
+      UI.Load(txtSeasonEpisodeName, metadata.SeasonEpisodeName);
 
       UI.Load(txtStartTime, metadata.StartTime.ToString());
       UI.Load(listDuration, metadata.Duration);
@@ -165,8 +170,8 @@ namespace Trafilm.Gallery
 
       //ICXMLMetadata//
 
-      /*
       metadata.Title = txtTitle.Text;
+      /*
       metadata.Image = txtImageUrl.Text;
       */
       metadata.Url = GetConversationUri(filmReferenceId, key);
@@ -185,15 +190,17 @@ namespace Trafilm.Gallery
 
       /*
       metadata.Transcription = txtTranscription.Text;
+      */
 
       metadata.Tags = UI.GetCommaSeparated(txtTags);
 
       metadata.Remarks = txtRemarks.Text;
-      */
 
       //IConversation//
 
       metadata.FilmReferenceId = filmReferenceId;
+
+      metadata.SeasonEpisodeName = txtSeasonEpisodeName.Text;
 
       metadata.StartTime = txtStartTime.Text.ToNullableInt();
       metadata.Duration = listDuration.SelectedValue;

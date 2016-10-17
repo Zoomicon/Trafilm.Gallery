@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection MaxLevel="7" TileSize="256" Format="png" NextItemId="20" ServerFormat="Default" xmlns="http://schemas.microsoft.com/deepzoom/2009">
+<Collection MaxLevel="7" TileSize="256" Format="png" NextItemId="22" ServerFormat="Default" xmlns="http://schemas.microsoft.com/deepzoom/2009">
   <Items>
     <I Id="0" N="0" Source="Avatar.dzi">
       <Size Width="1050" Height="1547" />
@@ -40,25 +40,31 @@
     <I Id="12" N="12" Source="Slumdog_Millionaire.dzi">
       <Size Width="1050" Height="1547" />
     </I>
-    <I Id="13" N="13" Source="Stigmata.dzi">
+    <I Id="13" N="13" Source="Spanglish.dzi">
       <Size Width="1050" Height="1547" />
     </I>
-    <I Id="14" N="14" Source="The_Last_Samurai.dzi">
+    <I Id="14" N="14" Source="Stigmata.dzi">
       <Size Width="1050" Height="1547" />
     </I>
-    <I Id="15" N="15" Source="TheReturnOfTheKing.dzi">
+    <I Id="15" N="15" Source="The_Last_Samurai.dzi">
       <Size Width="1050" Height="1547" />
     </I>
-    <I Id="16" N="16" Source="TheTwoTowers.dzi">
+    <I Id="16" N="16" Source="TheReturnOfTheKing.dzi">
       <Size Width="1050" Height="1547" />
     </I>
-    <I Id="17" N="17" Source="TheWalk.dzi">
+    <I Id="17" N="17" Source="TheTwoTowers.dzi">
       <Size Width="1050" Height="1547" />
     </I>
-    <I Id="18" N="18" Source="ToyStory3.dzi">
+    <I Id="18" N="18" Source="TheWalk.dzi">
       <Size Width="1050" Height="1547" />
     </I>
-    <I Id="19" N="19" Source="Zootopia.dzi">
+    <I Id="19" N="19" Source="ToyStory3.dzi">
+      <Size Width="1050" Height="1547" />
+    </I>
+    <I Id="20" N="20" Source="Um_filme_falado.dzi">
+      <Size Width="1050" Height="1547" />
+    </I>
+    <I Id="21" N="21" Source="Zootopia.dzi">
       <Size Width="1050" Height="1547" />
     </I>
   </Items>

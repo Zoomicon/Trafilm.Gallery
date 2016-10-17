@@ -31,7 +31,7 @@
   </FacetCategories>
   <Items xmlns="">
     <Item Id="FellowshipOfTheRing.Introduction_Galadriel.Off_intro" Name="FellowshipOfTheRing.Introduction_Galadriel.Off_intro" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Introduction_Galadriel&amp;L3STinstance=FellowshipOfTheRing.Introduction_Galadriel.Off_intro">
-      <Description>Previous to the title credits to the film, with the screen still in black, Galadriel utters some Elvish words as a narrator off-camera.</Description>
+      <Description>Before the title credits to the film, with the screen still in black, Galadriel utters some Elvish words as a narrator off-camera.</Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="FellowshipOfTheRing.Introduction_Galadriel.Off_intro" />
@@ -46,7 +46,7 @@
           <DateTime Value="2016-10-11T03:47:22" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-11T04:05:05" />
+          <DateTime Value="2016-10-16T07:12:00" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="miquelpt" />
@@ -56,6 +56,9 @@
         </Facet>
         <Facet Name="Conversation Reference Id">
           <String Value="FellowshipOfTheRing.Introduction_Galadriel" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="1" />
         </Facet>
         <Facet Name="Conversation duration (sec)">
           <String Value="A. 1-20" />
@@ -94,13 +97,15 @@
           <String Value="Theme" />
         </Facet>
         <Facet Name="Conversation features for L3ST-instance">
-          <String Value="anecdote / story" />
+          <String Value="introduction" />
           <String Value="literary" />
-          <String Value="monologue" />
           <String Value="recitation" />
         </Facet>
+        <Facet Name="L3ST sources">
+          <String Value="Oral L3: single source" />
+        </Facet>
         <Facet Name="L3TT-instances: count">
-          <Number Value="0" />
+          <Number Value="2" />
         </Facet>
       </Facets>
     </Item>
