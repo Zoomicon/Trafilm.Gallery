@@ -43,7 +43,7 @@
           <DateTime Value="2016-10-07T01:00:20" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-08T08:37:40" />
+          <DateTime Value="2016-10-17T09:43:06" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="PatrickZabalbeascoa" />
@@ -57,6 +57,9 @@
         </Facet>
         <Facet Name="Conversation start time (min)">
           <Number Value="43" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="A. 1-20" />
         </Facet>
         <Facet Name="Main (L1) language">
           <String Value="Na'vi" />
@@ -827,11 +830,11 @@ There is another conversation taking place among women at the kitchen.</Descript
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Spanglish.At the summer place. An interpreter..A man in the street speaks Spanish to Flor and English to Deborah. He's playing the role of an interpreter" Name="Spanglish.At the summer place. An interpreter. A man in the is playing the role of an interpreter" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Spanglish&amp;conversation=Spanglish.At the summer place. An interpreter.&amp;L3STinstance=Spanglish.At the summer place. An interpreter..A man in the street speaks Spanish to Flor and English to Deborah. He's playing the role of an interpreter">
+    <Item Id="Spanglish.At the summer place - an interpreter.Man speaks Spanish to Flor and English to Deborah" Name="Spanglish.At the summer place - an interpreter.Man speaks Spanish to Flor and English to Deborah" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Spanglish&amp;conversation=Spanglish.At the summer place - an interpreter&amp;L3STinstance=Spanglish.At the summer place - an interpreter.Man speaks Spanish to Flor and English to Deborah">
       <Description>Flor, Deborah and Evelyn are walking in the street. Deborah wants to ask Flor if she would like to move with them to the summer house and live with them, but as they don't speak the same language, DEborah cannot communicate with her until she sees a Hispanic man washinng somebody's car. She asks him if he speaks English and if he could translate for her.</Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Spanglish.At the summer place. An interpreter..A man in the street speaks Spanish to Flor and English to Deborah. He's playing the role of an interpreter" />
+          <String Value="Spanglish.At the summer place - an interpreter.Man speaks Spanish to Flor and English to Deborah" />
         </Facet>
         <Facet Name="Transcription">
           <String Value="Deborah: I rented a house here for the summer and now she needs to sleep in the house because of the bus schedule.&#xD;&#xA;Man: Ella dice que rentó una casa durante el verano y quiere que te quedes con ella.&#xD;&#xA;Flor. No sorry.&#xD;&#xA;Deborah: What? Why?&#xD;&#xA;Flor: Porque tengo una hija y no puedo&#xD;&#xA;Man: She can't, because her daughter" />
@@ -857,7 +860,7 @@ There is another conversation taking place among women at the kitchen.</Descript
           <String Value="Spanglish" />
         </Facet>
         <Facet Name="Conversation Reference Id">
-          <String Value="Spanglish.At the summer place. An interpreter." />
+          <String Value="Spanglish.At the summer place - an interpreter" />
         </Facet>
         <Facet Name="Conversation duration (sec)">
           <String Value="A. 1-20" />
@@ -896,11 +899,11 @@ There is another conversation taking place among women at the kitchen.</Descript
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Spanglish.At the summer place. An interpreter..Speaking Spanish" Name="Spanglish.At the summer place. An interpreter. Speaking Spanish" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Spanglish&amp;conversation=Spanglish.At the summer place. An interpreter.&amp;L3STinstance=Spanglish.At the summer place. An interpreter..Speaking Spanish">
+    <Item Id="Spanglish.At the summer place - an interpreter.Speaking Spanish" Name="Spanglish.At the summer place - an interpreter.Speaking Spanish" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Spanglish&amp;conversation=Spanglish.At the summer place - an interpreter&amp;L3STinstance=Spanglish.At the summer place - an interpreter.Speaking Spanish">
       <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Spanglish.At the summer place. An interpreter..Speaking Spanish" />
+          <String Value="Spanglish.At the summer place - an interpreter.Speaking Spanish" />
         </Facet>
         <Facet Name="Info created">
           <DateTime Value="2016-10-17T01:57:01" />
@@ -915,7 +918,7 @@ There is another conversation taking place among women at the kitchen.</Descript
           <String Value="Spanglish" />
         </Facet>
         <Facet Name="Conversation Reference Id">
-          <String Value="Spanglish.At the summer place. An interpreter." />
+          <String Value="Spanglish.At the summer place - an interpreter" />
         </Facet>
         <Facet Name="Conversation duration (sec)">
           <String Value="A. 1-20" />
@@ -998,35 +1001,6 @@ There is another conversation taking place among women at the kitchen.</Descript
         </Facet>
         <Facet Name="L3TT-instances: count">
           <Number Value="1" />
-        </Facet>
-      </Facets>
-    </Item>
-    <Item Id="Spanglish.Going to America. Narrator.Going to America. Narrator" Name="" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Spanglish&amp;conversation=Spanglish.Going to America. Narrator&amp;L3STinstance=Spanglish.Going to America. Narrator.Going to America. Narrator">
-      <Description></Description>
-      <Facets>
-        <Facet Name="Reference Id">
-          <String Value="Spanglish.Going to America. Narrator.Going to America. Narrator" />
-        </Facet>
-        <Facet Name="Info created">
-          <DateTime Value="2016-10-17T01:13:40" />
-        </Facet>
-        <Facet Name="Info updated">
-          <DateTime Value="2016-10-17T01:23:52" />
-        </Facet>
-        <Facet Name="Metadata Editors">
-          <String Value="corrius" />
-        </Facet>
-        <Facet Name="Film Reference Id">
-          <String Value="Spanglish" />
-        </Facet>
-        <Facet Name="Conversation Reference Id">
-          <String Value="Spanglish.Going to America. Narrator" />
-        </Facet>
-        <Facet Name="Conversation duration (sec)">
-          <String Value="A. 1-20" />
-        </Facet>
-        <Facet Name="L3TT-instances: count">
-          <Number Value="0" />
         </Facet>
       </Facets>
     </Item>

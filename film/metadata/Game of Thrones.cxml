@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Munich" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Game of Thrones - Season 01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Type" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -23,56 +23,47 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Munich" Name="Munich" Img="https://upload.wikimedia.org/wikipedia/en/0/08/Munich_1_Poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Munich">
-      <Description>After Black September's assassination of Israeli athletes at the Munich Olympics in 1972, Prime Minister Golda Meir okays a black-box operation to hunt down and kill all involved. A team of five gathers in Switzerland led by Avner, a low-level Mossad techie whose father was a war hero and whose wife is pregnant. It's an expendable team, but relying on paid informants, they track and kill several in Europe and Lebanon. They must constantly look over their shoulders for the CIA, KGB, PLO, and their own sources.</Description>
+    <Item Id="Game of Thrones" Name="Game of Thrones - Season 01" Img="https://upload.wikimedia.org/wikipedia/en/e/e8/Game_of_Thrones_Season_1.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Game of Thrones">
+      <Description>While a civil war brews between several noble families in Westeros, the children of the former rulers of the land attempt to rise to power. [IMDb]</Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Munich" />
+          <String Value="Game of Thrones" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="constructed language" />
+          <String Value=" fantasy" />
+          <String Value=" Dothraki" />
         </Facet>
         <Facet Name="Info created">
-          <DateTime Value="2016-10-11T02:25:26" />
+          <DateTime Value="2016-10-17T06:39:16" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-17T09:16:41" />
+          <DateTime Value="2016-10-17T07:08:44" />
         </Facet>
         <Facet Name="Metadata Editors">
-          <String Value="miquelpt" />
-          <String Value="George" />
+          <String Value="SIberg" />
         </Facet>
         <Facet Name="Type">
-          <String Value="Feature film" />
+          <String Value="TV series season" />
         </Facet>
         <Facet Name="Duration (min)">
-          <Number Value="164" />
+          <Number Value="62" />
+        </Facet>
+        <Facet Name="Series">
+          <String Value="Game of Thrones" />
         </Facet>
         <Facet Name="Director(s)">
-          <String Value="Steven Spielberg" />
+          <String Value="Timothy Van Patten" />
+          <String Value=" Brian Kirk" />
+          <String Value=" Daniel Minahan" />
+          <String Value=" Alan Taylor" />
         </Facet>
         <Facet Name="Scriptwriter(s)">
-          <String Value="Tony Kushner" />
-          <String Value=" Eric Roth" />
-          <String Value=" George Jonas" />
-        </Facet>
-        <Facet Name="Production countries">
-          <String Value="France" />
-          <String Value=" Canada" />
-          <String Value=" USA" />
-        </Facet>
-        <Facet Name="Production companies">
-          <String Value="DreamWorks SKG" />
-          <String Value=" Universal Pictures" />
-          <String Value=" Amblin Entertainment" />
-          <String Value=" Kennedy/Marshall Company" />
-          <String Value=" The Barry Mendel Productions" />
-          <String Value=" Alliance Atlantis Communication (in association with)" />
-          <String Value=" Peninsula Films (executive production)roduction Companies DreamWorks SKG Universal Pictures Amblin Entertainment Kennedy/Marshall Company" />
-          <String Value=" The Barry Mendel Productions Alliance Atlantis Communications (in association with) Peninsula Films (executive production)" />
-        </Facet>
-        <Facet Name="Blockbuster">
-          <String Value="YES (top 20)" />
+          <String Value="David Benioff" />
+          <String Value=" Daniel Brett Weiss" />
         </Facet>
         <Facet Name="Year ST released">
-          <Number Value="2005" />
+          <Number Value="2011" />
         </Facet>
         <Facet Name="Main language (L1)">
           <String Value="English" />
