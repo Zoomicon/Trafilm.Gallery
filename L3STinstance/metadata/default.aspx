@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: L3STinstance\metadata\default.aspx
-Version: 20161017
+Version: 20161018
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -83,7 +83,7 @@ Version: 20161017
 
             <asp:Panel ID="panelAdd" runat="server">
               <div class="label">or add new L3ST-instance Id (e.g. <i>Speaking Chinese</i> - do not include the Film Id and Conversation Id prefixes)</div>
-              <asp:TextBox ID="txtL3STinstance" runat="server" Columns="50" />
+              <asp:TextBox ID="txtL3STinstance" runat="server" Columns="50" MaxLength="50" />
               <asp:Button ID="btnAddL3STinstance" runat="server" Text="Add" OnClick="btnAddL3STinstance_Click" />
               &nbsp;
               <asp:CheckBox ID="cbClone" Text="Copy from selected" runat="server" Visible="false" />

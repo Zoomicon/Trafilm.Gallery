@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: conversation\metadata\default.aspx
-Version: 20161017
+Version: 20161018
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -66,7 +66,7 @@ Version: 20161017
 
           <asp:Panel ID="panelAdd" runat="server">
             <div class="label">or enter a new Conversation Id (e.g. <i>Explaining the plan</i> - do not include the Film Id prefix)</div>
-            <asp:TextBox ID="txtConversation" runat="server"  Columns="50" />
+            <asp:TextBox ID="txtConversation" runat="server" Columns="50" MaxLength="50" />
             <asp:Button ID="btnAddConversation" runat="server" Text="Add" OnClick="btnAddConversation_Click" />
             &nbsp;
             <asp:CheckBox ID="cbClone" Text="Copy from selected" runat="server" Visible="false" />

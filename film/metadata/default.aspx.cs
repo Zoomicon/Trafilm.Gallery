@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: film\metadata\default.aspx.cs
-//Version: 20161014
+//Version: 20161018
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -49,7 +49,7 @@ namespace Trafilm.Gallery
 
     public void AddFilm()
     {
-      string filmId = txtFilm.Text.Trim();
+      string filmId = txtFilm.Text.Trim().Replace(".", "");
       if (filmId.Length == 0) return;
 
       txtFilm.Text = "";

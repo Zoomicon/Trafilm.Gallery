@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: L3TTinstance\metadata\default.aspx.cs
-//Version: 20161007
+//Version: 20161018
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -54,7 +54,7 @@ namespace Trafilm.Gallery
 
     public void AddL3TTinstance()
     {
-      string l3TTinstancePartialId = txtL3TTinstance.Text.Trim();
+      string l3TTinstancePartialId = txtL3TTinstance.Text.Trim().Replace(".", "");
       if (l3TTinstancePartialId.Length == 0) return;
 
       string filmId = listFilms.SelectedValue;

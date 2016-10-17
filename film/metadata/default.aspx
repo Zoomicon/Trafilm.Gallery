@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: film\metadata\default.aspx
-Version: 20161017
+Version: 20161018
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -61,7 +61,7 @@ Version: 20161017
 
         <asp:Panel ID="panelAdd" runat="server">
           <div class="label">or enter a new Film Id (e.g. <i>Ocean's Eleven</i>)</div>
-          <asp:TextBox ID="txtFilm" runat="server" Columns="50" />
+          <asp:TextBox ID="txtFilm" runat="server" Columns="50" MaxLength="50" />
           <asp:Button ID="btnAddFilm" runat="server" Text="Add" OnClick="btnAddFilm_Click" />
           &nbsp;
           <asp:CheckBox ID="cbClone" Text="Copy from selected" runat="server" Visible="false" />

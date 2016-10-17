@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: conversation\metadata\default.aspx.cs
-//Version: 20161017
+//Version: 20161018
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -48,7 +48,7 @@ namespace Trafilm.Gallery
 
     public void AddConversation()
     {
-      string conversationPartialId = txtConversation.Text.Trim();
+      string conversationPartialId = txtConversation.Text.Trim().Replace(".", "");
       if (conversationPartialId.Length == 0) return;
 
       string filmId = listFilms.SelectedValue;
