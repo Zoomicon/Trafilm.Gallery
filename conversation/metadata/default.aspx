@@ -115,20 +115,20 @@ Version: 20161018
         </div>
 
         <div class="question" id="SeasonEpisodeName">
-          <div class="label">2. Season episode name</div>
+          <div class="label">3. Season episode name</div>
           <div class="tip">For TV series seasons, enter episode number and name (preferrably as originally numbered)</div>
           <asp:TextBox ID="txtSeasonEpisodeName" runat="server" Columns="150" />
         </div>
 
 
         <div class="question" id="StartTime">
-          <div class="label">3. Start time (min)</div>
+          <div class="label">4. Start time (min)</div>
           <div class="tip">What part of the film is the Conversation in? (i.e. how many minutes from the start)</div>
           <asp:TextBox ID="txtStartTime" runat="server" Columns="25" />
         </div>
 
         <div class="question" id="Duration">
-          <div class="label">4. Duration (sec)</div>
+          <div class="label">5. Duration (sec)</div>
           <div class="tip">How long does the Conversation last? (if L3ST instances are interrupted by other speech, count total seconds from onset to end of final L3ST-instance)</div>
           <asp:DropDownList
             ID="listDuration" runat="server"
@@ -138,7 +138,7 @@ Version: 20161018
         
         <%--
         <div class="question" id="LanguageSources">
-          <div class="label">5. Language sources <i>(oral &amp; written)</i></div>
+          <div class="label">6. Language sources <i>(oral &amp; written)</i></div>
           <div class="tip">How many “language sources” are there, i.e. characters speaking (total amount in any language) in this conversation, but also counting other relevant sources like narrator or written words?</div>
           <asp:DropDownList
             ID="listLanguageSources" runat="server"
@@ -193,20 +193,20 @@ Version: 20161018
 
         <%--
         <div class="question" id="Transcription">
-          <div class="label">5. Transcription </div>
+          <div class="label">7. Transcription </div>
           <div class="tip">Transcription for the specific conversation</div>
           <asp:TextBox ID="txtTranscription" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
         </div>
         --%>
 
         <div class="question" id="Tags">
-          <div class="label">5. Tags</div>
+          <div class="label">6. Tags</div>
           <div class="tip">Keywords or other labels for filtering purposes , insert a comma (,) between different ones</div>
           <asp:TextBox ID="txtTags" runat="server" Columns="150" />
         </div>
 
         <div class="question" id="Remarks">
-          <div class="label">6. Remarks </div>
+          <div class="label">7. Remarks </div>
           <div class="tip">Issues concerning the analysis or the metadata form design</div>
           <asp:TextBox ID="txtRemarks" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
         </div>
