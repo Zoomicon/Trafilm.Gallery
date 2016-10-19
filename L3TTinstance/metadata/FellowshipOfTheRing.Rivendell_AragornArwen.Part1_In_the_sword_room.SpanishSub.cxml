@@ -12,7 +12,7 @@
     <FacetCategory Name="Year TT released" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Film TT Blockbuster" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Conversation start time (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
-    <FacetCategory Name="Conversation duration (sec)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Conversation duration (sec)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="L2 same as L3ST" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="L3ST conveyed as L3TT" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="L3TT language type" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -58,11 +58,11 @@
           <DateTime Value="2016-06-15T09:38:56" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-09-08T10:48:12" />
+          <DateTime Value="2016-10-16T07:20:36" />
         </Facet>
         <Facet Name="Metadata Editors">
-          <String Value="miquelpt" />
           <String Value="George" />
+          <String Value="miquelpt" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="FellowshipOfTheRing" />
@@ -85,6 +85,9 @@
         <Facet Name="Year TT released">
           <Number Value="2001" />
         </Facet>
+        <Facet Name="Film TT Blockbuster">
+          <String Value="YES (top 20)" />
+        </Facet>
         <Facet Name="Conversation start time (min)">
           <Number Value="91" />
         </Facet>
@@ -99,6 +102,9 @@
         </Facet>
         <Facet Name="L3TT language">
           <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L3TT constructed based on">
+          <String Value="“from scratch”" />
         </Facet>
         <Facet Name="L3TT meant to be understood">
           <String Value="YES, (almost) completely" />
@@ -121,6 +127,10 @@
         <Facet Name="L3TT functions">
           <String Value="Character portrayal, stereotypical" />
         </Facet>
+        <Facet Name="Conversation features for L3TT-instance">
+          <String Value="bonding" />
+          <String Value="courtship" />
+        </Facet>
         <Facet Name="L3TT sources">
           <String Value="Non-diegetic translation" />
         </Facet>
@@ -136,10 +146,10 @@
           <String Value="None" />
         </Facet>
         <Facet Name="Conversation features for L3-instance change">
-          <String Value="None" />
+          <String Value="+ courtship" />
         </Facet>
         <Facet Name="L3 sources change">
-          <String Value="- Respond interlingually: different sources " />
+          <String Value="- Bilingual (L3&amp;main): same source " />
           <String Value="+ Non-diegetic translation" />
         </Facet>
       </Facets>

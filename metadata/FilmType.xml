@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!--
+Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
+Filename: metadata/FilmType.xml
+Version: 20161014
+-->
+
+<Facet Name="Type">
+  <String Value="" />
+  <String Value="Feature film" />
+  <String Value="Short film" />
+  <String Value="TV film" />
+  <String Value="TV series season" />
+</Facet>

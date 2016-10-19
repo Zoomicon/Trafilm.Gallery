@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: film\metadata\default.aspx.cs
-//Version: 20161007
+//Version: 20161018
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -49,7 +49,7 @@ namespace Trafilm.Gallery
 
     public void AddFilm()
     {
-      string filmId = txtFilm.Text.Trim();
+      string filmId = txtFilm.Text.Trim().Replace(".", "");
       if (filmId.Length == 0) return;
 
       txtFilm.Text = "";
@@ -134,7 +134,11 @@ namespace Trafilm.Gallery
 
       //IFilm//
 
+      UI.Load(listType, metadata.Type);
+
       UI.Load(txtDuration, metadata.Duration.ToString());
+
+      UI.Load(txtSeries, metadata.Series);
 
       UI.Load(txtDirectors, metadata.Directors);
       UI.Load(txtScriptwriters, metadata.Scriptwriters);
@@ -188,7 +192,11 @@ namespace Trafilm.Gallery
 
       //IFilm//
 
+      metadata.Type = listType.SelectedValue;
+
       metadata.Duration = txtDuration.Text.ToNullableInt();
+
+      metadata.Series = txtSeries.Text;
 
       metadata.Directors = UI.GetCommaSeparated(txtDirectors);
       metadata.Scriptwriters = UI.GetCommaSeparated(txtScriptwriters);

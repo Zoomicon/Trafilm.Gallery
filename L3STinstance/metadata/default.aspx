@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: L3STinstance\metadata\default.aspx
-Version: 20161008
+Version: 20161018
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -67,7 +67,6 @@ Version: 20161008
 
       <div class="bar">
 
-        <div>
         <div class="label">Select a Film</div>
           <asp:DropDownList ID="listFilms" runat="server" AutoPostBack="True" OnSelectedIndexChanged="listFilms_SelectedIndexChanged" />
         </div>
@@ -84,7 +83,7 @@ Version: 20161008
 
             <asp:Panel ID="panelAdd" runat="server">
               <div class="label">or add new L3ST-instance Id (e.g. <i>Speaking Chinese</i> - do not include the Film Id and Conversation Id prefixes)</div>
-              <asp:TextBox ID="txtL3STinstance" runat="server" />
+              <asp:TextBox ID="txtL3STinstance" runat="server" Columns="50" MaxLength="50" />
               <asp:Button ID="btnAddL3STinstance" runat="server" Text="Add" OnClick="btnAddL3STinstance_Click" />
               &nbsp;
               <asp:CheckBox ID="cbClone" Text="Copy from selected" runat="server" Visible="false" />
@@ -115,9 +114,11 @@ Version: 20161008
           <asp:TextBox ID="txtDescription" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
         </div>
 
-        <div class="label">L3ST-instance URL</div>
-        <asp:HyperLink ID="linkUrl" runat="server" Target="_blank"/>
-    
+        <div class="calculated" id="URL">
+          <div class="label">L3ST-instance URL</div>
+          <asp:HyperLink ID="linkUrl" runat="server" Target="_blank"/>
+        </div>
+
         <div class="question" id="Image">
           <div class="label">3. Image URL</div>
           <asp:TextBox ID="txtImageUrl" runat="server" Columns="150" />
@@ -126,20 +127,20 @@ Version: 20161008
 
         <%-- IL3STinstanceMetadata --%>
 
-        <div class="label">
+        <div class="calculated" id="ConversationStartTime">
           <div class="label">Conversation start time (min) (Calculated from Conversation)</div>
           <div class="tip">What part of the film is the Conversation in? (i.e. how many minutes from the start)</div>
           <asp:Label ID="lblConversationStartTime" runat="server" />
         </div>
 
-        <div class="label">
+        <div class="calculated" id="ConversationDuration">
           <div class="label">Conversation duration (sec) (Calculated from Conversation)</div>
           <div class="tip">How long does the Conversation last? (if L3ST instances are interrupted by other speech, count total seconds from onset to end of final L3ST-instance)</div>
           <asp:Label ID="lblConversationDuration" runat="server" />
         </div>
 
 
-        <div>
+        <div class="calculated" id="L1 language">
           <div class="label">L1 language (Calculated from Film)</div>
           <div class="tip">What language is L1 in?</div>
           <asp:Label ID="lblL1language" runat="server" />
@@ -291,7 +292,7 @@ Version: 20161008
         <%-- Calculated from L3TTinstances --%>
 
         <%-- //Count shown in parentheses next to title of respective list
-        <div>
+        <div class="calculated" id=L3TTinstanceCount">
           <div class="label">Count of L3TT-instances (Calculated)</div>
           <asp:Label ID="lblL3TTinstanceCount" runat="server" />
         </div>    
@@ -318,7 +319,7 @@ Version: 20161008
         </div>
 
 
-        <div>
+        <div class="calculated" id="InfoDates">
           <span class="label">Info created: </span>
           <asp:Label ID="lblInfoCreated" runat="server" />
 
@@ -326,7 +327,7 @@ Version: 20161008
           <asp:Label ID="lblInfoUpdated" runat="server" />
         </div>
 
-        <div>
+        <div class="calculated" id="MetadataEditors">
           <div class="label">Metadata Editors</div>
           <asp:Panel runat="server" ScrollBars="Auto" Style="max-height: 100px">
             <asp:ListBox ID="listMetadataEditors" runat="server" Enabled="false" />
@@ -350,7 +351,7 @@ Version: 20161008
 
         <%-- L3TTinstances list --%>                  
 
-        <div>
+        <div class="calculated" id="L3TTinstances">
           <div class="label">L3TT-instances (#<asp:Label ID="lblL3TTinstanceCount" runat="server" />)</div>
           <asp:Repeater ID="repeaterL3TTinstances" runat="server">
             <ItemTemplate>

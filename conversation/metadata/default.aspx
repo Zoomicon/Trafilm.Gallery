@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: conversation\metadata\default.aspx
-Version: 20161008
+Version: 20161018
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -66,7 +66,7 @@ Version: 20161008
 
           <asp:Panel ID="panelAdd" runat="server">
             <div class="label">or enter a new Conversation Id (e.g. <i>Explaining the plan</i> - do not include the Film Id prefix)</div>
-            <asp:TextBox ID="txtConversation" runat="server" />
+            <asp:TextBox ID="txtConversation" runat="server" Columns="50" MaxLength="50" />
             <asp:Button ID="btnAddConversation" runat="server" Text="Add" OnClick="btnAddConversation_Click" />
             &nbsp;
             <asp:CheckBox ID="cbClone" Text="Copy from selected" runat="server" Visible="false" />
@@ -83,20 +83,20 @@ Version: 20161008
 
         <%-- ICXMLMetadata--%>
 
-        <%--
         <div class="question" id="Title">
           <div class="label">1. Conversation Title</div>
           <asp:TextBox ID="txtTitle" runat="server" Columns="150" />
         </div>
-
+       
         <div class="question" id="Description">
           <div class="label">2. Conversation Description</div>
           <asp:TextBox ID="txtDescription" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
         </div>
-        --%>
 
-        <div class="label">Conversation URL</div>
-        <asp:HyperLink ID="linkUrl" runat="server" Target="_blank" />
+        <div class="calculated" id="URL">
+          <div class="label">Conversation URL</div>
+          <asp:HyperLink ID="linkUrl" runat="server" Target="_blank" />
+        </div>
 
         <%--
         <div class="question" id="Image">
@@ -108,14 +108,27 @@ Version: 20161008
 
         <%-- IConversationMetadata --%>
 
+        <div class="calculated" id="FilmOrSeasonTitle">
+          <div class="label">Film/Season title</div>
+          <div class="tip">Title of Film or TV series season</div>
+          <asp:Label ID="lblFilmOrSeasonTitle" runat="server" Columns="150" />
+        </div>
+
+        <div class="question" id="SeasonEpisodeName">
+          <div class="label">3. Season episode name</div>
+          <div class="tip">For TV series seasons, enter episode number and name (preferrably as originally numbered)</div>
+          <asp:TextBox ID="txtSeasonEpisodeName" runat="server" Columns="150" />
+        </div>
+
+
         <div class="question" id="StartTime">
-          <div class="label">1. Start time (min)</div>
+          <div class="label">4. Start time (min)</div>
           <div class="tip">What part of the film is the Conversation in? (i.e. how many minutes from the start)</div>
           <asp:TextBox ID="txtStartTime" runat="server" Columns="25" />
         </div>
 
         <div class="question" id="Duration">
-          <div class="label">2. Duration (sec)</div>
+          <div class="label">5. Duration (sec)</div>
           <div class="tip">How long does the Conversation last? (if L3ST instances are interrupted by other speech, count total seconds from onset to end of final L3ST-instance)</div>
           <asp:DropDownList
             ID="listDuration" runat="server"
@@ -138,14 +151,14 @@ Version: 20161008
         <%-- Calculated from L3STinstances --%>
 
         <%-- //Count shown in parentheses next to title of respective list
-        <div>
+        <div class="calculated" id="L3STlanguageCount">
           <div class="label">L3ST languages: count (Calculated from L3ST-instances)</div>
           <div class="tip">Count of L3ST languages in Conversation</div>
           <asp:Label ID="lblL3languagesCount" runat="server" />
         </div>  
         --%>
 
-        <div>
+        <div class="calculated" id="L3STlanguages">
           <div class="label">L3ST languages (#<asp:Label ID="lblL3languagesCount" runat="server" /> - Calculated from L3ST-instances)</div>
           <div class="tip">L3ST languages in Conversation</div>
           <asp:Panel runat="server" ScrollBars="Auto">
@@ -154,14 +167,14 @@ Version: 20161008
         </div>    
 
          <%-- //Count shown in parentheses next to title of respective list
-        <div>
+        <div class="calculated" id="L3STlanguageTypeCount">
           <div class="label">L3ST language types: count (Calculated from L3ST-instances)</div>
           <div class="tip">Count of L3ST language types in Conversation</div>
           <asp:Label ID="lblL3languageTypesCount" runat="server" />
         </div>
         --%>
         
-        <div>
+        <div class="calculated" id="L3STlanguageTypes">
           <div class="label">L3ST language types (# <asp:Label ID="lblL3languageTypesCount" runat="server" /> - Calculated from L3ST-instances)</div>
           <div class="tip">L3ST language types in Conversation</div>
           <asp:Panel runat="server" ScrollBars="Auto">
@@ -170,7 +183,7 @@ Version: 20161008
         </div>
 
         <%-- //Count shown in parentheses next to title of respective list
-        <div>
+        <div class="calculated" id="L3STinstanceCount">
           <div class="label">Count of L3ST-instances (Calculated)</div>
           <asp:Label ID="lblL3STinstanceCount" runat="server" />
         </div>
@@ -179,27 +192,27 @@ Version: 20161008
         <%-- ITrafilmMetadata --%>
 
         <%--
-        <div class="question">
+        <div class="question" id="Transcription">
           <div class="label">7. Transcription </div>
           <div class="tip">Transcription for the specific conversation</div>
           <asp:TextBox ID="txtTranscription" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
         </div>
+        --%>
 
-        <div class="question">
-          <div class="label">8. Tags</div>
+        <div class="question" id="Tags">
+          <div class="label">6. Tags</div>
           <div class="tip">Keywords or other labels for filtering purposes , insert a comma (,) between different ones</div>
           <asp:TextBox ID="txtTags" runat="server" Columns="150" />
         </div>
 
-        <div class="question">
-          <div class="label">9. Remarks </div>
+        <div class="question" id="Remarks">
+          <div class="label">7. Remarks </div>
           <div class="tip">Issues concerning the analysis or the metadata form design</div>
           <asp:TextBox ID="txtRemarks" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
         </div>
-        --%>
+        
 
-
-        <div>
+        <div class="calculated" id="InfoDates">
           <span class="label">Info created: </span>
           <asp:Label ID="lblInfoCreated" runat="server" />
 
@@ -207,7 +220,7 @@ Version: 20161008
           <asp:Label ID="lblInfoUpdated" runat="server" />
         </div>
 
-        <div>
+        <div class="calculated" id="MetadataEditors">
           <div class="label">Metadata Editors</div>
           <asp:Panel runat="server" ScrollBars="Auto" Style="max-height: 100px">
             <asp:ListBox ID="listMetadataEditors" runat="server" Enabled="false" />
@@ -231,7 +244,7 @@ Version: 20161008
         
         <%-- L3STinstances list --%>                  
 
-        <div>
+        <div class="calculated" id="L3STinstances">
           <div class="label">L3ST-instances (#<asp:Label ID="lblL3STinstanceCount" runat="server" />)</div>          
           <asp:Repeater ID="repeaterL3STinstances" runat="server">
             <ItemTemplate>

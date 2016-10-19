@@ -43,7 +43,7 @@
           <DateTime Value="2016-10-07T01:00:20" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-07T06:24:46" />
+          <DateTime Value="2016-10-17T09:43:06" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="PatrickZabalbeascoa" />
@@ -57,6 +57,9 @@
         </Facet>
         <Facet Name="Conversation start time (min)">
           <Number Value="43" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="A. 1-20" />
         </Facet>
         <Facet Name="Main (L1) language">
           <String Value="Na'vi" />
@@ -174,6 +177,278 @@
         </Facet>
         <Facet Name="L3TT-instances: count">
           <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="FellowshipOfTheRing.Elrond_Dagorlad_battle.Rally" Name="FellowshipOfTheRing.Elrond_Dagorlad_battle.Rally" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Elrond_Dagorlad_battle&amp;L3STinstance=FellowshipOfTheRing.Elrond_Dagorlad_battle.Rally">
+      <Description>Elrond leads the Last Alliance in the battle of Dagorlad and rallies them in Elvish.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="FellowshipOfTheRing.Elrond_Dagorlad_battle.Rally" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Tangado haid! Leithio i philinn!" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="Elrond" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-11T04:35:29" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-11T04:40:02" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="miquelpt" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="FellowshipOfTheRing" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="FellowshipOfTheRing.Elrond_Dagorlad_battle" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="Elvish" />
+        </Facet>
+        <Facet Name="L3ST language type">
+          <String Value="Constructed (fictional)" />
+        </Facet>
+        <Facet Name="L3ST language">
+          <String Value="Elvish" />
+        </Facet>
+        <Facet Name="L3ST constructed based on">
+          <String Value="“from scratch”" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Conversation can be followed regardless of meaning" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="Quality of L3ST speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3ST mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3ST merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
+        <Facet Name="L3ST functions">
+          <String Value="Theme" />
+        </Facet>
+        <Facet Name="Conversation features for L3ST-instance">
+          <String Value="anecdote / story" />
+          <String Value="instruction / training" />
+        </Facet>
+        <Facet Name="L3ST sources">
+          <String Value="Oral L3: single source" />
+        </Facet>
+        <Facet Name="L3TT-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="FellowshipOfTheRing.Introduction_Galadriel.Off_intro" Name="FellowshipOfTheRing.Introduction_Galadriel.Off_intro" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Introduction_Galadriel&amp;L3STinstance=FellowshipOfTheRing.Introduction_Galadriel.Off_intro">
+      <Description>Before the title credits to the film, with the screen still in black, Galadriel utters some Elvish words as a narrator off-camera.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="FellowshipOfTheRing.Introduction_Galadriel.Off_intro" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="I amar prestar aen…&#xD;&#xA;&#xD;&#xA;The world is changed.&#xD;&#xA;&#xD;&#xA;Han mathon ne nen…&#xD;&#xA;&#xD;&#xA;I feel it in the water.&#xD;&#xA;&#xD;&#xA;Han mathon ne chae…&#xD;&#xA;&#xD;&#xA;I feel it in the Earth.&#xD;&#xA;&#xD;&#xA;A han noston ned gwilith.&#xD;&#xA;&#xD;&#xA;I smell it in the air.&#xD;&#xA;&#xD;&#xA;Much that once was is lost. For none now live who remember it." />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="narrator" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-11T03:47:22" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-16T07:12:00" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="miquelpt" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="FellowshipOfTheRing" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="FellowshipOfTheRing.Introduction_Galadriel" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="Elvish" />
+        </Facet>
+        <Facet Name="L3ST language type">
+          <String Value="Constructed (fictional)" />
+        </Facet>
+        <Facet Name="L3ST language">
+          <String Value="Elvish" />
+        </Facet>
+        <Facet Name="L3ST constructed based on">
+          <String Value="“from scratch”" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="Quality of L3ST speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3ST mode, written/spoken, diegetic">
+          <String Value="Oral diegetic off-screen" />
+        </Facet>
+        <Facet Name="L3ST merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
+        <Facet Name="L3ST functions">
+          <String Value="Theme" />
+        </Facet>
+        <Facet Name="Conversation features for L3ST-instance">
+          <String Value="introduction" />
+          <String Value="literary" />
+          <String Value="recitation" />
+        </Facet>
+        <Facet Name="L3ST sources">
+          <String Value="Oral L3: single source" />
+        </Facet>
+        <Facet Name="L3TT-instances: count">
+          <Number Value="2" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="FellowshipOfTheRing.Lorien_AragornGaladriel.Evenstar_speech" Name="FellowshipOfTheRing.Lorien_AragornGaladriel" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Lorien_AragornGaladriel&amp;L3STinstance=FellowshipOfTheRing.Lorien_AragornGaladriel.Evenstar_speech">
+      <Description>As a farewell to Lothlórien, Galadriel provides each character with a present. This instance deals with Galadriel and Aragorn's conversation on Arwen, represented through the Evenstar pendant.  </Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="FellowshipOfTheRing.Lorien_AragornGaladriel.Evenstar_speech" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Galadriel: I have nothing greater to give, than the gift you already bear. Am meleth dîn. I ant e-guil Arwen Undómiel… pelitha. (SUB: For her love, I fear the grace of Arwen Evenstar… will diminish.)&#xD;&#xA;&#xD;&#xA;Aragorn: Aníron i e broniatha ar periatham amar hen. Aníron e ciratha a Valannor. (SUB: I would have her leave these shores, and be with her people… I would have her… take the ship to Valinor.)&#xD;&#xA;&#xD;&#xA;Galadriel: That choice is yet before her. You have your own choice to make, Aragorn… to rise above the height of all your fathers since the days of Elendil, or to fall into darkness… with all that is left of your kin. Namárië. (SUB: Farewell.) Nadath nâ i moe cerich. (SUB: There is much you have yet to do.)&#xD;&#xA;Dan… ú eveditham, Elessar. (SUB: We shall not meet again, Elessar.)" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-18T05:21:45" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-18T05:44:50" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="miquelpt" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="FellowshipOfTheRing" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="FellowshipOfTheRing.Lorien_AragornGaladriel" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="170" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="F. 101-120" />
+        </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="Elvish" />
+        </Facet>
+        <Facet Name="L3ST language type">
+          <String Value="Constructed (fictional)" />
+        </Facet>
+        <Facet Name="L3ST language">
+          <String Value="Elvish" />
+        </Facet>
+        <Facet Name="L3ST constructed based on">
+          <String Value="“from scratch”" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="Quality of L3ST speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3ST mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3ST merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
+        <Facet Name="L3ST functions">
+          <String Value="Theme" />
+        </Facet>
+        <Facet Name="Conversation features for L3ST-instance">
+          <String Value="information" />
+          <String Value="literary" />
+        </Facet>
+        <Facet Name="L3ST sources">
+          <String Value="Respond interlingually: different sources " />
+        </Facet>
+        <Facet Name="L3TT-instances: count">
+          <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="FellowshipOfTheRing.Luthien_song.Aragorn_singing" Name="FellowshipOfTheRing.Luthien_song" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Luthien_song&amp;L3STinstance=FellowshipOfTheRing.Luthien_song.Aragorn_singing">
+      <Description>Aragorn is keeping watch during the night in the forest, while the hobbits are sleeping. He signs a mourning song about the Lady of Luthien. This song introduces the conflict of Arwen's mortality choice, key in the development of Aragorn's narrative line in the saga. Besides, this song is a homage to J.R.R. Tolkien.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="FellowshipOfTheRing.Luthien_song.Aragorn_singing" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Aragorn (singing):&#xD;&#xA;&#xD;&#xA;Tinúviel elvanui,&#xD;&#xA;Elleth alfirin ethelhael&#xD;&#xA;O hon ring finnil fuinui&#xD;&#xA;A renc gelebrin thiliol.&#xD;&#xA;&#xD;&#xA;Frodo: Who is she? This woman you sing of?&#xD;&#xA;&#xD;&#xA;Aragorn: Tis the Lady of Lúthien. The Elf-maiden who gave her love to Beren, a mortal.&#xD;&#xA;&#xD;&#xA;Frodo: What happened to her?&#xD;&#xA;&#xD;&#xA;Aragorn: She died." />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-18T06:02:26" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-18T06:33:14" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="miquelpt" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="FellowshipOfTheRing" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="FellowshipOfTheRing.Luthien_song" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="65" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="B. 21-40" />
+        </Facet>
+        <Facet Name="Conversation features for L3ST-instance">
+          <String Value="bonding" />
+          <String Value="literary" />
+          <String Value="song" />
+        </Facet>
+        <Facet Name="L3ST sources">
+          <String Value="Oral L3: single source" />
+        </Facet>
+        <Facet Name="L3TT-instances: count">
+          <Number Value="2" />
         </Facet>
       </Facets>
     </Item>
@@ -673,6 +948,252 @@ There is another conversation taking place among women at the kitchen.</Descript
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Spanglish.At the summer place - an interpreter.Man speaks Spanish to Flor and English to Deborah" Name="Spanglish.At the summer place - an interpreter.Man speaks Spanish to Flor and English to Deborah" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Spanglish&amp;conversation=Spanglish.At the summer place - an interpreter&amp;L3STinstance=Spanglish.At the summer place - an interpreter.Man speaks Spanish to Flor and English to Deborah">
+      <Description>Flor, Deborah and Evelyn are walking in the street. Deborah wants to ask Flor if she would like to move with them to the summer house and live with them, but as they don't speak the same language, DEborah cannot communicate with her until she sees a Hispanic man washinng somebody's car. She asks him if he speaks English and if he could translate for her.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Spanglish.At the summer place - an interpreter.Man speaks Spanish to Flor and English to Deborah" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Deborah: I rented a house here for the summer and now she needs to sleep in the house because of the bus schedule.&#xD;&#xA;Man: Ella dice que rentó una casa durante el verano y quiere que te quedes con ella.&#xD;&#xA;Flor. No sorry.&#xD;&#xA;Deborah: What? Why?&#xD;&#xA;Flor: Porque tengo una hija y no puedo&#xD;&#xA;Man: She can't, because her daughter" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="Multilingual" />
+          <String Value=" Spanglish" />
+          <String Value=" Code-switching" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="The man is playing the role of an interpreter. " />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-17T11:20:15" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-17T01:56:14" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="corrius" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Spanglish" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Spanglish.At the summer place - an interpreter" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L3ST language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST language">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="YES, (almost) completely" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="Quality of L3ST speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3ST mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3ST functions">
+          <String Value="Plot (twist)" />
+          <String Value="Metaphorical (e.g. communication barrier)" />
+          <String Value="Signals otherness" />
+        </Facet>
+        <Facet Name="L3ST sources">
+          <String Value="Rephrase interlingually: different sources" />
+        </Facet>
+        <Facet Name="L3TT-instances: count">
+          <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Spanglish.At the summer place - an interpreter.Speaking Spanish" Name="Spanglish.At the summer place - an interpreter.Speaking Spanish" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Spanglish&amp;conversation=Spanglish.At the summer place - an interpreter&amp;L3STinstance=Spanglish.At the summer place - an interpreter.Speaking Spanish">
+      <Description></Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Spanglish.At the summer place - an interpreter.Speaking Spanish" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-17T01:57:01" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-17T02:00:53" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="corrius" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Spanglish" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Spanglish.At the summer place - an interpreter" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3TT-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Spanglish.Flor and Cristina at the restaurant.Flor speaking Spanish and Cristina translating Spanish into English" Name="Spanglish.Flor and Cristina at the restaurant.Flor speaking Spanish and Cristina translating Spanish into English" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Spanglish&amp;conversation=Spanglish.Flor and Cristina at the restaurant&amp;L3STinstance=Spanglish.Flor and Cristina at the restaurant.Flor speaking Spanish and Cristina translating Spanish into English">
+      <Description>Flor and her daughter go and have dinner to celebrate that she has found a job. When they enter the restaurant Cristina addresses a waitress to ask for a table. As Flor does not speak any English, when she wants to add or say something she tells Cristina to translate for her.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Spanglish.Flor and Cristina at the restaurant.Flor speaking Spanish and Cristina translating Spanish into English" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Cristina: Can we have a table for two, please&#xD;&#xA;Flor: Dile que estamos celebrando. &#xD;&#xA;Cristina: We're celebrating. &#xD;&#xA;Waitress: Ok, right this way, please." />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="Multilingual" />
+          <String Value=" Spanglish" />
+          <String Value=" Code-switching" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="Cristina is playing the role of an interpreter." />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-17T11:04:26" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-17T03:29:47" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="PatrickZabalbeascoa" />
+          <String Value="corrius" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Spanglish" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Spanglish.Flor and Cristina at the restaurant" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L3ST language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST language">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="YES, (almost) completely" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3ST speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3ST mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3ST merely represented">
+          <String Value="YES: orally" />
+        </Facet>
+        <Facet Name="L3ST functions">
+          <String Value="Plot (twist)" />
+          <String Value="Metaphorical (e.g. communication barrier)" />
+          <String Value="Signals otherness" />
+        </Facet>
+        <Facet Name="L3ST sources">
+          <String Value="Oral L3: different sources " />
+        </Facet>
+        <Facet Name="L3TT-instances: count">
+          <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Spanglish.Introduction to the Clasky's family.Deborah and Evelyn speaking English. Monica Speaking Spanish." Name="Spanglish.Introduction to the Clasky's family. " Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Spanglish&amp;conversation=Spanglish.Introduction to the Clasky's family&amp;L3STinstance=Spanglish.Introduction to the Clasky's family.Deborah and Evelyn speaking English. Monica Speaking Spanish.">
+      <Description>Flor and her cousin Monica are at the Clasky's house for the first time. Flor is being interviewed by Deborah Clasky. As Flor does not speak English, Monica is trying to translate for her although she does not speak perfect English.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Spanglish.Introduction to the Clasky's family.Deborah and Evelyn speaking English. Monica Speaking Spanish." />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Deborah: You're gorgeous&#xD;&#xA;Monica: ¡Que estás muy bonita!&#xD;&#xA;Evelyn: She doesn't mean it as a compliment. It's more of an accusation." />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="interpreter" />
+          <String Value=" third language" />
+          <String Value=" Spanish" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="Monica is translating for Flor since she doesn't speak any English. When Deborah tells them that they're &quot;gorgeous&quot; Monica does not know how to translate the word and she simply says &quot;Que estás muy bonita&quot;" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-17T10:01:00" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-17T02:39:06" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="corrius" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Spanglish" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Spanglish.Introduction to the Clasky's family" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L3ST language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST language">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3ST speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3ST mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3ST functions">
+          <String Value="Plot (twist)" />
+          <String Value="Metaphorical (e.g. communication barrier)" />
+          <String Value="Signals otherness" />
+        </Facet>
+        <Facet Name="L3ST sources">
+          <String Value="Rephrase interlingually: different sources" />
+        </Facet>
+        <Facet Name="L3TT-instances: count">
+          <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="TheWalk.MeetingPapaRudy.Czech" Name="TheWalk.MeetingPapaRudy.Czech" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingPapaRudy&amp;L3STinstance=TheWalk.MeetingPapaRudy.Czech">
       <Description></Description>
       <Facets>
@@ -947,6 +1468,220 @@ There is another conversation taking place among women at the kitchen.</Descript
         </Facet>
         <Facet Name="Conversation start time (min)">
           <Number Value="83" />
+        </Facet>
+        <Facet Name="L3TT-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Um filme falado.First port of call-Marseille.Speaking French" Name="Um filme falado.First port of call-Marseille.Speaking French" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Um filme falado&amp;conversation=Um filme falado.First port of call-Marseille&amp;L3STinstance=Um filme falado.First port of call-Marseille.Speaking French">
+      <Description>Both Rosa Maria anf the fisherman speak in French.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Um filme falado.First port of call-Marseille.Speaking French" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Rosa Maria: Et vous, comment vous apéllez?&#xD;&#xA;Fisherman: Moi, je m'appelle Joao&#xD;&#xA;Rosa Maria: C'est comme mon mari, aussi. Il s'appelle Joao. Moi et ma fille on va le retrouver.&#xD;&#xA;Fishermana: Très bien. Et oú est-ce qu'il se trouve?&#xD;&#xA;Rosa Maria: à Bombay" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="French" />
+          <String Value=" third language" />
+          <String Value=" Marseille" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-17T04:35:52" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-17T04:44:23" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="corrius" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Um filme falado" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Um filme falado.First port of call-Marseille" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="French" />
+        </Facet>
+        <Facet Name="L3ST language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST language">
+          <String Value="French" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="YES, (almost) completely" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Conversation can be followed regardless of meaning" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3ST speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3ST mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3ST functions">
+          <String Value="Plot (twist)" />
+        </Facet>
+        <Facet Name="Conversation features for L3ST-instance">
+          <String Value="introduction" />
+          <String Value="question &amp; answer" />
+        </Facet>
+        <Facet Name="L3ST sources">
+          <String Value="Oral L3: different sources " />
+        </Facet>
+        <Facet Name="L3TT-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Um filme falado.The captain dinner-Captain-speaking one language.Speaking English" Name="Um filme falado.The captain dinner-Captain-speaking one language.Speaking English" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Um filme falado&amp;conversation=Um filme falado.The captain dinner-Captain-speaking one language&amp;L3STinstance=Um filme falado.The captain dinner-Captain-speaking one language.Speaking English">
+      <Description>The captain is speaking in English and he wishes we could all speak one languge.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Um filme falado.The captain dinner-Captain-speaking one language.Speaking English" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Captain: I'm beginnig to think that the three of you should join to gather and create a more harmonious Tower of Babel, in which we all speak one language and live forever under the shadow of the tree of goodness." />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="English" />
+          <String Value=" Babel" />
+          <String Value=" Captain dinner" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-17T05:24:12" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-17T05:32:15" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="corrius" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Um filme falado" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Um filme falado.The captain dinner-Captain-speaking one language" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L3ST language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST language">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="YES, (almost) completely" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3ST speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3ST mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3ST functions">
+          <String Value="Plot (twist)" />
+        </Facet>
+        <Facet Name="Conversation features for L3ST-instance">
+          <String Value="small talk" />
+        </Facet>
+        <Facet Name="L3ST sources">
+          <String Value="Non-diegetic translation" />
+        </Facet>
+        <Facet Name="L3TT-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Um filme falado.The captain dinner-Captain.Speaking English" Name="Um filme falado.The captain dinner-Captain.Speaking English" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Um filme falado&amp;conversation=Um filme falado.The captain dinner-Captain&amp;L3STinstance=Um filme falado.The captain dinner-Captain.Speaking English">
+      <Description>English is the language they all understand</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Um filme falado.The captain dinner-Captain.Speaking English" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Captain: Women should rule the world and cure all its modern and ancient ills starting with its language issue which originated in Babel." />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="English" />
+          <String Value=" Babel" />
+          <String Value=" Captain dinner" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="The Captain makes a clear reference to the language issue." />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-17T05:06:47" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-17T05:14:57" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="corrius" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Um filme falado" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Um filme falado.The captain dinner-Captain" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L3ST language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST language">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="YES, (almost) completely" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3ST speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3ST mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3ST functions">
+          <String Value="Plot (twist)" />
+        </Facet>
+        <Facet Name="Conversation features for L3ST-instance">
+          <String Value="small talk" />
+        </Facet>
+        <Facet Name="L3ST sources">
+          <String Value="Non-diegetic translation" />
         </Facet>
         <Facet Name="L3TT-instances: count">
           <Number Value="0" />

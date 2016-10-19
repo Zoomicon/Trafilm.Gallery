@@ -13,13 +13,22 @@ namespace Trafilm.Gallery {
     public partial class FilmMetadataPage {
         
         /// <summary>
-        /// XmlL1language control.
+        /// xmlType control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.XmlDataSource XmlL1language;
+        protected global::System.Web.UI.WebControls.XmlDataSource xmlType;
+        
+        /// <summary>
+        /// xmlL1language control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.XmlDataSource xmlL1language;
         
         /// <summary>
         /// xmlBlockbuster control.
@@ -157,6 +166,15 @@ namespace Trafilm.Gallery {
         protected global::System.Web.UI.WebControls.TextBox txtImageUrl;
         
         /// <summary>
+        /// listType control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList listType;
+        
+        /// <summary>
         /// txtDuration control.
         /// </summary>
         /// <remarks>
@@ -164,6 +182,15 @@ namespace Trafilm.Gallery {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtDuration;
+        
+        /// <summary>
+        /// txtSeries control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtSeries;
         
         /// <summary>
         /// txtDirectors control.

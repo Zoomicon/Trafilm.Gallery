@@ -1,8 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="LoveActually - Lake Scene" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Lake scene" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Film/Season title" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Season episode name" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Start time (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Duration (sec)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Language sources" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -19,23 +21,17 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="LoveActually.Lake Scene" Name="LoveActually - Lake Scene" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=LoveActually&amp;conversation=LoveActually.Lake Scene">
-      <Description>Aurelia brings Jamie a cup of coffee. She accidentally spills his papers which fall in the lake. She apologizes, undresses and falls in the lake to collect them. 
-
-Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
-</Description>
+    <Item Id="LoveActually.Lake Scene" Name="Lake scene" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=LoveActually&amp;conversation=LoveActually.Lake Scene">
+      <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="LoveActually.Lake Scene" />
-        </Facet>
-        <Facet Name="Transcription">
-          <String Value="[ Scene #39 ]&#xD;&#xA;Jamie: Thank you.&#xD;&#xA;Aurelia: (Portuguese) Nao! Eu peco imensa desculpa. Oh, no. Hold on.&#xD;&#xA;Jamie: God, it's half the book. Oh, no.&#xD;&#xA;Aurelia: Que desastre.&#xD;&#xA;Jamie: Just leave them, please! They're not important. They're not worth it! Stop! Stop. Aa-ahh. It's all just rubbish. Just leave it. Oh, God, she's in. And now she'll think I'm a total spas if I don't go in too.&#xD;&#xA;Aurelia: (Portuguese) Fuck - it's cold!&#xD;&#xA;Jamie: Fuck - it's freezing! Fuck!&#xD;&#xA;Aurelia: (Portuguese) This stuff better be good.&#xD;&#xA;Jamie: It's not worth it, you know, it isn't bloody Shakespeare.&#xD;&#xA;Aurelia: (Portuguese) I don't want to drown saving some shit my grandmother could have written.&#xD;&#xA;Jamie: Just stop. Stop.&#xD;&#xA;Aurelia: (Portuguese) What kind of an idiot doesn't do copies?&#xD;&#xA;Jamie: I really must do copies. There'd better not be eels in here. I can’t stand eels…&#xD;&#xA;Aurelia: (Portuguese) Try not to disturb the eels.&#xD;&#xA;Jamie: Oh god, what the hell is that?&#xD;&#xA;&#xD;&#xA;Copied from http://withmusics.blogspot.gr/2008/12/love-actually-script.html " />
         </Facet>
         <Facet Name="Info created">
           <DateTime Value="2016-06-01T04:23:13" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-09-04T09:29:52" />
+          <DateTime Value="2016-10-19T12:23:55" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Stavroula" />
@@ -44,8 +40,11 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
         <Facet Name="Film Reference Id">
           <String Value="LoveActually" />
         </Facet>
-        <Facet Name="Language sources">
-          <String Value="Combined: oral (any) &amp; written" />
+        <Facet Name="Film/Season title">
+          <String Value="Love Actually " />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="I. 161-180" />
         </Facet>
         <Facet Name="L3ST languages: count">
           <Number Value="1" />

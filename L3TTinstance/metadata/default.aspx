@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: L3TTinstance\metadata\default.aspx
-Version: 20161007
+Version: 20161018
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -72,7 +72,6 @@ Version: 20161007
 
       <div class="bar">
 
-        <div>
         <div class="label">Select a Film</div>
           <asp:DropDownList ID="listFilms" runat="server" AutoPostBack="True" OnSelectedIndexChanged="listFilms_SelectedIndexChanged" />
         </div>
@@ -95,7 +94,7 @@ Version: 20161007
 
               <asp:Panel ID="panelAdd" runat="server">
                 <div class="label">or add new L3TT-instance Id (e.g. <i>SpanishDub</i> or <i>SpanishSub</i> - do not include the Film Id, Conversation Id and L3ST-instance Id prefixes)</div>
-                <asp:TextBox ID="txtL3TTinstance" runat="server" />
+                <asp:TextBox ID="txtL3TTinstance" runat="server" Columns="50" MaxLength="50" />
                 <asp:Button ID="btnAddL3TTinstance" runat="server" Text="Add" OnClick="btnAddL3TTinstance_Click" />
                 &nbsp;
                 <asp:CheckBox ID="cbClone" Text="Copy from selected" runat="server" Visible="false" />
@@ -127,10 +126,12 @@ Version: 20161007
           <asp:TextBox ID="txtDescription" runat="server" TextMode="MultiLine" Rows="5" Columns="110" ReadOnly="true" />
         </div>
 
-        <div class="label">L3TT-instance URL</div>
-        <asp:HyperLink ID="linkUrl" runat="server" Target="_blank"/>
-    
-        <div class="label" id="Image">
+        <div class="calculated" id="URL">
+          <div class="label">L3TT-instance URL</div>
+          <asp:HyperLink ID="linkUrl" runat="server" Target="_blank"/>
+        </div>
+
+        <div class="calculated" id="Image">
           <div class="label">Image URL (Calculated from L3ST-instance)</div>
           <asp:Label ID="lblImageUrl" runat="server" />
         </div>   
@@ -169,7 +170,7 @@ Version: 20161007
 
         <div class="question" id="YearTTreleased">
           <div class="label">6. Year TT released</div>
-          <asp:TextBox ID="txtYearTTreleased" runat="server" />
+          <asp:TextBox ID="txtYearTTreleased" runat="server" Columns="25" />
         </div>
 
 
@@ -184,13 +185,13 @@ Version: 20161007
         </div>
 
 
-        <div class="label">
+        <div class="label" id="ConversationStartTime">
           <div class="label">Conversation start time (min) (Calculated from Conversation)</div>
           <div class="tip">What part of the film is the Conversation in? (i.e. how many minutes from the start)</div>
           <asp:Label ID="lblConversationStartTime" runat="server" />
         </div>
 
-        <div class="label">
+        <div class="label" id="ConversationEndTime">
           <div class="label">Conversation duration (sec) (Calculated from Conversation)</div>
           <div class="tip">How long does the Conversation last? (if L3ST instances are interrupted by other speech, count total seconds from onset to end of final L3ST-instance)</div>
           <asp:Label ID="lblConversationDuration" runat="server" />
@@ -358,31 +359,31 @@ Version: 20161007
 
         <%-- Calculated from L3STinstance --%>
         
-        <div>
+        <div class="calculated" id="L3languageTypeChange">
           <div class="label">L3 language type change (Calculated from L3ST-instance and L3TT-instance)</div>
           <div class="tip">L3ST language type: change in TT</div>
           <asp:ListBox ID="listL3languageTypeChange" runat="server" Enabled="false" />
         </div>
                 
-        <div>
+        <div class="calculated" id="L3modeChange">
           <div class="label">L3 mode change (Calculated from L3ST-instance and L3TT-instance)</div>
           <div class="tip">L3ST mode: change in TT</div>
           <asp:ListBox ID="listL3modeChange" runat="server" Enabled="false" />
         </div>
 
-        <div>
+        <div class="calculated" id="L3functionsChange">
           <div class="label">L3 functions change (Calculated from L3ST-instance and L3TT-instance)</div>
           <div class="tip">L3ST functions: change in TT</div>
           <asp:ListBox ID="listL3functionsChange" runat="server" Enabled="false" />
         </div>
 
-        <div>
+        <div class="calculated" id="L3conversationFeaturesChange">
           <div class="label">Conversation features for L3-instance change (Calculated from L3ST-instance and L3TT-instance)</div>
           <div class="tip">Conversation features for L3ST-instance: change in TT</div>
           <asp:ListBox ID="listL3conversationFeaturesChange" runat="server" Enabled="false" />
         </div>
         
-        <div>
+        <div class="calculated" id="L3sourcesChange">
           <div class="label">L3 sources change (Calculated from L3ST-instance and L3TT-instance)</div>
           <div class="tip">L3ST sources: change in TT</div>
           <asp:ListBox ID="listL3sourcesChange" runat="server" Enabled="false" />
@@ -410,7 +411,7 @@ Version: 20161007
         </div>
 
 
-        <div>
+        <div class="calculated" id="InfoDates">
           <span class="label">Info created: </span>
           <asp:Label ID="lblInfoCreated" runat="server" />
 
@@ -418,7 +419,7 @@ Version: 20161007
           <asp:Label ID="lblInfoUpdated" runat="server" />
         </div>
 
-        <div>
+        <div class="calculated" id="MetadataEditors">
           <div class="label">Metadata Editors</div>
           <asp:Panel runat="server" ScrollBars="Auto" Style="max-height: 100px">
             <asp:ListBox ID="listMetadataEditors" runat="server" Enabled="false" />

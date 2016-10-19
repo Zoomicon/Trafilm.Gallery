@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: UI.cs
-//Version: 20160901
+//Version: 20161019
 
 using System;
 using System.Collections.Generic;
@@ -12,6 +12,11 @@ namespace Trafilm.Gallery
 {
   public static class UI
   {
+
+    public static string GetCommaSeparated(string[] values)
+    {
+      return (values != null)? string.Join(",", values) : "";
+    }
 
     public static string[] GetCommaSeparated(TextBox txt)
     {
@@ -80,7 +85,7 @@ namespace Trafilm.Gallery
 
     public static void Load(TextBox textbox, string[] values)
     {
-      textbox.Text = string.Join(",", values);
+      textbox.Text = GetCommaSeparated(values);
     }
 
     public static void AppendUserName(ListControl list)

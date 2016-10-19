@@ -2,7 +2,9 @@
 <Collection SchemaVersion="1.0" Name="Trafilm Gallery: Conversations" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="False" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Film/Season title" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Season episode name" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Start time (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Duration (sec)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Language sources" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -19,7 +21,7 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Avatar.Calm down, people" Name="Avatar.Calm down, people" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Avatar&amp;conversation=Avatar.Calm down, people">
+    <Item Id="Avatar.Calm down, people" Name="Calm down, people" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Avatar&amp;conversation=Avatar.Calm down, people">
       <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -29,7 +31,7 @@
           <DateTime Value="2016-10-07T05:23:57" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-07T05:49:54" />
+          <DateTime Value="2016-10-19T02:54:47" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="PatrickZabalbeascoa" />
@@ -38,8 +40,14 @@
         <Facet Name="Film Reference Id">
           <String Value="Avatar" />
         </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Avatar" />
+        </Facet>
         <Facet Name="Start time (min)">
           <Number Value="43" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
         </Facet>
         <Facet Name="L3ST languages: count">
           <Number Value="1" />
@@ -58,7 +66,7 @@
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Django Unchained.Slave speaks a little German" Name="Django Unchained.Slave speaks a little German" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Django Unchained&amp;conversation=Django Unchained.Slave speaks a little German">
+    <Item Id="Django Unchained.Slave speaks a little German" Name="Slave speaks a little German" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Django Unchained&amp;conversation=Django Unchained.Slave speaks a little German">
       <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -68,7 +76,7 @@
           <DateTime Value="2016-05-31T12:04:40" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-07T06:19:26" />
+          <DateTime Value="2016-10-19T12:21:35" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="PatrickZabalbeascoa" />
@@ -77,8 +85,14 @@
         <Facet Name="Film Reference Id">
           <String Value="Django Unchained" />
         </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Django Unchained" />
+        </Facet>
         <Facet Name="Start time (min)">
           <Number Value="93" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
         </Facet>
         <Facet Name="L3ST languages: count">
           <Number Value="1" />
@@ -97,29 +111,17 @@
         </Facet>
       </Facets>
     </Item>
-    <Item Id="FellowshipOfTheRing.Rivendell_AragornArwen" Name="FellowshipOfTheRing.Rivendell_AragornArwen" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Rivendell_AragornArwen">
-      <Description>The scene consists in a love scene between Aragorn and Arwen in Rivendell. </Description>
+    <Item Id="FellowshipOfTheRing.Elrond_Dagorlad_battle" Name="Elrond - Dagorlad battle" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Elrond_Dagorlad_battle">
+      <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="FellowshipOfTheRing.Rivendell_AragornArwen" />
-        </Facet>
-        <Facet Name="Transcription">
-          <String Value="In the Sword Room. Rivendell&#xD;&#xA;Arwen: Why do you fear the past? You are Isildur’s heir, not Isildur himself. You are not bound to his fate.&#xD;&#xA;&#xD;&#xA;Strider: The same blood flows in my veins. Same weakness. &#xD;&#xA;&#xD;&#xA;Arwen: Your time will come. You will face the same evil, and you will defeat it. A si i-Dhúath ú-orthor, &#xD;&#xA;Aragorn. Ú or le a ú or nin. Renech i lu i erui govannen?&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;On the bridge. Rivendell&#xD;&#xA;Aragorn: Nauthannem i ned ol reniannen.&#xD;&#xA;&#xD;&#xA;Arwen: Gwenwin in enninath... U-arnech in naeth i si celich. Renech i beth i pennen?&#xD;&#xA;&#xD;&#xA;Aragorn: You said you'd bind yourself to me. Forsaking the immortal life of your people. &#xD;&#xA;&#xD;&#xA;Arwen: And to that I hold. I would rather share one lifetime with you than face all the ages of this world alone. &#xD;&#xA;I choose a mortal life." />
-        </Facet>
-        <Facet Name="Tags">
-          <String Value="Aragorn" />
-          <String Value=" Arwen" />
-          <String Value=" Rivendell" />
-          <String Value=" Elvish " />
-        </Facet>
-        <Facet Name="Remarks">
-          <String Value="The clip combines English as an L1 with Elvish, an invented language, as L3. " />
+          <String Value="FellowshipOfTheRing.Elrond_Dagorlad_battle" />
         </Facet>
         <Facet Name="Info created">
-          <DateTime Value="2016-06-15T08:54:29" />
+          <DateTime Value="2016-10-11T03:45:06" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-09-02T03:19:24" />
+          <DateTime Value="2016-10-19T12:22:13" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="miquelpt" />
@@ -128,11 +130,188 @@
         <Facet Name="Film Reference Id">
           <String Value="FellowshipOfTheRing" />
         </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="The Lord of the Rings: The Fellowship of the Ring" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="2" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Elvish" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Constructed (fictional)" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="FellowshipOfTheRing.Introduction_Galadriel" Name="Introduction - Galadriel" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Introduction_Galadriel">
+      <Description></Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="FellowshipOfTheRing.Introduction_Galadriel" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-11T03:45:06" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-19T12:22:27" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="miquelpt" />
+          <String Value="George" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="FellowshipOfTheRing" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="The Lord of the Rings: The Fellowship of the Ring" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Elvish" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Constructed (fictional)" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="FellowshipOfTheRing.Lorien_AragornGaladriel" Name="Lorien - Aragorn Galadriel" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Lorien_AragornGaladriel">
+      <Description></Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="FellowshipOfTheRing.Lorien_AragornGaladriel" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-06-15T08:54:29" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-19T12:22:43" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="miquelpt" />
+          <String Value="George" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="FellowshipOfTheRing" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="The Lord of the Rings: The Fellowship of the Ring" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="170" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="F. 101-120" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Elvish" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Constructed (fictional)" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="FellowshipOfTheRing.Luthien_song" Name="Luthien song" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Luthien_song">
+      <Description></Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="FellowshipOfTheRing.Luthien_song" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-18T06:00:41" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-19T12:22:54" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="miquelpt" />
+          <String Value="George" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="FellowshipOfTheRing" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="The Lord of the Rings: The Fellowship of the Ring" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="65" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="B. 21-40" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="FellowshipOfTheRing.Rivendell_AragornArwen" Name="Rivendell - Aragorn Arwen" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Rivendell_AragornArwen">
+      <Description></Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="FellowshipOfTheRing.Rivendell_AragornArwen" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-06-15T08:54:29" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-19T12:23:09" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="miquelpt" />
+          <String Value="George" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="FellowshipOfTheRing" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="The Lord of the Rings: The Fellowship of the Ring" />
+        </Facet>
         <Facet Name="Start time (min)">
           <Number Value="91" />
         </Facet>
-        <Facet Name="Language sources">
-          <String Value="2+ onscreen sources, oral only" />
+        <Facet Name="Duration (sec)">
+          <String Value="F. 101-120" />
         </Facet>
         <Facet Name="L3ST languages: count">
           <Number Value="1" />
@@ -151,59 +330,17 @@
         </Facet>
       </Facets>
     </Item>
-    <Item Id="LoveActually.JamieProposesToAurelia" Name="Jamie Proposes To Aurelia" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia">
-      <Description>Jamie proposes to Aurelia in Portuguese.
-Available at https://www.youtube.com/watch?v=MXslFb_cdG4</Description>
+    <Item Id="LoveActually.JamieProposesToAurelia" Name="Jamie proposes to Aurelia" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia">
+      <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="LoveActually.JamieProposesToAurelia" />
-        </Facet>
-        <Facet Name="Transcription">
-          <String Value="[ Scene #78 ]&#xD;&#xA;(All Spoken Portuguese)&#xD;&#xA;Barros: Where is Aurelia?&#xD;&#xA;R.P.: Why should I tell you?&#xD;&#xA;Barros: This man wants to marry her.&#xD;&#xA;R. P.: He can't do that - she's our best waitress.&#xD;&#xA;Jamie: Boa noite, Aurelia.&#xD;&#xA;Aurelia: Boa noite, Jamie.&#xD;&#xA;Jamie: Beautiful Aurelia... I've come here with a view to asking you...to marriage me. I know I seems an insane person because I hardly knows you but sometimes things are so transparency, they don't need evidential proof. And I will inhabit here, or you can inhabit with me in England.&#xD;&#xA;Aurelia'sister: Definitely go for England, girl. You'll meet Prince William -then you can marry him instead.&#xD;&#xA;Jamie: Of course I don't expecting you　to be as foolish as me, and of course I prediction you say no.... but it's Christmas　and I just wanted to...check.&#xD;&#xA;Aurelia'sister: Oh, God - say yes, you skinny moron.&#xD;&#xA;Aurelia: (English) Thank you. That will be nice. Yes is being my answer. Easy question.&#xD;&#xA;Barros: (Portuguese) What did you say?&#xD;&#xA;Aurelia: Yes, of course.&#xD;&#xA;all: Bravo!&#xD;&#xA;Jamie: (English) You learned English?&#xD;&#xA;Aurelia: Just in cases.&#xD;&#xA;&#xD;&#xA;Copied from http://withmusics.blogspot.gr/2008/12/love-actually-script.html" />
         </Facet>
         <Facet Name="Info created">
           <DateTime Value="2016-06-15T12:40:30" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-15T01:06:59" />
-        </Facet>
-        <Facet Name="Metadata Editors">
-          <String Value="Stavroula" />
-        </Facet>
-        <Facet Name="Film Reference Id">
-          <String Value="LoveActually" />
-        </Facet>
-        <Facet Name="Language sources">
-          <String Value="Combined: oral (any) &amp; written" />
-        </Facet>
-        <Facet Name="L3ST languages: count">
-          <Number Value="0" />
-        </Facet>
-        <Facet Name="L3ST language types: count">
-          <Number Value="0" />
-        </Facet>
-        <Facet Name="L3ST-instances: count">
-          <Number Value="0" />
-        </Facet>
-      </Facets>
-    </Item>
-    <Item Id="LoveActually.Lake Scene" Name="LoveActually - Lake Scene" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=LoveActually&amp;conversation=LoveActually.Lake Scene">
-      <Description>Aurelia brings Jamie a cup of coffee. She accidentally spills his papers which fall in the lake. She apologizes, undresses and falls in the lake to collect them. 
-
-Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
-</Description>
-      <Facets>
-        <Facet Name="Reference Id">
-          <String Value="LoveActually.Lake Scene" />
-        </Facet>
-        <Facet Name="Transcription">
-          <String Value="[ Scene #39 ]&#xD;&#xA;Jamie: Thank you.&#xD;&#xA;Aurelia: (Portuguese) Nao! Eu peco imensa desculpa. Oh, no. Hold on.&#xD;&#xA;Jamie: God, it's half the book. Oh, no.&#xD;&#xA;Aurelia: Que desastre.&#xD;&#xA;Jamie: Just leave them, please! They're not important. They're not worth it! Stop! Stop. Aa-ahh. It's all just rubbish. Just leave it. Oh, God, she's in. And now she'll think I'm a total spas if I don't go in too.&#xD;&#xA;Aurelia: (Portuguese) Fuck - it's cold!&#xD;&#xA;Jamie: Fuck - it's freezing! Fuck!&#xD;&#xA;Aurelia: (Portuguese) This stuff better be good.&#xD;&#xA;Jamie: It's not worth it, you know, it isn't bloody Shakespeare.&#xD;&#xA;Aurelia: (Portuguese) I don't want to drown saving some shit my grandmother could have written.&#xD;&#xA;Jamie: Just stop. Stop.&#xD;&#xA;Aurelia: (Portuguese) What kind of an idiot doesn't do copies?&#xD;&#xA;Jamie: I really must do copies. There'd better not be eels in here. I can’t stand eels…&#xD;&#xA;Aurelia: (Portuguese) Try not to disturb the eels.&#xD;&#xA;Jamie: Oh god, what the hell is that?&#xD;&#xA;&#xD;&#xA;Copied from http://withmusics.blogspot.gr/2008/12/love-actually-script.html " />
-        </Facet>
-        <Facet Name="Info created">
-          <DateTime Value="2016-06-01T04:23:13" />
-        </Facet>
-        <Facet Name="Info updated">
-          <DateTime Value="2016-09-04T09:29:52" />
+          <DateTime Value="2016-10-19T12:23:45" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Stavroula" />
@@ -212,8 +349,53 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
         <Facet Name="Film Reference Id">
           <String Value="LoveActually" />
         </Facet>
-        <Facet Name="Language sources">
-          <String Value="Combined: oral (any) &amp; written" />
+        <Facet Name="Film/Season title">
+          <String Value="Love Actually " />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="I. 161-180" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Portuguese" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="3" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="LoveActually.Lake Scene" Name="Lake scene" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=LoveActually&amp;conversation=LoveActually.Lake Scene">
+      <Description></Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="LoveActually.Lake Scene" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-06-01T04:23:13" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-19T12:23:55" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Stavroula" />
+          <String Value="George" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="LoveActually" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Love Actually " />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="I. 161-180" />
         </Facet>
         <Facet Name="L3ST languages: count">
           <Number Value="1" />
@@ -232,7 +414,7 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Monsoon Wedding.Conversation in the garden on the phone" Name="Monsoon Wedding.Conversation in the garden on the phone" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Monsoon Wedding&amp;conversation=Monsoon Wedding.Conversation in the garden on the phone">
+    <Item Id="Monsoon Wedding.Conversation in the garden on the phone" Name="Conversation in the garden on the phone" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Monsoon Wedding&amp;conversation=Monsoon Wedding.Conversation in the garden on the phone">
       <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -242,12 +424,15 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
           <DateTime Value="2016-06-07T03:54:06" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-09-08T03:30:38" />
+          <DateTime Value="2016-10-19T12:24:14" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
+          <String Value="Monsoon Wedding" />
+        </Facet>
+        <Facet Name="Film/Season title">
           <String Value="Monsoon Wedding" />
         </Facet>
         <Facet Name="Start time (min)">
@@ -270,8 +455,8 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
         </Facet>
       </Facets>
     </Item>
-    <Item Id="OceansEleven.ExplainingThePlan" Name="Ocean's Eleven - Explaining the plan" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=OceansEleven&amp;conversation=OceansEleven.ExplainingThePlan">
-      <Description>They are explaining the plan and the Chinese asks a question. Rusty responds.</Description>
+    <Item Id="OceansEleven.ExplainingThePlan" Name="Explaining the plan" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=OceansEleven&amp;conversation=OceansEleven.ExplainingThePlan">
+      <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="OceansEleven.ExplainingThePlan" />
@@ -280,7 +465,7 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
           <DateTime Value="2016-05-25T10:57:47" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-14T11:58:50" />
+          <DateTime Value="2016-10-19T12:24:30" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="George" />
@@ -288,8 +473,14 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
         <Facet Name="Film Reference Id">
           <String Value="OceansEleven" />
         </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Ocean's Eleven" />
+        </Facet>
         <Facet Name="Start time (min)">
           <Number Value="32" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="J. &gt; 180" />
         </Facet>
         <Facet Name="L3ST languages: count">
           <Number Value="1" />
@@ -308,7 +499,174 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
         </Facet>
       </Facets>
     </Item>
-    <Item Id="TheWalk.GettingAnInterphone" Name="TheWalk.GettingAnInterphone" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.GettingAnInterphone">
+    <Item Id="Spanglish.At the summer place - an interpreter" Name="At the summer place - an interpreter" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Spanglish&amp;conversation=Spanglish.At the summer place - an interpreter">
+      <Description></Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Spanglish.At the summer place - an interpreter" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="Multilingual" />
+          <String Value=" Spanglish" />
+          <String Value=" Code-switching" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-17T09:49:01" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-19T12:24:48" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="corrius" />
+          <String Value="George" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Spanglish" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Spanglish" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="2" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Spanglish.Flor and Cristina at the restaurant" Name="Flor and Cristina at the restaurant" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Spanglish&amp;conversation=Spanglish.Flor and Cristina at the restaurant">
+      <Description></Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Spanglish.Flor and Cristina at the restaurant" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-17T09:47:33" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-19T12:24:55" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="corrius" />
+          <String Value="George" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Spanglish" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Spanglish" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Spanglish.Going to America - narrator" Name="Going to America - narrator" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Spanglish&amp;conversation=Spanglish.Going to America - narrator">
+      <Description></Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Spanglish.Going to America - narrator" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-17T09:51:12" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-19T12:25:04" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="corrius" />
+          <String Value="George" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Spanglish" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Spanglish" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Spanglish.Introduction to the Clasky's family" Name="Introduction to the Clasky's family" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Spanglish&amp;conversation=Spanglish.Introduction to the Clasky's family">
+      <Description></Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Spanglish.Introduction to the Clasky's family" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-17T09:40:48" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-19T12:25:12" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="corrius" />
+          <String Value="George" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Spanglish" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Spanglish" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="TheWalk.GettingAnInterphone" Name="Getting an interphone" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.GettingAnInterphone">
       <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -318,7 +676,7 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
           <DateTime Value="2016-05-31T11:05:38" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-14T11:58:25" />
+          <DateTime Value="2016-10-19T12:25:44" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="George" />
@@ -326,8 +684,14 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
         <Facet Name="Film Reference Id">
           <String Value="TheWalk" />
         </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="The Walk" />
+        </Facet>
         <Facet Name="Start time (min)">
           <Number Value="50" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="D. 61-80" />
         </Facet>
         <Facet Name="L3ST languages: count">
           <Number Value="0" />
@@ -340,7 +704,7 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
         </Facet>
       </Facets>
     </Item>
-    <Item Id="TheWalk.MeetingAnnie" Name="TheWalk.MeetingAnnie" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingAnnie">
+    <Item Id="TheWalk.MeetingAnnie" Name="Meeting Annie" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingAnnie">
       <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -350,7 +714,7 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
           <DateTime Value="2016-05-31T10:48:12" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-14T11:58:15" />
+          <DateTime Value="2016-10-19T12:25:53" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="George" />
@@ -358,8 +722,14 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
         <Facet Name="Film Reference Id">
           <String Value="TheWalk" />
         </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="The Walk" />
+        </Facet>
         <Facet Name="Start time (min)">
           <Number Value="16" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="J. &gt; 180" />
         </Facet>
         <Facet Name="L3ST languages: count">
           <Number Value="0" />
@@ -372,7 +742,7 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
         </Facet>
       </Facets>
     </Item>
-    <Item Id="TheWalk.MeetingJean-François" Name="TheWalk.MeetingJean-François" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingJean-François">
+    <Item Id="TheWalk.MeetingJean-François" Name="Meeting Jean-François" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingJean-François">
       <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -382,7 +752,7 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
           <DateTime Value="2016-05-31T11:01:52" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-14T11:58:03" />
+          <DateTime Value="2016-10-19T12:26:04" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="George" />
@@ -390,8 +760,14 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
         <Facet Name="Film Reference Id">
           <String Value="TheWalk" />
         </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="The Walk" />
+        </Facet>
         <Facet Name="Start time (min)">
           <Number Value="42" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="D. 61-80" />
         </Facet>
         <Facet Name="L3ST languages: count">
           <Number Value="0" />
@@ -404,7 +780,7 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
         </Facet>
       </Facets>
     </Item>
-    <Item Id="TheWalk.MeetingJean-Louis" Name="TheWalk.MeetingJean-Louis" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingJean-Louis">
+    <Item Id="TheWalk.MeetingJean-Louis" Name="Meeting Jean-Louis" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingJean-Louis">
       <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -414,7 +790,7 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
           <DateTime Value="2016-05-31T10:52:52" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-14T11:57:52" />
+          <DateTime Value="2016-10-19T12:26:13" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="George" />
@@ -422,8 +798,14 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
         <Facet Name="Film Reference Id">
           <String Value="TheWalk" />
         </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="The Walk" />
+        </Facet>
         <Facet Name="Start time (min)">
           <Number Value="21" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="F. 101-120" />
         </Facet>
         <Facet Name="L3ST languages: count">
           <Number Value="0" />
@@ -436,7 +818,7 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
         </Facet>
       </Facets>
     </Item>
-    <Item Id="TheWalk.MeetingPapaRudy" Name="TheWalk.MeetingPapaRudy" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingPapaRudy">
+    <Item Id="TheWalk.MeetingPapaRudy" Name="Meeting Papa Rudy" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingPapaRudy">
       <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -446,7 +828,7 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
           <DateTime Value="2016-05-31T10:39:50" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-14T11:57:39" />
+          <DateTime Value="2016-10-19T12:26:31" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="George" />
@@ -454,8 +836,14 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
         <Facet Name="Film Reference Id">
           <String Value="TheWalk" />
         </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="The Walk" />
+        </Facet>
         <Facet Name="Start time (min)">
           <Number Value="12" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="F. 101-120" />
         </Facet>
         <Facet Name="L3ST languages: count">
           <Number Value="2" />
@@ -475,7 +863,7 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
         </Facet>
       </Facets>
     </Item>
-    <Item Id="TheWalk.OnTheRoof" Name="TheWalk.OnTheRoof" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.OnTheRoof">
+    <Item Id="TheWalk.OnTheRoof" Name="On the roof" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.OnTheRoof">
       <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -485,7 +873,7 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
           <DateTime Value="2016-05-31T11:16:48" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-14T11:57:25" />
+          <DateTime Value="2016-10-19T12:26:47" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="George" />
@@ -493,8 +881,14 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
         <Facet Name="Film Reference Id">
           <String Value="TheWalk" />
         </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="The Walk" />
+        </Facet>
         <Facet Name="Start time (min)">
           <Number Value="83" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="D. 61-80" />
         </Facet>
         <Facet Name="L3ST languages: count">
           <Number Value="0" />
@@ -507,7 +901,7 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
         </Facet>
       </Facets>
     </Item>
-    <Item Id="TheWalk.PlanningTheCoup" Name="TheWalk.PlanningTheCoup" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.PlanningTheCoup">
+    <Item Id="TheWalk.PlanningTheCoup" Name="Planning the coup" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.PlanningTheCoup">
       <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -517,7 +911,7 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
           <DateTime Value="2016-05-31T10:58:15" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-14T11:57:13" />
+          <DateTime Value="2016-10-19T12:26:59" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="George" />
@@ -525,8 +919,14 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
         <Facet Name="Film Reference Id">
           <String Value="TheWalk" />
         </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="The Walk" />
+        </Facet>
         <Facet Name="Start time (min)">
           <Number Value="35" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="F. 101-120" />
         </Facet>
         <Facet Name="L3ST languages: count">
           <Number Value="0" />
@@ -539,7 +939,7 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
         </Facet>
       </Facets>
     </Item>
-    <Item Id="TheWalk.TwinTowers" Name="TheWalk.TwinTowers" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.TwinTowers">
+    <Item Id="TheWalk.TwinTowers" Name="Twin towers" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.TwinTowers">
       <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -549,7 +949,7 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
           <DateTime Value="2016-05-31T11:12:12" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-06-14T11:57:00" />
+          <DateTime Value="2016-10-19T12:27:08" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="George" />
@@ -557,8 +957,14 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
         <Facet Name="Film Reference Id">
           <String Value="TheWalk" />
         </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="The Walk" />
+        </Facet>
         <Facet Name="Start time (min)">
           <Number Value="62" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="E. 81-100" />
         </Facet>
         <Facet Name="L3ST languages: count">
           <Number Value="0" />
@@ -571,35 +977,33 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
         </Facet>
       </Facets>
     </Item>
-    <Item Id="ToyStory3.Buzzdances" Name="ToyStory3.Buzzdances" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzdances">
+    <Item Id="ToyStory3.Buzzdances" Name="Buzz dances" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzdances">
       <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="ToyStory3.Buzzdances" />
         </Facet>
-        <Facet Name="Transcription">
-          <String Value="BUZZ: Venga conmigo, señorita. Le enseñaré las maravillas de la galaxia. Y juntos, con nuestro amor, venceremos al mal.&#xD;&#xA;JESSIE: Woody!&#xD;&#xA;WOODY: Come on, we're almost there.&#xD;&#xA;BUZZ: ¡El vaquero!" />
-        </Facet>
-        <Facet Name="Remarks">
-          <String Value="Buzz baila al ritmo de música flamenca, condicionando la solución de L3 en el TM." />
-        </Facet>
         <Facet Name="Info created">
           <DateTime Value="2016-07-11T02:58:22" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-07-11T04:37:08" />
+          <DateTime Value="2016-10-19T12:27:20" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Guillermo" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="ToyStory3" />
         </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Toy Story 3" />
+        </Facet>
         <Facet Name="Start time (min)">
           <Number Value="70" />
         </Facet>
-        <Facet Name="Language sources">
-          <String Value="1 source, oral only" />
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
         </Facet>
         <Facet Name="L3ST languages: count">
           <Number Value="0" />
@@ -612,32 +1016,33 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
         </Facet>
       </Facets>
     </Item>
-    <Item Id="ToyStory3.Buzzfallsinlove" Name="ToyStory3.Buzzfallsinlove" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzfallsinlove">
+    <Item Id="ToyStory3.Buzzfallsinlove" Name="Buzz falls in love" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzfallsinlove">
       <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="ToyStory3.Buzzfallsinlove" />
         </Facet>
-        <Facet Name="Transcription">
-          <String Value="BUZZ: Mi florecilla del desierto. Yo nunca había visto la verdadera belleza hasta esta noche.&#xD;&#xA;JESSIE: Did you fix Buzz?&#xD;&#xA;HAMM: Eh... Sort of." />
-        </Facet>
         <Facet Name="Info created">
           <DateTime Value="2016-07-11T02:58:22" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-07-11T04:31:25" />
+          <DateTime Value="2016-10-19T12:27:32" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Guillermo" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="ToyStory3" />
         </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Toy Story 3" />
+        </Facet>
         <Facet Name="Start time (min)">
           <Number Value="68" />
         </Facet>
-        <Facet Name="Language sources">
-          <String Value="1 source, oral only" />
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
         </Facet>
         <Facet Name="L3ST languages: count">
           <Number Value="0" />
@@ -650,32 +1055,33 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
         </Facet>
       </Facets>
     </Item>
-    <Item Id="ToyStory3.Buzzgetsreset" Name="ToyStory3.Buzzgetsreset" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzgetsreset">
+    <Item Id="ToyStory3.Buzzgetsreset" Name="Buzz gets reset" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzgetsreset">
       <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="ToyStory3.Buzzgetsreset" />
         </Facet>
-        <Facet Name="Transcription">
-          <String Value="BUZZ: Bitácora espacial. Me he despertado del hipersueño en un planeta extraño.&#xD;&#xA;WOODY: Now what did you do?&#xD;&#xA;REX: I just did what you told me.&#xD;&#xA;BUZZ: Estoy rodeado por criaturas extrañas y desconozco sus intenciones. ¿Quién anda ahí? ¿Amigo, o enemigo?&#xD;&#xA;WOODY: Uh... Amigos, we're all amigos.&#xD;&#xA;BUZZ: Me debo de haber estrellado y se me ha borrado la memoria. ¿Han visto mi nave espacial?&#xD;&#xA;WOODY: We got to switch him back.&#xD;&#xA;SLINKY: Well, how do we do that?&#xD;&#xA;HAMM: I don't know. That part's in Spanish.&#xD;&#xA;WOODY: We don't have time for this. Come on, El Buzzo.&#xD;&#xA;BUZZ: ¿Mi nave? ¿La encontraste? ¡Excelente!" />
-        </Facet>
         <Facet Name="Info created">
           <DateTime Value="2016-07-11T02:58:22" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-07-11T04:27:21" />
+          <DateTime Value="2016-10-19T12:27:42" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Guillermo" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="ToyStory3" />
         </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Toy Story 3" />
+        </Facet>
         <Facet Name="Start time (min)">
           <Number Value="67" />
         </Facet>
-        <Facet Name="Language sources">
-          <String Value="2+ onscreen sources, oral only" />
+        <Facet Name="Duration (sec)">
+          <String Value="B. 21-40" />
         </Facet>
         <Facet Name="L3ST languages: count">
           <Number Value="0" />
@@ -688,32 +1094,33 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
         </Facet>
       </Facets>
     </Item>
-    <Item Id="ToyStory3.BuzzlooksforJessie" Name="ToyStory3.BuzzlooksforJessie" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.BuzzlooksforJessie">
+    <Item Id="ToyStory3.BuzzlooksforJessie" Name="Buzz looks for Jessie" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.BuzzlooksforJessie">
       <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="ToyStory3.BuzzlooksforJessie" />
         </Facet>
-        <Facet Name="Transcription">
-          <String Value="BUZZ: ¡Señorita, señorita! ¿Dónde está?&#xD;&#xA;JESSIE: ¡Buzz!&#xD;&#xA;BUZZ: ¡Señorita!" />
-        </Facet>
         <Facet Name="Info created">
           <DateTime Value="2016-07-11T02:58:22" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-07-11T04:48:23" />
+          <DateTime Value="2016-10-19T12:27:59" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Guillermo" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="ToyStory3" />
         </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Toy Story 3" />
+        </Facet>
         <Facet Name="Start time (min)">
           <Number Value="76" />
         </Facet>
-        <Facet Name="Language sources">
-          <String Value="1 source, oral only" />
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
         </Facet>
         <Facet Name="L3ST languages: count">
           <Number Value="0" />
@@ -726,35 +1133,33 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
         </Facet>
       </Facets>
     </Item>
-    <Item Id="ToyStory3.Buzzopensgate" Name="ToyStory3.Buzzopensgate" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzopensgate">
+    <Item Id="ToyStory3.Buzzopensgate" Name="Buzz opens gate" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzopensgate">
       <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="ToyStory3.Buzzopensgate" />
         </Facet>
-        <Facet Name="Transcription">
-          <String Value="BUZZ: (OFF) ¡Buzz lightyear al rescate! (ON) Abierto." />
-        </Facet>
-        <Facet Name="Remarks">
-          <String Value="Buzz baila al ritmo de música flamenca, condicionando la solución de L3 en el TM." />
-        </Facet>
         <Facet Name="Info created">
           <DateTime Value="2016-07-11T02:58:22" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-07-11T04:39:47" />
+          <DateTime Value="2016-10-19T12:28:10" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Guillermo" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="ToyStory3" />
         </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Toy Story 3" />
+        </Facet>
         <Facet Name="Start time (min)">
           <Number Value="71" />
         </Facet>
-        <Facet Name="Language sources">
-          <String Value="Combined: on &amp; off screen oral" />
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
         </Facet>
         <Facet Name="L3ST languages: count">
           <Number Value="0" />
@@ -767,32 +1172,33 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
         </Facet>
       </Facets>
     </Item>
-    <Item Id="ToyStory3.Buzzscape" Name="ToyStory3.Woodyfalls" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzscape">
+    <Item Id="ToyStory3.Buzzscape" Name="Buzz scape" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzscape">
       <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="ToyStory3.Buzzscape" />
         </Facet>
-        <Facet Name="Transcription">
-          <String Value="WOODY: Ah, for crying out loud!&#xD;&#xA;BUZZ: ¡Vamos, vaquero!" />
-        </Facet>
         <Facet Name="Info created">
           <DateTime Value="2016-07-11T02:58:22" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-07-11T04:46:29" />
+          <DateTime Value="2016-10-19T12:28:22" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Guillermo" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="ToyStory3" />
         </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Toy Story 3" />
+        </Facet>
         <Facet Name="Start time (min)">
           <Number Value="75" />
         </Facet>
-        <Facet Name="Language sources">
-          <String Value="1 source, oral only" />
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
         </Facet>
         <Facet Name="L3ST languages: count">
           <Number Value="0" />
@@ -805,32 +1211,33 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
         </Facet>
       </Facets>
     </Item>
-    <Item Id="ToyStory3.Buzzspaceship" Name="ToyStory3.Buzzspaceship" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzspaceship">
+    <Item Id="ToyStory3.Buzzspaceship" Name="Buzz spaceship" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzspaceship">
       <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="ToyStory3.Buzzspaceship" />
         </Facet>
-        <Facet Name="Transcription">
-          <String Value="BUZZ: ¿Dónde está mi nave?&#xD;&#xA;WOODY: Almost there, guys." />
-        </Facet>
         <Facet Name="Info created">
           <DateTime Value="2016-07-11T02:58:22" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-07-11T04:42:16" />
+          <DateTime Value="2016-10-19T12:28:31" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Guillermo" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="ToyStory3" />
         </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Toy Story 3" />
+        </Facet>
         <Facet Name="Start time (min)">
           <Number Value="72" />
         </Facet>
-        <Facet Name="Language sources">
-          <String Value="1 source, oral only" />
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
         </Facet>
         <Facet Name="L3ST languages: count">
           <Number Value="0" />
@@ -840,6 +1247,157 @@ Available in YouTube: https://www.youtube.com/watch?v=wmmojewOIv4
         </Facet>
         <Facet Name="L3ST-instances: count">
           <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Um filme falado.First port of call-Marseille" Name="First port of call - Marseille" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Um filme falado&amp;conversation=Um filme falado.First port of call-Marseille">
+      <Description></Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Um filme falado.First port of call-Marseille" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="Fench" />
+          <String Value=" multilingual" />
+          <String Value=" third language" />
+          <String Value=" " />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="Rosa Maria is talking to some fishermen in French but she addresses to her daughter in Portuguese since she doesn't understand French. " />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-17T04:31:52" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-19T12:30:31" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="corrius" />
+          <String Value="George" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Um filme falado" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Um filme falado" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="French" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Um filme falado.The captain dinner-Captain-speaking one language" Name="The captain dinner - Captain speaking one language" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Um filme falado&amp;conversation=Um filme falado.The captain dinner-Captain-speaking one language">
+      <Description></Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Um filme falado.The captain dinner-Captain-speaking one language" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="English" />
+          <String Value=" Babel" />
+          <String Value=" Captain dinner" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="Captain speaking in English" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-17T05:22:11" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-19T12:30:17" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="corrius" />
+          <String Value="George" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Um filme falado" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Um filme falado" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Um filme falado.The captain dinner-Captain" Name="The captain dinner - Captain" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Um filme falado&amp;conversation=Um filme falado.The captain dinner-Captain">
+      <Description></Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Um filme falado.The captain dinner-Captain" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="English" />
+          <String Value=" Babel" />
+          <String Value=" Captain dinner" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="conversation between the ship's captain (John Walesa, an American from Polish background) and three passengers on board: Delphine (French), Francesca (Italian), Helena (Greek. Everybody speaks their own language and they understand each other very well. Later Rosa Maria and Maria Joana join the table and as none of the characters except for the captain understands Portuguese they change into English." />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-17T04:58:25" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-19T12:29:18" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="corrius" />
+          <String Value="George" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Um filme falado" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Um filme falado" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>
