@@ -334,7 +334,125 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room" Name="FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room" Img="#4" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Rivendell_AragornArwen&amp;L3STinstance=FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room">
+        <Item Id="FellowshipOfTheRing.Lorien_AragornGaladriel.Evenstar_speech" Name="FellowshipOfTheRing.Lorien_AragornGaladriel" Img="#4" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Lorien_AragornGaladriel&amp;L3STinstance=FellowshipOfTheRing.Lorien_AragornGaladriel.Evenstar_speech">
+            <Description>As a farewell to Lothlórien, Galadriel provides each character with a present. This instance deals with Galadriel and Aragorn's conversation on Arwen, represented through the Evenstar pendant.  </Description>
+            <Facets>
+                <Facet Name="Conversation duration (sec)">
+                    <String Value="F. 101-120" />
+                </Facet>
+                <Facet Name="Conversation features for L3ST-instance">
+                    <String Value="information" />
+                    <String Value="literary" />
+                </Facet>
+                <Facet Name="Conversation Reference Id">
+                    <String Value="FellowshipOfTheRing.Lorien_AragornGaladriel" />
+                </Facet>
+                <Facet Name="Conversation start time (min)">
+                    <Number Value="170" />
+                </Facet>
+                <Facet Name="Film Reference Id">
+                    <String Value="FellowshipOfTheRing" />
+                </Facet>
+                <Facet Name="Info created">
+                    <DateTime Value="2016-10-18T05:21:45" />
+                </Facet>
+                <Facet Name="Info updated">
+                    <DateTime Value="2016-10-18T05:44:50" />
+                </Facet>
+                <Facet Name="L3ST constructed based on">
+                    <String Value="“from scratch”" />
+                </Facet>
+                <Facet Name="L3ST functions">
+                    <String Value="Theme" />
+                </Facet>
+                <Facet Name="L3ST language">
+                    <String Value="Elvish" />
+                </Facet>
+                <Facet Name="L3ST language type">
+                    <String Value="Constructed (fictional)" />
+                </Facet>
+                <Facet Name="L3ST meaning decipherable">
+                    <String Value="NO" />
+                </Facet>
+                <Facet Name="L3ST meant to be understood">
+                    <String Value="NO" />
+                </Facet>
+                <Facet Name="L3ST merely represented">
+                    <String Value="NO / Not applicable" />
+                </Facet>
+                <Facet Name="L3ST message required for understanding">
+                    <String Value="Yes" />
+                </Facet>
+                <Facet Name="L3ST mode, written/spoken, diegetic">
+                    <String Value="Oral diegetic on-screen" />
+                </Facet>
+                <Facet Name="L3ST sources">
+                    <String Value="Respond interlingually: different sources " />
+                </Facet>
+                <Facet Name="L3TT-instances: count">
+                    <Number Value="1" />
+                </Facet>
+                <Facet Name="Main (L1) language">
+                    <String Value="Elvish" />
+                </Facet>
+                <Facet Name="Metadata Editors">
+                    <String Value="miquelpt" />
+                </Facet>
+                <Facet Name="Quality of L3ST speaker performance">
+                    <String Value="native or proficient" />
+                </Facet>
+                <Facet Name="Reference Id">
+                    <String Value="FellowshipOfTheRing.Lorien_AragornGaladriel.Evenstar_speech" />
+                </Facet>
+                <Facet Name="Transcription">
+                    <String Value="Galadriel: I have nothing greater to give, than the gift you already bear. Am meleth dîn. I ant e-guil Arwen Undómiel… pelitha. (SUB: For her love, I fear the grace of Arwen Evenstar… will diminish.)&#xD;&#xA;&#xD;&#xA;Aragorn: Aníron i e broniatha ar periatham amar hen. Aníron e ciratha a Valannor. (SUB: I would have her leave these shores, and be with her people… I would have her… take the ship to Valinor.)&#xD;&#xA;&#xD;&#xA;Galadriel: That choice is yet before her. You have your own choice to make, Aragorn… to rise above the height of all your fathers since the days of Elendil, or to fall into darkness… with all that is left of your kin. Namárië. (SUB: Farewell.) Nadath nâ i moe cerich. (SUB: There is much you have yet to do.)&#xD;&#xA;Dan… ú eveditham, Elessar. (SUB: We shall not meet again, Elessar.)" />
+                </Facet>
+            </Facets>
+        </Item>
+        <Item Id="FellowshipOfTheRing.Luthien_song.Aragorn_singing" Name="FellowshipOfTheRing.Luthien_song" Img="#5" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Luthien_song&amp;L3STinstance=FellowshipOfTheRing.Luthien_song.Aragorn_singing">
+            <Description>Aragorn is keeping watch during the night in the forest, while the hobbits are sleeping. He signs a mourning song about the Lady of Luthien. This song introduces the conflict of Arwen's mortality choice, key in the development of Aragorn's narrative line in the saga. Besides, this song is a homage to J.R.R. Tolkien.</Description>
+            <Facets>
+                <Facet Name="Conversation duration (sec)">
+                    <String Value="B. 21-40" />
+                </Facet>
+                <Facet Name="Conversation features for L3ST-instance">
+                    <String Value="bonding" />
+                    <String Value="literary" />
+                    <String Value="song" />
+                </Facet>
+                <Facet Name="Conversation Reference Id">
+                    <String Value="FellowshipOfTheRing.Luthien_song" />
+                </Facet>
+                <Facet Name="Conversation start time (min)">
+                    <Number Value="65" />
+                </Facet>
+                <Facet Name="Film Reference Id">
+                    <String Value="FellowshipOfTheRing" />
+                </Facet>
+                <Facet Name="Info created">
+                    <DateTime Value="2016-10-18T06:02:26" />
+                </Facet>
+                <Facet Name="Info updated">
+                    <DateTime Value="2016-10-18T06:33:14" />
+                </Facet>
+                <Facet Name="L3ST sources">
+                    <String Value="Oral L3: single source" />
+                </Facet>
+                <Facet Name="L3TT-instances: count">
+                    <Number Value="2" />
+                </Facet>
+                <Facet Name="Metadata Editors">
+                    <String Value="miquelpt" />
+                </Facet>
+                <Facet Name="Reference Id">
+                    <String Value="FellowshipOfTheRing.Luthien_song.Aragorn_singing" />
+                </Facet>
+                <Facet Name="Transcription">
+                    <String Value="Aragorn (singing):&#xD;&#xA;&#xD;&#xA;Tinúviel elvanui,&#xD;&#xA;Elleth alfirin ethelhael&#xD;&#xA;O hon ring finnil fuinui&#xD;&#xA;A renc gelebrin thiliol.&#xD;&#xA;&#xD;&#xA;Frodo: Who is she? This woman you sing of?&#xD;&#xA;&#xD;&#xA;Aragorn: Tis the Lady of Lúthien. The Elf-maiden who gave her love to Beren, a mortal.&#xD;&#xA;&#xD;&#xA;Frodo: What happened to her?&#xD;&#xA;&#xD;&#xA;Aragorn: She died." />
+                </Facet>
+            </Facets>
+        </Item>
+        <Item Id="FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room" Name="FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room" Img="#6" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Rivendell_AragornArwen&amp;L3STinstance=FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room">
             <Description>This instance is uttered in the sword room in Rivendell. Arwen speaks aloud Aragorn's inner doubts and raises his spirits by combining both English and Elvish.</Description>
             <Facets>
                 <Facet Name="Conversation features for L3ST-instance">
@@ -413,7 +531,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge" Name="FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge" Img="#5" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Rivendell_AragornArwen&amp;L3STinstance=FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge">
+        <Item Id="FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge" Name="FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge" Img="#7" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Rivendell_AragornArwen&amp;L3STinstance=FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge">
             <Description>This instance takes place in a bridge in Rivendell. This is the scene in which they explicitly talk about their love relationship. Dialogue combines English and Elvish.</Description>
             <Facets>
                 <Facet Name="Conversation Reference Id">
@@ -491,7 +609,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="LoveActually.JamieProposesToAurelia.Aurelia's sister" Name="Love Actually - Jamie Proposes To Aurelia - Aurelia's sister" Img="#6" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia&amp;L3STinstance=LoveActually.JamieProposesToAurelia.Aurelia's sister">
+        <Item Id="LoveActually.JamieProposesToAurelia.Aurelia's sister" Name="Love Actually - Jamie Proposes To Aurelia - Aurelia's sister" Img="#8" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia&amp;L3STinstance=LoveActually.JamieProposesToAurelia.Aurelia's sister">
             <Description>Aurelia's sister intervenes in Jamie's proposal (humorous effect)</Description>
             <Facets>
                 <Facet Name="Conversation Reference Id">
@@ -552,7 +670,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="LoveActually.JamieProposesToAurelia.Jamie in Portuguese" Name="Love Actually - Jamie Proposes To Aurelia - Jamie in Portuguese" Img="#7" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia&amp;L3STinstance=LoveActually.JamieProposesToAurelia.Jamie in Portuguese">
+        <Item Id="LoveActually.JamieProposesToAurelia.Jamie in Portuguese" Name="Love Actually - Jamie Proposes To Aurelia - Jamie in Portuguese" Img="#9" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia&amp;L3STinstance=LoveActually.JamieProposesToAurelia.Jamie in Portuguese">
             <Description>Jamie proposes in Portuguese</Description>
             <Facets>
                 <Facet Name="Conversation Reference Id">
@@ -611,7 +729,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="LoveActually.JamieProposesToAurelia.Portuguese" Name="Love Actually - Jamie Proposes To Aurelia - Barros in Portuguese" Img="#8" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia&amp;L3STinstance=LoveActually.JamieProposesToAurelia.Portuguese">
+        <Item Id="LoveActually.JamieProposesToAurelia.Portuguese" Name="Love Actually - Jamie Proposes To Aurelia - Barros in Portuguese" Img="#10" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia&amp;L3STinstance=LoveActually.JamieProposesToAurelia.Portuguese">
             <Description>Barros asks for Aurelia.</Description>
             <Facets>
                 <Facet Name="Conversation Reference Id">
@@ -668,7 +786,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="LoveActually.Lake Scene.Portuguese" Name="LoveActually - Lake Scene - Portuguese" Img="#9" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.Lake Scene&amp;L3STinstance=LoveActually.Lake Scene.Portuguese">
+        <Item Id="LoveActually.Lake Scene.Portuguese" Name="LoveActually - Lake Scene - Portuguese" Img="#11" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.Lake Scene&amp;L3STinstance=LoveActually.Lake Scene.Portuguese">
             <Description>Aurelia expresses anxiety when papers fly.</Description>
             <Facets>
                 <Facet Name="Conversation Reference Id">
@@ -719,7 +837,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Monsoon Wedding.Conversation in the garden on the phone.Hindi" Name="Monsoon Wedding - Conversation in the garden on the phone - Hindi" Img="#10" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Monsoon Wedding&amp;conversation=Monsoon Wedding.Conversation in the garden on the phone&amp;L3STinstance=Monsoon Wedding.Conversation in the garden on the phone.Hindi">
+        <Item Id="Monsoon Wedding.Conversation in the garden on the phone.Hindi" Name="Monsoon Wedding - Conversation in the garden on the phone - Hindi" Img="#12" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Monsoon Wedding&amp;conversation=Monsoon Wedding.Conversation in the garden on the phone&amp;L3STinstance=Monsoon Wedding.Conversation in the garden on the phone.Hindi">
             <Description>The father talks on the phone in Hindi. He is outside in the garden. 
 There is another conversation taking place among women at the kitchen.</Description>
             <Facets>
@@ -781,7 +899,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="OceansEleven.ExplainingThePlan.Chinese" Name="Ocean's Eleven - Explaining the plan - Chinese" Img="#11" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=OceansEleven&amp;conversation=OceansEleven.ExplainingThePlan&amp;L3STinstance=OceansEleven.ExplainingThePlan.Chinese">
+        <Item Id="OceansEleven.ExplainingThePlan.Chinese" Name="Ocean's Eleven - Explaining the plan - Chinese" Img="#13" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=OceansEleven&amp;conversation=OceansEleven.ExplainingThePlan&amp;L3STinstance=OceansEleven.ExplainingThePlan.Chinese">
             <Facets>
                 <Facet Name="Conversation Reference Id">
                     <String Value="OceansEleven.ExplainingThePlan" />
@@ -829,7 +947,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Spanglish.At the summer place - an interpreter.Man speaks Spanish to Flor and English to Deborah" Name="Spanglish.At the summer place - an interpreter.Man speaks Spanish to Flor and English to Deborah" Img="#12" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Spanglish&amp;conversation=Spanglish.At the summer place - an interpreter&amp;L3STinstance=Spanglish.At the summer place - an interpreter.Man speaks Spanish to Flor and English to Deborah">
+        <Item Id="Spanglish.At the summer place - an interpreter.Man speaks Spanish to Flor and English to Deborah" Name="Spanglish.At the summer place - an interpreter.Man speaks Spanish to Flor and English to Deborah" Img="#14" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Spanglish&amp;conversation=Spanglish.At the summer place - an interpreter&amp;L3STinstance=Spanglish.At the summer place - an interpreter.Man speaks Spanish to Flor and English to Deborah">
             <Description>Flor, Deborah and Evelyn are walking in the street. Deborah wants to ask Flor if she would like to move with them to the summer house and live with them, but as they don't speak the same language, DEborah cannot communicate with her until she sees a Hispanic man washinng somebody's car. She asks him if he speaks English and if he could translate for her.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -898,7 +1016,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Spanglish.At the summer place - an interpreter.Speaking Spanish" Name="Spanglish.At the summer place - an interpreter.Speaking Spanish" Img="#13" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Spanglish&amp;conversation=Spanglish.At the summer place - an interpreter&amp;L3STinstance=Spanglish.At the summer place - an interpreter.Speaking Spanish">
+        <Item Id="Spanglish.At the summer place - an interpreter.Speaking Spanish" Name="Spanglish.At the summer place - an interpreter.Speaking Spanish" Img="#15" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Spanglish&amp;conversation=Spanglish.At the summer place - an interpreter&amp;L3STinstance=Spanglish.At the summer place - an interpreter.Speaking Spanish">
             <Facets>
                 <Facet Name="Conversation duration (sec)">
                     <String Value="A. 1-20" />
@@ -926,7 +1044,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Spanglish.Flor and Cristina at the restaurant.Flor speaking Spanish and Cristina translating Spanish into English" Name="Spanglish.Flor and Cristina at the restaurant.Flor speaking Spanish and Cristina translating Spanish into English" Img="#14" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Spanglish&amp;conversation=Spanglish.Flor and Cristina at the restaurant&amp;L3STinstance=Spanglish.Flor and Cristina at the restaurant.Flor speaking Spanish and Cristina translating Spanish into English">
+        <Item Id="Spanglish.Flor and Cristina at the restaurant.Flor speaking Spanish and Cristina translating Spanish into English" Name="Spanglish.Flor and Cristina at the restaurant.Flor speaking Spanish and Cristina translating Spanish into English" Img="#16" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Spanglish&amp;conversation=Spanglish.Flor and Cristina at the restaurant&amp;L3STinstance=Spanglish.Flor and Cristina at the restaurant.Flor speaking Spanish and Cristina translating Spanish into English">
             <Description>Flor and her daughter go and have dinner to celebrate that she has found a job. When they enter the restaurant Cristina addresses a waitress to ask for a table. As Flor does not speak any English, when she wants to add or say something she tells Cristina to translate for her.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -1002,7 +1120,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Spanglish.Introduction to the Clasky's family.Deborah and Evelyn speaking English. Monica Speaking Spanish." Name="Spanglish.Introduction to the Clasky's family. " Img="#15" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Spanglish&amp;conversation=Spanglish.Introduction to the Clasky's family&amp;L3STinstance=Spanglish.Introduction to the Clasky's family.Deborah and Evelyn speaking English. Monica Speaking Spanish.">
+        <Item Id="Spanglish.Introduction to the Clasky's family.Deborah and Evelyn speaking English. Monica Speaking Spanish." Name="Spanglish.Introduction to the Clasky's family. " Img="#17" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Spanglish&amp;conversation=Spanglish.Introduction to the Clasky's family&amp;L3STinstance=Spanglish.Introduction to the Clasky's family.Deborah and Evelyn speaking English. Monica Speaking Spanish.">
             <Description>Flor and her cousin Monica are at the Clasky's house for the first time. Flor is being interviewed by Deborah Clasky. As Flor does not speak English, Monica is trying to translate for her although she does not speak perfect English.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -1074,7 +1192,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheWalk.MeetingPapaRudy.Czech" Name="TheWalk.MeetingPapaRudy.Czech" Img="#16" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingPapaRudy&amp;L3STinstance=TheWalk.MeetingPapaRudy.Czech">
+        <Item Id="TheWalk.MeetingPapaRudy.Czech" Name="TheWalk.MeetingPapaRudy.Czech" Img="#18" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingPapaRudy&amp;L3STinstance=TheWalk.MeetingPapaRudy.Czech">
             <Facets>
                 <Facet Name="Conversation Reference Id">
                     <String Value="TheWalk.MeetingPapaRudy" />
@@ -1138,7 +1256,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheWalk.MeetingPapaRudy.French" Name="TheWalk.MeetingPapaRudy.French" Img="#17" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingPapaRudy&amp;L3STinstance=TheWalk.MeetingPapaRudy.French">
+        <Item Id="TheWalk.MeetingPapaRudy.French" Name="TheWalk.MeetingPapaRudy.French" Img="#19" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingPapaRudy&amp;L3STinstance=TheWalk.MeetingPapaRudy.French">
             <Facets>
                 <Facet Name="Conversation Reference Id">
                     <String Value="TheWalk.MeetingPapaRudy" />
@@ -1199,7 +1317,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheWalk.MeetingPapaRudy.French2" Name="TheWalk.MeetingPapaRudy.French2" Img="#18" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingPapaRudy&amp;L3STinstance=TheWalk.MeetingPapaRudy.French2">
+        <Item Id="TheWalk.MeetingPapaRudy.French2" Name="TheWalk.MeetingPapaRudy.French2" Img="#20" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingPapaRudy&amp;L3STinstance=TheWalk.MeetingPapaRudy.French2">
             <Facets>
                 <Facet Name="Conversation Reference Id">
                     <String Value="TheWalk.MeetingPapaRudy" />
@@ -1260,7 +1378,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheWalk.MeetingPapaRudy.French3" Name="TheWalk.MeetingPapaRudy.French3" Img="#19" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingPapaRudy&amp;L3STinstance=TheWalk.MeetingPapaRudy.French3">
+        <Item Id="TheWalk.MeetingPapaRudy.French3" Name="TheWalk.MeetingPapaRudy.French3" Img="#21" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingPapaRudy&amp;L3STinstance=TheWalk.MeetingPapaRudy.French3">
             <Facets>
                 <Facet Name="Conversation Reference Id">
                     <String Value="TheWalk.MeetingPapaRudy" />
@@ -1321,7 +1439,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheWalk.OnTheRoof.Czech" Name="TheWalk.OnTheRoof.Czech" Img="#20" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk&amp;conversation=TheWalk.OnTheRoof&amp;L3STinstance=TheWalk.OnTheRoof.Czech">
+        <Item Id="TheWalk.OnTheRoof.Czech" Name="TheWalk.OnTheRoof.Czech" Img="#22" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk&amp;conversation=TheWalk.OnTheRoof&amp;L3STinstance=TheWalk.OnTheRoof.Czech">
             <Facets>
                 <Facet Name="Conversation Reference Id">
                     <String Value="TheWalk.OnTheRoof" />
@@ -1349,7 +1467,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Um filme falado.First port of call-Marseille.Speaking French" Name="Um filme falado.First port of call-Marseille.Speaking French" Img="#21" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Um filme falado&amp;conversation=Um filme falado.First port of call-Marseille&amp;L3STinstance=Um filme falado.First port of call-Marseille.Speaking French">
+        <Item Id="Um filme falado.First port of call-Marseille.Speaking French" Name="Um filme falado.First port of call-Marseille.Speaking French" Img="#23" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Um filme falado&amp;conversation=Um filme falado.First port of call-Marseille&amp;L3STinstance=Um filme falado.First port of call-Marseille.Speaking French">
             <Description>Both Rosa Maria anf the fisherman speak in French.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -1420,7 +1538,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Um filme falado.The captain dinner-Captain-speaking one language.Speaking English" Name="Um filme falado.The captain dinner-Captain-speaking one language.Speaking English" Img="#22" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Um filme falado&amp;conversation=Um filme falado.The captain dinner-Captain-speaking one language&amp;L3STinstance=Um filme falado.The captain dinner-Captain-speaking one language.Speaking English">
+        <Item Id="Um filme falado.The captain dinner-Captain-speaking one language.Speaking English" Name="Um filme falado.The captain dinner-Captain-speaking one language.Speaking English" Img="#24" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Um filme falado&amp;conversation=Um filme falado.The captain dinner-Captain-speaking one language&amp;L3STinstance=Um filme falado.The captain dinner-Captain-speaking one language.Speaking English">
             <Description>The captain is speaking in English and he wishes we could all speak one languge.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -1490,7 +1608,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Um filme falado.The captain dinner-Captain.Speaking English" Name="Um filme falado.The captain dinner-Captain.Speaking English" Img="#23" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Um filme falado&amp;conversation=Um filme falado.The captain dinner-Captain&amp;L3STinstance=Um filme falado.The captain dinner-Captain.Speaking English">
+        <Item Id="Um filme falado.The captain dinner-Captain.Speaking English" Name="Um filme falado.The captain dinner-Captain.Speaking English" Img="#25" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Um filme falado&amp;conversation=Um filme falado.The captain dinner-Captain&amp;L3STinstance=Um filme falado.The captain dinner-Captain.Speaking English">
             <Description>English is the language they all understand</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">

@@ -704,7 +704,394 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room.SpanishDub" Name="FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room.SpanishDub" Img="#6" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Rivendell_AragornArwen&amp;L3STinstance=FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room&amp;L3TTinstance=FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room.SpanishDub">
+        <Item Id="FellowshipOfTheRing.Lorien_AragornGaladriel.Evenstar_speech.SpanishDub" Name="FellowshipOfTheRing.Lorien_AragornGaladriel.Evenstar_speech.SpanishDub" Img="#6" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Lorien_AragornGaladriel&amp;L3STinstance=FellowshipOfTheRing.Lorien_AragornGaladriel.Evenstar_speech&amp;L3TTinstance=FellowshipOfTheRing.Lorien_AragornGaladriel.Evenstar_speech.SpanishDub">
+            <Description>As a farewell to Lothlórien, Galadriel provides each character with a present. This instance deals with Galadriel and Aragorn's conversation on Arwen, represented through the Evenstar pendant.  </Description>
+            <Facets>
+                <Facet Name="Conversation duration (sec)">
+                    <String Value="F. 101-120" />
+                </Facet>
+                <Facet Name="Conversation features for L3-instance change">
+                    <String Value="- literary" />
+                </Facet>
+                <Facet Name="Conversation features for L3TT-instance">
+                    <String Value="information" />
+                </Facet>
+                <Facet Name="Conversation Reference Id">
+                    <String Value="FellowshipOfTheRing.Lorien_AragornGaladriel" />
+                </Facet>
+                <Facet Name="Conversation start time (min)">
+                    <Number Value="170" />
+                </Facet>
+                <Facet Name="Film Reference Id">
+                    <String Value="FellowshipOfTheRing" />
+                </Facet>
+                <Facet Name="Film Title TT">
+                    <String Value="La comunidad del Anillo" />
+                </Facet>
+                <Facet Name="Film TT Blockbuster">
+                    <String Value="YES (top 20)" />
+                </Facet>
+                <Facet Name="Info created">
+                    <DateTime Value="2016-10-18T05:37:06" />
+                </Facet>
+                <Facet Name="Info updated">
+                    <DateTime Value="2016-10-18T05:44:32" />
+                </Facet>
+                <Facet Name="L2 language">
+                    <String Value="English" />
+                </Facet>
+                <Facet Name="L2 mode">
+                    <String Value="Dubbed" />
+                </Facet>
+                <Facet Name="L2 same as L3ST">
+                    <String Value="No" />
+                </Facet>
+                <Facet Name="L3 functions change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3 language type change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3 mode change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3 sources change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3ST conveyed as L3TT">
+                    <String Value="Yes" />
+                </Facet>
+                <Facet Name="L3ST-instance Reference Id">
+                    <String Value="FellowshipOfTheRing.Lorien_AragornGaladriel.Evenstar_speech" />
+                </Facet>
+                <Facet Name="L3TT constructed based on">
+                    <String Value="“from scratch”" />
+                </Facet>
+                <Facet Name="L3TT functions">
+                    <String Value="Theme" />
+                </Facet>
+                <Facet Name="L3TT language">
+                    <String Value="Elvish" />
+                </Facet>
+                <Facet Name="L3TT language type">
+                    <String Value="Constructed (fictional)" />
+                </Facet>
+                <Facet Name="L3TT meaning decipherable">
+                    <String Value="NO" />
+                </Facet>
+                <Facet Name="L3TT meant to be understood">
+                    <String Value="NO" />
+                </Facet>
+                <Facet Name="L3TT merely represented">
+                    <String Value="NO / Not applicable" />
+                </Facet>
+                <Facet Name="L3TT message required for understanding">
+                    <String Value="Yes" />
+                </Facet>
+                <Facet Name="L3TT mode, written/spoken, diegetic">
+                    <String Value="Oral diegetic on-screen" />
+                </Facet>
+                <Facet Name="L3TT sources">
+                    <String Value="Respond interlingually: different sources " />
+                </Facet>
+                <Facet Name="Metadata Editors">
+                    <String Value="miquelpt" />
+                </Facet>
+                <Facet Name="Quality of L3TT speaker performance">
+                    <String Value="native or proficient" />
+                </Facet>
+                <Facet Name="Reference Id">
+                    <String Value="FellowshipOfTheRing.Lorien_AragornGaladriel.Evenstar_speech.SpanishDub" />
+                </Facet>
+                <Facet Name="Transcription">
+                    <String Value="Galadriel: No tengo mejor presente que darte que el que ya llevas contigo. Am meleth dîn. I ant e-guil Arwen Undómiel… pelitha. (SUB: Por culpa d su amor, temo que la gracia de Arwen, Estrella de la Tarde, vaya a menos.)&#xD;&#xA;&#xD;&#xA;Aragorn: Aníron i e broniatha ar periatham amar hen. Aníron e ciratha a Valannor. (SUB: De buena gana la convencería de que dejara estas costas para permanecer con su pueblo. Ojalá zarpara en el barco de Valinor.)&#xD;&#xA;&#xD;&#xA;Galadriel: Esa decisión aún le pertenece. Tú tienes tu propia decisión que tomar, Aragorn. Elevarte y volar más alto que todos tus padres desde los días de Elendil, o caer en la oscuridad, con lo único que resta de tu linaje. Namárië. (SUB: Adiós.) Nadath nâ i moe cerich. (SUB: Aún te queda mucho por hacer.)&#xD;&#xA;Dan… ú eveditham, Elessar. (SUB: No volveremos a vernos, Elessar.)" />
+                </Facet>
+                <Facet Name="Year TT released">
+                    <Number Value="2001" />
+                </Facet>
+            </Facets>
+        </Item>
+        <Item Id="FellowshipOfTheRing.Lorien_AragornGaladriel.Evenstar_speech.SpanishSub" Name="FellowshipOfTheRing.Lorien_AragornGaladriel.Evenstar_speech.SpanishSub" Img="#7" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Lorien_AragornGaladriel&amp;L3STinstance=FellowshipOfTheRing.Lorien_AragornGaladriel.Evenstar_speech&amp;L3TTinstance=FellowshipOfTheRing.Lorien_AragornGaladriel.Evenstar_speech.SpanishSub">
+            <Description>As a farewell to Lothlórien, Galadriel provides each character with a present. This instance deals with Galadriel and Aragorn's conversation on Arwen, represented through the Evenstar pendant.  </Description>
+            <Facets>
+                <Facet Name="Conversation duration (sec)">
+                    <String Value="F. 101-120" />
+                </Facet>
+                <Facet Name="Conversation features for L3-instance change">
+                    <String Value="- literary" />
+                </Facet>
+                <Facet Name="Conversation features for L3TT-instance">
+                    <String Value="information" />
+                </Facet>
+                <Facet Name="Conversation Reference Id">
+                    <String Value="FellowshipOfTheRing.Lorien_AragornGaladriel" />
+                </Facet>
+                <Facet Name="Conversation start time (min)">
+                    <Number Value="170" />
+                </Facet>
+                <Facet Name="Film Reference Id">
+                    <String Value="FellowshipOfTheRing" />
+                </Facet>
+                <Facet Name="Film Title TT">
+                    <String Value="La comunidad del Anillo" />
+                </Facet>
+                <Facet Name="Film TT Blockbuster">
+                    <String Value="YES (top 20)" />
+                </Facet>
+                <Facet Name="Info created">
+                    <DateTime Value="2016-10-18T05:37:06" />
+                </Facet>
+                <Facet Name="Info updated">
+                    <DateTime Value="2016-10-18T05:57:02" />
+                </Facet>
+                <Facet Name="L2 language">
+                    <String Value="English" />
+                </Facet>
+                <Facet Name="L2 mode">
+                    <String Value="Dubbed" />
+                </Facet>
+                <Facet Name="L2 same as L3ST">
+                    <String Value="No" />
+                </Facet>
+                <Facet Name="L3 functions change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3 language type change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3 mode change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3 sources change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3ST conveyed as L3TT">
+                    <String Value="Yes" />
+                </Facet>
+                <Facet Name="L3ST-instance Reference Id">
+                    <String Value="FellowshipOfTheRing.Lorien_AragornGaladriel.Evenstar_speech" />
+                </Facet>
+                <Facet Name="L3TT constructed based on">
+                    <String Value="“from scratch”" />
+                </Facet>
+                <Facet Name="L3TT functions">
+                    <String Value="Theme" />
+                </Facet>
+                <Facet Name="L3TT language">
+                    <String Value="Elvish" />
+                </Facet>
+                <Facet Name="L3TT language type">
+                    <String Value="Constructed (fictional)" />
+                </Facet>
+                <Facet Name="L3TT meaning decipherable">
+                    <String Value="NO" />
+                </Facet>
+                <Facet Name="L3TT meant to be understood">
+                    <String Value="NO" />
+                </Facet>
+                <Facet Name="L3TT merely represented">
+                    <String Value="NO / Not applicable" />
+                </Facet>
+                <Facet Name="L3TT message required for understanding">
+                    <String Value="Yes" />
+                </Facet>
+                <Facet Name="L3TT mode, written/spoken, diegetic">
+                    <String Value="Oral diegetic on-screen" />
+                </Facet>
+                <Facet Name="L3TT sources">
+                    <String Value="Respond interlingually: different sources " />
+                </Facet>
+                <Facet Name="Metadata Editors">
+                    <String Value="miquelpt" />
+                </Facet>
+                <Facet Name="Quality of L3TT speaker performance">
+                    <String Value="native or proficient" />
+                </Facet>
+                <Facet Name="Reference Id">
+                    <String Value="FellowshipOfTheRing.Lorien_AragornGaladriel.Evenstar_speech.SpanishSub" />
+                </Facet>
+                <Facet Name="Remarks">
+                    <String Value="The conversation mixes L2 (English) and L3 (Elvish), but the subtitles in Spanish do not show any different to mark when L2 or L3 is uttered. Therefore, for someone not acquainted with the English language, L3 in this instance in the subtitling mode may go unnoticed. " />
+                </Facet>
+                <Facet Name="Transcription">
+                    <String Value="Galadriel: No tengo mejor presente que darte que el que ya llevas contigo. Por culpa d su amor, temo que la gracia de Arwen, Estrella de la Tarde, vaya a menos.&#xD;&#xA;&#xD;&#xA;Aragorn: De buena gana la convencería de que dejara estas costas para permanecer con su pueblo. Ojalá zarpara en el barco de Valinor.&#xD;&#xA;&#xD;&#xA;Galadriel: Esa decisión aún está a su alcance, tú tienes tu propia decisión que tomar, Aragorn. Elevarte y volar más alto que todos tus padres desde los días de Elendil, o caer en la oscuridad, con lo único que resta de tus antepasados. Adiós. Aún te queda mucho por hacer. No volveremos a vernos." />
+                </Facet>
+                <Facet Name="Year TT released">
+                    <Number Value="2001" />
+                </Facet>
+            </Facets>
+        </Item>
+        <Item Id="FellowshipOfTheRing.Luthien_song.Aragorn_singing.SpanishDub" Name="FellowshipOfTheRing.Luthien_song.Aragorn_singing.SpanishDub" Img="#8" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Luthien_song&amp;L3STinstance=FellowshipOfTheRing.Luthien_song.Aragorn_singing&amp;L3TTinstance=FellowshipOfTheRing.Luthien_song.Aragorn_singing.SpanishDub">
+            <Description>Aragorn is keeping watch during the night in the forest, while the hobbits are sleeping. He signs a mourning song about the Lady of Luthien.</Description>
+            <Facets>
+                <Facet Name="Conversation duration (sec)">
+                    <String Value="B. 21-40" />
+                </Facet>
+                <Facet Name="Conversation features for L3-instance change">
+                    <String Value="- bonding" />
+                    <String Value="- literary" />
+                    <String Value="- song" />
+                </Facet>
+                <Facet Name="Conversation Reference Id">
+                    <String Value="FellowshipOfTheRing.Luthien_song" />
+                </Facet>
+                <Facet Name="Conversation start time (min)">
+                    <Number Value="65" />
+                </Facet>
+                <Facet Name="Film Reference Id">
+                    <String Value="FellowshipOfTheRing" />
+                </Facet>
+                <Facet Name="Info created">
+                    <DateTime Value="2016-10-18T06:12:41" />
+                </Facet>
+                <Facet Name="Info updated">
+                    <DateTime Value="2016-10-18T06:27:03" />
+                </Facet>
+                <Facet Name="L3 functions change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3 language type change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3 mode change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3 sources change">
+                    <String Value="- Oral L3: single source" />
+                    <String Value="+ " />
+                </Facet>
+                <Facet Name="L3ST-instance Reference Id">
+                    <String Value="FellowshipOfTheRing.Luthien_song.Aragorn_singing" />
+                </Facet>
+                <Facet Name="Metadata Editors">
+                    <String Value="miquelpt" />
+                </Facet>
+                <Facet Name="Reference Id">
+                    <String Value="FellowshipOfTheRing.Luthien_song.Aragorn_singing.SpanishDub" />
+                </Facet>
+                <Facet Name="Remarks">
+                    <String Value="L3 in the Spanish dubbed version is not conveyed in L2 in written or oral mode." />
+                </Facet>
+                <Facet Name="Transcription">
+                    <String Value="Aragorn (canta):&#xD;&#xA;&#xD;&#xA;Tinúviel elvanui,&#xD;&#xA;Elleth alfirin ethelhael&#xD;&#xA;O hon ring finnil fuinui&#xD;&#xA;A renc gelebrin thiliol.&#xD;&#xA;&#xD;&#xA;Frodo: ¿Quién es ella?, la dama de la canción.&#xD;&#xA;&#xD;&#xA;Aragorn: Es la dama de Luthien, la doncella elfo que entregó su amor a Beren, un mortal.&#xD;&#xA;&#xD;&#xA;Frodo: ¿Qué le pasó?&#xD;&#xA;&#xD;&#xA;Aragorn: Murió." />
+                </Facet>
+            </Facets>
+        </Item>
+        <Item Id="FellowshipOfTheRing.Luthien_song.Aragorn_singing.SpanishSub" Name="FellowshipOfTheRing.Luthien_song.Aragorn_singing.SpanishSub" Img="#9" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Luthien_song&amp;L3STinstance=FellowshipOfTheRing.Luthien_song.Aragorn_singing&amp;L3TTinstance=FellowshipOfTheRing.Luthien_song.Aragorn_singing.SpanishSub">
+            <Description>Aragorn is keeping watch during the night in the forest, while the hobbits are sleeping. He signs a mourning song about the Lady of Luthien.</Description>
+            <Facets>
+                <Facet Name="Conversation duration (sec)">
+                    <String Value="B. 21-40" />
+                </Facet>
+                <Facet Name="Conversation features for L3-instance change">
+                    <String Value="- bonding" />
+                    <String Value="- literary" />
+                </Facet>
+                <Facet Name="Conversation features for L3TT-instance">
+                    <String Value="song" />
+                </Facet>
+                <Facet Name="Conversation Reference Id">
+                    <String Value="FellowshipOfTheRing.Luthien_song" />
+                </Facet>
+                <Facet Name="Conversation start time (min)">
+                    <Number Value="65" />
+                </Facet>
+                <Facet Name="Film Reference Id">
+                    <String Value="FellowshipOfTheRing" />
+                </Facet>
+                <Facet Name="Film Title TT">
+                    <String Value="La comunidad del Anillo" />
+                </Facet>
+                <Facet Name="Film TT Blockbuster">
+                    <String Value="YES (top 20)" />
+                </Facet>
+                <Facet Name="Info created">
+                    <DateTime Value="2016-10-18T06:12:41" />
+                </Facet>
+                <Facet Name="Info updated">
+                    <DateTime Value="2016-10-18T06:32:17" />
+                </Facet>
+                <Facet Name="L2 language">
+                    <String Value="Spanish" />
+                </Facet>
+                <Facet Name="L2 mode">
+                    <String Value="Subtitled" />
+                </Facet>
+                <Facet Name="L2 same as L3ST">
+                    <String Value="No" />
+                </Facet>
+                <Facet Name="L3 functions change">
+                    <String Value="+ Plot (twist)" />
+                    <String Value="+ Theme" />
+                </Facet>
+                <Facet Name="L3 language type change">
+                    <String Value="- " />
+                    <String Value="+ Constructed (fictional)" />
+                </Facet>
+                <Facet Name="L3 mode change">
+                    <String Value="+ Oral diegetic on-screen" />
+                </Facet>
+                <Facet Name="L3 sources change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3ST conveyed as L3TT">
+                    <String Value="Yes" />
+                </Facet>
+                <Facet Name="L3ST-instance Reference Id">
+                    <String Value="FellowshipOfTheRing.Luthien_song.Aragorn_singing" />
+                </Facet>
+                <Facet Name="L3TT constructed based on">
+                    <String Value="“from scratch”" />
+                </Facet>
+                <Facet Name="L3TT functions">
+                    <String Value="Plot (twist)" />
+                    <String Value="Theme" />
+                </Facet>
+                <Facet Name="L3TT language">
+                    <String Value="Elvish" />
+                </Facet>
+                <Facet Name="L3TT language type">
+                    <String Value="Constructed (fictional)" />
+                </Facet>
+                <Facet Name="L3TT meaning decipherable">
+                    <String Value="NO" />
+                </Facet>
+                <Facet Name="L3TT meant to be understood">
+                    <String Value="NO" />
+                </Facet>
+                <Facet Name="L3TT merely represented">
+                    <String Value="NO / Not applicable" />
+                </Facet>
+                <Facet Name="L3TT message required for understanding">
+                    <String Value="Yes" />
+                </Facet>
+                <Facet Name="L3TT mode, written/spoken, diegetic">
+                    <String Value="Oral diegetic on-screen" />
+                </Facet>
+                <Facet Name="L3TT sources">
+                    <String Value="Oral L3: single source" />
+                </Facet>
+                <Facet Name="Metadata Editors">
+                    <String Value="miquelpt" />
+                </Facet>
+                <Facet Name="Quality of L3TT speaker performance">
+                    <String Value="native or proficient" />
+                </Facet>
+                <Facet Name="Reference Id">
+                    <String Value="FellowshipOfTheRing.Luthien_song.Aragorn_singing.SpanishSub" />
+                </Facet>
+                <Facet Name="Remarks">
+                    <String Value="L3 in the Spanish dubbed version is not conveyed in L2 in written or oral mode." />
+                </Facet>
+                <Facet Name="Transcription">
+                    <String Value="Aragorn (canta):&#xD;&#xA;&#xD;&#xA;Tinúviel elvanui,&#xD;&#xA;Elleth alfirin ethelhael&#xD;&#xA;O hon ring finnil fuinui&#xD;&#xA;A renc gelebrin thiliol.&#xD;&#xA;&#xD;&#xA;Frodo: ¿Quién es ella? La mujer de la canción.&#xD;&#xA;&#xD;&#xA;Aragorn: Es la Dama de Luthien, la doncella Elfo que entregó su amor a Beren, un mortal.&#xD;&#xA;&#xD;&#xA;Frodo: ¿Qué le pasó?&#xD;&#xA;&#xD;&#xA;Aragorn: Murió." />
+                </Facet>
+                <Facet Name="Year TT released">
+                    <Number Value="2001" />
+                </Facet>
+            </Facets>
+        </Item>
+        <Item Id="FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room.SpanishDub" Name="FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room.SpanishDub" Img="#10" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Rivendell_AragornArwen&amp;L3STinstance=FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room&amp;L3TTinstance=FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room.SpanishDub">
             <Description>This instance is uttered in the sword room in Rivendell. Arwen speaks aloud Aragorn's inner doubts and raises his spirits by combining both English and Elvish.</Description>
             <Facets>
                 <Facet Name="Conversation features for L3-instance change">
@@ -814,7 +1201,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room.SpanishSub" Name="FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room.SpanishSub" Img="#7" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Rivendell_AragornArwen&amp;L3STinstance=FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room&amp;L3TTinstance=FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room.SpanishSub">
+        <Item Id="FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room.SpanishSub" Name="FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room.SpanishSub" Img="#11" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Rivendell_AragornArwen&amp;L3STinstance=FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room&amp;L3TTinstance=FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room.SpanishSub">
             <Description>This instance is uttered in the sword room in Rivendell. Arwen speaks aloud Aragorn's inner doubts and raises his spirits by combining both English and Elvish.</Description>
             <Facets>
                 <Facet Name="Conversation features for L3-instance change">
@@ -926,7 +1313,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge.SpanishDub" Name="FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge.SpanishDub" Img="#8" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Rivendell_AragornArwen&amp;L3STinstance=FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge&amp;L3TTinstance=FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge.SpanishDub">
+        <Item Id="FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge.SpanishDub" Name="FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge.SpanishDub" Img="#12" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Rivendell_AragornArwen&amp;L3STinstance=FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge&amp;L3TTinstance=FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge.SpanishDub">
             <Description>This instance takes place in a bridge in Rivendell. This is the scene in which they explicitly talk about their love relationship. Dialogue combines English and Elvish.</Description>
             <Facets>
                 <Facet Name="Conversation features for L3-instance change">
@@ -1034,7 +1421,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge.SpanishSub" Name="FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge.SpanishSub" Img="#9" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Rivendell_AragornArwen&amp;L3STinstance=FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge&amp;L3TTinstance=FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge.SpanishSub">
+        <Item Id="FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge.SpanishSub" Name="FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge.SpanishSub" Img="#13" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Rivendell_AragornArwen&amp;L3STinstance=FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge&amp;L3TTinstance=FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge.SpanishSub">
             <Description>This instance takes place in a bridge in Rivendell. This is the scene in which they explicitly talk about their love relationship. Dialogue combines English and Elvish.</Description>
             <Facets>
                 <Facet Name="Conversation features for L3-instance change">
@@ -1134,7 +1521,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="LoveActually.JamieProposesToAurelia.Aurelia's sister.SpanishSub" Name="LoveActually - Jamie proposes to Aurelia - Aurelia's sister - Spanish Sub" Img="#10" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia&amp;L3STinstance=LoveActually.JamieProposesToAurelia.Aurelia's sister&amp;L3TTinstance=LoveActually.JamieProposesToAurelia.Aurelia's sister.SpanishSub">
+        <Item Id="LoveActually.JamieProposesToAurelia.Aurelia's sister.SpanishSub" Name="LoveActually - Jamie proposes to Aurelia - Aurelia's sister - Spanish Sub" Img="#14" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia&amp;L3STinstance=LoveActually.JamieProposesToAurelia.Aurelia's sister&amp;L3TTinstance=LoveActually.JamieProposesToAurelia.Aurelia's sister.SpanishSub">
             <Description>Aurelia's sister intervenes in Jamie's proposal (humorous effect)</Description>
             <Facets>
                 <Facet Name="Conversation features for L3-instance change">
@@ -1188,7 +1575,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="LoveActually.Lake Scene.Portuguese.SpanishSub" Name="LoveActually - Lake Scene - Aurelia - SpanishSub" Img="#11" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.Lake Scene&amp;L3STinstance=LoveActually.Lake Scene.Portuguese&amp;L3TTinstance=LoveActually.Lake Scene.Portuguese.SpanishSub">
+        <Item Id="LoveActually.Lake Scene.Portuguese.SpanishSub" Name="LoveActually - Lake Scene - Aurelia - SpanishSub" Img="#15" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.Lake Scene&amp;L3STinstance=LoveActually.Lake Scene.Portuguese&amp;L3TTinstance=LoveActually.Lake Scene.Portuguese.SpanishSub">
             <Description>Aurelia expresses anxiety when papers fly.</Description>
             <Facets>
                 <Facet Name="Conversation features for L3-instance change">
@@ -1255,7 +1642,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Monsoon Wedding.Conversation in the garden on the phone.Hindi.SpanishDub" Name="Monsoon Wedding.Conversation in the garden on the phone.Hindi.SpanishDub" Img="#12" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Monsoon Wedding&amp;conversation=Monsoon Wedding.Conversation in the garden on the phone&amp;L3STinstance=Monsoon Wedding.Conversation in the garden on the phone.Hindi&amp;L3TTinstance=Monsoon Wedding.Conversation in the garden on the phone.Hindi.SpanishDub">
+        <Item Id="Monsoon Wedding.Conversation in the garden on the phone.Hindi.SpanishDub" Name="Monsoon Wedding.Conversation in the garden on the phone.Hindi.SpanishDub" Img="#16" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Monsoon Wedding&amp;conversation=Monsoon Wedding.Conversation in the garden on the phone&amp;L3STinstance=Monsoon Wedding.Conversation in the garden on the phone.Hindi&amp;L3TTinstance=Monsoon Wedding.Conversation in the garden on the phone.Hindi.SpanishDub">
             <Description>The father talks on the phone in Hindi. He is outside in the garden. 
 There is another conversation taking place among women at the kitchen.</Description>
             <Facets>
@@ -1353,7 +1740,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="OceansEleven.ExplainingThePlan.Chinese.SpanishSub" Name="OceansEleven.ExplainingThePlan.Chinese.SpanishSub" Img="#13" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=OceansEleven&amp;conversation=OceansEleven.ExplainingThePlan&amp;L3STinstance=OceansEleven.ExplainingThePlan.Chinese&amp;L3TTinstance=OceansEleven.ExplainingThePlan.Chinese.SpanishSub">
+        <Item Id="OceansEleven.ExplainingThePlan.Chinese.SpanishSub" Name="OceansEleven.ExplainingThePlan.Chinese.SpanishSub" Img="#17" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=OceansEleven&amp;conversation=OceansEleven.ExplainingThePlan&amp;L3STinstance=OceansEleven.ExplainingThePlan.Chinese&amp;L3TTinstance=OceansEleven.ExplainingThePlan.Chinese.SpanishSub">
             <Facets>
                 <Facet Name="Conversation features for L3-instance change">
                     <String Value="None" />
@@ -1430,7 +1817,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Spanglish.At the summer place - an interpreter.Man speaks Spanish to Flor and English to Deborah.SpanishSub (only dialogue in English)" Name="Spanglish.At the summer place - an interpreter.Man speaks Spanish to Flor and English to Deborah.SpanishSub (only dialogue in English)" Img="#14" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Spanglish&amp;conversation=Spanglish.At the summer place - an interpreter.&amp;L3STinstance=Spanglish.At the summer place - an interpreter.Man speaks Spanish to Flor and English to Deborah&amp;L3TTinstance=Spanglish.At the summer place - an interpreter.Man speaks Spanish to Flor and English to Deborah.SpanishSub (only dialogue in English)">
+        <Item Id="Spanglish.At the summer place - an interpreter.Man speaks Spanish to Flor and English to Deborah.SpanishSub" Name="Spanglish.At the summer place - an interpreter.Man speaks Spanish to Flor and English to Deborah.SpanishSub" Img="#18" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Spanglish&amp;conversation=Spanglish.At the summer place - an interpreter&amp;L3STinstance=Spanglish.At the summer place - an interpreter.Man speaks Spanish to Flor and English to Deborah&amp;L3TTinstance=Spanglish.At the summer place - an interpreter.Man speaks Spanish to Flor and English to Deborah.SpanishSub">
             <Description>Flor, Deborah and Evelyn are walking in the street. Deborah wants to ask Flor if she would like to move with them to the summer house and live with them, but as they don't speak the same language, DEborah cannot communicate with her until she sees a Hispanic man washinng somebody's car. She asks him if he speaks English and if he could translate for her.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -1440,7 +1827,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                     <String Value="None" />
                 </Facet>
                 <Facet Name="Conversation Reference Id">
-                    <String Value="Spanglish.At the summer place - an interpreter." />
+                    <String Value="Spanglish.At the summer place - an interpreter" />
                 </Facet>
                 <Facet Name="Distribution countries (TT)">
                     <String Value="Spain" />
@@ -1458,7 +1845,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                     <DateTime Value="2016-10-17T01:07:12" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-10-17T01:12:49" />
+                    <DateTime Value="2016-10-18T06:44:18" />
                 </Facet>
                 <Facet Name="L2 language">
                     <String Value="Spanish" />
@@ -1516,7 +1903,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                     <String Value="native or proficient" />
                 </Facet>
                 <Facet Name="Reference Id">
-                    <String Value="Spanglish.At the summer place - an interpreter.Man speaks Spanish to Flor and English to Deborah.SpanishSub (only dialogue in English)" />
+                    <String Value="Spanglish.At the summer place - an interpreter.Man speaks Spanish to Flor and English to Deborah.SpanishSub" />
                 </Facet>
                 <Facet Name="Remarks">
                     <String Value="The man is playing the role of an interpreter. " />
@@ -1527,14 +1914,14 @@ There is another conversation taking place among women at the kitchen.</Descript
                     <String Value=" Code-switching" />
                 </Facet>
                 <Facet Name="Transcription">
-                    <String Value="Deborah: I rented a house here for the summer and now she needs to sleep in the house because of the bus schedule.&#xD;&#xA;Man: Ella dice que rentó una casa durante el verano y quiere que te quedes con ella.&#xD;&#xA;Flor. No sorry.&#xD;&#xA;Deborah: What? Why?" />
+                    <String Value="Deborah: I rented a house here for the summer and now she needs to sleep in the house because of the bus schedule.(only audio)&#xD;&#xA;Man: Ella dice que rentó una casa durante el verano y quiere que te quedes con ella.(only audio)&#xD;&#xA;Flor. No sorry. (only audio)&#xD;&#xA;Deborah: ¿Por qué? (subtitles)" />
                 </Facet>
                 <Facet Name="Year TT released">
                     <Number Value="2005" />
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Spanglish.Flor and Cristina at the restaurant.Flor speaking Spanish and Cristina translating Spanish into English.SpanishSub (only dialogue in English)" Name="Spanglish.Flor and Cristina at the restaurant.Flor speaking Spanish and Cristina translating Spanish into English.SpanishSub (only dialogue in English)" Img="#15" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Spanglish&amp;conversation=Spanglish.Flor and Cristina at the restaurant&amp;L3STinstance=Spanglish.Flor and Cristina at the restaurant.Flor speaking Spanish and Cristina translating Spanish into English&amp;L3TTinstance=Spanglish.Flor and Cristina at the restaurant.Flor speaking Spanish and Cristina translating Spanish into English.SpanishSub (only dialogue in English)">
+        <Item Id="Spanglish.Flor and Cristina at the restaurant.Flor speaking Spanish and Cristina translating Spanish into English.SpanishSub (only dialogue in English)" Name="Spanglish.Flor and Cristina at the restaurant.Flor speaking Spanish and Cristina translating Spanish into English.SpanishSub (only dialogue in English)" Img="#19" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Spanglish&amp;conversation=Spanglish.Flor and Cristina at the restaurant&amp;L3STinstance=Spanglish.Flor and Cristina at the restaurant.Flor speaking Spanish and Cristina translating Spanish into English&amp;L3TTinstance=Spanglish.Flor and Cristina at the restaurant.Flor speaking Spanish and Cristina translating Spanish into English.SpanishSub (only dialogue in English)">
             <Description>Flor and her daughter go and have dinner to celebrate that she has found a job. When they enter the restaurant Cristina addresses a waitress to ask for a table. As Flor does not speak any English, when she wants to add or say something she tells Cristina to translate for her.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -1637,7 +2024,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Spanglish.Introduction to the Clasky's family.Deborah and Evelyn speaking English. Monica Speaking Spanish..SpanishSub (only dialogue in English)" Name="Spanglish.Introduction to the Clasky's family.Deborah and Evelyn speaking English. Monica Speaking Spanish..SpanishSub (only dialogue in English)" Img="#16" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Spanglish&amp;conversation=Spanglish.Introduction to the Clasky's family&amp;L3STinstance=Spanglish.Introduction to the Clasky's family.Deborah and Evelyn speaking English. Monica Speaking Spanish.&amp;L3TTinstance=Spanglish.Introduction to the Clasky's family.Deborah and Evelyn speaking English. Monica Speaking Spanish..SpanishSub (only dialogue in English)">
+        <Item Id="Spanglish.Introduction to the Clasky's family.Deborah and Evelyn speaking English. Monica Speaking Spanish..SpanishSub (only dialogue in English)" Name="Spanglish.Introduction to the Clasky's family.Deborah and Evelyn speaking English. Monica Speaking Spanish..SpanishSub (only dialogue in English)" Img="#20" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Spanglish&amp;conversation=Spanglish.Introduction to the Clasky's family&amp;L3STinstance=Spanglish.Introduction to the Clasky's family.Deborah and Evelyn speaking English. Monica Speaking Spanish.&amp;L3TTinstance=Spanglish.Introduction to the Clasky's family.Deborah and Evelyn speaking English. Monica Speaking Spanish..SpanishSub (only dialogue in English)">
             <Description>Flor and her cousin Monica are at the Clasky's house for the first time. Flor is being interviewed by Deborah Clasky. As Flor does not speak English, Monica is trying to translate for her although she does not speak perfect English.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -1742,7 +2129,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Um filme falado.First port of call-Marseille.Speaking French.SpanishSub" Name="Um filme falado.First port of call-Marseille.Speaking French.SpanishSub" Img="#17" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Um filme falado&amp;conversation=Um filme falado.First port of call-Marseille&amp;L3STinstance=Um filme falado.First port of call-Marseille.Speaking French&amp;L3TTinstance=Um filme falado.First port of call-Marseille.Speaking French.SpanishSub">
+        <Item Id="Um filme falado.First port of call-Marseille.Speaking French.SpanishSub" Name="Um filme falado.First port of call-Marseille.Speaking French.SpanishSub" Img="#21" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Um filme falado&amp;conversation=Um filme falado.First port of call-Marseille&amp;L3STinstance=Um filme falado.First port of call-Marseille.Speaking French&amp;L3TTinstance=Um filme falado.First port of call-Marseille.Speaking French.SpanishSub">
             <Description>Both Rosa Maria anf the fisherman speak in French.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -1849,7 +2236,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Um filme falado.The captain dinner-Captain-speaking one language.Speaking English.SpanishSub" Name="Um filme falado.The captain dinner-Captain-speaking one language.Speaking English.SpanishSub" Img="#18" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Um filme falado&amp;conversation=Um filme falado.The captain dinner-Captain-speaking one language&amp;L3STinstance=Um filme falado.The captain dinner-Captain-speaking one language.Speaking English&amp;L3TTinstance=Um filme falado.The captain dinner-Captain-speaking one language.Speaking English.SpanishSub">
+        <Item Id="Um filme falado.The captain dinner-Captain-speaking one language.Speaking English.SpanishSub" Name="Um filme falado.The captain dinner-Captain-speaking one language.Speaking English.SpanishSub" Img="#22" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Um filme falado&amp;conversation=Um filme falado.The captain dinner-Captain-speaking one language&amp;L3STinstance=Um filme falado.The captain dinner-Captain-speaking one language.Speaking English&amp;L3TTinstance=Um filme falado.The captain dinner-Captain-speaking one language.Speaking English.SpanishSub">
             <Description>The captain is speaking in English and he wishes we could all speak one languge.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -1955,7 +2342,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Um filme falado.The captain dinner-Captain.Speaking English.SpanishSub" Name="Um filme falado.The captain dinner-Captain.Speaking English.SpanishSub" Img="#19" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Um filme falado&amp;conversation=Um filme falado.The captain dinner-Captain&amp;L3STinstance=Um filme falado.The captain dinner-Captain.Speaking English&amp;L3TTinstance=Um filme falado.The captain dinner-Captain.Speaking English.SpanishSub">
+        <Item Id="Um filme falado.The captain dinner-Captain.Speaking English.SpanishSub" Name="Um filme falado.The captain dinner-Captain.Speaking English.SpanishSub" Img="#23" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Um filme falado&amp;conversation=Um filme falado.The captain dinner-Captain&amp;L3STinstance=Um filme falado.The captain dinner-Captain.Speaking English&amp;L3TTinstance=Um filme falado.The captain dinner-Captain.Speaking English.SpanishSub">
             <Description>English is the language they all understand</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
