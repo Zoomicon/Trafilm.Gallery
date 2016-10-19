@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: conversation\metadata\default.aspx.cs
-//Version: 20161018
+//Version: 20161019
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -110,9 +110,7 @@ namespace Trafilm.Gallery
       UI.Load(txtImageUrl, metadata.Image);
       */
       UI.Load(linkUrl, GetConversationUri(metadata.FilmReferenceId, key));
-      /*
       UI.Load(txtDescription, metadata.Description);
-      */
 
       //ITrafilmMetadata//
 
@@ -175,9 +173,7 @@ namespace Trafilm.Gallery
       metadata.Image = txtImageUrl.Text;
       */
       metadata.Url = GetConversationUri(filmReferenceId, key);
-      /*
       metadata.Description = txtDescription.Text;
-      */
 
       //ITrafilmMetadata//
 

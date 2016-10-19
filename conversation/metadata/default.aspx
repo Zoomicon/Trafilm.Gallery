@@ -88,12 +88,10 @@ Version: 20161018
           <asp:TextBox ID="txtTitle" runat="server" Columns="150" />
         </div>
        
-        <%--
         <div class="question" id="Description">
           <div class="label">2. Conversation Description</div>
           <asp:TextBox ID="txtDescription" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
         </div>
-        --%>
 
         <div class="calculated" id="URL">
           <div class="label">Conversation URL</div>

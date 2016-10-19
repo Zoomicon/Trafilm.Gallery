@@ -63,11 +63,12 @@ namespace Trafilm.Gallery
       CreateL3STinstance(filmId, conversationId, L3STinstanceId, ((listL3STinstances.SelectedIndex > 0) && cbClone.Checked) ? GetMetadataFromUI() : null);
       SelectL3STinstance(L3STinstanceId);
 
-      //initialize Title and Tags from Conversation, allow further editing//
+      //initialize Title, Description and Tags from Conversation, allow further editing//
       if (!cbClone.Checked)
       {
         IConversation conversation = conversationStorage[conversationId];
         txtTitle.Text = conversation.Title;
+        txtDescription.Text = conversation.Description;
         txtTags.Text = UI.GetCommaSeparated(conversation.Tags);
       } 
     }
