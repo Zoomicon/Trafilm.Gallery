@@ -2,7 +2,7 @@
 <Collection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" Name="Trafilm Gallery: Conversations" SchemaVersion="1.0" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
     <FacetCategories>
         <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="false" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
-        <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
+        <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="false" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
         <FacetCategory Name="Film/Season title" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="Season episode name" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
         <FacetCategory Name="Start time (min)" Type="Number" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="false" />
@@ -36,7 +36,7 @@
                     <DateTime Value="2016-10-07T05:23:57" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-10-19T12:21:24" />
+                    <DateTime Value="2016-10-19T02:54:47" />
                 </Facet>
                 <Facet Name="L3ST language types">
                     <String Value="Constructed (fictional)" />
