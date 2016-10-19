@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: L3STinstance\metadata\default.aspx.cs
-//Version: 20161018
+//Version: 20161019
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -63,9 +63,13 @@ namespace Trafilm.Gallery
       CreateL3STinstance(filmId, conversationId, L3STinstanceId, ((listL3STinstances.SelectedIndex > 0) && cbClone.Checked) ? GetMetadataFromUI() : null);
       SelectL3STinstance(L3STinstanceId);
 
-      //initialize title from Conversation, allow further editing//
+      //initialize Title and Tags from Conversation, allow further editing//
       if (!cbClone.Checked)
-        txtTitle.Text = conversationStorage[conversationId].Title; 
+      {
+        IConversation conversation = conversationStorage[conversationId];
+        txtTitle.Text = conversation.Title;
+        txtTags.Text = UI.GetCommaSeparated(conversation.Tags);
+      } 
     }
 
     public void Rename()

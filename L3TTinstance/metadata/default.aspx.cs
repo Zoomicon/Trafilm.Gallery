@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: L3TTinstance\metadata\default.aspx.cs
-//Version: 20161018
+//Version: 20161019
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -68,6 +68,13 @@ namespace Trafilm.Gallery
       SelectL3TTinstance(l3TTinstanceId);
 
       btnRename.Visible = IsUserAllowedToRename("L3TTinstance") && (listL3STinstances.SelectedIndex > 0);
+
+      //initialize Tags from L3STinstance, allow further editing//
+      if (!cbClone.Checked)
+      {
+        IL3STinstance l3STinstance = l3STinstanceStorage[l3STinstanceId];
+        txtTags.Text = UI.GetCommaSeparated(l3STinstance.Tags);
+      }
     }
 
     public void Rename()
