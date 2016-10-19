@@ -5,34 +5,47 @@
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     
         <style>
-            body {
-                margin: 0px;
-            }
-            
-            img.background {
-                position: absolute;
-                top: 0; left: 0;
-                width: 100%;
-            }
-            
-            p.title {
-                font-size: 100px;
-                color: white;
-                background: grey;
-                position: absolute;
-                bottom: 0;
-                left: 0;
-                width: 100%;
-                filter: alpha(opacity=80);
-                padding: 20px;
-                word-break: break-all;
-            }
+          body {
+              margin: 0px;
+          }
+          
+          img.background {
+            position: absolute;
+            top: 0; left: 0;
+            width: 100%;
+          }
+          
+          div.titles {
+            color: white;
+            background: grey;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            filter: alpha(opacity=80);
+            padding: 20px;
+          }
+
+          p.film_title {
+            font-size: 90px;
+            font-style: italic;
+            word-break: break-all;
+          }
+          
+          p.conversation_title {
+            font-size: 100px;
+            /* word-break: break-all; */
+          }
         </style>
     </head>
     
     <body>
         <img class="background" src="template_image.png" /> <!-- src="{image}" -->
-        <p class="title">{name}</p>
+        <div class="titles">
+          <p class="film_title">{Film/season title}</p>
+          <hr />
+          <p class="conversation_title">{name}</p>
+        </div>
     </body>
 
 </html>

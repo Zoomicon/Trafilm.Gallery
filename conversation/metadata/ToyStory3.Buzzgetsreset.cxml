@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="ToyStory3.Buzzgetsreset" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Buzz gets reset" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -21,7 +21,7 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="ToyStory3.Buzzgetsreset" Name="ToyStory3.Buzzgetsreset" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzgetsreset">
+    <Item Id="ToyStory3.Buzzgetsreset" Name="Buzz gets reset" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzgetsreset">
       <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -31,7 +31,7 @@
           <DateTime Value="2016-07-11T02:58:22" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-17T05:56:24" />
+          <DateTime Value="2016-10-19T12:27:42" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Guillermo" />

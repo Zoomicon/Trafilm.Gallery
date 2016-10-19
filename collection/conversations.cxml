@@ -21,7 +21,7 @@
         <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
     </FacetCategories>
     <Items ImgBase="conversations_deepzoom\conversations.dzc">
-        <Item Id="Avatar.Calm down, people" Name="Avatar - Calm down, people" Img="#0" Href="http://gallery.trafilm.net/conversation/metadata/?film=Avatar&amp;conversation=Avatar.Calm down, people">
+        <Item Id="Avatar.Calm down, people" Name="Calm down, people" Img="#0" Href="http://gallery.trafilm.net/conversation/metadata/?film=Avatar&amp;conversation=Avatar.Calm down, people">
             <Facets>
                 <Facet Name="Duration (sec)">
                     <String Value="A. 1-20" />
@@ -36,7 +36,7 @@
                     <DateTime Value="2016-10-07T05:23:57" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-10-19T11:23:35" />
+                    <DateTime Value="2016-10-19T12:21:24" />
                 </Facet>
                 <Facet Name="L3ST language types">
                     <String Value="Constructed (fictional)" />
@@ -65,7 +65,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Django Unchained.Slave speaks a little German" Name="Django Unchained.Slave speaks a little German" Img="#1" Href="http://gallery.trafilm.net/conversation/metadata/?film=Django Unchained&amp;conversation=Django Unchained.Slave speaks a little German">
+        <Item Id="Django Unchained.Slave speaks a little German" Name="Slave speaks a little German" Img="#1" Href="http://gallery.trafilm.net/conversation/metadata/?film=Django Unchained&amp;conversation=Django Unchained.Slave speaks a little German">
             <Facets>
                 <Facet Name="Duration (sec)">
                     <String Value="A. 1-20" />
@@ -80,7 +80,7 @@
                     <DateTime Value="2016-05-31T12:04:40" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-10-17T05:53:33" />
+                    <DateTime Value="2016-10-19T12:21:35" />
                 </Facet>
                 <Facet Name="L3ST language types">
                     <String Value="Real" />
@@ -109,7 +109,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="FellowshipOfTheRing.Elrond_Dagorlad_battle" Name="FellowshipOfTheRing.Elrond_Dagorlad_battle" Img="#2" Href="http://gallery.trafilm.net/conversation/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Elrond_Dagorlad_battle">
+        <Item Id="FellowshipOfTheRing.Elrond_Dagorlad_battle" Name="Elrond - Dagorlad battle" Img="#2" Href="http://gallery.trafilm.net/conversation/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Elrond_Dagorlad_battle">
             <Facets>
                 <Facet Name="Duration (sec)">
                     <String Value="A. 1-20" />
@@ -124,7 +124,7 @@
                     <DateTime Value="2016-10-11T03:45:06" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-10-17T05:53:39" />
+                    <DateTime Value="2016-10-19T12:22:13" />
                 </Facet>
                 <Facet Name="L3ST language types">
                     <String Value="Constructed (fictional)" />
@@ -153,7 +153,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="FellowshipOfTheRing.Introduction_Galadriel" Name="FellowshipOfTheRing.Introduction_Galadriel" Img="#3" Href="http://gallery.trafilm.net/conversation/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Introduction_Galadriel">
+        <Item Id="FellowshipOfTheRing.Introduction_Galadriel" Name="Introduction - Galadriel" Img="#3" Href="http://gallery.trafilm.net/conversation/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Introduction_Galadriel">
             <Facets>
                 <Facet Name="Duration (sec)">
                     <String Value="A. 1-20" />
@@ -168,7 +168,7 @@
                     <DateTime Value="2016-10-11T03:45:06" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-10-17T05:54:12" />
+                    <DateTime Value="2016-10-19T12:22:27" />
                 </Facet>
                 <Facet Name="L3ST language types">
                     <String Value="Constructed (fictional)" />
@@ -197,7 +197,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="FellowshipOfTheRing.Lorien_AragornGaladriel" Name="FellowshipOfTheRing.Lorien_AragornGaladriel" Img="#4" Href="http://gallery.trafilm.net/conversation/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Lorien_AragornGaladriel">
+        <Item Id="FellowshipOfTheRing.Lorien_AragornGaladriel" Name="Lorien - Aragorn Galadriel" Img="#4" Href="http://gallery.trafilm.net/conversation/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Lorien_AragornGaladriel">
             <Facets>
                 <Facet Name="Duration (sec)">
                     <String Value="F. 101-120" />
@@ -212,20 +212,26 @@
                     <DateTime Value="2016-06-15T08:54:29" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-10-18T05:16:29" />
+                    <DateTime Value="2016-10-19T12:22:43" />
+                </Facet>
+                <Facet Name="L3ST language types">
+                    <String Value="Constructed (fictional)" />
                 </Facet>
                 <Facet Name="L3ST language types: count">
-                    <Number Value="0" />
+                    <Number Value="1" />
+                </Facet>
+                <Facet Name="L3ST languages">
+                    <String Value="Elvish" />
                 </Facet>
                 <Facet Name="L3ST languages: count">
-                    <Number Value="0" />
+                    <Number Value="1" />
                 </Facet>
                 <Facet Name="L3ST-instances: count">
-                    <Number Value="0" />
+                    <Number Value="1" />
                 </Facet>
                 <Facet Name="Metadata Editors">
-                    <String Value="George" />
                     <String Value="miquelpt" />
+                    <String Value="George" />
                 </Facet>
                 <Facet Name="Reference Id">
                     <String Value="FellowshipOfTheRing.Lorien_AragornGaladriel" />
@@ -235,7 +241,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="FellowshipOfTheRing.Luthien_song" Name="FellowshipOfTheRing.Luthien_song" Img="#5" Href="http://gallery.trafilm.net/conversation/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Luthien_song">
+        <Item Id="FellowshipOfTheRing.Luthien_song" Name="Luthien song" Img="#5" Href="http://gallery.trafilm.net/conversation/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Luthien_song">
             <Facets>
                 <Facet Name="Duration (sec)">
                     <String Value="B. 21-40" />
@@ -250,7 +256,7 @@
                     <DateTime Value="2016-10-18T06:00:41" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-10-18T06:01:55" />
+                    <DateTime Value="2016-10-19T12:22:54" />
                 </Facet>
                 <Facet Name="L3ST language types: count">
                     <Number Value="0" />
@@ -259,10 +265,11 @@
                     <Number Value="0" />
                 </Facet>
                 <Facet Name="L3ST-instances: count">
-                    <Number Value="0" />
+                    <Number Value="1" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="miquelpt" />
+                    <String Value="George" />
                 </Facet>
                 <Facet Name="Reference Id">
                     <String Value="FellowshipOfTheRing.Luthien_song" />
@@ -272,7 +279,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="FellowshipOfTheRing.Rivendell_AragornArwen" Name="FellowshipOfTheRing.Rivendell_AragornArwen" Img="#6" Href="http://gallery.trafilm.net/conversation/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Rivendell_AragornArwen">
+        <Item Id="FellowshipOfTheRing.Rivendell_AragornArwen" Name="Rivendell - Aragorn Arwen" Img="#6" Href="http://gallery.trafilm.net/conversation/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Rivendell_AragornArwen">
             <Facets>
                 <Facet Name="Duration (sec)">
                     <String Value="F. 101-120" />
@@ -287,7 +294,7 @@
                     <DateTime Value="2016-06-15T08:54:29" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-10-17T05:54:17" />
+                    <DateTime Value="2016-10-19T12:23:09" />
                 </Facet>
                 <Facet Name="L3ST language types">
                     <String Value="Constructed (fictional)" />
@@ -316,7 +323,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="LoveActually.JamieProposesToAurelia" Name="LoveActually.JamieProposesToAurelia" Img="#7" Href="http://gallery.trafilm.net/conversation/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia">
+        <Item Id="LoveActually.JamieProposesToAurelia" Name="Jamie proposes to Aurelia" Img="#7" Href="http://gallery.trafilm.net/conversation/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia">
             <Facets>
                 <Facet Name="Duration (sec)">
                     <String Value="I. 161-180" />
@@ -331,7 +338,7 @@
                     <DateTime Value="2016-06-15T12:40:30" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-10-17T05:54:01" />
+                    <DateTime Value="2016-10-19T12:23:45" />
                 </Facet>
                 <Facet Name="L3ST language types">
                     <String Value="Real" />
@@ -357,7 +364,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="LoveActually.Lake Scene" Name="LoveActually.Lake Scene" Img="#8" Href="http://gallery.trafilm.net/conversation/metadata/?film=LoveActually&amp;conversation=LoveActually.Lake Scene">
+        <Item Id="LoveActually.Lake Scene" Name="Lake scene" Img="#8" Href="http://gallery.trafilm.net/conversation/metadata/?film=LoveActually&amp;conversation=LoveActually.Lake Scene">
             <Facets>
                 <Facet Name="Duration (sec)">
                     <String Value="I. 161-180" />
@@ -372,7 +379,7 @@
                     <DateTime Value="2016-06-01T04:23:13" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-10-17T05:54:05" />
+                    <DateTime Value="2016-10-19T12:23:55" />
                 </Facet>
                 <Facet Name="L3ST language types">
                     <String Value="Real" />
@@ -398,7 +405,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Monsoon Wedding.Conversation in the garden on the phone" Name="Monsoon Wedding.Conversation in the garden on the phone" Img="#9" Href="http://gallery.trafilm.net/conversation/metadata/?film=Monsoon Wedding&amp;conversation=Monsoon Wedding.Conversation in the garden on the phone">
+        <Item Id="Monsoon Wedding.Conversation in the garden on the phone" Name="Conversation in the garden on the phone" Img="#9" Href="http://gallery.trafilm.net/conversation/metadata/?film=Monsoon Wedding&amp;conversation=Monsoon Wedding.Conversation in the garden on the phone">
             <Facets>
                 <Facet Name="Film Reference Id">
                     <String Value="Monsoon Wedding" />
@@ -410,7 +417,7 @@
                     <DateTime Value="2016-06-07T03:54:06" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-10-17T05:54:33" />
+                    <DateTime Value="2016-10-19T12:24:14" />
                 </Facet>
                 <Facet Name="L3ST language types">
                     <String Value="Real" />
@@ -438,7 +445,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="OceansEleven.ExplainingThePlan" Name="OceansEleven.ExplainingThePlan" Img="#10" Href="http://gallery.trafilm.net/conversation/metadata/?film=OceansEleven&amp;conversation=OceansEleven.ExplainingThePlan">
+        <Item Id="OceansEleven.ExplainingThePlan" Name="Explaining the plan" Img="#10" Href="http://gallery.trafilm.net/conversation/metadata/?film=OceansEleven&amp;conversation=OceansEleven.ExplainingThePlan">
             <Facets>
                 <Facet Name="Duration (sec)">
                     <String Value="J. &gt; 180" />
@@ -453,7 +460,7 @@
                     <DateTime Value="2016-05-25T10:57:47" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-10-17T05:54:42" />
+                    <DateTime Value="2016-10-19T12:24:30" />
                 </Facet>
                 <Facet Name="L3ST language types">
                     <String Value="L-main variety (e.g. dialect, sociolect, idiolect, slang)" />
@@ -481,7 +488,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Spanglish.At the summer place - an interpreter" Name="Spanglish.At the summer place - an interpreter" Img="#11" Href="http://gallery.trafilm.net/conversation/metadata/?film=Spanglish&amp;conversation=Spanglish.At the summer place - an interpreter">
+        <Item Id="Spanglish.At the summer place - an interpreter" Name="At the summer place - an interpreter" Img="#11" Href="http://gallery.trafilm.net/conversation/metadata/?film=Spanglish&amp;conversation=Spanglish.At the summer place - an interpreter">
             <Facets>
                 <Facet Name="Duration (sec)">
                     <String Value="A. 1-20" />
@@ -496,7 +503,7 @@
                     <DateTime Value="2016-10-17T09:49:01" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-10-17T05:54:59" />
+                    <DateTime Value="2016-10-19T12:24:48" />
                 </Facet>
                 <Facet Name="L3ST language types">
                     <String Value="Real" />
@@ -527,7 +534,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Spanglish.Flor and Cristina at the restaurant" Name="Spanglish.Flor and Cristina at the restaurant" Img="#12" Href="http://gallery.trafilm.net/conversation/metadata/?film=Spanglish&amp;conversation=Spanglish.Flor and Cristina at the restaurant">
+        <Item Id="Spanglish.Flor and Cristina at the restaurant" Name="Flor and Cristina at the restaurant" Img="#12" Href="http://gallery.trafilm.net/conversation/metadata/?film=Spanglish&amp;conversation=Spanglish.Flor and Cristina at the restaurant">
             <Facets>
                 <Facet Name="Duration (sec)">
                     <String Value="A. 1-20" />
@@ -542,7 +549,7 @@
                     <DateTime Value="2016-10-17T09:47:33" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-10-17T05:55:03" />
+                    <DateTime Value="2016-10-19T12:24:55" />
                 </Facet>
                 <Facet Name="L3ST language types">
                     <String Value="Real" />
@@ -568,7 +575,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Spanglish.Going to America - narrator" Name="Spanglish.Going to America - narrator" Img="#13" Href="http://gallery.trafilm.net/conversation/metadata/?film=Spanglish&amp;conversation=Spanglish.Going to America - narrator">
+        <Item Id="Spanglish.Going to America - narrator" Name="Going to America - narrator" Img="#13" Href="http://gallery.trafilm.net/conversation/metadata/?film=Spanglish&amp;conversation=Spanglish.Going to America - narrator">
             <Facets>
                 <Facet Name="Duration (sec)">
                     <String Value="A. 1-20" />
@@ -583,7 +590,7 @@
                     <DateTime Value="2016-10-17T09:51:12" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-10-19T11:27:05" />
+                    <DateTime Value="2016-10-19T12:25:04" />
                 </Facet>
                 <Facet Name="L3ST language types: count">
                     <Number Value="0" />
@@ -603,7 +610,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Spanglish.Introduction to the Clasky's family" Name="Spanglish.Introduction to the Clasky's family" Img="#14" Href="http://gallery.trafilm.net/conversation/metadata/?film=Spanglish&amp;conversation=Spanglish.Introduction to the Clasky's family">
+        <Item Id="Spanglish.Introduction to the Clasky's family" Name="Introduction to the Clasky's family" Img="#14" Href="http://gallery.trafilm.net/conversation/metadata/?film=Spanglish&amp;conversation=Spanglish.Introduction to the Clasky's family">
             <Facets>
                 <Facet Name="Duration (sec)">
                     <String Value="A. 1-20" />
@@ -618,7 +625,7 @@
                     <DateTime Value="2016-10-17T09:40:48" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-10-17T05:55:11" />
+                    <DateTime Value="2016-10-19T12:25:12" />
                 </Facet>
                 <Facet Name="L3ST language types">
                     <String Value="Real" />
@@ -644,7 +651,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheWalk.GettingAnInterphone" Name="TheWalk.GettingAnInterphone" Img="#15" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.GettingAnInterphone">
+        <Item Id="TheWalk.GettingAnInterphone" Name="Getting an interphone" Img="#15" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.GettingAnInterphone">
             <Facets>
                 <Facet Name="Duration (sec)">
                     <String Value="D. 61-80" />
@@ -659,7 +666,7 @@
                     <DateTime Value="2016-05-31T11:05:38" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-10-17T05:55:33" />
+                    <DateTime Value="2016-10-19T12:25:44" />
                 </Facet>
                 <Facet Name="L3ST language types: count">
                     <Number Value="0" />
@@ -681,7 +688,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheWalk.MeetingAnnie" Name="TheWalk.MeetingAnnie" Img="#16" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingAnnie">
+        <Item Id="TheWalk.MeetingAnnie" Name="Meeting Annie" Img="#16" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingAnnie">
             <Facets>
                 <Facet Name="Duration (sec)">
                     <String Value="J. &gt; 180" />
@@ -696,7 +703,7 @@
                     <DateTime Value="2016-05-31T10:48:12" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-10-17T05:55:36" />
+                    <DateTime Value="2016-10-19T12:25:53" />
                 </Facet>
                 <Facet Name="L3ST language types: count">
                     <Number Value="0" />
@@ -718,7 +725,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheWalk.MeetingJean-François" Name="TheWalk.MeetingJean-François" Img="#17" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingJean-François">
+        <Item Id="TheWalk.MeetingJean-François" Name="Meeting Jean-François" Img="#17" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingJean-François">
             <Facets>
                 <Facet Name="Duration (sec)">
                     <String Value="D. 61-80" />
@@ -733,7 +740,7 @@
                     <DateTime Value="2016-05-31T11:01:52" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-10-17T05:55:40" />
+                    <DateTime Value="2016-10-19T12:26:04" />
                 </Facet>
                 <Facet Name="L3ST language types: count">
                     <Number Value="0" />
@@ -755,7 +762,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheWalk.MeetingJean-Louis" Name="TheWalk.MeetingJean-Louis" Img="#18" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingJean-Louis">
+        <Item Id="TheWalk.MeetingJean-Louis" Name="Meeting Jean-Louis" Img="#18" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingJean-Louis">
             <Facets>
                 <Facet Name="Duration (sec)">
                     <String Value="F. 101-120" />
@@ -770,7 +777,7 @@
                     <DateTime Value="2016-05-31T10:52:52" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-10-17T05:55:44" />
+                    <DateTime Value="2016-10-19T12:26:13" />
                 </Facet>
                 <Facet Name="L3ST language types: count">
                     <Number Value="0" />
@@ -792,7 +799,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheWalk.MeetingPapaRudy" Name="TheWalk.MeetingPapaRudy" Img="#19" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingPapaRudy">
+        <Item Id="TheWalk.MeetingPapaRudy" Name="Meeting Papa Rudy" Img="#19" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingPapaRudy">
             <Facets>
                 <Facet Name="Duration (sec)">
                     <String Value="F. 101-120" />
@@ -807,7 +814,7 @@
                     <DateTime Value="2016-05-31T10:39:50" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-10-17T05:55:48" />
+                    <DateTime Value="2016-10-19T12:26:31" />
                 </Facet>
                 <Facet Name="L3ST language types">
                     <String Value="Real" />
@@ -836,7 +843,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheWalk.OnTheRoof" Name="TheWalk.OnTheRoof" Img="#20" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.OnTheRoof">
+        <Item Id="TheWalk.OnTheRoof" Name="On the roof" Img="#20" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.OnTheRoof">
             <Facets>
                 <Facet Name="Duration (sec)">
                     <String Value="D. 61-80" />
@@ -851,7 +858,7 @@
                     <DateTime Value="2016-05-31T11:16:48" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-10-17T05:55:52" />
+                    <DateTime Value="2016-10-19T12:26:47" />
                 </Facet>
                 <Facet Name="L3ST language types: count">
                     <Number Value="0" />
@@ -873,7 +880,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheWalk.PlanningTheCoup" Name="TheWalk.PlanningTheCoup" Img="#21" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.PlanningTheCoup">
+        <Item Id="TheWalk.PlanningTheCoup" Name="Planning the coup" Img="#21" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.PlanningTheCoup">
             <Facets>
                 <Facet Name="Duration (sec)">
                     <String Value="F. 101-120" />
@@ -888,7 +895,7 @@
                     <DateTime Value="2016-05-31T10:58:15" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-10-17T05:55:56" />
+                    <DateTime Value="2016-10-19T12:26:59" />
                 </Facet>
                 <Facet Name="L3ST language types: count">
                     <Number Value="0" />
@@ -910,7 +917,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheWalk.TwinTowers" Name="TheWalk.TwinTowers" Img="#22" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.TwinTowers">
+        <Item Id="TheWalk.TwinTowers" Name="Twin towers" Img="#22" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.TwinTowers">
             <Facets>
                 <Facet Name="Duration (sec)">
                     <String Value="E. 81-100" />
@@ -925,7 +932,7 @@
                     <DateTime Value="2016-05-31T11:12:12" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-10-17T05:56:00" />
+                    <DateTime Value="2016-10-19T12:27:08" />
                 </Facet>
                 <Facet Name="L3ST language types: count">
                     <Number Value="0" />
@@ -947,7 +954,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="ToyStory3.Buzzdances" Name="ToyStory3.Buzzdances" Img="#23" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzdances">
+        <Item Id="ToyStory3.Buzzdances" Name="Buzz dances" Img="#23" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzdances">
             <Facets>
                 <Facet Name="Duration (sec)">
                     <String Value="A. 1-20" />
@@ -962,7 +969,7 @@
                     <DateTime Value="2016-07-11T02:58:22" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-10-17T05:56:08" />
+                    <DateTime Value="2016-10-19T12:27:20" />
                 </Facet>
                 <Facet Name="L3ST language types: count">
                     <Number Value="0" />
@@ -985,7 +992,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="ToyStory3.Buzzfallsinlove" Name="ToyStory3.Buzzfallsinlove" Img="#24" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzfallsinlove">
+        <Item Id="ToyStory3.Buzzfallsinlove" Name="Buzz falls in love" Img="#24" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzfallsinlove">
             <Facets>
                 <Facet Name="Duration (sec)">
                     <String Value="A. 1-20" />
@@ -1000,7 +1007,7 @@
                     <DateTime Value="2016-07-11T02:58:22" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-10-17T05:56:13" />
+                    <DateTime Value="2016-10-19T12:27:32" />
                 </Facet>
                 <Facet Name="L3ST language types: count">
                     <Number Value="0" />
@@ -1023,7 +1030,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="ToyStory3.Buzzgetsreset" Name="ToyStory3.Buzzgetsreset" Img="#25" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzgetsreset">
+        <Item Id="ToyStory3.Buzzgetsreset" Name="Buzz gets reset" Img="#25" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzgetsreset">
             <Facets>
                 <Facet Name="Duration (sec)">
                     <String Value="B. 21-40" />
@@ -1038,7 +1045,7 @@
                     <DateTime Value="2016-07-11T02:58:22" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-10-17T05:56:24" />
+                    <DateTime Value="2016-10-19T12:27:42" />
                 </Facet>
                 <Facet Name="L3ST language types: count">
                     <Number Value="0" />
@@ -1061,7 +1068,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="ToyStory3.BuzzlooksforJessie" Name="ToyStory3.BuzzlooksforJessie" Img="#26" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.BuzzlooksforJessie">
+        <Item Id="ToyStory3.BuzzlooksforJessie" Name="Buzz looks for Jessie" Img="#26" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.BuzzlooksforJessie">
             <Facets>
                 <Facet Name="Duration (sec)">
                     <String Value="A. 1-20" />
@@ -1076,7 +1083,7 @@
                     <DateTime Value="2016-07-11T02:58:22" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-10-17T05:56:27" />
+                    <DateTime Value="2016-10-19T12:27:59" />
                 </Facet>
                 <Facet Name="L3ST language types: count">
                     <Number Value="0" />
@@ -1099,7 +1106,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="ToyStory3.Buzzopensgate" Name="ToyStory3.Buzzopensgate" Img="#27" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzopensgate">
+        <Item Id="ToyStory3.Buzzopensgate" Name="Buzz opens gate" Img="#27" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzopensgate">
             <Facets>
                 <Facet Name="Duration (sec)">
                     <String Value="A. 1-20" />
@@ -1114,7 +1121,7 @@
                     <DateTime Value="2016-07-11T02:58:22" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-10-17T05:56:32" />
+                    <DateTime Value="2016-10-19T12:28:10" />
                 </Facet>
                 <Facet Name="L3ST language types: count">
                     <Number Value="0" />
@@ -1137,7 +1144,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="ToyStory3.Buzzscape" Name="ToyStory3.Buzzscape" Img="#28" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzscape">
+        <Item Id="ToyStory3.Buzzscape" Name="Buzz scape" Img="#28" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzscape">
             <Facets>
                 <Facet Name="Duration (sec)">
                     <String Value="A. 1-20" />
@@ -1152,7 +1159,7 @@
                     <DateTime Value="2016-07-11T02:58:22" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-10-17T05:56:35" />
+                    <DateTime Value="2016-10-19T12:28:22" />
                 </Facet>
                 <Facet Name="L3ST language types: count">
                     <Number Value="0" />
@@ -1175,7 +1182,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="ToyStory3.Buzzspaceship" Name="ToyStory3.Buzzspaceship" Img="#29" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzspaceship">
+        <Item Id="ToyStory3.Buzzspaceship" Name="Buzz spaceship" Img="#29" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzspaceship">
             <Facets>
                 <Facet Name="Duration (sec)">
                     <String Value="A. 1-20" />
@@ -1190,7 +1197,7 @@
                     <DateTime Value="2016-07-11T02:58:22" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-10-17T05:56:39" />
+                    <DateTime Value="2016-10-19T12:28:31" />
                 </Facet>
                 <Facet Name="L3ST language types: count">
                     <Number Value="0" />
@@ -1213,7 +1220,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Um filme falado.First port of call-Marseille" Name="Um filme falado.First port of call-Marseille" Img="#30" Href="http://gallery.trafilm.net/conversation/metadata/?film=Um filme falado&amp;conversation=Um filme falado.First port of call-Marseille">
+        <Item Id="Um filme falado.First port of call-Marseille" Name="First port of call - Marseille" Img="#30" Href="http://gallery.trafilm.net/conversation/metadata/?film=Um filme falado&amp;conversation=Um filme falado.First port of call-Marseille">
             <Facets>
                 <Facet Name="Duration (sec)">
                     <String Value="A. 1-20" />
@@ -1228,7 +1235,7 @@
                     <DateTime Value="2016-10-17T04:31:52" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-10-17T05:56:46" />
+                    <DateTime Value="2016-10-19T12:30:31" />
                 </Facet>
                 <Facet Name="L3ST language types">
                     <String Value="Real" />
@@ -1263,7 +1270,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Um filme falado.The captain dinner-Captain-speaking one language" Name="Um filme falado.The captain dinner-Captain-speaking one language" Img="#31" Href="http://gallery.trafilm.net/conversation/metadata/?film=Um filme falado&amp;conversation=Um filme falado.The captain dinner-Captain-speaking one language">
+        <Item Id="Um filme falado.The captain dinner-Captain-speaking one language" Name="The captain dinner - Captain speaking one language" Img="#31" Href="http://gallery.trafilm.net/conversation/metadata/?film=Um filme falado&amp;conversation=Um filme falado.The captain dinner-Captain-speaking one language">
             <Facets>
                 <Facet Name="Duration (sec)">
                     <String Value="A. 1-20" />
@@ -1278,7 +1285,7 @@
                     <DateTime Value="2016-10-17T05:22:11" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-10-17T05:56:49" />
+                    <DateTime Value="2016-10-19T12:30:17" />
                 </Facet>
                 <Facet Name="L3ST language types">
                     <String Value="Real" />
@@ -1312,7 +1319,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Um filme falado.The captain dinner-Captain" Name="Um filme falado.The captain dinner-Captain" Img="#32" Href="http://gallery.trafilm.net/conversation/metadata/?film=Um filme falado&amp;conversation=Um filme falado.The captain dinner-Captain">
+        <Item Id="Um filme falado.The captain dinner-Captain" Name="The captain dinner - Captain" Img="#32" Href="http://gallery.trafilm.net/conversation/metadata/?film=Um filme falado&amp;conversation=Um filme falado.The captain dinner-Captain">
             <Facets>
                 <Facet Name="Duration (sec)">
                     <String Value="A. 1-20" />
@@ -1327,7 +1334,7 @@
                     <DateTime Value="2016-10-17T04:58:25" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-10-17T05:56:54" />
+                    <DateTime Value="2016-10-19T12:29:18" />
                 </Facet>
                 <Facet Name="L3ST language types">
                     <String Value="Real" />

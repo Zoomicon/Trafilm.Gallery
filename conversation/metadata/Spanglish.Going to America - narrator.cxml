@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Spanglish.Going to America - narrator" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Going to America - narrator" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -21,7 +21,7 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Spanglish.Going to America - narrator" Name="Spanglish.Going to America - narrator" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Spanglish&amp;conversation=Spanglish.Going to America - narrator">
+    <Item Id="Spanglish.Going to America - narrator" Name="Going to America - narrator" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Spanglish&amp;conversation=Spanglish.Going to America - narrator">
       <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -31,7 +31,7 @@
           <DateTime Value="2016-10-17T09:51:12" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-19T11:27:05" />
+          <DateTime Value="2016-10-19T12:25:04" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="corrius" />
