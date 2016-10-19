@@ -2,6 +2,7 @@
 <Collection SchemaVersion="1.0" Name="Trafilm Gallery: Films" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Film/Season title" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Type" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Duration (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Series" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -39,12 +40,15 @@
           <DateTime Value="2016-10-07T12:30:57" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-15T01:43:53" />
+          <DateTime Value="2016-10-19T02:53:04" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Stavroula" />
-          <String Value="George" />
           <String Value="PatrickZabalbeascoa" />
+          <String Value="George" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Avatar" />
         </Facet>
         <Facet Name="Type">
           <String Value="Feature film" />
@@ -94,12 +98,15 @@
           <DateTime Value="2016-06-16T07:57:45" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-14T01:59:52" />
+          <DateTime Value="2016-10-19T02:26:54" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="natalia.faja" />
-          <String Value="George" />
           <String Value="Stavroula" />
+          <String Value="George" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Blade II" />
         </Facet>
         <Facet Name="Type">
           <String Value="Feature film" />
@@ -138,12 +145,15 @@
           <DateTime Value="2016-05-31T11:56:17" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-14T02:00:00" />
+          <DateTime Value="2016-10-19T02:26:57" />
         </Facet>
         <Facet Name="Metadata Editors">
-          <String Value="George" />
           <String Value="PatrickZabalbeascoa" />
           <String Value="Stavroula" />
+          <String Value="George" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Django Unchained" />
         </Facet>
         <Facet Name="Type">
           <String Value="Feature film" />
@@ -194,12 +204,15 @@
           <DateTime Value="2016-06-01T02:48:36" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-18T05:14:42" />
+          <DateTime Value="2016-10-19T02:27:01" />
         </Facet>
         <Facet Name="Metadata Editors">
-          <String Value="George" />
           <String Value="Stavroula" />
           <String Value="miquelpt" />
+          <String Value="George" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="The Lord of the Rings: The Fellowship of the Ring" />
         </Facet>
         <Facet Name="Type">
           <String Value="Feature film" />
@@ -237,12 +250,13 @@
         </Facet>
         <Facet Name="L2-Dubbed languages">
           <String Value="Spanish" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L2-Subtitled languages">
           <String Value="Spanish" />
         </Facet>
         <Facet Name="Conversations: count">
-          <Number Value="4" />
+          <Number Value="5" />
         </Facet>
       </Facets>
     </Item>
@@ -262,10 +276,14 @@
           <DateTime Value="2016-10-17T06:39:16" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-17T07:17:24" />
+          <DateTime Value="2016-10-19T02:27:05" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="SIberg" />
+          <String Value="George" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Game of Thrones - Season 02" />
         </Facet>
         <Facet Name="Type">
           <String Value="TV series season" />
@@ -315,10 +333,14 @@
           <DateTime Value="2016-10-17T06:39:16" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-17T07:23:00" />
+          <DateTime Value="2016-10-19T02:27:08" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="SIberg" />
+          <String Value="George" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Game of Thrones - Season 03" />
         </Facet>
         <Facet Name="Type">
           <String Value="TV series season" />
@@ -368,10 +390,14 @@
           <DateTime Value="2016-10-17T06:39:16" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-17T07:08:44" />
+          <DateTime Value="2016-10-19T02:27:13" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="SIberg" />
+          <String Value="George" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Game of Thrones - Season 01" />
         </Facet>
         <Facet Name="Type">
           <String Value="TV series season" />
@@ -413,12 +439,15 @@
           <DateTime Value="2016-06-16T08:02:01" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-14T02:00:17" />
+          <DateTime Value="2016-10-19T02:27:17" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="natalia.faja" />
-          <String Value="George" />
           <String Value="Stavroula" />
+          <String Value="George" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Gangs of New York" />
         </Facet>
         <Facet Name="Type">
           <String Value="Feature film" />
@@ -457,12 +486,15 @@
           <DateTime Value="2016-06-13T06:54:58" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-14T02:00:29" />
+          <DateTime Value="2016-10-19T02:27:21" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="natalia.faja" />
-          <String Value="George" />
           <String Value="Stavroula" />
+          <String Value="George" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Lost in Translation" />
         </Facet>
         <Facet Name="Type">
           <String Value="Feature film" />
@@ -497,7 +529,7 @@
         </Facet>
       </Facets>
     </Item>
-    <Item Id="LoveActually" Name="Love Actually " Img="https://upload.wikimedia.org/wikipedia/en/e/eb/Love_Actually_movie.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=LoveActually">
+    <Item Id="LoveActually" Name="Love Actually" Img="https://upload.wikimedia.org/wikipedia/en/e/eb/Love_Actually_movie.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=LoveActually">
       <Description>Follows the lives of eight very different couples in dealing with their love lives in various loosely interrelated tales all set during a frantic month before Christmas in London, England. (imdb)</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -510,11 +542,14 @@
           <DateTime Value="2016-06-01T03:30:55" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-14T02:41:59" />
+          <DateTime Value="2016-10-19T02:27:26" />
         </Facet>
         <Facet Name="Metadata Editors">
-          <String Value="George" />
           <String Value="Stavroula" />
+          <String Value="George" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Love Actually" />
         </Facet>
         <Facet Name="Type">
           <String Value="Feature film" />
@@ -566,13 +601,16 @@
           <DateTime Value="2016-06-16T08:12:46" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-17T03:41:45" />
+          <DateTime Value="2016-10-19T02:27:29" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="natalia.faja" />
-          <String Value="George" />
           <String Value="Stavroula" />
           <String Value="evaespasa" />
+          <String Value="George" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Memoirs of a Geisha" />
         </Facet>
         <Facet Name="Type">
           <String Value="Feature film" />
@@ -625,11 +663,14 @@
           <DateTime Value="2016-06-07T03:44:51" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-14T02:00:53" />
+          <DateTime Value="2016-10-19T02:27:34" />
         </Facet>
         <Facet Name="Metadata Editors">
-          <String Value="George" />
           <String Value="Stavroula" />
+          <String Value="George" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Monsoon Wedding" />
         </Facet>
         <Facet Name="Type">
           <String Value="Feature film" />
@@ -683,11 +724,14 @@
           <DateTime Value="2016-10-11T02:25:26" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-17T09:16:41" />
+          <DateTime Value="2016-10-19T02:27:38" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="miquelpt" />
           <String Value="George" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Munich" />
         </Facet>
         <Facet Name="Type">
           <String Value="Feature film" />
@@ -742,11 +786,14 @@
           <DateTime Value="2016-05-25T10:53:52" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-14T02:01:14" />
+          <DateTime Value="2016-10-19T02:27:42" />
         </Facet>
         <Facet Name="Metadata Editors">
-          <String Value="George" />
           <String Value="Stavroula" />
+          <String Value="George" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Ocean's Eleven" />
         </Facet>
         <Facet Name="Type">
           <String Value="Feature film" />
@@ -790,12 +837,15 @@
           <DateTime Value="2016-06-16T07:54:12" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-14T02:02:29" />
+          <DateTime Value="2016-10-19T02:27:46" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="natalia.faja" />
-          <String Value="George" />
           <String Value="Stavroula" />
+          <String Value="George" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Pearl Harbor" />
         </Facet>
         <Facet Name="Type">
           <String Value="Feature film" />
@@ -833,12 +883,15 @@
           <DateTime Value="2016-06-16T08:16:54" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-14T02:03:19" />
+          <DateTime Value="2016-10-19T02:27:49" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="natalia.faja" />
-          <String Value="George" />
           <String Value="Stavroula" />
+          <String Value="George" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Slumdog Millionaire" />
         </Facet>
         <Facet Name="Type">
           <String Value="Feature film" />
@@ -886,10 +939,14 @@
           <DateTime Value="2016-10-17T09:21:27" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-17T05:50:22" />
+          <DateTime Value="2016-10-19T02:27:54" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="corrius" />
+          <String Value="George" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Spanglish" />
         </Facet>
         <Facet Name="Type">
           <String Value="Feature film" />
@@ -936,12 +993,15 @@
           <DateTime Value="2016-06-16T07:45:24" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-14T02:02:15" />
+          <DateTime Value="2016-10-19T02:28:04" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="natalia.faja" />
-          <String Value="George" />
           <String Value="Stavroula" />
+          <String Value="George" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Stigmata" />
         </Facet>
         <Facet Name="Type">
           <String Value="Feature film" />
@@ -979,12 +1039,15 @@
           <DateTime Value="2016-06-16T08:07:14" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-14T02:02:05" />
+          <DateTime Value="2016-10-19T02:28:16" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="natalia.faja" />
-          <String Value="George" />
           <String Value="Stavroula" />
+          <String Value="George" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="The Last Samurai" />
         </Facet>
         <Facet Name="Type">
           <String Value="Feature film" />
@@ -1028,12 +1091,15 @@
           <DateTime Value="2016-06-01T02:48:36" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-16T07:34:42" />
+          <DateTime Value="2016-10-19T02:28:22" />
         </Facet>
         <Facet Name="Metadata Editors">
-          <String Value="George" />
           <String Value="Stavroula" />
           <String Value="miquelpt" />
+          <String Value="George" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="The Lord of the Rings: The Return of the King" />
         </Facet>
         <Facet Name="Type">
           <String Value="Feature film" />
@@ -1085,12 +1151,15 @@
           <DateTime Value="2016-06-01T02:48:36" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-18T07:37:35" />
+          <DateTime Value="2016-10-19T02:28:27" />
         </Facet>
         <Facet Name="Metadata Editors">
-          <String Value="George" />
           <String Value="Stavroula" />
           <String Value="miquelpt" />
+          <String Value="George" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="The Lord of the Rings: The Two Towers" />
         </Facet>
         <Facet Name="Type">
           <String Value="Feature film" />
@@ -1142,12 +1211,15 @@
           <DateTime Value="2016-05-31T10:18:51" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-14T02:01:39" />
+          <DateTime Value="2016-10-19T02:28:31" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Guillermo" />
-          <String Value="George" />
           <String Value="Stavroula" />
+          <String Value="George" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="The Walk" />
         </Facet>
         <Facet Name="Type">
           <String Value="Feature film" />
@@ -1193,12 +1265,15 @@
           <DateTime Value="2016-07-11T02:46:56" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-14T02:01:29" />
+          <DateTime Value="2016-10-19T02:28:35" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Guillermo" />
-          <String Value="George" />
           <String Value="Stavroula" />
+          <String Value="George" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Toy Story 3" />
         </Facet>
         <Facet Name="Type">
           <String Value="Feature film" />
@@ -1250,10 +1325,14 @@
           <DateTime Value="2016-10-17T04:00:50" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-17T05:55:52" />
+          <DateTime Value="2016-10-19T02:28:39" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="corrius" />
+          <String Value="George" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Um filme falado" />
         </Facet>
         <Facet Name="Type">
           <String Value="Feature film" />
@@ -1302,11 +1381,14 @@
           <DateTime Value="2016-08-15T09:39:32" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-09-08T12:04:51" />
+          <DateTime Value="2016-10-19T02:28:43" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Guillermo" />
           <String Value="George" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Zootopia" />
         </Facet>
         <Facet Name="Duration (min)">
           <Number Value="109" />
