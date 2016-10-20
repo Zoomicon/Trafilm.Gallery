@@ -5,13 +5,15 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: L3STinstance\metadata\default.aspx
-Version: 20161018
+Version: 20161020
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 
   <head runat="server">
     <title>Trafilm Metadata | L3ST-instances</title>
+
+    <meta name="viewport" content="width=400; user-scaleable=yes; initial-scale=1" />
 
     <link href="../../css/metadata.css" rel="stylesheet" type="text/css" />
   </head>
@@ -52,7 +54,7 @@ Version: 20161018
     <%-- INSTRUCTIONS BOX --%>
 
     <div class="instructions">
-      Please fill in the following information for the L3ST-instance of your choice. Select the L3ST-instance from the dropdown list.<br />
+      Please fill in the following information for the L3ST-instance of your choice. Select it using the dropdown lists.<br />
       Try to fill the metadata as fully and accurately as possible, as they will be used for searching and filtering L3ST-instances.<br />
       Don't forget to press the SAVE METADATA button. Thank you!
     </div>
@@ -83,11 +85,11 @@ Version: 20161018
 
             <asp:Panel ID="panelAdd" runat="server">
               <div class="label">or add new L3ST-instance Id (e.g. <i>Speaking Chinese</i> - do not include the Film Id and Conversation Id prefixes)</div>
-              <asp:TextBox ID="txtL3STinstance" runat="server" Columns="50" MaxLength="50" />
+              <asp:TextBox ID="txtL3STinstance" runat="server" MaxLength="50" />
               <asp:Button ID="btnAddL3STinstance" runat="server" Text="Add" OnClick="btnAddL3STinstance_Click" />
-              &nbsp;
+              <br />
               <asp:CheckBox ID="cbClone" Text="Copy from selected" runat="server" Visible="false" />
-              &nbsp;
+              &nbsp;&nbsp;
               <asp:Button ID="btnRename" runat="server" Text="Rename selected" OnClick="btnRename_Click" />
             </asp:Panel>
           </asp:Panel>
@@ -105,13 +107,13 @@ Version: 20161018
         <div class="question" id="Title">
           <div class="label">1. L3ST-instance Title</div>
           <div class="tip">Free text descriptive title (&lt;50 characters)</div>
-          <asp:TextBox ID="txtTitle" runat="server" Columns="150" />
+          <asp:TextBox ID="txtTitle" runat="server" />
         </div>
 
         <div class="question" id="Description">
           <div class="label">2. L3ST-instance Description</div>
           <div class="tip">Free text brief description (<200 characters)</div>
-          <asp:TextBox ID="txtDescription" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
+          <asp:TextBox ID="txtDescription" runat="server" TextMode="MultiLine" Rows="5" />
         </div>
 
         <div class="calculated" id="URL">
@@ -121,7 +123,7 @@ Version: 20161018
 
         <div class="question" id="Image">
           <div class="label">3. Image URL</div>
-          <asp:TextBox ID="txtImageUrl" runat="server" Columns="150" />
+          <asp:TextBox ID="txtImageUrl" runat="server" />
         </div>
 
 
@@ -158,7 +160,7 @@ Version: 20161018
         <div class="question" id="L3STlanguage">
           <div class="label">5. L3ST language</div>
           <div class="tip">Which language is L3ST?</div>
-          <asp:TextBox ID="txtL3STlanguage" runat="server" Columns="150" />
+          <asp:TextBox ID="txtL3STlanguage" runat="server" />
         </div>
 
 
@@ -303,19 +305,19 @@ Version: 20161018
         <div class="question" id="Transcription">
           <div class="label">18. Transcription </div>
           <div class="tip">Transcription for the specific L3ST-instance</div>
-          <asp:TextBox ID="txtTranscription" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
+          <asp:TextBox ID="txtTranscription" runat="server" TextMode="MultiLine" Rows="5" />
         </div>
 
         <div class="question" id="Tags">
           <div class="label">19. Tags</div>
           <div class="tip">Keywords or other labels for filtering purposes , insert a comma (,) between different ones</div>
-          <asp:TextBox ID="txtTags" runat="server" Columns="150" />
+          <asp:TextBox ID="txtTags" runat="server" />
         </div>
 
         <div class="question" id="Remarks">
           <div class="label">20. Remarks </div>
           <div class="tip">Issues concerning the analysis or the metadata form design</div>
-          <asp:TextBox ID="txtRemarks" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
+          <asp:TextBox ID="txtRemarks" runat="server" TextMode="MultiLine" Rows="5" />
         </div>
 
 
