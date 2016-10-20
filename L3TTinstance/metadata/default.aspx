@@ -1,6 +1,6 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="Trafilm.Gallery.L3TTinstanceMetadataPage" %>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
@@ -97,8 +97,9 @@ Version: 20161020
               <asp:Panel ID="panelAdd" runat="server">
                 <div class="label">or add new L3TT-instance Id (e.g. <i>SpanishDub</i> or <i>SpanishSub</i> - do not include the Film Id, Conversation Id and L3ST-instance Id prefixes)</div>
                 <asp:TextBox ID="txtL3TTinstance" runat="server" MaxLength="50" />
-                <asp:Button ID="btnAddL3TTinstance" runat="server" Text="Add" OnClick="btnAddL3TTinstance_Click" />
                 <br />
+                <asp:Button ID="btnAddL3TTinstance" runat="server" Text="Add" OnClick="btnAddL3TTinstance_Click" />
+                &nbsp;
                 <asp:CheckBox ID="cbClone" Text="Copy from selected" runat="server" Visible="false" />
                 &nbsp;&nbsp;
                 <asp:Button ID="btnRename" runat="server" Text="Rename selected" OnClick="btnRename_Click" />
@@ -130,7 +131,7 @@ Version: 20161020
 
         <div class="calculated" id="URL">
           <div class="label">L3TT-instance URL</div>
-          <asp:HyperLink ID="linkUrl" runat="server" Target="_blank"/>
+          <asp:HyperLink ID="linkUrl" runat="server" Target="_blank" />
         </div>
 
         <div class="calculated" id="Image">

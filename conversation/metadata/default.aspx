@@ -71,7 +71,7 @@ Version: 20161020
             <asp:TextBox ID="txtConversation" runat="server" MaxLength="50" />
             <br />
             <asp:Button ID="btnAddConversation" runat="server" Text="Add" OnClick="btnAddConversation_Click" />
-            <br />
+            &nbsp;
             <asp:CheckBox ID="cbClone" Text="Copy from selected" runat="server" Visible="false" />
             &nbsp;&nbsp;
             <asp:Button ID="btnRename" runat="server" Text="Rename selected" OnClick="btnRename_Click" />
