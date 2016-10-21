@@ -49,7 +49,7 @@
   <ItemGroup>
     <Content Include="conversation\template.html" />
     <Content Include="conversation\template_image.png" />
-    <Content Include="Default.html" />
+    <Content Include="default.html" />
     <Content Include="film\default.html" />
     <Content Include="film\template.html" />
     <Content Include="film\template_image.png" />
@@ -130,7 +130,7 @@
     </Content>
     <Content Include="L3STinstance\metadata\default.aspx" />
     <Content Include="metadata\Languages.xml" />
-    <Content Include="metadata\Default.aspx" />
+    <Content Include="metadata\default.aspx" />
     <Content Include="film\metadata\default.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
