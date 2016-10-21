@@ -1,17 +1,19 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="Trafilm.Gallery.L3TTinstanceMetadataPage" %>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: L3TTinstance\metadata\default.aspx
-Version: 20161018
+Version: 20161020
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 
   <head runat="server">
     <title>Trafilm Metadata | L3TT-instances</title>
+    
+    <meta name="viewport" content="width=400; user-scaleable=yes; initial-scale=1" />
 
     <link href="../../css/metadata.css" rel="stylesheet" type="text/css" />
   </head>
@@ -57,7 +59,7 @@ Version: 20161018
     <%-- INSTRUCTIONS BOX --%>
 
     <div class="instructions">
-      Please fill in the following information for the L3TT-instance of your choice. Select the L3TT-instance from the dropdown list.<br />
+      Please fill in the following information for the L3TT-instance of your choice. Select it using the dropdown lists.<br />
       Try to fill the metadata as fully and accurately as possible, as they will be used for searching and filtering L3TT-instances.<br />
       Don't forget to press the SAVE METADATA button. Thank you!
     </div>
@@ -94,11 +96,12 @@ Version: 20161018
 
               <asp:Panel ID="panelAdd" runat="server">
                 <div class="label">or add new L3TT-instance Id (e.g. <i>SpanishDub</i> or <i>SpanishSub</i> - do not include the Film Id, Conversation Id and L3ST-instance Id prefixes)</div>
-                <asp:TextBox ID="txtL3TTinstance" runat="server" Columns="50" MaxLength="50" />
+                <asp:TextBox ID="txtL3TTinstance" runat="server" MaxLength="50" />
+                <br />
                 <asp:Button ID="btnAddL3TTinstance" runat="server" Text="Add" OnClick="btnAddL3TTinstance_Click" />
                 &nbsp;
                 <asp:CheckBox ID="cbClone" Text="Copy from selected" runat="server" Visible="false" />
-                &nbsp;
+                &nbsp;&nbsp;
                 <asp:Button ID="btnRename" runat="server" Text="Rename selected" OnClick="btnRename_Click" />
               </asp:Panel>
             </asp:Panel>
@@ -117,18 +120,18 @@ Version: 20161018
         <div class="question" id="Title">
           <div class="label">1. L3TT-instance Title</div>
           <div class="tip">Free text descriptive title (&lt;50 characters)</div>
-          <asp:TextBox ID="txtTitle" runat="server" Columns="150" />
+          <asp:TextBox ID="txtTitle" runat="server" />
         </div>
 
         <div class="label" id="Description">
           <div class="label">Description (Calculated from L3ST-instance)</div>
           <div class="tip">Free text brief description (<200 characters)</div>
-          <asp:TextBox ID="txtDescription" runat="server" TextMode="MultiLine" Rows="5" Columns="110" ReadOnly="true" />
+          <asp:TextBox ID="txtDescription" runat="server" TextMode="MultiLine" Rows="5" ReadOnly="true" />
         </div>
 
         <div class="calculated" id="URL">
           <div class="label">L3TT-instance URL</div>
-          <asp:HyperLink ID="linkUrl" runat="server" Target="_blank"/>
+          <asp:HyperLink ID="linkUrl" runat="server" Target="_blank" />
         </div>
 
         <div class="calculated" id="Image">
@@ -141,7 +144,7 @@ Version: 20161018
 
         <div class="question" id="FilmTitleTT">
           <div class="label">2. Film Title TT</div>
-          <asp:TextBox ID="txtFilmTitleTT" runat="server" Columns="150" />
+          <asp:TextBox ID="txtFilmTitleTT" runat="server" />
         </div>
 
 
@@ -165,12 +168,12 @@ Version: 20161018
         <div class="question" id="DistributionCountriesTT">
           <div class="label">5. Distribution countries (TT)</div>
           <div class="tip">Full name(s), insert a comma (,) between different countries</div>
-          <asp:TextBox ID="txtDistributionCountriesTT" runat="server" Columns="150" />
+          <asp:TextBox ID="txtDistributionCountriesTT" runat="server" />
         </div>
 
         <div class="question" id="YearTTreleased">
           <div class="label">6. Year TT released</div>
-          <asp:TextBox ID="txtYearTTreleased" runat="server" Columns="25" />
+          <asp:TextBox ID="txtYearTTreleased" runat="server" />
         </div>
 
 
@@ -226,7 +229,7 @@ Version: 20161018
         <div class="question" id="L3TTlanguage">
           <div class="label">11. L3TT language</div>
           <div class="tip">Which language is L3TT?</div>
-          <asp:TextBox ID="txtL3TTlanguage" runat="server" Columns="150" />
+          <asp:TextBox ID="txtL3TTlanguage" runat="server" />
         </div>
 
 
@@ -395,19 +398,19 @@ Version: 20161018
         <div class="question" id="Transcription">
           <div class="label">24. Transcription </div>
           <div class="tip">Transcription for the specific L3TT-instance</div>
-          <asp:TextBox ID="txtTranscription" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
+          <asp:TextBox ID="txtTranscription" runat="server" TextMode="MultiLine" Rows="5" />
         </div>
 
         <div class="question" id="Tags">
           <div class="label">25. Tags</div>
           <div class="tip">Keywords or other labels for filtering purposes , insert a comma (,) between different ones</div>
-          <asp:TextBox ID="txtTags" runat="server" Columns="150" />
+          <asp:TextBox ID="txtTags" runat="server" />
         </div>
 
         <div class="question" id="Remarks">
           <div class="label">26. Remarks </div>
           <div class="tip">Issues concerning the analysis or the metadata form design</div>
-          <asp:TextBox ID="txtRemarks" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
+          <asp:TextBox ID="txtRemarks" runat="server" TextMode="MultiLine" Rows="5" />
         </div>
 
 

@@ -1,17 +1,19 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="Trafilm.Gallery.FilmMetadataPage" %>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: film\metadata\default.aspx
-Version: 20161018
+Version: 20161020
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 
   <head runat="server">
     <title>Trafilm Metadata | Films</title>
+    
+    <meta name="viewport" content="width=400; user-scaleable=yes; initial-scale=1" />
 
     <link href="../../css/metadata.css" rel="stylesheet" type="text/css" />
   </head>
@@ -39,7 +41,7 @@ Version: 20161018
     <%-- INSTRUCTION BOX --%>
 
     <div class="instructions">
-      Please fill in the following information for the film of your choice. Select the film from the dropdown list.<br />
+      Please fill in the following information for the film of your choice. Select it using the dropdown list.<br />
       Try to fill the metadata as fully and accurately as possible, as they will be used for searching and filtering film.<br />
       Don't forget to press the SAVE METADATA button. Thank you!
     </div>
@@ -61,11 +63,12 @@ Version: 20161018
 
         <asp:Panel ID="panelAdd" runat="server">
           <div class="label">or enter a new Film Id (e.g. <i>Ocean's Eleven</i>)</div>
-          <asp:TextBox ID="txtFilm" runat="server" Columns="50" MaxLength="50" />
+          <asp:TextBox ID="txtFilm" runat="server" MaxLength="50" />
+          <br />
           <asp:Button ID="btnAddFilm" runat="server" Text="Add" OnClick="btnAddFilm_Click" />
           &nbsp;
           <asp:CheckBox ID="cbClone" Text="Copy from selected" runat="server" Visible="false" />
-          &nbsp;
+          &nbsp;&nbsp;
           <asp:Button ID="btnRename" runat="server" Text="Rename selected" OnClick="btnRename_Click" />
         </asp:Panel>
 
@@ -83,24 +86,24 @@ Version: 20161018
             Full official film title<br />
             For TV series enter series title and season number (e.g. Game of Thrones - Season 01)
           </div>
-          <asp:TextBox ID="txtTitle" runat="server" Columns="150" />
+          <asp:TextBox ID="txtTitle" runat="server" />
         </div>
 
         <div class="question" id="Description">
           <div class="label">2. Film Description</div>
           <div class="tip">Synopsis and relevant information</div>
-          <asp:TextBox ID="txtDescription" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
+          <asp:TextBox ID="txtDescription" runat="server" TextMode="MultiLine" Rows="5" />
         </div>
 
         <div class="calculated" id="URL">
           <div class="label">Film URL</div>
-          <asp:HyperLink ID="linkUrl" runat="server" Target="_blank"/>
+          <asp:HyperLink ID="linkUrl" runat="server" Target="_blank" />
         </div>
 
         <div class="question" id="PosterImage">
           <div class="label">3. Film Poster URL</div>
           <div class="tip">Provide a link to an image for the film poster</div>
-          <asp:TextBox ID="txtImageUrl" runat="server" Columns="150" />
+          <asp:TextBox ID="txtImageUrl" runat="server" />
         </div>
 
 
@@ -123,7 +126,7 @@ Version: 20161018
             How long does the film last? (in minutes)<br />
             When Type is "TV series season", enter duration of longest episode in that season            
           </div>
-          <asp:TextBox ID="txtDuration" runat="server" Columns="25" />
+          <asp:TextBox ID="txtDuration" runat="server" />
         </div>
 
 
@@ -133,33 +136,33 @@ Version: 20161018
             If the film belongs to a series or 'saga', what is the name for the related series of films?<br />
             When Type is "TV series season", enter the TV series title
           </div>
-          <asp:TextBox ID="txtSeries" runat="server" Columns="150" />
+          <asp:TextBox ID="txtSeries" runat="server" />
         </div>
 
 
         <div class="question" id="Directors">
           <div class="label">5. Director(s)</div>
           <div class="tip">Full name(s), insert a comma (,) between different directors</div>
-          <asp:TextBox ID="txtDirectors" runat="server" Columns="150" />
+          <asp:TextBox ID="txtDirectors" runat="server" />
         </div>
 
         <div class="question" id="Scriptwriters">
           <div class="label">7. Scriptwriter(s)</div>
           <div class="tip">Full name(s), insert a comma (,) between different scriptwriters</div>
-          <asp:TextBox ID="txtScriptwriters" runat="server" Columns="150" />
+          <asp:TextBox ID="txtScriptwriters" runat="server" />
         </div>
 
 
         <div class="question" id="ProductionCountries">
           <div class="label">8. Production countries</div>
           <div class="tip">Full name(s), insert a comma (,) between different countries</div>
-          <asp:TextBox ID="txtProductionCountries" runat="server" Columns="150" />
+          <asp:TextBox ID="txtProductionCountries" runat="server" />
         </div>
 
         <div class="question" id="ProductionCompanies">
           <div class="label">9. Production companies</div>
           <div class="tip">Full name, insert a comma (,) between different production companies</div>
-          <asp:TextBox ID="txtProductionCompanies" runat="server" Columns="150" />
+          <asp:TextBox ID="txtProductionCompanies" runat="server" />
         </div>
 
 
@@ -177,7 +180,7 @@ Version: 20161018
         <div class="question" id="YearSTreleased">
           <div class="label">11. Year ST released</div>
           <div class="tip">When was the film first released commercially?</div>
-          <asp:TextBox ID="txtYear" runat="server" Columns="25" />
+          <asp:TextBox ID="txtYear" runat="server" />
         </div>
 
 
@@ -225,20 +228,20 @@ Version: 20161018
         <div class="question" id="Transcription">
           <div class="label">13. Transcription </div>
           <div class="tip">Transcription for the whole film</div>
-          <asp:TextBox ID="txtTranscription" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
+          <asp:TextBox ID="txtTranscription" runat="server" TextMode="MultiLine" Rows="5" />
         </div>
         --%>
 
         <div class="question" id="Tags">
           <div class="label">13. Tags</div>
           <div class="tip">Keywords or other labels for filtering purposes, insert a comma (,) between different ones</div>
-          <asp:TextBox ID="txtTags" runat="server" Columns="150" />
+          <asp:TextBox ID="txtTags" runat="server" />
         </div>
 
         <div class="question" id="Remarks">
           <div class="label">14. Remarks</div>
           <div class="tip">Issues concerning the analysis or the metadata form design</div>
-          <asp:TextBox ID="txtRemarks" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
+          <asp:TextBox ID="txtRemarks" runat="server" TextMode="MultiLine" Rows="5" />
         </div>
 
 

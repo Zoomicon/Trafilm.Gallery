@@ -1,17 +1,19 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="Trafilm.Gallery.ConversationMetadataPage" %>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: conversation\metadata\default.aspx
-Version: 20161018
+Version: 20161020
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 
   <head runat="server">
     <title>Trafilm Metadata | Conversations</title>
+    
+    <meta name="viewport" content="width=400; user-scaleable=yes; initial-scale=1" />
     
     <link href="../../css/metadata.css" rel="stylesheet" type="text/css" />
   </head>
@@ -40,7 +42,7 @@ Version: 20161018
     <%-- INSTRUCTION BOX --%>
 
     <div class="instructions">
-      Please fill in the following information for the Conversation of your choice. Select the Conversation from the dropdown list.<br />
+      Please fill in the following information for the Conversation of your choice. Select it using the dropdown lists.<br />
       Try to fill the metadata as fully and accurately as possible, as they will be used for searching and filtering Conversations.<br />
       Don't forget to press the SAVE METADATA button. Thank you!
     </div>
@@ -66,11 +68,12 @@ Version: 20161018
 
           <asp:Panel ID="panelAdd" runat="server">
             <div class="label">or enter a new Conversation Id (e.g. <i>Explaining the plan</i> - do not include the Film Id prefix)</div>
-            <asp:TextBox ID="txtConversation" runat="server" Columns="50" MaxLength="50" />
+            <asp:TextBox ID="txtConversation" runat="server" MaxLength="50" />
+            <br />
             <asp:Button ID="btnAddConversation" runat="server" Text="Add" OnClick="btnAddConversation_Click" />
             &nbsp;
             <asp:CheckBox ID="cbClone" Text="Copy from selected" runat="server" Visible="false" />
-            &nbsp;
+            &nbsp;&nbsp;
             <asp:Button ID="btnRename" runat="server" Text="Rename selected" OnClick="btnRename_Click" />
           </asp:Panel>
         </asp:Panel>
@@ -85,12 +88,12 @@ Version: 20161018
 
         <div class="question" id="Title">
           <div class="label">1. Conversation Title</div>
-          <asp:TextBox ID="txtTitle" runat="server" Columns="150" />
+          <asp:TextBox ID="txtTitle" runat="server" />
         </div>
        
         <div class="question" id="Description">
           <div class="label">2. Conversation Description</div>
-          <asp:TextBox ID="txtDescription" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
+          <asp:TextBox ID="txtDescription" runat="server" TextMode="MultiLine" Rows="5" />
         </div>
 
         <div class="calculated" id="URL">
@@ -101,7 +104,7 @@ Version: 20161018
         <%--
         <div class="question" id="Image">
           <div class="label">3. Image URL</div>
-          <asp:TextBox ID="txtImageUrl" runat="server" Columns="150" />
+          <asp:TextBox ID="txtImageUrl" runat="server" />
         </div>
         --%>
 
@@ -111,20 +114,20 @@ Version: 20161018
         <div class="calculated" id="FilmOrSeasonTitle">
           <div class="label">Film/Season title</div>
           <div class="tip">Title of Film or TV series season</div>
-          <asp:Label ID="lblFilmOrSeasonTitle" runat="server" Columns="150" />
+          <asp:Label ID="lblFilmOrSeasonTitle" runat="server" />
         </div>
 
         <div class="question" id="SeasonEpisodeName">
           <div class="label">3. Season episode name</div>
           <div class="tip">For TV series seasons, enter episode number and name (preferrably as originally numbered)</div>
-          <asp:TextBox ID="txtSeasonEpisodeName" runat="server" Columns="150" />
+          <asp:TextBox ID="txtSeasonEpisodeName" runat="server" />
         </div>
 
 
         <div class="question" id="StartTime">
           <div class="label">4. Start time (min)</div>
           <div class="tip">What part of the film is the Conversation in? (i.e. how many minutes from the start)</div>
-          <asp:TextBox ID="txtStartTime" runat="server" Columns="25" />
+          <asp:TextBox ID="txtStartTime" runat="server" />
         </div>
 
         <div class="question" id="Duration">
@@ -195,20 +198,20 @@ Version: 20161018
         <div class="question" id="Transcription">
           <div class="label">7. Transcription </div>
           <div class="tip">Transcription for the specific conversation</div>
-          <asp:TextBox ID="txtTranscription" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
+          <asp:TextBox ID="txtTranscription" runat="server" TextMode="MultiLine" Rows="5" />
         </div>
         --%>
 
         <div class="question" id="Tags">
           <div class="label">6. Tags</div>
           <div class="tip">Keywords or other labels for filtering purposes , insert a comma (,) between different ones</div>
-          <asp:TextBox ID="txtTags" runat="server" Columns="150" />
+          <asp:TextBox ID="txtTags" runat="server" />
         </div>
 
         <div class="question" id="Remarks">
           <div class="label">7. Remarks </div>
           <div class="tip">Issues concerning the analysis or the metadata form design</div>
-          <asp:TextBox ID="txtRemarks" runat="server" TextMode="MultiLine" Rows="5" Columns="110" />
+          <asp:TextBox ID="txtRemarks" runat="server" TextMode="MultiLine" Rows="5" />
         </div>
         
 

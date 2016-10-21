@@ -1,7 +1,7 @@
 ﻿/*
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: metadata.cs
-Version: 20160517
+Version: 20160520
 */
 
 div
@@ -9,6 +9,8 @@ div
   margin-top: 12px;
   margin-bottom: 5px;
 }
+
+/* --------------------------- */
 
 .navigation a:link
 {
@@ -36,6 +38,8 @@ div
   text-decoration: underline overline;
 }
 
+/* --------------------------- */
+
 .instructions
 {
   border-style: dotted;
@@ -43,25 +47,73 @@ div
   padding: 5px;
 }
 
+/* --------------------------- */
+
 .bar
 {
   background-color: ButtonFace;
   padding-left: 5px;
   padding-top: 0px;
-  padding-bottom: 15px;
+  padding-bottom: 5px;
 }
+
+.bar input
+{
+  width: 99%;
+}
+
+.bar select 
+{
+  width: 99%;
+}
+
+.bar input[type=submit]
+{
+  width: auto;
+}
+
+.bar input[type=checkbox]
+{
+  width: auto;
+}
+
+/* --------------------------- */
 
 .question
 {
   background-color: lightgoldenrodyellow;
-  padding: 1px;
+  padding: 0, 1%;
 }
+
+.question input
+{
+  width: 99%;
+}
+
+.question select
+{
+  width: 99%;
+}
+
+.question textarea
+{
+  width: 99%;
+}
+
+/* --------------------------- */
 
 .calculated 
 {
   background-color: ghostwhite;
-  padding: 1px;
+  padding: 0, 1%;
 }
+
+.calculated select
+{
+  width: 99%;
+}
+
+/* --------------------------- */
 
 .label
 {
