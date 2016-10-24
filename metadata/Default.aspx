@@ -15,7 +15,7 @@ Version: 20161024
 
   <title>Trafilm Metadata | The Translation of Multilingual Films in Spain</title>
 
-  <meta name="viewport" content="width=400, user-scaleable=yes, initial-scale=1" />
+  <meta name="viewport" content="width=400, user-scalable=yes, initial-scale=1" />
 
   <link rel="shortcut icon" type="image/ico" href='/favicon.ico' />
 

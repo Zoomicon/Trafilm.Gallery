@@ -13,7 +13,7 @@ Version: 20161024
 <head runat="server">
   <title>Trafilm Gallery | Login</title>
 
-  <meta name="viewport" content="width=400, user-scaleable=yes, initial-scale=1" />
+  <meta name="viewport" content="width=400, user-scalable=yes, initial-scale=1" />
 </head>
 
 <body>
