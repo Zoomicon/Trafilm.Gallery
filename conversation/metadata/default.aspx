@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: conversation\metadata\default.aspx
-Version: 20161020
+Version: 20161024
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -13,7 +13,7 @@ Version: 20161020
   <head runat="server">
     <title>Trafilm Metadata | Conversations</title>
     
-    <meta name="viewport" content="width=400; user-scaleable=yes; initial-scale=1" />
+    <meta name="viewport" content="width=400, user-scaleable=yes, initial-scale=1" />
     
     <link href="../../css/metadata.css" rel="stylesheet" type="text/css" />
   </head>
