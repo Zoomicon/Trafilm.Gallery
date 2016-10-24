@@ -111,6 +111,8 @@ div
 .calculated select
 {
   width: 99%;
+  background-color: ghostwhite;
+  border-color: lightgray;
 }
 
 /* --------------------------- */
