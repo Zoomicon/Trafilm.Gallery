@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: L3STinstance\metadata\default.aspx
-Version: 20161024
+Version: 20161025
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -69,7 +69,8 @@ Version: 20161024
 
       <div class="bar">
 
-        <div class="label">Select a Film</div>
+        <div>
+          <div class="label">Select a Film</div>
           <asp:DropDownList ID="listFilms" runat="server" AutoPostBack="True" OnSelectedIndexChanged="listFilms_SelectedIndexChanged" />
         </div>
         

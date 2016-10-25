@@ -1,7 +1,7 @@
 ﻿/*
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: metadata.cs
-Version: 20160520
+Version: 20160525
 */
 
 div
@@ -113,6 +113,11 @@ div
   width: 99%;
   background-color: ghostwhite;
   border-color: lightgray;
+}
+
+.calculated textarea
+{
+  width: 99%;
 }
 
 /* --------------------------- */
