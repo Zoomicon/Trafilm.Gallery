@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: L3TTinstance\metadata\default.aspx
-Version: 20161020
+Version: 20161025
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -13,7 +13,7 @@ Version: 20161020
   <head runat="server">
     <title>Trafilm Metadata | L3TT-instances</title>
     
-    <meta name="viewport" content="width=400; user-scaleable=yes; initial-scale=1" />
+    <meta name="viewport" content="width=400, user-scalable=yes, initial-scale=1" />
 
     <link href="../../css/metadata.css" rel="stylesheet" type="text/css" />
   </head>
@@ -74,7 +74,8 @@ Version: 20161020
 
       <div class="bar">
 
-        <div class="label">Select a Film</div>
+        <div>
+          <div class="label">Select a Film</div>
           <asp:DropDownList ID="listFilms" runat="server" AutoPostBack="True" OnSelectedIndexChanged="listFilms_SelectedIndexChanged" />
         </div>
         
@@ -123,7 +124,7 @@ Version: 20161020
           <asp:TextBox ID="txtTitle" runat="server" />
         </div>
 
-        <div class="label" id="Description">
+        <div class="calculated" id="Description">
           <div class="label">Description (Calculated from L3ST-instance)</div>
           <div class="tip">Free text brief description (<200 characters)</div>
           <asp:TextBox ID="txtDescription" runat="server" TextMode="MultiLine" Rows="5" ReadOnly="true" />

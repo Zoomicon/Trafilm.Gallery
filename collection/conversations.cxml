@@ -323,7 +323,89 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="LoveActually.JamieProposesToAurelia" Name="Jamie proposes to Aurelia" Img="#7" Href="http://gallery.trafilm.net/conversation/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia">
+        <Item Id="Game of Thrones.E01 Winter is coming_Dothraki wedding" Name="Game of Thrones. 01: Winter is coming_Dothraki wedding" Img="#7" Href="http://gallery.trafilm.net/conversation/metadata/?film=Game of Thrones&amp;conversation=Game of Thrones.E01 Winter is coming_Dothraki wedding">
+            <Description>At Daenerys' and Khal Drogo's wedding, the guests bring gifts and talk to Khal Drogo in Dothraki.</Description>
+            <Facets>
+                <Facet Name="Duration (sec)">
+                    <String Value="I. 161-180" />
+                </Facet>
+                <Facet Name="Film Reference Id">
+                    <String Value="Game of Thrones" />
+                </Facet>
+                <Facet Name="Film/Season title">
+                    <String Value="Game of Thrones - Season 01" />
+                </Facet>
+                <Facet Name="Info created">
+                    <DateTime Value="2016-10-21T06:29:46" />
+                </Facet>
+                <Facet Name="Info updated">
+                    <DateTime Value="2016-10-23T09:07:29" />
+                </Facet>
+                <Facet Name="L3ST language types: count">
+                    <Number Value="0" />
+                </Facet>
+                <Facet Name="L3ST languages: count">
+                    <Number Value="0" />
+                </Facet>
+                <Facet Name="L3ST-instances: count">
+                    <Number Value="0" />
+                </Facet>
+                <Facet Name="Metadata Editors">
+                    <String Value="SIberg" />
+                </Facet>
+                <Facet Name="Reference Id">
+                    <String Value="Game of Thrones.E01 Winter is coming_Dothraki wedding" />
+                </Facet>
+                <Facet Name="Season episode name">
+                    <String Value="01: Winter is coming" />
+                </Facet>
+                <Facet Name="Start time (min)">
+                    <Number Value="49" />
+                </Facet>
+            </Facets>
+        </Item>
+        <Item Id="Game of Thrones.E01 Winter is coming_Presentation" Name="Game of Thrones.E01 Winter is coming_Presentation" Img="#8" Href="http://gallery.trafilm.net/conversation/metadata/?film=Game of Thrones&amp;conversation=Game of Thrones.E01 Winter is coming_Presentation">
+            <Description>Daenerys is presented to Khal Drogo.</Description>
+            <Facets>
+                <Facet Name="Duration (sec)">
+                    <String Value="I. 161-180" />
+                </Facet>
+                <Facet Name="Film Reference Id">
+                    <String Value="Game of Thrones" />
+                </Facet>
+                <Facet Name="Film/Season title">
+                    <String Value="Game of Thrones - Season 01" />
+                </Facet>
+                <Facet Name="Info created">
+                    <DateTime Value="2016-10-21T06:29:46" />
+                </Facet>
+                <Facet Name="Info updated">
+                    <DateTime Value="2016-10-23T09:43:22" />
+                </Facet>
+                <Facet Name="L3ST language types: count">
+                    <Number Value="0" />
+                </Facet>
+                <Facet Name="L3ST languages: count">
+                    <Number Value="0" />
+                </Facet>
+                <Facet Name="L3ST-instances: count">
+                    <Number Value="0" />
+                </Facet>
+                <Facet Name="Metadata Editors">
+                    <String Value="SIberg" />
+                </Facet>
+                <Facet Name="Reference Id">
+                    <String Value="Game of Thrones.E01 Winter is coming_Presentation" />
+                </Facet>
+                <Facet Name="Season episode name">
+                    <String Value="01: Winter is coming" />
+                </Facet>
+                <Facet Name="Start time (min)">
+                    <Number Value="34" />
+                </Facet>
+            </Facets>
+        </Item>
+        <Item Id="LoveActually.JamieProposesToAurelia" Name="Jamie proposes to Aurelia" Img="#9" Href="http://gallery.trafilm.net/conversation/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia">
             <Facets>
                 <Facet Name="Duration (sec)">
                     <String Value="I. 161-180" />
@@ -364,7 +446,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="LoveActually.Lake Scene" Name="Lake scene" Img="#8" Href="http://gallery.trafilm.net/conversation/metadata/?film=LoveActually&amp;conversation=LoveActually.Lake Scene">
+        <Item Id="LoveActually.Lake Scene" Name="Lake scene" Img="#10" Href="http://gallery.trafilm.net/conversation/metadata/?film=LoveActually&amp;conversation=LoveActually.Lake Scene">
             <Facets>
                 <Facet Name="Duration (sec)">
                     <String Value="I. 161-180" />
@@ -405,7 +487,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Monsoon Wedding.Conversation in the garden on the phone" Name="Conversation in the garden on the phone" Img="#9" Href="http://gallery.trafilm.net/conversation/metadata/?film=Monsoon Wedding&amp;conversation=Monsoon Wedding.Conversation in the garden on the phone">
+        <Item Id="Monsoon Wedding.Conversation in the garden on the phone" Name="Conversation in the garden on the phone" Img="#11" Href="http://gallery.trafilm.net/conversation/metadata/?film=Monsoon Wedding&amp;conversation=Monsoon Wedding.Conversation in the garden on the phone">
             <Facets>
                 <Facet Name="Film Reference Id">
                     <String Value="Monsoon Wedding" />
@@ -445,7 +527,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="OceansEleven.ExplainingThePlan" Name="Explaining the plan" Img="#10" Href="http://gallery.trafilm.net/conversation/metadata/?film=OceansEleven&amp;conversation=OceansEleven.ExplainingThePlan">
+        <Item Id="OceansEleven.ExplainingThePlan" Name="Explaining the plan" Img="#12" Href="http://gallery.trafilm.net/conversation/metadata/?film=OceansEleven&amp;conversation=OceansEleven.ExplainingThePlan">
             <Facets>
                 <Facet Name="Duration (sec)">
                     <String Value="J. &gt; 180" />
@@ -488,7 +570,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Spanglish.At the summer place - an interpreter" Name="At the summer place - an interpreter" Img="#11" Href="http://gallery.trafilm.net/conversation/metadata/?film=Spanglish&amp;conversation=Spanglish.At the summer place - an interpreter">
+        <Item Id="Spanglish.At the summer place - an interpreter" Name="At the summer place - an interpreter" Img="#13" Href="http://gallery.trafilm.net/conversation/metadata/?film=Spanglish&amp;conversation=Spanglish.At the summer place - an interpreter">
             <Facets>
                 <Facet Name="Duration (sec)">
                     <String Value="A. 1-20" />
@@ -534,7 +616,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Spanglish.Flor and Cristina at the restaurant" Name="Flor and Cristina at the restaurant" Img="#12" Href="http://gallery.trafilm.net/conversation/metadata/?film=Spanglish&amp;conversation=Spanglish.Flor and Cristina at the restaurant">
+        <Item Id="Spanglish.Flor and Cristina at the restaurant" Name="Flor and Cristina at the restaurant" Img="#14" Href="http://gallery.trafilm.net/conversation/metadata/?film=Spanglish&amp;conversation=Spanglish.Flor and Cristina at the restaurant">
             <Facets>
                 <Facet Name="Duration (sec)">
                     <String Value="A. 1-20" />
@@ -575,7 +657,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Spanglish.Going to America - narrator" Name="Going to America - narrator" Img="#13" Href="http://gallery.trafilm.net/conversation/metadata/?film=Spanglish&amp;conversation=Spanglish.Going to America - narrator">
+        <Item Id="Spanglish.Going to America - narrator" Name="Going to America - narrator" Img="#15" Href="http://gallery.trafilm.net/conversation/metadata/?film=Spanglish&amp;conversation=Spanglish.Going to America - narrator">
             <Facets>
                 <Facet Name="Duration (sec)">
                     <String Value="A. 1-20" />
@@ -610,7 +692,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Spanglish.Introduction to the Clasky's family" Name="Introduction to the Clasky's family" Img="#14" Href="http://gallery.trafilm.net/conversation/metadata/?film=Spanglish&amp;conversation=Spanglish.Introduction to the Clasky's family">
+        <Item Id="Spanglish.Introduction to the Clasky's family" Name="Introduction to the Clasky's family" Img="#16" Href="http://gallery.trafilm.net/conversation/metadata/?film=Spanglish&amp;conversation=Spanglish.Introduction to the Clasky's family">
             <Facets>
                 <Facet Name="Duration (sec)">
                     <String Value="A. 1-20" />
@@ -651,7 +733,108 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheWalk.GettingAnInterphone" Name="Getting an interphone" Img="#15" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.GettingAnInterphone">
+        <Item Id="TheTwoTowers.Aragorn_fall" Name="TheTwoTowers.Aragorn_fall" Img="#17">
+            <Facets>
+                <Facet Name="Film Reference Id">
+                    <String Value="TheTwoTowers" />
+                </Facet>
+                <Facet Name="Info created">
+                    <DateTime Value="2016-10-24T10:48:57" />
+                </Facet>
+                <Facet Name="Info updated">
+                    <DateTime Value="2016-10-24T10:48:57" />
+                </Facet>
+                <Facet Name="L3ST language types: count">
+                    <Number Value="0" />
+                </Facet>
+                <Facet Name="L3ST languages: count">
+                    <Number Value="0" />
+                </Facet>
+                <Facet Name="L3ST-instances: count">
+                    <Number Value="0" />
+                </Facet>
+                <Facet Name="Reference Id">
+                    <String Value="TheTwoTowers.Aragorn_fall" />
+                </Facet>
+            </Facets>
+        </Item>
+        <Item Id="TheTwoTowers.Gandalf_returns" Name="TheTwoTowers.Gandalf_returns" Img="#18" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Gandalf_returns">
+            <Description>Aragorn, Gimli and Legolas enter the Fangorn forest looking for the White wizard.</Description>
+            <Facets>
+                <Facet Name="Duration (sec)">
+                    <String Value="A. 1-20" />
+                </Facet>
+                <Facet Name="Film Reference Id">
+                    <String Value="TheTwoTowers" />
+                </Facet>
+                <Facet Name="Film/Season title">
+                    <String Value="The Lord of the Rings: The Two Towers" />
+                </Facet>
+                <Facet Name="Info created">
+                    <DateTime Value="2016-10-24T11:15:38" />
+                </Facet>
+                <Facet Name="Info updated">
+                    <DateTime Value="2016-10-24T11:18:58" />
+                </Facet>
+                <Facet Name="L3ST language types: count">
+                    <Number Value="0" />
+                </Facet>
+                <Facet Name="L3ST languages: count">
+                    <Number Value="0" />
+                </Facet>
+                <Facet Name="L3ST-instances: count">
+                    <Number Value="0" />
+                </Facet>
+                <Facet Name="Metadata Editors">
+                    <String Value="miquelpt" />
+                </Facet>
+                <Facet Name="Reference Id">
+                    <String Value="TheTwoTowers.Gandalf_returns" />
+                </Facet>
+                <Facet Name="Start time (min)">
+                    <Number Value="50" />
+                </Facet>
+            </Facets>
+        </Item>
+        <Item Id="TheTwoTowers.Hobbit_mourning" Name="TheTwoTowers.Hobbit_mourning" Img="#19" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Hobbit_mourning">
+            <Description>Thinking Pippin and Merry dead, Legolas prays for the hobbits in Elvish.</Description>
+            <Facets>
+                <Facet Name="Duration (sec)">
+                    <String Value="A. 1-20" />
+                </Facet>
+                <Facet Name="Film Reference Id">
+                    <String Value="TheTwoTowers" />
+                </Facet>
+                <Facet Name="Film/Season title">
+                    <String Value="The Lord of the Rings: The Two Towers" />
+                </Facet>
+                <Facet Name="Info created">
+                    <DateTime Value="2016-10-24T10:59:24" />
+                </Facet>
+                <Facet Name="Info updated">
+                    <DateTime Value="2016-10-24T11:00:23" />
+                </Facet>
+                <Facet Name="L3ST language types: count">
+                    <Number Value="0" />
+                </Facet>
+                <Facet Name="L3ST languages: count">
+                    <Number Value="0" />
+                </Facet>
+                <Facet Name="L3ST-instances: count">
+                    <Number Value="0" />
+                </Facet>
+                <Facet Name="Metadata Editors">
+                    <String Value="miquelpt" />
+                </Facet>
+                <Facet Name="Reference Id">
+                    <String Value="TheTwoTowers.Hobbit_mourning" />
+                </Facet>
+                <Facet Name="Start time (min)">
+                    <Number Value="34" />
+                </Facet>
+            </Facets>
+        </Item>
+        <Item Id="TheWalk.GettingAnInterphone" Name="Getting an interphone" Img="#20" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.GettingAnInterphone">
             <Facets>
                 <Facet Name="Duration (sec)">
                     <String Value="D. 61-80" />
@@ -688,7 +871,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheWalk.MeetingAnnie" Name="Meeting Annie" Img="#16" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingAnnie">
+        <Item Id="TheWalk.MeetingAnnie" Name="Meeting Annie" Img="#21" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingAnnie">
             <Facets>
                 <Facet Name="Duration (sec)">
                     <String Value="J. &gt; 180" />
@@ -725,7 +908,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheWalk.MeetingJean-François" Name="Meeting Jean-François" Img="#17" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingJean-François">
+        <Item Id="TheWalk.MeetingJean-François" Name="Meeting Jean-François" Img="#22" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingJean-François">
             <Facets>
                 <Facet Name="Duration (sec)">
                     <String Value="D. 61-80" />
@@ -762,7 +945,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheWalk.MeetingJean-Louis" Name="Meeting Jean-Louis" Img="#18" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingJean-Louis">
+        <Item Id="TheWalk.MeetingJean-Louis" Name="Meeting Jean-Louis" Img="#23" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingJean-Louis">
             <Facets>
                 <Facet Name="Duration (sec)">
                     <String Value="F. 101-120" />
@@ -799,7 +982,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheWalk.MeetingPapaRudy" Name="Meeting Papa Rudy" Img="#19" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingPapaRudy">
+        <Item Id="TheWalk.MeetingPapaRudy" Name="Meeting Papa Rudy" Img="#24" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingPapaRudy">
             <Facets>
                 <Facet Name="Duration (sec)">
                     <String Value="F. 101-120" />
@@ -843,7 +1026,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheWalk.OnTheRoof" Name="On the roof" Img="#20" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.OnTheRoof">
+        <Item Id="TheWalk.OnTheRoof" Name="On the roof" Img="#25" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.OnTheRoof">
             <Facets>
                 <Facet Name="Duration (sec)">
                     <String Value="D. 61-80" />
@@ -880,7 +1063,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheWalk.PlanningTheCoup" Name="Planning the coup" Img="#21" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.PlanningTheCoup">
+        <Item Id="TheWalk.PlanningTheCoup" Name="Planning the coup" Img="#26" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.PlanningTheCoup">
             <Facets>
                 <Facet Name="Duration (sec)">
                     <String Value="F. 101-120" />
@@ -917,7 +1100,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheWalk.TwinTowers" Name="Twin towers" Img="#22" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.TwinTowers">
+        <Item Id="TheWalk.TwinTowers" Name="Twin towers" Img="#27" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheWalk&amp;conversation=TheWalk.TwinTowers">
             <Facets>
                 <Facet Name="Duration (sec)">
                     <String Value="E. 81-100" />
@@ -954,7 +1137,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="ToyStory3.Buzzdances" Name="Buzz dances" Img="#23" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzdances">
+        <Item Id="ToyStory3.Buzzdances" Name="Buzz dances" Img="#28" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzdances">
             <Facets>
                 <Facet Name="Duration (sec)">
                     <String Value="A. 1-20" />
@@ -992,7 +1175,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="ToyStory3.Buzzfallsinlove" Name="Buzz falls in love" Img="#24" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzfallsinlove">
+        <Item Id="ToyStory3.Buzzfallsinlove" Name="Buzz falls in love" Img="#29" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzfallsinlove">
             <Facets>
                 <Facet Name="Duration (sec)">
                     <String Value="A. 1-20" />
@@ -1030,7 +1213,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="ToyStory3.Buzzgetsreset" Name="Buzz gets reset" Img="#25" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzgetsreset">
+        <Item Id="ToyStory3.Buzzgetsreset" Name="Buzz gets reset" Img="#30" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzgetsreset">
             <Facets>
                 <Facet Name="Duration (sec)">
                     <String Value="B. 21-40" />
@@ -1068,7 +1251,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="ToyStory3.BuzzlooksforJessie" Name="Buzz looks for Jessie" Img="#26" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.BuzzlooksforJessie">
+        <Item Id="ToyStory3.BuzzlooksforJessie" Name="Buzz looks for Jessie" Img="#31" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.BuzzlooksforJessie">
             <Facets>
                 <Facet Name="Duration (sec)">
                     <String Value="A. 1-20" />
@@ -1106,7 +1289,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="ToyStory3.Buzzopensgate" Name="Buzz opens gate" Img="#27" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzopensgate">
+        <Item Id="ToyStory3.Buzzopensgate" Name="Buzz opens gate" Img="#32" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzopensgate">
             <Facets>
                 <Facet Name="Duration (sec)">
                     <String Value="A. 1-20" />
@@ -1144,7 +1327,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="ToyStory3.Buzzscape" Name="Buzz scape" Img="#28" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzscape">
+        <Item Id="ToyStory3.Buzzscape" Name="Buzz scape" Img="#33" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzscape">
             <Facets>
                 <Facet Name="Duration (sec)">
                     <String Value="A. 1-20" />
@@ -1182,7 +1365,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="ToyStory3.Buzzspaceship" Name="Buzz spaceship" Img="#29" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzspaceship">
+        <Item Id="ToyStory3.Buzzspaceship" Name="Buzz spaceship" Img="#34" Href="http://gallery.trafilm.net/conversation/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzspaceship">
             <Facets>
                 <Facet Name="Duration (sec)">
                     <String Value="A. 1-20" />
@@ -1220,7 +1403,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Um filme falado.First port of call-Marseille" Name="First port of call - Marseille" Img="#30" Href="http://gallery.trafilm.net/conversation/metadata/?film=Um filme falado&amp;conversation=Um filme falado.First port of call-Marseille">
+        <Item Id="Um filme falado.First port of call-Marseille" Name="First port of call - Marseille" Img="#35" Href="http://gallery.trafilm.net/conversation/metadata/?film=Um filme falado&amp;conversation=Um filme falado.First port of call-Marseille">
             <Facets>
                 <Facet Name="Duration (sec)">
                     <String Value="A. 1-20" />
@@ -1270,7 +1453,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Um filme falado.The captain dinner-Captain-speaking one language" Name="The captain dinner - Captain speaking one language" Img="#31" Href="http://gallery.trafilm.net/conversation/metadata/?film=Um filme falado&amp;conversation=Um filme falado.The captain dinner-Captain-speaking one language">
+        <Item Id="Um filme falado.The captain dinner-Captain-speaking one language" Name="The captain dinner - Captain speaking one language" Img="#36" Href="http://gallery.trafilm.net/conversation/metadata/?film=Um filme falado&amp;conversation=Um filme falado.The captain dinner-Captain-speaking one language">
             <Facets>
                 <Facet Name="Duration (sec)">
                     <String Value="A. 1-20" />
@@ -1319,7 +1502,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Um filme falado.The captain dinner-Captain" Name="The captain dinner - Captain" Img="#32" Href="http://gallery.trafilm.net/conversation/metadata/?film=Um filme falado&amp;conversation=Um filme falado.The captain dinner-Captain">
+        <Item Id="Um filme falado.The captain dinner-Captain" Name="The captain dinner - Captain" Img="#37" Href="http://gallery.trafilm.net/conversation/metadata/?film=Um filme falado&amp;conversation=Um filme falado.The captain dinner-Captain">
             <Facets>
                 <Facet Name="Duration (sec)">
                     <String Value="A. 1-20" />
