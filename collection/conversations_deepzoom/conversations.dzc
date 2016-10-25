@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection MaxLevel="7" TileSize="256" Format="png" NextItemId="35" ServerFormat="Default" xmlns="http://schemas.microsoft.com/deepzoom/2009">
+<Collection MaxLevel="7" TileSize="256" Format="png" NextItemId="38" ServerFormat="Default" xmlns="http://schemas.microsoft.com/deepzoom/2009">
   <Items>
     <I Id="0" N="0" Source="Avatar.Calm_down,_people.dzi">
       <Size Width="1024" Height="576" />
@@ -52,58 +52,67 @@
     <I Id="16" N="16" Source="Spanglish.Introduction_to_the_Clasky's_family.dzi">
       <Size Width="1024" Height="576" />
     </I>
-    <I Id="17" N="17" Source="TheWalk.GettingAnInterphone.dzi">
+    <I Id="17" N="17" Source="TheTwoTowers.Aragorn_fall.dzi">
       <Size Width="1024" Height="576" />
     </I>
-    <I Id="18" N="18" Source="TheWalk.MeetingAnnie.dzi">
+    <I Id="18" N="18" Source="TheTwoTowers.Gandalf_returns.dzi">
       <Size Width="1024" Height="576" />
     </I>
-    <I Id="19" N="19" Source="TheWalk.MeetingJean-Fran%C3%A7ois.dzi">
+    <I Id="19" N="19" Source="TheTwoTowers.Hobbit_mourning.dzi">
       <Size Width="1024" Height="576" />
     </I>
-    <I Id="20" N="20" Source="TheWalk.MeetingJean-Louis.dzi">
+    <I Id="20" N="20" Source="TheWalk.GettingAnInterphone.dzi">
       <Size Width="1024" Height="576" />
     </I>
-    <I Id="21" N="21" Source="TheWalk.MeetingPapaRudy.dzi">
+    <I Id="21" N="21" Source="TheWalk.MeetingAnnie.dzi">
       <Size Width="1024" Height="576" />
     </I>
-    <I Id="22" N="22" Source="TheWalk.OnTheRoof.dzi">
+    <I Id="22" N="22" Source="TheWalk.MeetingJean-Fran%C3%A7ois.dzi">
       <Size Width="1024" Height="576" />
     </I>
-    <I Id="23" N="23" Source="TheWalk.PlanningTheCoup.dzi">
+    <I Id="23" N="23" Source="TheWalk.MeetingJean-Louis.dzi">
       <Size Width="1024" Height="576" />
     </I>
-    <I Id="24" N="24" Source="TheWalk.TwinTowers.dzi">
+    <I Id="24" N="24" Source="TheWalk.MeetingPapaRudy.dzi">
       <Size Width="1024" Height="576" />
     </I>
-    <I Id="25" N="25" Source="ToyStory3.Buzzdances.dzi">
+    <I Id="25" N="25" Source="TheWalk.OnTheRoof.dzi">
       <Size Width="1024" Height="576" />
     </I>
-    <I Id="26" N="26" Source="ToyStory3.Buzzfallsinlove.dzi">
+    <I Id="26" N="26" Source="TheWalk.PlanningTheCoup.dzi">
       <Size Width="1024" Height="576" />
     </I>
-    <I Id="27" N="27" Source="ToyStory3.Buzzgetsreset.dzi">
+    <I Id="27" N="27" Source="TheWalk.TwinTowers.dzi">
       <Size Width="1024" Height="576" />
     </I>
-    <I Id="28" N="28" Source="ToyStory3.BuzzlooksforJessie.dzi">
+    <I Id="28" N="28" Source="ToyStory3.Buzzdances.dzi">
       <Size Width="1024" Height="576" />
     </I>
-    <I Id="29" N="29" Source="ToyStory3.Buzzopensgate.dzi">
+    <I Id="29" N="29" Source="ToyStory3.Buzzfallsinlove.dzi">
       <Size Width="1024" Height="576" />
     </I>
-    <I Id="30" N="30" Source="ToyStory3.Buzzscape.dzi">
+    <I Id="30" N="30" Source="ToyStory3.Buzzgetsreset.dzi">
       <Size Width="1024" Height="576" />
     </I>
-    <I Id="31" N="31" Source="ToyStory3.Buzzspaceship.dzi">
+    <I Id="31" N="31" Source="ToyStory3.BuzzlooksforJessie.dzi">
       <Size Width="1024" Height="576" />
     </I>
-    <I Id="32" N="32" Source="Um_filme_falado.First_port_of_call-Marseille.dzi">
+    <I Id="32" N="32" Source="ToyStory3.Buzzopensgate.dzi">
       <Size Width="1024" Height="576" />
     </I>
-    <I Id="33" N="33" Source="Um_filme_falado.The_captain_dinner-Captain-speaking_one_language.dzi">
+    <I Id="33" N="33" Source="ToyStory3.Buzzscape.dzi">
       <Size Width="1024" Height="576" />
     </I>
-    <I Id="34" N="34" Source="Um_filme_falado.The_captain_dinner-Captain.dzi">
+    <I Id="34" N="34" Source="ToyStory3.Buzzspaceship.dzi">
+      <Size Width="1024" Height="576" />
+    </I>
+    <I Id="35" N="35" Source="Um_filme_falado.First_port_of_call-Marseille.dzi">
+      <Size Width="1024" Height="576" />
+    </I>
+    <I Id="36" N="36" Source="Um_filme_falado.The_captain_dinner-Captain-speaking_one_language.dzi">
+      <Size Width="1024" Height="576" />
+    </I>
+    <I Id="37" N="37" Source="Um_filme_falado.The_captain_dinner-Captain.dzi">
       <Size Width="1024" Height="576" />
     </I>
   </Items>
