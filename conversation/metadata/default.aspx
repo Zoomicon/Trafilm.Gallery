@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: conversation\metadata\default.aspx
-Version: 20161024
+Version: 20161029
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -241,6 +241,9 @@ Version: 20161024
             height="50"
             OnClick="btnSave_Click"
             />
+          &nbsp;
+          &nbsp;
+          <i>Gallery contents are updated periodically during the day from saved metadata</i>
           <br /><br />
         </asp:Panel>
 
