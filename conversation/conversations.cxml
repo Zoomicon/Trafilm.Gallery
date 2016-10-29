@@ -21,7 +21,7 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Aladdin.3 wishes offered" Name="Aladdin.3 wishes offered" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Aladdin&amp;conversation=Aladdin.3 wishes offered">
+    <Item Id="Aladdin.3 wishes offered" Name="Three wishes offered" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Aladdin&amp;conversation=Aladdin.3 wishes offered">
       <Description>Genie offers Aladdin three wishes</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -31,10 +31,11 @@
           <DateTime Value="2016-10-26T05:50:38" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-26T06:02:02" />
+          <DateTime Value="2016-10-29T06:06:04" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="PatrickZabalbeascoa" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Aladdin" />
