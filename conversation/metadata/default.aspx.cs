@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: conversation\metadata\default.aspx.cs
-//Version: 20161019
+//Version: 20161029
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -58,6 +58,10 @@ namespace Trafilm.Gallery
 
       CreateConversation(filmId, conversationId, ((listConversations.SelectedIndex > 0) && cbClone.Checked) ? GetMetadataFromUI() : null);
       SelectConversation(conversationId);
+
+      //initialize Title//
+      if (!cbClone.Checked)
+        txtTitle.Text = conversationPartialId.Replace("_", ", "); //not using conversationId here, using the partial one instead (note that dots have already been removed above)
     }
 
     public void Rename()
