@@ -121,7 +121,8 @@
           <String Value="Oral diegetic on-screen" />
         </Facet>
         <Facet Name="L3TT functions">
-          <String Value="Character portrayal, stereotypical" />
+          <String Value="Character portrayal" />
+          <String Value="Stereotype" />
           <String Value="Comedy / humour" />
         </Facet>
         <Facet Name="Conversation features for L3TT-instance">
@@ -342,7 +343,7 @@
           <String Value="Oral diegetic on-screen" />
         </Facet>
         <Facet Name="L3TT functions">
-          <String Value="Character portrayal, nonstereotypical" />
+          <String Value="Character portrayal" />
           <String Value="Plot (twist)" />
           <String Value="Signals otherness" />
           <String Value="Metalinguistic" />
@@ -1286,7 +1287,8 @@
           <String Value="NO / Not applicable" />
         </Facet>
         <Facet Name="L3TT functions">
-          <String Value="Character portrayal, stereotypical" />
+          <String Value="Character portrayal" />
+          <String Value="Stereotype" />
         </Facet>
         <Facet Name="Conversation features for L3TT-instance">
           <String Value="bonding" />
@@ -1396,7 +1398,8 @@
           <String Value="NO / Not applicable" />
         </Facet>
         <Facet Name="L3TT functions">
-          <String Value="Character portrayal, stereotypical" />
+          <String Value="Character portrayal" />
+          <String Value="Stereotype" />
         </Facet>
         <Facet Name="Conversation features for L3TT-instance">
           <String Value="bonding" />
@@ -1505,7 +1508,8 @@
           <String Value="NO / Not applicable" />
         </Facet>
         <Facet Name="L3TT functions">
-          <String Value="Character portrayal, stereotypical" />
+          <String Value="Character portrayal" />
+          <String Value="Stereotype" />
         </Facet>
         <Facet Name="Conversation features for L3TT-instance">
           <String Value="bonding" />
@@ -1610,7 +1614,8 @@
           <String Value="NO / Not applicable" />
         </Facet>
         <Facet Name="L3TT functions">
-          <String Value="Character portrayal, stereotypical" />
+          <String Value="Character portrayal" />
+          <String Value="Stereotype" />
         </Facet>
         <Facet Name="L3TT sources">
           <String Value="Non-diegetic translation" />
@@ -1839,10 +1844,11 @@
           <DateTime Value="2016-10-26T12:22:24" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-26T12:24:50" />
+          <DateTime Value="2016-10-29T06:38:38" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="PatrickZabalbeascoa" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Inglourious Basterds" />
@@ -1907,7 +1913,8 @@
           <String Value="None" />
         </Facet>
         <Facet Name="L3 functions change">
-          <String Value="- Character portrayal, stereotypical" />
+          <String Value="- Character portrayal" />
+          <String Value="- Stereotype" />
           <String Value="+ Theme" />
         </Facet>
         <Facet Name="Conversation features for L3-instance change">
@@ -1936,10 +1943,11 @@
           <DateTime Value="2016-10-26T08:48:19" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-26T09:50:54" />
+          <DateTime Value="2016-10-29T06:39:10" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="PatrickZabalbeascoa" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Inglourious Basterds" />
@@ -1987,7 +1995,7 @@
           <String Value="YES, (almost) completely" />
         </Facet>
         <Facet Name="L3TT functions">
-          <String Value="Character portrayal, nonstereotypical" />
+          <String Value="Character portrayal" />
           <String Value="Metalinguistic" />
         </Facet>
         <Facet Name="Conversation features for L3TT-instance">
@@ -2004,10 +2012,9 @@
           <String Value="- Oral diegetic on-screen" />
         </Facet>
         <Facet Name="L3 functions change">
-          <String Value="- Character portrayal, stereotypical" />
+          <String Value="- Stereotype" />
           <String Value="- Dramatic effect" />
           <String Value="- Signals otherness" />
-          <String Value="+ Character portrayal, nonstereotypical" />
         </Facet>
         <Facet Name="Conversation features for L3-instance change">
           <String Value="- anecdote / story" />
@@ -2153,7 +2160,7 @@ There is another conversation taking place among women at the kitchen.</Descript
           <DateTime Value="2016-06-08T01:44:15" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-09-08T10:48:43" />
+          <DateTime Value="2016-10-29T06:39:54" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="George" />
@@ -2216,7 +2223,7 @@ There is another conversation taking place among women at the kitchen.</Descript
           <String Value="Physical appearance" />
         </Facet>
         <Facet Name="L3TT functions">
-          <String Value="Character portrayal, nonstereotypical" />
+          <String Value="Character portrayal" />
           <String Value="Comedy / humour" />
         </Facet>
         <Facet Name="L3 language type change">
@@ -2227,7 +2234,7 @@ There is another conversation taking place among women at the kitchen.</Descript
           <String Value="None" />
         </Facet>
         <Facet Name="L3 functions change">
-          <String Value="- Character portrayal, stereotypical" />
+          <String Value="- Stereotype" />
         </Facet>
         <Facet Name="Conversation features for L3-instance change">
           <String Value="None" />
@@ -2303,7 +2310,7 @@ There is another conversation taking place among women at the kitchen.</Descript
           <String Value="+ Oral diegetic on-screen" />
         </Facet>
         <Facet Name="L3 functions change">
-          <String Value="- Character portrayal, nonstereotypical" />
+          <String Value="- Character portrayal" />
           <String Value="- Plot (twist)" />
           <String Value="+ Suspense" />
         </Facet>
@@ -2390,7 +2397,7 @@ There is another conversation taking place among women at the kitchen.</Descript
           <String Value="- Oral diegetic on-screen" />
         </Facet>
         <Facet Name="L3 functions change">
-          <String Value="- Character portrayal, nonstereotypical" />
+          <String Value="- Character portrayal" />
           <String Value="- Comedy / humour" />
         </Facet>
         <Facet Name="Conversation features for L3-instance change">

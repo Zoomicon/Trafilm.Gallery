@@ -21,7 +21,7 @@
         <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
     </FacetCategories>
     <Items ImgBase="conversations_deepzoom\conversations.dzc">
-        <Item Id="Aladdin.3 wishes offered" Name="Aladdin.3 wishes offered" Img="#0" Href="http://gallery.trafilm.net/conversation/metadata/?film=Aladdin&amp;conversation=Aladdin.3 wishes offered">
+        <Item Id="Aladdin.3 wishes offered" Name="Three wishes offered" Img="#0" Href="http://gallery.trafilm.net/conversation/metadata/?film=Aladdin&amp;conversation=Aladdin.3 wishes offered">
             <Description>Genie offers Aladdin three wishes</Description>
             <Facets>
                 <Facet Name="Duration (sec)">
@@ -37,7 +37,7 @@
                     <DateTime Value="2016-10-26T05:50:38" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-10-26T06:02:02" />
+                    <DateTime Value="2016-10-29T06:06:04" />
                 </Facet>
                 <Facet Name="L3ST language types">
                     <String Value="Real" />
@@ -56,6 +56,7 @@
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="PatrickZabalbeascoa" />
+                    <String Value="George" />
                 </Facet>
                 <Facet Name="Reference Id">
                     <String Value="Aladdin.3 wishes offered" />
