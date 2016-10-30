@@ -255,6 +255,77 @@
         </Facet>
       </Facets>
     </Item>
+    <Item Id="FellowshipOfTheRing.Arwen_curing_Frodo.Arwen_speaking" Name="Arwen, curing, Frodo" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Arwen_curing_Frodo&amp;L3STinstance=FellowshipOfTheRing.Arwen_curing_Frodo.Arwen_speaking">
+      <Description>In the forest, Arwen talks to Frodo in Elvish to cure him after being stabbed by a Ringwraith.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="FellowshipOfTheRing.Arwen_curing_Frodo.Arwen_speaking" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Arwen: Frodo... Im Arwen. Telin le thaed (SUB: I am Arwen - I've come to help you.)&#xD;&#xA;&#xD;&#xA;Lasto beth nîn. (SUB: Hear my voice...) Tolo dan na ngalad. (SUB: Come back to the light.)&#xD;&#xA;" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-30T03:07:34" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-30T03:10:28" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="miquelpt" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="FellowshipOfTheRing" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="FellowshipOfTheRing.Arwen_curing_Frodo" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="76" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="Elvish" />
+        </Facet>
+        <Facet Name="L3ST language type">
+          <String Value="Constructed (fictional)" />
+        </Facet>
+        <Facet Name="L3ST language">
+          <String Value="Elvish" />
+        </Facet>
+        <Facet Name="L3ST constructed based on">
+          <String Value="“from scratch”" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="Quality of L3ST speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3ST mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3ST merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
+        <Facet Name="L3ST functions">
+          <String Value="Dramatic effect" />
+        </Facet>
+        <Facet Name="L3ST sources">
+          <String Value="Oral L3: single source" />
+        </Facet>
+        <Facet Name="L3TT-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="FellowshipOfTheRing.Elrond_Dagorlad_battle.Rally" Name="Elrond - Dagorlad battle - Rally" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Elrond_Dagorlad_battle&amp;L3STinstance=FellowshipOfTheRing.Elrond_Dagorlad_battle.Rally">
       <Description>Elrond leads the Last Alliance in the battle of Dagorlad and rallies them in Elvish.</Description>
       <Facets>
@@ -1076,7 +1147,7 @@
           <DateTime Value="2016-10-30T02:41:52" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-30T02:50:06" />
+          <DateTime Value="2016-10-30T03:10:24" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Stavroula" />
@@ -1122,6 +1193,9 @@
         </Facet>
         <Facet Name="L3ST functions">
           <String Value="Character portrayal" />
+        </Facet>
+        <Facet Name="Conversation features for L3ST-instance">
+          <String Value="warning" />
         </Facet>
         <Facet Name="L3ST sources">
           <String Value="Oral L3: single source" />
