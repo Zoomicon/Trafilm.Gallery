@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="TheTwoTowers.Aragorn_Arwen_Evenstar3.Elrond_speaking" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Aragorn, Arwen, Evenstar3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -30,17 +30,23 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="TheTwoTowers.Aragorn_Arwen_Evenstar3.Elrond_speaking" Name="TheTwoTowers.Aragorn_Arwen_Evenstar3.Elrond_speaking" Img="" Href="">
-      <Description></Description>
+    <Item Id="TheTwoTowers.Aragorn_Arwen_Evenstar3.Elrond_speaking" Name="Aragorn, Arwen, Evenstar3" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Aragorn_Arwen_Evenstar3&amp;L3STinstance=TheTwoTowers.Aragorn_Arwen_Evenstar3.Elrond_speaking">
+      <Description>Arwen decides to stay in Middle-Earth and become a mortal. She argues with her father about that. </Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="TheTwoTowers.Aragorn_Arwen_Evenstar3.Elrond_speaking" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Elrond: Arwen Tollen i lû. I chair gwannar na Valannor. Si bado, no círar. (SUB: Arwen, It is time. // The ships are leaving for Valinor. / Go now before it is too late.)&#xD;&#xA;&#xD;&#xA;Arwen: I have made my choice.&#xD;&#xA;&#xD;&#xA;Elrond: He is not coming back. Why do you linger here when there is no hope?&#xD;&#xA;&#xD;&#xA;Arwen: There is still hope.&#xD;&#xA;&#xD;&#xA;Elrond: If Aragorn survives this war, you will still be parted. If Sauron is defeated and Aragorn made king and all that you hope for comes true you will still have to taste the bitterness of mortality. Whether by the sword or the slow decay of time, Aragorn will die. And there will be no comfort for you, no comfort to ease the pain of his passing. He will come to death, an image of the splendor of the kings of Men, in glory undimmed before the breaking of the world. But you, my daughter, you will linger on in darkness and in doubt, as nightfall in winter that comes without a star. Here you will dwell bound to your grief, under the fading trees, until all the world is changed and the long years of your Life are utterly spent. Arwen. There is nothing for you here, only death.&#xD;&#xA;A im, ú-`erin veleth lîn? (SUB: Do I not also have your Love?)&#xD;&#xA;&#xD;&#xA;Arwen: Gerich meleth nîn, ada (SUB: You have my Love, father.)" />
         </Facet>
         <Facet Name="Info created">
           <DateTime Value="2016-10-29T07:19:56" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-29T07:19:56" />
+          <DateTime Value="2016-10-29T08:08:28" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="miquelpt" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="TheTwoTowers" />
@@ -48,8 +54,50 @@
         <Facet Name="Conversation Reference Id">
           <String Value="TheTwoTowers.Aragorn_Arwen_Evenstar3" />
         </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="123" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="I. 161-180" />
+        </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L3ST language type">
+          <String Value="Constructed (fictional)" />
+        </Facet>
+        <Facet Name="L3ST language">
+          <String Value="Elvish" />
+        </Facet>
+        <Facet Name="L3ST constructed based on">
+          <String Value="“from scratch”" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="Quality of L3ST speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3ST merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
+        <Facet Name="L3ST functions">
+          <String Value="Dramatic effect" />
+        </Facet>
+        <Facet Name="Conversation features for L3ST-instance">
+          <String Value="domestic / family" />
+        </Facet>
+        <Facet Name="L3ST sources">
+          <String Value="Respond interlingually: different sources " />
+        </Facet>
         <Facet Name="L3TT-instances: count">
-          <Number Value="0" />
+          <Number Value="2" />
         </Facet>
       </Facets>
     </Item>

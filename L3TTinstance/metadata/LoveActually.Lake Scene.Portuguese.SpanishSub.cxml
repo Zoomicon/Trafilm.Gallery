@@ -12,7 +12,7 @@
     <FacetCategory Name="Year TT released" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Film TT Blockbuster" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Conversation start time (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
-    <FacetCategory Name="Conversation duration (sec)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Conversation duration (sec)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="L2 same as L3ST" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="L3ST conveyed as L3TT" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="L3TT language type" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -49,17 +49,18 @@
           <String Value="LoveActually.Lake Scene.Portuguese.SpanishSub" />
         </Facet>
         <Facet Name="Transcription">
-          <String Value="616&#xD;&#xA;00:45:11,406 -- 00:45:14,922&#xD;&#xA;Hola.&#xD;&#xA;&#xD;&#xA;617&#xD;&#xA;00:45:21,448 -- 00:45:23,838&#xD;&#xA;Lo siento.&#xD;&#xA;&#xD;&#xA;618&#xD;&#xA;00:45:27,304 -- 00:45:28,847&#xD;&#xA;Hola.&#xD;&#xA;&#xD;&#xA;619&#xD;&#xA;00:45:44,014 -- 00:45:46,483&#xD;&#xA;- Gracias.&#xD;&#xA;- ¡No!&#xD;&#xA;&#xD;&#xA;620&#xD;&#xA;00:45:46,535 -- 00:45:49,608&#xD;&#xA;- Le pido disculpas.&#xD;&#xA;- No. Espera.&#xD;&#xA;&#xD;&#xA;621&#xD;&#xA;00:45:49,656 -- 00:45:52,124&#xD;&#xA;- Dios, es medio libro. Oh, no.&#xD;&#xA;- ¡Qué desastre!&#xD;&#xA;&#xD;&#xA;622&#xD;&#xA;00:45:52,176 -- 00:45:55,567&#xD;&#xA;Sólo déjalo, ¡por favor!&#xD;&#xA;No son importantes.&#xD;&#xA;&#xD;&#xA;623&#xD;&#xA;00:45:55,617 -- 00:45:58,212&#xD;&#xA;¡No valen nada!&#xD;&#xA;&#xD;&#xA;624&#xD;&#xA;00:45:58,258 -- 00:46:01,092&#xD;&#xA;¡Detente! Detente.&#xD;&#xA;&#xD;&#xA;625&#xD;&#xA;00:46:04,780 -- 00:46:06,896&#xD;&#xA;Es sólo basura.&#xD;&#xA;&#xD;&#xA;626&#xD;&#xA;00:46:08,461 -- 00:46:10,531&#xD;&#xA;Sólo déjalo.&#xD;&#xA;" />
+          <String Value="43.17&#xD;&#xA;Gracias.&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;¡Es la mitad del libro!&#xD;&#xA;&#xD;&#xA;¡Por favor, déjalas, por favor!&#xD;&#xA;No son importantes.&#xD;&#xA;&#xD;&#xA;¡No vale la pena!&#xD;&#xA;&#xD;&#xA;¡Para, para!&#xD;&#xA;&#xD;&#xA;Es una porquería.&#xD;&#xA;&#xD;&#xA;Olvídalo.&#xD;&#xA;" />
         </Facet>
         <Facet Name="Info created">
           <DateTime Value="2016-06-15T02:43:24" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-09-08T10:48:37" />
+          <DateTime Value="2016-10-30T10:40:02" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Stavroula" />
           <String Value="George" />
+          <String Value="evaespasa" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="LoveActually" />
@@ -79,8 +80,17 @@
         <Facet Name="L2 mode">
           <String Value="Subtitled" />
         </Facet>
+        <Facet Name="Distribution countries (TT)">
+          <String Value="Spain" />
+        </Facet>
         <Facet Name="Year TT released">
           <Number Value="2003" />
+        </Facet>
+        <Facet Name="Film TT Blockbuster">
+          <String Value="YES (top 20)" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="I. 161-180" />
         </Facet>
         <Facet Name="L2 same as L3ST">
           <String Value="No" />
@@ -99,13 +109,16 @@
           <String Value="- Oral diegetic on-screen" />
         </Facet>
         <Facet Name="L3 functions change">
-          <String Value="+ Dramatic effect" />
+          <String Value="- Character portrayal" />
+          <String Value="- Plot (twist)" />
         </Facet>
         <Facet Name="Conversation features for L3-instance change">
-          <String Value="None" />
+          <String Value="- embarassing" />
+          <String Value="- informal" />
         </Facet>
         <Facet Name="L3 sources change">
-          <String Value="None" />
+          <String Value="- Oral L3: single source" />
+          <String Value="+ " />
         </Facet>
       </Facets>
     </Item>

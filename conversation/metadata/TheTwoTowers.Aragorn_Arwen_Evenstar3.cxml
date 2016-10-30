@@ -31,7 +31,7 @@
           <DateTime Value="2016-10-29T07:18:08" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-29T07:19:37" />
+          <DateTime Value="2016-10-29T08:30:53" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="miquelpt" />
@@ -46,16 +46,22 @@
           <Number Value="123" />
         </Facet>
         <Facet Name="Duration (sec)">
-          <String Value="A. 1-20" />
+          <String Value="I. 161-180" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Elvish" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Constructed (fictional)" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>
