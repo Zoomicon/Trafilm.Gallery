@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="FellowshipOfTheRing.Ring Inscription.Discovering_the_meaning.SpanishSub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="FellowshipOfTheRing.ElrondCouncil_Gandalf.Gandalf_speaks_Mordor_language.SpanishDub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -42,24 +42,24 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="FellowshipOfTheRing.Ring Inscription.Discovering_the_meaning.SpanishSub" Name="FellowshipOfTheRing.Ring Inscription.Discovering_the_meaning.SpanishSub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Ring Inscription&amp;L3STinstance=FellowshipOfTheRing.Ring Inscription.Discovering_the_meaning&amp;L3TTinstance=FellowshipOfTheRing.Ring Inscription.Discovering_the_meaning.SpanishSub">
-      <Description>Gandalf confirms Frodo is holding the One Ring when they discover the hidden inscription written in the Mordor language.</Description>
+    <Item Id="FellowshipOfTheRing.ElrondCouncil_Gandalf.Gandalf_speaks_Mordor_language.SpanishDub" Name="FellowshipOfTheRing.ElrondCouncil_Gandalf.Gandalf_speaks_Mordor_language.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.ElrondCouncil_Gandalf&amp;L3STinstance=FellowshipOfTheRing.ElrondCouncil_Gandalf.Gandalf_speaks_Mordor_language&amp;L3TTinstance=FellowshipOfTheRing.ElrondCouncil_Gandalf.Gandalf_speaks_Mordor_language.SpanishDub">
+      <Description>During the Council of Elrond, Gandalf utters the Mordor language words inscribed in the Ring, thus provoking a turmoil in the room.</Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="FellowshipOfTheRing.Ring Inscription.Discovering_the_meaning.SpanishSub" />
+          <String Value="FellowshipOfTheRing.ElrondCouncil_Gandalf.Gandalf_speaks_Mordor_language.SpanishDub" />
         </Facet>
         <Facet Name="Transcription">
-          <String Value="Frodo: Wait. (SUB: Espera.) There are markings. (SUB: Hay unas marcas.)&#xD;&#xA;&#xD;&#xA;(An inscription of an unknown language is perceived on the side of the ring. The words, in red, reflect on Frodo's face as he speaks.)&#xD;&#xA;&#xD;&#xA;Frodo: It's some form of Elvish. (SUB: Parece élfico.) I can’t read it. (SUB: No sé leerlo.)&#xD;&#xA;&#xD;&#xA;Gandalf: There are few who can. (SUB: solo unos pocos pueden.) The language is that of Mordor, which I will not utter here. (SUB: Es la lengua de Mordor / que no usaré aquí).&#xD;&#xA;&#xD;&#xA;Frodo: Mordor? (SUB: Mordor.)&#xD;&#xA;&#xD;&#xA;Gandalf: In the common tongue it says, (SUB: En la lengua común dice:) &quot;One Ring to rule them all, (SUB: Un Anillo para gobernarlos a todos,) One Ring to find them. (SUB: un Anillo para encontrarlos,) One Ring to bring them all (SUB: un Anillo para atraerlos) and in the darkness bind them.&quot; (SUB: y atarlos en las tinieblas.)" />
+          <String Value="Gandalf:&#xD;&#xA;Ash nazg durbatulûk, ash nazg gimbatul,&#xD;&#xA;ash nazg thrakatulûk agh burzum-ishi krimpatul.&#xD;&#xA;(not subtitled)&#xD;&#xA;&#xD;&#xA;Elrond: Jamás antes una voz dijo palabras en esa lengua aquí, en Imladris.&#xD;&#xA;&#xD;&#xA;Gandalf: No he de pedir perdón, maestro Elrond, pues la Lengua Oscura de Mordor puede ser oída en cualquier rincón del Oeste. El Anillo es el Mal en sí mismo." />
         </Facet>
         <Facet Name="Tags">
           <String Value="Mordor language" />
           <String Value=" Black Speech" />
         </Facet>
         <Facet Name="Info created">
-          <DateTime Value="2016-10-30T02:48:21" />
+          <DateTime Value="2016-10-30T04:21:59" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-30T04:21:25" />
+          <DateTime Value="2016-10-30T04:28:32" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="miquelpt" />
@@ -68,10 +68,10 @@
           <String Value="FellowshipOfTheRing" />
         </Facet>
         <Facet Name="Conversation Reference Id">
-          <String Value="FellowshipOfTheRing.Ring Inscription" />
+          <String Value="FellowshipOfTheRing.ElrondCouncil_Gandalf" />
         </Facet>
         <Facet Name="L3ST-instance Reference Id">
-          <String Value="FellowshipOfTheRing.Ring Inscription.Discovering_the_meaning" />
+          <String Value="FellowshipOfTheRing.ElrondCouncil_Gandalf.Gandalf_speaks_Mordor_language" />
         </Facet>
         <Facet Name="Film Title TT">
           <String Value="La comunidad del Anillo" />
@@ -80,7 +80,7 @@
           <String Value="Spanish" />
         </Facet>
         <Facet Name="L2 mode">
-          <String Value="Subtitled" />
+          <String Value="Dubbed" />
         </Facet>
         <Facet Name="Year TT released">
           <Number Value="2001" />
@@ -89,7 +89,7 @@
           <String Value="YES (top 20)" />
         </Facet>
         <Facet Name="Conversation start time (min)">
-          <Number Value="36" />
+          <Number Value="94" />
         </Facet>
         <Facet Name="Conversation duration (sec)">
           <String Value="B. 21-40" />
@@ -104,7 +104,7 @@
           <String Value="Constructed (fictional)" />
         </Facet>
         <Facet Name="L3TT language">
-          <String Value="Mordor language" />
+          <String Value="Mordor language (Black Speech)" />
         </Facet>
         <Facet Name="L3TT constructed based on">
           <String Value="“from scratch”" />
@@ -122,19 +122,21 @@
           <String Value="native or proficient" />
         </Facet>
         <Facet Name="L3TT mode, written/spoken, diegetic">
-          <String Value="Written diegetic" />
+          <String Value="Oral diegetic on-screen" />
         </Facet>
         <Facet Name="L3TT merely represented">
           <String Value="L3 mentioned, talked about" />
-          <String Value="NO / Not applicable" />
         </Facet>
         <Facet Name="L3TT functions">
-          <String Value="Theme" />
+          <String Value="Dramatic effect" />
           <String Value="Signals the bad guy" />
           <String Value="Metalinguistic" />
         </Facet>
+        <Facet Name="Conversation features for L3TT-instance">
+          <String Value="recitation" />
+        </Facet>
         <Facet Name="L3TT sources">
-          <String Value="Rephrase interlingually: different sources" />
+          <String Value="Oral L3: single source" />
         </Facet>
         <Facet Name="L3 language type change">
           <String Value="None" />
@@ -143,11 +145,10 @@
           <String Value="None" />
         </Facet>
         <Facet Name="L3 functions change">
-          <String Value="+ Signals the bad guy" />
-          <String Value="+ Metalinguistic" />
+          <String Value="None" />
         </Facet>
         <Facet Name="Conversation features for L3-instance change">
-          <String Value="None" />
+          <String Value="- balanced exchange" />
         </Facet>
         <Facet Name="L3 sources change">
           <String Value="None" />

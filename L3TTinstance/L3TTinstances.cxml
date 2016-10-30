@@ -494,7 +494,7 @@
           <DateTime Value="2016-10-30T04:00:39" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-30T04:06:34" />
+          <DateTime Value="2016-10-30T04:09:43" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="miquelpt" />
@@ -760,6 +760,440 @@
         </Facet>
         <Facet Name="L3TT message required for understanding">
           <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT meaning decipherable">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="Quality of L3TT speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3TT mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3TT merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
+        <Facet Name="L3TT functions">
+          <String Value="Dramatic effect" />
+        </Facet>
+        <Facet Name="L3TT sources">
+          <String Value="Oral L3: single source" />
+        </Facet>
+        <Facet Name="L3 language type change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 mode change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 functions change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="Conversation features for L3-instance change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 sources change">
+          <String Value="None" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="FellowshipOfTheRing.ElrondCouncil_Gandalf.Gandalf_speaks_Mordor_language.SpanishDub" Name="FellowshipOfTheRing.ElrondCouncil_Gandalf.Gandalf_speaks_Mordor_language.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.ElrondCouncil_Gandalf&amp;L3STinstance=FellowshipOfTheRing.ElrondCouncil_Gandalf.Gandalf_speaks_Mordor_language&amp;L3TTinstance=FellowshipOfTheRing.ElrondCouncil_Gandalf.Gandalf_speaks_Mordor_language.SpanishDub">
+      <Description>During the Council of Elrond, Gandalf utters the Mordor language words inscribed in the Ring, thus provoking a turmoil in the room.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="FellowshipOfTheRing.ElrondCouncil_Gandalf.Gandalf_speaks_Mordor_language.SpanishDub" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Gandalf:&#xD;&#xA;Ash nazg durbatulûk, ash nazg gimbatul,&#xD;&#xA;ash nazg thrakatulûk agh burzum-ishi krimpatul.&#xD;&#xA;(not subtitled)&#xD;&#xA;&#xD;&#xA;Elrond: Jamás antes una voz dijo palabras en esa lengua aquí, en Imladris.&#xD;&#xA;&#xD;&#xA;Gandalf: No he de pedir perdón, maestro Elrond, pues la Lengua Oscura de Mordor puede ser oída en cualquier rincón del Oeste. El Anillo es el Mal en sí mismo." />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="Mordor language" />
+          <String Value=" Black Speech" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-30T04:21:59" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-30T04:28:32" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="miquelpt" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="FellowshipOfTheRing" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="FellowshipOfTheRing.ElrondCouncil_Gandalf" />
+        </Facet>
+        <Facet Name="L3ST-instance Reference Id">
+          <String Value="FellowshipOfTheRing.ElrondCouncil_Gandalf.Gandalf_speaks_Mordor_language" />
+        </Facet>
+        <Facet Name="Film Title TT">
+          <String Value="La comunidad del Anillo" />
+        </Facet>
+        <Facet Name="L2 language">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L2 mode">
+          <String Value="Dubbed" />
+        </Facet>
+        <Facet Name="Year TT released">
+          <Number Value="2001" />
+        </Facet>
+        <Facet Name="Film TT Blockbuster">
+          <String Value="YES (top 20)" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="94" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="B. 21-40" />
+        </Facet>
+        <Facet Name="L2 same as L3ST">
+          <String Value="No" />
+        </Facet>
+        <Facet Name="L3ST conveyed as L3TT">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT language type">
+          <String Value="Constructed (fictional)" />
+        </Facet>
+        <Facet Name="L3TT language">
+          <String Value="Mordor language (Black Speech)" />
+        </Facet>
+        <Facet Name="L3TT constructed based on">
+          <String Value="“from scratch”" />
+        </Facet>
+        <Facet Name="L3TT meant to be understood">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="L3TT message required for understanding">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT meaning decipherable">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="Quality of L3TT speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3TT mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3TT merely represented">
+          <String Value="L3 mentioned, talked about" />
+        </Facet>
+        <Facet Name="L3TT functions">
+          <String Value="Dramatic effect" />
+          <String Value="Signals the bad guy" />
+          <String Value="Metalinguistic" />
+        </Facet>
+        <Facet Name="Conversation features for L3TT-instance">
+          <String Value="recitation" />
+        </Facet>
+        <Facet Name="L3TT sources">
+          <String Value="Oral L3: single source" />
+        </Facet>
+        <Facet Name="L3 language type change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 mode change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 functions change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="Conversation features for L3-instance change">
+          <String Value="- balanced exchange" />
+        </Facet>
+        <Facet Name="L3 sources change">
+          <String Value="None" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="FellowshipOfTheRing.ElrondCouncil_Gandalf.Gandalf_speaks_Mordor_language.SpanishSub" Name="FellowshipOfTheRing.ElrondCouncil_Gandalf.Gandalf_speaks_Mordor_language.SpanishSub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.ElrondCouncil_Gandalf&amp;L3STinstance=FellowshipOfTheRing.ElrondCouncil_Gandalf.Gandalf_speaks_Mordor_language&amp;L3TTinstance=FellowshipOfTheRing.ElrondCouncil_Gandalf.Gandalf_speaks_Mordor_language.SpanishSub">
+      <Description>During the Council of Elrond, Gandalf utters the Mordor language words inscribed in the Ring, thus provoking a turmoil in the room.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="FellowshipOfTheRing.ElrondCouncil_Gandalf.Gandalf_speaks_Mordor_language.SpanishSub" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Gandalf:&#xD;&#xA;Ash nazg durbatulûk, ash nazg gimbatul,&#xD;&#xA;ash nazg thrakatulûk agh burzum-ishi krimpatul.&#xD;&#xA;(not subtitled)&#xD;&#xA;&#xD;&#xA;Elrond: Never before has any voice uttered the words of that tongue here in Imladris! (SUB: Nunca antes se habían pronunciado / palabras en esa lengua en Imladris.)&#xD;&#xA;&#xD;&#xA;Gandalf: I do not ask your pardon, Master Elrond, (SUB: ¡No pido tu perdón, Maestro Elrond,) for the Black Speech of Mordor (SUB: pues la Lengua Negra de Mordor) may yet be heard (SUB: puede ser oída) in every corner of the West! (SUB: en cualquier rincón del Oeste!) The Ring is altogether Evil! (SUB: El Anillo es el mal en sí mismo.)" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="Mordor language" />
+          <String Value=" Black Speech" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-30T04:21:59" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-30T04:34:13" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="miquelpt" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="FellowshipOfTheRing" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="FellowshipOfTheRing.ElrondCouncil_Gandalf" />
+        </Facet>
+        <Facet Name="L3ST-instance Reference Id">
+          <String Value="FellowshipOfTheRing.ElrondCouncil_Gandalf.Gandalf_speaks_Mordor_language" />
+        </Facet>
+        <Facet Name="Film Title TT">
+          <String Value="La comunidad del Anillo" />
+        </Facet>
+        <Facet Name="L2 language">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L2 mode">
+          <String Value="Subtitled" />
+        </Facet>
+        <Facet Name="Year TT released">
+          <Number Value="2001" />
+        </Facet>
+        <Facet Name="Film TT Blockbuster">
+          <String Value="YES (top 20)" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="94" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="B. 21-40" />
+        </Facet>
+        <Facet Name="L2 same as L3ST">
+          <String Value="No" />
+        </Facet>
+        <Facet Name="L3ST conveyed as L3TT">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT language type">
+          <String Value="Constructed (fictional)" />
+        </Facet>
+        <Facet Name="L3TT language">
+          <String Value="Mordor language (Black Speech)" />
+        </Facet>
+        <Facet Name="L3TT constructed based on">
+          <String Value="“from scratch”" />
+        </Facet>
+        <Facet Name="L3TT meant to be understood">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="L3TT message required for understanding">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT meaning decipherable">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="Quality of L3TT speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3TT mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3TT merely represented">
+          <String Value="L3 mentioned, talked about" />
+        </Facet>
+        <Facet Name="L3TT functions">
+          <String Value="Dramatic effect" />
+          <String Value="Signals the bad guy" />
+          <String Value="Metalinguistic" />
+        </Facet>
+        <Facet Name="Conversation features for L3TT-instance">
+          <String Value="recitation" />
+        </Facet>
+        <Facet Name="L3TT sources">
+          <String Value="Oral L3: single source" />
+        </Facet>
+        <Facet Name="L3 language type change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 mode change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 functions change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="Conversation features for L3-instance change">
+          <String Value="- balanced exchange" />
+        </Facet>
+        <Facet Name="L3 sources change">
+          <String Value="None" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="FellowshipOfTheRing.Elrond_curing_spell.Elvish_spell.SpanishDub" Name="FellowshipOfTheRing.Elrond_curing_spell.Elvish_spell.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Elrond_curing_spell&amp;L3STinstance=FellowshipOfTheRing.Elrond_curing_spell.Elvish_spell&amp;L3TTinstance=FellowshipOfTheRing.Elrond_curing_spell.Elvish_spell.SpanishDub">
+      <Description>In Rivendell, Elrond cures Frodo from becoming a wraith by uttering a spell in Elvish.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="FellowshipOfTheRing.Elrond_curing_spell.Elvish_spell.SpanishDub" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Elrond: Lasto beth nîn. Tolo dan na ngalad. (not subtitled)" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-30T04:40:27" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-30T04:42:04" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="miquelpt" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="FellowshipOfTheRing" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="FellowshipOfTheRing.Elrond_curing_spell" />
+        </Facet>
+        <Facet Name="L3ST-instance Reference Id">
+          <String Value="FellowshipOfTheRing.Elrond_curing_spell.Elvish_spell" />
+        </Facet>
+        <Facet Name="Film Title TT">
+          <String Value="La comunidad del Anillo" />
+        </Facet>
+        <Facet Name="L2 language">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L2 mode">
+          <String Value="Dubbed" />
+        </Facet>
+        <Facet Name="Year TT released">
+          <Number Value="2001" />
+        </Facet>
+        <Facet Name="Film TT Blockbuster">
+          <String Value="YES (top 20)" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="80" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L2 same as L3ST">
+          <String Value="No" />
+        </Facet>
+        <Facet Name="L3ST conveyed as L3TT">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT language type">
+          <String Value="Constructed (fictional)" />
+        </Facet>
+        <Facet Name="L3TT language">
+          <String Value="Elvish" />
+        </Facet>
+        <Facet Name="L3TT constructed based on">
+          <String Value="“from scratch”" />
+        </Facet>
+        <Facet Name="L3TT meant to be understood">
+          <String Value="YES, the gist, the implications of what is happening" />
+        </Facet>
+        <Facet Name="L3TT message required for understanding">
+          <String Value="Conversation can be followed regardless of meaning" />
+        </Facet>
+        <Facet Name="L3TT meaning decipherable">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="Quality of L3TT speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3TT mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3TT merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
+        <Facet Name="L3TT functions">
+          <String Value="Dramatic effect" />
+        </Facet>
+        <Facet Name="L3TT sources">
+          <String Value="Oral L3: single source" />
+        </Facet>
+        <Facet Name="L3 language type change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 mode change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 functions change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="Conversation features for L3-instance change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 sources change">
+          <String Value="None" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="FellowshipOfTheRing.Elrond_curing_spell.Elvish_spell.SpanishSub" Name="FellowshipOfTheRing.Elrond_curing_spell.Elvish_spell.SpanishSub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Elrond_curing_spell&amp;L3STinstance=FellowshipOfTheRing.Elrond_curing_spell.Elvish_spell&amp;L3TTinstance=FellowshipOfTheRing.Elrond_curing_spell.Elvish_spell.SpanishSub">
+      <Description>In Rivendell, Elrond cures Frodo from becoming a wraith by uttering a spell in Elvish.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="FellowshipOfTheRing.Elrond_curing_spell.Elvish_spell.SpanishSub" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Elrond: Lasto beth nîn. Tolo dan na ngalad. (not subtitled)" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-30T04:40:27" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-30T04:42:21" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="miquelpt" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="FellowshipOfTheRing" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="FellowshipOfTheRing.Elrond_curing_spell" />
+        </Facet>
+        <Facet Name="L3ST-instance Reference Id">
+          <String Value="FellowshipOfTheRing.Elrond_curing_spell.Elvish_spell" />
+        </Facet>
+        <Facet Name="Film Title TT">
+          <String Value="La comunidad del Anillo" />
+        </Facet>
+        <Facet Name="L2 language">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L2 mode">
+          <String Value="Subtitled" />
+        </Facet>
+        <Facet Name="Year TT released">
+          <Number Value="2001" />
+        </Facet>
+        <Facet Name="Film TT Blockbuster">
+          <String Value="YES (top 20)" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="80" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L2 same as L3ST">
+          <String Value="No" />
+        </Facet>
+        <Facet Name="L3ST conveyed as L3TT">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT language type">
+          <String Value="Constructed (fictional)" />
+        </Facet>
+        <Facet Name="L3TT language">
+          <String Value="Elvish" />
+        </Facet>
+        <Facet Name="L3TT constructed based on">
+          <String Value="“from scratch”" />
+        </Facet>
+        <Facet Name="L3TT meant to be understood">
+          <String Value="YES, the gist, the implications of what is happening" />
+        </Facet>
+        <Facet Name="L3TT message required for understanding">
+          <String Value="Conversation can be followed regardless of meaning" />
         </Facet>
         <Facet Name="L3TT meaning decipherable">
           <String Value="NO" />
@@ -1854,11 +2288,15 @@
         <Facet Name="Transcription">
           <String Value="Frodo: Espera... hay unas marcas.&#xD;&#xA;&#xD;&#xA;(An inscription written in an unknown language is progressively made visible on the side of the ring. The words in red reflect on Frodo's face as he speaks.)&#xD;&#xA;&#xD;&#xA;Frodo: Algo que parece élfico, no sé leerlo.&#xD;&#xA;&#xD;&#xA;Gandalf: Muy pocos pueden. Es la lengua de Mordor, que no emplearé aquí.&#xD;&#xA;&#xD;&#xA;Frodo: ¡Mordor!&#xD;&#xA;&#xD;&#xA;Gandalf: En la lengua común dice: &quot;Un Anillo para gobernarlos a todos, un Anillo para encontrarlos, un Anillo para atraerlos a todos, y atarlos en las... Tinieblas&quot;." />
         </Facet>
+        <Facet Name="Tags">
+          <String Value="Mordor language" />
+          <String Value=" Black Speech" />
+        </Facet>
         <Facet Name="Info created">
           <DateTime Value="2016-10-30T02:48:21" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-30T02:56:22" />
+          <DateTime Value="2016-10-30T04:20:44" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="miquelpt" />
@@ -1924,10 +2362,13 @@
           <String Value="Written diegetic" />
         </Facet>
         <Facet Name="L3TT merely represented">
+          <String Value="L3 mentioned, talked about" />
           <String Value="NO / Not applicable" />
         </Facet>
         <Facet Name="L3TT functions">
           <String Value="Theme" />
+          <String Value="Signals the bad guy" />
+          <String Value="Metalinguistic" />
         </Facet>
         <Facet Name="L3TT sources">
           <String Value="Rephrase interlingually: different sources" />
@@ -1939,7 +2380,8 @@
           <String Value="None" />
         </Facet>
         <Facet Name="L3 functions change">
-          <String Value="None" />
+          <String Value="+ Signals the bad guy" />
+          <String Value="+ Metalinguistic" />
         </Facet>
         <Facet Name="Conversation features for L3-instance change">
           <String Value="None" />
@@ -1958,11 +2400,15 @@
         <Facet Name="Transcription">
           <String Value="Frodo: Wait. (SUB: Espera.) There are markings. (SUB: Hay unas marcas.)&#xD;&#xA;&#xD;&#xA;(An inscription of an unknown language is perceived on the side of the ring. The words, in red, reflect on Frodo's face as he speaks.)&#xD;&#xA;&#xD;&#xA;Frodo: It's some form of Elvish. (SUB: Parece élfico.) I can’t read it. (SUB: No sé leerlo.)&#xD;&#xA;&#xD;&#xA;Gandalf: There are few who can. (SUB: solo unos pocos pueden.) The language is that of Mordor, which I will not utter here. (SUB: Es la lengua de Mordor / que no usaré aquí).&#xD;&#xA;&#xD;&#xA;Frodo: Mordor? (SUB: Mordor.)&#xD;&#xA;&#xD;&#xA;Gandalf: In the common tongue it says, (SUB: En la lengua común dice:) &quot;One Ring to rule them all, (SUB: Un Anillo para gobernarlos a todos,) One Ring to find them. (SUB: un Anillo para encontrarlos,) One Ring to bring them all (SUB: un Anillo para atraerlos) and in the darkness bind them.&quot; (SUB: y atarlos en las tinieblas.)" />
         </Facet>
+        <Facet Name="Tags">
+          <String Value="Mordor language" />
+          <String Value=" Black Speech" />
+        </Facet>
         <Facet Name="Info created">
           <DateTime Value="2016-10-30T02:48:21" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-30T03:03:39" />
+          <DateTime Value="2016-10-30T04:21:25" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="miquelpt" />
@@ -2028,10 +2474,13 @@
           <String Value="Written diegetic" />
         </Facet>
         <Facet Name="L3TT merely represented">
+          <String Value="L3 mentioned, talked about" />
           <String Value="NO / Not applicable" />
         </Facet>
         <Facet Name="L3TT functions">
           <String Value="Theme" />
+          <String Value="Signals the bad guy" />
+          <String Value="Metalinguistic" />
         </Facet>
         <Facet Name="L3TT sources">
           <String Value="Rephrase interlingually: different sources" />
@@ -2043,7 +2492,8 @@
           <String Value="None" />
         </Facet>
         <Facet Name="L3 functions change">
-          <String Value="None" />
+          <String Value="+ Signals the bad guy" />
+          <String Value="+ Metalinguistic" />
         </Facet>
         <Facet Name="Conversation features for L3-instance change">
           <String Value="None" />

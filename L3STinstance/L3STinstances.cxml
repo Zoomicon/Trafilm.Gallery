@@ -400,6 +400,158 @@
         </Facet>
       </Facets>
     </Item>
+    <Item Id="FellowshipOfTheRing.ElrondCouncil_Gandalf.Gandalf_speaks_Mordor_language" Name="ElrondCouncil, Gandalf" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.ElrondCouncil_Gandalf&amp;L3STinstance=FellowshipOfTheRing.ElrondCouncil_Gandalf.Gandalf_speaks_Mordor_language">
+      <Description>During the Council of Elrond, Gandalf utters the Mordor language words inscribed in the Ring, thus provoking a turmoil in the room.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="FellowshipOfTheRing.ElrondCouncil_Gandalf.Gandalf_speaks_Mordor_language" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Gandalf:&#xD;&#xA;Ash nazg durbatulûk, ash nazg gimbatul,&#xD;&#xA;ash nazg thrakatulûk agh burzum-ishi krimpatul.&#xD;&#xA;(not subtitled)&#xD;&#xA;&#xD;&#xA;Elrond: Never before has any voice uttered the words of that tongue here in Imladris!&#xD;&#xA;&#xD;&#xA;Gandalf: I do not ask your pardon, Master Elrond, for the Black Speech of Mordor may yet be heard in every corner of the West! The Ring is altogether Evil! " />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="Mordor language" />
+          <String Value=" Black Speech" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-30T04:14:34" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-30T04:29:15" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="miquelpt" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="FellowshipOfTheRing" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="FellowshipOfTheRing.ElrondCouncil_Gandalf" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="94" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="B. 21-40" />
+        </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="Mordor language" />
+        </Facet>
+        <Facet Name="L3ST language type">
+          <String Value="Constructed (fictional)" />
+        </Facet>
+        <Facet Name="L3ST language">
+          <String Value="Mordor language" />
+        </Facet>
+        <Facet Name="L3ST constructed based on">
+          <String Value="“from scratch”" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="Quality of L3ST speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3ST mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3ST merely represented">
+          <String Value="L3 mentioned, talked about" />
+        </Facet>
+        <Facet Name="L3ST functions">
+          <String Value="Dramatic effect" />
+          <String Value="Signals the bad guy" />
+          <String Value="Metalinguistic" />
+        </Facet>
+        <Facet Name="Conversation features for L3ST-instance">
+          <String Value="balanced exchange" />
+          <String Value="recitation" />
+        </Facet>
+        <Facet Name="L3ST sources">
+          <String Value="Oral L3: single source" />
+        </Facet>
+        <Facet Name="L3TT-instances: count">
+          <Number Value="2" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="FellowshipOfTheRing.Elrond_curing_spell.Elvish_spell" Name="Elrond, curing, spell" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Elrond_curing_spell&amp;L3STinstance=FellowshipOfTheRing.Elrond_curing_spell.Elvish_spell">
+      <Description>In Rivendell, Elrond cures Frodo from becoming a wraith by uttering a spell in Elvish.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="FellowshipOfTheRing.Elrond_curing_spell.Elvish_spell" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Elrond: Lasto beth nîn. Tolo dan na ngalad. (not subtitled)" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-30T04:39:05" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-30T04:40:21" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="miquelpt" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="FellowshipOfTheRing" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="FellowshipOfTheRing.Elrond_curing_spell" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="80" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="Elvish" />
+        </Facet>
+        <Facet Name="L3ST language type">
+          <String Value="Constructed (fictional)" />
+        </Facet>
+        <Facet Name="L3ST language">
+          <String Value="Elvish" />
+        </Facet>
+        <Facet Name="L3ST constructed based on">
+          <String Value="“from scratch”" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="YES, the gist, the implications of what is happening" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Conversation can be followed regardless of meaning" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="Quality of L3ST speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3ST mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3ST merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
+        <Facet Name="L3ST functions">
+          <String Value="Dramatic effect" />
+        </Facet>
+        <Facet Name="L3ST sources">
+          <String Value="Oral L3: single source" />
+        </Facet>
+        <Facet Name="L3TT-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="FellowshipOfTheRing.Elrond_Dagorlad_battle.Rally" Name="Elrond - Dagorlad battle - Rally" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Elrond_Dagorlad_battle&amp;L3STinstance=FellowshipOfTheRing.Elrond_Dagorlad_battle.Rally">
       <Description>Elrond leads the Last Alliance in the battle of Dagorlad and rallies them in Elvish.</Description>
       <Facets>
@@ -760,7 +912,7 @@
           <DateTime Value="2016-10-30T02:39:52" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-30T02:48:02" />
+          <DateTime Value="2016-10-30T04:19:41" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="miquelpt" />
@@ -778,13 +930,13 @@
           <String Value="B. 21-40" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="Mordor language" />
+          <String Value="Mordor language (Black Speech)" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Constructed (fictional)" />
         </Facet>
         <Facet Name="L3ST language">
-          <String Value="Mordor language" />
+          <String Value="Mordor language (Black Speech)" />
         </Facet>
         <Facet Name="L3ST constructed based on">
           <String Value="“from scratch”" />
@@ -805,6 +957,7 @@
           <String Value="Written diegetic" />
         </Facet>
         <Facet Name="L3ST merely represented">
+          <String Value="L3 mentioned, talked about" />
           <String Value="NO / Not applicable" />
         </Facet>
         <Facet Name="L3ST functions">
@@ -814,7 +967,7 @@
           <String Value="Rephrase interlingually: different sources" />
         </Facet>
         <Facet Name="L3TT-instances: count">
-          <Number Value="0" />
+          <Number Value="2" />
         </Facet>
       </Facets>
     </Item>

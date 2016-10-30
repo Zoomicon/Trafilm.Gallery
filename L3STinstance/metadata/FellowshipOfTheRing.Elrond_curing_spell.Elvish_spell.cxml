@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Ring Inscription" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Elrond, curing, spell" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -30,20 +30,20 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="FellowshipOfTheRing.Ring Inscription.Discovering_the_meaning" Name="Ring Inscription" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Ring Inscription&amp;L3STinstance=FellowshipOfTheRing.Ring Inscription.Discovering_the_meaning">
-      <Description>Gandalf confirms Frodo is holding the One Ring when they discover the hidden inscription written in the Mordor language.</Description>
+    <Item Id="FellowshipOfTheRing.Elrond_curing_spell.Elvish_spell" Name="Elrond, curing, spell" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Elrond_curing_spell&amp;L3STinstance=FellowshipOfTheRing.Elrond_curing_spell.Elvish_spell">
+      <Description>In Rivendell, Elrond cures Frodo from becoming a wraith by uttering a spell in Elvish.</Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="FellowshipOfTheRing.Ring Inscription.Discovering_the_meaning" />
+          <String Value="FellowshipOfTheRing.Elrond_curing_spell.Elvish_spell" />
         </Facet>
         <Facet Name="Transcription">
-          <String Value="Frodo: Wait. There are markings.&#xD;&#xA;&#xD;&#xA;(An inscription of an unknown language is perceived on the side of the ring. The words in red reflect on Frodo's face as he speaks.)&#xD;&#xA;&#xD;&#xA;Frodo: It`s some form of Elvish. I can’t read it.&#xD;&#xA;&#xD;&#xA;Gandalf: There are few who can. The language is that of Mordor, which I will not utter here.&#xD;&#xA;&#xD;&#xA;Frodo: Mordor?&#xD;&#xA;&#xD;&#xA;Gandalf: In the common tongue it says, &quot;One Ring to rule them all, One Ring to find them. One Ring to bring them all and in the darkness bind them.&quot;" />
+          <String Value="Elrond: Lasto beth nîn. Tolo dan na ngalad. (not subtitled)" />
         </Facet>
         <Facet Name="Info created">
-          <DateTime Value="2016-10-30T02:39:52" />
+          <DateTime Value="2016-10-30T04:39:05" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-30T04:19:41" />
+          <DateTime Value="2016-10-30T04:40:21" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="miquelpt" />
@@ -52,13 +52,13 @@
           <String Value="FellowshipOfTheRing" />
         </Facet>
         <Facet Name="Conversation Reference Id">
-          <String Value="FellowshipOfTheRing.Ring Inscription" />
+          <String Value="FellowshipOfTheRing.Elrond_curing_spell" />
         </Facet>
         <Facet Name="Conversation start time (min)">
-          <Number Value="36" />
+          <Number Value="80" />
         </Facet>
         <Facet Name="Conversation duration (sec)">
-          <String Value="B. 21-40" />
+          <String Value="A. 1-20" />
         </Facet>
         <Facet Name="Main (L1) language">
           <String Value="English" />
@@ -67,16 +67,16 @@
           <String Value="Constructed (fictional)" />
         </Facet>
         <Facet Name="L3ST language">
-          <String Value="Mordor language (Black Speech)" />
+          <String Value="Elvish" />
         </Facet>
         <Facet Name="L3ST constructed based on">
           <String Value="“from scratch”" />
         </Facet>
         <Facet Name="L3ST meant to be understood">
-          <String Value="NO" />
+          <String Value="YES, the gist, the implications of what is happening" />
         </Facet>
         <Facet Name="L3ST message required for understanding">
-          <String Value="Yes" />
+          <String Value="Conversation can be followed regardless of meaning" />
         </Facet>
         <Facet Name="L3ST meaning decipherable">
           <String Value="NO" />
@@ -85,20 +85,19 @@
           <String Value="native or proficient" />
         </Facet>
         <Facet Name="L3ST mode, written/spoken, diegetic">
-          <String Value="Written diegetic" />
+          <String Value="Oral diegetic on-screen" />
         </Facet>
         <Facet Name="L3ST merely represented">
-          <String Value="L3 mentioned, talked about" />
           <String Value="NO / Not applicable" />
         </Facet>
         <Facet Name="L3ST functions">
-          <String Value="Theme" />
+          <String Value="Dramatic effect" />
         </Facet>
         <Facet Name="L3ST sources">
-          <String Value="Rephrase interlingually: different sources" />
+          <String Value="Oral L3: single source" />
         </Facet>
         <Facet Name="L3TT-instances: count">
-          <Number Value="2" />
+          <Number Value="0" />
         </Facet>
       </Facets>
     </Item>

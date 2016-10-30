@@ -51,11 +51,15 @@
         <Facet Name="Transcription">
           <String Value="Frodo: Espera... hay unas marcas.&#xD;&#xA;&#xD;&#xA;(An inscription written in an unknown language is progressively made visible on the side of the ring. The words in red reflect on Frodo's face as he speaks.)&#xD;&#xA;&#xD;&#xA;Frodo: Algo que parece élfico, no sé leerlo.&#xD;&#xA;&#xD;&#xA;Gandalf: Muy pocos pueden. Es la lengua de Mordor, que no emplearé aquí.&#xD;&#xA;&#xD;&#xA;Frodo: ¡Mordor!&#xD;&#xA;&#xD;&#xA;Gandalf: En la lengua común dice: &quot;Un Anillo para gobernarlos a todos, un Anillo para encontrarlos, un Anillo para atraerlos a todos, y atarlos en las... Tinieblas&quot;." />
         </Facet>
+        <Facet Name="Tags">
+          <String Value="Mordor language" />
+          <String Value=" Black Speech" />
+        </Facet>
         <Facet Name="Info created">
           <DateTime Value="2016-10-30T02:48:21" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-30T02:56:22" />
+          <DateTime Value="2016-10-30T04:20:44" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="miquelpt" />
@@ -121,10 +125,13 @@
           <String Value="Written diegetic" />
         </Facet>
         <Facet Name="L3TT merely represented">
+          <String Value="L3 mentioned, talked about" />
           <String Value="NO / Not applicable" />
         </Facet>
         <Facet Name="L3TT functions">
           <String Value="Theme" />
+          <String Value="Signals the bad guy" />
+          <String Value="Metalinguistic" />
         </Facet>
         <Facet Name="L3TT sources">
           <String Value="Rephrase interlingually: different sources" />
@@ -136,7 +143,8 @@
           <String Value="None" />
         </Facet>
         <Facet Name="L3 functions change">
-          <String Value="None" />
+          <String Value="+ Signals the bad guy" />
+          <String Value="+ Metalinguistic" />
         </Facet>
         <Facet Name="Conversation features for L3-instance change">
           <String Value="None" />
