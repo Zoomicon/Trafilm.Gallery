@@ -2175,4 +2175,96 @@
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="Um filme falado" />
-                </Face
+                </Facet>
+                <Facet Name="Film/Season title">
+                    <String Value="Um filme falado" />
+                </Facet>
+                <Facet Name="Info created">
+                    <DateTime Value="2016-10-17T05:22:11" />
+                </Facet>
+                <Facet Name="Info updated">
+                    <DateTime Value="2016-10-19T12:30:17" />
+                </Facet>
+                <Facet Name="L3ST language types">
+                    <String Value="Real" />
+                </Facet>
+                <Facet Name="L3ST language types: count">
+                    <Number Value="1" />
+                </Facet>
+                <Facet Name="L3ST languages">
+                    <String Value="English" />
+                </Facet>
+                <Facet Name="L3ST languages: count">
+                    <Number Value="1" />
+                </Facet>
+                <Facet Name="L3ST-instances: count">
+                    <Number Value="1" />
+                </Facet>
+                <Facet Name="Metadata Editors">
+                    <String Value="corrius" />
+                    <String Value="George" />
+                </Facet>
+                <Facet Name="Reference Id">
+                    <String Value="Um filme falado.The captain dinner-Captain-speaking one language" />
+                </Facet>
+                <Facet Name="Remarks">
+                    <String Value="Captain speaking in English" />
+                </Facet>
+                <Facet Name="Tags">
+                    <String Value="English" />
+                    <String Value=" Babel" />
+                    <String Value=" Captain dinner" />
+                </Facet>
+            </Facets>
+        </Item>
+        <Item Id="Um filme falado.The captain dinner-Captain" Name="The captain dinner - Captain" Img="#52" Href="http://gallery.trafilm.net/conversation/metadata/?film=Um filme falado&amp;conversation=Um filme falado.The captain dinner-Captain">
+            <Facets>
+                <Facet Name="Duration (sec)">
+                    <String Value="A. 1-20" />
+                </Facet>
+                <Facet Name="Film Reference Id">
+                    <String Value="Um filme falado" />
+                </Facet>
+                <Facet Name="Film/Season title">
+                    <String Value="Um filme falado" />
+                </Facet>
+                <Facet Name="Info created">
+                    <DateTime Value="2016-10-17T04:58:25" />
+                </Facet>
+                <Facet Name="Info updated">
+                    <DateTime Value="2016-10-19T12:29:18" />
+                </Facet>
+                <Facet Name="L3ST language types">
+                    <String Value="Real" />
+                </Facet>
+                <Facet Name="L3ST language types: count">
+                    <Number Value="1" />
+                </Facet>
+                <Facet Name="L3ST languages">
+                    <String Value="English" />
+                </Facet>
+                <Facet Name="L3ST languages: count">
+                    <Number Value="1" />
+                </Facet>
+                <Facet Name="L3ST-instances: count">
+                    <Number Value="1" />
+                </Facet>
+                <Facet Name="Metadata Editors">
+                    <String Value="corrius" />
+                    <String Value="George" />
+                </Facet>
+                <Facet Name="Reference Id">
+                    <String Value="Um filme falado.The captain dinner-Captain" />
+                </Facet>
+                <Facet Name="Remarks">
+                    <String Value="conversation between the ship's captain (John Walesa, an American from Polish background) and three passengers on board: Delphine (French), Francesca (Italian), Helena (Greek. Everybody speaks their own language and they understand each other very well. Later Rosa Maria and Maria Joana join the table and as none of the characters except for the captain understands Portuguese they change into English." />
+                </Facet>
+                <Facet Name="Tags">
+                    <String Value="English" />
+                    <String Value=" Babel" />
+                    <String Value=" Captain dinner" />
+                </Facet>
+            </Facets>
+        </Item>
+    </Items>
+</Collection>

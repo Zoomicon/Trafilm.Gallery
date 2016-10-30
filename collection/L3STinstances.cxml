@@ -3405,4 +3405,115 @@ There is another conversation taking place among women at the kitchen.</Descript
                 <Facet Name="L3ST meaning decipherable">
                     <String Value="YES, through translation or clear from picture" />
                 </Facet>
-                <Facet Name="L3ST mea
+                <Facet Name="L3ST meant to be understood">
+                    <String Value="YES, (almost) completely" />
+                </Facet>
+                <Facet Name="L3ST message required for understanding">
+                    <String Value="Yes" />
+                </Facet>
+                <Facet Name="L3ST mode, written/spoken, diegetic">
+                    <String Value="Oral diegetic on-screen" />
+                </Facet>
+                <Facet Name="L3ST sources">
+                    <String Value="Non-diegetic translation" />
+                </Facet>
+                <Facet Name="L3TT-instances: count">
+                    <Number Value="0" />
+                </Facet>
+                <Facet Name="Main (L1) language">
+                    <String Value="English" />
+                </Facet>
+                <Facet Name="Metadata Editors">
+                    <String Value="corrius" />
+                </Facet>
+                <Facet Name="Quality of L3ST speaker performance">
+                    <String Value="native or proficient" />
+                </Facet>
+                <Facet Name="Reference Id">
+                    <String Value="Um filme falado.The captain dinner-Captain-speaking one language.Speaking English" />
+                </Facet>
+                <Facet Name="Tags">
+                    <String Value="English" />
+                    <String Value=" Babel" />
+                    <String Value=" Captain dinner" />
+                </Facet>
+                <Facet Name="Transcription">
+                    <String Value="Captain: I'm beginnig to think that the three of you should join to gather and create a more harmonious Tower of Babel, in which we all speak one language and live forever under the shadow of the tree of goodness." />
+                </Facet>
+            </Facets>
+        </Item>
+        <Item Id="Um filme falado.The captain dinner-Captain.Speaking English" Name="Um filme falado.The captain dinner-Captain.Speaking English" Img="#50" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Um filme falado&amp;conversation=Um filme falado.The captain dinner-Captain&amp;L3STinstance=Um filme falado.The captain dinner-Captain.Speaking English">
+            <Description>English is the language they all understand</Description>
+            <Facets>
+                <Facet Name="Conversation duration (sec)">
+                    <String Value="A. 1-20" />
+                </Facet>
+                <Facet Name="Conversation features for L3ST-instance">
+                    <String Value="small talk" />
+                </Facet>
+                <Facet Name="Conversation Reference Id">
+                    <String Value="Um filme falado.The captain dinner-Captain" />
+                </Facet>
+                <Facet Name="Film Reference Id">
+                    <String Value="Um filme falado" />
+                </Facet>
+                <Facet Name="Info created">
+                    <DateTime Value="2016-10-17T05:06:47" />
+                </Facet>
+                <Facet Name="Info updated">
+                    <DateTime Value="2016-10-17T05:14:57" />
+                </Facet>
+                <Facet Name="L3ST functions">
+                    <String Value="Plot (twist)" />
+                </Facet>
+                <Facet Name="L3ST language">
+                    <String Value="English" />
+                </Facet>
+                <Facet Name="L3ST language type">
+                    <String Value="Real" />
+                </Facet>
+                <Facet Name="L3ST meaning decipherable">
+                    <String Value="YES, through translation or clear from picture" />
+                </Facet>
+                <Facet Name="L3ST meant to be understood">
+                    <String Value="YES, (almost) completely" />
+                </Facet>
+                <Facet Name="L3ST message required for understanding">
+                    <String Value="Yes" />
+                </Facet>
+                <Facet Name="L3ST mode, written/spoken, diegetic">
+                    <String Value="Oral diegetic on-screen" />
+                </Facet>
+                <Facet Name="L3ST sources">
+                    <String Value="Non-diegetic translation" />
+                </Facet>
+                <Facet Name="L3TT-instances: count">
+                    <Number Value="0" />
+                </Facet>
+                <Facet Name="Main (L1) language">
+                    <String Value="English" />
+                </Facet>
+                <Facet Name="Metadata Editors">
+                    <String Value="corrius" />
+                </Facet>
+                <Facet Name="Quality of L3ST speaker performance">
+                    <String Value="native or proficient" />
+                </Facet>
+                <Facet Name="Reference Id">
+                    <String Value="Um filme falado.The captain dinner-Captain.Speaking English" />
+                </Facet>
+                <Facet Name="Remarks">
+                    <String Value="The Captain makes a clear reference to the language issue." />
+                </Facet>
+                <Facet Name="Tags">
+                    <String Value="English" />
+                    <String Value=" Babel" />
+                    <String Value=" Captain dinner" />
+                </Facet>
+                <Facet Name="Transcription">
+                    <String Value="Captain: Women should rule the world and cure all its modern and ancient ills starting with its language issue which originated in Babel." />
+                </Facet>
+            </Facets>
+        </Item>
+    </Items>
+</Collection>
