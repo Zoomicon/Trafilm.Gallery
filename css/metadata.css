@@ -102,7 +102,7 @@ div
 
 .question table
 {
-  text-align: center;
+  text-align: left;
   vertical-align: top;
 }
 
@@ -128,7 +128,7 @@ div
 
 .calculated table
 {
-  text-align: center;
+  text-align: left;
   vertical-align: top;
 }
 
