@@ -1130,6 +1130,80 @@
         </Facet>
       </Facets>
     </Item>
+    <Item Id="FellowshipOfTheRing.Rivendell_Elrond_Aragorn.On_Aragorn's_destiny" Name="Rivendell, Elrond, Aragorn" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Rivendell_Elrond_Aragorn&amp;L3STinstance=FellowshipOfTheRing.Rivendell_Elrond_Aragorn.On_Aragorn's_destiny">
+      <Description>In Rivendell, Aragorn visits his mother's tomb. Elrond approaches and talks about Aragorn's destiny and his mother's protection.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="FellowshipOfTheRing.Rivendell_Elrond_Aragorn.On_Aragorn's_destiny" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Elrond: Anirne hene beriad i chên în. (SUB: She wanted to protect her child...) Ned Imladris nauthant e le beriathar aen.  (SUB: she thought in Rivendell / you would be safe.)&#xD;&#xA;&#xD;&#xA;In her heart, your mother knew you`d be hunted all your life. That you'd never escape your fate.&#xD;&#xA;The skill of the Elves can reforge the sword of Kings, but only you have the power to wield it." />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-30T04:54:25" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-30T04:59:33" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="miquelpt" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="FellowshipOfTheRing" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="FellowshipOfTheRing.Rivendell_Elrond_Aragorn" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="102" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="B. 21-40" />
+        </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="Elvish" />
+        </Facet>
+        <Facet Name="L3ST language type">
+          <String Value="Constructed (fictional)" />
+        </Facet>
+        <Facet Name="L3ST language">
+          <String Value="Elvish" />
+        </Facet>
+        <Facet Name="L3ST constructed based on">
+          <String Value="“from scratch”" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="Quality of L3ST speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3ST mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3ST merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
+        <Facet Name="L3ST functions">
+          <String Value="Dramatic effect" />
+        </Facet>
+        <Facet Name="Conversation features for L3ST-instance">
+          <String Value="balanced exchange" />
+        </Facet>
+        <Facet Name="L3ST sources">
+          <String Value="Bilingual (L3&amp;main): same source " />
+        </Facet>
+        <Facet Name="L3TT-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Game of Thrones.E01 Winter is coming_Dothraki wedding.Drogo comments fight" Name="Game of Thrones. 01: Winter is coming_Dothraki wedding" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Game of Thrones&amp;conversation=Game of Thrones.E01 Winter is coming_Dothraki wedding&amp;L3STinstance=Game of Thrones.E01 Winter is coming_Dothraki wedding.Drogo comments fight">
       <Description>At Daenerys' and Khal Drogo's wedding, Drogo comments the fight.</Description>
       <Facets>
@@ -1971,6 +2045,73 @@
         </Facet>
         <Facet Name="L3ST sources">
           <String Value="Oral L3: different sources " />
+        </Facet>
+        <Facet Name="L3TT-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="LoveActually.Lake Scene.Parallel monologues" Name="Lake scene" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.Lake Scene&amp;L3STinstance=LoveActually.Lake Scene.Parallel monologues">
+      <Description>Jamie and Aurelia think aloud, in English and in Portuguese, respectively, about the incident in the lake.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="LoveActually.Lake Scene.Parallel monologues" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Aurelia: (in Portuguese) Fuck - it's cold!&#xD;&#xA;Jamie: Fuck - it's freezing! Fuck!&#xD;&#xA;Aurelia: (Portuguese) This stuff better be good.&#xD;&#xA;Jamie: It's not worth it, you know, it isn't bloody Shakespeare.  &#xD;&#xA;Aurelia: (Portuguese) I don't want to drown saving some shit my grandmother could have written.&#xD;&#xA;Jamie: Just stop. Stop.&#xD;&#xA;Aurelia: (Portuguese) What kind of an idiot doesn't do copies?&#xD;&#xA;Jamie: I really must do copies. There'd better not be eels in here. I can't stand eels…&#xD;&#xA;Aurelia: (Portuguese) Try not to disturb the eels.&#xD;&#xA;Jamie: Oh god, what the hell is that?&#xD;&#xA;" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-30T04:45:44" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-30T04:52:07" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="evaespasa" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="LoveActually" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="LoveActually.Lake Scene" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="I. 161-180" />
+        </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="Portuguese" />
+        </Facet>
+        <Facet Name="L3ST language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST language">
+          <String Value="Portuguese" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="YES, the gist, the implications of what is happening" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3ST speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3ST mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3ST merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
+        <Facet Name="L3ST functions">
+          <String Value="Character portrayal" />
+          <String Value="Plot (twist)" />
+          <String Value="Dramatic effect" />
+        </Facet>
+        <Facet Name="Conversation features for L3ST-instance">
+          <String Value="balanced exchange" />
+        </Facet>
+        <Facet Name="L3ST sources">
+          <String Value="Oral L3: single source" />
         </Facet>
         <Facet Name="L3TT-instances: count">
           <Number Value="0" />

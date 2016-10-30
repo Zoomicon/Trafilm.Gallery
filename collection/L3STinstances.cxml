@@ -262,7 +262,6 @@
                     <String Value="A. 1-20" />
                 </Facet>
                 <Facet Name="Conversation features for L3ST-instance">
-                    <String Value="balanced exchange" />
                     <String Value="recitation" />
                 </Facet>
                 <Facet Name="Conversation Reference Id">
@@ -278,7 +277,7 @@
                     <DateTime Value="2016-10-30T03:56:16" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-10-30T03:59:41" />
+                    <DateTime Value="2016-10-30T04:05:47" />
                 </Facet>
                 <Facet Name="L3ST constructed based on">
                     <String Value="“from scratch”" />
@@ -302,7 +301,7 @@
                     <String Value="NO / Not applicable" />
                 </Facet>
                 <Facet Name="L3ST message required for understanding">
-                    <String Value="Yes" />
+                    <String Value="Conversation can be followed regardless of meaning" />
                 </Facet>
                 <Facet Name="L3ST mode, written/spoken, diegetic">
                     <String Value="Oral diegetic on-screen" />
@@ -311,7 +310,7 @@
                     <String Value="Oral L3: single source" />
                 </Facet>
                 <Facet Name="L3TT-instances: count">
-                    <Number Value="0" />
+                    <Number Value="1" />
                 </Facet>
                 <Facet Name="Main (L1) language">
                     <String Value="Elvish" />
@@ -326,7 +325,7 @@
                     <String Value="FellowshipOfTheRing.Arwen_Bruinen_spell.Casting_the_spell" />
                 </Facet>
                 <Facet Name="Transcription">
-                    <String Value="Nin o Chithaeglir, lasto beth daer,&#xD;&#xA;Rimmo nin Bruinen, dan in Ulair!&#xD;&#xA;Nin o Chithaeglir, lasto beth daer,&#xD;&#xA;Rimmo nin Bruinen, dan in Ulair!&#xD;&#xA;(not subtitled)" />
+                    <String Value="Arwen:&#xD;&#xA;Nin o Chithaeglir, lasto beth daer,&#xD;&#xA;Rimmo nin Bruinen, dan in Ulair!&#xD;&#xA;Nin o Chithaeglir, lasto beth daer,&#xD;&#xA;Rimmo nin Bruinen, dan in Ulair!&#xD;&#xA;(not subtitled)" />
                 </Facet>
             </Facets>
         </Item>
@@ -401,7 +400,159 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="FellowshipOfTheRing.Elrond_Dagorlad_battle.Rally" Name="Elrond - Dagorlad battle - Rally" Img="#5" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Elrond_Dagorlad_battle&amp;L3STinstance=FellowshipOfTheRing.Elrond_Dagorlad_battle.Rally">
+        <Item Id="FellowshipOfTheRing.ElrondCouncil_Gandalf.Gandalf_speaks_Mordor_language" Name="ElrondCouncil, Gandalf" Img="#5" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.ElrondCouncil_Gandalf&amp;L3STinstance=FellowshipOfTheRing.ElrondCouncil_Gandalf.Gandalf_speaks_Mordor_language">
+            <Description>During the Council of Elrond, Gandalf utters the Mordor language words inscribed in the Ring, thus provoking a turmoil in the room.</Description>
+            <Facets>
+                <Facet Name="Conversation duration (sec)">
+                    <String Value="B. 21-40" />
+                </Facet>
+                <Facet Name="Conversation features for L3ST-instance">
+                    <String Value="balanced exchange" />
+                    <String Value="recitation" />
+                </Facet>
+                <Facet Name="Conversation Reference Id">
+                    <String Value="FellowshipOfTheRing.ElrondCouncil_Gandalf" />
+                </Facet>
+                <Facet Name="Conversation start time (min)">
+                    <Number Value="94" />
+                </Facet>
+                <Facet Name="Film Reference Id">
+                    <String Value="FellowshipOfTheRing" />
+                </Facet>
+                <Facet Name="Info created">
+                    <DateTime Value="2016-10-30T04:14:34" />
+                </Facet>
+                <Facet Name="Info updated">
+                    <DateTime Value="2016-10-30T04:29:15" />
+                </Facet>
+                <Facet Name="L3ST constructed based on">
+                    <String Value="“from scratch”" />
+                </Facet>
+                <Facet Name="L3ST functions">
+                    <String Value="Dramatic effect" />
+                    <String Value="Signals the bad guy" />
+                    <String Value="Metalinguistic" />
+                </Facet>
+                <Facet Name="L3ST language">
+                    <String Value="Mordor language" />
+                </Facet>
+                <Facet Name="L3ST language type">
+                    <String Value="Constructed (fictional)" />
+                </Facet>
+                <Facet Name="L3ST meaning decipherable">
+                    <String Value="NO" />
+                </Facet>
+                <Facet Name="L3ST meant to be understood">
+                    <String Value="NO" />
+                </Facet>
+                <Facet Name="L3ST merely represented">
+                    <String Value="L3 mentioned, talked about" />
+                </Facet>
+                <Facet Name="L3ST message required for understanding">
+                    <String Value="Yes" />
+                </Facet>
+                <Facet Name="L3ST mode, written/spoken, diegetic">
+                    <String Value="Oral diegetic on-screen" />
+                </Facet>
+                <Facet Name="L3ST sources">
+                    <String Value="Oral L3: single source" />
+                </Facet>
+                <Facet Name="L3TT-instances: count">
+                    <Number Value="2" />
+                </Facet>
+                <Facet Name="Main (L1) language">
+                    <String Value="Mordor language" />
+                </Facet>
+                <Facet Name="Metadata Editors">
+                    <String Value="miquelpt" />
+                </Facet>
+                <Facet Name="Quality of L3ST speaker performance">
+                    <String Value="native or proficient" />
+                </Facet>
+                <Facet Name="Reference Id">
+                    <String Value="FellowshipOfTheRing.ElrondCouncil_Gandalf.Gandalf_speaks_Mordor_language" />
+                </Facet>
+                <Facet Name="Tags">
+                    <String Value="Mordor language" />
+                    <String Value=" Black Speech" />
+                </Facet>
+                <Facet Name="Transcription">
+                    <String Value="Gandalf:&#xD;&#xA;Ash nazg durbatulûk, ash nazg gimbatul,&#xD;&#xA;ash nazg thrakatulûk agh burzum-ishi krimpatul.&#xD;&#xA;(not subtitled)&#xD;&#xA;&#xD;&#xA;Elrond: Never before has any voice uttered the words of that tongue here in Imladris!&#xD;&#xA;&#xD;&#xA;Gandalf: I do not ask your pardon, Master Elrond, for the Black Speech of Mordor may yet be heard in every corner of the West! The Ring is altogether Evil! " />
+                </Facet>
+            </Facets>
+        </Item>
+        <Item Id="FellowshipOfTheRing.Elrond_curing_spell.Elvish_spell" Name="Elrond, curing, spell" Img="#6" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Elrond_curing_spell&amp;L3STinstance=FellowshipOfTheRing.Elrond_curing_spell.Elvish_spell">
+            <Description>In Rivendell, Elrond cures Frodo from becoming a wraith by uttering a spell in Elvish.</Description>
+            <Facets>
+                <Facet Name="Conversation duration (sec)">
+                    <String Value="A. 1-20" />
+                </Facet>
+                <Facet Name="Conversation Reference Id">
+                    <String Value="FellowshipOfTheRing.Elrond_curing_spell" />
+                </Facet>
+                <Facet Name="Conversation start time (min)">
+                    <Number Value="80" />
+                </Facet>
+                <Facet Name="Film Reference Id">
+                    <String Value="FellowshipOfTheRing" />
+                </Facet>
+                <Facet Name="Info created">
+                    <DateTime Value="2016-10-30T04:39:05" />
+                </Facet>
+                <Facet Name="Info updated">
+                    <DateTime Value="2016-10-30T04:40:21" />
+                </Facet>
+                <Facet Name="L3ST constructed based on">
+                    <String Value="“from scratch”" />
+                </Facet>
+                <Facet Name="L3ST functions">
+                    <String Value="Dramatic effect" />
+                </Facet>
+                <Facet Name="L3ST language">
+                    <String Value="Elvish" />
+                </Facet>
+                <Facet Name="L3ST language type">
+                    <String Value="Constructed (fictional)" />
+                </Facet>
+                <Facet Name="L3ST meaning decipherable">
+                    <String Value="NO" />
+                </Facet>
+                <Facet Name="L3ST meant to be understood">
+                    <String Value="YES, the gist, the implications of what is happening" />
+                </Facet>
+                <Facet Name="L3ST merely represented">
+                    <String Value="NO / Not applicable" />
+                </Facet>
+                <Facet Name="L3ST message required for understanding">
+                    <String Value="Conversation can be followed regardless of meaning" />
+                </Facet>
+                <Facet Name="L3ST mode, written/spoken, diegetic">
+                    <String Value="Oral diegetic on-screen" />
+                </Facet>
+                <Facet Name="L3ST sources">
+                    <String Value="Oral L3: single source" />
+                </Facet>
+                <Facet Name="L3TT-instances: count">
+                    <Number Value="0" />
+                </Facet>
+                <Facet Name="Main (L1) language">
+                    <String Value="Elvish" />
+                </Facet>
+                <Facet Name="Metadata Editors">
+                    <String Value="miquelpt" />
+                </Facet>
+                <Facet Name="Quality of L3ST speaker performance">
+                    <String Value="native or proficient" />
+                </Facet>
+                <Facet Name="Reference Id">
+                    <String Value="FellowshipOfTheRing.Elrond_curing_spell.Elvish_spell" />
+                </Facet>
+                <Facet Name="Transcription">
+                    <String Value="Elrond: Lasto beth nîn. Tolo dan na ngalad. (not subtitled)" />
+                </Facet>
+            </Facets>
+        </Item>
+        <Item Id="FellowshipOfTheRing.Elrond_Dagorlad_battle.Rally" Name="Elrond - Dagorlad battle - Rally" Img="#7" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Elrond_Dagorlad_battle&amp;L3STinstance=FellowshipOfTheRing.Elrond_Dagorlad_battle.Rally">
             <Description>Elrond leads the Last Alliance in the battle of Dagorlad and rallies them in Elvish.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -480,7 +631,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="FellowshipOfTheRing.Forest_Aragorn_Arwen_on_Frodo.Argument" Name="Forest, Aragorn, Arwen, on, Frodo" Img="#6" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Forest_Aragorn_Arwen_on_Frodo&amp;L3STinstance=FellowshipOfTheRing.Forest_Aragorn_Arwen_on_Frodo.Argument">
+        <Item Id="FellowshipOfTheRing.Forest_Aragorn_Arwen_on_Frodo.Argument" Name="Forest, Aragorn, Arwen, on, Frodo" Img="#8" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Forest_Aragorn_Arwen_on_Frodo&amp;L3STinstance=FellowshipOfTheRing.Forest_Aragorn_Arwen_on_Frodo.Argument">
             <Description>In the forest, Aragorn ad Arwen argue on what to do with Frodo, who is mortally wounded.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -551,7 +702,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="FellowshipOfTheRing.Introduction_Galadriel.Off_intro" Name="FellowshipOfTheRing.Introduction_Galadriel.Off_intro" Img="#7" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Introduction_Galadriel&amp;L3STinstance=FellowshipOfTheRing.Introduction_Galadriel.Off_intro">
+        <Item Id="FellowshipOfTheRing.Introduction_Galadriel.Off_intro" Name="FellowshipOfTheRing.Introduction_Galadriel.Off_intro" Img="#9" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Introduction_Galadriel&amp;L3STinstance=FellowshipOfTheRing.Introduction_Galadriel.Off_intro">
             <Description>Before the title credits to the film, with the screen still in black, Galadriel utters some Elvish words as a narrator off-camera.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -630,7 +781,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="FellowshipOfTheRing.Lorien_AragornGaladriel.Evenstar_speech" Name="FellowshipOfTheRing.Lorien_AragornGaladriel" Img="#8" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Lorien_AragornGaladriel&amp;L3STinstance=FellowshipOfTheRing.Lorien_AragornGaladriel.Evenstar_speech">
+        <Item Id="FellowshipOfTheRing.Lorien_AragornGaladriel.Evenstar_speech" Name="FellowshipOfTheRing.Lorien_AragornGaladriel" Img="#10" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Lorien_AragornGaladriel&amp;L3STinstance=FellowshipOfTheRing.Lorien_AragornGaladriel.Evenstar_speech">
             <Description>As a farewell to Lothlórien, Galadriel provides each character with a present. This instance deals with Galadriel and Aragorn's conversation on Arwen, represented through the Evenstar pendant.  </Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -705,7 +856,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="FellowshipOfTheRing.Luthien_song.Aragorn_singing" Name="FellowshipOfTheRing.Luthien_song" Img="#9" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Luthien_song&amp;L3STinstance=FellowshipOfTheRing.Luthien_song.Aragorn_singing">
+        <Item Id="FellowshipOfTheRing.Luthien_song.Aragorn_singing" Name="FellowshipOfTheRing.Luthien_song" Img="#11" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Luthien_song&amp;L3STinstance=FellowshipOfTheRing.Luthien_song.Aragorn_singing">
             <Description>Aragorn is keeping watch during the night in the forest, while the hobbits are sleeping. He signs a mourning song about the Lady of Luthien. This song introduces the conflict of Arwen's mortality choice, key in the development of Aragorn's narrative line in the saga. Besides, this song is a homage to J.R.R. Tolkien.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -748,7 +899,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="FellowshipOfTheRing.Ring Inscription.Discovering_the_meaning" Name="Ring Inscription" Img="#10" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Ring Inscription&amp;L3STinstance=FellowshipOfTheRing.Ring Inscription.Discovering_the_meaning">
+        <Item Id="FellowshipOfTheRing.Ring Inscription.Discovering_the_meaning" Name="Ring Inscription" Img="#12" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Ring Inscription&amp;L3STinstance=FellowshipOfTheRing.Ring Inscription.Discovering_the_meaning">
             <Description>Gandalf confirms Frodo is holding the One Ring when they discover the hidden inscription written in the Mordor language.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -767,7 +918,7 @@
                     <DateTime Value="2016-10-30T02:39:52" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-10-30T02:48:02" />
+                    <DateTime Value="2016-10-30T04:19:41" />
                 </Facet>
                 <Facet Name="L3ST constructed based on">
                     <String Value="“from scratch”" />
@@ -776,7 +927,7 @@
                     <String Value="Theme" />
                 </Facet>
                 <Facet Name="L3ST language">
-                    <String Value="Mordor language" />
+                    <String Value="Mordor language (Black Speech)" />
                 </Facet>
                 <Facet Name="L3ST language type">
                     <String Value="Constructed (fictional)" />
@@ -788,6 +939,7 @@
                     <String Value="NO" />
                 </Facet>
                 <Facet Name="L3ST merely represented">
+                    <String Value="L3 mentioned, talked about" />
                     <String Value="NO / Not applicable" />
                 </Facet>
                 <Facet Name="L3ST message required for understanding">
@@ -800,10 +952,10 @@
                     <String Value="Rephrase interlingually: different sources" />
                 </Facet>
                 <Facet Name="L3TT-instances: count">
-                    <Number Value="0" />
+                    <Number Value="2" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="Mordor language" />
+                    <String Value="Mordor language (Black Speech)" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="miquelpt" />
@@ -819,7 +971,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room" Name="FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room" Img="#11" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Rivendell_AragornArwen&amp;L3STinstance=FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room">
+        <Item Id="FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room" Name="FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room" Img="#13" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Rivendell_AragornArwen&amp;L3STinstance=FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room">
             <Description>This instance is uttered in the sword room in Rivendell. Arwen speaks aloud Aragorn's inner doubts and raises his spirits by combining both English and Elvish.</Description>
             <Facets>
                 <Facet Name="Conversation features for L3ST-instance">
@@ -899,7 +1051,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge" Name="FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge" Img="#12" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Rivendell_AragornArwen&amp;L3STinstance=FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge">
+        <Item Id="FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge" Name="FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge" Img="#14" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Rivendell_AragornArwen&amp;L3STinstance=FellowshipOfTheRing.Rivendell_AragornArwen.Part2_The_Bridge">
             <Description>This instance takes place in a bridge in Rivendell. This is the scene in which they explicitly talk about their love relationship. Dialogue combines English and Elvish.</Description>
             <Facets>
                 <Facet Name="Conversation Reference Id">
@@ -978,7 +1130,81 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Game of Thrones.E01 Winter is coming_Dothraki wedding.Drogo comments fight" Name="Game of Thrones. 01: Winter is coming_Dothraki wedding" Img="#13" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Game of Thrones&amp;conversation=Game of Thrones.E01 Winter is coming_Dothraki wedding&amp;L3STinstance=Game of Thrones.E01 Winter is coming_Dothraki wedding.Drogo comments fight">
+        <Item Id="FellowshipOfTheRing.Rivendell_Elrond_Aragorn.On_Aragorn's_destiny" Name="Rivendell, Elrond, Aragorn" Img="#15" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Rivendell_Elrond_Aragorn&amp;L3STinstance=FellowshipOfTheRing.Rivendell_Elrond_Aragorn.On_Aragorn's_destiny">
+            <Description>In Rivendell, Aragorn visits his mother's tomb. Elrond approaches and talks about Aragorn's destiny and his mother's protection.</Description>
+            <Facets>
+                <Facet Name="Conversation duration (sec)">
+                    <String Value="B. 21-40" />
+                </Facet>
+                <Facet Name="Conversation features for L3ST-instance">
+                    <String Value="balanced exchange" />
+                </Facet>
+                <Facet Name="Conversation Reference Id">
+                    <String Value="FellowshipOfTheRing.Rivendell_Elrond_Aragorn" />
+                </Facet>
+                <Facet Name="Conversation start time (min)">
+                    <Number Value="102" />
+                </Facet>
+                <Facet Name="Film Reference Id">
+                    <String Value="FellowshipOfTheRing" />
+                </Facet>
+                <Facet Name="Info created">
+                    <DateTime Value="2016-10-30T04:54:25" />
+                </Facet>
+                <Facet Name="Info updated">
+                    <DateTime Value="2016-10-30T04:59:33" />
+                </Facet>
+                <Facet Name="L3ST constructed based on">
+                    <String Value="“from scratch”" />
+                </Facet>
+                <Facet Name="L3ST functions">
+                    <String Value="Dramatic effect" />
+                </Facet>
+                <Facet Name="L3ST language">
+                    <String Value="Elvish" />
+                </Facet>
+                <Facet Name="L3ST language type">
+                    <String Value="Constructed (fictional)" />
+                </Facet>
+                <Facet Name="L3ST meaning decipherable">
+                    <String Value="NO" />
+                </Facet>
+                <Facet Name="L3ST meant to be understood">
+                    <String Value="NO" />
+                </Facet>
+                <Facet Name="L3ST merely represented">
+                    <String Value="NO / Not applicable" />
+                </Facet>
+                <Facet Name="L3ST message required for understanding">
+                    <String Value="Yes" />
+                </Facet>
+                <Facet Name="L3ST mode, written/spoken, diegetic">
+                    <String Value="Oral diegetic on-screen" />
+                </Facet>
+                <Facet Name="L3ST sources">
+                    <String Value="Bilingual (L3&amp;main): same source " />
+                </Facet>
+                <Facet Name="L3TT-instances: count">
+                    <Number Value="0" />
+                </Facet>
+                <Facet Name="Main (L1) language">
+                    <String Value="Elvish" />
+                </Facet>
+                <Facet Name="Metadata Editors">
+                    <String Value="miquelpt" />
+                </Facet>
+                <Facet Name="Quality of L3ST speaker performance">
+                    <String Value="native or proficient" />
+                </Facet>
+                <Facet Name="Reference Id">
+                    <String Value="FellowshipOfTheRing.Rivendell_Elrond_Aragorn.On_Aragorn's_destiny" />
+                </Facet>
+                <Facet Name="Transcription">
+                    <String Value="Elrond: Anirne hene beriad i chên în. (SUB: She wanted to protect her child...) Ned Imladris nauthant e le beriathar aen.  (SUB: she thought in Rivendell / you would be safe.)&#xD;&#xA;&#xD;&#xA;In her heart, your mother knew you`d be hunted all your life. That you'd never escape your fate.&#xD;&#xA;The skill of the Elves can reforge the sword of Kings, but only you have the power to wield it." />
+                </Facet>
+            </Facets>
+        </Item>
+        <Item Id="Game of Thrones.E01 Winter is coming_Dothraki wedding.Drogo comments fight" Name="Game of Thrones. 01: Winter is coming_Dothraki wedding" Img="#16" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Game of Thrones&amp;conversation=Game of Thrones.E01 Winter is coming_Dothraki wedding&amp;L3STinstance=Game of Thrones.E01 Winter is coming_Dothraki wedding.Drogo comments fight">
             <Description>At Daenerys' and Khal Drogo's wedding, Drogo comments the fight.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -1053,7 +1279,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Game of Thrones.E01 Winter is coming_Dothraki wedding.Jorah brings his gift" Name="Game of Thrones. 01: Winter is coming_Dothraki wedding" Img="#14" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Game of Thrones&amp;conversation=Game of Thrones.E01 Winter is coming_Dothraki wedding&amp;L3STinstance=Game of Thrones.E01 Winter is coming_Dothraki wedding.Jorah brings his gift">
+        <Item Id="Game of Thrones.E01 Winter is coming_Dothraki wedding.Jorah brings his gift" Name="Game of Thrones. 01: Winter is coming_Dothraki wedding" Img="#17" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Game of Thrones&amp;conversation=Game of Thrones.E01 Winter is coming_Dothraki wedding&amp;L3STinstance=Game of Thrones.E01 Winter is coming_Dothraki wedding.Jorah brings his gift">
             <Description>Drogo invites Jorah to present his gift to Daenerys</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -1130,7 +1356,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Game of Thrones.E01 Winter is coming_Presentation.Greeting" Name="Game of Thrones.E01 Winter is coming_Presentation.Greeting" Img="#15" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Game of Thrones&amp;conversation=Game of Thrones.E01 Winter is coming_Presentation&amp;L3STinstance=Game of Thrones.E01 Winter is coming_Presentation.Greeting">
+        <Item Id="Game of Thrones.E01 Winter is coming_Presentation.Greeting" Name="Game of Thrones.E01 Winter is coming_Presentation.Greeting" Img="#18" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Game of Thrones&amp;conversation=Game of Thrones.E01 Winter is coming_Presentation&amp;L3STinstance=Game of Thrones.E01 Winter is coming_Presentation.Greeting">
             <Description>Illyrio greets Khal Drogo.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -1205,7 +1431,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Game of Thrones.E01 Winter is coming_Presentation.Presenting Daenerys" Name="Game of Thrones.E01 Winter is coming_Presentation" Img="#16" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Game of Thrones&amp;conversation=Game of Thrones.E01 Winter is coming_Presentation&amp;L3STinstance=Game of Thrones.E01 Winter is coming_Presentation.Presenting Daenerys">
+        <Item Id="Game of Thrones.E01 Winter is coming_Presentation.Presenting Daenerys" Name="Game of Thrones.E01 Winter is coming_Presentation" Img="#19" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Game of Thrones&amp;conversation=Game of Thrones.E01 Winter is coming_Presentation&amp;L3STinstance=Game of Thrones.E01 Winter is coming_Presentation.Presenting Daenerys">
             <Description>Daenerys is presented to Khal Drogo.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -1283,7 +1509,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Harry Potter and the Deathly Hallows Part 2.Voldermort finds out Gringott was robbed.Parseltongue" Name="Voldermort finds out Gringott was robbed. Parseltongue" Img="#17" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Harry Potter and the Deathly Hallows Part 2&amp;conversation=Harry Potter and the Deathly Hallows Part 2.Voldermort finds out Gringott was robbed&amp;L3STinstance=Harry Potter and the Deathly Hallows Part 2.Voldermort finds out Gringott was robbed.Parseltongue">
+        <Item Id="Harry Potter and the Deathly Hallows Part 2.Voldermort finds out Gringott was robbed.Parseltongue" Name="Voldermort finds out Gringott was robbed. Parseltongue" Img="#20" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Harry Potter and the Deathly Hallows Part 2&amp;conversation=Harry Potter and the Deathly Hallows Part 2.Voldermort finds out Gringott was robbed&amp;L3STinstance=Harry Potter and the Deathly Hallows Part 2.Voldermort finds out Gringott was robbed.Parseltongue">
             <Description>This film is spoken mostly in English with some characters speaking Parseltongue in some scenes. During the scene where Voldemort finds out Gringott's was robbed, he speaks Parseltongue to his snake Nagini, with on screen subtitles. In the scene where Ron and Hermione go to the chamber of secrets to destroy Helga Hufflepuff's cup, Ron speaks "open" in Parseltongue to get in. Generally only Parselmouths (Voldemort, Harry Potter, Salazar Slytherin, and Marvolo, Morfin, and Merope Gaunt) can speak Parseltongue. Ron Weasley isn't a Parseltongue but he merely muttered the Parseltongue word for "open" which he remembered from Harry speaking it. Ginny Weasley also isn't a Parseltongue but was able to speak it to open the chamber of secrets various times while possessed by Voldemort. Also, Professor Dumbledore can understand (and very possibly, speak) Parseltontgue, such as Goblins' and Mermish languages (IMDB)</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -1351,7 +1577,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Inglourious Basterds.Americans in Italian disguise.Farcical Italian disguise" Name="Inglourious Basterds.Americans in Italian disguise" Img="#18" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Inglourious Basterds&amp;conversation=Inglourious Basterds.Americans in Italian disguise&amp;L3STinstance=Inglourious Basterds.Americans in Italian disguise.Farcical Italian disguise">
+        <Item Id="Inglourious Basterds.Americans in Italian disguise.Farcical Italian disguise" Name="Inglourious Basterds.Americans in Italian disguise" Img="#21" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Inglourious Basterds&amp;conversation=Inglourious Basterds.Americans in Italian disguise&amp;L3STinstance=Inglourious Basterds.Americans in Italian disguise.Farcical Italian disguise">
             <Description>Three Americans pretend to be Italian film makers, in horrible Italian</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -1422,7 +1648,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Inglourious Basterds.Americans in Italian disguise.German intro" Name="Inglourious Basterds.Americans in Italian disguise.German intro" Img="#19" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Inglourious Basterds&amp;conversation=Inglourious Basterds.Americans in Italian disguise&amp;L3STinstance=Inglourious Basterds.Americans in Italian disguise.German intro">
+        <Item Id="Inglourious Basterds.Americans in Italian disguise.German intro" Name="Inglourious Basterds.Americans in Italian disguise.German intro" Img="#22" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Inglourious Basterds&amp;conversation=Inglourious Basterds.Americans in Italian disguise&amp;L3STinstance=Inglourious Basterds.Americans in Italian disguise.German intro">
             <Facets>
                 <Facet Name="Conversation duration (sec)">
                     <String Value="D. 61-80" />
@@ -1491,7 +1717,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Inglourious Basterds.Hold that expression.Souviens-toi" Name="Inglourious Basterds.Hold that expression" Img="#20" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Inglourious Basterds&amp;conversation=Inglourious Basterds.Hold that expression&amp;L3STinstance=Inglourious Basterds.Hold that expression.Souviens-toi">
+        <Item Id="Inglourious Basterds.Hold that expression.Souviens-toi" Name="Inglourious Basterds.Hold that expression" Img="#23" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Inglourious Basterds&amp;conversation=Inglourious Basterds.Hold that expression&amp;L3STinstance=Inglourious Basterds.Hold that expression.Souviens-toi">
             <Description>dialogue involves instructions for posing</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -1562,7 +1788,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Inglourious Basterds.Landa speaks French 1.My French is limited" Name="Inglourious Basterds.Landa speaks French 1" Img="#21" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Inglourious Basterds&amp;conversation=Inglourious Basterds.Landa speaks French 1&amp;L3STinstance=Inglourious Basterds.Landa speaks French 1.My French is limited">
+        <Item Id="Inglourious Basterds.Landa speaks French 1.My French is limited" Name="Inglourious Basterds.Landa speaks French 1" Img="#24" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Inglourious Basterds&amp;conversation=Inglourious Basterds.Landa speaks French 1&amp;L3STinstance=Inglourious Basterds.Landa speaks French 1.My French is limited">
             <Description>metalinguistic feature just to express limited proficiency in French, to jutify script's return to L1</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -1632,7 +1858,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="LoveActually.JamieProposesToAurelia.Aurelia's sister" Name="Love Actually - Jamie Proposes To Aurelia - Aurelia's sister" Img="#22" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia&amp;L3STinstance=LoveActually.JamieProposesToAurelia.Aurelia's sister">
+        <Item Id="LoveActually.JamieProposesToAurelia.Aurelia's sister" Name="Love Actually - Jamie Proposes To Aurelia - Aurelia's sister" Img="#25" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia&amp;L3STinstance=LoveActually.JamieProposesToAurelia.Aurelia's sister">
             <Description>Aurelia's sister intervenes in Jamie's proposal (humorous effect)</Description>
             <Facets>
                 <Facet Name="Conversation Reference Id">
@@ -1693,7 +1919,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="LoveActually.JamieProposesToAurelia.Jamie in Portuguese" Name="Love Actually - Jamie Proposes To Aurelia - Jamie in Portuguese" Img="#23" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia&amp;L3STinstance=LoveActually.JamieProposesToAurelia.Jamie in Portuguese">
+        <Item Id="LoveActually.JamieProposesToAurelia.Jamie in Portuguese" Name="Love Actually - Jamie Proposes To Aurelia - Jamie in Portuguese" Img="#26" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia&amp;L3STinstance=LoveActually.JamieProposesToAurelia.Jamie in Portuguese">
             <Description>Jamie proposes in Portuguese</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -1767,7 +1993,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="LoveActually.JamieProposesToAurelia.Portuguese" Name="Love Actually - Jamie Proposes To Aurelia - Barros in Portuguese" Img="#24" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia&amp;L3STinstance=LoveActually.JamieProposesToAurelia.Portuguese">
+        <Item Id="LoveActually.JamieProposesToAurelia.Portuguese" Name="Love Actually - Jamie Proposes To Aurelia - Barros in Portuguese" Img="#27" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia&amp;L3STinstance=LoveActually.JamieProposesToAurelia.Portuguese">
             <Description>Barros asks for Aurelia.</Description>
             <Facets>
                 <Facet Name="Conversation Reference Id">
@@ -1824,7 +2050,74 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="LoveActually.Lake Scene.Portuguese" Name="LoveActually - Lake Scene - Portuguese" Img="#25" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.Lake Scene&amp;L3STinstance=LoveActually.Lake Scene.Portuguese">
+        <Item Id="LoveActually.Lake Scene.Parallel monologues" Name="Lake scene" Img="#28" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.Lake Scene&amp;L3STinstance=LoveActually.Lake Scene.Parallel monologues">
+            <Description>Jamie and Aurelia think aloud, in English and in Portuguese, respectively, about the incident in the lake.</Description>
+            <Facets>
+                <Facet Name="Conversation duration (sec)">
+                    <String Value="I. 161-180" />
+                </Facet>
+                <Facet Name="Conversation features for L3ST-instance">
+                    <String Value="balanced exchange" />
+                </Facet>
+                <Facet Name="Conversation Reference Id">
+                    <String Value="LoveActually.Lake Scene" />
+                </Facet>
+                <Facet Name="Film Reference Id">
+                    <String Value="LoveActually" />
+                </Facet>
+                <Facet Name="Info created">
+                    <DateTime Value="2016-10-30T04:45:44" />
+                </Facet>
+                <Facet Name="Info updated">
+                    <DateTime Value="2016-10-30T04:52:07" />
+                </Facet>
+                <Facet Name="L3ST functions">
+                    <String Value="Character portrayal" />
+                    <String Value="Plot (twist)" />
+                    <String Value="Dramatic effect" />
+                </Facet>
+                <Facet Name="L3ST language">
+                    <String Value="Portuguese" />
+                </Facet>
+                <Facet Name="L3ST language type">
+                    <String Value="Real" />
+                </Facet>
+                <Facet Name="L3ST meaning decipherable">
+                    <String Value="YES, through translation or clear from picture" />
+                </Facet>
+                <Facet Name="L3ST meant to be understood">
+                    <String Value="YES, the gist, the implications of what is happening" />
+                </Facet>
+                <Facet Name="L3ST merely represented">
+                    <String Value="NO / Not applicable" />
+                </Facet>
+                <Facet Name="L3ST mode, written/spoken, diegetic">
+                    <String Value="Oral diegetic on-screen" />
+                </Facet>
+                <Facet Name="L3ST sources">
+                    <String Value="Oral L3: single source" />
+                </Facet>
+                <Facet Name="L3TT-instances: count">
+                    <Number Value="0" />
+                </Facet>
+                <Facet Name="Main (L1) language">
+                    <String Value="Portuguese" />
+                </Facet>
+                <Facet Name="Metadata Editors">
+                    <String Value="evaespasa" />
+                </Facet>
+                <Facet Name="Quality of L3ST speaker performance">
+                    <String Value="native or proficient" />
+                </Facet>
+                <Facet Name="Reference Id">
+                    <String Value="LoveActually.Lake Scene.Parallel monologues" />
+                </Facet>
+                <Facet Name="Transcription">
+                    <String Value="Aurelia: (in Portuguese) Fuck - it's cold!&#xD;&#xA;Jamie: Fuck - it's freezing! Fuck!&#xD;&#xA;Aurelia: (Portuguese) This stuff better be good.&#xD;&#xA;Jamie: It's not worth it, you know, it isn't bloody Shakespeare.  &#xD;&#xA;Aurelia: (Portuguese) I don't want to drown saving some shit my grandmother could have written.&#xD;&#xA;Jamie: Just stop. Stop.&#xD;&#xA;Aurelia: (Portuguese) What kind of an idiot doesn't do copies?&#xD;&#xA;Jamie: I really must do copies. There'd better not be eels in here. I can't stand eels…&#xD;&#xA;Aurelia: (Portuguese) Try not to disturb the eels.&#xD;&#xA;Jamie: Oh god, what the hell is that?&#xD;&#xA;" />
+                </Facet>
+            </Facets>
+        </Item>
+        <Item Id="LoveActually.Lake Scene.Portuguese" Name="LoveActually - Lake Scene - Portuguese" Img="#29" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.Lake Scene&amp;L3STinstance=LoveActually.Lake Scene.Portuguese">
             <Description>Aurelia expresses anxiety when papers fly.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -1894,7 +2187,7 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Monsoon Wedding.Conversation in the garden on the phone.Hindi" Name="Monsoon Wedding - Conversation in the garden on the phone - Hindi" Img="#26" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Monsoon Wedding&amp;conversation=Monsoon Wedding.Conversation in the garden on the phone&amp;L3STinstance=Monsoon Wedding.Conversation in the garden on the phone.Hindi">
+        <Item Id="Monsoon Wedding.Conversation in the garden on the phone.Hindi" Name="Monsoon Wedding - Conversation in the garden on the phone - Hindi" Img="#30" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Monsoon Wedding&amp;conversation=Monsoon Wedding.Conversation in the garden on the phone&amp;L3STinstance=Monsoon Wedding.Conversation in the garden on the phone.Hindi">
             <Description>The father talks on the phone in Hindi. He is outside in the garden. 
 There is another conversation taking place among women at the kitchen.</Description>
             <Facets>
@@ -1956,7 +2249,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="OceansEleven.ExplainingThePlan.Chinese" Name="Ocean's Eleven - Explaining the plan - Chinese" Img="#27" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=OceansEleven&amp;conversation=OceansEleven.ExplainingThePlan&amp;L3STinstance=OceansEleven.ExplainingThePlan.Chinese">
+        <Item Id="OceansEleven.ExplainingThePlan.Chinese" Name="Ocean's Eleven - Explaining the plan - Chinese" Img="#31" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=OceansEleven&amp;conversation=OceansEleven.ExplainingThePlan&amp;L3STinstance=OceansEleven.ExplainingThePlan.Chinese">
             <Facets>
                 <Facet Name="Conversation Reference Id">
                     <String Value="OceansEleven.ExplainingThePlan" />
@@ -2004,7 +2297,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Pulp Fiction.Too many foreigners.They can't speak English" Name="Pulp Fiction.Too many foreigners" Img="#28" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Pulp Fiction&amp;conversation=Pulp Fiction.Too many foreigners&amp;L3STinstance=Pulp Fiction.Too many foreigners.They can't speak English">
+        <Item Id="Pulp Fiction.Too many foreigners.They can't speak English" Name="Pulp Fiction.Too many foreigners" Img="#32" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Pulp Fiction&amp;conversation=Pulp Fiction.Too many foreigners&amp;L3STinstance=Pulp Fiction.Too many foreigners.They can't speak English">
             <Description>Two characters planning a robbery</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -2077,7 +2370,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Spanglish.At the summer place - an interpreter.Man speaks Spanish to Flor and English to Deborah" Name="Spanglish.At the summer place - an interpreter.Man speaks Spanish to Flor and English to Deborah" Img="#29" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Spanglish&amp;conversation=Spanglish.At the summer place - an interpreter&amp;L3STinstance=Spanglish.At the summer place - an interpreter.Man speaks Spanish to Flor and English to Deborah">
+        <Item Id="Spanglish.At the summer place - an interpreter.Man speaks Spanish to Flor and English to Deborah" Name="Spanglish.At the summer place - an interpreter.Man speaks Spanish to Flor and English to Deborah" Img="#33" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Spanglish&amp;conversation=Spanglish.At the summer place - an interpreter&amp;L3STinstance=Spanglish.At the summer place - an interpreter.Man speaks Spanish to Flor and English to Deborah">
             <Description>Flor, Deborah and Evelyn are walking in the street. Deborah wants to ask Flor if she would like to move with them to the summer house and live with them, but as they don't speak the same language, DEborah cannot communicate with her until she sees a Hispanic man washinng somebody's car. She asks him if he speaks English and if he could translate for her.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -2146,7 +2439,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Spanglish.At the summer place - an interpreter.Speaking Spanish" Name="Spanglish.At the summer place - an interpreter.Speaking Spanish" Img="#30" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Spanglish&amp;conversation=Spanglish.At the summer place - an interpreter&amp;L3STinstance=Spanglish.At the summer place - an interpreter.Speaking Spanish">
+        <Item Id="Spanglish.At the summer place - an interpreter.Speaking Spanish" Name="Spanglish.At the summer place - an interpreter.Speaking Spanish" Img="#34" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Spanglish&amp;conversation=Spanglish.At the summer place - an interpreter&amp;L3STinstance=Spanglish.At the summer place - an interpreter.Speaking Spanish">
             <Facets>
                 <Facet Name="Conversation duration (sec)">
                     <String Value="A. 1-20" />
@@ -2174,7 +2467,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Spanglish.Flor and Cristina at the restaurant.Flor speaking Spanish and Cristina translating Spanish into English" Name="Spanglish.Flor and Cristina at the restaurant.Flor speaking Spanish and Cristina translating Spanish into English" Img="#31" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Spanglish&amp;conversation=Spanglish.Flor and Cristina at the restaurant&amp;L3STinstance=Spanglish.Flor and Cristina at the restaurant.Flor speaking Spanish and Cristina translating Spanish into English">
+        <Item Id="Spanglish.Flor and Cristina at the restaurant.Flor speaking Spanish and Cristina translating Spanish into English" Name="Spanglish.Flor and Cristina at the restaurant.Flor speaking Spanish and Cristina translating Spanish into English" Img="#35" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Spanglish&amp;conversation=Spanglish.Flor and Cristina at the restaurant&amp;L3STinstance=Spanglish.Flor and Cristina at the restaurant.Flor speaking Spanish and Cristina translating Spanish into English">
             <Description>Flor and her daughter go and have dinner to celebrate that she has found a job. When they enter the restaurant Cristina addresses a waitress to ask for a table. As Flor does not speak any English, when she wants to add or say something she tells Cristina to translate for her.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -2250,7 +2543,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Spanglish.Introduction to the Clasky's family.Deborah and Evelyn speaking English. Monica Speaking Spanish." Name="Spanglish.Introduction to the Clasky's family. " Img="#32" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Spanglish&amp;conversation=Spanglish.Introduction to the Clasky's family&amp;L3STinstance=Spanglish.Introduction to the Clasky's family.Deborah and Evelyn speaking English. Monica Speaking Spanish.">
+        <Item Id="Spanglish.Introduction to the Clasky's family.Deborah and Evelyn speaking English. Monica Speaking Spanish." Name="Spanglish.Introduction to the Clasky's family. " Img="#36" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Spanglish&amp;conversation=Spanglish.Introduction to the Clasky's family&amp;L3STinstance=Spanglish.Introduction to the Clasky's family.Deborah and Evelyn speaking English. Monica Speaking Spanish.">
             <Description>Flor and her cousin Monica are at the Clasky's house for the first time. Flor is being interviewed by Deborah Clasky. As Flor does not speak English, Monica is trying to translate for her although she does not speak perfect English.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -2331,7 +2624,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers.Aragorn_Arwen_Evenstar.About_their_bond" Name="TheTwoTowers.Aragorn_Arwen_Evenstar" Img="#33" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Aragorn_Arwen_Evenstar&amp;L3STinstance=TheTwoTowers.Aragorn_Arwen_Evenstar.About_their_bond">
+        <Item Id="TheTwoTowers.Aragorn_Arwen_Evenstar.About_their_bond" Name="TheTwoTowers.Aragorn_Arwen_Evenstar" Img="#37" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Aragorn_Arwen_Evenstar&amp;L3STinstance=TheTwoTowers.Aragorn_Arwen_Evenstar.About_their_bond">
             <Description>Aragorn remembers a scene with Arwen. </Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -2405,7 +2698,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers.Aragorn_Arwen_Evenstar3.Elrond_speaking" Name="Aragorn, Arwen, Evenstar3" Img="#34" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Aragorn_Arwen_Evenstar3&amp;L3STinstance=TheTwoTowers.Aragorn_Arwen_Evenstar3.Elrond_speaking">
+        <Item Id="TheTwoTowers.Aragorn_Arwen_Evenstar3.Elrond_speaking" Name="Aragorn, Arwen, Evenstar3" Img="#38" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Aragorn_Arwen_Evenstar3&amp;L3STinstance=TheTwoTowers.Aragorn_Arwen_Evenstar3.Elrond_speaking">
             <Description>Arwen decides to stay in Middle-Earth and become a mortal. She argues with her father about that. </Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -2476,7 +2769,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers.Aragorn_Arwen_Evenstar_2.Argument" Name="TheTwoTowers.Aragorn_Arwen_Evenstar_2" Img="#35" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Aragorn_Arwen_Evenstar_2&amp;L3STinstance=TheTwoTowers.Aragorn_Arwen_Evenstar_2.Argument">
+        <Item Id="TheTwoTowers.Aragorn_Arwen_Evenstar_2.Argument" Name="TheTwoTowers.Aragorn_Arwen_Evenstar_2" Img="#39" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Aragorn_Arwen_Evenstar_2&amp;L3STinstance=TheTwoTowers.Aragorn_Arwen_Evenstar_2.Argument">
             <Description>Aragorn urges Arwen to leave Middle-Earth with her people and forget him.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -2551,7 +2844,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers.Aragorn_Brego.Aragorn_tames_Brego" Name="TheTwoTowers.Aragorn_Brego" Img="#36" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Aragorn_Brego&amp;L3STinstance=TheTwoTowers.Aragorn_Brego.Aragorn_tames_Brego">
+        <Item Id="TheTwoTowers.Aragorn_Brego.Aragorn_tames_Brego" Name="TheTwoTowers.Aragorn_Brego" Img="#40" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Aragorn_Brego&amp;L3STinstance=TheTwoTowers.Aragorn_Brego.Aragorn_tames_Brego">
             <Description>Aragorn tames his future horse, Brego, by using Elvish words.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -2625,7 +2918,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers.Aragorn_Brego2.Thanking_in_Elvish" Name="Aragorn, Brego2" Img="#37" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Aragorn_Brego2&amp;L3STinstance=TheTwoTowers.Aragorn_Brego2.Thanking_in_Elvish">
+        <Item Id="TheTwoTowers.Aragorn_Brego2.Thanking_in_Elvish" Name="Aragorn, Brego2" Img="#41" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Aragorn_Brego2&amp;L3STinstance=TheTwoTowers.Aragorn_Brego2.Thanking_in_Elvish">
             <Description>Aragorn thanks his horse for bringing him to Helm's Deep.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -2696,7 +2989,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers.Aragorn_Legolas_Helm'sDeep.Aragorn_thanks" Name="Aragorn, Legolas, Helm'sDeep" Img="#38" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Aragorn_Legolas_Helm'sDeep&amp;L3STinstance=TheTwoTowers.Aragorn_Legolas_Helm'sDeep.Aragorn_thanks">
+        <Item Id="TheTwoTowers.Aragorn_Legolas_Helm'sDeep.Aragorn_thanks" Name="Aragorn, Legolas, Helm'sDeep" Img="#42" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Aragorn_Legolas_Helm'sDeep&amp;L3STinstance=TheTwoTowers.Aragorn_Legolas_Helm'sDeep.Aragorn_thanks">
             <Description>Legolas gives a sarcastic opinion on Aragorn's looks when the latter reaches Helm's Deep (Aragorn was meant to be dead). Legolas gives him the Evenstar pendant back.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -2767,7 +3060,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers.Aragorn_Legolas_Helm'sDeep.Legolas_opinion" Name="Aragorn, Legolas, Helm'sDeep" Img="#39" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Aragorn_Legolas_Helm'sDeep&amp;L3STinstance=TheTwoTowers.Aragorn_Legolas_Helm'sDeep.Legolas_opinion">
+        <Item Id="TheTwoTowers.Aragorn_Legolas_Helm'sDeep.Legolas_opinion" Name="Aragorn, Legolas, Helm'sDeep" Img="#43" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Aragorn_Legolas_Helm'sDeep&amp;L3STinstance=TheTwoTowers.Aragorn_Legolas_Helm'sDeep.Legolas_opinion">
             <Description>Legolas gives a sarcastic opinion on Aragorn's looks when the latter reaches Helm's Deep (Aragorn was meant to be dead). Legolas gives him the Evenstar pendant back.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -2843,7 +3136,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers.Galadriel_on_the_future.Monologue" Name="Galadriel, on, the, future" Img="#40" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Galadriel_on_the_future&amp;L3STinstance=TheTwoTowers.Galadriel_on_the_future.Monologue">
+        <Item Id="TheTwoTowers.Galadriel_on_the_future.Monologue" Name="Galadriel, on, the, future" Img="#44" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Galadriel_on_the_future&amp;L3STinstance=TheTwoTowers.Galadriel_on_the_future.Monologue">
             <Description>Monologue by Galadriel concerning the future of Middle Earth.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -2920,7 +3213,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers.Gandalf_returns.Legolas-Aragorn_Fangorn" Name="TheTwoTowers.Gandalf_returns" Img="#41" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Gandalf_returns&amp;L3STinstance=TheTwoTowers.Gandalf_returns.Legolas-Aragorn_Fangorn">
+        <Item Id="TheTwoTowers.Gandalf_returns.Legolas-Aragorn_Fangorn" Name="TheTwoTowers.Gandalf_returns" Img="#45" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Gandalf_returns&amp;L3STinstance=TheTwoTowers.Gandalf_returns.Legolas-Aragorn_Fangorn">
             <Description>Aragorn, Gimli and Legolas enter the Fangorn forest looking for the White wizard.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -2994,7 +3287,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers.Hobbit_mourning.Legolas_praying" Name="TheTwoTowers.Hobbit_mourning" Img="#42" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Hobbit_mourning&amp;L3STinstance=TheTwoTowers.Hobbit_mourning.Legolas_praying">
+        <Item Id="TheTwoTowers.Hobbit_mourning.Legolas_praying" Name="TheTwoTowers.Hobbit_mourning" Img="#46" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Hobbit_mourning&amp;L3STinstance=TheTwoTowers.Hobbit_mourning.Legolas_praying">
             <Description>Thinking Pippin and Merry dead, Legolas prays for the hobbits in Elvish.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -3068,7 +3361,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers.Theodred_funeral.Gandalf_words" Name="TheTwoTowers.Theodred_funeral" Img="#43" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Theodred_funeral&amp;L3STinstance=TheTwoTowers.Theodred_funeral.Gandalf_words">
+        <Item Id="TheTwoTowers.Theodred_funeral.Gandalf_words" Name="TheTwoTowers.Theodred_funeral" Img="#47" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Theodred_funeral&amp;L3STinstance=TheTwoTowers.Theodred_funeral.Gandalf_words">
             <Description>Theodred is buried following Rohan customs.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -3145,7 +3438,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers.Theodred_funeral.Éowyn_song" Name="TheTwoTowers.Theodred_funeral" Img="#44" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Theodred_funeral&amp;L3STinstance=TheTwoTowers.Theodred_funeral.Éowyn_song">
+        <Item Id="TheTwoTowers.Theodred_funeral.Éowyn_song" Name="TheTwoTowers.Theodred_funeral" Img="#48" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Theodred_funeral&amp;L3STinstance=TheTwoTowers.Theodred_funeral.Éowyn_song">
             <Description>Theodred is buried following Rohan customs.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -3224,7 +3517,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheWalk.MeetingPapaRudy.Czech" Name="TheWalk.MeetingPapaRudy.Czech" Img="#45" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingPapaRudy&amp;L3STinstance=TheWalk.MeetingPapaRudy.Czech">
+        <Item Id="TheWalk.MeetingPapaRudy.Czech" Name="TheWalk.MeetingPapaRudy.Czech" Img="#49" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingPapaRudy&amp;L3STinstance=TheWalk.MeetingPapaRudy.Czech">
             <Facets>
                 <Facet Name="Conversation Reference Id">
                     <String Value="TheWalk.MeetingPapaRudy" />
@@ -3288,7 +3581,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheWalk.MeetingPapaRudy.French" Name="TheWalk.MeetingPapaRudy.French" Img="#46" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingPapaRudy&amp;L3STinstance=TheWalk.MeetingPapaRudy.French">
+        <Item Id="TheWalk.MeetingPapaRudy.French" Name="TheWalk.MeetingPapaRudy.French" Img="#50" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingPapaRudy&amp;L3STinstance=TheWalk.MeetingPapaRudy.French">
             <Facets>
                 <Facet Name="Conversation Reference Id">
                     <String Value="TheWalk.MeetingPapaRudy" />
@@ -3349,7 +3642,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheWalk.MeetingPapaRudy.French2" Name="TheWalk.MeetingPapaRudy.French2" Img="#47" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingPapaRudy&amp;L3STinstance=TheWalk.MeetingPapaRudy.French2">
+        <Item Id="TheWalk.MeetingPapaRudy.French2" Name="TheWalk.MeetingPapaRudy.French2" Img="#51" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingPapaRudy&amp;L3STinstance=TheWalk.MeetingPapaRudy.French2">
             <Facets>
                 <Facet Name="Conversation Reference Id">
                     <String Value="TheWalk.MeetingPapaRudy" />
@@ -3410,7 +3703,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheWalk.MeetingPapaRudy.French3" Name="TheWalk.MeetingPapaRudy.French3" Img="#48" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingPapaRudy&amp;L3STinstance=TheWalk.MeetingPapaRudy.French3">
+        <Item Id="TheWalk.MeetingPapaRudy.French3" Name="TheWalk.MeetingPapaRudy.French3" Img="#52" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingPapaRudy&amp;L3STinstance=TheWalk.MeetingPapaRudy.French3">
             <Facets>
                 <Facet Name="Conversation Reference Id">
                     <String Value="TheWalk.MeetingPapaRudy" />
@@ -3471,7 +3764,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheWalk.OnTheRoof.Czech" Name="TheWalk.OnTheRoof.Czech" Img="#49" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk&amp;conversation=TheWalk.OnTheRoof&amp;L3STinstance=TheWalk.OnTheRoof.Czech">
+        <Item Id="TheWalk.OnTheRoof.Czech" Name="TheWalk.OnTheRoof.Czech" Img="#53" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk&amp;conversation=TheWalk.OnTheRoof&amp;L3STinstance=TheWalk.OnTheRoof.Czech">
             <Facets>
                 <Facet Name="Conversation Reference Id">
                     <String Value="TheWalk.OnTheRoof" />
@@ -3499,7 +3792,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Um filme falado.First port of call-Marseille.Speaking French" Name="Um filme falado.First port of call-Marseille.Speaking French" Img="#50" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Um filme falado&amp;conversation=Um filme falado.First port of call-Marseille&amp;L3STinstance=Um filme falado.First port of call-Marseille.Speaking French">
+        <Item Id="Um filme falado.First port of call-Marseille.Speaking French" Name="Um filme falado.First port of call-Marseille.Speaking French" Img="#54" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Um filme falado&amp;conversation=Um filme falado.First port of call-Marseille&amp;L3STinstance=Um filme falado.First port of call-Marseille.Speaking French">
             <Description>Both Rosa Maria anf the fisherman speak in French.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -3570,7 +3863,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Um filme falado.The captain dinner-Captain-speaking one language.Speaking English" Name="Um filme falado.The captain dinner-Captain-speaking one language.Speaking English" Img="#51" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Um filme falado&amp;conversation=Um filme falado.The captain dinner-Captain-speaking one language&amp;L3STinstance=Um filme falado.The captain dinner-Captain-speaking one language.Speaking English">
+        <Item Id="Um filme falado.The captain dinner-Captain-speaking one language.Speaking English" Name="Um filme falado.The captain dinner-Captain-speaking one language.Speaking English" Img="#55" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Um filme falado&amp;conversation=Um filme falado.The captain dinner-Captain-speaking one language&amp;L3STinstance=Um filme falado.The captain dinner-Captain-speaking one language.Speaking English">
             <Description>The captain is speaking in English and he wishes we could all speak one languge.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -3640,7 +3933,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Um filme falado.The captain dinner-Captain.Speaking English" Name="Um filme falado.The captain dinner-Captain.Speaking English" Img="#52" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Um filme falado&amp;conversation=Um filme falado.The captain dinner-Captain&amp;L3STinstance=Um filme falado.The captain dinner-Captain.Speaking English">
+        <Item Id="Um filme falado.The captain dinner-Captain.Speaking English" Name="Um filme falado.The captain dinner-Captain.Speaking English" Img="#56" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Um filme falado&amp;conversation=Um filme falado.The captain dinner-Captain&amp;L3STinstance=Um filme falado.The captain dinner-Captain.Speaking English">
             <Description>English is the language they all understand</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
