@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="FellowshipOfTheRing.Luthien_song.Aragorn_singing.SpanishDub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="LoveActually.Lake Scene.After Lake.SpanishDub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -42,38 +42,35 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="FellowshipOfTheRing.Luthien_song.Aragorn_singing.SpanishDub" Name="FellowshipOfTheRing.Luthien_song.Aragorn_singing.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Luthien_song&amp;L3STinstance=FellowshipOfTheRing.Luthien_song.Aragorn_singing&amp;L3TTinstance=FellowshipOfTheRing.Luthien_song.Aragorn_singing.SpanishDub">
-      <Description>Aragorn is keeping watch during the night in the forest, while the hobbits are sleeping. He signs a mourning song about the Lady of Luthien. This song introduces the conflict of Arwen's mortality choice, key in the development of Aragorn's narrative line in the saga. Besides, this song is a homage to J.R.R. Tolkien.</Description>
+    <Item Id="LoveActually.Lake Scene.After Lake.SpanishDub" Name="LoveActually.Lake Scene.After Lake.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.Lake Scene&amp;L3STinstance=LoveActually.Lake Scene.After Lake&amp;L3TTinstance=LoveActually.Lake Scene.After Lake.SpanishDub">
+      <Description>After the lake incident, Jamie and Aurelia discuss about Jamie's book, each in their native tongue and with non-verbal cues.</Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="FellowshipOfTheRing.Luthien_song.Aragorn_singing.SpanishDub" />
+          <String Value="LoveActually.Lake Scene.After Lake.SpanishDub" />
         </Facet>
         <Facet Name="Transcription">
-          <String Value="Aragorn (singing):&#xD;&#xA;&#xD;&#xA;Tinúviel elvanui,&#xD;&#xA;Elleth alfirin ethelhael&#xD;&#xA;O hon ring finnil fuinui&#xD;&#xA;A renc gelebrin thiliol.&#xD;&#xA;(not subtitled)&#xD;&#xA;&#xD;&#xA;Frodo: ¿Quién es ella?, la dama de la canción.&#xD;&#xA;&#xD;&#xA;Aragorn: Es la dama de Luthien, la doncella elfo que entregó su amor a Beren, un mortal.&#xD;&#xA;&#xD;&#xA;Frodo: ¿Qué le pasó?&#xD;&#xA;&#xD;&#xA;Aragorn: Murió." />
-        </Facet>
-        <Facet Name="Remarks">
-          <String Value="L3 in the Spanish dubbed version is not conveyed in L2 in written or oral mode." />
+          <String Value="Jamie: Gracias, muchísimas gracias. Le pondré tu nombre a uno de mis personajes.&#xD;&#xA;&#xD;&#xA;Aurelia (ST) Podrías ponerle mi nombre&#xD;&#xA;a uno de los personajes.&#xD;&#xA;&#xD;&#xA;Aurelia (ST) O darme el 50% de los beneficios.&#xD;&#xA;&#xD;&#xA;Jamie: O podría darte el 5% de los beneficios.&#xD;&#xA;&#xD;&#xA;Aurelia (ST)¿Qué tipo de novela es?&#xD;&#xA;&#xD;&#xA;Aurelia (ST) - ¿Romántica?&#xD;&#xA;Jamie: Sí, es... (sounds and gestures)&#xD;&#xA;&#xD;&#xA;Aurelia (ST) Policiaca... De crimen...&#xD;&#xA;&#xD;&#xA;Jamie: Sí, sí, sí, sí, sí, crimen, crimen. Asesinatos.&#xD;&#xA;Aurelia (ST) ¿Aterradora?&#xD;&#xA;&#xD;&#xA;Jamie: ¿Miedo?  Sí, a veces da miedo. A veces no. Sobre todo lo que da miedo es lo malo que soy escribiendo. &#xD;&#xA;Aurelia (ST)  Vuelvo al trabajo.&#xD;&#xA;&#xD;&#xA;Aurelia (ST) ¿Luego me llevas a casa?&#xD;&#xA;&#xD;&#xA;Jamie: Claro. Es el momento más feliz del día, acompañarte a casa.&#xD;&#xA;Aurelia (ST)  Es el momento más triste del dia,&#xD;&#xA;cuando te dejo.&#xD;&#xA;" />
         </Facet>
         <Facet Name="Info created">
-          <DateTime Value="2016-10-18T06:12:41" />
+          <DateTime Value="2016-10-30T05:12:37" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-30T05:17:12" />
+          <DateTime Value="2016-10-30T05:16:14" />
         </Facet>
         <Facet Name="Metadata Editors">
-          <String Value="miquelpt" />
+          <String Value="evaespasa" />
         </Facet>
         <Facet Name="Film Reference Id">
-          <String Value="FellowshipOfTheRing" />
+          <String Value="LoveActually" />
         </Facet>
         <Facet Name="Conversation Reference Id">
-          <String Value="FellowshipOfTheRing.Luthien_song" />
+          <String Value="LoveActually.Lake Scene" />
         </Facet>
         <Facet Name="L3ST-instance Reference Id">
-          <String Value="FellowshipOfTheRing.Luthien_song.Aragorn_singing" />
+          <String Value="LoveActually.Lake Scene.After Lake" />
         </Facet>
         <Facet Name="Film Title TT">
-          <String Value="La comunidad del Anillo" />
+          <String Value="Love Actually" />
         </Facet>
         <Facet Name="L2 language">
           <String Value="Spanish" />
@@ -82,16 +79,13 @@
           <String Value="Dubbed" />
         </Facet>
         <Facet Name="Year TT released">
-          <Number Value="2001" />
+          <Number Value="2003" />
         </Facet>
         <Facet Name="Film TT Blockbuster">
           <String Value="YES (top 20)" />
         </Facet>
-        <Facet Name="Conversation start time (min)">
-          <Number Value="65" />
-        </Facet>
         <Facet Name="Conversation duration (sec)">
-          <String Value="B. 21-40" />
+          <String Value="I. 161-180" />
         </Facet>
         <Facet Name="L2 same as L3ST">
           <String Value="No" />
@@ -100,59 +94,52 @@
           <String Value="Yes" />
         </Facet>
         <Facet Name="L3TT language type">
-          <String Value="Constructed (fictional)" />
+          <String Value="Real" />
         </Facet>
         <Facet Name="L3TT language">
-          <String Value="Elvish" />
-        </Facet>
-        <Facet Name="L3TT constructed based on">
-          <String Value="“from scratch”" />
+          <String Value="Spanish" />
         </Facet>
         <Facet Name="L3TT meant to be understood">
-          <String Value="NO" />
+          <String Value="YES, (almost) completely" />
         </Facet>
         <Facet Name="L3TT message required for understanding">
           <String Value="Yes" />
         </Facet>
         <Facet Name="L3TT meaning decipherable">
-          <String Value="NO" />
+          <String Value="YES, through translation or clear from picture" />
         </Facet>
         <Facet Name="Quality of L3TT speaker performance">
           <String Value="native or proficient" />
         </Facet>
         <Facet Name="L3TT mode, written/spoken, diegetic">
-          <String Value="Oral diegetic on-screen" />
-        </Facet>
-        <Facet Name="L3TT merely represented">
-          <String Value="NO / Not applicable" />
+          <String Value="Written non-diegetic" />
         </Facet>
         <Facet Name="L3TT functions">
+          <String Value="Character portrayal" />
           <String Value="Plot (twist)" />
-          <String Value="Dramatic effect" />
         </Facet>
         <Facet Name="Conversation features for L3TT-instance">
-          <String Value="introduction" />
-          <String Value="song" />
+          <String Value="balanced exchange" />
+        </Facet>
+        <Facet Name="L3TT sources">
+          <String Value="Non-diegetic translation" />
         </Facet>
         <Facet Name="L3 language type change">
-          <String Value="- " />
-          <String Value="+ Constructed (fictional)" />
+          <String Value="None" />
         </Facet>
         <Facet Name="L3 mode change">
-          <String Value="+ Oral diegetic on-screen" />
+          <String Value="- Written diegetic" />
+          <String Value="+ Written non-diegetic" />
         </Facet>
         <Facet Name="L3 functions change">
-          <String Value="+ Plot (twist)" />
-          <String Value="+ Dramatic effect" />
+          <String Value="None" />
         </Facet>
         <Facet Name="Conversation features for L3-instance change">
-          <String Value="- bonding" />
-          <String Value="- literary" />
-          <String Value="+ introduction" />
+          <String Value="None" />
         </Facet>
         <Facet Name="L3 sources change">
           <String Value="- Oral L3: single source" />
-          <String Value="+ " />
+          <String Value="+ Non-diegetic translation" />
         </Facet>
       </Facets>
     </Item>
