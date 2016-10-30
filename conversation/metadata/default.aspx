@@ -225,7 +225,7 @@ Version: 20161029
 
         <div class="calculated" id="MetadataEditors">
           <div class="label">Metadata Editors</div>
-          <asp:Panel runat="server" ScrollBars="Auto" Style="max-height: 100px">
+          <asp:Panel runat="server" ScrollBars="Auto">
             <asp:ListBox ID="listMetadataEditors" runat="server" Enabled="false" />
            </asp:Panel>
         </div>

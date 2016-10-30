@@ -199,14 +199,14 @@ Version: 20161029
 
         <div class="calculated" id="L2dubbedLanguages">
           <div class="label">L2-Dubbed languages</div>
-          <asp:Panel runat="server" ScrollBars="Auto" Style="max-height: 100px">
+          <asp:Panel runat="server" ScrollBars="Auto">
             <asp:ListBox ID="listL2dubbedLanguages" runat="server" Enabled="false" />
            </asp:Panel>
         </div>
         
         <div class="calculated" id="L2subtitledLanguages">
           <div class="label">L2-Subtitled languages</div>
-          <asp:Panel runat="server" ScrollBars="Auto" Style="max-height: 100px">
+          <asp:Panel runat="server" ScrollBars="Auto">
             <asp:ListBox ID="listL2subtitledLanguages" runat="server" Enabled="false" />
            </asp:Panel>
         </div>   
@@ -255,7 +255,7 @@ Version: 20161029
 
         <div class="calculated" id="MetadataEditors">
           <div class="label">Metadata Editors</div>
-          <asp:Panel runat="server" ScrollBars="Auto" Style="max-height: 100px">
+          <asp:Panel runat="server" ScrollBars="Auto">
             <asp:ListBox ID="listMetadataEditors" runat="server" Enabled="false" />
            </asp:Panel>
         </div>
