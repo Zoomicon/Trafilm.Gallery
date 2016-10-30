@@ -255,6 +255,80 @@
         </Facet>
       </Facets>
     </Item>
+    <Item Id="FellowshipOfTheRing.Arwen_Bruinen_spell.Casting_the_spell" Name="Arwen, Bruinen, spell" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Arwen_Bruinen_spell&amp;L3STinstance=FellowshipOfTheRing.Arwen_Bruinen_spell.Casting_the_spell">
+      <Description>Arwen casts a spell in the Bruinen river to send a horse-shaped wave which drowns the Ringwraiths.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="FellowshipOfTheRing.Arwen_Bruinen_spell.Casting_the_spell" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Arwen:&#xD;&#xA;Nin o Chithaeglir, lasto beth daer,&#xD;&#xA;Rimmo nin Bruinen, dan in Ulair!&#xD;&#xA;Nin o Chithaeglir, lasto beth daer,&#xD;&#xA;Rimmo nin Bruinen, dan in Ulair!&#xD;&#xA;(not subtitled)" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-30T03:56:16" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-30T04:05:47" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="miquelpt" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="FellowshipOfTheRing" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="FellowshipOfTheRing.Arwen_Bruinen_spell" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="79" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="Elvish" />
+        </Facet>
+        <Facet Name="L3ST language type">
+          <String Value="Constructed (fictional)" />
+        </Facet>
+        <Facet Name="L3ST language">
+          <String Value="Elvish" />
+        </Facet>
+        <Facet Name="L3ST constructed based on">
+          <String Value="“from scratch”" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="YES, the gist, the implications of what is happening" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Conversation can be followed regardless of meaning" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3ST speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3ST mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3ST merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
+        <Facet Name="L3ST functions">
+          <String Value="Dramatic effect" />
+        </Facet>
+        <Facet Name="Conversation features for L3ST-instance">
+          <String Value="recitation" />
+        </Facet>
+        <Facet Name="L3ST sources">
+          <String Value="Oral L3: single source" />
+        </Facet>
+        <Facet Name="L3TT-instances: count">
+          <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="FellowshipOfTheRing.Arwen_curing_Frodo.Arwen_speaking" Name="Arwen, curing, Frodo" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Arwen_curing_Frodo&amp;L3STinstance=FellowshipOfTheRing.Arwen_curing_Frodo.Arwen_speaking">
       <Description>In the forest, Arwen talks to Frodo in Elvish to cure him after being stabbed by a Ringwraith.</Description>
       <Facets>
@@ -262,13 +336,13 @@
           <String Value="FellowshipOfTheRing.Arwen_curing_Frodo.Arwen_speaking" />
         </Facet>
         <Facet Name="Transcription">
-          <String Value="Arwen: Frodo... Im Arwen. Telin le thaed (SUB: I am Arwen - I've come to help you.)&#xD;&#xA;&#xD;&#xA;Lasto beth nîn. (SUB: Hear my voice...) Tolo dan na ngalad. (SUB: Come back to the light.)&#xD;&#xA;" />
+          <String Value="Arwen: Frodo... Im Arwen. Telin le thaed. (SUB: I am Arwen - I've come to help you.)&#xD;&#xA;&#xD;&#xA;Lasto beth nîn. (SUB: Hear my voice...) Tolo dan na ngalad. (SUB: Come back to the light.)&#xD;&#xA;" />
         </Facet>
         <Facet Name="Info created">
           <DateTime Value="2016-10-30T03:07:34" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-30T03:10:28" />
+          <DateTime Value="2016-10-30T03:15:19" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="miquelpt" />
@@ -322,7 +396,7 @@
           <String Value="Oral L3: single source" />
         </Facet>
         <Facet Name="L3TT-instances: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>
@@ -402,6 +476,77 @@
         </Facet>
         <Facet Name="L3TT-instances: count">
           <Number Value="2" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="FellowshipOfTheRing.Forest_Aragorn_Arwen_on_Frodo.Argument" Name="Forest, Aragorn, Arwen, on, Frodo" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Forest_Aragorn_Arwen_on_Frodo&amp;L3STinstance=FellowshipOfTheRing.Forest_Aragorn_Arwen_on_Frodo.Argument">
+      <Description>In the forest, Aragorn ad Arwen argue on what to do with Frodo, who is mortally wounded.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="FellowshipOfTheRing.Forest_Aragorn_Arwen_on_Frodo.Argument" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Arwen: There are five wraiths behind you. Where the other four are, I do not know.&#xD;&#xA;&#xD;&#xA;Aragorn: Dartho guin perian. Rych le ad tolthathon. (SUB: Stay with the Hobbits - / I'll send horses for you.)&#xD;&#xA;&#xD;&#xA;Arwen: Hon mabathon. Rochon ellint im. (SUB: I’m the faster rider - I’ll take him)&#xD;&#xA;&#xD;&#xA;Aragorn: Andelu i ven. (SUB: The Road is too dangerous.)&#xD;&#xA;&#xD;&#xA;Pippin: What are they saying?&#xD;&#xA;&#xD;&#xA;Arwen: Frodo fîr. Ae athradon i hir, (SUB: If I can get across the river...) tur gwaith nin beriatha hon. (SUB: ...the power of my people / will protect him.)&#xD;&#xA;&#xD;&#xA;Arwen: I do not fear them.&#xD;&#xA;&#xD;&#xA;Aragorn: Be iest lîn. (not subtitled) Arwen, ride hard. Don’t look back!&#xD;&#xA;&#xD;&#xA;Arwen: Noro lim, Asfaloth, noro lim! (not subtitled)" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-30T03:24:22" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-30T03:31:14" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="miquelpt" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="FellowshipOfTheRing" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="FellowshipOfTheRing.Forest_Aragorn_Arwen_on_Frodo" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="76" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="D. 61-80" />
+        </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="Elvish" />
+        </Facet>
+        <Facet Name="L3ST language type">
+          <String Value="Constructed (fictional)" />
+        </Facet>
+        <Facet Name="L3ST language">
+          <String Value="Elvish" />
+        </Facet>
+        <Facet Name="L3ST constructed based on">
+          <String Value="“from scratch”" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="Quality of L3ST speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3ST mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3ST merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
+        <Facet Name="L3ST functions">
+          <String Value="Dramatic effect" />
+        </Facet>
+        <Facet Name="Conversation features for L3ST-instance">
+          <String Value="debate" />
+        </Facet>
+        <Facet Name="L3TT-instances: count">
+          <Number Value="0" />
         </Facet>
       </Facets>
     </Item>
@@ -1199,29 +1344,6 @@
         </Facet>
         <Facet Name="L3ST sources">
           <String Value="Oral L3: single source" />
-        </Facet>
-        <Facet Name="L3TT-instances: count">
-          <Number Value="0" />
-        </Facet>
-      </Facets>
-    </Item>
-    <Item Id="Harry Potter and the Deathly Hallows Part 2.Voldermort finds out Gringott was robbed.Voldemort finds out Gringott was robbed" Name="Harry Potter and the Deathly Hallows Part 2.Voldermort finds out Gringott was robbed.Voldemort finds out Gringott was robbed" Img="" Href="">
-      <Description></Description>
-      <Facets>
-        <Facet Name="Reference Id">
-          <String Value="Harry Potter and the Deathly Hallows Part 2.Voldermort finds out Gringott was robbed.Voldemort finds out Gringott was robbed" />
-        </Facet>
-        <Facet Name="Info created">
-          <DateTime Value="2016-10-30T02:41:52" />
-        </Facet>
-        <Facet Name="Info updated">
-          <DateTime Value="2016-10-30T02:41:52" />
-        </Facet>
-        <Facet Name="Film Reference Id">
-          <String Value="Harry Potter and the Deathly Hallows Part 2" />
-        </Facet>
-        <Facet Name="Conversation Reference Id">
-          <String Value="Harry Potter and the Deathly Hallows Part 2.Voldermort finds out Gringott was robbed" />
         </Facet>
         <Facet Name="L3TT-instances: count">
           <Number Value="0" />

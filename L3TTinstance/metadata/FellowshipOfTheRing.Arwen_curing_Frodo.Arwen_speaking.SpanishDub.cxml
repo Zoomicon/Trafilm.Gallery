@@ -42,17 +42,23 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="FellowshipOfTheRing.Arwen_curing_Frodo.Arwen_speaking.SpanishDub" Name="FellowshipOfTheRing.Arwen_curing_Frodo.Arwen_speaking.SpanishDub" Img="" Href="">
-      <Description></Description>
+    <Item Id="FellowshipOfTheRing.Arwen_curing_Frodo.Arwen_speaking.SpanishDub" Name="FellowshipOfTheRing.Arwen_curing_Frodo.Arwen_speaking.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Arwen_curing_Frodo&amp;L3STinstance=FellowshipOfTheRing.Arwen_curing_Frodo.Arwen_speaking&amp;L3TTinstance=FellowshipOfTheRing.Arwen_curing_Frodo.Arwen_speaking.SpanishDub">
+      <Description>In the forest, Arwen talks to Frodo in Elvish to cure him after being stabbed by a Ringwraith.</Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="FellowshipOfTheRing.Arwen_curing_Frodo.Arwen_speaking.SpanishDub" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Arwen: Frodo... Im Arwen. Telin le thaed. (SUB: Soy Arwen, he venido a ayudarte.)&#xD;&#xA;&#xD;&#xA;Lasto beth nîn. (SUB: Oye mi voz,) Tolo dan na ngalad. (SUB: vuelve a la luz.)" />
         </Facet>
         <Facet Name="Info created">
           <DateTime Value="2016-10-30T03:10:46" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-30T03:10:46" />
+          <DateTime Value="2016-10-30T03:15:45" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="miquelpt" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="FellowshipOfTheRing" />
@@ -62,6 +68,81 @@
         </Facet>
         <Facet Name="L3ST-instance Reference Id">
           <String Value="FellowshipOfTheRing.Arwen_curing_Frodo.Arwen_speaking" />
+        </Facet>
+        <Facet Name="Film Title TT">
+          <String Value="La comunidad del Anillo" />
+        </Facet>
+        <Facet Name="L2 language">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L2 mode">
+          <String Value="Dubbed" />
+        </Facet>
+        <Facet Name="Year TT released">
+          <Number Value="2001" />
+        </Facet>
+        <Facet Name="Film TT Blockbuster">
+          <String Value="YES (top 20)" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="76" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L2 same as L3ST">
+          <String Value="No" />
+        </Facet>
+        <Facet Name="L3ST conveyed as L3TT">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT language type">
+          <String Value="Constructed (fictional)" />
+        </Facet>
+        <Facet Name="L3TT language">
+          <String Value="Elvish" />
+        </Facet>
+        <Facet Name="L3TT constructed based on">
+          <String Value="“from scratch”" />
+        </Facet>
+        <Facet Name="L3TT meant to be understood">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="L3TT message required for understanding">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT meaning decipherable">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="Quality of L3TT speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3TT mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3TT merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
+        <Facet Name="L3TT functions">
+          <String Value="Dramatic effect" />
+        </Facet>
+        <Facet Name="L3TT sources">
+          <String Value="Oral L3: single source" />
+        </Facet>
+        <Facet Name="L3 language type change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 mode change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 functions change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="Conversation features for L3-instance change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 sources change">
+          <String Value="None" />
         </Facet>
       </Facets>
     </Item>
