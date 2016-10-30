@@ -10,6 +10,12 @@ div
   margin-bottom: 5px;
 }
 
+a
+{
+  word-break: break-all !important; /* make sure containers don't override */
+  display: inline-block !important;
+}
+
 /* --------------------------- */
 
 .navigation a:link
