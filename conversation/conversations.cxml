@@ -21,6 +21,51 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
+    <Item Id="Aladdin.3 wishes offered" Name="Three wishes offered" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Aladdin&amp;conversation=Aladdin.3 wishes offered">
+      <Description>Genie offers Aladdin three wishes</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Aladdin.3 wishes offered" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-26T05:50:38" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-29T06:06:04" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="PatrickZabalbeascoa" />
+          <String Value="George" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Aladdin" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Aladdin" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="36" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Avatar.Calm down, people" Name="Calm down, people" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Avatar&amp;conversation=Avatar.Calm down, people">
       <Description></Description>
       <Facets>
@@ -111,6 +156,158 @@
         </Facet>
       </Facets>
     </Item>
+    <Item Id="FellowshipOfTheRing.Arwen_Bruinen_spell" Name="Arwen, Bruinen, spell" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Arwen_Bruinen_spell">
+      <Description>Arwen casts a spell in the Bruinen river to send a horse-shaped wave which drowns the Ringwraiths.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="FellowshipOfTheRing.Arwen_Bruinen_spell" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-30T03:52:14" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-30T03:55:42" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="miquelpt" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="FellowshipOfTheRing" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="The Lord of the Rings: The Fellowship of the Ring" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="79" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="FellowshipOfTheRing.Arwen_curing_Frodo" Name="Arwen, curing, Frodo" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Arwen_curing_Frodo">
+      <Description>In the forest, Arwen talks to Frodo in Elvish to cure him after being stabbed by a Ringwraith.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="FellowshipOfTheRing.Arwen_curing_Frodo" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-30T03:05:07" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-30T03:07:17" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="miquelpt" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="FellowshipOfTheRing" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="The Lord of the Rings: The Fellowship of the Ring" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="76" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="FellowshipOfTheRing.ElrondCouncil_Gandalf" Name="ElrondCouncil, Gandalf" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.ElrondCouncil_Gandalf">
+      <Description>During the Council of Elrond, Gandalf utters the Mordor language words inscribed in the Ring, thus provoking a turmoil in the room.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="FellowshipOfTheRing.ElrondCouncil_Gandalf" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-30T04:10:11" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-30T04:13:16" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="miquelpt" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="FellowshipOfTheRing" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="The Lord of the Rings: The Fellowship of the Ring" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="94" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="B. 21-40" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="FellowshipOfTheRing.Elrond_curing_spell" Name="Elrond, curing, spell" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Elrond_curing_spell">
+      <Description>In Rivendell, Elrond cures Frodo from becoming a wraith by uttering a spell in Elvish.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="FellowshipOfTheRing.Elrond_curing_spell" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-30T04:37:18" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-30T04:38:40" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="miquelpt" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="FellowshipOfTheRing" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="The Lord of the Rings: The Fellowship of the Ring" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="80" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="FellowshipOfTheRing.Elrond_Dagorlad_battle" Name="Elrond - Dagorlad battle" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Elrond_Dagorlad_battle">
       <Description></Description>
       <Facets>
@@ -153,6 +350,44 @@
         </Facet>
         <Facet Name="L3ST-instances: count">
           <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="FellowshipOfTheRing.Forest_Aragorn_Arwen_on_Frodo" Name="Forest, Aragorn, Arwen, on, Frodo" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Forest_Aragorn_Arwen_on_Frodo">
+      <Description>In the forest, Aragorn ad Arwen argue on what to do with Frodo, who is mortally wounded.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="FellowshipOfTheRing.Forest_Aragorn_Arwen_on_Frodo" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-30T03:23:20" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-30T03:24:04" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="miquelpt" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="FellowshipOfTheRing" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="The Lord of the Rings: The Fellowship of the Ring" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="76" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="D. 61-80" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
         </Facet>
       </Facets>
     </Item>
@@ -201,7 +436,7 @@
         </Facet>
       </Facets>
     </Item>
-    <Item Id="FellowshipOfTheRing.Lorien_AragornGaladriel" Name="Lorien - Aragorn Galadriel" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Lorien_AragornGaladriel">
+    <Item Id="FellowshipOfTheRing.Lorien_AragornGaladriel" Name="Aragorn - Galadriel, Lorien" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Lorien_AragornGaladriel">
       <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -211,7 +446,7 @@
           <DateTime Value="2016-06-15T08:54:29" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-19T12:22:43" />
+          <DateTime Value="2016-10-29T05:16:49" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="miquelpt" />
@@ -256,11 +491,11 @@
           <DateTime Value="2016-10-18T06:00:41" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-19T12:22:54" />
+          <DateTime Value="2016-10-30T05:20:36" />
         </Facet>
         <Facet Name="Metadata Editors">
-          <String Value="miquelpt" />
           <String Value="George" />
+          <String Value="miquelpt" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="FellowshipOfTheRing" />
@@ -275,17 +510,61 @@
           <String Value="B. 21-40" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Elvish" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Constructed (fictional)" />
         </Facet>
         <Facet Name="L3ST-instances: count">
           <Number Value="1" />
         </Facet>
       </Facets>
     </Item>
-    <Item Id="FellowshipOfTheRing.Rivendell_AragornArwen" Name="Rivendell - Aragorn Arwen" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Rivendell_AragornArwen">
+    <Item Id="FellowshipOfTheRing.Ring Inscription" Name="Ring Inscription" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Ring Inscription">
+      <Description>Gandalf confirms Frodo is holding the One Ring when they discover the hidden inscription written in the Mordor language.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="FellowshipOfTheRing.Ring Inscription" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-30T02:34:03" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-30T02:39:17" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="miquelpt" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="FellowshipOfTheRing" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="The Lord of the Rings: The Fellowship of the Ring" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="36" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="B. 21-40" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="FellowshipOfTheRing.Rivendell_AragornArwen" Name="Aragorn - Arwen, Rivendell" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Rivendell_AragornArwen">
       <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -295,7 +574,7 @@
           <DateTime Value="2016-06-15T08:54:29" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-19T12:23:09" />
+          <DateTime Value="2016-10-29T05:16:15" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="miquelpt" />
@@ -330,7 +609,51 @@
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Game of Thrones.E01 Winter is coming_Dothraki wedding" Name="Game of Thrones. 01: Winter is coming_Dothraki wedding" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Game of Thrones&amp;conversation=Game of Thrones.E01 Winter is coming_Dothraki wedding">
+    <Item Id="FellowshipOfTheRing.Rivendell_Elrond_Aragorn" Name="Rivendell, Elrond, Aragorn" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Rivendell_Elrond_Aragorn">
+      <Description>In Rivendell, Aragorn visits his mother's tomb. Elrond approaches and talks about Aragorn's destiny and his mother's protection.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="FellowshipOfTheRing.Rivendell_Elrond_Aragorn" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-30T04:49:42" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-30T05:10:00" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="miquelpt" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="FellowshipOfTheRing" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="The Lord of the Rings: The Fellowship of the Ring" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="102" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="B. 21-40" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Elvish" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Constructed (fictional)" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Game of Thrones.E01 Winter is coming_Dothraki wedding" Name="Winter is coming - Dothraki wedding" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Game of Thrones&amp;conversation=Game of Thrones.E01 Winter is coming_Dothraki wedding">
       <Description>At Daenerys' and Khal Drogo's wedding, the guests bring gifts and talk to Khal Drogo in Dothraki.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -340,10 +663,11 @@
           <DateTime Value="2016-10-21T06:29:46" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-23T09:07:29" />
+          <DateTime Value="2016-10-29T05:19:17" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="SIberg" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Game of Thrones" />
@@ -361,17 +685,23 @@
           <String Value="I. 161-180" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Dothraki" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Constructed (fictional)" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="0" />
+          <Number Value="2" />
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Game of Thrones.E01 Winter is coming_Presentation" Name="Game of Thrones.E01 Winter is coming_Presentation" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Game of Thrones&amp;conversation=Game of Thrones.E01 Winter is coming_Presentation">
+    <Item Id="Game of Thrones.E01 Winter is coming_Presentation" Name="Winter is coming - Presentation" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Game of Thrones&amp;conversation=Game of Thrones.E01 Winter is coming_Presentation">
       <Description>Daenerys is presented to Khal Drogo.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -381,10 +711,11 @@
           <DateTime Value="2016-10-21T06:29:46" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-23T09:43:22" />
+          <DateTime Value="2016-10-29T05:18:51" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="SIberg" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Game of Thrones" />
@@ -402,6 +733,50 @@
           <String Value="I. 161-180" />
         </Facet>
         <Facet Name="L3ST languages: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Dothraki" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Constructed (fictional)" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="2" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Harry Potter and the Deathly Hallows Part 2.Voldermort finds out Gringott was robbed" Name="Voldermort finds out Gringott was robbed" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Harry Potter and the Deathly Hallows Part 2&amp;conversation=Harry Potter and the Deathly Hallows Part 2.Voldermort finds out Gringott was robbed">
+      <Description>This film is spoken mostly in English with some characters speaking Parseltongue in some scenes. During the scene where Voldemort finds out Gringott's was robbed, he speaks Parseltongue to his snake Nagini, with on screen subtitles. In the scene where Ron and Hermione go to the chamber of secrets to destroy Helga Hufflepuff's cup, Ron speaks "open" in Parseltongue to get in. Generally only Parselmouths (Voldemort, Harry Potter, Salazar Slytherin, and Marvolo, Morfin, and Merope Gaunt) can speak Parseltongue. Ron Weasley isn't a Parseltongue but he merely muttered the Parseltongue word for "open" which he remembered from Harry speaking it. Ginny Weasley also isn't a Parseltongue but was able to speak it to open the chamber of secrets various times while possessed by Voldemort. Also, Professor Dumbledore can understand (and very possibly, speak) Parseltontgue, such as Goblins' and Mermish languages</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Harry Potter and the Deathly Hallows Part 2.Voldermort finds out Gringott was robbed" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-30T02:17:39" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-30T02:38:20" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Stavroula" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Harry Potter and the Deathly Hallows Part 2" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Harry Potter and the Deathly Hallows Part 2" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="25" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
           <Number Value="0" />
         </Facet>
         <Facet Name="L3ST language types: count">
@@ -412,8 +787,144 @@
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Inglourious Basterds.Americans in Italian disguise" Name="Americans in Italian disguise" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Inglourious Basterds&amp;conversation=Inglourious Basterds.Americans in Italian disguise">
+      <Description>Three Americans pretend to be Italian film makers, in horrible Italian</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Inglourious Basterds.Americans in Italian disguise" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-27T06:57:59" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-29T05:18:12" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="PatrickZabalbeascoa" />
+          <String Value="George" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Inglourious Basterds" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Inglourious Basterds" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="108" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="D. 61-80" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="2" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Italian" />
+          <String Value="German" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="2" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Inglourious Basterds.Hold that expression" Name="Hold that expression" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Inglourious Basterds&amp;conversation=Inglourious Basterds.Hold that expression">
+      <Description>dialogue involves instructions for posing</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Inglourious Basterds.Hold that expression" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-26T11:54:33" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-29T05:17:56" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="PatrickZabalbeascoa" />
+          <String Value="George" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Inglourious Basterds" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Inglourious Basterds" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="103" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="French" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Inglourious Basterds.Landa speaks French 1" Name="Landa speaks French 1" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Inglourious Basterds&amp;conversation=Inglourious Basterds.Landa speaks French 1">
+      <Description>metalinguistic feature just to express limited proficiency in French, to jutify script's return to L1</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Inglourious Basterds.Landa speaks French 1" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-26T08:41:00" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-29T05:17:30" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="PatrickZabalbeascoa" />
+          <String Value="George" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Inglourious Basterds" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Inglourious Basterds" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="6" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="C. 41-60" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="French" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="LoveActually.JamieProposesToAurelia" Name="Jamie proposes to Aurelia" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia">
-      <Description></Description>
+      <Description>Jamie arrives at the restaurant where Aurélia works in order to propose her. He speaks in Portuguese, a language he has been learning for this purpose. Aurélia accepts, in English, a language she has learnt in parallel.</Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="LoveActually.JamieProposesToAurelia" />
@@ -422,17 +933,21 @@
           <DateTime Value="2016-06-15T12:40:30" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-19T12:23:45" />
+          <DateTime Value="2016-10-30T08:25:23" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Stavroula" />
           <String Value="George" />
+          <String Value="evaespasa" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="LoveActually" />
         </Facet>
         <Facet Name="Film/Season title">
-          <String Value="Love Actually " />
+          <String Value="Love Actually" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="118" />
         </Facet>
         <Facet Name="Duration (sec)">
           <String Value="I. 161-180" />
@@ -581,6 +1096,55 @@
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Pulp Fiction.Too many foreigners" Name="Too many foreigners" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Pulp Fiction&amp;conversation=Pulp Fiction.Too many foreigners">
+      <Description>Two characters palnning a robbery</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Pulp Fiction.Too many foreigners" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="intralingual variation" />
+          <String Value=" UK v US English" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-26T04:37:07" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-29T05:19:44" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="PatrickZabalbeascoa" />
+          <String Value="George" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Pulp Fiction" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Pulp Fiction" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="B. 21-40" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="English - UK" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Spanglish.At the summer place - an interpreter" Name="At the summer place - an interpreter" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Spanglish&amp;conversation=Spanglish.At the summer place - an interpreter">
       <Description></Description>
       <Facets>
@@ -596,17 +1160,21 @@
           <DateTime Value="2016-10-17T09:49:01" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-19T12:24:48" />
+          <DateTime Value="2016-10-28T09:27:26" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="corrius" />
           <String Value="George" />
+          <String Value="PatrickZabalbeascoa" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Spanglish" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Spanglish" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="43" />
         </Facet>
         <Facet Name="Duration (sec)">
           <String Value="A. 1-20" />
@@ -638,17 +1206,21 @@
           <DateTime Value="2016-10-17T09:47:33" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-19T12:24:55" />
+          <DateTime Value="2016-10-28T09:30:26" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="corrius" />
           <String Value="George" />
+          <String Value="PatrickZabalbeascoa" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Spanglish" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Spanglish" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="11" />
         </Facet>
         <Facet Name="Duration (sec)">
           <String Value="A. 1-20" />
@@ -716,17 +1288,21 @@
           <DateTime Value="2016-10-17T09:40:48" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-19T12:25:12" />
+          <DateTime Value="2016-10-28T09:32:01" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="corrius" />
           <String Value="George" />
+          <String Value="PatrickZabalbeascoa" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Spanglish" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Spanglish" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="5" />
         </Facet>
         <Facet Name="Duration (sec)">
           <String Value="A. 1-20" />
@@ -748,7 +1324,230 @@
         </Facet>
       </Facets>
     </Item>
-    <Item Id="TheTwoTowers.Aragorn_fall" Name="TheTwoTowers.Aragorn_fall" Img="" Href="">
+    <Item Id="TheTwoTowers.Aragorn_Arwen_Evenstar" Name="Aragorn - Arwen, Evenstar" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Aragorn_Arwen_Evenstar">
+      <Description>Aragorn remembers a scene with Arwen when they seal their love. </Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="TheTwoTowers.Aragorn_Arwen_Evenstar" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-27T07:51:49" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-29T05:13:18" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="miquelpt" />
+          <String Value="George" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="TheTwoTowers" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="The Lord of the Rings: The Two Towers" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="106" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="C. 41-60" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Elvish" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Constructed (fictional)" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="TheTwoTowers.Aragorn_Arwen_Evenstar3" Name="Aragorn, Arwen, Evenstar3" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Aragorn_Arwen_Evenstar3">
+      <Description>Arwen decides to stay in Middle-Earth and become a mortal. She argues with her father about that. </Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="TheTwoTowers.Aragorn_Arwen_Evenstar3" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-29T07:18:08" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-29T08:30:53" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="miquelpt" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="TheTwoTowers" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="The Lord of the Rings: The Two Towers" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="123" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="I. 161-180" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Elvish" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Constructed (fictional)" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="TheTwoTowers.Aragorn_Arwen_Evenstar_2" Name="Aragorn - Arwen, Evenstar 2" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Aragorn_Arwen_Evenstar_2">
+      <Description>Aragorn urges Arwen to leave Middle-Earth with her people and forget him.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="TheTwoTowers.Aragorn_Arwen_Evenstar_2" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-27T07:51:49" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-29T05:13:48" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="miquelpt" />
+          <String Value="George" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="TheTwoTowers" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="The Lord of the Rings: The Two Towers" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="108" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="D. 61-80" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Elvish" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Constructed (fictional)" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="TheTwoTowers.Aragorn_Brego" Name="Aragorn - Brego" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Aragorn_Brego">
+      <Description>Aragorn tames his future horse, Brego, by using Elvish words.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="TheTwoTowers.Aragorn_Brego" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-27T07:26:47" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-29T05:14:18" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="miquelpt" />
+          <String Value="George" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="TheTwoTowers" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="The Lord of the Rings: The Two Towers" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="87" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="C. 41-60" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Elvish" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Constructed (fictional)" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="TheTwoTowers.Aragorn_Brego2" Name="Aragorn, Brego2" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Aragorn_Brego2">
+      <Description>Aragorn thanks his horse for riding him to Helm's Deep.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="TheTwoTowers.Aragorn_Brego2" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-29T08:37:09" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-29T08:49:26" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="miquelpt" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="TheTwoTowers" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="The Lord of the Rings: The Two Towers" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="144" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Elvish" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Constructed (fictional)" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="TheTwoTowers.Aragorn_fall" Name="Aragorn fall" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Aragorn_fall">
       <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -758,10 +1557,16 @@
           <DateTime Value="2016-10-24T10:48:57" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-24T10:48:57" />
+          <DateTime Value="2016-10-29T05:21:40" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="TheTwoTowers" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="The Lord of the Rings: The Two Towers" />
         </Facet>
         <Facet Name="L3ST languages: count">
           <Number Value="0" />
@@ -774,7 +1579,95 @@
         </Facet>
       </Facets>
     </Item>
-    <Item Id="TheTwoTowers.Gandalf_returns" Name="TheTwoTowers.Gandalf_returns" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Gandalf_returns">
+    <Item Id="TheTwoTowers.Aragorn_Legolas_Helm'sDeep" Name="Aragorn, Legolas, Helm'sDeep" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Aragorn_Legolas_Helm'sDeep">
+      <Description>Legolas gives a sarcastic opinion on Aragorn's looks when the latter reaches Helm's Deep (Aragorn was meant to be dead). Legolas gives him the Evenstar pendant back.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="TheTwoTowers.Aragorn_Legolas_Helm'sDeep" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-29T08:44:37" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-29T08:55:28" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="miquelpt" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="TheTwoTowers" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="The Lord of the Rings: The Two Towers" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="145" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="B. 21-40" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Elvish" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Constructed (fictional)" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="TheTwoTowers.Galadriel_on_the_future" Name="Galadriel_on_the_future" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Galadriel_on_the_future">
+      <Description>Monologue by Galadriel concerning the future of Middle Earth.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="TheTwoTowers.Galadriel_on_the_future" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-29T08:10:24" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-29T08:22:26" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="miquelpt" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="TheTwoTowers" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="The Lord of the Rings: The Two Towers" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="126" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="B. 21-40" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Elvish" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Constructed (fictional)" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="TheTwoTowers.Gandalf_returns" Name="Gandalf returns" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Gandalf_returns">
       <Description>Aragorn, Gimli and Legolas enter the Fangorn forest looking for the White wizard.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -784,10 +1677,11 @@
           <DateTime Value="2016-10-24T11:15:38" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-24T11:18:58" />
+          <DateTime Value="2016-10-29T05:14:33" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="miquelpt" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="TheTwoTowers" />
@@ -802,17 +1696,23 @@
           <String Value="A. 1-20" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Elvish" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Constructed (fictional)" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>
-    <Item Id="TheTwoTowers.Hobbit_mourning" Name="TheTwoTowers.Hobbit_mourning" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Hobbit_mourning">
+    <Item Id="TheTwoTowers.Hobbit_mourning" Name="Hobbit mourning" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Hobbit_mourning">
       <Description>Thinking Pippin and Merry dead, Legolas prays for the hobbits in Elvish.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -822,10 +1722,11 @@
           <DateTime Value="2016-10-24T10:59:24" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-24T11:00:23" />
+          <DateTime Value="2016-10-29T05:14:49" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="miquelpt" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="TheTwoTowers" />
@@ -840,13 +1741,66 @@
           <String Value="A. 1-20" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Elvish" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Constructed (fictional)" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="TheTwoTowers.Theodred_funeral" Name="Theodred funeral" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Theodred_funeral">
+      <Description>Theodred is buried following Rohan customs.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="TheTwoTowers.Theodred_funeral" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-25T11:19:11" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-29T05:15:07" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="miquelpt" />
+          <String Value="George" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="TheTwoTowers" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="The Lord of the Rings: The Two Towers" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="81" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="B. 21-40" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="2" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Elvish" />
+          <String Value="Old English" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="2" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Constructed (fictional)" />
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="2" />
         </Facet>
       </Facets>
     </Item>

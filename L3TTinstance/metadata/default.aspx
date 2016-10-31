@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: L3TTinstance\metadata\default.aspx
-Version: 20161025
+Version: 20161029
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -237,10 +237,10 @@ Version: 20161025
         <div class="question" id="L3TTconstructedBasedOn">
           <div class="label">12. L3TT constructed based on</div>
           <div class="tip">If L3TT is “constructed”, is it based on any of the following options?</div>
-          <asp:Panel runat="server" ScrollBars="Auto" Style="max-height: 100px">
+          <asp:Panel runat="server" ScrollBars="Auto">
             <asp:CheckBoxList ID="clistL3TTconstructedBasedOn" runat="server" 
               DataSourceID="xmlL3TTconstructedBasedOn" DataTextField="Value" DataValueField="Value"
-              RepeatLayout="Table" RepeatColumns="10" RepeatDirection="Vertical"               
+              RepeatLayout="Table" RepeatColumns="9" RepeatDirection="Vertical"               
               />
            </asp:Panel>
         </div>
@@ -283,10 +283,10 @@ Version: 20161025
         <div class="question" id="L3TTmode">
           <div class="label">17. L3TT mode, written/spoken, diegetic</div>
           <div class="tip">Mode of L3TT?</div>
-          <asp:Panel runat="server" ScrollBars="Auto" Style="max-height: 100px">
+          <asp:Panel runat="server" ScrollBars="Auto">
             <asp:CheckBoxList ID="clistL3TTmode" runat="server" 
               DataSourceID="xmlL3TTmode" DataTextField="Value" DataValueField="Value"
-              RepeatLayout="Table" RepeatColumns="10" RepeatDirection="Vertical"               
+              RepeatLayout="Table" RepeatColumns="9" RepeatDirection="Vertical"               
               />
            </asp:Panel>
         </div>
@@ -295,10 +295,10 @@ Version: 20161025
         <div class="question" id="L3TTrepresented">
           <div class="label">18. L3TT merely represented</div>
           <div class="tip">There is no actual L3TT, but there are clues</div>
-          <asp:Panel runat="server" ScrollBars="Auto" Style="max-height: 100px">
+          <asp:Panel runat="server" ScrollBars="Auto">
             <asp:CheckBoxList ID="clistL3TTrepresented" runat="server" 
               DataSourceID="xmlL3TTrepresented" DataTextField="Value" DataValueField="Value"
-              RepeatLayout="Table" RepeatColumns="10" RepeatDirection="Vertical"               
+              RepeatLayout="Table" RepeatColumns="9" RepeatDirection="Vertical"               
               />
            </asp:Panel>
         </div>
@@ -307,10 +307,10 @@ Version: 20161025
           <div class="label">19. L3TT merely represented orally</div>
           <div class="tip">If “oral” selected for question on “L3TT represented”, specify how:</div>
           <div class="tip"></div>
-          <asp:Panel runat="server" ScrollBars="Auto" Style="max-height: 100px">
+          <asp:Panel runat="server" ScrollBars="Auto">
             <asp:CheckBoxList ID="clistL3TTrepresentationsOral" runat="server" 
               DataSourceID="xmlL3TTrepresentationsOral" DataTextField="Title" DataValueField="Value"
-              RepeatLayout="Table" RepeatColumns="10" RepeatDirection="Vertical"               
+              RepeatLayout="Table" RepeatColumns="9" RepeatDirection="Vertical"               
               />
            </asp:Panel>
         </div>
@@ -318,10 +318,10 @@ Version: 20161025
         <div class="question" id="L3TTrepresentedVisually">
           <div class="label">20. L3TT represented: visual</div>
           <div class="tip">If “visual” selected for question on “L3TT represented”, specify how:</div>
-          <asp:Panel runat="server" ScrollBars="Auto" Style="max-height: 100px">
+          <asp:Panel runat="server" ScrollBars="Auto">
             <asp:CheckBoxList ID="clistL3TTrepresentationsVisual" runat="server" 
               DataSourceID="xmlL3TTrepresentationsVisual" DataTextField="Value" DataValueField="Value" 
-              RepeatLayout="Table" RepeatColumns="10" RepeatDirection="Vertical"
+              RepeatLayout="Table" RepeatColumns="9" RepeatDirection="Vertical"
               />
            </asp:Panel>
         </div>
@@ -330,10 +330,10 @@ Version: 20161025
         <div class="question" id="L3TTfunctions">
           <div class="label">21. L3TT functions</div>
           <div class="tip">What are the functions for this particular instance of L3TT?</div>
-          <asp:Panel runat="server" ScrollBars="Auto" Style="max-height: 100px">
+          <asp:Panel runat="server" ScrollBars="Auto">
             <asp:CheckBoxList ID="clistL3TTfunctions" runat="server"
               DataSourceID="xmlL3TTfunctions" DataTextField="Value" DataValueField="Value"
-              RepeatLayout="Table" RepeatColumns="10" RepeatDirection="Vertical"               
+              RepeatLayout="Table" RepeatColumns="9" RepeatDirection="Vertical"               
               />
            </asp:Panel>
         </div>
@@ -342,10 +342,10 @@ Version: 20161025
         <div class="question" id="L3TTconversationFeatures">
           <div class="label">22. Conversation features for L3TT-instance</div>
           <div class="tip">Conversation types or features (functional or otherwise) related to L3TT presence</div>
-          <asp:Panel runat="server" ScrollBars="Auto" Style="max-height: 100px">
+          <asp:Panel runat="server" ScrollBars="Auto">
             <asp:CheckBoxList ID="clistL3TTconversationFeatures" runat="server"
               DataSourceID="xmlL3TTconversationFeatures" DataTextField="Value" DataValueField="Value"
-              RepeatLayout="Table" RepeatColumns="10" RepeatDirection="Vertical"               
+              RepeatLayout="Table" RepeatColumns="9" RepeatDirection="Vertical"               
               />
            </asp:Panel>
         </div>
@@ -425,7 +425,7 @@ Version: 20161025
 
         <div class="calculated" id="MetadataEditors">
           <div class="label">Metadata Editors</div>
-          <asp:Panel runat="server" ScrollBars="Auto" Style="max-height: 100px">
+          <asp:Panel runat="server" ScrollBars="Auto">
             <asp:ListBox ID="listMetadataEditors" runat="server" Enabled="false" />
            </asp:Panel>
         </div>
@@ -441,6 +441,9 @@ Version: 20161025
             height="50"
             OnClick="btnSave_Click"
             />
+          &nbsp;
+          &nbsp;
+          <i>Gallery contents are updated periodically during the day from saved metadata</i>
           <br /><br />
         </asp:Panel>
 

@@ -51,16 +51,20 @@
           <DateTime Value="2016-10-17T10:01:00" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-17T02:39:06" />
+          <DateTime Value="2016-10-29T09:30:24" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="corrius" />
+          <String Value="PatrickZabalbeascoa" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Spanglish" />
         </Facet>
         <Facet Name="Conversation Reference Id">
           <String Value="Spanglish.Introduction to the Clasky's family" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="5" />
         </Facet>
         <Facet Name="Conversation duration (sec)">
           <String Value="A. 1-20" />
@@ -93,6 +97,11 @@
           <String Value="Plot (twist)" />
           <String Value="Metaphorical (e.g. communication barrier)" />
           <String Value="Signals otherness" />
+        </Facet>
+        <Facet Name="Conversation features for L3ST-instance">
+          <String Value="informal" />
+          <String Value="interview" />
+          <String Value="introduction" />
         </Facet>
         <Facet Name="L3ST sources">
           <String Value="Rephrase interlingually: different sources" />

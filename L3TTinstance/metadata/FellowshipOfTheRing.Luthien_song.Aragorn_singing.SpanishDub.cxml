@@ -43,13 +43,13 @@
   </FacetCategories>
   <Items xmlns="">
     <Item Id="FellowshipOfTheRing.Luthien_song.Aragorn_singing.SpanishDub" Name="FellowshipOfTheRing.Luthien_song.Aragorn_singing.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Luthien_song&amp;L3STinstance=FellowshipOfTheRing.Luthien_song.Aragorn_singing&amp;L3TTinstance=FellowshipOfTheRing.Luthien_song.Aragorn_singing.SpanishDub">
-      <Description>Aragorn is keeping watch during the night in the forest, while the hobbits are sleeping. He signs a mourning song about the Lady of Luthien.</Description>
+      <Description>Aragorn is keeping watch during the night in the forest, while the hobbits are sleeping. He signs a mourning song about the Lady of Luthien. This song introduces the conflict of Arwen's mortality choice, key in the development of Aragorn's narrative line in the saga. Besides, this song is a homage to J.R.R. Tolkien.</Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="FellowshipOfTheRing.Luthien_song.Aragorn_singing.SpanishDub" />
         </Facet>
         <Facet Name="Transcription">
-          <String Value="Aragorn (canta):&#xD;&#xA;&#xD;&#xA;Tinúviel elvanui,&#xD;&#xA;Elleth alfirin ethelhael&#xD;&#xA;O hon ring finnil fuinui&#xD;&#xA;A renc gelebrin thiliol.&#xD;&#xA;&#xD;&#xA;Frodo: ¿Quién es ella?, la dama de la canción.&#xD;&#xA;&#xD;&#xA;Aragorn: Es la dama de Luthien, la doncella elfo que entregó su amor a Beren, un mortal.&#xD;&#xA;&#xD;&#xA;Frodo: ¿Qué le pasó?&#xD;&#xA;&#xD;&#xA;Aragorn: Murió." />
+          <String Value="Aragorn (singing):&#xD;&#xA;&#xD;&#xA;Tinúviel elvanui,&#xD;&#xA;Elleth alfirin ethelhael&#xD;&#xA;O hon ring finnil fuinui&#xD;&#xA;A renc gelebrin thiliol.&#xD;&#xA;(not subtitled)&#xD;&#xA;&#xD;&#xA;Frodo: ¿Quién es ella?, la dama de la canción.&#xD;&#xA;&#xD;&#xA;Aragorn: Es la dama de Luthien, la doncella elfo que entregó su amor a Beren, un mortal.&#xD;&#xA;&#xD;&#xA;Frodo: ¿Qué le pasó?&#xD;&#xA;&#xD;&#xA;Aragorn: Murió." />
         </Facet>
         <Facet Name="Remarks">
           <String Value="L3 in the Spanish dubbed version is not conveyed in L2 in written or oral mode." />
@@ -58,7 +58,7 @@
           <DateTime Value="2016-10-18T06:12:41" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-18T06:27:03" />
+          <DateTime Value="2016-10-30T05:17:12" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="miquelpt" />
@@ -72,25 +72,83 @@
         <Facet Name="L3ST-instance Reference Id">
           <String Value="FellowshipOfTheRing.Luthien_song.Aragorn_singing" />
         </Facet>
+        <Facet Name="Film Title TT">
+          <String Value="La comunidad del Anillo" />
+        </Facet>
+        <Facet Name="L2 language">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L2 mode">
+          <String Value="Dubbed" />
+        </Facet>
+        <Facet Name="Year TT released">
+          <Number Value="2001" />
+        </Facet>
+        <Facet Name="Film TT Blockbuster">
+          <String Value="YES (top 20)" />
+        </Facet>
         <Facet Name="Conversation start time (min)">
           <Number Value="65" />
         </Facet>
         <Facet Name="Conversation duration (sec)">
           <String Value="B. 21-40" />
         </Facet>
+        <Facet Name="L2 same as L3ST">
+          <String Value="No" />
+        </Facet>
+        <Facet Name="L3ST conveyed as L3TT">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT language type">
+          <String Value="Constructed (fictional)" />
+        </Facet>
+        <Facet Name="L3TT language">
+          <String Value="Elvish" />
+        </Facet>
+        <Facet Name="L3TT constructed based on">
+          <String Value="“from scratch”" />
+        </Facet>
+        <Facet Name="L3TT meant to be understood">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="L3TT message required for understanding">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT meaning decipherable">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="Quality of L3TT speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3TT mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3TT merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
+        <Facet Name="L3TT functions">
+          <String Value="Plot (twist)" />
+          <String Value="Dramatic effect" />
+        </Facet>
+        <Facet Name="Conversation features for L3TT-instance">
+          <String Value="introduction" />
+          <String Value="song" />
+        </Facet>
         <Facet Name="L3 language type change">
-          <String Value="None" />
+          <String Value="- " />
+          <String Value="+ Constructed (fictional)" />
         </Facet>
         <Facet Name="L3 mode change">
-          <String Value="None" />
+          <String Value="+ Oral diegetic on-screen" />
         </Facet>
         <Facet Name="L3 functions change">
-          <String Value="None" />
+          <String Value="+ Plot (twist)" />
+          <String Value="+ Dramatic effect" />
         </Facet>
         <Facet Name="Conversation features for L3-instance change">
           <String Value="- bonding" />
           <String Value="- literary" />
-          <String Value="- song" />
+          <String Value="+ introduction" />
         </Facet>
         <Facet Name="L3 sources change">
           <String Value="- Oral L3: single source" />

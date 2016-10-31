@@ -12,7 +12,7 @@
     <FacetCategory Name="Year TT released" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Film TT Blockbuster" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Conversation start time (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
-    <FacetCategory Name="Conversation duration (sec)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Conversation duration (sec)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="L2 same as L3ST" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="L3ST conveyed as L3TT" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="L3TT language type" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -56,7 +56,7 @@ There is another conversation taking place among women at the kitchen.</Descript
           <DateTime Value="2016-06-08T01:44:15" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-09-08T10:48:43" />
+          <DateTime Value="2016-10-29T06:39:54" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="George" />
@@ -119,7 +119,7 @@ There is another conversation taking place among women at the kitchen.</Descript
           <String Value="Physical appearance" />
         </Facet>
         <Facet Name="L3TT functions">
-          <String Value="Character portrayal, nonstereotypical" />
+          <String Value="Character portrayal" />
           <String Value="Comedy / humour" />
         </Facet>
         <Facet Name="L3 language type change">
@@ -130,7 +130,7 @@ There is another conversation taking place among women at the kitchen.</Descript
           <String Value="None" />
         </Facet>
         <Facet Name="L3 functions change">
-          <String Value="- Character portrayal, stereotypical" />
+          <String Value="- Stereotype" />
         </Facet>
         <Facet Name="Conversation features for L3-instance change">
           <String Value="None" />

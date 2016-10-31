@@ -24,6 +24,60 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
+    <Item Id="Aladdin" Name="Aladdin" Img="https://upload.wikimedia.org/wikipedia/en/5/58/Aladdinposter.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Aladdin">
+      <Description></Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Aladdin" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-26T05:47:17" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-26T05:50:12" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="PatrickZabalbeascoa" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Aladdin" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="90" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Ron Clements" />
+          <String Value=" John Musker" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Ron Clements" />
+          <String Value=" John Musker" />
+          <String Value=" Ted Elliott" />
+          <String Value=" Terry Rossio" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="United States" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="Walt Disney" />
+        </Facet>
+        <Facet Name="Blockbuster">
+          <String Value="YES (top 20)" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="1992" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Avatar" Name="Avatar" Img="http://www.movie-poster-artwork-finder.com/wp-content/uploads/2012/10/avatar-2009-poster-artwork-sam-worthington-zoe-saldana-stephen-lang.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Avatar">
       <Description>Epic science fiction film set in the mid-22nd century, when humans are colonizing Pandora, a lush habitable moon of a gas giant in the Alpha Centauri star system, in order to mine the mineral unobtanium, a room-temperature superconductor. The expansion of the mining colony threatens the continued existence of a local tribe of Na'vi – a humanoid species indigenous to Pandora. The film's title refers to a genetically engineered Na'vi body with the mind of a remotely located human that is used to interact with the natives of Pandora.</Description>
       <Facets>
@@ -476,6 +530,125 @@
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Harry Potter and the Deathly Hallows Part 2" Name="Harry Potter and the Deathly Hallows Part 2" Img="https://upload.wikimedia.org/wikipedia/en/d/df/Harry_Potter_and_the_Deathly_Hallows_%E2%80%93_Part_2.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Harry Potter and the Deathly Hallows Part 2">
+      <Description>Harry, Ron, and Hermione continue their quest of finding and destroying the Dark Lord's three remaining Horcruxes, the magical items responsible for his immortality. But as the mystical Deathly Hallows are uncovered, and Voldemort finds out about their mission, the biggest battle begins and life as they know it will never be the same again. (from IMDB)</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Harry Potter and the Deathly Hallows Part 2" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-30T02:08:52" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-30T02:20:27" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Stavroula" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Harry Potter and the Deathly Hallows Part 2" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="130" />
+        </Facet>
+        <Facet Name="Series">
+          <String Value="Harry Potter" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="David Yates" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Steve Kloves" />
+          <String Value=" J.K. Rowling" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="USA" />
+          <String Value=" UK" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value=" Warner Bros." />
+          <String Value=" Heyday Films" />
+          <String Value=" Moving Picture Company (MPC) " />
+        </Facet>
+        <Facet Name="Blockbuster">
+          <String Value="YES (top 20)" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2011" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Inglourious Basterds" Name="Inglourious Basterds" Img="https://furiousreviews.files.wordpress.com/2015/03/7736093674_2e8414a35c_o.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Inglourious Basterds">
+      <Description>War film set in WWII about a Jewish-American comando, "The Basterds", on a mission to kill Nazis.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Inglourious Basterds" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="Tarantino" />
+          <String Value=" multilingual" />
+          <String Value=" French" />
+          <String Value=" German" />
+          <String Value=" action" />
+          <String Value=" comedy" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-26T08:33:18" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-27T11:07:05" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="PatrickZabalbeascoa" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Inglourious Basterds" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="154" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Quentin Tarantino" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Quentin Tarantino" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="United States" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="A Band Apart" />
+          <String Value=" Studio Babelsberg" />
+        </Facet>
+        <Facet Name="Blockbuster">
+          <String Value="YES (top 20)" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2009" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L2-Dubbed languages">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="3" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Lost in Translation" Name="Lost in Translation" Img="http://ia.media-imdb.com/images/M/MV5BMTI2NDI5ODk4N15BMl5BanBnXkFtZTYwMTI3NTE3._V1_.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Lost in Translation">
       <Description>A faded movie star and a neglected young woman form an unlikely bond after crossing paths in Tokyo. </Description>
       <Facets>
@@ -542,11 +715,12 @@
           <DateTime Value="2016-06-01T03:30:55" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-19T02:27:26" />
+          <DateTime Value="2016-10-29T04:19:55" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Stavroula" />
           <String Value="George" />
+          <String Value="evaespasa" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Love Actually" />
@@ -555,7 +729,7 @@
           <String Value="Feature film" />
         </Facet>
         <Facet Name="Duration (min)">
-          <Number Value="135" />
+          <Number Value="130" />
         </Facet>
         <Facet Name="Director(s)">
           <String Value="Richard Curtis" />
@@ -870,6 +1044,60 @@
         </Facet>
         <Facet Name="Conversations: count">
           <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Pulp Fiction" Name="Pulp Fiction" Img="https://s-media-cache-ak0.pinimg.com/originals/e3/99/d6/e399d6ad1613465e61241d88a9321421.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Pulp Fiction">
+      <Description></Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Pulp Fiction" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-26T04:29:19" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-26T07:00:06" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="PatrickZabalbeascoa" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Pulp Fiction" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="154" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Quentin Tarantino" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Quentin Tarantino" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="United States" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="A Band Apart" />
+          <String Value=" Jersey Films" />
+        </Facet>
+        <Facet Name="Blockbuster">
+          <String Value="NO, but commercially intended" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="1994" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L2-Dubbed languages">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>

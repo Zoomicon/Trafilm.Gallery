@@ -10,6 +10,12 @@ div
   margin-bottom: 5px;
 }
 
+a
+{
+  word-break: break-all !important; /* make sure containers don't override */
+  display: inline-block !important;
+}
+
 /* --------------------------- */
 
 .navigation a:link
@@ -85,7 +91,7 @@ div
   padding: 0, 1%;
 }
 
-.question input
+.question input[type=text]
 {
   width: 99%;
 }
@@ -98,6 +104,12 @@ div
 .question textarea
 {
   width: 99%;
+}
+
+.question table
+{
+  text-align: left;
+  vertical-align: top;
 }
 
 /* --------------------------- */
@@ -118,6 +130,12 @@ div
 .calculated textarea
 {
   width: 99%;
+}
+
+.calculated table
+{
+  text-align: left;
+  vertical-align: top;
 }
 
 /* --------------------------- */

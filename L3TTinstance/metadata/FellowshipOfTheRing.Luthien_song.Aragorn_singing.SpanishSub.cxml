@@ -43,13 +43,13 @@
   </FacetCategories>
   <Items xmlns="">
     <Item Id="FellowshipOfTheRing.Luthien_song.Aragorn_singing.SpanishSub" Name="FellowshipOfTheRing.Luthien_song.Aragorn_singing.SpanishSub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Luthien_song&amp;L3STinstance=FellowshipOfTheRing.Luthien_song.Aragorn_singing&amp;L3TTinstance=FellowshipOfTheRing.Luthien_song.Aragorn_singing.SpanishSub">
-      <Description>Aragorn is keeping watch during the night in the forest, while the hobbits are sleeping. He signs a mourning song about the Lady of Luthien.</Description>
+      <Description>Aragorn is keeping watch during the night in the forest, while the hobbits are sleeping. He signs a mourning song about the Lady of Luthien. This song introduces the conflict of Arwen's mortality choice, key in the development of Aragorn's narrative line in the saga. Besides, this song is a homage to J.R.R. Tolkien.</Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="FellowshipOfTheRing.Luthien_song.Aragorn_singing.SpanishSub" />
         </Facet>
         <Facet Name="Transcription">
-          <String Value="Aragorn (canta):&#xD;&#xA;&#xD;&#xA;Tinúviel elvanui,&#xD;&#xA;Elleth alfirin ethelhael&#xD;&#xA;O hon ring finnil fuinui&#xD;&#xA;A renc gelebrin thiliol.&#xD;&#xA;&#xD;&#xA;Frodo: ¿Quién es ella? La mujer de la canción.&#xD;&#xA;&#xD;&#xA;Aragorn: Es la Dama de Luthien, la doncella Elfo que entregó su amor a Beren, un mortal.&#xD;&#xA;&#xD;&#xA;Frodo: ¿Qué le pasó?&#xD;&#xA;&#xD;&#xA;Aragorn: Murió." />
+          <String Value="Aragorn (singing):&#xD;&#xA;&#xD;&#xA;Tinúviel elvanui,&#xD;&#xA;Elleth alfirin ethelhael&#xD;&#xA;O hon ring finnil fuinui&#xD;&#xA;A renc gelebrin thiliol.&#xD;&#xA;(not subtitled)&#xD;&#xA;&#xD;&#xA;Frodo: ¿Quién es ella? La mujer de la canción.&#xD;&#xA;&#xD;&#xA;Aragorn: Es la Dama de Luthien, la doncella Elfo que entregó su amor a Beren, un mortal.&#xD;&#xA;&#xD;&#xA;Frodo: ¿Qué le pasó?&#xD;&#xA;&#xD;&#xA;Aragorn: Murió." />
         </Facet>
         <Facet Name="Remarks">
           <String Value="L3 in the Spanish dubbed version is not conveyed in L2 in written or oral mode." />
@@ -58,7 +58,7 @@
           <DateTime Value="2016-10-18T06:12:41" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-18T06:32:17" />
+          <DateTime Value="2016-10-30T05:16:39" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="miquelpt" />
@@ -128,9 +128,10 @@
         </Facet>
         <Facet Name="L3TT functions">
           <String Value="Plot (twist)" />
-          <String Value="Theme" />
+          <String Value="Dramatic effect" />
         </Facet>
         <Facet Name="Conversation features for L3TT-instance">
+          <String Value="introduction" />
           <String Value="song" />
         </Facet>
         <Facet Name="L3TT sources">
@@ -145,11 +146,12 @@
         </Facet>
         <Facet Name="L3 functions change">
           <String Value="+ Plot (twist)" />
-          <String Value="+ Theme" />
+          <String Value="+ Dramatic effect" />
         </Facet>
         <Facet Name="Conversation features for L3-instance change">
           <String Value="- bonding" />
           <String Value="- literary" />
+          <String Value="+ introduction" />
         </Facet>
         <Facet Name="L3 sources change">
           <String Value="None" />

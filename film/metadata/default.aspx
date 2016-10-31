@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: film\metadata\default.aspx
-Version: 20161024
+Version: 20161029
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -199,14 +199,14 @@ Version: 20161024
 
         <div class="calculated" id="L2dubbedLanguages">
           <div class="label">L2-Dubbed languages</div>
-          <asp:Panel runat="server" ScrollBars="Auto" Style="max-height: 100px">
+          <asp:Panel runat="server" ScrollBars="Auto">
             <asp:ListBox ID="listL2dubbedLanguages" runat="server" Enabled="false" />
            </asp:Panel>
         </div>
         
         <div class="calculated" id="L2subtitledLanguages">
           <div class="label">L2-Subtitled languages</div>
-          <asp:Panel runat="server" ScrollBars="Auto" Style="max-height: 100px">
+          <asp:Panel runat="server" ScrollBars="Auto">
             <asp:ListBox ID="listL2subtitledLanguages" runat="server" Enabled="false" />
            </asp:Panel>
         </div>   
@@ -255,7 +255,7 @@ Version: 20161024
 
         <div class="calculated" id="MetadataEditors">
           <div class="label">Metadata Editors</div>
-          <asp:Panel runat="server" ScrollBars="Auto" Style="max-height: 100px">
+          <asp:Panel runat="server" ScrollBars="Auto">
             <asp:ListBox ID="listMetadataEditors" runat="server" Enabled="false" />
            </asp:Panel>
         </div>
@@ -271,6 +271,9 @@ Version: 20161024
             height="50"
             OnClick="btnSave_Click"
             />
+          &nbsp;
+          &nbsp;
+          <i>Gallery contents are updated periodically during the day from saved metadata</i>
           <br /><br />
         </asp:Panel>
 
