@@ -30,7 +30,7 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="A Passage to India.Dialogue between Aunt and the doctor.Dialogue between Aunt and the doctor (Sahib)" Name="Dialogue between Aunt and the doctor" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=A Passage to India&amp;conversation=A Passage to India.Dialogue between Aunt and the doctor&amp;L3STinstance=A Passage to India.Dialogue between Aunt and the doctor.Dialogue between Aunt and the doctor (Sahib)">
+    <Item Id="A Passage to India.Dialogue between Aunt and the doctor.Dialogue between Aunt and the doctor (Sahib)" Name="Dialogue between Aunt and the doctor (Sahib)" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=A Passage to India&amp;conversation=A Passage to India.Dialogue between Aunt and the doctor&amp;L3STinstance=A Passage to India.Dialogue between Aunt and the doctor.Dialogue between Aunt and the doctor (Sahib)">
       <Description>Doctor Aziz visits his aunt Mrs Begum Hamidullah because she is ill. Dr. Aziz, Mrs. Hamidullah and his husband are in auntie's bedroom and can hear the three of them speaking in English with a very strong accent, particularly the English spoken by Mr. Hamidullah.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -49,10 +49,11 @@
           <DateTime Value="2016-10-31T06:47:00" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-31T06:52:44" />
+          <DateTime Value="2016-11-01T07:53:50" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="corrius" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="A Passage to India" />
@@ -67,7 +68,7 @@
           <String Value="B. 21-40" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="Urdu" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Real" />
@@ -100,7 +101,7 @@
           <String Value="Oral L3: different sources " />
         </Facet>
         <Facet Name="L3TT-instances: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>
@@ -141,7 +142,7 @@
           <String Value="B. 21-40" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="English (with an accent)" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="L-main variety (e.g. dialect, sociolect, idiolect, slang)" />
@@ -219,7 +220,7 @@
           <String Value="A. 1-20" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="Spanish" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Real" />
@@ -295,7 +296,7 @@
           <String Value="A. 1-20" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="Na'vi" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Constructed (fictional)" />
@@ -372,7 +373,7 @@
           <Number Value="93" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="German" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Real" />
@@ -444,7 +445,7 @@
           <String Value="A. 1-20" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="Elvish" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Constructed (fictional)" />
@@ -518,7 +519,7 @@
           <String Value="A. 1-20" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="Elvish" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Constructed (fictional)" />
@@ -593,7 +594,7 @@
           <String Value="B. 21-40" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="Mordor language" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Constructed (fictional)" />
@@ -670,7 +671,7 @@
           <String Value="A. 1-20" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="Elvish" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Constructed (fictional)" />
@@ -745,7 +746,7 @@
           <String Value="A. 1-20" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="Elvish" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Constructed (fictional)" />
@@ -820,7 +821,7 @@
           <String Value="B. 21-40" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="Elvish" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Constructed (fictional)" />
@@ -897,7 +898,7 @@
           <String Value="B. 21-40" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="Dwarvish (Khuzdul)" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Constructed (fictional)" />
@@ -975,7 +976,7 @@
           <String Value="B. 21-40" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="Elvish" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Constructed (fictional)" />
@@ -1049,7 +1050,7 @@
           <String Value="D. 61-80" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="Elvish" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Constructed (fictional)" />
@@ -1120,7 +1121,7 @@
           <String Value="B. 21-40" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="Dwarvish (Khuzdul)" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Constructed (fictional)" />
@@ -1194,7 +1195,7 @@
           <String Value="C. 41-60" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="Elvish" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Constructed (fictional)" />
@@ -1276,7 +1277,7 @@
           <String Value="C. 41-60" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="Elvish" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Constructed (fictional)" />
@@ -1353,7 +1354,7 @@
           <String Value="A. 1-20" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="Elvish" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Constructed (fictional)" />
@@ -1429,7 +1430,7 @@
           <String Value="A. 1-20" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="Elvish" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Constructed (fictional)" />
@@ -1500,7 +1501,7 @@
           <String Value="F. 101-120" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="Elvish" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Constructed (fictional)" />
@@ -1575,7 +1576,7 @@
           <String Value="B. 21-40" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="Elvish" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Constructed (fictional)" />
@@ -1650,7 +1651,7 @@
           <String Value="B. 21-40" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="Mordor language (Black Speech)" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Constructed (fictional)" />
@@ -1727,7 +1728,7 @@
           <Number Value="91" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="Elvish" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Constructed (fictional)" />
@@ -1809,7 +1810,7 @@
           <Number Value="92" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="Elvish" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Constructed (fictional)" />
@@ -1881,7 +1882,7 @@
           <String Value="B. 21-40" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="Elvish" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Constructed (fictional)" />
@@ -1958,7 +1959,7 @@
           <String Value="C. 41-60" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="Elvish (Quenya)" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Constructed (fictional)" />
@@ -2037,7 +2038,7 @@
           <String Value="I. 161-180" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="Dothraki" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Constructed (fictional)" />
@@ -2113,7 +2114,7 @@
           <String Value="I. 161-180" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="Dothraki" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Constructed (fictional)" />
@@ -2188,7 +2189,7 @@
           <String Value="I. 161-180" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="Dothraki" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Constructed (fictional)" />
@@ -2267,7 +2268,7 @@
           <String Value="I. 161-180" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="Dothraki" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Constructed (fictional)" />
@@ -2339,7 +2340,7 @@
           <String Value="A. 1-20" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="Parseltongue" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Constructed (fictional)" />
@@ -2410,7 +2411,7 @@
           <String Value="D. 61-80" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="Italian" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Real" />
@@ -2481,7 +2482,7 @@
           <String Value="D. 61-80" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="German" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Real" />
@@ -2552,7 +2553,7 @@
           <String Value="A. 1-20" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="French" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Real" />
@@ -2622,7 +2623,7 @@
           <String Value="C. 41-60" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="French" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Real" />
@@ -2695,7 +2696,7 @@
           <String Value="I. 161-180" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="Japanese" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Real" />
@@ -2763,7 +2764,7 @@
           <String Value="F. 101-120" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="Japanese" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Real" />
@@ -2829,7 +2830,7 @@
           <String Value="F. 101-120" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="English with Japanese accent" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="L-main variety (e.g. dialect, sociolect, idiolect, slang)" />
@@ -2899,7 +2900,7 @@
           <String Value="I. 161-180" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="Portuguese" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Real" />
@@ -2970,7 +2971,7 @@
           <String Value="I. 161-180" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="Portuguese" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Real" />
@@ -3037,7 +3038,7 @@
           <String Value="LoveActually.JamieProposesToAurelia" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="Portuguese" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Real" />
@@ -3097,7 +3098,7 @@
           <String Value="I. 161-180" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="Portuguese" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Real" />
@@ -3161,7 +3162,7 @@
           <String Value="I. 161-180" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="Portuguese" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Real" />
@@ -3230,7 +3231,7 @@
           <String Value="I. 161-180" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="Portuguese" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Real" />
@@ -3309,7 +3310,7 @@
           <String Value="A. 1-20" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="English with Japanese accent and invididual Japanese words" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Real" />
@@ -3383,7 +3384,7 @@
           <String Value="A. 1-20" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="English with Japanese accent and invididual Japanese words" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="L-main variety (e.g. dialect, sociolect, idiolect, slang)" />
@@ -3457,7 +3458,7 @@
           <String Value="D. 61-80" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="English with Japanese accent and invididual Japanese words" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="L-main variety (e.g. dialect, sociolect, idiolect, slang)" />
@@ -3523,7 +3524,7 @@ There is another conversation taking place among women at the kitchen.</Descript
           <Number Value="170" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="Hindi" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Real" />
@@ -3590,7 +3591,7 @@ There is another conversation taking place among women at the kitchen.</Descript
           <String Value="B. 21-40" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="French" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Real" />
@@ -3652,7 +3653,7 @@ There is another conversation taking place among women at the kitchen.</Descript
           <Number Value="32" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="Chinese" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="L-main variety (e.g. dialect, sociolect, idiolect, slang)" />
@@ -3711,7 +3712,7 @@ There is another conversation taking place among women at the kitchen.</Descript
           <String Value="B. 21-40" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="English - UK" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Real" />
@@ -3785,7 +3786,7 @@ There is another conversation taking place among women at the kitchen.</Descript
           <String Value="A. 1-20" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="Spanish" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Real" />
@@ -3842,6 +3843,9 @@ There is another conversation taking place among women at the kitchen.</Descript
         <Facet Name="Conversation duration (sec)">
           <String Value="A. 1-20" />
         </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="English" />
+        </Facet>
         <Facet Name="L3TT-instances: count">
           <Number Value="0" />
         </Facet>
@@ -3884,7 +3888,7 @@ There is another conversation taking place among women at the kitchen.</Descript
           <String Value="A. 1-20" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="Spanish" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Real" />
@@ -3963,7 +3967,7 @@ There is another conversation taking place among women at the kitchen.</Descript
           <String Value="A. 1-20" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="Spanish" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Real" />
@@ -4038,7 +4042,7 @@ There is another conversation taking place among women at the kitchen.</Descript
           <String Value="E. 81-100" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="Elvish" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Constructed (fictional)" />
@@ -4109,7 +4113,7 @@ There is another conversation taking place among women at the kitchen.</Descript
           <String Value="I. 161-180" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="Elvish" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Constructed (fictional)" />
@@ -4180,7 +4184,7 @@ There is another conversation taking place among women at the kitchen.</Descript
           <String Value="D. 61-80" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="Elvish" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Constructed (fictional)" />
@@ -4255,7 +4259,7 @@ There is another conversation taking place among women at the kitchen.</Descript
           <String Value="C. 41-60" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="Elvish" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Constructed (fictional)" />
@@ -4329,7 +4333,7 @@ There is another conversation taking place among women at the kitchen.</Descript
           <String Value="A. 1-20" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="Elvish" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Constructed (fictional)" />
@@ -4400,7 +4404,7 @@ There is another conversation taking place among women at the kitchen.</Descript
           <String Value="B. 21-40" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="Elvish" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Constructed (fictional)" />
@@ -4471,7 +4475,7 @@ There is another conversation taking place among women at the kitchen.</Descript
           <String Value="B. 21-40" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="Elvish" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Constructed (fictional)" />
@@ -4550,7 +4554,7 @@ There is another conversation taking place among women at the kitchen.</Descript
           <String Value="B. 21-40" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="Elvish" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Constructed (fictional)" />
@@ -4627,7 +4631,7 @@ There is another conversation taking place among women at the kitchen.</Descript
           <String Value="A. 1-20" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="Elvish" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Constructed (fictional)" />
@@ -4698,7 +4702,7 @@ There is another conversation taking place among women at the kitchen.</Descript
           <String Value="A. 1-20" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="Elvish" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Constructed (fictional)" />
@@ -4775,7 +4779,7 @@ There is another conversation taking place among women at the kitchen.</Descript
           <String Value="B. 21-40" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="Elvish" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Constructed (fictional)" />
@@ -4852,7 +4856,7 @@ There is another conversation taking place among women at the kitchen.</Descript
           <String Value="B. 21-40" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="Old English" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Real" />
@@ -4922,7 +4926,7 @@ There is another conversation taking place among women at the kitchen.</Descript
           <Number Value="12" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="Czech" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Real" />
@@ -4987,7 +4991,7 @@ There is another conversation taking place among women at the kitchen.</Descript
           <Number Value="12" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="French" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Real" />
@@ -5049,7 +5053,7 @@ There is another conversation taking place among women at the kitchen.</Descript
           <Number Value="12" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="French" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Real" />
@@ -5111,7 +5115,7 @@ There is another conversation taking place among women at the kitchen.</Descript
           <Number Value="13" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="French" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Real" />
@@ -5172,6 +5176,9 @@ There is another conversation taking place among women at the kitchen.</Descript
         <Facet Name="Conversation start time (min)">
           <Number Value="83" />
         </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="English" />
+        </Facet>
         <Facet Name="L3TT-instances: count">
           <Number Value="0" />
         </Facet>
@@ -5210,7 +5217,7 @@ There is another conversation taking place among women at the kitchen.</Descript
           <String Value="A. 1-20" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="French" />
+          <String Value="Portuguese" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Real" />
@@ -5281,7 +5288,7 @@ There is another conversation taking place among women at the kitchen.</Descript
           <String Value="A. 1-20" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="English" />
+          <String Value="Portuguese" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Real" />
@@ -5354,7 +5361,7 @@ There is another conversation taking place among women at the kitchen.</Descript
           <String Value="A. 1-20" />
         </Facet>
         <Facet Name="Main (L1) language">
-          <String Value="English" />
+          <String Value="Portuguese" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Real" />

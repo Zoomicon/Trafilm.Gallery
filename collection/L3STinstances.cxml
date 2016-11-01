@@ -30,7 +30,7 @@
         <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="true" p:IsMetaDataVisible="true" p:IsWordWheelVisible="true" />
     </FacetCategories>
     <Items ImgBase="L3STinstances_deepzoom\L3STinstances.dzc">
-        <Item Id="A Passage to India.Dialogue between Aunt and the doctor.Dialogue between Aunt and the doctor (Sahib)" Name="Dialogue between Aunt and the doctor" Img="#0" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=A Passage to India&amp;conversation=A Passage to India.Dialogue between Aunt and the doctor&amp;L3STinstance=A Passage to India.Dialogue between Aunt and the doctor.Dialogue between Aunt and the doctor (Sahib)">
+        <Item Id="A Passage to India.Dialogue between Aunt and the doctor.Dialogue between Aunt and the doctor (Sahib)" Name="Dialogue between Aunt and the doctor (Sahib)" Img="#0" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=A Passage to India&amp;conversation=A Passage to India.Dialogue between Aunt and the doctor&amp;L3STinstance=A Passage to India.Dialogue between Aunt and the doctor.Dialogue between Aunt and the doctor (Sahib)">
             <Description>Doctor Aziz visits his aunt Mrs Begum Hamidullah because she is ill. Dr. Aziz, Mrs. Hamidullah and his husband are in auntie's bedroom and can hear the three of them speaking in English with a very strong accent, particularly the English spoken by Mr. Hamidullah.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -52,7 +52,7 @@
                     <DateTime Value="2016-10-31T06:47:00" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-10-31T06:52:44" />
+                    <DateTime Value="2016-11-01T07:53:50" />
                 </Facet>
                 <Facet Name="L3ST functions">
                     <String Value="Signals otherness" />
@@ -79,13 +79,14 @@
                     <String Value="Oral L3: different sources " />
                 </Facet>
                 <Facet Name="L3TT-instances: count">
-                    <Number Value="0" />
+                    <Number Value="1" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="Urdu" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="corrius" />
+                    <String Value="George" />
                 </Facet>
                 <Facet Name="Quality of L3ST speaker performance">
                     <String Value="native or proficient" />
@@ -166,7 +167,7 @@
                     <Number Value="0" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="English (with an accent)" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="corrius" />
@@ -247,7 +248,7 @@
                     <Number Value="1" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="Spanish" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="PatrickZabalbeascoa" />
@@ -323,7 +324,7 @@
                     <Number Value="1" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="Na'vi" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="PatrickZabalbeascoa" />
@@ -393,7 +394,7 @@
                     <Number Value="1" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="German" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="George" />
@@ -471,7 +472,7 @@
                     <Number Value="1" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="Elvish" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="miquelpt" />
@@ -542,7 +543,7 @@
                     <Number Value="1" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="Elvish" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="miquelpt" />
@@ -619,7 +620,7 @@
                     <Number Value="2" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="Mordor language" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="miquelpt" />
@@ -694,7 +695,7 @@
                     <Number Value="0" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="Elvish" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="miquelpt" />
@@ -769,7 +770,7 @@
                     <Number Value="2" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="Elvish" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="miquelpt" />
@@ -847,7 +848,7 @@
                     <Number Value="1" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="Elvish" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="miquelpt" />
@@ -922,7 +923,7 @@
                     <Number Value="2" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="Dwarvish (Khuzdul)" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="miquelpt" />
@@ -999,7 +1000,7 @@
                     <Number Value="1" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="Elvish" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="miquelpt" />
@@ -1073,7 +1074,7 @@
                     <Number Value="0" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="Elvish" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="miquelpt" />
@@ -1147,7 +1148,7 @@
                     <Number Value="2" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="Dwarvish (Khuzdul)" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="miquelpt" />
@@ -1222,7 +1223,7 @@
                     <Number Value="0" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="Elvish" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="miquelpt" />
@@ -1296,7 +1297,7 @@
                     <Number Value="0" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="Elvish" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="miquelpt" />
@@ -1379,7 +1380,7 @@
                     <Number Value="2" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="Elvish" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="miquelpt" />
@@ -1453,7 +1454,7 @@
                     <Number Value="1" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="Elvish" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="miquelpt" />
@@ -1528,7 +1529,7 @@
                     <Number Value="1" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="Elvish" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="miquelpt" />
@@ -1603,7 +1604,7 @@
                     <Number Value="2" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="Elvish" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="miquelpt" />
@@ -1675,7 +1676,7 @@
                     <Number Value="2" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="Mordor language (Black Speech)" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="miquelpt" />
@@ -1747,7 +1748,7 @@
                     <Number Value="2" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="Elvish" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="George" />
@@ -1824,7 +1825,7 @@
                     <Number Value="0" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="Elvish" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="miquelpt" />
@@ -1905,7 +1906,7 @@
                     <Number Value="1" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="Elvish" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="miquelpt" />
@@ -1980,7 +1981,7 @@
                     <Number Value="0" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="Elvish (Quenya)" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="miquelpt" />
@@ -2058,7 +2059,7 @@
                     <Number Value="0" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="Dothraki" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="SIberg" />
@@ -2136,7 +2137,7 @@
                     <Number Value="0" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="Dothraki" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="SIberg" />
@@ -2215,7 +2216,7 @@
                     <Number Value="0" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="Dothraki" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="SIberg" />
@@ -2291,7 +2292,7 @@
                     <Number Value="0" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="Dothraki" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="SIberg" />
@@ -2366,7 +2367,7 @@
                     <Number Value="0" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="Parseltongue" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="Stavroula" />
@@ -2434,7 +2435,7 @@
                     <Number Value="1" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="Italian" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="PatrickZabalbeascoa" />
@@ -2503,7 +2504,7 @@
                     <Number Value="1" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="German" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="PatrickZabalbeascoa" />
@@ -2573,7 +2574,7 @@
                     <Number Value="1" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="French" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="PatrickZabalbeascoa" />
@@ -2644,7 +2645,7 @@
                     <Number Value="1" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="French" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="PatrickZabalbeascoa" />
@@ -2709,7 +2710,7 @@
                     <Number Value="1" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="Japanese" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="evaespasa" />
@@ -2784,7 +2785,7 @@
                     <Number Value="0" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="Japanese" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="evaespasa" />
@@ -2853,7 +2854,7 @@
                     <Number Value="0" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="English with Japanese accent" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="evaespasa" />
@@ -2922,7 +2923,7 @@
                     <Number Value="1" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="Portuguese" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="George" />
@@ -2992,7 +2993,7 @@
                     <Number Value="2" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="Portuguese" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="George" />
@@ -3050,7 +3051,7 @@
                     <Number Value="0" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="Portuguese" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="Stavroula" />
@@ -3114,7 +3115,7 @@
                     <Number Value="2" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="Portuguese" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="evaespasa" />
@@ -3182,7 +3183,7 @@
                     <Number Value="2" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="Portuguese" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="evaespasa" />
@@ -3252,7 +3253,7 @@
                     <Number Value="2" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="Portuguese" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="George" />
@@ -3325,7 +3326,7 @@
                     <Number Value="0" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="English with Japanese accent and invididual Japanese words" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="evaespasa" />
@@ -3403,7 +3404,7 @@
                     <Number Value="1" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="English with Japanese accent and invididual Japanese words" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="evaespasa" />
@@ -3474,7 +3475,7 @@
                     <Number Value="0" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="English with Japanese accent and invididual Japanese words" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="evaespasa" />
@@ -3539,7 +3540,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                     <Number Value="1" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="Hindi" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="George" />
@@ -3604,7 +3605,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                     <Number Value="0" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="French" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="corrius" />
@@ -3664,7 +3665,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                     <Number Value="1" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="Chinese" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="George" />
@@ -3727,7 +3728,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                     <Number Value="1" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="English - UK" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="PatrickZabalbeascoa" />
@@ -3792,7 +3793,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                     <Number Value="1" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="Spanish" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="corrius" />
@@ -3835,6 +3836,9 @@ There is another conversation taking place among women at the kitchen.</Descript
                 </Facet>
                 <Facet Name="L3TT-instances: count">
                     <Number Value="0" />
+                </Facet>
+                <Facet Name="Main (L1) language">
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="corrius" />
@@ -3895,7 +3899,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                     <Number Value="1" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="Spanish" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="PatrickZabalbeascoa" />
@@ -3976,7 +3980,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                     <Number Value="1" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="Spanish" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="corrius" />
@@ -4056,7 +4060,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                     <Number Value="0" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="Elvish" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="miquelpt" />
@@ -4130,7 +4134,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                     <Number Value="2" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="Elvish" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="miquelpt" />
@@ -4205,7 +4209,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                     <Number Value="1" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="Elvish" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="miquelpt" />
@@ -4279,7 +4283,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                     <Number Value="0" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="Elvish" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="miquelpt" />
@@ -4350,7 +4354,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                     <Number Value="0" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="Elvish" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="miquelpt" />
@@ -4421,7 +4425,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                     <Number Value="1" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="Elvish" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="miquelpt" />
@@ -4497,7 +4501,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                     <Number Value="0" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="Elvish" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="miquelpt" />
@@ -4571,7 +4575,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                     <Number Value="2" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="Elvish" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="miquelpt" />
@@ -4645,7 +4649,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                     <Number Value="0" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="Elvish" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="miquelpt" />
@@ -4722,7 +4726,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                     <Number Value="1" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="Elvish" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="miquelpt" />
@@ -4796,7 +4800,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                     <Number Value="0" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="Elvish" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="miquelpt" />
@@ -4875,7 +4879,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                     <Number Value="0" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="Old English" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="miquelpt" />
@@ -4945,7 +4949,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                     <Number Value="0" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="Czech" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="George" />
@@ -5006,7 +5010,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                     <Number Value="0" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="French" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="George" />
@@ -5067,7 +5071,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                     <Number Value="0" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="French" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="George" />
@@ -5128,7 +5132,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                     <Number Value="0" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="French" />
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="George" />
@@ -5160,6 +5164,9 @@ There is another conversation taking place among women at the kitchen.</Descript
                 </Facet>
                 <Facet Name="L3TT-instances: count">
                     <Number Value="0" />
+                </Facet>
+                <Facet Name="Main (L1) language">
+                    <String Value="English" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="George" />
@@ -5219,7 +5226,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                     <Number Value="0" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="French" />
+                    <String Value="Portuguese" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="corrius" />
@@ -5289,7 +5296,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                     <Number Value="0" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="English" />
+                    <String Value="Portuguese" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="corrius" />
@@ -5359,7 +5366,7 @@ There is another conversation taking place among women at the kitchen.</Descript
                     <Number Value="0" />
                 </Facet>
                 <Facet Name="Main (L1) language">
-                    <String Value="English" />
+                    <String Value="Portuguese" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="corrius" />
