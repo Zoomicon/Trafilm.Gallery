@@ -55,10 +55,11 @@
           <DateTime Value="2016-10-30T09:00:27" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-30T09:39:50" />
+          <DateTime Value="2016-10-31T12:55:14" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="evaespasa" />
+          <String Value="Stavroula" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="LoveActually" />
@@ -100,13 +101,10 @@
           <String Value="Yes" />
         </Facet>
         <Facet Name="L3TT language type">
-          <String Value="Constructed (fictional)" />
+          <String Value="L-main variety (e.g. dialect, sociolect, idiolect, slang)" />
         </Facet>
         <Facet Name="L3TT language">
           <String Value="incorrect Spanish" />
-        </Facet>
-        <Facet Name="L3TT constructed based on">
-          <String Value="Spanish" />
         </Facet>
         <Facet Name="L3TT meant to be understood">
           <String Value="YES, (almost) completely" />
@@ -123,14 +121,16 @@
         <Facet Name="L3TT mode, written/spoken, diegetic">
           <String Value="Written non-diegetic" />
         </Facet>
+        <Facet Name="L3TT merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
         <Facet Name="L3TT functions">
           <String Value="Character portrayal" />
           <String Value="Plot (twist)" />
           <String Value="Dramatic effect" />
         </Facet>
         <Facet Name="Conversation features for L3TT-instance">
-          <String Value="announcement" />
-          <String Value="debate" />
+          <String Value="courtship" />
           <String Value="monologue" />
         </Facet>
         <Facet Name="L3TT sources">
@@ -138,7 +138,7 @@
         </Facet>
         <Facet Name="L3 language type change">
           <String Value="- Real" />
-          <String Value="+ Constructed (fictional)" />
+          <String Value="+ L-main variety (e.g. dialect, sociolect, idiolect, slang)" />
         </Facet>
         <Facet Name="L3 mode change">
           <String Value="- Oral diegetic on-screen" />
@@ -149,7 +149,7 @@
           <String Value="None" />
         </Facet>
         <Facet Name="Conversation features for L3-instance change">
-          <String Value="+ announcement" />
+          <String Value="None" />
         </Facet>
         <Facet Name="L3 sources change">
           <String Value="- Written &amp; oral L3" />

@@ -21,6 +21,47 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
+    <Item Id="A Passage to India.Dialogue between Aunt and the doctor" Name="Dialogue between Aunt and the doctor" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=A Passage to India&amp;conversation=A Passage to India.Dialogue between Aunt and the doctor">
+      <Description>Doctor Aziz visits his aunt Mrs Begum Hamidullah because she is ill. Dr. Aziz, Mrs. Hamidullah and his husband are in auntie's bedroom and can hear the three of them speaking in English with a very strong accent, particularly the English spoken by Mr. Hamidullah.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="A Passage to India.Dialogue between Aunt and the doctor" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="English with an accent" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-31T06:15:40" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-31T06:20:39" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="corrius" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="A Passage to India" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="A Passage to India" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="16" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="B. 21-40" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Aladdin.3 wishes offered" Name="Three wishes offered" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Aladdin&amp;conversation=Aladdin.3 wishes offered">
       <Description>Genie offers Aladdin three wishes</Description>
       <Facets>
@@ -353,6 +394,51 @@
         </Facet>
       </Facets>
     </Item>
+    <Item Id="FellowshipOfTheRing.Entering_Lorien" Name="Entering, Lorien" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Entering_Lorien">
+      <Description>When reaching Lorien, access is denied to the fellowship by the Elven guards.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="FellowshipOfTheRing.Entering_Lorien" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-11-01T11:31:09" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-11-01T12:25:41" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="miquelpt" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="FellowshipOfTheRing" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="The Lord of the Rings: The Fellowship of the Ring" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="144" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="D. 61-80" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="2" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Elvish" />
+          <String Value="Dwarvish (Khuzdul)" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Constructed (fictional)" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="3" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="FellowshipOfTheRing.Forest_Aragorn_Arwen_on_Frodo" Name="Forest, Aragorn, Arwen, on, Frodo" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Forest_Aragorn_Arwen_on_Frodo">
       <Description>In the forest, Aragorn ad Arwen argue on what to do with Frodo, who is mortally wounded.</Description>
       <Facets>
@@ -388,6 +474,97 @@
         </Facet>
         <Facet Name="L3ST-instances: count">
           <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="FellowshipOfTheRing.Gandalf_Mazarbul" Name="Gandalf, Mazarbul" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Gandalf_Mazarbul">
+      <Description>In the Chamber of Mazarbul, inside the Mines of Moria, Gandalf reads a book written in Dwarvish language (Khuzdul). The actions he is reading aloud from the chronicle are about to happen to the fellowship.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="FellowshipOfTheRing.Gandalf_Mazarbul" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="Khuzdul language is a constructed language invented by Tolkien." />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-31T03:55:50" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-31T04:19:26" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="miquelpt" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="FellowshipOfTheRing" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="The Lord of the Rings: The Fellowship of the Ring" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="126" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="B. 21-40" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Dwarvish (Khuzdul)" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Constructed (fictional)" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="FellowshipOfTheRing.Gandalf_Moria" Name="Gandalf, Moria" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Gandalf_Moria">
+      <Description>After finding the door to the Mines of Moria, Gandalf unsuccessfully tries different Elvish pass words to open them.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="FellowshipOfTheRing.Gandalf_Moria" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-31T03:14:23" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-31T03:55:09" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="miquelpt" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="FellowshipOfTheRing" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="The Lord of the Rings: The Fellowship of the Ring" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="114" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="D. 61-80" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Elvish" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Constructed (fictional)" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="2" />
         </Facet>
       </Facets>
     </Item>
@@ -433,6 +610,44 @@
         </Facet>
         <Facet Name="L3ST-instances: count">
           <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="FellowshipOfTheRing.Leaving_Lorien" Name="Leaving, Lorien" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Leaving_Lorien">
+      <Description>Celeborn warns Aragorn about the road ahead.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="FellowshipOfTheRing.Leaving_Lorien" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-11-01T12:27:39" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-11-01T12:29:31" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="miquelpt" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="FellowshipOfTheRing" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="The Lord of the Rings: The Fellowship of the Ring" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="161" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
         </Facet>
       </Facets>
     </Item>
@@ -650,6 +865,44 @@
         </Facet>
         <Facet Name="L3ST-instances: count">
           <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="FellowshipOfTheRing.Saruman_Gandalf_spell-fight" Name="Saruman, Gandalf, spell-fight" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Saruman_Gandalf_spell-fight">
+      <Description>When the Fellowship is trying to cross the Pass of Caradhras, Saruman casts a spell on the mountain to cause an avalanch. Gandalf casts a counterspell to avoid it. Both wizards use Quenya, an ancient form of Elvish. </Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="FellowshipOfTheRing.Saruman_Gandalf_spell-fight" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-31T02:40:29" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-31T02:45:50" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="miquelpt" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="FellowshipOfTheRing" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="The Lord of the Rings: The Fellowship of the Ring" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="110" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="C. 41-60" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
         </Facet>
       </Facets>
     </Item>
@@ -923,6 +1176,82 @@
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Lost in Translation.Japanese interpreter" Name="Japanese interpreter" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Lost in Translation&amp;conversation=Lost in Translation.Japanese interpreter">
+      <Description>Bob receives instructions for the recording of a commercial through a Japanese interpreter. He verbalizes suspicion about the interpreting, much shorter than the director's emphatic instructions in Japanese.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Lost in Translation.Japanese interpreter" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="interpreting" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-11-01T10:13:03" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-11-01T10:17:37" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="evaespasa" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Lost in Translation" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Lost in Translation" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="I. 161-180" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Lost in Translation.Lip my stockings" Name="Lip my stockings" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Lost in Translation&amp;conversation=Lost in Translation.Lip my stockings">
+      <Description>Bob is alone in his hotel room, watching TV, and receives the visit of a woman.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Lost in Translation.Lip my stockings" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-11-01T12:47:06" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-11-01T12:50:18" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="evaespasa" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Lost in Translation" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Lost in Translation" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="16" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="F. 101-120" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="LoveActually.JamieProposesToAurelia" Name="Jamie proposes to Aurelia" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia">
       <Description>Jamie arrives at the restaurant where Aurélia works in order to propose her. He speaks in Portuguese, a language he has been learning for this purpose. Aurélia accepts, in English, a language she has learnt in parallel.</Description>
       <Facets>
@@ -1011,6 +1340,126 @@
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Memoirs of a Geisha.Ekubo" Name="Ekubo" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Memoirs of a Geisha&amp;conversation=Memoirs of a Geisha.Ekubo">
+      <Description>Mameha instructs Sayuri to give a sweet rice cake called Ekubo to an important man, without telling her why. The image of the Ekubo is shown on screen, not explained in the conversation.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Memoirs of a Geisha.Ekubo" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="Visual clues help to explain the meaning of Japanese word." />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-31T07:35:14" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-31T07:42:01" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="evaespasa" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Memoirs of a Geisha" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Memoirs of a Geisha" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="71" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Memoirs of a Geisha.Geisha" Name="Geisha" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Memoirs of a Geisha&amp;conversation=Memoirs of a Geisha.Geisha">
+      <Description>Mameha explains to Sayuri the meaning of the word "Geisha".</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Memoirs of a Geisha.Geisha" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-31T07:51:23" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-31T07:54:01" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="evaespasa" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Memoirs of a Geisha" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Memoirs of a Geisha" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="54" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Memoirs of a Geisha.Misuage" Name="Misuage" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Memoirs of a Geisha&amp;conversation=Memoirs of a Geisha.Misuage">
+      <Description>Mameha explains to Sayuri the meaning and implications of her misuage (virginity)</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Memoirs of a Geisha.Misuage" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="gender" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-31T05:53:29" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-31T06:00:49" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="evaespasa" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Memoirs of a Geisha" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Memoirs of a Geisha" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="73" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="D. 61-80" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Monsoon Wedding.Conversation in the garden on the phone" Name="Conversation in the garden on the phone" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Monsoon Wedding&amp;conversation=Monsoon Wedding.Conversation in the garden on the phone">
       <Description></Description>
       <Facets>
@@ -1049,6 +1498,47 @@
         </Facet>
         <Facet Name="L3ST-instances: count">
           <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Moulin Rouge.Lautrec and Sarah" Name="Lautrec and Sarah" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Moulin Rouge&amp;conversation=Moulin Rouge.Lautrec and Sarah">
+      <Description>Saying goodbye to each other</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Moulin Rouge.Lautrec and Sarah" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="French words" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="Only the word &quot;Monsieur&quot; is in French" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-31T03:00:03" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-31T03:05:30" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="corrius" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Moulin Rouge" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Moulin Rouge" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="B. 21-40" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
         </Facet>
       </Facets>
     </Item>

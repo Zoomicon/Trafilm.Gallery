@@ -55,10 +55,11 @@
           <DateTime Value="2016-10-30T10:41:00" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-30T10:45:53" />
+          <DateTime Value="2016-10-31T12:12:49" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="evaespasa" />
+          <String Value="Stavroula" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="LoveActually" />
@@ -81,6 +82,9 @@
         <Facet Name="Distribution countries (TT)">
           <String Value="Spain" />
         </Facet>
+        <Facet Name="Year TT released">
+          <Number Value="2003" />
+        </Facet>
         <Facet Name="Film TT Blockbuster">
           <String Value="YES (top 20)" />
         </Facet>
@@ -93,25 +97,54 @@
         <Facet Name="L3ST conveyed as L3TT">
           <String Value="No" />
         </Facet>
+        <Facet Name="L3TT language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3TT language">
+          <String Value="Portuguese" />
+        </Facet>
+        <Facet Name="L3TT meant to be understood">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="L3TT message required for understanding">
+          <String Value="Conversation can be followed regardless of meaning" />
+        </Facet>
+        <Facet Name="L3TT meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3TT speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3TT mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3TT merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
+        <Facet Name="L3TT functions">
+          <String Value="Character portrayal" />
+        </Facet>
+        <Facet Name="Conversation features for L3TT-instance">
+          <String Value="embarassing" />
+          <String Value="informal" />
+        </Facet>
+        <Facet Name="L3TT sources">
+          <String Value="Oral L3: single source" />
+        </Facet>
         <Facet Name="L3 language type change">
-          <String Value="- Real" />
-          <String Value="+ " />
+          <String Value="None" />
         </Facet>
         <Facet Name="L3 mode change">
-          <String Value="- Oral diegetic on-screen" />
+          <String Value="None" />
         </Facet>
         <Facet Name="L3 functions change">
-          <String Value="- Character portrayal" />
-          <String Value="- Plot (twist)" />
-          <String Value="- Dramatic effect" />
+          <String Value="None" />
         </Facet>
         <Facet Name="Conversation features for L3-instance change">
-          <String Value="- embarassing" />
-          <String Value="- informal" />
+          <String Value="None" />
         </Facet>
         <Facet Name="L3 sources change">
-          <String Value="- Oral L3: single source" />
-          <String Value="+ " />
+          <String Value="None" />
         </Facet>
       </Facets>
     </Item>

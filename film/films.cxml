@@ -24,6 +24,64 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
+    <Item Id="A Passage to India" Name="A Passage to India" Img="https://upload.wikimedia.org/wikipedia/ca/7/7e/Passage_to_india2.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=A Passage to India">
+      <Description>A British woman, Adela Quested, joins her fiancée, Ronnie Heaslop, in India where he works as a city magistrate for the government. Ronnie's mother, Mrs. Moore, accompanies Adela and they befriend an Indian doctor called Aziz H. Ahmed. Since they profess interest in seeing the real India, experiencing the countryside and meeting everyday Indians, Dr. Aziz offers them to lead an expedition to the Marabar Caves. Once back in Chandrapore, Aziz is arrested and charged with attempting to rape Adela, a charge on an accusation Adela herself made. The British Administration is against him and would like to see him declared guilty and so an uproar ensues between the Indians and the Colonials.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="A Passage to India" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="Urdu" />
+          <String Value=" India" />
+          <String Value=" English with an Indian accent" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="Urdu is the language used to identify some characters with the Indian culture" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-31T05:54:49" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-31T06:09:23" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="corrius" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="A Passage to India" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="157" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="David Lean" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="David Lean" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="United Kingdom" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="Metro-Goldwyn-Mayer Studios" />
+        </Facet>
+        <Facet Name="Blockbuster">
+          <String Value="NO, closer to Art film or niche market" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="1984" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Aladdin" Name="Aladdin" Img="https://upload.wikimedia.org/wikipedia/en/5/58/Aladdinposter.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Aladdin">
       <Description></Description>
       <Facets>
@@ -189,6 +247,64 @@
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Carla's Song" Name="Carla's Song" Img="https://images-na.ssl-images-amazon.com/images/M/MV5BMTU5MjMzMDczN15BMl5BanBnXkFtZTYwOTY3NzI5._V1_.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Carla's Song">
+      <Description>The film opens in Glasgow where a bus driver, George Lennox, meets a Nicaraguan passenger, Carla, who is living a sad life in exile there. Carla i occasionally short of money and George allows her to travel without a ticket, but when his boss realises this, he fires him. George keeps in touch with Carla and they continue seeing each other until he falls in love with her. We don't know much about Carla because she doesn't want to talk about her life and her past, the only things we are aware of is that her back is scarred, her boyfriend missing and her family scattered. For some reason or other she attempts suicide but George arrives in time to take her to hospital where she will recover. </Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Carla's Song" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="third language" />
+          <String Value=" (Scottish) English" />
+          <String Value=" South American Spanish" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="Two main indentities represented in the film: the Scottish, mainly represented by David and his surroundings; and the South American, mainly represented by Carla and her people" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-11-01T03:39:06" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-11-01T03:54:14" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="corrius" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Carla's Song" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="127" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Ken Loach" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Paul Laverty" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="United Kingdom" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="Parallax Films" />
+        </Facet>
+        <Facet Name="Blockbuster">
+          <String Value="NO, closer to Art film or niche market" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="1996" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Django Unchained" Name="Django Unchained" Img="https://upload.wikimedia.org/wikipedia/en/8/8b/Django_Unchained_Poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Django Unchained">
       <Description>Western. A story of slavery and revenge, gunfighters and slavemasters, US South</Description>
       <Facets>
@@ -241,6 +357,26 @@
         </Facet>
         <Facet Name="Conversations: count">
           <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Entering_Lorien" Name="Entering_Lorien" Img="" Href="">
+      <Description></Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Entering_Lorien" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-11-01T11:27:08" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-11-01T11:27:08" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Entering_Lorien" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="0" />
         </Facet>
       </Facets>
     </Item>
@@ -649,6 +785,70 @@
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Land and Freedom" Name="Land and Freedom" Img="http://blogs.ua.es/historiografiajoselopez/files/2012/06/1.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Land and Freedom">
+      <Description>David Carr is a young communist Liverpudlian who leaves his country to join the International Brigades and fight against fascism in Spain. He is enlisted in a POUM militia commanded by Lawrence in the Aragon front. In all POUM militias, men and women fight together and there he befriends other foreign volunteers. He also finds time to fall in love with Blanca, an anarchist member of the militia and the ideologue of his group. They are both convinced that they should fight for freedom and the equality of people. Towards the end of the film David is wounded and sent to Barcelona to be cured; Blanca visits him by surprise.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Land and Freedom" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="third language" />
+          <String Value=" Spanish" />
+          <String Value=" interpreter" />
+          <String Value=" " />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="The film is very rich as far as the &quot;third language&quot; is concerned. More than one language can be heard in the source text: English (L1) as the main language of the text; Spanish (L3a) as the main ST third language; Catalan (L3b) as a secondary third language; and ecen a sentence in Italian (L3c)." />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-11-01T04:36:54" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-11-01T05:04:58" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="corrius" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Land and Freedom" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="104" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Ken Loach" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Jim Allen" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="United Kingdom" />
+          <String Value=" Spain" />
+          <String Value=" Germany" />
+          <String Value=" Italy" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="Parallax Pictures" />
+          <String Value=" Messidor Films" />
+          <String Value=" Road Movies Dritte Produktionen" />
+        </Facet>
+        <Facet Name="Blockbuster">
+          <String Value="NO, closer to Art film or niche market" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="1995" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Lost in Translation" Name="Lost in Translation" Img="http://ia.media-imdb.com/images/M/MV5BMTI2NDI5ODk4N15BMl5BanBnXkFtZTYwMTI3NTE3._V1_.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Lost in Translation">
       <Description>A faded movie star and a neglected young woman form an unlikely bond after crossing paths in Tokyo. </Description>
       <Facets>
@@ -659,12 +859,13 @@
           <DateTime Value="2016-06-13T06:54:58" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-19T02:27:21" />
+          <DateTime Value="2016-11-01T10:12:22" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="natalia.faja" />
           <String Value="Stavroula" />
           <String Value="George" />
+          <String Value="evaespasa" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Lost in Translation" />
@@ -691,6 +892,9 @@
           <String Value=" American Zoetrope" />
           <String Value=" Elemental Films" />
         </Facet>
+        <Facet Name="Blockbuster">
+          <String Value="YES (top 20)" />
+        </Facet>
         <Facet Name="Year ST released">
           <Number Value="2003" />
         </Facet>
@@ -708,18 +912,18 @@
         <Facet Name="Reference Id">
           <String Value="LoveActually" />
         </Facet>
-        <Facet Name="Tags">
-          <String Value="faltan datos importantes" />
+        <Facet Name="Remarks">
+          <String Value="In the English scripts, the texts which are in Portuguese in the actual film appear in English. &#xD;&#xA;Aurelia'sister: Definitely go for England, girl. You'll meet Prince William -then you can marry him instead.&#xD;&#xA;(She actually speaks in Portuguese and is subtitled in English)&#xD;&#xA;" />
         </Facet>
         <Facet Name="Info created">
           <DateTime Value="2016-06-01T03:30:55" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-29T04:19:55" />
+          <DateTime Value="2016-10-31T05:44:20" />
         </Facet>
         <Facet Name="Metadata Editors">
-          <String Value="Stavroula" />
           <String Value="George" />
+          <String Value="Stavroula" />
           <String Value="evaespasa" />
         </Facet>
         <Facet Name="Film/Season title">
@@ -757,6 +961,9 @@
         <Facet Name="Main language (L1)">
           <String Value="English" />
         </Facet>
+        <Facet Name="L2-Dubbed languages">
+          <String Value="Spanish" />
+        </Facet>
         <Facet Name="L2-Subtitled languages">
           <String Value="Spanish" />
         </Facet>
@@ -771,17 +978,20 @@
         <Facet Name="Reference Id">
           <String Value="Memoirs of a Geisha" />
         </Facet>
+        <Facet Name="Remarks">
+          <String Value="A preproduction script includes details about film description and fragments which should be said in Japanese, but are reproduced in English in the script.&#xD;&#xA;&#xD;&#xA;E.g. p.1. “The TWO MEN speak in JAPANESE […]. Without understanding Japanese,we still comprehend the grave situation.”&#xD;&#xA;&#xD;&#xA;p. 6. “The softly accented VOICE of a mature woman narrates in ENGLISH” [in reference to Sayuri as narrator]&#xD;&#xA;&#xD;&#xA;The actual dialogues and construction of the film are very different, but this script is revealing about the function of Japanese in the film.&#xD;&#xA;The film is in English, with Japanese accent (but controversially starring two mainland Chinese actresses in the lead roles), and the inclusion of individual Japanese words throughout, which are explained or can be understood from audiovisual clues.&#xD;&#xA;" />
+        </Facet>
         <Facet Name="Info created">
           <DateTime Value="2016-06-16T08:12:46" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-19T02:27:29" />
+          <DateTime Value="2016-10-31T08:23:07" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="natalia.faja" />
           <String Value="Stavroula" />
-          <String Value="evaespasa" />
           <String Value="George" />
+          <String Value="evaespasa" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Memoirs of a Geisha" />
@@ -817,8 +1027,11 @@
         <Facet Name="Main language (L1)">
           <String Value="English" />
         </Facet>
+        <Facet Name="L2-Dubbed languages">
+          <String Value="Spanish" />
+        </Facet>
         <Facet Name="Conversations: count">
-          <Number Value="0" />
+          <Number Value="3" />
         </Facet>
       </Facets>
     </Item>
@@ -882,6 +1095,67 @@
         </Facet>
         <Facet Name="L2-Dubbed languages">
           <String Value="Spanish" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Moulin Rouge" Name="Moulin Rouge" Img="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Henri_de_Toulouse-Lautrec_049.jpg/300px-Henri_de_Toulouse-Lautrec_049.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Moulin Rouge">
+      <Description>Touluse-Lautrec is a crippled artist that finds some friendship among the Moulin Rouge artists, a night club in Paris where the rich and poor men alike come to be entertained by the dancers. He meets Marie, a young woman who persuades him to take her to his house, and to whom he becomes involved in a tumultuous relationship. At the end, he realizes that she just lives with him for his money. </Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Moulin Rouge" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="bohemian culture" />
+          <String Value=" Moulin Rouge" />
+          <String Value=" Paris" />
+          <String Value=" artist" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="Very little third language. Only some words in French such as &quot;Monsieur, &quot;Mademoiselle&quot;, &quot;Mamá&quot;&quot;Madame&quot; can be heard." />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-31T02:26:07" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-10-31T03:04:04" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="corrius" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Moulin Rouge" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="117" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="John Huston" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Anthony Veiller" />
+          <String Value=" John Huston" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="United Kingdom. USA" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="Romulus Films" />
+          <String Value=" Moulin Production Inc." />
+        </Facet>
+        <Facet Name="Blockbuster">
+          <String Value="NO, closer to Art film or niche market" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="1952" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
         </Facet>
         <Facet Name="Conversations: count">
           <Number Value="1" />
@@ -1609,14 +1883,18 @@
           <DateTime Value="2016-08-15T09:39:32" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-19T02:28:43" />
+          <DateTime Value="2016-11-01T03:42:47" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Guillermo" />
           <String Value="George" />
+          <String Value="Stavroula" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Zootopia" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
         </Facet>
         <Facet Name="Duration (min)">
           <Number Value="109" />
