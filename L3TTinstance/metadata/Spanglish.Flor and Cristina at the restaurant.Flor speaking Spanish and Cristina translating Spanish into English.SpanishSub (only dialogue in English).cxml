@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Spanglish.Flor and Cristina at the restaurant.Flor speaking Spanish and Cristina translating Spanish into English.SpanishSub (only dialogue in English)" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Flor and Cristina at the restaurant. Flor speaking Spanish and Cristina translating Spanish into English.SpanishSub (only dialogue in English)" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -42,7 +42,7 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Spanglish.Flor and Cristina at the restaurant.Flor speaking Spanish and Cristina translating Spanish into English.SpanishSub (only dialogue in English)" Name="Spanglish.Flor and Cristina at the restaurant.Flor speaking Spanish and Cristina translating Spanish into English.SpanishSub (only dialogue in English)" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Spanglish&amp;conversation=Spanglish.Flor and Cristina at the restaurant&amp;L3STinstance=Spanglish.Flor and Cristina at the restaurant.Flor speaking Spanish and Cristina translating Spanish into English&amp;L3TTinstance=Spanglish.Flor and Cristina at the restaurant.Flor speaking Spanish and Cristina translating Spanish into English.SpanishSub (only dialogue in English)">
+    <Item Id="Spanglish.Flor and Cristina at the restaurant.Flor speaking Spanish and Cristina translating Spanish into English.SpanishSub (only dialogue in English)" Name="Flor and Cristina at the restaurant. Flor speaking Spanish and Cristina translating Spanish into English.SpanishSub (only dialogue in English)" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Spanglish&amp;conversation=Spanglish.Flor and Cristina at the restaurant&amp;L3STinstance=Spanglish.Flor and Cristina at the restaurant.Flor speaking Spanish and Cristina translating Spanish into English&amp;L3TTinstance=Spanglish.Flor and Cristina at the restaurant.Flor speaking Spanish and Cristina translating Spanish into English.SpanishSub (only dialogue in English)">
       <Description>Flor and her daughter go and have dinner to celebrate that she has found a job. When they enter the restaurant Cristina addresses a waitress to ask for a table. As Flor does not speak any English, when she wants to add or say something she tells Cristina to translate for her.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -58,10 +58,11 @@
           <DateTime Value="2016-10-17T11:12:45" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-17T03:30:20" />
+          <DateTime Value="2016-11-03T03:58:24" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="corrius" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Spanglish" />

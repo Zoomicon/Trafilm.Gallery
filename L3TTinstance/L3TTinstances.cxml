@@ -241,7 +241,7 @@
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Aladdin.3 wishes offered.Uno dos tres.Uno dos tres mejicanos" Name="Aladdin.3 wishes offered.Uno dos tres.Uno dos tres mejicanos" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Aladdin&amp;conversation=Aladdin.3 wishes offered&amp;L3STinstance=Aladdin.3 wishes offered.Uno dos tres&amp;L3TTinstance=Aladdin.3 wishes offered.Uno dos tres.Uno dos tres mejicanos">
+    <Item Id="Aladdin.3 wishes offered.Uno dos tres.Uno dos tres mejicanos" Name="Three wishes offered. Uno dos tres. Uno dos tres mejicanos" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Aladdin&amp;conversation=Aladdin.3 wishes offered&amp;L3STinstance=Aladdin.3 wishes offered.Uno dos tres&amp;L3TTinstance=Aladdin.3 wishes offered.Uno dos tres.Uno dos tres mejicanos">
       <Description>Genie offers Aladdin three wishes</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -254,10 +254,11 @@
           <DateTime Value="2016-10-26T05:55:40" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-26T06:00:37" />
+          <DateTime Value="2016-11-03T04:34:23" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="PatrickZabalbeascoa" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Aladdin" />
@@ -345,9 +346,7 @@
           <String Value="- Signals otherness" />
         </Facet>
         <Facet Name="Conversation features for L3-instance change">
-          <String Value="+ introduction" />
-          <String Value="+ joke" />
-          <String Value="+ monologue" />
+          <String Value="None" />
         </Facet>
         <Facet Name="L3 sources change">
           <String Value="None" />
@@ -4983,7 +4982,115 @@
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Harry Potter and the Deathly Hallows Part 2.Voldermort finds out Gringott was robbed.Parseltongue.SpanishSub" Name="Harry Potter and the Deathly Hallows Part 2.Voldermort finds out Gringott was robbed.Parseltongue.SpanishSub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Harry Potter and the Deathly Hallows Part 2&amp;conversation=Harry Potter and the Deathly Hallows Part 2.Voldermort finds out Gringott was robbed&amp;L3STinstance=Harry Potter and the Deathly Hallows Part 2.Voldermort finds out Gringott was robbed.Parseltongue&amp;L3TTinstance=Harry Potter and the Deathly Hallows Part 2.Voldermort finds out Gringott was robbed.Parseltongue.SpanishSub">
+    <Item Id="Game of Thrones.03 Lord Snow_Confrontation Visarys and Dothraki.Threat.GermanSub" Name="Game of Thrones.03 Lord Snow_Confrontation Visarys and Dothraki.Threat.GermanSub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Game of Thrones&amp;conversation=Game of Thrones.03 Lord Snow_Confrontation Visarys and Dothraki&amp;L3STinstance=Game of Thrones.03 Lord Snow_Confrontation Visarys and Dothraki.Threat&amp;L3TTinstance=Game of Thrones.03 Lord Snow_Confrontation Visarys and Dothraki.Threat.GermanSub">
+      <Description>After Daenerys stops the horde for a break, Viserys threatens her and is stopped by Rakharo, who wants to punish him. Daenerys defends her brother.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Game of Thrones.03 Lord Snow_Confrontation Visarys and Dothraki.Threat.GermanSub" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Rakharo (ST Dothraki)&#xD;&#xA;-&#xD;&#xA;&#xD;&#xA;00:35:24:01 &#xD;&#xA;Irri (ST English):&#xD;&#xA;Rakharo fragt,&#xD;&#xA;ob Ihr seinen Tod wünscht, Khaleesi.&#xD;&#xA;&#xD;&#xA;00:35:25:23 &#xD;&#xA;Daenerys (ST English)&#xD;&#xA;Nein.&#xD;&#xA;&#xD;&#xA;Rakharo (ST Dothraki)&#xD;&#xA;-&#xD;&#xA;&#xD;&#xA;00:35:30:18 &#xD;&#xA;Irri (ST English)&#xD;&#xA;Rakharo sagt, Ihr solltet sein Ohr einfordern,&#xD;&#xA;um ihm Respekt zu lehren.&#xD;&#xA;&#xD;&#xA;00:35:33:09 &#xD;&#xA;Daenerys (ST English)&#xD;&#xA;Bitte. Bitte tut ihm nicht weh.&#xD;&#xA;&#xD;&#xA;00:35:40:01 &#xD;&#xA;Daenerys (ST English)&#xD;&#xA;Sag ihm, ich wünsche nicht,&#xD;&#xA;dass man ihm etwas antut.&#xD;&#xA;&#xD;&#xA;Irri (ST Dothraki)&#xD;&#xA;-&#xD;&#xA;&#xD;&#xA;Rakharo (ST Dothraki)&#xD;&#xA;-" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="Only English is subtitled.&#xD;&#xA;Subtitles from DVD: &quot;Game of Thrones - Die komplette erste Staffel&quot;, ASIN: B00BPU7FFW" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-11-02T11:11:42" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-11-02T11:33:21" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="SIberg" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Game of Thrones" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Game of Thrones.03 Lord Snow_Confrontation Visarys and Dothraki" />
+        </Facet>
+        <Facet Name="L3ST-instance Reference Id">
+          <String Value="Game of Thrones.03 Lord Snow_Confrontation Visarys and Dothraki.Threat" />
+        </Facet>
+        <Facet Name="Film Title TT">
+          <String Value="Game of Thrones" />
+        </Facet>
+        <Facet Name="L2 language">
+          <String Value="German" />
+        </Facet>
+        <Facet Name="L2 mode">
+          <String Value="Subtitled" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="35" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="C. 41-60" />
+        </Facet>
+        <Facet Name="L2 same as L3ST">
+          <String Value="No" />
+        </Facet>
+        <Facet Name="L3ST conveyed as L3TT">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT language type">
+          <String Value="Constructed (fictional)" />
+        </Facet>
+        <Facet Name="L3TT language">
+          <String Value="Dothraki" />
+        </Facet>
+        <Facet Name="L3TT constructed based on">
+          <String Value="“from scratch”" />
+        </Facet>
+        <Facet Name="L3TT meant to be understood">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="L3TT message required for understanding">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT meaning decipherable">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="Quality of L3TT speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3TT mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3TT merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
+        <Facet Name="L3TT functions">
+          <String Value="Metaphorical (e.g. communication barrier)" />
+          <String Value="Signals otherness" />
+        </Facet>
+        <Facet Name="Conversation features for L3TT-instance">
+          <String Value="politics" />
+          <String Value="question &amp; answer" />
+          <String Value="threat" />
+        </Facet>
+        <Facet Name="L3TT sources">
+          <String Value="Respond interlingually: different sources " />
+        </Facet>
+        <Facet Name="L3 language type change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 mode change">
+          <String Value="- Oral non-diegetic" />
+          <String Value="+ Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3 functions change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="Conversation features for L3-instance change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 sources change">
+          <String Value="None" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Harry Potter and the Deathly Hallows Part 2.Voldermort finds out Gringott was robbed.Parseltongue.SpanishSub" Name="Voldermort finds out Gringott was robbed. Parseltongue. SpanishSub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Harry Potter and the Deathly Hallows Part 2&amp;conversation=Harry Potter and the Deathly Hallows Part 2.Voldermort finds out Gringott was robbed&amp;L3STinstance=Harry Potter and the Deathly Hallows Part 2.Voldermort finds out Gringott was robbed.Parseltongue&amp;L3TTinstance=Harry Potter and the Deathly Hallows Part 2.Voldermort finds out Gringott was robbed.Parseltongue.SpanishSub">
       <Description>This film is spoken mostly in English with some characters speaking Parseltongue in some scenes. During the scene where Voldemort finds out Gringott's was robbed, he speaks Parseltongue to his snake Nagini, with on screen subtitles. In the scene where Ron and Hermione go to the chamber of secrets to destroy Helga Hufflepuff's cup, Ron speaks "open" in Parseltongue to get in. Generally only Parselmouths (Voldemort, Harry Potter, Salazar Slytherin, and Marvolo, Morfin, and Merope Gaunt) can speak Parseltongue. Ron Weasley isn't a Parseltongue but he merely muttered the Parseltongue word for "open" which he remembered from Harry speaking it. Ginny Weasley also isn't a Parseltongue but was able to speak it to open the chamber of secrets various times while possessed by Voldemort. Also, Professor Dumbledore can understand (and very possibly, speak) Parseltontgue, such as Goblins' and Mermish languages (IMDB)</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -4993,10 +5100,11 @@
           <DateTime Value="2016-10-30T03:36:31" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-30T04:00:39" />
+          <DateTime Value="2016-11-03T04:10:34" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Stavroula" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Harry Potter and the Deathly Hallows Part 2" />
@@ -5087,7 +5195,7 @@
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Inglourious Basterds.Americans in Italian disguise.Farcical Italian disguise.SpanishDub" Name="Inglourious Basterds.Americans in Italian disguise.Farcical Italian disguise.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Inglourious Basterds&amp;conversation=Inglourious Basterds.Americans in Italian disguise&amp;L3STinstance=Inglourious Basterds.Americans in Italian disguise.Farcical Italian disguise&amp;L3TTinstance=Inglourious Basterds.Americans in Italian disguise.Farcical Italian disguise.SpanishDub">
+    <Item Id="Inglourious Basterds.Americans in Italian disguise.Farcical Italian disguise.SpanishDub" Name="Americans in Italian disguise - Farcical Italian disguise. SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Inglourious Basterds&amp;conversation=Inglourious Basterds.Americans in Italian disguise&amp;L3STinstance=Inglourious Basterds.Americans in Italian disguise.Farcical Italian disguise&amp;L3TTinstance=Inglourious Basterds.Americans in Italian disguise.Farcical Italian disguise.SpanishDub">
       <Description>Three Americans pretend to be Italian film makers, in horrible Italian</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -5097,10 +5205,11 @@
           <DateTime Value="2016-10-27T07:10:06" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-27T07:15:02" />
+          <DateTime Value="2016-11-03T04:10:08" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="PatrickZabalbeascoa" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Inglourious Basterds" />
@@ -5191,7 +5300,7 @@
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Inglourious Basterds.Americans in Italian disguise.German intro.SpanishDub" Name="Inglourious Basterds.Americans in Italian disguise.German intro.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Inglourious Basterds&amp;conversation=Inglourious Basterds.Americans in Italian disguise&amp;L3STinstance=Inglourious Basterds.Americans in Italian disguise.German intro&amp;L3TTinstance=Inglourious Basterds.Americans in Italian disguise.German intro.SpanishDub">
+    <Item Id="Inglourious Basterds.Americans in Italian disguise.German intro.SpanishDub" Name="Americans in Italian disguise. German intro. SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Inglourious Basterds&amp;conversation=Inglourious Basterds.Americans in Italian disguise&amp;L3STinstance=Inglourious Basterds.Americans in Italian disguise.German intro&amp;L3TTinstance=Inglourious Basterds.Americans in Italian disguise.German intro.SpanishDub">
       <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -5204,10 +5313,11 @@
           <DateTime Value="2016-10-27T10:48:07" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-27T11:06:31" />
+          <DateTime Value="2016-11-03T04:11:09" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="PatrickZabalbeascoa" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Inglourious Basterds" />
@@ -5283,7 +5393,7 @@
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Inglourious Basterds.Hold that expression.Souviens-toi.manten esa cara" Name="Inglourious Basterds.Hold that expression.Souviens-toi.manten esa cara" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Inglourious Basterds&amp;conversation=Inglourious Basterds.Hold that expression&amp;L3STinstance=Inglourious Basterds.Hold that expression.Souviens-toi&amp;L3TTinstance=Inglourious Basterds.Hold that expression.Souviens-toi.manten esa cara">
+    <Item Id="Inglourious Basterds.Hold that expression.Souviens-toi.manten esa cara" Name="Hold that expression. Souviens-toi. manten esa cara" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Inglourious Basterds&amp;conversation=Inglourious Basterds.Hold that expression&amp;L3STinstance=Inglourious Basterds.Hold that expression.Souviens-toi&amp;L3TTinstance=Inglourious Basterds.Hold that expression.Souviens-toi.manten esa cara">
       <Description>dialogue involves instructions for posing</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -5293,7 +5403,7 @@
           <DateTime Value="2016-10-26T12:22:24" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-29T06:38:38" />
+          <DateTime Value="2016-11-03T04:11:29" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="PatrickZabalbeascoa" />
@@ -5376,7 +5486,7 @@
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Inglourious Basterds.Landa speaks French 1.My French is limited.Francés agotado" Name="Inglourious Basterds.Landa speaks French 1.My French is limited.Francés agotado" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Inglourious Basterds&amp;conversation=Inglourious Basterds.Landa speaks French 1&amp;L3STinstance=Inglourious Basterds.Landa speaks French 1.My French is limited&amp;L3TTinstance=Inglourious Basterds.Landa speaks French 1.My French is limited.Francés agotado">
+    <Item Id="Inglourious Basterds.Landa speaks French 1.My French is limited.Francés agotado" Name="Landa speaks French 1. My French is limited. Francés agotado" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Inglourious Basterds&amp;conversation=Inglourious Basterds.Landa speaks French 1&amp;L3STinstance=Inglourious Basterds.Landa speaks French 1.My French is limited&amp;L3TTinstance=Inglourious Basterds.Landa speaks French 1.My French is limited.Francés agotado">
       <Description>metalinguistic feature just to express limited proficiency in French, to jutify script's return to L1</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -5392,7 +5502,7 @@
           <DateTime Value="2016-10-26T08:48:19" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-29T06:39:10" />
+          <DateTime Value="2016-11-03T04:14:19" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="PatrickZabalbeascoa" />
@@ -5581,7 +5691,7 @@
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Lost in Translation.Lip my stockings.Japanese dubbing.SpanishDub" Name="Lost in Translation.Lip my stockings.Japanese dubbing.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Lost in Translation&amp;conversation=Lost in Translation.Lip my stockings&amp;L3STinstance=Lost in Translation.Lip my stockings.Japanese dubbing&amp;L3TTinstance=Lost in Translation.Lip my stockings.Japanese dubbing.SpanishDub">
+    <Item Id="Lost in Translation.Lip my stockings.Japanese dubbing.SpanishDub" Name="Lip my stockings - Japanese dubbing - SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Lost in Translation&amp;conversation=Lost in Translation.Lip my stockings&amp;L3STinstance=Lost in Translation.Lip my stockings.Japanese dubbing&amp;L3TTinstance=Lost in Translation.Lip my stockings.Japanese dubbing.SpanishDub">
       <Description>Bob is alone in his hotel room, watching TV, and receives the visit of a woman.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -5594,10 +5704,11 @@
           <DateTime Value="2016-11-01T12:56:42" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-11-01T12:59:54" />
+          <DateTime Value="2016-11-03T03:47:02" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="evaespasa" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Lost in Translation" />
@@ -5686,7 +5797,7 @@
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Lost in Translation.Lip my stockings.Premium Fantasy.SpanishDub" Name="Lost in Translation.Lip my stockings.Premium Fantasy.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Lost in Translation&amp;conversation=Lost in Translation.Lip my stockings&amp;L3STinstance=Lost in Translation.Lip my stockings.Premium Fantasy&amp;L3TTinstance=Lost in Translation.Lip my stockings.Premium Fantasy.SpanishDub">
+    <Item Id="Lost in Translation.Lip my stockings.Premium Fantasy.SpanishDub" Name="Lip my stockings - Premium Fantasy - SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Lost in Translation&amp;conversation=Lost in Translation.Lip my stockings&amp;L3STinstance=Lost in Translation.Lip my stockings.Premium Fantasy&amp;L3TTinstance=Lost in Translation.Lip my stockings.Premium Fantasy.SpanishDub">
       <Description>Bob is alone in his hotel room, watching TV, and receives the visit of a woman.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -5699,10 +5810,11 @@
           <DateTime Value="2016-11-01T01:06:06" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-11-01T03:39:46" />
+          <DateTime Value="2016-11-03T03:47:44" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="evaespasa" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Lost in Translation" />
@@ -5791,7 +5903,7 @@
         </Facet>
       </Facets>
     </Item>
-    <Item Id="LoveActually.JamieProposesToAurelia.Aurelia's sister.SpanishSub" Name="LoveActually - Jamie proposes to Aurelia - Aurelia's sister - Spanish Sub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia&amp;L3STinstance=LoveActually.JamieProposesToAurelia.Aurelia's sister&amp;L3TTinstance=LoveActually.JamieProposesToAurelia.Aurelia's sister.SpanishSub">
+    <Item Id="LoveActually.JamieProposesToAurelia.Aurelia's sister.SpanishSub" Name="Jamie proposes to Aurelia - Aurelia's sister - Spanish Sub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia&amp;L3STinstance=LoveActually.JamieProposesToAurelia.Aurelia's sister&amp;L3TTinstance=LoveActually.JamieProposesToAurelia.Aurelia's sister.SpanishSub">
       <Description>Aurelia's sister intervenes in Jamie's proposal (humorous effect)</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -5801,11 +5913,11 @@
           <DateTime Value="2016-06-15T03:00:07" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-31T01:08:38" />
+          <DateTime Value="2016-11-03T04:14:43" />
         </Facet>
         <Facet Name="Metadata Editors">
-          <String Value="George" />
           <String Value="Stavroula" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="LoveActually" />
@@ -5891,8 +6003,8 @@
         </Facet>
       </Facets>
     </Item>
-    <Item Id="LoveActually.JamieProposesToAurelia.Jamie in Portuguese.SpanishDub" Name="LoveActually.JamieProposesToAurelia.Jamie in Portuguese.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia&amp;L3STinstance=LoveActually.JamieProposesToAurelia.Jamie in Portuguese&amp;L3TTinstance=LoveActually.JamieProposesToAurelia.Jamie in Portuguese.SpanishDub">
-      <Description>Jamie proposes in Portuguese</Description>
+    <Item Id="LoveActually.JamieProposesToAurelia.Jamie in Portuguese.SpanishDub" Name="Jamie proposes to Aurelia. Jamie in Portuguese. SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia&amp;L3STinstance=LoveActually.JamieProposesToAurelia.Jamie in Portuguese&amp;L3TTinstance=LoveActually.JamieProposesToAurelia.Jamie in Portuguese.SpanishDub">
+      <Description>Jamie proposes to Aurelia trying to speak in Portuguese but with many mistakes. It is clearly an effort to approach her by speaking her language. Until recently the story was based on the fact that they could not communicate due to language barriers (often a cause for comic effect)</Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="LoveActually.JamieProposesToAurelia.Jamie in Portuguese.SpanishDub" />
@@ -5907,11 +6019,12 @@
           <DateTime Value="2016-10-30T08:30:39" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-31T05:35:58" />
+          <DateTime Value="2016-11-03T04:15:11" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Stavroula" />
           <String Value="evaespasa" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="LoveActually" />
@@ -5999,19 +6112,19 @@
           <String Value="- Written diegetic" />
         </Facet>
         <Facet Name="L3 functions change">
-          <String Value="None" />
+          <String Value="+ Dramatic effect" />
         </Facet>
         <Facet Name="Conversation features for L3-instance change">
           <String Value="None" />
         </Facet>
         <Facet Name="L3 sources change">
-          <String Value="- Written &amp; oral L3" />
+          <String Value="- Oral L3: single source" />
           <String Value="+ Bilingual (L3&amp;main): same source " />
         </Facet>
       </Facets>
     </Item>
-    <Item Id="LoveActually.JamieProposesToAurelia.Jamie in Portuguese.SpanishSub" Name="LoveActually.JamieProposesToAurelia.Jamie in Portuguese.SpanishSub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia&amp;L3STinstance=LoveActually.JamieProposesToAurelia.Jamie in Portuguese&amp;L3TTinstance=LoveActually.JamieProposesToAurelia.Jamie in Portuguese.SpanishSub">
-      <Description>Jamie proposes in Portuguese</Description>
+    <Item Id="LoveActually.JamieProposesToAurelia.Jamie in Portuguese.SpanishSub" Name="Jamie proposes to Aurelia. Jamie in Portuguese. SpanishSub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia&amp;L3STinstance=LoveActually.JamieProposesToAurelia.Jamie in Portuguese&amp;L3TTinstance=LoveActually.JamieProposesToAurelia.Jamie in Portuguese.SpanishSub">
+      <Description>Jamie proposes to Aurelia trying to speak in Portuguese but with many mistakes. It is clearly an effort to approach her by speaking her language. Until recently the story was based on the fact that they could not communicate due to language barriers (often a cause for comic effect)</Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="LoveActually.JamieProposesToAurelia.Jamie in Portuguese.SpanishSub" />
@@ -6023,11 +6136,12 @@
           <DateTime Value="2016-10-30T09:00:27" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-31T12:55:14" />
+          <DateTime Value="2016-11-03T04:15:47" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="evaespasa" />
           <String Value="Stavroula" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="LoveActually" />
@@ -6114,18 +6228,18 @@
           <String Value="+ Written non-diegetic" />
         </Facet>
         <Facet Name="L3 functions change">
-          <String Value="None" />
+          <String Value="+ Dramatic effect" />
         </Facet>
         <Facet Name="Conversation features for L3-instance change">
           <String Value="None" />
         </Facet>
         <Facet Name="L3 sources change">
-          <String Value="- Written &amp; oral L3" />
+          <String Value="- Oral L3: single source" />
           <String Value="+ Non-diegetic translation" />
         </Facet>
       </Facets>
     </Item>
-    <Item Id="LoveActually.Lake Scene.After Lake.SpanishDub" Name="LoveActually.Lake Scene.After Lake.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.Lake Scene&amp;L3STinstance=LoveActually.Lake Scene.After Lake&amp;L3TTinstance=LoveActually.Lake Scene.After Lake.SpanishDub">
+    <Item Id="LoveActually.Lake Scene.After Lake.SpanishDub" Name="Lake Scene. After Lake. SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.Lake Scene&amp;L3STinstance=LoveActually.Lake Scene.After Lake&amp;L3TTinstance=LoveActually.Lake Scene.After Lake.SpanishDub">
       <Description>After the lake incident, Jamie and Aurelia discuss about Jamie's book, each in their native tongue and with non-verbal cues.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -6138,10 +6252,11 @@
           <DateTime Value="2016-10-30T05:12:37" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-30T05:16:14" />
+          <DateTime Value="2016-11-03T04:17:06" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="evaespasa" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="LoveActually" />
@@ -6226,7 +6341,7 @@
         </Facet>
       </Facets>
     </Item>
-    <Item Id="LoveActually.Lake Scene.After Lake.SpanishSub" Name="LoveActually.Lake Scene.After Lake.SpanishSub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.Lake Scene&amp;L3STinstance=LoveActually.Lake Scene.After Lake&amp;L3TTinstance=LoveActually.Lake Scene.After Lake.SpanishSub">
+    <Item Id="LoveActually.Lake Scene.After Lake.SpanishSub" Name="Lake Scene. After Lake. SpanishSub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.Lake Scene&amp;L3STinstance=LoveActually.Lake Scene.After Lake&amp;L3TTinstance=LoveActually.Lake Scene.After Lake.SpanishSub">
       <Description>After the lake incident, Jamie and Aurelia discuss about Jamie's book, each in their native tongue and with non-verbal cues.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -6239,10 +6354,11 @@
           <DateTime Value="2016-10-30T05:18:26" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-30T05:23:30" />
+          <DateTime Value="2016-11-03T04:17:17" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="evaespasa" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="LoveActually" />
@@ -6330,7 +6446,7 @@
         </Facet>
       </Facets>
     </Item>
-    <Item Id="LoveActually.Lake Scene.Parallel monologues.SpanishDub" Name="LoveActually.Lake Scene.Parallel monologues.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.Lake Scene&amp;L3STinstance=LoveActually.Lake Scene.Parallel monologues&amp;L3TTinstance=LoveActually.Lake Scene.Parallel monologues.SpanishDub">
+    <Item Id="LoveActually.Lake Scene.Parallel monologues.SpanishDub" Name="Lake Scene. Parallel monologues. SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.Lake Scene&amp;L3STinstance=LoveActually.Lake Scene.Parallel monologues&amp;L3TTinstance=LoveActually.Lake Scene.Parallel monologues.SpanishDub">
       <Description>Jamie and Aurelia think aloud, in English and in Portuguese, respectively, about the incident in the lake.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -6343,10 +6459,11 @@
           <DateTime Value="2016-10-30T04:52:40" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-30T04:58:46" />
+          <DateTime Value="2016-11-03T04:16:13" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="evaespasa" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="LoveActually" />
@@ -6432,7 +6549,7 @@
         </Facet>
       </Facets>
     </Item>
-    <Item Id="LoveActually.Lake Scene.Parallel monologues.SpanishSub" Name="LoveActually.Lake Scene.Parallel monologues.SpanishSub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.Lake Scene&amp;L3STinstance=LoveActually.Lake Scene.Parallel monologues&amp;L3TTinstance=LoveActually.Lake Scene.Parallel monologues.SpanishSub">
+    <Item Id="LoveActually.Lake Scene.Parallel monologues.SpanishSub" Name="Lake Scene. Parallel monologues. SpanishSub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.Lake Scene&amp;L3STinstance=LoveActually.Lake Scene.Parallel monologues&amp;L3TTinstance=LoveActually.Lake Scene.Parallel monologues.SpanishSub">
       <Description>Jamie and Aurelia think aloud, in English and in Portuguese, respectively, about the incident in the lake.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -6445,10 +6562,11 @@
           <DateTime Value="2016-10-30T05:00:49" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-30T05:05:47" />
+          <DateTime Value="2016-11-03T04:16:28" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="evaespasa" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="LoveActually" />
@@ -6533,7 +6651,7 @@
         </Facet>
       </Facets>
     </Item>
-    <Item Id="LoveActually.Lake Scene.Portuguese.SpanishDub" Name="LoveActually.Lake Scene.Portuguese.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.Lake Scene&amp;L3STinstance=LoveActually.Lake Scene.Portuguese&amp;L3TTinstance=LoveActually.Lake Scene.Portuguese.SpanishDub">
+    <Item Id="LoveActually.Lake Scene.Portuguese.SpanishDub" Name="Lake Scene.Portuguese. SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.Lake Scene&amp;L3STinstance=LoveActually.Lake Scene.Portuguese&amp;L3TTinstance=LoveActually.Lake Scene.Portuguese.SpanishDub">
       <Description>Aurelia expresses anxiety when papers fly.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -6546,11 +6664,12 @@
           <DateTime Value="2016-10-30T10:41:00" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-31T12:12:49" />
+          <DateTime Value="2016-11-03T04:16:42" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="evaespasa" />
           <String Value="Stavroula" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="LoveActually" />
@@ -6639,7 +6758,7 @@
         </Facet>
       </Facets>
     </Item>
-    <Item Id="LoveActually.Lake Scene.Portuguese.SpanishSub" Name="LoveActually - Lake Scene - Aurelia - SpanishSub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.Lake Scene&amp;L3STinstance=LoveActually.Lake Scene.Portuguese&amp;L3TTinstance=LoveActually.Lake Scene.Portuguese.SpanishSub">
+    <Item Id="LoveActually.Lake Scene.Portuguese.SpanishSub" Name="Lake Scene - Aurelia - SpanishSub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.Lake Scene&amp;L3STinstance=LoveActually.Lake Scene.Portuguese&amp;L3TTinstance=LoveActually.Lake Scene.Portuguese.SpanishSub">
       <Description>Aurelia expresses anxiety when papers fly.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -6652,12 +6771,12 @@
           <DateTime Value="2016-06-15T02:43:24" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-30T10:40:02" />
+          <DateTime Value="2016-11-03T04:16:50" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Stavroula" />
-          <String Value="George" />
           <String Value="evaespasa" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="LoveActually" />
@@ -6707,7 +6826,7 @@
         </Facet>
         <Facet Name="L3 functions change">
           <String Value="- Character portrayal" />
-          <String Value="- Plot (twist)" />
+          <String Value="+ Dramatic effect" />
         </Facet>
         <Facet Name="Conversation features for L3-instance change">
           <String Value="- embarassing" />
@@ -7361,7 +7480,7 @@ There is another conversation taking place among women at the kitchen.</Descript
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Spanglish.At the summer place - an interpreter.Man speaks Spanish to Flor and English to Deborah.SpanishSub" Name="Spanglish.At the summer place - an interpreter.Man speaks Spanish to Flor and English to Deborah.SpanishSub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Spanglish&amp;conversation=Spanglish.At the summer place - an interpreter&amp;L3STinstance=Spanglish.At the summer place - an interpreter.Man speaks Spanish to Flor and English to Deborah&amp;L3TTinstance=Spanglish.At the summer place - an interpreter.Man speaks Spanish to Flor and English to Deborah.SpanishSub">
+    <Item Id="Spanglish.At the summer place - an interpreter.Man speaks Spanish to Flor and English to Deborah.SpanishSub" Name="At the summer place - an interpreter. Man speaks Spanish to Flor and English to Deborah.SpanishSub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Spanglish&amp;conversation=Spanglish.At the summer place - an interpreter&amp;L3STinstance=Spanglish.At the summer place - an interpreter.Man speaks Spanish to Flor and English to Deborah&amp;L3TTinstance=Spanglish.At the summer place - an interpreter.Man speaks Spanish to Flor and English to Deborah.SpanishSub">
       <Description>Flor, Deborah and Evelyn are walking in the street. Deborah wants to ask Flor if she would like to move with them to the summer house and live with them, but as they don't speak the same language, DEborah cannot communicate with her until she sees a Hispanic man washinng somebody's car. She asks him if he speaks English and if he could translate for her.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -7382,10 +7501,11 @@ There is another conversation taking place among women at the kitchen.</Descript
           <DateTime Value="2016-10-17T01:07:12" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-18T06:44:18" />
+          <DateTime Value="2016-11-03T03:57:47" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="corrius" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Spanglish" />
@@ -7413,6 +7533,9 @@ There is another conversation taking place among women at the kitchen.</Descript
         </Facet>
         <Facet Name="Film TT Blockbuster">
           <String Value="NO, closer to Art film or niche market" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="43" />
         </Facet>
         <Facet Name="Conversation duration (sec)">
           <String Value="A. 1-20" />
@@ -7465,7 +7588,7 @@ There is another conversation taking place among women at the kitchen.</Descript
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Spanglish.Flor and Cristina at the restaurant.Flor speaking Spanish and Cristina translating Spanish into English.SpanishSub (only dialogue in English)" Name="Spanglish.Flor and Cristina at the restaurant.Flor speaking Spanish and Cristina translating Spanish into English.SpanishSub (only dialogue in English)" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Spanglish&amp;conversation=Spanglish.Flor and Cristina at the restaurant&amp;L3STinstance=Spanglish.Flor and Cristina at the restaurant.Flor speaking Spanish and Cristina translating Spanish into English&amp;L3TTinstance=Spanglish.Flor and Cristina at the restaurant.Flor speaking Spanish and Cristina translating Spanish into English.SpanishSub (only dialogue in English)">
+    <Item Id="Spanglish.Flor and Cristina at the restaurant.Flor speaking Spanish and Cristina translating Spanish into English.SpanishSub (only dialogue in English)" Name="Flor and Cristina at the restaurant. Flor speaking Spanish and Cristina translating Spanish into English.SpanishSub (only dialogue in English)" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Spanglish&amp;conversation=Spanglish.Flor and Cristina at the restaurant&amp;L3STinstance=Spanglish.Flor and Cristina at the restaurant.Flor speaking Spanish and Cristina translating Spanish into English&amp;L3TTinstance=Spanglish.Flor and Cristina at the restaurant.Flor speaking Spanish and Cristina translating Spanish into English.SpanishSub (only dialogue in English)">
       <Description>Flor and her daughter go and have dinner to celebrate that she has found a job. When they enter the restaurant Cristina addresses a waitress to ask for a table. As Flor does not speak any English, when she wants to add or say something she tells Cristina to translate for her.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -7481,10 +7604,11 @@ There is another conversation taking place among women at the kitchen.</Descript
           <DateTime Value="2016-10-17T11:12:45" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-17T03:30:20" />
+          <DateTime Value="2016-11-03T03:58:24" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="corrius" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Spanglish" />
@@ -7568,7 +7692,7 @@ There is another conversation taking place among women at the kitchen.</Descript
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Spanglish.Introduction to the Clasky's family.Deborah and Evelyn speaking English. Monica Speaking Spanish..SpanishSub (only dialogue in English)" Name="Spanglish.Introduction to the Clasky's family.Deborah and Evelyn speaking English. Monica Speaking Spanish..SpanishSub (only dialogue in English)" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Spanglish&amp;conversation=Spanglish.Introduction to the Clasky's family&amp;L3STinstance=Spanglish.Introduction to the Clasky's family.Deborah and Evelyn speaking English. Monica Speaking Spanish.&amp;L3TTinstance=Spanglish.Introduction to the Clasky's family.Deborah and Evelyn speaking English. Monica Speaking Spanish..SpanishSub (only dialogue in English)">
+    <Item Id="Spanglish.Introduction to the Clasky's family.Deborah and Evelyn speaking English. Monica Speaking Spanish..SpanishSub (only dialogue in English)" Name="Introduction to the Clasky's family. Deborah and Evelyn speaking English. Monica Speaking Spanish. SpanishSub (only dialogue in English)" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Spanglish&amp;conversation=Spanglish.Introduction to the Clasky's family&amp;L3STinstance=Spanglish.Introduction to the Clasky's family.Deborah and Evelyn speaking English. Monica Speaking Spanish.&amp;L3TTinstance=Spanglish.Introduction to the Clasky's family.Deborah and Evelyn speaking English. Monica Speaking Spanish..SpanishSub (only dialogue in English)">
       <Description>Flor and her cousin Monica are at the Clasky's house for the first time. Flor is being interviewed by Deborah Clasky. As Flor does not speak English, Monica is trying to translate for her although she does not speak perfect English.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -7590,11 +7714,12 @@ There is another conversation taking place among women at the kitchen.</Descript
           <DateTime Value="2016-10-17T10:45:33" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-29T09:30:49" />
+          <DateTime Value="2016-11-03T03:59:02" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="corrius" />
           <String Value="PatrickZabalbeascoa" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Spanglish" />

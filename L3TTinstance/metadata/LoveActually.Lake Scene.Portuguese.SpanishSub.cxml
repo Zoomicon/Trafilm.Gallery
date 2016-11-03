@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="LoveActually - Lake Scene - Aurelia - SpanishSub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Lake Scene - Aurelia - SpanishSub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -42,7 +42,7 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="LoveActually.Lake Scene.Portuguese.SpanishSub" Name="LoveActually - Lake Scene - Aurelia - SpanishSub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.Lake Scene&amp;L3STinstance=LoveActually.Lake Scene.Portuguese&amp;L3TTinstance=LoveActually.Lake Scene.Portuguese.SpanishSub">
+    <Item Id="LoveActually.Lake Scene.Portuguese.SpanishSub" Name="Lake Scene - Aurelia - SpanishSub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.Lake Scene&amp;L3STinstance=LoveActually.Lake Scene.Portuguese&amp;L3TTinstance=LoveActually.Lake Scene.Portuguese.SpanishSub">
       <Description>Aurelia expresses anxiety when papers fly.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -55,12 +55,12 @@
           <DateTime Value="2016-06-15T02:43:24" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-30T10:40:02" />
+          <DateTime Value="2016-11-03T04:16:50" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Stavroula" />
-          <String Value="George" />
           <String Value="evaespasa" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="LoveActually" />
@@ -110,7 +110,7 @@
         </Facet>
         <Facet Name="L3 functions change">
           <String Value="- Character portrayal" />
-          <String Value="- Plot (twist)" />
+          <String Value="+ Dramatic effect" />
         </Facet>
         <Facet Name="Conversation features for L3-instance change">
           <String Value="- embarassing" />

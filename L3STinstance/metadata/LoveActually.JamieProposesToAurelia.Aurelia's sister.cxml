@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Love Actually - Jamie Proposes To Aurelia - Aurelia's sister" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Jamie proposes to Aurelia - Aurelia's sister" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -30,7 +30,7 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="LoveActually.JamieProposesToAurelia.Aurelia's sister" Name="Love Actually - Jamie Proposes To Aurelia - Aurelia's sister" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia&amp;L3STinstance=LoveActually.JamieProposesToAurelia.Aurelia's sister">
+    <Item Id="LoveActually.JamieProposesToAurelia.Aurelia's sister" Name="Jamie proposes to Aurelia - Aurelia's sister" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia&amp;L3STinstance=LoveActually.JamieProposesToAurelia.Aurelia's sister">
       <Description>Aurelia's sister intervenes in Jamie's proposal (humorous effect)</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -40,11 +40,11 @@
           <DateTime Value="2016-06-15T01:43:22" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-31T01:08:46" />
+          <DateTime Value="2016-11-03T03:50:11" />
         </Facet>
         <Facet Name="Metadata Editors">
-          <String Value="George" />
           <String Value="Stavroula" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="LoveActually" />
