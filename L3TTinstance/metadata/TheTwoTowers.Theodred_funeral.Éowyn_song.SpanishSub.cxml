@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="TheTwoTowers.Theodred_funeral.Éowyn_song.SpanishSub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Theodred funeral. Éowyn song. SpanishSub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -42,7 +42,7 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="TheTwoTowers.Theodred_funeral.Éowyn_song.SpanishSub" Name="TheTwoTowers.Theodred_funeral.Éowyn_song.SpanishSub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Theodred_funeral&amp;L3STinstance=TheTwoTowers.Theodred_funeral.Éowyn_song&amp;L3TTinstance=TheTwoTowers.Theodred_funeral.Éowyn_song.SpanishSub">
+    <Item Id="TheTwoTowers.Theodred_funeral.Éowyn_song.SpanishSub" Name="Theodred funeral. Éowyn song. SpanishSub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Theodred_funeral&amp;L3STinstance=TheTwoTowers.Theodred_funeral.Éowyn_song&amp;L3TTinstance=TheTwoTowers.Theodred_funeral.Éowyn_song.SpanishSub">
       <Description>Theodred is buried following Rohan customs.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -58,10 +58,11 @@
           <DateTime Value="2016-10-25T11:31:40" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-25T11:38:45" />
+          <DateTime Value="2016-11-03T04:59:26" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="miquelpt" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="TheTwoTowers" />
