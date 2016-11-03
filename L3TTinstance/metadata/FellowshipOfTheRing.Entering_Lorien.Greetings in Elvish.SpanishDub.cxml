@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="FellowshipOfTheRing.Entering_Lorien.Greetings in Elvish.SpanishDub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Entering Lorien - Greetings in Elvish. SpanishDub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -42,7 +42,7 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="FellowshipOfTheRing.Entering_Lorien.Greetings in Elvish.SpanishDub" Name="FellowshipOfTheRing.Entering_Lorien.Greetings in Elvish.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Entering_Lorien&amp;L3STinstance=FellowshipOfTheRing.Entering_Lorien.Greetings in Elvish&amp;L3TTinstance=FellowshipOfTheRing.Entering_Lorien.Greetings in Elvish.SpanishDub">
+    <Item Id="FellowshipOfTheRing.Entering_Lorien.Greetings in Elvish.SpanishDub" Name="Entering Lorien - Greetings in Elvish. SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Entering_Lorien&amp;L3STinstance=FellowshipOfTheRing.Entering_Lorien.Greetings in Elvish&amp;L3TTinstance=FellowshipOfTheRing.Entering_Lorien.Greetings in Elvish.SpanishDub">
       <Description>When reaching Lorien, access is denied to the fellowship by the Elven guards.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -58,10 +58,11 @@
           <DateTime Value="2016-11-01T11:43:36" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-11-01T11:53:41" />
+          <DateTime Value="2016-11-03T04:41:10" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="miquelpt" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="FellowshipOfTheRing" />

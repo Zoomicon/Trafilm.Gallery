@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="FellowshipOfTheRing.Elrond_Dagorlad_battle.Rally.SpanishDub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Elrond - Dagorlad battle. Rally. SpanishDub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -42,7 +42,7 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="FellowshipOfTheRing.Elrond_Dagorlad_battle.Rally.SpanishDub" Name="FellowshipOfTheRing.Elrond_Dagorlad_battle.Rally.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Elrond_Dagorlad_battle&amp;L3STinstance=FellowshipOfTheRing.Elrond_Dagorlad_battle.Rally&amp;L3TTinstance=FellowshipOfTheRing.Elrond_Dagorlad_battle.Rally.SpanishDub">
+    <Item Id="FellowshipOfTheRing.Elrond_Dagorlad_battle.Rally.SpanishDub" Name="Elrond - Dagorlad battle. Rally. SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Elrond_Dagorlad_battle&amp;L3STinstance=FellowshipOfTheRing.Elrond_Dagorlad_battle.Rally&amp;L3TTinstance=FellowshipOfTheRing.Elrond_Dagorlad_battle.Rally.SpanishDub">
       <Description>Elrond leads the Last Alliance in the battle of Dagorlad and rallies them in Elvish.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -61,10 +61,11 @@
           <DateTime Value="2016-10-11T04:40:11" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-11T04:47:04" />
+          <DateTime Value="2016-11-03T04:39:13" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="miquelpt" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="FellowshipOfTheRing" />
@@ -89,6 +90,9 @@
         </Facet>
         <Facet Name="Film TT Blockbuster">
           <String Value="YES (top 20)" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="2" />
         </Facet>
         <Facet Name="Conversation duration (sec)">
           <String Value="A. 1-20" />

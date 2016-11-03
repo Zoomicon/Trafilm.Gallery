@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Avatar.Calm down, people.Female Na'vi warning.SpanishDub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Calm down, people. Female Na'vi warning. SpanishDub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -42,7 +42,7 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Avatar.Calm down, people.Female Na'vi warning.SpanishDub" Name="Avatar.Calm down, people.Female Na'vi warning.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Avatar&amp;conversation=Avatar.Calm down, people&amp;L3STinstance=Avatar.Calm down, people.Female Na'vi warning&amp;L3TTinstance=Avatar.Calm down, people.Female Na'vi warning.SpanishDub">
+    <Item Id="Avatar.Calm down, people.Female Na'vi warning.SpanishDub" Name="Calm down, people. Female Na'vi warning. SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Avatar&amp;conversation=Avatar.Calm down, people&amp;L3STinstance=Avatar.Calm down, people.Female Na'vi warning&amp;L3TTinstance=Avatar.Calm down, people.Female Na'vi warning.SpanishDub">
       <Description>Female avater tells her people to calm down</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -58,7 +58,7 @@
           <DateTime Value="2016-10-07T01:07:46" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-08T08:37:49" />
+          <DateTime Value="2016-11-03T04:35:39" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="PatrickZabalbeascoa" />
@@ -93,6 +93,9 @@
         </Facet>
         <Facet Name="Conversation start time (min)">
           <Number Value="43" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="A. 1-20" />
         </Facet>
         <Facet Name="L2 same as L3ST">
           <String Value="No" />
