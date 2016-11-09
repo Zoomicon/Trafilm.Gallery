@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Harry Potter and the Deathly Hallows Part 2.Voldermort finds out Gringott was robbed.Parseltongue.SpanishSub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Voldermort finds out Gringott was robbed. Parseltongue. SpanishSub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -42,7 +42,7 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Harry Potter and the Deathly Hallows Part 2.Voldermort finds out Gringott was robbed.Parseltongue.SpanishSub" Name="Harry Potter and the Deathly Hallows Part 2.Voldermort finds out Gringott was robbed.Parseltongue.SpanishSub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Harry Potter and the Deathly Hallows Part 2&amp;conversation=Harry Potter and the Deathly Hallows Part 2.Voldermort finds out Gringott was robbed&amp;L3STinstance=Harry Potter and the Deathly Hallows Part 2.Voldermort finds out Gringott was robbed.Parseltongue&amp;L3TTinstance=Harry Potter and the Deathly Hallows Part 2.Voldermort finds out Gringott was robbed.Parseltongue.SpanishSub">
+    <Item Id="Harry Potter and the Deathly Hallows Part 2.Voldermort finds out Gringott was robbed.Parseltongue.SpanishSub" Name="Voldermort finds out Gringott was robbed. Parseltongue. SpanishSub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Harry Potter and the Deathly Hallows Part 2&amp;conversation=Harry Potter and the Deathly Hallows Part 2.Voldermort finds out Gringott was robbed&amp;L3STinstance=Harry Potter and the Deathly Hallows Part 2.Voldermort finds out Gringott was robbed.Parseltongue&amp;L3TTinstance=Harry Potter and the Deathly Hallows Part 2.Voldermort finds out Gringott was robbed.Parseltongue.SpanishSub">
       <Description>This film is spoken mostly in English with some characters speaking Parseltongue in some scenes. During the scene where Voldemort finds out Gringott's was robbed, he speaks Parseltongue to his snake Nagini, with on screen subtitles. In the scene where Ron and Hermione go to the chamber of secrets to destroy Helga Hufflepuff's cup, Ron speaks "open" in Parseltongue to get in. Generally only Parselmouths (Voldemort, Harry Potter, Salazar Slytherin, and Marvolo, Morfin, and Merope Gaunt) can speak Parseltongue. Ron Weasley isn't a Parseltongue but he merely muttered the Parseltongue word for "open" which he remembered from Harry speaking it. Ginny Weasley also isn't a Parseltongue but was able to speak it to open the chamber of secrets various times while possessed by Voldemort. Also, Professor Dumbledore can understand (and very possibly, speak) Parseltontgue, such as Goblins' and Mermish languages (IMDB)</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -52,10 +52,11 @@
           <DateTime Value="2016-10-30T03:36:31" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-30T04:00:39" />
+          <DateTime Value="2016-11-03T04:10:34" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Stavroula" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Harry Potter and the Deathly Hallows Part 2" />

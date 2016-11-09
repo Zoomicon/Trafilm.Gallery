@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Um filme falado.The captain dinner-Captain-speaking one language.Speaking English" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="The captain dinner - Captain-speaking one language. Speaking English" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -30,7 +30,7 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Um filme falado.The captain dinner-Captain-speaking one language.Speaking English" Name="Um filme falado.The captain dinner-Captain-speaking one language.Speaking English" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Um filme falado&amp;conversation=Um filme falado.The captain dinner-Captain-speaking one language&amp;L3STinstance=Um filme falado.The captain dinner-Captain-speaking one language.Speaking English">
+    <Item Id="Um filme falado.The captain dinner-Captain-speaking one language.Speaking English" Name="The captain dinner - Captain-speaking one language. Speaking English" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Um filme falado&amp;conversation=Um filme falado.The captain dinner-Captain-speaking one language&amp;L3STinstance=Um filme falado.The captain dinner-Captain-speaking one language.Speaking English">
       <Description>The captain is speaking in English and he wishes we could all speak one languge.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -48,10 +48,11 @@
           <DateTime Value="2016-10-17T05:24:12" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-17T05:32:15" />
+          <DateTime Value="2016-11-03T04:24:46" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="corrius" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Um filme falado" />
@@ -96,7 +97,7 @@
           <String Value="Non-diegetic translation" />
         </Facet>
         <Facet Name="L3TT-instances: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Pulp Fiction.Too many foreigners.They can't speak English.demasiados extranjeros" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Too many foreigners. They can't speak English. demasiados extranjeros" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -42,7 +42,7 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Pulp Fiction.Too many foreigners.They can't speak English.demasiados extranjeros" Name="Pulp Fiction.Too many foreigners.They can't speak English.demasiados extranjeros" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Pulp Fiction&amp;conversation=Pulp Fiction.Too many foreigners&amp;L3STinstance=Pulp Fiction.Too many foreigners.They can't speak English&amp;L3TTinstance=Pulp Fiction.Too many foreigners.They can't speak English.demasiados extranjeros">
+    <Item Id="Pulp Fiction.Too many foreigners.They can't speak English.demasiados extranjeros" Name="Too many foreigners. They can't speak English. demasiados extranjeros" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Pulp Fiction&amp;conversation=Pulp Fiction.Too many foreigners&amp;L3STinstance=Pulp Fiction.Too many foreigners.They can't speak English&amp;L3TTinstance=Pulp Fiction.Too many foreigners.They can't speak English.demasiados extranjeros">
       <Description>Two characters planning a robbery</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -62,10 +62,11 @@
           <DateTime Value="2016-10-26T04:48:07" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-26T05:47:06" />
+          <DateTime Value="2016-11-03T05:05:29" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="PatrickZabalbeascoa" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Pulp Fiction" />

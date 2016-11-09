@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Collection SchemaVersion="1.0" Name="Entering Lorien - Aragorn convincing Haldir. SpanishSub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+  <FacetCategories>
+    <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Conversation Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST-instance Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Film Title TT" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L2 language" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L2 mode" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Distribution countries (TT)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Year TT released" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Film TT Blockbuster" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Conversation start time (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Conversation duration (sec)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="L2 same as L3ST" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="L3ST conveyed as L3TT" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="L3TT language type" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3TT language" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3TT constructed based on" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3TT meant to be understood" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3TT message required for understanding" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3TT meaning decipherable" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Quality of L3TT speaker performance" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="L3TT mode, written/spoken, diegetic" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3TT merely represented" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3TT merely represented orally" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3TT represented: visual" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3TT functions" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Conversation features for L3TT-instance" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3TT sources" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3 language type change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3 mode change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3 functions change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Conversation features for L3-instance change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3 sources change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Tags" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+  </FacetCategories>
+  <Items xmlns="">
+    <Item Id="FellowshipOfTheRing.Entering_Lorien.Aragorn convincing Haldir.SpanishSub" Name="Entering Lorien - Aragorn convincing Haldir. SpanishSub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Entering_Lorien&amp;L3STinstance=FellowshipOfTheRing.Entering_Lorien.Aragorn convincing Haldir&amp;L3TTinstance=FellowshipOfTheRing.Entering_Lorien.Aragorn convincing Haldir.SpanishSub">
+      <Description>When reaching Lorien, access is denied to the fellowship by the Elven guards.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="FellowshipOfTheRing.Entering_Lorien.Aragorn convincing Haldir.SpanishSub" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Haldir: You bring great evil with you. (SUB: Haldir: Sois portadores de un gran peligro.) You can go no further. (SUB: No podéis continuar.)&#xD;&#xA;&#xD;&#xA;Aragorn: Boe ammen veriad lîn. Andelu i ven! Merin le telim. Henio, aníron boe ammen i dulu lîn! Andelu i ven. (not subtitled)" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-11-01T12:18:01" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-11-03T04:40:03" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="miquelpt" />
+          <String Value="George" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="FellowshipOfTheRing" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="FellowshipOfTheRing.Entering_Lorien" />
+        </Facet>
+        <Facet Name="L3ST-instance Reference Id">
+          <String Value="FellowshipOfTheRing.Entering_Lorien.Aragorn convincing Haldir" />
+        </Facet>
+        <Facet Name="Film Title TT">
+          <String Value="La comunidad del Anillo" />
+        </Facet>
+        <Facet Name="L2 language">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L2 mode">
+          <String Value="Subtitled" />
+        </Facet>
+        <Facet Name="Year TT released">
+          <Number Value="2001" />
+        </Facet>
+        <Facet Name="Film TT Blockbuster">
+          <String Value="YES (top 20)" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="144" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="B. 21-40" />
+        </Facet>
+        <Facet Name="L2 same as L3ST">
+          <String Value="No" />
+        </Facet>
+        <Facet Name="L3ST conveyed as L3TT">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT language type">
+          <String Value="Constructed (fictional)" />
+        </Facet>
+        <Facet Name="L3TT language">
+          <String Value="Elvish" />
+        </Facet>
+        <Facet Name="L3TT constructed based on">
+          <String Value="“from scratch”" />
+        </Facet>
+        <Facet Name="L3TT meant to be understood">
+          <String Value="YES, the gist, the implications of what is happening" />
+        </Facet>
+        <Facet Name="L3TT message required for understanding">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT meaning decipherable">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="Quality of L3TT speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3TT mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3TT merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
+        <Facet Name="L3TT functions">
+          <String Value="Dramatic effect" />
+        </Facet>
+        <Facet Name="Conversation features for L3TT-instance">
+          <String Value="persuasion" />
+        </Facet>
+        <Facet Name="L3TT sources">
+          <String Value="Oral L3: single source" />
+        </Facet>
+        <Facet Name="L3 language type change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 mode change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 functions change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="Conversation features for L3-instance change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 sources change">
+          <String Value="None" />
+        </Facet>
+      </Facets>
+    </Item>
+  </Items>
+</Collection>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Love Actually - Jamie Proposes To Aurelia - Jamie in Portuguese" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Jamie proposes to Aurelia - Jamie in Portuguese" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -30,25 +30,28 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="LoveActually.JamieProposesToAurelia.Jamie in Portuguese" Name="Love Actually - Jamie Proposes To Aurelia - Jamie in Portuguese" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia&amp;L3STinstance=LoveActually.JamieProposesToAurelia.Jamie in Portuguese">
-      <Description>Jamie proposes in Portuguese</Description>
+    <Item Id="LoveActually.JamieProposesToAurelia.Jamie in Portuguese" Name="Jamie proposes to Aurelia - Jamie in Portuguese" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia&amp;L3STinstance=LoveActually.JamieProposesToAurelia.Jamie in Portuguese">
+      <Description>Jamie proposes to Aurelia trying to speak in Portuguese but with many mistakes. It is clearly an effort to approach her by speaking her language. Until recently the story was based on the fact that they could not communicate due to language barriers (often a cause for comic effect)</Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="LoveActually.JamieProposesToAurelia.Jamie in Portuguese" />
         </Facet>
         <Facet Name="Transcription">
-          <String Value="Jamie: Beautiful Aurelia... I've come here with a view to asking you...to marriage me. I know I seems an insane person because I hardly knows you but sometimes things are so transparency, they don't need evidential proof. And I will inhabit here, or you can inhabit with me in England.&#xD;&#xA;Aurelia'sister: Definitely go for England, girl. You'll meet Prince William -then you can marry him instead.&#xD;&#xA;Jamie: Of course I don't expecting you　to be as foolish as me, and of course I prediction you say no.... but it's Christmas　and I just wanted to...check." />
+          <String Value="Bonita Aurelia. Eu ver aqui para te pedir para casar conmigo. E se que… que ser loco porque mal te conheco. Ma as veces as coisas son muito claras para mi. Por… Non… non preciso di prova. Eu vive aqui o tu viver na Inglaterra conmigo. &#xD;&#xA;[Aurelias’ sister interrupts in Portuguese with English subtitles]&#xD;&#xA;E claro que io saber que tu non… nao es tan loca com eu. E claro que eu pensar que tu diz nao. Mas e Natal, e… so… queria saber&#xD;&#xA;&#xD;&#xA;Subtitles are provided in English: &#xD;&#xA;Beautiful Aurelia... &#xD;&#xA;I've come here with a view to asking you...&#xD;&#xA;to marriage me. &#xD;&#xA;I know I seems an insane person because I hardly knows you &#xD;&#xA;but sometimes things are so transparency, &#xD;&#xA;they don't need evidential proof. &#xD;&#xA;And I will inhabit here, &#xD;&#xA;or you can inhabit with me in England.&#xD;&#xA;Aurelia'sister: Definitely go for England, girl.&#xD;&#xA;You'll meet Prince William -then you can marry him instead.&#xD;&#xA;Jamie: Of course I don't expecting you　to be as foolish as me, &#xD;&#xA;and of course I prediction you say no.... &#xD;&#xA;but it's Christmas　and I just wanted to...check." />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="Jamie speaks in defective Portuguese, a mixture of latin languages." />
         </Facet>
         <Facet Name="Info created">
           <DateTime Value="2016-06-15T01:37:59" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-30T08:29:41" />
+          <DateTime Value="2016-11-03T03:49:58" />
         </Facet>
         <Facet Name="Metadata Editors">
+          <String Value="evaespasa" />
           <String Value="Stavroula" />
           <String Value="George" />
-          <String Value="evaespasa" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="LoveActually" />
@@ -87,20 +90,22 @@
           <String Value="Oral diegetic on-screen" />
           <String Value="Written diegetic" />
         </Facet>
+        <Facet Name="L3ST merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
         <Facet Name="L3ST functions">
           <String Value="Character portrayal" />
           <String Value="Plot (twist)" />
-          <String Value="Dramatic effect" />
         </Facet>
         <Facet Name="Conversation features for L3ST-instance">
-          <String Value="debate" />
+          <String Value="courtship" />
           <String Value="monologue" />
         </Facet>
         <Facet Name="L3ST sources">
-          <String Value="Written &amp; oral L3" />
+          <String Value="Oral L3: single source" />
         </Facet>
         <Facet Name="L3TT-instances: count">
-          <Number Value="0" />
+          <Number Value="2" />
         </Facet>
       </Facets>
     </Item>

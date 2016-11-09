@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Love Actually - Jamie Proposes To Aurelia - Aurelia's sister" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Jamie proposes to Aurelia - Aurelia's sister" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Conversation Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Conversation start time (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
-    <FacetCategory Name="Conversation duration (sec)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Conversation duration (sec)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Main (L1) language" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3ST language type" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3ST language" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -19,6 +19,7 @@
     <FacetCategory Name="L3ST merely represented orally" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3ST represented: visual" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3ST functions" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Conversation features for L3ST-instance" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3ST sources" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3TT-instances: count" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -29,23 +30,17 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="LoveActually.JamieProposesToAurelia.Aurelia's sister" Name="Love Actually - Jamie Proposes To Aurelia - Aurelia's sister" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia&amp;L3STinstance=LoveActually.JamieProposesToAurelia.Aurelia's sister">
+    <Item Id="LoveActually.JamieProposesToAurelia.Aurelia's sister" Name="Jamie proposes to Aurelia - Aurelia's sister" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia&amp;L3STinstance=LoveActually.JamieProposesToAurelia.Aurelia's sister">
       <Description>Aurelia's sister intervenes in Jamie's proposal (humorous effect)</Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="LoveActually.JamieProposesToAurelia.Aurelia's sister" />
         </Facet>
-        <Facet Name="Transcription">
-          <String Value="Aurelia'sister: Definitely go for England, girl. You'll meet Prince William -then you can marry him instead.&#xD;&#xA;Jamie: Of course I don't expecting you　to be as foolish as me, and of course I prediction you say no.... but it's Christmas　and I just wanted to...check.&#xD;&#xA;Aurelia'sister: Oh, God - say yes, you skinny moron." />
-        </Facet>
-        <Facet Name="Tags">
-          <String Value="Comic effect" />
-        </Facet>
         <Facet Name="Info created">
           <DateTime Value="2016-06-15T01:43:22" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-09-04T09:17:46" />
+          <DateTime Value="2016-11-03T03:50:11" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Stavroula" />
@@ -57,6 +52,12 @@
         <Facet Name="Conversation Reference Id">
           <String Value="LoveActually.JamieProposesToAurelia" />
         </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="118" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="I. 161-180" />
+        </Facet>
         <Facet Name="Main (L1) language">
           <String Value="English" />
         </Facet>
@@ -67,23 +68,29 @@
           <String Value="Portuguese" />
         </Facet>
         <Facet Name="L3ST meant to be understood">
-          <String Value="NO" />
+          <String Value="YES, (almost) completely" />
         </Facet>
         <Facet Name="L3ST message required for understanding">
           <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
         </Facet>
         <Facet Name="Quality of L3ST speaker performance">
           <String Value="native or proficient" />
         </Facet>
         <Facet Name="L3ST mode, written/spoken, diegetic">
           <String Value="Oral diegetic on-screen" />
-          <String Value="Written diegetic" />
+        </Facet>
+        <Facet Name="L3ST merely represented">
+          <String Value="NO / Not applicable" />
         </Facet>
         <Facet Name="L3ST functions">
+          <String Value="Character portrayal" />
           <String Value="Comedy / humour" />
         </Facet>
         <Facet Name="L3ST sources">
-          <String Value="Written &amp; oral L3" />
+          <String Value="Non-diegetic translation" />
         </Facet>
         <Facet Name="L3TT-instances: count">
           <Number Value="1" />

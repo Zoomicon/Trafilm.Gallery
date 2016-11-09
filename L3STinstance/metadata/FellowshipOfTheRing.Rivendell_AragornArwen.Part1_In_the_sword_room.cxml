@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Rivendell Aragorn-Arwen - Part1, In the sword room" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Conversation Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Conversation start time (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
-    <FacetCategory Name="Conversation duration (sec)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Conversation duration (sec)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Main (L1) language" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3ST language type" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3ST language" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -30,7 +30,7 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room" Name="FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Rivendell_AragornArwen&amp;L3STinstance=FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room">
+    <Item Id="FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room" Name="Rivendell Aragorn-Arwen - Part1, In the sword room" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Rivendell_AragornArwen&amp;L3STinstance=FellowshipOfTheRing.Rivendell_AragornArwen.Part1_In_the_sword_room">
       <Description>This instance is uttered in the sword room in Rivendell. Arwen speaks aloud Aragorn's inner doubts and raises his spirits by combining both English and Elvish.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -50,11 +50,11 @@
           <DateTime Value="2016-06-15T09:05:58" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-01T03:43:15" />
+          <DateTime Value="2016-11-03T03:44:21" />
         </Facet>
         <Facet Name="Metadata Editors">
-          <String Value="George" />
           <String Value="miquelpt" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="FellowshipOfTheRing" />
@@ -64,6 +64,9 @@
         </Facet>
         <Facet Name="Conversation start time (min)">
           <Number Value="91" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="F. 101-120" />
         </Facet>
         <Facet Name="Main (L1) language">
           <String Value="English" />
@@ -96,7 +99,7 @@
           <String Value="NO / Not applicable" />
         </Facet>
         <Facet Name="L3ST functions">
-          <String Value="Character portrayal" />       
+          <String Value="Character portrayal" />
           <String Value="Stereotype" />
         </Facet>
         <Facet Name="Conversation features for L3ST-instance">

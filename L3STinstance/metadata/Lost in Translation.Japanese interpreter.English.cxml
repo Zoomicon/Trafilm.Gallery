@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Collection SchemaVersion="1.0" Name="Japanese interpreter" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+  <FacetCategories>
+    <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Conversation Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Conversation start time (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Conversation duration (sec)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Main (L1) language" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST language type" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST language" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST constructed based on" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST meant to be understood" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST message required for understanding" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST meaning decipherable" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Quality of L3ST speaker performance" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="L3ST mode, written/spoken, diegetic" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST merely represented" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST merely represented orally" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST represented: visual" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST functions" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Conversation features for L3ST-instance" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST sources" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3TT-instances: count" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Tags" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+  </FacetCategories>
+  <Items xmlns="">
+    <Item Id="Lost in Translation.Japanese interpreter.English" Name="Japanese interpreter" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Lost in Translation&amp;conversation=Lost in Translation.Japanese interpreter&amp;L3STinstance=Lost in Translation.Japanese interpreter.English">
+      <Description>Bob receives instructions for the recording of a commercial through a Japanese interpreter (ms. Kawasaki). He verbalizes suspicion about the interpreting, much shorter than the director's emphatic instructions in Japanese.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Lost in Translation.Japanese interpreter.English" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="(DIRECTOR speaks for ca.35 seconds in Japanese. He mentions “Suntory Time” and “Kanpai” (cheers).&#xD;&#xA;INTERPRETER (ms. Kawasaki)&#xD;&#xA;He want you to turn, look in camera ok?&#xD;&#xA;BOB&#xD;&#xA;That's all he said?&#xD;&#xA;INTERPRETER&#xD;&#xA;Yes, turn to camera.&#xD;&#xA;BOB&#xD;&#xA;All right, does he want me to… to… turn from the right, or turn from the left?&#xD;&#xA;(INTERPRETER speaks for ca. 10 seconds in Japanese.)&#xD;&#xA;(DIRECTOR speaks for ca. 10 seconds in Japanese.)&#xD;&#xA;DIRECTOR&#xD;&#xA;Passionate. Camera. &#xD;&#xA;INTERPRETER&#xD;&#xA;Right side. And, uh,  with intensity, ok?&#xD;&#xA;BOB&#xD;&#xA;Is that everything? I mean, it seemed like he was saying quite a bit more than that.&#xD;&#xA;(DIRECTOR speaks for ca. 9 seconds in Japanese.)&#xD;&#xA;DIRECTOR Gentry (continues in Japanese). Passion.&#xD;&#xA;INTERPRETER&#xD;&#xA;Like an old friend, and into the camera.&#xD;&#xA;BOB Ok.&#xD;&#xA;DIRECTOR&#xD;&#xA;Suntory Time! Ok?&#xD;&#xA;BOB &#xD;&#xA;Ok.&#xD;&#xA;DIRECTOR&#xD;&#xA;Hey. Come on?&#xD;&#xA;CREW MEMBERS&#xD;&#xA;Come on. Come on. Come on.&#xD;&#xA;(DIRECTOR shouts instructions in Japanese for 1-2 seconds)&#xD;&#xA;BOB&#xD;&#xA;For relaxing times, make it Suntory Time.&#xD;&#xA;DIRECTOR&#xD;&#xA;Cut-o! Cut-o! Cut-o! Cut-o! Cut-o! Cut-o! (Continues in Japanese for 9 seconds)&#xD;&#xA;INTERPRETER&#xD;&#xA;Could you do it slower, and with more intensity?&#xD;&#xA;DIRECTOR&#xD;&#xA;Suntory Time.&#xD;&#xA;DIRECTOR&#xD;&#xA;Come on&#xD;&#xA;CREW MEMBERS&#xD;&#xA;Come on. Come on.&#xD;&#xA;DIRECTOR&#xD;&#xA;(Action?,  in Japanese)&#xD;&#xA;BOB&#xD;&#xA;For relaxing times, make it Suntory Time.&#xD;&#xA;DIRECTOR&#xD;&#xA;Cut-o! Cut-o! Cut-o! Cut-o!&#xD;&#xA;" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="interpreting" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="imdb trivia provides the following translation for the director's instructions in Japanese:&#xD;&#xA;&#xD;&#xA;Director: [in Japanese] Mr. Bob-san, you are relaxing in your study. On the table is a bottle of Suntory whiskey. Got it? Look slowly, with feeling, at the camera, and say it gently - say it as if you were speaking to an old friend. Just like Bogie in Casablanca, &quot;Here's looking at you, kid&quot; - Suntory time.&#xD;&#xA;&#xD;&#xA;Director: [to Bob, in Japanese] Listen, listen. This isn't just about whiskey. Understand? Imagine you're talking to an old friend. Gently. The emotions bubble up from the bottom of your heart. And don't forget, psych yourself up!&#xD;&#xA;&#xD;&#xA;Director: [in Japanese] Got it? You *love* whiskey. It's *Suntory* time. OK?&#xD;&#xA;&#xD;&#xA;http://www.imdb.com/title/tt0335266/trivia?tab=qt&amp;ref_=tt_trv_qu&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;Director: [in Japanese] What difference does it make! Makes no difference! Don't have time for that! Got it, Bob-san? Just psych yourself up, and quick! Look straight at the camera. At the camera. And slowly. With passion. Straight at the camera. And in your eyes there's... passion. Got it?&#xD;&#xA;&#xD;&#xA;" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-11-01T10:18:15" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-11-01T12:45:34" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="evaespasa" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Lost in Translation" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Lost in Translation.Japanese interpreter" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="I. 161-180" />
+        </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L3ST language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST language">
+          <String Value="Japanese" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3ST speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3ST mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3ST merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
+        <Facet Name="L3ST functions">
+          <String Value="Theme" />
+        </Facet>
+        <Facet Name="Conversation features for L3ST-instance">
+          <String Value="instruction / training" />
+        </Facet>
+        <Facet Name="L3ST sources">
+          <String Value="Rephrase interlingually: different sources" />
+        </Facet>
+        <Facet Name="L3TT-instances: count">
+          <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+  </Items>
+</Collection>

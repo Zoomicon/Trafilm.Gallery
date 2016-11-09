@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="FellowshipOfTheRing.ElrondCouncil_Gandalf.Gandalf_speaks_Mordor_language.SpanishDub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Elrond Council - Gandalf. Gandalf speaks Mordor language. SpanishDub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -42,7 +42,7 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="FellowshipOfTheRing.ElrondCouncil_Gandalf.Gandalf_speaks_Mordor_language.SpanishDub" Name="FellowshipOfTheRing.ElrondCouncil_Gandalf.Gandalf_speaks_Mordor_language.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.ElrondCouncil_Gandalf&amp;L3STinstance=FellowshipOfTheRing.ElrondCouncil_Gandalf.Gandalf_speaks_Mordor_language&amp;L3TTinstance=FellowshipOfTheRing.ElrondCouncil_Gandalf.Gandalf_speaks_Mordor_language.SpanishDub">
+    <Item Id="FellowshipOfTheRing.ElrondCouncil_Gandalf.Gandalf_speaks_Mordor_language.SpanishDub" Name="Elrond Council - Gandalf. Gandalf speaks Mordor language. SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.ElrondCouncil_Gandalf&amp;L3STinstance=FellowshipOfTheRing.ElrondCouncil_Gandalf.Gandalf_speaks_Mordor_language&amp;L3TTinstance=FellowshipOfTheRing.ElrondCouncil_Gandalf.Gandalf_speaks_Mordor_language.SpanishDub">
       <Description>During the Council of Elrond, Gandalf utters the Mordor language words inscribed in the Ring, thus provoking a turmoil in the room.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -59,10 +59,11 @@
           <DateTime Value="2016-10-30T04:21:59" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-30T04:28:32" />
+          <DateTime Value="2016-11-03T04:37:35" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="miquelpt" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="FellowshipOfTheRing" />

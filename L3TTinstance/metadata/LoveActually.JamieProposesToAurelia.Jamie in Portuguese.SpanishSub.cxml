@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="LoveActually.JamieProposesToAurelia.Jamie in Portuguese.SpanishSub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Jamie proposes to Aurelia. Jamie in Portuguese. SpanishSub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -42,8 +42,8 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="LoveActually.JamieProposesToAurelia.Jamie in Portuguese.SpanishSub" Name="LoveActually.JamieProposesToAurelia.Jamie in Portuguese.SpanishSub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia&amp;L3STinstance=LoveActually.JamieProposesToAurelia.Jamie in Portuguese&amp;L3TTinstance=LoveActually.JamieProposesToAurelia.Jamie in Portuguese.SpanishSub">
-      <Description>Jamie proposes in Portuguese</Description>
+    <Item Id="LoveActually.JamieProposesToAurelia.Jamie in Portuguese.SpanishSub" Name="Jamie proposes to Aurelia. Jamie in Portuguese. SpanishSub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia&amp;L3STinstance=LoveActually.JamieProposesToAurelia.Jamie in Portuguese&amp;L3TTinstance=LoveActually.JamieProposesToAurelia.Jamie in Portuguese.SpanishSub">
+      <Description>Jamie proposes to Aurelia trying to speak in Portuguese but with many mistakes. It is clearly an effort to approach her by speaking her language. Until recently the story was based on the fact that they could not communicate due to language barriers (often a cause for comic effect)</Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="LoveActually.JamieProposesToAurelia.Jamie in Portuguese.SpanishSub" />
@@ -55,10 +55,12 @@
           <DateTime Value="2016-10-30T09:00:27" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-30T09:39:50" />
+          <DateTime Value="2016-11-03T04:15:47" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="evaespasa" />
+          <String Value="Stavroula" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="LoveActually" />
@@ -100,13 +102,10 @@
           <String Value="Yes" />
         </Facet>
         <Facet Name="L3TT language type">
-          <String Value="Constructed (fictional)" />
+          <String Value="L-main variety (e.g. dialect, sociolect, idiolect, slang)" />
         </Facet>
         <Facet Name="L3TT language">
           <String Value="incorrect Spanish" />
-        </Facet>
-        <Facet Name="L3TT constructed based on">
-          <String Value="Spanish" />
         </Facet>
         <Facet Name="L3TT meant to be understood">
           <String Value="YES, (almost) completely" />
@@ -123,14 +122,16 @@
         <Facet Name="L3TT mode, written/spoken, diegetic">
           <String Value="Written non-diegetic" />
         </Facet>
+        <Facet Name="L3TT merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
         <Facet Name="L3TT functions">
           <String Value="Character portrayal" />
           <String Value="Plot (twist)" />
           <String Value="Dramatic effect" />
         </Facet>
         <Facet Name="Conversation features for L3TT-instance">
-          <String Value="announcement" />
-          <String Value="debate" />
+          <String Value="courtship" />
           <String Value="monologue" />
         </Facet>
         <Facet Name="L3TT sources">
@@ -138,7 +139,7 @@
         </Facet>
         <Facet Name="L3 language type change">
           <String Value="- Real" />
-          <String Value="+ Constructed (fictional)" />
+          <String Value="+ L-main variety (e.g. dialect, sociolect, idiolect, slang)" />
         </Facet>
         <Facet Name="L3 mode change">
           <String Value="- Oral diegetic on-screen" />
@@ -146,13 +147,13 @@
           <String Value="+ Written non-diegetic" />
         </Facet>
         <Facet Name="L3 functions change">
-          <String Value="None" />
+          <String Value="+ Dramatic effect" />
         </Facet>
         <Facet Name="Conversation features for L3-instance change">
-          <String Value="+ announcement" />
+          <String Value="None" />
         </Facet>
         <Facet Name="L3 sources change">
-          <String Value="- Written &amp; oral L3" />
+          <String Value="- Oral L3: single source" />
           <String Value="+ Non-diegetic translation" />
         </Facet>
       </Facets>

@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Collection SchemaVersion="1.0" Name="Lip my stockings - Premium Fantasy - SpanishDub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+  <FacetCategories>
+    <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Conversation Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST-instance Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Film Title TT" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L2 language" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L2 mode" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Distribution countries (TT)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Year TT released" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Film TT Blockbuster" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Conversation start time (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Conversation duration (sec)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="L2 same as L3ST" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="L3ST conveyed as L3TT" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="L3TT language type" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3TT language" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3TT constructed based on" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3TT meant to be understood" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3TT message required for understanding" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3TT meaning decipherable" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Quality of L3TT speaker performance" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="L3TT mode, written/spoken, diegetic" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3TT merely represented" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3TT merely represented orally" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3TT represented: visual" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3TT functions" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Conversation features for L3TT-instance" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3TT sources" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3 language type change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3 mode change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3 functions change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Conversation features for L3-instance change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3 sources change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Tags" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+  </FacetCategories>
+  <Items xmlns="">
+    <Item Id="Lost in Translation.Lip my stockings.Premium Fantasy.SpanishDub" Name="Lip my stockings - Premium Fantasy - SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Lost in Translation&amp;conversation=Lost in Translation.Lip my stockings&amp;L3STinstance=Lost in Translation.Lip my stockings.Premium Fantasy&amp;L3TTinstance=Lost in Translation.Lip my stockings.Premium Fantasy.SpanishDub">
+      <Description>Bob is alone in his hotel room, watching TV, and receives the visit of a woman.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Lost in Translation.Lip my stockings.Premium Fantasy.SpanishDub" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Bob lies in bed. He flips through TV channels from the remote control. He passes a Japanese game show, to an 80s Cannon Ball run-type movie with him in it dubbed into Japanese. He turns it off as he hears a knock at the door. &#xD;&#xA;(Identical sountrack for this in source text and in Spanish dubbed version)&#xD;&#xA;&#xD;&#xA;MUJER&#xD;&#xA;¿Sr. Harris?&#xD;&#xA;BOB&#xD;&#xA;¿Sí?&#xD;&#xA;MUJER&#xD;&#xA;Sr. Kazu me envía.&#xD;&#xA;BOB&#xD;&#xA;Oh&#xD;&#xA;MUJER&#xD;&#xA;¿Puedo entrar?  Gracias. ¿Quiere un masaje?&#xD;&#xA;BOB&#xD;&#xA;Creo que no, no, no me gustan los masajes.&#xD;&#xA;MUJER&#xD;&#xA;Sr. Kazu manda premio fantasía.&#xD;&#xA;MUJER&#xD;&#xA;Mis medias. &quot;Romepa&quot;. &quot;Romepa&quot; mis medias.&#xD;&#xA;Sí, por favor, &quot;romepa&quot;. &#xD;&#xA;BOB&#xD;&#xA;¿Qué?&#xD;&#xA;MUJER&#xD;&#xA;&quot;Romepa.&quot; ¡He! ¡&quot;Romepa&quot; medias!&#xD;&#xA;BOB&#xD;&#xA;¡He! ¿&quot;Romepa&quot; qué?&#xD;&#xA;MUJER&#xD;&#xA;&quot;Romepa&quot;, así. &quot;Romepa&quot;, así.&#xD;&#xA;BOB&#xD;&#xA;¿Que las rompa?&#xD;&#xA;MUJER&#xD;&#xA;“Romepa”, eso.&#xD;&#xA;BOB&#xD;&#xA;¿Quiere que le rompa las medias?  &#xD;&#xA;MUJER&#xD;&#xA;Sí, “romepa” medias, por favor.&#xD;&#xA;BOB&#xD;&#xA;¿Qué rompa sus medias? ¿Quiere que rompa sus medias?&#xD;&#xA;MUJER&#xD;&#xA;Sí, por favor, por favor, por favor.&#xD;&#xA;BOB&#xD;&#xA;Vale, bien. Le romperé las medias. Y usted le dice al Sr. Kazu que ha sido genial.&#xD;&#xA;MUJER&#xD;&#xA;¡Oh, no¡ ¡Oh, Sr. Harris! ¡Dios mío, no me toque! ¡Sr. Harris! No me toque! ¡&quot;Romepa&quot; medias! ¡No, Sr. Harris! ¡Socorro! ¡Socorro!&#xD;&#xA;BOB&#xD;&#xA;Está bien.&#xD;&#xA;&#xD;&#xA;MUJER&#xD;&#xA;¡Por favor, Sr. Harris!&#xD;&#xA;BOB&#xD;&#xA;Tenga cuidado.&#xD;&#xA;MUJER&#xD;&#xA;¡Socorro! ¡Socorro!&#xD;&#xA;BOB&#xD;&#xA;Vamos, arriba, vamos&#xD;&#xA;MUJER&#xD;&#xA;¡Por favor! ¡Suélteme, Sr. Harris!&#xD;&#xA;BOB&#xD;&#xA;Vamos.&#xD;&#xA;MUJER&#xD;&#xA;Oh, no!&#xD;&#xA;BOB&#xD;&#xA;¡Levántese!&#xD;&#xA;MUJER&#xD;&#xA;Suélteme. ¡Oh!&#xD;&#xA;BOB&#xD;&#xA;¡Joder! &#xD;&#xA;MUJER&#xD;&#xA;¡Suélteme, por favor!&#xD;&#xA;BOB&#xD;&#xA;Sí, será un placer.&#xD;&#xA;MUJER&#xD;&#xA;No, Sr. Bob Harris, suélteme.¡No, no! Oh, no!¡Por favor!&#xD;&#xA;BOB &#xD;&#xA;Ya la suelto.&#xD;&#xA;MUJER&#xD;&#xA;¡Por favor, suélteme, suélteme, suélteme!&#xD;&#xA;" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-11-01T01:06:06" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-11-03T03:47:44" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="evaespasa" />
+          <String Value="George" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Lost in Translation" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Lost in Translation.Lip my stockings" />
+        </Facet>
+        <Facet Name="L3ST-instance Reference Id">
+          <String Value="Lost in Translation.Lip my stockings.Premium Fantasy" />
+        </Facet>
+        <Facet Name="Film Title TT">
+          <String Value="Lost in Translation" />
+        </Facet>
+        <Facet Name="L2 language">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L2 mode">
+          <String Value="Dubbed" />
+        </Facet>
+        <Facet Name="Distribution countries (TT)">
+          <String Value="Spain" />
+        </Facet>
+        <Facet Name="Film TT Blockbuster">
+          <String Value="YES (top 20)" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="16" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="F. 101-120" />
+        </Facet>
+        <Facet Name="L2 same as L3ST">
+          <String Value="No" />
+        </Facet>
+        <Facet Name="L3ST conveyed as L3TT">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT language type">
+          <String Value="L-main variety (e.g. dialect, sociolect, idiolect, slang)" />
+        </Facet>
+        <Facet Name="L3TT language">
+          <String Value="Spanish with Japanese accent" />
+        </Facet>
+        <Facet Name="L3TT meant to be understood">
+          <String Value="YES, (almost) completely" />
+        </Facet>
+        <Facet Name="L3TT message required for understanding">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3TT speaker performance">
+          <String Value="clearly non-native or deficient" />
+        </Facet>
+        <Facet Name="L3TT mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3TT merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
+        <Facet Name="L3TT functions">
+          <String Value="Stereotype" />
+          <String Value="Comedy / humour" />
+        </Facet>
+        <Facet Name="Conversation features for L3TT-instance">
+          <String Value="sex" />
+        </Facet>
+        <Facet Name="L3TT sources">
+          <String Value="Respond interlingually: different sources " />
+        </Facet>
+        <Facet Name="L3 language type change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 mode change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 functions change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="Conversation features for L3-instance change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 sources change">
+          <String Value="None" />
+        </Facet>
+      </Facets>
+    </Item>
+  </Items>
+</Collection>

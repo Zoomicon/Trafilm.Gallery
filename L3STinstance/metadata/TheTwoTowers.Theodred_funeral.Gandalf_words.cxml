@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="TheTwoTowers.Theodred_funeral" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Theodred funeral" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -30,7 +30,7 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="TheTwoTowers.Theodred_funeral.Gandalf_words" Name="TheTwoTowers.Theodred_funeral" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Theodred_funeral&amp;L3STinstance=TheTwoTowers.Theodred_funeral.Gandalf_words">
+    <Item Id="TheTwoTowers.Theodred_funeral.Gandalf_words" Name="Theodred funeral" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Theodred_funeral&amp;L3STinstance=TheTwoTowers.Theodred_funeral.Gandalf_words">
       <Description>Theodred is buried following Rohan customs.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -46,10 +46,11 @@
           <DateTime Value="2016-10-25T11:41:43" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-25T11:43:39" />
+          <DateTime Value="2016-11-03T04:23:58" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="miquelpt" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="TheTwoTowers" />
@@ -103,7 +104,7 @@
           <String Value="Oral L3: single source" />
         </Facet>
         <Facet Name="L3TT-instances: count">
-          <Number Value="0" />
+          <Number Value="2" />
         </Facet>
       </Facets>
     </Item>

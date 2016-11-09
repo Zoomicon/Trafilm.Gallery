@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Spanglish.At the summer place - an interpreter.Man speaks Spanish to Flor and English to Deborah.SpanishSub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="At the summer place - an interpreter. Man speaks Spanish to Flor and English to Deborah.SpanishSub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -42,7 +42,7 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Spanglish.At the summer place - an interpreter.Man speaks Spanish to Flor and English to Deborah.SpanishSub" Name="Spanglish.At the summer place - an interpreter.Man speaks Spanish to Flor and English to Deborah.SpanishSub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Spanglish&amp;conversation=Spanglish.At the summer place - an interpreter&amp;L3STinstance=Spanglish.At the summer place - an interpreter.Man speaks Spanish to Flor and English to Deborah&amp;L3TTinstance=Spanglish.At the summer place - an interpreter.Man speaks Spanish to Flor and English to Deborah.SpanishSub">
+    <Item Id="Spanglish.At the summer place - an interpreter.Man speaks Spanish to Flor and English to Deborah.SpanishSub" Name="At the summer place - an interpreter. Man speaks Spanish to Flor and English to Deborah.SpanishSub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Spanglish&amp;conversation=Spanglish.At the summer place - an interpreter&amp;L3STinstance=Spanglish.At the summer place - an interpreter.Man speaks Spanish to Flor and English to Deborah&amp;L3TTinstance=Spanglish.At the summer place - an interpreter.Man speaks Spanish to Flor and English to Deborah.SpanishSub">
       <Description>Flor, Deborah and Evelyn are walking in the street. Deborah wants to ask Flor if she would like to move with them to the summer house and live with them, but as they don't speak the same language, DEborah cannot communicate with her until she sees a Hispanic man washinng somebody's car. She asks him if he speaks English and if he could translate for her.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -63,10 +63,11 @@
           <DateTime Value="2016-10-17T01:07:12" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-18T06:44:18" />
+          <DateTime Value="2016-11-03T03:57:47" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="corrius" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Spanglish" />
@@ -94,6 +95,9 @@
         </Facet>
         <Facet Name="Film TT Blockbuster">
           <String Value="NO, closer to Art film or niche market" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="43" />
         </Facet>
         <Facet Name="Conversation duration (sec)">
           <String Value="A. 1-20" />

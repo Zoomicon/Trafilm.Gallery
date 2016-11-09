@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="FellowshipOfTheRing.Luthien_song" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Luthien song" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -30,7 +30,7 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="FellowshipOfTheRing.Luthien_song.Aragorn_singing" Name="FellowshipOfTheRing.Luthien_song" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Luthien_song&amp;L3STinstance=FellowshipOfTheRing.Luthien_song.Aragorn_singing">
+    <Item Id="FellowshipOfTheRing.Luthien_song.Aragorn_singing" Name="Luthien song" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Luthien_song&amp;L3STinstance=FellowshipOfTheRing.Luthien_song.Aragorn_singing">
       <Description>Aragorn is keeping watch during the night in the forest, while the hobbits are sleeping. He signs a mourning song about the Lady of Luthien. This song introduces the conflict of Arwen's mortality choice, key in the development of Aragorn's narrative line in the saga. Besides, this song is a homage to J.R.R. Tolkien.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -43,10 +43,11 @@
           <DateTime Value="2016-10-18T06:02:26" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-30T05:18:29" />
+          <DateTime Value="2016-11-03T04:07:28" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="miquelpt" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="FellowshipOfTheRing" />

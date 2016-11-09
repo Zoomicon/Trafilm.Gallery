@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="TheTwoTowers.Gandalf_returns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Gandalf returns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -30,7 +30,7 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="TheTwoTowers.Gandalf_returns.Legolas-Aragorn_Fangorn" Name="TheTwoTowers.Gandalf_returns" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Gandalf_returns&amp;L3STinstance=TheTwoTowers.Gandalf_returns.Legolas-Aragorn_Fangorn">
+    <Item Id="TheTwoTowers.Gandalf_returns.Legolas-Aragorn_Fangorn" Name="Gandalf returns" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Gandalf_returns&amp;L3STinstance=TheTwoTowers.Gandalf_returns.Legolas-Aragorn_Fangorn">
       <Description>Aragorn, Gimli and Legolas enter the Fangorn forest looking for the White wizard.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -46,10 +46,11 @@
           <DateTime Value="2016-10-24T11:19:55" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-24T11:22:37" />
+          <DateTime Value="2016-11-03T04:23:43" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="miquelpt" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="TheTwoTowers" />
@@ -100,7 +101,7 @@
           <String Value="Respond interlingually: different sources " />
         </Facet>
         <Facet Name="L3TT-instances: count">
-          <Number Value="0" />
+          <Number Value="2" />
         </Facet>
       </Facets>
     </Item>

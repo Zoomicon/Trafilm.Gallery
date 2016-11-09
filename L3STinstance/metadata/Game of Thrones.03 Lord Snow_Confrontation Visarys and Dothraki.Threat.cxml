@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Collection SchemaVersion="1.0" Name="03 Lord Snow, Confrontation Visarys and Dothraki" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+  <FacetCategories>
+    <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Conversation Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Conversation start time (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Conversation duration (sec)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Main (L1) language" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST language type" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST language" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST constructed based on" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST meant to be understood" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST message required for understanding" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST meaning decipherable" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Quality of L3ST speaker performance" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="L3ST mode, written/spoken, diegetic" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST merely represented" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST merely represented orally" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST represented: visual" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST functions" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Conversation features for L3ST-instance" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST sources" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3TT-instances: count" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Tags" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+  </FacetCategories>
+  <Items xmlns="">
+    <Item Id="Game of Thrones.03 Lord Snow_Confrontation Visarys and Dothraki.Threat" Name="03 Lord Snow, Confrontation Visarys and Dothraki" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Game of Thrones&amp;conversation=Game of Thrones.03 Lord Snow_Confrontation Visarys and Dothraki&amp;L3STinstance=Game of Thrones.03 Lord Snow_Confrontation Visarys and Dothraki.Threat">
+      <Description>After Daenerys stops the horde for a break, Viserys threatens her and is stopped by Rakharo, who wants to punish him. Daenerys defends her brother.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Game of Thrones.03 Lord Snow_Confrontation Visarys and Dothraki.Threat" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Rakharo: (Dothraki) Hash shafka zali addrivat mae, zhey Khaleesi?? (Do you want him dead khaleesi?)&#xD;&#xA;Irri: (accented English) Rakharo ask, if you want him dead, Khaleesi.&#xD;&#xA;Daenerys: (English) No!&#xD;&#xA;Rakharo: (Dothraki) Ishish chare acharoe hash me nem ejervae nharesoon. (Maybe the ear will listen if it is removed from the head.)&#xD;&#xA;Irri: (accented English) Rakharo say, you should take ear to teach respect.&#xD;&#xA;Daenerys: (English) Please! Please don't hurt him!&#xD;&#xA;Daenerys: (English) Tell him, I don't want my brother harmed.&#xD;&#xA;Irri: (Dothraki) Khaleesi vos zalo meme nem vazzisa. (Khaleesi does not want him harmed.)&#xD;&#xA;Rakharo: (Dothraki) Chiftik! (Cricket!)" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="The L3-instance is interpreted on sceen and subtitled." />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-11-02T11:01:39" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-11-02T11:30:49" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="SIberg" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Game of Thrones" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Game of Thrones.03 Lord Snow_Confrontation Visarys and Dothraki" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="35" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="C. 41-60" />
+        </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L3ST language type">
+          <String Value="Constructed (fictional)" />
+        </Facet>
+        <Facet Name="L3ST language">
+          <String Value="Dothraki" />
+        </Facet>
+        <Facet Name="L3ST constructed based on">
+          <String Value="“from scratch”" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="Quality of L3ST speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3ST mode, written/spoken, diegetic">
+          <String Value="Oral non-diegetic" />
+        </Facet>
+        <Facet Name="L3ST merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
+        <Facet Name="L3ST functions">
+          <String Value="Metaphorical (e.g. communication barrier)" />
+          <String Value="Signals otherness" />
+        </Facet>
+        <Facet Name="Conversation features for L3ST-instance">
+          <String Value="politics" />
+          <String Value="question &amp; answer" />
+          <String Value="threat" />
+        </Facet>
+        <Facet Name="L3ST sources">
+          <String Value="Respond interlingually: different sources " />
+        </Facet>
+        <Facet Name="L3TT-instances: count">
+          <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+  </Items>
+</Collection>

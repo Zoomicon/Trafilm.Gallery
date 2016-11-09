@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="FellowshipOfTheRing.Arwen_Bruinen_spell.Casting_the_spell.SpanishSub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Arwen - Bruinen spell. Casting the spell. SpanishSub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -42,7 +42,7 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="FellowshipOfTheRing.Arwen_Bruinen_spell.Casting_the_spell.SpanishSub" Name="FellowshipOfTheRing.Arwen_Bruinen_spell.Casting_the_spell.SpanishSub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Arwen_Bruinen_spell&amp;L3STinstance=FellowshipOfTheRing.Arwen_Bruinen_spell.Casting_the_spell&amp;L3TTinstance=FellowshipOfTheRing.Arwen_Bruinen_spell.Casting_the_spell.SpanishSub">
+    <Item Id="FellowshipOfTheRing.Arwen_Bruinen_spell.Casting_the_spell.SpanishSub" Name="Arwen - Bruinen spell. Casting the spell. SpanishSub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=FellowshipOfTheRing&amp;conversation=FellowshipOfTheRing.Arwen_Bruinen_spell&amp;L3STinstance=FellowshipOfTheRing.Arwen_Bruinen_spell.Casting_the_spell&amp;L3TTinstance=FellowshipOfTheRing.Arwen_Bruinen_spell.Casting_the_spell.SpanishSub">
       <Description>Arwen casts a spell in the Bruinen river to send a horse-shaped wave which drowns the Ringwraiths.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -55,10 +55,11 @@
           <DateTime Value="2016-10-30T04:00:39" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-30T04:09:43" />
+          <DateTime Value="2016-11-03T04:36:34" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="miquelpt" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="FellowshipOfTheRing" />

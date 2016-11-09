@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Game of Thrones. 01: Winter is coming_Dothraki wedding" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Dothraki wedding - Jorah brings his gift" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -30,7 +30,7 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Game of Thrones.E01 Winter is coming_Dothraki wedding.Jorah brings his gift" Name="Game of Thrones. 01: Winter is coming_Dothraki wedding" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Game of Thrones&amp;conversation=Game of Thrones.E01 Winter is coming_Dothraki wedding&amp;L3STinstance=Game of Thrones.E01 Winter is coming_Dothraki wedding.Jorah brings his gift">
+    <Item Id="Game of Thrones.E01 Winter is coming_Dothraki wedding.Jorah brings his gift" Name="Dothraki wedding - Jorah brings his gift" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Game of Thrones&amp;conversation=Game of Thrones.E01 Winter is coming_Dothraki wedding&amp;L3STinstance=Game of Thrones.E01 Winter is coming_Dothraki wedding.Jorah brings his gift">
       <Description>Drogo invites Jorah to present his gift to Daenerys</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -46,10 +46,11 @@
           <DateTime Value="2016-10-23T09:09:20" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-23T09:31:54" />
+          <DateTime Value="2016-11-01T06:23:19" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="SIberg" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Game of Thrones" />

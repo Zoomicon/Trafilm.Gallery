@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="LoveActually.Lake Scene.Portuguese.SpanishDub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Lake Scene.Portuguese. SpanishDub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -42,7 +42,7 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="LoveActually.Lake Scene.Portuguese.SpanishDub" Name="LoveActually.Lake Scene.Portuguese.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.Lake Scene&amp;L3STinstance=LoveActually.Lake Scene.Portuguese&amp;L3TTinstance=LoveActually.Lake Scene.Portuguese.SpanishDub">
+    <Item Id="LoveActually.Lake Scene.Portuguese.SpanishDub" Name="Lake Scene.Portuguese. SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.Lake Scene&amp;L3STinstance=LoveActually.Lake Scene.Portuguese&amp;L3TTinstance=LoveActually.Lake Scene.Portuguese.SpanishDub">
       <Description>Aurelia expresses anxiety when papers fly.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -55,10 +55,12 @@
           <DateTime Value="2016-10-30T10:41:00" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-30T10:45:53" />
+          <DateTime Value="2016-11-03T04:16:42" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="evaespasa" />
+          <String Value="Stavroula" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="LoveActually" />
@@ -81,6 +83,9 @@
         <Facet Name="Distribution countries (TT)">
           <String Value="Spain" />
         </Facet>
+        <Facet Name="Year TT released">
+          <Number Value="2003" />
+        </Facet>
         <Facet Name="Film TT Blockbuster">
           <String Value="YES (top 20)" />
         </Facet>
@@ -93,25 +98,54 @@
         <Facet Name="L3ST conveyed as L3TT">
           <String Value="No" />
         </Facet>
+        <Facet Name="L3TT language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3TT language">
+          <String Value="Portuguese" />
+        </Facet>
+        <Facet Name="L3TT meant to be understood">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="L3TT message required for understanding">
+          <String Value="Conversation can be followed regardless of meaning" />
+        </Facet>
+        <Facet Name="L3TT meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3TT speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3TT mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3TT merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
+        <Facet Name="L3TT functions">
+          <String Value="Character portrayal" />
+        </Facet>
+        <Facet Name="Conversation features for L3TT-instance">
+          <String Value="embarassing" />
+          <String Value="informal" />
+        </Facet>
+        <Facet Name="L3TT sources">
+          <String Value="Oral L3: single source" />
+        </Facet>
         <Facet Name="L3 language type change">
-          <String Value="- Real" />
-          <String Value="+ " />
+          <String Value="None" />
         </Facet>
         <Facet Name="L3 mode change">
-          <String Value="- Oral diegetic on-screen" />
+          <String Value="None" />
         </Facet>
         <Facet Name="L3 functions change">
-          <String Value="- Character portrayal" />
-          <String Value="- Plot (twist)" />
-          <String Value="- Dramatic effect" />
+          <String Value="None" />
         </Facet>
         <Facet Name="Conversation features for L3-instance change">
-          <String Value="- embarassing" />
-          <String Value="- informal" />
+          <String Value="None" />
         </Facet>
         <Facet Name="L3 sources change">
-          <String Value="- Oral L3: single source" />
-          <String Value="+ " />
+          <String Value="None" />
         </Facet>
       </Facets>
     </Item>
