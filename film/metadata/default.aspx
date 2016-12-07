@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: film\metadata\default.aspx
-Version: 20161029
+Version: 20161202
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -141,33 +141,33 @@ Version: 20161029
 
 
         <div class="question" id="Directors">
-          <div class="label">5. Director(s)</div>
+          <div class="label">7. Director(s)</div>
           <div class="tip">Full name(s), insert a comma (,) between different directors</div>
           <asp:TextBox ID="txtDirectors" runat="server" />
         </div>
 
         <div class="question" id="Scriptwriters">
-          <div class="label">7. Scriptwriter(s)</div>
+          <div class="label">8. Scriptwriter(s)</div>
           <div class="tip">Full name(s), insert a comma (,) between different scriptwriters</div>
           <asp:TextBox ID="txtScriptwriters" runat="server" />
         </div>
 
 
         <div class="question" id="ProductionCountries">
-          <div class="label">8. Production countries</div>
+          <div class="label">9. Production countries</div>
           <div class="tip">Full name(s), insert a comma (,) between different countries</div>
           <asp:TextBox ID="txtProductionCountries" runat="server" />
         </div>
 
         <div class="question" id="ProductionCompanies">
-          <div class="label">9. Production companies</div>
+          <div class="label">10. Production companies</div>
           <div class="tip">Full name, insert a comma (,) between different production companies</div>
           <asp:TextBox ID="txtProductionCompanies" runat="server" />
         </div>
 
 
         <div class="question" id="Blockbuster">
-          <div class="label">10. Blockbuster</div>
+          <div class="label">11. Blockbuster</div>
           <div class="tip">Is the film ranked in the top 20 where first released (ST)?</div>
           <asp:Panel runat="server" ScrollBars="Auto">
             <asp:DropDownList ID="listBlockbuster" runat="server"
@@ -178,14 +178,14 @@ Version: 20161029
 
 
         <div class="question" id="YearSTreleased">
-          <div class="label">11. Year ST released</div>
+          <div class="label">12. Year ST released</div>
           <div class="tip">When was the film first released commercially?</div>
           <asp:TextBox ID="txtYear" runat="server" />
         </div>
 
 
         <div class="question" id="L1language">
-          <div class="label">12. Main (L1) language</div>
+          <div class="label">13. Main (L1) language</div>
           <div class="tip">What is the main language of the film? (used as Source Text for Dubbing or Subtitling)</div>
           <asp:Panel runat="server" ScrollBars="Auto">
             <asp:DropDownList ID="listL1language" runat="server"
@@ -226,20 +226,20 @@ Version: 20161029
 
         <%-- //Film Transcription not available for copyright and for metadata size reasons
         <div class="question" id="Transcription">
-          <div class="label">13. Transcription </div>
+          <div class="label">14. Transcription </div>
           <div class="tip">Transcription for the whole film</div>
           <asp:TextBox ID="txtTranscription" runat="server" TextMode="MultiLine" Rows="5" />
         </div>
         --%>
 
         <div class="question" id="Tags">
-          <div class="label">13. Tags</div>
+          <div class="label">14. Tags</div>
           <div class="tip">Keywords or other labels for filtering purposes, insert a comma (,) between different ones</div>
           <asp:TextBox ID="txtTags" runat="server" />
         </div>
 
         <div class="question" id="Remarks">
-          <div class="label">14. Remarks</div>
+          <div class="label">15. Remarks</div>
           <div class="tip">Issues concerning the analysis or the metadata form design</div>
           <asp:TextBox ID="txtRemarks" runat="server" TextMode="MultiLine" Rows="5" />
         </div>
