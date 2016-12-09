@@ -3,7 +3,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: metadata/L3TTlanguageType.xml
-Version: 20160904
+Version: 20160907
 -->
 
 <Facet Name="L3TTlanguageType">
@@ -11,6 +11,7 @@ Version: 20160904
   <String Value="Real" Title="Real" />
   <String Value="Constructed (fictional)" Title="Constructed (fictional)"/>
   <String Value="L-main variety (e.g. dialect, sociolect, idiolect, slang)" Title="Main language variety, real dialect, slang or other"/>
+  <String Value="Conditioned: slurred, stammer, muffled, mumble, rapid" Title="Conditioned: slurred, stammer, muffled, mumble, rapid" />  
   <String Value="No L3TT: L3-instance omitted" Title="No L3TT: L3-instance omitted"/>
   <String Value="No L3TT: L3-instance in L2" Title="No L3TT: L3-instance in L2"/>
 </Facet>
