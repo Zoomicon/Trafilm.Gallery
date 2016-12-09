@@ -1528,6 +1528,9 @@
                 <Facet Name="Conversation features for L3-instance change">
                     <String Value="None" />
                 </Facet>
+                <Facet Name="Conversation features for L3TT-instance">
+                    <String Value="interrogation / quizzing" />
+                </Facet>
                 <Facet Name="Conversation Reference Id">
                     <String Value="Butch Cassidy and the Sundance Kid.Bolivian bandits" />
                 </Facet>
@@ -1547,7 +1550,7 @@
                     <DateTime Value="2016-11-20T07:38:48" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-11-20T07:42:40" />
+                    <DateTime Value="2016-12-08T02:48:08" />
                 </Facet>
                 <Facet Name="L2 language">
                     <String Value="Spanish" />
@@ -1602,6 +1605,7 @@
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="corrius" />
+                    <String Value="PatrickZabalbeascoa" />
                 </Facet>
                 <Facet Name="Quality of L3TT speaker performance">
                     <String Value="native or proficient" />

@@ -985,10 +985,11 @@
           <DateTime Value="2016-11-20T07:36:39" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-11-20T07:38:32" />
+          <DateTime Value="2016-12-08T02:47:22" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="corrius" />
+          <String Value="PatrickZabalbeascoa" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Butch Cassidy and the Sundance Kid" />
@@ -1029,11 +1030,14 @@
         <Facet Name="L3ST functions">
           <String Value="Signals otherness" />
         </Facet>
+        <Facet Name="Conversation features for L3ST-instance">
+          <String Value="interrogation / quizzing" />
+        </Facet>
         <Facet Name="L3ST sources">
           <String Value="Oral L3: different sources " />
         </Facet>
         <Facet Name="L3TT-instances: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>
