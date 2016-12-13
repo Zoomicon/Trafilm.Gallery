@@ -24,7 +24,7 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Blade Runner" Name="Blade Runner" Img="https://images-na.ssl-images-amazon.com/images/M/MV5BZWZlYmEyYTItNGRjYy00ZmMxLWEzMWItM2Q2NjZlNTMwMjQ3XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_SY1000_CR0,0,665,1000_AL_.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Blade Runner">
+    <Item Id="Blade Runner" Name="Blade Runner" Img="https://upload.wikimedia.org/wikipedia/en/5/53/Blade_Runner_poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Blade Runner">
       <Description>The story takes place in a futuristic society in L.A. in 2019. Rick Deckard becomes a "Blade Runner" (Blade Runners are people trained to destroy any Replicants in the Earth). </Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -38,10 +38,11 @@
           <DateTime Value="2016-11-29T10:50:36" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-11-29T11:50:35" />
+          <DateTime Value="2016-12-10T10:32:18" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="corrius" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Blade Runner" />
@@ -67,6 +68,9 @@
         </Facet>
         <Facet Name="Production companies">
           <String Value="Warner Brotheres Burbank Studios" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="1982" />
         </Facet>
         <Facet Name="Main language (L1)">
           <String Value="English" />
