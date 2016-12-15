@@ -15079,17 +15079,26 @@ There is another conversation taking place among women at the kitchen.</Descript
         </Facet>
       </Facets>
     </Item>
-    <Item Id="TheWalk.MeetingAnnie.High wire.SpanishDub" Name="TheWalk.MeetingAnnie.High wire.SpanishDub" Img="" Href="">
+    <Item Id="TheWalk.MeetingAnnie.High wire.SpanishDub" Name="TheWalk.MeetingAnnie.High wire.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingAnnie&amp;L3STinstance=TheWalk.MeetingAnnie.High wire&amp;L3TTinstance=TheWalk.MeetingAnnie.High wire.SpanishDub">
       <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="TheWalk.MeetingAnnie.High wire.SpanishDub" />
         </Facet>
+        <Facet Name="Transcription">
+          <String Value="Petit: Vaya, me encanta tu inglés. Suena muy americano.&#xD;&#xA;Annie: (responde enfadada en francés)&#xD;&#xA;Petit: Me gustaba mucho más el inglés.&#xD;&#xA;Annie: (sigue hablando en francés)&#xD;&#xA;Petit: Ah, sí. Sin duda, prefiero el inglés.&#xD;&#xA;Annie: (cambia al español) Escucha, malabarista: me has robado a mi mejor público. ¿Y para qué? ¿Un truco barato?" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="Petit insists on complimenting Annie for her English accent. As a result, she switches from French to Spanish (?)." />
+        </Facet>
         <Facet Name="Info created">
           <DateTime Value="2016-12-11T04:03:03" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-12-11T04:03:03" />
+          <DateTime Value="2016-12-15T02:46:59" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Guillermo" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="TheWalk" />
@@ -15099,6 +15108,84 @@ There is another conversation taking place among women at the kitchen.</Descript
         </Facet>
         <Facet Name="L3ST-instance Reference Id">
           <String Value="TheWalk.MeetingAnnie.High wire" />
+        </Facet>
+        <Facet Name="Film Title TT">
+          <String Value="El desafío (The Walk)" />
+        </Facet>
+        <Facet Name="L2 language">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L2 mode">
+          <String Value="Dubbed" />
+        </Facet>
+        <Facet Name="Distribution countries (TT)">
+          <String Value="Spain" />
+        </Facet>
+        <Facet Name="Year TT released">
+          <Number Value="2015" />
+        </Facet>
+        <Facet Name="Film TT Blockbuster">
+          <String Value="NO, but commercially intended" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="16" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="E. 81-100" />
+        </Facet>
+        <Facet Name="L2 same as L3ST">
+          <String Value="No" />
+        </Facet>
+        <Facet Name="L3ST conveyed as L3TT">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3TT language">
+          <String Value="French" />
+        </Facet>
+        <Facet Name="L3TT meant to be understood">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="L3TT message required for understanding">
+          <String Value="Conversation can be followed regardless of meaning" />
+        </Facet>
+        <Facet Name="L3TT meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3TT speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3TT mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3TT merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
+        <Facet Name="L3TT functions">
+          <String Value="Character portrayal" />
+        </Facet>
+        <Facet Name="Conversation features for L3TT-instance">
+          <String Value="quarrel" />
+        </Facet>
+        <Facet Name="L3TT sources">
+          <String Value="Respond interlingually: different sources " />
+        </Facet>
+        <Facet Name="L3 language type change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 mode change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 functions change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="Conversation features for L3-instance change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 sources change">
+          <String Value="None" />
         </Facet>
       </Facets>
     </Item>

@@ -36,14 +36,17 @@
         <Facet Name="Reference Id">
           <String Value="TheWalk.MeetingAnnie.High wire" />
         </Facet>
+        <Facet Name="Transcription">
+          <String Value="Petit: Wow, I love your English. It sounds so American.&#xD;&#xA;Annie: (Complains in French)&#xD;&#xA;Petit: I think I like better the English.&#xD;&#xA;Annie: (Continues in French)&#xD;&#xA;Petit: Yes, I certainly prefer the English.&#xD;&#xA;Annie: (Switches to English) Then listen, juggler. You stole my best audience in weeks. And for what? Some cheap stunt?" />
+        </Facet>
         <Facet Name="Remarks">
-          <String Value="She speaks English much better than him, but her accent worsens because she's angry." />
+          <String Value="Petit explicitly suggests Annie to switch from French to English." />
         </Facet>
         <Facet Name="Info created">
           <DateTime Value="2016-12-03T11:42:08" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-12-04T12:02:26" />
+          <DateTime Value="2016-12-15T02:41:43" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Guillermo" />
@@ -67,19 +70,19 @@
           <String Value="Real" />
         </Facet>
         <Facet Name="L3ST language">
-          <String Value="English" />
+          <String Value="French" />
         </Facet>
         <Facet Name="L3ST meant to be understood">
-          <String Value="YES, (almost) completely" />
+          <String Value="NO" />
         </Facet>
         <Facet Name="L3ST message required for understanding">
-          <String Value="Yes" />
+          <String Value="Conversation can be followed regardless of meaning" />
         </Facet>
         <Facet Name="L3ST meaning decipherable">
           <String Value="YES, through translation or clear from picture" />
         </Facet>
         <Facet Name="Quality of L3ST speaker performance">
-          <String Value="clearly non-native or deficient" />
+          <String Value="native or proficient" />
         </Facet>
         <Facet Name="L3ST mode, written/spoken, diegetic">
           <String Value="Oral diegetic on-screen" />
@@ -97,7 +100,7 @@
           <String Value="Respond interlingually: different sources " />
         </Facet>
         <Facet Name="L3TT-instances: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>
