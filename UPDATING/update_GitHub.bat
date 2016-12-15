@@ -8,7 +8,7 @@ goto :EOF
 :process
 
 ECHO ---- Staging changes for addition to local repository
-git add . 2>&1 || (goto Fail)
+git add .. 2>&1 || (goto Fail)
 ECHO.
 ECHO.
 
