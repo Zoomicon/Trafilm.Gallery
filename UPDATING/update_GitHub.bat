@@ -9,15 +9,15 @@ goto :EOF
 
 ECHO ---- Staging changes for addition to local repository
 git add . 2>&1 || (goto Fail)
-ECHO.
+ECHO:
 
 ECHO ---- Commiting staged changes to local repository
 git commit -m "Metadata updates (auto commit) 2>&1 || (goto Fail)
-ECHO.
+ECHO:
 
 ECHO ---- Pushing commited changes to remote repository
 git push origin master 2>&1 || (goto Fail)
-ECHO.
+ECHO:
 
 :OK
 ECHO OK
