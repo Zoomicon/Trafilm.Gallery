@@ -10,3 +10,6 @@ Trafilm (http://trafilm.net) Gallery (hierarchical PivotViewer displays) and Met
 *Class Diagram for Utils:*
 
 ![Class Diagram for Utils](https://github.com/Zoomicon/Trafilm.Gallery/blob/master/Diagrams/Utils.png)
+
+# Using
+Trafilm.Metadata model - http://github.com/Zoomicon/Trafilm.Metadata
