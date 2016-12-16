@@ -199,12 +199,13 @@
     <Content Include="utils\Utils.cd" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="film\update_cxml.bat" />
-    <Content Include="L3STinstance\update_cxml.bat" />
-    <Content Include="conversation\update_cxml.bat" />
-    <Content Include="L3TTinstance\update_cxml.bat" />
     <Content Include="packages.config" />
     <None Include="Properties\PublishProfiles\Trafilm Gallery.pubxml" />
+    <Content Include="UPDATING\update_conversations.bat" />
+    <Content Include="UPDATING\update_films.bat" />
+    <Content Include="UPDATING\update_GitHub.bat" />
+    <Content Include="UPDATING\update_L3STinstances.bat" />
+    <Content Include="UPDATING\update_L3TTinstances.bat" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="collection\" />
