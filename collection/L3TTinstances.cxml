@@ -7935,10 +7935,20 @@
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Gran Torino.The gifts after the fight.Speaking Hmong.SpanishDub" Name="Gran Torino.The gifts after the fight.Speaking Hmong.SpanishDub" Img="#75">
+        <Item Id="Gran Torino.The gifts after the fight.Speaking Hmong.SpanishDub" Name="The gifts after the fight - Speaking Hmong.SpanishDub" Img="#75" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Gran Torino&amp;conversation=Gran Torino.The gifts after the fight&amp;L3STinstance=Gran Torino.The gifts after the fight.Speaking Hmong&amp;L3TTinstance=Gran Torino.The gifts after the fight.Speaking Hmong.SpanishDub">
+            <Description>Neighbors bring presents to Walt</Description>
             <Facets>
+                <Facet Name="Conversation duration (sec)">
+                    <String Value="A. 1-20" />
+                </Facet>
+                <Facet Name="Conversation features for L3-instance change">
+                    <String Value="- small talk" />
+                </Facet>
                 <Facet Name="Conversation Reference Id">
                     <String Value="Gran Torino.The gifts after the fight" />
+                </Facet>
+                <Facet Name="Conversation start time (min)">
+                    <Number Value="26" />
                 </Facet>
                 <Facet Name="Film Reference Id">
                     <String Value="Gran Torino" />
@@ -7947,17 +7957,34 @@
                     <DateTime Value="2016-12-20T01:20:56" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-12-20T01:20:56" />
+                    <DateTime Value="2016-12-22T12:28:49" />
+                </Facet>
+                <Facet Name="L3 functions change">
+                    <String Value="- Signals otherness" />
+                </Facet>
+                <Facet Name="L3 language type change">
+                    <String Value="- Real" />
+                    <String Value="+ " />
+                </Facet>
+                <Facet Name="L3 mode change">
+                    <String Value="- Oral diegetic on-screen" />
+                </Facet>
+                <Facet Name="L3 sources change">
+                    <String Value="- Oral L3: different sources " />
+                    <String Value="+ " />
                 </Facet>
                 <Facet Name="L3ST-instance Reference Id">
                     <String Value="Gran Torino.The gifts after the fight.Speaking Hmong" />
+                </Facet>
+                <Facet Name="Metadata Editors">
+                    <String Value="George" />
                 </Facet>
                 <Facet Name="Reference Id">
                     <String Value="Gran Torino.The gifts after the fight.Speaking Hmong.SpanishDub" />
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Gran Torino.The gifts after the fight.Speaking Hmong.SpanishSub" Name="Gran Torino.The gifts after the fight.Speaking Hmong.SpanishSub" Img="#76" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Gran Torino&amp;conversation=Gran Torino.The gifts after the fight&amp;L3STinstance=Gran Torino.The gifts after the fight.Speaking Hmong&amp;L3TTinstance=Gran Torino.The gifts after the fight.Speaking Hmong.SpanishSub">
+        <Item Id="Gran Torino.The gifts after the fight.Speaking Hmong.SpanishSub" Name="The gifts after the fight - Speaking Hmong.SpanishSub" Img="#76" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Gran Torino&amp;conversation=Gran Torino.The gifts after the fight&amp;L3STinstance=Gran Torino.The gifts after the fight.Speaking Hmong&amp;L3TTinstance=Gran Torino.The gifts after the fight.Speaking Hmong.SpanishSub">
             <Description>Neighbors bring presents to Walt</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -7991,7 +8018,7 @@
                     <DateTime Value="2016-12-20T01:20:56" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-12-20T01:24:10" />
+                    <DateTime Value="2016-12-22T12:28:01" />
                 </Facet>
                 <Facet Name="L2 language">
                     <String Value="English" />
@@ -8035,6 +8062,7 @@
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="Santamaria" />
+                    <String Value="George" />
                 </Facet>
                 <Facet Name="Quality of L3TT speaker performance">
                     <String Value="native or proficient" />
