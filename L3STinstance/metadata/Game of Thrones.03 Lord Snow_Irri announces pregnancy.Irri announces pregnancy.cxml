@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Game of Thrones.03 Lord Snow_Irri announces pregnancy.Irri announces pregnancy" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="03 Lord Snow - Irri announces pregnancy.Irri announces pregnancy" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -30,7 +30,7 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Game of Thrones.03 Lord Snow_Irri announces pregnancy.Irri announces pregnancy" Name="Game of Thrones.03 Lord Snow_Irri announces pregnancy.Irri announces pregnancy" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Game of Thrones&amp;conversation=Game of Thrones.03 Lord Snow_Irri announces pregnancy&amp;L3STinstance=Game of Thrones.03 Lord Snow_Irri announces pregnancy.Irri announces pregnancy">
+    <Item Id="Game of Thrones.03 Lord Snow_Irri announces pregnancy.Irri announces pregnancy" Name="03 Lord Snow - Irri announces pregnancy.Irri announces pregnancy" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Game of Thrones&amp;conversation=Game of Thrones.03 Lord Snow_Irri announces pregnancy&amp;L3STinstance=Game of Thrones.03 Lord Snow_Irri announces pregnancy.Irri announces pregnancy">
       <Description>Irri interrupts Jorah and Rakharo and announces Daenery's pregnancy to them.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -43,10 +43,11 @@
           <DateTime Value="2016-11-11T11:08:55" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-11-11T11:21:55" />
+          <DateTime Value="2016-12-22T12:23:59" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="SIberg" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Game of Thrones" />

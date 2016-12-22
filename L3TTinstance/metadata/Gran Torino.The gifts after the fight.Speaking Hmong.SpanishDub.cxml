@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Gran Torino.The gifts after the fight.Speaking Hmong.SpanishDub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="The gifts after the fight - Speaking Hmong.SpanishDub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -42,8 +42,8 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Gran Torino.The gifts after the fight.Speaking Hmong.SpanishDub" Name="Gran Torino.The gifts after the fight.Speaking Hmong.SpanishDub" Img="" Href="">
-      <Description></Description>
+    <Item Id="Gran Torino.The gifts after the fight.Speaking Hmong.SpanishDub" Name="The gifts after the fight - Speaking Hmong.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Gran Torino&amp;conversation=Gran Torino.The gifts after the fight&amp;L3STinstance=Gran Torino.The gifts after the fight.Speaking Hmong&amp;L3TTinstance=Gran Torino.The gifts after the fight.Speaking Hmong.SpanishDub">
+      <Description>Neighbors bring presents to Walt</Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="Gran Torino.The gifts after the fight.Speaking Hmong.SpanishDub" />
@@ -52,7 +52,10 @@
           <DateTime Value="2016-12-20T01:20:56" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-12-20T01:20:56" />
+          <DateTime Value="2016-12-22T12:28:49" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Gran Torino" />
@@ -62,6 +65,29 @@
         </Facet>
         <Facet Name="L3ST-instance Reference Id">
           <String Value="Gran Torino.The gifts after the fight.Speaking Hmong" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="26" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3 language type change">
+          <String Value="- Real" />
+          <String Value="+ " />
+        </Facet>
+        <Facet Name="L3 mode change">
+          <String Value="- Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3 functions change">
+          <String Value="- Signals otherness" />
+        </Facet>
+        <Facet Name="Conversation features for L3-instance change">
+          <String Value="- small talk" />
+        </Facet>
+        <Facet Name="L3 sources change">
+          <String Value="- Oral L3: different sources " />
+          <String Value="+ " />
         </Facet>
       </Facets>
     </Item>

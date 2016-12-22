@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Game of Thrones.Pregnant Daenerys.You are pregnant" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Pregnant Daenerys - You are pregnant" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -30,7 +30,7 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Game of Thrones.Pregnant Daenerys.You are pregnant" Name="Game of Thrones.Pregnant Daenerys.You are pregnant" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Game of Thrones&amp;conversation=Game of Thrones.Pregnant Daenerys&amp;L3STinstance=Game of Thrones.Pregnant Daenerys.You are pregnant">
+    <Item Id="Game of Thrones.Pregnant Daenerys.You are pregnant" Name="Pregnant Daenerys - You are pregnant" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Game of Thrones&amp;conversation=Game of Thrones.Pregnant Daenerys&amp;L3STinstance=Game of Thrones.Pregnant Daenerys.You are pregnant">
       <Description>Daenerys spends time with Irri, who deduces that D. is pregnant</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -46,10 +46,11 @@
           <DateTime Value="2016-11-11T10:10:48" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-11-11T10:20:17" />
+          <DateTime Value="2016-12-22T12:25:29" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="SIberg" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Game of Thrones" />
