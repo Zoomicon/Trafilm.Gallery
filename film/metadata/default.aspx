@@ -1,11 +1,12 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="Trafilm.Gallery.FilmMetadataPage" %>
+<%@ Import namespace="Trafilm.Gallery" %>
 
 <!DOCTYPE html>
 
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: film\metadata\default.aspx
-Version: 20161202
+Version: 20170112
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -284,7 +285,7 @@ Version: 20161202
           <div class="label">Conversations (#<asp:Label ID="lblConversationCount" runat="server" />)</div>
           <asp:Repeater ID="repeaterConversations" runat="server">
             <ItemTemplate>
-              <a href="../../conversation/metadata/?film=<%#Eval("filmId")%>&conversation=<%#Eval("conversationId")%>"><%#Eval("conversationId")%></a>&nbsp;&nbsp;
+              <a href="../../conversation/metadata/?film=<%#Eval("filmId")%>&conversation=<%#Eval("conversationId")%>"><%#Eval("conversationId").ToString().TrimStart(Eval("filmId").ToString() + ".")%></a>&nbsp;&nbsp;
             </ItemTemplate>
           </asp:Repeater>
         </div>

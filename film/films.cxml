@@ -86,6 +86,61 @@
         </Facet>
       </Facets>
     </Item>
+    <Item Id="A Scanner Darkly" Name="A Scanner Darkly" Img="https://upload.wikimedia.org/wikipedia/en/thumb/7/75/A_Scanner_Darkly_Poster.jpg/220px-A_Scanner_Darkly_Poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=A Scanner Darkly">
+      <Description>An undercover cop in a not-too-distant future becomes involved with a dangerous new drug and begins to lose his own identity as a result.
+Based on the homonym novel by Philip K. Dick.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="A Scanner Darkly" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-01-11T03:31:08" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-01-11T03:35:11" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Guillermo" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="A Scanner Darkly" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="100" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Richard Linklater" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Richard Linklater" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="USA" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="Warner Independent Pictures" />
+          <String Value=" Thousand Words" />
+          <String Value=" Section Eight Detour" />
+          <String Value=" Filmproduction 3" />
+          <String Value=" Arts Entertainment" />
+        </Facet>
+        <Facet Name="Blockbuster">
+          <String Value="NO, closer to Art film or niche market" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2006" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Aladdin" Name="Aladdin" Img="https://upload.wikimedia.org/wikipedia/en/5/58/Aladdinposter.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Aladdin">
       <Description></Description>
       <Facets>
@@ -253,6 +308,64 @@
         </Facet>
         <Facet Name="L2-Dubbed languages">
           <String Value="Spanish" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Babel" Name="Babel" Img="https://images-na.ssl-images-amazon.com/images/M/MV5BMjEzMzg4NTIyOF5BMl5BanBnXkFtZTcwNjM3MzgzMQ@@._V1_UX182_CR0,0,182,268_AL_.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Babel">
+      <Description>A tragic accident in Morocco results in a series of events that will unite four groups of people, who are separated by cultural differences and big distances but who share a connecting destiny.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Babel" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="third language" />
+          <String Value=" multilingualism" />
+          <String Value=" cultural differences" />
+          <String Value=" " />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="A really multilingual film. Different languages are spoken in different settings and by different people (English, Spanish, Arabic, Berber languages, French, Russian, Japanese and Japanese Sign Language)" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-12-27T06:32:50" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-12-27T10:04:21" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="corrius" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Babel" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="138" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Alejandro G. Inárritu" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Guillermo Arriaga" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="USA" />
+          <String Value=" France" />
+          <String Value=" Mexico" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="Paramount Pictures" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2006" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
         </Facet>
         <Facet Name="Conversations: count">
           <Number Value="1" />
@@ -530,6 +643,59 @@
         </Facet>
         <Facet Name="Year ST released">
           <Number Value="1996" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Chocolat" Name="Chocolat" Img="https://images-na.ssl-images-amazon.com/images/M/MV5BNDg3NjA5NzYtYzE2OS00NzZiLTg2YTUtMmJkZDFmYjg5NjgwXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_UX182_CR0,0,182,268_AL_.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Chocolat">
+      <Description>The film is set in a rural French village where a woman (Vianne Rocher) and her daughter (Anouk) open a chocolate shop. At the beginning they are met with skepticism but soon they are accepted by villagers. </Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Chocolat" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="Third language" />
+          <String Value=" French" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-12-30T06:26:03" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-12-30T06:56:36" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="corrius" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Chocolat" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="115" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Lasse Hallström" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Robert Nelson Jacobs" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="UK" />
+          <String Value=" USA" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="Miramar" />
+          <String Value=" David Brown Productions" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2001" />
         </Facet>
         <Facet Name="Main language (L1)">
           <String Value="English" />
@@ -1757,6 +1923,75 @@
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Quantum of Solace" Name="Quantum of Solace" Img="https://upload.wikimedia.org/wikipedia/en/2/2d/Quantum_of_Solace_-_UK_cinema_poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Quantum of Solace">
+      <Description>James Bond seeks for revenge for his girlfriend's death and fights an unknown criminal organization.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Quantum of Solace" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-01-10T11:43:12" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-01-11T10:56:27" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+          <String Value="George" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Quantum of Solace" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="106" />
+        </Facet>
+        <Facet Name="Series">
+          <String Value="James Bond 007" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value=" Marc Forster " />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Paul Haggis" />
+          <String Value=" Neal Purvis" />
+          <String Value=" Robert Wade" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="UK" />
+          <String Value=" USA" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="     Metro-Goldwyn-Mayer (MGM)" />
+          <String Value=" Columbia Pictures" />
+          <String Value=" Eon Productions (as Albert R. Broccoli's" />
+          <String Value=" Eon Productions)" />
+          <String Value=" B22" />
+        </Facet>
+        <Facet Name="Blockbuster">
+          <String Value="YES (top 20)" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2008" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L2-Dubbed languages">
+          <String Value="Spanish" />
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L2-Subtitled languages">
+          <String Value="Spanish" />
+          <String Value="English" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="18" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Raid on Rommel" Name="Raid on Rommel" Img="https://images-na.ssl-images-amazon.com/images/M/MV5BMTg1MzEyNTk1MF5BMl5BanBnXkFtZTcwNTIzNjQyMQ@@._V1_.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Raid on Rommel">
       <Description>The film is set in North Africa during World War II. Several British commandos set out to destroy the heavy German artillery at Tobruk (Rommel and Nazi troops'shelter). In order to carry out this mission they are assigned the job of becoming prisoners of war and they are led by Captain Foster, an English Officer posing as a Nazi Officer. The mistress of an Italian general is also a prisoner who travels with them to Tobruk. Complications develop when Foster arrives at the rendezvous point and all he finds are genuine sick prisoners of war.</Description>
       <Facets>
@@ -1829,12 +2064,13 @@
           <DateTime Value="2016-06-16T08:16:54" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-19T02:27:49" />
+          <DateTime Value="2016-12-28T09:24:22" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="natalia.faja" />
           <String Value="Stavroula" />
           <String Value="George" />
+          <String Value="Santamaria" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Slumdog Millionaire" />
@@ -1855,6 +2091,13 @@
         <Facet Name="Production countries">
           <String Value="UK" />
           <String Value=" USA" />
+          <String Value=" France" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="     Warner Bros." />
+          <String Value=" Celador Films" />
+          <String Value=" Film4" />
+          <String Value=" Pathé Pictures International" />
         </Facet>
         <Facet Name="Year ST released">
           <Number Value="2008" />
@@ -1862,8 +2105,11 @@
         <Facet Name="Main language (L1)">
           <String Value="Other" />
         </Facet>
+        <Facet Name="L2-Dubbed languages">
+          <String Value="Spanish" />
+        </Facet>
         <Facet Name="Conversations: count">
-          <Number Value="0" />
+          <Number Value="2" />
         </Facet>
       </Facets>
     </Item>
@@ -2258,6 +2504,57 @@
         </Facet>
         <Facet Name="Conversations: count">
           <Number Value="9" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Toy Story 3" Name="Toy Story 3" Img="https://commons.wikimedia.org/wiki/File:Toy_Stoy_3_logo.svg" Href="http://gallery.trafilm.net/film/metadata/?film=Toy Story 3">
+      <Description>Andy, the boy to whom  Woody, Buzz Lightyear and the rest of the toys belong is getting ready to go to college. The toys are anxious about their future but they find a new house with a young girl who is happy to play with them.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Toy Story 3" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="Spanish in only one scene&#xD;&#xA;" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-01-02T09:22:35" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-01-02T09:41:38" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Toy Story 3" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="103" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Andrew Stanton" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Michael Arndt" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="USA" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="Walt Disney Pictures" />
+          <String Value=" Pixar Animation Studios " />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2010" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="0" />
         </Facet>
       </Facets>
     </Item>

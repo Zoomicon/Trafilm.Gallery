@@ -1,11 +1,12 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="Trafilm.Gallery.ConversationMetadataPage" %>
+<%@ Import namespace="Trafilm.Gallery" %>
 
 <!DOCTYPE html>
 
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: conversation\metadata\default.aspx
-Version: 20161029
+Version: 20170112
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -254,7 +255,7 @@ Version: 20161029
           <div class="label">L3ST-instances (#<asp:Label ID="lblL3STinstanceCount" runat="server" />)</div>          
           <asp:Repeater ID="repeaterL3STinstances" runat="server">
             <ItemTemplate>
-              <a href="../../L3STinstance/metadata/?film=<%#Eval("filmId")%>&conversation=<%#Eval("conversationId")%>&L3STinstance=<%#Eval("L3STinstanceId")%>"><%#Eval("L3STinstanceId")%></a>&nbsp;&nbsp;
+              <a href="../../L3STinstance/metadata/?film=<%#Eval("filmId")%>&conversation=<%#Eval("conversationId")%>&L3STinstance=<%#Eval("L3STinstanceId")%>"><%#Eval("L3STinstanceId").ToString().TrimStart(Eval("conversationId").ToString() + ".")%></a>&nbsp;&nbsp;
             </ItemTemplate>
           </asp:Repeater>
         </div>

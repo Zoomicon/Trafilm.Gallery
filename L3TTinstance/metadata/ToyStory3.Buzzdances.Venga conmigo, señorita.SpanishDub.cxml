@@ -55,10 +55,11 @@
           <DateTime Value="2016-12-03T04:09:50" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-12-11T03:29:26" />
+          <DateTime Value="2017-01-02T11:57:15" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Guillermo" />
+          <String Value="Santamaria" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="ToyStory3" />
@@ -73,7 +74,7 @@
           <String Value="Toy Story 3" />
         </Facet>
         <Facet Name="L2 language">
-          <String Value="Spanish" />
+          <String Value="Catalan" />
         </Facet>
         <Facet Name="L2 mode">
           <String Value="Dubbed" />
@@ -100,7 +101,7 @@
           <String Value="Yes" />
         </Facet>
         <Facet Name="L3TT language type">
-          <String Value="L-main variety (e.g. dialect, sociolect, idiolect, slang)" />
+          <String Value="Real" />
         </Facet>
         <Facet Name="L3TT language">
           <String Value="Spanish Andalusian" />
@@ -136,8 +137,7 @@
           <String Value="Oral L3: single source" />
         </Facet>
         <Facet Name="L3 language type change">
-          <String Value="- Real" />
-          <String Value="+ L-main variety (e.g. dialect, sociolect, idiolect, slang)" />
+          <String Value="None" />
         </Facet>
         <Facet Name="L3 mode change">
           <String Value="None" />

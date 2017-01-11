@@ -34,9 +34,9 @@
     <FacetCategory Name="L3 functions change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Conversation features for L3-instance change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3 sources change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Tags" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -51,15 +51,18 @@
         <Facet Name="Transcription">
           <String Value="I amar prestar aen.&#xD;&#xA;&#xD;&#xA;El mundo ha cambiado.&#xD;&#xA;&#xD;&#xA;Han mathon ne nen.&#xD;&#xA;&#xD;&#xA;Lo siento en el agua.&#xD;&#xA;&#xD;&#xA;Han mathon ne chae.&#xD;&#xA;&#xD;&#xA;Lo siento en la tierra.&#xD;&#xA;&#xD;&#xA;A han noston ned gwilith.&#xD;&#xA;&#xD;&#xA;Lo huelo en el aire." />
         </Facet>
+        <Facet Name="Remarks">
+          <String Value="The Spanish subtitles repeat the English oral translation thus providing an extradiegetical written layer to the intradiegetic oral L1." />
+        </Facet>
         <Facet Name="Info created">
           <DateTime Value="2016-10-11T04:05:36" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-11-03T04:45:06" />
+          <DateTime Value="2017-01-08T09:20:50" />
         </Facet>
         <Facet Name="Metadata Editors">
-          <String Value="miquelpt" />
           <String Value="George" />
+          <String Value="miquelpt" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="FellowshipOfTheRing" />

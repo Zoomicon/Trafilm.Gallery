@@ -37,9 +37,6 @@
         <Facet Name="Reference Id">
           <String Value="Monsoon Wedding.Conversation in the garden on the phone.Hindi" />
         </Facet>
-        <Facet Name="Transcription">
-          <String Value="Lalit - please bring the phone.&#xD;&#xA;Pimmi - Darling, you want something else? Tea? Nimbu pani?&#xD;&#xA;Lalit - No, no. That bloody bastard Dubey hasn't come yet.&#xD;&#xA;" />
-        </Facet>
         <Facet Name="Remarks">
           <String Value="The dubbing and subtitling in English are in Spanish.&#xD;&#xA; " />
         </Facet>
@@ -47,7 +44,7 @@
           <DateTime Value="2016-06-08T01:34:20" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-12-20T01:55:39" />
+          <DateTime Value="2016-12-27T08:17:55" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="George" />
@@ -60,7 +57,10 @@
           <String Value="Monsoon Wedding.Conversation in the garden on the phone" />
         </Facet>
         <Facet Name="Conversation start time (min)">
-          <Number Value="1" />
+          <Number Value="2" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="D. 61-80" />
         </Facet>
         <Facet Name="Main (L1) language">
           <String Value="English" />
@@ -90,6 +90,9 @@
           <String Value="Character portrayal" />
           <String Value="Stereotype" />
           <String Value="Comedy / humour" />
+        </Facet>
+        <Facet Name="Conversation features for L3ST-instance">
+          <String Value="domestic / family" />
         </Facet>
         <Facet Name="L3TT-instances: count">
           <Number Value="1" />

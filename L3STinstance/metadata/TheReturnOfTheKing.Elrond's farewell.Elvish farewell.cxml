@@ -43,7 +43,7 @@
           <DateTime Value="2016-12-18T12:04:13" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-12-18T12:11:52" />
+          <DateTime Value="2017-01-08T08:28:06" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="miquelpt" />
@@ -73,13 +73,13 @@
           <String Value="“from scratch”" />
         </Facet>
         <Facet Name="L3ST meant to be understood">
-          <String Value="NO" />
+          <String Value="YES, the gist, the implications of what is happening" />
         </Facet>
         <Facet Name="L3ST message required for understanding">
-          <String Value="Conversation can be followed regardless of meaning" />
+          <String Value="Yes" />
         </Facet>
         <Facet Name="L3ST meaning decipherable">
-          <String Value="YES, through translation or clear from picture" />
+          <String Value="NO" />
         </Facet>
         <Facet Name="Quality of L3ST speaker performance">
           <String Value="native or proficient" />
@@ -100,7 +100,7 @@
           <String Value="Oral L3: single source" />
         </Facet>
         <Facet Name="L3TT-instances: count">
-          <Number Value="1" />
+          <Number Value="2" />
         </Facet>
       </Facets>
     </Item>

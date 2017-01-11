@@ -34,9 +34,9 @@
     <FacetCategory Name="L3 functions change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Conversation features for L3-instance change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3 sources change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Tags" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -51,18 +51,15 @@
         <Facet Name="Transcription">
           <String Value="Haldir: Mae govannen, Legolas Thranduilion. (SUB: Bienvenido, Legolas, / hijo de Thranduil.)&#xD;&#xA;&#xD;&#xA;Legolas: Govannas vîn gwennen le, Haldir o Lórien. (SUB: Nuestra comunidad / está en deuda contigo.)&#xD;&#xA;&#xD;&#xA;Haldir: A, Aragorn in Dúnedain (SUB: Aragorn, de los Dunedain,) istannen le ammen. (SUB: nos eres muy conocido.)&#xD;&#xA;&#xD;&#xA;Aragorn: Haldir.&#xD;&#xA;&#xD;&#xA;Gimli: ¿Qué ha sido de la legendaria cortesía de los Elfos? ¡Hablad algo que entendamos todos!" />
         </Facet>
-        <Facet Name="Remarks">
-          <String Value="Gimli's final line shows the impossibility of non-Elvish speakers to understand what they are saying." />
-        </Facet>
         <Facet Name="Info created">
           <DateTime Value="2016-11-01T11:43:36" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-11-03T04:41:10" />
+          <DateTime Value="2017-01-08T09:16:41" />
         </Facet>
         <Facet Name="Metadata Editors">
-          <String Value="miquelpt" />
           <String Value="George" />
+          <String Value="miquelpt" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="FellowshipOfTheRing" />
@@ -110,13 +107,13 @@
           <String Value="“from scratch”" />
         </Facet>
         <Facet Name="L3TT meant to be understood">
-          <String Value="YES, the gist, the implications of what is happening" />
+          <String Value="NO" />
         </Facet>
         <Facet Name="L3TT message required for understanding">
-          <String Value="Yes" />
+          <String Value="Conversation can be followed regardless of meaning" />
         </Facet>
         <Facet Name="L3TT meaning decipherable">
-          <String Value="YES, through translation or clear from picture" />
+          <String Value="NO" />
         </Facet>
         <Facet Name="Quality of L3TT speaker performance">
           <String Value="native or proficient" />

@@ -21,8 +21,10 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Monsoon Wedding.Women talking in the kitchen" Name="Monsoon Wedding.Women talking in the kitchen" Img="" Href="">
-      <Description></Description>
+    <Item Id="Monsoon Wedding.Women talking in the kitchen" Name="Monsoon Wedding.Women talking in the kitchen" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Monsoon Wedding&amp;conversation=Monsoon Wedding.Women talking in the kitchen">
+      <Description>The wife speaks to the maid in Hindi.
+The grandmother speaks in Hindi.
+And the wife and the aunt speak in English</Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="Monsoon Wedding.Women talking in the kitchen" />
@@ -31,10 +33,22 @@
           <DateTime Value="2016-12-21T07:58:03" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-12-21T07:58:03" />
+          <DateTime Value="2016-12-27T08:31:00" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Monsoon Wedding" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Monsoon Wedding" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="3" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
         </Facet>
         <Facet Name="L3ST languages: count">
           <Number Value="0" />
