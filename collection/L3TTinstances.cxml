@@ -12381,7 +12381,7 @@ And the wife and the aunt speak in English</Description>
                     <DateTime Value="2017-01-10T04:54:31" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2017-01-11T02:59:11" />
+                    <DateTime Value="2017-01-11T09:10:29" />
                 </Facet>
                 <Facet Name="L2 language">
                     <String Value="Spanish" />
@@ -12400,7 +12400,8 @@ And the wife and the aunt speak in English</Description>
                     <String Value="+ No L3TT: L3-instance omitted" />
                 </Facet>
                 <Facet Name="L3 mode change">
-                    <String Value="None" />
+                    <String Value="- Oral diegetic on-screen" />
+                    <String Value="+ Written diegetic" />
                 </Facet>
                 <Facet Name="L3 sources change">
                     <String Value="None" />
@@ -12433,7 +12434,7 @@ And the wife and the aunt speak in English</Description>
                     <String Value="Conversation can be followed regardless of meaning" />
                 </Facet>
                 <Facet Name="L3TT mode, written/spoken, diegetic">
-                    <String Value="Oral diegetic on-screen" />
+                    <String Value="Written diegetic" />
                 </Facet>
                 <Facet Name="L3TT sources">
                     <String Value="Oral L3: different sources " />
@@ -12587,7 +12588,7 @@ And the wife and the aunt speak in English</Description>
                     <DateTime Value="2017-01-10T02:17:55" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2017-01-11T06:47:13" />
+                    <DateTime Value="2017-01-11T09:16:51" />
                 </Facet>
                 <Facet Name="L2 language">
                     <String Value="Spanish" />
@@ -12605,7 +12606,8 @@ And the wife and the aunt speak in English</Description>
                     <String Value="None" />
                 </Facet>
                 <Facet Name="L3 mode change">
-                    <String Value="None" />
+                    <String Value="- Oral diegetic on-screen" />
+                    <String Value="+ Written diegetic" />
                 </Facet>
                 <Facet Name="L3 sources change">
                     <String Value="- Oral L3: single source" />
@@ -12636,7 +12638,7 @@ And the wife and the aunt speak in English</Description>
                     <String Value="Conversation can be followed regardless of meaning" />
                 </Facet>
                 <Facet Name="L3TT mode, written/spoken, diegetic">
-                    <String Value="Oral diegetic on-screen" />
+                    <String Value="Written diegetic" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="Santamaria" />
@@ -12970,7 +12972,114 @@ And the wife and the aunt speak in English</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Quantum of Solace.Camille and Dominic.Strong accents.SpanishDub" Name="Quantum of Solace.Camille and Dominic.Strong accents.SpanishDub" Img="#126" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Camille and Dominic&amp;L3STinstance=Quantum of Solace.Camille and Dominic.Strong accents&amp;L3TTinstance=Quantum of Solace.Camille and Dominic.Strong accents.SpanishDub">
+        <Item Id="Quantum of Solace.Buying a ticket in Austria.Visual channel only.SpanishSub" Name="Quantum of Solace.Buying a ticket in Austria.Visual channel only.SpanishSub" Img="#126" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Buying a ticket in Austria&amp;L3STinstance=Quantum of Solace.Buying a ticket in Austria.Visual channel only&amp;L3TTinstance=Quantum of Solace.Buying a ticket in Austria.Visual channel only.SpanishSub">
+            <Description>We can read that Bond's visa has been cancelled</Description>
+            <Facets>
+                <Facet Name="Conversation duration (sec)">
+                    <String Value="C. 41-60" />
+                </Facet>
+                <Facet Name="Conversation features for L3-instance change">
+                    <String Value="- information" />
+                    <String Value="+ anecdote / story" />
+                </Facet>
+                <Facet Name="Conversation features for L3TT-instance">
+                    <String Value="anecdote / story" />
+                </Facet>
+                <Facet Name="Conversation Reference Id">
+                    <String Value="Quantum of Solace.Buying a ticket in Austria" />
+                </Facet>
+                <Facet Name="Conversation start time (min)">
+                    <Number Value="45" />
+                </Facet>
+                <Facet Name="Distribution countries (TT)">
+                    <String Value="Spain" />
+                </Facet>
+                <Facet Name="Film Reference Id">
+                    <String Value="Quantum of Solace" />
+                </Facet>
+                <Facet Name="Film Title TT">
+                    <String Value="Quantum of Solace" />
+                </Facet>
+                <Facet Name="Film TT Blockbuster">
+                    <String Value="YES (top 20)" />
+                </Facet>
+                <Facet Name="Info created">
+                    <DateTime Value="2017-01-11T11:37:20" />
+                </Facet>
+                <Facet Name="Info updated">
+                    <DateTime Value="2017-01-11T09:18:45" />
+                </Facet>
+                <Facet Name="L2 language">
+                    <String Value="Spanish" />
+                </Facet>
+                <Facet Name="L2 mode">
+                    <String Value="Subtitled" />
+                </Facet>
+                <Facet Name="L2 same as L3ST">
+                    <String Value="No" />
+                </Facet>
+                <Facet Name="L3 functions change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3 language type change">
+                    <String Value="- Real" />
+                    <String Value="+ No L3TT: L3-instance omitted" />
+                </Facet>
+                <Facet Name="L3 mode change">
+                    <String Value="- Oral diegetic on-screen" />
+                </Facet>
+                <Facet Name="L3 sources change">
+                    <String Value="- Oral L3: single source" />
+                    <String Value="+ " />
+                </Facet>
+                <Facet Name="L3ST conveyed as L3TT">
+                    <String Value="No" />
+                </Facet>
+                <Facet Name="L3ST-instance Reference Id">
+                    <String Value="Quantum of Solace.Buying a ticket in Austria.Visual channel only" />
+                </Facet>
+                <Facet Name="L3TT functions">
+                    <String Value="Metalinguistic" />
+                </Facet>
+                <Facet Name="L3TT language">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3TT language type">
+                    <String Value="No L3TT: L3-instance omitted" />
+                </Facet>
+                <Facet Name="L3TT meaning decipherable">
+                    <String Value="NO" />
+                </Facet>
+                <Facet Name="L3TT meant to be understood">
+                    <String Value="YES, the gist, the implications of what is happening" />
+                </Facet>
+                <Facet Name="L3TT merely represented">
+                    <String Value="NO / Not applicable" />
+                </Facet>
+                <Facet Name="L3TT message required for understanding">
+                    <String Value="Conversation can be followed regardless of meaning" />
+                </Facet>
+                <Facet Name="L3TT mode, written/spoken, diegetic">
+                    <String Value="Written diegetic" />
+                </Facet>
+                <Facet Name="Metadata Editors">
+                    <String Value="Santamaria" />
+                </Facet>
+                <Facet Name="Quality of L3TT speaker performance">
+                    <String Value="native or proficient" />
+                </Facet>
+                <Facet Name="Reference Id">
+                    <String Value="Quantum of Solace.Buying a ticket in Austria.Visual channel only.SpanishSub" />
+                </Facet>
+                <Facet Name="Tags">
+                    <String Value="Only visual information" />
+                </Facet>
+                <Facet Name="Year TT released">
+                    <Number Value="2008" />
+                </Facet>
+            </Facets>
+        </Item>
+        <Item Id="Quantum of Solace.Camille and Dominic.Strong accents.SpanishDub" Name="Quantum of Solace.Camille and Dominic.Strong accents.SpanishDub" Img="#127" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Camille and Dominic&amp;L3STinstance=Quantum of Solace.Camille and Dominic.Strong accents&amp;L3TTinstance=Quantum of Solace.Camille and Dominic.Strong accents.SpanishDub">
             <Description>Camille is angry with Dominic after she discovered he wanted to kill her</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -13077,7 +13186,7 @@ And the wife and the aunt speak in English</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Quantum of Solace.Camille and Dominic.Strong accents.SpanishSub" Name="Quantum of Solace.Camille and Dominic.Strong accents.SpanishSub" Img="#127" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Camille and Dominic&amp;L3STinstance=Quantum of Solace.Camille and Dominic.Strong accents&amp;L3TTinstance=Quantum of Solace.Camille and Dominic.Strong accents.SpanishSub">
+        <Item Id="Quantum of Solace.Camille and Dominic.Strong accents.SpanishSub" Name="Quantum of Solace.Camille and Dominic.Strong accents.SpanishSub" Img="#128" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Camille and Dominic&amp;L3STinstance=Quantum of Solace.Camille and Dominic.Strong accents&amp;L3TTinstance=Quantum of Solace.Camille and Dominic.Strong accents.SpanishSub">
             <Description>Camille is angry with Dominic after she discovered he wanted to kill her</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -13111,7 +13220,7 @@ And the wife and the aunt speak in English</Description>
                     <DateTime Value="2017-01-10T05:19:13" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2017-01-11T03:15:39" />
+                    <DateTime Value="2017-01-11T09:19:12" />
                 </Facet>
                 <Facet Name="L2 language">
                     <String Value="Spanish" />
@@ -13186,7 +13295,7 @@ And the wife and the aunt speak in English</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Quantum of Solace.Conversation on Bond at the harbour.In French.SpanishDub" Name="Quantum of Solace.Conversation on Bond at the harbour.In French.SpanishDub" Img="#128" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Conversation on Bond at the harbour&amp;L3STinstance=Quantum of Solace.Conversation on Bond at the harbour.In French&amp;L3TTinstance=Quantum of Solace.Conversation on Bond at the harbour.In French.SpanishDub">
+        <Item Id="Quantum of Solace.Conversation on Bond at the harbour.In French.SpanishDub" Name="Quantum of Solace.Conversation on Bond at the harbour.In French.SpanishDub" Img="#129" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Conversation on Bond at the harbour&amp;L3STinstance=Quantum of Solace.Conversation on Bond at the harbour.In French&amp;L3TTinstance=Quantum of Solace.Conversation on Bond at the harbour.In French.SpanishDub">
             <Description>Elvis and henchman talk about Bond's purpose to get close to the gate in the harbour</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -13288,7 +13397,7 @@ And the wife and the aunt speak in English</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Quantum of Solace.Conversation on Bond at the harbour.In French.SpanishSub" Name="Quantum of Solace.Conversation on Bond at the harbour.In French.SpanishSub" Img="#129" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Conversation on Bond at the harbour&amp;L3STinstance=Quantum of Solace.Conversation on Bond at the harbour.In French&amp;L3TTinstance=Quantum of Solace.Conversation on Bond at the harbour.In French.SpanishSub">
+        <Item Id="Quantum of Solace.Conversation on Bond at the harbour.In French.SpanishSub" Name="Quantum of Solace.Conversation on Bond at the harbour.In French.SpanishSub" Img="#130" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Conversation on Bond at the harbour&amp;L3STinstance=Quantum of Solace.Conversation on Bond at the harbour.In French&amp;L3TTinstance=Quantum of Solace.Conversation on Bond at the harbour.In French.SpanishSub">
             <Description>Elvis and henchman talk about Bond's purpose to get close to the gate in the harbour</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -13322,13 +13431,13 @@ And the wife and the aunt speak in English</Description>
                     <DateTime Value="2017-01-10T04:39:06" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2017-01-11T03:19:43" />
+                    <DateTime Value="2017-01-11T09:19:54" />
                 </Facet>
                 <Facet Name="L2 language">
-                    <String Value="English" />
+                    <String Value="Spanish" />
                 </Facet>
                 <Facet Name="L2 mode">
-                    <String Value="Dubbed" />
+                    <String Value="Subtitled" />
                 </Facet>
                 <Facet Name="L2 same as L3ST">
                     <String Value="No" />
@@ -13391,7 +13500,7 @@ And the wife and the aunt speak in English</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Quantum of Solace.Elvis on the phone.Unaware of Camille's presence.SpanishDub" Name="Quantum of Solace.Elvis on the phone.Unaware of Camille's presence.SpanishDub" Img="#130" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Elvis on the phone&amp;L3STinstance=Quantum of Solace.Elvis on the phone.Unaware of Camille's presence&amp;L3TTinstance=Quantum of Solace.Elvis on the phone.Unaware of Camille's presence.SpanishDub">
+        <Item Id="Quantum of Solace.Elvis on the phone.Unaware of Camille's presence.SpanishDub" Name="Quantum of Solace.Elvis on the phone.Unaware of Camille's presence.SpanishDub" Img="#131" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Elvis on the phone&amp;L3STinstance=Quantum of Solace.Elvis on the phone.Unaware of Camille's presence&amp;L3TTinstance=Quantum of Solace.Elvis on the phone.Unaware of Camille's presence.SpanishDub">
             <Description>Elvis is talking on the phone while Camille aproaches and gets in</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -13425,10 +13534,10 @@ And the wife and the aunt speak in English</Description>
                     <DateTime Value="2017-01-10T02:48:43" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2017-01-11T03:11:43" />
+                    <DateTime Value="2017-01-11T09:21:16" />
                 </Facet>
                 <Facet Name="L2 language">
-                    <String Value="English" />
+                    <String Value="Spanish" />
                 </Facet>
                 <Facet Name="L2 mode">
                     <String Value="Dubbed" />
@@ -13499,7 +13608,7 @@ And the wife and the aunt speak in English</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Quantum of Solace.Elvis on the phone.Unaware of Camille's presence.SpanishSub" Name="Quantum of Solace.Elvis on the phone.Unaware of Camille's presence.SpanishSub" Img="#131" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Elvis on the phone&amp;L3STinstance=Quantum of Solace.Elvis on the phone.Unaware of Camille's presence&amp;L3TTinstance=Quantum of Solace.Elvis on the phone.Unaware of Camille's presence.SpanishSub">
+        <Item Id="Quantum of Solace.Elvis on the phone.Unaware of Camille's presence.SpanishSub" Name="Quantum of Solace.Elvis on the phone.Unaware of Camille's presence.SpanishSub" Img="#132" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Elvis on the phone&amp;L3STinstance=Quantum of Solace.Elvis on the phone.Unaware of Camille's presence&amp;L3TTinstance=Quantum of Solace.Elvis on the phone.Unaware of Camille's presence.SpanishSub">
             <Description>Elvis is talking on the phone while Camille aproaches and gets in</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -13533,10 +13642,10 @@ And the wife and the aunt speak in English</Description>
                     <DateTime Value="2017-01-10T02:48:43" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2017-01-11T03:12:49" />
+                    <DateTime Value="2017-01-11T09:20:33" />
                 </Facet>
                 <Facet Name="L2 language">
-                    <String Value="English" />
+                    <String Value="Spanish" />
                 </Facet>
                 <Facet Name="L2 mode">
                     <String Value="Subtitled" />
@@ -13608,7 +13717,7 @@ And the wife and the aunt speak in English</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Quantum of Solace.French accent.Making arrangements.SpanishDub" Name="Quantum of Solace.French accent.Making arrangements.SpanishDub" Img="#132" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.French accent&amp;L3STinstance=Quantum of Solace.French accent.Making arrangements&amp;L3TTinstance=Quantum of Solace.French accent.Making arrangements.SpanishDub">
+        <Item Id="Quantum of Solace.French accent.Making arrangements.SpanishDub" Name="Quantum of Solace.French accent.Making arrangements.SpanishDub" Img="#133" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.French accent&amp;L3STinstance=Quantum of Solace.French accent.Making arrangements&amp;L3TTinstance=Quantum of Solace.French accent.Making arrangements.SpanishDub">
             <Description>Conversation between Mathis and Bond. Mathis has a strong French accent
  </Description>
             <Facets>
@@ -13711,7 +13820,7 @@ And the wife and the aunt speak in English</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Quantum of Solace.French accent.Making arrangements.SpanishSub" Name="Quantum of Solace.French accent.Making arrangements.SpanishSub" Img="#133" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.French accent&amp;L3STinstance=Quantum of Solace.French accent.Making arrangements&amp;L3TTinstance=Quantum of Solace.French accent.Making arrangements.SpanishSub">
+        <Item Id="Quantum of Solace.French accent.Making arrangements.SpanishSub" Name="Quantum of Solace.French accent.Making arrangements.SpanishSub" Img="#134" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.French accent&amp;L3STinstance=Quantum of Solace.French accent.Making arrangements&amp;L3TTinstance=Quantum of Solace.French accent.Making arrangements.SpanishSub">
             <Description>Conversation between Mathis and Bond. Mathis has a strong French accent
  </Description>
             <Facets>
@@ -13746,7 +13855,7 @@ And the wife and the aunt speak in English</Description>
                     <DateTime Value="2017-01-11T12:17:16" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2017-01-11T03:24:32" />
+                    <DateTime Value="2017-01-11T09:23:03" />
                 </Facet>
                 <Facet Name="L2 language">
                     <String Value="Spanish" />
@@ -13765,7 +13874,8 @@ And the wife and the aunt speak in English</Description>
                     <String Value="+ " />
                 </Facet>
                 <Facet Name="L3 mode change">
-                    <String Value="None" />
+                    <String Value="- Oral diegetic on-screen" />
+                    <String Value="+ Written diegetic" />
                 </Facet>
                 <Facet Name="L3 sources change">
                     <String Value="None" />
@@ -13795,7 +13905,7 @@ And the wife and the aunt speak in English</Description>
                     <String Value="Yes" />
                 </Facet>
                 <Facet Name="L3TT mode, written/spoken, diegetic">
-                    <String Value="Oral diegetic on-screen" />
+                    <String Value="Written diegetic" />
                 </Facet>
                 <Facet Name="L3TT sources">
                     <String Value="Oral L3: single source" />
@@ -13814,7 +13924,7 @@ And the wife and the aunt speak in English</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Quantum of Solace.Gemma and Mathis.In Italian.SpanishDub" Name="Quantum of Solace.Gemma and Mathis.In Italian.SpanishDub" Img="#134" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Gemma and Mathis&amp;L3STinstance=Quantum of Solace.Gemma and Mathis.In Italian&amp;L3TTinstance=Quantum of Solace.Gemma and Mathis.In Italian.SpanishDub">
+        <Item Id="Quantum of Solace.Gemma and Mathis.In Italian.SpanishDub" Name="Quantum of Solace.Gemma and Mathis.In Italian.SpanishDub" Img="#135" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Gemma and Mathis&amp;L3STinstance=Quantum of Solace.Gemma and Mathis.In Italian&amp;L3TTinstance=Quantum of Solace.Gemma and Mathis.In Italian.SpanishDub">
             <Facets>
                 <Facet Name="Conversation duration (sec)">
                     <String Value="B. 21-40" />
@@ -13918,7 +14028,7 @@ And the wife and the aunt speak in English</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Quantum of Solace.Gemma and Mathis.In Italian.SpanishSub" Name="Quantum of Solace.Gemma and Mathis.In Italian.SpanishSub" Img="#135" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Gemma and Mathis&amp;L3STinstance=Quantum of Solace.Gemma and Mathis.In Italian&amp;L3TTinstance=Quantum of Solace.Gemma and Mathis.In Italian.SpanishSub">
+        <Item Id="Quantum of Solace.Gemma and Mathis.In Italian.SpanishSub" Name="Quantum of Solace.Gemma and Mathis.In Italian.SpanishSub" Img="#136" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Gemma and Mathis&amp;L3STinstance=Quantum of Solace.Gemma and Mathis.In Italian&amp;L3TTinstance=Quantum of Solace.Gemma and Mathis.In Italian.SpanishSub">
             <Facets>
                 <Facet Name="Conversation duration (sec)">
                     <String Value="B. 21-40" />
@@ -13951,7 +14061,7 @@ And the wife and the aunt speak in English</Description>
                     <DateTime Value="2017-01-11T12:34:12" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2017-01-11T12:37:22" />
+                    <DateTime Value="2017-01-11T09:23:38" />
                 </Facet>
                 <Facet Name="L2 language">
                     <String Value="Spanish" />
@@ -14022,7 +14132,7 @@ And the wife and the aunt speak in English</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Quantum of Solace.General Medrano shouts.Spanish.SpanishDub" Name="Quantum of Solace.General Medrano shouts.Spanish.SpanishDub" Img="#136" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.General Medrano shouts&amp;L3STinstance=Quantum of Solace.General Medrano shouts.Spanish&amp;L3TTinstance=Quantum of Solace.General Medrano shouts.Spanish.SpanishDub">
+        <Item Id="Quantum of Solace.General Medrano shouts.Spanish.SpanishDub" Name="Quantum of Solace.General Medrano shouts.Spanish.SpanishDub" Img="#137" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.General Medrano shouts&amp;L3STinstance=Quantum of Solace.General Medrano shouts.Spanish&amp;L3TTinstance=Quantum of Solace.General Medrano shouts.Spanish.SpanishDub">
             <Description>General Medrano shouts "Siganlos"</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -14056,10 +14166,10 @@ And the wife and the aunt speak in English</Description>
                     <DateTime Value="2017-01-10T05:30:23" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2017-01-11T03:25:51" />
+                    <DateTime Value="2017-01-11T09:24:21" />
                 </Facet>
                 <Facet Name="L2 language">
-                    <String Value="English" />
+                    <String Value="Spanish" />
                 </Facet>
                 <Facet Name="L2 mode">
                     <String Value="Dubbed" />
@@ -14075,7 +14185,7 @@ And the wife and the aunt speak in English</Description>
                     <String Value="+ L-main variety (e.g. dialect, sociolect, idiolect, slang)" />
                 </Facet>
                 <Facet Name="L3 mode change">
-                    <String Value="+ Oral diegetic on-screen" />
+                    <String Value="+ Written diegetic" />
                 </Facet>
                 <Facet Name="L3 sources change">
                     <String Value="None" />
@@ -14108,7 +14218,7 @@ And the wife and the aunt speak in English</Description>
                     <String Value="Conversation can be followed regardless of meaning" />
                 </Facet>
                 <Facet Name="L3TT mode, written/spoken, diegetic">
-                    <String Value="Oral diegetic on-screen" />
+                    <String Value="Written diegetic" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="Santamaria" />
@@ -14124,7 +14234,7 @@ And the wife and the aunt speak in English</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Quantum of Solace.General Medrano shouts.Spanish.SpanishSub" Name="Quantum of Solace.General Medrano shouts.Spanish.SpanishSub" Img="#137" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.General Medrano shouts&amp;L3STinstance=Quantum of Solace.General Medrano shouts.Spanish&amp;L3TTinstance=Quantum of Solace.General Medrano shouts.Spanish.SpanishSub">
+        <Item Id="Quantum of Solace.General Medrano shouts.Spanish.SpanishSub" Name="Quantum of Solace.General Medrano shouts.Spanish.SpanishSub" Img="#138" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.General Medrano shouts&amp;L3STinstance=Quantum of Solace.General Medrano shouts.Spanish&amp;L3TTinstance=Quantum of Solace.General Medrano shouts.Spanish.SpanishSub">
             <Description>General Medrano shouts "Siganlos"</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -14220,7 +14330,7 @@ And the wife and the aunt speak in English</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Quantum of Solace.James Bond meets Camille Montes.Spanish accent.SpanishDub" Name="Quantum of Solace.James Bond meets Camille Montes.Spanish accent.SpanishDub" Img="#138" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.James Bond meets Camille Montes&amp;L3STinstance=Quantum of Solace.James Bond meets Camille Montes.Spanish accent&amp;L3TTinstance=Quantum of Solace.James Bond meets Camille Montes.Spanish accent.SpanishDub">
+        <Item Id="Quantum of Solace.James Bond meets Camille Montes.Spanish accent.SpanishDub" Name="Quantum of Solace.James Bond meets Camille Montes.Spanish accent.SpanishDub" Img="#139" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.James Bond meets Camille Montes&amp;L3STinstance=Quantum of Solace.James Bond meets Camille Montes.Spanish accent&amp;L3TTinstance=Quantum of Solace.James Bond meets Camille Montes.Spanish accent.SpanishDub">
             <Description>James Bond asks for messages to the front door lady at the hotel</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -14326,7 +14436,7 @@ And the wife and the aunt speak in English</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Quantum of Solace.James Bond meets Camille Montes.Spanish accent.SpanishSub" Name="Quantum of Solace.James Bond meets Camille Montes.Spanish accent.SpanishSub" Img="#139" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.James Bond meets Camille Montes&amp;L3STinstance=Quantum of Solace.James Bond meets Camille Montes.Spanish accent&amp;L3TTinstance=Quantum of Solace.James Bond meets Camille Montes.Spanish accent.SpanishSub">
+        <Item Id="Quantum of Solace.James Bond meets Camille Montes.Spanish accent.SpanishSub" Name="Quantum of Solace.James Bond meets Camille Montes.Spanish accent.SpanishSub" Img="#140" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.James Bond meets Camille Montes&amp;L3STinstance=Quantum of Solace.James Bond meets Camille Montes.Spanish accent&amp;L3TTinstance=Quantum of Solace.James Bond meets Camille Montes.Spanish accent.SpanishSub">
             <Description>James Bond asks for messages to the front door lady at the hotel</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -14360,7 +14470,7 @@ And the wife and the aunt speak in English</Description>
                     <DateTime Value="2017-01-10T02:04:07" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2017-01-11T06:51:08" />
+                    <DateTime Value="2017-01-11T09:25:10" />
                 </Facet>
                 <Facet Name="L2 language">
                     <String Value="Spanish" />
@@ -14378,7 +14488,8 @@ And the wife and the aunt speak in English</Description>
                     <String Value="None" />
                 </Facet>
                 <Facet Name="L3 mode change">
-                    <String Value="None" />
+                    <String Value="- Oral diegetic on-screen" />
+                    <String Value="+ Written diegetic" />
                 </Facet>
                 <Facet Name="L3 sources change">
                     <String Value="- Oral L3: different sources " />
@@ -14412,7 +14523,7 @@ And the wife and the aunt speak in English</Description>
                     <String Value="Yes" />
                 </Facet>
                 <Facet Name="L3TT mode, written/spoken, diegetic">
-                    <String Value="Oral diegetic on-screen" />
+                    <String Value="Written diegetic" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="Santamaria" />
@@ -14431,7 +14542,427 @@ And the wife and the aunt speak in English</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Quantum of Solace.Opera.Lyrics.SpanishDub" Name="Quantum of Solace.Opera.Lyrics.SpanishDub" Img="#140" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Opera&amp;L3STinstance=Quantum of Solace.Opera.Lyrics&amp;L3TTinstance=Quantum of Solace.Opera.Lyrics.SpanishDub">
+        <Item Id="Quantum of Solace.Mathis interprets taxi driver.Spanish into English.SpanishDub" Name="Quantum of Solace.Mathis interprets taxi driver.Spanish into English.SpanishDub" Img="#141" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Mathis interprets taxi driver&amp;L3STinstance=Quantum of Solace.Mathis interprets taxi driver.Spanish into English&amp;L3TTinstance=Quantum of Solace.Mathis interprets taxi driver.Spanish into English.SpanishDub">
+            <Description>Mathis is on the phone while The taxi driver who takes him, Bond and agent Strawberry Fields is complaining about environmental issues, the government etc. Mathis acts as an interpreter for Bond
+</Description>
+            <Facets>
+                <Facet Name="Conversation duration (sec)">
+                    <String Value="A. 1-20" />
+                </Facet>
+                <Facet Name="Conversation features for L3-instance change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="Conversation features for L3TT-instance">
+                    <String Value="information" />
+                </Facet>
+                <Facet Name="Conversation Reference Id">
+                    <String Value="Quantum of Solace.Mathis interprets taxi driver" />
+                </Facet>
+                <Facet Name="Conversation start time (min)">
+                    <Number Value="50" />
+                </Facet>
+                <Facet Name="Distribution countries (TT)">
+                    <String Value="Spain" />
+                </Facet>
+                <Facet Name="Film Reference Id">
+                    <String Value="Quantum of Solace" />
+                </Facet>
+                <Facet Name="Film Title TT">
+                    <String Value="Quantum of Solace" />
+                </Facet>
+                <Facet Name="Film TT Blockbuster">
+                    <String Value="YES (top 20)" />
+                </Facet>
+                <Facet Name="Info created">
+                    <DateTime Value="2017-01-11T09:49:55" />
+                </Facet>
+                <Facet Name="Info updated">
+                    <DateTime Value="2017-01-11T09:54:38" />
+                </Facet>
+                <Facet Name="L2 language">
+                    <String Value="Spanish" />
+                </Facet>
+                <Facet Name="L2 mode">
+                    <String Value="Dubbed" />
+                </Facet>
+                <Facet Name="L2 same as L3ST">
+                    <String Value="Yes" />
+                </Facet>
+                <Facet Name="L3 functions change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3 language type change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3 mode change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3 sources change">
+                    <String Value="- Bilingual (L3&amp;main): same source " />
+                    <String Value="+ Rephrase interlingually: different sources" />
+                </Facet>
+                <Facet Name="L3ST conveyed as L3TT">
+                    <String Value="No" />
+                </Facet>
+                <Facet Name="L3ST-instance Reference Id">
+                    <String Value="Quantum of Solace.Mathis interprets taxi driver.Spanish into English" />
+                </Facet>
+                <Facet Name="L3TT functions">
+                    <String Value="Character portrayal" />
+                </Facet>
+                <Facet Name="L3TT language">
+                    <String Value="Spanish" />
+                </Facet>
+                <Facet Name="L3TT language type">
+                    <String Value="Real" />
+                </Facet>
+                <Facet Name="L3TT meaning decipherable">
+                    <String Value="YES, through translation or clear from picture" />
+                </Facet>
+                <Facet Name="L3TT meant to be understood">
+                    <String Value="YES, (almost) completely" />
+                </Facet>
+                <Facet Name="L3TT merely represented">
+                    <String Value="NO / Not applicable" />
+                </Facet>
+                <Facet Name="L3TT message required for understanding">
+                    <String Value="Yes" />
+                </Facet>
+                <Facet Name="L3TT mode, written/spoken, diegetic">
+                    <String Value="Oral diegetic on-screen" />
+                </Facet>
+                <Facet Name="L3TT sources">
+                    <String Value="Rephrase interlingually: different sources" />
+                </Facet>
+                <Facet Name="Metadata Editors">
+                    <String Value="Santamaria" />
+                </Facet>
+                <Facet Name="Reference Id">
+                    <String Value="Quantum of Solace.Mathis interprets taxi driver.Spanish into English.SpanishDub" />
+                </Facet>
+                <Facet Name="Tags">
+                    <String Value="Interpretation" />
+                </Facet>
+                <Facet Name="Year TT released">
+                    <Number Value="2008" />
+                </Facet>
+            </Facets>
+        </Item>
+        <Item Id="Quantum of Solace.Mathis interprets taxi driver.Spanish into English.SpanishSub" Name="Quantum of Solace.Mathis interprets taxi driver.Spanish into English.SpanishSub" Img="#142" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Mathis interprets taxi driver&amp;L3STinstance=Quantum of Solace.Mathis interprets taxi driver.Spanish into English&amp;L3TTinstance=Quantum of Solace.Mathis interprets taxi driver.Spanish into English.SpanishSub">
+            <Description>Mathis is on the phone while The taxi driver who takes him, Bond and agent Strawberry Fields is complaining about environmental issues, the government etc. Mathis acts as an interpreter for Bond
+</Description>
+            <Facets>
+                <Facet Name="Conversation duration (sec)">
+                    <String Value="A. 1-20" />
+                </Facet>
+                <Facet Name="Conversation features for L3-instance change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="Conversation features for L3TT-instance">
+                    <String Value="information" />
+                </Facet>
+                <Facet Name="Conversation Reference Id">
+                    <String Value="Quantum of Solace.Mathis interprets taxi driver" />
+                </Facet>
+                <Facet Name="Conversation start time (min)">
+                    <Number Value="50" />
+                </Facet>
+                <Facet Name="Distribution countries (TT)">
+                    <String Value="Spain" />
+                </Facet>
+                <Facet Name="Film Reference Id">
+                    <String Value="Quantum of Solace" />
+                </Facet>
+                <Facet Name="Film Title TT">
+                    <String Value="Quantum of Solace" />
+                </Facet>
+                <Facet Name="Film TT Blockbuster">
+                    <String Value="YES (top 20)" />
+                </Facet>
+                <Facet Name="Info created">
+                    <DateTime Value="2017-01-11T09:49:55" />
+                </Facet>
+                <Facet Name="Info updated">
+                    <DateTime Value="2017-01-11T09:52:18" />
+                </Facet>
+                <Facet Name="L2 language">
+                    <String Value="Spanish" />
+                </Facet>
+                <Facet Name="L2 mode">
+                    <String Value="Subtitled" />
+                </Facet>
+                <Facet Name="L2 same as L3ST">
+                    <String Value="Yes" />
+                </Facet>
+                <Facet Name="L3 functions change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3 language type change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3 mode change">
+                    <String Value="- Oral diegetic on-screen" />
+                    <String Value="+ Written diegetic" />
+                </Facet>
+                <Facet Name="L3 sources change">
+                    <String Value="- Bilingual (L3&amp;main): same source " />
+                    <String Value="+ Rephrase interlingually: different sources" />
+                </Facet>
+                <Facet Name="L3ST conveyed as L3TT">
+                    <String Value="No" />
+                </Facet>
+                <Facet Name="L3ST-instance Reference Id">
+                    <String Value="Quantum of Solace.Mathis interprets taxi driver.Spanish into English" />
+                </Facet>
+                <Facet Name="L3TT functions">
+                    <String Value="Character portrayal" />
+                </Facet>
+                <Facet Name="L3TT language">
+                    <String Value="Spanish" />
+                </Facet>
+                <Facet Name="L3TT language type">
+                    <String Value="Real" />
+                </Facet>
+                <Facet Name="L3TT meaning decipherable">
+                    <String Value="YES, through translation or clear from picture" />
+                </Facet>
+                <Facet Name="L3TT meant to be understood">
+                    <String Value="YES, (almost) completely" />
+                </Facet>
+                <Facet Name="L3TT merely represented">
+                    <String Value="NO / Not applicable" />
+                </Facet>
+                <Facet Name="L3TT message required for understanding">
+                    <String Value="Yes" />
+                </Facet>
+                <Facet Name="L3TT mode, written/spoken, diegetic">
+                    <String Value="Written diegetic" />
+                </Facet>
+                <Facet Name="L3TT sources">
+                    <String Value="Rephrase interlingually: different sources" />
+                </Facet>
+                <Facet Name="Metadata Editors">
+                    <String Value="Santamaria" />
+                </Facet>
+                <Facet Name="Reference Id">
+                    <String Value="Quantum of Solace.Mathis interprets taxi driver.Spanish into English.SpanishSub" />
+                </Facet>
+                <Facet Name="Tags">
+                    <String Value="Interpretation" />
+                </Facet>
+                <Facet Name="Year TT released">
+                    <Number Value="2008" />
+                </Facet>
+            </Facets>
+        </Item>
+        <Item Id="Quantum of Solace.Mathis on the phone in the taxi.In Spanish.SpanishDub" Name="Quantum of Solace.Mathis on the phone in the taxi.In Spanish.SpanishDub" Img="#143" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Mathis on the phone in the taxi&amp;L3STinstance=Quantum of Solace.Mathis on the phone in the taxi.In Spanish&amp;L3TTinstance=Quantum of Solace.Mathis on the phone in the taxi.In Spanish.SpanishDub">
+            <Description>Mathis is on the phone while The taxi driver who takes him, Bond and agent Strawberry Fields is complaining about environmental issues, the government etc.
+</Description>
+            <Facets>
+                <Facet Name="Conversation duration (sec)">
+                    <String Value="A. 1-20" />
+                </Facet>
+                <Facet Name="Conversation features for L3-instance change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="Conversation features for L3TT-instance">
+                    <String Value="phone call / intercom / two-way radio" />
+                </Facet>
+                <Facet Name="Conversation Reference Id">
+                    <String Value="Quantum of Solace.Mathis on the phone in the taxi" />
+                </Facet>
+                <Facet Name="Conversation start time (min)">
+                    <Number Value="51" />
+                </Facet>
+                <Facet Name="Distribution countries (TT)">
+                    <String Value="Spain" />
+                </Facet>
+                <Facet Name="Film Reference Id">
+                    <String Value="Quantum of Solace" />
+                </Facet>
+                <Facet Name="Film Title TT">
+                    <String Value="Quantum of Solace" />
+                </Facet>
+                <Facet Name="Film TT Blockbuster">
+                    <String Value="YES (top 20)" />
+                </Facet>
+                <Facet Name="Info created">
+                    <DateTime Value="2017-01-11T09:42:08" />
+                </Facet>
+                <Facet Name="Info updated">
+                    <DateTime Value="2017-01-11T09:44:53" />
+                </Facet>
+                <Facet Name="L2 language">
+                    <String Value="Spanish" />
+                </Facet>
+                <Facet Name="L2 mode">
+                    <String Value="Subtitled" />
+                </Facet>
+                <Facet Name="L2 same as L3ST">
+                    <String Value="Yes" />
+                </Facet>
+                <Facet Name="L3 functions change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3 language type change">
+                    <String Value="- Real" />
+                    <String Value="+ L-main variety (e.g. dialect, sociolect, idiolect, slang)" />
+                </Facet>
+                <Facet Name="L3 mode change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3 sources change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3ST conveyed as L3TT">
+                    <String Value="Yes" />
+                </Facet>
+                <Facet Name="L3ST-instance Reference Id">
+                    <String Value="Quantum of Solace.Mathis on the phone in the taxi.In Spanish" />
+                </Facet>
+                <Facet Name="L3TT functions">
+                    <String Value="Plot (twist)" />
+                </Facet>
+                <Facet Name="L3TT language">
+                    <String Value="Spanish" />
+                </Facet>
+                <Facet Name="L3TT language type">
+                    <String Value="L-main variety (e.g. dialect, sociolect, idiolect, slang)" />
+                </Facet>
+                <Facet Name="L3TT meaning decipherable">
+                    <String Value="YES, through translation or clear from picture" />
+                </Facet>
+                <Facet Name="L3TT meant to be understood">
+                    <String Value="YES, (almost) completely" />
+                </Facet>
+                <Facet Name="L3TT merely represented">
+                    <String Value="NO / Not applicable" />
+                </Facet>
+                <Facet Name="L3TT message required for understanding">
+                    <String Value="Yes" />
+                </Facet>
+                <Facet Name="L3TT mode, written/spoken, diegetic">
+                    <String Value="Oral diegetic on-screen" />
+                </Facet>
+                <Facet Name="Metadata Editors">
+                    <String Value="Santamaria" />
+                </Facet>
+                <Facet Name="Quality of L3TT speaker performance">
+                    <String Value="native or proficient" />
+                </Facet>
+                <Facet Name="Reference Id">
+                    <String Value="Quantum of Solace.Mathis on the phone in the taxi.In Spanish.SpanishDub" />
+                </Facet>
+                <Facet Name="Year TT released">
+                    <Number Value="2008" />
+                </Facet>
+            </Facets>
+        </Item>
+        <Item Id="Quantum of Solace.Mathis on the phone in the taxi.In Spanish.SpanishSub" Name="Quantum of Solace.Mathis on the phone in the taxi.In Spanish.SpanishSub" Img="#144" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Mathis on the phone in the taxi&amp;L3STinstance=Quantum of Solace.Mathis on the phone in the taxi.In Spanish&amp;L3TTinstance=Quantum of Solace.Mathis on the phone in the taxi.In Spanish.SpanishSub">
+            <Description>Mathis is on the phone while The taxi driver who takes him, Bond and agent Strawberry Fields is complaining about environmental issues, the government etc.
+</Description>
+            <Facets>
+                <Facet Name="Conversation duration (sec)">
+                    <String Value="A. 1-20" />
+                </Facet>
+                <Facet Name="Conversation features for L3-instance change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="Conversation features for L3TT-instance">
+                    <String Value="phone call / intercom / two-way radio" />
+                </Facet>
+                <Facet Name="Conversation Reference Id">
+                    <String Value="Quantum of Solace.Mathis on the phone in the taxi" />
+                </Facet>
+                <Facet Name="Conversation start time (min)">
+                    <Number Value="51" />
+                </Facet>
+                <Facet Name="Distribution countries (TT)">
+                    <String Value="Spain" />
+                </Facet>
+                <Facet Name="Film Reference Id">
+                    <String Value="Quantum of Solace" />
+                </Facet>
+                <Facet Name="Film Title TT">
+                    <String Value="Quantum of Solace" />
+                </Facet>
+                <Facet Name="Film TT Blockbuster">
+                    <String Value="YES (top 20)" />
+                </Facet>
+                <Facet Name="Info created">
+                    <DateTime Value="2017-01-11T09:42:08" />
+                </Facet>
+                <Facet Name="Info updated">
+                    <DateTime Value="2017-01-11T09:44:04" />
+                </Facet>
+                <Facet Name="L2 language">
+                    <String Value="Spanish" />
+                </Facet>
+                <Facet Name="L2 mode">
+                    <String Value="Subtitled" />
+                </Facet>
+                <Facet Name="L2 same as L3ST">
+                    <String Value="Yes" />
+                </Facet>
+                <Facet Name="L3 functions change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3 language type change">
+                    <String Value="- Real" />
+                    <String Value="+ L-main variety (e.g. dialect, sociolect, idiolect, slang)" />
+                </Facet>
+                <Facet Name="L3 mode change">
+                    <String Value="- Oral diegetic on-screen" />
+                    <String Value="+ Written diegetic" />
+                </Facet>
+                <Facet Name="L3 sources change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3ST conveyed as L3TT">
+                    <String Value="Yes" />
+                </Facet>
+                <Facet Name="L3ST-instance Reference Id">
+                    <String Value="Quantum of Solace.Mathis on the phone in the taxi.In Spanish" />
+                </Facet>
+                <Facet Name="L3TT functions">
+                    <String Value="Plot (twist)" />
+                </Facet>
+                <Facet Name="L3TT language">
+                    <String Value="Spanish" />
+                </Facet>
+                <Facet Name="L3TT language type">
+                    <String Value="L-main variety (e.g. dialect, sociolect, idiolect, slang)" />
+                </Facet>
+                <Facet Name="L3TT meaning decipherable">
+                    <String Value="YES, through translation or clear from picture" />
+                </Facet>
+                <Facet Name="L3TT meant to be understood">
+                    <String Value="YES, (almost) completely" />
+                </Facet>
+                <Facet Name="L3TT merely represented">
+                    <String Value="NO / Not applicable" />
+                </Facet>
+                <Facet Name="L3TT message required for understanding">
+                    <String Value="Yes" />
+                </Facet>
+                <Facet Name="L3TT mode, written/spoken, diegetic">
+                    <String Value="Written diegetic" />
+                </Facet>
+                <Facet Name="Metadata Editors">
+                    <String Value="Santamaria" />
+                </Facet>
+                <Facet Name="Quality of L3TT speaker performance">
+                    <String Value="native or proficient" />
+                </Facet>
+                <Facet Name="Reference Id">
+                    <String Value="Quantum of Solace.Mathis on the phone in the taxi.In Spanish.SpanishSub" />
+                </Facet>
+                <Facet Name="Year TT released">
+                    <Number Value="2008" />
+                </Facet>
+            </Facets>
+        </Item>
+        <Item Id="Quantum of Solace.Opera.Lyrics.SpanishDub" Name="Quantum of Solace.Opera.Lyrics.SpanishDub" Img="#145" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Opera&amp;L3STinstance=Quantum of Solace.Opera.Lyrics&amp;L3TTinstance=Quantum of Solace.Opera.Lyrics.SpanishDub">
             <Description>We can hear the the opera, Tosca, interplaying with what we see</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -14527,8 +15058,8 @@ And the wife and the aunt speak in English</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Quantum of Solace.Opera.Lyrics.SpanishSub" Name="Quantum of Solace.Opera.Lyrics.SpanishSub" Img="#141" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Opera&amp;L3STinstance=Quantum of Solace.Opera.Lyrics&amp;L3TTinstance=Quantum of Solace.Opera.Lyrics.SpanishSub">
-            <Description>We can hear the the opera, Tosca, interplaying with what we see</Description>
+        <Item Id="Quantum of Solace.Opera.Lyrics.SpanishSub" Name="Quantum of Solace.Opera.Lyrics.SpanishSub" Img="#146" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Opera&amp;L3STinstance=Quantum of Solace.Opera.Lyrics&amp;L3TTinstance=Quantum of Solace.Opera.Lyrics.SpanishSub">
+            <Description>We can hear the opera, Tosca, interplaying with what we see</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
                     <String Value="J. &gt; 180" />
@@ -14558,7 +15089,7 @@ And the wife and the aunt speak in English</Description>
                     <DateTime Value="2017-01-10T06:56:20" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2017-01-10T06:58:44" />
+                    <DateTime Value="2017-01-11T09:26:27" />
                 </Facet>
                 <Facet Name="L2 language">
                     <String Value="Spanish" />
@@ -14623,7 +15154,7 @@ And the wife and the aunt speak in English</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Quantum of Solace.Opera.Sounkd.Murdering noises" Name="Quantum of Solace.Opera.Sounkd.Murdering noises" Img="#142">
+        <Item Id="Quantum of Solace.Opera.Sounkd.Murdering noises" Name="Quantum of Solace.Opera.Sounkd.Murdering noises" Img="#147">
             <Facets>
                 <Facet Name="Conversation Reference Id">
                     <String Value="Quantum of Solace.Opera" />
@@ -14645,7 +15176,7 @@ And the wife and the aunt speak in English</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Quantum of Solace.Salutation in French.Welcome.SpanishDub" Name="Quantum of Solace.Salutation in French.Welcome.SpanishDub" Img="#143" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Salutation in French&amp;L3STinstance=Quantum of Solace.Salutation in French.Welcome&amp;L3TTinstance=Quantum of Solace.Salutation in French.Welcome.SpanishDub">
+        <Item Id="Quantum of Solace.Salutation in French.Welcome.SpanishDub" Name="Quantum of Solace.Salutation in French.Welcome.SpanishDub" Img="#148" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Salutation in French&amp;L3STinstance=Quantum of Solace.Salutation in French.Welcome&amp;L3TTinstance=Quantum of Solace.Salutation in French.Welcome.SpanishDub">
             <Description>Gregg Beam welcomes Dominic in the plane</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -14742,7 +15273,7 @@ And the wife and the aunt speak in English</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Quantum of Solace.Salutation in French.Welcome.SpanishSub" Name="Quantum of Solace.Salutation in French.Welcome.SpanishSub" Img="#144" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Salutation in French&amp;L3STinstance=Quantum of Solace.Salutation in French.Welcome&amp;L3TTinstance=Quantum of Solace.Salutation in French.Welcome.SpanishSub">
+        <Item Id="Quantum of Solace.Salutation in French.Welcome.SpanishSub" Name="Quantum of Solace.Salutation in French.Welcome.SpanishSub" Img="#149" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Salutation in French&amp;L3STinstance=Quantum of Solace.Salutation in French.Welcome&amp;L3TTinstance=Quantum of Solace.Salutation in French.Welcome.SpanishSub">
             <Description>Gregg Beam welcomes Dominic in the plane</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -14776,7 +15307,7 @@ And the wife and the aunt speak in English</Description>
                     <DateTime Value="2017-01-10T06:35:48" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2017-01-11T02:52:18" />
+                    <DateTime Value="2017-01-11T09:27:18" />
                 </Facet>
                 <Facet Name="L2 language">
                     <String Value="Spanish" />
@@ -14796,6 +15327,7 @@ And the wife and the aunt speak in English</Description>
                 </Facet>
                 <Facet Name="L3 mode change">
                     <String Value="- Oral diegetic on-screen" />
+                    <String Value="+ Written diegetic" />
                 </Facet>
                 <Facet Name="L3 sources change">
                     <String Value="- " />
@@ -14822,8 +15354,14 @@ And the wife and the aunt speak in English</Description>
                 <Facet Name="L3TT meant to be understood">
                     <String Value="YES, (almost) completely" />
                 </Facet>
+                <Facet Name="L3TT merely represented">
+                    <String Value="NO / Not applicable" />
+                </Facet>
                 <Facet Name="L3TT message required for understanding">
                     <String Value="Conversation can be followed regardless of meaning" />
+                </Facet>
+                <Facet Name="L3TT mode, written/spoken, diegetic">
+                    <String Value="Written diegetic" />
                 </Facet>
                 <Facet Name="L3TT sources">
                     <String Value="Bilingual (L3&amp;main): same source " />
@@ -14842,7 +15380,7 @@ And the wife and the aunt speak in English</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Quantum of Solace.Taxi driver.In Spanish.SpanishSub" Name="Quantum of Solace.Taxi driver.In Spanish.SpanishSub" Img="#145" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Taxi driver&amp;L3STinstance=Quantum of Solace.Taxi driver.In Spanish&amp;L3TTinstance=Quantum of Solace.Taxi driver.In Spanish.SpanishSub">
+        <Item Id="Quantum of Solace.Taxi driver.In Spanish.SpanishDub" Name="Quantum of Solace.Taxi driver.In Spanish.SpanishDub" Img="#150" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Taxi driver&amp;L3STinstance=Quantum of Solace.Taxi driver.In Spanish&amp;L3TTinstance=Quantum of Solace.Taxi driver.In Spanish.SpanishDub">
             <Description>The taxi driver who takes Bond, agent Strawberry Fields and Mathis to the hotel is complaining about environmental issues, the government etc.
 At the same time Mathis is on the phone</Description>
             <Facets>
@@ -14850,7 +15388,10 @@ At the same time Mathis is on the phone</Description>
                     <String Value="B. 21-40" />
                 </Facet>
                 <Facet Name="Conversation features for L3-instance change">
-                    <String Value="- self-centered" />
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="Conversation features for L3TT-instance">
+                    <String Value="self-centered" />
                 </Facet>
                 <Facet Name="Conversation Reference Id">
                     <String Value="Quantum of Solace.Taxi driver" />
@@ -14874,7 +15415,122 @@ At the same time Mathis is on the phone</Description>
                     <DateTime Value="2017-01-11T08:53:04" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2017-01-11T08:56:37" />
+                    <DateTime Value="2017-01-11T09:37:29" />
+                </Facet>
+                <Facet Name="L2 language">
+                    <String Value="Spanish" />
+                </Facet>
+                <Facet Name="L2 mode">
+                    <String Value="Dubbed" />
+                </Facet>
+                <Facet Name="L2 same as L3ST">
+                    <String Value="Yes" />
+                </Facet>
+                <Facet Name="L3 functions change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3 language type change">
+                    <String Value="- Real" />
+                    <String Value="+ L-main variety (e.g. dialect, sociolect, idiolect, slang)" />
+                </Facet>
+                <Facet Name="L3 mode change">
+                    <String Value="- Oral diegetic on-screen" />
+                    <String Value="+ Written diegetic" />
+                </Facet>
+                <Facet Name="L3 sources change">
+                    <String Value="- Rephrase interlingually: different sources" />
+                    <String Value="+ Oral L3: single source" />
+                </Facet>
+                <Facet Name="L3ST conveyed as L3TT">
+                    <String Value="Yes" />
+                </Facet>
+                <Facet Name="L3ST-instance Reference Id">
+                    <String Value="Quantum of Solace.Taxi driver.In Spanish" />
+                </Facet>
+                <Facet Name="L3TT functions">
+                    <String Value="Character portrayal" />
+                    <String Value="Plot (twist)" />
+                </Facet>
+                <Facet Name="L3TT language">
+                    <String Value="Spanish" />
+                </Facet>
+                <Facet Name="L3TT language type">
+                    <String Value="L-main variety (e.g. dialect, sociolect, idiolect, slang)" />
+                </Facet>
+                <Facet Name="L3TT meaning decipherable">
+                    <String Value="NO" />
+                </Facet>
+                <Facet Name="L3TT meant to be understood">
+                    <String Value="YES, the gist, the implications of what is happening" />
+                </Facet>
+                <Facet Name="L3TT merely represented">
+                    <String Value="NO / Not applicable" />
+                </Facet>
+                <Facet Name="L3TT message required for understanding">
+                    <String Value="Yes" />
+                </Facet>
+                <Facet Name="L3TT mode, written/spoken, diegetic">
+                    <String Value="Written diegetic" />
+                </Facet>
+                <Facet Name="L3TT sources">
+                    <String Value="Oral L3: single source" />
+                </Facet>
+                <Facet Name="Metadata Editors">
+                    <String Value="Santamaria" />
+                </Facet>
+                <Facet Name="Quality of L3TT speaker performance">
+                    <String Value="native or proficient" />
+                </Facet>
+                <Facet Name="Reference Id">
+                    <String Value="Quantum of Solace.Taxi driver.In Spanish.SpanishDub" />
+                </Facet>
+                <Facet Name="Remarks">
+                    <String Value="Mathis interprets and appears also in the subtitles" />
+                </Facet>
+                <Facet Name="Tags">
+                    <String Value="Interpretation" />
+                </Facet>
+                <Facet Name="Year TT released">
+                    <Number Value="2008" />
+                </Facet>
+            </Facets>
+        </Item>
+        <Item Id="Quantum of Solace.Taxi driver.In Spanish.SpanishSub" Name="Quantum of Solace.Taxi driver.In Spanish.SpanishSub" Img="#151" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Taxi driver&amp;L3STinstance=Quantum of Solace.Taxi driver.In Spanish&amp;L3TTinstance=Quantum of Solace.Taxi driver.In Spanish.SpanishSub">
+            <Description>The taxi driver who takes Bond, agent Strawberry Fields and Mathis to the hotel is complaining about environmental issues, the government etc.
+At the same time Mathis is on the phone</Description>
+            <Facets>
+                <Facet Name="Conversation duration (sec)">
+                    <String Value="B. 21-40" />
+                </Facet>
+                <Facet Name="Conversation features for L3-instance change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="Conversation features for L3TT-instance">
+                    <String Value="self-centered" />
+                </Facet>
+                <Facet Name="Conversation Reference Id">
+                    <String Value="Quantum of Solace.Taxi driver" />
+                </Facet>
+                <Facet Name="Conversation start time (min)">
+                    <Number Value="51" />
+                </Facet>
+                <Facet Name="Distribution countries (TT)">
+                    <String Value="Spain" />
+                </Facet>
+                <Facet Name="Film Reference Id">
+                    <String Value="Quantum of Solace" />
+                </Facet>
+                <Facet Name="Film Title TT">
+                    <String Value="Quantum of Solace" />
+                </Facet>
+                <Facet Name="Film TT Blockbuster">
+                    <String Value="YES (top 20)" />
+                </Facet>
+                <Facet Name="Info created">
+                    <DateTime Value="2017-01-11T08:53:04" />
+                </Facet>
+                <Facet Name="Info updated">
+                    <DateTime Value="2017-01-11T09:36:05" />
                 </Facet>
                 <Facet Name="L2 language">
                     <String Value="Spanish" />
@@ -14886,8 +15542,7 @@ At the same time Mathis is on the phone</Description>
                     <String Value="Yes" />
                 </Facet>
                 <Facet Name="L3 functions change">
-                    <String Value="- Character portrayal" />
-                    <String Value="- Plot (twist)" />
+                    <String Value="None" />
                 </Facet>
                 <Facet Name="L3 language type change">
                     <String Value="- Real" />
@@ -14895,10 +15550,11 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
                 <Facet Name="L3 mode change">
                     <String Value="- Oral diegetic on-screen" />
+                    <String Value="+ Written diegetic" />
                 </Facet>
                 <Facet Name="L3 sources change">
                     <String Value="- Rephrase interlingually: different sources" />
-                    <String Value="+ " />
+                    <String Value="+ Oral L3: single source" />
                 </Facet>
                 <Facet Name="L3ST conveyed as L3TT">
                     <String Value="Yes" />
@@ -14906,14 +15562,45 @@ At the same time Mathis is on the phone</Description>
                 <Facet Name="L3ST-instance Reference Id">
                     <String Value="Quantum of Solace.Taxi driver.In Spanish" />
                 </Facet>
+                <Facet Name="L3TT functions">
+                    <String Value="Character portrayal" />
+                    <String Value="Plot (twist)" />
+                </Facet>
+                <Facet Name="L3TT language">
+                    <String Value="Spanish" />
+                </Facet>
                 <Facet Name="L3TT language type">
                     <String Value="L-main variety (e.g. dialect, sociolect, idiolect, slang)" />
+                </Facet>
+                <Facet Name="L3TT meaning decipherable">
+                    <String Value="NO" />
+                </Facet>
+                <Facet Name="L3TT meant to be understood">
+                    <String Value="YES, the gist, the implications of what is happening" />
+                </Facet>
+                <Facet Name="L3TT merely represented">
+                    <String Value="NO / Not applicable" />
+                </Facet>
+                <Facet Name="L3TT message required for understanding">
+                    <String Value="Yes" />
+                </Facet>
+                <Facet Name="L3TT mode, written/spoken, diegetic">
+                    <String Value="Written diegetic" />
+                </Facet>
+                <Facet Name="L3TT sources">
+                    <String Value="Oral L3: single source" />
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="Santamaria" />
                 </Facet>
+                <Facet Name="Quality of L3TT speaker performance">
+                    <String Value="native or proficient" />
+                </Facet>
                 <Facet Name="Reference Id">
                     <String Value="Quantum of Solace.Taxi driver.In Spanish.SpanishSub" />
+                </Facet>
+                <Facet Name="Remarks">
+                    <String Value="Mathis interprets and appears also in the subtitles" />
                 </Facet>
                 <Facet Name="Tags">
                     <String Value="Interpretation" />
@@ -14923,7 +15610,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Quantum of Solace.Towards the quarries.Towards the quarries Italian.SpanishDub" Name="Quantum of Solace.Towards the quarries.Towards the quarries Italian.SpanishDub" Img="#146" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Towards the quarries&amp;L3STinstance=Quantum of Solace.Towards the quarries.Towards the quarries Italian&amp;L3TTinstance=Quantum of Solace.Towards the quarries.Towards the quarries Italian.SpanishDub">
+        <Item Id="Quantum of Solace.Towards the quarries.Towards the quarries Italian.SpanishDub" Name="Quantum of Solace.Towards the quarries.Towards the quarries Italian.SpanishDub" Img="#152" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Towards the quarries&amp;L3STinstance=Quantum of Solace.Towards the quarries.Towards the quarries Italian&amp;L3TTinstance=Quantum of Solace.Towards the quarries.Towards the quarries Italian.SpanishDub">
             <Description>A policeman in Italy is talking on the car phone to ask for reinforcements</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -14957,7 +15644,7 @@ At the same time Mathis is on the phone</Description>
                     <DateTime Value="2017-01-10T12:33:08" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2017-01-11T06:40:32" />
+                    <DateTime Value="2017-01-11T09:28:46" />
                 </Facet>
                 <Facet Name="L2 language">
                     <String Value="Spanish" />
@@ -14975,7 +15662,8 @@ At the same time Mathis is on the phone</Description>
                     <String Value="None" />
                 </Facet>
                 <Facet Name="L3 mode change">
-                    <String Value="None" />
+                    <String Value="- Oral diegetic on-screen" />
+                    <String Value="+ Written diegetic" />
                 </Facet>
                 <Facet Name="L3 sources change">
                     <String Value="None" />
@@ -15008,7 +15696,7 @@ At the same time Mathis is on the phone</Description>
                     <String Value="Conversation can be followed regardless of meaning" />
                 </Facet>
                 <Facet Name="L3TT mode, written/spoken, diegetic">
-                    <String Value="Oral diegetic on-screen" />
+                    <String Value="Written diegetic" />
                 </Facet>
                 <Facet Name="L3TT sources">
                     <String Value="Oral L3: single source" />
@@ -15027,7 +15715,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Quantum of Solace.Woman talking to herself.Monologue.SpanishDub" Name="Quantum of Solace.Woman talking to herself.Monologue.SpanishDub" Img="#147" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Woman talking to herself&amp;L3STinstance=Quantum of Solace.Woman talking to herself.Monologue&amp;L3TTinstance=Quantum of Solace.Woman talking to herself.Monologue.SpanishDub">
+        <Item Id="Quantum of Solace.Woman talking to herself.Monologue.SpanishDub" Name="Quantum of Solace.Woman talking to herself.Monologue.SpanishDub" Img="#153" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Woman talking to herself&amp;L3STinstance=Quantum of Solace.Woman talking to herself.Monologue&amp;L3TTinstance=Quantum of Solace.Woman talking to herself.Monologue.SpanishDub">
             <Description>Woman's basket drops and she is despair</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -15061,7 +15749,7 @@ At the same time Mathis is on the phone</Description>
                     <DateTime Value="2017-01-10T01:40:36" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2017-01-11T06:42:22" />
+                    <DateTime Value="2017-01-11T09:29:31" />
                 </Facet>
                 <Facet Name="L2 language">
                     <String Value="Spanish" />
@@ -15080,7 +15768,7 @@ At the same time Mathis is on the phone</Description>
                     <String Value="+ " />
                 </Facet>
                 <Facet Name="L3 mode change">
-                    <String Value="None" />
+                    <String Value="- Oral diegetic on-screen" />
                 </Facet>
                 <Facet Name="L3 sources change">
                     <String Value="None" />
@@ -15109,9 +15797,6 @@ At the same time Mathis is on the phone</Description>
                 <Facet Name="L3TT message required for understanding">
                     <String Value="Conversation can be followed regardless of meaning" />
                 </Facet>
-                <Facet Name="L3TT mode, written/spoken, diegetic">
-                    <String Value="Oral diegetic on-screen" />
-                </Facet>
                 <Facet Name="L3TT sources">
                     <String Value="Oral L3: single source" />
                 </Facet>
@@ -15129,7 +15814,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Quantum of Solace.Woman talking to herself.Monologue.SpanishSub" Name="Quantum of Solace.Woman talking to herself.Monologue.SpanishSub" Img="#148" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Woman talking to herself&amp;L3STinstance=Quantum of Solace.Woman talking to herself.Monologue&amp;L3TTinstance=Quantum of Solace.Woman talking to herself.Monologue.SpanishSub">
+        <Item Id="Quantum of Solace.Woman talking to herself.Monologue.SpanishSub" Name="Quantum of Solace.Woman talking to herself.Monologue.SpanishSub" Img="#154" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Woman talking to herself&amp;L3STinstance=Quantum of Solace.Woman talking to herself.Monologue&amp;L3TTinstance=Quantum of Solace.Woman talking to herself.Monologue.SpanishSub">
             <Description>Woman's basket drops and she is despair</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -15163,7 +15848,7 @@ At the same time Mathis is on the phone</Description>
                     <DateTime Value="2017-01-10T01:40:36" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2017-01-11T06:43:08" />
+                    <DateTime Value="2017-01-11T09:29:18" />
                 </Facet>
                 <Facet Name="L2 language">
                     <String Value="English" />
@@ -15182,7 +15867,7 @@ At the same time Mathis is on the phone</Description>
                     <String Value="+ " />
                 </Facet>
                 <Facet Name="L3 mode change">
-                    <String Value="None" />
+                    <String Value="- Oral diegetic on-screen" />
                 </Facet>
                 <Facet Name="L3 sources change">
                     <String Value="None" />
@@ -15208,9 +15893,6 @@ At the same time Mathis is on the phone</Description>
                 <Facet Name="L3TT message required for understanding">
                     <String Value="Conversation can be followed regardless of meaning" />
                 </Facet>
-                <Facet Name="L3TT mode, written/spoken, diegetic">
-                    <String Value="Oral diegetic on-screen" />
-                </Facet>
                 <Facet Name="L3TT sources">
                     <String Value="Oral L3: single source" />
                 </Facet>
@@ -15228,7 +15910,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Raid on Rommel.Signorina talking to a German Captain.Captain answering Signorina.SpanishDub" Name="Raid on Rommel.Signorina talking to a German Captain.Captain answering Signorina.SpanishDub" Img="#149" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Raid on Rommel&amp;conversation=Raid on Rommel.Signorina talking to a German Captain&amp;L3STinstance=Raid on Rommel.Signorina talking to a German Captain.Captain answering Signorina&amp;L3TTinstance=Raid on Rommel.Signorina talking to a German Captain.Captain answering Signorina.SpanishDub">
+        <Item Id="Raid on Rommel.Signorina talking to a German Captain.Captain answering Signorina.SpanishDub" Name="Raid on Rommel.Signorina talking to a German Captain.Captain answering Signorina.SpanishDub" Img="#155" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Raid on Rommel&amp;conversation=Raid on Rommel.Signorina talking to a German Captain&amp;L3STinstance=Raid on Rommel.Signorina talking to a German Captain.Captain answering Signorina&amp;L3TTinstance=Raid on Rommel.Signorina talking to a German Captain.Captain answering Signorina.SpanishDub">
             <Description>"Signorina" (the Italian mistress) asks a German captain why she is not leaving on a plane to Tobruk</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -15339,7 +16021,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Raid on Rommel.Signorina talking to a German Captain.Signorina Introduction.SpanishDub" Name="Raid on Rommel.Signorina talking to a German Captain.Signorina Introduction.SpanishDub" Img="#150" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Raid on Rommel&amp;conversation=Raid on Rommel.Signorina talking to a German Captain&amp;L3STinstance=Raid on Rommel.Signorina talking to a German Captain.Signorina Introduction&amp;L3TTinstance=Raid on Rommel.Signorina talking to a German Captain.Signorina Introduction.SpanishDub">
+        <Item Id="Raid on Rommel.Signorina talking to a German Captain.Signorina Introduction.SpanishDub" Name="Raid on Rommel.Signorina talking to a German Captain.Signorina Introduction.SpanishDub" Img="#156" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Raid on Rommel&amp;conversation=Raid on Rommel.Signorina talking to a German Captain&amp;L3STinstance=Raid on Rommel.Signorina talking to a German Captain.Signorina Introduction&amp;L3TTinstance=Raid on Rommel.Signorina talking to a German Captain.Signorina Introduction.SpanishDub">
             <Facets>
                 <Facet Name="Conversation duration (sec)">
                     <String Value="A. 1-20" />
@@ -15445,7 +16127,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Raid on Rommel.Signorina talking to a German Captain.Signorina replying again to the captain.SpanishDub" Name="Raid on Rommel.Signorina talking to a German Captain.Signorina replying again to the captain.SpanishDub" Img="#151" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Raid on Rommel&amp;conversation=Raid on Rommel.Signorina talking to a German Captain&amp;L3STinstance=Raid on Rommel.Signorina talking to a German Captain.Signorina replying again to the captain&amp;L3TTinstance=Raid on Rommel.Signorina talking to a German Captain.Signorina replying again to the captain.SpanishDub">
+        <Item Id="Raid on Rommel.Signorina talking to a German Captain.Signorina replying again to the captain.SpanishDub" Name="Raid on Rommel.Signorina talking to a German Captain.Signorina replying again to the captain.SpanishDub" Img="#157" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Raid on Rommel&amp;conversation=Raid on Rommel.Signorina talking to a German Captain&amp;L3STinstance=Raid on Rommel.Signorina talking to a German Captain.Signorina replying again to the captain&amp;L3TTinstance=Raid on Rommel.Signorina talking to a German Captain.Signorina replying again to the captain.SpanishDub">
             <Facets>
                 <Facet Name="Conversation features for L3-instance change">
                     <String Value="None" />
@@ -15543,7 +16225,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Raid on Rommel.Signorina talking to a German Captain.Speaking English and Italian.SpanishDub" Name="Raid on Rommel.Signorina talking to a German Captain.Speaking English and Italian.SpanishDub" Img="#152" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Raid on Rommel&amp;conversation=Raid on Rommel.Signorina talking to a German Captain&amp;L3STinstance=Raid on Rommel.Signorina talking to a German Captain.Speaking English and Italian&amp;L3TTinstance=Raid on Rommel.Signorina talking to a German Captain.Speaking English and Italian.SpanishDub">
+        <Item Id="Raid on Rommel.Signorina talking to a German Captain.Speaking English and Italian.SpanishDub" Name="Raid on Rommel.Signorina talking to a German Captain.Speaking English and Italian.SpanishDub" Img="#158" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Raid on Rommel&amp;conversation=Raid on Rommel.Signorina talking to a German Captain&amp;L3STinstance=Raid on Rommel.Signorina talking to a German Captain.Speaking English and Italian&amp;L3TTinstance=Raid on Rommel.Signorina talking to a German Captain.Speaking English and Italian.SpanishDub">
             <Description>"Signorina" (the Italian mistress) asks a German captain why she is not leaving on a plane to Tobruk</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -15646,7 +16328,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Slumdog Millionaire.Arrival at the orphanage.Hindi.CatalanDub" Name="Slumdog Millionaire.Arrival at the orphanage.Hindi.CatalanDub" Img="#153" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Slumdog Millionaire&amp;conversation=Slumdog Millionaire.Arrival at the orphanage&amp;L3STinstance=Slumdog Millionaire.Arrival at the orphanage.Hindi&amp;L3TTinstance=Slumdog Millionaire.Arrival at the orphanage.Hindi.CatalanDub">
+        <Item Id="Slumdog Millionaire.Arrival at the orphanage.Hindi.CatalanDub" Name="Slumdog Millionaire.Arrival at the orphanage.Hindi.CatalanDub" Img="#159" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Slumdog Millionaire&amp;conversation=Slumdog Millionaire.Arrival at the orphanage&amp;L3STinstance=Slumdog Millionaire.Arrival at the orphanage.Hindi&amp;L3TTinstance=Slumdog Millionaire.Arrival at the orphanage.Hindi.CatalanDub">
             <Description>Different kids discuss on the life at the orphanage</Description>
             <Facets>
                 <Facet Name="Conversation features for L3-instance change">
@@ -15740,7 +16422,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Slumdog Millionaire.Arrival at the orphanage.Hindi.CatalanSub" Name="Slumdog Millionaire.Arrival at the orphanage.Hindi.CatalanSub" Img="#154" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Slumdog Millionaire&amp;conversation=Slumdog Millionaire.Arrival at the orphanage&amp;L3STinstance=Slumdog Millionaire.Arrival at the orphanage.Hindi&amp;L3TTinstance=Slumdog Millionaire.Arrival at the orphanage.Hindi.CatalanSub">
+        <Item Id="Slumdog Millionaire.Arrival at the orphanage.Hindi.CatalanSub" Name="Slumdog Millionaire.Arrival at the orphanage.Hindi.CatalanSub" Img="#160" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Slumdog Millionaire&amp;conversation=Slumdog Millionaire.Arrival at the orphanage&amp;L3STinstance=Slumdog Millionaire.Arrival at the orphanage.Hindi&amp;L3TTinstance=Slumdog Millionaire.Arrival at the orphanage.Hindi.CatalanSub">
             <Description>Different kids discuss on the life at the orphanage</Description>
             <Facets>
                 <Facet Name="Conversation features for L3-instance change">
@@ -15834,7 +16516,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Slumdog Millionaire.Arrival at the orphanage.Hindi.SpanishDub" Name="Slumdog Millionaire.Arrival at the orphanage.Hindi.SpanishDub" Img="#155" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Slumdog Millionaire&amp;conversation=Slumdog Millionaire.Arrival at the orphanage&amp;L3STinstance=Slumdog Millionaire.Arrival at the orphanage.Hindi&amp;L3TTinstance=Slumdog Millionaire.Arrival at the orphanage.Hindi.SpanishDub">
+        <Item Id="Slumdog Millionaire.Arrival at the orphanage.Hindi.SpanishDub" Name="Slumdog Millionaire.Arrival at the orphanage.Hindi.SpanishDub" Img="#161" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Slumdog Millionaire&amp;conversation=Slumdog Millionaire.Arrival at the orphanage&amp;L3STinstance=Slumdog Millionaire.Arrival at the orphanage.Hindi&amp;L3TTinstance=Slumdog Millionaire.Arrival at the orphanage.Hindi.SpanishDub">
             <Description>Different kids discuss on the life at the orphanage</Description>
             <Facets>
                 <Facet Name="Conversation features for L3-instance change">
@@ -15928,7 +16610,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Slumdog Millionaire.Brothers conversation in the train.Hindi.CatalanDub" Name="Slumdog Millionaire.Brothers conversation in the train.Hindi.CatalanDub" Img="#156" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Slumdog Millionaire&amp;conversation=Slumdog Millionaire.Brothers conversation in the train&amp;L3STinstance=Slumdog Millionaire.Brothers conversation in the train.Hindi&amp;L3TTinstance=Slumdog Millionaire.Brothers conversation in the train.Hindi.CatalanDub">
+        <Item Id="Slumdog Millionaire.Brothers conversation in the train.Hindi.CatalanDub" Name="Slumdog Millionaire.Brothers conversation in the train.Hindi.CatalanDub" Img="#162" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Slumdog Millionaire&amp;conversation=Slumdog Millionaire.Brothers conversation in the train&amp;L3STinstance=Slumdog Millionaire.Brothers conversation in the train.Hindi&amp;L3TTinstance=Slumdog Millionaire.Brothers conversation in the train.Hindi.CatalanDub">
             <Description>The two brothers are discussing whether Latika can get onto the train</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -16028,7 +16710,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Slumdog Millionaire.Brothers conversation in the train.Hindi.SpanishDub" Name="Slumdog Millionaire.Brothers conversation in the train.Hindi.SpanishDub" Img="#157" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Slumdog Millionaire&amp;conversation=Slumdog Millionaire.Brothers conversation in the train&amp;L3STinstance=Slumdog Millionaire.Brothers conversation in the train.Hindi&amp;L3TTinstance=Slumdog Millionaire.Brothers conversation in the train.Hindi.SpanishDub">
+        <Item Id="Slumdog Millionaire.Brothers conversation in the train.Hindi.SpanishDub" Name="Slumdog Millionaire.Brothers conversation in the train.Hindi.SpanishDub" Img="#163" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Slumdog Millionaire&amp;conversation=Slumdog Millionaire.Brothers conversation in the train&amp;L3STinstance=Slumdog Millionaire.Brothers conversation in the train.Hindi&amp;L3TTinstance=Slumdog Millionaire.Brothers conversation in the train.Hindi.SpanishDub">
             <Description>The two brothers are discussing whether Latika can get onto the train</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -16128,7 +16810,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Spanglish.At the summer place - an interpreter.Man speaks Spanish to Flor and English to Deborah.SpanishSub" Name="At the summer place - an interpreter. Man speaks Spanish to Flor and English to Deborah.SpanishSub" Img="#158" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Spanglish&amp;conversation=Spanglish.At the summer place - an interpreter&amp;L3STinstance=Spanglish.At the summer place - an interpreter.Man speaks Spanish to Flor and English to Deborah&amp;L3TTinstance=Spanglish.At the summer place - an interpreter.Man speaks Spanish to Flor and English to Deborah.SpanishSub">
+        <Item Id="Spanglish.At the summer place - an interpreter.Man speaks Spanish to Flor and English to Deborah.SpanishSub" Name="At the summer place - an interpreter. Man speaks Spanish to Flor and English to Deborah.SpanishSub" Img="#164" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Spanglish&amp;conversation=Spanglish.At the summer place - an interpreter&amp;L3STinstance=Spanglish.At the summer place - an interpreter.Man speaks Spanish to Flor and English to Deborah&amp;L3TTinstance=Spanglish.At the summer place - an interpreter.Man speaks Spanish to Flor and English to Deborah.SpanishSub">
             <Description>Flor, Deborah and Evelyn are walking in the street. Deborah wants to ask Flor if she would like to move with them to the summer house and live with them, but as they don't speak the same language, DEborah cannot communicate with her until she sees a Hispanic man washinng somebody's car. She asks him if he speaks English and if he could translate for her.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -16236,7 +16918,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Spanglish.Flor and Cristina at the restaurant.Flor speaking Spanish and Cristina translating Spanish into English.SpanishSub (only dialogue in English)" Name="Flor and Cristina at the restaurant. Flor speaking Spanish and Cristina translating Spanish into English.SpanishSub (only dialogue in English)" Img="#159" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Spanglish&amp;conversation=Spanglish.Flor and Cristina at the restaurant&amp;L3STinstance=Spanglish.Flor and Cristina at the restaurant.Flor speaking Spanish and Cristina translating Spanish into English&amp;L3TTinstance=Spanglish.Flor and Cristina at the restaurant.Flor speaking Spanish and Cristina translating Spanish into English.SpanishSub (only dialogue in English)">
+        <Item Id="Spanglish.Flor and Cristina at the restaurant.Flor speaking Spanish and Cristina translating Spanish into English.SpanishSub (only dialogue in English)" Name="Flor and Cristina at the restaurant. Flor speaking Spanish and Cristina translating Spanish into English.SpanishSub (only dialogue in English)" Img="#165" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Spanglish&amp;conversation=Spanglish.Flor and Cristina at the restaurant&amp;L3STinstance=Spanglish.Flor and Cristina at the restaurant.Flor speaking Spanish and Cristina translating Spanish into English&amp;L3TTinstance=Spanglish.Flor and Cristina at the restaurant.Flor speaking Spanish and Cristina translating Spanish into English.SpanishSub (only dialogue in English)">
             <Description>Flor and her daughter go and have dinner to celebrate that she has found a job. When they enter the restaurant Cristina addresses a waitress to ask for a table. As Flor does not speak any English, when she wants to add or say something she tells Cristina to translate for her.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -16340,7 +17022,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Spanglish.Introduction to the Clasky's family.Deborah and Evelyn speaking English. Monica Speaking Spanish..SpanishSub (only dialogue in English)" Name="Introduction to the Clasky's family. Deborah and Evelyn speaking English. Monica Speaking Spanish. SpanishSub (only dialogue in English)" Img="#160" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Spanglish&amp;conversation=Spanglish.Introduction to the Clasky's family&amp;L3STinstance=Spanglish.Introduction to the Clasky's family.Deborah and Evelyn speaking English. Monica Speaking Spanish.&amp;L3TTinstance=Spanglish.Introduction to the Clasky's family.Deborah and Evelyn speaking English. Monica Speaking Spanish..SpanishSub (only dialogue in English)">
+        <Item Id="Spanglish.Introduction to the Clasky's family.Deborah and Evelyn speaking English. Monica Speaking Spanish..SpanishSub (only dialogue in English)" Name="Introduction to the Clasky's family. Deborah and Evelyn speaking English. Monica Speaking Spanish. SpanishSub (only dialogue in English)" Img="#166" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Spanglish&amp;conversation=Spanglish.Introduction to the Clasky's family&amp;L3STinstance=Spanglish.Introduction to the Clasky's family.Deborah and Evelyn speaking English. Monica Speaking Spanish.&amp;L3TTinstance=Spanglish.Introduction to the Clasky's family.Deborah and Evelyn speaking English. Monica Speaking Spanish..SpanishSub (only dialogue in English)">
             <Description>Flor and her cousin Monica are at the Clasky's house for the first time. Flor is being interviewed by Deborah Clasky. As Flor does not speak English, Monica is trying to translate for her although she does not speak perfect English.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -16454,7 +17136,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="The Voices.Becoming a killer.Line between good and evil.SpanishDub" Name="The Voices.Becoming a killer.Line between good and evil.SpanishDub" Img="#161" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=The Voices&amp;conversation=The Voices.Becoming a killer&amp;L3STinstance=The Voices.Becoming a killer.Line between good and evil&amp;L3TTinstance=The Voices.Becoming a killer.Line between good and evil.SpanishDub">
+        <Item Id="The Voices.Becoming a killer.Line between good and evil.SpanishDub" Name="The Voices.Becoming a killer.Line between good and evil.SpanishDub" Img="#167" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=The Voices&amp;conversation=The Voices.Becoming a killer&amp;L3STinstance=The Voices.Becoming a killer.Line between good and evil&amp;L3TTinstance=The Voices.Becoming a killer.Line between good and evil.SpanishDub">
             <Facets>
                 <Facet Name="Conversation duration (sec)">
                     <String Value="E. 81-100" />
@@ -16533,7 +17215,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="The Voices.Becoming a killer.Welcome to my world.SpanishDub" Name="The Voices.Becoming a killer.Welcome to my world.SpanishDub" Img="#162" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=The Voices&amp;conversation=The Voices.Becoming a killer&amp;L3STinstance=The Voices.Becoming a killer.Welcome to my world&amp;L3TTinstance=The Voices.Becoming a killer.Welcome to my world.SpanishDub">
+        <Item Id="The Voices.Becoming a killer.Welcome to my world.SpanishDub" Name="The Voices.Becoming a killer.Welcome to my world.SpanishDub" Img="#168" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=The Voices&amp;conversation=The Voices.Becoming a killer&amp;L3STinstance=The Voices.Becoming a killer.Welcome to my world&amp;L3TTinstance=The Voices.Becoming a killer.Welcome to my world.SpanishDub">
             <Facets>
                 <Facet Name="Conversation duration (sec)">
                     <String Value="E. 81-100" />
@@ -16615,7 +17297,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheReturnOfTheKing.Aragorn is crowned king.Aragorn sings a song as king.SpanishDub" Name="TheReturnOfTheKing.Aragorn is crowned king.Aragorn sings a song as king.SpanishDub" Img="#163" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheReturnOfTheKing&amp;conversation=TheReturnOfTheKing.Aragorn is crowned king&amp;L3STinstance=TheReturnOfTheKing.Aragorn is crowned king.Aragorn sings a song as king&amp;L3TTinstance=TheReturnOfTheKing.Aragorn is crowned king.Aragorn sings a song as king.SpanishDub">
+        <Item Id="TheReturnOfTheKing.Aragorn is crowned king.Aragorn sings a song as king.SpanishDub" Name="TheReturnOfTheKing.Aragorn is crowned king.Aragorn sings a song as king.SpanishDub" Img="#169" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheReturnOfTheKing&amp;conversation=TheReturnOfTheKing.Aragorn is crowned king&amp;L3STinstance=TheReturnOfTheKing.Aragorn is crowned king.Aragorn sings a song as king&amp;L3TTinstance=TheReturnOfTheKing.Aragorn is crowned king.Aragorn sings a song as king.SpanishDub">
             <Description>During the coronation, Aragorn sings a song in Elvish.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -16719,7 +17401,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheReturnOfTheKing.Aragorn is crowned king.Aragorn sings a song as king.SpanishSub" Name="TheReturnOfTheKing.Aragorn is crowned king.Aragorn sings a song as king.SpanishSub" Img="#164" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheReturnOfTheKing&amp;conversation=TheReturnOfTheKing.Aragorn is crowned king&amp;L3STinstance=TheReturnOfTheKing.Aragorn is crowned king.Aragorn sings a song as king&amp;L3TTinstance=TheReturnOfTheKing.Aragorn is crowned king.Aragorn sings a song as king.SpanishSub">
+        <Item Id="TheReturnOfTheKing.Aragorn is crowned king.Aragorn sings a song as king.SpanishSub" Name="TheReturnOfTheKing.Aragorn is crowned king.Aragorn sings a song as king.SpanishSub" Img="#170" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheReturnOfTheKing&amp;conversation=TheReturnOfTheKing.Aragorn is crowned king&amp;L3STinstance=TheReturnOfTheKing.Aragorn is crowned king.Aragorn sings a song as king&amp;L3TTinstance=TheReturnOfTheKing.Aragorn is crowned king.Aragorn sings a song as king.SpanishSub">
             <Description>During the coronation, Aragorn sings a song in Elvish.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -16823,7 +17505,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheReturnOfTheKing.Aragorn receives Anduril.Elrond and Aragorn speak in Dunharrow.SpanishDub" Name="TheReturnOfTheKing.Aragorn receives Anduril.Elrond and Aragorn speak in Dunharrow.SpanishDub" Img="#165" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheReturnOfTheKing&amp;conversation=TheReturnOfTheKing.Aragorn receives Anduril&amp;L3STinstance=TheReturnOfTheKing.Aragorn receives Anduril.Elrond and Aragorn speak in Dunharrow&amp;L3TTinstance=TheReturnOfTheKing.Aragorn receives Anduril.Elrond and Aragorn speak in Dunharrow.SpanishDub">
+        <Item Id="TheReturnOfTheKing.Aragorn receives Anduril.Elrond and Aragorn speak in Dunharrow.SpanishDub" Name="TheReturnOfTheKing.Aragorn receives Anduril.Elrond and Aragorn speak in Dunharrow.SpanishDub" Img="#171" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheReturnOfTheKing&amp;conversation=TheReturnOfTheKing.Aragorn receives Anduril&amp;L3STinstance=TheReturnOfTheKing.Aragorn receives Anduril.Elrond and Aragorn speak in Dunharrow&amp;L3TTinstance=TheReturnOfTheKing.Aragorn receives Anduril.Elrond and Aragorn speak in Dunharrow.SpanishDub">
             <Description>In Dunharrow, Elrond brings the sword Anduril to Aragorn. </Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -16929,7 +17611,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheReturnOfTheKing.Aragorn receives Anduril.Elrond and Aragorn speak in Dunharrow.SpanishSub" Name="TheReturnOfTheKing.Aragorn receives Anduril.Elrond and Aragorn speak in Dunharrow.SpanishSub" Img="#166" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheReturnOfTheKing&amp;conversation=TheReturnOfTheKing.Aragorn receives Anduril&amp;L3STinstance=TheReturnOfTheKing.Aragorn receives Anduril.Elrond and Aragorn speak in Dunharrow&amp;L3TTinstance=TheReturnOfTheKing.Aragorn receives Anduril.Elrond and Aragorn speak in Dunharrow.SpanishSub">
+        <Item Id="TheReturnOfTheKing.Aragorn receives Anduril.Elrond and Aragorn speak in Dunharrow.SpanishSub" Name="TheReturnOfTheKing.Aragorn receives Anduril.Elrond and Aragorn speak in Dunharrow.SpanishSub" Img="#172" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheReturnOfTheKing&amp;conversation=TheReturnOfTheKing.Aragorn receives Anduril&amp;L3STinstance=TheReturnOfTheKing.Aragorn receives Anduril.Elrond and Aragorn speak in Dunharrow&amp;L3TTinstance=TheReturnOfTheKing.Aragorn receives Anduril.Elrond and Aragorn speak in Dunharrow.SpanishSub">
             <Description>In Dunharrow, Elrond brings the sword Anduril to Aragorn. </Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -17035,7 +17717,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheReturnOfTheKing.Aragorn salutes Legolas.Elvish welcome.SpanishDub" Name="TheReturnOfTheKing.Aragorn salutes Legolas.Elvish welcome.SpanishDub" Img="#167" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheReturnOfTheKing&amp;conversation=TheReturnOfTheKing.Aragorn salutes Legolas&amp;L3STinstance=TheReturnOfTheKing.Aragorn salutes Legolas.Elvish welcome&amp;L3TTinstance=TheReturnOfTheKing.Aragorn salutes Legolas.Elvish welcome.SpanishDub">
+        <Item Id="TheReturnOfTheKing.Aragorn salutes Legolas.Elvish welcome.SpanishDub" Name="TheReturnOfTheKing.Aragorn salutes Legolas.Elvish welcome.SpanishDub" Img="#173" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheReturnOfTheKing&amp;conversation=TheReturnOfTheKing.Aragorn salutes Legolas&amp;L3STinstance=TheReturnOfTheKing.Aragorn salutes Legolas.Elvish welcome&amp;L3TTinstance=TheReturnOfTheKing.Aragorn salutes Legolas.Elvish welcome.SpanishDub">
             <Description>During the coronation, Aragorn welcomes Legolas in Elvish. </Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -17139,7 +17821,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheReturnOfTheKing.Aragorn salutes Legolas.Elvish welcome.SpanishSub" Name="TheReturnOfTheKing.Aragorn salutes Legolas.Elvish welcome.SpanishSub" Img="#168" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheReturnOfTheKing&amp;conversation=TheReturnOfTheKing.Aragorn salutes Legolas&amp;L3STinstance=TheReturnOfTheKing.Aragorn salutes Legolas.Elvish welcome&amp;L3TTinstance=TheReturnOfTheKing.Aragorn salutes Legolas.Elvish welcome.SpanishSub">
+        <Item Id="TheReturnOfTheKing.Aragorn salutes Legolas.Elvish welcome.SpanishSub" Name="TheReturnOfTheKing.Aragorn salutes Legolas.Elvish welcome.SpanishSub" Img="#174" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheReturnOfTheKing&amp;conversation=TheReturnOfTheKing.Aragorn salutes Legolas&amp;L3STinstance=TheReturnOfTheKing.Aragorn salutes Legolas.Elvish welcome&amp;L3TTinstance=TheReturnOfTheKing.Aragorn salutes Legolas.Elvish welcome.SpanishSub">
             <Description>During the coronation, Aragorn welcomes Legolas in Elvish. </Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -17243,7 +17925,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheReturnOfTheKing.Elrond's farewell.Elvish farewell.SpanishDub" Name="TheReturnOfTheKing.Elrond's farewell.Elvish farewell.SpanishDub" Img="#169" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheReturnOfTheKing&amp;conversation=TheReturnOfTheKing.Elrond's farewell&amp;L3STinstance=TheReturnOfTheKing.Elrond's farewell.Elvish farewell&amp;L3TTinstance=TheReturnOfTheKing.Elrond's farewell.Elvish farewell.SpanishDub">
+        <Item Id="TheReturnOfTheKing.Elrond's farewell.Elvish farewell.SpanishDub" Name="TheReturnOfTheKing.Elrond's farewell.Elvish farewell.SpanishDub" Img="#175" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheReturnOfTheKing&amp;conversation=TheReturnOfTheKing.Elrond's farewell&amp;L3STinstance=TheReturnOfTheKing.Elrond's farewell.Elvish farewell&amp;L3TTinstance=TheReturnOfTheKing.Elrond's farewell.Elvish farewell.SpanishDub">
             <Description>In the Grey Havens, Elrond says a final line in Elvish. </Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -17350,7 +18032,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheReturnOfTheKing.Elrond's farewell.Elvish farewell.SpanishSub" Name="TheReturnOfTheKing.Elrond's farewell.Elvish farewell.SpanishSub" Img="#170" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheReturnOfTheKing&amp;conversation=TheReturnOfTheKing.Elrond's farewell&amp;L3STinstance=TheReturnOfTheKing.Elrond's farewell.Elvish farewell&amp;L3TTinstance=TheReturnOfTheKing.Elrond's farewell.Elvish farewell.SpanishSub">
+        <Item Id="TheReturnOfTheKing.Elrond's farewell.Elvish farewell.SpanishSub" Name="TheReturnOfTheKing.Elrond's farewell.Elvish farewell.SpanishSub" Img="#176" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheReturnOfTheKing&amp;conversation=TheReturnOfTheKing.Elrond's farewell&amp;L3STinstance=TheReturnOfTheKing.Elrond's farewell.Elvish farewell&amp;L3TTinstance=TheReturnOfTheKing.Elrond's farewell.Elvish farewell.SpanishSub">
             <Description>In the Grey Havens, Elrond says a final line in Elvish. </Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -17457,7 +18139,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheReturnOfTheKing.Éowyn salutes Aragorn.Éowyn salutes in Old Englosh.SpanishDub" Name="TheReturnOfTheKing.Éowyn salutes Aragorn.Éowyn salutes in Old Englosh.SpanishDub" Img="#171" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheReturnOfTheKing&amp;conversation=TheReturnOfTheKing.Éowyn salutes Aragorn&amp;L3STinstance=TheReturnOfTheKing.Éowyn salutes Aragorn.Éowyn salutes in Old Englosh&amp;L3TTinstance=TheReturnOfTheKing.Éowyn salutes Aragorn.Éowyn salutes in Old Englosh.SpanishDub">
+        <Item Id="TheReturnOfTheKing.Éowyn salutes Aragorn.Éowyn salutes in Old Englosh.SpanishDub" Name="TheReturnOfTheKing.Éowyn salutes Aragorn.Éowyn salutes in Old Englosh.SpanishDub" Img="#177" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheReturnOfTheKing&amp;conversation=TheReturnOfTheKing.Éowyn salutes Aragorn&amp;L3STinstance=TheReturnOfTheKing.Éowyn salutes Aragorn.Éowyn salutes in Old Englosh&amp;L3TTinstance=TheReturnOfTheKing.Éowyn salutes Aragorn.Éowyn salutes in Old Englosh.SpanishDub">
             <Description>In Meduseld palace, during the celebration of the victory at Helm's Deep, Éowyn speaks to Aragorn. </Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -17561,7 +18243,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheReturnOfTheKing.Éowyn salutes Aragorn.Éowyn salutes in Old Englosh.SpanishSub" Name="TheReturnOfTheKing.Éowyn salutes Aragorn.Éowyn salutes in Old Englosh.SpanishSub" Img="#172" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheReturnOfTheKing&amp;conversation=TheReturnOfTheKing.Éowyn salutes Aragorn&amp;L3STinstance=TheReturnOfTheKing.Éowyn salutes Aragorn.Éowyn salutes in Old Englosh&amp;L3TTinstance=TheReturnOfTheKing.Éowyn salutes Aragorn.Éowyn salutes in Old Englosh.SpanishSub">
+        <Item Id="TheReturnOfTheKing.Éowyn salutes Aragorn.Éowyn salutes in Old Englosh.SpanishSub" Name="TheReturnOfTheKing.Éowyn salutes Aragorn.Éowyn salutes in Old Englosh.SpanishSub" Img="#178" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheReturnOfTheKing&amp;conversation=TheReturnOfTheKing.Éowyn salutes Aragorn&amp;L3STinstance=TheReturnOfTheKing.Éowyn salutes Aragorn.Éowyn salutes in Old Englosh&amp;L3TTinstance=TheReturnOfTheKing.Éowyn salutes Aragorn.Éowyn salutes in Old Englosh.SpanishSub">
             <Description>In Meduseld palace, during the celebration of the victory at Helm's Deep, Éowyn speaks to Aragorn. </Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -17665,7 +18347,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers.Aragorn_Arwen_Evenstar.About_their_bond.SpanishDub" Name="TheTwoTowers.Aragorn_Arwen_Evenstar.About_their_bond.SpanishDub" Img="#173" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Aragorn_Arwen_Evenstar&amp;L3STinstance=TheTwoTowers.Aragorn_Arwen_Evenstar.About_their_bond&amp;L3TTinstance=TheTwoTowers.Aragorn_Arwen_Evenstar.About_their_bond.SpanishDub">
+        <Item Id="TheTwoTowers.Aragorn_Arwen_Evenstar.About_their_bond.SpanishDub" Name="TheTwoTowers.Aragorn_Arwen_Evenstar.About_their_bond.SpanishDub" Img="#179" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Aragorn_Arwen_Evenstar&amp;L3STinstance=TheTwoTowers.Aragorn_Arwen_Evenstar.About_their_bond&amp;L3TTinstance=TheTwoTowers.Aragorn_Arwen_Evenstar.About_their_bond.SpanishDub">
             <Description>Aragorn remembers a scene with Arwen. </Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -17772,7 +18454,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers.Aragorn_Arwen_Evenstar.About_their_bond.SpanishSub" Name="TheTwoTowers.Aragorn_Arwen_Evenstar.About_their_bond.SpanishSub" Img="#174" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Aragorn_Arwen_Evenstar&amp;L3STinstance=TheTwoTowers.Aragorn_Arwen_Evenstar.About_their_bond&amp;L3TTinstance=TheTwoTowers.Aragorn_Arwen_Evenstar.About_their_bond.SpanishSub">
+        <Item Id="TheTwoTowers.Aragorn_Arwen_Evenstar.About_their_bond.SpanishSub" Name="TheTwoTowers.Aragorn_Arwen_Evenstar.About_their_bond.SpanishSub" Img="#180" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Aragorn_Arwen_Evenstar&amp;L3STinstance=TheTwoTowers.Aragorn_Arwen_Evenstar.About_their_bond&amp;L3TTinstance=TheTwoTowers.Aragorn_Arwen_Evenstar.About_their_bond.SpanishSub">
             <Description>Aragorn remembers a scene with Arwen. </Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -17879,7 +18561,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers.Aragorn_Arwen_Evenstar3.Elrond_speaking.SpanishDub" Name="TheTwoTowers.Aragorn_Arwen_Evenstar3.Elrond_speaking.SpanishDub" Img="#175" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Aragorn_Arwen_Evenstar3&amp;L3STinstance=TheTwoTowers.Aragorn_Arwen_Evenstar3.Elrond_speaking&amp;L3TTinstance=TheTwoTowers.Aragorn_Arwen_Evenstar3.Elrond_speaking.SpanishDub">
+        <Item Id="TheTwoTowers.Aragorn_Arwen_Evenstar3.Elrond_speaking.SpanishDub" Name="TheTwoTowers.Aragorn_Arwen_Evenstar3.Elrond_speaking.SpanishDub" Img="#181" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Aragorn_Arwen_Evenstar3&amp;L3STinstance=TheTwoTowers.Aragorn_Arwen_Evenstar3.Elrond_speaking&amp;L3TTinstance=TheTwoTowers.Aragorn_Arwen_Evenstar3.Elrond_speaking.SpanishDub">
             <Description>Arwen decides to stay in Middle-Earth and become a mortal. She argues with her father about that. </Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -17986,7 +18668,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers.Aragorn_Arwen_Evenstar3.Elrond_speaking.SpanishSub" Name="TheTwoTowers.Aragorn_Arwen_Evenstar3.Elrond_speaking.SpanishSub" Img="#176" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Aragorn_Arwen_Evenstar3&amp;L3STinstance=TheTwoTowers.Aragorn_Arwen_Evenstar3.Elrond_speaking&amp;L3TTinstance=TheTwoTowers.Aragorn_Arwen_Evenstar3.Elrond_speaking.SpanishSub">
+        <Item Id="TheTwoTowers.Aragorn_Arwen_Evenstar3.Elrond_speaking.SpanishSub" Name="TheTwoTowers.Aragorn_Arwen_Evenstar3.Elrond_speaking.SpanishSub" Img="#182" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Aragorn_Arwen_Evenstar3&amp;L3STinstance=TheTwoTowers.Aragorn_Arwen_Evenstar3.Elrond_speaking&amp;L3TTinstance=TheTwoTowers.Aragorn_Arwen_Evenstar3.Elrond_speaking.SpanishSub">
             <Description>Arwen decides to stay in Middle-Earth and become a mortal. She argues with her father about that. </Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -18093,7 +18775,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers.Aragorn_Arwen_Evenstar_2.Argument.SpanishDub" Name="TheTwoTowers.Aragorn_Arwen_Evenstar_2.Argument.SpanishDub" Img="#177" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Aragorn_Arwen_Evenstar_2&amp;L3STinstance=TheTwoTowers.Aragorn_Arwen_Evenstar_2.Argument&amp;L3TTinstance=TheTwoTowers.Aragorn_Arwen_Evenstar_2.Argument.SpanishDub">
+        <Item Id="TheTwoTowers.Aragorn_Arwen_Evenstar_2.Argument.SpanishDub" Name="TheTwoTowers.Aragorn_Arwen_Evenstar_2.Argument.SpanishDub" Img="#183" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Aragorn_Arwen_Evenstar_2&amp;L3STinstance=TheTwoTowers.Aragorn_Arwen_Evenstar_2.Argument&amp;L3TTinstance=TheTwoTowers.Aragorn_Arwen_Evenstar_2.Argument.SpanishDub">
             <Description>Aragorn urges Arwen to leave Middle-Earth with her people and forget him.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -18204,7 +18886,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers.Aragorn_Arwen_Evenstar_2.Argument.SpanishSub" Name="TheTwoTowers.Aragorn_Arwen_Evenstar_2.Argument.SpanishSub" Img="#178" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Aragorn_Arwen_Evenstar_2&amp;L3STinstance=TheTwoTowers.Aragorn_Arwen_Evenstar_2.Argument&amp;L3TTinstance=TheTwoTowers.Aragorn_Arwen_Evenstar_2.Argument.SpanishSub">
+        <Item Id="TheTwoTowers.Aragorn_Arwen_Evenstar_2.Argument.SpanishSub" Name="TheTwoTowers.Aragorn_Arwen_Evenstar_2.Argument.SpanishSub" Img="#184" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Aragorn_Arwen_Evenstar_2&amp;L3STinstance=TheTwoTowers.Aragorn_Arwen_Evenstar_2.Argument&amp;L3TTinstance=TheTwoTowers.Aragorn_Arwen_Evenstar_2.Argument.SpanishSub">
             <Description>Aragorn urges Arwen to leave Middle-Earth with her people and forget him.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -18315,7 +18997,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers.Aragorn_Brego.Aragorn_tames_Brego.SpanishDub" Name="TheTwoTowers.Aragorn_Brego.Aragorn_tames_Brego.SpanishDub" Img="#179" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Aragorn_Brego&amp;L3STinstance=TheTwoTowers.Aragorn_Brego.Aragorn_tames_Brego&amp;L3TTinstance=TheTwoTowers.Aragorn_Brego.Aragorn_tames_Brego.SpanishDub">
+        <Item Id="TheTwoTowers.Aragorn_Brego.Aragorn_tames_Brego.SpanishDub" Name="TheTwoTowers.Aragorn_Brego.Aragorn_tames_Brego.SpanishDub" Img="#185" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Aragorn_Brego&amp;L3STinstance=TheTwoTowers.Aragorn_Brego.Aragorn_tames_Brego&amp;L3TTinstance=TheTwoTowers.Aragorn_Brego.Aragorn_tames_Brego.SpanishDub">
             <Description>Aragorn tames his future horse, Brego, by using Elvish words.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -18427,7 +19109,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers.Aragorn_Brego.Aragorn_tames_Brego.SpanishSub" Name="TheTwoTowers.Aragorn_Brego.Aragorn_tames_Brego.SpanishSub" Img="#180" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Aragorn_Brego&amp;L3STinstance=TheTwoTowers.Aragorn_Brego.Aragorn_tames_Brego&amp;L3TTinstance=TheTwoTowers.Aragorn_Brego.Aragorn_tames_Brego.SpanishSub">
+        <Item Id="TheTwoTowers.Aragorn_Brego.Aragorn_tames_Brego.SpanishSub" Name="TheTwoTowers.Aragorn_Brego.Aragorn_tames_Brego.SpanishSub" Img="#186" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Aragorn_Brego&amp;L3STinstance=TheTwoTowers.Aragorn_Brego.Aragorn_tames_Brego&amp;L3TTinstance=TheTwoTowers.Aragorn_Brego.Aragorn_tames_Brego.SpanishSub">
             <Description>Aragorn tames his future horse, Brego, by using Elvish words.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -18539,7 +19221,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers.Aragorn_Brego2.Thanking_in_Elvish.SpanishDub" Name="TheTwoTowers.Aragorn_Brego2.Thanking_in_Elvish.SpanishDub" Img="#181" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Aragorn_Brego2&amp;L3STinstance=TheTwoTowers.Aragorn_Brego2.Thanking_in_Elvish&amp;L3TTinstance=TheTwoTowers.Aragorn_Brego2.Thanking_in_Elvish.SpanishDub">
+        <Item Id="TheTwoTowers.Aragorn_Brego2.Thanking_in_Elvish.SpanishDub" Name="TheTwoTowers.Aragorn_Brego2.Thanking_in_Elvish.SpanishDub" Img="#187" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Aragorn_Brego2&amp;L3STinstance=TheTwoTowers.Aragorn_Brego2.Thanking_in_Elvish&amp;L3TTinstance=TheTwoTowers.Aragorn_Brego2.Thanking_in_Elvish.SpanishDub">
             <Description>Aragorn thanks his horse for bringing him to Helm's Deep.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -18640,7 +19322,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers.Aragorn_Brego2.Thanking_in_Elvish.SpanishSub" Name="TheTwoTowers.Aragorn_Brego2.Thanking_in_Elvish.SpanishSub" Img="#182" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Aragorn_Brego2&amp;L3STinstance=TheTwoTowers.Aragorn_Brego2.Thanking_in_Elvish&amp;L3TTinstance=TheTwoTowers.Aragorn_Brego2.Thanking_in_Elvish.SpanishSub">
+        <Item Id="TheTwoTowers.Aragorn_Brego2.Thanking_in_Elvish.SpanishSub" Name="TheTwoTowers.Aragorn_Brego2.Thanking_in_Elvish.SpanishSub" Img="#188" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Aragorn_Brego2&amp;L3STinstance=TheTwoTowers.Aragorn_Brego2.Thanking_in_Elvish&amp;L3TTinstance=TheTwoTowers.Aragorn_Brego2.Thanking_in_Elvish.SpanishSub">
             <Description>Aragorn thanks his horse for bringing him to Helm's Deep.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -18741,7 +19423,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers.Aragorn_Legolas_Helm'sDeep.Aragorn_thanks.SpanishDub" Name="TheTwoTowers.Aragorn_Legolas_Helm'sDeep.Aragorn_thanks.SpanishDub" Img="#183" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Aragorn_Legolas_Helm'sDeep&amp;L3STinstance=TheTwoTowers.Aragorn_Legolas_Helm'sDeep.Aragorn_thanks&amp;L3TTinstance=TheTwoTowers.Aragorn_Legolas_Helm'sDeep.Aragorn_thanks.SpanishDub">
+        <Item Id="TheTwoTowers.Aragorn_Legolas_Helm'sDeep.Aragorn_thanks.SpanishDub" Name="TheTwoTowers.Aragorn_Legolas_Helm'sDeep.Aragorn_thanks.SpanishDub" Img="#189" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Aragorn_Legolas_Helm'sDeep&amp;L3STinstance=TheTwoTowers.Aragorn_Legolas_Helm'sDeep.Aragorn_thanks&amp;L3TTinstance=TheTwoTowers.Aragorn_Legolas_Helm'sDeep.Aragorn_thanks.SpanishDub">
             <Description>Legolas gives a sarcastic opinion on Aragorn's looks when the latter reaches Helm's Deep (Aragorn was meant to be dead). Legolas gives him the Evenstar pendant back.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -18845,7 +19527,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers.Aragorn_Legolas_Helm'sDeep.Aragorn_thanks.SpanishSub" Name="TheTwoTowers.Aragorn_Legolas_Helm'sDeep.Aragorn_thanks.SpanishSub" Img="#184" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Aragorn_Legolas_Helm'sDeep&amp;L3STinstance=TheTwoTowers.Aragorn_Legolas_Helm'sDeep.Aragorn_thanks&amp;L3TTinstance=TheTwoTowers.Aragorn_Legolas_Helm'sDeep.Aragorn_thanks.SpanishSub">
+        <Item Id="TheTwoTowers.Aragorn_Legolas_Helm'sDeep.Aragorn_thanks.SpanishSub" Name="TheTwoTowers.Aragorn_Legolas_Helm'sDeep.Aragorn_thanks.SpanishSub" Img="#190" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Aragorn_Legolas_Helm'sDeep&amp;L3STinstance=TheTwoTowers.Aragorn_Legolas_Helm'sDeep.Aragorn_thanks&amp;L3TTinstance=TheTwoTowers.Aragorn_Legolas_Helm'sDeep.Aragorn_thanks.SpanishSub">
             <Description>Legolas gives a sarcastic opinion on Aragorn's looks when the latter reaches Helm's Deep (Aragorn was meant to be dead). Legolas gives him the Evenstar pendant back.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -18949,7 +19631,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers.Aragorn_Legolas_Helm'sDeep.Legolas_opinion.SpanishDub" Name="TheTwoTowers.Aragorn_Legolas_Helm'sDeep.Legolas_opinion.SpanishDub" Img="#185" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Aragorn_Legolas_Helm'sDeep&amp;L3STinstance=TheTwoTowers.Aragorn_Legolas_Helm'sDeep.Legolas_opinion&amp;L3TTinstance=TheTwoTowers.Aragorn_Legolas_Helm'sDeep.Legolas_opinion.SpanishDub">
+        <Item Id="TheTwoTowers.Aragorn_Legolas_Helm'sDeep.Legolas_opinion.SpanishDub" Name="TheTwoTowers.Aragorn_Legolas_Helm'sDeep.Legolas_opinion.SpanishDub" Img="#191" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Aragorn_Legolas_Helm'sDeep&amp;L3STinstance=TheTwoTowers.Aragorn_Legolas_Helm'sDeep.Legolas_opinion&amp;L3TTinstance=TheTwoTowers.Aragorn_Legolas_Helm'sDeep.Legolas_opinion.SpanishDub">
             <Description>Legolas gives a sarcastic opinion on Aragorn's looks when the latter reaches Helm's Deep (Aragorn was meant to be dead). Legolas gives him the Evenstar pendant back.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -19059,7 +19741,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers.Aragorn_Legolas_Helm'sDeep.Legolas_opinion.SpanishSub" Name="TheTwoTowers.Aragorn_Legolas_Helm'sDeep.Legolas_opinion.SpanishSub" Img="#186" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Aragorn_Legolas_Helm'sDeep&amp;L3STinstance=TheTwoTowers.Aragorn_Legolas_Helm'sDeep.Legolas_opinion&amp;L3TTinstance=TheTwoTowers.Aragorn_Legolas_Helm'sDeep.Legolas_opinion.SpanishSub">
+        <Item Id="TheTwoTowers.Aragorn_Legolas_Helm'sDeep.Legolas_opinion.SpanishSub" Name="TheTwoTowers.Aragorn_Legolas_Helm'sDeep.Legolas_opinion.SpanishSub" Img="#192" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Aragorn_Legolas_Helm'sDeep&amp;L3STinstance=TheTwoTowers.Aragorn_Legolas_Helm'sDeep.Legolas_opinion&amp;L3TTinstance=TheTwoTowers.Aragorn_Legolas_Helm'sDeep.Legolas_opinion.SpanishSub">
             <Description>Legolas gives a sarcastic opinion on Aragorn's looks when the latter reaches Helm's Deep (Aragorn was meant to be dead). Legolas gives him the Evenstar pendant back.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -19169,7 +19851,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers.Galadriel_on_the_future.Monologue.SpanishDub" Name="TheTwoTowers.Galadriel_on_the_future.Monologue.SpanishDub" Img="#187" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Galadriel_on_the_future&amp;L3STinstance=TheTwoTowers.Galadriel_on_the_future.Monologue&amp;L3TTinstance=TheTwoTowers.Galadriel_on_the_future.Monologue.SpanishDub">
+        <Item Id="TheTwoTowers.Galadriel_on_the_future.Monologue.SpanishDub" Name="TheTwoTowers.Galadriel_on_the_future.Monologue.SpanishDub" Img="#193" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Galadriel_on_the_future&amp;L3STinstance=TheTwoTowers.Galadriel_on_the_future.Monologue&amp;L3TTinstance=TheTwoTowers.Galadriel_on_the_future.Monologue.SpanishDub">
             <Description>Monologue by Galadriel concerning the future of Middle Earth.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -19279,7 +19961,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers.Galadriel_on_the_future.Monologue.SpanishSub" Name="TheTwoTowers.Galadriel_on_the_future.Monologue.SpanishSub" Img="#188" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Galadriel_on_the_future&amp;L3STinstance=TheTwoTowers.Galadriel_on_the_future.Monologue&amp;L3TTinstance=TheTwoTowers.Galadriel_on_the_future.Monologue.SpanishSub">
+        <Item Id="TheTwoTowers.Galadriel_on_the_future.Monologue.SpanishSub" Name="TheTwoTowers.Galadriel_on_the_future.Monologue.SpanishSub" Img="#194" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Galadriel_on_the_future&amp;L3STinstance=TheTwoTowers.Galadriel_on_the_future.Monologue&amp;L3TTinstance=TheTwoTowers.Galadriel_on_the_future.Monologue.SpanishSub">
             <Description>Monologue by Galadriel concerning the future of Middle Earth.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -19389,7 +20071,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers.Gandalf_returns.Legolas-Aragorn_Fangorn.SpanishDub" Name="Gandalf returns. Legolas - Aragorn, Fangorn. SpanishDub" Img="#189" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Gandalf_returns&amp;L3STinstance=TheTwoTowers.Gandalf_returns.Legolas-Aragorn_Fangorn&amp;L3TTinstance=TheTwoTowers.Gandalf_returns.Legolas-Aragorn_Fangorn.SpanishDub">
+        <Item Id="TheTwoTowers.Gandalf_returns.Legolas-Aragorn_Fangorn.SpanishDub" Name="Gandalf returns. Legolas - Aragorn, Fangorn. SpanishDub" Img="#195" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Gandalf_returns&amp;L3STinstance=TheTwoTowers.Gandalf_returns.Legolas-Aragorn_Fangorn&amp;L3TTinstance=TheTwoTowers.Gandalf_returns.Legolas-Aragorn_Fangorn.SpanishDub">
             <Description>Aragorn, Gimli and Legolas enter the Fangorn forest looking for the White wizard.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -19491,7 +20173,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers.Gandalf_returns.Legolas-Aragorn_Fangorn.SpanishSub" Name="Gandalf returns. Legolas - Aragorn, Fangorn. SpanishSub" Img="#190" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Gandalf_returns&amp;L3STinstance=TheTwoTowers.Gandalf_returns.Legolas-Aragorn_Fangorn&amp;L3TTinstance=TheTwoTowers.Gandalf_returns.Legolas-Aragorn_Fangorn.SpanishSub">
+        <Item Id="TheTwoTowers.Gandalf_returns.Legolas-Aragorn_Fangorn.SpanishSub" Name="Gandalf returns. Legolas - Aragorn, Fangorn. SpanishSub" Img="#196" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Gandalf_returns&amp;L3STinstance=TheTwoTowers.Gandalf_returns.Legolas-Aragorn_Fangorn&amp;L3TTinstance=TheTwoTowers.Gandalf_returns.Legolas-Aragorn_Fangorn.SpanishSub">
             <Description>Aragorn, Gimli and Legolas enter the Fangorn forest looking for the White wizard.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -19599,7 +20281,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers.Helm's Deep Battle 2.Aragorn's instruction 2.SpanishDub" Name="TheTwoTowers.Helm's Deep Battle 2.Aragorn's instruction 2.SpanishDub" Img="#191" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Helm's Deep Battle 2&amp;L3STinstance=TheTwoTowers.Helm's Deep Battle 2.Aragorn's instruction 2&amp;L3TTinstance=TheTwoTowers.Helm's Deep Battle 2.Aragorn's instruction 2.SpanishDub">
+        <Item Id="TheTwoTowers.Helm's Deep Battle 2.Aragorn's instruction 2.SpanishDub" Name="TheTwoTowers.Helm's Deep Battle 2.Aragorn's instruction 2.SpanishDub" Img="#197" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Helm's Deep Battle 2&amp;L3STinstance=TheTwoTowers.Helm's Deep Battle 2.Aragorn's instruction 2&amp;L3TTinstance=TheTwoTowers.Helm's Deep Battle 2.Aragorn's instruction 2.SpanishDub">
             <Description>During the battle of Helm's Deep, Aragorn gives more orders in Elvish. </Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -19703,7 +20385,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers.Helm's Deep Battle 2.Aragorn's instruction 2.SpanishSub" Name="TheTwoTowers.Helm's Deep Battle 2.Aragorn's instruction 2.SpanishSub" Img="#192" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Helm's Deep Battle 2&amp;L3STinstance=TheTwoTowers.Helm's Deep Battle 2.Aragorn's instruction 2&amp;L3TTinstance=TheTwoTowers.Helm's Deep Battle 2.Aragorn's instruction 2.SpanishSub">
+        <Item Id="TheTwoTowers.Helm's Deep Battle 2.Aragorn's instruction 2.SpanishSub" Name="TheTwoTowers.Helm's Deep Battle 2.Aragorn's instruction 2.SpanishSub" Img="#198" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Helm's Deep Battle 2&amp;L3STinstance=TheTwoTowers.Helm's Deep Battle 2.Aragorn's instruction 2&amp;L3TTinstance=TheTwoTowers.Helm's Deep Battle 2.Aragorn's instruction 2.SpanishSub">
             <Description>During the battle of Helm's Deep, Aragorn gives more orders in Elvish. </Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -19807,7 +20489,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers.Helm's Deep Battle 3.Aragorn's instructions 3.SpanishDub" Name="TheTwoTowers.Helm's Deep Battle 3.Aragorn's instructions 3.SpanishDub" Img="#193" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Helm's Deep Battle 3&amp;L3STinstance=TheTwoTowers.Helm's Deep Battle 3.Aragorn's instructions 3&amp;L3TTinstance=TheTwoTowers.Helm's Deep Battle 3.Aragorn's instructions 3.SpanishDub">
+        <Item Id="TheTwoTowers.Helm's Deep Battle 3.Aragorn's instructions 3.SpanishDub" Name="TheTwoTowers.Helm's Deep Battle 3.Aragorn's instructions 3.SpanishDub" Img="#199" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Helm's Deep Battle 3&amp;L3STinstance=TheTwoTowers.Helm's Deep Battle 3.Aragorn's instructions 3&amp;L3TTinstance=TheTwoTowers.Helm's Deep Battle 3.Aragorn's instructions 3.SpanishDub">
             <Description>As the battle continues, Aragorn keeps on giving orders in Elvish.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -19911,7 +20593,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers.Helm's Deep Battle 3.Aragorn's instructions 3.SpanishSub" Name="TheTwoTowers.Helm's Deep Battle 3.Aragorn's instructions 3.SpanishSub" Img="#194" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Helm's Deep Battle 3&amp;L3STinstance=TheTwoTowers.Helm's Deep Battle 3.Aragorn's instructions 3&amp;L3TTinstance=TheTwoTowers.Helm's Deep Battle 3.Aragorn's instructions 3.SpanishSub">
+        <Item Id="TheTwoTowers.Helm's Deep Battle 3.Aragorn's instructions 3.SpanishSub" Name="TheTwoTowers.Helm's Deep Battle 3.Aragorn's instructions 3.SpanishSub" Img="#200" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Helm's Deep Battle 3&amp;L3STinstance=TheTwoTowers.Helm's Deep Battle 3.Aragorn's instructions 3&amp;L3TTinstance=TheTwoTowers.Helm's Deep Battle 3.Aragorn's instructions 3.SpanishSub">
             <Description>As the battle continues, Aragorn keeps on giving orders in Elvish.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -20015,7 +20697,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers.Helm's Deep Battle 4.Aragorn's instructions 4.SpanishDub" Name="TheTwoTowers.Helm's Deep Battle 4.Aragorn's instructions 4.SpanishDub" Img="#195" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Helm's Deep Battle 4&amp;L3STinstance=TheTwoTowers.Helm's Deep Battle 4.Aragorn's instructions 4&amp;L3TTinstance=TheTwoTowers.Helm's Deep Battle 4.Aragorn's instructions 4.SpanishDub">
+        <Item Id="TheTwoTowers.Helm's Deep Battle 4.Aragorn's instructions 4.SpanishDub" Name="TheTwoTowers.Helm's Deep Battle 4.Aragorn's instructions 4.SpanishDub" Img="#201" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Helm's Deep Battle 4&amp;L3STinstance=TheTwoTowers.Helm's Deep Battle 4.Aragorn's instructions 4&amp;L3TTinstance=TheTwoTowers.Helm's Deep Battle 4.Aragorn's instructions 4.SpanishDub">
             <Description>Aragorn calls for retreat to the keep in the batlle of Helm's Deep.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -20119,7 +20801,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers.Helm's Deep Battle 4.Aragorn's instructions 4.SpanishSub" Name="TheTwoTowers.Helm's Deep Battle 4.Aragorn's instructions 4.SpanishSub" Img="#196" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Helm's Deep Battle 4&amp;L3STinstance=TheTwoTowers.Helm's Deep Battle 4.Aragorn's instructions 4&amp;L3TTinstance=TheTwoTowers.Helm's Deep Battle 4.Aragorn's instructions 4.SpanishSub">
+        <Item Id="TheTwoTowers.Helm's Deep Battle 4.Aragorn's instructions 4.SpanishSub" Name="TheTwoTowers.Helm's Deep Battle 4.Aragorn's instructions 4.SpanishSub" Img="#202" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Helm's Deep Battle 4&amp;L3STinstance=TheTwoTowers.Helm's Deep Battle 4.Aragorn's instructions 4&amp;L3TTinstance=TheTwoTowers.Helm's Deep Battle 4.Aragorn's instructions 4.SpanishSub">
             <Description>Aragorn calls for retreat to the keep in the batlle of Helm's Deep.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -20223,7 +20905,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers.Helm's Deep Battle.Aragorn's instruction.SpanishDub" Name="TheTwoTowers.Helm's Deep Battle.Aragorn's instruction.SpanishDub" Img="#197" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Helm's Deep Battle&amp;L3STinstance=TheTwoTowers.Helm's Deep Battle.Aragorn's instruction&amp;L3TTinstance=TheTwoTowers.Helm's Deep Battle.Aragorn's instruction.SpanishDub">
+        <Item Id="TheTwoTowers.Helm's Deep Battle.Aragorn's instruction.SpanishDub" Name="TheTwoTowers.Helm's Deep Battle.Aragorn's instruction.SpanishDub" Img="#203" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Helm's Deep Battle&amp;L3STinstance=TheTwoTowers.Helm's Deep Battle.Aragorn's instruction&amp;L3TTinstance=TheTwoTowers.Helm's Deep Battle.Aragorn's instruction.SpanishDub">
             <Description>During the battle of Helm's Deep, Aragorn commands the troops by giving them orders in Elvish. </Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -20327,7 +21009,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers.Helm's Deep Battle.Aragorn's instruction.SpanishSub" Name="TheTwoTowers.Helm's Deep Battle.Aragorn's instruction.SpanishSub" Img="#198" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Helm's Deep Battle&amp;L3STinstance=TheTwoTowers.Helm's Deep Battle.Aragorn's instruction&amp;L3TTinstance=TheTwoTowers.Helm's Deep Battle.Aragorn's instruction.SpanishSub">
+        <Item Id="TheTwoTowers.Helm's Deep Battle.Aragorn's instruction.SpanishSub" Name="TheTwoTowers.Helm's Deep Battle.Aragorn's instruction.SpanishSub" Img="#204" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Helm's Deep Battle&amp;L3STinstance=TheTwoTowers.Helm's Deep Battle.Aragorn's instruction&amp;L3TTinstance=TheTwoTowers.Helm's Deep Battle.Aragorn's instruction.SpanishSub">
             <Description>During the battle of Helm's Deep, Aragorn commands the troops by giving them orders in Elvish. </Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -20431,7 +21113,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers.Hobbit_mourning.Legolas_praying.SpanishDub" Name="Hobbit mourning. Legolas praying. SpanishDub" Img="#199" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Hobbit_mourning&amp;L3STinstance=TheTwoTowers.Hobbit_mourning.Legolas_praying&amp;L3TTinstance=TheTwoTowers.Hobbit_mourning.Legolas_praying.SpanishDub">
+        <Item Id="TheTwoTowers.Hobbit_mourning.Legolas_praying.SpanishDub" Name="Hobbit mourning. Legolas praying. SpanishDub" Img="#205" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Hobbit_mourning&amp;L3STinstance=TheTwoTowers.Hobbit_mourning.Legolas_praying&amp;L3TTinstance=TheTwoTowers.Hobbit_mourning.Legolas_praying.SpanishDub">
             <Description>Thinking Pippin and Merry dead, Legolas prays for the hobbits in Elvish.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -20539,7 +21221,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers.Hobbit_mourning.Legolas_praying.SpanishSub" Name="Hobbit mourning. Legolas praying. SpanishSub" Img="#200" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Hobbit_mourning&amp;L3STinstance=TheTwoTowers.Hobbit_mourning.Legolas_praying&amp;L3TTinstance=TheTwoTowers.Hobbit_mourning.Legolas_praying.SpanishSub">
+        <Item Id="TheTwoTowers.Hobbit_mourning.Legolas_praying.SpanishSub" Name="Hobbit mourning. Legolas praying. SpanishSub" Img="#206" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Hobbit_mourning&amp;L3STinstance=TheTwoTowers.Hobbit_mourning.Legolas_praying&amp;L3TTinstance=TheTwoTowers.Hobbit_mourning.Legolas_praying.SpanishSub">
             <Description>Thinking Pippin and Merry dead, Legolas prays for the hobbits in Elvish.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -20647,7 +21329,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers.Preparing for Helm's Deep battle 2.Legolas apologizes.SpanishDub" Name="TheTwoTowers.Preparing for Helm's Deep battle 2.Legolas apologizes.SpanishDub" Img="#201" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Preparing for Helm's Deep battle 2&amp;L3STinstance=TheTwoTowers.Preparing for Helm's Deep battle 2.Legolas apologizes&amp;L3TTinstance=TheTwoTowers.Preparing for Helm's Deep battle 2.Legolas apologizes.SpanishDub">
+        <Item Id="TheTwoTowers.Preparing for Helm's Deep battle 2.Legolas apologizes.SpanishDub" Name="TheTwoTowers.Preparing for Helm's Deep battle 2.Legolas apologizes.SpanishDub" Img="#207" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Preparing for Helm's Deep battle 2&amp;L3STinstance=TheTwoTowers.Preparing for Helm's Deep battle 2.Legolas apologizes&amp;L3TTinstance=TheTwoTowers.Preparing for Helm's Deep battle 2.Legolas apologizes.SpanishDub">
             <Description>Legolas apologizes to Aragorn about their previous conversation on the defense of Helm's Deep.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -20751,7 +21433,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers.Preparing for Helm's Deep battle 2.Legolas apologizes.SpanishSub" Name="TheTwoTowers.Preparing for Helm's Deep battle 2.Legolas apologizes.SpanishSub" Img="#202" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Preparing for Helm's Deep battle 2&amp;L3STinstance=TheTwoTowers.Preparing for Helm's Deep battle 2.Legolas apologizes&amp;L3TTinstance=TheTwoTowers.Preparing for Helm's Deep battle 2.Legolas apologizes.SpanishSub">
+        <Item Id="TheTwoTowers.Preparing for Helm's Deep battle 2.Legolas apologizes.SpanishSub" Name="TheTwoTowers.Preparing for Helm's Deep battle 2.Legolas apologizes.SpanishSub" Img="#208" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Preparing for Helm's Deep battle 2&amp;L3STinstance=TheTwoTowers.Preparing for Helm's Deep battle 2.Legolas apologizes&amp;L3TTinstance=TheTwoTowers.Preparing for Helm's Deep battle 2.Legolas apologizes.SpanishSub">
             <Description>Legolas apologizes to Aragorn about their previous conversation on the defense of Helm's Deep.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -20855,7 +21537,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers.Preparing for Helm's Deep battle.Discussing the chances.SpanishDub" Name="TheTwoTowers.Preparing for Helm's Deep battle.Discussing the chances.SpanishDub" Img="#203" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Preparing for Helm's Deep battle&amp;L3STinstance=TheTwoTowers.Preparing for Helm's Deep battle.Discussing the chances&amp;L3TTinstance=TheTwoTowers.Preparing for Helm's Deep battle.Discussing the chances.SpanishDub">
+        <Item Id="TheTwoTowers.Preparing for Helm's Deep battle.Discussing the chances.SpanishDub" Name="TheTwoTowers.Preparing for Helm's Deep battle.Discussing the chances.SpanishDub" Img="#209" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Preparing for Helm's Deep battle&amp;L3STinstance=TheTwoTowers.Preparing for Helm's Deep battle.Discussing the chances&amp;L3TTinstance=TheTwoTowers.Preparing for Helm's Deep battle.Discussing the chances.SpanishDub">
             <Description>Aragorn, Legolas and Gimli discuss the little chances of victory in the battle of Helm's Deep.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -20960,7 +21642,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers.Preparing for Helm's Deep battle.Discussing the chances.SpanishSub" Name="TheTwoTowers.Preparing for Helm's Deep battle.Discussing the chances.SpanishSub" Img="#204" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Preparing for Helm's Deep battle&amp;L3STinstance=TheTwoTowers.Preparing for Helm's Deep battle.Discussing the chances&amp;L3TTinstance=TheTwoTowers.Preparing for Helm's Deep battle.Discussing the chances.SpanishSub">
+        <Item Id="TheTwoTowers.Preparing for Helm's Deep battle.Discussing the chances.SpanishSub" Name="TheTwoTowers.Preparing for Helm's Deep battle.Discussing the chances.SpanishSub" Img="#210" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Preparing for Helm's Deep battle&amp;L3STinstance=TheTwoTowers.Preparing for Helm's Deep battle.Discussing the chances&amp;L3TTinstance=TheTwoTowers.Preparing for Helm's Deep battle.Discussing the chances.SpanishSub">
             <Description>Aragorn, Legolas and Gimli discuss the little chances of victory in the battle of Helm's Deep.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -21065,7 +21747,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers.Theodred_funeral.Gandalf_words.SpanishDub" Name="Theodred funeral. Gandalf words. SpanishDub" Img="#205" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Theodred_funeral&amp;L3STinstance=TheTwoTowers.Theodred_funeral.Gandalf_words&amp;L3TTinstance=TheTwoTowers.Theodred_funeral.Gandalf_words.SpanishDub">
+        <Item Id="TheTwoTowers.Theodred_funeral.Gandalf_words.SpanishDub" Name="Theodred funeral. Gandalf words. SpanishDub" Img="#211" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Theodred_funeral&amp;L3STinstance=TheTwoTowers.Theodred_funeral.Gandalf_words&amp;L3TTinstance=TheTwoTowers.Theodred_funeral.Gandalf_words.SpanishDub">
             <Description>Theodred is buried following Rohan customs.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -21176,7 +21858,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers.Theodred_funeral.Gandalf_words.SpanishSub" Name="Theodred funeral. Gandalf words. SpanishSub" Img="#206" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Theodred_funeral&amp;L3STinstance=TheTwoTowers.Theodred_funeral.Gandalf_words&amp;L3TTinstance=TheTwoTowers.Theodred_funeral.Gandalf_words.SpanishSub">
+        <Item Id="TheTwoTowers.Theodred_funeral.Gandalf_words.SpanishSub" Name="Theodred funeral. Gandalf words. SpanishSub" Img="#212" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Theodred_funeral&amp;L3STinstance=TheTwoTowers.Theodred_funeral.Gandalf_words&amp;L3TTinstance=TheTwoTowers.Theodred_funeral.Gandalf_words.SpanishSub">
             <Description>Theodred is buried following Rohan customs.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -21287,7 +21969,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers.Theodred_funeral.Éowyn_song.SpanishDub" Name="Theodred funeral. Éowyn song. SpanishDub" Img="#207" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Theodred_funeral&amp;L3STinstance=TheTwoTowers.Theodred_funeral.Éowyn_song&amp;L3TTinstance=TheTwoTowers.Theodred_funeral.Éowyn_song.SpanishDub">
+        <Item Id="TheTwoTowers.Theodred_funeral.Éowyn_song.SpanishDub" Name="Theodred funeral. Éowyn song. SpanishDub" Img="#213" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Theodred_funeral&amp;L3STinstance=TheTwoTowers.Theodred_funeral.Éowyn_song&amp;L3TTinstance=TheTwoTowers.Theodred_funeral.Éowyn_song.SpanishDub">
             <Description>Theodred is buried following Rohan customs.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -21400,7 +22082,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers.Theodred_funeral.Éowyn_song.SpanishSub" Name="Theodred funeral. Éowyn song. SpanishSub" Img="#208" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Theodred_funeral&amp;L3STinstance=TheTwoTowers.Theodred_funeral.Éowyn_song&amp;L3TTinstance=TheTwoTowers.Theodred_funeral.Éowyn_song.SpanishSub">
+        <Item Id="TheTwoTowers.Theodred_funeral.Éowyn_song.SpanishSub" Name="Theodred funeral. Éowyn song. SpanishSub" Img="#214" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Theodred_funeral&amp;L3STinstance=TheTwoTowers.Theodred_funeral.Éowyn_song&amp;L3TTinstance=TheTwoTowers.Theodred_funeral.Éowyn_song.SpanishSub">
             <Description>Theodred is buried following Rohan customs.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -21513,7 +22195,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheWalk.MeetingAnnie.High wire.SpanishDub" Name="TheWalk.MeetingAnnie.High wire.SpanishDub" Img="#209" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingAnnie&amp;L3STinstance=TheWalk.MeetingAnnie.High wire&amp;L3TTinstance=TheWalk.MeetingAnnie.High wire.SpanishDub">
+        <Item Id="TheWalk.MeetingAnnie.High wire.SpanishDub" Name="TheWalk.MeetingAnnie.High wire.SpanishDub" Img="#215" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingAnnie&amp;L3STinstance=TheWalk.MeetingAnnie.High wire&amp;L3TTinstance=TheWalk.MeetingAnnie.High wire.SpanishDub">
             <Facets>
                 <Facet Name="Conversation duration (sec)">
                     <String Value="E. 81-100" />
@@ -21622,7 +22304,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheWalk.MeetingAnnie.Mime.SpanishDub" Name="TheWalk.MeetingAnnie.Mime.SpanishDub" Img="#210" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingAnnie&amp;L3STinstance=TheWalk.MeetingAnnie.Mime&amp;L3TTinstance=TheWalk.MeetingAnnie.Mime.SpanishDub">
+        <Item Id="TheWalk.MeetingAnnie.Mime.SpanishDub" Name="TheWalk.MeetingAnnie.Mime.SpanishDub" Img="#216" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingAnnie&amp;L3STinstance=TheWalk.MeetingAnnie.Mime&amp;L3TTinstance=TheWalk.MeetingAnnie.Mime.SpanishDub">
             <Facets>
                 <Facet Name="Conversation duration (sec)">
                     <String Value="E. 81-100" />
@@ -21722,7 +22404,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheWalk.MeetingAnnie.Texans.SpanishDub" Name="TheWalk.MeetingAnnie.Texans.SpanishDub" Img="#211" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingAnnie&amp;L3STinstance=TheWalk.MeetingAnnie.Texans&amp;L3TTinstance=TheWalk.MeetingAnnie.Texans.SpanishDub">
+        <Item Id="TheWalk.MeetingAnnie.Texans.SpanishDub" Name="TheWalk.MeetingAnnie.Texans.SpanishDub" Img="#217" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingAnnie&amp;L3STinstance=TheWalk.MeetingAnnie.Texans&amp;L3TTinstance=TheWalk.MeetingAnnie.Texans.SpanishDub">
             <Facets>
                 <Facet Name="Conversation duration (sec)">
                     <String Value="E. 81-100" />
@@ -21824,7 +22506,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="ToyStory3.Buzzdances.Venga conmigo, señorita.SpanishDub" Name="ToyStory3.Buzzdances.Venga conmigo, señorita.SpanishDub" Img="#212" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzdances&amp;L3STinstance=ToyStory3.Buzzdances.Venga conmigo, señorita&amp;L3TTinstance=ToyStory3.Buzzdances.Venga conmigo, señorita.SpanishDub">
+        <Item Id="ToyStory3.Buzzdances.Venga conmigo, señorita.SpanishDub" Name="ToyStory3.Buzzdances.Venga conmigo, señorita.SpanishDub" Img="#218" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzdances&amp;L3STinstance=ToyStory3.Buzzdances.Venga conmigo, señorita&amp;L3TTinstance=ToyStory3.Buzzdances.Venga conmigo, señorita.SpanishDub">
             <Facets>
                 <Facet Name="Conversation duration (sec)">
                     <String Value="A. 1-20" />
@@ -21934,7 +22616,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="ToyStory3.Buzzfallsinlove.Mi florecilla del desierto.SpanishDub" Name="ToyStory3.Buzzfallsinlove.Mi florecilla del desierto.SpanishDub" Img="#213" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzfallsinlove&amp;L3STinstance=ToyStory3.Buzzfallsinlove.Mi florecilla del desierto&amp;L3TTinstance=ToyStory3.Buzzfallsinlove.Mi florecilla del desierto.SpanishDub">
+        <Item Id="ToyStory3.Buzzfallsinlove.Mi florecilla del desierto.SpanishDub" Name="ToyStory3.Buzzfallsinlove.Mi florecilla del desierto.SpanishDub" Img="#219" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzfallsinlove&amp;L3STinstance=ToyStory3.Buzzfallsinlove.Mi florecilla del desierto&amp;L3TTinstance=ToyStory3.Buzzfallsinlove.Mi florecilla del desierto.SpanishDub">
             <Facets>
                 <Facet Name="Conversation duration (sec)">
                     <String Value="A. 1-20" />
@@ -22044,7 +22726,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="ToyStory3.Buzzgetsreset.Amigo o enemigo.SpanishDub" Name="ToyStory3.Buzzgetsreset.Amigo o enemigo.SpanishDub" Img="#214" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzgetsreset&amp;L3STinstance=ToyStory3.Buzzgetsreset.Amigo o enemigo&amp;L3TTinstance=ToyStory3.Buzzgetsreset.Amigo o enemigo.SpanishDub">
+        <Item Id="ToyStory3.Buzzgetsreset.Amigo o enemigo.SpanishDub" Name="ToyStory3.Buzzgetsreset.Amigo o enemigo.SpanishDub" Img="#220" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzgetsreset&amp;L3STinstance=ToyStory3.Buzzgetsreset.Amigo o enemigo&amp;L3TTinstance=ToyStory3.Buzzgetsreset.Amigo o enemigo.SpanishDub">
             <Facets>
                 <Facet Name="Conversation duration (sec)">
                     <String Value="B. 21-40" />
@@ -22149,7 +22831,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="ToyStory3.Buzzgetsreset.El Buzzo.SpanishDub" Name="ToyStory3.Buzzgetsreset.El Buzzo.SpanishDub" Img="#215" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzgetsreset&amp;L3STinstance=ToyStory3.Buzzgetsreset.El Buzzo&amp;L3TTinstance=ToyStory3.Buzzgetsreset.El Buzzo.SpanishDub">
+        <Item Id="ToyStory3.Buzzgetsreset.El Buzzo.SpanishDub" Name="ToyStory3.Buzzgetsreset.El Buzzo.SpanishDub" Img="#221" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzgetsreset&amp;L3STinstance=ToyStory3.Buzzgetsreset.El Buzzo&amp;L3TTinstance=ToyStory3.Buzzgetsreset.El Buzzo.SpanishDub">
             <Facets>
                 <Facet Name="Conversation duration (sec)">
                     <String Value="B. 21-40" />
@@ -22230,7 +22912,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="ToyStory3.Buzzgetsreset.Excelente.SpanishDub" Name="ToyStory3.Buzzgetsreset.Excelente.SpanishDub" Img="#216" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzgetsreset&amp;L3STinstance=ToyStory3.Buzzgetsreset.Excelente&amp;L3TTinstance=ToyStory3.Buzzgetsreset.Excelente.SpanishDub">
+        <Item Id="ToyStory3.Buzzgetsreset.Excelente.SpanishDub" Name="ToyStory3.Buzzgetsreset.Excelente.SpanishDub" Img="#222" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzgetsreset&amp;L3STinstance=ToyStory3.Buzzgetsreset.Excelente&amp;L3TTinstance=ToyStory3.Buzzgetsreset.Excelente.SpanishDub">
             <Facets>
                 <Facet Name="Conversation duration (sec)">
                     <String Value="B. 21-40" />
@@ -22334,7 +23016,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="ToyStory3.Buzzgetsreset.Han visto mi nave.SpanishDub" Name="ToyStory3.Buzzgetsreset.Han visto mi nave.SpanishDub" Img="#217" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzgetsreset&amp;L3STinstance=ToyStory3.Buzzgetsreset.Han visto mi nave&amp;L3TTinstance=ToyStory3.Buzzgetsreset.Han visto mi nave.SpanishDub">
+        <Item Id="ToyStory3.Buzzgetsreset.Han visto mi nave.SpanishDub" Name="ToyStory3.Buzzgetsreset.Han visto mi nave.SpanishDub" Img="#223" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzgetsreset&amp;L3STinstance=ToyStory3.Buzzgetsreset.Han visto mi nave&amp;L3TTinstance=ToyStory3.Buzzgetsreset.Han visto mi nave.SpanishDub">
             <Description>Hamm mentions explicitly that it doesn't understand Spanish.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -22439,7 +23121,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="ToyStory3.Buzzgetsreset.We're all amigos.SpanishDub" Name="ToyStory3.Buzzgetsreset.We're all amigos.SpanishDub" Img="#218" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzgetsreset&amp;L3STinstance=ToyStory3.Buzzgetsreset.We're all amigos&amp;L3TTinstance=ToyStory3.Buzzgetsreset.We're all amigos.SpanishDub">
+        <Item Id="ToyStory3.Buzzgetsreset.We're all amigos.SpanishDub" Name="ToyStory3.Buzzgetsreset.We're all amigos.SpanishDub" Img="#224" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzgetsreset&amp;L3STinstance=ToyStory3.Buzzgetsreset.We're all amigos&amp;L3TTinstance=ToyStory3.Buzzgetsreset.We're all amigos.SpanishDub">
             <Facets>
                 <Facet Name="Conversation duration (sec)">
                     <String Value="B. 21-40" />
@@ -22520,7 +23202,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="ToyStory3.BuzzlooksforJessie.Señorita.SpanishDub" Name="ToyStory3.BuzzlooksforJessie.Señorita.SpanishDub" Img="#219" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=ToyStory3&amp;conversation=ToyStory3.BuzzlooksforJessie&amp;L3STinstance=ToyStory3.BuzzlooksforJessie.Señorita&amp;L3TTinstance=ToyStory3.BuzzlooksforJessie.Señorita.SpanishDub">
+        <Item Id="ToyStory3.BuzzlooksforJessie.Señorita.SpanishDub" Name="ToyStory3.BuzzlooksforJessie.Señorita.SpanishDub" Img="#225" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=ToyStory3&amp;conversation=ToyStory3.BuzzlooksforJessie&amp;L3STinstance=ToyStory3.BuzzlooksforJessie.Señorita&amp;L3TTinstance=ToyStory3.BuzzlooksforJessie.Señorita.SpanishDub">
             <Facets>
                 <Facet Name="Conversation duration (sec)">
                     <String Value="A. 1-20" />
@@ -22628,7 +23310,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="ToyStory3.BuzzlooksforJessie.Señorita.Zeñorita" Name="ToyStory3.BuzzlooksforJessie.Señorita.Ceñorita" Img="#220" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=ToyStory3&amp;conversation=ToyStory3.BuzzlooksforJessie&amp;L3STinstance=ToyStory3.BuzzlooksforJessie.Señorita&amp;L3TTinstance=ToyStory3.BuzzlooksforJessie.Señorita.Zeñorita">
+        <Item Id="ToyStory3.BuzzlooksforJessie.Señorita.Zeñorita" Name="ToyStory3.BuzzlooksforJessie.Señorita.Ceñorita" Img="#226" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=ToyStory3&amp;conversation=ToyStory3.BuzzlooksforJessie&amp;L3STinstance=ToyStory3.BuzzlooksforJessie.Señorita&amp;L3TTinstance=ToyStory3.BuzzlooksforJessie.Señorita.Zeñorita">
             <Facets>
                 <Facet Name="Conversation duration (sec)">
                     <String Value="A. 1-20" />
@@ -22736,7 +23418,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="ToyStory3.Buzzopensgate.Buzz Lightyear al rescate.SpanishDub" Name="ToyStory3.Buzzopensgate.Buzz Lightyear al rescate.SpanishDub" Img="#221" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzopensgate&amp;L3STinstance=ToyStory3.Buzzopensgate.Buzz Lightyear al rescate&amp;L3TTinstance=ToyStory3.Buzzopensgate.Buzz Lightyear al rescate.SpanishDub">
+        <Item Id="ToyStory3.Buzzopensgate.Buzz Lightyear al rescate.SpanishDub" Name="ToyStory3.Buzzopensgate.Buzz Lightyear al rescate.SpanishDub" Img="#227" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzopensgate&amp;L3STinstance=ToyStory3.Buzzopensgate.Buzz Lightyear al rescate&amp;L3TTinstance=ToyStory3.Buzzopensgate.Buzz Lightyear al rescate.SpanishDub">
             <Facets>
                 <Facet Name="Conversation duration (sec)">
                     <String Value="A. 1-20" />
@@ -22840,7 +23522,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="ToyStory3.Buzzscape.Vamos, vaquero.CatalanDub" Name="ToyStory3.Buzzscape.Vamos, vaquero.CatalanDub" Img="#222" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzscape&amp;L3STinstance=ToyStory3.Buzzscape.Vamos, vaquero&amp;L3TTinstance=ToyStory3.Buzzscape.Vamos, vaquero.CatalanDub">
+        <Item Id="ToyStory3.Buzzscape.Vamos, vaquero.CatalanDub" Name="ToyStory3.Buzzscape.Vamos, vaquero.CatalanDub" Img="#228" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzscape&amp;L3STinstance=ToyStory3.Buzzscape.Vamos, vaquero&amp;L3TTinstance=ToyStory3.Buzzscape.Vamos, vaquero.CatalanDub">
             <Facets>
                 <Facet Name="Conversation duration (sec)">
                     <String Value="A. 1-20" />
@@ -22946,7 +23628,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="ToyStory3.Buzzscape.Vamos, vaquero.SpanishDub" Name="ToyStory3.Buzzscape.Vamos, vaquero.SpanishDub" Img="#223" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzscape&amp;L3STinstance=ToyStory3.Buzzscape.Vamos, vaquero&amp;L3TTinstance=ToyStory3.Buzzscape.Vamos, vaquero.SpanishDub">
+        <Item Id="ToyStory3.Buzzscape.Vamos, vaquero.SpanishDub" Name="ToyStory3.Buzzscape.Vamos, vaquero.SpanishDub" Img="#229" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzscape&amp;L3STinstance=ToyStory3.Buzzscape.Vamos, vaquero&amp;L3TTinstance=ToyStory3.Buzzscape.Vamos, vaquero.SpanishDub">
             <Facets>
                 <Facet Name="Conversation duration (sec)">
                     <String Value="A. 1-20" />
@@ -23051,7 +23733,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="ToyStory3.Buzzspaceship.Donde está mi nave.CatalanDub" Name="ToyStory3.Buzzspaceship.Donde está mi nave.CatalanDub" Img="#224" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzspaceship&amp;L3STinstance=ToyStory3.Buzzspaceship.Donde está mi nave&amp;L3TTinstance=ToyStory3.Buzzspaceship.Donde está mi nave.CatalanDub">
+        <Item Id="ToyStory3.Buzzspaceship.Donde está mi nave.CatalanDub" Name="ToyStory3.Buzzspaceship.Donde está mi nave.CatalanDub" Img="#230" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzspaceship&amp;L3STinstance=ToyStory3.Buzzspaceship.Donde está mi nave&amp;L3TTinstance=ToyStory3.Buzzspaceship.Donde está mi nave.CatalanDub">
             <Facets>
                 <Facet Name="Conversation duration (sec)">
                     <String Value="A. 1-20" />
@@ -23146,7 +23828,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="ToyStory3.Buzzspaceship.Donde está mi nave.SpanishDub" Name="ToyStory3.Buzzspaceship.Donde está mi nave.SpanishDub" Img="#225" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzspaceship&amp;L3STinstance=ToyStory3.Buzzspaceship.Donde está mi nave&amp;L3TTinstance=ToyStory3.Buzzspaceship.Donde está mi nave.SpanishDub">
+        <Item Id="ToyStory3.Buzzspaceship.Donde está mi nave.SpanishDub" Name="ToyStory3.Buzzspaceship.Donde está mi nave.SpanishDub" Img="#231" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzspaceship&amp;L3STinstance=ToyStory3.Buzzspaceship.Donde está mi nave&amp;L3TTinstance=ToyStory3.Buzzspaceship.Donde está mi nave.SpanishDub">
             <Facets>
                 <Facet Name="Conversation duration (sec)">
                     <String Value="A. 1-20" />
@@ -23250,7 +23932,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Um filme falado.First port of call-Marseille.Speaking French.SpanishSub" Name="First port of call - Marseille. Speaking French. SpanishSub" Img="#226" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Um filme falado&amp;conversation=Um filme falado.First port of call-Marseille&amp;L3STinstance=Um filme falado.First port of call-Marseille.Speaking French&amp;L3TTinstance=Um filme falado.First port of call-Marseille.Speaking French.SpanishSub">
+        <Item Id="Um filme falado.First port of call-Marseille.Speaking French.SpanishSub" Name="First port of call - Marseille. Speaking French. SpanishSub" Img="#232" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Um filme falado&amp;conversation=Um filme falado.First port of call-Marseille&amp;L3STinstance=Um filme falado.First port of call-Marseille.Speaking French&amp;L3TTinstance=Um filme falado.First port of call-Marseille.Speaking French.SpanishSub">
             <Description>Both Rosa Maria anf the fisherman speak in French.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -23358,7 +24040,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Um filme falado.The captain dinner-Captain-speaking one language.Speaking English.SpanishSub" Name="The captain dinner - Captain-speaking one language. Speaking English. SpanishSub" Img="#227" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Um filme falado&amp;conversation=Um filme falado.The captain dinner-Captain-speaking one language&amp;L3STinstance=Um filme falado.The captain dinner-Captain-speaking one language.Speaking English&amp;L3TTinstance=Um filme falado.The captain dinner-Captain-speaking one language.Speaking English.SpanishSub">
+        <Item Id="Um filme falado.The captain dinner-Captain-speaking one language.Speaking English.SpanishSub" Name="The captain dinner - Captain-speaking one language. Speaking English. SpanishSub" Img="#233" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Um filme falado&amp;conversation=Um filme falado.The captain dinner-Captain-speaking one language&amp;L3STinstance=Um filme falado.The captain dinner-Captain-speaking one language.Speaking English&amp;L3TTinstance=Um filme falado.The captain dinner-Captain-speaking one language.Speaking English.SpanishSub">
             <Description>The captain is speaking in English and he wishes we could all speak one languge.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -23465,7 +24147,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Um filme falado.The captain dinner-Captain.Speaking English.SpanishSub" Name="The captain dinner - Captain. Speaking English. SpanishSub" Img="#228" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Um filme falado&amp;conversation=Um filme falado.The captain dinner-Captain&amp;L3STinstance=Um filme falado.The captain dinner-Captain.Speaking English&amp;L3TTinstance=Um filme falado.The captain dinner-Captain.Speaking English.SpanishSub">
+        <Item Id="Um filme falado.The captain dinner-Captain.Speaking English.SpanishSub" Name="The captain dinner - Captain. Speaking English. SpanishSub" Img="#234" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Um filme falado&amp;conversation=Um filme falado.The captain dinner-Captain&amp;L3STinstance=Um filme falado.The captain dinner-Captain.Speaking English&amp;L3TTinstance=Um filme falado.The captain dinner-Captain.Speaking English.SpanishSub">
             <Description>English is the language they all understand</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -23575,7 +24257,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Zootopia.Night howlers.Apologizing.SpanishDub" Name="Zootopia.Night howlers.Apologizing.SpanishDub" Img="#229" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Zootopia&amp;conversation=Zootopia.Night howlers&amp;L3STinstance=Zootopia.Night howlers.Apologizing&amp;L3TTinstance=Zootopia.Night howlers.Apologizing.SpanishDub">
+        <Item Id="Zootopia.Night howlers.Apologizing.SpanishDub" Name="Zootopia.Night howlers.Apologizing.SpanishDub" Img="#235" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Zootopia&amp;conversation=Zootopia.Night howlers&amp;L3STinstance=Zootopia.Night howlers.Apologizing&amp;L3TTinstance=Zootopia.Night howlers.Apologizing.SpanishDub">
             <Facets>
                 <Facet Name="Conversation duration (sec)">
                     <String Value="E. 81-100" />
@@ -23656,7 +24338,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Zootopia.Night howlers.Midnicampum holicithias.SpanishDub" Name="Zootopia.Night howlers.Midnicampum holicithias.SpanishDub" Img="#230" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Zootopia&amp;conversation=Zootopia.Night howlers&amp;L3STinstance=Zootopia.Night howlers.Midnicampum holicithias&amp;L3TTinstance=Zootopia.Night howlers.Midnicampum holicithias.SpanishDub">
+        <Item Id="Zootopia.Night howlers.Midnicampum holicithias.SpanishDub" Name="Zootopia.Night howlers.Midnicampum holicithias.SpanishDub" Img="#236" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Zootopia&amp;conversation=Zootopia.Night howlers&amp;L3STinstance=Zootopia.Night howlers.Midnicampum holicithias&amp;L3TTinstance=Zootopia.Night howlers.Midnicampum holicithias.SpanishDub">
             <Facets>
                 <Facet Name="Conversation duration (sec)">
                     <String Value="E. 81-100" />
@@ -23737,7 +24419,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Zootopia.Night howlers.Talking in tongues.SpanishDub" Name="Zootopia.Night howlers.Talking in tongues.SpanishDub" Img="#231" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Zootopia&amp;conversation=Zootopia.Night howlers&amp;L3STinstance=Zootopia.Night howlers.Talking in tongues&amp;L3TTinstance=Zootopia.Night howlers.Talking in tongues.SpanishDub">
+        <Item Id="Zootopia.Night howlers.Talking in tongues.SpanishDub" Name="Zootopia.Night howlers.Talking in tongues.SpanishDub" Img="#237" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Zootopia&amp;conversation=Zootopia.Night howlers&amp;L3STinstance=Zootopia.Night howlers.Talking in tongues&amp;L3TTinstance=Zootopia.Night howlers.Talking in tongues.SpanishDub">
             <Facets>
                 <Facet Name="Conversation duration (sec)">
                     <String Value="E. 81-100" />
