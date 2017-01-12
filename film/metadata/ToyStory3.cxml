@@ -16,15 +16,15 @@
     <FacetCategory Name="L2-Dubbed languages" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L2-Subtitled languages" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Conversations: count" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
-    <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Tags" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="ToyStory3" Name="Toy Story 3" Img="https://upload.wikimedia.org/wikipedia/en/6/69/Toy_Story_3_poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=ToyStory3">
+    <Item Id="ToyStory3" Name="Toy Story 3" Img="https://en.wikipedia.org/wiki/Toy_Story_3#/media/File:Toy_Story_3_poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=ToyStory3">
       <Description>The toys are mistakenly delivered to a day-care center instead of the attic right before Andy leaves for college, and it's up to Woody to convince the other toys that they weren't abandoned and to return home.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -34,12 +34,16 @@
           <DateTime Value="2016-07-11T02:46:56" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-19T02:28:35" />
+          <DateTime Value="2017-01-12T02:12:57" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Guillermo" />
           <String Value="Stavroula" />
           <String Value="George" />
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Toy Story 3" />
         </Facet>
         <Facet Name="Type">
           <String Value="Feature film" />
@@ -68,6 +72,10 @@
         </Facet>
         <Facet Name="Main language (L1)">
           <String Value="English" />
+        </Facet>
+        <Facet Name="L2-Dubbed languages">
+          <String Value="Catalan" />
+          <String Value="Spanish" />
         </Facet>
         <Facet Name="Conversations: count">
           <Number Value="7" />
