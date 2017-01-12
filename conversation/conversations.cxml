@@ -2796,6 +2796,52 @@
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Land and Freedom.At the bar" Name="At the bar" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Land and Freedom&amp;conversation=Land and Freedom.At the bar">
+      <Description>A group of young men are at the bar talking about militians.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Land and Freedom.At the bar" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="third language" />
+          <String Value=" Catalan" />
+          <String Value=" Spanish" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="There's a mix of three languages in this conversation (English as L1 and Catalan and Spanish as L3)" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-01-12T11:22:37" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-01-12T11:25:00" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="corrius" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Land and Freedom" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Land and Freedom" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="79" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="C. 41-60" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Land and Freedom.Blanca's funeral" Name="Blanca's funeral" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Land and Freedom&amp;conversation=Land and Freedom.Blanca's funeral">
       <Description>At the end of the film Blanca is being buried while David is taking some land as a symbol of identity </Description>
       <Facets>
@@ -3706,6 +3752,51 @@ And the wife and the aunt speak in English</Description>
         </Facet>
         <Facet Name="L3ST-instances: count">
           <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Quantum of Solace.General Medrano and his people" Name="Quantum of Solace.General Medrano and his people" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.General Medrano and his people">
+      <Description>General Medrano and his people are waiting for Dominic in his headquarters
+</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Quantum of Solace.General Medrano and his people" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-01-11T07:09:40" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-01-12T11:29:56" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Quantum of Solace" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Quantum of Solace" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="81" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="B. 21-40" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Latin American Spanish" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>
