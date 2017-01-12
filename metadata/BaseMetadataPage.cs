@@ -50,18 +50,24 @@ namespace Trafilm.Gallery
 
     protected bool IsUserAllowedToViewVideo()
     {
-      return (Request.IsAuthenticated &&
-              (User.IsInRole("Administrators") ||
-               User.IsInRole("VideoViewers") ||
-               User.IsInRole("VideoUploaders")
-              ));
+      return Request.IsAuthenticated;
     }
 
-    protected bool IsUserAllowedToUploadVideo()
+    protected bool IsUserAllowedToUploadConversationL1video()
     {
       return (Request.IsAuthenticated &&
               (User.IsInRole("Administrators") ||
-               User.IsInRole("VideoUploaders")
+               User.IsInRole("MetadataEditors") ||
+               User.IsInRole("MetadataEditors_L3STinstance")
+              ));
+    }
+
+    protected bool IsUserAllowedToUploadConversationL2video()
+    {
+      return (Request.IsAuthenticated &&
+              (User.IsInRole("Administrators") ||
+               User.IsInRole("MetadataEditors") ||
+               User.IsInRole("MetadataEditors_L3TTinstance")
               ));
     }
 
@@ -155,7 +161,7 @@ namespace Trafilm.Gallery
 
     #region Files
 
-    private static string GetConversationL1videoFilename(string conversationId, string l1Language)
+    private static string GetConversationL1videoFilename(string conversationId, string l1Language = "")
     {
       return conversationId + "_" + l1Language + ".mp4";
     }
@@ -165,7 +171,7 @@ namespace Trafilm.Gallery
       return conversationId + "_" + l2Language + "_" + l2Mode + ".mp4";
     }
 
-    public bool ConversationL1videoExists(string conversationId, string l1Language)
+    public bool ConversationL1videoExists(string conversationId, string l1Language = "")
     {
       return File.Exists(Path.Combine(Request.PhysicalApplicationPath, "video", GetConversationL1videoFilename(conversationId, l1Language)));
     }

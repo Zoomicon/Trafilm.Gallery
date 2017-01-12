@@ -98,6 +98,7 @@ Version: 20170112
 
         <div class="calculated" id="URL">
           <div class="label">Film URL</div>
+          <div class="tip">Metadata item URL, right-click to copy URL address</div>
           <asp:HyperLink ID="linkUrl" runat="server" Target="_blank" />
         </div>
 

@@ -121,6 +121,7 @@ Version: 20170112
 
         <div class="calculated" id="URL">
           <div class="label">L3ST-instance URL</div>
+          <div class="tip">Metadata item URL, right-click to copy URL address</div>
           <asp:HyperLink ID="linkUrl" runat="server" Target="_blank" />
         </div>
 
@@ -372,7 +373,11 @@ Version: 20170112
         <%-- Video clip --%>
 
         <asp:Panel ID="panelVideoDownload" runat="server" Visible="false">
-        Video downloading to be added here...
+          <div class="calculated" id="videoURL">
+            <div class="label">Video URL for ST conversation (L1)</div>
+            <div class="tip">Click to download (and select to Open or Save .mp4 video file)</div>
+            <asp:HyperLink ID="linkVideo" runat="server" Target="_blank" />
+          </div>
         </asp:Panel>
         
         <asp:Panel ID="panelVideoUpload" runat="server" Visible="false">
