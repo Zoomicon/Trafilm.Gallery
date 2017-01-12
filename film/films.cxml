@@ -1923,6 +1923,60 @@ Based on the homonym novel by Philip K. Dick.</Description>
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Puss in Boots" Name="Puss in Boots" Img="https://en.wikipedia.org/wiki/Puss_in_Boots_(2011_film)#/media/File:Puss_in_Boots_Poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Puss in Boots">
+      <Description>Puss is an outlaw cat who looks for the magic beans as a means to get to the giant's castle holding golden goose eggs. His friends in this adventure are Kitty Softpaws and Humpty Alexander Dumpty.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Puss in Boots" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="Different Spanish accents" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-01-12T12:16:15" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-01-12T12:40:17" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Puss in Boots" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="90" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Chris Miller" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Tom Wheeler" />
+          <String Value=" Brian Lynch" />
+          <String Value=" William Davies" />
+          <String Value=" Tom Wheeler" />
+          <String Value=" David H. Steinberg " />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="USA" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="DreamWorks Animation" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2011" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Quantum of Solace" Name="Quantum of Solace" Img="https://upload.wikimedia.org/wikipedia/en/2/2d/Quantum_of_Solace_-_UK_cinema_poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Quantum of Solace">
       <Description>James Bond seeks for revenge for his girlfriend's death and fights an unknown criminal organization.</Description>
       <Facets>
@@ -2504,57 +2558,6 @@ Based on the homonym novel by Philip K. Dick.</Description>
         </Facet>
         <Facet Name="Conversations: count">
           <Number Value="9" />
-        </Facet>
-      </Facets>
-    </Item>
-    <Item Id="Toy Story 3" Name="Toy Story 3" Img="https://commons.wikimedia.org/wiki/File:Toy_Stoy_3_logo.svg" Href="http://gallery.trafilm.net/film/metadata/?film=Toy Story 3">
-      <Description>Andy, the boy to whom  Woody, Buzz Lightyear and the rest of the toys belong is getting ready to go to college. The toys are anxious about their future but they find a new house with a young girl who is happy to play with them.</Description>
-      <Facets>
-        <Facet Name="Reference Id">
-          <String Value="Toy Story 3" />
-        </Facet>
-        <Facet Name="Remarks">
-          <String Value="Spanish in only one scene&#xD;&#xA;" />
-        </Facet>
-        <Facet Name="Info created">
-          <DateTime Value="2017-01-02T09:22:35" />
-        </Facet>
-        <Facet Name="Info updated">
-          <DateTime Value="2017-01-02T09:41:38" />
-        </Facet>
-        <Facet Name="Metadata Editors">
-          <String Value="Santamaria" />
-        </Facet>
-        <Facet Name="Film/Season title">
-          <String Value="Toy Story 3" />
-        </Facet>
-        <Facet Name="Type">
-          <String Value="Feature film" />
-        </Facet>
-        <Facet Name="Duration (min)">
-          <Number Value="103" />
-        </Facet>
-        <Facet Name="Director(s)">
-          <String Value="Andrew Stanton" />
-        </Facet>
-        <Facet Name="Scriptwriter(s)">
-          <String Value="Michael Arndt" />
-        </Facet>
-        <Facet Name="Production countries">
-          <String Value="USA" />
-        </Facet>
-        <Facet Name="Production companies">
-          <String Value="Walt Disney Pictures" />
-          <String Value=" Pixar Animation Studios " />
-        </Facet>
-        <Facet Name="Year ST released">
-          <Number Value="2010" />
-        </Facet>
-        <Facet Name="Main language (L1)">
-          <String Value="English" />
-        </Facet>
-        <Facet Name="Conversations: count">
-          <Number Value="0" />
         </Facet>
       </Facets>
     </Item>
