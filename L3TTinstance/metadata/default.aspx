@@ -432,6 +432,25 @@ Version: 20170112
         </div>
 
 
+        <%-- Video clip --%>
+
+        <asp:Panel ID="panelVideo" runat="server" Visible="false">
+          <div class="question" id="videoURL">
+            <div class="label">Video for TT conversation (L2)</div>
+  
+            <asp:Panel ID="panelVideoDownload" runat="server" Visible="false">
+              <div class="tip">Click link to open video or right click to save .mp4 file</div>
+              <asp:HyperLink ID="linkVideo" runat="server" Target="_blank" />
+            </asp:Panel>
+        
+            <asp:Panel ID="panelVideoUpload" runat="server" Visible="false">
+              <div class="tip">Select video file (.mp4 only) to upload on "Save" (replaces any existing video if selected)</div>
+              <asp:FileUpload id="uploadVideo" runat="server" />
+            </asp:Panel>
+          </div>        
+        </asp:Panel>
+
+
         <%-- SAVE BUTTON --%>
            
         <asp:Panel ID="panelSave" runat="server">
@@ -446,21 +465,6 @@ Version: 20170112
           &nbsp;
           <i>Gallery contents are updated periodically during the day from saved metadata</i>
           <br /><br />
-        </asp:Panel>
-
-
-        <%-- Video clip --%>
-
-        <asp:Panel ID="panelVideoDownload" runat="server" Visible="false">
-          <div class="calculated" id="videoURL">
-            <div class="label">Video URL for TT conversation (L2)</div>
-            <div class="tip">Click to download (and select to Open or Save .mp4 video file)</div>
-            <asp:HyperLink ID="linkVideo" runat="server" Target="_blank" />
-          </div>
-        </asp:Panel>
-        
-        <asp:Panel ID="panelVideoUpload" runat="server" Visible="false">
-        Video uploading to be added here...
         </asp:Panel>
 
       </asp:Panel>

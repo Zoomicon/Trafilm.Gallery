@@ -52,9 +52,10 @@ namespace Trafilm.Gallery
       string conversationId = listConversations.SelectedValue;
       string l2Language = listL2language.SelectedValue;
       string l2Mode = listL2mode.SelectedValue;
-      panelVideoDownload.Visible = IsUserAllowedToViewVideo() && ConversationL2videoExists(conversationId, l2Language, l2Mode);
+      bool videoDownloadVisible = panelVideoDownload.Visible = IsUserAllowedToViewVideo() && ConversationL2videoExists(conversationId, l2Language, l2Mode);
       UI.Load(linkVideo, GetConversationL2videoUri(conversationId, l2Language, l2Mode));
-      panelVideoUpload.Visible = IsUserAllowedToUploadConversationL2video();
+      bool videoUploadVisible = panelVideoUpload.Visible = IsUserAllowedToUploadConversationL2video();
+      panelVideo.Visible = videoDownloadVisible || videoUploadVisible; //need to use local variables above, else it is always false
     }
 
     #endregion

@@ -171,14 +171,32 @@ namespace Trafilm.Gallery
       return conversationId + "_" + l2Language + "_" + l2Mode + ".mp4";
     }
 
+    //TODO: !!! use Server.MapPath instead of Path.Combine and PhysicalApplicationPath - https://msdn.microsoft.com/en-us/library/ms524632(v=vs.90).aspx
+
     public bool ConversationL1videoExists(string conversationId, string l1Language = "")
     {
-      return File.Exists(Path.Combine(Request.PhysicalApplicationPath, "video", GetConversationL1videoFilename(conversationId, l1Language)));
+      if (conversationId.StartsWith("*")) return false; //filter out "* Please select..." value which causes Server.MapPath to fail
+      try
+      {
+        return File.Exists(Server.MapPath("~/video/" + GetConversationL1videoFilename(conversationId, l1Language))); //using app-root-relative URL (~/) instead of domain-root-relative one (/)
+      }
+      catch //illegal characters in path
+      {
+        return false;
+      }
     }
 
     public bool ConversationL2videoExists(string conversationId, string l2Language, string l2Mode)
     {
-      return File.Exists(Path.Combine(Request.PhysicalApplicationPath, "video", GetConversationL2videoFilename(conversationId, l2Language, l2Mode)));
+      if (conversationId.StartsWith("*")) return false; //filter out "* Please select..." value which causes Server.MapPath to fail
+      try
+      {
+        return File.Exists(Server.MapPath("~/video/" + GetConversationL2videoFilename(conversationId, l2Language, l2Mode))); //using app-root-relative URL (~/) instead of domain-root-relative one (/)
+      }
+      catch //illegal characters in path
+      {
+        return false;
+      }
     }
 
     #endregion
