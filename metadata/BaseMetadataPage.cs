@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: BaseMetadataPage.cs
-//Version: 20160622
+//Version: 20170112
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -45,6 +45,23 @@ namespace Trafilm.Gallery
               (User.IsInRole("Administrators") ||
                User.IsInRole("MetadataEditors") ||
                User.IsInRole("MetadataEditors_" + itemType)
+              ));
+    }
+
+    protected bool IsUserAllowedToViewVideo()
+    {
+      return (Request.IsAuthenticated &&
+              (User.IsInRole("Administrators") ||
+               User.IsInRole("VideoViewers") ||
+               User.IsInRole("VideoUploaders")
+              ));
+    }
+
+    protected bool IsUserAllowedToUploadVideo()
+    {
+      return (Request.IsAuthenticated &&
+              (User.IsInRole("Administrators") ||
+               User.IsInRole("VideoUploaders")
               ));
     }
 

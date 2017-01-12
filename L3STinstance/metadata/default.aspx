@@ -368,6 +368,18 @@ Version: 20170112
           </asp:Repeater>
         </div>
 
+
+        <%-- Video clip --%>
+
+        <asp:Panel ID="panelVideoDownload" runat="server" Visible="false">
+        Video downloading to be added here...
+        </asp:Panel>
+        
+        <asp:Panel ID="panelVideoUpload" runat="server" Visible="false">
+        Video uploading to be added here...
+        </asp:Panel>
+
+
         <%-- EXTRA PADDING AT THE END --%>
         <br />
         <br />

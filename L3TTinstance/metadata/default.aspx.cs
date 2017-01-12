@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: L3TTinstance\metadata\default.aspx.cs
-//Version: 20161019
+//Version: 20170112
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -42,15 +42,20 @@ namespace Trafilm.Gallery
 
       bool canSave = IsUserAllowedToSave("L3TTinstance");
       panelMetadata.Enabled = canSave;
-      panelSave.Visible = canSave;
       panelAdd.Visible = canSave;
+      panelSave.Visible = canSave; //stays hidden if its parent panelMetadata is not visible (i.e. nothing is selected)
 
-      btnRename.Visible = IsUserAllowedToRename("L3TTinstance") && (listL3TTinstances.SelectedIndex > 0);
+      bool hasSelectedL3TTinstance = (listL3TTinstances.SelectedIndex > 0);
+      btnRename.Visible = IsUserAllowedToRename("L3TTinstance") && hasSelectedL3TTinstance;
+      panelVideoDownload.Visible = IsUserAllowedToViewVideo() && /*VideoExists(listConversations.SelectedValue + ...) && */ hasSelectedL3TTinstance;
+      panelVideoUpload.Visible = IsUserAllowedToUploadVideo() && hasSelectedL3TTinstance;
     }
 
     #endregion
 
     #region --- Methods ---
+
+    #region Add
 
     public void AddL3TTinstance()
     {
@@ -76,6 +81,8 @@ namespace Trafilm.Gallery
         txtTags.Text = UI.GetCommaSeparated(l3STinstance.Tags);
       }
     }
+
+    #endregion
 
     public void Rename()
     {

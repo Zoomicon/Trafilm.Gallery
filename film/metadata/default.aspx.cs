@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: film\metadata\default.aspx.cs
-//Version: 20161018
+//Version: 20170112
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -32,8 +32,8 @@ namespace Trafilm.Gallery
 
       bool canSave = IsUserAllowedToSave("Film");
       panelMetadata.Enabled = canSave;
-      panelSave.Visible = canSave;
       panelAdd.Visible = canSave;
+      panelSave.Visible = canSave; //stays hidden if its parent panelMetadata is not visible (i.e. nothing is selected)
 
       btnRename.Visible = IsUserAllowedToRename("Film") && (listFilms.SelectedIndex > 0);
 
@@ -47,6 +47,8 @@ namespace Trafilm.Gallery
 
     #region --- Methods ---
 
+    #region Add
+
     public void AddFilm()
     {
       string filmId = txtFilm.Text.Trim().Replace(".", "");
@@ -57,6 +59,8 @@ namespace Trafilm.Gallery
       CreateFilm(filmId, ((listFilms.SelectedIndex > 0) && cbClone.Checked) ? GetMetadataFromUI() : null);
       SelectFilm(filmId);
     }
+
+    #endregion
 
     public void Rename()
     {
