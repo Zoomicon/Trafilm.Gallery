@@ -34,9 +34,9 @@
     <FacetCategory Name="L3 functions change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Conversation features for L3-instance change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3 sources change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Tags" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -44,7 +44,7 @@
   <Items xmlns="">
     <Item Id="Monsoon Wedding.Conversation in the garden on the phone.Hindi.SpanishDub" Name="Conversation in the garden on the phone. Hindi. SpanishDub" Img="../L3STinstance/image/Monsoon Wedding.Conversation in the garden on the phone.Hindi.png" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Monsoon Wedding&amp;conversation=Monsoon Wedding.Conversation in the garden on the phone&amp;L3STinstance=Monsoon Wedding.Conversation in the garden on the phone.Hindi&amp;L3TTinstance=Monsoon Wedding.Conversation in the garden on the phone.Hindi.SpanishDub">
       <Description>The father talks on the phone in Hindi. He is outside in the garden. 
-There is another conversation taking place among women at the kitchen.</Description>
+</Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="Monsoon Wedding.Conversation in the garden on the phone.Hindi.SpanishDub" />
@@ -56,10 +56,11 @@ There is another conversation taking place among women at the kitchen.</Descript
           <DateTime Value="2016-06-08T01:44:15" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-11-03T05:06:42" />
+          <DateTime Value="2016-12-27T08:20:39" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="George" />
+          <String Value="Santamaria" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Monsoon Wedding" />
@@ -83,7 +84,10 @@ There is another conversation taking place among women at the kitchen.</Descript
           <Number Value="2001" />
         </Facet>
         <Facet Name="Conversation start time (min)">
-          <Number Value="170" />
+          <Number Value="2" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="D. 61-80" />
         </Facet>
         <Facet Name="L2 same as L3ST">
           <String Value="No" />
@@ -120,7 +124,11 @@ There is another conversation taking place among women at the kitchen.</Descript
         </Facet>
         <Facet Name="L3TT functions">
           <String Value="Character portrayal" />
+          <String Value="Stereotype" />
           <String Value="Comedy / humour" />
+        </Facet>
+        <Facet Name="Conversation features for L3TT-instance">
+          <String Value="domestic / family" />
         </Facet>
         <Facet Name="L3 language type change">
           <String Value="- Real" />
@@ -130,7 +138,7 @@ There is another conversation taking place among women at the kitchen.</Descript
           <String Value="None" />
         </Facet>
         <Facet Name="L3 functions change">
-          <String Value="- Stereotype" />
+          <String Value="None" />
         </Facet>
         <Facet Name="Conversation features for L3-instance change">
           <String Value="None" />

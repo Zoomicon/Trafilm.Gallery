@@ -22,9 +22,9 @@
     <FacetCategory Name="Conversation features for L3ST-instance" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3ST sources" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3TT-instances: count" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
-    <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Tags" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -37,20 +37,20 @@
           <String Value="Game of Thrones.E01 Winter is coming_Presentation.Presenting Daenerys" />
         </Facet>
         <Facet Name="Transcription">
-          <String Value="Azha anhaan asshilat... (May I present my honored guests...)" />
+          <String Value="Azha anhaan asshilat... (May I present my honoured guests...)" />
         </Facet>
         <Facet Name="Remarks">
-          <String Value="Fade out in middle of sentence to allow L1 dialogue" />
+          <String Value="Preceeded by same lines in L1.&#xD;&#xA;Fade out in middle of sentence to allow L1 dialogue." />
         </Facet>
         <Facet Name="Info created">
           <DateTime Value="2016-10-23T09:43:49" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-11-01T06:24:32" />
+          <DateTime Value="2016-11-11T09:44:49" />
         </Facet>
         <Facet Name="Metadata Editors">
-          <String Value="SIberg" />
           <String Value="George" />
+          <String Value="SIberg" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Game of Thrones" />

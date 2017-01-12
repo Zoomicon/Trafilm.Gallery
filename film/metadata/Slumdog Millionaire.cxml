@@ -16,9 +16,9 @@
     <FacetCategory Name="L2-Dubbed languages" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L2-Subtitled languages" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Conversations: count" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
-    <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Tags" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -34,12 +34,16 @@
           <DateTime Value="2016-06-16T08:16:54" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-19T02:27:49" />
+          <DateTime Value="2016-12-28T09:24:22" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="natalia.faja" />
           <String Value="Stavroula" />
           <String Value="George" />
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Slumdog Millionaire" />
         </Facet>
         <Facet Name="Type">
           <String Value="Feature film" />
@@ -57,6 +61,13 @@
         <Facet Name="Production countries">
           <String Value="UK" />
           <String Value=" USA" />
+          <String Value=" France" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="     Warner Bros." />
+          <String Value=" Celador Films" />
+          <String Value=" Film4" />
+          <String Value=" Pathé Pictures International" />
         </Facet>
         <Facet Name="Year ST released">
           <Number Value="2008" />
@@ -64,8 +75,11 @@
         <Facet Name="Main language (L1)">
           <String Value="Other" />
         </Facet>
+        <Facet Name="L2-Dubbed languages">
+          <String Value="Spanish" />
+        </Facet>
         <Facet Name="Conversations: count">
-          <Number Value="0" />
+          <Number Value="2" />
         </Facet>
       </Facets>
     </Item>

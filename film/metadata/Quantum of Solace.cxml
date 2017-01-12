@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Collection SchemaVersion="1.0" Name="Quantum of Solace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+  <FacetCategories>
+    <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Film/Season title" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Type" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Duration (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Series" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Director(s)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Scriptwriter(s)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Production countries" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Production companies" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Blockbuster" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Year ST released" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Main language (L1)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L2-Dubbed languages" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L2-Subtitled languages" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Conversations: count" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Tags" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+  </FacetCategories>
+  <Items xmlns="">
+    <Item Id="Quantum of Solace" Name="Quantum of Solace" Img="https://upload.wikimedia.org/wikipedia/en/2/2d/Quantum_of_Solace_-_UK_cinema_poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Quantum of Solace">
+      <Description>James Bond seeks for revenge for his girlfriend's death and fights an unknown criminal organization.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Quantum of Solace" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-01-10T11:43:12" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-01-11T10:56:27" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+          <String Value="George" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Quantum of Solace" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="106" />
+        </Facet>
+        <Facet Name="Series">
+          <String Value="James Bond 007" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value=" Marc Forster " />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Paul Haggis" />
+          <String Value=" Neal Purvis" />
+          <String Value=" Robert Wade" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="UK" />
+          <String Value=" USA" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="     Metro-Goldwyn-Mayer (MGM)" />
+          <String Value=" Columbia Pictures" />
+          <String Value=" Eon Productions (as Albert R. Broccoli's" />
+          <String Value=" Eon Productions)" />
+          <String Value=" B22" />
+        </Facet>
+        <Facet Name="Blockbuster">
+          <String Value="YES (top 20)" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2008" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L2-Dubbed languages">
+          <String Value="Spanish" />
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L2-Subtitled languages">
+          <String Value="Spanish" />
+          <String Value="English" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="18" />
+        </Facet>
+      </Facets>
+    </Item>
+  </Items>
+</Collection>

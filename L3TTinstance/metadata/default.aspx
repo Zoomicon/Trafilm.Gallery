@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: L3TTinstance\metadata\default.aspx
-Version: 20161029
+Version: 20170112
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -445,6 +445,17 @@ Version: 20161029
           &nbsp;
           <i>Gallery contents are updated periodically during the day from saved metadata</i>
           <br /><br />
+        </asp:Panel>
+
+
+        <%-- Video clip --%>
+
+        <asp:Panel ID="panelVideoDownload" runat="server" Visible="false">
+        Video downloading to be added here...
+        </asp:Panel>
+        
+        <asp:Panel ID="panelVideoUpload" runat="server" Visible="false">
+        Video uploading to be added here...
         </asp:Panel>
 
 

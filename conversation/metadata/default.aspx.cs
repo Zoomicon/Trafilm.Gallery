@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: conversation\metadata\default.aspx.cs
-//Version: 20161029
+//Version: 20170112
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -36,8 +36,8 @@ namespace Trafilm.Gallery
 
       bool canSave = IsUserAllowedToSave("Conversation");
       panelMetadata.Enabled = canSave;
-      panelSave.Visible = canSave;
       panelAdd.Visible = canSave;
+      panelSave.Visible = canSave; //stays hidden if its parent panelMetadata is not visible (i.e. nothing is selected)
 
       btnRename.Visible = IsUserAllowedToRename("Conversation") && (listConversations.SelectedIndex > 0);
     }
@@ -45,6 +45,8 @@ namespace Trafilm.Gallery
     #endregion
 
     #region --- Methods ---
+
+    #region Add
 
     public void AddConversation()
     {
@@ -63,6 +65,8 @@ namespace Trafilm.Gallery
       if (!cbClone.Checked)
         txtTitle.Text = conversationPartialId.Replace("_", ", "); //not using conversationId here, using the partial one instead (note that dots have already been removed above)
     }
+
+    #endregion
 
     public void Rename()
     {

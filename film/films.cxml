@@ -42,7 +42,7 @@
           <DateTime Value="2016-10-31T05:54:49" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-11-04T04:04:49" />
+          <DateTime Value="2016-12-02T02:14:05" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="corrius" />
@@ -83,6 +83,61 @@
         </Facet>
         <Facet Name="Conversations: count">
           <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="A Scanner Darkly" Name="A Scanner Darkly" Img="https://upload.wikimedia.org/wikipedia/en/thumb/7/75/A_Scanner_Darkly_Poster.jpg/220px-A_Scanner_Darkly_Poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=A Scanner Darkly">
+      <Description>An undercover cop in a not-too-distant future becomes involved with a dangerous new drug and begins to lose his own identity as a result.
+Based on the homonym novel by Philip K. Dick.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="A Scanner Darkly" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-01-11T03:31:08" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-01-11T03:35:11" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Guillermo" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="A Scanner Darkly" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="100" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Richard Linklater" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Richard Linklater" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="USA" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="Warner Independent Pictures" />
+          <String Value=" Thousand Words" />
+          <String Value=" Section Eight Detour" />
+          <String Value=" Filmproduction 3" />
+          <String Value=" Arts Entertainment" />
+        </Facet>
+        <Facet Name="Blockbuster">
+          <String Value="NO, closer to Art film or niche market" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2006" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="0" />
         </Facet>
       </Facets>
     </Item>
@@ -131,6 +186,61 @@
         </Facet>
         <Facet Name="Year ST released">
           <Number Value="1992" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="An American in Paris" Name="An American in Paris" Img="https://upload.wikimedia.org/wikipedia/en/5/59/An_American_in_Paris_poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=An American in Paris">
+      <Description>Jerry Mulligan, a penniless American artist, tries to make a living in Paris as a painter. He is happy to be living and working in a small and cramped apartment above a sidewalk café in Montmatre. A rich American gallery owner, Milo Roberts, with an interest in more than Jerry's art, offers to support him. She hopes to win Jerry's heart by buying his paintings and promoting his career, but in a chance encounter in a club he meets Lise, a young French woman who works in a perfume shop, he is immediately captivated and attracted to her but unfortunately she is already engaged to Henri Baurel, an older man whom she feels indebted to for having saved her from the Nazis and for having raised her in his home.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="An American in Paris" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="Third language" />
+          <String Value=" French" />
+          <String Value=" French acccent" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-11-08T02:18:22" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-11-08T02:29:31" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="corrius" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="An American in Paris" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="113" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Vicente Minnelli" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Alan Jay Lerner" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="USA" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="Metro-Goldwyn-Mayer Studios" />
+        </Facet>
+        <Facet Name="Blockbuster">
+          <String Value="NO, closer to Art film or niche market" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="1951" />
         </Facet>
         <Facet Name="Main language (L1)">
           <String Value="English" />
@@ -204,6 +314,125 @@
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Babel" Name="Babel" Img="https://images-na.ssl-images-amazon.com/images/M/MV5BMjEzMzg4NTIyOF5BMl5BanBnXkFtZTcwNjM3MzgzMQ@@._V1_UX182_CR0,0,182,268_AL_.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Babel">
+      <Description>A tragic accident in Morocco results in a series of events that will unite four groups of people, who are separated by cultural differences and big distances but who share a connecting destiny.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Babel" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="third language" />
+          <String Value=" multilingualism" />
+          <String Value=" cultural differences" />
+          <String Value=" " />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="A really multilingual film. Different languages are spoken in different settings and by different people (English, Spanish, Arabic, Berber languages, French, Russian, Japanese and Japanese Sign Language)" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-12-27T06:32:50" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-12-27T10:04:21" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="corrius" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Babel" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="138" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Alejandro G. Inárritu" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Guillermo Arriaga" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="USA" />
+          <String Value=" France" />
+          <String Value=" Mexico" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="Paramount Pictures" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2006" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Beauty and the Beast" Name="Beauty and the Beast" Img="https://upload.wikimedia.org/wikipedia/en/7/7c/Beautybeastposter.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Beauty and the Beast">
+      <Description>This cartoon film is set in a small Provençal village. Maurice, a poor old inventor, is lost in the woods and as he is trying to find a shelter he is imprisoned in a castle by a horrific monster: the beast. Belle, his beautifull daughter, whi is seen as eccentric due to her passion for books, finds him trapped in the castle and she offeres the beast to replace her father as a prisoner. The beast agrees on the condition that she will stay there forever and he gives her permission to go everywhere in the castle except the West wing where he keeps the enchanted rose. She is attended and entertained by the servants, namely the enchanted household items including Lumière (the Candlestick), Cogsorth (the clock), Stove (the chef), Babette (the feather duster), etc. At first she sees him as a difficult, stubborn monster but as time goes by the wo start to become friends and the beast falls in love with her.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Beauty and the Beast" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="Cartoon film" />
+          <String Value=" third language" />
+          <String Value=" French" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="The film takes place in an active, busy, rural, French village. In order ro mark that the typical language of the setting would not be English, the use of French accent is used, as well as the utterance of some French phrases. " />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-11-08T03:36:37" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-11-28T06:30:29" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="corrius" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Beauty and the Beast" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="87" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Gary Trousdale and Kirk Wise" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Roger Allers et al" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="USA" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="Walt Disney" />
+        </Facet>
+        <Facet Name="Blockbuster">
+          <String Value="NO, but commercially intended" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="1991" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L2-Dubbed languages">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="2" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Blade II" Name="Blade II" Img="https://upload.wikimedia.org/wikipedia/en/6/6d/Blade_II_movie.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Blade II">
       <Description>Blade forms an uneasy alliance with the vampire council in order to combat the Reaper vampires who feed on vampires. </Description>
       <Facets>
@@ -248,6 +477,120 @@
         </Facet>
         <Facet Name="Conversations: count">
           <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Blade Runner" Name="Blade Runner" Img="https://upload.wikimedia.org/wikipedia/en/5/53/Blade_Runner_poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Blade Runner">
+      <Description>The story takes place in a futuristic society in L.A. in 2019. Rick Deckard becomes a "Blade Runner" (Blade Runners are people trained to destroy any Replicants in the Earth). </Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Blade Runner" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="third language" />
+          <String Value=" invented language" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-11-29T10:50:36" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-12-10T10:32:18" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="corrius" />
+          <String Value="George" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Blade Runner" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="117" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Ridley Scott" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Hampton Fnacher" />
+          <String Value=" David Webb Peoples" />
+          <String Value=" " />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="USA" />
+          <String Value=" Hong Kong" />
+          <String Value=" UK" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="Warner Brotheres Burbank Studios" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="1982" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L2-Dubbed languages">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="2" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Butch Cassidy and the Sundance Kid" Name="Butch Cassidy and the Sundance Kid" Img="https://images-na.ssl-images-amazon.com/images/M/MV5BMTkyMTM2NDk5Nl5BMl5BanBnXkFtZTgwNzY1NzEyMDE@._V1_.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Butch Cassidy and the Sundance Kid">
+      <Description>The story is about two outlaws (Butch Cassidy and the Sundance Kid) who are members of the Hole-in-the-Wall gang. Butch is smart and Sundance is all action and skill. At the beginning of the film they rob banks but as the Wild West is becoming more and more tame they decide to rob trains and they try with th "Union Pacific". The first robbery goes well but the second goes wrong because apart from using to much dynamite another train arrives. The two outlaws are then pursued and so they decide to leave the country. Etta (Sundance's girlfriend) joins them and they make their way to Bolivia where they try to rob banks again, but in this case there's an added difficulty: they don't speak Spanish.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Butch Cassidy and the Sundance Kid" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="third language" />
+          <String Value=" Spanish" />
+          <String Value=" L3ST = L2 " />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-11-20T06:58:48" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-11-20T07:46:30" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="corrius" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Butch Cassidy and the Sundance Kid" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="110" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="George Roy Hill" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="William Goldman" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="United States" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="20th Century Fox" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="1969" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L2-Dubbed languages">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="3" />
         </Facet>
       </Facets>
     </Item>
@@ -300,6 +643,59 @@
         </Facet>
         <Facet Name="Year ST released">
           <Number Value="1996" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Chocolat" Name="Chocolat" Img="https://images-na.ssl-images-amazon.com/images/M/MV5BNDg3NjA5NzYtYzE2OS00NzZiLTg2YTUtMmJkZDFmYjg5NjgwXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_UX182_CR0,0,182,268_AL_.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Chocolat">
+      <Description>The film is set in a rural French village where a woman (Vianne Rocher) and her daughter (Anouk) open a chocolate shop. At the beginning they are met with skepticism but soon they are accepted by villagers. </Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Chocolat" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="Third language" />
+          <String Value=" French" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-12-30T06:26:03" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-12-30T06:56:36" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="corrius" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Chocolat" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="115" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Lasse Hallström" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Robert Nelson Jacobs" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="UK" />
+          <String Value=" USA" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="Miramar" />
+          <String Value=" David Brown Productions" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2001" />
         </Facet>
         <Facet Name="Main language (L1)">
           <String Value="English" />
@@ -650,6 +1046,65 @@
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Gran Torino" Name="Gran Torino" Img="https://upload.wikimedia.org/wikipedia/ca/0/08/Gran_Torino.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Gran Torino">
+      <Description>Disgruntled Korean War veteran Walt Kowalski sets out to reform his neighbor, a Hmong teenager who tried to steal Kowalski's prized possession: a 1972 Gran Torino. </Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Gran Torino" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-11-22T10:08:34" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-12-07T06:57:40" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Guillermo" />
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Gran Torino" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="116" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value=" Clint Eastwood " />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value=" Nick Schenk" />
+          <String Value=" Dave Johannson" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value=" USA" />
+          <String Value="  Germany" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="     Matten Productions" />
+          <String Value=" Double Nickel Entertainment" />
+          <String Value=" Gerber Pictures" />
+          <String Value=" Malpaso Productions" />
+          <String Value=" Village Roadshow Pictures" />
+          <String Value=" WV Films IV" />
+          <String Value=" Warner Bros." />
+        </Facet>
+        <Facet Name="Blockbuster">
+          <String Value="YES (top 20)" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2008" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Harry Potter and the Deathly Hallows Part 2" Name="Harry Potter and the Deathly Hallows Part 2" Img="https://upload.wikimedia.org/wikipedia/en/d/df/Harry_Potter_and_the_Deathly_Hallows_%E2%80%93_Part_2.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Harry Potter and the Deathly Hallows Part 2">
       <Description>Harry, Ron, and Hermione continue their quest of finding and destroying the Dark Lord's three remaining Horcruxes, the magical items responsible for his immortality. But as the mystical Deathly Hallows are uncovered, and Voldemort finds out about their mission, the biggest battle begins and life as they know it will never be the same again. (from IMDB)</Description>
       <Facets>
@@ -704,6 +1159,58 @@
         </Facet>
         <Facet Name="Conversations: count">
           <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Hôkago Midnighters" Name="Hôkago Midnighters" Img="https://upload.wikimedia.org/wikipedia/en/9/9e/After_School_Midnighters_Poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Hôkago Midnighters">
+      <Description>Cuando cae la noche... todo es posible. Los monstruos salen a la luz y los fantasmas se disponen a bailar y cantar. Son los dueños de la pista, e invaden el tan plácido espacio de un colegio, sus pasillos y sus aulas. Tres niñas se proponen a hacer travesuras en la escuela una vez ya ha cerrado. Lo que encuentran es esta fiesta sorpresa y, lejos de amedrentarse, van a dar guerra a tanto monstruito suelto. Una película cargada de humor e imaginación, que conjuga los cuentos de miedo con un universo infantil.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Hôkago Midnighters" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-12-20T09:35:48" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-12-20T09:39:16" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Guillermo" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Hôkago Midnighters" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="95" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Hitoshi Takekiyo" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Hitoshi Takekiyo" />
+          <String Value=" Yôichi Komori" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="Japan" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="Koo-Ki" />
+          <String Value=" Mont Blanc Pictures" />
+        </Facet>
+        <Facet Name="Blockbuster">
+          <String Value="NO, closer to Art film or niche market" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2012" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="Japanese" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="0" />
         </Facet>
       </Facets>
     </Item>
@@ -830,6 +1337,62 @@
         </Facet>
         <Facet Name="Conversations: count">
           <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Lolita" Name="Lolita" Img="http://www.krsjrproductions.com/lolita1962-2011bluray.JPG" Href="http://gallery.trafilm.net/film/metadata/?film=Lolita">
+      <Description>Film adaptation of Nabokov's novel about a story of paedophilia</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Lolita" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-11-18T08:36:12" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-11-18T08:55:21" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="PatrickZabalbeascoa" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Lolita" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="152" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Stanley Kubrick" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Stanley Kubrick" />
+          <String Value=" Vladimir Nabokov" />
+          <String Value=" James B. Harris" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="UK" />
+          <String Value=" USA" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="Metro-Goldwyn-Mayer" />
+        </Facet>
+        <Facet Name="Blockbuster">
+          <String Value="NO, but commercially intended" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="1962" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L2-Dubbed languages">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>
@@ -1020,7 +1583,7 @@
       </Facets>
     </Item>
     <Item Id="Monsoon Wedding" Name="Monsoon Wedding" Img="https://upload.wikimedia.org/wikipedia/en/1/1d/Monsoon_Wedding_poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Monsoon Wedding">
-      <Description>A stressed father, a bride-to-be with a secret, a smitten event planner, and relatives from around the world create much ado about the preparations for an arranged marriage in India. </Description>
+      <Description>A stressed father, a bride-to-be with a secret, a smitten event planner, and Indian relatives from around the world create much ado about the preparations for an arranged marriage in India. </Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="Monsoon Wedding" />
@@ -1034,11 +1597,12 @@
           <DateTime Value="2016-06-07T03:44:51" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-19T02:27:34" />
+          <DateTime Value="2016-12-21T07:49:15" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Stavroula" />
           <String Value="George" />
+          <String Value="Santamaria" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Monsoon Wedding" />
@@ -1359,6 +1923,137 @@
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Quantum of Solace" Name="Quantum of Solace" Img="https://upload.wikimedia.org/wikipedia/en/2/2d/Quantum_of_Solace_-_UK_cinema_poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Quantum of Solace">
+      <Description>James Bond seeks for revenge for his girlfriend's death and fights an unknown criminal organization.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Quantum of Solace" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-01-10T11:43:12" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-01-11T10:56:27" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+          <String Value="George" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Quantum of Solace" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="106" />
+        </Facet>
+        <Facet Name="Series">
+          <String Value="James Bond 007" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value=" Marc Forster " />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Paul Haggis" />
+          <String Value=" Neal Purvis" />
+          <String Value=" Robert Wade" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="UK" />
+          <String Value=" USA" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="     Metro-Goldwyn-Mayer (MGM)" />
+          <String Value=" Columbia Pictures" />
+          <String Value=" Eon Productions (as Albert R. Broccoli's" />
+          <String Value=" Eon Productions)" />
+          <String Value=" B22" />
+        </Facet>
+        <Facet Name="Blockbuster">
+          <String Value="YES (top 20)" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2008" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L2-Dubbed languages">
+          <String Value="Spanish" />
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L2-Subtitled languages">
+          <String Value="Spanish" />
+          <String Value="English" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="18" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Raid on Rommel" Name="Raid on Rommel" Img="https://images-na.ssl-images-amazon.com/images/M/MV5BMTg1MzEyNTk1MF5BMl5BanBnXkFtZTcwNTIzNjQyMQ@@._V1_.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Raid on Rommel">
+      <Description>The film is set in North Africa during World War II. Several British commandos set out to destroy the heavy German artillery at Tobruk (Rommel and Nazi troops'shelter). In order to carry out this mission they are assigned the job of becoming prisoners of war and they are led by Captain Foster, an English Officer posing as a Nazi Officer. The mistress of an Italian general is also a prisoner who travels with them to Tobruk. Complications develop when Foster arrives at the rendezvous point and all he finds are genuine sick prisoners of war.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Raid on Rommel" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="Third language" />
+          <String Value=" German" />
+          <String Value=" Italian" />
+          <String Value=" war" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="It is a poor film but it is of interest as far as the third language is concerned." />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-11-20T05:48:27" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-11-29T11:52:29" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="corrius" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Raid on Rommel" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="99" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Henri Hathaway" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Richard M. Bluel" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="United States" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="Universal Pictures" />
+        </Facet>
+        <Facet Name="Blockbuster">
+          <String Value="NO, closer to Art film or niche market" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="1971" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L2-Dubbed languages">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Slumdog Millionaire" Name="Slumdog Millionaire" Img="https://upload.wikimedia.org/wikipedia/ca/2/2b/Slumdog_Millionaire.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Slumdog Millionaire">
       <Description>A Mumbai teen reflects on his upbringing in the slums when he is accused of cheating on the Indian Version of "Who Wants to be a Millionaire?" </Description>
       <Facets>
@@ -1369,12 +2064,13 @@
           <DateTime Value="2016-06-16T08:16:54" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-19T02:27:49" />
+          <DateTime Value="2016-12-28T09:24:22" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="natalia.faja" />
           <String Value="Stavroula" />
           <String Value="George" />
+          <String Value="Santamaria" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Slumdog Millionaire" />
@@ -1395,6 +2091,13 @@
         <Facet Name="Production countries">
           <String Value="UK" />
           <String Value=" USA" />
+          <String Value=" France" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="     Warner Bros." />
+          <String Value=" Celador Films" />
+          <String Value=" Film4" />
+          <String Value=" Pathé Pictures International" />
         </Facet>
         <Facet Name="Year ST released">
           <Number Value="2008" />
@@ -1402,8 +2105,11 @@
         <Facet Name="Main language (L1)">
           <String Value="Other" />
         </Facet>
+        <Facet Name="L2-Dubbed languages">
+          <String Value="Spanish" />
+        </Facet>
         <Facet Name="Conversations: count">
-          <Number Value="0" />
+          <Number Value="2" />
         </Facet>
       </Facets>
     </Item>
@@ -1563,6 +2269,60 @@
         </Facet>
       </Facets>
     </Item>
+    <Item Id="The Voices" Name="The Voices" Img="https://upload.wikimedia.org/wikipedia/en/thumb/e/ea/The_Voices_film_poster.png/220px-The_Voices_film_poster.png" Href="http://gallery.trafilm.net/film/metadata/?film=The Voices">
+      <Description>A likable guy pursues his office crush with the help of his evil talking pets, but things turn sinister when she stands him up for a date.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="The Voices" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-12-04T12:06:14" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-12-04T12:10:35" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Guillermo" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="The Voices" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="103" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Marjane Satrapi" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Michael R. Perry" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="USA" />
+          <String Value=" Germany" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="Babelsberg Studio" />
+          <String Value=" 1984 Private Defense Contractors" />
+          <String Value=" Mandalay Vision" />
+          <String Value=" Vertigo Entertainment" />
+        </Facet>
+        <Facet Name="Blockbuster">
+          <String Value="NO, but commercially intended" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2014" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="TheReturnOfTheKing" Name="The Lord of the Rings: The Return of the King" Img="https://upload.wikimedia.org/wikipedia/en/9/9d/Lord_of_the_Rings_-_The_Return_of_the_King.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=TheReturnOfTheKing">
       <Description>Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.</Description>
       <Facets>
@@ -1697,12 +2457,12 @@
           <DateTime Value="2016-05-31T10:18:51" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-19T02:28:31" />
+          <DateTime Value="2016-12-11T03:53:37" />
         </Facet>
         <Facet Name="Metadata Editors">
-          <String Value="Guillermo" />
           <String Value="Stavroula" />
           <String Value="George" />
+          <String Value="Guillermo" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="The Walk" />
@@ -1730,14 +2490,71 @@
           <String Value=" LStar Capital" />
           <String Value=" Mel's Cite du Cinema " />
         </Facet>
+        <Facet Name="Blockbuster">
+          <String Value="NO, but commercially intended" />
+        </Facet>
         <Facet Name="Year ST released">
           <Number Value="2015" />
         </Facet>
         <Facet Name="Main language (L1)">
           <String Value="English" />
         </Facet>
+        <Facet Name="L2-Dubbed languages">
+          <String Value="Spanish" />
+        </Facet>
         <Facet Name="Conversations: count">
-          <Number Value="8" />
+          <Number Value="9" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Toy Story 3" Name="Toy Story 3" Img="https://commons.wikimedia.org/wiki/File:Toy_Stoy_3_logo.svg" Href="http://gallery.trafilm.net/film/metadata/?film=Toy Story 3">
+      <Description>Andy, the boy to whom  Woody, Buzz Lightyear and the rest of the toys belong is getting ready to go to college. The toys are anxious about their future but they find a new house with a young girl who is happy to play with them.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Toy Story 3" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="Spanish in only one scene&#xD;&#xA;" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-01-02T09:22:35" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-01-02T09:41:38" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Toy Story 3" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="103" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Andrew Stanton" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Michael Arndt" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="USA" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="Walt Disney Pictures" />
+          <String Value=" Pixar Animation Studios " />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2010" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="0" />
         </Facet>
       </Facets>
     </Item>

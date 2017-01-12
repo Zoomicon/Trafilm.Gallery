@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Collection SchemaVersion="1.0" Name="Camille and Dominic" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+  <FacetCategories>
+    <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Conversation Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Conversation start time (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Conversation duration (sec)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Main (L1) language" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST language type" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST language" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST constructed based on" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST meant to be understood" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST message required for understanding" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST meaning decipherable" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Quality of L3ST speaker performance" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="L3ST mode, written/spoken, diegetic" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST merely represented" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST merely represented orally" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST represented: visual" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST functions" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Conversation features for L3ST-instance" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST sources" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3TT-instances: count" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Tags" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+  </FacetCategories>
+  <Items xmlns="">
+    <Item Id="Quantum of Solace.Camille and Dominic.Strong accents" Name="Camille and Dominic" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Camille and Dominic&amp;L3STinstance=Quantum of Solace.Camille and Dominic.Strong accents">
+      <Description>Camille is angry with Dominic after she discovered he wanted to kill her</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Quantum of Solace.Camille and Dominic.Strong accents" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Camille.&#xD;&#xA;&#xD;&#xA;  &#xD;&#xA;How nice to see you.&#xD;&#xA;&#xD;&#xA;  &#xD;&#xA;Alive, you mean?&#xD;&#xA;&#xD;&#xA;  &#xD;&#xA;I knew we shouldn't&#xD;&#xA;have slept together.&#xD;&#xA;&#xD;&#xA;  &#xD;&#xA;I think I'm starting&#xD;&#xA;to like you.&#xD;&#xA;&#xD;&#xA;  &#xD;&#xA;So you did just try&#xD;&#xA;and have me killed.&#xD;&#xA;&#xD;&#xA;  &#xD;&#xA;And that made me very sad...&#xD;&#xA;&#xD;&#xA;  &#xD;&#xA;thinking I would&#xD;&#xA;never see you again.&#xD;&#xA;&#xD;&#xA;  &#xD;&#xA;But here you are.&#xD;&#xA;&#xD;&#xA;  &#xD;&#xA;Damn it, Dominic.&#xD;&#xA;I was trying to help you.&#xD;&#xA;&#xD;&#xA;  &#xD;&#xA;I was trying to&#xD;&#xA;uncover a leak.&#xD;&#xA;&#xD;&#xA;  &#xD;&#xA;And you, you sent&#xD;&#xA;someone to kill me?&#xD;&#xA;&#xD;&#xA;  &#xD;&#xA;Please don't talk to&#xD;&#xA;me like I'm stupid.&#xD;&#xA;&#xD;&#xA;  &#xD;&#xA;It's unattractive.&#xD;&#xA;&#xD;&#xA;  &#xD;&#xA;Come. I wanna show&#xD;&#xA;you something.&#xD;&#xA;&#xD;&#xA;  &#xD;&#xA;Come.&#xD;&#xA;&#xD;&#xA;  &#xD;&#xA;There's nothing that makes me&#xD;&#xA;more uncomfortable...&#xD;&#xA;&#xD;&#xA;  &#xD;&#xA;than friends talking&#xD;&#xA;behind my back.&#xD;&#xA;&#xD;&#xA;  &#xD;&#xA;It feels like...&#xD;&#xA;&#xD;&#xA;  &#xD;&#xA;ants under my skin.&#xD;&#xA;&#xD;&#xA;  &#xD;&#xA;It's been that way forever.&#xD;&#xA;&#xD;&#xA;  &#xD;&#xA;I remember when I was 15.&#xD;&#xA;&#xD;&#xA;  &#xD;&#xA;I had a crush on...&#xD;&#xA;&#xD;&#xA;  &#xD;&#xA;one of my mother's&#xD;&#xA;piano students.&#xD;&#xA;&#xD;&#xA;  &#xD;&#xA;Somehow I overheard her saying&#xD;&#xA;very nasty things about me.&#xD;&#xA;&#xD;&#xA;  &#xD;&#xA;I got so angry.&#xD;&#xA;&#xD;&#xA;  &#xD;&#xA;I took an iron.&#xD;&#xA;&#xD;&#xA;  &#xD;&#xA;Is that him?&#xD;&#xA;&#xD;&#xA;  &#xD;&#xA;I... We only spoke&#xD;&#xA;on the phone.&#xD;&#xA;&#xD;&#xA;  &#xD;&#xA;It's such a shame...&#xD;&#xA;&#xD;&#xA;  &#xD;&#xA;because he's one of&#xD;&#xA;my best geologists.&#xD;&#xA;&#xD;&#xA;  &#xD;&#xA;He said you asked&#xD;&#xA;to buy information.&#xD;&#xA;&#xD;&#xA;  &#xD;&#xA;No. He called me...&#xD;&#xA;&#xD;&#xA;  &#xD;&#xA;and offered to sell&#xD;&#xA;me information.&#xD;&#xA;&#xD;&#xA;  &#xD;&#xA;Why would I come back here&#xD;&#xA;if I was lying?&#xD;&#xA;&#xD;&#xA;  &#xD;&#xA;Because you love me.&#xD;&#xA;&#xD;&#xA;  &#xD;&#xA;I was doing it for you.&#xD;&#xA;&#xD;&#xA;  &#xD;&#xA;To stop him from&#xD;&#xA;betraying you.&#xD;&#xA;&#xD;&#xA;  &#xD;&#xA;You know what burns more&#xD;&#xA;than all your bullshit?&#xD;&#xA;&#xD;&#xA;  &#xD;&#xA;Is that I always&#xD;&#xA;got the feeling...&#xD;&#xA;&#xD;&#xA;  &#xD;&#xA;that you were only&#xD;&#xA;sleeping with me...&#xD;&#xA;&#xD;&#xA;  &#xD;&#xA;to get to General Medrano.&#xD;&#xA;&#xD;&#xA;  &#xD;&#xA;Is that him?&#xD;&#xA;&#xD;&#xA;  &#xD;&#xA;You know how these&#xD;&#xA;deposed dictators are,&#xD;&#xA;&#xD;&#xA;  &#xD;&#xA;jealous of their safety.&#xD;&#xA;&#xD;&#xA;  &#xD;&#xA;Stick around.&#xD;&#xA;&#xD;&#xA;  &#xD;&#xA;I'll introduce you." />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="French accent" />
+          <String Value=" Latin American accent" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-01-10T05:14:44" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-01-10T05:18:57" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Quantum of Solace" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Quantum of Solace.Camille and Dominic" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="22" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="J. &gt; 180" />
+        </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L3ST language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST language">
+          <String Value="English with Latin American and French accents" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="YES, (almost) completely" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3ST speaker performance">
+          <String Value="clearly non-native or deficient" />
+        </Facet>
+        <Facet Name="L3ST mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3ST merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
+        <Facet Name="L3ST functions">
+          <String Value="Character portrayal" />
+        </Facet>
+        <Facet Name="Conversation features for L3ST-instance">
+          <String Value="quarrel" />
+        </Facet>
+        <Facet Name="L3ST sources">
+          <String Value="Oral L3: different sources " />
+        </Facet>
+        <Facet Name="L3TT-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+  </Items>
+</Collection>

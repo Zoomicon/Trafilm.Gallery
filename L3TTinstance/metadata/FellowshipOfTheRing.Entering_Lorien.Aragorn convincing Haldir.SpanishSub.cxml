@@ -34,9 +34,9 @@
     <FacetCategory Name="L3 functions change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Conversation features for L3-instance change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3 sources change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Tags" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -55,11 +55,11 @@
           <DateTime Value="2016-11-01T12:18:01" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-11-03T04:40:03" />
+          <DateTime Value="2017-01-08T10:04:18" />
         </Facet>
         <Facet Name="Metadata Editors">
-          <String Value="miquelpt" />
           <String Value="George" />
+          <String Value="miquelpt" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="FellowshipOfTheRing" />
@@ -89,7 +89,7 @@
           <Number Value="144" />
         </Facet>
         <Facet Name="Conversation duration (sec)">
-          <String Value="B. 21-40" />
+          <String Value="D. 61-80" />
         </Facet>
         <Facet Name="L2 same as L3ST">
           <String Value="No" />
@@ -113,7 +113,7 @@
           <String Value="Yes" />
         </Facet>
         <Facet Name="L3TT meaning decipherable">
-          <String Value="NO" />
+          <String Value="YES, through translation or clear from picture" />
         </Facet>
         <Facet Name="Quality of L3TT speaker performance">
           <String Value="native or proficient" />

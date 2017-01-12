@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: BaseMetadataPage.cs
-//Version: 20160622
+//Version: 20170112
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -45,6 +45,23 @@ namespace Trafilm.Gallery
               (User.IsInRole("Administrators") ||
                User.IsInRole("MetadataEditors") ||
                User.IsInRole("MetadataEditors_" + itemType)
+              ));
+    }
+
+    protected bool IsUserAllowedToViewVideo()
+    {
+      return (Request.IsAuthenticated &&
+              (User.IsInRole("Administrators") ||
+               User.IsInRole("VideoViewers") ||
+               User.IsInRole("VideoUploaders")
+              ));
+    }
+
+    protected bool IsUserAllowedToUploadVideo()
+    {
+      return (Request.IsAuthenticated &&
+              (User.IsInRole("Administrators") ||
+               User.IsInRole("VideoUploaders")
               ));
     }
 
@@ -136,6 +153,30 @@ namespace Trafilm.Gallery
 
     #endregion
 
+    #region Files
+
+    private static string GetConversationL1videoFilename(string conversationId, string l1Language)
+    {
+      return conversationId + "_" + l1Language + ".mp4";
+    }
+
+    public string GetConversationL2videoFilename(string conversationId, string l2Language, string l2Mode)
+    {
+      return conversationId + "_" + l2Language + "_" + l2Mode + ".mp4";
+    }
+
+    public bool ConversationL1videoExists(string conversationId, string l1Language)
+    {
+      return File.Exists(Path.Combine(Request.PhysicalApplicationPath, "video", GetConversationL1videoFilename(conversationId, l1Language)));
+    }
+
+    public bool ConversationL2videoExists(string conversationId, string l2Language, string l2Mode)
+    {
+      return File.Exists(Path.Combine(Request.PhysicalApplicationPath, "video", GetConversationL2videoFilename(conversationId, l2Language, l2Mode)));
+    }
+
+    #endregion
+
     #region URI
 
     public string GetFilmUriHash(string filmId)
@@ -176,6 +217,21 @@ namespace Trafilm.Gallery
     public Uri GetL3TTinstanceUri(string filmId, string conversationId, string l3STinstanceId, string l3TTinstanceId)
     {
       return new Uri("http://gallery.trafilm.net/L3TTinstance/metadata/?" + GetL3TTinstanceUriHash(filmId, conversationId, l3STinstanceId, l3TTinstanceId));
+    }
+
+    public Uri GetVideoUri(string file)
+    {
+      return new Uri("http://gallery.trafilm.net/video/" + file);
+    }
+
+    public Uri GetConversationL1videoUri(string conversationId, string l1Language)
+    {
+      return GetVideoUri(GetConversationL1videoFilename(conversationId, l1Language));
+    }
+
+    public Uri GetConversationL2videoUri(string conversationId, string l2Language, string l2Mode)
+    {
+      return GetVideoUri(GetConversationL2videoFilename(conversationId, l2Language, l2Mode));
     }
 
     #endregion

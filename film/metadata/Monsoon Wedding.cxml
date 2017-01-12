@@ -16,16 +16,16 @@
     <FacetCategory Name="L2-Dubbed languages" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L2-Subtitled languages" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Conversations: count" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
-    <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Tags" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
     <Item Id="Monsoon Wedding" Name="Monsoon Wedding" Img="https://upload.wikimedia.org/wikipedia/en/1/1d/Monsoon_Wedding_poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Monsoon Wedding">
-      <Description>A stressed father, a bride-to-be with a secret, a smitten event planner, and relatives from around the world create much ado about the preparations for an arranged marriage in India. </Description>
+      <Description>A stressed father, a bride-to-be with a secret, a smitten event planner, and Indian relatives from around the world create much ado about the preparations for an arranged marriage in India. </Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="Monsoon Wedding" />
@@ -39,11 +39,15 @@
           <DateTime Value="2016-06-07T03:44:51" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-19T02:27:34" />
+          <DateTime Value="2016-12-21T07:49:15" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Stavroula" />
           <String Value="George" />
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Monsoon Wedding" />
         </Facet>
         <Facet Name="Type">
           <String Value="Feature film" />

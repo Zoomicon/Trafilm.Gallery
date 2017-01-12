@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: UI.cs
-//Version: 20161019
+//Version: 20170112
 
 using System;
 using System.Collections.Generic;
@@ -12,6 +12,11 @@ namespace Trafilm.Gallery
 {
   public static class UI
   {
+
+    public static string TrimStart(this string str, string prefix)
+    {
+      return (str.StartsWith(prefix))? str.Remove(0, prefix.Length) : str;
+    }
 
     public static string GetCommaSeparated(string[] values)
     {

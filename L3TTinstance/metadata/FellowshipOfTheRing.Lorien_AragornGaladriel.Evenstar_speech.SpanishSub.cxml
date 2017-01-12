@@ -34,9 +34,9 @@
     <FacetCategory Name="L3 functions change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Conversation features for L3-instance change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3 sources change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Tags" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -52,17 +52,17 @@
           <String Value="Galadriel: No tengo mejor presente que darte que el que ya llevas contigo. Por culpa d su amor, temo que la gracia de Arwen, Estrella de la Tarde, vaya a menos.&#xD;&#xA;&#xD;&#xA;Aragorn: De buena gana la convencería de que dejara estas costas para permanecer con su pueblo. Ojalá zarpara en el barco de Valinor.&#xD;&#xA;&#xD;&#xA;Galadriel: Esa decisión aún está a su alcance, tú tienes tu propia decisión que tomar, Aragorn. Elevarte y volar más alto que todos tus padres desde los días de Elendil, o caer en la oscuridad, con lo único que resta de tus antepasados. Adiós. Aún te queda mucho por hacer. No volveremos a vernos." />
         </Facet>
         <Facet Name="Remarks">
-          <String Value="The conversation mixes L2 (English) and L3 (Elvish), but the subtitles in Spanish do not show any different to mark when L2 or L3 is uttered. Therefore, for someone not acquainted with the English language, L3 in this instance in the subtitling mode may go unnoticed. " />
+          <String Value="The conversation mixes L2 (English) and L3 (Elvish), but the subtitles in Spanish do not show any difference to mark when L2 or L3 is uttered. Therefore, for someone not acquainted with the English language, L3 in this instance in the subtitling mode may go unnoticed. " />
         </Facet>
         <Facet Name="Info created">
           <DateTime Value="2016-10-18T05:37:06" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-11-03T04:46:50" />
+          <DateTime Value="2017-01-08T09:21:56" />
         </Facet>
         <Facet Name="Metadata Editors">
-          <String Value="miquelpt" />
           <String Value="George" />
+          <String Value="miquelpt" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="FellowshipOfTheRing" />

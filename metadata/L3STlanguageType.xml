@@ -3,12 +3,13 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: metadata/L3STlanguageType.xml
-Version: 20160904
+Version: 20161207
 -->
 
 <Facet Name="L3languageType">
-  <String Value="" Title=""/>
-  <String Value="Real" Title="Real"/>
+  <String Value="" Title="" />
+  <String Value="Real" Title="Real" />
   <String Value="Constructed (fictional)" Title="Constructed (fictional)" />
   <String Value="L-main variety (e.g. dialect, sociolect, idiolect, slang)" Title="Variety of main language (e.g. dialect, sociolect, idiolect, slang)" />
+  <String Value="Conditioned: slurred, stammer, muffled, mumble, rapid" Title="Conditioned: slurred, stammer, muffled, mumble, rapid" />
 </Facet>

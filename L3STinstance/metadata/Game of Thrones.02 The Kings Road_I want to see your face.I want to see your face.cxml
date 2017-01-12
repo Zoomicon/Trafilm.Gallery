@@ -22,9 +22,9 @@
     <FacetCategory Name="Conversation features for L3ST-instance" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3ST sources" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3TT-instances: count" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
-    <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Tags" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -37,16 +37,16 @@
           <String Value="Game of Thrones.02 The Kings Road_I want to see your face.I want to see your face" />
         </Facet>
         <Facet Name="Transcription">
-          <String Value="Daenerys: (English) No.&#xD;&#xA;Daenerys: (English) No.&#xD;&#xA;Daenerys: (Dothraki) Ajjalan anha zalat vitiherat yer hatif. (Tonight I would look upon your face.)" />
+          <String Value="Daenerys: (English) No.&#xD;&#xA;Daenerys: (English) No.&#xD;&#xA;Daenerys: (Dothraki) Ajjalan anha zalat vitiherat yer hatif. (SUB: Tonight I would look upon your face.)" />
         </Facet>
         <Facet Name="Remarks">
-          <String Value="The line is not grammatically correct, since Daenerys has just started learning the language, but it is not clearly evident. " />
+          <String Value="The line is not grammatically correct in Dothraki, since Daenerys has just started learning the language, but it is not clearly evident. " />
         </Facet>
         <Facet Name="Info created">
           <DateTime Value="2016-11-02T10:35:12" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-11-02T10:48:01" />
+          <DateTime Value="2016-11-11T09:52:29" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="SIberg" />

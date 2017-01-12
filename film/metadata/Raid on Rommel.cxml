@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Collection SchemaVersion="1.0" Name="Raid on Rommel" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+  <FacetCategories>
+    <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Film/Season title" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Type" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Duration (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Series" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Director(s)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Scriptwriter(s)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Production countries" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Production companies" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Blockbuster" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Year ST released" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Main language (L1)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L2-Dubbed languages" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L2-Subtitled languages" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Conversations: count" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Tags" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+  </FacetCategories>
+  <Items xmlns="">
+    <Item Id="Raid on Rommel" Name="Raid on Rommel" Img="https://images-na.ssl-images-amazon.com/images/M/MV5BMTg1MzEyNTk1MF5BMl5BanBnXkFtZTcwNTIzNjQyMQ@@._V1_.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Raid on Rommel">
+      <Description>The film is set in North Africa during World War II. Several British commandos set out to destroy the heavy German artillery at Tobruk (Rommel and Nazi troops'shelter). In order to carry out this mission they are assigned the job of becoming prisoners of war and they are led by Captain Foster, an English Officer posing as a Nazi Officer. The mistress of an Italian general is also a prisoner who travels with them to Tobruk. Complications develop when Foster arrives at the rendezvous point and all he finds are genuine sick prisoners of war.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Raid on Rommel" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="Third language" />
+          <String Value=" German" />
+          <String Value=" Italian" />
+          <String Value=" war" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="It is a poor film but it is of interest as far as the third language is concerned." />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-11-20T05:48:27" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-11-29T11:52:29" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="corrius" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Raid on Rommel" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="99" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Henri Hathaway" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Richard M. Bluel" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="United States" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="Universal Pictures" />
+        </Facet>
+        <Facet Name="Blockbuster">
+          <String Value="NO, closer to Art film or niche market" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="1971" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L2-Dubbed languages">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+  </Items>
+</Collection>

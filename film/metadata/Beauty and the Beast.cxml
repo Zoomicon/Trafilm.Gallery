@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Collection SchemaVersion="1.0" Name="Beauty and the Beast" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+  <FacetCategories>
+    <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Film/Season title" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Type" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Duration (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Series" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Director(s)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Scriptwriter(s)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Production countries" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Production companies" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Blockbuster" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Year ST released" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Main language (L1)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L2-Dubbed languages" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L2-Subtitled languages" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Conversations: count" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Tags" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+  </FacetCategories>
+  <Items xmlns="">
+    <Item Id="Beauty and the Beast" Name="Beauty and the Beast" Img="https://upload.wikimedia.org/wikipedia/en/7/7c/Beautybeastposter.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Beauty and the Beast">
+      <Description>This cartoon film is set in a small Provençal village. Maurice, a poor old inventor, is lost in the woods and as he is trying to find a shelter he is imprisoned in a castle by a horrific monster: the beast. Belle, his beautifull daughter, whi is seen as eccentric due to her passion for books, finds him trapped in the castle and she offeres the beast to replace her father as a prisoner. The beast agrees on the condition that she will stay there forever and he gives her permission to go everywhere in the castle except the West wing where he keeps the enchanted rose. She is attended and entertained by the servants, namely the enchanted household items including Lumière (the Candlestick), Cogsorth (the clock), Stove (the chef), Babette (the feather duster), etc. At first she sees him as a difficult, stubborn monster but as time goes by the wo start to become friends and the beast falls in love with her.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Beauty and the Beast" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="Cartoon film" />
+          <String Value=" third language" />
+          <String Value=" French" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="The film takes place in an active, busy, rural, French village. In order ro mark that the typical language of the setting would not be English, the use of French accent is used, as well as the utterance of some French phrases. " />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-11-08T03:36:37" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2016-11-28T06:30:29" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="corrius" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Beauty and the Beast" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="87" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Gary Trousdale and Kirk Wise" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Roger Allers et al" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="USA" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="Walt Disney" />
+        </Facet>
+        <Facet Name="Blockbuster">
+          <String Value="NO, but commercially intended" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="1991" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L2-Dubbed languages">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="2" />
+        </Facet>
+      </Facets>
+    </Item>
+  </Items>
+</Collection>
