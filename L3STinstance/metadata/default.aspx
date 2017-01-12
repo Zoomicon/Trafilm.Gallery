@@ -383,7 +383,7 @@ Version: 20170112
         </asp:Panel>
         
         <asp:Panel ID="panelVideoUpload" runat="server" Visible="false">
-        Video uploading to be added here...
+          <asp:FileUpload id="uploadVideo" runat="server" />
         </asp:Panel>
 
       </asp:Panel>
