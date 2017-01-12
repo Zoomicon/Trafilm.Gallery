@@ -44,8 +44,10 @@ namespace Trafilm.Gallery
 
       bool hasSelectedL3STinstance = (listL3STinstances.SelectedIndex > 0);
       btnRename.Visible = IsUserAllowedToRename("L3STinstance") && hasSelectedL3STinstance;
-      panelVideoDownload.Visible = IsUserAllowedToViewVideo() && /*VideoExists(listConversations.SelectedValue) && */ hasSelectedL3STinstance;
-      panelVideoUpload.Visible = IsUserAllowedToUploadVideo() && hasSelectedL3STinstance;
+
+      //Video download/upload UI stays hidden if their parent panelMetadata is not visible (i.e. nothing is selected)
+      panelVideoDownload.Visible = IsUserAllowedToViewVideo() && ConversationL1videoExists(listConversations.SelectedValue, "en"/*txtL1language.Text*/); //TODO: copy into L3STinstance metadata the L1language from film grandparent (edit model and show in form etc.)
+      panelVideoUpload.Visible = IsUserAllowedToUploadVideo();
     }
 
     #endregion
