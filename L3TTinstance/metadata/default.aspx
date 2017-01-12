@@ -463,11 +463,6 @@ Version: 20170112
         Video uploading to be added here...
         </asp:Panel>
 
-
-        <%-- EXTRA PADDING AT THE END --%>
-        <br />
-        <br />
-
       </asp:Panel>
     
     </form>

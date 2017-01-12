@@ -259,12 +259,9 @@ Version: 20170112
               <a href="../../L3STinstance/metadata/?film=<%#Eval("filmId")%>&conversation=<%#Eval("conversationId")%>&L3STinstance=<%#Eval("L3STinstanceId")%>"><%#Eval("L3STinstanceId").ToString().TrimStart(Eval("conversationId").ToString() + ".")%></a>&nbsp;&nbsp;
             </ItemTemplate>
           </asp:Repeater>
+          <br />
+          <br />
         </div>
-
-
-        <%-- EXTRA PADDING AT THE END --%>
-        <br />
-        <br />
 
       </asp:Panel>
     

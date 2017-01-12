@@ -289,12 +289,9 @@ Version: 20170112
               <a href="../../conversation/metadata/?film=<%#Eval("filmId")%>&conversation=<%#Eval("conversationId")%>"><%#Eval("conversationId").ToString().TrimStart(Eval("filmId").ToString() + ".")%></a>&nbsp;&nbsp;
             </ItemTemplate>
           </asp:Repeater>
+          <br />
+          <br />
         </div>
-
-
-        <%-- EXTRA PADDING AT THE END --%>
-        <br />
-        <br />
 
       </asp:Panel>
     

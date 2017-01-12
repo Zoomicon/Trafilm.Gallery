@@ -49,7 +49,11 @@ namespace Trafilm.Gallery
       btnRename.Visible = IsUserAllowedToRename("L3TTinstance") && hasSelectedL3TTinstance;
 
       //Video download/upload UI stays hidden if their parent panelMetadata is not visible (i.e. nothing is selected)
-      panelVideoDownload.Visible = IsUserAllowedToViewVideo() && ConversationL2videoExists(listConversations.SelectedValue, listL2language.SelectedValue, listL2mode.SelectedValue);
+      string conversationId = listConversations.SelectedValue;
+      string l2Language = listL2language.SelectedValue;
+      string l2Mode = listL2mode.SelectedValue;
+      panelVideoDownload.Visible = IsUserAllowedToViewVideo() && ConversationL2videoExists(conversationId, l2Language, l2Mode);
+      UI.Load(linkVideo, GetConversationL2videoUri(conversationId, l2Language, l2Mode));
       panelVideoUpload.Visible = IsUserAllowedToUploadConversationL2video();
     }
 

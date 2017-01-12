@@ -367,6 +367,8 @@ Version: 20170112
               <a href="../../L3TTinstance/metadata/?film=<%#Eval("filmId")%>&conversation=<%#Eval("conversationId")%>&L3STinstance=<%#Eval("L3STinstanceId")%>&L3TTinstance=<%#Eval("L3TTinstanceId")%>"><%#Eval("L3TTinstanceId").ToString().TrimStart(Eval("L3STinstanceId").ToString() + ".")%></a>&nbsp;&nbsp;
             </ItemTemplate>
           </asp:Repeater>
+          <br />
+          <br />
         </div>
 
 
@@ -383,11 +385,6 @@ Version: 20170112
         <asp:Panel ID="panelVideoUpload" runat="server" Visible="false">
         Video uploading to be added here...
         </asp:Panel>
-
-
-        <%-- EXTRA PADDING AT THE END --%>
-        <br />
-        <br />
 
       </asp:Panel>
     

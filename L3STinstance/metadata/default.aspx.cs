@@ -46,7 +46,10 @@ namespace Trafilm.Gallery
       btnRename.Visible = IsUserAllowedToRename("L3STinstance") && hasSelectedL3STinstance;
 
       //Video download/upload UI stays hidden if their parent panelMetadata is not visible (i.e. nothing is selected)
-      panelVideoDownload.Visible = IsUserAllowedToViewVideo() && ConversationL1videoExists(listConversations.SelectedValue/*, txtL1language.Text*/); //TODO: copy into L3STinstance metadata the L1language from film grandparent (edit model and show in form etc.)
+      string conversationId = listConversations.SelectedValue;
+      string l1Language = ""; //txtL1language.Text //TODO: copy into L3STinstance metadata the L1language from film grandparent (edit model and show in form etc.)
+      panelVideoDownload.Visible = IsUserAllowedToViewVideo() && ConversationL1videoExists(conversationId, l1Language);
+      UI.Load(linkVideo, GetConversationL1videoUri(conversationId, l1Language));
       panelVideoUpload.Visible = IsUserAllowedToUploadConversationL1video();
     }
 

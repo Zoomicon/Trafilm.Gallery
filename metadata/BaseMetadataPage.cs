@@ -163,7 +163,7 @@ namespace Trafilm.Gallery
 
     private static string GetConversationL1videoFilename(string conversationId, string l1Language = "")
     {
-      return conversationId + "_" + l1Language + ".mp4";
+      return conversationId + ((l1Language != "")? "_" + l1Language : "") + ".mp4";
     }
 
     public string GetConversationL2videoFilename(string conversationId, string l2Language, string l2Mode)
@@ -230,7 +230,7 @@ namespace Trafilm.Gallery
       return new Uri("http://gallery.trafilm.net/video/" + file);
     }
 
-    public Uri GetConversationL1videoUri(string conversationId, string l1Language)
+    public Uri GetConversationL1videoUri(string conversationId, string l1Language = "")
     {
       return GetVideoUri(GetConversationL1videoFilename(conversationId, l1Language));
     }
