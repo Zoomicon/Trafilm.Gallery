@@ -316,6 +316,45 @@ namespace Trafilm.Gallery
         CXMLMetadata.Save(cxml, collectionTitle, facetCategories, metadataItems.ToArray());
     }
 
+    protected void UploadVideo(FileUpload uploadVideo, string filename)
+    {
+      Boolean fileOK = false;
+      String path = Server.MapPath("~/video/" + filename);
+      if (FileUpload1.HasFile)
+      {
+        String fileExtension =
+            System.IO.Path.GetExtension(FileUpload1.FileName).ToLower();
+        String[] allowedExtensions =
+            {".gif", ".png", ".jpeg", ".jpg"};
+        for (int i = 0; i < allowedExtensions.Length; i++)
+        {
+          if (fileExtension == allowedExtensions[i])
+          {
+            fileOK = true;
+          }
+        }
+      }
+
+      if (fileOK)
+      {
+        try
+        {
+          FileUpload1.PostedFile.SaveAs(path
+              + FileUpload1.FileName);
+          Label1.Text = "File uploaded!";
+        }
+        catch (Exception ex)
+        {
+          Label1.Text = "File could not be uploaded.";
+        }
+      }
+      else
+      {
+        Label1.Text = "Cannot accept files of this type.";
+      }
+    }
+  }
+
     #endregion
 
     #endregion
