@@ -7556,7 +7556,78 @@ And the wife and the aunt speak in English</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Quantum of Solace.Adlibs in Spanish on a yacht.Latin American" Name="Adlibs in Spanish on a yacht" Img="#104" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Adlibs in Spanish on a yacht&amp;L3STinstance=Quantum of Solace.Adlibs in Spanish on a yacht.Latin American">
+        <Item Id="Puss in Boots.At the saloon.Words in Spanish" Name="At the saloon" Img="#104" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Puss in Boots&amp;conversation=Puss in Boots.At the saloon&amp;L3STinstance=Puss in Boots.At the saloon.Words in Spanish">
+            <Description>Puss is introduced in relation with humans who do not any rsspect for a cat trying to behave as a human</Description>
+            <Facets>
+                <Facet Name="Conversation duration (sec)">
+                    <String Value="A. 1-20" />
+                </Facet>
+                <Facet Name="Conversation features for L3ST-instance">
+                    <String Value="joke" />
+                </Facet>
+                <Facet Name="Conversation Reference Id">
+                    <String Value="Puss in Boots.At the saloon" />
+                </Facet>
+                <Facet Name="Conversation start time (min)">
+                    <Number Value="4" />
+                </Facet>
+                <Facet Name="Film Reference Id">
+                    <String Value="Puss in Boots" />
+                </Facet>
+                <Facet Name="Info created">
+                    <DateTime Value="2017-01-13T11:46:20" />
+                </Facet>
+                <Facet Name="Info updated">
+                    <DateTime Value="2017-01-13T11:49:31" />
+                </Facet>
+                <Facet Name="L3ST functions">
+                    <String Value="Comedy / humour" />
+                </Facet>
+                <Facet Name="L3ST language">
+                    <String Value="English with a slight Latin american accent" />
+                </Facet>
+                <Facet Name="L3ST language type">
+                    <String Value="Real" />
+                </Facet>
+                <Facet Name="L3ST meaning decipherable">
+                    <String Value="YES, through translation or clear from picture" />
+                </Facet>
+                <Facet Name="L3ST meant to be understood">
+                    <String Value="YES, (almost) completely" />
+                </Facet>
+                <Facet Name="L3ST merely represented">
+                    <String Value="NO / Not applicable" />
+                </Facet>
+                <Facet Name="L3ST message required for understanding">
+                    <String Value="Yes" />
+                </Facet>
+                <Facet Name="L3ST mode, written/spoken, diegetic">
+                    <String Value="Oral diegetic on-screen" />
+                </Facet>
+                <Facet Name="L3ST sources">
+                    <String Value="Bilingual (L3&amp;main): same source " />
+                </Facet>
+                <Facet Name="L3TT-instances: count">
+                    <Number Value="0" />
+                </Facet>
+                <Facet Name="Main (L1) language">
+                    <String Value="English" />
+                </Facet>
+                <Facet Name="Metadata Editors">
+                    <String Value="Santamaria" />
+                </Facet>
+                <Facet Name="Quality of L3ST speaker performance">
+                    <String Value="native or proficient" />
+                </Facet>
+                <Facet Name="Reference Id">
+                    <String Value="Puss in Boots.At the saloon.Words in Spanish" />
+                </Facet>
+                <Facet Name="Transcription">
+                    <String Value="One leche, please.&#xD;&#xA;What are you doing here, señor?&#xD;&#xA;Did you lose your ball of yarn?&#xD;&#xA;So funny.&#xD;&#xA;One leche coming up." />
+                </Facet>
+            </Facets>
+        </Item>
+        <Item Id="Quantum of Solace.Adlibs in Spanish on a yacht.Latin American" Name="Adlibs in Spanish on a yacht" Img="#105" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Adlibs in Spanish on a yacht&amp;L3STinstance=Quantum of Solace.Adlibs in Spanish on a yacht.Latin American">
             <Description>Trying to get organized after Bond's attack</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -7624,7 +7695,7 @@ And the wife and the aunt speak in English</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Quantum of Solace.At the harbour.Doorman" Name="Quantum of Solace.At the harbour" Img="#105" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.At the harbour&amp;L3STinstance=Quantum of Solace.At the harbour.Doorman">
+        <Item Id="Quantum of Solace.At the harbour.Doorman" Name="Quantum of Solace.At the harbour" Img="#106" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.At the harbour&amp;L3STinstance=Quantum of Solace.At the harbour.Doorman">
             <Description>Elvis talking on the phone while Camille approaches and goes in
 </Description>
             <Facets>
@@ -7690,7 +7761,7 @@ And the wife and the aunt speak in English</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Quantum of Solace.Buying a ticket in Austria.German accent in English" Name="Quantum of Solace.Buying a ticket in Austria" Img="#106" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Buying a ticket in Austria&amp;L3STinstance=Quantum of Solace.Buying a ticket in Austria.German accent in English">
+        <Item Id="Quantum of Solace.Buying a ticket in Austria.German accent in English" Name="Quantum of Solace.Buying a ticket in Austria" Img="#107" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Buying a ticket in Austria&amp;L3STinstance=Quantum of Solace.Buying a ticket in Austria.German accent in English">
             <Description>Bond is trying to buy a plane ticket but his visa has been cancelled</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -7761,7 +7832,7 @@ And the wife and the aunt speak in English</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Quantum of Solace.Buying a ticket in Austria.Visual channel only" Name="Quantum of Solace.Buying a ticket in Austria.Visual channel only" Img="#107" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Buying a ticket in Austria&amp;L3STinstance=Quantum of Solace.Buying a ticket in Austria.Visual channel only">
+        <Item Id="Quantum of Solace.Buying a ticket in Austria.Visual channel only" Name="Quantum of Solace.Buying a ticket in Austria.Visual channel only" Img="#108" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Buying a ticket in Austria&amp;L3STinstance=Quantum of Solace.Buying a ticket in Austria.Visual channel only">
             <Description>We can read that Bond's visa has been cancelled</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -7836,7 +7907,7 @@ And the wife and the aunt speak in English</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Quantum of Solace.Camille and Dominic.Strong accents" Name="Camille and Dominic" Img="#108" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Camille and Dominic&amp;L3STinstance=Quantum of Solace.Camille and Dominic.Strong accents">
+        <Item Id="Quantum of Solace.Camille and Dominic.Strong accents" Name="Camille and Dominic" Img="#109" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Camille and Dominic&amp;L3STinstance=Quantum of Solace.Camille and Dominic.Strong accents">
             <Description>Camille is angry with Dominic after she discovered he wanted to kill her</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -7911,7 +7982,7 @@ And the wife and the aunt speak in English</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Quantum of Solace.Conversation on Bond at the harbour.In French" Name="Conversation on Bond at the harbour" Img="#109" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Conversation on Bond at the harbour&amp;L3STinstance=Quantum of Solace.Conversation on Bond at the harbour.In French">
+        <Item Id="Quantum of Solace.Conversation on Bond at the harbour.In French" Name="Conversation on Bond at the harbour" Img="#110" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Conversation on Bond at the harbour&amp;L3STinstance=Quantum of Solace.Conversation on Bond at the harbour.In French">
             <Description>Elvis and henchman talk about Bond's purpose to get close to the gate in the harbour</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -7982,7 +8053,7 @@ And the wife and the aunt speak in English</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Quantum of Solace.Elvis on the phone.Unaware of Camille's presence" Name="Elvis on the phone" Img="#110" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Elvis on the phone&amp;L3STinstance=Quantum of Solace.Elvis on the phone.Unaware of Camille's presence">
+        <Item Id="Quantum of Solace.Elvis on the phone.Unaware of Camille's presence" Name="Elvis on the phone" Img="#111" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Elvis on the phone&amp;L3STinstance=Quantum of Solace.Elvis on the phone.Unaware of Camille's presence">
             <Description>Elvis is talking on the phone while Camille aproaches and gets in</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -8047,7 +8118,7 @@ And the wife and the aunt speak in English</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Quantum of Solace.French accent.Making arrangements" Name="Quantum of Solace.French accent" Img="#111" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.French accent&amp;L3STinstance=Quantum of Solace.French accent.Making arrangements">
+        <Item Id="Quantum of Solace.French accent.Making arrangements" Name="Quantum of Solace.French accent" Img="#112" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.French accent&amp;L3STinstance=Quantum of Solace.French accent.Making arrangements">
             <Description>Conversation between Mathis and Bond. Mathis has a strong French accent
  </Description>
             <Facets>
@@ -8119,7 +8190,7 @@ And the wife and the aunt speak in English</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Quantum of Solace.Gemma and Mathis.In Italian" Name="Quantum of Solace.Gemma and Mathis.In Italian" Img="#112" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Gemma and Mathis&amp;L3STinstance=Quantum of Solace.Gemma and Mathis.In Italian">
+        <Item Id="Quantum of Solace.Gemma and Mathis.In Italian" Name="Quantum of Solace.Gemma and Mathis.In Italian" Img="#113" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Gemma and Mathis&amp;L3STinstance=Quantum of Solace.Gemma and Mathis.In Italian">
             <Facets>
                 <Facet Name="Conversation duration (sec)">
                     <String Value="B. 21-40" />
@@ -8186,7 +8257,7 @@ And the wife and the aunt speak in English</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Quantum of Solace.General Medrano and his people.In Spanish" Name="Quantum of Solace.General Medrano and his people" Img="#113" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.General Medrano and his people&amp;L3STinstance=Quantum of Solace.General Medrano and his people.In Spanish">
+        <Item Id="Quantum of Solace.General Medrano and his people.In Spanish" Name="Quantum of Solace.General Medrano and his people" Img="#114" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.General Medrano and his people&amp;L3STinstance=Quantum of Solace.General Medrano and his people.In Spanish">
             <Description>The conversation is in Latin American Spanish
 </Description>
             <Facets>
@@ -8257,7 +8328,7 @@ And the wife and the aunt speak in English</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Quantum of Solace.General Medrano shouts.Spanish" Name="Quantum of Solace.General Medrano shouts" Img="#114" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.General Medrano shouts&amp;L3STinstance=Quantum of Solace.General Medrano shouts.Spanish">
+        <Item Id="Quantum of Solace.General Medrano shouts.Spanish" Name="Quantum of Solace.General Medrano shouts" Img="#115" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.General Medrano shouts&amp;L3STinstance=Quantum of Solace.General Medrano shouts.Spanish">
             <Description>General Medrano shouts "Siganlos"</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -8319,7 +8390,7 @@ And the wife and the aunt speak in English</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Quantum of Solace.James Bond meets Camille Montes.Spanish accent" Name="Quantum of Solace.James Bond meets Camille Montes" Img="#115" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.James Bond meets Camille Montes&amp;L3STinstance=Quantum of Solace.James Bond meets Camille Montes.Spanish accent">
+        <Item Id="Quantum of Solace.James Bond meets Camille Montes.Spanish accent" Name="Quantum of Solace.James Bond meets Camille Montes" Img="#116" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.James Bond meets Camille Montes&amp;L3STinstance=Quantum of Solace.James Bond meets Camille Montes.Spanish accent">
             <Description>James Bond asks for messages to the front door lady at the hotel</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -8393,7 +8464,7 @@ And the wife and the aunt speak in English</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Quantum of Solace.Mathis interprets taxi driver.Spanish into English" Name="Quantum of Solace.Mathis interprets taxi driver" Img="#116" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Mathis interprets taxi driver&amp;L3STinstance=Quantum of Solace.Mathis interprets taxi driver.Spanish into English">
+        <Item Id="Quantum of Solace.Mathis interprets taxi driver.Spanish into English" Name="Quantum of Solace.Mathis interprets taxi driver" Img="#117" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Mathis interprets taxi driver&amp;L3STinstance=Quantum of Solace.Mathis interprets taxi driver.Spanish into English">
             <Description>Mathis is on the phone while The taxi driver who takes him, Bond and agent Strawberry Fields is complaining about environmental issues, the government etc. Mathis acts as an interpreter for Bond
 </Description>
             <Facets>
@@ -8465,7 +8536,7 @@ And the wife and the aunt speak in English</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Quantum of Solace.Mathis on the phone in the taxi.In Spanish" Name="Quantum of Solace.Mathis on the phone in the taxi" Img="#117" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Mathis on the phone in the taxi&amp;L3STinstance=Quantum of Solace.Mathis on the phone in the taxi.In Spanish">
+        <Item Id="Quantum of Solace.Mathis on the phone in the taxi.In Spanish" Name="Quantum of Solace.Mathis on the phone in the taxi" Img="#118" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Mathis on the phone in the taxi&amp;L3STinstance=Quantum of Solace.Mathis on the phone in the taxi.In Spanish">
             <Description>Mathis is on the phone while The taxi driver who takes him, Bond and agent Strawberry Fields is complaining about environmental issues, the government etc.
 </Description>
             <Facets>
@@ -8531,7 +8602,7 @@ And the wife and the aunt speak in English</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Quantum of Solace.Opera.Lyrics" Name="Quantum of Solace.Opera.Lyrics" Img="#118" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Opera&amp;L3STinstance=Quantum of Solace.Opera.Lyrics">
+        <Item Id="Quantum of Solace.Opera.Lyrics" Name="Quantum of Solace.Opera.Lyrics" Img="#119" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Opera&amp;L3STinstance=Quantum of Solace.Opera.Lyrics">
             <Description>We can hear the opera, Tosca, interplaying with what we see</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -8599,7 +8670,7 @@ And the wife and the aunt speak in English</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Quantum of Solace.Opera.Sounkd" Name="Quantum of Solace.Opera.Sounkd" Img="#119" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Opera&amp;L3STinstance=Quantum of Solace.Opera.Sounkd">
+        <Item Id="Quantum of Solace.Opera.Sounkd" Name="Quantum of Solace.Opera.Sounkd" Img="#120" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Opera&amp;L3STinstance=Quantum of Solace.Opera.Sounkd">
             <Facets>
                 <Facet Name="Conversation duration (sec)">
                     <String Value="J. &gt; 180" />
@@ -8639,7 +8710,7 @@ And the wife and the aunt speak in English</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Quantum of Solace.Salutation in French.Welcome" Name="Salutation in French" Img="#120" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Salutation in French&amp;L3STinstance=Quantum of Solace.Salutation in French.Welcome">
+        <Item Id="Quantum of Solace.Salutation in French.Welcome" Name="Salutation in French" Img="#121" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Salutation in French&amp;L3STinstance=Quantum of Solace.Salutation in French.Welcome">
             <Description>Gregg Beam welcomes Dominic in the plane</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -8704,7 +8775,7 @@ And the wife and the aunt speak in English</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Quantum of Solace.Taxi driver.In Spanish" Name="Quantum of Solace.Taxi driver" Img="#121" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Taxi driver&amp;L3STinstance=Quantum of Solace.Taxi driver.In Spanish">
+        <Item Id="Quantum of Solace.Taxi driver.In Spanish" Name="Quantum of Solace.Taxi driver" Img="#122" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Taxi driver&amp;L3STinstance=Quantum of Solace.Taxi driver.In Spanish">
             <Description>The taxi driver who takes Bond, agent Strawberry Fields and Mathis to the hotel is complaining about environmental issues, the government etc.
 At the same time Mathis is on the phone</Description>
             <Facets>
@@ -8780,7 +8851,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Quantum of Solace.Towards the quarries.Towards the quarries Italian" Name="Quantum of Solace.Towards the quarries.Towards the quarries Italian" Img="#122" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Towards the quarries&amp;L3STinstance=Quantum of Solace.Towards the quarries.Towards the quarries Italian">
+        <Item Id="Quantum of Solace.Towards the quarries.Towards the quarries Italian" Name="Quantum of Solace.Towards the quarries.Towards the quarries Italian" Img="#123" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Towards the quarries&amp;L3STinstance=Quantum of Solace.Towards the quarries.Towards the quarries Italian">
             <Description>A policeman in Italy is talking on the car phone to ask for reinforcements</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -8848,7 +8919,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Quantum of Solace.Woman talking to herself.Monologue" Name="Quantum of Solace.Woman talking to herself" Img="#123" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Woman talking to herself&amp;L3STinstance=Quantum of Solace.Woman talking to herself.Monologue">
+        <Item Id="Quantum of Solace.Woman talking to herself.Monologue" Name="Quantum of Solace.Woman talking to herself" Img="#124" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Woman talking to herself&amp;L3STinstance=Quantum of Solace.Woman talking to herself.Monologue">
             <Description>Woman's basket drops and she is despair</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -8916,7 +8987,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Raid on Rommel.Signorina talking to a German Captain.Captain answering Signorina" Name="Signorina talking to a German Captain" Img="#124" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Raid on Rommel&amp;conversation=Raid on Rommel.Signorina talking to a German Captain&amp;L3STinstance=Raid on Rommel.Signorina talking to a German Captain.Captain answering Signorina">
+        <Item Id="Raid on Rommel.Signorina talking to a German Captain.Captain answering Signorina" Name="Signorina talking to a German Captain" Img="#125" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Raid on Rommel&amp;conversation=Raid on Rommel.Signorina talking to a German Captain&amp;L3STinstance=Raid on Rommel.Signorina talking to a German Captain.Captain answering Signorina">
             <Description>"Signorina" (the Italian mistress) asks a German captain why she is not leaving on a plane to Tobruk</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -8987,7 +9058,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Raid on Rommel.Signorina talking to a German Captain.Signorina Introduction" Name="Signorina talking to a German Captain - Signorina Introduction" Img="#125" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Raid on Rommel&amp;conversation=Raid on Rommel.Signorina talking to a German Captain&amp;L3STinstance=Raid on Rommel.Signorina talking to a German Captain.Signorina Introduction">
+        <Item Id="Raid on Rommel.Signorina talking to a German Captain.Signorina Introduction" Name="Signorina talking to a German Captain - Signorina Introduction" Img="#126" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Raid on Rommel&amp;conversation=Raid on Rommel.Signorina talking to a German Captain&amp;L3STinstance=Raid on Rommel.Signorina talking to a German Captain.Signorina Introduction">
             <Facets>
                 <Facet Name="Conversation duration (sec)">
                     <String Value="A. 1-20" />
@@ -9058,7 +9129,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Raid on Rommel.Signorina talking to a German Captain.Signorina replying again to the captain" Name="Raid on Rommel.Signorina talking to a German Captain.Signorina replying again to the captain" Img="#126">
+        <Item Id="Raid on Rommel.Signorina talking to a German Captain.Signorina replying again to the captain" Name="Raid on Rommel.Signorina talking to a German Captain.Signorina replying again to the captain" Img="#127">
             <Facets>
                 <Facet Name="Conversation Reference Id">
                     <String Value="Raid on Rommel.Signorina talking to a German Captain" />
@@ -9080,7 +9151,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Raid on Rommel.Signorina talking to a German Captain.Speaking English and Italian" Name="Signorina talking to a German Captain" Img="#127" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Raid on Rommel&amp;conversation=Raid on Rommel.Signorina talking to a German Captain&amp;L3STinstance=Raid on Rommel.Signorina talking to a German Captain.Speaking English and Italian">
+        <Item Id="Raid on Rommel.Signorina talking to a German Captain.Speaking English and Italian" Name="Signorina talking to a German Captain" Img="#128" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Raid on Rommel&amp;conversation=Raid on Rommel.Signorina talking to a German Captain&amp;L3STinstance=Raid on Rommel.Signorina talking to a German Captain.Speaking English and Italian">
             <Description>"Signorina" (the Italian mistress) asks a German captain why she is not leaving on a plane to Tobruk</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -9151,7 +9222,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Slumdog Millionaire.Arrival at the orphanage.Hindi" Name="Arrival at the orphanage" Img="#128" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Slumdog Millionaire&amp;conversation=Slumdog Millionaire.Arrival at the orphanage&amp;L3STinstance=Slumdog Millionaire.Arrival at the orphanage.Hindi">
+        <Item Id="Slumdog Millionaire.Arrival at the orphanage.Hindi" Name="Arrival at the orphanage" Img="#129" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Slumdog Millionaire&amp;conversation=Slumdog Millionaire.Arrival at the orphanage&amp;L3STinstance=Slumdog Millionaire.Arrival at the orphanage.Hindi">
             <Description>Different kids discuss on the life at the orphanage</Description>
             <Facets>
                 <Facet Name="Conversation features for L3ST-instance">
@@ -9211,7 +9282,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Slumdog Millionaire.Brothers conversation in the train.Hindi" Name="Brothers conversation in the train" Img="#129" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Slumdog Millionaire&amp;conversation=Slumdog Millionaire.Brothers conversation in the train&amp;L3STinstance=Slumdog Millionaire.Brothers conversation in the train.Hindi">
+        <Item Id="Slumdog Millionaire.Brothers conversation in the train.Hindi" Name="Brothers conversation in the train" Img="#130" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Slumdog Millionaire&amp;conversation=Slumdog Millionaire.Brothers conversation in the train&amp;L3STinstance=Slumdog Millionaire.Brothers conversation in the train.Hindi">
             <Description>The two brothers are discussing whether Latika can get onto the train</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -9276,7 +9347,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Spanglish.At the summer place - an interpreter.Man speaks Spanish to Flor and English to Deborah" Name="At the summer place - an interpreter. Man speaks Spanish to Flor and English to Deborah" Img="#130" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Spanglish&amp;conversation=Spanglish.At the summer place - an interpreter&amp;L3STinstance=Spanglish.At the summer place - an interpreter.Man speaks Spanish to Flor and English to Deborah">
+        <Item Id="Spanglish.At the summer place - an interpreter.Man speaks Spanish to Flor and English to Deborah" Name="At the summer place - an interpreter. Man speaks Spanish to Flor and English to Deborah" Img="#131" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Spanglish&amp;conversation=Spanglish.At the summer place - an interpreter&amp;L3STinstance=Spanglish.At the summer place - an interpreter.Man speaks Spanish to Flor and English to Deborah">
             <Description>Flor, Deborah and Evelyn are walking in the street. Deborah wants to ask Flor if she would like to move with them to the summer house and live with them, but as they don't speak the same language, DEborah cannot communicate with her until she sees a Hispanic man washinng somebody's car. She asks him if he speaks English and if he could translate for her.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -9349,7 +9420,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Spanglish.At the summer place - an interpreter.Speaking Spanish" Name="At the summer place - an interpreter. Speaking Spanish" Img="#131" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Spanglish&amp;conversation=Spanglish.At the summer place - an interpreter&amp;L3STinstance=Spanglish.At the summer place - an interpreter.Speaking Spanish">
+        <Item Id="Spanglish.At the summer place - an interpreter.Speaking Spanish" Name="At the summer place - an interpreter. Speaking Spanish" Img="#132" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Spanglish&amp;conversation=Spanglish.At the summer place - an interpreter&amp;L3STinstance=Spanglish.At the summer place - an interpreter.Speaking Spanish">
             <Facets>
                 <Facet Name="Conversation duration (sec)">
                     <String Value="A. 1-20" />
@@ -9384,7 +9455,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Spanglish.Flor and Cristina at the restaurant.Flor speaking Spanish and Cristina translating Spanish into English" Name="Flor and Cristina at the restaurant. Flor speaking Spanish and Cristina translating Spanish into English" Img="#132" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Spanglish&amp;conversation=Spanglish.Flor and Cristina at the restaurant&amp;L3STinstance=Spanglish.Flor and Cristina at the restaurant.Flor speaking Spanish and Cristina translating Spanish into English">
+        <Item Id="Spanglish.Flor and Cristina at the restaurant.Flor speaking Spanish and Cristina translating Spanish into English" Name="Flor and Cristina at the restaurant. Flor speaking Spanish and Cristina translating Spanish into English" Img="#133" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Spanglish&amp;conversation=Spanglish.Flor and Cristina at the restaurant&amp;L3STinstance=Spanglish.Flor and Cristina at the restaurant.Flor speaking Spanish and Cristina translating Spanish into English">
             <Description>Flor and her daughter go and have dinner to celebrate that she has found a job. When they enter the restaurant Cristina addresses a waitress to ask for a table. As Flor does not speak any English, when she wants to add or say something she tells Cristina to translate for her.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -9464,7 +9535,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Spanglish.Introduction to the Clasky's family.Deborah and Evelyn speaking English. Monica Speaking Spanish." Name="Introduction to the Clasky's family" Img="#133" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Spanglish&amp;conversation=Spanglish.Introduction to the Clasky's family&amp;L3STinstance=Spanglish.Introduction to the Clasky's family.Deborah and Evelyn speaking English. Monica Speaking Spanish.">
+        <Item Id="Spanglish.Introduction to the Clasky's family.Deborah and Evelyn speaking English. Monica Speaking Spanish." Name="Introduction to the Clasky's family" Img="#134" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Spanglish&amp;conversation=Spanglish.Introduction to the Clasky's family&amp;L3STinstance=Spanglish.Introduction to the Clasky's family.Deborah and Evelyn speaking English. Monica Speaking Spanish.">
             <Description>Flor and her cousin Monica are at the Clasky's house for the first time. Flor is being interviewed by Deborah Clasky. As Flor does not speak English, Monica is trying to translate for her although she does not speak perfect English.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -9546,7 +9617,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="The Voices.Becoming a killer.Line between good and evil" Name="The Voices.Becoming a killer" Img="#134" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=The Voices&amp;conversation=The Voices.Becoming a killer&amp;L3STinstance=The Voices.Becoming a killer.Line between good and evil">
+        <Item Id="The Voices.Becoming a killer.Line between good and evil" Name="The Voices.Becoming a killer" Img="#135" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=The Voices&amp;conversation=The Voices.Becoming a killer&amp;L3STinstance=The Voices.Becoming a killer.Line between good and evil">
             <Facets>
                 <Facet Name="Conversation duration (sec)">
                     <String Value="E. 81-100" />
@@ -9614,7 +9685,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="The Voices.Becoming a killer.Welcome to my world" Name="The Voices.Becoming a killer.Welcome to my world" Img="#135" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=The Voices&amp;conversation=The Voices.Becoming a killer&amp;L3STinstance=The Voices.Becoming a killer.Welcome to my world">
+        <Item Id="The Voices.Becoming a killer.Welcome to my world" Name="The Voices.Becoming a killer.Welcome to my world" Img="#136" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=The Voices&amp;conversation=The Voices.Becoming a killer&amp;L3STinstance=The Voices.Becoming a killer.Welcome to my world">
             <Facets>
                 <Facet Name="Conversation duration (sec)">
                     <String Value="E. 81-100" />
@@ -9683,7 +9754,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheReturnOfTheKing.Aragorn is crowned king.Aragorn sings a song as king" Name="Aragorn is crowned king" Img="#136" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheReturnOfTheKing&amp;conversation=TheReturnOfTheKing.Aragorn is crowned king&amp;L3STinstance=TheReturnOfTheKing.Aragorn is crowned king.Aragorn sings a song as king">
+        <Item Id="TheReturnOfTheKing.Aragorn is crowned king.Aragorn sings a song as king" Name="Aragorn is crowned king" Img="#137" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheReturnOfTheKing&amp;conversation=TheReturnOfTheKing.Aragorn is crowned king&amp;L3STinstance=TheReturnOfTheKing.Aragorn is crowned king.Aragorn sings a song as king">
             <Description>During the coronation, Aragorn sings a song in Elvish.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -9760,7 +9831,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheReturnOfTheKing.Aragorn receives Anduril.Elrond and Aragorn speak in Dunharrow" Name="Aragorn receives Anduril" Img="#137" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheReturnOfTheKing&amp;conversation=TheReturnOfTheKing.Aragorn receives Anduril&amp;L3STinstance=TheReturnOfTheKing.Aragorn receives Anduril.Elrond and Aragorn speak in Dunharrow">
+        <Item Id="TheReturnOfTheKing.Aragorn receives Anduril.Elrond and Aragorn speak in Dunharrow" Name="Aragorn receives Anduril" Img="#138" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheReturnOfTheKing&amp;conversation=TheReturnOfTheKing.Aragorn receives Anduril&amp;L3STinstance=TheReturnOfTheKing.Aragorn receives Anduril.Elrond and Aragorn speak in Dunharrow">
             <Description>In Dunharrow, Elrond brings the sword Anduril to Aragorn. </Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -9831,7 +9902,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheReturnOfTheKing.Aragorn salutes Legolas.Elvish welcome" Name="Aragorn salutes Legolas" Img="#138" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheReturnOfTheKing&amp;conversation=TheReturnOfTheKing.Aragorn salutes Legolas&amp;L3STinstance=TheReturnOfTheKing.Aragorn salutes Legolas.Elvish welcome">
+        <Item Id="TheReturnOfTheKing.Aragorn salutes Legolas.Elvish welcome" Name="Aragorn salutes Legolas" Img="#139" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheReturnOfTheKing&amp;conversation=TheReturnOfTheKing.Aragorn salutes Legolas&amp;L3STinstance=TheReturnOfTheKing.Aragorn salutes Legolas.Elvish welcome">
             <Description>During the coronation, Aragorn welcomes Legolas in Elvish. </Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -9905,7 +9976,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheReturnOfTheKing.Elrond's farewell.Elvish farewell" Name="Elrond's farewell" Img="#139" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheReturnOfTheKing&amp;conversation=TheReturnOfTheKing.Elrond's farewell&amp;L3STinstance=TheReturnOfTheKing.Elrond's farewell.Elvish farewell">
+        <Item Id="TheReturnOfTheKing.Elrond's farewell.Elvish farewell" Name="Elrond's farewell" Img="#140" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheReturnOfTheKing&amp;conversation=TheReturnOfTheKing.Elrond's farewell&amp;L3STinstance=TheReturnOfTheKing.Elrond's farewell.Elvish farewell">
             <Description>In the Grey Havens, Elrond says a final line in Elvish. </Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -9979,7 +10050,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheReturnOfTheKing.Éowyn salutes Aragorn.Éowyn salutes in Old Englosh" Name="Éowyn salutes Aragorn" Img="#140" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheReturnOfTheKing&amp;conversation=TheReturnOfTheKing.Éowyn salutes Aragorn&amp;L3STinstance=TheReturnOfTheKing.Éowyn salutes Aragorn.Éowyn salutes in Old Englosh">
+        <Item Id="TheReturnOfTheKing.Éowyn salutes Aragorn.Éowyn salutes in Old Englosh" Name="Éowyn salutes Aragorn" Img="#141" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheReturnOfTheKing&amp;conversation=TheReturnOfTheKing.Éowyn salutes Aragorn&amp;L3STinstance=TheReturnOfTheKing.Éowyn salutes Aragorn.Éowyn salutes in Old Englosh">
             <Description>In Edoras, during the celebration of the victory at Helm's Deep, Éowyn speaks to Aragorn. </Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -10053,7 +10124,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers.Aragorn_Arwen_Evenstar.About_their_bond" Name="Aragorn - Arwen, Evenstar" Img="#141" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Aragorn_Arwen_Evenstar&amp;L3STinstance=TheTwoTowers.Aragorn_Arwen_Evenstar.About_their_bond">
+        <Item Id="TheTwoTowers.Aragorn_Arwen_Evenstar.About_their_bond" Name="Aragorn - Arwen, Evenstar" Img="#142" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Aragorn_Arwen_Evenstar&amp;L3STinstance=TheTwoTowers.Aragorn_Arwen_Evenstar.About_their_bond">
             <Description>Aragorn remembers a scene with Arwen. </Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -10128,7 +10199,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers.Aragorn_Arwen_Evenstar3.Elrond_speaking" Name="Aragorn, Arwen, Evenstar3" Img="#142" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Aragorn_Arwen_Evenstar3&amp;L3STinstance=TheTwoTowers.Aragorn_Arwen_Evenstar3.Elrond_speaking">
+        <Item Id="TheTwoTowers.Aragorn_Arwen_Evenstar3.Elrond_speaking" Name="Aragorn, Arwen, Evenstar3" Img="#143" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Aragorn_Arwen_Evenstar3&amp;L3STinstance=TheTwoTowers.Aragorn_Arwen_Evenstar3.Elrond_speaking">
             <Description>Arwen decides to stay in Middle-Earth and become a mortal. She argues with her father about that. </Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -10199,7 +10270,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers.Aragorn_Arwen_Evenstar_2.Argument" Name="Aragorn - Arwen, Evenstar 2" Img="#143" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Aragorn_Arwen_Evenstar_2&amp;L3STinstance=TheTwoTowers.Aragorn_Arwen_Evenstar_2.Argument">
+        <Item Id="TheTwoTowers.Aragorn_Arwen_Evenstar_2.Argument" Name="Aragorn - Arwen, Evenstar 2" Img="#144" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Aragorn_Arwen_Evenstar_2&amp;L3STinstance=TheTwoTowers.Aragorn_Arwen_Evenstar_2.Argument">
             <Description>Aragorn urges Arwen to leave Middle-Earth with her people and forget him.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -10275,7 +10346,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers.Aragorn_Brego.Aragorn_tames_Brego" Name="Aragorn - Brego" Img="#144" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Aragorn_Brego&amp;L3STinstance=TheTwoTowers.Aragorn_Brego.Aragorn_tames_Brego">
+        <Item Id="TheTwoTowers.Aragorn_Brego.Aragorn_tames_Brego" Name="Aragorn - Brego" Img="#145" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Aragorn_Brego&amp;L3STinstance=TheTwoTowers.Aragorn_Brego.Aragorn_tames_Brego">
             <Description>Aragorn tames his future horse, Brego, by using Elvish words.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -10350,7 +10421,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers.Aragorn_Brego2.Thanking_in_Elvish" Name="Aragorn, Brego2" Img="#145" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Aragorn_Brego2&amp;L3STinstance=TheTwoTowers.Aragorn_Brego2.Thanking_in_Elvish">
+        <Item Id="TheTwoTowers.Aragorn_Brego2.Thanking_in_Elvish" Name="Aragorn, Brego2" Img="#146" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Aragorn_Brego2&amp;L3STinstance=TheTwoTowers.Aragorn_Brego2.Thanking_in_Elvish">
             <Description>Aragorn thanks his horse for bringing him to Helm's Deep.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -10421,7 +10492,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers.Aragorn_Legolas_Helm'sDeep.Aragorn_thanks" Name="Aragorn, Legolas, Helm'sDeep" Img="#146" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Aragorn_Legolas_Helm'sDeep&amp;L3STinstance=TheTwoTowers.Aragorn_Legolas_Helm'sDeep.Aragorn_thanks">
+        <Item Id="TheTwoTowers.Aragorn_Legolas_Helm'sDeep.Aragorn_thanks" Name="Aragorn, Legolas, Helm'sDeep" Img="#147" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Aragorn_Legolas_Helm'sDeep&amp;L3STinstance=TheTwoTowers.Aragorn_Legolas_Helm'sDeep.Aragorn_thanks">
             <Description>Legolas gives a sarcastic opinion on Aragorn's looks when the latter reaches Helm's Deep (Aragorn was meant to be dead). Legolas gives him the Evenstar pendant back.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -10492,7 +10563,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers.Aragorn_Legolas_Helm'sDeep.Legolas_opinion" Name="Aragorn, Legolas, Helm'sDeep" Img="#147" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Aragorn_Legolas_Helm'sDeep&amp;L3STinstance=TheTwoTowers.Aragorn_Legolas_Helm'sDeep.Legolas_opinion">
+        <Item Id="TheTwoTowers.Aragorn_Legolas_Helm'sDeep.Legolas_opinion" Name="Aragorn, Legolas, Helm'sDeep" Img="#148" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Aragorn_Legolas_Helm'sDeep&amp;L3STinstance=TheTwoTowers.Aragorn_Legolas_Helm'sDeep.Legolas_opinion">
             <Description>Legolas gives a sarcastic opinion on Aragorn's looks when the latter reaches Helm's Deep (Aragorn was meant to be dead). Legolas gives him the Evenstar pendant back.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -10568,7 +10639,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers.Galadriel_on_the_future.Monologue" Name="Galadriel, on, the, future" Img="#148" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Galadriel_on_the_future&amp;L3STinstance=TheTwoTowers.Galadriel_on_the_future.Monologue">
+        <Item Id="TheTwoTowers.Galadriel_on_the_future.Monologue" Name="Galadriel, on, the, future" Img="#149" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Galadriel_on_the_future&amp;L3STinstance=TheTwoTowers.Galadriel_on_the_future.Monologue">
             <Description>Monologue by Galadriel concerning the future of Middle Earth.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -10645,7 +10716,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers.Gandalf_returns.Legolas-Aragorn_Fangorn" Name="Gandalf returns" Img="#149" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Gandalf_returns&amp;L3STinstance=TheTwoTowers.Gandalf_returns.Legolas-Aragorn_Fangorn">
+        <Item Id="TheTwoTowers.Gandalf_returns.Legolas-Aragorn_Fangorn" Name="Gandalf returns" Img="#150" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Gandalf_returns&amp;L3STinstance=TheTwoTowers.Gandalf_returns.Legolas-Aragorn_Fangorn">
             <Description>Aragorn, Gimli and Legolas enter the Fangorn forest looking for the White wizard.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -10720,7 +10791,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers.Helm's Deep Battle 2.Aragorn's instruction 2" Name="Helm's Deep Battle 2" Img="#150" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Helm's Deep Battle 2&amp;L3STinstance=TheTwoTowers.Helm's Deep Battle 2.Aragorn's instruction 2">
+        <Item Id="TheTwoTowers.Helm's Deep Battle 2.Aragorn's instruction 2" Name="Helm's Deep Battle 2" Img="#151" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Helm's Deep Battle 2&amp;L3STinstance=TheTwoTowers.Helm's Deep Battle 2.Aragorn's instruction 2">
             <Description>During the battle of Helm's Deep, Aragorn gives more orders in Elvish. </Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -10791,7 +10862,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers.Helm's Deep Battle 3.Aragorn's instructions 3" Name="TheTwoTowers.Helm's Deep Battle 3" Img="#151" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Helm's Deep Battle 3&amp;L3STinstance=TheTwoTowers.Helm's Deep Battle 3.Aragorn's instructions 3">
+        <Item Id="TheTwoTowers.Helm's Deep Battle 3.Aragorn's instructions 3" Name="TheTwoTowers.Helm's Deep Battle 3" Img="#152" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Helm's Deep Battle 3&amp;L3STinstance=TheTwoTowers.Helm's Deep Battle 3.Aragorn's instructions 3">
             <Description>As the battle continues, Aragorn keeps on giving orders in Elvish.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -10862,7 +10933,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers.Helm's Deep Battle 4.Aragorn's instructions 4" Name="Helm's Deep Battle 4" Img="#152" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Helm's Deep Battle 4&amp;L3STinstance=TheTwoTowers.Helm's Deep Battle 4.Aragorn's instructions 4">
+        <Item Id="TheTwoTowers.Helm's Deep Battle 4.Aragorn's instructions 4" Name="Helm's Deep Battle 4" Img="#153" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Helm's Deep Battle 4&amp;L3STinstance=TheTwoTowers.Helm's Deep Battle 4.Aragorn's instructions 4">
             <Description>Aragorn calls for retreat to the keep in the batlle of Helm's Deep.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -10933,7 +11004,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers.Helm's Deep Battle.Aragorn's instruction" Name="Helm's Deep Battle" Img="#153" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Helm's Deep Battle&amp;L3STinstance=TheTwoTowers.Helm's Deep Battle.Aragorn's instruction">
+        <Item Id="TheTwoTowers.Helm's Deep Battle.Aragorn's instruction" Name="Helm's Deep Battle" Img="#154" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Helm's Deep Battle&amp;L3STinstance=TheTwoTowers.Helm's Deep Battle.Aragorn's instruction">
             <Description>During the battle of Helm's Deep, Aragorn commands the troops by giving them orders in Elvish. </Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -11004,7 +11075,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers.Hobbit_mourning.Legolas_praying" Name="Hobbit mourning" Img="#154" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Hobbit_mourning&amp;L3STinstance=TheTwoTowers.Hobbit_mourning.Legolas_praying">
+        <Item Id="TheTwoTowers.Hobbit_mourning.Legolas_praying" Name="Hobbit mourning" Img="#155" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Hobbit_mourning&amp;L3STinstance=TheTwoTowers.Hobbit_mourning.Legolas_praying">
             <Description>Thinking Pippin and Merry dead, Legolas prays for the hobbits in Elvish.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -11079,7 +11150,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers.Preparing for Helm's Deep battle 2.Legolas apologizes" Name="Preparing for Helm's Deep battle 2" Img="#155" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Preparing for Helm's Deep battle 2&amp;L3STinstance=TheTwoTowers.Preparing for Helm's Deep battle 2.Legolas apologizes">
+        <Item Id="TheTwoTowers.Preparing for Helm's Deep battle 2.Legolas apologizes" Name="Preparing for Helm's Deep battle 2" Img="#156" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Preparing for Helm's Deep battle 2&amp;L3STinstance=TheTwoTowers.Preparing for Helm's Deep battle 2.Legolas apologizes">
             <Description>Legolas apologizes to Aragorn about their previous conversation on the defense of Helm's Deep.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -11150,7 +11221,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers.Preparing for Helm's Deep battle.Discussing the chances" Name="Preparing for Helm's Deep battle" Img="#156" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Preparing for Helm's Deep battle&amp;L3STinstance=TheTwoTowers.Preparing for Helm's Deep battle.Discussing the chances">
+        <Item Id="TheTwoTowers.Preparing for Helm's Deep battle.Discussing the chances" Name="Preparing for Helm's Deep battle" Img="#157" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Preparing for Helm's Deep battle&amp;L3STinstance=TheTwoTowers.Preparing for Helm's Deep battle.Discussing the chances">
             <Description>Aragorn, Legolas and Gimli discuss the little chances of victory in the battle of Helm's Deep.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -11225,7 +11296,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers.Theodred_funeral.Gandalf_words" Name="Theodred funeral" Img="#157" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Theodred_funeral&amp;L3STinstance=TheTwoTowers.Theodred_funeral.Gandalf_words">
+        <Item Id="TheTwoTowers.Theodred_funeral.Gandalf_words" Name="Theodred funeral" Img="#158" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Theodred_funeral&amp;L3STinstance=TheTwoTowers.Theodred_funeral.Gandalf_words">
             <Description>Theodred is buried following Rohan customs.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -11303,7 +11374,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheTwoTowers.Theodred_funeral.Éowyn_song" Name="Theodred funeral - Éowyn song" Img="#158" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Theodred_funeral&amp;L3STinstance=TheTwoTowers.Theodred_funeral.Éowyn_song">
+        <Item Id="TheTwoTowers.Theodred_funeral.Éowyn_song" Name="Theodred funeral - Éowyn song" Img="#159" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheTwoTowers&amp;conversation=TheTwoTowers.Theodred_funeral&amp;L3STinstance=TheTwoTowers.Theodred_funeral.Éowyn_song">
             <Description>Theodred is buried following Rohan customs.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -11383,7 +11454,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheWalk.GettingAnInterphone.Branqueurs de banques" Name="TheWalk.GettingAnInterphone.Branqueurs de banques" Img="#159" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk&amp;conversation=TheWalk.GettingAnInterphone&amp;L3STinstance=TheWalk.GettingAnInterphone.Branqueurs de banques">
+        <Item Id="TheWalk.GettingAnInterphone.Branqueurs de banques" Name="TheWalk.GettingAnInterphone.Branqueurs de banques" Img="#160" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk&amp;conversation=TheWalk.GettingAnInterphone&amp;L3STinstance=TheWalk.GettingAnInterphone.Branqueurs de banques">
             <Facets>
                 <Facet Name="Conversation duration (sec)">
                     <String Value="D. 61-80" />
@@ -11450,7 +11521,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheWalk.GettingAnInterphone.Les mecs" Name="TheWalk.GettingAnInterphone.Les mecs" Img="#160" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk&amp;conversation=TheWalk.GettingAnInterphone&amp;L3STinstance=TheWalk.GettingAnInterphone.Les mecs">
+        <Item Id="TheWalk.GettingAnInterphone.Les mecs" Name="TheWalk.GettingAnInterphone.Les mecs" Img="#161" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk&amp;conversation=TheWalk.GettingAnInterphone&amp;L3STinstance=TheWalk.GettingAnInterphone.Les mecs">
             <Facets>
                 <Facet Name="Conversation duration (sec)">
                     <String Value="D. 61-80" />
@@ -11517,7 +11588,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheWalk.GettingAnInterphone.Talkie walkie" Name="Getting an interphone" Img="#161" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk&amp;conversation=TheWalk.GettingAnInterphone&amp;L3STinstance=TheWalk.GettingAnInterphone.Talkie walkie">
+        <Item Id="TheWalk.GettingAnInterphone.Talkie walkie" Name="Getting an interphone" Img="#162" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk&amp;conversation=TheWalk.GettingAnInterphone&amp;L3STinstance=TheWalk.GettingAnInterphone.Talkie walkie">
             <Facets>
                 <Facet Name="Conversation duration (sec)">
                     <String Value="D. 61-80" />
@@ -11588,7 +11659,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheWalk.MeetingAnnie.High wire" Name="TheWalk.MeetingAnnie.High wire" Img="#162" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingAnnie&amp;L3STinstance=TheWalk.MeetingAnnie.High wire">
+        <Item Id="TheWalk.MeetingAnnie.High wire" Name="TheWalk.MeetingAnnie.High wire" Img="#163" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingAnnie&amp;L3STinstance=TheWalk.MeetingAnnie.High wire">
             <Facets>
                 <Facet Name="Conversation duration (sec)">
                     <String Value="E. 81-100" />
@@ -11661,7 +11732,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheWalk.MeetingAnnie.Mime" Name="TheWalk.MeetingAnnie.Mime" Img="#163" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingAnnie&amp;L3STinstance=TheWalk.MeetingAnnie.Mime">
+        <Item Id="TheWalk.MeetingAnnie.Mime" Name="TheWalk.MeetingAnnie.Mime" Img="#164" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingAnnie&amp;L3STinstance=TheWalk.MeetingAnnie.Mime">
             <Facets>
                 <Facet Name="Conversation duration (sec)">
                     <String Value="E. 81-100" />
@@ -11725,7 +11796,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheWalk.MeetingAnnie.Texans" Name="TheWalk.MeetingAnnie.Texans" Img="#164" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingAnnie&amp;L3STinstance=TheWalk.MeetingAnnie.Texans">
+        <Item Id="TheWalk.MeetingAnnie.Texans" Name="TheWalk.MeetingAnnie.Texans" Img="#165" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingAnnie&amp;L3STinstance=TheWalk.MeetingAnnie.Texans">
             <Facets>
                 <Facet Name="Conversation duration (sec)">
                     <String Value="E. 81-100" />
@@ -11793,7 +11864,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheWalk.MeetingPapaRudy.Czech" Name="Meeting Papa Rudy. Czech" Img="#165" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingPapaRudy&amp;L3STinstance=TheWalk.MeetingPapaRudy.Czech">
+        <Item Id="TheWalk.MeetingPapaRudy.Czech" Name="Meeting Papa Rudy. Czech" Img="#166" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingPapaRudy&amp;L3STinstance=TheWalk.MeetingPapaRudy.Czech">
             <Facets>
                 <Facet Name="Conversation duration (sec)">
                     <String Value="F. 101-120" />
@@ -11860,7 +11931,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheWalk.MeetingPapaRudy.French" Name="Meeting Papa Rudy. French" Img="#166" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingPapaRudy&amp;L3STinstance=TheWalk.MeetingPapaRudy.French">
+        <Item Id="TheWalk.MeetingPapaRudy.French" Name="Meeting Papa Rudy. French" Img="#167" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingPapaRudy&amp;L3STinstance=TheWalk.MeetingPapaRudy.French">
             <Facets>
                 <Facet Name="Conversation duration (sec)">
                     <String Value="F. 101-120" />
@@ -11924,7 +11995,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheWalk.MeetingPapaRudy.French2" Name="Meeting Papa Rudy. French2" Img="#167" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingPapaRudy&amp;L3STinstance=TheWalk.MeetingPapaRudy.French2">
+        <Item Id="TheWalk.MeetingPapaRudy.French2" Name="Meeting Papa Rudy. French2" Img="#168" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingPapaRudy&amp;L3STinstance=TheWalk.MeetingPapaRudy.French2">
             <Facets>
                 <Facet Name="Conversation duration (sec)">
                     <String Value="F. 101-120" />
@@ -11988,7 +12059,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheWalk.MeetingPapaRudy.French3" Name="MeetingPapaRudy - French 3" Img="#168" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingPapaRudy&amp;L3STinstance=TheWalk.MeetingPapaRudy.French3">
+        <Item Id="TheWalk.MeetingPapaRudy.French3" Name="MeetingPapaRudy - French 3" Img="#169" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk&amp;conversation=TheWalk.MeetingPapaRudy&amp;L3STinstance=TheWalk.MeetingPapaRudy.French3">
             <Facets>
                 <Facet Name="Conversation duration (sec)">
                     <String Value="F. 101-120" />
@@ -12052,7 +12123,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="TheWalk.OnTheRoof.Czech" Name="OnTheRoof - Czech" Img="#169" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk&amp;conversation=TheWalk.OnTheRoof&amp;L3STinstance=TheWalk.OnTheRoof.Czech">
+        <Item Id="TheWalk.OnTheRoof.Czech" Name="OnTheRoof - Czech" Img="#170" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=TheWalk&amp;conversation=TheWalk.OnTheRoof&amp;L3STinstance=TheWalk.OnTheRoof.Czech">
             <Facets>
                 <Facet Name="Conversation duration (sec)">
                     <String Value="D. 61-80" />
@@ -12086,7 +12157,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="ToyStory3.Buzzdances.Venga conmigo, señorita" Name="Venga conmigo, señorita" Img="#170" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzdances&amp;L3STinstance=ToyStory3.Buzzdances.Venga conmigo, señorita">
+        <Item Id="ToyStory3.Buzzdances.Venga conmigo, señorita" Name="Venga conmigo, señorita" Img="#171" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzdances&amp;L3STinstance=ToyStory3.Buzzdances.Venga conmigo, señorita">
             <Facets>
                 <Facet Name="Conversation duration (sec)">
                     <String Value="A. 1-20" />
@@ -12159,7 +12230,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="ToyStory3.Buzzfallsinlove.Mi florecilla del desierto" Name="Buzz falls in love" Img="#171" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzfallsinlove&amp;L3STinstance=ToyStory3.Buzzfallsinlove.Mi florecilla del desierto">
+        <Item Id="ToyStory3.Buzzfallsinlove.Mi florecilla del desierto" Name="Buzz falls in love" Img="#172" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzfallsinlove&amp;L3STinstance=ToyStory3.Buzzfallsinlove.Mi florecilla del desierto">
             <Facets>
                 <Facet Name="Conversation duration (sec)">
                     <String Value="A. 1-20" />
@@ -12232,7 +12303,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="ToyStory3.Buzzgetsreset.Amigo o enemigo" Name="Buzz gets reset" Img="#172" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzgetsreset&amp;L3STinstance=ToyStory3.Buzzgetsreset.Amigo o enemigo">
+        <Item Id="ToyStory3.Buzzgetsreset.Amigo o enemigo" Name="Buzz gets reset" Img="#173" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzgetsreset&amp;L3STinstance=ToyStory3.Buzzgetsreset.Amigo o enemigo">
             <Facets>
                 <Facet Name="Conversation duration (sec)">
                     <String Value="B. 21-40" />
@@ -12299,7 +12370,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="ToyStory3.Buzzgetsreset.El Buzzo" Name="ToyStory3.Buzzgetsreset.El Buzzo" Img="#173" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzgetsreset&amp;L3STinstance=ToyStory3.Buzzgetsreset.El Buzzo">
+        <Item Id="ToyStory3.Buzzgetsreset.El Buzzo" Name="ToyStory3.Buzzgetsreset.El Buzzo" Img="#174" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzgetsreset&amp;L3STinstance=ToyStory3.Buzzgetsreset.El Buzzo">
             <Facets>
                 <Facet Name="Conversation duration (sec)">
                     <String Value="B. 21-40" />
@@ -12369,7 +12440,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="ToyStory3.Buzzgetsreset.Excelente" Name="ToyStory3.Buzzgetsreset.Excelente" Img="#174" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzgetsreset&amp;L3STinstance=ToyStory3.Buzzgetsreset.Excelente">
+        <Item Id="ToyStory3.Buzzgetsreset.Excelente" Name="ToyStory3.Buzzgetsreset.Excelente" Img="#175" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzgetsreset&amp;L3STinstance=ToyStory3.Buzzgetsreset.Excelente">
             <Facets>
                 <Facet Name="Conversation duration (sec)">
                     <String Value="B. 21-40" />
@@ -12436,7 +12507,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="ToyStory3.Buzzgetsreset.Han visto mi nave" Name="ToyStory3.Buzzgetsreset.Han visto mi nave" Img="#175" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzgetsreset&amp;L3STinstance=ToyStory3.Buzzgetsreset.Han visto mi nave">
+        <Item Id="ToyStory3.Buzzgetsreset.Han visto mi nave" Name="ToyStory3.Buzzgetsreset.Han visto mi nave" Img="#176" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzgetsreset&amp;L3STinstance=ToyStory3.Buzzgetsreset.Han visto mi nave">
             <Description>Hamm mentions explicitly that it doesn't understand Spanish.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -12504,7 +12575,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="ToyStory3.Buzzgetsreset.We're all amigos" Name="ToyStory3.Buzzgetsreset.We're all amigos" Img="#176" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzgetsreset&amp;L3STinstance=ToyStory3.Buzzgetsreset.We're all amigos">
+        <Item Id="ToyStory3.Buzzgetsreset.We're all amigos" Name="ToyStory3.Buzzgetsreset.We're all amigos" Img="#177" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzgetsreset&amp;L3STinstance=ToyStory3.Buzzgetsreset.We're all amigos">
             <Facets>
                 <Facet Name="Conversation duration (sec)">
                     <String Value="B. 21-40" />
@@ -12571,7 +12642,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="ToyStory3.BuzzlooksforJessie.Señorita" Name="ToyStory3.BuzzlooksforJessie.Señorita" Img="#177" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=ToyStory3&amp;conversation=ToyStory3.BuzzlooksforJessie&amp;L3STinstance=ToyStory3.BuzzlooksforJessie.Señorita">
+        <Item Id="ToyStory3.BuzzlooksforJessie.Señorita" Name="ToyStory3.BuzzlooksforJessie.Señorita" Img="#178" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=ToyStory3&amp;conversation=ToyStory3.BuzzlooksforJessie&amp;L3STinstance=ToyStory3.BuzzlooksforJessie.Señorita">
             <Facets>
                 <Facet Name="Conversation duration (sec)">
                     <String Value="A. 1-20" />
@@ -12642,7 +12713,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="ToyStory3.Buzzopensgate.Buzz Lightyear al rescate" Name="ToyStory3.Buzzopensgate.Buzz Lightyear al rescate" Img="#178" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzopensgate&amp;L3STinstance=ToyStory3.Buzzopensgate.Buzz Lightyear al rescate">
+        <Item Id="ToyStory3.Buzzopensgate.Buzz Lightyear al rescate" Name="ToyStory3.Buzzopensgate.Buzz Lightyear al rescate" Img="#179" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzopensgate&amp;L3STinstance=ToyStory3.Buzzopensgate.Buzz Lightyear al rescate">
             <Facets>
                 <Facet Name="Conversation duration (sec)">
                     <String Value="A. 1-20" />
@@ -12710,7 +12781,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="ToyStory3.Buzzscape.Vamos, vaquero" Name="ToyStory3.Buzzscape.Vamos, vaquero" Img="#179" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzscape&amp;L3STinstance=ToyStory3.Buzzscape.Vamos, vaquero">
+        <Item Id="ToyStory3.Buzzscape.Vamos, vaquero" Name="ToyStory3.Buzzscape.Vamos, vaquero" Img="#180" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzscape&amp;L3STinstance=ToyStory3.Buzzscape.Vamos, vaquero">
             <Facets>
                 <Facet Name="Conversation duration (sec)">
                     <String Value="A. 1-20" />
@@ -12774,7 +12845,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="ToyStory3.Buzzspaceship.Donde está mi nave" Name="ToyStory3.Buzzspaceship.Donde está mi nave" Img="#180" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzspaceship&amp;L3STinstance=ToyStory3.Buzzspaceship.Donde está mi nave">
+        <Item Id="ToyStory3.Buzzspaceship.Donde está mi nave" Name="ToyStory3.Buzzspaceship.Donde está mi nave" Img="#181" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzspaceship&amp;L3STinstance=ToyStory3.Buzzspaceship.Donde está mi nave">
             <Facets>
                 <Facet Name="Conversation duration (sec)">
                     <String Value="A. 1-20" />
@@ -12841,7 +12912,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Um filme falado.First port of call-Marseille.Speaking French" Name="First port of call - Marseille. Speaking French" Img="#181" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Um filme falado&amp;conversation=Um filme falado.First port of call-Marseille&amp;L3STinstance=Um filme falado.First port of call-Marseille.Speaking French">
+        <Item Id="Um filme falado.First port of call-Marseille.Speaking French" Name="First port of call - Marseille. Speaking French" Img="#182" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Um filme falado&amp;conversation=Um filme falado.First port of call-Marseille&amp;L3STinstance=Um filme falado.First port of call-Marseille.Speaking French">
             <Description>Both Rosa Maria anf the fisherman speak in French.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -12913,7 +12984,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Um filme falado.The captain dinner-Captain-speaking one language.Speaking English" Name="The captain dinner - Captain-speaking one language. Speaking English" Img="#182" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Um filme falado&amp;conversation=Um filme falado.The captain dinner-Captain-speaking one language&amp;L3STinstance=Um filme falado.The captain dinner-Captain-speaking one language.Speaking English">
+        <Item Id="Um filme falado.The captain dinner-Captain-speaking one language.Speaking English" Name="The captain dinner - Captain-speaking one language. Speaking English" Img="#183" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Um filme falado&amp;conversation=Um filme falado.The captain dinner-Captain-speaking one language&amp;L3STinstance=Um filme falado.The captain dinner-Captain-speaking one language.Speaking English">
             <Description>The captain is speaking in English and he wishes we could all speak one languge.</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -12984,7 +13055,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Um filme falado.The captain dinner-Captain.Speaking English" Name="The captain dinner - Captain. Speaking English" Img="#183" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Um filme falado&amp;conversation=Um filme falado.The captain dinner-Captain&amp;L3STinstance=Um filme falado.The captain dinner-Captain.Speaking English">
+        <Item Id="Um filme falado.The captain dinner-Captain.Speaking English" Name="The captain dinner - Captain. Speaking English" Img="#184" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Um filme falado&amp;conversation=Um filme falado.The captain dinner-Captain&amp;L3STinstance=Um filme falado.The captain dinner-Captain.Speaking English">
             <Description>English is the language they all understand</Description>
             <Facets>
                 <Facet Name="Conversation duration (sec)">
@@ -13058,7 +13129,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Zootopia.Night howlers.Apologizing" Name="Night Howlers" Img="#184" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Zootopia&amp;conversation=Zootopia.Night howlers&amp;L3STinstance=Zootopia.Night howlers.Apologizing">
+        <Item Id="Zootopia.Night howlers.Apologizing" Name="Night Howlers" Img="#185" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Zootopia&amp;conversation=Zootopia.Night howlers&amp;L3STinstance=Zootopia.Night howlers.Apologizing">
             <Facets>
                 <Facet Name="Conversation duration (sec)">
                     <String Value="E. 81-100" />
@@ -13125,7 +13196,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Zootopia.Night howlers.Midnicampum holicithias" Name="Zootopia.Night howlers.Midnicampum holicithias" Img="#185" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Zootopia&amp;conversation=Zootopia.Night howlers&amp;L3STinstance=Zootopia.Night howlers.Midnicampum holicithias">
+        <Item Id="Zootopia.Night howlers.Midnicampum holicithias" Name="Zootopia.Night howlers.Midnicampum holicithias" Img="#186" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Zootopia&amp;conversation=Zootopia.Night howlers&amp;L3STinstance=Zootopia.Night howlers.Midnicampum holicithias">
             <Facets>
                 <Facet Name="Conversation duration (sec)">
                     <String Value="E. 81-100" />
@@ -13192,7 +13263,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Zootopia.Night howlers.Talking in tongues" Name="Zootopia.Night howlers.Talking in tongues" Img="#186" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Zootopia&amp;conversation=Zootopia.Night howlers&amp;L3STinstance=Zootopia.Night howlers.Talking in tongues">
+        <Item Id="Zootopia.Night howlers.Talking in tongues" Name="Zootopia.Night howlers.Talking in tongues" Img="#187" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Zootopia&amp;conversation=Zootopia.Night howlers&amp;L3STinstance=Zootopia.Night howlers.Talking in tongues">
             <Facets>
                 <Facet Name="Conversation duration (sec)">
                     <String Value="E. 81-100" />
