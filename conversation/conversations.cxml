@@ -3474,6 +3474,44 @@ And the wife and the aunt speak in English</Description>
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Puss in Boots.Ole frijoles" Name="Puss in Boots.Ole frijoles" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Puss in Boots&amp;conversation=Puss in Boots.Ole frijoles">
+      <Description>Puss's surprise exclamation</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Puss in Boots.Ole frijoles" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-01-13T11:40:36" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-01-13T02:30:51" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Puss in Boots" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Puss in Boots" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="8" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Puss in Boots.Puss talking about himself" Name="Puss in Boots.Puss talking about himself" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Puss in Boots&amp;conversation=Puss in Boots.Puss talking about himself">
       <Description>Puss assures he does not want to have problems</Description>
       <Facets>
@@ -3484,7 +3522,7 @@ And the wife and the aunt speak in English</Description>
           <DateTime Value="2017-01-13T11:40:36" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-01-13T12:43:15" />
+          <DateTime Value="2017-01-13T02:13:12" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -3502,13 +3540,19 @@ And the wife and the aunt speak in English</Description>
           <String Value="A. 1-20" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Spanish" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>
