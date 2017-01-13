@@ -12434,7 +12434,7 @@ And the wife and the aunt speak in English</Description>
           <DateTime Value="2017-01-13T11:49:48" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-01-13T11:57:22" />
+          <DateTime Value="2017-01-13T12:48:30" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -12497,7 +12497,7 @@ And the wife and the aunt speak in English</Description>
           <String Value="native or proficient" />
         </Facet>
         <Facet Name="L3TT mode, written/spoken, diegetic">
-          <String Value="Written diegetic" />
+          <String Value="Oral diegetic on-screen" />
         </Facet>
         <Facet Name="L3TT merely represented">
           <String Value="NO / Not applicable" />
@@ -12512,8 +12512,7 @@ And the wife and the aunt speak in English</Description>
           <String Value="None" />
         </Facet>
         <Facet Name="L3 mode change">
-          <String Value="- Oral diegetic on-screen" />
-          <String Value="+ Written diegetic" />
+          <String Value="None" />
         </Facet>
         <Facet Name="L3 functions change">
           <String Value="None" />
@@ -12537,7 +12536,7 @@ And the wife and the aunt speak in English</Description>
           <DateTime Value="2017-01-13T11:49:48" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-01-13T11:56:18" />
+          <DateTime Value="2017-01-13T12:49:11" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -12558,7 +12557,7 @@ And the wife and the aunt speak in English</Description>
           <String Value="Catalan" />
         </Facet>
         <Facet Name="L2 mode">
-          <String Value="Dubbed" />
+          <String Value="Subtitled" />
         </Facet>
         <Facet Name="Distribution countries (TT)">
           <String Value="Spain" />
@@ -12820,6 +12819,105 @@ And the wife and the aunt speak in English</Description>
         <Facet Name="L3 language type change">
           <String Value="- Real" />
           <String Value="+ No L3TT: L3-instance in L2" />
+        </Facet>
+        <Facet Name="L3 mode change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 functions change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="Conversation features for L3-instance change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 sources change">
+          <String Value="- Bilingual (L3&amp;main): same source " />
+          <String Value="+ " />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Puss in Boots.Puss talking about himself.Spanish single word.CatalanDub" Name="Puss in Boots.Puss talking about himself.Spanish single word.CatalanDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Puss in Boots&amp;conversation=Puss in Boots.Puss talking about himself&amp;L3STinstance=Puss in Boots.Puss talking about himself.Spanish single word&amp;L3TTinstance=Puss in Boots.Puss talking about himself.Spanish single word.CatalanDub">
+      <Description>Puss assures he does not want to have problems</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Puss in Boots.Puss talking about himself.Spanish single word.CatalanDub" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-01-13T12:45:48" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-01-13T12:47:11" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Puss in Boots" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Puss in Boots.Puss talking about himself" />
+        </Facet>
+        <Facet Name="L3ST-instance Reference Id">
+          <String Value="Puss in Boots.Puss talking about himself.Spanish single word" />
+        </Facet>
+        <Facet Name="Film Title TT">
+          <String Value="El gat amb botes" />
+        </Facet>
+        <Facet Name="L2 language">
+          <String Value="Catalan" />
+        </Facet>
+        <Facet Name="L2 mode">
+          <String Value="Dubbed" />
+        </Facet>
+        <Facet Name="Distribution countries (TT)">
+          <String Value="Spain" />
+        </Facet>
+        <Facet Name="Year TT released">
+          <Number Value="2011" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="4" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L2 same as L3ST">
+          <String Value="No" />
+        </Facet>
+        <Facet Name="L3ST conveyed as L3TT">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3TT language">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L3TT meant to be understood">
+          <String Value="YES, (almost) completely" />
+        </Facet>
+        <Facet Name="L3TT message required for understanding">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3TT speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3TT mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3TT merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
+        <Facet Name="L3TT functions">
+          <String Value="Character portrayal" />
+        </Facet>
+        <Facet Name="Conversation features for L3TT-instance">
+          <String Value="anecdote / story" />
+        </Facet>
+        <Facet Name="L3 language type change">
+          <String Value="None" />
         </Facet>
         <Facet Name="L3 mode change">
           <String Value="None" />
