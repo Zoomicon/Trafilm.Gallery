@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: L3TTinstance\metadata\default.aspx.cs
-//Version: 20170112
+//Version: 20170113
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -20,10 +20,10 @@ namespace Trafilm.Gallery
 
     protected void Page_Load(object sender, EventArgs e)
     {
-      filmStorage = new CXMLFragmentStorage<IFilm, Film>(Path.Combine(Request.PhysicalApplicationPath, @"film\films.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"film\metadata"), "*.cxml");
-      conversationStorage = new CXMLFragmentStorage<IConversation, Conversation>(Path.Combine(Request.PhysicalApplicationPath, @"conversation\conversations.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"conversation\metadata"), listFilms.SelectedValue + ".*.cxml");
-      l3STinstanceStorage = new CXMLFragmentStorage<IL3STinstance, L3STinstance>(Path.Combine(Request.PhysicalApplicationPath, @"L3STinstance\L3STinstances.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"L3STinstance\metadata"), listL3STinstances.SelectedValue + ".*.cxml");
-      l3TTinstanceStorage = new CXMLFragmentStorage<IL3TTinstance, L3TTinstance>(Path.Combine(Request.PhysicalApplicationPath, @"L3TTinstance\L3TTinstances.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"L3TTinstance\metadata"), listConversations.SelectedValue + ".*.cxml");
+      filmStorage = new CXMLFragmentStorage<IFilm, Film>(Server.MapPath("~/film/films.cxml"), Server.MapPath("~/film/metadata"), "*.cxml");
+      conversationStorage = new CXMLFragmentStorage<IConversation, Conversation>(Server.MapPath("~/conversation/conversations.cxml"), Server.MapPath("~/conversation/metadata"), listFilms.SelectedValue + ".*.cxml");
+      l3STinstanceStorage = new CXMLFragmentStorage<IL3STinstance, L3STinstance>(Server.MapPath("~/L3STinstance/L3STinstances.cxml"), Server.MapPath("~/L3STinstance/metadata"), listL3STinstances.SelectedValue + ".*.cxml");
+      l3TTinstanceStorage = new CXMLFragmentStorage<IL3TTinstance, L3TTinstance>(Server.MapPath("~/L3TTinstance/L3TTinstances.cxml"), Server.MapPath("~/L3TTinstance/metadata"), listConversations.SelectedValue + ".*.cxml");
 
       if (!IsPostBack)
       {
@@ -306,8 +306,8 @@ namespace Trafilm.Gallery
 
     public void SaveCollection()
     {
-      ICXMLMetadataStorage<IL3TTinstance> allL3TTinstancesStorage = new CXMLFragmentStorage<IL3TTinstance, L3TTinstance>(Path.Combine(Request.PhysicalApplicationPath, @"L3TTinstance\L3TTinstances.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"L3TTinstance\metadata"), "*.cxml");
-      SaveCollection(Path.Combine(Request.PhysicalApplicationPath, @"L3TTinstance\L3TTinstances.cxml"), "Trafilm Gallery: L3TT-instances", L3TTinstanceMetadataFacets.GetCXMLFacetCategories(), allL3TTinstancesStorage.Values);
+      ICXMLMetadataStorage<IL3TTinstance> allL3TTinstancesStorage = new CXMLFragmentStorage<IL3TTinstance, L3TTinstance>(Server.MapPath("~/L3TTinstance/L3TTinstances.cxml"), Server.MapPath("~/L3TTinstance/metadata"), "*.cxml");
+      SaveCollection(Server.MapPath("~/L3TTinstance/L3TTinstances.cxml"), "Trafilm Gallery: L3TT-instances", L3TTinstanceMetadataFacets.GetCXMLFacetCategories(), allL3TTinstancesStorage.Values);
     }
 
     #endregion
@@ -318,7 +318,7 @@ namespace Trafilm.Gallery
 
     protected void listFilms_SelectedIndexChanged(object sender, EventArgs e)
     {
-      conversationStorage = new CXMLFragmentStorage<IConversation, Conversation>(Path.Combine(Request.PhysicalApplicationPath, @"conversation\conversations.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"conversation\metadata"), listFilms.SelectedValue + ".*.cxml");
+      conversationStorage = new CXMLFragmentStorage<IConversation, Conversation>(Server.MapPath("~/conversation/conversations.cxml"), Server.MapPath("~/conversation/metadata"), listFilms.SelectedValue + ".*.cxml");
 
       bool visible = (listFilms.SelectedIndex > 0);
       panelConversationId.Visible = visible;
@@ -327,7 +327,7 @@ namespace Trafilm.Gallery
 
     protected void listConversations_SelectedIndexChanged(object sender, EventArgs e)
     {
-      l3STinstanceStorage = new CXMLFragmentStorage<IL3STinstance, L3STinstance>(Path.Combine(Request.PhysicalApplicationPath, @"L3STinstance\L3STinstances.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"L3STinstance\metadata"), listConversations.SelectedValue + ".*.cxml");
+      l3STinstanceStorage = new CXMLFragmentStorage<IL3STinstance, L3STinstance>(Server.MapPath("~/L3STinstance/L3STinstances.cxml"), Server.MapPath("~/L3STinstance/metadata"), listConversations.SelectedValue + ".*.cxml");
 
       bool visible = (listConversations.SelectedIndex > 0);
       panelL3STinstanceId.Visible = visible;
@@ -336,7 +336,7 @@ namespace Trafilm.Gallery
 
     protected void listL3STinstances_SelectedIndexChanged(object sender, EventArgs e)
     {
-      l3TTinstanceStorage = new CXMLFragmentStorage<IL3TTinstance, L3TTinstance>(Path.Combine(Request.PhysicalApplicationPath, @"L3TTinstance\L3TTinstances.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"L3TTinstance\metadata"), listL3STinstances.SelectedValue + ".*.cxml");
+      l3TTinstanceStorage = new CXMLFragmentStorage<IL3TTinstance, L3TTinstance>(Server.MapPath("~/L3TTinstance/L3TTinstances.cxml"), Server.MapPath("~/L3TTinstance/metadata"), listL3STinstances.SelectedValue + ".*.cxml");
 
       bool visible = (listL3STinstances.SelectedIndex > 0);
       panelL3TTinstanceId.Visible = visible;

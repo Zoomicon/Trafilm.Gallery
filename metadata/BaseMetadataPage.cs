@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: BaseMetadataPage.cs
-//Version: 20170112
+//Version: 20170113
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -170,8 +170,6 @@ namespace Trafilm.Gallery
     {
       return conversationId + "_" + l2Language + "_" + l2Mode + ".mp4";
     }
-
-    //TODO: !!! use Server.MapPath instead of Path.Combine and PhysicalApplicationPath - https://msdn.microsoft.com/en-us/library/ms524632(v=vs.90).aspx
 
     public bool ConversationL1videoExists(string conversationId, string l1Language = "")
     {

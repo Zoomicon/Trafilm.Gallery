@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: film\metadata\default.aspx.cs
-//Version: 20170112
+//Version: 20170113
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -21,8 +21,8 @@ namespace Trafilm.Gallery
 
     protected void Page_Load(object sender, EventArgs e)
     {
-      filmStorage = new CXMLFragmentStorage<IFilm, Film>(Path.Combine(Request.PhysicalApplicationPath, @"film\films.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"film\metadata"), "*.cxml");
-      conversationStorage = new CXMLFragmentStorage<IConversation, Conversation>(Path.Combine(Request.PhysicalApplicationPath, @"conversation\conversations.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"conversation\metadata"), listFilms.SelectedValue + ".*.cxml");
+      filmStorage = new CXMLFragmentStorage<IFilm, Film>(Server.MapPath("~/film/films.cxml"), Server.MapPath("~/film/metadata"), "*.cxml");
+      conversationStorage = new CXMLFragmentStorage<IConversation, Conversation>(Server.MapPath("~/conversation/conversations.cxml"), Server.MapPath("~/conversation/metadata"), listFilms.SelectedValue + ".*.cxml");
 
       if (!IsPostBack)
       {
@@ -83,15 +83,15 @@ namespace Trafilm.Gallery
     {
       string key = metadata.ReferenceId;
 
-      conversationStorage = new CXMLFragmentStorage<IConversation, Conversation>(Path.Combine(Request.PhysicalApplicationPath, @"conversation\conversations.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"conversation\metadata"), key + ".*.cxml");
+      conversationStorage = new CXMLFragmentStorage<IConversation, Conversation>(Server.MapPath("~/conversation/conversations.cxml"), Server.MapPath("~/conversation/metadata"), key + ".*.cxml");
       var values = conversationStorage.Values; //assumes "conversationStorage" has been updated
       foreach (IConversation conversation in values)
       {
-        ICXMLMetadataStorage<IL3STinstance> l3SToccs = new CXMLFragmentStorage<IL3STinstance, L3STinstance>(Path.Combine(Request.PhysicalApplicationPath, @"L3STinstance\L3STinstances.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"L3STinstance\metadata"), conversation.ReferenceId + ".*.cxml");
+        ICXMLMetadataStorage<IL3STinstance> l3SToccs = new CXMLFragmentStorage<IL3STinstance, L3STinstance>(Server.MapPath("~/L3STinstance/L3STinstances.cxml"), Server.MapPath("~/L3STinstance/metadata"), conversation.ReferenceId + ".*.cxml");
         conversation.L3STinstances = l3SToccs.Values;
         foreach (IL3STinstance l3STinstance in conversation.L3STinstances)
         {
-          ICXMLMetadataStorage<IL3TTinstance> l3TToccs = new CXMLFragmentStorage<IL3TTinstance, L3TTinstance>(Path.Combine(Request.PhysicalApplicationPath, @"L3TTinstance\L3TTinstances.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"L3TTinstance\metadata"), l3STinstance.ReferenceId + ".*.cxml");
+          ICXMLMetadataStorage<IL3TTinstance> l3TToccs = new CXMLFragmentStorage<IL3TTinstance, L3TTinstance>(Server.MapPath("~/L3TTinstance/L3TTinstances.cxml"), Server.MapPath("~/L3TTinstance/metadata"), l3STinstance.ReferenceId + ".*.cxml");
           l3STinstance.L3TTinstances = l3TToccs.Values;
         }
       }
@@ -229,7 +229,7 @@ namespace Trafilm.Gallery
 
     public void SaveCollection()
     {
-      SaveCollection(Path.Combine(Request.PhysicalApplicationPath, @"film\films.cxml"), "Trafilm Gallery: Films", FilmMetadataFacets.GetCXMLFacetCategories(), filmStorage.Values);
+      SaveCollection(Server.MapPath("~/film/films.cxml"), "Trafilm Gallery: Films", FilmMetadataFacets.GetCXMLFacetCategories(), filmStorage.Values);
     }
 
     #endregion
@@ -240,7 +240,7 @@ namespace Trafilm.Gallery
 
     protected void listFilms_SelectedIndexChanged(object sender, EventArgs e)
     {
-      conversationStorage = new CXMLFragmentStorage<IConversation, Conversation>(Path.Combine(Request.PhysicalApplicationPath, @"conversation\conversations.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"conversation\metadata"), listFilms.SelectedValue + ".*.cxml");
+      conversationStorage = new CXMLFragmentStorage<IConversation, Conversation>(Server.MapPath("~/conversation/conversations.cxml"), Server.MapPath("~/conversation/metadata"), listFilms.SelectedValue + ".*.cxml");
 
       bool visible = (listFilms.SelectedIndex > 0);
       panelMetadata.Visible = visible;

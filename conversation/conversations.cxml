@@ -34,7 +34,7 @@
           <DateTime Value="2016-10-31T06:15:40" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-12-02T02:14:16" />
+          <DateTime Value="2017-01-13T12:28:21" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="corrius" />
@@ -81,10 +81,11 @@
           <DateTime Value="2017-01-11T03:36:42" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-01-11T03:37:17" />
+          <DateTime Value="2017-01-13T12:28:58" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Guillermo" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="A Scanner Darkly" />
@@ -102,10 +103,13 @@
           <Number Value="0" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Constructed (fictional)" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="0" />
+          <Number Value="3" />
         </Facet>
       </Facets>
     </Item>
