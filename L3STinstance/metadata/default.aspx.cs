@@ -333,8 +333,9 @@ namespace Trafilm.Gallery
       Save();
       SaveCollection(); //TODO: should move this to code that generated DeepZoom gallery
 
-      UploadVideo(uploadVideo, GetConversationL1videoFilename(listConversations.SelectedValue, "")); //txtL1language.Text //TODO: copy into L3STinstance metadata the L1language from film grandparent (edit model and show in form etc.)
-      //TODO: update some status label (on top) to show result of upload
+      string uploadResult = UploadVideo(uploadVideo, GetConversationL1videoFilename(listConversations.SelectedValue, "")); //txtL1language.Text //TODO: copy into L3STinstance metadata the L1language from film grandparent (edit model and show in form etc.)
+      labelStatus.Text = uploadResult;
+      panelStatus.Visible = (uploadResult != "");
 
       DisplayMetadata(listL3STinstances.SelectedValue); //Reload saved data on the UI to confirm what was saved. This is also important to update any calculated fields that make use of the edited object's metadata values
     }

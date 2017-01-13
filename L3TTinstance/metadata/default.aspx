@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: L3TTinstance\metadata\default.aspx
-Version: 20170112
+Version: 20170113
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -43,32 +43,45 @@ Version: 20170112
     <asp:XmlDataSource ID="xmlConversationDuration" runat="server" DataFile="~/metadata/ConversationDuration.xml" XPath="Facet/String" />
 
 
-    <%-- NAVIGATION MENU --%>
-
-    <div class="navigation">
-       <a href="../../film/metadata/?film=<%=listFilms.SelectedValue%>">Film Metadata</a>
-       &nbsp;&nbsp;-&nbsp;&nbsp;
-       <a href="../../conversation/metadata/?film=<%=listFilms.SelectedValue%>&conversation=<%=listConversations.SelectedValue%>">Conversation Metadata</a>
-       &nbsp;&nbsp;-&nbsp;&nbsp;
-       <a href="../../L3STinstance/metadata/?film=<%=listFilms.SelectedValue%>&conversation=<%=listConversations.SelectedValue%>&L3STinstance=<%=listL3STinstances.SelectedValue%>">L3ST-instance Metadata</a>
-       &nbsp;&nbsp;-&nbsp;&nbsp;
-       <a class="selected" href="../../L3TTinstance/metadata/">L3TT-instance Metadata</a>
-    </div>
-
-
-    <%-- INSTRUCTIONS BOX --%>
-
-    <div class="instructions">
-      Please fill in the following information for the L3TT-instance of your choice. Select it using the dropdown lists.<br />
-      Try to fill the metadata as fully and accurately as possible, as they will be used for searching and filtering L3TT-instances.<br />
-      Don't forget to press the SAVE METADATA button. Thank you!
-    </div>
+    <%-- WEBFORM --%>
 
     <form id="form1" runat="server">
+
+      <%-- STATUS MESSAGE --%>
+
+      <asp:Panel runat="server" ID="panelStatus" Visible="false">
+        <div class="status">
+          <asp:Label ID="labelStatus" runat="server"/>
+        </div>
+      </asp:Panel>
+
+
+      <%-- NAVIGATION MENU --%>
+
+      <div class="navigation">
+         <a href="../../film/metadata/?film=<%=listFilms.SelectedValue%>">Film Metadata</a>
+         &nbsp;&nbsp;-&nbsp;&nbsp;
+         <a href="../../conversation/metadata/?film=<%=listFilms.SelectedValue%>&conversation=<%=listConversations.SelectedValue%>">Conversation Metadata</a>
+         &nbsp;&nbsp;-&nbsp;&nbsp;
+         <a href="../../L3STinstance/metadata/?film=<%=listFilms.SelectedValue%>&conversation=<%=listConversations.SelectedValue%>&L3STinstance=<%=listL3STinstances.SelectedValue%>">L3ST-instance Metadata</a>
+         &nbsp;&nbsp;-&nbsp;&nbsp;
+         <a class="selected" href="../../L3TTinstance/metadata/">L3TT-instance Metadata</a>
+      </div>
+
+
+      <%-- INSTRUCTIONS BOX --%>
+
+      <div class="instructions">
+        Please fill in the following information for the L3TT-instance of your choice. Select it using the dropdown lists.<br />
+        Try to fill the metadata as fully and accurately as possible, as they will be used for searching and filtering L3TT-instances.<br />
+        Don't forget to press the SAVE METADATA button. Thank you!
+      </div>
+
 
       <%-- LOGIN STATUS --%>
 
       <asp:LoginName ID="loginName" runat="server" FormatString="Welcome {0}!" /> [<asp:LoginStatus ID="loginStatus" runat="server"/>]
+
 
       <%-- INFO BOX --%>
 
@@ -111,6 +124,7 @@ Version: 20170112
         </asp:Panel>
 
       </div>
+
 
       <%-- METADATA INPUT UI --%>
 

@@ -1,7 +1,7 @@
 ﻿/*
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: metadata.cs
-Version: 20160525
+Version: 20170113
 */
 
 div
@@ -46,10 +46,19 @@ a
 
 /* --------------------------- */
 
+.status
+{
+  border-style: outset;
+  background-color: peachpuff;
+  padding: 5px;
+}
+
+/* --------------------------- */
+
 .instructions
 {
   border-style: dotted;
-  background-color: Yellow;
+  background-color: yellow;
   padding: 5px;
 }
 
