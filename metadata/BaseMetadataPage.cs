@@ -161,12 +161,12 @@ namespace Trafilm.Gallery
 
     #region Files
 
-    private static string GetConversationL1videoFilename(string conversationId, string l1Language = "")
+    public static string GetConversationL1videoFilename(string conversationId, string l1Language = "")
     {
       return conversationId + ((l1Language != "")? "_" + l1Language : "") + ".mp4";
     }
 
-    public string GetConversationL2videoFilename(string conversationId, string l2Language, string l2Mode)
+    public static string GetConversationL2videoFilename(string conversationId, string l2Language, string l2Mode)
     {
       return conversationId + "_" + l2Language + "_" + l2Mode + ".mp4";
     }
@@ -316,45 +316,26 @@ namespace Trafilm.Gallery
         CXMLMetadata.Save(cxml, collectionTitle, facetCategories, metadataItems.ToArray());
     }
 
-    protected void UploadVideo(FileUpload uploadVideo, string filename)
+    protected string UploadVideo(FileUpload uploadVideo, string filename)
     {
-      Boolean fileOK = false;
-      String path = Server.MapPath("~/video/" + filename);
-      if (FileUpload1.HasFile)
-      {
-        String fileExtension =
-            System.IO.Path.GetExtension(FileUpload1.FileName).ToLower();
-        String[] allowedExtensions =
-            {".gif", ".png", ".jpeg", ".jpg"};
-        for (int i = 0; i < allowedExtensions.Length; i++)
-        {
-          if (fileExtension == allowedExtensions[i])
-          {
-            fileOK = true;
-          }
-        }
-      }
+      if (!uploadVideo.HasFile) return "";
 
-      if (fileOK)
-      {
+      string filepath = Server.MapPath("~/video/" + filename);
+
+      if (Path.GetExtension(uploadVideo.FileName).ToLower() == ".mp4")
         try
         {
-          FileUpload1.PostedFile.SaveAs(path
-              + FileUpload1.FileName);
-          Label1.Text = "File uploaded!";
+          uploadVideo.PostedFile.SaveAs(filepath); //can throw exception
+          return "Video uploaded";
         }
-        catch (Exception ex)
+        catch(Exception e)
         {
-          Label1.Text = "File could not be uploaded.";
+          return "Video upload failed: " + e.Message;
         }
-      }
       else
-      {
-        Label1.Text = "Cannot accept files of this type.";
-      }
+        return "Video upload failed: Only .mp4 files are allowed";
     }
-  }
-
+ 
     #endregion
 
     #endregion

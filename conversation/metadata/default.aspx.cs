@@ -281,7 +281,8 @@ namespace Trafilm.Gallery
       if (!IsUserAllowedToSave("Conversation")) return;
 
       Save();
-      SaveCollection();
+      SaveCollection(); //TODO: should move this to code that generated DeepZoom gallery
+
       DisplayMetadata(listConversations.SelectedValue); //Reload saved data on the UI to confirm what was saved. This is also important to update any calculated fields that make use of the edited object's metadata values
     }
 

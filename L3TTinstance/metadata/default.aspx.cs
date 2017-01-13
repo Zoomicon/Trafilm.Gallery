@@ -371,7 +371,11 @@ namespace Trafilm.Gallery
       if (!IsUserAllowedToSave("L3TTinstance")) return;
 
       Save();
-      SaveCollection();
+      SaveCollection(); //TODO: should move this to code that generated DeepZoom gallery
+
+      UploadVideo(uploadVideo, GetConversationL2videoFilename(listConversations.SelectedValue, listL2language.SelectedValue, listL2mode.SelectedValue));
+      //TODO: update some status label (on top) to show result of upload
+
       DisplayMetadata(listL3TTinstances.SelectedValue); //Reload saved data on the UI to confirm what was saved. This is also important to update any calculated fields that make use of the edited object's metadata values
     }
 
