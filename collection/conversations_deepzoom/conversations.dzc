@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection MaxLevel="7" TileSize="256" Format="png" NextItemId="167" ServerFormat="Default" xmlns="http://schemas.microsoft.com/deepzoom/2009">
+<Collection MaxLevel="7" TileSize="256" Format="png" NextItemId="168" ServerFormat="Default" xmlns="http://schemas.microsoft.com/deepzoom/2009">
   <Items>
     <I Id="0" N="0" Source="A_Passage_to_India.Dialogue_between_Aunt_and_the_doctor.dzi">
       <Size Width="1024" Height="576" />
@@ -487,19 +487,22 @@
     <I Id="161" N="161" Source="ToyStory3.Buzzspaceship.dzi">
       <Size Width="1024" Height="576" />
     </I>
-    <I Id="162" N="162" Source="Trollhunters.Talking_to_girls.dzi">
+    <I Id="162" N="162" Source="Trollhunters.Talking_about_girls.dzi">
       <Size Width="1024" Height="576" />
     </I>
-    <I Id="163" N="163" Source="Um_filme_falado.First_port_of_call-Marseille.dzi">
+    <I Id="163" N="163" Source="Trollhunters.Talking_to_girls.dzi">
       <Size Width="1024" Height="576" />
     </I>
-    <I Id="164" N="164" Source="Um_filme_falado.The_captain_dinner-Captain-speaking_one_language.dzi">
+    <I Id="164" N="164" Source="Um_filme_falado.First_port_of_call-Marseille.dzi">
       <Size Width="1024" Height="576" />
     </I>
-    <I Id="165" N="165" Source="Um_filme_falado.The_captain_dinner-Captain.dzi">
+    <I Id="165" N="165" Source="Um_filme_falado.The_captain_dinner-Captain-speaking_one_language.dzi">
       <Size Width="1024" Height="576" />
     </I>
-    <I Id="166" N="166" Source="Zootopia.Night_howlers.dzi">
+    <I Id="166" N="166" Source="Um_filme_falado.The_captain_dinner-Captain.dzi">
+      <Size Width="1024" Height="576" />
+    </I>
+    <I Id="167" N="167" Source="Zootopia.Night_howlers.dzi">
       <Size Width="1024" Height="576" />
     </I>
   </Items>
