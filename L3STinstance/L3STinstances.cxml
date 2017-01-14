@@ -124,7 +124,7 @@
           <DateTime Value="2016-10-31T06:21:28" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-01-13T06:56:26" />
+          <DateTime Value="2017-01-13T06:38:47" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="corrius" />
@@ -13108,6 +13108,202 @@ At the same time Mathis is on the phone</Description>
         </Facet>
         <Facet Name="L3ST sources">
           <String Value="Oral L3: single source" />
+        </Facet>
+        <Facet Name="L3TT-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Trollhunters.Talking about girls.I unleashed my español" Name="Talking about girls" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Trollhunters&amp;conversation=Trollhunters.Talking about girls&amp;L3STinstance=Trollhunters.Talking about girls.I unleashed my español">
+      <Description></Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Trollhunters.Talking about girls.I unleashed my español" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Jim:&#xD;&#xA;Toby:&#xD;&#xA;Jim:&#xD;&#xA;Toby:&#xD;&#xA;Jim: " />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-01-14T04:02:23" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-01-14T04:10:39" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Guillermo" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Trollhunters" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Trollhunters.Talking about girls" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="9" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L3ST language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST language">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="YES, (almost) completely" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3ST speaker performance">
+          <String Value="clearly non-native or deficient" />
+        </Facet>
+        <Facet Name="L3ST mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3ST functions">
+          <String Value="Comedy / humour" />
+        </Facet>
+        <Facet Name="L3ST sources">
+          <String Value="Bilingual (L3&amp;main): same source " />
+        </Facet>
+        <Facet Name="L3TT-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Trollhunters.Talking to girls.Speaking Spanish 2" Name="Delete" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Trollhunters&amp;conversation=Trollhunters.Talking to girls&amp;L3STinstance=Trollhunters.Talking to girls.Speaking Spanish 2">
+      <Description></Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Trollhunters.Talking to girls.Speaking Spanish 2" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="Belongs to another conversation. Needs to be deleted." />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-01-14T03:50:15" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-01-14T03:59:32" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Guillermo" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Trollhunters" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Trollhunters.Talking to girls" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="8" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="B. 21-40" />
+        </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L3ST language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST language">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="YES, the gist, the implications of what is happening" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Conversation can be followed regardless of meaning" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3ST speaker performance">
+          <String Value="clearly non-native or deficient" />
+        </Facet>
+        <Facet Name="L3ST mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3ST sources">
+          <String Value="Bilingual (L3&amp;main): same source " />
+        </Facet>
+        <Facet Name="L3TT-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Trollhunters.Talking to girls.Speaking Spanish" Name="Talking to girls" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Trollhunters&amp;conversation=Trollhunters.Talking to girls&amp;L3STinstance=Trollhunters.Talking to girls.Speaking Spanish">
+      <Description>I believe he addresses Claire in Spanish because she's from Latin American origin, second or third generation (Nuñez). She recognizes Spanish, but she doesn't seem to speak it.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Trollhunters.Talking to girls.Speaking Spanish" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Jim: Buenas noches.&#xD;&#xA;Claire Nuñez: You speak Spanish?&#xD;&#xA;Jim: Um... um... uh...&#xD;&#xA;Claire's Friend: Come on, Claire.&#xD;&#xA;Claire: Do you like Shakespeare?&#xD;&#xA;Jim: What?&#xD;&#xA;Claire: Do you like Shakespeare?&#xD;&#xA;Jim: Shakespeare?&#xD;&#xA;Claire: The school play. We're having trouble getting boys to audition.&#xD;&#xA;Jim: Uh... Oh! Hasta huevo!" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-01-14T03:50:15" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-01-14T04:07:59" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Guillermo" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Trollhunters" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Trollhunters.Talking to girls" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="8" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="B. 21-40" />
+        </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L3ST language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST language">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="YES, the gist, the implications of what is happening" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Conversation can be followed regardless of meaning" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3ST speaker performance">
+          <String Value="clearly non-native or deficient" />
+        </Facet>
+        <Facet Name="L3ST mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3ST functions">
+          <String Value="Other" />
+        </Facet>
+        <Facet Name="Conversation features for L3ST-instance">
+          <String Value="salutation" />
+          <String Value="small talk" />
+        </Facet>
+        <Facet Name="L3ST sources">
+          <String Value="Bilingual (L3&amp;main): same source " />
         </Facet>
         <Facet Name="L3TT-instances: count">
           <Number Value="0" />

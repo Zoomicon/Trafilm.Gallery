@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection MaxLevel="7" TileSize="256" Format="png" NextItemId="47" ServerFormat="Default" xmlns="http://schemas.microsoft.com/deepzoom/2009">
+<Collection MaxLevel="7" TileSize="256" Format="png" NextItemId="48" ServerFormat="Default" xmlns="http://schemas.microsoft.com/deepzoom/2009">
   <Items>
     <I Id="0" N="0" Source="A_Passage_to_India.dzi">
       <Size Width="1050" Height="1547" />
@@ -136,10 +136,13 @@
     <I Id="44" N="44" Source="ToyStory3.dzi">
       <Size Width="1050" Height="1547" />
     </I>
-    <I Id="45" N="45" Source="Um_filme_falado.dzi">
+    <I Id="45" N="45" Source="Trollhunters.dzi">
       <Size Width="1050" Height="1547" />
     </I>
-    <I Id="46" N="46" Source="Zootopia.dzi">
+    <I Id="46" N="46" Source="Um_filme_falado.dzi">
+      <Size Width="1050" Height="1547" />
+    </I>
+    <I Id="47" N="47" Source="Zootopia.dzi">
       <Size Width="1050" Height="1547" />
     </I>
   </Items>
