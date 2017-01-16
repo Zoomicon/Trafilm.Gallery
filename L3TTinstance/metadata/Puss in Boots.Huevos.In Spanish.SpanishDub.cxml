@@ -55,7 +55,7 @@
           <DateTime Value="2017-01-16T02:53:48" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-01-16T04:20:10" />
+          <DateTime Value="2017-01-16T04:47:08" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -112,7 +112,7 @@
           <String Value="YES, through translation or clear from picture" />
         </Facet>
         <Facet Name="L3TT mode, written/spoken, diegetic">
-          <String Value="Written diegetic" />
+          <String Value="Oral diegetic on-screen" />
         </Facet>
         <Facet Name="L3TT merely represented">
           <String Value="NO / Not applicable" />
@@ -131,8 +131,7 @@
           <String Value="+ No L3TT: L3-instance in L2" />
         </Facet>
         <Facet Name="L3 mode change">
-          <String Value="- Oral diegetic on-screen" />
-          <String Value="+ Written diegetic" />
+          <String Value="None" />
         </Facet>
         <Facet Name="L3 functions change">
           <String Value="None" />
