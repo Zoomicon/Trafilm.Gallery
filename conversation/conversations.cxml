@@ -3512,6 +3512,44 @@ And the wife and the aunt speak in English</Description>
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Puss in Boots.Mi amigo" Name="Puss in Boots.Mi amigo" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Puss in Boots&amp;conversation=Puss in Boots.Mi amigo">
+      <Description>Puss is challenging Kitty</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Puss in Boots.Mi amigo" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-01-16T10:47:04" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-01-16T12:06:23" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Puss in Boots" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Puss in Boots" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="11" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Puss in Boots.No hablo inglés" Name="No hablo inglés" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Puss in Boots&amp;conversation=Puss in Boots.No hablo inglés">
       <Description>Puss is trying to escape from the giants</Description>
       <Facets>
@@ -3629,6 +3667,44 @@ And the wife and the aunt speak in English</Description>
         </Facet>
         <Facet Name="L3ST-instances: count">
           <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Puss in Boots.Señorita" Name="Puss in Boots.Señorita" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Puss in Boots&amp;conversation=Puss in Boots.Señorita">
+      <Description>After having fought with Kitty, Puss realizes Kitty is a female cat</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Puss in Boots.Señorita" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-01-16T10:47:04" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-01-16T12:26:20" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Puss in Boots" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Puss in Boots" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="15" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
         </Facet>
       </Facets>
     </Item>

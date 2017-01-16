@@ -7727,6 +7727,78 @@ And the wife and the aunt speak in English</Description>
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Puss in Boots.Mi amigo.In Spanish" Name="Puss in Boots.Mi amigo" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Puss in Boots&amp;conversation=Puss in Boots.Mi amigo&amp;L3STinstance=Puss in Boots.Mi amigo.In Spanish">
+      <Description>Puss is challenging Kitty</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Puss in Boots.Mi amigo.In Spanish" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="mi amigo" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-01-16T12:06:37" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-01-16T12:16:18" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Puss in Boots" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Puss in Boots.Mi amigo" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="11" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L3ST language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST language">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="YES, the gist, the implications of what is happening" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Conversation can be followed regardless of meaning" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3ST speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3ST mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3ST merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
+        <Facet Name="L3ST functions">
+          <String Value="Stereotype" />
+          <String Value="Dramatic effect" />
+        </Facet>
+        <Facet Name="Conversation features for L3ST-instance">
+          <String Value="warning" />
+        </Facet>
+        <Facet Name="L3ST sources">
+          <String Value="Bilingual (L3&amp;main): same source " />
+        </Facet>
+        <Facet Name="L3TT-instances: count">
+          <Number Value="3" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Puss in Boots.No hablo inglés.In Spanish" Name="No hablo inglés" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Puss in Boots&amp;conversation=Puss in Boots.No hablo inglés&amp;L3STinstance=Puss in Boots.No hablo inglés.In Spanish">
       <Description>Puss is trying to escape from the giants</Description>
       <Facets>
