@@ -1927,7 +1927,7 @@ Based on the homonym novel by Philip K. Dick.</Description>
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Puss in Boots" Name="Puss in Boots" Img="https://en.wikipedia.org/wiki/File:Puss_in_Boots_Poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Puss in Boots">
+    <Item Id="Puss in Boots" Name="Puss in Boots" Img="https://upload.wikimedia.org/wikipedia/en/d/d0/Puss_in_Boots_Poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Puss in Boots">
       <Description>Puss is an outlaw cat who looks for the magic beans as a means to get to the giant's castle holding golden goose eggs. His friends in this adventure are Kitty Softpaws and Humpty Alexander Dumpty.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -1943,10 +1943,11 @@ Based on the homonym novel by Philip K. Dick.</Description>
           <DateTime Value="2017-01-12T12:16:15" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-01-16T01:49:42" />
+          <DateTime Value="2017-01-17T01:20:42" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Puss in Boots" />
@@ -1980,15 +1981,15 @@ Based on the homonym novel by Philip K. Dick.</Description>
           <String Value="English" />
         </Facet>
         <Facet Name="L2-Dubbed languages">
-          <String Value="Catalan" />
           <String Value="Spanish" />
+          <String Value="Catalan" />
         </Facet>
         <Facet Name="L2-Subtitled languages">
           <String Value="Catalan" />
           <String Value="Spanish" />
         </Facet>
         <Facet Name="Conversations: count">
-          <Number Value="7" />
+          <Number Value="10" />
         </Facet>
       </Facets>
     </Item>
@@ -2576,7 +2577,7 @@ Based on the homonym novel by Philip K. Dick.</Description>
         </Facet>
       </Facets>
     </Item>
-    <Item Id="ToyStory3" Name="Toy Story 3" Img="https://en.wikipedia.org/wiki/File:Toy_Story_3_poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=ToyStory3">
+    <Item Id="ToyStory3" Name="Toy Story 3" Img="https://upload.wikimedia.org/wikipedia/en/6/69/Toy_Story_3_poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=ToyStory3">
       <Description>The toys are mistakenly delivered to a day-care center instead of the attic right before Andy leaves for college, and it's up to Woody to convince the other toys that they weren't abandoned and to return home.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -2586,13 +2587,13 @@ Based on the homonym novel by Philip K. Dick.</Description>
           <DateTime Value="2016-07-11T02:46:56" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-01-13T02:17:24" />
+          <DateTime Value="2017-01-17T01:21:31" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Guillermo" />
           <String Value="Stavroula" />
-          <String Value="George" />
           <String Value="Santamaria" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Toy Story 3" />
@@ -2755,7 +2756,7 @@ Based on the homonym novel by Philip K. Dick.</Description>
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Valkyrie" Name="Valkyrie" Img="https://en.wikipedia.org/wiki/File:Valkyrie_poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Valkyrie">
+    <Item Id="Valkyrie" Name="Valkyrie" Img="https://upload.wikimedia.org/wikipedia/en/b/b8/Valkyrie_poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Valkyrie">
       <Description>A group of German senior officers and politicians in 1944 plot to assassinate Hitler to stop the horror and dishonor the II World War has caused to Germany</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -2768,10 +2769,11 @@ Based on the homonym novel by Philip K. Dick.</Description>
           <DateTime Value="2017-01-16T09:27:52" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-01-16T09:42:34" />
+          <DateTime Value="2017-01-17T01:22:05" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Valkyrie" />
@@ -2805,8 +2807,16 @@ Based on the homonym novel by Philip K. Dick.</Description>
         <Facet Name="Main language (L1)">
           <String Value="English" />
         </Facet>
+        <Facet Name="L2-Dubbed languages">
+          <String Value="Catalan" />
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L2-Subtitled languages">
+          <String Value="Catalan" />
+          <String Value="Spanish" />
+        </Facet>
         <Facet Name="Conversations: count">
-          <Number Value="0" />
+          <Number Value="4" />
         </Facet>
       </Facets>
     </Item>

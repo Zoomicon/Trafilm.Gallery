@@ -24,7 +24,7 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Valkyrie" Name="Valkyrie" Img="https://en.wikipedia.org/wiki/File:Valkyrie_poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Valkyrie">
+    <Item Id="Valkyrie" Name="Valkyrie" Img="https://upload.wikimedia.org/wikipedia/en/b/b8/Valkyrie_poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Valkyrie">
       <Description>A group of German senior officers and politicians in 1944 plot to assassinate Hitler to stop the horror and dishonor the II World War has caused to Germany</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -37,10 +37,11 @@
           <DateTime Value="2017-01-16T09:27:52" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-01-16T09:42:34" />
+          <DateTime Value="2017-01-17T01:22:05" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Valkyrie" />
@@ -74,8 +75,16 @@
         <Facet Name="Main language (L1)">
           <String Value="English" />
         </Facet>
+        <Facet Name="L2-Dubbed languages">
+          <String Value="Catalan" />
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L2-Subtitled languages">
+          <String Value="Catalan" />
+          <String Value="Spanish" />
+        </Facet>
         <Facet Name="Conversations: count">
-          <Number Value="0" />
+          <Number Value="4" />
         </Facet>
       </Facets>
     </Item>
