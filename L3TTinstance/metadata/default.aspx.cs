@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: L3TTinstance\metadata\default.aspx.cs
-//Version: 20170113
+//Version: 20170117
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -48,14 +48,7 @@ namespace Trafilm.Gallery
       bool hasSelectedL3TTinstance = (listL3TTinstances.SelectedIndex > 0);
       btnRename.Visible = IsUserAllowedToRename("L3TTinstance") && hasSelectedL3TTinstance;
 
-      //Video download/upload UI stays hidden if their parent panelMetadata is not visible (i.e. nothing is selected)
-      string conversationId = listConversations.SelectedValue;
-      string l2Language = listL2language.SelectedValue;
-      string l2Mode = listL2mode.SelectedValue;
-      bool videoDownloadVisible = panelVideoDownload.Visible = IsUserAllowedToViewVideo() && ConversationL2videoExists(conversationId, l2Language, l2Mode);
-      UI.Load(linkVideo, GetConversationL2videoUri(conversationId, l2Language, l2Mode));
-      bool videoUploadVisible = panelVideoUpload.Visible = IsUserAllowedToUploadConversationL2video();
-      panelVideo.Visible = videoDownloadVisible || videoUploadVisible; //need to use local variables above, else it is always false
+      UpdateVideoUI();
     }
 
     #endregion
@@ -310,6 +303,18 @@ namespace Trafilm.Gallery
       SaveCollection(Server.MapPath("~/L3TTinstance/L3TTinstances.cxml"), "Trafilm Gallery: L3TT-instances", L3TTinstanceMetadataFacets.GetCXMLFacetCategories(), allL3TTinstancesStorage.Values);
     }
 
+    public void UpdateVideoUI()
+    {
+      //Video download/upload UI stays hidden if their parent panelMetadata is not visible (i.e. nothing is selected)
+      string conversationId = listConversations.SelectedValue;
+      string l2Language = listL2language.SelectedValue;
+      string l2Mode = listL2mode.SelectedValue;
+      bool videoDownloadVisible = panelVideoDownload.Visible = IsUserAllowedToViewVideo() && ConversationL2videoExists(conversationId, l2Language, l2Mode);
+      UI.Load(linkVideo, GetConversationL2videoUri(conversationId, l2Language, l2Mode));
+      bool videoUploadVisible = panelVideoUpload.Visible = IsUserAllowedToUploadConversationL2video();
+      panelVideo.Visible = videoDownloadVisible || videoUploadVisible; //need to use local variables above, else it is always false
+    }
+
     #endregion
 
     #endregion
@@ -378,6 +383,7 @@ namespace Trafilm.Gallery
       panelStatus.Visible = (uploadResult != "");
 
       DisplayMetadata(listL3TTinstances.SelectedValue); //Reload saved data on the UI to confirm what was saved. This is also important to update any calculated fields that make use of the edited object's metadata values
+      UpdateVideoUI(); //need to update the video UI here too (else when it is uploaded for the first time it won't show download link)
     }
 
     #endregion
