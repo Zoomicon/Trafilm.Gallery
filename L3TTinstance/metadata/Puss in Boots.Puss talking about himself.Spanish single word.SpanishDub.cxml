@@ -52,7 +52,7 @@
           <DateTime Value="2017-01-13T12:45:48" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-01-13T02:27:05" />
+          <DateTime Value="2017-01-17T08:44:35" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -81,6 +81,9 @@
         <Facet Name="Year TT released">
           <Number Value="2011" />
         </Facet>
+        <Facet Name="Film TT Blockbuster">
+          <String Value="YES (top 20)" />
+        </Facet>
         <Facet Name="Conversation start time (min)">
           <Number Value="4" />
         </Facet>
@@ -98,9 +101,6 @@
         </Facet>
         <Facet Name="L3TT language">
           <String Value="Spanish" />
-        </Facet>
-        <Facet Name="L3TT constructed based on">
-          <String Value="German" />
         </Facet>
         <Facet Name="L3TT meant to be understood">
           <String Value="YES, (almost) completely" />

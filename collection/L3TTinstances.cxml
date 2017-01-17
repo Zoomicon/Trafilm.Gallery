@@ -15947,11 +15947,14 @@ And the wife and the aunt speak in English</Description>
                 <Facet Name="Film Title TT">
                     <String Value="El gato con botas" />
                 </Facet>
+                <Facet Name="Film TT Blockbuster">
+                    <String Value="YES (top 20)" />
+                </Facet>
                 <Facet Name="Info created">
                     <DateTime Value="2017-01-13T12:45:48" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2017-01-13T02:27:05" />
+                    <DateTime Value="2017-01-17T08:44:35" />
                 </Facet>
                 <Facet Name="L2 language">
                     <String Value="Spanish" />
@@ -15981,9 +15984,6 @@ And the wife and the aunt speak in English</Description>
                 </Facet>
                 <Facet Name="L3ST-instance Reference Id">
                     <String Value="Puss in Boots.Puss talking about himself.Spanish single word" />
-                </Facet>
-                <Facet Name="L3TT constructed based on">
-                    <String Value="German" />
                 </Facet>
                 <Facet Name="L3TT functions">
                     <String Value="Character portrayal" />
