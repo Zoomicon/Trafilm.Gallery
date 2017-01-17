@@ -2752,7 +2752,62 @@ Based on the homonym novel by Philip K. Dick.</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Zootopia" Name="Zootopia" Img="#47" Href="http://gallery.trafilm.net/film/metadata/?film=Zootopia">
+        <Item Id="Valkyrie" Name="Valkyrie" Img="#47" Href="http://gallery.trafilm.net/film/metadata/?film=Valkyrie">
+            <Description>A group of German senior officers and politicians in 1944 plot to assassinate Hitler to stop the horror and dishonor the II World War has caused to Germany</Description>
+            <Facets>
+                <Facet Name="Conversations: count">
+                    <Number Value="0" />
+                </Facet>
+                <Facet Name="Director(s)">
+                    <String Value="Edward Zwick" />
+                </Facet>
+                <Facet Name="Duration (min)">
+                    <Number Value="121" />
+                </Facet>
+                <Facet Name="Film/Season title">
+                    <String Value="Valkyrie" />
+                </Facet>
+                <Facet Name="Info created">
+                    <DateTime Value="2017-01-16T09:27:52" />
+                </Facet>
+                <Facet Name="Info updated">
+                    <DateTime Value="2017-01-16T09:42:34" />
+                </Facet>
+                <Facet Name="Main language (L1)">
+                    <String Value="English" />
+                </Facet>
+                <Facet Name="Metadata Editors">
+                    <String Value="Santamaria" />
+                </Facet>
+                <Facet Name="Production companies">
+                    <String Value=" Metro-Goldwyn-Mayer" />
+                    <String Value=" United Artists" />
+                    <String Value=" Bad Hat Harry Productions" />
+                    <String Value=" Studio Babelsberg" />
+                </Facet>
+                <Facet Name="Production countries">
+                    <String Value="USA" />
+                    <String Value="  Germany" />
+                </Facet>
+                <Facet Name="Reference Id">
+                    <String Value="Valkyrie" />
+                </Facet>
+                <Facet Name="Remarks">
+                    <String Value="German only at the beginning of the film together with the expression &quot;Heil Hitler&quot;" />
+                </Facet>
+                <Facet Name="Scriptwriter(s)">
+                    <String Value="Christopher McQuarrie" />
+                    <String Value=" Nathan Alexander" />
+                </Facet>
+                <Facet Name="Type">
+                    <String Value="Feature film" />
+                </Facet>
+                <Facet Name="Year ST released">
+                    <Number Value="2008" />
+                </Facet>
+            </Facets>
+        </Item>
+        <Item Id="Zootopia" Name="Zootopia" Img="#48" Href="http://gallery.trafilm.net/film/metadata/?film=Zootopia">
             <Description>In a city of anthropomorphic animals, a rookie bunny cop and a cynical con artist fox must work together to uncover a conspiracy.</Description>
             <Facets>
                 <Facet Name="Conversations: count">
