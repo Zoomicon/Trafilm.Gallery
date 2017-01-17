@@ -124,7 +124,7 @@
           <DateTime Value="2016-10-31T06:21:28" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-01-13T06:38:47" />
+          <DateTime Value="2017-01-17T10:30:51" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="corrius" />
@@ -6484,71 +6484,6 @@
         </Facet>
         <Facet Name="L3TT-instances: count">
           <Number Value="1" />
-        </Facet>
-      </Facets>
-    </Item>
-    <Item Id="LoveActually.JamieProposesToAurelia.Jamie and Aurelia greet each other" Name="Jamie proposes to Aurelia - They greet" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia&amp;L3STinstance=LoveActually.JamieProposesToAurelia.Jamie and Aurelia greet each other">
-      <Description>Jamie arrives at the restaurant where Aurélia works in order to propose her. He speaks in Portuguese, a language he has been learning for this purpose. Aurélia accepts, in English, a language she has learnt in parallel.</Description>
-      <Facets>
-        <Facet Name="Reference Id">
-          <String Value="LoveActually.JamieProposesToAurelia.Jamie and Aurelia greet each other" />
-        </Facet>
-        <Facet Name="Transcription">
-          <String Value="-Jamie: Boa noite Aurelia. (no subtitles in English)&#xD;&#xA;-Aurelia: Boa noite Jamie. (no subtitles in English)" />
-        </Facet>
-        <Facet Name="Info created">
-          <DateTime Value="2016-11-02T08:01:52" />
-        </Facet>
-        <Facet Name="Info updated">
-          <DateTime Value="2016-11-02T08:52:26" />
-        </Facet>
-        <Facet Name="Metadata Editors">
-          <String Value="Stavroula" />
-        </Facet>
-        <Facet Name="Film Reference Id">
-          <String Value="LoveActually" />
-        </Facet>
-        <Facet Name="Conversation Reference Id">
-          <String Value="LoveActually.JamieProposesToAurelia" />
-        </Facet>
-        <Facet Name="Conversation start time (min)">
-          <Number Value="118" />
-        </Facet>
-        <Facet Name="Conversation duration (sec)">
-          <String Value="I. 161-180" />
-        </Facet>
-        <Facet Name="Main (L1) language">
-          <String Value="English" />
-        </Facet>
-        <Facet Name="L3ST language type">
-          <String Value="Real" />
-        </Facet>
-        <Facet Name="L3ST language">
-          <String Value="Portuguese" />
-        </Facet>
-        <Facet Name="L3ST meant to be understood">
-          <String Value="YES, the gist, the implications of what is happening" />
-        </Facet>
-        <Facet Name="L3ST message required for understanding">
-          <String Value="Conversation can be followed regardless of meaning" />
-        </Facet>
-        <Facet Name="L3ST meaning decipherable">
-          <String Value="YES, through translation or clear from picture" />
-        </Facet>
-        <Facet Name="Quality of L3ST speaker performance">
-          <String Value="native or proficient" />
-        </Facet>
-        <Facet Name="L3ST mode, written/spoken, diegetic">
-          <String Value="Oral diegetic on-screen" />
-        </Facet>
-        <Facet Name="L3ST merely represented">
-          <String Value="NO / Not applicable" />
-        </Facet>
-        <Facet Name="L3ST sources">
-          <String Value="Oral L3: different sources " />
-        </Facet>
-        <Facet Name="L3TT-instances: count">
-          <Number Value="0" />
         </Facet>
       </Facets>
     </Item>
@@ -14042,6 +13977,295 @@ At the same time Mathis is on the phone</Description>
         </Facet>
         <Facet Name="L3TT-instances: count">
           <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Valkyrie.Introductory note.Titles" Name="Introductory note" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Valkyrie&amp;conversation=Valkyrie.Introductory note&amp;L3STinstance=Valkyrie.Introductory note.Titles">
+      <Description>At the beginnig of the film the audience is told that the film story is based on a true story</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Valkyrie.Introductory note.Titles" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Das folgende beruht auf wahren begebenheiten&#xD;&#xA;The following is based on a true story" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="German and English" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-01-17T09:45:15" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-01-17T09:48:02" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Valkyrie" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Valkyrie.Introductory note" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L3ST language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST language">
+          <String Value="German, English" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="YES, (almost) completely" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3ST speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3ST mode, written/spoken, diegetic">
+          <String Value="Written non-diegetic" />
+        </Facet>
+        <Facet Name="L3ST merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
+        <Facet Name="L3ST functions">
+          <String Value="Metalinguistic" />
+        </Facet>
+        <Facet Name="Conversation features for L3ST-instance">
+          <String Value="information" />
+        </Facet>
+        <Facet Name="L3ST sources">
+          <String Value="Oral L3: single source" />
+        </Facet>
+        <Facet Name="L3TT-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Valkyrie.Oath.In German" Name="Valkyrie.Oath" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Valkyrie&amp;conversation=Valkyrie.Oath&amp;L3STinstance=Valkyrie.Oath.In German">
+      <Description>Ad libs in German. Oath to defend Germany</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Valkyrie.Oath.In German" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="I swear by God this sacred oath:&#xD;&#xA;&#xD;&#xA;That I shall render unconditional obedience to&#xD;&#xA;&#xD;&#xA;Adolf Hitler, the Fuhrer of the German Reich, and&#xD;&#xA;&#xD;&#xA;that I shall at all times be prepared, as a brave&#xD;&#xA;&#xD;&#xA;soldier, to give my life for this oath.&#xD;&#xA;&#xD;&#xA;" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="Ad libs" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-01-17T10:17:07" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-01-17T10:20:02" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Valkyrie" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Valkyrie.Oath" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L3ST language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST language">
+          <String Value="German" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="YES, (almost) completely" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3ST speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3ST mode, written/spoken, diegetic">
+          <String Value="Oral diegetic off-screen" />
+        </Facet>
+        <Facet Name="L3ST merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
+        <Facet Name="L3ST functions">
+          <String Value="Plot (twist)" />
+          <String Value="Theme" />
+        </Facet>
+        <Facet Name="Conversation features for L3ST-instance">
+          <String Value="instruction / training" />
+        </Facet>
+        <Facet Name="L3ST sources">
+          <String Value="Oral L3: different sources " />
+        </Facet>
+        <Facet Name="L3TT-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Valkyrie.Salutation.In German" Name="Salutation" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Valkyrie&amp;conversation=Valkyrie.Salutation&amp;L3STinstance=Valkyrie.Salutation.In German">
+      <Description>Salutation to the General</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Valkyrie.Salutation.In German" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Heil Hitler" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-01-17T10:34:22" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-01-17T10:36:05" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Valkyrie" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Valkyrie.Salutation" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="33" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L3ST language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST language">
+          <String Value="German" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="YES, (almost) completely" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Conversation can be followed regardless of meaning" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3ST speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3ST mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3ST merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
+        <Facet Name="L3ST functions">
+          <String Value="Dramatic effect" />
+        </Facet>
+        <Facet Name="Conversation features for L3ST-instance">
+          <String Value="formal" />
+          <String Value="salutation" />
+        </Facet>
+        <Facet Name="L3TT-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Valkyrie.Title.German and English" Name="Valkyrie.Title" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Valkyrie&amp;conversation=Valkyrie.Title&amp;L3STinstance=Valkyrie.Title.German and English">
+      <Description>The title of the film appears first in German and then in English</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Valkyrie.Title.German and English" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Valküre" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-01-17T10:01:26" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-01-17T10:02:54" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Valkyrie" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Valkyrie.Title" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L3ST language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST language">
+          <String Value="German" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="YES, (almost) completely" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3ST speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3ST mode, written/spoken, diegetic">
+          <String Value="Written non-diegetic" />
+        </Facet>
+        <Facet Name="L3ST merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
+        <Facet Name="L3ST functions">
+          <String Value="Metalinguistic" />
+        </Facet>
+        <Facet Name="Conversation features for L3ST-instance">
+          <String Value="information" />
+        </Facet>
+        <Facet Name="L3ST sources">
+          <String Value="Oral L3: single source" />
+        </Facet>
+        <Facet Name="L3TT-instances: count">
+          <Number Value="0" />
         </Facet>
       </Facets>
     </Item>

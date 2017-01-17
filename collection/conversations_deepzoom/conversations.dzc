@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection MaxLevel="7" TileSize="256" Format="png" NextItemId="175" ServerFormat="Default" xmlns="http://schemas.microsoft.com/deepzoom/2009">
+<Collection MaxLevel="7" TileSize="256" Format="png" NextItemId="176" ServerFormat="Default" xmlns="http://schemas.microsoft.com/deepzoom/2009">
   <Items>
     <I Id="0" N="0" Source="A_Passage_to_India.Dialogue_between_Aunt_and_the_doctor.dzi">
       <Size Width="1024" Height="576" />
@@ -523,7 +523,10 @@
     <I Id="173" N="173" Source="Um_filme_falado.The_captain_dinner-Captain.dzi">
       <Size Width="1024" Height="576" />
     </I>
-    <I Id="174" N="174" Source="Zootopia.Night_howlers.dzi">
+    <I Id="174" N="174" Source="Valkyrie.Introductory_note.dzi">
+      <Size Width="1024" Height="576" />
+    </I>
+    <I Id="175" N="175" Source="Zootopia.Night_howlers.dzi">
       <Size Width="1024" Height="576" />
     </I>
   </Items>

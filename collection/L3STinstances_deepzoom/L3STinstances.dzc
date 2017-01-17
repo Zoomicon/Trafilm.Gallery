@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection MaxLevel="7" TileSize="256" Format="png" NextItemId="202" ServerFormat="Default" xmlns="http://schemas.microsoft.com/deepzoom/2009">
+<Collection MaxLevel="7" TileSize="256" Format="png" NextItemId="203" ServerFormat="Default" xmlns="http://schemas.microsoft.com/deepzoom/2009">
   <Items>
     <I Id="0" N="0" Source="A_Passage_to_India.Dialogue_between_Aunt_and_the_doctor.Dialogue_between_Aunt_and_the_doctor_(Sahib).dzi">
       <Size Width="1024" Height="576" />
@@ -598,13 +598,16 @@
     <I Id="198" N="198" Source="Um_filme_falado.The_captain_dinner-Captain.Speaking_English.dzi">
       <Size Width="1024" Height="576" />
     </I>
-    <I Id="199" N="199" Source="Zootopia.Night_howlers.Apologizing.dzi">
+    <I Id="199" N="199" Source="Valkyrie.Introductory_note.Titles.dzi">
       <Size Width="1024" Height="576" />
     </I>
-    <I Id="200" N="200" Source="Zootopia.Night_howlers.Midnicampum_holicithias.dzi">
+    <I Id="200" N="200" Source="Zootopia.Night_howlers.Apologizing.dzi">
       <Size Width="1024" Height="576" />
     </I>
-    <I Id="201" N="201" Source="Zootopia.Night_howlers.Talking_in_tongues.dzi">
+    <I Id="201" N="201" Source="Zootopia.Night_howlers.Midnicampum_holicithias.dzi">
+      <Size Width="1024" Height="576" />
+    </I>
+    <I Id="202" N="202" Source="Zootopia.Night_howlers.Talking_in_tongues.dzi">
       <Size Width="1024" Height="576" />
     </I>
   </Items>

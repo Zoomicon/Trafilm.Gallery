@@ -7207,7 +7207,48 @@ Buzz: ¿Mi nave? ¿La encontraste? ¡Excelente!</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Zootopia.Night howlers" Name="Night Howlers" Img="#174" Href="http://gallery.trafilm.net/conversation/metadata/?film=Zootopia&amp;conversation=Zootopia.Night howlers">
+        <Item Id="Valkyrie.Introductory note" Name="Introductory note" Img="#174" Href="http://gallery.trafilm.net/conversation/metadata/?film=Valkyrie&amp;conversation=Valkyrie.Introductory note">
+            <Description>At the beginnig of the film the audience is told that the film story is based on a true story</Description>
+            <Facets>
+                <Facet Name="Duration (sec)">
+                    <String Value="A. 1-20" />
+                </Facet>
+                <Facet Name="Film Reference Id">
+                    <String Value="Valkyrie" />
+                </Facet>
+                <Facet Name="Film/Season title">
+                    <String Value="Valkyrie" />
+                </Facet>
+                <Facet Name="Info created">
+                    <DateTime Value="2017-01-17T09:43:22" />
+                </Facet>
+                <Facet Name="Info updated">
+                    <DateTime Value="2017-01-17T09:44:56" />
+                </Facet>
+                <Facet Name="L3ST language types: count">
+                    <Number Value="0" />
+                </Facet>
+                <Facet Name="L3ST languages: count">
+                    <Number Value="0" />
+                </Facet>
+                <Facet Name="L3ST-instances: count">
+                    <Number Value="0" />
+                </Facet>
+                <Facet Name="Metadata Editors">
+                    <String Value="Santamaria" />
+                </Facet>
+                <Facet Name="Reference Id">
+                    <String Value="Valkyrie.Introductory note" />
+                </Facet>
+                <Facet Name="Remarks">
+                    <String Value="The text in German precedes the text in English" />
+                </Facet>
+                <Facet Name="Start time (min)">
+                    <Number Value="0" />
+                </Facet>
+            </Facets>
+        </Item>
+        <Item Id="Zootopia.Night howlers" Name="Night Howlers" Img="#175" Href="http://gallery.trafilm.net/conversation/metadata/?film=Zootopia&amp;conversation=Zootopia.Night howlers">
             <Facets>
                 <Facet Name="Duration (sec)">
                     <String Value="E. 81-100" />
