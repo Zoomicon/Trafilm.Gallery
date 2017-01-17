@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection MaxLevel="7" TileSize="256" Format="png" NextItemId="285" ServerFormat="Default" xmlns="http://schemas.microsoft.com/deepzoom/2009">
+<Collection MaxLevel="7" TileSize="256" Format="png" NextItemId="296" ServerFormat="Default" xmlns="http://schemas.microsoft.com/deepzoom/2009">
   <Items>
     <I Id="0" N="0" Source="A_Passage_to_India.Dialogue_between_Aunt_and_the_doctor.Dialogue_between_Aunt_and_the_doctor_(Sahib).SpanishDub.dzi">
       <Size Width="1024" Height="576" />
@@ -847,13 +847,46 @@
     <I Id="281" N="281" Source="Valkyrie.Introductory_note.Titles.SpanishSub.dzi">
       <Size Width="1024" Height="576" />
     </I>
-    <I Id="282" N="282" Source="Zootopia.Night_howlers.Apologizing.SpanishDub.dzi">
+    <I Id="282" N="282" Source="Valkyrie.Oath.In_German.CatalanDub.dzi">
       <Size Width="1024" Height="576" />
     </I>
-    <I Id="283" N="283" Source="Zootopia.Night_howlers.Midnicampum_holicithias.SpanishDub.dzi">
+    <I Id="283" N="283" Source="Valkyrie.Oath.In_German.CatalanSub.dzi">
       <Size Width="1024" Height="576" />
     </I>
-    <I Id="284" N="284" Source="Zootopia.Night_howlers.Talking_in_tongues.SpanishDub.dzi">
+    <I Id="284" N="284" Source="Valkyrie.Oath.In_German.SpanishSub.dzi">
+      <Size Width="1024" Height="576" />
+    </I>
+    <I Id="285" N="285" Source="Valkyrie.Salutation.In_German.CatalanDub.dzi">
+      <Size Width="1024" Height="576" />
+    </I>
+    <I Id="286" N="286" Source="Valkyrie.Salutation.In_German.CatalanSub.dzi">
+      <Size Width="1024" Height="576" />
+    </I>
+    <I Id="287" N="287" Source="Valkyrie.Salutation.In_German.SpanishDub.dzi">
+      <Size Width="1024" Height="576" />
+    </I>
+    <I Id="288" N="288" Source="Valkyrie.Salutation.In_German.SpanishSub.dzi">
+      <Size Width="1024" Height="576" />
+    </I>
+    <I Id="289" N="289" Source="Valkyrie.Title.German_and_English.CatalanDub.dzi">
+      <Size Width="1024" Height="576" />
+    </I>
+    <I Id="290" N="290" Source="Valkyrie.Title.German_and_English.CatalanSub.dzi">
+      <Size Width="1024" Height="576" />
+    </I>
+    <I Id="291" N="291" Source="Valkyrie.Title.German_and_English.SpanishDub.dzi">
+      <Size Width="1024" Height="576" />
+    </I>
+    <I Id="292" N="292" Source="Valkyrie.Title.German_and_English.SpanishSub.dzi">
+      <Size Width="1024" Height="576" />
+    </I>
+    <I Id="293" N="293" Source="Zootopia.Night_howlers.Apologizing.SpanishDub.dzi">
+      <Size Width="1024" Height="576" />
+    </I>
+    <I Id="294" N="294" Source="Zootopia.Night_howlers.Midnicampum_holicithias.SpanishDub.dzi">
+      <Size Width="1024" Height="576" />
+    </I>
+    <I Id="295" N="295" Source="Zootopia.Night_howlers.Talking_in_tongues.SpanishDub.dzi">
       <Size Width="1024" Height="576" />
     </I>
   </Items>

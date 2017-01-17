@@ -10765,7 +10765,7 @@
                     <DateTime Value="2016-10-30T09:00:27" />
                 </Facet>
                 <Facet Name="Info updated">
-                    <DateTime Value="2016-11-03T04:15:47" />
+                    <DateTime Value="2017-01-17T10:30:39" />
                 </Facet>
                 <Facet Name="L2 language">
                     <String Value="Spanish" />
@@ -10829,8 +10829,8 @@
                 </Facet>
                 <Facet Name="Metadata Editors">
                     <String Value="evaespasa" />
-                    <String Value="Stavroula" />
                     <String Value="George" />
+                    <String Value="Stavroula" />
                 </Facet>
                 <Facet Name="Quality of L3TT speaker performance">
                     <String Value="clearly non-native or deficient" />
@@ -29101,7 +29101,1193 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Zootopia.Night howlers.Apologizing.SpanishDub" Name="Zootopia.Night howlers.Apologizing.SpanishDub" Img="#282" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Zootopia&amp;conversation=Zootopia.Night howlers&amp;L3STinstance=Zootopia.Night howlers.Apologizing&amp;L3TTinstance=Zootopia.Night howlers.Apologizing.SpanishDub">
+        <Item Id="Valkyrie.Oath.In German.CatalanDub" Name="Valkyrie.Oath.In German.CatalanDub" Img="#282" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Valkyrie&amp;conversation=Valkyrie.Oath&amp;L3STinstance=Valkyrie.Oath.In German&amp;L3TTinstance=Valkyrie.Oath.In German.CatalanDub">
+            <Description>Ad libs in German. Oath to defend Germany</Description>
+            <Facets>
+                <Facet Name="Conversation duration (sec)">
+                    <String Value="A. 1-20" />
+                </Facet>
+                <Facet Name="Conversation features for L3-instance change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="Conversation features for L3TT-instance">
+                    <String Value="instruction / training" />
+                </Facet>
+                <Facet Name="Conversation Reference Id">
+                    <String Value="Valkyrie.Oath" />
+                </Facet>
+                <Facet Name="Conversation start time (min)">
+                    <Number Value="1" />
+                </Facet>
+                <Facet Name="Distribution countries (TT)">
+                    <String Value="Spain" />
+                </Facet>
+                <Facet Name="Film Reference Id">
+                    <String Value="Valkyrie" />
+                </Facet>
+                <Facet Name="Film Title TT">
+                    <String Value="Valquíria" />
+                </Facet>
+                <Facet Name="Info created">
+                    <DateTime Value="2017-01-17T10:20:23" />
+                </Facet>
+                <Facet Name="Info updated">
+                    <DateTime Value="2017-01-17T10:31:30" />
+                </Facet>
+                <Facet Name="L2 language">
+                    <String Value="Catalan" />
+                </Facet>
+                <Facet Name="L2 mode">
+                    <String Value="Dubbed" />
+                </Facet>
+                <Facet Name="L2 same as L3ST">
+                    <String Value="No" />
+                </Facet>
+                <Facet Name="L3 functions change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3 language type change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3 mode change">
+                    <String Value="- Oral diegetic off-screen" />
+                    <String Value="+ Oral diegetic on-screen" />
+                </Facet>
+                <Facet Name="L3 sources change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3ST conveyed as L3TT">
+                    <String Value="No" />
+                </Facet>
+                <Facet Name="L3ST-instance Reference Id">
+                    <String Value="Valkyrie.Oath.In German" />
+                </Facet>
+                <Facet Name="L3TT functions">
+                    <String Value="Plot (twist)" />
+                    <String Value="Theme" />
+                </Facet>
+                <Facet Name="L3TT language">
+                    <String Value="Catalan" />
+                </Facet>
+                <Facet Name="L3TT language type">
+                    <String Value="Real" />
+                </Facet>
+                <Facet Name="L3TT meaning decipherable">
+                    <String Value="YES, through translation or clear from picture" />
+                </Facet>
+                <Facet Name="L3TT meant to be understood">
+                    <String Value="YES, (almost) completely" />
+                </Facet>
+                <Facet Name="L3TT merely represented">
+                    <String Value="NO / Not applicable" />
+                </Facet>
+                <Facet Name="L3TT message required for understanding">
+                    <String Value="Yes" />
+                </Facet>
+                <Facet Name="L3TT mode, written/spoken, diegetic">
+                    <String Value="Oral diegetic on-screen" />
+                </Facet>
+                <Facet Name="L3TT sources">
+                    <String Value="Oral L3: different sources " />
+                </Facet>
+                <Facet Name="Metadata Editors">
+                    <String Value="Santamaria" />
+                </Facet>
+                <Facet Name="Quality of L3TT speaker performance">
+                    <String Value="native or proficient" />
+                </Facet>
+                <Facet Name="Reference Id">
+                    <String Value="Valkyrie.Oath.In German.CatalanDub" />
+                </Facet>
+                <Facet Name="Remarks">
+                    <String Value="There is no oral text in the original version" />
+                </Facet>
+                <Facet Name="Tags">
+                    <String Value="Ad libs" />
+                </Facet>
+                <Facet Name="Transcription">
+                    <String Value="Faig aquest jurament sagrat davant Déu que obeiré incodicionalment Adolf Hitler, Führer del Reich y del poble alemany,comandant suprem de les forces armades i que estaré preparat en tot moment com a brau soldat,per donar la vida per aquest jurament" />
+                </Facet>
+                <Facet Name="Year TT released">
+                    <Number Value="2009" />
+                </Facet>
+            </Facets>
+        </Item>
+        <Item Id="Valkyrie.Oath.In German.CatalanSub" Name="Valkyrie.Oath.In German.CatalanSub" Img="#283" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Valkyrie&amp;conversation=Valkyrie.Oath&amp;L3STinstance=Valkyrie.Oath.In German&amp;L3TTinstance=Valkyrie.Oath.In German.CatalanSub">
+            <Description>Ad libs in German. Oath to defend Germany</Description>
+            <Facets>
+                <Facet Name="Conversation duration (sec)">
+                    <String Value="A. 1-20" />
+                </Facet>
+                <Facet Name="Conversation features for L3-instance change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="Conversation features for L3TT-instance">
+                    <String Value="instruction / training" />
+                </Facet>
+                <Facet Name="Conversation Reference Id">
+                    <String Value="Valkyrie.Oath" />
+                </Facet>
+                <Facet Name="Conversation start time (min)">
+                    <Number Value="1" />
+                </Facet>
+                <Facet Name="Distribution countries (TT)">
+                    <String Value="Spain" />
+                </Facet>
+                <Facet Name="Film Reference Id">
+                    <String Value="Valkyrie" />
+                </Facet>
+                <Facet Name="Film Title TT">
+                    <String Value="Valquíria" />
+                </Facet>
+                <Facet Name="Info created">
+                    <DateTime Value="2017-01-17T10:20:23" />
+                </Facet>
+                <Facet Name="Info updated">
+                    <DateTime Value="2017-01-17T10:32:02" />
+                </Facet>
+                <Facet Name="L2 language">
+                    <String Value="Catalan" />
+                </Facet>
+                <Facet Name="L2 mode">
+                    <String Value="Subtitled" />
+                </Facet>
+                <Facet Name="L2 same as L3ST">
+                    <String Value="No" />
+                </Facet>
+                <Facet Name="L3 functions change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3 language type change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3 mode change">
+                    <String Value="- Oral diegetic off-screen" />
+                    <String Value="+ Written diegetic" />
+                </Facet>
+                <Facet Name="L3 sources change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3ST conveyed as L3TT">
+                    <String Value="No" />
+                </Facet>
+                <Facet Name="L3ST-instance Reference Id">
+                    <String Value="Valkyrie.Oath.In German" />
+                </Facet>
+                <Facet Name="L3TT functions">
+                    <String Value="Plot (twist)" />
+                    <String Value="Theme" />
+                </Facet>
+                <Facet Name="L3TT language">
+                    <String Value="Catalan" />
+                </Facet>
+                <Facet Name="L3TT language type">
+                    <String Value="Real" />
+                </Facet>
+                <Facet Name="L3TT meaning decipherable">
+                    <String Value="YES, through translation or clear from picture" />
+                </Facet>
+                <Facet Name="L3TT meant to be understood">
+                    <String Value="YES, (almost) completely" />
+                </Facet>
+                <Facet Name="L3TT merely represented">
+                    <String Value="NO / Not applicable" />
+                </Facet>
+                <Facet Name="L3TT message required for understanding">
+                    <String Value="Yes" />
+                </Facet>
+                <Facet Name="L3TT mode, written/spoken, diegetic">
+                    <String Value="Written diegetic" />
+                </Facet>
+                <Facet Name="L3TT sources">
+                    <String Value="Oral L3: different sources " />
+                </Facet>
+                <Facet Name="Metadata Editors">
+                    <String Value="Santamaria" />
+                </Facet>
+                <Facet Name="Quality of L3TT speaker performance">
+                    <String Value="native or proficient" />
+                </Facet>
+                <Facet Name="Reference Id">
+                    <String Value="Valkyrie.Oath.In German.CatalanSub" />
+                </Facet>
+                <Facet Name="Tags">
+                    <String Value="Ad libs" />
+                </Facet>
+                <Facet Name="Transcription">
+                    <String Value="Faig aquest jurament sagrat davant Déu&#xD;&#xA;obeiré incodicionalment Adolf Hitler, &#xD;&#xA;Führer del Reich y del poble alemany&#xD;&#xA;comandant suprem de les forces armades&#xD;&#xA;y que estaré preparat en tot moment&#xD;&#xA;com a brau soldat,&#xD;&#xA;per donar la vida per aquest jurament" />
+                </Facet>
+                <Facet Name="Year TT released">
+                    <Number Value="2009" />
+                </Facet>
+            </Facets>
+        </Item>
+        <Item Id="Valkyrie.Oath.In German.SpanishSub" Name="Valkyrie.Oath.In German.SpanishSub" Img="#284" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Valkyrie&amp;conversation=Valkyrie.Oath&amp;L3STinstance=Valkyrie.Oath.In German&amp;L3TTinstance=Valkyrie.Oath.In German.SpanishSub">
+            <Description>Ad libs in German. Oath to defend Germany</Description>
+            <Facets>
+                <Facet Name="Conversation duration (sec)">
+                    <String Value="A. 1-20" />
+                </Facet>
+                <Facet Name="Conversation features for L3-instance change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="Conversation features for L3TT-instance">
+                    <String Value="instruction / training" />
+                </Facet>
+                <Facet Name="Conversation Reference Id">
+                    <String Value="Valkyrie.Oath" />
+                </Facet>
+                <Facet Name="Conversation start time (min)">
+                    <Number Value="1" />
+                </Facet>
+                <Facet Name="Distribution countries (TT)">
+                    <String Value="Spain" />
+                </Facet>
+                <Facet Name="Film Reference Id">
+                    <String Value="Valkyrie" />
+                </Facet>
+                <Facet Name="Film Title TT">
+                    <String Value="Valkiria" />
+                </Facet>
+                <Facet Name="Film TT Blockbuster">
+                    <String Value="YES (top 20)" />
+                </Facet>
+                <Facet Name="Info created">
+                    <DateTime Value="2017-01-17T10:20:23" />
+                </Facet>
+                <Facet Name="Info updated">
+                    <DateTime Value="2017-01-17T10:26:45" />
+                </Facet>
+                <Facet Name="L2 language">
+                    <String Value="Spanish" />
+                </Facet>
+                <Facet Name="L2 mode">
+                    <String Value="Subtitled" />
+                </Facet>
+                <Facet Name="L2 same as L3ST">
+                    <String Value="No" />
+                </Facet>
+                <Facet Name="L3 functions change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3 language type change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3 mode change">
+                    <String Value="- Oral diegetic off-screen" />
+                    <String Value="+ Oral diegetic on-screen" />
+                </Facet>
+                <Facet Name="L3 sources change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3ST conveyed as L3TT">
+                    <String Value="No" />
+                </Facet>
+                <Facet Name="L3ST-instance Reference Id">
+                    <String Value="Valkyrie.Oath.In German" />
+                </Facet>
+                <Facet Name="L3TT functions">
+                    <String Value="Plot (twist)" />
+                    <String Value="Theme" />
+                </Facet>
+                <Facet Name="L3TT language">
+                    <String Value="Spanish" />
+                </Facet>
+                <Facet Name="L3TT language type">
+                    <String Value="Real" />
+                </Facet>
+                <Facet Name="L3TT meaning decipherable">
+                    <String Value="YES, through translation or clear from picture" />
+                </Facet>
+                <Facet Name="L3TT meant to be understood">
+                    <String Value="YES, (almost) completely" />
+                </Facet>
+                <Facet Name="L3TT merely represented">
+                    <String Value="NO / Not applicable" />
+                </Facet>
+                <Facet Name="L3TT message required for understanding">
+                    <String Value="Yes" />
+                </Facet>
+                <Facet Name="L3TT mode, written/spoken, diegetic">
+                    <String Value="Oral diegetic on-screen" />
+                </Facet>
+                <Facet Name="L3TT sources">
+                    <String Value="Oral L3: different sources " />
+                </Facet>
+                <Facet Name="Metadata Editors">
+                    <String Value="Santamaria" />
+                </Facet>
+                <Facet Name="Quality of L3TT speaker performance">
+                    <String Value="native or proficient" />
+                </Facet>
+                <Facet Name="Reference Id">
+                    <String Value="Valkyrie.Oath.In German.SpanishSub" />
+                </Facet>
+                <Facet Name="Tags">
+                    <String Value="Ad libs" />
+                </Facet>
+                <Facet Name="Transcription">
+                    <String Value="Juro por Dios que obedeceré&#xD;&#xA;incodicionalmente a Adolf Hitler, &#xD;&#xA;Führer del Reich y del pueblo alemán&#xD;&#xA;y Comandante supremo de las Fuerzas Armadas&#xD;&#xA;y que, como soldado valiente, estaré dispuesto&#xD;&#xA;a dar mi vida por este juramento&#xD;&#xA;" />
+                </Facet>
+                <Facet Name="Year TT released">
+                    <Number Value="2009" />
+                </Facet>
+            </Facets>
+        </Item>
+        <Item Id="Valkyrie.Salutation.In German.CatalanDub" Name="Valkyrie.Salutation.In German.CatalanDub" Img="#285" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Valkyrie&amp;conversation=Valkyrie.Salutation&amp;L3STinstance=Valkyrie.Salutation.In German&amp;L3TTinstance=Valkyrie.Salutation.In German.CatalanDub">
+            <Description>Salutation to the General</Description>
+            <Facets>
+                <Facet Name="Conversation duration (sec)">
+                    <String Value="A. 1-20" />
+                </Facet>
+                <Facet Name="Conversation features for L3-instance change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="Conversation features for L3TT-instance">
+                    <String Value="formal" />
+                    <String Value="salutation" />
+                </Facet>
+                <Facet Name="Conversation Reference Id">
+                    <String Value="Valkyrie.Salutation" />
+                </Facet>
+                <Facet Name="Conversation start time (min)">
+                    <Number Value="33" />
+                </Facet>
+                <Facet Name="Distribution countries (TT)">
+                    <String Value="Spain" />
+                </Facet>
+                <Facet Name="Film Reference Id">
+                    <String Value="Valkyrie" />
+                </Facet>
+                <Facet Name="Film Title TT">
+                    <String Value="Valqu" />
+                </Facet>
+                <Facet Name="Info created">
+                    <DateTime Value="2017-01-17T10:36:19" />
+                </Facet>
+                <Facet Name="Info updated">
+                    <DateTime Value="2017-01-17T10:49:43" />
+                </Facet>
+                <Facet Name="L2 language">
+                    <String Value="Catalan" />
+                </Facet>
+                <Facet Name="L2 mode">
+                    <String Value="Dubbed" />
+                </Facet>
+                <Facet Name="L2 same as L3ST">
+                    <String Value="No" />
+                </Facet>
+                <Facet Name="L3 functions change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3 language type change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3 mode change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3 sources change">
+                    <String Value="- " />
+                    <String Value="+ Bilingual (L3&amp;main): same source " />
+                </Facet>
+                <Facet Name="L3ST conveyed as L3TT">
+                    <String Value="Yes" />
+                </Facet>
+                <Facet Name="L3ST-instance Reference Id">
+                    <String Value="Valkyrie.Salutation.In German" />
+                </Facet>
+                <Facet Name="L3TT functions">
+                    <String Value="Dramatic effect" />
+                </Facet>
+                <Facet Name="L3TT language">
+                    <String Value="German" />
+                </Facet>
+                <Facet Name="L3TT language type">
+                    <String Value="Real" />
+                </Facet>
+                <Facet Name="L3TT meaning decipherable">
+                    <String Value="YES, through translation or clear from picture" />
+                </Facet>
+                <Facet Name="L3TT meant to be understood">
+                    <String Value="YES, (almost) completely" />
+                </Facet>
+                <Facet Name="L3TT merely represented">
+                    <String Value="NO / Not applicable" />
+                </Facet>
+                <Facet Name="L3TT message required for understanding">
+                    <String Value="Conversation can be followed regardless of meaning" />
+                </Facet>
+                <Facet Name="L3TT mode, written/spoken, diegetic">
+                    <String Value="Oral diegetic on-screen" />
+                </Facet>
+                <Facet Name="L3TT represented: visual">
+                    <String Value="Gesture (movement / body language)" />
+                </Facet>
+                <Facet Name="L3TT sources">
+                    <String Value="Bilingual (L3&amp;main): same source " />
+                </Facet>
+                <Facet Name="Metadata Editors">
+                    <String Value="Santamaria" />
+                </Facet>
+                <Facet Name="Quality of L3TT speaker performance">
+                    <String Value="clearly non-native or deficient" />
+                </Facet>
+                <Facet Name="Reference Id">
+                    <String Value="Valkyrie.Salutation.In German.CatalanDub" />
+                </Facet>
+                <Facet Name="Transcription">
+                    <String Value="Heil Hitler, general" />
+                </Facet>
+                <Facet Name="Year TT released">
+                    <Number Value="2009" />
+                </Facet>
+            </Facets>
+        </Item>
+        <Item Id="Valkyrie.Salutation.In German.CatalanSub" Name="Valkyrie.Salutation.In German.CatalanSub" Img="#286" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Valkyrie&amp;conversation=Valkyrie.Salutation&amp;L3STinstance=Valkyrie.Salutation.In German&amp;L3TTinstance=Valkyrie.Salutation.In German.CatalanSub">
+            <Description>Salutation to the General</Description>
+            <Facets>
+                <Facet Name="Conversation duration (sec)">
+                    <String Value="A. 1-20" />
+                </Facet>
+                <Facet Name="Conversation features for L3-instance change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="Conversation features for L3TT-instance">
+                    <String Value="formal" />
+                    <String Value="salutation" />
+                </Facet>
+                <Facet Name="Conversation Reference Id">
+                    <String Value="Valkyrie.Salutation" />
+                </Facet>
+                <Facet Name="Conversation start time (min)">
+                    <Number Value="33" />
+                </Facet>
+                <Facet Name="Distribution countries (TT)">
+                    <String Value="Spain" />
+                </Facet>
+                <Facet Name="Film Reference Id">
+                    <String Value="Valkyrie" />
+                </Facet>
+                <Facet Name="Film Title TT">
+                    <String Value="Valquíria" />
+                </Facet>
+                <Facet Name="Info created">
+                    <DateTime Value="2017-01-17T10:36:19" />
+                </Facet>
+                <Facet Name="Info updated">
+                    <DateTime Value="2017-01-17T10:51:22" />
+                </Facet>
+                <Facet Name="L2 language">
+                    <String Value="Catalan" />
+                </Facet>
+                <Facet Name="L2 mode">
+                    <String Value="Subtitled" />
+                </Facet>
+                <Facet Name="L2 same as L3ST">
+                    <String Value="No" />
+                </Facet>
+                <Facet Name="L3 functions change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3 language type change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3 mode change">
+                    <String Value="- Oral diegetic on-screen" />
+                    <String Value="+ Written diegetic" />
+                </Facet>
+                <Facet Name="L3 sources change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3ST conveyed as L3TT">
+                    <String Value="Yes" />
+                </Facet>
+                <Facet Name="L3ST-instance Reference Id">
+                    <String Value="Valkyrie.Salutation.In German" />
+                </Facet>
+                <Facet Name="L3TT functions">
+                    <String Value="Dramatic effect" />
+                </Facet>
+                <Facet Name="L3TT language">
+                    <String Value="German" />
+                </Facet>
+                <Facet Name="L3TT language type">
+                    <String Value="Real" />
+                </Facet>
+                <Facet Name="L3TT meaning decipherable">
+                    <String Value="YES, through translation or clear from picture" />
+                </Facet>
+                <Facet Name="L3TT meant to be understood">
+                    <String Value="YES, (almost) completely" />
+                </Facet>
+                <Facet Name="L3TT merely represented">
+                    <String Value="NO / Not applicable" />
+                </Facet>
+                <Facet Name="L3TT message required for understanding">
+                    <String Value="Conversation can be followed regardless of meaning" />
+                </Facet>
+                <Facet Name="L3TT mode, written/spoken, diegetic">
+                    <String Value="Written diegetic" />
+                </Facet>
+                <Facet Name="L3TT represented: visual">
+                    <String Value="Gesture (movement / body language)" />
+                </Facet>
+                <Facet Name="Metadata Editors">
+                    <String Value="Santamaria" />
+                </Facet>
+                <Facet Name="Quality of L3TT speaker performance">
+                    <String Value="clearly non-native or deficient" />
+                </Facet>
+                <Facet Name="Reference Id">
+                    <String Value="Valkyrie.Salutation.In German.CatalanSub" />
+                </Facet>
+                <Facet Name="Transcription">
+                    <String Value="Italics &quot;Heil&quot; Hitler, general" />
+                </Facet>
+                <Facet Name="Year TT released">
+                    <Number Value="2009" />
+                </Facet>
+            </Facets>
+        </Item>
+        <Item Id="Valkyrie.Salutation.In German.SpanishDub" Name="Valkyrie.Salutation.In German.SpanishDub" Img="#287" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Valkyrie&amp;conversation=Valkyrie.Salutation&amp;L3STinstance=Valkyrie.Salutation.In German&amp;L3TTinstance=Valkyrie.Salutation.In German.SpanishDub">
+            <Description>Salutation to the General</Description>
+            <Facets>
+                <Facet Name="Conversation duration (sec)">
+                    <String Value="A. 1-20" />
+                </Facet>
+                <Facet Name="Conversation features for L3-instance change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="Conversation features for L3TT-instance">
+                    <String Value="formal" />
+                    <String Value="salutation" />
+                </Facet>
+                <Facet Name="Conversation Reference Id">
+                    <String Value="Valkyrie.Salutation" />
+                </Facet>
+                <Facet Name="Conversation start time (min)">
+                    <Number Value="33" />
+                </Facet>
+                <Facet Name="Distribution countries (TT)">
+                    <String Value="Spain" />
+                </Facet>
+                <Facet Name="Film Reference Id">
+                    <String Value="Valkyrie" />
+                </Facet>
+                <Facet Name="Film Title TT">
+                    <String Value="Valkiria" />
+                </Facet>
+                <Facet Name="Film TT Blockbuster">
+                    <String Value="YES (top 20)" />
+                </Facet>
+                <Facet Name="Info created">
+                    <DateTime Value="2017-01-17T10:36:19" />
+                </Facet>
+                <Facet Name="Info updated">
+                    <DateTime Value="2017-01-17T10:53:27" />
+                </Facet>
+                <Facet Name="L2 language">
+                    <String Value="Spanish" />
+                </Facet>
+                <Facet Name="L2 mode">
+                    <String Value="Dubbed" />
+                </Facet>
+                <Facet Name="L2 same as L3ST">
+                    <String Value="No" />
+                </Facet>
+                <Facet Name="L3 functions change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3 language type change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3 mode change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3 sources change">
+                    <String Value="- " />
+                    <String Value="+ Bilingual (L3&amp;main): same source " />
+                </Facet>
+                <Facet Name="L3ST conveyed as L3TT">
+                    <String Value="Yes" />
+                </Facet>
+                <Facet Name="L3ST-instance Reference Id">
+                    <String Value="Valkyrie.Salutation.In German" />
+                </Facet>
+                <Facet Name="L3TT functions">
+                    <String Value="Dramatic effect" />
+                </Facet>
+                <Facet Name="L3TT language">
+                    <String Value="German" />
+                </Facet>
+                <Facet Name="L3TT language type">
+                    <String Value="Real" />
+                </Facet>
+                <Facet Name="L3TT meaning decipherable">
+                    <String Value="YES, through translation or clear from picture" />
+                </Facet>
+                <Facet Name="L3TT meant to be understood">
+                    <String Value="YES, (almost) completely" />
+                </Facet>
+                <Facet Name="L3TT merely represented">
+                    <String Value="NO / Not applicable" />
+                </Facet>
+                <Facet Name="L3TT message required for understanding">
+                    <String Value="Conversation can be followed regardless of meaning" />
+                </Facet>
+                <Facet Name="L3TT mode, written/spoken, diegetic">
+                    <String Value="Oral diegetic on-screen" />
+                </Facet>
+                <Facet Name="L3TT represented: visual">
+                    <String Value="Gesture (movement / body language)" />
+                </Facet>
+                <Facet Name="L3TT sources">
+                    <String Value="Bilingual (L3&amp;main): same source " />
+                </Facet>
+                <Facet Name="Metadata Editors">
+                    <String Value="Santamaria" />
+                </Facet>
+                <Facet Name="Quality of L3TT speaker performance">
+                    <String Value="clearly non-native or deficient" />
+                </Facet>
+                <Facet Name="Reference Id">
+                    <String Value="Valkyrie.Salutation.In German.SpanishDub" />
+                </Facet>
+                <Facet Name="Transcription">
+                    <String Value="Heil Hitler, mi General" />
+                </Facet>
+                <Facet Name="Year TT released">
+                    <Number Value="2009" />
+                </Facet>
+            </Facets>
+        </Item>
+        <Item Id="Valkyrie.Salutation.In German.SpanishSub" Name="Valkyrie.Salutation.In German.SpanishSub" Img="#288" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Valkyrie&amp;conversation=Valkyrie.Salutation&amp;L3STinstance=Valkyrie.Salutation.In German&amp;L3TTinstance=Valkyrie.Salutation.In German.SpanishSub">
+            <Description>Salutation to the General</Description>
+            <Facets>
+                <Facet Name="Conversation duration (sec)">
+                    <String Value="A. 1-20" />
+                </Facet>
+                <Facet Name="Conversation features for L3-instance change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="Conversation features for L3TT-instance">
+                    <String Value="formal" />
+                    <String Value="salutation" />
+                </Facet>
+                <Facet Name="Conversation Reference Id">
+                    <String Value="Valkyrie.Salutation" />
+                </Facet>
+                <Facet Name="Conversation start time (min)">
+                    <Number Value="33" />
+                </Facet>
+                <Facet Name="Distribution countries (TT)">
+                    <String Value="Spain" />
+                </Facet>
+                <Facet Name="Film Reference Id">
+                    <String Value="Valkyrie" />
+                </Facet>
+                <Facet Name="Film Title TT">
+                    <String Value="Valkiria" />
+                </Facet>
+                <Facet Name="Film TT Blockbuster">
+                    <String Value="YES (top 20)" />
+                </Facet>
+                <Facet Name="Info created">
+                    <DateTime Value="2017-01-17T10:36:19" />
+                </Facet>
+                <Facet Name="Info updated">
+                    <DateTime Value="2017-01-17T10:52:41" />
+                </Facet>
+                <Facet Name="L2 language">
+                    <String Value="Spanish" />
+                </Facet>
+                <Facet Name="L2 mode">
+                    <String Value="Subtitled" />
+                </Facet>
+                <Facet Name="L2 same as L3ST">
+                    <String Value="No" />
+                </Facet>
+                <Facet Name="L3 functions change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3 language type change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3 mode change">
+                    <String Value="- Oral diegetic on-screen" />
+                    <String Value="+ Written diegetic" />
+                </Facet>
+                <Facet Name="L3 sources change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3ST conveyed as L3TT">
+                    <String Value="Yes" />
+                </Facet>
+                <Facet Name="L3ST-instance Reference Id">
+                    <String Value="Valkyrie.Salutation.In German" />
+                </Facet>
+                <Facet Name="L3TT functions">
+                    <String Value="Dramatic effect" />
+                </Facet>
+                <Facet Name="L3TT language">
+                    <String Value="German" />
+                </Facet>
+                <Facet Name="L3TT language type">
+                    <String Value="Real" />
+                </Facet>
+                <Facet Name="L3TT meaning decipherable">
+                    <String Value="YES, through translation or clear from picture" />
+                </Facet>
+                <Facet Name="L3TT meant to be understood">
+                    <String Value="YES, (almost) completely" />
+                </Facet>
+                <Facet Name="L3TT message required for understanding">
+                    <String Value="Conversation can be followed regardless of meaning" />
+                </Facet>
+                <Facet Name="L3TT mode, written/spoken, diegetic">
+                    <String Value="Written diegetic" />
+                </Facet>
+                <Facet Name="L3TT represented: visual">
+                    <String Value="Gesture (movement / body language)" />
+                </Facet>
+                <Facet Name="Metadata Editors">
+                    <String Value="Santamaria" />
+                </Facet>
+                <Facet Name="Reference Id">
+                    <String Value="Valkyrie.Salutation.In German.SpanishSub" />
+                </Facet>
+                <Facet Name="Transcription">
+                    <String Value="Heil Hitler, mi General." />
+                </Facet>
+                <Facet Name="Year TT released">
+                    <Number Value="2009" />
+                </Facet>
+            </Facets>
+        </Item>
+        <Item Id="Valkyrie.Title.German and English.CatalanDub" Name="Valkyrie.Title.German and English.CatalanDub" Img="#289" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Valkyrie&amp;conversation=Valkyrie.Title&amp;L3STinstance=Valkyrie.Title.German and English&amp;L3TTinstance=Valkyrie.Title.German and English.CatalanDub">
+            <Description>The title of the film appears first in German and then in English</Description>
+            <Facets>
+                <Facet Name="Conversation duration (sec)">
+                    <String Value="A. 1-20" />
+                </Facet>
+                <Facet Name="Conversation features for L3-instance change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="Conversation features for L3TT-instance">
+                    <String Value="information" />
+                </Facet>
+                <Facet Name="Conversation Reference Id">
+                    <String Value="Valkyrie.Title" />
+                </Facet>
+                <Facet Name="Conversation start time (min)">
+                    <Number Value="0" />
+                </Facet>
+                <Facet Name="Distribution countries (TT)">
+                    <String Value="Spain" />
+                </Facet>
+                <Facet Name="Film Reference Id">
+                    <String Value="Valkyrie" />
+                </Facet>
+                <Facet Name="Film Title TT">
+                    <String Value="Valquíria" />
+                </Facet>
+                <Facet Name="Info created">
+                    <DateTime Value="2017-01-17T10:03:09" />
+                </Facet>
+                <Facet Name="Info updated">
+                    <DateTime Value="2017-01-17T10:12:17" />
+                </Facet>
+                <Facet Name="L2 language">
+                    <String Value="Catalan" />
+                </Facet>
+                <Facet Name="L2 mode">
+                    <String Value="Dubbed" />
+                </Facet>
+                <Facet Name="L2 same as L3ST">
+                    <String Value="No" />
+                </Facet>
+                <Facet Name="L3 functions change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3 language type change">
+                    <String Value="- Real" />
+                    <String Value="+ No L3TT: L3-instance omitted" />
+                </Facet>
+                <Facet Name="L3 mode change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3 sources change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3ST conveyed as L3TT">
+                    <String Value="No" />
+                </Facet>
+                <Facet Name="L3ST-instance Reference Id">
+                    <String Value="Valkyrie.Title.German and English" />
+                </Facet>
+                <Facet Name="L3TT functions">
+                    <String Value="Metalinguistic" />
+                </Facet>
+                <Facet Name="L3TT language">
+                    <String Value="Catalan" />
+                </Facet>
+                <Facet Name="L3TT language type">
+                    <String Value="No L3TT: L3-instance omitted" />
+                </Facet>
+                <Facet Name="L3TT meaning decipherable">
+                    <String Value="YES, through translation or clear from picture" />
+                </Facet>
+                <Facet Name="L3TT meant to be understood">
+                    <String Value="YES, (almost) completely" />
+                </Facet>
+                <Facet Name="L3TT merely represented">
+                    <String Value="NO / Not applicable" />
+                </Facet>
+                <Facet Name="L3TT message required for understanding">
+                    <String Value="Yes" />
+                </Facet>
+                <Facet Name="L3TT mode, written/spoken, diegetic">
+                    <String Value="Written non-diegetic" />
+                </Facet>
+                <Facet Name="L3TT sources">
+                    <String Value="Oral L3: single source" />
+                </Facet>
+                <Facet Name="Metadata Editors">
+                    <String Value="Santamaria" />
+                </Facet>
+                <Facet Name="Quality of L3TT speaker performance">
+                    <String Value="native or proficient" />
+                </Facet>
+                <Facet Name="Reference Id">
+                    <String Value="Valkyrie.Title.German and English.CatalanDub" />
+                </Facet>
+                <Facet Name="Remarks">
+                    <String Value="The title is dubbed although it is not orally conveyed in the original" />
+                </Facet>
+                <Facet Name="Transcription">
+                    <String Value="Valquíria" />
+                </Facet>
+                <Facet Name="Year TT released">
+                    <Number Value="2009" />
+                </Facet>
+            </Facets>
+        </Item>
+        <Item Id="Valkyrie.Title.German and English.CatalanSub" Name="Valkyrie.Title.German and English.CatalanSub" Img="#290" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Valkyrie&amp;conversation=Valkyrie.Title&amp;L3STinstance=Valkyrie.Title.German and English&amp;L3TTinstance=Valkyrie.Title.German and English.CatalanSub">
+            <Description>The title of the film appears first in German and then in English</Description>
+            <Facets>
+                <Facet Name="Conversation duration (sec)">
+                    <String Value="A. 1-20" />
+                </Facet>
+                <Facet Name="Conversation features for L3-instance change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="Conversation features for L3TT-instance">
+                    <String Value="information" />
+                </Facet>
+                <Facet Name="Conversation Reference Id">
+                    <String Value="Valkyrie.Title" />
+                </Facet>
+                <Facet Name="Conversation start time (min)">
+                    <Number Value="0" />
+                </Facet>
+                <Facet Name="Distribution countries (TT)">
+                    <String Value="Spain" />
+                </Facet>
+                <Facet Name="Film Reference Id">
+                    <String Value="Valkyrie" />
+                </Facet>
+                <Facet Name="Film Title TT">
+                    <String Value="Valquíria" />
+                </Facet>
+                <Facet Name="Info created">
+                    <DateTime Value="2017-01-17T10:03:09" />
+                </Facet>
+                <Facet Name="Info updated">
+                    <DateTime Value="2017-01-17T10:12:53" />
+                </Facet>
+                <Facet Name="L2 language">
+                    <String Value="Catalan" />
+                </Facet>
+                <Facet Name="L2 mode">
+                    <String Value="Subtitled" />
+                </Facet>
+                <Facet Name="L2 same as L3ST">
+                    <String Value="No" />
+                </Facet>
+                <Facet Name="L3 functions change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3 language type change">
+                    <String Value="- Real" />
+                    <String Value="+ No L3TT: L3-instance omitted" />
+                </Facet>
+                <Facet Name="L3 mode change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3 sources change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3ST conveyed as L3TT">
+                    <String Value="No" />
+                </Facet>
+                <Facet Name="L3ST-instance Reference Id">
+                    <String Value="Valkyrie.Title.German and English" />
+                </Facet>
+                <Facet Name="L3TT functions">
+                    <String Value="Metalinguistic" />
+                </Facet>
+                <Facet Name="L3TT language">
+                    <String Value="Catalan" />
+                </Facet>
+                <Facet Name="L3TT language type">
+                    <String Value="No L3TT: L3-instance omitted" />
+                </Facet>
+                <Facet Name="L3TT meaning decipherable">
+                    <String Value="YES, through translation or clear from picture" />
+                </Facet>
+                <Facet Name="L3TT meant to be understood">
+                    <String Value="YES, (almost) completely" />
+                </Facet>
+                <Facet Name="L3TT merely represented">
+                    <String Value="NO / Not applicable" />
+                </Facet>
+                <Facet Name="L3TT message required for understanding">
+                    <String Value="Yes" />
+                </Facet>
+                <Facet Name="L3TT mode, written/spoken, diegetic">
+                    <String Value="Written non-diegetic" />
+                </Facet>
+                <Facet Name="L3TT sources">
+                    <String Value="Oral L3: single source" />
+                </Facet>
+                <Facet Name="Metadata Editors">
+                    <String Value="Santamaria" />
+                </Facet>
+                <Facet Name="Quality of L3TT speaker performance">
+                    <String Value="native or proficient" />
+                </Facet>
+                <Facet Name="Reference Id">
+                    <String Value="Valkyrie.Title.German and English.CatalanSub" />
+                </Facet>
+                <Facet Name="Transcription">
+                    <String Value="Valquíria" />
+                </Facet>
+                <Facet Name="Year TT released">
+                    <Number Value="2009" />
+                </Facet>
+            </Facets>
+        </Item>
+        <Item Id="Valkyrie.Title.German and English.SpanishDub" Name="Valkyrie.Title.German and English.SpanishDub" Img="#291" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Valkyrie&amp;conversation=Valkyrie.Title&amp;L3STinstance=Valkyrie.Title.German and English&amp;L3TTinstance=Valkyrie.Title.German and English.SpanishDub">
+            <Description>The title of the film appears first in German and then in English</Description>
+            <Facets>
+                <Facet Name="Conversation duration (sec)">
+                    <String Value="A. 1-20" />
+                </Facet>
+                <Facet Name="Conversation features for L3-instance change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="Conversation features for L3TT-instance">
+                    <String Value="information" />
+                </Facet>
+                <Facet Name="Conversation Reference Id">
+                    <String Value="Valkyrie.Title" />
+                </Facet>
+                <Facet Name="Conversation start time (min)">
+                    <Number Value="0" />
+                </Facet>
+                <Facet Name="Distribution countries (TT)">
+                    <String Value="Spain" />
+                </Facet>
+                <Facet Name="Film Reference Id">
+                    <String Value="Valkyrie" />
+                </Facet>
+                <Facet Name="Film Title TT">
+                    <String Value="Valkiria" />
+                </Facet>
+                <Facet Name="Film TT Blockbuster">
+                    <String Value="YES (top 20)" />
+                </Facet>
+                <Facet Name="Info created">
+                    <DateTime Value="2017-01-17T10:03:09" />
+                </Facet>
+                <Facet Name="Info updated">
+                    <DateTime Value="2017-01-17T10:05:33" />
+                </Facet>
+                <Facet Name="L2 language">
+                    <String Value="Spanish" />
+                </Facet>
+                <Facet Name="L2 mode">
+                    <String Value="Subtitled" />
+                </Facet>
+                <Facet Name="L2 same as L3ST">
+                    <String Value="No" />
+                </Facet>
+                <Facet Name="L3 functions change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3 language type change">
+                    <String Value="- Real" />
+                    <String Value="+ No L3TT: L3-instance omitted" />
+                </Facet>
+                <Facet Name="L3 mode change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3 sources change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3ST conveyed as L3TT">
+                    <String Value="No" />
+                </Facet>
+                <Facet Name="L3ST-instance Reference Id">
+                    <String Value="Valkyrie.Title.German and English" />
+                </Facet>
+                <Facet Name="L3TT functions">
+                    <String Value="Metalinguistic" />
+                </Facet>
+                <Facet Name="L3TT language">
+                    <String Value="Spanish" />
+                </Facet>
+                <Facet Name="L3TT language type">
+                    <String Value="No L3TT: L3-instance omitted" />
+                </Facet>
+                <Facet Name="L3TT meaning decipherable">
+                    <String Value="YES, through translation or clear from picture" />
+                </Facet>
+                <Facet Name="L3TT meant to be understood">
+                    <String Value="YES, (almost) completely" />
+                </Facet>
+                <Facet Name="L3TT merely represented">
+                    <String Value="NO / Not applicable" />
+                </Facet>
+                <Facet Name="L3TT message required for understanding">
+                    <String Value="Yes" />
+                </Facet>
+                <Facet Name="L3TT mode, written/spoken, diegetic">
+                    <String Value="Written non-diegetic" />
+                </Facet>
+                <Facet Name="L3TT sources">
+                    <String Value="Oral L3: single source" />
+                </Facet>
+                <Facet Name="Metadata Editors">
+                    <String Value="Santamaria" />
+                </Facet>
+                <Facet Name="Quality of L3TT speaker performance">
+                    <String Value="native or proficient" />
+                </Facet>
+                <Facet Name="Reference Id">
+                    <String Value="Valkyrie.Title.German and English.SpanishDub" />
+                </Facet>
+                <Facet Name="Transcription">
+                    <String Value="Valkiria" />
+                </Facet>
+                <Facet Name="Year TT released">
+                    <Number Value="2009" />
+                </Facet>
+            </Facets>
+        </Item>
+        <Item Id="Valkyrie.Title.German and English.SpanishSub" Name="Valkyrie.Title.German and English.SpanishSub" Img="#292" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Valkyrie&amp;conversation=Valkyrie.Title&amp;L3STinstance=Valkyrie.Title.German and English&amp;L3TTinstance=Valkyrie.Title.German and English.SpanishSub">
+            <Description>The title of the film appears first in German and then in English</Description>
+            <Facets>
+                <Facet Name="Conversation duration (sec)">
+                    <String Value="A. 1-20" />
+                </Facet>
+                <Facet Name="Conversation features for L3-instance change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="Conversation features for L3TT-instance">
+                    <String Value="information" />
+                </Facet>
+                <Facet Name="Conversation Reference Id">
+                    <String Value="Valkyrie.Title" />
+                </Facet>
+                <Facet Name="Conversation start time (min)">
+                    <Number Value="0" />
+                </Facet>
+                <Facet Name="Distribution countries (TT)">
+                    <String Value="Spain" />
+                </Facet>
+                <Facet Name="Film Reference Id">
+                    <String Value="Valkyrie" />
+                </Facet>
+                <Facet Name="Film Title TT">
+                    <String Value="Valkiria" />
+                </Facet>
+                <Facet Name="Film TT Blockbuster">
+                    <String Value="YES (top 20)" />
+                </Facet>
+                <Facet Name="Info created">
+                    <DateTime Value="2017-01-17T10:06:23" />
+                </Facet>
+                <Facet Name="Info updated">
+                    <DateTime Value="2017-01-17T10:10:20" />
+                </Facet>
+                <Facet Name="L2 language">
+                    <String Value="Spanish" />
+                </Facet>
+                <Facet Name="L2 mode">
+                    <String Value="Subtitled" />
+                </Facet>
+                <Facet Name="L2 same as L3ST">
+                    <String Value="No" />
+                </Facet>
+                <Facet Name="L3 functions change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3 language type change">
+                    <String Value="- Real" />
+                    <String Value="+ No L3TT: L3-instance omitted" />
+                </Facet>
+                <Facet Name="L3 mode change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3 sources change">
+                    <String Value="None" />
+                </Facet>
+                <Facet Name="L3ST conveyed as L3TT">
+                    <String Value="No" />
+                </Facet>
+                <Facet Name="L3ST-instance Reference Id">
+                    <String Value="Valkyrie.Title.German and English" />
+                </Facet>
+                <Facet Name="L3TT functions">
+                    <String Value="Metalinguistic" />
+                </Facet>
+                <Facet Name="L3TT language">
+                    <String Value="Spanish" />
+                </Facet>
+                <Facet Name="L3TT language type">
+                    <String Value="No L3TT: L3-instance omitted" />
+                </Facet>
+                <Facet Name="L3TT meaning decipherable">
+                    <String Value="YES, through translation or clear from picture" />
+                </Facet>
+                <Facet Name="L3TT meant to be understood">
+                    <String Value="YES, (almost) completely" />
+                </Facet>
+                <Facet Name="L3TT message required for understanding">
+                    <String Value="Yes" />
+                </Facet>
+                <Facet Name="L3TT mode, written/spoken, diegetic">
+                    <String Value="Written non-diegetic" />
+                </Facet>
+                <Facet Name="L3TT sources">
+                    <String Value="Oral L3: single source" />
+                </Facet>
+                <Facet Name="Metadata Editors">
+                    <String Value="Santamaria" />
+                </Facet>
+                <Facet Name="Quality of L3TT speaker performance">
+                    <String Value="native or proficient" />
+                </Facet>
+                <Facet Name="Reference Id">
+                    <String Value="Valkyrie.Title.German and English.SpanishSub" />
+                </Facet>
+                <Facet Name="Year TT released">
+                    <Number Value="2009" />
+                </Facet>
+            </Facets>
+        </Item>
+        <Item Id="Zootopia.Night howlers.Apologizing.SpanishDub" Name="Zootopia.Night howlers.Apologizing.SpanishDub" Img="#293" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Zootopia&amp;conversation=Zootopia.Night howlers&amp;L3STinstance=Zootopia.Night howlers.Apologizing&amp;L3TTinstance=Zootopia.Night howlers.Apologizing.SpanishDub">
             <Facets>
                 <Facet Name="Conversation duration (sec)">
                     <String Value="E. 81-100" />
@@ -29182,7 +30368,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Zootopia.Night howlers.Midnicampum holicithias.SpanishDub" Name="Zootopia.Night howlers.Midnicampum holicithias.SpanishDub" Img="#283" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Zootopia&amp;conversation=Zootopia.Night howlers&amp;L3STinstance=Zootopia.Night howlers.Midnicampum holicithias&amp;L3TTinstance=Zootopia.Night howlers.Midnicampum holicithias.SpanishDub">
+        <Item Id="Zootopia.Night howlers.Midnicampum holicithias.SpanishDub" Name="Zootopia.Night howlers.Midnicampum holicithias.SpanishDub" Img="#294" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Zootopia&amp;conversation=Zootopia.Night howlers&amp;L3STinstance=Zootopia.Night howlers.Midnicampum holicithias&amp;L3TTinstance=Zootopia.Night howlers.Midnicampum holicithias.SpanishDub">
             <Facets>
                 <Facet Name="Conversation duration (sec)">
                     <String Value="E. 81-100" />
@@ -29263,7 +30449,7 @@ At the same time Mathis is on the phone</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Zootopia.Night howlers.Talking in tongues.SpanishDub" Name="Zootopia.Night howlers.Talking in tongues.SpanishDub" Img="#284" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Zootopia&amp;conversation=Zootopia.Night howlers&amp;L3STinstance=Zootopia.Night howlers.Talking in tongues&amp;L3TTinstance=Zootopia.Night howlers.Talking in tongues.SpanishDub">
+        <Item Id="Zootopia.Night howlers.Talking in tongues.SpanishDub" Name="Zootopia.Night howlers.Talking in tongues.SpanishDub" Img="#295" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Zootopia&amp;conversation=Zootopia.Night howlers&amp;L3STinstance=Zootopia.Night howlers.Talking in tongues&amp;L3TTinstance=Zootopia.Night howlers.Talking in tongues.SpanishDub">
             <Facets>
                 <Facet Name="Conversation duration (sec)">
                     <String Value="E. 81-100" />

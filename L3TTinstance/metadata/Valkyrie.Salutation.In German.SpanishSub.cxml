@@ -48,11 +48,14 @@
         <Facet Name="Reference Id">
           <String Value="Valkyrie.Salutation.In German.SpanishSub" />
         </Facet>
+        <Facet Name="Transcription">
+          <String Value="Heil Hitler, mi General." />
+        </Facet>
         <Facet Name="Info created">
           <DateTime Value="2017-01-17T10:36:19" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-01-17T10:38:59" />
+          <DateTime Value="2017-01-17T10:52:41" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -94,27 +97,48 @@
           <String Value="No" />
         </Facet>
         <Facet Name="L3ST conveyed as L3TT">
-          <String Value="No" />
+          <String Value="Yes" />
         </Facet>
         <Facet Name="L3TT language type">
-          <String Value="No L3TT: L3-instance omitted" />
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3TT language">
+          <String Value="German" />
+        </Facet>
+        <Facet Name="L3TT meant to be understood">
+          <String Value="YES, (almost) completely" />
+        </Facet>
+        <Facet Name="L3TT message required for understanding">
+          <String Value="Conversation can be followed regardless of meaning" />
+        </Facet>
+        <Facet Name="L3TT meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="L3TT mode, written/spoken, diegetic">
+          <String Value="Written diegetic" />
         </Facet>
         <Facet Name="L3TT represented: visual">
           <String Value="Gesture (movement / body language)" />
         </Facet>
+        <Facet Name="L3TT functions">
+          <String Value="Dramatic effect" />
+        </Facet>
+        <Facet Name="Conversation features for L3TT-instance">
+          <String Value="formal" />
+          <String Value="salutation" />
+        </Facet>
         <Facet Name="L3 language type change">
-          <String Value="- Real" />
-          <String Value="+ No L3TT: L3-instance omitted" />
+          <String Value="None" />
         </Facet>
         <Facet Name="L3 mode change">
           <String Value="- Oral diegetic on-screen" />
+          <String Value="+ Written diegetic" />
         </Facet>
         <Facet Name="L3 functions change">
-          <String Value="- Dramatic effect" />
+          <String Value="None" />
         </Facet>
         <Facet Name="Conversation features for L3-instance change">
-          <String Value="- formal" />
-          <String Value="- salutation" />
+          <String Value="None" />
         </Facet>
         <Facet Name="L3 sources change">
           <String Value="None" />

@@ -22,9 +22,9 @@
     <FacetCategory Name="Conversation features for L3ST-instance" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3ST sources" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3TT-instances: count" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
-    <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Tags" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -39,19 +39,16 @@
         <Facet Name="Transcription">
           <String Value="Bonita Aurelia. Eu ver aqui para te pedir para casar conmigo. E se que… que ser loco porque mal te conheco. Ma as veces as coisas son muito claras para mi. Por… Non… non preciso di prova. Eu vive aqui o tu viver na Inglaterra conmigo. &#xD;&#xA;[Aurelias’ sister interrupts in Portuguese with English subtitles]&#xD;&#xA;E claro que io saber que tu non… nao es tan loca com eu. E claro que eu pensar que tu diz nao. Mas e Natal, e… so… queria saber&#xD;&#xA;&#xD;&#xA;Subtitles are provided in English: &#xD;&#xA;Beautiful Aurelia... &#xD;&#xA;I've come here with a view to asking you...&#xD;&#xA;to marriage me. &#xD;&#xA;I know I seems an insane person because I hardly knows you &#xD;&#xA;but sometimes things are so transparency, &#xD;&#xA;they don't need evidential proof. &#xD;&#xA;And I will inhabit here, &#xD;&#xA;or you can inhabit with me in England.&#xD;&#xA;Aurelia'sister: Definitely go for England, girl.&#xD;&#xA;You'll meet Prince William -then you can marry him instead.&#xD;&#xA;Jamie: Of course I don't expecting you　to be as foolish as me, &#xD;&#xA;and of course I prediction you say no.... &#xD;&#xA;but it's Christmas　and I just wanted to...check." />
         </Facet>
-        <Facet Name="Remarks">
-          <String Value="Jamie speaks in defective Portuguese, a mixture of latin languages." />
-        </Facet>
         <Facet Name="Info created">
           <DateTime Value="2016-06-15T01:37:59" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-11-03T03:49:58" />
+          <DateTime Value="2017-01-17T11:21:16" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="evaespasa" />
-          <String Value="Stavroula" />
           <String Value="George" />
+          <String Value="Stavroula" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="LoveActually" />
@@ -88,7 +85,6 @@
         </Facet>
         <Facet Name="L3ST mode, written/spoken, diegetic">
           <String Value="Oral diegetic on-screen" />
-          <String Value="Written diegetic" />
         </Facet>
         <Facet Name="L3ST merely represented">
           <String Value="NO / Not applicable" />

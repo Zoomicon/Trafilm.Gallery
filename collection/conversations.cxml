@@ -7248,7 +7248,127 @@ Buzz: ¿Mi nave? ¿La encontraste? ¡Excelente!</Description>
                 </Facet>
             </Facets>
         </Item>
-        <Item Id="Zootopia.Night howlers" Name="Night Howlers" Img="#175" Href="http://gallery.trafilm.net/conversation/metadata/?film=Zootopia&amp;conversation=Zootopia.Night howlers">
+        <Item Id="Valkyrie.Oath" Name="Valkyrie.Oath" Img="#175" Href="http://gallery.trafilm.net/conversation/metadata/?film=Valkyrie&amp;conversation=Valkyrie.Oath">
+            <Description>Ad libs in German. Oath to defend Germany</Description>
+            <Facets>
+                <Facet Name="Duration (sec)">
+                    <String Value="A. 1-20" />
+                </Facet>
+                <Facet Name="Film Reference Id">
+                    <String Value="Valkyrie" />
+                </Facet>
+                <Facet Name="Film/Season title">
+                    <String Value="Valkyrie" />
+                </Facet>
+                <Facet Name="Info created">
+                    <DateTime Value="2017-01-17T09:43:22" />
+                </Facet>
+                <Facet Name="Info updated">
+                    <DateTime Value="2017-01-17T10:16:52" />
+                </Facet>
+                <Facet Name="L3ST language types: count">
+                    <Number Value="0" />
+                </Facet>
+                <Facet Name="L3ST languages: count">
+                    <Number Value="0" />
+                </Facet>
+                <Facet Name="L3ST-instances: count">
+                    <Number Value="0" />
+                </Facet>
+                <Facet Name="Metadata Editors">
+                    <String Value="Santamaria" />
+                </Facet>
+                <Facet Name="Reference Id">
+                    <String Value="Valkyrie.Oath" />
+                </Facet>
+                <Facet Name="Remarks">
+                    <String Value="The text in German is heard while on screen the text in English can be read" />
+                </Facet>
+                <Facet Name="Start time (min)">
+                    <Number Value="1" />
+                </Facet>
+            </Facets>
+        </Item>
+        <Item Id="Valkyrie.Salutation" Name="Salutation" Img="#176" Href="http://gallery.trafilm.net/conversation/metadata/?film=Valkyrie&amp;conversation=Valkyrie.Salutation">
+            <Description>Salutation to the General</Description>
+            <Facets>
+                <Facet Name="Duration (sec)">
+                    <String Value="A. 1-20" />
+                </Facet>
+                <Facet Name="Film Reference Id">
+                    <String Value="Valkyrie" />
+                </Facet>
+                <Facet Name="Film/Season title">
+                    <String Value="Valkyrie" />
+                </Facet>
+                <Facet Name="Info created">
+                    <DateTime Value="2017-01-17T10:33:03" />
+                </Facet>
+                <Facet Name="Info updated">
+                    <DateTime Value="2017-01-17T10:34:10" />
+                </Facet>
+                <Facet Name="L3ST language types: count">
+                    <Number Value="0" />
+                </Facet>
+                <Facet Name="L3ST languages: count">
+                    <Number Value="0" />
+                </Facet>
+                <Facet Name="L3ST-instances: count">
+                    <Number Value="0" />
+                </Facet>
+                <Facet Name="Metadata Editors">
+                    <String Value="Santamaria" />
+                </Facet>
+                <Facet Name="Reference Id">
+                    <String Value="Valkyrie.Salutation" />
+                </Facet>
+                <Facet Name="Start time (min)">
+                    <Number Value="33" />
+                </Facet>
+            </Facets>
+        </Item>
+        <Item Id="Valkyrie.Title" Name="Valkyrie.Title" Img="#177" Href="http://gallery.trafilm.net/conversation/metadata/?film=Valkyrie&amp;conversation=Valkyrie.Title">
+            <Description>The title of the film appears first in German and then in English</Description>
+            <Facets>
+                <Facet Name="Duration (sec)">
+                    <String Value="A. 1-20" />
+                </Facet>
+                <Facet Name="Film Reference Id">
+                    <String Value="Valkyrie" />
+                </Facet>
+                <Facet Name="Film/Season title">
+                    <String Value="Valkyrie" />
+                </Facet>
+                <Facet Name="Info created">
+                    <DateTime Value="2017-01-17T09:43:22" />
+                </Facet>
+                <Facet Name="Info updated">
+                    <DateTime Value="2017-01-17T10:00:58" />
+                </Facet>
+                <Facet Name="L3ST language types: count">
+                    <Number Value="0" />
+                </Facet>
+                <Facet Name="L3ST languages: count">
+                    <Number Value="0" />
+                </Facet>
+                <Facet Name="L3ST-instances: count">
+                    <Number Value="0" />
+                </Facet>
+                <Facet Name="Metadata Editors">
+                    <String Value="Santamaria" />
+                </Facet>
+                <Facet Name="Reference Id">
+                    <String Value="Valkyrie.Title" />
+                </Facet>
+                <Facet Name="Remarks">
+                    <String Value="The title in German precedes the text in English" />
+                </Facet>
+                <Facet Name="Start time (min)">
+                    <Number Value="0" />
+                </Facet>
+            </Facets>
+        </Item>
+        <Item Id="Zootopia.Night howlers" Name="Night Howlers" Img="#178" Href="http://gallery.trafilm.net/conversation/metadata/?film=Zootopia&amp;conversation=Zootopia.Night howlers">
             <Facets>
                 <Facet Name="Duration (sec)">
                     <String Value="E. 81-100" />

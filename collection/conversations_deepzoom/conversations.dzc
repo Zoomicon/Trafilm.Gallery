@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection MaxLevel="7" TileSize="256" Format="png" NextItemId="176" ServerFormat="Default" xmlns="http://schemas.microsoft.com/deepzoom/2009">
+<Collection MaxLevel="7" TileSize="256" Format="png" NextItemId="179" ServerFormat="Default" xmlns="http://schemas.microsoft.com/deepzoom/2009">
   <Items>
     <I Id="0" N="0" Source="A_Passage_to_India.Dialogue_between_Aunt_and_the_doctor.dzi">
       <Size Width="1024" Height="576" />
@@ -526,7 +526,16 @@
     <I Id="174" N="174" Source="Valkyrie.Introductory_note.dzi">
       <Size Width="1024" Height="576" />
     </I>
-    <I Id="175" N="175" Source="Zootopia.Night_howlers.dzi">
+    <I Id="175" N="175" Source="Valkyrie.Oath.dzi">
+      <Size Width="1024" Height="576" />
+    </I>
+    <I Id="176" N="176" Source="Valkyrie.Salutation.dzi">
+      <Size Width="1024" Height="576" />
+    </I>
+    <I Id="177" N="177" Source="Valkyrie.Title.dzi">
+      <Size Width="1024" Height="576" />
+    </I>
+    <I Id="178" N="178" Source="Zootopia.Night_howlers.dzi">
       <Size Width="1024" Height="576" />
     </I>
   </Items>
