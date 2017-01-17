@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Quantum of Solace.French accent.Making arrangements.SpanishSub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Quantum of Solace.Making arrangements.French accent.SpanishDub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -42,18 +42,18 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Quantum of Solace.French accent.Making arrangements.SpanishSub" Name="Quantum of Solace.French accent.Making arrangements.SpanishSub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.French accent&amp;L3STinstance=Quantum of Solace.French accent.Making arrangements&amp;L3TTinstance=Quantum of Solace.French accent.Making arrangements.SpanishSub">
+    <Item Id="Quantum of Solace.Making arrangements.French accent.SpanishDub" Name="Quantum of Solace.Making arrangements.French accent.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Making arrangements&amp;L3STinstance=Quantum of Solace.Making arrangements.French accent&amp;L3TTinstance=Quantum of Solace.Making arrangements.French accent.SpanishDub">
       <Description>Conversation between Mathis and Bond. Mathis has a strong French accent
  </Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Quantum of Solace.French accent.Making arrangements.SpanishSub" />
+          <String Value="Quantum of Solace.Making arrangements.French accent.SpanishDub" />
         </Facet>
         <Facet Name="Info created">
           <DateTime Value="2017-01-11T12:17:16" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-01-11T09:23:03" />
+          <DateTime Value="2017-01-11T12:22:16" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -62,10 +62,10 @@
           <String Value="Quantum of Solace" />
         </Facet>
         <Facet Name="Conversation Reference Id">
-          <String Value="Quantum of Solace.French accent" />
+          <String Value="Quantum of Solace.Making arrangements" />
         </Facet>
         <Facet Name="L3ST-instance Reference Id">
-          <String Value="Quantum of Solace.French accent.Making arrangements" />
+          <String Value="Quantum of Solace.Making arrangements.French accent" />
         </Facet>
         <Facet Name="Film Title TT">
           <String Value="Quantum of Solace" />
@@ -74,7 +74,7 @@
           <String Value="Spanish" />
         </Facet>
         <Facet Name="L2 mode">
-          <String Value="Subtitled" />
+          <String Value="Dubbed" />
         </Facet>
         <Facet Name="Distribution countries (TT)">
           <String Value="Spain" />
@@ -95,10 +95,13 @@
           <String Value="No" />
         </Facet>
         <Facet Name="L3ST conveyed as L3TT">
-          <String Value="No" />
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT language type">
+          <String Value="L-main variety (e.g. dialect, sociolect, idiolect, slang)" />
         </Facet>
         <Facet Name="L3TT language">
-          <String Value="Spanish" />
+          <String Value="Spanish with French accent" />
         </Facet>
         <Facet Name="L3TT meant to be understood">
           <String Value="YES, (almost) completely" />
@@ -110,10 +113,7 @@
           <String Value="YES, through translation or clear from picture" />
         </Facet>
         <Facet Name="Quality of L3TT speaker performance">
-          <String Value="native or proficient" />
-        </Facet>
-        <Facet Name="L3TT mode, written/spoken, diegetic">
-          <String Value="Written diegetic" />
+          <String Value="clearly non-native or deficient" />
         </Facet>
         <Facet Name="L3TT merely represented">
           <String Value="NO / Not applicable" />
@@ -129,11 +129,10 @@
         </Facet>
         <Facet Name="L3 language type change">
           <String Value="- Real" />
-          <String Value="+ " />
+          <String Value="+ L-main variety (e.g. dialect, sociolect, idiolect, slang)" />
         </Facet>
         <Facet Name="L3 mode change">
           <String Value="- Oral diegetic on-screen" />
-          <String Value="+ Written diegetic" />
         </Facet>
         <Facet Name="L3 functions change">
           <String Value="None" />
