@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="At the Changing room in a Sports centre in Tokyo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Chieko and her dad in the car" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="False" p:IsWordWheelVisible="False" />
@@ -21,27 +21,26 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Babel.At the Changing room in a Sports centre in Tokyo" Name="At the Changing room in a Sports centre in Tokyo" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Babel&amp;conversation=Babel.At the Changing room in a Sports centre in Tokyo">
-      <Description>Chieko, a 16 year-old Japanese girl is with some colleagues at the changing room of a sports centre after losing a bolleyball match.</Description>
+    <Item Id="Babel.Chieko and her dad in the car" Name="Chieko and her dad in the car" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Babel&amp;conversation=Babel.Chieko and her dad in the car">
+      <Description>Chieko and her dad, Yasujiro, are in a car in Tokyo talking about having lunch.</Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Babel.At the Changing room in a Sports centre in Tokyo" />
+          <String Value="Babel.Chieko and her dad in the car" />
         </Facet>
         <Facet Name="Tags">
           <String Value="Third language" />
           <String Value=" multilingualism" />
           <String Value=" Japanese sign language" />
           <String Value=" sign language" />
-          <String Value=" " />
         </Facet>
         <Facet Name="Remarks">
-          <String Value="In this conversation people speak sign language (we assume it's Japanese sign language. Subtitles in English and Spanish are provided in the ST and TT (Spanish debbed) respectively." />
+          <String Value="Cheikos' dad is speaking in English and sign language at the same time, whereas Cheiko speaks in sign language, which is subtitled in English." />
         </Facet>
         <Facet Name="Info created">
-          <DateTime Value="2017-01-19T11:34:14" />
+          <DateTime Value="2017-01-19T02:44:34" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-01-19T03:11:29" />
+          <DateTime Value="2017-01-19T02:47:53" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="corrius" />
@@ -59,19 +58,13 @@
           <String Value="B. 21-40" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="1" />
-        </Facet>
-        <Facet Name="L3ST languages">
-          <String Value="Sign language (Japanese)" />
+          <Number Value="0" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="1" />
-        </Facet>
-        <Facet Name="L3ST language types">
-          <String Value="Real" />
+          <Number Value="0" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="1" />
+          <Number Value="0" />
         </Facet>
       </Facets>
     </Item>

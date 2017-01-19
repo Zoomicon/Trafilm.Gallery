@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="At the Changing room in a Sports centre in Tokyo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Chieko and her dad in the car" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -30,30 +30,26 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Babel.At the Changing room in a Sports centre in Tokyo.Speaking sign language" Name="At the Changing room in a Sports centre in Tokyo" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Babel&amp;conversation=Babel.At the Changing room in a Sports centre in Tokyo&amp;L3STinstance=Babel.At the Changing room in a Sports centre in Tokyo.Speaking sign language">
-      <Description>Chieko, a 16 year-old Japanese girl is with some colleagues at the changing room of a sports centre after losing a bolleyball match.</Description>
+    <Item Id="Babel.Chieko and her dad in the car.Speaking Sign Language" Name="Chieko and her dad in the car" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Babel&amp;conversation=Babel.Chieko and her dad in the car&amp;L3STinstance=Babel.Chieko and her dad in the car.Speaking Sign Language">
+      <Description>Chieko and her dad, Yasujiro, are in a car in Tokyo talking about having lunch.</Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Babel.At the Changing room in a Sports centre in Tokyo.Speaking sign language" />
+          <String Value="Babel.Chieko and her dad in the car.Speaking Sign Language" />
         </Facet>
         <Facet Name="Transcription">
-          <String Value="Colleague 1: You shouldn't have lost your temper. We lost the game (spoken in sign language. Subtitles in English are provided)&#xD;&#xA;Chieko: It wasn't my fault, it was the ref (spoken in sign language. Subtitles in English are provided)&#xD;&#xA;Colleague 2: If you hadn't been thrown out, we would've won the game. (spoken in sign language. Subtitles in English are provided)&#xD;&#xA;Colleague 1: Why are you in a bad mood? (spoken in sign language. Subtitles in English are provided)&#xD;&#xA;Colleague 2: She's always in a bad mood because nobody's fucked her yet. (spoken in sign language. Subtitles in English are provided)&#xD;&#xA;Chieko: I'm gonna fuck your dad to get rid of my mood. (spoken in sign language. Subtitles in English are provided)&#xD;&#xA;Colleague 3: I'll see you at the J-Pop. (spoken in sign language. Subtitles in English are provided)" />
+          <String Value="Dad: (in Japanese and Sign language) What do you want to eat? (subtitles in English)&#xD;&#xA;Chieko: (in Sign language) I said I'd meet my friends from the team at J-Pop (subtitles in English)&#xD;&#xA;Dad: (in Japanese and Sign language) Didn't you tell me we would have lunch together? (subtitles in English)&#xD;&#xA;Chieko: (in Sign langugage) Dad, I told you I was going to eatwith them. You never pay attention to me (subtitles in English)" />
         </Facet>
         <Facet Name="Tags">
           <String Value="Third language" />
           <String Value=" multilingualism" />
           <String Value=" Japanese sign language" />
           <String Value=" sign language" />
-          <String Value=" " />
-        </Facet>
-        <Facet Name="Remarks">
-          <String Value="L3 has been subtitled in English." />
         </Facet>
         <Facet Name="Info created">
-          <DateTime Value="2017-01-19T11:42:01" />
+          <DateTime Value="2017-01-19T02:48:49" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-01-19T03:12:00" />
+          <DateTime Value="2017-01-19T02:55:19" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="corrius" />
@@ -62,7 +58,7 @@
           <String Value="Babel" />
         </Facet>
         <Facet Name="Conversation Reference Id">
-          <String Value="Babel.At the Changing room in a Sports centre in Tokyo" />
+          <String Value="Babel.Chieko and her dad in the car" />
         </Facet>
         <Facet Name="Conversation start time (min)">
           <Number Value="20" />
@@ -97,16 +93,16 @@
         <Facet Name="L3ST functions">
           <String Value="Character portrayal" />
           <String Value="Metaphorical (e.g. communication barrier)" />
-          <String Value="Signals otherness" />
+          <String Value="Signals the bad guy" />
         </Facet>
         <Facet Name="Conversation features for L3ST-instance">
-          <String Value="quarrel" />
+          <String Value="domestic / family" />
         </Facet>
         <Facet Name="L3ST sources">
-          <String Value="Oral L3: different sources " />
+          <String Value="Bilingual (L3&amp;main): same source " />
         </Facet>
         <Facet Name="L3TT-instances: count">
-          <Number Value="1" />
+          <Number Value="0" />
         </Facet>
       </Facets>
     </Item>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Babel.At the Changing room in a Sports centre in Tokyo.Speaking sign language.SpanishDub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Babel.Chieko and her dad in the car.Speaking Japanese.SpanishDub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -42,30 +42,26 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Babel.At the Changing room in a Sports centre in Tokyo.Speaking sign language.SpanishDub" Name="Babel.At the Changing room in a Sports centre in Tokyo.Speaking sign language.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Babel&amp;conversation=Babel.At the Changing room in a Sports centre in Tokyo&amp;L3STinstance=Babel.At the Changing room in a Sports centre in Tokyo.Speaking sign language&amp;L3TTinstance=Babel.At the Changing room in a Sports centre in Tokyo.Speaking sign language.SpanishDub">
-      <Description>Chieko, a 16 year-old Japanese girl is with some colleagues at the changing room of a sports centre after losing a bolleyball match.</Description>
+    <Item Id="Babel.Chieko and her dad in the car.Speaking Japanese.SpanishDub" Name="Babel.Chieko and her dad in the car.Speaking Japanese.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Babel&amp;conversation=Babel.Chieko and her dad in the car&amp;L3STinstance=Babel.Chieko and her dad in the car.Speaking Japanese&amp;L3TTinstance=Babel.Chieko and her dad in the car.Speaking Japanese.SpanishDub">
+      <Description>Chieko and her dad, Yasujiro, are in a car in Tokyo talking about having lunch.</Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Babel.At the Changing room in a Sports centre in Tokyo.Speaking sign language.SpanishDub" />
+          <String Value="Babel.Chieko and her dad in the car.Speaking Japanese.SpanishDub" />
         </Facet>
         <Facet Name="Transcription">
-          <String Value="AD: Las adolescentes se cambian en el vestuario y hablan con lengua de signos&#xD;&#xA;Colleague 1: Si no the hubieras cabreado no habríamos perdido. (spoken in sign language. Subtitles in Spanish are provided)&#xD;&#xA;AD: Chieko&#xD;&#xA;Chieko: No fue mi culpa, fue el árbito. (spoken in sign language. Subtitles in Spanish are provided)&#xD;&#xA;AD: Otra compañera.&#xD;&#xA;Colleague 2: Si no te hubieran hechadp habríamos ganado. (spoken in sign language. Subtitles in Spanish are provided)&#xD;&#xA;AD: Compañera 1.&#xD;&#xA;Colleague 1: ¿Por qué estás tan enfadada? (spoken in sign language. Subtitles in Spanish are provided)&#xD;&#xA;AD: Compañera 2.&#xD;&#xA;Colleague 2: Siempre está de mala leche porque aún no la han follado. (spoken in sign language. Subtitles in Spanish are provided)&#xD;&#xA;AD: Shieko.&#xD;&#xA;Chieko: Me follaré a tu padre para alegrarme. (spoken in sign language. Subtitles in Spanish are provided)&#xD;&#xA;AD: La compañera 1 rié la ocurrencia. Shieko sale del vestuario. Una tercera compañera se despide.&#xD;&#xA;Colleague 3: Nos vemos en el J-Pop. (spoken in sign language. Subtitles in Spanish are provided)" />
+          <String Value="AD: Yasujiro conduce su coche por las avenidas de Tokyio. Su hija está sentada en el asiento del copiloto.&#xD;&#xA;Dad: (in Spanish and Sign language) ¿Qué quieres comer? &#xD;&#xA;Chieko: (in Sign language) Te dije que había quedado con mis amigos en el J-Pop (dubbed and subtitled in Spanish)&#xD;&#xA;Dad: (in Spanish and Sign language) Sí, pero creí que comeríamos juntos.&#xD;&#xA;Chieko: (in Sign language) Papá, te dije que iba a comer con ellos. No me escuchas. (dubbed and subtitled in Spanish)" />
         </Facet>
         <Facet Name="Tags">
           <String Value="Third language" />
           <String Value=" multilingualism" />
           <String Value=" Japanese sign language" />
           <String Value=" sign language" />
-          <String Value=" " />
-        </Facet>
-        <Facet Name="Remarks">
-          <String Value="L3 in the ST conveyed as L3 in the TT, however the subtitles used are in English (L1) in the ST and in Spanish (L2) in the TT." />
         </Facet>
         <Facet Name="Info created">
-          <DateTime Value="2017-01-19T11:50:24" />
+          <DateTime Value="2017-01-19T03:07:46" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-01-19T03:12:35" />
+          <DateTime Value="2017-01-19T03:11:09" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="corrius" />
@@ -74,10 +70,10 @@
           <String Value="Babel" />
         </Facet>
         <Facet Name="Conversation Reference Id">
-          <String Value="Babel.At the Changing room in a Sports centre in Tokyo" />
+          <String Value="Babel.Chieko and her dad in the car" />
         </Facet>
         <Facet Name="L3ST-instance Reference Id">
-          <String Value="Babel.At the Changing room in a Sports centre in Tokyo.Speaking sign language" />
+          <String Value="Babel.Chieko and her dad in the car.Speaking Japanese" />
         </Facet>
         <Facet Name="Film Title TT">
           <String Value="Babel" />
@@ -87,9 +83,6 @@
         </Facet>
         <Facet Name="L2 mode">
           <String Value="Audio description" />
-        </Facet>
-        <Facet Name="Distribution countries (TT)">
-          <String Value="Spain" />
         </Facet>
         <Facet Name="Conversation start time (min)">
           <Number Value="20" />
@@ -101,51 +94,32 @@
           <String Value="No" />
         </Facet>
         <Facet Name="L3ST conveyed as L3TT">
-          <String Value="Yes" />
+          <String Value="No" />
         </Facet>
         <Facet Name="L3TT language type">
-          <String Value="Real" />
+          <String Value="No L3TT: L3-instance omitted" />
         </Facet>
         <Facet Name="L3TT language">
-          <String Value="Sign language (Japanese)" />
-        </Facet>
-        <Facet Name="L3TT meant to be understood">
-          <String Value="YES, (almost) completely" />
-        </Facet>
-        <Facet Name="L3TT message required for understanding">
-          <String Value="Yes" />
-        </Facet>
-        <Facet Name="L3TT meaning decipherable">
-          <String Value="YES, through translation or clear from picture" />
-        </Facet>
-        <Facet Name="Quality of L3TT speaker performance">
-          <String Value="native or proficient" />
-        </Facet>
-        <Facet Name="L3TT mode, written/spoken, diegetic">
-          <String Value="Oral diegetic on-screen" />
-        </Facet>
-        <Facet Name="L3TT functions">
-          <String Value="Character portrayal" />
-          <String Value="Metaphorical (e.g. communication barrier)" />
-          <String Value="Signals otherness" />
-        </Facet>
-        <Facet Name="L3TT sources">
-          <String Value="Oral L3: different sources " />
+          <String Value="Spanish" />
         </Facet>
         <Facet Name="L3 language type change">
-          <String Value="None" />
+          <String Value="- Real" />
+          <String Value="+ No L3TT: L3-instance omitted" />
         </Facet>
         <Facet Name="L3 mode change">
-          <String Value="None" />
+          <String Value="- Oral diegetic on-screen" />
         </Facet>
         <Facet Name="L3 functions change">
-          <String Value="None" />
+          <String Value="- Character portrayal" />
+          <String Value="- Metaphorical (e.g. communication barrier)" />
+          <String Value="- Signals the bad guy" />
         </Facet>
         <Facet Name="Conversation features for L3-instance change">
-          <String Value="- quarrel" />
+          <String Value="- domestic / family" />
         </Facet>
         <Facet Name="L3 sources change">
-          <String Value="None" />
+          <String Value="- Bilingual (L3&amp;main): same source " />
+          <String Value="+ " />
         </Facet>
       </Facets>
     </Item>
