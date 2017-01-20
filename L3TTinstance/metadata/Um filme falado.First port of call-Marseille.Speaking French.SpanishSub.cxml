@@ -34,9 +34,9 @@
     <FacetCategory Name="L3 functions change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Conversation features for L3-instance change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3 sources change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Tags" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -49,7 +49,7 @@
           <String Value="Um filme falado.First port of call-Marseille.Speaking French.SpanishSub" />
         </Facet>
         <Facet Name="Transcription">
-          <String Value="Rosa María: ¿Y como se llama usted?&#xD;&#xA;Pescador: ¿yo? Yo me llamo Joao&#xD;&#xA;Rosa María: Es curioso, mi marido también se llama Joao. Mi hija y yo vamos a verle.&#xD;&#xA;Pescador: ¿Dónde está?&#xD;&#xA;Rosa María: En Bombay." />
+          <String Value="Rosa María: ¿Y como se llama usted?&#xD;&#xA;Fisherman: ¿yo? Yo me llamo Joao&#xD;&#xA;Rosa María: Es curioso, mi marido también se llama Joao. Mi hija y yo vamos a verle.&#xD;&#xA;Fisherman: ¿Dónde está?&#xD;&#xA;Rosa María: En Bombay.Vamos de vacaciones. Es piloto de aviación civil.&#xD;&#xA;Fisherman: ¿Y van en barco?" />
         </Facet>
         <Facet Name="Tags">
           <String Value="French" />
@@ -60,11 +60,11 @@
           <DateTime Value="2016-10-17T04:46:49" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-11-03T04:58:34" />
+          <DateTime Value="2017-01-20T07:41:32" />
         </Facet>
         <Facet Name="Metadata Editors">
-          <String Value="corrius" />
           <String Value="George" />
+          <String Value="corrius" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Um filme falado" />
@@ -92,6 +92,9 @@
         </Facet>
         <Facet Name="Film TT Blockbuster">
           <String Value="NO, closer to Art film or niche market" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="8" />
         </Facet>
         <Facet Name="Conversation duration (sec)">
           <String Value="A. 1-20" />

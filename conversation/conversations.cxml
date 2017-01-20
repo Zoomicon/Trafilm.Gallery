@@ -3351,20 +3351,24 @@
           <DateTime Value="2016-06-01T04:23:13" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-19T12:23:55" />
+          <DateTime Value="2017-01-20T08:39:48" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Stavroula" />
           <String Value="George" />
+          <String Value="evaespasa" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="LoveActually" />
         </Facet>
         <Facet Name="Film/Season title">
-          <String Value="Love Actually " />
+          <String Value="Love Actually" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="43" />
         </Facet>
         <Facet Name="Duration (sec)">
-          <String Value="I. 161-180" />
+          <String Value="F. 101-120" />
         </Facet>
         <Facet Name="L3ST languages: count">
           <Number Value="1" />
@@ -3379,7 +3383,7 @@
           <String Value="Real" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="1" />
+          <Number Value="3" />
         </Facet>
       </Facets>
     </Item>

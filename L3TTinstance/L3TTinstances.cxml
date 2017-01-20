@@ -3333,6 +3333,83 @@
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Carla's Song.Talikng about the revolution.French word.SpanishDub" Name="Carla's Song.Talikng about the revolution.French word.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Carla's Song&amp;conversation=Carla's Song.Talikng about the revolution&amp;L3STinstance=Carla's Song.Talikng about the revolution.French word&amp;L3TTinstance=Carla's Song.Talikng about the revolution.French word.SpanishDub">
+      <Description>Carla is talking about the revolution</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Carla's Song.Talikng about the revolution.French word.SpanishDub" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Carla: La revolución es nuestra y vamos a defender la revolución y nadie vendrá a Nicaragua a explotar el pueblo. Ahora todos somos libres y la gente de los Estados Unidos, los gringos, no volverán aquí." />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="Third language" />
+          <String Value=" French" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-01-19T09:57:39" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-01-19T10:01:19" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="corrius" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Carla's Song" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Carla's Song.Talikng about the revolution" />
+        </Facet>
+        <Facet Name="L3ST-instance Reference Id">
+          <String Value="Carla's Song.Talikng about the revolution.French word" />
+        </Facet>
+        <Facet Name="Film Title TT">
+          <String Value="La canción de Carla" />
+        </Facet>
+        <Facet Name="L2 language">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L2 mode">
+          <String Value="Dubbed" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="67" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L2 same as L3ST">
+          <String Value="No" />
+        </Facet>
+        <Facet Name="L3ST conveyed as L3TT">
+          <String Value="No" />
+        </Facet>
+        <Facet Name="L3TT language type">
+          <String Value="No L3TT: L3-instance in L2" />
+        </Facet>
+        <Facet Name="L3TT language">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L3 language type change">
+          <String Value="- Real" />
+          <String Value="+ No L3TT: L3-instance in L2" />
+        </Facet>
+        <Facet Name="L3 mode change">
+          <String Value="- Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3 functions change">
+          <String Value="- Other" />
+        </Facet>
+        <Facet Name="Conversation features for L3-instance change">
+          <String Value="- monologue" />
+        </Facet>
+        <Facet Name="L3 sources change">
+          <String Value="- Bilingual (L3&amp;main): same source " />
+          <String Value="+ " />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Chocolat.narrator's introduction.French word.SpanishDub" Name="Chocolat.narrator's introduction.French word.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Chocolat&amp;conversation=Chocolat.narrator's introduction&amp;L3STinstance=Chocolat.narrator's introduction.French word&amp;L3TTinstance=Chocolat.narrator's introduction.French word.SpanishDub">
       <Description></Description>
       <Facets>
@@ -28876,7 +28953,7 @@ At the same time Mathis is on the phone</Description>
           <String Value="Um filme falado.First port of call-Marseille.Speaking French.SpanishSub" />
         </Facet>
         <Facet Name="Transcription">
-          <String Value="Rosa María: ¿Y como se llama usted?&#xD;&#xA;Pescador: ¿yo? Yo me llamo Joao&#xD;&#xA;Rosa María: Es curioso, mi marido también se llama Joao. Mi hija y yo vamos a verle.&#xD;&#xA;Pescador: ¿Dónde está?&#xD;&#xA;Rosa María: En Bombay." />
+          <String Value="Rosa María: ¿Y como se llama usted?&#xD;&#xA;Fisherman: ¿yo? Yo me llamo Joao&#xD;&#xA;Rosa María: Es curioso, mi marido también se llama Joao. Mi hija y yo vamos a verle.&#xD;&#xA;Fisherman: ¿Dónde está?&#xD;&#xA;Rosa María: En Bombay.Vamos de vacaciones. Es piloto de aviación civil.&#xD;&#xA;Fisherman: ¿Y van en barco?" />
         </Facet>
         <Facet Name="Tags">
           <String Value="French" />
@@ -28887,11 +28964,11 @@ At the same time Mathis is on the phone</Description>
           <DateTime Value="2016-10-17T04:46:49" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-11-03T04:58:34" />
+          <DateTime Value="2017-01-20T07:41:32" />
         </Facet>
         <Facet Name="Metadata Editors">
-          <String Value="corrius" />
           <String Value="George" />
+          <String Value="corrius" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Um filme falado" />
@@ -28919,6 +28996,9 @@ At the same time Mathis is on the phone</Description>
         </Facet>
         <Facet Name="Film TT Blockbuster">
           <String Value="NO, closer to Art film or niche market" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="8" />
         </Facet>
         <Facet Name="Conversation duration (sec)">
           <String Value="A. 1-20" />
