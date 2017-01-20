@@ -7417,17 +7417,20 @@ Buzz: ¿Mi nave? ¿La encontraste? ¡Excelente!</Description>
           <DateTime Value="2016-10-17T04:31:52" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-19T12:30:31" />
+          <DateTime Value="2017-01-20T07:39:59" />
         </Facet>
         <Facet Name="Metadata Editors">
-          <String Value="corrius" />
           <String Value="George" />
+          <String Value="corrius" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Um filme falado" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Um filme falado" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="8" />
         </Facet>
         <Facet Name="Duration (sec)">
           <String Value="A. 1-20" />
