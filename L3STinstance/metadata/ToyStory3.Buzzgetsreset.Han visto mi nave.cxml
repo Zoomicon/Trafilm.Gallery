@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="ToyStory3.Buzzgetsreset.Han visto mi nave" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Delete" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -30,8 +30,8 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="ToyStory3.Buzzgetsreset.Han visto mi nave" Name="ToyStory3.Buzzgetsreset.Han visto mi nave" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzgetsreset&amp;L3STinstance=ToyStory3.Buzzgetsreset.Han visto mi nave">
-      <Description>Hamm mentions explicitly that it doesn't understand Spanish.</Description>
+    <Item Id="ToyStory3.Buzzgetsreset.Han visto mi nave" Name="Delete" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=ToyStory3&amp;conversation=ToyStory3.Buzzgetsreset&amp;L3STinstance=ToyStory3.Buzzgetsreset.Han visto mi nave">
+      <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="ToyStory3.Buzzgetsreset.Han visto mi nave" />
@@ -43,7 +43,7 @@
           <DateTime Value="2016-12-03T08:46:08" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-12-03T09:08:26" />
+          <DateTime Value="2017-01-25T08:38:50" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Guillermo" />
@@ -94,7 +94,7 @@
           <String Value="Oral L3: single source" />
         </Facet>
         <Facet Name="L3TT-instances: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>
