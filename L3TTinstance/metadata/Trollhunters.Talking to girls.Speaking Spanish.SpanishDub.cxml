@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="A Scanner Darkly.Barry Mocks Freck.Stuttering.SpanishSub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Trollhunters.Talking to girls.Speaking Spanish.SpanishDub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -42,85 +42,110 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="A Scanner Darkly.Barry Mocks Freck.Stuttering.SpanishSub" Name="A Scanner Darkly.Barry Mocks Freck.Stuttering.SpanishSub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=A Scanner Darkly&amp;conversation=A Scanner Darkly.Barry Mocks Freck&amp;L3STinstance=A Scanner Darkly.Barry Mocks Freck.Stuttering&amp;L3TTinstance=A Scanner Darkly.Barry Mocks Freck.Stuttering.SpanishSub">
-      <Description></Description>
+    <Item Id="Trollhunters.Talking to girls.Speaking Spanish.SpanishDub" Name="Trollhunters.Talking to girls.Speaking Spanish.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Trollhunters&amp;conversation=Trollhunters.Talking to girls&amp;L3STinstance=Trollhunters.Talking to girls.Speaking Spanish&amp;L3TTinstance=Trollhunters.Talking to girls.Speaking Spanish.SpanishDub">
+      <Description>I believe he addresses Claire in Spanish because she's from Latin American origin, second or third generation (Nuñez). She recognizes Spanish, but she doesn't seem to speak it.</Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="A Scanner Darkly.Barry Mocks Freck.Stuttering.SpanishSub" />
+          <String Value="Trollhunters.Talking to girls.Speaking Spanish.SpanishDub" />
         </Facet>
         <Facet Name="Transcription">
-          <String Value="Freck: ¿Veis? Estáis como una regadera.&#xD;&#xA;Barris: No, no. Eres tú el que está completamente chalado.&#xD;&#xA;Luckman: Largo de aquí, chalado." />
+          <String Value="Jim: Boas noites.&#xD;&#xA;Claire Nuñez: ¿Hablas portugués?&#xD;&#xA;Jim: Eh... eh... eh...&#xD;&#xA;Claire's Friend: Vamos, Claire.&#xD;&#xA;Claire: ¿Te gusta Shakespeare?&#xD;&#xA;Jim: ¿Qué?&#xD;&#xA;Claire: ¿Te gusta Shakespeare?&#xD;&#xA;Jim: ¿Shakespeare?&#xD;&#xA;Claire: La obra del insti. Nos está costando encontrar chicos para las pruebas.&#xD;&#xA;Jim: Eh... ¡Ah! ¡Até ovo!" />
         </Facet>
         <Facet Name="Info created">
-          <DateTime Value="2017-01-11T04:07:47" />
+          <DateTime Value="2017-01-26T12:30:26" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-01-26T12:26:12" />
+          <DateTime Value="2017-01-26T12:38:57" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Guillermo" />
         </Facet>
         <Facet Name="Film Reference Id">
-          <String Value="A Scanner Darkly" />
+          <String Value="Trollhunters" />
         </Facet>
         <Facet Name="Conversation Reference Id">
-          <String Value="A Scanner Darkly.Barry Mocks Freck" />
+          <String Value="Trollhunters.Talking to girls" />
         </Facet>
         <Facet Name="L3ST-instance Reference Id">
-          <String Value="A Scanner Darkly.Barry Mocks Freck.Stuttering" />
+          <String Value="Trollhunters.Talking to girls.Speaking Spanish" />
         </Facet>
         <Facet Name="Film Title TT">
-          <String Value="A Scanner Darkly (Una mirada a la oscuridad)" />
+          <String Value="Trollhunters" />
         </Facet>
         <Facet Name="L2 language">
           <String Value="Spanish" />
         </Facet>
         <Facet Name="L2 mode">
-          <String Value="Subtitled" />
+          <String Value="Dubbed" />
         </Facet>
         <Facet Name="Distribution countries (TT)">
           <String Value="Spain" />
         </Facet>
         <Facet Name="Year TT released">
-          <Number Value="2006" />
+          <Number Value="2016" />
         </Facet>
         <Facet Name="Film TT Blockbuster">
-          <String Value="NO, closer to Art film or niche market" />
+          <String Value="NO, but commercially intended" />
         </Facet>
         <Facet Name="Conversation start time (min)">
-          <Number Value="51" />
+          <Number Value="8" />
         </Facet>
         <Facet Name="Conversation duration (sec)">
           <String Value="B. 21-40" />
         </Facet>
         <Facet Name="L2 same as L3ST">
-          <String Value="No" />
+          <String Value="Yes" />
         </Facet>
         <Facet Name="L3ST conveyed as L3TT">
-          <String Value="No" />
+          <String Value="Yes" />
         </Facet>
         <Facet Name="L3TT language type">
-          <String Value="No L3TT: L3-instance in L2" />
+          <String Value="Real" />
         </Facet>
         <Facet Name="L3TT language">
-          <String Value="Spanish" />
+          <String Value="Portuguese" />
+        </Facet>
+        <Facet Name="L3TT meant to be understood">
+          <String Value="YES, (almost) completely" />
+        </Facet>
+        <Facet Name="L3TT message required for understanding">
+          <String Value="Conversation can be followed regardless of meaning" />
+        </Facet>
+        <Facet Name="L3TT meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3TT speaker performance">
+          <String Value="clearly non-native or deficient" />
+        </Facet>
+        <Facet Name="L3TT mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3TT merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
+        <Facet Name="Conversation features for L3TT-instance">
+          <String Value="embarassing" />
+          <String Value="salutation" />
+          <String Value="small talk" />
+        </Facet>
+        <Facet Name="L3TT sources">
+          <String Value="Oral L3: single source" />
         </Facet>
         <Facet Name="L3 language type change">
-          <String Value="- Constructed (fictional)" />
-          <String Value="+ No L3TT: L3-instance in L2" />
+          <String Value="None" />
         </Facet>
         <Facet Name="L3 mode change">
-          <String Value="- Oral diegetic on-screen" />
+          <String Value="None" />
         </Facet>
         <Facet Name="L3 functions change">
-          <String Value="- Comedy / humour" />
+          <String Value="- Other" />
         </Facet>
         <Facet Name="Conversation features for L3-instance change">
-          <String Value="- banter" />
+          <String Value="None" />
         </Facet>
         <Facet Name="L3 sources change">
-          <String Value="- Oral L3: single source" />
-          <String Value="+ " />
+          <String Value="- Bilingual (L3&amp;main): same source " />
+          <String Value="+ Oral L3: single source" />
         </Facet>
       </Facets>
     </Item>
