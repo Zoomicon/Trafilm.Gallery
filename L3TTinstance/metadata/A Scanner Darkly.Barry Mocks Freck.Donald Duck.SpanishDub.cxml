@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="A Scanner Darkly.Barry Mocks Freck.Donald Duck.SpanishSub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="A Scanner Darkly.Barry Mocks Freck.Donald Duck.SpanishDub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -42,14 +42,14 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="A Scanner Darkly.Barry Mocks Freck.Donald Duck.SpanishSub" Name="A Scanner Darkly.Barry Mocks Freck.Donald Duck.SpanishSub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=A Scanner Darkly&amp;conversation=A Scanner Darkly.Barry Mocks Freck&amp;L3STinstance=A Scanner Darkly.Barry Mocks Freck.Donald Duck&amp;L3TTinstance=A Scanner Darkly.Barry Mocks Freck.Donald Duck.SpanishSub">
+    <Item Id="A Scanner Darkly.Barry Mocks Freck.Donald Duck.SpanishDub" Name="A Scanner Darkly.Barry Mocks Freck.Donald Duck.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=A Scanner Darkly&amp;conversation=A Scanner Darkly.Barry Mocks Freck&amp;L3STinstance=A Scanner Darkly.Barry Mocks Freck.Donald Duck&amp;L3TTinstance=A Scanner Darkly.Barry Mocks Freck.Donald Duck.SpanishDub">
       <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="A Scanner Darkly.Barry Mocks Freck.Donald Duck.SpanishSub" />
+          <String Value="A Scanner Darkly.Barry Mocks Freck.Donald Duck.SpanishDub" />
         </Facet>
         <Facet Name="Transcription">
-          <String Value="Freck: ¿Qué significa eso?&#xD;&#xA;Barris: Te diré qué significa. Significa que si te pasas consumiendo eso... no solo sentirás que tienes bichos por todas partes... sino que empezarás a hablar como el pato Donald y nadie te entenderá." />
+          <String Value="Freck: ¿Qué se supone que significa eso?&#xD;&#xA;Barris: Te diré qué significa eso, Freck. Significa que si te pasas consumiendo eso, no solo sentirás que tienes bichos por todas partes, sino que empezarás a hablar como el pato Donald (makes sounds with his mouth) y nadie te va a entender." />
         </Facet>
         <Facet Name="Tags">
           <String Value="DIS" />
@@ -58,7 +58,7 @@
           <DateTime Value="2017-01-11T03:56:11" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-01-26T01:02:54" />
+          <DateTime Value="2017-01-26T01:25:08" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Guillermo" />
@@ -79,7 +79,7 @@
           <String Value="Spanish" />
         </Facet>
         <Facet Name="L2 mode">
-          <String Value="Subtitled" />
+          <String Value="Dubbed" />
         </Facet>
         <Facet Name="Distribution countries (TT)">
           <String Value="Spain" />
@@ -100,30 +100,62 @@
           <String Value="No" />
         </Facet>
         <Facet Name="L3ST conveyed as L3TT">
-          <String Value="No" />
+          <String Value="Yes" />
         </Facet>
         <Facet Name="L3TT language type">
-          <String Value="Real" />
+          <String Value="Constructed (fictional)" />
         </Facet>
         <Facet Name="L3TT language">
           <String Value="Spanish" />
         </Facet>
+        <Facet Name="L3TT constructed based on">
+          <String Value="Gibberish" />
+        </Facet>
+        <Facet Name="L3TT meant to be understood">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="L3TT message required for understanding">
+          <String Value="Conversation can be followed regardless of meaning" />
+        </Facet>
+        <Facet Name="L3TT meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3TT speaker performance">
+          <String Value="clearly deficient or farcical" />
+        </Facet>
+        <Facet Name="L3TT mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3TT merely represented">
+          <String Value="YES: orally" />
+          <String Value="L3 mentioned, talked about" />
+        </Facet>
+        <Facet Name="L3TT merely represented orally">
+          <String Value="Non-verbal oral" />
+        </Facet>
+        <Facet Name="L3TT functions">
+          <String Value="Comedy / humour" />
+        </Facet>
+        <Facet Name="Conversation features for L3TT-instance">
+          <String Value="banter" />
+        </Facet>
+        <Facet Name="L3TT sources">
+          <String Value="Oral L3: single source" />
+        </Facet>
         <Facet Name="L3 language type change">
-          <String Value="- Constructed (fictional)" />
-          <String Value="+ Real" />
+          <String Value="None" />
         </Facet>
         <Facet Name="L3 mode change">
-          <String Value="- Oral diegetic on-screen" />
+          <String Value="None" />
         </Facet>
         <Facet Name="L3 functions change">
-          <String Value="- Comedy / humour" />
+          <String Value="None" />
         </Facet>
         <Facet Name="Conversation features for L3-instance change">
-          <String Value="- banter" />
+          <String Value="None" />
         </Facet>
         <Facet Name="L3 sources change">
-          <String Value="- Oral L3: single source" />
-          <String Value="+ " />
+          <String Value="None" />
         </Facet>
       </Facets>
     </Item>

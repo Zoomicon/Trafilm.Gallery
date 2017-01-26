@@ -37,13 +37,13 @@
           <String Value="Trollhunters.Talking about girls.I unleashed my español" />
         </Facet>
         <Facet Name="Transcription">
-          <String Value="Jim:&#xD;&#xA;Toby:&#xD;&#xA;Jim:&#xD;&#xA;Toby:&#xD;&#xA;Jim: " />
+          <String Value="Toby: You talked to her?&#xD;&#xA;Jim: Yep.&#xD;&#xA;Toby: Like, actually spoke to her? Not just, you know, in your head?&#xD;&#xA;Jim: I unleashed my Español on her.&#xD;&#xA;Toby: Oh, no." />
         </Facet>
         <Facet Name="Info created">
           <DateTime Value="2017-01-14T04:02:23" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-01-14T04:10:39" />
+          <DateTime Value="2017-01-26T01:27:01" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Guillermo" />
@@ -87,11 +87,14 @@
         <Facet Name="L3ST functions">
           <String Value="Comedy / humour" />
         </Facet>
+        <Facet Name="Conversation features for L3ST-instance">
+          <String Value="joke" />
+        </Facet>
         <Facet Name="L3ST sources">
           <String Value="Bilingual (L3&amp;main): same source " />
         </Facet>
         <Facet Name="L3TT-instances: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>

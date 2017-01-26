@@ -200,15 +200,18 @@
         <Facet Name="Transcription">
           <String Value="Arctor: What did you say, Barris? I didn't understand.&#xD;&#xA;Barris: (makes unintelligible noises similar to Donald Duck's voice)" />
         </Facet>
+        <Facet Name="Tags">
+          <String Value="DIS" />
+        </Facet>
         <Facet Name="Info created">
           <DateTime Value="2017-01-11T03:40:32" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-01-13T12:29:30" />
+          <DateTime Value="2017-01-26T01:09:30" />
         </Facet>
         <Facet Name="Metadata Editors">
-          <String Value="Guillermo" />
           <String Value="George" />
+          <String Value="Guillermo" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="A Scanner Darkly" />
@@ -256,7 +259,7 @@
           <String Value="Oral L3: single source" />
         </Facet>
         <Facet Name="L3TT-instances: count">
-          <Number Value="1" />
+          <Number Value="2" />
         </Facet>
       </Facets>
     </Item>
@@ -269,11 +272,14 @@
         <Facet Name="Transcription">
           <String Value="Freck: What is that supposed to mean?&#xD;&#xA;Barris: I'll tell you what it means, Freckles. It means that if you take too much of that stuff you not only start seeing and feeling buggy bugs all over, but you start talking like (unintelligible) and no one can understand you.&#xD;&#xA;Arctor: What did you say, Barris? I didn't understand.&#xD;&#xA;Barris: (makes unintelligible noises similar to Donald Duck's voice)" />
         </Facet>
+        <Facet Name="Tags">
+          <String Value="DIS" />
+        </Facet>
         <Facet Name="Info created">
           <DateTime Value="2017-01-11T03:40:32" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-01-11T04:02:14" />
+          <DateTime Value="2017-01-26T01:09:11" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Guillermo" />
@@ -314,6 +320,12 @@
         <Facet Name="L3ST mode, written/spoken, diegetic">
           <String Value="Oral diegetic on-screen" />
         </Facet>
+        <Facet Name="L3ST merely represented">
+          <String Value="L3 mentioned, talked about" />
+        </Facet>
+        <Facet Name="L3ST merely represented orally">
+          <String Value="Non-verbal oral" />
+        </Facet>
         <Facet Name="L3ST functions">
           <String Value="Comedy / humour" />
         </Facet>
@@ -324,7 +336,7 @@
           <String Value="Oral L3: single source" />
         </Facet>
         <Facet Name="L3TT-instances: count">
-          <Number Value="1" />
+          <Number Value="2" />
         </Facet>
       </Facets>
     </Item>
@@ -337,11 +349,14 @@
         <Facet Name="Transcription">
           <String Value="Freck: See? You guys are fucked up.&#xD;&#xA;Barris: No, no. It is y-uck-uck-uck-ou that are fuck-ucked-ed up.&#xD;&#xA;Luckman: Go Freck yourself." />
         </Facet>
+        <Facet Name="Tags">
+          <String Value="DIS" />
+        </Facet>
         <Facet Name="Info created">
           <DateTime Value="2017-01-11T03:40:32" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-01-26T12:22:56" />
+          <DateTime Value="2017-01-26T01:09:20" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Guillermo" />
@@ -392,7 +407,7 @@
           <String Value="Oral L3: single source" />
         </Facet>
         <Facet Name="L3TT-instances: count">
-          <Number Value="1" />
+          <Number Value="2" />
         </Facet>
       </Facets>
     </Item>
@@ -14424,13 +14439,13 @@ At the same time Mathis is on the phone</Description>
           <String Value="Trollhunters.Talking about girls.I unleashed my español" />
         </Facet>
         <Facet Name="Transcription">
-          <String Value="Jim:&#xD;&#xA;Toby:&#xD;&#xA;Jim:&#xD;&#xA;Toby:&#xD;&#xA;Jim: " />
+          <String Value="Toby: You talked to her?&#xD;&#xA;Jim: Yep.&#xD;&#xA;Toby: Like, actually spoke to her? Not just, you know, in your head?&#xD;&#xA;Jim: I unleashed my Español on her.&#xD;&#xA;Toby: Oh, no." />
         </Facet>
         <Facet Name="Info created">
           <DateTime Value="2017-01-14T04:02:23" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-01-14T04:10:39" />
+          <DateTime Value="2017-01-26T01:27:01" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Guillermo" />
@@ -14474,11 +14489,14 @@ At the same time Mathis is on the phone</Description>
         <Facet Name="L3ST functions">
           <String Value="Comedy / humour" />
         </Facet>
+        <Facet Name="Conversation features for L3ST-instance">
+          <String Value="joke" />
+        </Facet>
         <Facet Name="L3ST sources">
           <String Value="Bilingual (L3&amp;main): same source " />
         </Facet>
         <Facet Name="L3TT-instances: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>
