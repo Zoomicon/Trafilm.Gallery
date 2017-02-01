@@ -764,8 +764,8 @@ Based on the homonym novel by Philip K. Dick.</Description>
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Fargo" Name="Fargo Season 1" Img="" Href="http://gallery.trafilm.net/film/metadata/?film=Fargo">
-      <Description></Description>
+    <Item Id="Fargo" Name="Fargo Season 1" Img="https://i.jeded.com/i/fargo-first-season.23043.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Fargo">
+      <Description>https://en.wikipedia.org/wiki/Fargo_(season_1)</Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="Fargo" />
@@ -774,10 +774,11 @@ Based on the homonym novel by Philip K. Dick.</Description>
           <DateTime Value="2017-01-27T12:45:29" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-01-27T12:48:18" />
+          <DateTime Value="2017-02-01T03:10:20" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Stavroula" />
+          <String Value="PatrickZabalbeascoa" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Fargo Season 1" />
@@ -795,7 +796,7 @@ Based on the homonym novel by Philip K. Dick.</Description>
           <String Value="English" />
         </Facet>
         <Facet Name="Conversations: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>
