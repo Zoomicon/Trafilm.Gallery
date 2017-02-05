@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="The Girl with the Dragon Tattoo.Skål.Not translated.SpanishSub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="The Girl with the Dragon Tattoo.Front page.In Swedish.SpanishDub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -42,20 +42,20 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="The Girl with the Dragon Tattoo.Skål.Not translated.SpanishSub" Name="The Girl with the Dragon Tattoo.Skål.Not translated.SpanishSub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=The Girl with the Dragon Tattoo&amp;conversation=The Girl with the Dragon Tattoo.Skål&amp;L3STinstance=The Girl with the Dragon Tattoo.Skål.Not translated&amp;L3TTinstance=The Girl with the Dragon Tattoo.Skål.Not translated.SpanishSub">
+    <Item Id="The Girl with the Dragon Tattoo.Front page.In Swedish.SpanishDub" Name="The Girl with the Dragon Tattoo.Front page.In Swedish.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=The Girl with the Dragon Tattoo&amp;conversation=The Girl with the Dragon Tattoo.Front page&amp;L3STinstance=The Girl with the Dragon Tattoo.Front page.In Swedish&amp;L3TTinstance=The Girl with the Dragon Tattoo.Front page.In Swedish.SpanishDub">
       <Description>Mikael Blomkvist is leaving Court after being sentenced and goes into a coffee shop. Meanwhile one can hear different TV reporters explaining his situation (in English with different accents).</Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="The Girl with the Dragon Tattoo.Skål.Not translated.SpanishSub" />
+          <String Value="The Girl with the Dragon Tattoo.Front page.In Swedish.SpanishDub" />
         </Facet>
         <Facet Name="Tags">
-          <String Value="Single word" />
+          <String Value="Only image" />
         </Facet>
         <Facet Name="Info created">
-          <DateTime Value="2017-02-05T04:37:43" />
+          <DateTime Value="2017-02-05T04:25:54" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-02-05T04:40:16" />
+          <DateTime Value="2017-02-05T05:38:50" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -64,19 +64,19 @@
           <String Value="The Girl with the Dragon Tattoo" />
         </Facet>
         <Facet Name="Conversation Reference Id">
-          <String Value="The Girl with the Dragon Tattoo.Skål" />
+          <String Value="The Girl with the Dragon Tattoo.Front page" />
         </Facet>
         <Facet Name="L3ST-instance Reference Id">
-          <String Value="The Girl with the Dragon Tattoo.Skål.Not translated" />
+          <String Value="The Girl with the Dragon Tattoo.Front page.In Swedish" />
         </Facet>
         <Facet Name="Film Title TT">
           <String Value="Millenium: Los hombres que no amaban a las mujeres" />
         </Facet>
         <Facet Name="L2 language">
-          <String Value="Spanish" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L2 mode">
-          <String Value="Subtitled" />
+          <String Value="Dubbed" />
         </Facet>
         <Facet Name="Distribution countries (TT)">
           <String Value="Spain" />
@@ -88,7 +88,7 @@
           <String Value="YES (top 20)" />
         </Facet>
         <Facet Name="Conversation start time (min)">
-          <Number Value="28" />
+          <Number Value="5" />
         </Facet>
         <Facet Name="Conversation duration (sec)">
           <String Value="A. 1-20" />
@@ -100,10 +100,10 @@
           <String Value="No" />
         </Facet>
         <Facet Name="L3TT language type">
-          <String Value="No L3TT: L3-instance in L2" />
+          <String Value="No L3TT: L3-instance omitted" />
         </Facet>
         <Facet Name="L3TT language">
-          <String Value="Spanish" />
+          <String Value="Swedish" />
         </Facet>
         <Facet Name="L3TT meant to be understood">
           <String Value="YES, the gist, the implications of what is happening" />
@@ -124,21 +124,17 @@
           <String Value="NO / Not applicable" />
         </Facet>
         <Facet Name="L3TT functions">
-          <String Value="Character portrayal" />
+          <String Value="Dramatic effect" />
         </Facet>
         <Facet Name="Conversation features for L3TT-instance">
-          <String Value="anecdote / story" />
-        </Facet>
-        <Facet Name="L3TT sources">
-          <String Value="Oral L3: single source" />
+          <String Value="media (TV, radio etc.)" />
         </Facet>
         <Facet Name="L3 language type change">
           <String Value="- Real" />
-          <String Value="+ No L3TT: L3-instance in L2" />
+          <String Value="+ No L3TT: L3-instance omitted" />
         </Facet>
         <Facet Name="L3 mode change">
-          <String Value="- Oral diegetic on-screen" />
-          <String Value="+ Written diegetic" />
+          <String Value="None" />
         </Facet>
         <Facet Name="L3 functions change">
           <String Value="None" />
@@ -147,8 +143,8 @@
           <String Value="None" />
         </Facet>
         <Facet Name="L3 sources change">
-          <String Value="- Bilingual (L3&amp;main): same source " />
-          <String Value="+ Oral L3: single source" />
+          <String Value="- Oral L3: single source" />
+          <String Value="+ " />
         </Facet>
       </Facets>
     </Item>

@@ -5236,7 +5236,7 @@ At the same time Mathis is on the phone</Description>
       </Facets>
     </Item>
     <Item Id="The Girl with the Dragon Tattoo.Front page" Name="The Girl with the Dragon Tattoo.Front page" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=The Girl with the Dragon Tattoo&amp;conversation=The Girl with the Dragon Tattoo.Front page">
-      <Description>Mikael Blomkvist is leaving Court after being sentenced and goes into a coffee shop. Meanwhile one can hear different TV reporters explaining his situation (in English with different accents).</Description>
+      <Description>The image of Mikael Blomkvist handcuffed and smoking a cigarette appears on screen </Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="The Girl with the Dragon Tattoo.Front page" />
@@ -5245,7 +5245,7 @@ At the same time Mathis is on the phone</Description>
           <DateTime Value="2017-02-05T04:00:27" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-02-05T04:21:37" />
+          <DateTime Value="2017-02-05T05:37:26" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -5263,13 +5263,19 @@ At the same time Mathis is on the phone</Description>
           <String Value="A. 1-20" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Swedish" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>
@@ -5299,6 +5305,47 @@ At the same time Mathis is on the phone</Description>
         </Facet>
         <Facet Name="Start time (min)">
           <Number Value="28" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="The Girl with the Dragon Tattoo.Skål2" Name="The Girl with the Dragon Tattoo.Skål2" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=The Girl with the Dragon Tattoo&amp;conversation=The Girl with the Dragon Tattoo.Skål2">
+      <Description>Mikael Blomkvist is leaving Court after being sentenced and goes into a coffee shop. Meanwhile one can hear different TV reporters explaining his situation (in English with different accents).</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="The Girl with the Dragon Tattoo.Skål2" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="Single word" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-05T04:00:27" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-05T04:45:26" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="The Girl with the Dragon Tattoo" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="The Girl with the Dragon Tattoo" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="39" />
         </Facet>
         <Facet Name="Duration (sec)">
           <String Value="A. 1-20" />
