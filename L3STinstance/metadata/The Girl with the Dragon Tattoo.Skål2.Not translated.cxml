@@ -31,7 +31,8 @@
   </FacetCategories>
   <Items xmlns="">
     <Item Id="The Girl with the Dragon Tattoo.Skål2.Not translated" Name="The Girl with the Dragon Tattoo.Skål2" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=The Girl with the Dragon Tattoo&amp;conversation=The Girl with the Dragon Tattoo.Skål2&amp;L3STinstance=The Girl with the Dragon Tattoo.Skål2.Not translated">
-      <Description>Mikael Blomkvist is leaving Court after being sentenced and goes into a coffee shop. Meanwhile one can hear different TV reporters explaining his situation (in English with different accents).</Description>
+      <Description>Mikael Blomkvist is having dinner at Martin Vanger and drinking wine. 
+Mikael Blomkvist's toast sounds as non-native Swedish</Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="The Girl with the Dragon Tattoo.Skål2.Not translated" />
@@ -46,7 +47,7 @@
           <DateTime Value="2017-02-05T04:45:59" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-02-05T04:53:20" />
+          <DateTime Value="2017-02-05T06:03:09" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -83,6 +84,12 @@
         </Facet>
         <Facet Name="Quality of L3ST speaker performance">
           <String Value="clearly non-native or deficient" />
+        </Facet>
+        <Facet Name="L3ST mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3ST merely represented">
+          <String Value="NO / Not applicable" />
         </Facet>
         <Facet Name="L3ST functions">
           <String Value="Character portrayal" />

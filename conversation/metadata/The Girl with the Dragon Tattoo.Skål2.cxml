@@ -22,7 +22,8 @@
   </FacetCategories>
   <Items xmlns="">
     <Item Id="The Girl with the Dragon Tattoo.Skål2" Name="The Girl with the Dragon Tattoo.Skål2" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=The Girl with the Dragon Tattoo&amp;conversation=The Girl with the Dragon Tattoo.Skål2">
-      <Description>Mikael Blomkvist is leaving Court after being sentenced and goes into a coffee shop. Meanwhile one can hear different TV reporters explaining his situation (in English with different accents).</Description>
+      <Description>Mikael Blomkvist is having dinner at Martin Vanger and drinking wine
+</Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="The Girl with the Dragon Tattoo.Skål2" />
@@ -34,7 +35,7 @@
           <DateTime Value="2017-02-05T04:00:27" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-02-05T04:45:26" />
+          <DateTime Value="2017-02-05T05:50:58" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -52,13 +53,19 @@
           <String Value="A. 1-20" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Swedish" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="0" />
+          <Number Value="2" />
         </Facet>
       </Facets>
     </Item>

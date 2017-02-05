@@ -5280,7 +5280,7 @@ At the same time Mathis is on the phone</Description>
       </Facets>
     </Item>
     <Item Id="The Girl with the Dragon Tattoo.Skål" Name="The Girl with the Dragon Tattoo.Skål" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=The Girl with the Dragon Tattoo&amp;conversation=The Girl with the Dragon Tattoo.Skål">
-      <Description>Mikael Blomkvist is leaving Court after being sentenced and goes into a coffee shop. Meanwhile one can hear different TV reporters explaining his situation (in English with different accents).</Description>
+      <Description>Mikael Blomkvist's fireplace is finally working and the man who repaired proposes a toast </Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="The Girl with the Dragon Tattoo.Skål" />
@@ -5292,7 +5292,7 @@ At the same time Mathis is on the phone</Description>
           <DateTime Value="2017-02-05T04:00:27" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-02-05T04:32:15" />
+          <DateTime Value="2017-02-05T05:45:07" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -5310,18 +5310,25 @@ At the same time Mathis is on the phone</Description>
           <String Value="A. 1-20" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Swedish" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="0" />
+          <Number Value="4" />
         </Facet>
       </Facets>
     </Item>
     <Item Id="The Girl with the Dragon Tattoo.Skål2" Name="The Girl with the Dragon Tattoo.Skål2" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=The Girl with the Dragon Tattoo&amp;conversation=The Girl with the Dragon Tattoo.Skål2">
-      <Description>Mikael Blomkvist is leaving Court after being sentenced and goes into a coffee shop. Meanwhile one can hear different TV reporters explaining his situation (in English with different accents).</Description>
+      <Description>Mikael Blomkvist is having dinner at Martin Vanger and drinking wine
+</Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="The Girl with the Dragon Tattoo.Skål2" />
@@ -5333,7 +5340,7 @@ At the same time Mathis is on the phone</Description>
           <DateTime Value="2017-02-05T04:00:27" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-02-05T04:45:26" />
+          <DateTime Value="2017-02-05T05:50:58" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -5346,6 +5353,50 @@ At the same time Mathis is on the phone</Description>
         </Facet>
         <Facet Name="Start time (min)">
           <Number Value="39" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Swedish" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="2" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="The Girl with the Dragon Tattoo.Spanish accent journalist" Name="The Girl with the Dragon Tattoo.Spanish accent journalist" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=The Girl with the Dragon Tattoo&amp;conversation=The Girl with the Dragon Tattoo.Spanish accent journalist">
+      <Description>Martin Vaenker listens to the TV news inside a bar. The reporter is portrayed as Spanish since Hanns Wenerstroem has been killed in Marbella.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="The Girl with the Dragon Tattoo.Spanish accent journalist" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-05T06:14:41" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-05T06:20:44" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="The Girl with the Dragon Tattoo" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="The Girl with the Dragon Tattoo" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="164" />
         </Facet>
         <Facet Name="Duration (sec)">
           <String Value="A. 1-20" />

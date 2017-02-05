@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="The Girl with the Dragon Tattoo.Skål2.Not translated better Swedish" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="The Girl with the Dragon Tattoo.Skål.In Swedish" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -30,20 +30,23 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="The Girl with the Dragon Tattoo.Skål2.Not translated better Swedish" Name="The Girl with the Dragon Tattoo.Skål2.Not translated better Swedish" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=The Girl with the Dragon Tattoo&amp;conversation=The Girl with the Dragon Tattoo.Skål2&amp;L3STinstance=The Girl with the Dragon Tattoo.Skål2.Not translated better Swedish">
-      <Description>Mikael Blomkvist is having dinner at Martin Vanger and drinking wine. Martin Vanger's toast sounds like native Swedish.</Description>
+    <Item Id="The Girl with the Dragon Tattoo.Skål.In Swedish" Name="The Girl with the Dragon Tattoo.Skål.In Swedish" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=The Girl with the Dragon Tattoo&amp;conversation=The Girl with the Dragon Tattoo.Skål&amp;L3STinstance=The Girl with the Dragon Tattoo.Skål.In Swedish">
+      <Description>Mikael Blomkvist's fireplace is finally working and the man who repaired proposes a toast </Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="The Girl with the Dragon Tattoo.Skål2.Not translated better Swedish" />
+          <String Value="The Girl with the Dragon Tattoo.Skål.In Swedish" />
         </Facet>
         <Facet Name="Transcription">
-          <String Value="Skol" />
+          <String Value="Skål" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="Single word" />
         </Facet>
         <Facet Name="Info created">
-          <DateTime Value="2017-02-05T04:53:57" />
+          <DateTime Value="2017-02-05T04:34:30" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-02-05T05:55:46" />
+          <DateTime Value="2017-02-05T05:46:02" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -52,10 +55,10 @@
           <String Value="The Girl with the Dragon Tattoo" />
         </Facet>
         <Facet Name="Conversation Reference Id">
-          <String Value="The Girl with the Dragon Tattoo.Skål2" />
+          <String Value="The Girl with the Dragon Tattoo.Skål" />
         </Facet>
         <Facet Name="Conversation start time (min)">
-          <Number Value="39" />
+          <Number Value="28" />
         </Facet>
         <Facet Name="Conversation duration (sec)">
           <String Value="A. 1-20" />
@@ -97,7 +100,7 @@
           <String Value="Bilingual (L3&amp;main): same source " />
         </Facet>
         <Facet Name="L3TT-instances: count">
-          <Number Value="2" />
+          <Number Value="0" />
         </Facet>
       </Facets>
     </Item>

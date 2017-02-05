@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="The Girl with the Dragon Tattoo.Skål" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="The Girl with the Dragon Tattoo.Spanish accent journalist" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="False" p:IsWordWheelVisible="False" />
@@ -21,20 +21,17 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="The Girl with the Dragon Tattoo.Skål" Name="The Girl with the Dragon Tattoo.Skål" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=The Girl with the Dragon Tattoo&amp;conversation=The Girl with the Dragon Tattoo.Skål">
-      <Description>Mikael Blomkvist's fireplace is finally working and the man who repaired proposes a toast </Description>
+    <Item Id="The Girl with the Dragon Tattoo.Spanish accent journalist" Name="The Girl with the Dragon Tattoo.Spanish accent journalist" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=The Girl with the Dragon Tattoo&amp;conversation=The Girl with the Dragon Tattoo.Spanish accent journalist">
+      <Description>Martin Vaenker listens to the TV news inside a bar. The reporter is portrayed as Spanish since Hanns Wenerstroem has been killed in Marbella.</Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="The Girl with the Dragon Tattoo.Skål" />
-        </Facet>
-        <Facet Name="Tags">
-          <String Value="Single word" />
+          <String Value="The Girl with the Dragon Tattoo.Spanish accent journalist" />
         </Facet>
         <Facet Name="Info created">
-          <DateTime Value="2017-02-05T04:00:27" />
+          <DateTime Value="2017-02-05T06:14:41" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-02-05T05:45:07" />
+          <DateTime Value="2017-02-05T06:20:44" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -46,25 +43,19 @@
           <String Value="The Girl with the Dragon Tattoo" />
         </Facet>
         <Facet Name="Start time (min)">
-          <Number Value="28" />
+          <Number Value="164" />
         </Facet>
         <Facet Name="Duration (sec)">
           <String Value="A. 1-20" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="1" />
-        </Facet>
-        <Facet Name="L3ST languages">
-          <String Value="Swedish" />
+          <Number Value="0" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="1" />
-        </Facet>
-        <Facet Name="L3ST language types">
-          <String Value="Real" />
+          <Number Value="0" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="4" />
+          <Number Value="0" />
         </Facet>
       </Facets>
     </Item>

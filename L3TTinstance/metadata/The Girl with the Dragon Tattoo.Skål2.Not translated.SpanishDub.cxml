@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="The Girl with the Dragon Tattoo.Skål2.Not translated better Swedish.SpanishDub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="The Girl with the Dragon Tattoo.Skål2.Not translated.SpanishDub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -42,20 +42,21 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="The Girl with the Dragon Tattoo.Skål2.Not translated better Swedish.SpanishDub" Name="The Girl with the Dragon Tattoo.Skål2.Not translated better Swedish.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=The Girl with the Dragon Tattoo&amp;conversation=The Girl with the Dragon Tattoo.Skål2&amp;L3STinstance=The Girl with the Dragon Tattoo.Skål2.Not translated better Swedish&amp;L3TTinstance=The Girl with the Dragon Tattoo.Skål2.Not translated better Swedish.SpanishDub">
-      <Description>Mikael Blomkvist is having dinner at Martin Vanger and drinking wine. Martin Vanger's toast sounds like native Swedish.</Description>
+    <Item Id="The Girl with the Dragon Tattoo.Skål2.Not translated.SpanishDub" Name="The Girl with the Dragon Tattoo.Skål2.Not translated.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=The Girl with the Dragon Tattoo&amp;conversation=The Girl with the Dragon Tattoo.Skål2&amp;L3STinstance=The Girl with the Dragon Tattoo.Skål2.Not translated&amp;L3TTinstance=The Girl with the Dragon Tattoo.Skål2.Not translated.SpanishDub">
+      <Description>Mikael Blomkvist is having dinner at Martin Vanger and drinking wine. 
+Mikael Blomkvist's toast sounds as non-native Swedish</Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="The Girl with the Dragon Tattoo.Skål2.Not translated better Swedish.SpanishDub" />
+          <String Value="The Girl with the Dragon Tattoo.Skål2.Not translated.SpanishDub" />
         </Facet>
-        <Facet Name="Transcription">
-          <String Value="Salud" />
+        <Facet Name="Tags">
+          <String Value="Single word" />
         </Facet>
         <Facet Name="Info created">
-          <DateTime Value="2017-02-05T04:57:19" />
+          <DateTime Value="2017-02-05T06:04:11" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-02-05T05:58:44" />
+          <DateTime Value="2017-02-05T06:05:51" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -67,7 +68,7 @@
           <String Value="The Girl with the Dragon Tattoo.Skål2" />
         </Facet>
         <Facet Name="L3ST-instance Reference Id">
-          <String Value="The Girl with the Dragon Tattoo.Skål2.Not translated better Swedish" />
+          <String Value="The Girl with the Dragon Tattoo.Skål2.Not translated" />
         </Facet>
         <Facet Name="Film Title TT">
           <String Value="Millenium: Los hombres que no amaban a las mujeres" />
@@ -103,7 +104,7 @@
           <String Value="Real" />
         </Facet>
         <Facet Name="L3TT language">
-          <String Value="Spanish" />
+          <String Value="Swedish" />
         </Facet>
         <Facet Name="L3TT meant to be understood">
           <String Value="YES, the gist, the implications of what is happening" />
@@ -115,7 +116,7 @@
           <String Value="YES, through translation or clear from picture" />
         </Facet>
         <Facet Name="Quality of L3TT speaker performance">
-          <String Value="native or proficient" />
+          <String Value="clearly non-native or deficient" />
         </Facet>
         <Facet Name="L3TT mode, written/spoken, diegetic">
           <String Value="Oral diegetic on-screen" />
@@ -128,9 +129,6 @@
         </Facet>
         <Facet Name="Conversation features for L3TT-instance">
           <String Value="anecdote / story" />
-        </Facet>
-        <Facet Name="L3TT sources">
-          <String Value="Oral L3: single source" />
         </Facet>
         <Facet Name="L3 language type change">
           <String Value="None" />
@@ -146,7 +144,7 @@
         </Facet>
         <Facet Name="L3 sources change">
           <String Value="- Bilingual (L3&amp;main): same source " />
-          <String Value="+ Oral L3: single source" />
+          <String Value="+ " />
         </Facet>
       </Facets>
     </Item>
