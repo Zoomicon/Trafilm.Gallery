@@ -5056,6 +5056,38 @@ At the same time Mathis is on the phone</Description>
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Robin Hood.Mdemoiselle" Name="Robin Hood.Mdemoiselle" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Robin Hood&amp;conversation=Robin Hood.Mdemoiselle">
+      <Description></Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Robin Hood.Mdemoiselle" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-11T12:36:18" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-12T11:43:01" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Robin Hood" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Robin Hood" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Slumdog Millionaire.Arrival at the orphanage" Name="Arrival at the orphanage" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Slumdog Millionaire&amp;conversation=Slumdog Millionaire.Arrival at the orphanage">
       <Description>Different kids discuss on the life at the orphanage</Description>
       <Facets>
@@ -8045,47 +8077,6 @@ Buzz: ¿Mi nave? ¿La encontraste? ¡Excelente!</Description>
         </Facet>
         <Facet Name="Start time (min)">
           <Number Value="33" />
-        </Facet>
-        <Facet Name="Duration (sec)">
-          <String Value="A. 1-20" />
-        </Facet>
-        <Facet Name="L3ST languages: count">
-          <Number Value="0" />
-        </Facet>
-        <Facet Name="L3ST language types: count">
-          <Number Value="0" />
-        </Facet>
-        <Facet Name="L3ST-instances: count">
-          <Number Value="0" />
-        </Facet>
-      </Facets>
-    </Item>
-    <Item Id="Valkyrie.Title" Name="Valkyrie.Title" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Valkyrie&amp;conversation=Valkyrie.Title">
-      <Description>The title of the film appears first in German and then in English</Description>
-      <Facets>
-        <Facet Name="Reference Id">
-          <String Value="Valkyrie.Title" />
-        </Facet>
-        <Facet Name="Remarks">
-          <String Value="The title in German precedes the text in English" />
-        </Facet>
-        <Facet Name="Info created">
-          <DateTime Value="2017-01-17T09:43:22" />
-        </Facet>
-        <Facet Name="Info updated">
-          <DateTime Value="2017-01-17T10:00:58" />
-        </Facet>
-        <Facet Name="Metadata Editors">
-          <String Value="Santamaria" />
-        </Facet>
-        <Facet Name="Film Reference Id">
-          <String Value="Valkyrie" />
-        </Facet>
-        <Facet Name="Film/Season title">
-          <String Value="Valkyrie" />
-        </Facet>
-        <Facet Name="Start time (min)">
-          <Number Value="0" />
         </Facet>
         <Facet Name="Duration (sec)">
           <String Value="A. 1-20" />
