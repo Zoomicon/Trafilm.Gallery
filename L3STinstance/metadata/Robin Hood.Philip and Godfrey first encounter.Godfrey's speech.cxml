@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Robin Hood.In John's bedroom.Isabella" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Robin Hood.Philip and Godfrey first encounter.Godfrey's speech" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -30,20 +30,20 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Robin Hood.In John's bedroom.Isabella" Name="Robin Hood.In John's bedroom.Isabella" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Robin Hood&amp;conversation=Robin Hood.In John's bedroom&amp;L3STinstance=Robin Hood.In John's bedroom.Isabella">
-      <Description>King John's mother tries to stop her son's relationship with the niece of the King of France Philip in order not to give the latter an excuse to invade England.</Description>
+    <Item Id="Robin Hood.Philip and Godfrey first encounter.Godfrey's speech" Name="Robin Hood.Philip and Godfrey first encounter.Godfrey's speech" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Robin Hood&amp;conversation=Robin Hood.Philip and Godfrey first encounter&amp;L3STinstance=Robin Hood.Philip and Godfrey first encounter.Godfrey's speech">
+      <Description>Godfrey visits King Philip of France to make arrangements for their future invasion of England</Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Robin Hood.In John's bedroom.Isabella" />
+          <String Value="Robin Hood.Philip and Godfrey first encounter.Godfrey's speech" />
         </Facet>
         <Facet Name="Transcription">
-          <String Value="- Oh, God! What in heaven...&#xD;&#xA;- Mademoiselle, you will excuse me. My son has need of my advice. No, I don't. Ask her. Mother, please, have you no decency? I happen to be in a condition that no mother should see her son in.&#xD;&#xA;- Alas, c'est fini.&#xD;&#xA;- Yes, I know, but it's my mother.&#xD;&#xA;- That's enough. On second thoughts, I think it better that you do hear what I have to say. Though I will not have you in my presence.&#xD;&#xA;- Mother.&#xD;&#xA;- The purpose of my being in this room is to save the realm from the consequences of this unsuitable amusement. Her uncle is the bloody King of France.&#xD;&#xA;-  C'es vrai. My uncle is...&#xD;&#xA;- Get down. Her uncle wants her back. Philip wants an excuse to cross the Channel with an army. And you have given him that excuse. Take up your lawful wife and save England. My lawful wife is as barren as a brick. Is that truly the wife you want for me? Hmm? You, who honoured your husband with eight children so that even now when death has taken the rest you have a king and the runt of the litter to call you &quot;Mother.' '&#xD;&#xA;- Better the bastard of a servant girl than bed the niece of England's jealous enemy.&#xD;&#xA;- Or bed her and wed her, Mother. I've asked the Pope's men to arrange an annulment.&#xD;&#xA;- And do you think the Pope will favour England's royal runt over the King of France?&#xD;&#xA;- He might see his way for the son of Eleanor of Aquitaine. &#xD;&#xA;- And for the future King of England. Richard the Lion Heart is 40-years-old, if not more. And no babies. I am a queen in the making.&#xD;&#xA;- Yes. Yes. You see? She is my Eleanor." />
+          <String Value="En effet, oui." />
         </Facet>
         <Facet Name="Info created">
-          <DateTime Value="2017-02-12T04:26:04" />
+          <DateTime Value="2017-02-12T05:16:48" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-02-12T04:40:31" />
+          <DateTime Value="2017-02-12T05:36:06" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -52,10 +52,10 @@
           <String Value="Robin Hood" />
         </Facet>
         <Facet Name="Conversation Reference Id">
-          <String Value="Robin Hood.In John's bedroom" />
+          <String Value="Robin Hood.Philip and Godfrey first encounter" />
         </Facet>
         <Facet Name="Conversation start time (min)">
-          <Number Value="9" />
+          <Number Value="18" />
         </Facet>
         <Facet Name="Conversation duration (sec)">
           <String Value="C. 41-60" />
@@ -70,10 +70,10 @@
           <String Value="French" />
         </Facet>
         <Facet Name="L3ST meant to be understood">
-          <String Value="YES, the gist, the implications of what is happening" />
+          <String Value="YES, (almost) completely" />
         </Facet>
         <Facet Name="L3ST message required for understanding">
-          <String Value="Conversation can be followed regardless of meaning" />
+          <String Value="Yes" />
         </Facet>
         <Facet Name="L3ST meaning decipherable">
           <String Value="YES, through translation or clear from picture" />
@@ -89,13 +89,14 @@
         </Facet>
         <Facet Name="L3ST functions">
           <String Value="Character portrayal" />
-          <String Value="Signals otherness" />
+          <String Value="Plot (twist)" />
+          <String Value="Signals the bad guy" />
         </Facet>
         <Facet Name="Conversation features for L3ST-instance">
-          <String Value="threat" />
+          <String Value="salutation" />
         </Facet>
         <Facet Name="L3ST sources">
-          <String Value="Bilingual (L3&amp;main): same source " />
+          <String Value="Oral L3: single source" />
         </Facet>
         <Facet Name="L3TT-instances: count">
           <Number Value="0" />

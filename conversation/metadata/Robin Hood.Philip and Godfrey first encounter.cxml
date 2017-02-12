@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="In John's bedroom" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Robin Hood.Philip and Godfrey first encounter" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="False" p:IsWordWheelVisible="False" />
@@ -21,17 +21,17 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Robin Hood.In John's bedroom" Name="In John's bedroom" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Robin Hood&amp;conversation=Robin Hood.In John's bedroom">
-      <Description>King John's mother tries to stop her son's relationship with the niece of the King of France Philip in order not to give the latter an excuse to invade England.</Description>
+    <Item Id="Robin Hood.Philip and Godfrey first encounter" Name="Robin Hood.Philip and Godfrey first encounter" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Robin Hood&amp;conversation=Robin Hood.Philip and Godfrey first encounter">
+      <Description>Godfrey visits King Philip of France to make arrangements for their future invasion of England</Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Robin Hood.In John's bedroom" />
+          <String Value="Robin Hood.Philip and Godfrey first encounter" />
         </Facet>
         <Facet Name="Info created">
           <DateTime Value="2017-02-12T11:43:19" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-02-12T04:47:03" />
+          <DateTime Value="2017-02-12T05:16:24" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -43,25 +43,19 @@
           <String Value="Robin Hood" />
         </Facet>
         <Facet Name="Start time (min)">
-          <Number Value="9" />
+          <Number Value="18" />
         </Facet>
         <Facet Name="Duration (sec)">
-          <String Value="F. 101-120" />
+          <String Value="C. 41-60" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="1" />
-        </Facet>
-        <Facet Name="L3ST languages">
-          <String Value="French" />
+          <Number Value="0" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="1" />
-        </Facet>
-        <Facet Name="L3ST language types">
-          <String Value="Real" />
+          <Number Value="0" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="2" />
+          <Number Value="0" />
         </Facet>
       </Facets>
     </Item>

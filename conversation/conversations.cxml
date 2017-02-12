@@ -5066,7 +5066,7 @@ At the same time Mathis is on the phone</Description>
           <DateTime Value="2017-02-12T11:43:19" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-02-12T04:25:27" />
+          <DateTime Value="2017-02-12T04:47:03" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -5081,16 +5081,22 @@ At the same time Mathis is on the phone</Description>
           <Number Value="9" />
         </Facet>
         <Facet Name="Duration (sec)">
-          <String Value="C. 41-60" />
+          <String Value="F. 101-120" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="French" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="0" />
+          <Number Value="2" />
         </Facet>
       </Facets>
     </Item>
@@ -5114,6 +5120,44 @@ At the same time Mathis is on the phone</Description>
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Robin Hood" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Robin Hood.Philip and Godfrey first encounter" Name="Robin Hood.Philip and Godfrey first encounter" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Robin Hood&amp;conversation=Robin Hood.Philip and Godfrey first encounter">
+      <Description>Godfrey visits King Philip of France to make arrangements for their future invasion of England</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Robin Hood.Philip and Godfrey first encounter" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-12T11:43:19" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-12T05:16:24" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Robin Hood" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Robin Hood" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="18" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="C. 41-60" />
         </Facet>
         <Facet Name="L3ST languages: count">
           <Number Value="0" />
