@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Robin Hood.In John's bedroom.John's mother.CatalanSub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Robin Hood.Ambush.Godgrey in French.CatalanDub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -42,20 +42,17 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Robin Hood.In John's bedroom.John's mother.CatalanSub" Name="Robin Hood.In John's bedroom.John's mother.CatalanSub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Robin Hood&amp;conversation=Robin Hood.In John's bedroom&amp;L3STinstance=Robin Hood.In John's bedroom.John's mother&amp;L3TTinstance=Robin Hood.In John's bedroom.John's mother.CatalanSub">
-      <Description>King John's mother tries to stop her son's relationship with the niece of the King of France Philip in order not to give the latter an excuse to invade England.</Description>
+    <Item Id="Robin Hood.Ambush.Godgrey in French.CatalanDub" Name="Robin Hood.Ambush.Godgrey in French.CatalanDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Robin Hood&amp;conversation=Robin Hood.Ambush&amp;L3STinstance=Robin Hood.Ambush.Godgrey in French&amp;L3TTinstance=Robin Hood.Ambush.Godgrey in French.CatalanDub">
+      <Description>Godfrey prepares an ambush on a group of English soldiers because he thinks the King Richard is with them.</Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Robin Hood.In John's bedroom.John's mother.CatalanSub" />
-        </Facet>
-        <Facet Name="Transcription">
-          <String Value="Mademoiselle" />
+          <String Value="Robin Hood.Ambush.Godgrey in French.CatalanDub" />
         </Facet>
         <Facet Name="Info created">
-          <DateTime Value="2017-02-12T04:41:29" />
+          <DateTime Value="2017-02-12T07:24:22" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-02-12T06:42:12" />
+          <DateTime Value="2017-02-12T07:31:12" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -64,10 +61,10 @@
           <String Value="Robin Hood" />
         </Facet>
         <Facet Name="Conversation Reference Id">
-          <String Value="Robin Hood.In John's bedroom" />
+          <String Value="Robin Hood.Ambush" />
         </Facet>
         <Facet Name="L3ST-instance Reference Id">
-          <String Value="Robin Hood.In John's bedroom.John's mother" />
+          <String Value="Robin Hood.Ambush.Godgrey in French" />
         </Facet>
         <Facet Name="Film Title TT">
           <String Value="Robin Hood" />
@@ -88,10 +85,10 @@
           <String Value="YES (top 20)" />
         </Facet>
         <Facet Name="Conversation start time (min)">
-          <Number Value="9" />
+          <Number Value="26" />
         </Facet>
         <Facet Name="Conversation duration (sec)">
-          <String Value="C. 41-60" />
+          <String Value="B. 21-40" />
         </Facet>
         <Facet Name="L2 same as L3ST">
           <String Value="No" />
@@ -106,37 +103,37 @@
           <String Value="French" />
         </Facet>
         <Facet Name="L3TT meant to be understood">
-          <String Value="YES, the gist, the implications of what is happening" />
+          <String Value="YES, (almost) completely" />
         </Facet>
         <Facet Name="L3TT message required for understanding">
-          <String Value="Conversation can be followed regardless of meaning" />
+          <String Value="Yes" />
         </Facet>
         <Facet Name="L3TT meaning decipherable">
           <String Value="YES, through translation or clear from picture" />
         </Facet>
         <Facet Name="Quality of L3TT speaker performance">
-          <String Value="clearly non-native or deficient" />
+          <String Value="native or proficient" />
         </Facet>
         <Facet Name="L3TT mode, written/spoken, diegetic">
           <String Value="Oral diegetic on-screen" />
         </Facet>
         <Facet Name="L3TT merely represented">
-          <String Value="YES: orally" />
+          <String Value="NO / Not applicable" />
         </Facet>
         <Facet Name="L3TT functions">
-          <String Value="Signals otherness" />
+          <String Value="Character portrayal" />
+          <String Value="Plot (twist)" />
+          <String Value="Signals the bad guy" />
         </Facet>
         <Facet Name="Conversation features for L3TT-instance">
-          <String Value="salutation" />
-        </Facet>
-        <Facet Name="L3TT sources">
-          <String Value="Bilingual (L3&amp;main): same source " />
+          <String Value="threat" />
         </Facet>
         <Facet Name="L3 language type change">
           <String Value="None" />
         </Facet>
         <Facet Name="L3 mode change">
-          <String Value="None" />
+          <String Value="- Oral non-diegetic" />
+          <String Value="+ Oral diegetic on-screen" />
         </Facet>
         <Facet Name="L3 functions change">
           <String Value="None" />
@@ -145,7 +142,8 @@
           <String Value="None" />
         </Facet>
         <Facet Name="L3 sources change">
-          <String Value="None" />
+          <String Value="- Oral L3: different sources " />
+          <String Value="+ " />
         </Facet>
       </Facets>
     </Item>
