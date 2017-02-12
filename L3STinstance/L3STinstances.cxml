@@ -11126,6 +11126,75 @@ At the same time Mathis is on the phone</Description>
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Robin Hood.Ad libs.In French" Name="Ad libs" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Robin Hood&amp;conversation=Robin Hood.Ad libs&amp;L3STinstance=Robin Hood.Ad libs.In French">
+      <Description>There are different scenes with ad libs throughout the film.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Robin Hood.Ad libs.In French" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-12T08:19:27" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-12T08:22:50" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Robin Hood" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Robin Hood.Ad libs" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="18" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L3ST language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST language">
+          <String Value="French" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="YES, the gist, the implications of what is happening" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Conversation can be followed regardless of meaning" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3ST speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3ST mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3ST merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
+        <Facet Name="L3ST functions">
+          <String Value="Dramatic effect" />
+          <String Value="Signals otherness" />
+        </Facet>
+        <Facet Name="Conversation features for L3ST-instance">
+          <String Value="public speech" />
+        </Facet>
+        <Facet Name="L3ST sources">
+          <String Value="Oral L3: different sources " />
+        </Facet>
+        <Facet Name="L3TT-instances: count">
+          <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Robin Hood.Ambush.Godgrey in French" Name="Robin Hood.Ambush" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Robin Hood&amp;conversation=Robin Hood.Ambush&amp;L3STinstance=Robin Hood.Ambush.Godgrey in French">
       <Description>Godfrey prepares an ambush on a group of English soldiers because he thinks the King Richard is with them.</Description>
       <Facets>
@@ -11193,6 +11262,222 @@ At the same time Mathis is on the phone</Description>
         </Facet>
         <Facet Name="L3ST sources">
           <String Value="Oral L3: different sources " />
+        </Facet>
+        <Facet Name="L3TT-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Robin Hood.Counter Ambush.Command" Name="Robin Hood.Counter Ambush" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Robin Hood&amp;conversation=Robin Hood.Counter Ambush&amp;L3STinstance=Robin Hood.Counter Ambush.Command">
+      <Description>Robin fights against Godfrey's men when he realizes there has been an ambush.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Robin Hood.Counter Ambush.Command" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-12T07:42:47" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-12T07:43:55" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Robin Hood" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Robin Hood.Counter Ambush" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="25" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="E. 81-100" />
+        </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L3ST language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST language">
+          <String Value="French" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="YES, the gist, the implications of what is happening" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Conversation can be followed regardless of meaning" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3ST speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3ST mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3ST merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
+        <Facet Name="L3ST functions">
+          <String Value="Character portrayal" />
+          <String Value="Plot (twist)" />
+          <String Value="Signals the bad guy" />
+        </Facet>
+        <Facet Name="Conversation features for L3ST-instance">
+          <String Value="public speech" />
+        </Facet>
+        <Facet Name="L3ST sources">
+          <String Value="Oral L3: single source" />
+        </Facet>
+        <Facet Name="L3TT-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Robin Hood.Counter Ambush.In French" Name="Robin Hood.Counter Ambush" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Robin Hood&amp;conversation=Robin Hood.Counter Ambush&amp;L3STinstance=Robin Hood.Counter Ambush.In French">
+      <Description>Robin fights against Godfrey's men when he realizes there has been an ambush.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Robin Hood.Counter Ambush.In French" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Qu'est que ce passe? Allez! Vite!" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-12T07:40:10" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-12T07:42:07" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Robin Hood" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Robin Hood.Counter Ambush" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="25" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="E. 81-100" />
+        </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L3ST language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST language">
+          <String Value="French" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="YES, the gist, the implications of what is happening" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Conversation can be followed regardless of meaning" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3ST speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3ST mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3ST merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
+        <Facet Name="L3ST functions">
+          <String Value="Character portrayal" />
+          <String Value="Plot (twist)" />
+          <String Value="Signals the bad guy" />
+        </Facet>
+        <Facet Name="Conversation features for L3ST-instance">
+          <String Value="public speech" />
+        </Facet>
+        <Facet Name="L3ST sources">
+          <String Value="Oral L3: single source" />
+        </Facet>
+        <Facet Name="L3TT-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Robin Hood.French attack.In French" Name="Robin Hood.French attack" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Robin Hood&amp;conversation=Robin Hood.French attack&amp;L3STinstance=Robin Hood.French attack.In French">
+      <Description>French soldiers kill British soldiers commanded by Godfrey when they are sleeping and drunk</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Robin Hood.French attack.In French" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Bien, merci. Is ont bien bu. Ils n'attendent rien que vous" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-12T07:54:10" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-12T07:56:29" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Robin Hood" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Robin Hood.French attack" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="70" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="B. 21-40" />
+        </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L3ST language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST language">
+          <String Value="French" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="YES, (almost) completely" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3ST speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3ST mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3ST merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
+        <Facet Name="L3ST functions">
+          <String Value="Character portrayal" />
+          <String Value="Plot (twist)" />
+          <String Value="Signals the bad guy" />
+        </Facet>
+        <Facet Name="Conversation features for L3ST-instance">
+          <String Value="introduction" />
+        </Facet>
+        <Facet Name="L3ST sources">
+          <String Value="Oral L3: single source" />
         </Facet>
         <Facet Name="L3TT-instances: count">
           <Number Value="0" />

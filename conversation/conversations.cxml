@@ -5056,17 +5056,17 @@ At the same time Mathis is on the phone</Description>
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Robin Hood.Ambush" Name="Robin Hood.Ambush" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Robin Hood&amp;conversation=Robin Hood.Ambush">
-      <Description>Godfrey prepares an ambush on a group of English soldiers because he thinks the King Richard is with them.</Description>
+    <Item Id="Robin Hood.Ad libs" Name="Ad libs" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Robin Hood&amp;conversation=Robin Hood.Ad libs">
+      <Description>There are different scenes with ad libs throughout the film.</Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Robin Hood.Ambush" />
+          <String Value="Robin Hood.Ad libs" />
         </Facet>
         <Facet Name="Info created">
-          <DateTime Value="2017-02-12T11:43:19" />
+          <DateTime Value="2017-02-12T08:18:12" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-02-12T07:26:54" />
+          <DateTime Value="2017-02-12T08:19:17" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -5078,10 +5078,51 @@ At the same time Mathis is on the phone</Description>
           <String Value="Robin Hood" />
         </Facet>
         <Facet Name="Start time (min)">
-          <Number Value="25" />
+          <Number Value="18" />
         </Facet>
         <Facet Name="Duration (sec)">
-          <String Value="B. 21-40" />
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Robin Hood.Ambush" Name="Robin Hood.Ambush" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Robin Hood&amp;conversation=Robin Hood.Ambush">
+      <Description></Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Robin Hood.Ambush" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="There are different instances of ad libs throughout the film" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-12T11:43:19" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-12T08:17:27" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Robin Hood" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Robin Hood" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="20" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
         </Facet>
         <Facet Name="L3ST languages: count">
           <Number Value="1" />
@@ -5126,6 +5167,44 @@ At the same time Mathis is on the phone</Description>
         </Facet>
         <Facet Name="Duration (sec)">
           <String Value="E. 81-100" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Robin Hood.French attack" Name="Robin Hood.French attack" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Robin Hood&amp;conversation=Robin Hood.French attack">
+      <Description>French soldiers kill British soldiers commanded by Godfrey when they are sleeping and drunk</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Robin Hood.French attack" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-12T11:43:19" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-12T07:53:59" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Robin Hood" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Robin Hood" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="70" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="B. 21-40" />
         </Facet>
         <Facet Name="L3ST languages: count">
           <Number Value="0" />

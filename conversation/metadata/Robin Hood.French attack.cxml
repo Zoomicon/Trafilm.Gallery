@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Robin Hood.Ambush" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Robin Hood.French attack" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="False" p:IsWordWheelVisible="False" />
@@ -21,20 +21,17 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Robin Hood.Ambush" Name="Robin Hood.Ambush" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Robin Hood&amp;conversation=Robin Hood.Ambush">
-      <Description></Description>
+    <Item Id="Robin Hood.French attack" Name="Robin Hood.French attack" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Robin Hood&amp;conversation=Robin Hood.French attack">
+      <Description>French soldiers kill British soldiers commanded by Godfrey when they are sleeping and drunk</Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Robin Hood.Ambush" />
-        </Facet>
-        <Facet Name="Remarks">
-          <String Value="There are different instances of ad libs throughout the film" />
+          <String Value="Robin Hood.French attack" />
         </Facet>
         <Facet Name="Info created">
           <DateTime Value="2017-02-12T11:43:19" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-02-12T08:17:27" />
+          <DateTime Value="2017-02-12T07:53:59" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -46,25 +43,19 @@
           <String Value="Robin Hood" />
         </Facet>
         <Facet Name="Start time (min)">
-          <Number Value="20" />
+          <Number Value="70" />
         </Facet>
         <Facet Name="Duration (sec)">
-          <String Value="A. 1-20" />
+          <String Value="B. 21-40" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="1" />
-        </Facet>
-        <Facet Name="L3ST languages">
-          <String Value="French" />
+          <Number Value="0" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="1" />
-        </Facet>
-        <Facet Name="L3ST language types">
-          <String Value="Real" />
+          <Number Value="0" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="1" />
+          <Number Value="0" />
         </Facet>
       </Facets>
     </Item>
