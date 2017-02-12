@@ -8963,29 +8963,6 @@ And the wife and the aunt speak in English</Description>
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Puss in Boots.At the saloon.Spanish single word" Name="Puss in Boots.At the saloon.Spanish single word" Img="" Href="">
-      <Description></Description>
-      <Facets>
-        <Facet Name="Reference Id">
-          <String Value="Puss in Boots.At the saloon.Spanish single word" />
-        </Facet>
-        <Facet Name="Info created">
-          <DateTime Value="2017-01-13T12:00:00" />
-        </Facet>
-        <Facet Name="Info updated">
-          <DateTime Value="2017-01-13T12:00:00" />
-        </Facet>
-        <Facet Name="Film Reference Id">
-          <String Value="Puss in Boots" />
-        </Facet>
-        <Facet Name="Conversation Reference Id">
-          <String Value="Puss in Boots.At the saloon" />
-        </Facet>
-        <Facet Name="L3TT-instances: count">
-          <Number Value="0" />
-        </Facet>
-      </Facets>
-    </Item>
     <Item Id="Puss in Boots.At the saloon.Words in Spanish" Name="At the saloon" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Puss in Boots&amp;conversation=Puss in Boots.At the saloon&amp;L3STinstance=Puss in Boots.At the saloon.Words in Spanish">
       <Description>Puss is introduced in relation with humans who do not any rsspect for a cat trying to behave as a human</Description>
       <Facets>
@@ -9478,29 +9455,6 @@ And the wife and the aunt speak in English</Description>
         </Facet>
         <Facet Name="L3ST sources">
           <String Value="Oral L3: single source" />
-        </Facet>
-        <Facet Name="L3TT-instances: count">
-          <Number Value="0" />
-        </Facet>
-      </Facets>
-    </Item>
-    <Item Id="Puss in Boots.Ole frijoles.No hablo inglés" Name="Puss in Boots.Ole frijoles.No hablo inglés" Img="" Href="">
-      <Description></Description>
-      <Facets>
-        <Facet Name="Reference Id">
-          <String Value="Puss in Boots.Ole frijoles.No hablo inglés" />
-        </Facet>
-        <Facet Name="Info created">
-          <DateTime Value="2017-01-16T10:45:44" />
-        </Facet>
-        <Facet Name="Info updated">
-          <DateTime Value="2017-01-16T10:45:44" />
-        </Facet>
-        <Facet Name="Film Reference Id">
-          <String Value="Puss in Boots" />
-        </Facet>
-        <Facet Name="Conversation Reference Id">
-          <String Value="Puss in Boots.Ole frijoles" />
         </Facet>
         <Facet Name="L3TT-instances: count">
           <Number Value="0" />
@@ -11172,6 +11126,77 @@ At the same time Mathis is on the phone</Description>
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Robin Hood.In John's bedroom.John's mother" Name="In John's bedroom" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Robin Hood&amp;conversation=Robin Hood.In John's bedroom&amp;L3STinstance=Robin Hood.In John's bedroom.John's mother">
+      <Description>King John's mother tries to stop her son's relationship with the niece of the King of France Philip in order not to give the latter an excuse to invade England.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Robin Hood.In John's bedroom.John's mother" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="- Oh, God! What in heaven...&#xD;&#xA;- Mademoiselle, you will excuse me. My son has need of my advice. No, I don't. Ask her. Mother, please, have you no decency? I happen to be in a condition that no mother should see her son in.&#xD;&#xA;- Alas, c'est fini.&#xD;&#xA;- Yes, I know, but it's my mother.&#xD;&#xA;- That's enough. On second thoughts, I think it better that you do hear what I have to say. Though I will not have you in my presence.&#xD;&#xA;- Mother.&#xD;&#xA;- The purpose of my being in this room is to save the realm from the consequences of this unsuitable amusement. Her uncle is the bloody King of France.&#xD;&#xA;-  C'es vrai. My uncle is...&#xD;&#xA;- Get down. Her uncle wants her back. Philip wants an excuse to cross the Channel with an army. And you have given him that excuse. Take up your lawful wife and save England. My lawful wife is as barren as a brick. Is that truly the wife you want for me? Hmm? You, who honoured your husband with eight children so that even now when death has taken the rest you have a king and the runt of the litter to call you &quot;Mother.' '&#xD;&#xA;- Better the bastard of a servant girl than bed the niece of England's jealous enemy.&#xD;&#xA;- Or bed her and wed her, Mother. I've asked the Pope's men to arrange an annulment.&#xD;&#xA;- And do you think the Pope will favour England's royal runt over the King of France?&#xD;&#xA;- He might see his way for the son of Eleanor of Aquitaine. &#xD;&#xA;- And for the future King of England. Richard the Lion Heart is 40-years-old, if not more. And no babies. I am a queen in the making.&#xD;&#xA;- Yes. Yes. You see? She is my Eleanor." />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-12T04:26:04" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-12T04:37:12" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Robin Hood" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Robin Hood.In John's bedroom" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="9" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="C. 41-60" />
+        </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L3ST language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST language">
+          <String Value="French" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="YES, the gist, the implications of what is happening" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Conversation can be followed regardless of meaning" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3ST speaker performance">
+          <String Value="clearly non-native or deficient" />
+        </Facet>
+        <Facet Name="L3ST mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3ST merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
+        <Facet Name="L3ST functions">
+          <String Value="Signals otherness" />
+        </Facet>
+        <Facet Name="Conversation features for L3ST-instance">
+          <String Value="salutation" />
+        </Facet>
+        <Facet Name="L3ST sources">
+          <String Value="Bilingual (L3&amp;main): same source " />
+        </Facet>
+        <Facet Name="L3TT-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Slumdog Millionaire.Arrival at the orphanage.Hindi" Name="Arrival at the orphanage" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Slumdog Millionaire&amp;conversation=Slumdog Millionaire.Arrival at the orphanage&amp;L3STinstance=Slumdog Millionaire.Arrival at the orphanage.Hindi">
       <Description>Different kids discuss on the life at the orphanage</Description>
       <Facets>
@@ -11733,80 +11758,6 @@ At the same time Mathis is on the phone</Description>
         </Facet>
       </Facets>
     </Item>
-    <Item Id="The Girl with the Dragon Tattoo.Skål.Foreign accent" Name="The Girl with the Dragon Tattoo.Skål.Foreign accent" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=The Girl with the Dragon Tattoo&amp;conversation=The Girl with the Dragon Tattoo.Skål&amp;L3STinstance=The Girl with the Dragon Tattoo.Skål.Foreign accent">
-      <Description>Mikael Blomkvist is leaving Court after being sentenced and goes into a coffee shop. Meanwhile one can hear different TV reporters explaining his situation (in English with different accents).</Description>
-      <Facets>
-        <Facet Name="Reference Id">
-          <String Value="The Girl with the Dragon Tattoo.Skål.Foreign accent" />
-        </Facet>
-        <Facet Name="Transcription">
-          <String Value="Skål" />
-        </Facet>
-        <Facet Name="Tags">
-          <String Value="Single word" />
-        </Facet>
-        <Facet Name="Info created">
-          <DateTime Value="2017-02-05T04:34:30" />
-        </Facet>
-        <Facet Name="Info updated">
-          <DateTime Value="2017-02-05T05:11:46" />
-        </Facet>
-        <Facet Name="Metadata Editors">
-          <String Value="Santamaria" />
-        </Facet>
-        <Facet Name="Film Reference Id">
-          <String Value="The Girl with the Dragon Tattoo" />
-        </Facet>
-        <Facet Name="Conversation Reference Id">
-          <String Value="The Girl with the Dragon Tattoo.Skål" />
-        </Facet>
-        <Facet Name="Conversation start time (min)">
-          <Number Value="28" />
-        </Facet>
-        <Facet Name="Conversation duration (sec)">
-          <String Value="A. 1-20" />
-        </Facet>
-        <Facet Name="Main (L1) language">
-          <String Value="English" />
-        </Facet>
-        <Facet Name="L3ST language type">
-          <String Value="Real" />
-        </Facet>
-        <Facet Name="L3ST language">
-          <String Value="Swedish" />
-        </Facet>
-        <Facet Name="L3ST meant to be understood">
-          <String Value="YES, the gist, the implications of what is happening" />
-        </Facet>
-        <Facet Name="L3ST message required for understanding">
-          <String Value="Conversation can be followed regardless of meaning" />
-        </Facet>
-        <Facet Name="L3ST meaning decipherable">
-          <String Value="YES, through translation or clear from picture" />
-        </Facet>
-        <Facet Name="Quality of L3ST speaker performance">
-          <String Value="clearly non-native or deficient" />
-        </Facet>
-        <Facet Name="L3ST mode, written/spoken, diegetic">
-          <String Value="Oral diegetic on-screen" />
-        </Facet>
-        <Facet Name="L3ST merely represented">
-          <String Value="NO / Not applicable" />
-        </Facet>
-        <Facet Name="L3ST functions">
-          <String Value="Character portrayal" />
-        </Facet>
-        <Facet Name="Conversation features for L3ST-instance">
-          <String Value="anecdote / story" />
-        </Facet>
-        <Facet Name="L3ST sources">
-          <String Value="Bilingual (L3&amp;main): same source " />
-        </Facet>
-        <Facet Name="L3TT-instances: count">
-          <Number Value="0" />
-        </Facet>
-      </Facets>
-    </Item>
     <Item Id="The Girl with the Dragon Tattoo.Skål.In Swedish" Name="The Girl with the Dragon Tattoo.Skål.In Swedish" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=The Girl with the Dragon Tattoo&amp;conversation=The Girl with the Dragon Tattoo.Skål&amp;L3STinstance=The Girl with the Dragon Tattoo.Skål.In Swedish">
       <Description>Mikael Blomkvist's fireplace is finally working and the man who repaired proposes a toast </Description>
       <Facets>
@@ -11824,154 +11775,6 @@ At the same time Mathis is on the phone</Description>
         </Facet>
         <Facet Name="Info updated">
           <DateTime Value="2017-02-05T05:46:02" />
-        </Facet>
-        <Facet Name="Metadata Editors">
-          <String Value="Santamaria" />
-        </Facet>
-        <Facet Name="Film Reference Id">
-          <String Value="The Girl with the Dragon Tattoo" />
-        </Facet>
-        <Facet Name="Conversation Reference Id">
-          <String Value="The Girl with the Dragon Tattoo.Skål" />
-        </Facet>
-        <Facet Name="Conversation start time (min)">
-          <Number Value="28" />
-        </Facet>
-        <Facet Name="Conversation duration (sec)">
-          <String Value="A. 1-20" />
-        </Facet>
-        <Facet Name="Main (L1) language">
-          <String Value="English" />
-        </Facet>
-        <Facet Name="L3ST language type">
-          <String Value="Real" />
-        </Facet>
-        <Facet Name="L3ST language">
-          <String Value="Swedish" />
-        </Facet>
-        <Facet Name="L3ST meant to be understood">
-          <String Value="YES, the gist, the implications of what is happening" />
-        </Facet>
-        <Facet Name="L3ST message required for understanding">
-          <String Value="Conversation can be followed regardless of meaning" />
-        </Facet>
-        <Facet Name="L3ST meaning decipherable">
-          <String Value="YES, through translation or clear from picture" />
-        </Facet>
-        <Facet Name="Quality of L3ST speaker performance">
-          <String Value="native or proficient" />
-        </Facet>
-        <Facet Name="L3ST mode, written/spoken, diegetic">
-          <String Value="Oral diegetic on-screen" />
-        </Facet>
-        <Facet Name="L3ST merely represented">
-          <String Value="NO / Not applicable" />
-        </Facet>
-        <Facet Name="L3ST functions">
-          <String Value="Character portrayal" />
-        </Facet>
-        <Facet Name="Conversation features for L3ST-instance">
-          <String Value="anecdote / story" />
-        </Facet>
-        <Facet Name="L3ST sources">
-          <String Value="Bilingual (L3&amp;main): same source " />
-        </Facet>
-        <Facet Name="L3TT-instances: count">
-          <Number Value="0" />
-        </Facet>
-      </Facets>
-    </Item>
-    <Item Id="The Girl with the Dragon Tattoo.Skål.Non foreign accent" Name="The Girl with the Dragon Tattoo.Skål.Non foreign accent" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=The Girl with the Dragon Tattoo&amp;conversation=The Girl with the Dragon Tattoo.Skål&amp;L3STinstance=The Girl with the Dragon Tattoo.Skål.Non foreign accent">
-      <Description>Mikael Blomkvist is leaving Court after being sentenced and goes into a coffee shop. Meanwhile one can hear different TV reporters explaining his situation (in English with different accents).</Description>
-      <Facets>
-        <Facet Name="Reference Id">
-          <String Value="The Girl with the Dragon Tattoo.Skål.Non foreign accent" />
-        </Facet>
-        <Facet Name="Transcription">
-          <String Value="Skål" />
-        </Facet>
-        <Facet Name="Tags">
-          <String Value="Single word" />
-        </Facet>
-        <Facet Name="Info created">
-          <DateTime Value="2017-02-05T04:34:30" />
-        </Facet>
-        <Facet Name="Info updated">
-          <DateTime Value="2017-02-05T05:12:10" />
-        </Facet>
-        <Facet Name="Metadata Editors">
-          <String Value="Santamaria" />
-        </Facet>
-        <Facet Name="Film Reference Id">
-          <String Value="The Girl with the Dragon Tattoo" />
-        </Facet>
-        <Facet Name="Conversation Reference Id">
-          <String Value="The Girl with the Dragon Tattoo.Skål" />
-        </Facet>
-        <Facet Name="Conversation start time (min)">
-          <Number Value="28" />
-        </Facet>
-        <Facet Name="Conversation duration (sec)">
-          <String Value="A. 1-20" />
-        </Facet>
-        <Facet Name="Main (L1) language">
-          <String Value="English" />
-        </Facet>
-        <Facet Name="L3ST language type">
-          <String Value="Real" />
-        </Facet>
-        <Facet Name="L3ST language">
-          <String Value="Swedish" />
-        </Facet>
-        <Facet Name="L3ST meant to be understood">
-          <String Value="YES, the gist, the implications of what is happening" />
-        </Facet>
-        <Facet Name="L3ST message required for understanding">
-          <String Value="Conversation can be followed regardless of meaning" />
-        </Facet>
-        <Facet Name="L3ST meaning decipherable">
-          <String Value="YES, through translation or clear from picture" />
-        </Facet>
-        <Facet Name="Quality of L3ST speaker performance">
-          <String Value="native or proficient" />
-        </Facet>
-        <Facet Name="L3ST mode, written/spoken, diegetic">
-          <String Value="Oral diegetic on-screen" />
-        </Facet>
-        <Facet Name="L3ST merely represented">
-          <String Value="NO / Not applicable" />
-        </Facet>
-        <Facet Name="L3ST functions">
-          <String Value="Character portrayal" />
-        </Facet>
-        <Facet Name="Conversation features for L3ST-instance">
-          <String Value="anecdote / story" />
-        </Facet>
-        <Facet Name="L3ST sources">
-          <String Value="Bilingual (L3&amp;main): same source " />
-        </Facet>
-        <Facet Name="L3TT-instances: count">
-          <Number Value="0" />
-        </Facet>
-      </Facets>
-    </Item>
-    <Item Id="The Girl with the Dragon Tattoo.Skål.Not translated" Name="The Girl with the Dragon Tattoo.Skål" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=The Girl with the Dragon Tattoo&amp;conversation=The Girl with the Dragon Tattoo.Skål&amp;L3STinstance=The Girl with the Dragon Tattoo.Skål.Not translated">
-      <Description>Mikael Blomkvist is leaving Court after being sentenced and goes into a coffee shop. Meanwhile one can hear different TV reporters explaining his situation (in English with different accents).</Description>
-      <Facets>
-        <Facet Name="Reference Id">
-          <String Value="The Girl with the Dragon Tattoo.Skål.Not translated" />
-        </Facet>
-        <Facet Name="Transcription">
-          <String Value="Skål" />
-        </Facet>
-        <Facet Name="Tags">
-          <String Value="Single word" />
-        </Facet>
-        <Facet Name="Info created">
-          <DateTime Value="2017-02-05T04:34:30" />
-        </Facet>
-        <Facet Name="Info updated">
-          <DateTime Value="2017-02-05T04:37:30" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -15924,77 +15727,6 @@ Mikael Blomkvist's toast sounds as non-native Swedish</Description>
         </Facet>
         <Facet Name="L3TT-instances: count">
           <Number Value="2" />
-        </Facet>
-      </Facets>
-    </Item>
-    <Item Id="Valkyrie.Title.German and English" Name="Valkyrie.Title" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Valkyrie&amp;conversation=Valkyrie.Title&amp;L3STinstance=Valkyrie.Title.German and English">
-      <Description>The title of the film appears first in German and then in English</Description>
-      <Facets>
-        <Facet Name="Reference Id">
-          <String Value="Valkyrie.Title.German and English" />
-        </Facet>
-        <Facet Name="Transcription">
-          <String Value="Valküre" />
-        </Facet>
-        <Facet Name="Info created">
-          <DateTime Value="2017-01-17T10:01:26" />
-        </Facet>
-        <Facet Name="Info updated">
-          <DateTime Value="2017-01-17T10:02:54" />
-        </Facet>
-        <Facet Name="Metadata Editors">
-          <String Value="Santamaria" />
-        </Facet>
-        <Facet Name="Film Reference Id">
-          <String Value="Valkyrie" />
-        </Facet>
-        <Facet Name="Conversation Reference Id">
-          <String Value="Valkyrie.Title" />
-        </Facet>
-        <Facet Name="Conversation start time (min)">
-          <Number Value="0" />
-        </Facet>
-        <Facet Name="Conversation duration (sec)">
-          <String Value="A. 1-20" />
-        </Facet>
-        <Facet Name="Main (L1) language">
-          <String Value="English" />
-        </Facet>
-        <Facet Name="L3ST language type">
-          <String Value="Real" />
-        </Facet>
-        <Facet Name="L3ST language">
-          <String Value="German" />
-        </Facet>
-        <Facet Name="L3ST meant to be understood">
-          <String Value="YES, (almost) completely" />
-        </Facet>
-        <Facet Name="L3ST message required for understanding">
-          <String Value="Yes" />
-        </Facet>
-        <Facet Name="L3ST meaning decipherable">
-          <String Value="YES, through translation or clear from picture" />
-        </Facet>
-        <Facet Name="Quality of L3ST speaker performance">
-          <String Value="native or proficient" />
-        </Facet>
-        <Facet Name="L3ST mode, written/spoken, diegetic">
-          <String Value="Written non-diegetic" />
-        </Facet>
-        <Facet Name="L3ST merely represented">
-          <String Value="NO / Not applicable" />
-        </Facet>
-        <Facet Name="L3ST functions">
-          <String Value="Metalinguistic" />
-        </Facet>
-        <Facet Name="Conversation features for L3ST-instance">
-          <String Value="information" />
-        </Facet>
-        <Facet Name="L3ST sources">
-          <String Value="Oral L3: single source" />
-        </Facet>
-        <Facet Name="L3TT-instances: count">
-          <Number Value="0" />
         </Facet>
       </Facets>
     </Item>

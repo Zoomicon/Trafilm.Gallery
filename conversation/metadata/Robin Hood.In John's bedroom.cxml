@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Robin Hood.In John's bedroom" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="In John's bedroom" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="False" p:IsWordWheelVisible="False" />
@@ -21,8 +21,8 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Robin Hood.In John's bedroom" Name="Robin Hood.In John's bedroom" Img="" Href="">
-      <Description></Description>
+    <Item Id="Robin Hood.In John's bedroom" Name="In John's bedroom" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Robin Hood&amp;conversation=Robin Hood.In John's bedroom">
+      <Description>King John's mother tries to stop her son's relationship with the niece of the King of France Philip in order not to give the latter an excuse to invade England.</Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="Robin Hood.In John's bedroom" />
@@ -31,10 +31,22 @@
           <DateTime Value="2017-02-12T11:43:19" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-02-12T11:43:19" />
+          <DateTime Value="2017-02-12T04:25:27" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Robin Hood" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Robin Hood" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="9" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="C. 41-60" />
         </Facet>
         <Facet Name="L3ST languages: count">
           <Number Value="0" />
