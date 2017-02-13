@@ -5332,7 +5332,7 @@ At the same time Mathis is on the phone</Description>
       </Facets>
     </Item>
     <Item Id="Sherlock Holmes.At Luke Reordan's" Name="At Luke Reordan's" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Sherlock Holmes&amp;conversation=Sherlock Holmes.At Luke Reordan's">
-      <Description>Holmes and Watson get to know the French speaking henchman Dredger.</Description>
+      <Description>Holmes and Watson fight against French speaking henchman Dredger and two other men.</Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="Sherlock Holmes.At Luke Reordan's" />
@@ -5341,7 +5341,7 @@ At the same time Mathis is on the phone</Description>
           <DateTime Value="2017-02-13T07:40:36" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-02-13T08:15:23" />
+          <DateTime Value="2017-02-13T09:06:09" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -5372,6 +5372,82 @@ At the same time Mathis is on the phone</Description>
         </Facet>
         <Facet Name="L3ST-instances: count">
           <Number Value="2" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Sherlock Holmes.At the docks" Name="Sherlock Holmes.At the docks" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Sherlock Holmes&amp;conversation=Sherlock Holmes.At the docks">
+      <Description>Holmes and Watson fight with Dredger.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Sherlock Holmes.At the docks" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-13T07:40:36" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-13T09:04:55" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Sherlock Holmes" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Sherlock Holmes" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="49" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="C. 41-60" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Sherlock Holmes.Saving the Parliament" Name="Sherlock Holmes.Saving the Parliament" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Sherlock Holmes&amp;conversation=Sherlock Holmes.Saving the Parliament">
+      <Description>Holmes, Irene Adler and Watson are attacked by Dredger.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Sherlock Holmes.Saving the Parliament" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-13T07:40:36" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-13T09:24:19" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Sherlock Holmes" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Sherlock Holmes" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="100" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
         </Facet>
       </Facets>
     </Item>
