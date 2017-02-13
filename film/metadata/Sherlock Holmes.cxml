@@ -24,8 +24,8 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Sherlock Holmes" Name="Sherlock Holmes" Img="" Href="">
-      <Description></Description>
+    <Item Id="Sherlock Holmes" Name="Sherlock Holmes" Img="https://upload.wikimedia.org/wikipedia/en/e/e0/Sherlock_holmes_ver5.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Sherlock Holmes">
+      <Description>Irene Adler, a former adversary of Holmes asks him to find a missing man named Luke Reordan. Luke Reordan's body is found by Holmes and Watson in Blackwood's tomb, a man who has been hanged and whose death was certified by Watson. While trying to solve this enigma they are able to save England from Blackwood's threat.</Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="Sherlock Holmes" />
@@ -34,10 +34,49 @@
           <DateTime Value="2017-02-13T12:34:27" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-02-13T12:34:27" />
+          <DateTime Value="2017-02-13T07:37:19" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Sherlock Holmes" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="128" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Guy Ritchie" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Michael Robert Johnson" />
+          <String Value=" Anthony Peckham" />
+          <String Value=" Simon Kinberg " />
+          <String Value=" Lionel Wigram" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="USA" />
+          <String Value="  Germany" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="Warner Bros." />
+          <String Value=" Village Roadshow Pictures" />
+          <String Value=" Silver Pictures " />
+          <String Value=" Wigram Productions" />
+          <String Value=" Internationale Filmproduktion Blackbird Dritte" />
+          <String Value=" Lin Picture" />
+        </Facet>
+        <Facet Name="Blockbuster">
+          <String Value="YES (top 20)" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2009" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
         </Facet>
         <Facet Name="Conversations: count">
           <Number Value="0" />
