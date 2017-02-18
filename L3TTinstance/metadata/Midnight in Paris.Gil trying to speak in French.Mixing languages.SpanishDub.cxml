@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Midnight in Paris.Gil trying to speak in French.Mixing languages.CatalanDub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Midnight in Paris.Gil trying to speak in French.Mixing languages.SpanishDub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -42,17 +42,17 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Midnight in Paris.Gil trying to speak in French.Mixing languages.CatalanDub" Name="Midnight in Paris.Gil trying to speak in French.Mixing languages.CatalanDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Midnight in Paris&amp;conversation=Midnight in Paris.Gil trying to speak in French&amp;L3STinstance=Midnight in Paris.Gil trying to speak in French.Mixing languages&amp;L3TTinstance=Midnight in Paris.Gil trying to speak in French.Mixing languages.CatalanDub">
+    <Item Id="Midnight in Paris.Gil trying to speak in French.Mixing languages.SpanishDub" Name="Midnight in Paris.Gil trying to speak in French.Mixing languages.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Midnight in Paris&amp;conversation=Midnight in Paris.Gil trying to speak in French&amp;L3STinstance=Midnight in Paris.Gil trying to speak in French.Mixing languages&amp;L3TTinstance=Midnight in Paris.Gil trying to speak in French.Mixing languages.SpanishDub">
       <Description>Gil is lost and by himself in Paris and wants to ask for directions to the hotel.</Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Midnight in Paris.Gil trying to speak in French.Mixing languages.CatalanDub" />
+          <String Value="Midnight in Paris.Gil trying to speak in French.Mixing languages.SpanishDub" />
         </Facet>
         <Facet Name="Info created">
           <DateTime Value="2017-02-18T07:38:17" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-02-18T07:40:34" />
+          <DateTime Value="2017-02-18T07:42:23" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -70,7 +70,7 @@
           <String Value="MIdnight in Paris" />
         </Facet>
         <Facet Name="L2 language">
-          <String Value="Catalan" />
+          <String Value="Spanish" />
         </Facet>
         <Facet Name="L2 mode">
           <String Value="Dubbed" />

@@ -8597,6 +8597,29 @@ The episode opens up with Wes Wrench and his associate and translator Grady Numb
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Midnight in Paris.Gil trying to speak in French.Paul's first night" Name="Midnight in Paris.Gil trying to speak in French.Paul's first night" Img="" Href="">
+      <Description></Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Midnight in Paris.Gil trying to speak in French.Paul's first night" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-18T07:54:31" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-18T07:54:31" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Midnight in Paris" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Midnight in Paris.Gil trying to speak in French" />
+        </Facet>
+        <Facet Name="L3TT-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Midnight in Paris.Museum guide in French.Monsieur" Name="Midnight in Paris.Museum guide in French" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Midnight in Paris&amp;conversation=Midnight in Paris.Museum guide in French&amp;L3STinstance=Midnight in Paris.Museum guide in French.Monsieur">
       <Description>Museum guide answers back when Paul refutes Museum guide's explanations</Description>
       <Facets>
@@ -8662,6 +8685,152 @@ The episode opens up with Wes Wrench and his associate and translator Grady Numb
         </Facet>
         <Facet Name="L3ST sources">
           <String Value="Bilingual (L3&amp;main): same source " />
+        </Facet>
+        <Facet Name="L3TT-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Midnight in Paris.Paul is given a lift.In French" Name="Midnight in Paris.Paul is given a lift" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Midnight in Paris&amp;conversation=Midnight in Paris.Paul is given a lift&amp;L3STinstance=Midnight in Paris.Paul is given a lift.In French">
+      <Description>The characters speak in French and switch to English when they realize Gil is American. Only a lady speaks in French all the time.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Midnight in Paris.Paul is given a lift.In French" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Montez, vous emmene. Oui, allez" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-18T07:57:33" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-18T08:06:03" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Midnight in Paris" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Midnight in Paris.Paul is given a lift" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="17" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L3ST language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST language">
+          <String Value="French" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="YES, the gist, the implications of what is happening" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Conversation can be followed regardless of meaning" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3ST speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3ST mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3ST merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
+        <Facet Name="L3ST functions">
+          <String Value="Character portrayal" />
+          <String Value="Plot (twist)" />
+          <String Value="Dramatic effect" />
+        </Facet>
+        <Facet Name="Conversation features for L3ST-instance">
+          <String Value="small talk" />
+        </Facet>
+        <Facet Name="L3ST sources">
+          <String Value="Oral L3: single source" />
+        </Facet>
+        <Facet Name="L3TT-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Midnight in Paris.Scott Fitzgerald in French.In the bar" Name="Midnight in Paris.Scott Fitzgerald in French" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Midnight in Paris&amp;conversation=Midnight in Paris.Scott Fitzgerald in French&amp;L3STinstance=Midnight in Paris.Scott Fitzgerald in French.In the bar">
+      <Description>Gil goes into a bar with Scott Fitzgerald and Zelda Fitzgerald.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Midnight in Paris.Scott Fitzgerald in French.In the bar" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Bon soir a tout le monde" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-18T08:20:34" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-18T08:22:04" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Midnight in Paris" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Midnight in Paris.Scott Fitzgerald in French" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="22" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L3ST language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST language">
+          <String Value="French" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="YES, the gist, the implications of what is happening" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Conversation can be followed regardless of meaning" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3ST speaker performance">
+          <String Value="clearly deficient or farcical" />
+        </Facet>
+        <Facet Name="L3ST mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3ST merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
+        <Facet Name="L3ST functions">
+          <String Value="Character portrayal" />
+          <String Value="Signals otherness" />
+          <String Value="Shows tolerance" />
+        </Facet>
+        <Facet Name="Conversation features for L3ST-instance">
+          <String Value="salutation" />
+        </Facet>
+        <Facet Name="L3ST sources">
+          <String Value="Oral L3: single source" />
         </Facet>
         <Facet Name="L3TT-instances: count">
           <Number Value="0" />

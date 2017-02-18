@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Midnight in Paris.Gil trying to speak in French.Mixing languages.CatalanDub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Midnight in Paris.Paul is given a lift.In French.CatalanSub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -42,17 +42,17 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Midnight in Paris.Gil trying to speak in French.Mixing languages.CatalanDub" Name="Midnight in Paris.Gil trying to speak in French.Mixing languages.CatalanDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Midnight in Paris&amp;conversation=Midnight in Paris.Gil trying to speak in French&amp;L3STinstance=Midnight in Paris.Gil trying to speak in French.Mixing languages&amp;L3TTinstance=Midnight in Paris.Gil trying to speak in French.Mixing languages.CatalanDub">
-      <Description>Gil is lost and by himself in Paris and wants to ask for directions to the hotel.</Description>
+    <Item Id="Midnight in Paris.Paul is given a lift.In French.CatalanSub" Name="Midnight in Paris.Paul is given a lift.In French.CatalanSub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Midnight in Paris&amp;conversation=Midnight in Paris.Paul is given a lift&amp;L3STinstance=Midnight in Paris.Paul is given a lift.In French&amp;L3TTinstance=Midnight in Paris.Paul is given a lift.In French.CatalanSub">
+      <Description>The characters speak in French and switch to English when they realize Gil is American. Only a lady speaks in French all the time.</Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Midnight in Paris.Gil trying to speak in French.Mixing languages.CatalanDub" />
+          <String Value="Midnight in Paris.Paul is given a lift.In French.CatalanSub" />
         </Facet>
         <Facet Name="Info created">
-          <DateTime Value="2017-02-18T07:38:17" />
+          <DateTime Value="2017-02-18T08:06:26" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-02-18T07:40:34" />
+          <DateTime Value="2017-02-18T08:16:45" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -61,19 +61,19 @@
           <String Value="Midnight in Paris" />
         </Facet>
         <Facet Name="Conversation Reference Id">
-          <String Value="Midnight in Paris.Gil trying to speak in French" />
+          <String Value="Midnight in Paris.Paul is given a lift" />
         </Facet>
         <Facet Name="L3ST-instance Reference Id">
-          <String Value="Midnight in Paris.Gil trying to speak in French.Mixing languages" />
+          <String Value="Midnight in Paris.Paul is given a lift.In French" />
         </Facet>
         <Facet Name="Film Title TT">
           <String Value="MIdnight in Paris" />
         </Facet>
         <Facet Name="L2 language">
-          <String Value="Catalan" />
+          <String Value="Spanish" />
         </Facet>
         <Facet Name="L2 mode">
-          <String Value="Dubbed" />
+          <String Value="Subtitled" />
         </Facet>
         <Facet Name="Distribution countries (TT)">
           <String Value="Spain" />
@@ -85,7 +85,7 @@
           <String Value="YES (top 20)" />
         </Facet>
         <Facet Name="Conversation start time (min)">
-          <Number Value="15" />
+          <Number Value="17" />
         </Facet>
         <Facet Name="Conversation duration (sec)">
           <String Value="A. 1-20" />
@@ -112,31 +112,31 @@
           <String Value="YES, through translation or clear from picture" />
         </Facet>
         <Facet Name="Quality of L3TT speaker performance">
-          <String Value="clearly non-native or deficient" />
+          <String Value="native or proficient" />
         </Facet>
         <Facet Name="L3TT mode, written/spoken, diegetic">
-          <String Value="Oral diegetic on-screen" />
+          <String Value="Written diegetic" />
         </Facet>
         <Facet Name="L3TT merely represented">
-          <String Value="NO / Not applicable" />
+          <String Value="YES: orally" />
         </Facet>
         <Facet Name="L3TT functions">
           <String Value="Character portrayal" />
           <String Value="Plot (twist)" />
-          <String Value="Metaphorical (e.g. communication barrier)" />
+          <String Value="Dramatic effect" />
         </Facet>
         <Facet Name="Conversation features for L3TT-instance">
-          <String Value="question &amp; answer" />
           <String Value="small talk" />
         </Facet>
         <Facet Name="L3TT sources">
-          <String Value="Bilingual (L3&amp;main): same source " />
+          <String Value="Oral L3: single source" />
         </Facet>
         <Facet Name="L3 language type change">
           <String Value="None" />
         </Facet>
         <Facet Name="L3 mode change">
-          <String Value="None" />
+          <String Value="- Oral diegetic on-screen" />
+          <String Value="+ Written diegetic" />
         </Facet>
         <Facet Name="L3 functions change">
           <String Value="None" />
