@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Midnight in Paris.Dali and Buñuel.Dali in French.CatalanSub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Midnight in Paris.Stein and Picasso after Adriana left him.In Spanish.SpanishDub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -42,20 +42,17 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Midnight in Paris.Dali and Buñuel.Dali in French.CatalanSub" Name="Midnight in Paris.Dali and Buñuel.Dali in French.CatalanSub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Midnight in Paris&amp;conversation=Midnight in Paris.Dali and Buñuel&amp;L3STinstance=Midnight in Paris.Dali and Buñuel.Dali in French&amp;L3TTinstance=Midnight in Paris.Dali and Buñuel.Dali in French.CatalanSub">
-      <Description>Gil meets Dali and then Buñuel after Adriana left.</Description>
+    <Item Id="Midnight in Paris.Stein and Picasso after Adriana left him.In Spanish.SpanishDub" Name="Midnight in Paris.Stein and Picasso after Adriana left him.In Spanish.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Midnight in Paris&amp;conversation=Midnight in Paris.Stein and Picasso after Adriana left him&amp;L3STinstance=Midnight in Paris.Stein and Picasso after Adriana left him.In Spanish&amp;L3TTinstance=Midnight in Paris.Stein and Picasso after Adriana left him.In Spanish.SpanishDub">
+      <Description>Gil pays a visit to Stein who is with Picasso, who is depressed after Adriana has left him.</Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Midnight in Paris.Dali and Buñuel.Dali in French.CatalanSub" />
-        </Facet>
-        <Facet Name="Tags">
-          <String Value="No subtitles" />
+          <String Value="Midnight in Paris.Stein and Picasso after Adriana left him.In Spanish.SpanishDub" />
         </Facet>
         <Facet Name="Info created">
-          <DateTime Value="2017-02-19T09:34:43" />
+          <DateTime Value="2017-02-19T09:56:57" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-02-19T09:40:45" />
+          <DateTime Value="2017-02-19T10:33:49" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -64,19 +61,19 @@
           <String Value="Midnight in Paris" />
         </Facet>
         <Facet Name="Conversation Reference Id">
-          <String Value="Midnight in Paris.Dali and Buñuel" />
+          <String Value="Midnight in Paris.Stein and Picasso after Adriana left him" />
         </Facet>
         <Facet Name="L3ST-instance Reference Id">
-          <String Value="Midnight in Paris.Dali and Buñuel.Dali in French" />
+          <String Value="Midnight in Paris.Stein and Picasso after Adriana left him.In Spanish" />
         </Facet>
         <Facet Name="Film Title TT">
           <String Value="MIdnight in Paris" />
         </Facet>
         <Facet Name="L2 language">
-          <String Value="Catalan" />
+          <String Value="Spanish" />
         </Facet>
         <Facet Name="L2 mode">
-          <String Value="Subtitled" />
+          <String Value="Dubbed" />
         </Facet>
         <Facet Name="Distribution countries (TT)">
           <String Value="Spain" />
@@ -88,40 +85,37 @@
           <String Value="YES (top 20)" />
         </Facet>
         <Facet Name="Conversation start time (min)">
-          <Number Value="52" />
+          <Number Value="58" />
         </Facet>
         <Facet Name="Conversation duration (sec)">
           <String Value="B. 21-40" />
         </Facet>
         <Facet Name="L2 same as L3ST">
-          <String Value="No" />
-        </Facet>
-        <Facet Name="L3ST conveyed as L3TT">
           <String Value="Yes" />
         </Facet>
+        <Facet Name="L3ST conveyed as L3TT">
+          <String Value="No" />
+        </Facet>
         <Facet Name="L3TT language type">
-          <String Value="Real" />
+          <String Value="No L3TT: L3-instance in L2" />
         </Facet>
         <Facet Name="L3TT language">
-          <String Value="French" />
+          <String Value="Spanish" />
         </Facet>
         <Facet Name="L3TT meant to be understood">
-          <String Value="YES, the gist, the implications of what is happening" />
+          <String Value="YES, (almost) completely" />
         </Facet>
         <Facet Name="L3TT message required for understanding">
-          <String Value="Conversation can be followed regardless of meaning" />
+          <String Value="Yes" />
         </Facet>
         <Facet Name="L3TT meaning decipherable">
           <String Value="YES, through translation or clear from picture" />
         </Facet>
         <Facet Name="Quality of L3TT speaker performance">
-          <String Value="clearly non-native or deficient" />
+          <String Value="native or proficient" />
         </Facet>
         <Facet Name="L3TT mode, written/spoken, diegetic">
           <String Value="Oral diegetic on-screen" />
-        </Facet>
-        <Facet Name="L3TT merely represented">
-          <String Value="YES: orally" />
         </Facet>
         <Facet Name="L3TT functions">
           <String Value="Character portrayal" />
@@ -130,10 +124,11 @@
           <String Value="anecdote / story" />
         </Facet>
         <Facet Name="L3TT sources">
-          <String Value="Bilingual (L3&amp;main): same source " />
+          <String Value="Oral L3: single source" />
         </Facet>
         <Facet Name="L3 language type change">
-          <String Value="None" />
+          <String Value="- Real" />
+          <String Value="+ No L3TT: L3-instance in L2" />
         </Facet>
         <Facet Name="L3 mode change">
           <String Value="None" />

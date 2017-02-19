@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Midnight in Paris.Dali and Buñuel.Dali in French.CatalanSub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Midnight in Paris.Dali and Buñuel.Dali in French.SpanishDub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -42,11 +42,11 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Midnight in Paris.Dali and Buñuel.Dali in French.CatalanSub" Name="Midnight in Paris.Dali and Buñuel.Dali in French.CatalanSub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Midnight in Paris&amp;conversation=Midnight in Paris.Dali and Buñuel&amp;L3STinstance=Midnight in Paris.Dali and Buñuel.Dali in French&amp;L3TTinstance=Midnight in Paris.Dali and Buñuel.Dali in French.CatalanSub">
+    <Item Id="Midnight in Paris.Dali and Buñuel.Dali in French.SpanishDub" Name="Midnight in Paris.Dali and Buñuel.Dali in French.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Midnight in Paris&amp;conversation=Midnight in Paris.Dali and Buñuel&amp;L3STinstance=Midnight in Paris.Dali and Buñuel.Dali in French&amp;L3TTinstance=Midnight in Paris.Dali and Buñuel.Dali in French.SpanishDub">
       <Description>Gil meets Dali and then Buñuel after Adriana left.</Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Midnight in Paris.Dali and Buñuel.Dali in French.CatalanSub" />
+          <String Value="Midnight in Paris.Dali and Buñuel.Dali in French.SpanishDub" />
         </Facet>
         <Facet Name="Tags">
           <String Value="No subtitles" />
@@ -55,7 +55,7 @@
           <DateTime Value="2017-02-19T09:34:43" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-02-19T09:40:45" />
+          <DateTime Value="2017-02-19T09:41:56" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -73,10 +73,10 @@
           <String Value="MIdnight in Paris" />
         </Facet>
         <Facet Name="L2 language">
-          <String Value="Catalan" />
+          <String Value="Spanish" />
         </Facet>
         <Facet Name="L2 mode">
-          <String Value="Subtitled" />
+          <String Value="Dubbed" />
         </Facet>
         <Facet Name="Distribution countries (TT)">
           <String Value="Spain" />
