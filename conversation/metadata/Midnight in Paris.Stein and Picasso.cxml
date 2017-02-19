@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Midnight in Paris.Museum guide in French" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Midnight in Paris.Stein and Picasso" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="False" p:IsWordWheelVisible="False" />
@@ -21,17 +21,17 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Midnight in Paris.Museum guide in French" Name="Midnight in Paris.Museum guide in French" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Midnight in Paris&amp;conversation=Midnight in Paris.Museum guide in French">
-      <Description>The museum guide tries to establish the historic facts in front of Paul Bates' arrogancy.</Description>
+    <Item Id="Midnight in Paris.Stein and Picasso" Name="Midnight in Paris.Stein and Picasso" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Midnight in Paris&amp;conversation=Midnight in Paris.Stein and Picasso">
+      <Description>Gil and Hemingway pay a visit to Stein who is with Picasso</Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Midnight in Paris.Museum guide in French" />
+          <String Value="Midnight in Paris.Stein and Picasso" />
         </Facet>
         <Facet Name="Info created">
           <DateTime Value="2017-02-18T07:22:14" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-02-19T02:01:19" />
+          <DateTime Value="2017-02-19T02:56:04" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -46,7 +46,7 @@
           <Number Value="11" />
         </Facet>
         <Facet Name="Duration (sec)">
-          <String Value="A. 1-20" />
+          <String Value="J. &gt; 180" />
         </Facet>
         <Facet Name="L3ST languages: count">
           <Number Value="1" />
@@ -61,7 +61,7 @@
           <String Value="Real" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="1" />
+          <Number Value="2" />
         </Facet>
       </Facets>
     </Item>
