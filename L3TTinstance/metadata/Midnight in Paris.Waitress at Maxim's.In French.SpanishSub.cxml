@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Midnight in Paris.Toulouse-Lautrec, Gauguin and Degas.Toulouse-Lautrec.SpanishDub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Midnight in Paris.Waitress at Maxim's.In French.SpanishSub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -42,20 +42,20 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Midnight in Paris.Toulouse-Lautrec, Gauguin and Degas.Toulouse-Lautrec.SpanishDub" Name="Midnight in Paris.Toulouse-Lautrec, Gauguin and Degas.Toulouse-Lautrec.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Midnight in Paris&amp;conversation=Midnight in Paris.Toulouse-Lautrec, Gauguin and Degas&amp;L3STinstance=Midnight in Paris.Toulouse-Lautrec, Gauguin and Degas.Toulouse-Lautrec&amp;L3TTinstance=Midnight in Paris.Toulouse-Lautrec, Gauguin and Degas.Toulouse-Lautrec.SpanishDub">
-      <Description>Toulouse-Lautrec welcomes Adriana and Gil.</Description>
+    <Item Id="Midnight in Paris.Waitress at Maxim's.In French.SpanishSub" Name="Midnight in Paris.Waitress at Maxim's.In French.SpanishSub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Midnight in Paris&amp;conversation=Midnight in Paris.Waitress at Maxim's&amp;L3STinstance=Midnight in Paris.Waitress at Maxim's.In French&amp;L3TTinstance=Midnight in Paris.Waitress at Maxim's.In French.SpanishSub">
+      <Description>Adriana and Gil go into Maxim's.</Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Midnight in Paris.Toulouse-Lautrec, Gauguin and Degas.Toulouse-Lautrec.SpanishDub" />
+          <String Value="Midnight in Paris.Waitress at Maxim's.In French.SpanishSub" />
         </Facet>
         <Facet Name="Tags">
           <String Value="No subtitles" />
         </Facet>
         <Facet Name="Info created">
-          <DateTime Value="2017-02-20T10:26:43" />
+          <DateTime Value="2017-02-20T11:26:58" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-02-20T10:43:35" />
+          <DateTime Value="2017-02-20T11:29:42" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -64,10 +64,10 @@
           <String Value="Midnight in Paris" />
         </Facet>
         <Facet Name="Conversation Reference Id">
-          <String Value="Midnight in Paris.Toulouse-Lautrec, Gauguin and Degas" />
+          <String Value="Midnight in Paris.Waitress at Maxim's" />
         </Facet>
         <Facet Name="L3ST-instance Reference Id">
-          <String Value="Midnight in Paris.Toulouse-Lautrec, Gauguin and Degas.Toulouse-Lautrec" />
+          <String Value="Midnight in Paris.Waitress at Maxim's.In French" />
         </Facet>
         <Facet Name="Film Title TT">
           <String Value="MIdnight in Paris" />
@@ -76,7 +76,7 @@
           <String Value="Spanish" />
         </Facet>
         <Facet Name="L2 mode">
-          <String Value="Dubbed" />
+          <String Value="Subtitled" />
         </Facet>
         <Facet Name="Distribution countries (TT)">
           <String Value="Spain" />
@@ -91,7 +91,7 @@
           <Number Value="115" />
         </Facet>
         <Facet Name="Conversation duration (sec)">
-          <String Value="G. 121-140" />
+          <String Value="A. 1-20" />
         </Facet>
         <Facet Name="L2 same as L3ST">
           <String Value="No" />
@@ -121,18 +121,16 @@
           <String Value="Oral diegetic on-screen" />
         </Facet>
         <Facet Name="L3TT merely represented">
-          <String Value="NO / Not applicable" />
+          <String Value="YES: orally" />
         </Facet>
         <Facet Name="L3TT functions">
           <String Value="Character portrayal" />
-          <String Value="Plot (twist)" />
         </Facet>
         <Facet Name="Conversation features for L3TT-instance">
-          <String Value="anecdote / story" />
           <String Value="salutation" />
         </Facet>
         <Facet Name="L3TT sources">
-          <String Value="Rephrase interlingually: different sources" />
+          <String Value="Oral L3: single source" />
         </Facet>
         <Facet Name="L3 language type change">
           <String Value="None" />
@@ -141,14 +139,14 @@
           <String Value="None" />
         </Facet>
         <Facet Name="L3 functions change">
-          <String Value="None" />
+          <String Value="- Plot (twist)" />
+          <String Value="+ Character portrayal" />
         </Facet>
         <Facet Name="Conversation features for L3-instance change">
           <String Value="None" />
         </Facet>
         <Facet Name="L3 sources change">
-          <String Value="- Oral L3: different sources " />
-          <String Value="+ Rephrase interlingually: different sources" />
+          <String Value="None" />
         </Facet>
       </Facets>
     </Item>

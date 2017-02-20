@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Collection SchemaVersion="1.0" Name="Midnight in Paris.Toulouse-Lautrec, Gauguin and Degas.Adriana" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+  <FacetCategories>
+    <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Conversation Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Conversation start time (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Conversation duration (sec)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Main (L1) language" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST language type" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST language" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST constructed based on" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST meant to be understood" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST message required for understanding" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST meaning decipherable" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Quality of L3ST speaker performance" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="L3ST mode, written/spoken, diegetic" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST merely represented" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST merely represented orally" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST represented: visual" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST functions" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Conversation features for L3ST-instance" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST sources" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3TT-instances: count" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Tags" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+  </FacetCategories>
+  <Items xmlns="">
+    <Item Id="Midnight in Paris.Toulouse-Lautrec, Gauguin and Degas.Adriana" Name="Midnight in Paris.Toulouse-Lautrec, Gauguin and Degas.Adriana" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Midnight in Paris&amp;conversation=Midnight in Paris.Toulouse-Lautrec, Gauguin and Degas&amp;L3STinstance=Midnight in Paris.Toulouse-Lautrec, Gauguin and Degas.Adriana">
+      <Description>Degas and Gauguin join Toulouse-Lautrec, Adriana and Gil.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Midnight in Paris.Toulouse-Lautrec, Gauguin and Degas.Adriana" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="- Monsieur Lautrec?&#xD;&#xA;- Oui? (Yes?)&#xD;&#xA;- Bon soir. Nous sommes de grands amateurs.(Good evening. We are great fans.)&#xD;&#xA;- Merci, Madame. (Thank you, Madame.)&#xD;&#xA;- Pouvons-nous vous offérir un verre? (May we offer you a drink?)&#xD;&#xA;- Je serais enchante. Prenez un sige. (I would be delighted. Have a seat.)&#xD;&#xA;- He's asking us to sit down with him. &#xD;&#xA;- This much French I do understand, and the gesture.&#xD;&#xA;- Vous tes Americain? (You are American?)&#xD;&#xA;- Yes, I'm an American.&#xD;&#xA;- Je vous devine l'accent.(I could tell from the accent.)&#xD;&#xA;- Yeah. Oui. Oui.&#xD;&#xA;- Vos dessins! Votre attention! Nous admirons tout que vous faites. (Your drawings! Your attention! We admire everything that you do.)&#xD;&#xA;- I love your drawings, also.&#xD;&#xA;- Bon soir!&#xD;&#xA;- Merci. Savez que moi je présenter Monsieur Gauginand Monsieur Degas. (May I present Mr. Gaugin and Mr. Degas.)&#xD;&#xA;- Bon soir.&#xD;&#xA;- Enchante.&#xD;&#xA;- Bon soir. Enchante.&#xD;&#xA;- Paul Gaugin.&#xD;&#xA;- Yes! Yes! Yes! See the sketch he's made?&#xD;&#xA;Nobody can draw like this today. Not Picasso. Not Matisse. Unbelievable. Parlez-vous anglais?&#xD;&#xA;- Non, monsieur. (No, sir.)&#xD;&#xA;- Il parle un petit peu.(He speaks a little.)&#xD;&#xA;- Non, non. I speak well. Parle trés bien. Bien oui. Tu veut voir? (No, no. I speak very well. Absolutely. You want to see?) Degas and I were just talking about how this... um...this...cette...gnration est plus vide, et il manque d'imagination.&#xD;&#xA;(...this generation is empty, and is missing imagination.)&#xD;&#xA;- He said...He says that this generation is empty, and has no imagination. Better to have lived during the... la Renaissance.&#xD;&#xA;- No! This is the golden age.&#xD;&#xA;- Non.&#xD;&#xA;- C'est l'âge d'or!(It's the golden age!)&#xD;&#xA;- Pas de tout. La Renaissance, c'est beaucoup mieux. (Not at all. The Renaissance is much better.) Qu'est-ce que vous faites dans la vie? (What is it you do?)&#xD;&#xA;- J'étudie la haute-couture. (I study high fashion.)&#xD;&#xA;- C'est pour a vous êtes (That's why you're dressed like that.) Je comprends maintenant! (I understand now!) Les vtements tres jeune. (The youthful clothes.) Voulez vous de lui présenter Richard? (Would you introduce her to Richard?)&#xD;&#xA;- Ah, oui! (Oh, yes!)&#xD;&#xA;- Ah, oui. He wants to have you meet his friend Richard. He's looking for someone to do costumes for the new ballet. So, vous intresse? (So, you're interested?)&#xD;&#xA;- Ballet costumes?&#xD;&#xA;- Yes. &#xD;&#xA;- Oh my God! I... I don't live here. I mean, I do, but I don't. I... &#xD;&#xA;- It's best not to go into too many details. We're... We're temporarily passing through. Can I speak with you a minute? Permite? (May I?)&#xD;&#xA;- Enchanté." />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="No subtitles" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-20T07:11:05" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-20T10:58:53" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Midnight in Paris" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Midnight in Paris.Toulouse-Lautrec, Gauguin and Degas" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="115" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="G. 121-140" />
+        </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L3ST language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST language">
+          <String Value="French" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="YES, the gist, the implications of what is happening" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Conversation can be followed regardless of meaning" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3ST speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3ST mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3ST merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
+        <Facet Name="L3ST functions">
+          <String Value="Character portrayal" />
+          <String Value="Plot (twist)" />
+        </Facet>
+        <Facet Name="Conversation features for L3ST-instance">
+          <String Value="anecdote / story" />
+          <String Value="salutation" />
+        </Facet>
+        <Facet Name="L3ST sources">
+          <String Value="Rephrase interlingually: same source" />
+        </Facet>
+        <Facet Name="L3TT-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+  </Items>
+</Collection>

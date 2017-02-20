@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Midnight in Paris.Toulouse-Lautrec, Gauguin and Degas.Toulouse-Lautrec.SpanishDub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Midnight in Paris.Toulouse-Lautrec, Gauguin and Degas.Degas.SpanishDub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -42,20 +42,20 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Midnight in Paris.Toulouse-Lautrec, Gauguin and Degas.Toulouse-Lautrec.SpanishDub" Name="Midnight in Paris.Toulouse-Lautrec, Gauguin and Degas.Toulouse-Lautrec.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Midnight in Paris&amp;conversation=Midnight in Paris.Toulouse-Lautrec, Gauguin and Degas&amp;L3STinstance=Midnight in Paris.Toulouse-Lautrec, Gauguin and Degas.Toulouse-Lautrec&amp;L3TTinstance=Midnight in Paris.Toulouse-Lautrec, Gauguin and Degas.Toulouse-Lautrec.SpanishDub">
-      <Description>Toulouse-Lautrec welcomes Adriana and Gil.</Description>
+    <Item Id="Midnight in Paris.Toulouse-Lautrec, Gauguin and Degas.Degas.SpanishDub" Name="Midnight in Paris.Toulouse-Lautrec, Gauguin and Degas.Degas.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Midnight in Paris&amp;conversation=Midnight in Paris.Toulouse-Lautrec, Gauguin and Degas&amp;L3STinstance=Midnight in Paris.Toulouse-Lautrec, Gauguin and Degas.Degas&amp;L3TTinstance=Midnight in Paris.Toulouse-Lautrec, Gauguin and Degas.Degas.SpanishDub">
+      <Description>Degas and Gauguin join Toulouse-Lautrec, Adriana and Gil.</Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Midnight in Paris.Toulouse-Lautrec, Gauguin and Degas.Toulouse-Lautrec.SpanishDub" />
+          <String Value="Midnight in Paris.Toulouse-Lautrec, Gauguin and Degas.Degas.SpanishDub" />
         </Facet>
         <Facet Name="Tags">
           <String Value="No subtitles" />
         </Facet>
         <Facet Name="Info created">
-          <DateTime Value="2017-02-20T10:26:43" />
+          <DateTime Value="2017-02-20T10:47:28" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-02-20T10:43:35" />
+          <DateTime Value="2017-02-20T10:51:32" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -67,7 +67,7 @@
           <String Value="Midnight in Paris.Toulouse-Lautrec, Gauguin and Degas" />
         </Facet>
         <Facet Name="L3ST-instance Reference Id">
-          <String Value="Midnight in Paris.Toulouse-Lautrec, Gauguin and Degas.Toulouse-Lautrec" />
+          <String Value="Midnight in Paris.Toulouse-Lautrec, Gauguin and Degas.Degas" />
         </Facet>
         <Facet Name="Film Title TT">
           <String Value="MIdnight in Paris" />
@@ -121,7 +121,7 @@
           <String Value="Oral diegetic on-screen" />
         </Facet>
         <Facet Name="L3TT merely represented">
-          <String Value="NO / Not applicable" />
+          <String Value="YES: orally" />
         </Facet>
         <Facet Name="L3TT functions">
           <String Value="Character portrayal" />
