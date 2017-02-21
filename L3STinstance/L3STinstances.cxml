@@ -15024,11 +15024,14 @@ At the same time Mathis is on the phone</Description>
         <Facet Name="Reference Id">
           <String Value="Rise of the Planet of the Apes.Caesar and Caroline.Caesar" />
         </Facet>
+        <Facet Name="Transcription">
+          <String Value="- What's this?&#xD;&#xA;- What's he doing? I don't believe that!&#xD;&#xA;- What?&#xD;&#xA;- He's asking your permission. It's a supplicating gest" />
+        </Facet>
         <Facet Name="Info created">
           <DateTime Value="2017-02-21T09:37:20" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-02-21T09:38:34" />
+          <DateTime Value="2017-02-21T09:57:32" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -15083,7 +15086,79 @@ At the same time Mathis is on the phone</Description>
           <String Value="Oral L3: single source" />
         </Facet>
         <Facet Name="L3TT-instances: count">
-          <Number Value="0" />
+          <Number Value="2" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Rise of the Planet of the Apes.Caesar and Caroline.Caroline" Name="Rise of the Planet of the Apes.Caesar and Caroline.Caroline" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Rise of the Planet of the Apes&amp;conversation=Rise of the Planet of the Apes.Caesar and Caroline&amp;L3STinstance=Rise of the Planet of the Apes.Caesar and Caroline.Caroline">
+      <Description>Caroline explains to William that Caesar is using a given sign to ask for permission.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Rise of the Planet of the Apes.Caesar and Caroline.Caroline" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="- What's this?&#xD;&#xA;- What's he doing? I don't believe that!&#xD;&#xA;- What?&#xD;&#xA;- He's asking your permission. It's a supplicating gest" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-21T09:37:20" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-21T09:58:01" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Rise of the Planet of the Apes" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Rise of the Planet of the Apes.Caesar and Caroline" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="22" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L3ST language type">
+          <String Value="Constructed (fictional)" />
+        </Facet>
+        <Facet Name="L3ST language">
+          <String Value="Sign language" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="Quality of L3ST speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3ST merely represented">
+          <String Value="YES: visually" />
+        </Facet>
+        <Facet Name="L3ST represented: visual">
+          <String Value="Gesture (movement / body language)" />
+        </Facet>
+        <Facet Name="L3ST functions">
+          <String Value="Character portrayal" />
+          <String Value="Plot (twist)" />
+        </Facet>
+        <Facet Name="Conversation features for L3ST-instance">
+          <String Value="small talk" />
+        </Facet>
+        <Facet Name="L3ST sources">
+          <String Value="Rephrase interlingually: same source" />
+        </Facet>
+        <Facet Name="L3TT-instances: count">
+          <Number Value="2" />
         </Facet>
       </Facets>
     </Item>
