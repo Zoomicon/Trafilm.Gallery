@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Hereafter.Marie and Michel finish their relationship" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Caesar, William and Caroline" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="False" p:IsWordWheelVisible="False" />
@@ -21,32 +21,32 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Hereafter.Marie and Michel finish their relationship" Name="Hereafter.Marie and Michel finish their relationship" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Hereafter&amp;conversation=Hereafter.Marie and Michel finish their relationship">
-      <Description>Marie is not going to be given back her job and learns Didier has a relationship with the new journalist.</Description>
+    <Item Id="Rise of the Planet of the Apes.Caesar, William and Caroline" Name="Caesar, William and Caroline" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Rise of the Planet of the Apes&amp;conversation=Rise of the Planet of the Apes.Caesar, William and Caroline">
+      <Description>William takes Caesar to the zoo after Caesar has been injured for the primatologist Caroline Aranha to take care of the injury.</Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Hereafter.Marie and Michel finish their relationship" />
+          <String Value="Rise of the Planet of the Apes.Caesar, William and Caroline" />
         </Facet>
         <Facet Name="Info created">
-          <DateTime Value="2017-02-21T01:10:30" />
+          <DateTime Value="2017-02-21T05:32:59" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-02-21T04:41:41" />
+          <DateTime Value="2017-02-21T05:34:25" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
         </Facet>
         <Facet Name="Film Reference Id">
-          <String Value="Hereafter" />
+          <String Value="Rise of the Planet of the Apes" />
         </Facet>
         <Facet Name="Film/Season title">
-          <String Value="Hereafter" />
+          <String Value="Rise of the Planet of the Apes" />
         </Facet>
         <Facet Name="Start time (min)">
-          <Number Value="86" />
+          <Number Value="19" />
         </Facet>
         <Facet Name="Duration (sec)">
-          <String Value="I. 161-180" />
+          <String Value="C. 41-60" />
         </Facet>
         <Facet Name="L3ST languages: count">
           <Number Value="0" />
