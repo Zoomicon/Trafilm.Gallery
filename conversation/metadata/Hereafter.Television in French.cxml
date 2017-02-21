@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Hereafter.Marie and Didier at the restaurant" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Hereafter.Television in French" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="False" p:IsWordWheelVisible="False" />
@@ -21,17 +21,17 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Hereafter.Marie and Didier at the restaurant" Name="Hereafter.Marie and Didier at the restaurant" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Hereafter&amp;conversation=Hereafter.Marie and Didier at the restaurant">
-      <Description>Marie and Didier talk about her new book and the life after death.</Description>
+    <Item Id="Hereafter.Television in French" Name="Hereafter.Television in French" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Hereafter&amp;conversation=Hereafter.Television in French">
+      <Description>Marie is organizing the information given to her by the director of the hospice in Switzerland while the TV set is on.</Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Hereafter.Marie and Didier at the restaurant" />
+          <String Value="Hereafter.Television in French" />
         </Facet>
         <Facet Name="Info created">
           <DateTime Value="2017-02-21T01:10:30" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-02-21T03:40:38" />
+          <DateTime Value="2017-02-21T04:19:35" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -43,10 +43,10 @@
           <String Value="Hereafter" />
         </Facet>
         <Facet Name="Start time (min)">
-          <Number Value="46" />
+          <Number Value="75" />
         </Facet>
         <Facet Name="Duration (sec)">
-          <String Value="F. 101-120" />
+          <String Value="B. 21-40" />
         </Facet>
         <Facet Name="L3ST languages: count">
           <Number Value="0" />
