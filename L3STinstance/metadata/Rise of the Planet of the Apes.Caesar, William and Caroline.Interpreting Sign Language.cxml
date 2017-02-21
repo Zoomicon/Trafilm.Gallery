@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Caesar, William and Caroline" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Rise of the Planet of the Apes.Caesar, William and Caroline.Interpreting Sign Language" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -30,17 +30,17 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Rise of the Planet of the Apes.Caesar, William and Caroline.Sign language" Name="Caesar, William and Caroline" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Rise of the Planet of the Apes&amp;conversation=Rise of the Planet of the Apes.Caesar, William and Caroline&amp;L3STinstance=Rise of the Planet of the Apes.Caesar, William and Caroline.Sign language">
+    <Item Id="Rise of the Planet of the Apes.Caesar, William and Caroline.Interpreting Sign Language" Name="Rise of the Planet of the Apes.Caesar, William and Caroline.Interpreting Sign Language" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Rise of the Planet of the Apes&amp;conversation=Rise of the Planet of the Apes.Caesar, William and Caroline&amp;L3STinstance=Rise of the Planet of the Apes.Caesar, William and Caroline.Interpreting Sign Language">
       <Description>William takes Caesar to the zoo after Caesar has been injured for the primatologist Caroline Aranha to take care of the injury.</Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Rise of the Planet of the Apes.Caesar, William and Caroline.Sign language" />
+          <String Value="Rise of the Planet of the Apes.Caesar, William and Caroline.Interpreting Sign Language" />
         </Facet>
         <Facet Name="Info created">
           <DateTime Value="2017-02-21T05:35:00" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-02-21T09:18:06" />
+          <DateTime Value="2017-02-21T09:31:05" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -80,7 +80,6 @@
         </Facet>
         <Facet Name="L3ST merely represented">
           <String Value="YES: visually" />
-          <String Value="NO / Not applicable" />
         </Facet>
         <Facet Name="L3ST represented: visual">
           <String Value="Gesture (movement / body language)" />
@@ -93,10 +92,10 @@
           <String Value="small talk" />
         </Facet>
         <Facet Name="L3ST sources">
-          <String Value="Oral L3: single source" />
+          <String Value="Rephrase interlingually: different sources" />
         </Facet>
         <Facet Name="L3TT-instances: count">
-          <Number Value="0" />
+          <Number Value="2" />
         </Facet>
       </Facets>
     </Item>
