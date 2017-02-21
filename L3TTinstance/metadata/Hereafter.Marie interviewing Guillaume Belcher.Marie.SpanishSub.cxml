@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Hereafter.Marie and Didier at the hotel.Didier.SpanishSub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Hereafter.Marie interviewing Guillaume Belcher.Marie.SpanishSub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -42,17 +42,20 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Hereafter.Marie and Didier at the hotel.Didier.SpanishSub" Name="Hereafter.Marie and Didier at the hotel.Didier.SpanishSub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Hereafter&amp;conversation=Hereafter.Marie and Didier at the hotel&amp;L3STinstance=Hereafter.Marie and Didier at the hotel.Didier&amp;L3TTinstance=Hereafter.Marie and Didier at the hotel.Didier.SpanishSub">
-      <Description>Marie wakes up and talks with Didier about going to buy presents for Didier's children.</Description>
+    <Item Id="Hereafter.Marie interviewing Guillaume Belcher.Marie.SpanishSub" Name="Hereafter.Marie interviewing Guillaume Belcher.Marie.SpanishSub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Hereafter&amp;conversation=Hereafter.Marie interviewing Guillaume Belcher&amp;L3STinstance=Hereafter.Marie interviewing Guillaume Belcher.Marie&amp;L3TTinstance=Hereafter.Marie interviewing Guillaume Belcher.Marie.SpanishSub">
+      <Description>Marie interviews Guillaume Belcher after the news about his company malpractice.</Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Hereafter.Marie and Didier at the hotel.Didier.SpanishSub" />
+          <String Value="Hereafter.Marie interviewing Guillaume Belcher.Marie.SpanishSub" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="Subtitled in Spanish" />
         </Facet>
         <Facet Name="Info created">
-          <DateTime Value="2017-02-21T01:24:36" />
+          <DateTime Value="2017-02-21T02:09:50" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-02-21T02:21:30" />
+          <DateTime Value="2017-02-21T02:24:48" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -61,10 +64,10 @@
           <String Value="Hereafter" />
         </Facet>
         <Facet Name="Conversation Reference Id">
-          <String Value="Hereafter.Marie and Didier at the hotel" />
+          <String Value="Hereafter.Marie interviewing Guillaume Belcher" />
         </Facet>
         <Facet Name="L3ST-instance Reference Id">
-          <String Value="Hereafter.Marie and Didier at the hotel.Didier" />
+          <String Value="Hereafter.Marie interviewing Guillaume Belcher.Marie" />
         </Facet>
         <Facet Name="Film Title TT">
           <String Value="Más allá de la vida" />
@@ -73,7 +76,7 @@
           <String Value="Spanish" />
         </Facet>
         <Facet Name="L2 mode">
-          <String Value="Subtitled" />
+          <String Value="Dubbed" />
         </Facet>
         <Facet Name="Distribution countries (TT)">
           <String Value="Spain" />
@@ -85,13 +88,13 @@
           <String Value="YES (top 20)" />
         </Facet>
         <Facet Name="Conversation start time (min)">
-          <Number Value="0" />
+          <Number Value="28" />
         </Facet>
         <Facet Name="Conversation duration (sec)">
-          <String Value="A. 1-20" />
+          <String Value="C. 41-60" />
         </Facet>
         <Facet Name="L2 same as L3ST">
-          <String Value="No" />
+          <String Value="Yes" />
         </Facet>
         <Facet Name="L3ST conveyed as L3TT">
           <String Value="Yes" />
@@ -126,6 +129,7 @@
         </Facet>
         <Facet Name="Conversation features for L3TT-instance">
           <String Value="anecdote / story" />
+          <String Value="interview" />
         </Facet>
         <Facet Name="L3TT sources">
           <String Value="Oral L3: different sources " />

@@ -55,7 +55,7 @@
           <DateTime Value="2017-02-21T01:24:36" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-02-21T01:26:55" />
+          <DateTime Value="2017-02-21T02:21:17" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -127,6 +127,9 @@
         <Facet Name="Conversation features for L3TT-instance">
           <String Value="anecdote / story" />
         </Facet>
+        <Facet Name="L3TT sources">
+          <String Value="Oral L3: different sources " />
+        </Facet>
         <Facet Name="L3 language type change">
           <String Value="None" />
         </Facet>
@@ -140,8 +143,7 @@
           <String Value="None" />
         </Facet>
         <Facet Name="L3 sources change">
-          <String Value="- Oral L3: different sources " />
-          <String Value="+ " />
+          <String Value="None" />
         </Facet>
       </Facets>
     </Item>

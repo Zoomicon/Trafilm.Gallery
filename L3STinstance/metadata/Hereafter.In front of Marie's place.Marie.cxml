@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Hereafter.Marie and Didier in the plane" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Hereafter.In front of Marie's place" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -30,17 +30,17 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Hereafter.Marie and Didier in the plane.In French" Name="Hereafter.Marie and Didier in the plane" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Hereafter&amp;conversation=Hereafter.Marie and Didier in the plane&amp;L3STinstance=Hereafter.Marie and Didier in the plane.In French">
+    <Item Id="Hereafter.In front of Marie's place.Marie" Name="Hereafter.In front of Marie's place" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Hereafter&amp;conversation=Hereafter.In front of Marie's place&amp;L3STinstance=Hereafter.In front of Marie's place.Marie">
       <Description>Marie and Didier talks about the tsunami and about Marie's job.</Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Hereafter.Marie and Didier in the plane.In French" />
+          <String Value="Hereafter.In front of Marie's place.Marie" />
         </Facet>
         <Facet Name="Info created">
-          <DateTime Value="2017-02-21T01:34:57" />
+          <DateTime Value="2017-02-21T01:44:51" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-02-21T02:21:59" />
+          <DateTime Value="2017-02-21T01:45:31" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -49,10 +49,10 @@
           <String Value="Hereafter" />
         </Facet>
         <Facet Name="Conversation Reference Id">
-          <String Value="Hereafter.Marie and Didier in the plane" />
+          <String Value="Hereafter.In front of Marie's place" />
         </Facet>
         <Facet Name="Conversation start time (min)">
-          <Number Value="24" />
+          <Number Value="25" />
         </Facet>
         <Facet Name="Conversation duration (sec)">
           <String Value="A. 1-20" />
@@ -95,7 +95,7 @@
           <String Value="Oral L3: different sources " />
         </Facet>
         <Facet Name="L3TT-instances: count">
-          <Number Value="2" />
+          <Number Value="0" />
         </Facet>
       </Facets>
     </Item>
