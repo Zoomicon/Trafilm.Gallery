@@ -42,8 +42,8 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Rise of the Planet of the Apes.Caesar, William and Caroline.Interpreting Sign Language.SpanishSub" Name="Rise of the Planet of the Apes.Caesar, William and Caroline.Interpreting Sign Language.SpanishSub" Img="" Href="">
-      <Description></Description>
+    <Item Id="Rise of the Planet of the Apes.Caesar, William and Caroline.Interpreting Sign Language.SpanishSub" Name="Rise of the Planet of the Apes.Caesar, William and Caroline.Interpreting Sign Language.SpanishSub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Rise of the Planet of the Apes&amp;conversation=Rise of the Planet of the Apes.Caesar, William and Caroline&amp;L3STinstance=Rise of the Planet of the Apes.Caesar, William and Caroline.Interpreting Sign Language&amp;L3TTinstance=Rise of the Planet of the Apes.Caesar, William and Caroline.Interpreting Sign Language.SpanishSub">
+      <Description>William takes Caesar to the zoo after Caesar has been injured for the primatologist Caroline Aranha to take care of the injury.</Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="Rise of the Planet of the Apes.Caesar, William and Caroline.Interpreting Sign Language.SpanishSub" />
@@ -52,7 +52,10 @@
           <DateTime Value="2017-02-21T09:09:09" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-02-21T09:09:09" />
+          <DateTime Value="2017-02-22T11:59:15" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="santamaria" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Rise of the Planet of the Apes" />
@@ -62,6 +65,33 @@
         </Facet>
         <Facet Name="L3ST-instance Reference Id">
           <String Value="Rise of the Planet of the Apes.Caesar, William and Caroline.Interpreting Sign Language" />
+        </Facet>
+        <Facet Name="L2 mode">
+          <String Value="Subtitled" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="19" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="C. 41-60" />
+        </Facet>
+        <Facet Name="L3 language type change">
+          <String Value="- Constructed (fictional)" />
+          <String Value="+ " />
+        </Facet>
+        <Facet Name="L3 mode change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 functions change">
+          <String Value="- Character portrayal" />
+          <String Value="- Plot (twist)" />
+        </Facet>
+        <Facet Name="Conversation features for L3-instance change">
+          <String Value="- small talk" />
+        </Facet>
+        <Facet Name="L3 sources change">
+          <String Value="- Rephrase interlingually: different sources" />
+          <String Value="+ " />
         </Facet>
       </Facets>
     </Item>

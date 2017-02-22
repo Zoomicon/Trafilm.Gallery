@@ -14337,10 +14337,10 @@
           <DateTime Value="2017-02-21T03:54:08" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-02-21T03:56:05" />
+          <DateTime Value="2017-02-22T11:57:13" />
         </Facet>
         <Facet Name="Metadata Editors">
-          <String Value="Santamaria" />
+          <String Value="santamaria" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Hereafter" />
@@ -14356,6 +14356,9 @@
         </Facet>
         <Facet Name="L2 language">
           <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L2 mode">
+          <String Value="Dubbed" />
         </Facet>
         <Facet Name="Distribution countries (TT)">
           <String Value="Spain" />
@@ -14440,10 +14443,10 @@
           <DateTime Value="2017-02-21T03:54:08" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-02-21T03:55:41" />
+          <DateTime Value="2017-02-22T11:56:48" />
         </Facet>
         <Facet Name="Metadata Editors">
-          <String Value="Santamaria" />
+          <String Value="santamaria" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Hereafter" />
@@ -14459,6 +14462,9 @@
         </Facet>
         <Facet Name="L2 language">
           <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L2 mode">
+          <String Value="Subtitled" />
         </Facet>
         <Facet Name="Distribution countries (TT)">
           <String Value="Spain" />
@@ -39733,10 +39739,10 @@ At the same time Mathis is on the phone</Description>
           <DateTime Value="2017-02-21T09:26:17" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-02-21T09:29:43" />
+          <DateTime Value="2017-02-22T11:59:50" />
         </Facet>
         <Facet Name="Metadata Editors">
-          <String Value="Santamaria" />
+          <String Value="santamaria" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Rise of the Planet of the Apes" />
@@ -39824,13 +39830,12 @@ At the same time Mathis is on the phone</Description>
           <String Value="None" />
         </Facet>
         <Facet Name="L3 sources change">
-          <String Value="- Oral L3: single source" />
-          <String Value="+ Rephrase interlingually: different sources" />
+          <String Value="None" />
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Rise of the Planet of the Apes.Caesar, William and Caroline.Interpreting Sign Language.SpanishSub" Name="Rise of the Planet of the Apes.Caesar, William and Caroline.Interpreting Sign Language.SpanishSub" Img="" Href="">
-      <Description></Description>
+    <Item Id="Rise of the Planet of the Apes.Caesar, William and Caroline.Interpreting Sign Language.SpanishSub" Name="Rise of the Planet of the Apes.Caesar, William and Caroline.Interpreting Sign Language.SpanishSub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Rise of the Planet of the Apes&amp;conversation=Rise of the Planet of the Apes.Caesar, William and Caroline&amp;L3STinstance=Rise of the Planet of the Apes.Caesar, William and Caroline.Interpreting Sign Language&amp;L3TTinstance=Rise of the Planet of the Apes.Caesar, William and Caroline.Interpreting Sign Language.SpanishSub">
+      <Description>William takes Caesar to the zoo after Caesar has been injured for the primatologist Caroline Aranha to take care of the injury.</Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="Rise of the Planet of the Apes.Caesar, William and Caroline.Interpreting Sign Language.SpanishSub" />
@@ -39839,7 +39844,10 @@ At the same time Mathis is on the phone</Description>
           <DateTime Value="2017-02-21T09:09:09" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-02-21T09:09:09" />
+          <DateTime Value="2017-02-22T11:59:15" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="santamaria" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Rise of the Planet of the Apes" />
@@ -39849,6 +39857,33 @@ At the same time Mathis is on the phone</Description>
         </Facet>
         <Facet Name="L3ST-instance Reference Id">
           <String Value="Rise of the Planet of the Apes.Caesar, William and Caroline.Interpreting Sign Language" />
+        </Facet>
+        <Facet Name="L2 mode">
+          <String Value="Subtitled" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="19" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="C. 41-60" />
+        </Facet>
+        <Facet Name="L3 language type change">
+          <String Value="- Constructed (fictional)" />
+          <String Value="+ " />
+        </Facet>
+        <Facet Name="L3 mode change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 functions change">
+          <String Value="- Character portrayal" />
+          <String Value="- Plot (twist)" />
+        </Facet>
+        <Facet Name="Conversation features for L3-instance change">
+          <String Value="- small talk" />
+        </Facet>
+        <Facet Name="L3 sources change">
+          <String Value="- Rephrase interlingually: different sources" />
+          <String Value="+ " />
         </Facet>
       </Facets>
     </Item>
