@@ -2445,13 +2445,16 @@ Based on the homonym novel by Philip K. Dick.</Description>
           <DateTime Value="2017-02-11T12:14:46" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-02-11T12:36:43" />
+          <DateTime Value="2017-02-22T11:05:13" />
         </Facet>
         <Facet Name="Metadata Editors">
-          <String Value="Santamaria" />
+          <String Value="santamaria" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Robin Hood" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
         </Facet>
         <Facet Name="Duration (min)">
           <Number Value="140" />
@@ -2480,8 +2483,16 @@ Based on the homonym novel by Philip K. Dick.</Description>
         <Facet Name="Main language (L1)">
           <String Value="English" />
         </Facet>
+        <Facet Name="L2-Dubbed languages">
+          <String Value="Catalan" />
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L2-Subtitled languages">
+          <String Value="Catalan" />
+          <String Value="Spanish" />
+        </Facet>
         <Facet Name="Conversations: count">
-          <Number Value="1" />
+          <Number Value="7" />
         </Facet>
       </Facets>
     </Item>
