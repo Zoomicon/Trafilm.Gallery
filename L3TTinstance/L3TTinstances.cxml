@@ -39420,7 +39420,7 @@ At the same time Mathis is on the phone</Description>
           <DateTime Value="2017-02-21T09:38:46" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-02-21T09:40:09" />
+          <DateTime Value="2017-02-23T01:35:52" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -39495,6 +39495,9 @@ At the same time Mathis is on the phone</Description>
         <Facet Name="Conversation features for L3TT-instance">
           <String Value="small talk" />
         </Facet>
+        <Facet Name="L3TT sources">
+          <String Value="Oral L3: single source" />
+        </Facet>
         <Facet Name="L3 language type change">
           <String Value="None" />
         </Facet>
@@ -39508,8 +39511,7 @@ At the same time Mathis is on the phone</Description>
           <String Value="None" />
         </Facet>
         <Facet Name="L3 sources change">
-          <String Value="- Oral L3: single source" />
-          <String Value="+ " />
+          <String Value="None" />
         </Facet>
       </Facets>
     </Item>
@@ -39844,10 +39846,10 @@ At the same time Mathis is on the phone</Description>
           <DateTime Value="2017-02-21T09:09:09" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-02-22T11:59:15" />
+          <DateTime Value="2017-02-23T01:32:47" />
         </Facet>
         <Facet Name="Metadata Editors">
-          <String Value="santamaria" />
+          <String Value="Santamaria" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Rise of the Planet of the Apes" />
@@ -39858,8 +39860,23 @@ At the same time Mathis is on the phone</Description>
         <Facet Name="L3ST-instance Reference Id">
           <String Value="Rise of the Planet of the Apes.Caesar, William and Caroline.Interpreting Sign Language" />
         </Facet>
+        <Facet Name="Film Title TT">
+          <String Value="El origen del planeta de los simios" />
+        </Facet>
+        <Facet Name="L2 language">
+          <String Value="Spanish" />
+        </Facet>
         <Facet Name="L2 mode">
           <String Value="Subtitled" />
+        </Facet>
+        <Facet Name="Distribution countries (TT)">
+          <String Value="Spain" />
+        </Facet>
+        <Facet Name="Year TT released">
+          <Number Value="2011" />
+        </Facet>
+        <Facet Name="Film TT Blockbuster">
+          <String Value="YES (top 20)" />
         </Facet>
         <Facet Name="Conversation start time (min)">
           <Number Value="19" />
@@ -39867,19 +39884,54 @@ At the same time Mathis is on the phone</Description>
         <Facet Name="Conversation duration (sec)">
           <String Value="C. 41-60" />
         </Facet>
+        <Facet Name="L2 same as L3ST">
+          <String Value="No" />
+        </Facet>
+        <Facet Name="L3ST conveyed as L3TT">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT language type">
+          <String Value="Constructed (fictional)" />
+        </Facet>
+        <Facet Name="L3TT language">
+          <String Value="Sign Language" />
+        </Facet>
+        <Facet Name="L3TT meant to be understood">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="L3TT message required for understanding">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT meaning decipherable">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="Quality of L3TT speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3TT merely represented">
+          <String Value="YES: visually" />
+        </Facet>
+        <Facet Name="L3TT represented: visual">
+          <String Value="Gesture (movement / body language)" />
+        </Facet>
+        <Facet Name="L3TT functions">
+          <String Value="Character portrayal" />
+          <String Value="Plot (twist)" />
+        </Facet>
+        <Facet Name="Conversation features for L3TT-instance">
+          <String Value="small talk" />
+        </Facet>
         <Facet Name="L3 language type change">
-          <String Value="- Constructed (fictional)" />
-          <String Value="+ " />
+          <String Value="None" />
         </Facet>
         <Facet Name="L3 mode change">
           <String Value="None" />
         </Facet>
         <Facet Name="L3 functions change">
-          <String Value="- Character portrayal" />
-          <String Value="- Plot (twist)" />
+          <String Value="None" />
         </Facet>
         <Facet Name="Conversation features for L3-instance change">
-          <String Value="- small talk" />
+          <String Value="None" />
         </Facet>
         <Facet Name="L3 sources change">
           <String Value="- Rephrase interlingually: different sources" />
@@ -40002,7 +40054,7 @@ At the same time Mathis is on the phone</Description>
           <DateTime Value="2017-02-21T09:31:27" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-02-21T09:34:03" />
+          <DateTime Value="2017-02-23T01:33:45" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />

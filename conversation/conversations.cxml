@@ -6337,11 +6337,14 @@ At the same time Mathis is on the phone</Description>
         <Facet Name="Reference Id">
           <String Value="Rise of the Planet of the Apes.Caesar and Caroline" />
         </Facet>
+        <Facet Name="Tags">
+          <String Value="Sign language" />
+        </Facet>
         <Facet Name="Info created">
           <DateTime Value="2017-02-21T09:35:07" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-02-21T09:37:08" />
+          <DateTime Value="2017-02-23T01:34:52" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -6354,6 +6357,53 @@ At the same time Mathis is on the phone</Description>
         </Facet>
         <Facet Name="Start time (min)">
           <Number Value="22" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Sign language" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Constructed (fictional)" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="2" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Rise of the Planet of the Apes.Caesar and William" Name="Rise of the Planet of the Apes.Caesar and William" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Rise of the Planet of the Apes&amp;conversation=Rise of the Planet of the Apes.Caesar and William">
+      <Description>Caesar asks William whether he is just a pet or has a family.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Rise of the Planet of the Apes.Caesar and William" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="Sign language" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-21T09:35:07" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-23T01:38:47" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Rise of the Planet of the Apes" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Rise of the Planet of the Apes" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="25" />
         </Facet>
         <Facet Name="Duration (sec)">
           <String Value="A. 1-20" />

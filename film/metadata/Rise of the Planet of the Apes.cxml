@@ -30,11 +30,14 @@
         <Facet Name="Reference Id">
           <String Value="Rise of the Planet of the Apes" />
         </Facet>
+        <Facet Name="Remarks">
+          <String Value="There a some conversations in sign language among apes and between apes and humans." />
+        </Facet>
         <Facet Name="Info created">
           <DateTime Value="2017-02-21T04:03:14" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-02-21T04:15:58" />
+          <DateTime Value="2017-02-23T01:30:02" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -77,8 +80,14 @@
         <Facet Name="Main language (L1)">
           <String Value="English" />
         </Facet>
+        <Facet Name="L2-Dubbed languages">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L2-Subtitled languages">
+          <String Value="Spanish" />
+        </Facet>
         <Facet Name="Conversations: count">
-          <Number Value="0" />
+          <Number Value="3" />
         </Facet>
       </Facets>
     </Item>
