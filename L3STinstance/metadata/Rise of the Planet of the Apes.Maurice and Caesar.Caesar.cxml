@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Rise of the Planet of the Apes.Caesar and William" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Rise of the Planet of the Apes.Maurice and Caesar.Caesar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -30,23 +30,23 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Rise of the Planet of the Apes.Caesar and William.Caesar" Name="Rise of the Planet of the Apes.Caesar and William" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Rise of the Planet of the Apes&amp;conversation=Rise of the Planet of the Apes.Caesar and William&amp;L3STinstance=Rise of the Planet of the Apes.Caesar and William.Caesar">
-      <Description>Caesar asks William whether he is just a pet or has a family.</Description>
+    <Item Id="Rise of the Planet of the Apes.Maurice and Caesar.Caesar" Name="Rise of the Planet of the Apes.Maurice and Caesar.Caesar" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Rise of the Planet of the Apes&amp;conversation=Rise of the Planet of the Apes.Maurice and Caesar&amp;L3STinstance=Rise of the Planet of the Apes.Maurice and Caesar.Maurice">
+      <Description>Maurice, a circus orangutan, is also able to sign.</Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Rise of the Planet of the Apes.Caesar and William.Caesar" />
+          <String Value="Rise of the Planet of the Apes.Maurice and Caesar.Caesar" />
         </Facet>
         <Facet Name="Transcription">
-          <String Value="Are you pet? ... No. You're not a pet.&#xD;&#xA;I am your father.&#xD;&#xA;What is Caesar?&#xD;&#xA;Okay ..." />
+          <String Value="Maurice: [in sign language; subtitled] Hurt bad?&#xD;&#xA;Caesar: [in sign language] You know sign?&#xD;&#xA;Maurice: [nods; in sign language] Circus orangutan.&#xD;&#xA;[Caesar and the orangutan Maurice observe John tranquilizes a chimp. Caesar grabs the bars of his cage and shrieks and growls]&#xD;&#xA;Maurice: [to Caesar in sign language] Careful. Humans don't like smart ape. " />
         </Facet>
         <Facet Name="Tags">
           <String Value="Sign language" />
         </Facet>
         <Facet Name="Info created">
-          <DateTime Value="2017-02-23T01:38:58" />
+          <DateTime Value="2017-02-23T02:31:24" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-02-23T01:40:45" />
+          <DateTime Value="2017-02-23T02:33:10" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -55,16 +55,7 @@
           <String Value="Rise of the Planet of the Apes" />
         </Facet>
         <Facet Name="Conversation Reference Id">
-          <String Value="Rise of the Planet of the Apes.Caesar and William" />
-        </Facet>
-        <Facet Name="Conversation start time (min)">
-          <Number Value="25" />
-        </Facet>
-        <Facet Name="Conversation duration (sec)">
-          <String Value="A. 1-20" />
-        </Facet>
-        <Facet Name="Main (L1) language">
-          <String Value="English" />
+          <String Value="Rise of the Planet of the Apes.Maurice and Caesar" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Constructed (fictional)" />
@@ -73,16 +64,19 @@
           <String Value="Sign language" />
         </Facet>
         <Facet Name="L3ST meant to be understood">
-          <String Value="NO" />
+          <String Value="YES, (almost) completely" />
         </Facet>
         <Facet Name="L3ST message required for understanding">
           <String Value="Yes" />
         </Facet>
         <Facet Name="L3ST meaning decipherable">
-          <String Value="NO" />
+          <String Value="YES, through translation or clear from picture" />
         </Facet>
         <Facet Name="Quality of L3ST speaker performance">
           <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3ST mode, written/spoken, diegetic">
+          <String Value="Written diegetic" />
         </Facet>
         <Facet Name="L3ST merely represented">
           <String Value="YES: visually" />
@@ -92,9 +86,10 @@
         </Facet>
         <Facet Name="L3ST functions">
           <String Value="Plot (twist)" />
+          <String Value="Dramatic effect" />
         </Facet>
         <Facet Name="Conversation features for L3ST-instance">
-          <String Value="domestic / family" />
+          <String Value="bonding" />
         </Facet>
         <Facet Name="L3ST sources">
           <String Value="Oral L3: single source" />

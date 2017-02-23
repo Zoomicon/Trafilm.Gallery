@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Rise of the Planet of the Apes.Caesar and William" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Rise of the Planet of the Apes.Home 2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -30,23 +30,20 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Rise of the Planet of the Apes.Caesar and William.Caesar" Name="Rise of the Planet of the Apes.Caesar and William" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Rise of the Planet of the Apes&amp;conversation=Rise of the Planet of the Apes.Caesar and William&amp;L3STinstance=Rise of the Planet of the Apes.Caesar and William.Caesar">
-      <Description>Caesar asks William whether he is just a pet or has a family.</Description>
+    <Item Id="Rise of the Planet of the Apes.Home 2.William" Name="Rise of the Planet of the Apes.Home 2" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Rise of the Planet of the Apes&amp;conversation=Rise of the Planet of the Apes.Home 2&amp;L3STinstance=Rise of the Planet of the Apes.Home 2.William">
+      <Description>Caesar asks William to go home.</Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Rise of the Planet of the Apes.Caesar and William.Caesar" />
-        </Facet>
-        <Facet Name="Transcription">
-          <String Value="Are you pet? ... No. You're not a pet.&#xD;&#xA;I am your father.&#xD;&#xA;What is Caesar?&#xD;&#xA;Okay ..." />
+          <String Value="Rise of the Planet of the Apes.Home 2.William" />
         </Facet>
         <Facet Name="Tags">
           <String Value="Sign language" />
         </Facet>
         <Facet Name="Info created">
-          <DateTime Value="2017-02-23T01:38:58" />
+          <DateTime Value="2017-02-23T02:09:41" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-02-23T01:40:45" />
+          <DateTime Value="2017-02-23T02:10:56" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -55,10 +52,10 @@
           <String Value="Rise of the Planet of the Apes" />
         </Facet>
         <Facet Name="Conversation Reference Id">
-          <String Value="Rise of the Planet of the Apes.Caesar and William" />
+          <String Value="Rise of the Planet of the Apes.Home 2" />
         </Facet>
         <Facet Name="Conversation start time (min)">
-          <Number Value="25" />
+          <Number Value="49" />
         </Facet>
         <Facet Name="Conversation duration (sec)">
           <String Value="A. 1-20" />
@@ -97,7 +94,7 @@
           <String Value="domestic / family" />
         </Facet>
         <Facet Name="L3ST sources">
-          <String Value="Oral L3: single source" />
+          <String Value="Rephrase interlingually: same source" />
         </Facet>
         <Facet Name="L3TT-instances: count">
           <Number Value="0" />
