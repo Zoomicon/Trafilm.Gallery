@@ -81,10 +81,11 @@
           <DateTime Value="2017-01-11T03:36:42" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-01-11T03:37:17" />
+          <DateTime Value="2017-01-13T12:28:58" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Guillermo" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="A Scanner Darkly" />
@@ -102,10 +103,13 @@
           <Number Value="0" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Constructed (fictional)" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="0" />
+          <Number Value="3" />
         </Facet>
       </Facets>
     </Item>
@@ -341,6 +345,160 @@
         </Facet>
         <Facet Name="L3ST-instances: count">
           <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Babel.At the (Haima) bar in Morocco" Name="At the (Haima) bar in Morocco" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Babel&amp;conversation=Babel.At the (Haima) bar in Morocco">
+      <Description>Richard and Susan are at a (haima) bar in Morocco where they order some food</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Babel.At the (Haima) bar in Morocco" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="tird language" />
+          <String Value=" arabic" />
+          <String Value=" english with an accent" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="In this conversation there are two instances of L3:&#xD;&#xA;- Arabic (spoken by the waiter and Richard)&#xD;&#xA;- English with an Arabic accent (spoken by the waiter)" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-01-19T09:54:18" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-01-19T10:32:27" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="corrius" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Babel" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Babel" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="14" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="B. 21-40" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="2" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Arabic" />
+          <String Value="English with an Arabic accent" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="2" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Babel.At the Changing room in a Sports centre in Tokyo" Name="At the Changing room in a Sports centre in Tokyo" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Babel&amp;conversation=Babel.At the Changing room in a Sports centre in Tokyo">
+      <Description>Chieko, a 16 year-old Japanese girl is with some colleagues at the changing room of a sports centre after losing a bolleyball match.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Babel.At the Changing room in a Sports centre in Tokyo" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="Third language" />
+          <String Value=" multilingualism" />
+          <String Value=" Japanese sign language" />
+          <String Value=" sign language" />
+          <String Value=" " />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="In this conversation people speak sign language (we assume it's Japanese sign language. Subtitles in English and Spanish are provided in the ST and TT (Spanish debbed) respectively." />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-01-19T11:34:14" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-01-19T03:11:29" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="corrius" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Babel" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Babel" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="20" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="B. 21-40" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Sign language (Japanese)" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Babel.Chieko and her dad in the car" Name="Chieko and her dad in the car" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Babel&amp;conversation=Babel.Chieko and her dad in the car">
+      <Description>Chieko and her dad, Yasujiro, are in a car in Tokyo talking about having lunch.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Babel.Chieko and her dad in the car" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="Third language" />
+          <String Value=" multilingualism" />
+          <String Value=" Japanese sign language" />
+          <String Value=" sign language" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="Cheikos' dad is speaking in English and sign language at the same time, whereas Cheiko speaks in sign language, which is subtitled in English." />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-01-19T02:44:34" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-01-19T02:47:53" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="corrius" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Babel" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Babel" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="20" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="B. 21-40" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
         </Facet>
       </Facets>
     </Item>
@@ -650,6 +808,82 @@
         </Facet>
         <Facet Name="Start time (min)">
           <Number Value="3" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Black Swan.Between Acts" Name="Black Swan.Between Acts" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Black Swan&amp;conversation=Black Swan.Between Acts">
+      <Description>After Nina falls during the representation, Thomas Leroy, the director speaks in French to main actor.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Black Swan.Between Acts" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-17T08:16:30" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-17T08:32:27" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Black Swan" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Black Swan" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="88" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Black Swan.Rehearsal" Name="Rehearsal" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Black Swan&amp;conversation=Black Swan.Rehearsal">
+      <Description>The dancers are given instructions in French</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Black Swan.Rehearsal" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-17T08:16:30" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-17T08:17:12" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Black Swan" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Black Swan" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="39" />
         </Facet>
         <Facet Name="Duration (sec)">
           <String Value="A. 1-20" />
@@ -976,6 +1210,48 @@
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Carla's Song.Talikng about the revolution" Name="Talikng about the revolution" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Carla's Song&amp;conversation=Carla's Song.Talikng about the revolution">
+      <Description>Carla is talking about the revolution</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Carla's Song.Talikng about the revolution" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="Third language" />
+          <String Value=" French" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-01-19T09:53:16" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-01-19T09:54:01" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="corrius" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Carla's Song" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Carla's Song" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="67" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Chocolat.narrator's introduction" Name="narrator's introduction" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Chocolat&amp;conversation=Chocolat.narrator's introduction">
       <Description></Description>
       <Facets>
@@ -1105,6 +1381,44 @@
         </Facet>
         <Facet Name="L3ST-instances: count">
           <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Fargo.Mr Numbers and Mr Wrench meet Gold" Name="Mr Numbers and Mr Wrench meet Gold" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Fargo&amp;conversation=Fargo.Mr Numbers and Mr Wrench meet Gold">
+      <Description>The episode opens up with Wes Wrench and his associate and translator Grady Numbers driving down the highway. They stop at Hess &amp; Sons to discuss the murder of Sam Hess with Max Gold. Wrench has Numbers ask if there is a library in Bemidji, to which Max replies there isn't one. Wrench says that every town should have a library. Numbers tells Max they believe the murder of Sam Hess was connected to the business, confirming that Sam did in fact have some sort of connection to the criminal underworld. Max tells them he saw a guy walk into the garage a day or two prior, and he thinks it was he who killed Sam. He describes him as middle-aged, brown hair, with a cut on his forehead. Max wants to be sure that they will find the man who killed him, saying Sam was his friend. Numbers assures him they will.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Fargo.Mr Numbers and Mr Wrench meet Gold" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-01-27T12:51:32" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-01-28T06:14:42" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Stavroula" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Fargo" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Fargo Season 1" />
+        </Facet>
+        <Facet Name="Season episode name">
+          <String Value="2" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="I. 161-180" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
         </Facet>
       </Facets>
     </Item>
@@ -2104,6 +2418,96 @@
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Game of Thrones.06 A Golden Crown_Celebration" Name="Game of Thrones.06 A Golden Crown_Celebration" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Game of Thrones&amp;conversation=Game of Thrones.06 A Golden Crown_Celebration">
+      <Description>The Dothraki celebrate Daenerys' pregnancy, Viserys interrupts it.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Game of Thrones.06 A Golden Crown_Celebration" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="Dothraki" />
+          <String Value=" constructed language" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-11-02T10:57:39" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-01-18T03:36:44" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="SIberg" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Game of Thrones" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Game of Thrones - Season 01" />
+        </Facet>
+        <Facet Name="Season episode name">
+          <String Value="06: A Golden Crown" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="45" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="J. &gt; 180" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Game of Thrones.06 A Golden Crown_Eating a horse's heart" Name="Game of Thrones.06 A Golden Crown_Eating a horse's heart" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Game of Thrones&amp;conversation=Game of Thrones.06 A Golden Crown_Eating a horse's heart">
+      <Description>In a Dothraki ritual, Daenerys eats a horse's heart, Viserys and Jorah comment on the events, and the Dothraki chant.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Game of Thrones.06 A Golden Crown_Eating a horse's heart" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="Dothraki" />
+          <String Value=" invented language" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-11-02T10:57:39" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-01-18T03:12:18" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="SIberg" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Game of Thrones" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Game of Thrones - Season 01" />
+        </Facet>
+        <Facet Name="Season episode name">
+          <String Value="06: A Golden Crown" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="15" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="J. &gt; 180" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Game of Thrones.E01 Winter is coming_Dothraki wedding" Name="Winter is coming - Dothraki wedding" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Game of Thrones&amp;conversation=Game of Thrones.E01 Winter is coming_Dothraki wedding">
       <Description>At Daenerys' and Khal Drogo's wedding, the guests bring gifts and talk to Khal Drogo in Dothraki.</Description>
       <Facets>
@@ -2622,6 +3026,623 @@
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Hereafter.In front of Marie's place" Name="Hereafter.In front of Marie's place" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Hereafter&amp;conversation=Hereafter.In front of Marie's place">
+      <Description>Marie and Didier talks about the tsunami and about Marie's job.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Hereafter.In front of Marie's place" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-21T01:10:30" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-21T01:44:35" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Hereafter" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Hereafter" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="25" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Hereafter.Marie and Didier after the interview" Name="Hereafter.Marie and Didier after the interview" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Hereafter&amp;conversation=Hereafter.Marie and Didier after the interview">
+      <Description>Marie talks with Didier about the interview and her experience during the accident.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Hereafter.Marie and Didier after the interview" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-21T01:10:30" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-21T02:14:19" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Hereafter" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Hereafter" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="29" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="C. 41-60" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Hereafter.Marie and Didier after the meeting" Name="Hereafter.Marie and Didier after the meeting" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Hereafter&amp;conversation=Hereafter.Marie and Didier after the meeting">
+      <Description>Didier tries to convince Marie to have some time off and write while she recovers from the accident.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Hereafter.Marie and Didier after the meeting" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-21T01:10:30" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-21T02:32:04" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Hereafter" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Hereafter" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="31" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="E. 81-100" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Hereafter.Marie and Didier at the hotel" Name="Marie and Didier at the hotel" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Hereafter&amp;conversation=Hereafter.Marie and Didier at the hotel">
+      <Description>Marie answers the phone call.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Hereafter.Marie and Didier at the hotel" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-21T01:10:30" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-21T01:27:30" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Hereafter" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Hereafter" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="French" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="2" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Hereafter.Marie and Didier at the restaurant" Name="Hereafter.Marie and Didier at the restaurant" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Hereafter&amp;conversation=Hereafter.Marie and Didier at the restaurant">
+      <Description>Marie and Didier talk about her new book and the life after death.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Hereafter.Marie and Didier at the restaurant" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-21T01:10:30" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-21T03:40:38" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Hereafter" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Hereafter" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="46" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="F. 101-120" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Hereafter.Marie and Didier in the plane" Name="Hereafter.Marie and Didier in the plane" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Hereafter&amp;conversation=Hereafter.Marie and Didier in the plane">
+      <Description>Marie and Didier talks about the tsunami and about Marie's job.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Hereafter.Marie and Didier in the plane" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-21T01:10:30" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-21T01:34:41" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Hereafter" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Hereafter" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="24" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Hereafter.Marie and Michel finish their relationship" Name="Hereafter.Marie and Michel finish their relationship" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Hereafter&amp;conversation=Hereafter.Marie and Michel finish their relationship">
+      <Description>Marie is not going to be given back her job and learns Didier has a relationship with the new journalist.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Hereafter.Marie and Michel finish their relationship" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-21T01:10:30" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-21T04:41:41" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Hereafter" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Hereafter" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="86" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="I. 161-180" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Hereafter.Marie and Michel on the phone" Name="Hereafter.Marie and Michel on the phone" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Hereafter&amp;conversation=Hereafter.Marie and Michel on the phone">
+      <Description>MMichel calls Marie to let her know that he knows of two publishing houses who might be interested in Marie's book.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Hereafter.Marie and Michel on the phone" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-21T01:10:30" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-21T04:52:25" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Hereafter" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Hereafter" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="92" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="B. 21-40" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Hereafter.Marie and Michell on Marie's book" Name="Hereafter.Marie and Michell on Marie's book" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Hereafter&amp;conversation=Hereafter.Marie and Michell on Marie's book">
+      <Description>Michel discusses with Marie the convenience to publish the book she has written.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Hereafter.Marie and Michell on Marie's book" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-21T01:10:30" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-21T04:29:12" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Hereafter" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Hereafter" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="86" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="F. 101-120" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Hereafter.Marie at the hospital" Name="Hereafter.Marie at the hospital" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Hereafter&amp;conversation=Hereafter.Marie at the hospital">
+      <Description>Marie decides to speak with the director of a hospice in Switzerland.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Hereafter.Marie at the hospital" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-21T01:10:30" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-21T03:58:22" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Hereafter" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Hereafter" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="73" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="German" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Hereafter.Marie at the reception of the hospital" Name="Hereafter.Marie at the reception of the hospital" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Hereafter&amp;conversation=Hereafter.Marie at the reception of the hospital">
+      <Description>Marie introduces herself and asks to speak with the director of a hospice in Switzerland.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Hereafter.Marie at the reception of the hospital" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-21T01:10:30" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-21T03:57:58" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Hereafter" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Hereafter" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="71" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Hereafter.Marie at work" Name="Hereafter.Marie at work" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Hereafter&amp;conversation=Hereafter.Marie at work">
+      <Description>Marie goes back to work for the first day after the accident.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Hereafter.Marie at work" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-21T01:10:30" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-21T01:53:45" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Hereafter" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Hereafter" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="28" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Hereafter.Marie interviewing Guillaume Belcher" Name="Hereafter.Marie interviewing Guillaume Belcher" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Hereafter&amp;conversation=Hereafter.Marie interviewing Guillaume Belcher">
+      <Description>Marie interviews Guillaume Belcher after the news about his company malpractice.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Hereafter.Marie interviewing Guillaume Belcher" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-21T01:10:30" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-21T02:02:22" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Hereafter" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Hereafter" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="28" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="C. 41-60" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Hereafter.Marie on the phone" Name="Hereafter.Marie on the phone" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Hereafter&amp;conversation=Hereafter.Marie and Didier at the hotel">
+      <Description>Marie answers the phone call.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Hereafter.Marie on the phone" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-21T01:10:30" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-21T01:27:30" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Hereafter" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Hereafter.Marie's presentation" Name="Hereafter.Marie's presentation" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Hereafter&amp;conversation=Hereafter.Marie's presentation">
+      <Description>Marie presents a proposal for a book on Miterrand.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Hereafter.Marie's presentation" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-21T01:10:30" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-21T02:44:50" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Hereafter" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Hereafter" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="45" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="G. 121-140" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Hereafter.Television in French" Name="Hereafter.Television in French" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Hereafter&amp;conversation=Hereafter.Television in French">
+      <Description>Marie is organizing the information given to her by the director of the hospice in Switzerland while the TV set is on.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Hereafter.Television in French" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-21T01:10:30" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-21T04:19:35" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Hereafter" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Hereafter" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="75" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="B. 21-40" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Hôkago Midnighters.Meeting the merman" Name="Meeting the merman" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Hôkago Midnighters&amp;conversation=Hôkago Midnighters.Meeting the merman">
       <Description></Description>
       <Facets>
@@ -2796,6 +3817,52 @@
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Land and Freedom.At the bar" Name="At the bar" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Land and Freedom&amp;conversation=Land and Freedom.At the bar">
+      <Description>A group of young men are at the bar talking about militians.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Land and Freedom.At the bar" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="third language" />
+          <String Value=" Catalan" />
+          <String Value=" Spanish" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="There's a mix of three languages in this conversation (English as L1 and Catalan and Spanish as L3)" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-01-12T11:22:37" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-01-12T11:25:00" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="corrius" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Land and Freedom" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Land and Freedom" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="79" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="C. 41-60" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Land and Freedom.Blanca's funeral" Name="Blanca's funeral" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Land and Freedom&amp;conversation=Land and Freedom.Blanca's funeral">
       <Description>At the end of the film Blanca is being buried while David is taking some land as a symbol of identity </Description>
       <Facets>
@@ -2927,11 +3994,14 @@
         <Facet Name="Reference Id">
           <String Value="Lost in Translation.Lip my stockings" />
         </Facet>
+        <Facet Name="Remarks">
+          <String Value="https://www.youtube.com/watch?v=lPQ6VQzuyxU&#xD;&#xA;" />
+        </Facet>
         <Facet Name="Info created">
           <DateTime Value="2016-11-01T12:47:06" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-11-01T12:50:18" />
+          <DateTime Value="2017-01-27T11:19:52" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="evaespasa" />
@@ -2949,13 +4019,21 @@
           <String Value="F. 101-120" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="0" />
+          <Number Value="2" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Japanese" />
+          <String Value="English with Japanese accent" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="0" />
+          <Number Value="2" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
+          <String Value="L-main variety (e.g. dialect, sociolect, idiolect, slang)" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="0" />
+          <Number Value="2" />
         </Facet>
       </Facets>
     </Item>
@@ -3015,20 +4093,24 @@
           <DateTime Value="2016-06-01T04:23:13" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-19T12:23:55" />
+          <DateTime Value="2017-01-20T08:49:17" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Stavroula" />
           <String Value="George" />
+          <String Value="evaespasa" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="LoveActually" />
         </Facet>
         <Facet Name="Film/Season title">
-          <String Value="Love Actually " />
+          <String Value="Love Actually" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="43" />
         </Facet>
         <Facet Name="Duration (sec)">
-          <String Value="I. 161-180" />
+          <String Value="F. 101-120" />
         </Facet>
         <Facet Name="L3ST languages: count">
           <Number Value="1" />
@@ -3043,7 +4125,7 @@
           <String Value="Real" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="1" />
+          <Number Value="3" />
         </Facet>
       </Facets>
     </Item>
@@ -3155,6 +4237,588 @@
         </Facet>
         <Facet Name="Duration (sec)">
           <String Value="D. 61-80" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Midnight in Paris.Adriana using French expressions now and then" Name="Midnight in Paris.Adriana using French expressions now and then" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Midnight in Paris&amp;conversation=Midnight in Paris.Adriana using French expressions now and then">
+      <Description>Whenever Adriana speaks she uses some expressions in French.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Midnight in Paris.Adriana using French expressions now and then" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-18T07:30:14" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-19T03:10:45" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Midnight in Paris" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Midnight in Paris" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="37" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="G. 121-140" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Midnight in Paris.Carol and Paul practicing French pronounciation" Name="Carol and Paul practicing French pronounciation" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Midnight in Paris&amp;conversation=Midnight in Paris.Carol and Paul practicing French pronounciation">
+      <Description>Carol anb Paul meet Gil, Inez and Inez' parents and explain to them that Paul is going to give a lecture at the Sorbonne.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Midnight in Paris.Carol and Paul practicing French pronounciation" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="Pronunciation" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-18T06:48:41" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-18T06:50:40" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Midnight in Paris" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Midnight in Paris" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="16" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Midnight in Paris.Dali and Buñuel" Name="Midnight in Paris.Dali and Buñuel" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Midnight in Paris&amp;conversation=Midnight in Paris.Dali and Buñuel">
+      <Description>Gil meets Dali and then Buñuel after Adriana left.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Midnight in Paris.Dali and Buñuel" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-18T07:22:14" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-19T09:28:45" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Midnight in Paris" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Midnight in Paris" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="52" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="B. 21-40" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Midnight in Paris.Gertrude Stein Second night" Name="Midnight in Paris.Gertrude Stein Second night" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Midnight in Paris&amp;conversation=Midnight in Paris.Stein and Picasso">
+      <Description>Gil and Hemingway pay a visit to Stein who is with Picasso</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Midnight in Paris.Gertrude Stein Second night" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-18T07:22:14" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-19T02:17:23" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Midnight in Paris" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="11" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Midnight in Paris.Gil and Adriana towards the 19th Century" Name="Midnight in Paris.Gil and Adriana towards the 19th Century" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Midnight in Paris&amp;conversation=Midnight in Paris.Gil and Adriana towards the 19th Century">
+      <Description>Adriana and Gil are offered a lift that will take them to the Maxim's in the 19th Century.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Midnight in Paris.Gil and Adriana towards the 19th Century" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-18T07:56:30" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-20T06:51:49" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Midnight in Paris" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Midnight in Paris" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="75" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Midnight in Paris.Gil trying to speak in French" Name="Gil trying to speak in French" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Midnight in Paris&amp;conversation=Midnight in Paris.Gil trying to speak in French">
+      <Description>Gil is lost and by himself in Paris and wants to ask for directions to the hotel.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Midnight in Paris.Gil trying to speak in French" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-18T07:30:14" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-18T07:35:39" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Midnight in Paris" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Midnight in Paris" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="15" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Midnight in Paris.Hemingway and Belmonte" Name="Midnight in Paris.Hemingway and Belmonte" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Midnight in Paris&amp;conversation=Midnight in Paris.Hemingway and Belmonte">
+      <Description>Gil and Adriana meet Hemingway and Belmonte in the middle of a party.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Midnight in Paris.Hemingway and Belmonte" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-18T07:22:14" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-19T08:53:36" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Midnight in Paris" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Midnight in Paris" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="47" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="D. 61-80" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Midnight in Paris.Introduction of Juan Belmonte" Name="Midnight in Paris.Introduction of Juan Belmonte" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Midnight in Paris&amp;conversation=Midnight in Paris.Introduction of Juan Belmonte">
+      <Description>Juan Belmonte, the bull fighter, is one of the many friends of the group Gil Pender gets to know.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Midnight in Paris.Introduction of Juan Belmonte" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-18T07:22:14" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-19T02:01:42" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Midnight in Paris" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Midnight in Paris" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="11" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Midnight in Paris.Museum guide in French" Name="Midnight in Paris.Museum guide in French" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Midnight in Paris&amp;conversation=Midnight in Paris.Museum guide in French">
+      <Description>The museum guide tries to establish the historic facts in front of Paul Bates' arrogancy.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Midnight in Paris.Museum guide in French" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-18T07:22:14" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-19T02:01:19" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Midnight in Paris" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Midnight in Paris" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="11" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="French" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Midnight in Paris.Paul is given a lift" Name="Midnight in Paris.Paul is given a lift" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Midnight in Paris&amp;conversation=Midnight in Paris.Paul is given a lift">
+      <Description></Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Midnight in Paris.Paul is given a lift" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-18T07:56:30" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-18T07:57:18" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Midnight in Paris" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Midnight in Paris" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="17" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Midnight in Paris.Scott Fitzgerald in French" Name="Midnight in Paris.Scott Fitzgerald in French" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Midnight in Paris&amp;conversation=Midnight in Paris.Scott Fitzgerald in French">
+      <Description>Gil goes into a bar with Scott Fitzgerald and Zelda Fitzgerald.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Midnight in Paris.Scott Fitzgerald in French" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-18T07:30:14" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-18T08:20:19" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Midnight in Paris" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Midnight in Paris" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="22" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Midnight in Paris.Stein and Picasso after Adriana left him" Name="Midnight in Paris.Stein and Picasso after Adriana left him" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Midnight in Paris&amp;conversation=Midnight in Paris.Stein and Picasso after Adriana left him">
+      <Description>Gil pays a visit to Stein who is with Picasso, who is depressed after Adriana has left him.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Midnight in Paris.Stein and Picasso after Adriana left him" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-18T07:22:14" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-19T09:53:07" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Midnight in Paris" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Midnight in Paris" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="58" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="B. 21-40" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Midnight in Paris.Stein and Picasso" Name="Midnight in Paris.Stein and Picasso" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Midnight in Paris&amp;conversation=Midnight in Paris.Stein and Picasso">
+      <Description>Gil and Hemingway pay a visit to Stein who is with Picasso</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Midnight in Paris.Stein and Picasso" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-18T07:22:14" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-19T02:56:04" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Midnight in Paris" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Midnight in Paris" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="11" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="J. &gt; 180" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="French" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="2" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Midnight in Paris.Toulouse-Lautrec, Gauguin and Degas" Name="Midnight in Paris.Toulouse-Lautrec, Gauguin and Degas" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Midnight in Paris&amp;conversation=Midnight in Paris.Toulouse-Lautrec, Gauguin and Degas">
+      <Description>Adriana and Gil meet Toulouse-Lautrec, Gauguin and Degas at Maxim's.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Midnight in Paris.Toulouse-Lautrec, Gauguin and Degas" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-18T07:56:30" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-20T07:10:46" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Midnight in Paris" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Midnight in Paris" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="115" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="G. 121-140" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Midnight in Paris.Waitress at Maxim's" Name="Midnight in Paris.Waitress at Maxim's" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Midnight in Paris&amp;conversation=Midnight in Paris.Waitress at Maxim's">
+      <Description>Adriana and Gil go into Maxim's.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Midnight in Paris.Waitress at Maxim's" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-18T07:56:30" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-20T11:23:38" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Midnight in Paris" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Midnight in Paris" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="115" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
         </Facet>
         <Facet Name="L3ST languages: count">
           <Number Value="0" />
@@ -3293,6 +4957,120 @@ And the wife and the aunt speak in English</Description>
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Munich.Entering the Olympic village" Name="Entering the Olympic village" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Munich&amp;conversation=Munich.Entering the Olympic village">
+      <Description>While trying to access the Olympic village facilities, the terrorists are stopped by a group of American athletes who finally aid them into jumping the fence mistakenly taking them for a group of athletes who cannot speak English.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Munich.Entering the Olympic village" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-07T06:51:06" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-07T07:25:19" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="miquelpt" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Munich" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Munich" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Munich.Opening the door" Name="Opening the door" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Munich&amp;conversation=Munich.Opening the door">
+      <Description>The terrorists force the door to access the appartment while an Israeli athlete tries to keep it closed and shouts for help. The scene mixes lines in Arabic and Hebrew.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Munich.Opening the door" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-07T07:47:49" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-07T07:51:07" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="miquelpt" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Munich" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Munich" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="3" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="B. 21-40" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Munich.Preparing the attack" Name="Munich.Preparing the attack" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Munich&amp;conversation=Munich.Preparing the attack">
+      <Description>After being granted access to the Olympic village by a group of athletes who takes them for being sportsmen, the Black September terrorists prepare their attack and talk to each other in Arabic.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Munich.Preparing the attack" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-07T07:21:06" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-07T07:36:41" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="miquelpt" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Munich" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Munich" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="3" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="OceansEleven.ExplainingThePlan" Name="Explaining the plan" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=OceansEleven&amp;conversation=OceansEleven.ExplainingThePlan">
       <Description></Description>
       <Facets>
@@ -3383,6 +5161,392 @@ And the wife and the aunt speak in English</Description>
         </Facet>
         <Facet Name="L3ST-instances: count">
           <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Puss in Boots.Adiós" Name="Puss in Boots.Adiós" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Puss in Boots&amp;conversation=Puss in Boots.Adiós">
+      <Description>Puss decides not to join Humpty Dumpty in his quest to find the golden goose eggs </Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Puss in Boots.Adiós" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-01-16T10:47:04" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-01-16T02:17:36" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Puss in Boots" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Puss in Boots" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="18" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Puss in Boots.At the saloon" Name="At the saloon" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Puss in Boots&amp;conversation=Puss in Boots.At the saloon">
+      <Description>Puss is introduced in relation with humans who do not any rsspect for a cat trying to behave as a human</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Puss in Boots.At the saloon" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-01-13T11:40:36" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-01-13T11:46:02" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Puss in Boots" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Puss in Boots" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="4" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Puss in Boots.Chupacabras" Name="Puss in Boots.Chupacabras" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Puss in Boots&amp;conversation=Puss in Boots.Chupacabras">
+      <Description>Puss is hunting down Kitty</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Puss in Boots.Chupacabras" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-01-16T10:47:04" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-01-16T11:14:31" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Puss in Boots" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Puss in Boots" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="10" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Puss in Boots.Gracias, Comandante" Name="Puss in Boots.Gracias, Comandante" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Puss in Boots&amp;conversation=Puss in Boots.Gracias, Comandante">
+      <Description>Puss decides not to join Humpty Dumpty in his quest to find the golden goose eggs </Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Puss in Boots.Gracias, Comandante" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-01-16T10:47:04" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-01-16T02:30:30" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Puss in Boots" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Puss in Boots" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="28" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Puss in Boots.Huevos" Name="Puss in Boots.Huevos" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Puss in Boots&amp;conversation=Puss in Boots.Huevos">
+      <Description>People in town show their happiness after Humpty Dumpty shows them they can have as many golden goose eggs as they want</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Puss in Boots.Huevos" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-01-16T10:47:04" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-01-16T02:51:11" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Puss in Boots" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Puss in Boots" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="60" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Puss in Boots.Mi amigo" Name="Puss in Boots.Mi amigo" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Puss in Boots&amp;conversation=Puss in Boots.Mi amigo">
+      <Description>Puss is challenging Kitty</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Puss in Boots.Mi amigo" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-01-16T10:47:04" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-01-16T12:06:23" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Puss in Boots" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Puss in Boots" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="11" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Puss in Boots.No hablo inglés" Name="No hablo inglés" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Puss in Boots&amp;conversation=Puss in Boots.No hablo inglés">
+      <Description>Puss is trying to escape from the giants</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Puss in Boots.No hablo inglés" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-01-16T10:47:04" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-01-16T10:47:50" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Puss in Boots" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Puss in Boots" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="9" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Puss in Boots.Ole frijoles" Name="Puss in Boots.Ole frijoles" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Puss in Boots&amp;conversation=Puss in Boots.Ole frijoles">
+      <Description>Puss's surprise exclamation</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Puss in Boots.Ole frijoles" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-01-13T11:40:36" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-01-13T02:30:51" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Puss in Boots" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Puss in Boots" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="8" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Puss in Boots.Puss talking about himself" Name="Puss in Boots.Puss talking about himself" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Puss in Boots&amp;conversation=Puss in Boots.Puss talking about himself">
+      <Description>Puss assures he does not want to have problems</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Puss in Boots.Puss talking about himself" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-01-13T11:40:36" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-01-13T02:13:12" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Puss in Boots" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Puss in Boots" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="4" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Puss in Boots.Señorita" Name="Puss in Boots.Señorita" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Puss in Boots&amp;conversation=Puss in Boots.Señorita">
+      <Description>After having fought with Kitty, Puss realizes Kitty is a female cat</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Puss in Boots.Señorita" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-01-16T10:47:04" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-01-16T12:26:20" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Puss in Boots" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Puss in Boots" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="15" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
         </Facet>
       </Facets>
     </Item>
@@ -3627,50 +5791,6 @@ And the wife and the aunt speak in English</Description>
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Quantum of Solace.French accent" Name="Quantum of Solace.French accent" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.French accent">
-      <Description>Conversation between Mathis and Bond </Description>
-      <Facets>
-        <Facet Name="Reference Id">
-          <String Value="Quantum of Solace.French accent" />
-        </Facet>
-        <Facet Name="Info created">
-          <DateTime Value="2017-01-10T06:28:49" />
-        </Facet>
-        <Facet Name="Info updated">
-          <DateTime Value="2017-01-11T12:32:09" />
-        </Facet>
-        <Facet Name="Metadata Editors">
-          <String Value="Santamaria" />
-        </Facet>
-        <Facet Name="Film Reference Id">
-          <String Value="Quantum of Solace" />
-        </Facet>
-        <Facet Name="Film/Season title">
-          <String Value="Quantum of Solace" />
-        </Facet>
-        <Facet Name="Start time (min)">
-          <Number Value="46" />
-        </Facet>
-        <Facet Name="Duration (sec)">
-          <String Value="I. 161-180" />
-        </Facet>
-        <Facet Name="L3ST languages: count">
-          <Number Value="1" />
-        </Facet>
-        <Facet Name="L3ST languages">
-          <String Value="English with French accent" />
-        </Facet>
-        <Facet Name="L3ST language types: count">
-          <Number Value="1" />
-        </Facet>
-        <Facet Name="L3ST language types">
-          <String Value="Real" />
-        </Facet>
-        <Facet Name="L3ST-instances: count">
-          <Number Value="1" />
-        </Facet>
-      </Facets>
-    </Item>
     <Item Id="Quantum of Solace.Gemma and Mathis" Name="Gemma and Mathis" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Gemma and Mathis">
       <Description>Mathis explains Gemma what happened to him in the past in Italian because of Bond</Description>
       <Facets>
@@ -3706,6 +5826,51 @@ And the wife and the aunt speak in English</Description>
         </Facet>
         <Facet Name="L3ST-instances: count">
           <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Quantum of Solace.General Medrano and his people" Name="Quantum of Solace.General Medrano and his people" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.General Medrano and his people">
+      <Description>General Medrano and his people are waiting for Dominic in his headquarters
+</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Quantum of Solace.General Medrano and his people" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-01-11T07:09:40" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-01-12T11:29:56" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Quantum of Solace" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Quantum of Solace" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="81" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="B. 21-40" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Latin American Spanish" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>
@@ -3785,6 +5950,50 @@ And the wife and the aunt speak in English</Description>
         </Facet>
         <Facet Name="L3ST-instances: count">
           <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Quantum of Solace.Making arrangements" Name="Quantum of Solace.Making arrangements" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Making arrangements">
+      <Description>Conversation between Mathis and Bond </Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Quantum of Solace.Making arrangements" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-01-10T06:28:49" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-01-11T12:32:09" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Quantum of Solace" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Quantum of Solace" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="46" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="I. 161-180" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="English with French accent" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>
@@ -4122,6 +6331,908 @@ At the same time Mathis is on the phone</Description>
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Rise of the Planet of the Apes.Asking for permission" Name="Rise of the Planet of the Apes.Asking for permission" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Rise of the Planet of the Apes&amp;conversation=Rise of the Planet of the Apes.Asking for permission">
+      <Description>Caesar asks William whether he can go and play around the ape room at the ape shelter.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Rise of the Planet of the Apes.Asking for permission" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="Sign language" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-21T09:35:07" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-23T01:58:02" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Rise of the Planet of the Apes" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Rise of the Planet of the Apes" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="33" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Rise of the Planet of the Apes.Caesar and Caroline" Name="Rise of the Planet of the Apes.Caesar and Caroline" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Rise of the Planet of the Apes&amp;conversation=Rise of the Planet of the Apes.Caesar and Caroline">
+      <Description>Caroline explains to William that Caesar is using a given sign to ask for permission.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Rise of the Planet of the Apes.Caesar and Caroline" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="Sign language" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-21T09:35:07" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-23T01:34:52" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Rise of the Planet of the Apes" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Rise of the Planet of the Apes" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="22" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Sign language" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Constructed (fictional)" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="2" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Rise of the Planet of the Apes.Caesar and William" Name="Rise of the Planet of the Apes.Caesar and William" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Rise of the Planet of the Apes&amp;conversation=Rise of the Planet of the Apes.Caesar and William">
+      <Description>Caesar asks William whether he is just a pet or has a family.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Rise of the Planet of the Apes.Caesar and William" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="Sign language" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-21T09:35:07" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-23T01:38:47" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Rise of the Planet of the Apes" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Rise of the Planet of the Apes" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="25" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Rise of the Planet of the Apes.Caesar, William and Caroline" Name="Caesar, William and Caroline" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Rise of the Planet of the Apes&amp;conversation=Rise of the Planet of the Apes.Caesar, William and Caroline">
+      <Description>William takes Caesar to the zoo after Caesar has been injured for the primatologist Caroline Aranha to take care of the injury.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Rise of the Planet of the Apes.Caesar, William and Caroline" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-21T05:32:59" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-21T05:34:25" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Rise of the Planet of the Apes" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Rise of the Planet of the Apes" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="19" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="C. 41-60" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Rise of the Planet of the Apes.Conversation among apes" Name="Rise of the Planet of the Apes.Conversation among apes" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Rise of the Planet of the Apes&amp;conversation=Rise of the Planet of the Apes.Conversation among apes">
+      <Description>Caesar has become the leader of the group.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Rise of the Planet of the Apes.Conversation among apes" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="Sign language" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="No translation" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-21T09:35:07" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-23T02:50:05" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Rise of the Planet of the Apes" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Rise of the Planet of the Apes" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="62" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="B. 21-40" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Rise of the Planet of the Apes.Home 1" Name="Rise of the Planet of the Apes.Home 1" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Rise of the Planet of the Apes&amp;conversation=Rise of the Planet of the Apes.Home 1">
+      <Description>Caesar asks William to go home.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Rise of the Planet of the Apes.Home 1" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="Sign language" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="Different sign from conversation in minute 34" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-21T09:35:07" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-23T02:09:05" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Rise of the Planet of the Apes" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Rise of the Planet of the Apes" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="34" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Rise of the Planet of the Apes.Home 2" Name="Rise of the Planet of the Apes.Home 2" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Rise of the Planet of the Apes&amp;conversation=Rise of the Planet of the Apes.Home 2">
+      <Description>Caesar asks William to go home.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Rise of the Planet of the Apes.Home 2" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="Sign language" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="Different sign from conversation in minute 34" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-21T09:35:07" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-23T02:09:29" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Rise of the Planet of the Apes" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Rise of the Planet of the Apes" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="49" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Rise of the Planet of the Apes.Maurice and Caesar getting organized" Name="Rise of the Planet of the Apes.Maurice and Caesar getting organized" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Rise of the Planet of the Apes&amp;conversation=Rise of the Planet of the Apes.Maurice and Caesar getting organized">
+      <Description>Maurice is wondering about Caesar's objectives to unite the group of apes.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Rise of the Planet of the Apes.Maurice and Caesar getting organized" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="Sign language" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-21T09:35:07" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-23T02:43:44" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Rise of the Planet of the Apes" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Rise of the Planet of the Apes" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="62" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="B. 21-40" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Rise of the Planet of the Apes.Maurice and Caesar" Name="Rise of the Planet of the Apes.Maurice and Caesar" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Rise of the Planet of the Apes&amp;conversation=Rise of the Planet of the Apes.Maurice and Caesar">
+      <Description>Maurice, a circus orangutan, is also able to sign.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Rise of the Planet of the Apes.Maurice and Caesar" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="Sign language" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-21T09:35:07" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-23T02:31:13" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Rise of the Planet of the Apes" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Rise of the Planet of the Apes" />
+        </Facet>
+        <Facet Name="Season episode name">
+          <String Value="47" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="55" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Rise of the Planet of the Apes.Rocket asking for permission" Name="Rise of the Planet of the Apes.Rocket asking for permission" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Rise of the Planet of the Apes&amp;conversation=Rise of the Planet of the Apes.Rocket asking for permission">
+      <Description>Rocket shows respect for Caesar.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Rise of the Planet of the Apes.Rocket asking for permission" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="Sign language" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="No translation of any kind. The audience has seen this sign many times so it is taken for granted it is going to be understood." />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-21T09:35:07" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-23T02:23:39" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Rise of the Planet of the Apes" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Rise of the Planet of the Apes" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="55" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Robin Hood.Ad libs" Name="Ad libs" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Robin Hood&amp;conversation=Robin Hood.Ad libs">
+      <Description>There are different scenes with ad libs throughout the film.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Robin Hood.Ad libs" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-12T08:18:12" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-12T08:19:17" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Robin Hood" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Robin Hood" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="18" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Robin Hood.Ambush" Name="Robin Hood.Ambush" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Robin Hood&amp;conversation=Robin Hood.Ambush">
+      <Description></Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Robin Hood.Ambush" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="There are different instances of ad libs throughout the film" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-12T11:43:19" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-12T08:17:27" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Robin Hood" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Robin Hood" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="20" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="French" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Robin Hood.Counter Ambush" Name="Robin Hood.Counter Ambush" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Robin Hood&amp;conversation=Robin Hood.Counter Ambush">
+      <Description>Robin fights against Godfrey's men when he realizes there has been an ambush.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Robin Hood.Counter Ambush" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-12T11:43:19" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-12T07:39:48" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Robin Hood" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Robin Hood" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="25" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="E. 81-100" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Robin Hood.French attack" Name="Robin Hood.French attack" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Robin Hood&amp;conversation=Robin Hood.French attack">
+      <Description>French soldiers kill British soldiers commanded by Godfrey when they are sleeping and drunk</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Robin Hood.French attack" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-12T11:43:19" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-12T07:53:59" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Robin Hood" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Robin Hood" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="70" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="B. 21-40" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Robin Hood.In John's bedroom" Name="In John's bedroom" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Robin Hood&amp;conversation=Robin Hood.In John's bedroom">
+      <Description>King John's mother tries to stop her son's relationship with the niece of the King of France Philip in order not to give the latter an excuse to invade England.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Robin Hood.In John's bedroom" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-12T11:43:19" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-12T04:47:03" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Robin Hood" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Robin Hood" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="9" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="F. 101-120" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="French" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="2" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Robin Hood.Mdemoiselle" Name="Robin Hood.Mdemoiselle" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Robin Hood&amp;conversation=Robin Hood.Mdemoiselle">
+      <Description></Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Robin Hood.Mdemoiselle" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-11T12:36:18" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-12T11:43:01" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Robin Hood" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Robin Hood" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Robin Hood.Philip and Godfrey first encounter" Name="Robin Hood.Philip and Godfrey first encounter" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Robin Hood&amp;conversation=Robin Hood.Philip and Godfrey first encounter">
+      <Description>Godfrey visits King Philip of France to make arrangements for their future invasion of England</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Robin Hood.Philip and Godfrey first encounter" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-12T11:43:19" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-12T05:16:24" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Robin Hood" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Robin Hood" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="18" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="C. 41-60" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Sherlock Holmes.At Luke Reordan's" Name="At Luke Reordan's" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Sherlock Holmes&amp;conversation=Sherlock Holmes.At Luke Reordan's">
+      <Description>Holmes and Watson fight against French speaking henchman Dredger and two other men.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Sherlock Holmes.At Luke Reordan's" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-13T07:40:36" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-13T09:06:09" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Sherlock Holmes" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Sherlock Holmes" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="46" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="F. 101-120" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="French" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="2" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Sherlock Holmes.At the docks" Name="Sherlock Holmes.At the docks" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Sherlock Holmes&amp;conversation=Sherlock Holmes.At the docks">
+      <Description>Holmes and Watson fight with Dredger.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Sherlock Holmes.At the docks" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-13T07:40:36" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-13T09:04:55" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Sherlock Holmes" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Sherlock Holmes" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="49" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="C. 41-60" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Sherlock Holmes.Saving the Parliament" Name="Sherlock Holmes.Saving the Parliament" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Sherlock Holmes&amp;conversation=Sherlock Holmes.Saving the Parliament">
+      <Description>Holmes, Irene Adler and Watson are attacked by Dredger.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Sherlock Holmes.Saving the Parliament" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-13T07:40:36" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-13T09:24:19" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Sherlock Holmes" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Sherlock Holmes" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="100" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Shutter Island.Recalling Dachau" Name="Shutter Island.Recalling Dachau" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Shutter Island&amp;conversation=Shutter Island.Recalling Dachau">
+      <Description>Marshall Teddy Daniels recalls his experience during the liberation of the concentration camp in Dachau.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Shutter Island.Recalling Dachau" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-14T11:00:48" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-14T11:04:07" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Shutter Island" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Shutter Island" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="24" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="B. 21-40" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Shutter Island.Visual channel only" Name="Shutter Island.Visual channel only" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Shutter Island&amp;conversation=Shutter Island.Visual channel only">
+      <Description>Above the gate of the concentration camp in Dachau the sentence "Arbeit macht frei" can be read.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Shutter Island.Visual channel only" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="Visual channel" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-14T11:00:48" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-15T09:06:04" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Shutter Island" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Shutter Island" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="40" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Slumdog Millionaire.Arrival at the orphanage" Name="Arrival at the orphanage" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Slumdog Millionaire&amp;conversation=Slumdog Millionaire.Arrival at the orphanage">
       <Description>Different kids discuss on the life at the orphanage</Description>
       <Facets>
@@ -4368,6 +7479,227 @@ At the same time Mathis is on the phone</Description>
         </Facet>
         <Facet Name="L3ST-instances: count">
           <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="The Girl with the Dragon Tattoo.foreign TV journalists" Name="The Girl with the Dragon Tattoo.foreign TV journalists" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=The Girl with the Dragon Tattoo&amp;conversation=The Girl with the Dragon Tattoo.foreign TV journalists">
+      <Description>Mikael Blomkvist is leaving Court after being sentenced and goes into a coffee shop. Meanwhile one can hear different TV reporters explaining his situation (in English with different accents).</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="The Girl with the Dragon Tattoo.foreign TV journalists" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-05T04:00:27" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-05T04:21:24" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="The Girl with the Dragon Tattoo" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="The Girl with the Dragon Tattoo" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="3" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="B. 21-40" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="The Girl with the Dragon Tattoo.Front page" Name="The Girl with the Dragon Tattoo.Front page" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=The Girl with the Dragon Tattoo&amp;conversation=The Girl with the Dragon Tattoo.Front page">
+      <Description>The image of Mikael Blomkvist handcuffed and smoking a cigarette appears on screen </Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="The Girl with the Dragon Tattoo.Front page" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-05T04:00:27" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-05T05:37:26" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="The Girl with the Dragon Tattoo" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="The Girl with the Dragon Tattoo" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="5" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Swedish" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="The Girl with the Dragon Tattoo.Skål" Name="The Girl with the Dragon Tattoo.Skål" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=The Girl with the Dragon Tattoo&amp;conversation=The Girl with the Dragon Tattoo.Skål">
+      <Description>Mikael Blomkvist's fireplace is finally working and the man who repaired proposes a toast </Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="The Girl with the Dragon Tattoo.Skål" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="Single word" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-05T04:00:27" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-05T05:45:07" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="The Girl with the Dragon Tattoo" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="The Girl with the Dragon Tattoo" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="28" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Swedish" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="4" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="The Girl with the Dragon Tattoo.Skål2" Name="The Girl with the Dragon Tattoo.Skål2" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=The Girl with the Dragon Tattoo&amp;conversation=The Girl with the Dragon Tattoo.Skål2">
+      <Description>Mikael Blomkvist is having dinner at Martin Vanger and drinking wine
+</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="The Girl with the Dragon Tattoo.Skål2" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="Single word" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-05T04:00:27" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-05T05:50:58" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="The Girl with the Dragon Tattoo" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="The Girl with the Dragon Tattoo" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="39" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Swedish" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="2" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="The Girl with the Dragon Tattoo.Spanish accent journalist" Name="The Girl with the Dragon Tattoo.Spanish accent journalist" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=The Girl with the Dragon Tattoo&amp;conversation=The Girl with the Dragon Tattoo.Spanish accent journalist">
+      <Description>Martin Vaenker listens to the TV news inside a bar. The reporter is portrayed as Spanish since Hanns Wenerstroem has been killed in Marbella.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="The Girl with the Dragon Tattoo.Spanish accent journalist" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-05T06:14:41" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-05T06:20:44" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="The Girl with the Dragon Tattoo" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="The Girl with the Dragon Tattoo" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="164" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
         </Facet>
       </Facets>
     </Item>
@@ -6549,6 +9881,88 @@ Buzz: ¿Mi nave? ¿La encontraste? ¡Excelente!</Description>
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Trollhunters.Talking about girls" Name="Talking about girls" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Trollhunters&amp;conversation=Trollhunters.Talking about girls">
+      <Description></Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Trollhunters.Talking about girls" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-01-14T04:00:03" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-01-14T04:02:05" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Guillermo" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Trollhunters" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Trollhunters - Season 1" />
+        </Facet>
+        <Facet Name="Season episode name">
+          <String Value="Becoming: Part 1" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="9" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Trollhunters.Talking to girls" Name="Talking to girls" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Trollhunters&amp;conversation=Trollhunters.Talking to girls">
+      <Description></Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Trollhunters.Talking to girls" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-01-14T03:47:32" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-01-14T03:49:59" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Guillermo" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Trollhunters" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Trollhunters - Season 1" />
+        </Facet>
+        <Facet Name="Season episode name">
+          <String Value="Becoming: Part 1" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="8" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="B. 21-40" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Um filme falado.First port of call-Marseille" Name="First port of call - Marseille" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Um filme falado&amp;conversation=Um filme falado.First port of call-Marseille">
       <Description></Description>
       <Facets>
@@ -6568,17 +9982,20 @@ Buzz: ¿Mi nave? ¿La encontraste? ¡Excelente!</Description>
           <DateTime Value="2016-10-17T04:31:52" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-19T12:30:31" />
+          <DateTime Value="2017-01-20T07:39:59" />
         </Facet>
         <Facet Name="Metadata Editors">
-          <String Value="corrius" />
           <String Value="George" />
+          <String Value="corrius" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Um filme falado" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Um filme falado" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="8" />
         </Facet>
         <Facet Name="Duration (sec)">
           <String Value="A. 1-20" />
@@ -6697,6 +10114,126 @@ Buzz: ¿Mi nave? ¿La encontraste? ¡Excelente!</Description>
         </Facet>
         <Facet Name="L3ST-instances: count">
           <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Valkyrie.Introductory note" Name="Introductory note" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Valkyrie&amp;conversation=Valkyrie.Introductory note">
+      <Description>At the beginnig of the film the audience is told that the film story is based on a true story</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Valkyrie.Introductory note" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="The text in German precedes the text in English" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-01-17T09:43:22" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-01-17T09:44:56" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Valkyrie" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Valkyrie" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Valkyrie.Oath" Name="Valkyrie.Oath" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Valkyrie&amp;conversation=Valkyrie.Oath">
+      <Description>Ad libs in German. Oath to defend Germany</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Valkyrie.Oath" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="The text in German is heard while on screen the text in English can be read" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-01-17T09:43:22" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-01-17T10:16:52" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Valkyrie" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Valkyrie" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Valkyrie.Salutation" Name="Salutation" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Valkyrie&amp;conversation=Valkyrie.Salutation">
+      <Description>Salutation to the General</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Valkyrie.Salutation" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-01-17T10:33:03" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-01-17T10:34:10" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Valkyrie" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Valkyrie" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="33" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
         </Facet>
       </Facets>
     </Item>

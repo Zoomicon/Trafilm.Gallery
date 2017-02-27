@@ -39,13 +39,17 @@
         <Facet Name="Transcription">
           <String Value="Arctor: What did you say, Barris? I didn't understand.&#xD;&#xA;Barris: (makes unintelligible noises similar to Donald Duck's voice)" />
         </Facet>
+        <Facet Name="Tags">
+          <String Value="DIS" />
+        </Facet>
         <Facet Name="Info created">
           <DateTime Value="2017-01-11T03:40:32" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-01-11T04:05:32" />
+          <DateTime Value="2017-01-26T01:09:30" />
         </Facet>
         <Facet Name="Metadata Editors">
+          <String Value="George" />
           <String Value="Guillermo" />
         </Facet>
         <Facet Name="Film Reference Id">
@@ -94,7 +98,7 @@
           <String Value="Oral L3: single source" />
         </Facet>
         <Facet Name="L3TT-instances: count">
-          <Number Value="0" />
+          <Number Value="2" />
         </Facet>
       </Facets>
     </Item>

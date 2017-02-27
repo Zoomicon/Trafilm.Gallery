@@ -52,10 +52,11 @@
           <DateTime Value="2016-12-20T01:20:56" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-12-22T12:28:49" />
+          <DateTime Value="2017-02-21T06:00:26" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="George" />
+          <String Value="Santamaria" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Gran Torino" />
@@ -66,18 +67,59 @@
         <Facet Name="L3ST-instance Reference Id">
           <String Value="Gran Torino.The gifts after the fight.Speaking Hmong" />
         </Facet>
+        <Facet Name="Film Title TT">
+          <String Value="Gran Torino" />
+        </Facet>
+        <Facet Name="L2 language">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L2 mode">
+          <String Value="Dubbed" />
+        </Facet>
+        <Facet Name="Distribution countries (TT)">
+          <String Value="Spain" />
+        </Facet>
         <Facet Name="Conversation start time (min)">
           <Number Value="26" />
         </Facet>
         <Facet Name="Conversation duration (sec)">
           <String Value="A. 1-20" />
         </Facet>
+        <Facet Name="L2 same as L3ST">
+          <String Value="No" />
+        </Facet>
+        <Facet Name="L3ST conveyed as L3TT">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3TT language">
+          <String Value="Hmong" />
+        </Facet>
+        <Facet Name="L3TT meant to be understood">
+          <String Value="YES, the gist, the implications of what is happening" />
+        </Facet>
+        <Facet Name="L3TT message required for understanding">
+          <String Value="Conversation can be followed regardless of meaning" />
+        </Facet>
+        <Facet Name="L3TT meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3TT speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3TT mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3TT merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
         <Facet Name="L3 language type change">
-          <String Value="- Real" />
-          <String Value="+ " />
+          <String Value="None" />
         </Facet>
         <Facet Name="L3 mode change">
-          <String Value="- Oral diegetic on-screen" />
+          <String Value="None" />
         </Facet>
         <Facet Name="L3 functions change">
           <String Value="- Signals otherness" />

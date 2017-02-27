@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: BaseMetadataPage.cs
-//Version: 20170112
+//Version: 20170113
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -50,18 +50,24 @@ namespace Trafilm.Gallery
 
     protected bool IsUserAllowedToViewVideo()
     {
-      return (Request.IsAuthenticated &&
-              (User.IsInRole("Administrators") ||
-               User.IsInRole("VideoViewers") ||
-               User.IsInRole("VideoUploaders")
-              ));
+      return Request.IsAuthenticated;
     }
 
-    protected bool IsUserAllowedToUploadVideo()
+    protected bool IsUserAllowedToUploadConversationL1video()
     {
       return (Request.IsAuthenticated &&
               (User.IsInRole("Administrators") ||
-               User.IsInRole("VideoUploaders")
+               User.IsInRole("MetadataEditors") ||
+               User.IsInRole("MetadataEditors_L3STinstance")
+              ));
+    }
+
+    protected bool IsUserAllowedToUploadConversationL2video()
+    {
+      return (Request.IsAuthenticated &&
+              (User.IsInRole("Administrators") ||
+               User.IsInRole("MetadataEditors") ||
+               User.IsInRole("MetadataEditors_L3TTinstance")
               ));
     }
 
@@ -155,24 +161,40 @@ namespace Trafilm.Gallery
 
     #region Files
 
-    private static string GetConversationL1videoFilename(string conversationId, string l1Language)
+    public static string GetConversationL1videoFilename(string conversationId, string l1Language = "")
     {
-      return conversationId + "_" + l1Language + ".mp4";
+      return conversationId + ((l1Language != "")? "_" + l1Language : "") + ".mp4";
     }
 
-    public string GetConversationL2videoFilename(string conversationId, string l2Language, string l2Mode)
+    public static string GetConversationL2videoFilename(string conversationId, string l2Language, string l2Mode)
     {
       return conversationId + "_" + l2Language + "_" + l2Mode + ".mp4";
     }
 
-    public bool ConversationL1videoExists(string conversationId, string l1Language)
+    public bool ConversationL1videoExists(string conversationId, string l1Language = "")
     {
-      return File.Exists(Path.Combine(Request.PhysicalApplicationPath, "video", GetConversationL1videoFilename(conversationId, l1Language)));
+      if (conversationId.StartsWith("*")) return false; //filter out "* Please select..." value which causes Server.MapPath to fail
+      try
+      {
+        return File.Exists(Server.MapPath("~/video/" + GetConversationL1videoFilename(conversationId, l1Language))); //using app-root-relative URL (~/) instead of domain-root-relative one (/)
+      }
+      catch //illegal characters in path
+      {
+        return false;
+      }
     }
 
     public bool ConversationL2videoExists(string conversationId, string l2Language, string l2Mode)
     {
-      return File.Exists(Path.Combine(Request.PhysicalApplicationPath, "video", GetConversationL2videoFilename(conversationId, l2Language, l2Mode)));
+      if (conversationId.StartsWith("*")) return false; //filter out "* Please select..." value which causes Server.MapPath to fail
+      try
+      {
+        return File.Exists(Server.MapPath("~/video/" + GetConversationL2videoFilename(conversationId, l2Language, l2Mode))); //using app-root-relative URL (~/) instead of domain-root-relative one (/)
+      }
+      catch //illegal characters in path
+      {
+        return false;
+      }
     }
 
     #endregion
@@ -224,7 +246,7 @@ namespace Trafilm.Gallery
       return new Uri("http://gallery.trafilm.net/video/" + file);
     }
 
-    public Uri GetConversationL1videoUri(string conversationId, string l1Language)
+    public Uri GetConversationL1videoUri(string conversationId, string l1Language = "")
     {
       return GetVideoUri(GetConversationL1videoFilename(conversationId, l1Language));
     }
@@ -294,6 +316,26 @@ namespace Trafilm.Gallery
         CXMLMetadata.Save(cxml, collectionTitle, facetCategories, metadataItems.ToArray());
     }
 
+    protected string UploadVideo(FileUpload uploadVideo, string filename)
+    {
+      if (!uploadVideo.HasFile) return "";
+
+      string filepath = Server.MapPath("~/video/" + filename);
+
+      if (Path.GetExtension(uploadVideo.FileName).ToLower() == ".mp4")
+        try
+        {
+          uploadVideo.PostedFile.SaveAs(filepath); //can throw exception
+          return "Video uploaded";
+        }
+        catch(Exception e)
+        {
+          return "Video upload failed: " + e.Message;
+        }
+      else
+        return "Video upload failed: Only .mp4 files are allowed";
+    }
+ 
     #endregion
 
     #endregion

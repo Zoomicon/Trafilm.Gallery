@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: L3TTinstance\metadata\default.aspx.cs
-//Version: 20170112
+//Version: 20170117
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -20,10 +20,10 @@ namespace Trafilm.Gallery
 
     protected void Page_Load(object sender, EventArgs e)
     {
-      filmStorage = new CXMLFragmentStorage<IFilm, Film>(Path.Combine(Request.PhysicalApplicationPath, @"film\films.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"film\metadata"), "*.cxml");
-      conversationStorage = new CXMLFragmentStorage<IConversation, Conversation>(Path.Combine(Request.PhysicalApplicationPath, @"conversation\conversations.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"conversation\metadata"), listFilms.SelectedValue + ".*.cxml");
-      l3STinstanceStorage = new CXMLFragmentStorage<IL3STinstance, L3STinstance>(Path.Combine(Request.PhysicalApplicationPath, @"L3STinstance\L3STinstances.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"L3STinstance\metadata"), listL3STinstances.SelectedValue + ".*.cxml");
-      l3TTinstanceStorage = new CXMLFragmentStorage<IL3TTinstance, L3TTinstance>(Path.Combine(Request.PhysicalApplicationPath, @"L3TTinstance\L3TTinstances.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"L3TTinstance\metadata"), listConversations.SelectedValue + ".*.cxml");
+      filmStorage = new CXMLFragmentStorage<IFilm, Film>(Server.MapPath("~/film/films.cxml"), Server.MapPath("~/film/metadata"), "*.cxml");
+      conversationStorage = new CXMLFragmentStorage<IConversation, Conversation>(Server.MapPath("~/conversation/conversations.cxml"), Server.MapPath("~/conversation/metadata"), listFilms.SelectedValue + ".*.cxml");
+      l3STinstanceStorage = new CXMLFragmentStorage<IL3STinstance, L3STinstance>(Server.MapPath("~/L3STinstance/L3STinstances.cxml"), Server.MapPath("~/L3STinstance/metadata"), listL3STinstances.SelectedValue + ".*.cxml");
+      l3TTinstanceStorage = new CXMLFragmentStorage<IL3TTinstance, L3TTinstance>(Server.MapPath("~/L3TTinstance/L3TTinstances.cxml"), Server.MapPath("~/L3TTinstance/metadata"), listConversations.SelectedValue + ".*.cxml");
 
       if (!IsPostBack)
       {
@@ -48,9 +48,7 @@ namespace Trafilm.Gallery
       bool hasSelectedL3TTinstance = (listL3TTinstances.SelectedIndex > 0);
       btnRename.Visible = IsUserAllowedToRename("L3TTinstance") && hasSelectedL3TTinstance;
 
-      //Video download/upload UI stays hidden if their parent panelMetadata is not visible (i.e. nothing is selected)
-      panelVideoDownload.Visible = IsUserAllowedToViewVideo() && ConversationL2videoExists(listConversations.SelectedValue, listL2language.SelectedValue, listL2mode.SelectedValue);
-      panelVideoUpload.Visible = IsUserAllowedToUploadVideo();
+      UpdateVideoUI();
     }
 
     #endregion
@@ -301,8 +299,20 @@ namespace Trafilm.Gallery
 
     public void SaveCollection()
     {
-      ICXMLMetadataStorage<IL3TTinstance> allL3TTinstancesStorage = new CXMLFragmentStorage<IL3TTinstance, L3TTinstance>(Path.Combine(Request.PhysicalApplicationPath, @"L3TTinstance\L3TTinstances.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"L3TTinstance\metadata"), "*.cxml");
-      SaveCollection(Path.Combine(Request.PhysicalApplicationPath, @"L3TTinstance\L3TTinstances.cxml"), "Trafilm Gallery: L3TT-instances", L3TTinstanceMetadataFacets.GetCXMLFacetCategories(), allL3TTinstancesStorage.Values);
+      ICXMLMetadataStorage<IL3TTinstance> allL3TTinstancesStorage = new CXMLFragmentStorage<IL3TTinstance, L3TTinstance>(Server.MapPath("~/L3TTinstance/L3TTinstances.cxml"), Server.MapPath("~/L3TTinstance/metadata"), "*.cxml");
+      SaveCollection(Server.MapPath("~/L3TTinstance/L3TTinstances.cxml"), "Trafilm Gallery: L3TT-instances", L3TTinstanceMetadataFacets.GetCXMLFacetCategories(), allL3TTinstancesStorage.Values);
+    }
+
+    public void UpdateVideoUI()
+    {
+      //Video download/upload UI stays hidden if their parent panelMetadata is not visible (i.e. nothing is selected)
+      string conversationId = listConversations.SelectedValue;
+      string l2Language = listL2language.SelectedValue;
+      string l2Mode = listL2mode.SelectedValue;
+      bool videoDownloadVisible = panelVideoDownload.Visible = IsUserAllowedToViewVideo() && ConversationL2videoExists(conversationId, l2Language, l2Mode);
+      UI.Load(linkVideo, GetConversationL2videoUri(conversationId, l2Language, l2Mode));
+      bool videoUploadVisible = panelVideoUpload.Visible = IsUserAllowedToUploadConversationL2video();
+      panelVideo.Visible = videoDownloadVisible || videoUploadVisible; //need to use local variables above, else it is always false
     }
 
     #endregion
@@ -313,7 +323,7 @@ namespace Trafilm.Gallery
 
     protected void listFilms_SelectedIndexChanged(object sender, EventArgs e)
     {
-      conversationStorage = new CXMLFragmentStorage<IConversation, Conversation>(Path.Combine(Request.PhysicalApplicationPath, @"conversation\conversations.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"conversation\metadata"), listFilms.SelectedValue + ".*.cxml");
+      conversationStorage = new CXMLFragmentStorage<IConversation, Conversation>(Server.MapPath("~/conversation/conversations.cxml"), Server.MapPath("~/conversation/metadata"), listFilms.SelectedValue + ".*.cxml");
 
       bool visible = (listFilms.SelectedIndex > 0);
       panelConversationId.Visible = visible;
@@ -322,7 +332,7 @@ namespace Trafilm.Gallery
 
     protected void listConversations_SelectedIndexChanged(object sender, EventArgs e)
     {
-      l3STinstanceStorage = new CXMLFragmentStorage<IL3STinstance, L3STinstance>(Path.Combine(Request.PhysicalApplicationPath, @"L3STinstance\L3STinstances.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"L3STinstance\metadata"), listConversations.SelectedValue + ".*.cxml");
+      l3STinstanceStorage = new CXMLFragmentStorage<IL3STinstance, L3STinstance>(Server.MapPath("~/L3STinstance/L3STinstances.cxml"), Server.MapPath("~/L3STinstance/metadata"), listConversations.SelectedValue + ".*.cxml");
 
       bool visible = (listConversations.SelectedIndex > 0);
       panelL3STinstanceId.Visible = visible;
@@ -331,7 +341,7 @@ namespace Trafilm.Gallery
 
     protected void listL3STinstances_SelectedIndexChanged(object sender, EventArgs e)
     {
-      l3TTinstanceStorage = new CXMLFragmentStorage<IL3TTinstance, L3TTinstance>(Path.Combine(Request.PhysicalApplicationPath, @"L3TTinstance\L3TTinstances.cxml"), Path.Combine(Request.PhysicalApplicationPath, @"L3TTinstance\metadata"), listL3STinstances.SelectedValue + ".*.cxml");
+      l3TTinstanceStorage = new CXMLFragmentStorage<IL3TTinstance, L3TTinstance>(Server.MapPath("~/L3TTinstance/L3TTinstances.cxml"), Server.MapPath("~/L3TTinstance/metadata"), listL3STinstances.SelectedValue + ".*.cxml");
 
       bool visible = (listL3STinstances.SelectedIndex > 0);
       panelL3TTinstanceId.Visible = visible;
@@ -366,8 +376,14 @@ namespace Trafilm.Gallery
       if (!IsUserAllowedToSave("L3TTinstance")) return;
 
       Save();
-      SaveCollection();
+      SaveCollection(); //TODO: should move this to code that generated DeepZoom gallery
+
+      string uploadResult = UploadVideo(uploadVideo, GetConversationL2videoFilename(listConversations.SelectedValue, listL2language.SelectedValue, listL2mode.SelectedValue));
+      labelStatus.Text = uploadResult;
+      panelStatus.Visible = (uploadResult != "");
+
       DisplayMetadata(listL3TTinstances.SelectedValue); //Reload saved data on the UI to confirm what was saved. This is also important to update any calculated fields that make use of the edited object's metadata values
+      UpdateVideoUI(); //need to update the video UI here too (else when it is uploaded for the first time it won't show download link)
     }
 
     #endregion

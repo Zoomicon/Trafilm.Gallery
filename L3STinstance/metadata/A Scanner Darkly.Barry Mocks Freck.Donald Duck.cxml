@@ -39,11 +39,14 @@
         <Facet Name="Transcription">
           <String Value="Freck: What is that supposed to mean?&#xD;&#xA;Barris: I'll tell you what it means, Freckles. It means that if you take too much of that stuff you not only start seeing and feeling buggy bugs all over, but you start talking like (unintelligible) and no one can understand you.&#xD;&#xA;Arctor: What did you say, Barris? I didn't understand.&#xD;&#xA;Barris: (makes unintelligible noises similar to Donald Duck's voice)" />
         </Facet>
+        <Facet Name="Tags">
+          <String Value="DIS" />
+        </Facet>
         <Facet Name="Info created">
           <DateTime Value="2017-01-11T03:40:32" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-01-11T04:02:14" />
+          <DateTime Value="2017-01-26T01:09:11" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Guillermo" />
@@ -84,6 +87,12 @@
         <Facet Name="L3ST mode, written/spoken, diegetic">
           <String Value="Oral diegetic on-screen" />
         </Facet>
+        <Facet Name="L3ST merely represented">
+          <String Value="L3 mentioned, talked about" />
+        </Facet>
+        <Facet Name="L3ST merely represented orally">
+          <String Value="Non-verbal oral" />
+        </Facet>
         <Facet Name="L3ST functions">
           <String Value="Comedy / humour" />
         </Facet>
@@ -94,7 +103,7 @@
           <String Value="Oral L3: single source" />
         </Facet>
         <Facet Name="L3TT-instances: count">
-          <Number Value="1" />
+          <Number Value="2" />
         </Facet>
       </Facets>
     </Item>

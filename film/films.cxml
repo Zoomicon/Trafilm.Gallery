@@ -97,10 +97,11 @@ Based on the homonym novel by Philip K. Dick.</Description>
           <DateTime Value="2017-01-11T03:31:08" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-01-11T03:35:11" />
+          <DateTime Value="2017-01-13T12:29:13" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Guillermo" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="A Scanner Darkly" />
@@ -136,8 +137,11 @@ Based on the homonym novel by Philip K. Dick.</Description>
         <Facet Name="Main language (L1)">
           <String Value="English" />
         </Facet>
+        <Facet Name="L2-Subtitled languages">
+          <String Value="Spanish" />
+        </Facet>
         <Facet Name="Conversations: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>
@@ -430,6 +434,61 @@ Based on the homonym novel by Philip K. Dick.</Description>
         </Facet>
         <Facet Name="Conversations: count">
           <Number Value="2" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Black Swan" Name="Black Swan" Img="https://upload.wikimedia.org/wikipedia/en/6/68/Black_Swan_poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Black Swan">
+      <Description>Nina Sayers is given the lead role to dance the Swan Lake by Tchaikovsky, but her character undergoes big changes with the pressure to be the best.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Black Swan" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-17T08:08:36" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-17T08:15:51" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Black Swan" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="108" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value=" Darren Aronofsky " />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Mark Heyman" />
+          <String Value=" Andres Heinz" />
+          <String Value=" John J. McLaughlin" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="USA" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value=" Fox Searchlight Pictures" />
+          <String Value=" Cross Creek Pictures" />
+          <String Value=" Protozoa Pictures" />
+          <String Value=" Phoenix Pictures Dune Entertainment " />
+        </Facet>
+        <Facet Name="Blockbuster">
+          <String Value="YES (top 20)" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2010" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="0" />
         </Facet>
       </Facets>
     </Item>
@@ -754,6 +813,42 @@ Based on the homonym novel by Philip K. Dick.</Description>
         </Facet>
         <Facet Name="L2-Dubbed languages">
           <String Value="Spanish" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Fargo" Name="Fargo Season 1" Img="https://i.jeded.com/i/fargo-first-season.23043.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Fargo">
+      <Description>https://en.wikipedia.org/wiki/Fargo_(season_1)</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Fargo" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-01-27T12:45:29" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-01T03:10:20" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Stavroula" />
+          <String Value="PatrickZabalbeascoa" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Fargo Season 1" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="TV series season" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="53" />
+        </Facet>
+        <Facet Name="Blockbuster">
+          <String Value="YES (top 20)" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
         </Facet>
         <Facet Name="Conversations: count">
           <Number Value="1" />
@@ -1162,6 +1257,59 @@ Based on the homonym novel by Philip K. Dick.</Description>
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Hereafter" Name="Hereafter" Img="https://upload.wikimedia.org/wikipedia/en/e/eb/Hereafter.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Hereafter">
+      <Description>Marie Lelay, a French journalist, survives the Indian Ocean tsunami in 2004, but has a near-death experience; George Lonegan, a former psychic is laid off from the company he has been working for; and Marcus of 12 loses his twin brother. The film explains the stories of three people who have experienced death in different ways.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Hereafter" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-20T07:44:48" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-20T07:55:15" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Hereafter" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="129" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Clint Eastwood" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Peter Morgan" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="USA" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value=" Warner Bros." />
+          <String Value=" Malpaso Productions" />
+          <String Value=" The Kennedy/Marshall Company" />
+          <String Value="  Amblin Entertainment Dombey Street Productions " />
+        </Facet>
+        <Facet Name="Blockbuster">
+          <String Value="YES (top 20)" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2010" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Hôkago Midnighters" Name="Hôkago Midnighters" Img="https://upload.wikimedia.org/wikipedia/en/9/9e/After_School_Midnighters_Poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Hôkago Midnighters">
       <Description>Cuando cae la noche... todo es posible. Los monstruos salen a la luz y los fantasmas se disponen a bailar y cantar. Son los dueños de la pista, e invaden el tan plácido espacio de un colegio, sus pasillos y sus aulas. Tres niñas se proponen a hacer travesuras en la escuela una vez ya ha cerrado. Lo que encuentran es esta fiesta sorpresa y, lejos de amedrentarse, van a dar guerra a tanto monstruito suelto. Una película cargada de humor e imaginación, que conjuga los cuentos de miedo con un universo infantil.</Description>
       <Facets>
@@ -1331,6 +1479,66 @@ Based on the homonym novel by Philip K. Dick.</Description>
         </Facet>
         <Facet Name="Year ST released">
           <Number Value="1995" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Life of Pi" Name="Life of Pi" Img="https://upload.wikimedia.org/wikipedia/en/5/57/Life_of_Pi_2012_Poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Life of Pi">
+      <Description>Pi's family decides to move to Canada after the municipality does not longer support the zoo where his father works. As owner of some of the animals in the zoo, Pi's father thinks that the animals could be sold in Canada. During the trip by sea the boat sinks and Pi has to find his way on his own with some of the animals.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Life of Pi" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-21T05:02:37" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-21T05:12:06" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Life of Pi" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="127" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Ang Lee" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value=" David Magee " />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value=" USA" />
+          <String Value=" Taiwan" />
+          <String Value=" UK" />
+          <String Value=" Canada" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value=" Fox 2000 Pictures" />
+          <String Value=" Dune Entertainment" />
+          <String Value=" Ingenious Media" />
+          <String Value="  Haishang Films Big Screen Productions" />
+          <String Value=" Ingenious Film Partners" />
+          <String Value=" Netter Productions Province of British Columbia Production Services Tax Credit" />
+          <String Value=" Québec Production Services Tax Credit" />
+          <String Value=" Wardour Street Pictures " />
+        </Facet>
+        <Facet Name="Blockbuster">
+          <String Value="YES (top 20)" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2012" />
         </Facet>
         <Facet Name="Main language (L1)">
           <String Value="English" />
@@ -1579,6 +1787,55 @@ Based on the homonym novel by Philip K. Dick.</Description>
         </Facet>
         <Facet Name="Conversations: count">
           <Number Value="3" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Midnight in Paris" Name="Midnight in Paris" Img="https://upload.wikimedia.org/wikipedia/en/9/9f/Midnight_in_Paris_Poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Midnight in Paris">
+      <Description>Gil Pender is in Paris with his wife and her conservative parents. Gil is a famous script writer, but wishes to become a succesful novel writer. Inexplicably finds himself every night in the Paris of the 1920'.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Midnight in Paris" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-18T01:39:15" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-18T01:47:55" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Midnight in Paris" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="94" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Woody Allen" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="Woody Allen" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="Spain" />
+          <String Value=" USA" />
+          <String Value=" France" />
+        </Facet>
+        <Facet Name="Blockbuster">
+          <String Value="YES (top 20)" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2011" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="0" />
         </Facet>
       </Facets>
     </Item>
@@ -1923,6 +2180,72 @@ Based on the homonym novel by Philip K. Dick.</Description>
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Puss in Boots" Name="Puss in Boots" Img="https://upload.wikimedia.org/wikipedia/en/d/d0/Puss_in_Boots_Poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Puss in Boots">
+      <Description>Puss is an outlaw cat who looks for the magic beans as a means to get to the giant's castle holding golden goose eggs. His friends in this adventure are Kitty Softpaws and Humpty Alexander Dumpty.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Puss in Boots" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="Different Spanish accents" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="Throughout the film, the tow main characters, Puss and Kitty, use an South American accent both in the English version and in the Spanish version. Other characters also have a strong South American accent in English like Imelda, Puss' human adoptive mother" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-01-12T12:16:15" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-01-17T01:20:42" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+          <String Value="George" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Puss in Boots" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="90" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Chris Miller" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Tom Wheeler" />
+          <String Value=" Brian Lynch" />
+          <String Value=" William Davies" />
+          <String Value=" Tom Wheeler" />
+          <String Value=" David H. Steinberg " />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="USA" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="DreamWorks Animation" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2011" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L2-Dubbed languages">
+          <String Value="Spanish" />
+          <String Value="Catalan" />
+        </Facet>
+        <Facet Name="L2-Subtitled languages">
+          <String Value="Catalan" />
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="10" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Quantum of Solace" Name="Quantum of Solace" Img="https://upload.wikimedia.org/wikipedia/en/2/2d/Quantum_of_Solace_-_UK_cinema_poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Quantum of Solace">
       <Description>James Bond seeks for revenge for his girlfriend's death and fights an unknown criminal organization.</Description>
       <Facets>
@@ -2051,6 +2374,247 @@ Based on the homonym novel by Philip K. Dick.</Description>
         </Facet>
         <Facet Name="Conversations: count">
           <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Rise of the Planet of the Apes" Name="Rise of the Planet of the Apes" Img="https://upload.wikimedia.org/wikipedia/en/8/81/Rise_of_the_Planet_of_the_Apes_Poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Rise of the Planet of the Apes">
+      <Description>Will Rodman, a scientist working in a San Francisco company is testing on chimpanzes a viral-based drug on chimpanzees to find a cure for Alzheimer's disease. The substance is given to a chimp named Bright Eyes, it increases her intelligence and the intelligence of her son, Cesar. Cesar eventually leads an ape uprising.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Rise of the Planet of the Apes" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="There a some conversations in sign language among apes and between apes and humans." />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-21T04:03:14" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-23T01:30:02" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Rise of the Planet of the Apes" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="105" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Rupert Wyatt" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value=" Rick Jaffa" />
+          <String Value=" Amanda Silver" />
+          <String Value=" " />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value=" USA" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="Twentieth Century Fox Film Corporation" />
+          <String Value=" Dune Entertainment" />
+          <String Value=" Chernin Entertainment" />
+          <String Value="  Ingenious Media" />
+          <String Value=" Big Screen Productions" />
+          <String Value=" Ingenious Film Partners" />
+          <String Value=" Dune Entertainment III " />
+        </Facet>
+        <Facet Name="Blockbuster">
+          <String Value="YES (top 20)" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2011" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L2-Dubbed languages">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L2-Subtitled languages">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="3" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Robin Hood" Name="Robin Hood" Img="https://images-na.ssl-images-amazon.com/images/M/MV5BMTM5NzcwMzEwOF5BMl5BanBnXkFtZTcwNjg5MTgwMw@@._V1_.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Robin Hood">
+      <Description>Robin Longstride, an archer in the army of King Richard the Lionhear for ten years at the Crusades, heads to Nottingham together with his band to give back the sword that once belonged to Lord Loxley's elderly and blind father after Loxley is killed by treacherous Godfrey. When Robin reaches Nottingham, Walter, Loxley's father, encourages him to impersonate his dead son to prevent his land being confiscated by the crown. After that Robin helps the new King John to fight against the French troops commanded by Philip of France at a beach below the Cliffs of Dover. The French troops surrender, but King John does not fulfill his promise to give more freedom to English lords and Robin is declared an outlaw.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Robin Hood" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-11T12:14:46" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-22T11:05:13" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="santamaria" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Robin Hood" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="140" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value=" Ridley Scott " />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Brian Helgeland" />
+          <String Value=" Ethan Reiff" />
+          <String Value=" Cyrus Voris" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="USA" />
+          <String Value=" UK" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value=" Universal Pictures" />
+          <String Value=" Imagine Entertainment" />
+          <String Value=" Relativity Media" />
+          <String Value=" Scott Free Productions " />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2010" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L2-Dubbed languages">
+          <String Value="Catalan" />
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L2-Subtitled languages">
+          <String Value="Catalan" />
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="7" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Sherlock Holmes" Name="Sherlock Holmes" Img="https://upload.wikimedia.org/wikipedia/en/e/e0/Sherlock_holmes_ver5.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Sherlock Holmes">
+      <Description>Irene Adler, a former adversary of Holmes asks him to find a missing man named Luke Reordan. Luke Reordan's body is found by Holmes and Watson in Blackwood's tomb, a man who has been hanged and whose death was certified by Watson. While trying to solve this enigma they are able to save England from Blackwood's threat.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Sherlock Holmes" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-13T12:34:27" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-13T07:37:19" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Sherlock Holmes" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="128" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Guy Ritchie" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Michael Robert Johnson" />
+          <String Value=" Anthony Peckham" />
+          <String Value=" Simon Kinberg " />
+          <String Value=" Lionel Wigram" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="USA" />
+          <String Value="  Germany" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="Warner Bros." />
+          <String Value=" Village Roadshow Pictures" />
+          <String Value=" Silver Pictures " />
+          <String Value=" Wigram Productions" />
+          <String Value=" Internationale Filmproduktion Blackbird Dritte" />
+          <String Value=" Lin Picture" />
+        </Facet>
+        <Facet Name="Blockbuster">
+          <String Value="YES (top 20)" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2009" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Shutter Island" Name="Shutter Island" Img="https://upload.wikimedia.org/wikipedia/en/7/76/Shutterislandposter.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Shutter Island">
+      <Description>A patient has disappeared from Boston's Shutter Island Ashecliffe Hospital and Marshal Teddy Daniels and his new partner, Chuck Aule, are sent to the Hospital to investigate the facts. A dangerous hurricane hits and they have to stay in the island for several days during which Teddy Daniels is no longer sure about who he is in fact.
+</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Shutter Island" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-14T10:46:41" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-14T11:00:04" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Shutter Island" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="138" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Martin Scorsese" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Laeta Kalogridis" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="USA" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value=" Paramount Pictures" />
+          <String Value=" Phoenix Pictures" />
+          <String Value=" Sikelia Productions" />
+          <String Value=" Appian Way" />
+        </Facet>
+        <Facet Name="Blockbuster">
+          <String Value="YES (top 20)" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2010" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="0" />
         </Facet>
       </Facets>
     </Item>
@@ -2212,6 +2776,66 @@ Based on the homonym novel by Philip K. Dick.</Description>
         </Facet>
         <Facet Name="Year ST released">
           <Number Value="1999" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="The Girl with the Dragon Tattoo" Name="The Girl with the Dragon Tattoo" Img="https://images-na.ssl-images-amazon.com/images/M/MV5BMTc2Mjc0MDg3MV5BMl5BanBnXkFtZTcwMjUzMDkxMw@@._V1_UX182_CR0,0,182,268_AL_.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=The Girl with the Dragon Tattoo">
+      <Description>Mikael Blomkvist is a disgraced journalist after being sentenced for libel who is hired to investigate the disappearance of Harriet Vanger, a wealthy patriarch’s niece. The girl has been missing for 40 years and during the investigation, he together with his assistant, the computer hacker Lisbeth Salander, realise that a good number of strange murders took place during those years. As they work together, Blomkvist and Salander uncover immense corruption in the country.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="The Girl with the Dragon Tattoo" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-02-03T07:14:36" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-02-05T04:00:09" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="The Girl with the Dragon Tattoo" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Niels Arden Oplev" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Nikolaj Arcel" />
+          <String Value=" Rasmus Heisterberg" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value=" Sweden" />
+          <String Value=" Denmark" />
+          <String Value=" Germany" />
+          <String Value=" Norway" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value=" Yellow Bird" />
+          <String Value="  ZDF Enterprises" />
+          <String Value="  Sveriges Television" />
+          <String Value=" Nordisk Film" />
+          <String Value=" Zweites Deutsches Fernsehen" />
+          <String Value=" ilmpool Stockholm Mälardalen" />
+          <String Value=" Film i Väst" />
+          <String Value="  Spiltan Underhållning" />
+          <String Value=" Svenska Filminstitutet" />
+          <String Value=" Nordisk Film- &amp; TV-Fond" />
+          <String Value=" Det Danske Filminstitut" />
+          <String Value="Danmarks Radio" />
+          <String Value="TV2 Norge " />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2009" />
         </Facet>
         <Facet Name="Main language (L1)">
           <String Value="English" />
@@ -2507,57 +3131,6 @@ Based on the homonym novel by Philip K. Dick.</Description>
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Toy Story 3" Name="Toy Story 3" Img="https://commons.wikimedia.org/wiki/File:Toy_Stoy_3_logo.svg" Href="http://gallery.trafilm.net/film/metadata/?film=Toy Story 3">
-      <Description>Andy, the boy to whom  Woody, Buzz Lightyear and the rest of the toys belong is getting ready to go to college. The toys are anxious about their future but they find a new house with a young girl who is happy to play with them.</Description>
-      <Facets>
-        <Facet Name="Reference Id">
-          <String Value="Toy Story 3" />
-        </Facet>
-        <Facet Name="Remarks">
-          <String Value="Spanish in only one scene&#xD;&#xA;" />
-        </Facet>
-        <Facet Name="Info created">
-          <DateTime Value="2017-01-02T09:22:35" />
-        </Facet>
-        <Facet Name="Info updated">
-          <DateTime Value="2017-01-02T09:41:38" />
-        </Facet>
-        <Facet Name="Metadata Editors">
-          <String Value="Santamaria" />
-        </Facet>
-        <Facet Name="Film/Season title">
-          <String Value="Toy Story 3" />
-        </Facet>
-        <Facet Name="Type">
-          <String Value="Feature film" />
-        </Facet>
-        <Facet Name="Duration (min)">
-          <Number Value="103" />
-        </Facet>
-        <Facet Name="Director(s)">
-          <String Value="Andrew Stanton" />
-        </Facet>
-        <Facet Name="Scriptwriter(s)">
-          <String Value="Michael Arndt" />
-        </Facet>
-        <Facet Name="Production countries">
-          <String Value="USA" />
-        </Facet>
-        <Facet Name="Production companies">
-          <String Value="Walt Disney Pictures" />
-          <String Value=" Pixar Animation Studios " />
-        </Facet>
-        <Facet Name="Year ST released">
-          <Number Value="2010" />
-        </Facet>
-        <Facet Name="Main language (L1)">
-          <String Value="English" />
-        </Facet>
-        <Facet Name="Conversations: count">
-          <Number Value="0" />
-        </Facet>
-      </Facets>
-    </Item>
     <Item Id="ToyStory3" Name="Toy Story 3" Img="https://upload.wikimedia.org/wikipedia/en/6/69/Toy_Story_3_poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=ToyStory3">
       <Description>The toys are mistakenly delivered to a day-care center instead of the attic right before Andy leaves for college, and it's up to Woody to convince the other toys that they weren't abandoned and to return home.</Description>
       <Facets>
@@ -2568,11 +3141,12 @@ Based on the homonym novel by Philip K. Dick.</Description>
           <DateTime Value="2016-07-11T02:46:56" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-19T02:28:35" />
+          <DateTime Value="2017-01-17T01:21:31" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Guillermo" />
           <String Value="Stavroula" />
+          <String Value="Santamaria" />
           <String Value="George" />
         </Facet>
         <Facet Name="Film/Season title">
@@ -2606,8 +3180,70 @@ Based on the homonym novel by Philip K. Dick.</Description>
         <Facet Name="Main language (L1)">
           <String Value="English" />
         </Facet>
+        <Facet Name="L2-Dubbed languages">
+          <String Value="Catalan" />
+          <String Value="Spanish" />
+        </Facet>
         <Facet Name="Conversations: count">
           <Number Value="7" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Trollhunters" Name="Trollhunters - Season 1" Img="https://upload.wikimedia.org/wikipedia/en/8/87/Trollhunters_poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Trollhunters">
+      <Description></Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Trollhunters" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-01-14T03:42:37" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-01-14T03:47:01" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Guillermo" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Trollhunters - Season 1" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="TV series season" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="23" />
+        </Facet>
+        <Facet Name="Series">
+          <String Value="Trollhunters" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Rodrigo Blaas" />
+          <String Value=" Elaine Bogan" />
+          <String Value=" Andrew L. Schmidt" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Tom Wheeler" />
+          <String Value=" Guillermo del Toro" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="USA" />
+          <String Value=" Mexico" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="Cha Cha Chá Films" />
+          <String Value=" DreamWorks Animation" />
+        </Facet>
+        <Facet Name="Blockbuster">
+          <String Value="NO, but commercially intended" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2016" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="0" />
         </Facet>
       </Facets>
     </Item>
@@ -2671,6 +3307,70 @@ Based on the homonym novel by Philip K. Dick.</Description>
         </Facet>
         <Facet Name="Conversations: count">
           <Number Value="3" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Valkyrie" Name="Valkyrie" Img="https://upload.wikimedia.org/wikipedia/en/b/b8/Valkyrie_poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Valkyrie">
+      <Description>A group of German senior officers and politicians in 1944 plot to assassinate Hitler to stop the horror and dishonor the II World War has caused to Germany</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Valkyrie" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="German only at the beginning of the film together with the expression &quot;Heil Hitler&quot;" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-01-16T09:27:52" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-01-17T01:22:05" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+          <String Value="George" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Valkyrie" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="121" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Edward Zwick" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Christopher McQuarrie" />
+          <String Value=" Nathan Alexander" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="USA" />
+          <String Value="  Germany" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value=" Metro-Goldwyn-Mayer" />
+          <String Value=" United Artists" />
+          <String Value=" Bad Hat Harry Productions" />
+          <String Value=" Studio Babelsberg" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2008" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L2-Dubbed languages">
+          <String Value="Catalan" />
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L2-Subtitled languages">
+          <String Value="Catalan" />
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="4" />
         </Facet>
       </Facets>
     </Item>
