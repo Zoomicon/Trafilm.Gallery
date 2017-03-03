@@ -781,6 +781,81 @@
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Babel.Amelia at the friend's house.Speaking (Mexican) Spanish" Name="Babel.Amelia at the friend's house" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Babel&amp;conversation=Babel.Amelia at the friend's house&amp;L3STinstance=Babel.Amelia at the friend's house.Speaking (Mexican) Spanish">
+      <Description>the two friends speak in (Mexican) Spanish</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Babel.Amelia at the friend's house.Speaking (Mexican) Spanish" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Friend: No puedo Amélia&#xD;&#xA;Amélia: Por favor, es la boda de mi hijo. Sólo por hoy, Lucía, seré de regreso por la noche.&#xD;&#xA;Friend: ¿Y qué le digo a la Sra. Catherine?&#xD;&#xA;Amélia: Pues...no sé, pues son tus sobrinos.&#xD;&#xA;Friend: uy, sí, son iguales a mi, con este look de gringa que tengo." />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="spanish" />
+          <String Value=" Mexican" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-03-03T09:29:42" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-03-03T09:34:31" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="corrius" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Babel" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Babel.Amelia at the friend's house" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="12" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L3ST language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST language">
+          <String Value="(Mexican) Spanish" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="YES, (almost) completely" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3ST speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3ST mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3ST functions">
+          <String Value="Character portrayal" />
+          <String Value="Stereotype" />
+          <String Value="Plot (twist)" />
+          <String Value="Signals otherness" />
+        </Facet>
+        <Facet Name="Conversation features for L3ST-instance">
+          <String Value="persuasion" />
+        </Facet>
+        <Facet Name="L3ST sources">
+          <String Value="Bilingual (L3&amp;main): same source " />
+        </Facet>
+        <Facet Name="L3TT-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Babel.At the (Haima) bar in Morocco.Speaking Arabic" Name="At the (Haima) bar in Morocco" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Babel&amp;conversation=Babel.At the (Haima) bar in Morocco&amp;L3STinstance=Babel.At the (Haima) bar in Morocco.Speaking Arabic">
       <Description>Richard and Susan are at a (haima) bar in Morocco where they order some food</Description>
       <Facets>
@@ -1311,6 +1386,81 @@
         </Facet>
         <Facet Name="L3ST sources">
           <String Value="Bilingual (L3&amp;main): same source " />
+        </Facet>
+        <Facet Name="L3TT-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Babel.On the phone talking to Amerlia's friend.Speaking (Mexican) Spanish" Name="On the phone talking to Amerlia's friend" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Babel&amp;conversation=Babel.On the phone talking to Amerlia's friend&amp;L3STinstance=Babel.On the phone talking to Amerlia's friend.Speaking (Mexican) Spanish">
+      <Description>Amelia is talking to her friend, Lucía, because she wants her to take care (for one day) of the two children she is babysitting. Amelia wants to go to her son's wedding in Mexico.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Babel.On the phone talking to Amerlia's friend.Speaking (Mexican) Spanish" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Amélia: ... No, si nada más quiero que me los guardes por hoy&#xD;&#xA;Friend: No puedo, la señora está en la casa&#xD;&#xA;Amélia: ¿Y no van a salir?&#xD;&#xA;Friend: No creo&#xD;&#xA;Amélia: Ok, luego te hablo" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="Spanish" />
+          <String Value=" Mexican" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-03-03T09:16:57" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-03-03T09:21:46" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="corrius" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Babel" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Babel.On the phone talking to Amerlia's friend" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="12" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L3ST language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST language">
+          <String Value="(Mexican) Spanish" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="YES, (almost) completely" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3ST speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3ST mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3ST functions">
+          <String Value="Character portrayal" />
+          <String Value="Stereotype" />
+          <String Value="Plot (twist)" />
+          <String Value="Signals otherness" />
+        </Facet>
+        <Facet Name="Conversation features for L3ST-instance">
+          <String Value="persuasion" />
+        </Facet>
+        <Facet Name="L3ST sources">
+          <String Value="Oral L3: different sources " />
         </Facet>
         <Facet Name="L3TT-instances: count">
           <Number Value="0" />
