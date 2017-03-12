@@ -348,6 +348,47 @@
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Avatar.Jake fighting against wild animals" Name="Jake fighting against wild animals" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Avatar&amp;conversation=Avatar.Jake fighting against wild animals">
+      <Description>Jake is fighting against some wild black animals, which are similar to Dobermans but stronger, the native woman, Neytiri, appears there and kills one of the animals. </Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Avatar.Jake fighting against wild animals" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="Sci-fi language" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-03-12T07:14:39" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-03-12T07:20:27" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="corrius" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Avatar" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Avatar" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Na'vi" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Constructed (fictional)" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Babel.Amelia at the friend's house" Name="Babel.Amelia at the friend's house" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Babel&amp;conversation=Babel.Amelia at the friend's house">
       <Description></Description>
       <Facets>
@@ -4089,10 +4130,11 @@
           <DateTime Value="2016-11-01T10:13:03" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-11-01T10:17:37" />
+          <DateTime Value="2017-03-12T07:32:19" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="evaespasa" />
+          <String Value="corrius" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Lost in Translation" />
@@ -4104,13 +4146,19 @@
           <String Value="I. 161-180" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Japanese" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>

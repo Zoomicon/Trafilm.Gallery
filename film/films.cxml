@@ -270,12 +270,13 @@ Based on the homonym novel by Philip K. Dick.</Description>
           <DateTime Value="2016-10-07T12:30:57" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-19T02:53:04" />
+          <DateTime Value="2017-03-12T07:21:30" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Stavroula" />
           <String Value="PatrickZabalbeascoa" />
           <String Value="George" />
+          <String Value="corrius" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Avatar" />
@@ -314,7 +315,7 @@ Based on the homonym novel by Philip K. Dick.</Description>
           <String Value="Spanish" />
         </Facet>
         <Facet Name="Conversations: count">
-          <Number Value="1" />
+          <Number Value="2" />
         </Facet>
       </Facets>
     </Item>
@@ -1605,22 +1606,29 @@ Based on the homonym novel by Philip K. Dick.</Description>
       </Facets>
     </Item>
     <Item Id="Lost in Translation" Name="Lost in Translation" Img="http://ia.media-imdb.com/images/M/MV5BMTI2NDI5ODk4N15BMl5BanBnXkFtZTYwMTI3NTE3._V1_.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Lost in Translation">
-      <Description>A faded movie star and a neglected young woman form an unlikely bond after crossing paths in Tokyo. </Description>
+      <Description>An American film star (Bob) goes to Tokyo to shoot a whiskey commercial. He stays in a luxury hotel where he meets Charlotte, a young woman who is visiting Tokyo with her husband, a photographer on assignment. Both Bob and Charlotte suffer confusion and hilaritydue to the language barrier and culture clash while they are both searching for the meaning of their lives. Since they share a feeling of intense isolation, they both need somebody to fill their gaps, so their relationship deepens.</Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="Lost in Translation" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="Japanese" />
+          <String Value=" Japanese accent" />
+          <String Value=" translation" />
+          <String Value=" cultural barrier" />
         </Facet>
         <Facet Name="Info created">
           <DateTime Value="2016-06-13T06:54:58" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-11-01T10:12:22" />
+          <DateTime Value="2017-03-12T07:31:54" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="natalia.faja" />
           <String Value="Stavroula" />
           <String Value="George" />
           <String Value="evaespasa" />
+          <String Value="corrius" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Lost in Translation" />
@@ -1656,8 +1664,11 @@ Based on the homonym novel by Philip K. Dick.</Description>
         <Facet Name="Main language (L1)">
           <String Value="English" />
         </Facet>
+        <Facet Name="L2-Dubbed languages">
+          <String Value="Spanish" />
+        </Facet>
         <Facet Name="Conversations: count">
-          <Number Value="0" />
+          <Number Value="2" />
         </Facet>
       </Facets>
     </Item>

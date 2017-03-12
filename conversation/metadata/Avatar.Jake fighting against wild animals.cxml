@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Japanese interpreter" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Jake fighting against wild animals" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="False" p:IsWordWheelVisible="False" />
@@ -21,45 +21,41 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Lost in Translation.Japanese interpreter" Name="Japanese interpreter" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Lost in Translation&amp;conversation=Lost in Translation.Japanese interpreter">
-      <Description>Bob receives instructions for the recording of a commercial through a Japanese interpreter. He verbalizes suspicion about the interpreting, much shorter than the director's emphatic instructions in Japanese.</Description>
+    <Item Id="Avatar.Jake fighting against wild animals" Name="Jake fighting against wild animals" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Avatar&amp;conversation=Avatar.Jake fighting against wild animals">
+      <Description>Jake is fighting against some wild black animals, which are similar to Dobermans but stronger, the native woman, Neytiri, appears there and kills one of the animals. </Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Lost in Translation.Japanese interpreter" />
+          <String Value="Avatar.Jake fighting against wild animals" />
         </Facet>
         <Facet Name="Tags">
-          <String Value="interpreting" />
+          <String Value="Sci-fi language" />
         </Facet>
         <Facet Name="Info created">
-          <DateTime Value="2016-11-01T10:13:03" />
+          <DateTime Value="2017-03-12T07:14:39" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-03-12T07:32:19" />
+          <DateTime Value="2017-03-12T07:20:27" />
         </Facet>
         <Facet Name="Metadata Editors">
-          <String Value="evaespasa" />
           <String Value="corrius" />
         </Facet>
         <Facet Name="Film Reference Id">
-          <String Value="Lost in Translation" />
+          <String Value="Avatar" />
         </Facet>
         <Facet Name="Film/Season title">
-          <String Value="Lost in Translation" />
-        </Facet>
-        <Facet Name="Duration (sec)">
-          <String Value="I. 161-180" />
+          <String Value="Avatar" />
         </Facet>
         <Facet Name="L3ST languages: count">
           <Number Value="1" />
         </Facet>
         <Facet Name="L3ST languages">
-          <String Value="Japanese" />
+          <String Value="Na'vi" />
         </Facet>
         <Facet Name="L3ST language types: count">
           <Number Value="1" />
         </Facet>
         <Facet Name="L3ST language types">
-          <String Value="Real" />
+          <String Value="Constructed (fictional)" />
         </Facet>
         <Facet Name="L3ST-instances: count">
           <Number Value="1" />
