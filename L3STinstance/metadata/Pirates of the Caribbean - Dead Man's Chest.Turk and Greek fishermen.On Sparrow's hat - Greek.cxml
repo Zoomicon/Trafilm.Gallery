@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Turk and Greek fishermen" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Pirates of the Caribbean - Dead Man's Chest.Turk and Greek fishermen.On Sparrow's hat - Greek" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -30,11 +30,11 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Pirates of the Caribbean - Dead Man's Chest.Turk and Greek fishermen.On Sparrow's hat" Name="Turk and Greek fishermen" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Pirates of the Caribbean - Dead Man's Chest&amp;conversation=Pirates of the Caribbean - Dead Man's Chest.Turk and Greek fishermen&amp;L3STinstance=Pirates of the Caribbean - Dead Man's Chest.Turk and Greek fishermen.On Sparrow's hat">
+    <Item Id="Pirates of the Caribbean - Dead Man's Chest.Turk and Greek fishermen.On Sparrow's hat - Greek" Name="Pirates of the Caribbean - Dead Man's Chest.Turk and Greek fishermen.On Sparrow's hat - Greek" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Pirates of the Caribbean - Dead Man's Chest&amp;conversation=Pirates of the Caribbean - Dead Man's Chest.Turk and Greek fishermen&amp;L3STinstance=Pirates of the Caribbean - Dead Man's Chest.Turk and Greek fishermen.On Sparrow's hat - Greek">
       <Description>Two fishermen find Jack Sparrow's hat floating on the water and argue about who will keep it. </Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Pirates of the Caribbean - Dead Man's Chest.Turk and Greek fishermen.On Sparrow's hat" />
+          <String Value="Pirates of the Caribbean - Dead Man's Chest.Turk and Greek fishermen.On Sparrow's hat - Greek" />
         </Facet>
         <Facet Name="Transcription">
           <String Value="Turkish fisherman: Heh-heh-heh, Tupay. Hey! Fo pes sa kapazun kapitan de la mezande, huh? (not subtitled)&#xD;&#xA;Greek fisherman: Etora. Fetsoran ipitos. Ferinte. arrive, huh? Ah! Vangas da eroro. (not subtitled)&#xD;&#xA;" />
@@ -43,7 +43,7 @@
           <DateTime Value="2017-03-14T03:31:59" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-03-14T04:33:52" />
+          <DateTime Value="2017-03-14T04:35:24" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="miquelpt" />
@@ -67,7 +67,7 @@
           <String Value="Real" />
         </Facet>
         <Facet Name="L3ST language">
-          <String Value="Turkish" />
+          <String Value="Greek" />
         </Facet>
         <Facet Name="L3ST meant to be understood">
           <String Value="YES, the gist, the implications of what is happening" />
