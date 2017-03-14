@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Pirates of the Caribbean - Dead Man's Chest.Turk and Greek fishermen.On Sparrow's hat - Greek" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="French pirate" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -30,20 +30,20 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Pirates of the Caribbean - Dead Man's Chest.Turk and Greek fishermen.On Sparrow's hat - Greek" Name="Pirates of the Caribbean - Dead Man's Chest.Turk and Greek fishermen.On Sparrow's hat - Greek" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Pirates of the Caribbean - Dead Man's Chest&amp;conversation=Pirates of the Caribbean - Dead Man's Chest.Turk and Greek fishermen&amp;L3STinstance=Pirates of the Caribbean - Dead Man's Chest.Turk and Greek fishermen.On Sparrow's hat - Greek">
-      <Description>Two fishermen find Jack Sparrow's hat floating on the water and argue about who will keep it. </Description>
+    <Item Id="Pirates of the Caribbean - Dead Man's Chest.French pirate.Refusal to continue" Name="French pirate" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Pirates of the Caribbean - Dead Man's Chest&amp;conversation=Pirates of the Caribbean - Dead Man's Chest.French pirate&amp;L3STinstance=Pirates of the Caribbean - Dead Man's Chest.French pirate.Refusal to continue">
+      <Description>A French pirate approaches Will Turner to a haunted ship with a rowboat, but suddenly stops and refuses to continue. </Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Pirates of the Caribbean - Dead Man's Chest.Turk and Greek fishermen.On Sparrow's hat - Greek" />
+          <String Value="Pirates of the Caribbean - Dead Man's Chest.French pirate.Refusal to continue" />
         </Facet>
         <Facet Name="Transcription">
-          <String Value="Turkish fisherman: Heh-heh-heh, Tupay. Hey! Fo pes sa kapazun kapitan de la mezande, huh? (not subtitled)&#xD;&#xA;Greek fisherman: Etora. Fetsoran ipitos. Ferinte. arrive, huh? Ah! Vangas da eroro. (not subtitled)&#xD;&#xA;" />
+          <String Value="SHRIMPER: My brother will take you ashore. &#xD;&#xA;&#xD;&#xA;[The shrimper's brother is rowing Will toward the shore. The rower stops rowing.]&#xD;&#xA;&#xD;&#xA;WILL TURNER: What's wrong? The beach is right there.&#xD;&#xA; &#xD;&#xA;SHRIMPER'S BROTHER: Ne bougeais pas, c'est trop dangereux. (not subtitled)&#xD;&#xA;                         &#xD;&#xA;WILL TURNER: What?&#xD;&#xA;&#xD;&#xA;SHRIMPER'S BROTHER: Je ne peux, c'est trop dangereux, j'avais le dit. Bon voyage, monsieur. (not subtitled)&#xD;&#xA;&#xD;&#xA;[Will jumps off the rowboat, swims ashore.]" />
         </Facet>
         <Facet Name="Info created">
-          <DateTime Value="2017-03-14T03:31:59" />
+          <DateTime Value="2017-03-14T05:27:58" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-03-14T04:43:42" />
+          <DateTime Value="2017-03-14T05:33:53" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="miquelpt" />
@@ -52,10 +52,10 @@
           <String Value="Pirates of the Caribbean - Dead Man's Chest" />
         </Facet>
         <Facet Name="Conversation Reference Id">
-          <String Value="Pirates of the Caribbean - Dead Man's Chest.Turk and Greek fishermen" />
+          <String Value="Pirates of the Caribbean - Dead Man's Chest.French pirate" />
         </Facet>
         <Facet Name="Conversation start time (min)">
-          <Number Value="18" />
+          <Number Value="21" />
         </Facet>
         <Facet Name="Conversation duration (sec)">
           <String Value="B. 21-40" />
@@ -67,7 +67,7 @@
           <String Value="Real" />
         </Facet>
         <Facet Name="L3ST language">
-          <String Value="Greek" />
+          <String Value="French" />
         </Facet>
         <Facet Name="L3ST meant to be understood">
           <String Value="YES, the gist, the implications of what is happening" />
@@ -89,16 +89,15 @@
         </Facet>
         <Facet Name="L3ST functions">
           <String Value="Stereotype" />
-          <String Value="Comedy / humour" />
         </Facet>
         <Facet Name="Conversation features for L3ST-instance">
-          <String Value="balanced exchange" />
+          <String Value="information" />
         </Facet>
         <Facet Name="L3ST sources">
-          <String Value="Oral L3: different sources " />
+          <String Value="Oral L3: single source" />
         </Facet>
         <Facet Name="L3TT-instances: count">
-          <Number Value="2" />
+          <Number Value="0" />
         </Facet>
       </Facets>
     </Item>
