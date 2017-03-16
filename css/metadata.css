@@ -4,11 +4,6 @@ Filename: metadata.css
 Version: 20170316
 */
 
-body {
-  margin-top:  0px;
-  padding-top: 0px;
-}
-
 div {
   margin-top: 12px;
   margin-bottom: 5px;
@@ -26,10 +21,15 @@ a {
 }
 
 .navigation a {
-  padding-bottom: 0.5em;
+  padding-bottom: 0.2em;
   text-decoration: none;
   color: #240000;
   margin-right: 20px;
+}
+
+.navigation a img {
+  padding-top: 0.2em;
+  padding-bottom: 0;
 }
 
 .navigation a:active {
