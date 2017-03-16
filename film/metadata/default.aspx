@@ -45,10 +45,11 @@ Version: 20170316
 
       <div class="navigation">
         <a href="http://trafilm.net" target="trafilm"><img src="http://trafilm.net/App_Themes/trafilm/img/logo.png" height="18" /></a>
-        <a class="selected" href="../../film/metadata/">Film Metadata</a>
-        <a href="../../conversation/metadata/?film=<%=listFilms.SelectedValue%>">Conversation Metadata</a>
-        <a href="../../L3STinstance/metadata/?film=<%=listFilms.SelectedValue%>">L3ST-instance Metadata</a>
-        <a href="../../L3TTinstance/metadata/?film=<%=listFilms.SelectedValue%>">L3TT-instance Metadata</a>
+        <a class="selected" href="../../film/metadata/">Films</a>
+        <a href="../../conversation/metadata/?film=<%=listFilms.SelectedValue%>">Conversations</a>
+        <a href="../../L3STinstance/metadata/?film=<%=listFilms.SelectedValue%>">L3ST-instances</a>
+        <a href="../../L3TTinstance/metadata/?film=<%=listFilms.SelectedValue%>">L3TT-instances</a>
+        <a href="https://repositori.upf.edu/handle/10230/28223" target="trafilm guide">Guide</a>
       </div>
 
 

@@ -1,8 +1,13 @@
 ﻿/*
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
-Filename: metadata.cs
-Version: 20170113
+Filename: metadata.css
+Version: 20170316
 */
+
+body {
+  margin-top:  0px;
+  padding-top: 0px;
+}
 
 div {
   margin-top: 12px;
@@ -21,21 +26,23 @@ a {
 }
 
 .navigation a {
+  padding-bottom: 0.5em;
   text-decoration: none;
   color: #240000;
   margin-right: 20px;
 }
 
-.navigation a:hover {
-  color: #9CA11C;
-}
-
 .navigation a:active {
-  color: #9CA11C;
+  color: ghostwhite;
 }
 
 .navigation a.selected {
-  color: #9CA11C;
+  color: ghostwhite;
+}
+
+.navigation a:hover {
+  text-decoration-color: ghostwhite;
+  text-decoration: underline;
 }
 
 /* --------------------------- */

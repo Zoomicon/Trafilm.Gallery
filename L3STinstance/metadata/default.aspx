@@ -56,10 +56,11 @@ Version: 20170316
 
       <div class="navigation">
         <a href="http://trafilm.net" target="trafilm"><img src="http://trafilm.net/App_Themes/trafilm/img/logo.png" height="18" /></a>
-        <a href="../../film/metadata/?film=<%=listFilms.SelectedValue%>">Film Metadata</a>
-        <a href="../../conversation/metadata/?film=<%=listFilms.SelectedValue%>&conversation=<%=listConversations.SelectedValue%>">Conversation Metadata</a>
-        <a class="selected" href="../../L3STinstance/metadata/">L3ST-instance Metadata</a>
-        <a href="../../L3TTinstance/metadata/?film=<%=listFilms.SelectedValue%>&conversation=<%=listConversations.SelectedValue%>&L3STinstance=<%=listL3STinstances.SelectedValue%>">L3TT-instance Metadata</a>
+        <a href="../../film/metadata/?film=<%=listFilms.SelectedValue%>">Films</a>
+        <a href="../../conversation/metadata/?film=<%=listFilms.SelectedValue%>&conversation=<%=listConversations.SelectedValue%>">Conversations</a>
+        <a class="selected" href="../../L3STinstance/metadata/">L3ST-instances</a>
+        <a href="../../L3TTinstance/metadata/?film=<%=listFilms.SelectedValue%>&conversation=<%=listConversations.SelectedValue%>&L3STinstance=<%=listL3STinstances.SelectedValue%>">L3TT-instances</a>
+        <a href="https://repositori.upf.edu/handle/10230/28223" target="trafilm guide">Guide</a>
       </div>
 
 

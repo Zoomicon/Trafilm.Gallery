@@ -6,7 +6,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: conversation\metadata\default.aspx
-Version: 20170113
+Version: 20170316
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -44,10 +44,11 @@ Version: 20170113
 
       <div class="navigation">
         <a href="http://trafilm.net" target="trafilm"><img src="http://trafilm.net/App_Themes/trafilm/img/logo.png" height="18" /></a>
-        <a href="../../film/metadata/?film=<%=listFilms.SelectedValue%>">Film Metadata</a>
-        <a class="selected" href="../../conversation/metadata/">Conversation Metadata</a>
-        <a href="../../L3STinstance/metadata/?film=<%=listFilms.SelectedValue%>&conversation=<%=listConversations.SelectedValue%>">L3ST-instance Metadata</a>
-        <a href="../../L3TTinstance/metadata/?film=<%=listFilms.SelectedValue%>&conversation=<%=listConversations.SelectedValue%>">L3TT-instance Metadata</a>
+        <a href="../../film/metadata/?film=<%=listFilms.SelectedValue%>">Films</a>
+        <a class="selected" href="../../conversation/metadata/">Conversations</a>
+        <a href="../../L3STinstance/metadata/?film=<%=listFilms.SelectedValue%>&conversation=<%=listConversations.SelectedValue%>">L3ST-instances</a>
+        <a href="../../L3TTinstance/metadata/?film=<%=listFilms.SelectedValue%>&conversation=<%=listConversations.SelectedValue%>">L3TT-instances</a>
+        <a href="https://repositori.upf.edu/handle/10230/28223" target="trafilm guide">Guide</a>
       </div>
 
 
