@@ -59,6 +59,8 @@ Version: 20170113
       <%-- NAVIGATION MENU --%>
 
       <div class="navigation">
+         <a href="http://trafilm.net" target="trafilm"><img src="http://trafilm.net/App_Themes/trafilm/img/logo.png" height="18" /></a>
+         &nbsp;&nbsp;
          <a href="../../film/metadata/?film=<%=listFilms.SelectedValue%>">Film Metadata</a>
          &nbsp;&nbsp;-&nbsp;&nbsp;
          <a href="../../conversation/metadata/?film=<%=listFilms.SelectedValue%>&conversation=<%=listConversations.SelectedValue%>">Conversation Metadata</a>

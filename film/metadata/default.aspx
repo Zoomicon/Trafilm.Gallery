@@ -6,7 +6,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: film\metadata\default.aspx
-Version: 20170113
+Version: 20170316
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -44,6 +44,8 @@ Version: 20170113
       <%-- NAVIGATION MENU --%>
 
       <div class="navigation">
+         <a href="http://trafilm.net" target="trafilm"><img src="http://trafilm.net/App_Themes/trafilm/img/logo.png" height="18" /></a>
+         &nbsp;&nbsp;
          <a class="selected" href="../../film/metadata/">Film Metadata</a>
          &nbsp;&nbsp;-&nbsp;&nbsp;
          <a href="../../conversation/metadata/?film=<%=listFilms.SelectedValue%>">Conversation Metadata</a>
