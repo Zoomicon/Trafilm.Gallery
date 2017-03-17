@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Quantum of Solace.Buying a ticket in Austria" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Buying a ticket in Austria" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="False" p:IsWordWheelVisible="False" />
@@ -21,7 +21,7 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Quantum of Solace.Buying a ticket in Austria" Name="Quantum of Solace.Buying a ticket in Austria" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Buying a ticket in Austria">
+    <Item Id="Quantum of Solace.Buying a ticket in Austria" Name="Buying a ticket in Austria" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Buying a ticket in Austria">
       <Description>Bond is trying to buy a plane ticket but his visa has been cancelled</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -31,10 +31,11 @@
           <DateTime Value="2017-01-10T06:28:49" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-01-11T11:20:56" />
+          <DateTime Value="2017-03-17T01:06:03" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Quantum of Solace" />
@@ -49,13 +50,20 @@
           <String Value="C. 41-60" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="0" />
+          <Number Value="2" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="English with German accent" />
+          <String Value="German" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="0" />
+          <Number Value="2" />
         </Facet>
       </Facets>
     </Item>

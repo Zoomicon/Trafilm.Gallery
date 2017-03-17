@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Quantum of Solace.General Medrano and his people" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="General Medrano and his people" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="False" p:IsWordWheelVisible="False" />
@@ -21,7 +21,7 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Quantum of Solace.General Medrano and his people" Name="Quantum of Solace.General Medrano and his people" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.General Medrano and his people">
+    <Item Id="Quantum of Solace.General Medrano and his people" Name="General Medrano and his people" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.General Medrano and his people">
       <Description>General Medrano and his people are waiting for Dominic in his headquarters
 </Description>
       <Facets>
@@ -32,10 +32,11 @@
           <DateTime Value="2017-01-11T07:09:40" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-01-12T11:29:56" />
+          <DateTime Value="2017-03-17T01:08:02" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Quantum of Solace" />

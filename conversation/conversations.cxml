@@ -5750,7 +5750,7 @@ And the wife and the aunt speak in English</Description>
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Puss in Boots.Puss talking about himself" Name="Puss in Boots.Puss talking about himself" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Puss in Boots&amp;conversation=Puss in Boots.Puss talking about himself">
+    <Item Id="Puss in Boots.Puss talking about himself" Name="Puss talking about himself" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Puss in Boots&amp;conversation=Puss in Boots.Puss talking about himself">
       <Description>Puss assures he does not want to have problems</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -5760,10 +5760,11 @@ And the wife and the aunt speak in English</Description>
           <DateTime Value="2017-01-13T11:40:36" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-01-13T02:13:12" />
+          <DateTime Value="2017-03-17T01:04:45" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Puss in Boots" />
@@ -5794,7 +5795,7 @@ And the wife and the aunt speak in English</Description>
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Puss in Boots.Señorita" Name="Puss in Boots.Señorita" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Puss in Boots&amp;conversation=Puss in Boots.Señorita">
+    <Item Id="Puss in Boots.Señorita" Name="Señorita" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Puss in Boots&amp;conversation=Puss in Boots.Señorita">
       <Description>After having fought with Kitty, Puss realizes Kitty is a female cat</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -5804,10 +5805,11 @@ And the wife and the aunt speak in English</Description>
           <DateTime Value="2017-01-16T10:47:04" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-01-16T12:26:20" />
+          <DateTime Value="2017-03-17T01:05:31" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Puss in Boots" />
@@ -5822,13 +5824,19 @@ And the wife and the aunt speak in English</Description>
           <String Value="A. 1-20" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Spanish" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>
@@ -5870,7 +5878,7 @@ And the wife and the aunt speak in English</Description>
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Quantum of Solace.At the harbour" Name="Quantum of Solace.At the harbour" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.At the harbour">
+    <Item Id="Quantum of Solace.At the harbour" Name="At the harbour" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.At the harbour">
       <Description>Bullyboys speak in French and Swiss German</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -5880,10 +5888,11 @@ And the wife and the aunt speak in English</Description>
           <DateTime Value="2017-01-10T11:59:59" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-01-10T02:26:03" />
+          <DateTime Value="2017-03-17T01:05:51" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Quantum of Solace" />
@@ -5914,7 +5923,7 @@ And the wife and the aunt speak in English</Description>
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Quantum of Solace.Buying a ticket in Austria" Name="Quantum of Solace.Buying a ticket in Austria" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Buying a ticket in Austria">
+    <Item Id="Quantum of Solace.Buying a ticket in Austria" Name="Buying a ticket in Austria" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Buying a ticket in Austria">
       <Description>Bond is trying to buy a plane ticket but his visa has been cancelled</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -5924,10 +5933,11 @@ And the wife and the aunt speak in English</Description>
           <DateTime Value="2017-01-10T06:28:49" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-01-11T11:20:56" />
+          <DateTime Value="2017-03-17T01:06:03" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Quantum of Solace" />
@@ -5942,13 +5952,20 @@ And the wife and the aunt speak in English</Description>
           <String Value="C. 41-60" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="0" />
+          <Number Value="2" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="English with German accent" />
+          <String Value="German" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="0" />
+          <Number Value="2" />
         </Facet>
       </Facets>
     </Item>
@@ -6111,7 +6128,7 @@ And the wife and the aunt speak in English</Description>
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Quantum of Solace.General Medrano and his people" Name="Quantum of Solace.General Medrano and his people" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.General Medrano and his people">
+    <Item Id="Quantum of Solace.General Medrano and his people" Name="General Medrano and his people" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.General Medrano and his people">
       <Description>General Medrano and his people are waiting for Dominic in his headquarters
 </Description>
       <Facets>
@@ -6122,10 +6139,11 @@ And the wife and the aunt speak in English</Description>
           <DateTime Value="2017-01-11T07:09:40" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-01-12T11:29:56" />
+          <DateTime Value="2017-03-17T01:08:02" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Quantum of Solace" />
@@ -6279,7 +6297,7 @@ And the wife and the aunt speak in English</Description>
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Quantum of Solace.Mathis interprets taxi driver" Name="Quantum of Solace.Mathis interprets taxi driver" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Mathis interprets taxi driver">
+    <Item Id="Quantum of Solace.Mathis interprets taxi driver" Name="Mathis interprets taxi driver" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Mathis interprets taxi driver">
       <Description>Mathis is on the phone while The taxi driver who takes him, Bond and agent Strawberry Fields is complaining about environmental issues, the government etc. Mathis acts as an interpreter for Bond
 </Description>
       <Facets>
@@ -6293,10 +6311,11 @@ And the wife and the aunt speak in English</Description>
           <DateTime Value="2017-01-11T07:09:40" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-01-11T09:46:33" />
+          <DateTime Value="2017-03-17T01:03:42" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Quantum of Solace" />
@@ -6311,13 +6330,19 @@ And the wife and the aunt speak in English</Description>
           <String Value="A. 1-20" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Latin American Spanish" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>
@@ -6654,7 +6679,7 @@ At the same time Mathis is on the phone</Description>
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Rise of the Planet of the Apes.Caesar and Caroline" Name="Rise of the Planet of the Apes.Caesar and Caroline" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Rise of the Planet of the Apes&amp;conversation=Rise of the Planet of the Apes.Caesar and Caroline">
+    <Item Id="Rise of the Planet of the Apes.Caesar and Caroline" Name="Caesar and Caroline" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Rise of the Planet of the Apes&amp;conversation=Rise of the Planet of the Apes.Caesar and Caroline">
       <Description>Caroline explains to William that Caesar is using a given sign to ask for permission.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -6667,10 +6692,11 @@ At the same time Mathis is on the phone</Description>
           <DateTime Value="2017-02-21T09:35:07" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-02-23T01:34:52" />
+          <DateTime Value="2017-03-17T01:08:16" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Rise of the Planet of the Apes" />
@@ -6701,7 +6727,7 @@ At the same time Mathis is on the phone</Description>
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Rise of the Planet of the Apes.Caesar and William" Name="Rise of the Planet of the Apes.Caesar and William" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Rise of the Planet of the Apes&amp;conversation=Rise of the Planet of the Apes.Caesar and William">
+    <Item Id="Rise of the Planet of the Apes.Caesar and William" Name="Caesar and William" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Rise of the Planet of the Apes&amp;conversation=Rise of the Planet of the Apes.Caesar and William">
       <Description>Caesar asks William whether he is just a pet or has a family.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -6714,10 +6740,11 @@ At the same time Mathis is on the phone</Description>
           <DateTime Value="2017-02-21T09:35:07" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-02-23T01:38:47" />
+          <DateTime Value="2017-03-17T01:06:21" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Rise of the Planet of the Apes" />
@@ -6732,13 +6759,19 @@ At the same time Mathis is on the phone</Description>
           <String Value="A. 1-20" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Sign language" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Constructed (fictional)" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="0" />
+          <Number Value="2" />
         </Facet>
       </Facets>
     </Item>
@@ -6780,7 +6813,7 @@ At the same time Mathis is on the phone</Description>
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Rise of the Planet of the Apes.Conversation among apes" Name="Rise of the Planet of the Apes.Conversation among apes" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Rise of the Planet of the Apes&amp;conversation=Rise of the Planet of the Apes.Conversation among apes">
+    <Item Id="Rise of the Planet of the Apes.Conversation among apes" Name="Conversation among apes" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Rise of the Planet of the Apes&amp;conversation=Rise of the Planet of the Apes.Conversation among apes">
       <Description>Caesar has become the leader of the group.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -6796,10 +6829,11 @@ At the same time Mathis is on the phone</Description>
           <DateTime Value="2017-02-21T09:35:07" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-02-23T02:50:05" />
+          <DateTime Value="2017-03-17T01:07:51" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Rise of the Planet of the Apes" />
@@ -6814,13 +6848,19 @@ At the same time Mathis is on the phone</Description>
           <String Value="B. 21-40" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Sign language" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Constructed (fictional)" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>
@@ -6953,7 +6993,7 @@ At the same time Mathis is on the phone</Description>
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Rise of the Planet of the Apes.Maurice and Caesar" Name="Rise of the Planet of the Apes.Maurice and Caesar" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Rise of the Planet of the Apes&amp;conversation=Rise of the Planet of the Apes.Maurice and Caesar">
+    <Item Id="Rise of the Planet of the Apes.Maurice and Caesar" Name="Maurice and Caesar" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Rise of the Planet of the Apes&amp;conversation=Rise of the Planet of the Apes.Maurice and Caesar">
       <Description>Maurice, a circus orangutan, is also able to sign.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -6966,10 +7006,11 @@ At the same time Mathis is on the phone</Description>
           <DateTime Value="2017-02-21T09:35:07" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-02-23T02:31:13" />
+          <DateTime Value="2017-03-17T01:03:58" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Rise of the Planet of the Apes" />
@@ -6987,17 +7028,23 @@ At the same time Mathis is on the phone</Description>
           <String Value="A. 1-20" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Sign language" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Constructed (fictional)" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="0" />
+          <Number Value="2" />
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Rise of the Planet of the Apes.Rocket asking for permission" Name="Rise of the Planet of the Apes.Rocket asking for permission" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Rise of the Planet of the Apes&amp;conversation=Rise of the Planet of the Apes.Rocket asking for permission">
+    <Item Id="Rise of the Planet of the Apes.Rocket asking for permission" Name="Rocket asking for permission" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Rise of the Planet of the Apes&amp;conversation=Rise of the Planet of the Apes.Rocket asking for permission">
       <Description>Rocket shows respect for Caesar.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -7013,10 +7060,11 @@ At the same time Mathis is on the phone</Description>
           <DateTime Value="2017-02-21T09:35:07" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-02-23T02:23:39" />
+          <DateTime Value="2017-03-17T01:04:19" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Rise of the Planet of the Apes" />
@@ -7031,13 +7079,19 @@ At the same time Mathis is on the phone</Description>
           <String Value="A. 1-20" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Sign language" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Constructed (fictional)" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>
