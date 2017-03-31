@@ -1457,6 +1457,82 @@
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Cars 2.Francesco on TV" Name="Cars 2.Francesco on TV" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Cars 2&amp;conversation=Cars 2.Francesco on TV">
+      <Description>Francesco is on TV and Mater gets into the interview.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Cars 2.Francesco on TV" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-03-30T01:21:23" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-03-31T10:19:50" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Cars 2" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Cars 2" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="13" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="C. 41-60" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Cars 2.Guido barman" Name="Cars 2.Guido barman" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Cars 2&amp;conversation=Cars 2.Guido barman">
+      <Description>Guido answers Mater's question in Italian.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Cars 2.Guido barman" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-03-30T01:21:23" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-03-31T10:09:20" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Cars 2" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Cars 2" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="12" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Cars 2.Loading Dock" Name="Loading Dock" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Cars 2&amp;conversation=Cars 2.Loading Dock">
       <Description>Zundapp uses some words in German while talking to his bunch of henchcars.</Description>
       <Facets>
@@ -1559,6 +1635,47 @@
         </Facet>
         <Facet Name="Duration (sec)">
           <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Cars 2.Mater and Francesco" Name="Cars 2.Mater and Francesco" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Cars 2&amp;conversation=Cars 2.Mater and Francesco">
+      <Description>Francesco is on TV and Mater talks to him.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Cars 2.Mater and Francesco" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="More Italian in the translation&#xD;&#xA;" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-03-30T01:21:23" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-03-31T10:28:30" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Cars 2" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Cars 2" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="14" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="C. 41-60" />
         </Facet>
         <Facet Name="L3ST languages: count">
           <Number Value="0" />
