@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Cars 2.MacQueen" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Cars 2.McQueen meets Francesco" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -30,20 +30,20 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Cars 2.MacQueen.Amigo" Name="Cars 2.MacQueen" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Cars 2&amp;conversation=Cars 2.MacQueen&amp;L3STinstance=Cars 2.MacQueen.Amigo">
-      <Description>McQueen uses the word "amigo" while talking to Mater.</Description>
+    <Item Id="Cars 2.McQueen meets Francesco.In Italian" Name="Cars 2.McQueen meets Francesco" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Cars 2&amp;conversation=Cars 2.McQueen meets Francesco&amp;L3STinstance=Cars 2.McQueen meets Francesco.In Italian">
+      <Description>Mater is with McQueen and they meet Francesco for the first time before the race.</Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Cars 2.MacQueen.Amigo" />
+          <String Value="Cars 2.McQueen meets Francesco.In Italian" />
         </Facet>
         <Facet Name="Transcription">
-          <String Value="All right, then. See you soon, amigo." />
+          <String Value="Ah, Lightning McQueen! Buona sera!&#xD;&#xA;&#xD;&#xA;Nice to meet you, too. You are very good-looking. Not as good as I thought, but you're good.&#xD;&#xA;Ah, anything for McQueen's friend.&#xD;&#xA;Ooh.&#xD;&#xA;Francesco is familiar with this reaction to Francesco. Uh, women respect a car that has-a nothing to hide.&#xD;&#xA;Let us have a toast. I dedicate my win tomorrow to Miss Sally.&#xD;&#xA;You will see Francesco, but not like this. You will see him like this as he drives away from you.&#xD;&#xA;Ciao, McQueen!&#xD;&#xA;" />
         </Facet>
         <Facet Name="Info created">
-          <DateTime Value="2017-03-30T01:57:40" />
+          <DateTime Value="2017-03-31T01:50:38" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-03-31T01:31:57" />
+          <DateTime Value="2017-03-31T01:56:17" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -52,13 +52,13 @@
           <String Value="Cars 2" />
         </Facet>
         <Facet Name="Conversation Reference Id">
-          <String Value="Cars 2.MacQueen" />
+          <String Value="Cars 2.McQueen meets Francesco" />
         </Facet>
         <Facet Name="Conversation start time (min)">
-          <Number Value="11" />
+          <Number Value="20" />
         </Facet>
         <Facet Name="Conversation duration (sec)">
-          <String Value="A. 1-20" />
+          <String Value="E. 81-100" />
         </Facet>
         <Facet Name="Main (L1) language">
           <String Value="English" />
@@ -67,7 +67,7 @@
           <String Value="Real" />
         </Facet>
         <Facet Name="L3ST language">
-          <String Value="Spanish" />
+          <String Value="Italian" />
         </Facet>
         <Facet Name="L3ST meant to be understood">
           <String Value="YES, (almost) completely" />
@@ -91,13 +91,14 @@
           <String Value="Character portrayal" />
         </Facet>
         <Facet Name="Conversation features for L3ST-instance">
-          <String Value="bonding" />
+          <String Value="quarrel" />
+          <String Value="salutation" />
         </Facet>
         <Facet Name="L3ST sources">
           <String Value="Bilingual (L3&amp;main): same source " />
         </Facet>
         <Facet Name="L3TT-instances: count">
-          <Number Value="1" />
+          <Number Value="0" />
         </Facet>
       </Facets>
     </Item>

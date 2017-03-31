@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Cars 2.Mater and Francesco.Francesco.SpanishDub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Cars 2.McQueen meets Francesco.In Italian.SpanishDub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -42,20 +42,20 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Cars 2.Mater and Francesco.Francesco.SpanishDub" Name="Cars 2.Mater and Francesco.Francesco.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Cars 2&amp;conversation=Cars 2.Mater and Francesco&amp;L3STinstance=Cars 2.Mater and Francesco.Francesco&amp;L3TTinstance=Cars 2.Mater and Francesco.Francesco.SpanishDub">
-      <Description>Francesco is on TV and Mater talks to him.</Description>
+    <Item Id="Cars 2.McQueen meets Francesco.In Italian.SpanishDub" Name="Cars 2.McQueen meets Francesco.In Italian.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Cars 2&amp;conversation=Cars 2.McQueen meets Francesco&amp;L3STinstance=Cars 2.McQueen meets Francesco.In Italian&amp;L3TTinstance=Cars 2.McQueen meets Francesco.In Italian.SpanishDub">
+      <Description>Mater is with McQueen and they meet Francesco for the first time before the race.</Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Cars 2.Mater and Francesco.Francesco.SpanishDub" />
+          <String Value="Cars 2.McQueen meets Francesco.In Italian.SpanishDub" />
         </Facet>
-        <Facet Name="Remarks">
-          <String Value="¡Ah! ¡Ya lo han oído! ¡Raglio McQueen prefiere ir despacio! Pero eso no es nuovo para Francesco. Cuando quiero dormir, veo una de una de sus carreras... y a las due vueltas, ya estoy, frito.&#xD;&#xA;Tiene miedo de Francesco. Es muy comprensibile. Al fin y al cabo, sono el más rápido del mundo porque io sono el Gran Francesco Bernoulli. Nadie puede ganarme y menos ese payaso di Raglio McQueen.&#xD;&#xA;En una carrera a chento voltas le daría noventa y nueve de ventaja. Y le ganaría.&#xD;&#xA;Dar vueltas es lo único que sabe facere, ¿no?&#xD;&#xA;Mel, otra llamada... Francesco necesita un oyente que aporte un poco di stímulo intelectuale, como un tractore.&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;" />
+        <Facet Name="Transcription">
+          <String Value="¡Ah, Raglio McQueen! ¡Buona sera!&#xD;&#xA;Lo que sea por el amigo de McQueen.&#xD;&#xA;¡Eh! Tiene buen gusto.&#xD;&#xA;Francesco está acostumbrado a despertar esas pasiones. Las ragazzas adoran a un coche que no esconde nada.&#xD;&#xA;Andiamo a brindare.&#xD;&#xA;Le dedico mi victoria, de mañana... a Sally.&#xD;&#xA;Serto que verás a Francesco,/ pero no lo verás así. Tú lo verás...de esta forma... mientras él se aleja de ti.&#xD;&#xA;Ciao, McQueen!&#xD;&#xA;" />
         </Facet>
         <Facet Name="Info created">
-          <DateTime Value="2017-03-31T10:38:11" />
+          <DateTime Value="2017-03-31T01:56:27" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-03-31T01:34:46" />
+          <DateTime Value="2017-03-31T01:59:38" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -64,10 +64,10 @@
           <String Value="Cars 2" />
         </Facet>
         <Facet Name="Conversation Reference Id">
-          <String Value="Cars 2.Mater and Francesco" />
+          <String Value="Cars 2.McQueen meets Francesco" />
         </Facet>
         <Facet Name="L3ST-instance Reference Id">
-          <String Value="Cars 2.Mater and Francesco.Francesco" />
+          <String Value="Cars 2.McQueen meets Francesco.In Italian" />
         </Facet>
         <Facet Name="Film Title TT">
           <String Value="Cars 2" />
@@ -88,13 +88,13 @@
           <String Value="YES (top 20)" />
         </Facet>
         <Facet Name="Conversation start time (min)">
-          <Number Value="14" />
+          <Number Value="20" />
         </Facet>
         <Facet Name="Conversation duration (sec)">
-          <String Value="C. 41-60" />
+          <String Value="E. 81-100" />
         </Facet>
         <Facet Name="L2 same as L3ST">
-          <String Value="No" />
+          <String Value="Yes" />
         </Facet>
         <Facet Name="L3ST conveyed as L3TT">
           <String Value="Yes" />
@@ -125,11 +125,13 @@
         </Facet>
         <Facet Name="L3TT functions">
           <String Value="Character portrayal" />
-          <String Value="Stereotype" />
         </Facet>
         <Facet Name="Conversation features for L3TT-instance">
           <String Value="joke" />
-          <String Value="threat" />
+          <String Value="quarrel" />
+        </Facet>
+        <Facet Name="L3TT sources">
+          <String Value="Bilingual (L3&amp;main): same source " />
         </Facet>
         <Facet Name="L3 language type change">
           <String Value="None" />
@@ -141,11 +143,11 @@
           <String Value="None" />
         </Facet>
         <Facet Name="Conversation features for L3-instance change">
+          <String Value="- salutation" />
           <String Value="+ joke" />
         </Facet>
         <Facet Name="L3 sources change">
-          <String Value="- Bilingual (L3&amp;main): same source " />
-          <String Value="+ " />
+          <String Value="None" />
         </Facet>
       </Facets>
     </Item>

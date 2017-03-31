@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Cars 2.MacQueen" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Cars 2.Waiter" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -30,20 +30,20 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Cars 2.MacQueen.Amigo" Name="Cars 2.MacQueen" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Cars 2&amp;conversation=Cars 2.MacQueen&amp;L3STinstance=Cars 2.MacQueen.Amigo">
-      <Description>McQueen uses the word "amigo" while talking to Mater.</Description>
+    <Item Id="Cars 2.Waiter.In Japanese" Name="Cars 2.Waiter" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Cars 2&amp;conversation=Cars 2.Waiter&amp;L3STinstance=Cars 2.Waiter.In Japanese">
+      <Description>Mater wants to have an ice-cream, but it is wasabi.</Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Cars 2.MacQueen.Amigo" />
+          <String Value="Cars 2.Waiter.In Japanese" />
         </Facet>
         <Facet Name="Transcription">
-          <String Value="All right, then. See you soon, amigo." />
+          <String Value="Okuyami moshi agemasu. (Japanese:My condolences)&#xD;&#xA;" />
         </Facet>
         <Facet Name="Info created">
-          <DateTime Value="2017-03-30T01:57:40" />
+          <DateTime Value="2017-03-31T02:04:54" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-03-31T01:31:57" />
+          <DateTime Value="2017-03-31T02:06:37" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -52,10 +52,10 @@
           <String Value="Cars 2" />
         </Facet>
         <Facet Name="Conversation Reference Id">
-          <String Value="Cars 2.MacQueen" />
+          <String Value="Cars 2.Waiter" />
         </Facet>
         <Facet Name="Conversation start time (min)">
-          <Number Value="11" />
+          <Number Value="24" />
         </Facet>
         <Facet Name="Conversation duration (sec)">
           <String Value="A. 1-20" />
@@ -67,13 +67,13 @@
           <String Value="Real" />
         </Facet>
         <Facet Name="L3ST language">
-          <String Value="Spanish" />
+          <String Value="Japanese" />
         </Facet>
         <Facet Name="L3ST meant to be understood">
-          <String Value="YES, (almost) completely" />
+          <String Value="YES, the gist, the implications of what is happening" />
         </Facet>
         <Facet Name="L3ST message required for understanding">
-          <String Value="Yes" />
+          <String Value="Conversation can be followed regardless of meaning" />
         </Facet>
         <Facet Name="L3ST meaning decipherable">
           <String Value="YES, through translation or clear from picture" />
@@ -88,16 +88,17 @@
           <String Value="NO / Not applicable" />
         </Facet>
         <Facet Name="L3ST functions">
-          <String Value="Character portrayal" />
+          <String Value="Plot (twist)" />
+          <String Value="Comedy / humour" />
         </Facet>
         <Facet Name="Conversation features for L3ST-instance">
-          <String Value="bonding" />
+          <String Value="joke" />
         </Facet>
         <Facet Name="L3ST sources">
-          <String Value="Bilingual (L3&amp;main): same source " />
+          <String Value="Oral L3: single source" />
         </Facet>
         <Facet Name="L3TT-instances: count">
-          <Number Value="1" />
+          <Number Value="0" />
         </Facet>
       </Facets>
     </Item>

@@ -2803,6 +2803,74 @@
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Cars 2.Cartoon on TV.In Japanese" Name="Cars 2.Cartoon on TV" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Cars 2&amp;conversation=Cars 2.Cartoon on TV&amp;L3STinstance=Cars 2.Cartoon on TV.In Japanese">
+      <Description>Mater is in a very innovative bathroom and a cartoon on a TV explains the stages of cleaning at the client's diposal.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Cars 2.Cartoon on TV.In Japanese" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-03-31T01:41:15" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-03-31T01:42:21" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Cars 2" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Cars 2.Cartoon on TV" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="26" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="C. 41-60" />
+        </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L3ST language type">
+          <String Value="Constructed (fictional)" />
+        </Facet>
+        <Facet Name="L3ST language">
+          <String Value="Fictional Japanese" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="YES, the gist, the implications of what is happening" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Conversation can be followed regardless of meaning" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3ST speaker performance">
+          <String Value="clearly deficient or farcical" />
+        </Facet>
+        <Facet Name="L3ST mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3ST merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
+        <Facet Name="L3ST functions">
+          <String Value="Comedy / humour" />
+        </Facet>
+        <Facet Name="Conversation features for L3ST-instance">
+          <String Value="joke" />
+        </Facet>
+        <Facet Name="L3ST sources">
+          <String Value="Oral L3: single source" />
+        </Facet>
+        <Facet Name="L3TT-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Cars 2.Finn McMIssil.In German" Name="Cars 2.Finn McMIssil" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Cars 2&amp;conversation=Cars 2.Finn McMIssil&amp;L3STinstance=Cars 2.Finn McMIssil.In German">
       <Description>Zundapp uses a word in German when he thinks Finn McMissil is dead.</Description>
       <Facets>
@@ -2944,6 +3012,150 @@
         </Facet>
         <Facet Name="L3ST sources">
           <String Value="Bilingual (L3&amp;main): same source " />
+        </Facet>
+        <Facet Name="L3TT-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Cars 2.Guido and Luigi.Guido" Name="Guido and Luigi" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Cars 2&amp;conversation=Cars 2.Guido and Luigi&amp;L3STinstance=Cars 2.Guido and Luigi.Guido">
+      <Description>Guido speaks in Italian and Luigi translates.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Cars 2.Guido and Luigi.Guido" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Non ti credo." />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-03-31T02:15:23" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-03-31T02:22:17" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Cars 2" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Cars 2.Guido and Luigi" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="29" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="B. 21-40" />
+        </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L3ST language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST language">
+          <String Value="Italian" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="YES, (almost) completely" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3ST speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3ST mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3ST merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
+        <Facet Name="L3ST functions">
+          <String Value="Character portrayal" />
+          <String Value="Comedy / humour" />
+        </Facet>
+        <Facet Name="Conversation features for L3ST-instance">
+          <String Value="joke" />
+        </Facet>
+        <Facet Name="L3ST sources">
+          <String Value="Oral L3: single source" />
+        </Facet>
+        <Facet Name="L3TT-instances: count">
+          <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Cars 2.Guido and Luigi.Luigi" Name="Cars 2.Guido and Luigi.Luigi" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Cars 2&amp;conversation=Cars 2.Guido and Luigi&amp;L3STinstance=Cars 2.Guido and Luigi.Luigi">
+      <Description>Guido speaks in Italian and Luigi translates.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Cars 2.Guido and Luigi.Luigi" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Guido don't believe you.&#xD;&#xA;Guido still don't believe you&#xD;&#xA;" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-03-31T02:15:23" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-03-31T02:27:29" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Cars 2" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Cars 2.Guido and Luigi" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="29" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="B. 21-40" />
+        </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L3ST language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST language">
+          <String Value="English with Italian accent" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="YES, (almost) completely" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3ST speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3ST mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3ST merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
+        <Facet Name="L3ST functions">
+          <String Value="Character portrayal" />
+          <String Value="Comedy / humour" />
+        </Facet>
+        <Facet Name="Conversation features for L3ST-instance">
+          <String Value="joke" />
+        </Facet>
+        <Facet Name="L3ST sources">
+          <String Value="Rephrase interlingually: different sources" />
         </Facet>
         <Facet Name="L3TT-instances: count">
           <Number Value="0" />
@@ -3169,20 +3381,92 @@
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Cars 2.Luigi.In Italian" Name="Cars 2.Luigi" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Cars 2&amp;conversation=Cars 2.Luigi&amp;L3STinstance=Cars 2.Luigi.In Italian">
+      <Description>Luigi uses words in Italian only in the translation.
+</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Cars 2.Luigi.In Italian" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Guido, look. Ferraris and tires. Let's go!" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-03-31T01:26:19" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-03-31T01:27:51" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Cars 2" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Cars 2.Luigi" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="19" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L3ST language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST language">
+          <String Value="English with Italian accent" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="YES, the gist, the implications of what is happening" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Conversation can be followed regardless of meaning" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3ST speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3ST mode, written/spoken, diegetic">
+          <String Value="Written diegetic" />
+        </Facet>
+        <Facet Name="L3ST merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
+        <Facet Name="L3ST functions">
+          <String Value="Character portrayal" />
+        </Facet>
+        <Facet Name="Conversation features for L3ST-instance">
+          <String Value="joke" />
+        </Facet>
+        <Facet Name="L3ST sources">
+          <String Value="Bilingual (L3&amp;main): same source " />
+        </Facet>
+        <Facet Name="L3TT-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Cars 2.MacQueen.Amigo" Name="Cars 2.MacQueen" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Cars 2&amp;conversation=Cars 2.MacQueen&amp;L3STinstance=Cars 2.MacQueen.Amigo">
-      <Description>McQueen uses the word "amigo" while talking to Mater</Description>
+      <Description>McQueen uses the word "amigo" while talking to Mater.</Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="Cars 2.MacQueen.Amigo" />
         </Facet>
         <Facet Name="Transcription">
-          <String Value="All right, then. See you soon, amigo" />
+          <String Value="All right, then. See you soon, amigo." />
         </Facet>
         <Facet Name="Info created">
           <DateTime Value="2017-03-30T01:57:40" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-03-30T01:58:49" />
+          <DateTime Value="2017-03-31T01:31:57" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -3236,7 +3520,7 @@
           <String Value="Bilingual (L3&amp;main): same source " />
         </Facet>
         <Facet Name="L3TT-instances: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>
@@ -3247,7 +3531,7 @@
           <String Value="Cars 2.Mater and Francesco.Francesco" />
         </Facet>
         <Facet Name="Transcription">
-          <String Value="If he is, uh, how you say, &quot;the bestest racecar,&quot; then why must he rest, huh?&#xD;&#xA;Ah! You heard it! Lightning McQueen prefers to be slow! Of course, this is not news to Francesco. When I want to go to sleep, I watch one of his races. After two laps, I am out cold.&#xD;&#xA;He is afraid of-a Francesco. This is (on) understandable. (indistinct) (off) (indistinct) (laughs) Let me tell you... (indistinct)&#xD;&#xA;Mel, can we move on? Francesco needs a caller who can provide a (off) little more intellectual stimulation, like a dump truck.&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;" />
+          <String Value="If he is, uh, how you say, &quot;the bestest racecar,&quot; then why must he rest, huh?&#xD;&#xA;Ah! You heard it! Lightning McQueen prefers to be slow! Of course, this is not news to Francesco. When I want to go to sleep, I watch one of his races. After two laps, I am out cold.&#xD;&#xA;He is afraid of-a Francesco. This is (on) understandable. Let me tell you..&#xD;&#xA;Mel, can we move on? Francesco needs a caller who can provide a little more intellectual stimulation, like a dump truck.&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;" />
         </Facet>
         <Facet Name="Remarks">
           <String Value="More Italian in the translation" />
@@ -3256,7 +3540,7 @@
           <DateTime Value="2017-03-31T10:28:37" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-03-31T10:37:42" />
+          <DateTime Value="2017-03-31T01:33:54" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -3280,19 +3564,19 @@
           <String Value="Real" />
         </Facet>
         <Facet Name="L3ST language">
-          <String Value="Italian" />
+          <String Value="English with Italian accent" />
         </Facet>
         <Facet Name="L3ST meant to be understood">
-          <String Value="YES, the gist, the implications of what is happening" />
+          <String Value="YES, (almost) completely" />
         </Facet>
         <Facet Name="L3ST message required for understanding">
-          <String Value="Conversation can be followed regardless of meaning" />
+          <String Value="Yes" />
         </Facet>
         <Facet Name="L3ST meaning decipherable">
           <String Value="YES, through translation or clear from picture" />
         </Facet>
         <Facet Name="Quality of L3ST speaker performance">
-          <String Value="clearly non-native or deficient" />
+          <String Value="native or proficient" />
         </Facet>
         <Facet Name="L3ST mode, written/spoken, diegetic">
           <String Value="Oral diegetic on-screen" />
@@ -3311,7 +3595,7 @@
           <String Value="Bilingual (L3&amp;main): same source " />
         </Facet>
         <Facet Name="L3TT-instances: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>
@@ -3387,6 +3671,80 @@
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Cars 2.Mater in Japanese.Domo Arigato" Name="Cars 2.Mater in Japanese" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Cars 2&amp;conversation=Cars 2.Mater in Japanese&amp;L3STinstance=Cars 2.Mater in Japanese.Domo Arigato">
+      <Description>Mater says "Domo arigato".
+</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Cars 2.Mater in Japanese.Domo Arigato" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="! Excuse me! Domo arigato" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-03-31T01:17:18" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-03-31T01:19:26" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Cars 2" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Cars 2.Mater in Japanese" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="18" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L3ST language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST language">
+          <String Value="Japanese" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="YES, the gist, the implications of what is happening" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Conversation can be followed regardless of meaning" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3ST speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3ST mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3ST merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
+        <Facet Name="L3ST functions">
+          <String Value="Character portrayal" />
+          <String Value="Plot (twist)" />
+          <String Value="Comedy / humour" />
+        </Facet>
+        <Facet Name="Conversation features for L3ST-instance">
+          <String Value="joke" />
+        </Facet>
+        <Facet Name="L3ST sources">
+          <String Value="Bilingual (L3&amp;main): same source " />
+        </Facet>
+        <Facet Name="L3TT-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Cars 2.McQueen and Francesco.Francesco" Name="Cars 2.McQueen and Francesco" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Cars 2&amp;conversation=Cars 2.McQueen and Francesco&amp;L3STinstance=Cars 2.McQueen and Francesco.Francesco">
       <Description>Francesco is on TV and McQueen interrupts the conversation between Mater and Francesco.</Description>
       <Facets>
@@ -3394,13 +3752,13 @@
           <String Value="Cars 2.McQueen and Francesco.Francesco" />
         </Facet>
         <Facet Name="Transcription">
-          <String Value="The Lightning McQueen, huh?&#xD;&#xA;McQueen, that was your best friend? Oh. This is the difference between you and Francesco. Francesco knows how good he is. He does not need to surround himself with tow trucks to prove it.&#xD;&#xA;Fragile! He calls-a Francesco fragile! Not-a so fast, McQueen!&#xD;&#xA;Matto! Questo e’ (indistinct) il mio volto. Che vado. Se questo programma e’ ridicolo! &#xD;&#xA;" />
+          <String Value="The Lightning McQueen, huh?&#xD;&#xA;McQueen, that was your best friend? Oh. This is the difference between you and Francesco. Francesco knows how good he is. He does not need to surround himself with tow trucks to prove it.&#xD;&#xA;Fragile! He calls Francesco fragile! Not-a so fast, McQueen!&#xD;&#xA;Matto! Questo e’ il mio volto. Che vado. Se questo programma e’ ridicolo! &#xD;&#xA;" />
         </Facet>
         <Facet Name="Info created">
           <DateTime Value="2017-03-31T10:44:59" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-03-31T10:50:39" />
+          <DateTime Value="2017-03-31T01:36:21" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -3453,6 +3811,150 @@
         </Facet>
         <Facet Name="L3ST sources">
           <String Value="Bilingual (L3&amp;main): same source " />
+        </Facet>
+        <Facet Name="L3TT-instances: count">
+          <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Cars 2.McQueen meets Francesco.In Italian" Name="Cars 2.McQueen meets Francesco" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Cars 2&amp;conversation=Cars 2.McQueen meets Francesco&amp;L3STinstance=Cars 2.McQueen meets Francesco.In Italian">
+      <Description>Mater is with McQueen and they meet Francesco for the first time before the race.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Cars 2.McQueen meets Francesco.In Italian" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Ah, Lightning McQueen! Buona sera!&#xD;&#xA;&#xD;&#xA;Nice to meet you, too. You are very good-looking. Not as good as I thought, but you're good.&#xD;&#xA;Ah, anything for McQueen's friend.&#xD;&#xA;Ooh.&#xD;&#xA;Francesco is familiar with this reaction to Francesco. Uh, women respect a car that has-a nothing to hide.&#xD;&#xA;Let us have a toast. I dedicate my win tomorrow to Miss Sally.&#xD;&#xA;You will see Francesco, but not like this. You will see him like this as he drives away from you.&#xD;&#xA;Ciao, McQueen!&#xD;&#xA;" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-03-31T01:50:38" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-03-31T01:56:17" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Cars 2" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Cars 2.McQueen meets Francesco" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="20" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="E. 81-100" />
+        </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L3ST language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST language">
+          <String Value="Italian" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="YES, (almost) completely" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3ST speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3ST mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3ST merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
+        <Facet Name="L3ST functions">
+          <String Value="Character portrayal" />
+        </Facet>
+        <Facet Name="Conversation features for L3ST-instance">
+          <String Value="quarrel" />
+          <String Value="salutation" />
+        </Facet>
+        <Facet Name="L3ST sources">
+          <String Value="Bilingual (L3&amp;main): same source " />
+        </Facet>
+        <Facet Name="L3TT-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Cars 2.Waiter.In Japanese" Name="Cars 2.Waiter" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Cars 2&amp;conversation=Cars 2.Waiter&amp;L3STinstance=Cars 2.Waiter.In Japanese">
+      <Description>Mater wants to have an ice-cream, but it is wasabi.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Cars 2.Waiter.In Japanese" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Okuyami moshi agemasu. (Japanese:My condolences)&#xD;&#xA;" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-03-31T02:04:54" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-03-31T02:06:37" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Cars 2" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Cars 2.Waiter" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="24" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L3ST language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST language">
+          <String Value="Japanese" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="YES, the gist, the implications of what is happening" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Conversation can be followed regardless of meaning" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3ST speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3ST mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3ST merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
+        <Facet Name="L3ST functions">
+          <String Value="Plot (twist)" />
+          <String Value="Comedy / humour" />
+        </Facet>
+        <Facet Name="Conversation features for L3ST-instance">
+          <String Value="joke" />
+        </Facet>
+        <Facet Name="L3ST sources">
+          <String Value="Oral L3: single source" />
         </Facet>
         <Facet Name="L3TT-instances: count">
           <Number Value="0" />
