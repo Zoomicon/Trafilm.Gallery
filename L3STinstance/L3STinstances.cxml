@@ -2958,7 +2958,7 @@
           <DateTime Value="2017-03-31T10:20:07" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-03-31T10:24:24" />
+          <DateTime Value="2017-04-01T07:15:30" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -2994,7 +2994,7 @@
           <String Value="YES, through translation or clear from picture" />
         </Facet>
         <Facet Name="Quality of L3ST speaker performance">
-          <String Value="native or proficient" />
+          <String Value="clearly non-native or deficient" />
         </Facet>
         <Facet Name="L3ST mode, written/spoken, diegetic">
           <String Value="Oral diegetic on-screen" />
@@ -3014,7 +3014,7 @@
           <String Value="Bilingual (L3&amp;main): same source " />
         </Facet>
         <Facet Name="L3TT-instances: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>
@@ -3031,7 +3031,7 @@
           <DateTime Value="2017-03-31T02:15:23" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-03-31T02:22:17" />
+          <DateTime Value="2017-04-01T07:16:46" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -3103,7 +3103,7 @@
           <DateTime Value="2017-03-31T02:15:23" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-03-31T02:27:29" />
+          <DateTime Value="2017-04-01T07:16:34" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -3139,7 +3139,7 @@
           <String Value="YES, through translation or clear from picture" />
         </Facet>
         <Facet Name="Quality of L3ST speaker performance">
-          <String Value="native or proficient" />
+          <String Value="clearly non-native or deficient" />
         </Facet>
         <Facet Name="L3ST mode, written/spoken, diegetic">
           <String Value="Oral diegetic on-screen" />
@@ -3158,7 +3158,7 @@
           <String Value="Rephrase interlingually: different sources" />
         </Facet>
         <Facet Name="L3TT-instances: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>
@@ -3323,7 +3323,7 @@
           <DateTime Value="2017-03-30T01:43:33" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-03-30T01:46:25" />
+          <DateTime Value="2017-04-01T07:17:26" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -3359,7 +3359,7 @@
           <String Value="YES, through translation or clear from picture" />
         </Facet>
         <Facet Name="Quality of L3ST speaker performance">
-          <String Value="native or proficient" />
+          <String Value="clearly non-native or deficient" />
         </Facet>
         <Facet Name="L3ST mode, written/spoken, diegetic">
           <String Value="Oral diegetic on-screen" />
@@ -3377,7 +3377,7 @@
           <String Value="Oral L3: single source" />
         </Facet>
         <Facet Name="L3TT-instances: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>
@@ -3395,7 +3395,7 @@
           <DateTime Value="2017-03-31T01:26:19" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-03-31T01:27:51" />
+          <DateTime Value="2017-04-01T07:17:58" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -3431,7 +3431,7 @@
           <String Value="YES, through translation or clear from picture" />
         </Facet>
         <Facet Name="Quality of L3ST speaker performance">
-          <String Value="native or proficient" />
+          <String Value="clearly non-native or deficient" />
         </Facet>
         <Facet Name="L3ST mode, written/spoken, diegetic">
           <String Value="Written diegetic" />
@@ -3449,7 +3449,7 @@
           <String Value="Bilingual (L3&amp;main): same source " />
         </Facet>
         <Facet Name="L3TT-instances: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>
@@ -3540,7 +3540,7 @@
           <DateTime Value="2017-03-31T10:28:37" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-03-31T01:33:54" />
+          <DateTime Value="2017-04-01T07:18:23" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -3576,7 +3576,7 @@
           <String Value="YES, through translation or clear from picture" />
         </Facet>
         <Facet Name="Quality of L3ST speaker performance">
-          <String Value="native or proficient" />
+          <String Value="clearly non-native or deficient" />
         </Facet>
         <Facet Name="L3ST mode, written/spoken, diegetic">
           <String Value="Oral diegetic on-screen" />
@@ -3745,6 +3745,77 @@
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Cars 2.Mater wins.In Italian" Name="Mater wins" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Cars 2&amp;conversation=Cars 2.Mater wins&amp;L3STinstance=Cars 2.Mater wins.In Italian">
+      <Description>Mater talks with the journalists after winning the race.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Cars 2.Mater wins.In Italian" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Strategia? Uh, Francesco needs no strategy. It's very simple. You start the race, wait for Lightning McQueen to choke, pass him, then win." />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-04-01T07:07:00" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-04-01T07:12:11" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Cars 2" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Cars 2.Mater wins" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="39" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L3ST language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST language">
+          <String Value="English with Italian accent" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="YES, (almost) completely" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3ST speaker performance">
+          <String Value="clearly non-native or deficient" />
+        </Facet>
+        <Facet Name="L3ST mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3ST merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
+        <Facet Name="L3ST functions">
+          <String Value="Character portrayal" />
+        </Facet>
+        <Facet Name="Conversation features for L3ST-instance">
+          <String Value="public speech" />
+        </Facet>
+        <Facet Name="L3ST sources">
+          <String Value="Bilingual (L3&amp;main): same source " />
+        </Facet>
+        <Facet Name="L3TT-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Cars 2.McQueen and Francesco.Francesco" Name="Cars 2.McQueen and Francesco" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Cars 2&amp;conversation=Cars 2.McQueen and Francesco&amp;L3STinstance=Cars 2.McQueen and Francesco.Francesco">
       <Description>Francesco is on TV and McQueen interrupts the conversation between Mater and Francesco.</Description>
       <Facets>
@@ -3758,7 +3829,7 @@
           <DateTime Value="2017-03-31T10:44:59" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-03-31T01:36:21" />
+          <DateTime Value="2017-04-01T07:19:48" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -3794,7 +3865,7 @@
           <String Value="YES, through translation or clear from picture" />
         </Facet>
         <Facet Name="Quality of L3ST speaker performance">
-          <String Value="native or proficient" />
+          <String Value="clearly non-native or deficient" />
         </Facet>
         <Facet Name="L3ST mode, written/spoken, diegetic">
           <String Value="Oral diegetic on-screen" />
@@ -3830,7 +3901,7 @@
           <DateTime Value="2017-03-31T01:50:38" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-03-31T01:56:17" />
+          <DateTime Value="2017-04-01T07:19:19" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -3854,7 +3925,7 @@
           <String Value="Real" />
         </Facet>
         <Facet Name="L3ST language">
-          <String Value="Italian" />
+          <String Value="English with Italian accent" />
         </Facet>
         <Facet Name="L3ST meant to be understood">
           <String Value="YES, (almost) completely" />
@@ -3866,7 +3937,7 @@
           <String Value="YES, through translation or clear from picture" />
         </Facet>
         <Facet Name="Quality of L3ST speaker performance">
-          <String Value="native or proficient" />
+          <String Value="clearly non-native or deficient" />
         </Facet>
         <Facet Name="L3ST mode, written/spoken, diegetic">
           <String Value="Oral diegetic on-screen" />
@@ -3885,7 +3956,7 @@
           <String Value="Bilingual (L3&amp;main): same source " />
         </Facet>
         <Facet Name="L3TT-instances: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>

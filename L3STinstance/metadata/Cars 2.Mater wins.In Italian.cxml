@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Cars 2.McQueen and Francesco" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Mater wins" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -30,20 +30,20 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Cars 2.McQueen and Francesco.Francesco" Name="Cars 2.McQueen and Francesco" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Cars 2&amp;conversation=Cars 2.McQueen and Francesco&amp;L3STinstance=Cars 2.McQueen and Francesco.Francesco">
-      <Description>Francesco is on TV and McQueen interrupts the conversation between Mater and Francesco.</Description>
+    <Item Id="Cars 2.Mater wins.In Italian" Name="Mater wins" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Cars 2&amp;conversation=Cars 2.Mater wins&amp;L3STinstance=Cars 2.Mater wins.In Italian">
+      <Description>Mater talks with the journalists after winning the race.</Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Cars 2.McQueen and Francesco.Francesco" />
+          <String Value="Cars 2.Mater wins.In Italian" />
         </Facet>
         <Facet Name="Transcription">
-          <String Value="The Lightning McQueen, huh?&#xD;&#xA;McQueen, that was your best friend? Oh. This is the difference between you and Francesco. Francesco knows how good he is. He does not need to surround himself with tow trucks to prove it.&#xD;&#xA;Fragile! He calls Francesco fragile! Not-a so fast, McQueen!&#xD;&#xA;Matto! Questo e’ il mio volto. Che vado. Se questo programma e’ ridicolo! &#xD;&#xA;" />
+          <String Value="Strategia? Uh, Francesco needs no strategy. It's very simple. You start the race, wait for Lightning McQueen to choke, pass him, then win." />
         </Facet>
         <Facet Name="Info created">
-          <DateTime Value="2017-03-31T10:44:59" />
+          <DateTime Value="2017-04-01T07:07:00" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-04-01T07:19:48" />
+          <DateTime Value="2017-04-01T07:12:11" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -52,13 +52,13 @@
           <String Value="Cars 2" />
         </Facet>
         <Facet Name="Conversation Reference Id">
-          <String Value="Cars 2.McQueen and Francesco" />
+          <String Value="Cars 2.Mater wins" />
         </Facet>
         <Facet Name="Conversation start time (min)">
-          <Number Value="15" />
+          <Number Value="39" />
         </Facet>
         <Facet Name="Conversation duration (sec)">
-          <String Value="D. 61-80" />
+          <String Value="A. 1-20" />
         </Facet>
         <Facet Name="Main (L1) language">
           <String Value="English" />
@@ -67,7 +67,7 @@
           <String Value="Real" />
         </Facet>
         <Facet Name="L3ST language">
-          <String Value="Italian" />
+          <String Value="English with Italian accent" />
         </Facet>
         <Facet Name="L3ST meant to be understood">
           <String Value="YES, (almost) completely" />
@@ -89,7 +89,6 @@
         </Facet>
         <Facet Name="L3ST functions">
           <String Value="Character portrayal" />
-          <String Value="Plot (twist)" />
         </Facet>
         <Facet Name="Conversation features for L3ST-instance">
           <String Value="public speech" />
@@ -98,7 +97,7 @@
           <String Value="Bilingual (L3&amp;main): same source " />
         </Facet>
         <Facet Name="L3TT-instances: count">
-          <Number Value="1" />
+          <Number Value="0" />
         </Facet>
       </Facets>
     </Item>

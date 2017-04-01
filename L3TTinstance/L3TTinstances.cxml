@@ -5762,7 +5762,7 @@
           <DateTime Value="2017-03-31T10:38:11" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-03-31T01:34:46" />
+          <DateTime Value="2017-04-01T07:18:38" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -6070,6 +6070,113 @@
         <Facet Name="L3 sources change">
           <String Value="- Bilingual (L3&amp;main): same source " />
           <String Value="+ " />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Cars 2.Mater wins.In Italian.SpanishDub" Name="Cars 2.Mater wins.In Italian.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Cars 2&amp;conversation=Cars 2.Mater wins&amp;L3STinstance=Cars 2.Mater wins.In Italian&amp;L3TTinstance=Cars 2.Mater wins.In Italian.SpanishDub">
+      <Description>Mater talks with the journalists after winning the race.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Cars 2.Mater wins.In Italian.SpanishDub" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="¿Strategía? Francesco no necesita estrategia. E molto facile: Empiezas la carrera, Raglio McQueen comete un errore,/ le pasas... y ganas, Francesco... gana sempre, me aburre.&#xD;&#xA;Para humillare de verdad a un rivale, primero tienes que dejar que se haga ilusiones." />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-04-01T07:12:38" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-04-01T07:14:30" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Cars 2" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Cars 2.Mater wins" />
+        </Facet>
+        <Facet Name="L3ST-instance Reference Id">
+          <String Value="Cars 2.Mater wins.In Italian" />
+        </Facet>
+        <Facet Name="Film Title TT">
+          <String Value="Cars 2" />
+        </Facet>
+        <Facet Name="L2 language">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L2 mode">
+          <String Value="Dubbed" />
+        </Facet>
+        <Facet Name="Distribution countries (TT)">
+          <String Value="Spain" />
+        </Facet>
+        <Facet Name="Year TT released">
+          <Number Value="2011" />
+        </Facet>
+        <Facet Name="Film TT Blockbuster">
+          <String Value="YES (top 20)" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="39" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L2 same as L3ST">
+          <String Value="No" />
+        </Facet>
+        <Facet Name="L3ST conveyed as L3TT">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3TT language">
+          <String Value="Italian" />
+        </Facet>
+        <Facet Name="L3TT meant to be understood">
+          <String Value="YES, (almost) completely" />
+        </Facet>
+        <Facet Name="L3TT message required for understanding">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3TT speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3TT mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3TT merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
+        <Facet Name="L3TT functions">
+          <String Value="Character portrayal" />
+        </Facet>
+        <Facet Name="Conversation features for L3TT-instance">
+          <String Value="public speech" />
+        </Facet>
+        <Facet Name="L3TT sources">
+          <String Value="Bilingual (L3&amp;main): same source " />
+        </Facet>
+        <Facet Name="L3 language type change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 mode change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 functions change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="Conversation features for L3-instance change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 sources change">
+          <String Value="None" />
         </Facet>
       </Facets>
     </Item>

@@ -1419,6 +1419,44 @@
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Cars 2.Airport announcement" Name="Cars 2.Airport announcement" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Cars 2&amp;conversation=Cars 2.Airport announcement">
+      <Description>Airport announcement in Japanese and English.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Cars 2.Airport announcement" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-03-30T01:21:23" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-04-01T07:32:07" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Cars 2" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Cars 2" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="41" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Cars 2.Cartoon on TV" Name="Cars 2.Cartoon on TV" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Cars 2&amp;conversation=Cars 2.Cartoon on TV">
       <Description>Mater is in a very innovative bathroom and a cartoon on a TV explains the stages of cleaning at the client's diposal.</Description>
       <Facets>
@@ -1830,6 +1868,47 @@
         </Facet>
         <Facet Name="Start time (min)">
           <Number Value="18" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Cars 2.Mater wins" Name="Mater wins" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Cars 2&amp;conversation=Cars 2.Mater wins">
+      <Description>Mater talks with the journalists after winning the race.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Cars 2.Mater wins" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="More Italian in the translation" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-04-01T07:04:11" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-04-01T07:06:38" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Cars 2" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Cars 2" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="39" />
         </Facet>
         <Facet Name="Duration (sec)">
           <String Value="A. 1-20" />
