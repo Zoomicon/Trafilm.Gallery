@@ -1495,6 +1495,44 @@
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Cars 2.Finn after the race" Name="Cars 2.Finn after the race" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Cars 2&amp;conversation=Cars 2.Finn after the race">
+      <Description>Finn introduces Tomber as his informant</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Cars 2.Finn after the race" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-03-30T01:21:23" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-04-01T08:33:45" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Cars 2" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Cars 2" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="50" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="B. 21-40" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Cars 2.Finn McMIssil" Name="Cars 2.Finn McMIssil" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Cars 2&amp;conversation=Cars 2.Finn McMIssil">
       <Description>Zundapp uses a word in German when he thinks Finn McMissil is dead</Description>
       <Facets>
@@ -1844,6 +1882,44 @@
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Cars 2.Mater in invented Japanese" Name="Cars 2.Mater in invented Japanese" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Cars 2&amp;conversation=Cars 2.Mater in invented Japanese">
+      <Description>Mater shows his ability with karate.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Cars 2.Mater in invented Japanese" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-03-30T01:21:23" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-04-01T07:58:26" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Cars 2" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Cars 2" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="42" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Cars 2.Mater in Japanese" Name="Cars 2.Mater in Japanese" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Cars 2&amp;conversation=Cars 2.Mater in Japanese">
       <Description>Mater says "Domo arigato".
 </Description>
@@ -2003,6 +2079,82 @@
         </Facet>
         <Facet Name="L3ST-instances: count">
           <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Cars 2.Police car" Name="Cars 2.Police car" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Cars 2&amp;conversation=Cars 2.Police car">
+      <Description>A police car makes Mater leave the line.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Cars 2.Police car" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-03-30T01:21:23" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-04-01T07:50:19" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Cars 2" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Cars 2" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="41" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Cars 2.Sentences in French" Name="Cars 2.Sentences in French" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Cars 2&amp;conversation=Cars 2.Sentences in French">
+      <Description>Mater goes around in Paris.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Cars 2.Sentences in French" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-03-30T01:21:23" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-04-01T08:24:00" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Cars 2" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Cars 2" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="48" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="B. 21-40" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Cars 2.Airport announcement" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Cars 2.Police car.In Japanese" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -30,17 +30,20 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Cars 2.Airport announcement.In Japanese" Name="Cars 2.Airport announcement" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Cars 2&amp;conversation=Cars 2.Airport announcement&amp;L3STinstance=Cars 2.Airport announcement.In Japanese">
-      <Description>Airport announcement in Japanese and English.</Description>
+    <Item Id="Cars 2.Police car.In Japanese" Name="Cars 2.Police car.In Japanese" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Cars 2&amp;conversation=Cars 2.Police car&amp;L3STinstance=Cars 2.Police car.In Japanese">
+      <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Cars 2.Airport announcement.In Japanese" />
+          <String Value="Cars 2.Police car.In Japanese" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Kochira e dozo. Come with me, please, sir.&#xD;&#xA;" />
         </Facet>
         <Facet Name="Info created">
-          <DateTime Value="2017-04-01T07:32:17" />
+          <DateTime Value="2017-04-01T07:49:54" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-04-01T07:46:20" />
+          <DateTime Value="2017-04-01T07:51:27" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -49,7 +52,7 @@
           <String Value="Cars 2" />
         </Facet>
         <Facet Name="Conversation Reference Id">
-          <String Value="Cars 2.Airport announcement" />
+          <String Value="Cars 2.Police car" />
         </Facet>
         <Facet Name="Conversation start time (min)">
           <Number Value="41" />
@@ -85,10 +88,11 @@
           <String Value="NO / Not applicable" />
         </Facet>
         <Facet Name="L3ST functions">
-          <String Value="Signals otherness" />
+          <String Value="Character portrayal" />
+          <String Value="Plot (twist)" />
         </Facet>
         <Facet Name="Conversation features for L3ST-instance">
-          <String Value="salutation" />
+          <String Value="instruction / training" />
         </Facet>
         <Facet Name="L3ST sources">
           <String Value="Bilingual (L3&amp;main): same source " />

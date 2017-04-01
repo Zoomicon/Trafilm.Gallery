@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Cars 2.Airport announcement" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Cars 2.Mater in invented Japanese" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -30,17 +30,17 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Cars 2.Airport announcement.In Japanese" Name="Cars 2.Airport announcement" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Cars 2&amp;conversation=Cars 2.Airport announcement&amp;L3STinstance=Cars 2.Airport announcement.In Japanese">
-      <Description>Airport announcement in Japanese and English.</Description>
+    <Item Id="Cars 2.Mater in invented Japanese.In Japanese" Name="Cars 2.Mater in invented Japanese" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Cars 2&amp;conversation=Cars 2.Mater in invented Japanese&amp;L3STinstance=Cars 2.Mater in invented Japanese.In Japanese">
+      <Description>Mater shows his ability with karate.</Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Cars 2.Airport announcement.In Japanese" />
+          <String Value="Cars 2.Mater in invented Japanese.In Japanese" />
         </Facet>
         <Facet Name="Info created">
-          <DateTime Value="2017-04-01T07:32:17" />
+          <DateTime Value="2017-04-01T08:00:08" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-04-01T07:46:20" />
+          <DateTime Value="2017-04-01T08:04:21" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -49,10 +49,10 @@
           <String Value="Cars 2" />
         </Facet>
         <Facet Name="Conversation Reference Id">
-          <String Value="Cars 2.Airport announcement" />
+          <String Value="Cars 2.Mater in invented Japanese" />
         </Facet>
         <Facet Name="Conversation start time (min)">
-          <Number Value="41" />
+          <Number Value="42" />
         </Facet>
         <Facet Name="Conversation duration (sec)">
           <String Value="A. 1-20" />
@@ -61,13 +61,13 @@
           <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
-          <String Value="Real" />
+          <String Value="Constructed (fictional)" />
         </Facet>
         <Facet Name="L3ST language">
           <String Value="Japanese" />
         </Facet>
         <Facet Name="L3ST meant to be understood">
-          <String Value="YES, the gist, the implications of what is happening" />
+          <String Value="NO" />
         </Facet>
         <Facet Name="L3ST message required for understanding">
           <String Value="Conversation can be followed regardless of meaning" />
@@ -76,7 +76,7 @@
           <String Value="YES, through translation or clear from picture" />
         </Facet>
         <Facet Name="Quality of L3ST speaker performance">
-          <String Value="native or proficient" />
+          <String Value="clearly deficient or farcical" />
         </Facet>
         <Facet Name="L3ST mode, written/spoken, diegetic">
           <String Value="Oral diegetic on-screen" />
@@ -85,13 +85,14 @@
           <String Value="NO / Not applicable" />
         </Facet>
         <Facet Name="L3ST functions">
-          <String Value="Signals otherness" />
+          <String Value="Character portrayal" />
+          <String Value="Comedy / humour" />
         </Facet>
         <Facet Name="Conversation features for L3ST-instance">
-          <String Value="salutation" />
+          <String Value="joke" />
         </Facet>
         <Facet Name="L3ST sources">
-          <String Value="Bilingual (L3&amp;main): same source " />
+          <String Value="Oral L3: single source" />
         </Facet>
         <Facet Name="L3TT-instances: count">
           <Number Value="0" />
