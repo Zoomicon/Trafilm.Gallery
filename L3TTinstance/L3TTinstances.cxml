@@ -7624,19 +7624,19 @@
       </Facets>
     </Item>
     <Item Id="Cars 2.Topolino explains an Italian saying.In Italian.SpanishDub" Name="Cars 2.Topolino explains an Italian saying.In Italian.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Cars 2&amp;conversation=Cars 2.Topolino explains an Italian saying&amp;L3STinstance=Cars 2.Topolino explains an Italian saying.In Italian&amp;L3TTinstance=Cars 2.Topolino explains an Italian saying.In Italian.SpanishDub">
-      <Description>Topolino explains to McQueen a saying in Italian.</Description>
+      <Description>Mama explains to McQueen Topolino's Italian saying.</Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="Cars 2.Topolino explains an Italian saying.In Italian.SpanishDub" />
         </Facet>
         <Facet Name="Transcription">
-          <String Value="Chi trova un amico... trova un tesoro.&#xD;&#xA;Quien tiene a un amigo, tiene un tesoro. &#xD;&#xA;Ahora, a mangiare.&#xD;&#xA;&#xD;&#xA;" />
+          <String Value="Chi trova un amico... trova un tesoro.&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;" />
         </Facet>
         <Facet Name="Info created">
           <DateTime Value="2017-04-02T08:38:23" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-04-02T08:39:57" />
+          <DateTime Value="2017-04-02T08:52:13" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -7711,7 +7711,114 @@
           <String Value="bonding" />
         </Facet>
         <Facet Name="L3TT sources">
-          <String Value="Rephrase interlingually: same source" />
+          <String Value="Oral L3: single source" />
+        </Facet>
+        <Facet Name="L3 language type change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 mode change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 functions change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="Conversation features for L3-instance change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 sources change">
+          <String Value="None" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Cars 2.Topolino explains an Italian saying.Mamma translates an Italian saying.SpanishDub" Name="Cars 2.Topolino explains an Italian saying.Mamma translates an Italian saying.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Cars 2&amp;conversation=Cars 2.Topolino explains an Italian saying&amp;L3STinstance=Cars 2.Topolino explains an Italian saying.Mamma translates an Italian saying&amp;L3TTinstance=Cars 2.Topolino explains an Italian saying.Mamma translates an Italian saying.SpanishDub">
+      <Description>Mama explains to McQueen Topolino's Italian saying.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Cars 2.Topolino explains an Italian saying.Mamma translates an Italian saying.SpanishDub" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Quien tiene a un amigo, tiene un tesoro. &#xD;&#xA;Ahora, a mangiare.&#xD;&#xA;&#xD;&#xA;" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-04-02T08:54:00" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-04-02T08:55:36" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Cars 2" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Cars 2.Topolino explains an Italian saying" />
+        </Facet>
+        <Facet Name="L3ST-instance Reference Id">
+          <String Value="Cars 2.Topolino explains an Italian saying.Mamma translates an Italian saying" />
+        </Facet>
+        <Facet Name="Film Title TT">
+          <String Value="Cars 2" />
+        </Facet>
+        <Facet Name="L2 language">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L2 mode">
+          <String Value="Dubbed" />
+        </Facet>
+        <Facet Name="Distribution countries (TT)">
+          <String Value="Spain" />
+        </Facet>
+        <Facet Name="Year TT released">
+          <Number Value="2011" />
+        </Facet>
+        <Facet Name="Film TT Blockbuster">
+          <String Value="YES (top 20)" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="56" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L2 same as L3ST">
+          <String Value="No" />
+        </Facet>
+        <Facet Name="L3ST conveyed as L3TT">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3TT language">
+          <String Value="Italian" />
+        </Facet>
+        <Facet Name="L3TT meant to be understood">
+          <String Value="YES, (almost) completely" />
+        </Facet>
+        <Facet Name="L3TT message required for understanding">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3TT speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3TT mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3TT merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
+        <Facet Name="L3TT functions">
+          <String Value="Character portrayal" />
+        </Facet>
+        <Facet Name="Conversation features for L3TT-instance">
+          <String Value="bonding" />
+        </Facet>
+        <Facet Name="L3TT sources">
+          <String Value="Rephrase interlingually: different sources" />
         </Facet>
         <Facet Name="L3 language type change">
           <String Value="None" />

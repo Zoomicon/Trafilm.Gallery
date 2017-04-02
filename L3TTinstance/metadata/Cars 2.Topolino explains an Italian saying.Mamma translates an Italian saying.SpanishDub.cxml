@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Cars 2.Topolino explains an Italian saying.In Italian.SpanishDub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Cars 2.Topolino explains an Italian saying.Mamma translates an Italian saying.SpanishDub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -42,20 +42,20 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Cars 2.Topolino explains an Italian saying.In Italian.SpanishDub" Name="Cars 2.Topolino explains an Italian saying.In Italian.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Cars 2&amp;conversation=Cars 2.Topolino explains an Italian saying&amp;L3STinstance=Cars 2.Topolino explains an Italian saying.In Italian&amp;L3TTinstance=Cars 2.Topolino explains an Italian saying.In Italian.SpanishDub">
+    <Item Id="Cars 2.Topolino explains an Italian saying.Mamma translates an Italian saying.SpanishDub" Name="Cars 2.Topolino explains an Italian saying.Mamma translates an Italian saying.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Cars 2&amp;conversation=Cars 2.Topolino explains an Italian saying&amp;L3STinstance=Cars 2.Topolino explains an Italian saying.Mamma translates an Italian saying&amp;L3TTinstance=Cars 2.Topolino explains an Italian saying.Mamma translates an Italian saying.SpanishDub">
       <Description>Mama explains to McQueen Topolino's Italian saying.</Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Cars 2.Topolino explains an Italian saying.In Italian.SpanishDub" />
+          <String Value="Cars 2.Topolino explains an Italian saying.Mamma translates an Italian saying.SpanishDub" />
         </Facet>
         <Facet Name="Transcription">
-          <String Value="Chi trova un amico... trova un tesoro.&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;" />
+          <String Value="Quien tiene a un amigo, tiene un tesoro. &#xD;&#xA;Ahora, a mangiare.&#xD;&#xA;&#xD;&#xA;" />
         </Facet>
         <Facet Name="Info created">
-          <DateTime Value="2017-04-02T08:38:23" />
+          <DateTime Value="2017-04-02T08:54:00" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-04-02T08:52:13" />
+          <DateTime Value="2017-04-02T08:55:36" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -67,7 +67,7 @@
           <String Value="Cars 2.Topolino explains an Italian saying" />
         </Facet>
         <Facet Name="L3ST-instance Reference Id">
-          <String Value="Cars 2.Topolino explains an Italian saying.In Italian" />
+          <String Value="Cars 2.Topolino explains an Italian saying.Mamma translates an Italian saying" />
         </Facet>
         <Facet Name="Film Title TT">
           <String Value="Cars 2" />
@@ -130,7 +130,7 @@
           <String Value="bonding" />
         </Facet>
         <Facet Name="L3TT sources">
-          <String Value="Oral L3: single source" />
+          <String Value="Rephrase interlingually: different sources" />
         </Facet>
         <Facet Name="L3 language type change">
           <String Value="None" />

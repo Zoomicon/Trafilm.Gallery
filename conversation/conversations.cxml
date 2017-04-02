@@ -2206,6 +2206,47 @@
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Cars 2.Topolino and Mamma only in Italian" Name="Cars 2.Topolino and Mamma only in Italian" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Cars 2&amp;conversation=Cars 2.Topolino and Mamma only in Italian">
+      <Description>Mamma has only prepared dinner for McQueen and Topolino is not happy.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Cars 2.Topolino and Mamma only in Italian" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="Italian only in the translation" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-03-30T01:21:23" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-04-02T08:56:52" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Cars 2" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Cars 2" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="55" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Cars 2.Topolino and Mamma" Name="Cars 2.Topolino and Mamma" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Cars 2&amp;conversation=Cars 2.Topolino and Mamma">
       <Description>Topolino and Mamma decide to cook a good meal for McQueen because they realize he is sad.</Description>
       <Facets>
@@ -2295,7 +2336,7 @@
       </Facets>
     </Item>
     <Item Id="Cars 2.Topolino explains an Italian saying" Name="Cars 2.Topolino explains an Italian saying" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Cars 2&amp;conversation=Cars 2.Topolino explains an Italian saying">
-      <Description>McQueen explains to Topolino that he is sad because he quarreled with Mater.</Description>
+      <Description>Mama explains to McQueen Topolino's Italian saying.</Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="Cars 2.Topolino explains an Italian saying" />
@@ -2304,7 +2345,7 @@
           <DateTime Value="2017-03-30T01:21:23" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-04-02T08:10:05" />
+          <DateTime Value="2017-04-02T08:50:16" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -2322,13 +2363,19 @@
           <String Value="A. 1-20" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Italian" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>
