@@ -1724,7 +1724,7 @@
       </Facets>
     </Item>
     <Item Id="Cars 2.Luigi is at home" Name="Cars 2.Luigi is at home" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Cars 2&amp;conversation=Cars 2.Luigi is at home">
-      <Description>Luigi is at home and wants the rest of the cars to feel the Italian hospitality.</Description>
+      <Description>Topolino and Mamma realize how sad McQueen and try to help him with good food prepared by Mamma.</Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="Cars 2.Luigi is at home" />
@@ -1736,7 +1736,7 @@
           <DateTime Value="2017-03-30T01:21:23" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-04-01T08:51:41" />
+          <DateTime Value="2017-04-02T07:41:48" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -1754,13 +1754,20 @@
           <String Value="A. 1-20" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="0" />
+          <Number Value="2" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="English with Italian accent" />
+          <String Value="Italian" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="0" />
+          <Number Value="2" />
         </Facet>
       </Facets>
     </Item>
@@ -2196,6 +2203,132 @@
         </Facet>
         <Facet Name="L3ST-instances: count">
           <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Cars 2.Topolino and Mamma" Name="Cars 2.Topolino and Mamma" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Cars 2&amp;conversation=Cars 2.Topolino and Mamma">
+      <Description>Topolino and Mamma decide to cook a good meal for McQueen because they realize he is sad.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Cars 2.Topolino and Mamma" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="Italian only in the translation" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-03-30T01:21:23" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-04-02T07:56:22" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Cars 2" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Cars 2" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="53" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="B. 21-40" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Italian" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="2" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Cars 2.Topolino and McQueen" Name="Cars 2.Topolino and McQueen" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Cars 2&amp;conversation=Cars 2.Topolino and McQueen">
+      <Description>McQueen explains to Topolino that he is sad because he quarreled with Mater.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Cars 2.Topolino and McQueen" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="Italian only in the translation" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-03-30T01:21:23" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-04-02T07:57:26" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Cars 2" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Cars 2" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="54" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="D. 61-80" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Cars 2.Topolino explains an Italian saying" Name="Cars 2.Topolino explains an Italian saying" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Cars 2&amp;conversation=Cars 2.Topolino explains an Italian saying">
+      <Description>McQueen explains to Topolino that he is sad because he quarreled with Mater.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Cars 2.Topolino explains an Italian saying" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-03-30T01:21:23" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-04-02T08:10:05" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Cars 2" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Cars 2" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="56" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
         </Facet>
       </Facets>
     </Item>

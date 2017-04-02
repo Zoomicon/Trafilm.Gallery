@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Cars 2.Luigi is at home" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Cars 2.Topolino and McQueen" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="False" p:IsWordWheelVisible="False" />
@@ -21,20 +21,20 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Cars 2.Luigi is at home" Name="Cars 2.Luigi is at home" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Cars 2&amp;conversation=Cars 2.Luigi is at home">
-      <Description>Topolino and Mamma realize how sad McQueen and try to help him with good food prepared by Mamma.</Description>
+    <Item Id="Cars 2.Topolino and McQueen" Name="Cars 2.Topolino and McQueen" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Cars 2&amp;conversation=Cars 2.Topolino and McQueen">
+      <Description>McQueen explains to Topolino that he is sad because he quarreled with Mater.</Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Cars 2.Luigi is at home" />
+          <String Value="Cars 2.Topolino and McQueen" />
         </Facet>
         <Facet Name="Remarks">
-          <String Value="Italian only in the translation." />
+          <String Value="Italian only in the translation" />
         </Facet>
         <Facet Name="Info created">
           <DateTime Value="2017-03-30T01:21:23" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-04-02T07:41:48" />
+          <DateTime Value="2017-04-02T07:57:26" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -46,26 +46,19 @@
           <String Value="Cars 2" />
         </Facet>
         <Facet Name="Start time (min)">
-          <Number Value="53" />
+          <Number Value="54" />
         </Facet>
         <Facet Name="Duration (sec)">
-          <String Value="A. 1-20" />
+          <String Value="D. 61-80" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="2" />
-        </Facet>
-        <Facet Name="L3ST languages">
-          <String Value="English with Italian accent" />
-          <String Value="Italian" />
+          <Number Value="0" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="1" />
-        </Facet>
-        <Facet Name="L3ST language types">
-          <String Value="Real" />
+          <Number Value="0" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="2" />
+          <Number Value="0" />
         </Facet>
       </Facets>
     </Item>
