@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Cars 2.Topolino and Mamma only in Italian.Mamma" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Cars 2.Loudspeaker at the race" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -30,20 +30,20 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Cars 2.Topolino and Mamma only in Italian.Mamma" Name="Cars 2.Topolino and Mamma only in Italian.Mamma" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Cars 2&amp;conversation=Cars 2.Topolino and Mamma only in Italian&amp;L3STinstance=Cars 2.Topolino and Mamma only in Italian.Mamma">
-      <Description></Description>
+    <Item Id="Cars 2.Loudspeaker at the race.In Italian" Name="Cars 2.Loudspeaker at the race" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Cars 2&amp;conversation=Cars 2.Loudspeaker at the race&amp;L3STinstance=Cars 2.Loudspeaker at the race.In Italian">
+      <Description>The beginning of the car race at Porto Corsa is announced.</Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Cars 2.Topolino and Mamma only in Italian.Mamma" />
+          <String Value="Cars 2.Loudspeaker at the race.In Italian" />
         </Facet>
         <Facet Name="Transcription">
-          <String Value="Vuoi la cena? Fattela da solo! (indistinct) Solo quando mi regalerai dei fiori." />
+          <String Value="Signore e signori, in the pole-a position, Numero Uno, Francesco!&#xD;&#xA;In seconda positione, il Número Novantacinque, ¡Raglio McQueen!&#xD;&#xA;&#xD;&#xA;" />
         </Facet>
         <Facet Name="Info created">
-          <DateTime Value="2017-04-02T08:56:22" />
+          <DateTime Value="2017-04-03T07:08:05" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-04-03T06:47:33" />
+          <DateTime Value="2017-04-03T07:24:01" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -52,10 +52,10 @@
           <String Value="Cars 2" />
         </Facet>
         <Facet Name="Conversation Reference Id">
-          <String Value="Cars 2.Topolino and Mamma only in Italian" />
+          <String Value="Cars 2.Loudspeaker at the race" />
         </Facet>
         <Facet Name="Conversation start time (min)">
-          <Number Value="55" />
+          <Number Value="58" />
         </Facet>
         <Facet Name="Conversation duration (sec)">
           <String Value="A. 1-20" />
@@ -88,14 +88,14 @@
           <String Value="NO / Not applicable" />
         </Facet>
         <Facet Name="L3ST functions">
-          <String Value="Character portrayal" />
-          <String Value="Stereotype" />
+          <String Value="Plot (twist)" />
+          <String Value="Dramatic effect" />
         </Facet>
         <Facet Name="Conversation features for L3ST-instance">
-          <String Value="domestic / family" />
+          <String Value="announcement" />
         </Facet>
         <Facet Name="L3ST sources">
-          <String Value="Oral L3: single source" />
+          <String Value="Bilingual (L3&amp;main): same source " />
         </Facet>
         <Facet Name="L3TT-instances: count">
           <Number Value="1" />

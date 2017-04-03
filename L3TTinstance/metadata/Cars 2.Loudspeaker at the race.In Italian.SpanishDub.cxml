@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Cars 2.Topolino and Mamma only in Italian.Mamma.SpanishDub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Cars 2.Loudspeaker at the race.In Italian.SpanishDub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -42,20 +42,20 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Cars 2.Topolino and Mamma only in Italian.Mamma.SpanishDub" Name="Cars 2.Topolino and Mamma only in Italian.Mamma.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Cars 2&amp;conversation=Cars 2.Topolino and Mamma only in Italian&amp;L3STinstance=Cars 2.Topolino and Mamma only in Italian.Mamma&amp;L3TTinstance=Cars 2.Topolino and Mamma only in Italian.Mamma.SpanishDub">
-      <Description></Description>
+    <Item Id="Cars 2.Loudspeaker at the race.In Italian.SpanishDub" Name="Cars 2.Loudspeaker at the race.In Italian.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Cars 2&amp;conversation=Cars 2.Loudspeaker at the race&amp;L3STinstance=Cars 2.Loudspeaker at the race.In Italian&amp;L3TTinstance=Cars 2.Loudspeaker at the race.In Italian.SpanishDub">
+      <Description>The beginning of the car race at Porto Corsa is announced.</Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Cars 2.Topolino and Mamma only in Italian.Mamma.SpanishDub" />
+          <String Value="Cars 2.Loudspeaker at the race.In Italian.SpanishDub" />
         </Facet>
         <Facet Name="Transcription">
-          <String Value="¿Vuoi la cena? ¡Fattela tu solo!&#xD;&#xA;Io te hago la cena, si tu me degalare un parabrisas novo.&#xD;&#xA;&#xD;&#xA;" />
+          <String Value="Signore e signori, en la pole positione, il Número Uno, Francesco.&#xD;&#xA;In seconda positione, il Número Novantacinque, ¡Raglio McQueen!&#xD;&#xA;" />
         </Facet>
         <Facet Name="Info created">
-          <DateTime Value="2017-04-02T09:00:05" />
+          <DateTime Value="2017-04-03T07:12:50" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-04-03T06:47:19" />
+          <DateTime Value="2017-04-03T07:24:16" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -64,10 +64,10 @@
           <String Value="Cars 2" />
         </Facet>
         <Facet Name="Conversation Reference Id">
-          <String Value="Cars 2.Topolino and Mamma only in Italian" />
+          <String Value="Cars 2.Loudspeaker at the race" />
         </Facet>
         <Facet Name="L3ST-instance Reference Id">
-          <String Value="Cars 2.Topolino and Mamma only in Italian.Mamma" />
+          <String Value="Cars 2.Loudspeaker at the race.In Italian" />
         </Facet>
         <Facet Name="Film Title TT">
           <String Value="Cars 2" />
@@ -88,13 +88,13 @@
           <String Value="YES (top 20)" />
         </Facet>
         <Facet Name="Conversation start time (min)">
-          <Number Value="55" />
+          <Number Value="58" />
         </Facet>
         <Facet Name="Conversation duration (sec)">
           <String Value="A. 1-20" />
         </Facet>
         <Facet Name="L2 same as L3ST">
-          <String Value="Yes" />
+          <String Value="No" />
         </Facet>
         <Facet Name="L3ST conveyed as L3TT">
           <String Value="Yes" />
@@ -124,14 +124,14 @@
           <String Value="NO / Not applicable" />
         </Facet>
         <Facet Name="L3TT functions">
-          <String Value="Character portrayal" />
-          <String Value="Stereotype" />
+          <String Value="Plot (twist)" />
+          <String Value="Dramatic effect" />
         </Facet>
         <Facet Name="Conversation features for L3TT-instance">
-          <String Value="domestic / family" />
+          <String Value="announcement" />
         </Facet>
         <Facet Name="L3TT sources">
-          <String Value="Oral L3: single source" />
+          <String Value="Bilingual (L3&amp;main): same source " />
         </Facet>
         <Facet Name="L3 language type change">
           <String Value="None" />
