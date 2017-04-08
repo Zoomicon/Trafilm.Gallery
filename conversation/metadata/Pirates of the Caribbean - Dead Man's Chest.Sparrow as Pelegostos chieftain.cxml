@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Pirates of the Caribbean - Dead Man's Chest.Sparrow's hat" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Sparrow as Pelegostos chieftain" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="False" p:IsWordWheelVisible="False" />
@@ -21,17 +21,17 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Pirates of the Caribbean - Dead Man's Chest.Sparrow's hat" Name="Pirates of the Caribbean - Dead Man's Chest.Sparrow's hat" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Pirates of the Caribbean - Dead Man's Chest&amp;conversation=Pirates of the Caribbean - Dead Man's Chest.Sparrow's hat">
-      <Description></Description>
+    <Item Id="Pirates of the Caribbean - Dead Man's Chest.Sparrow as Pelegostos chieftain" Name="Sparrow as Pelegostos chieftain" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Pirates of the Caribbean - Dead Man's Chest&amp;conversation=Pirates of the Caribbean - Dead Man's Chest.Sparrow as Pelegostos chieftain">
+      <Description>Will Turner is captured by a cannibal Pelegostos tribe and finds out that Jack Sparrow is acting as the tribe chieftain. Sparrow discusses in Umshoko (the tribe language) with the cannibals on what to do with Will Turner.</Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Pirates of the Caribbean - Dead Man's Chest.Sparrow's hat" />
+          <String Value="Pirates of the Caribbean - Dead Man's Chest.Sparrow as Pelegostos chieftain" />
         </Facet>
         <Facet Name="Info created">
-          <DateTime Value="2017-03-14T03:24:48" />
+          <DateTime Value="2017-04-08T08:09:57" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-04-08T08:09:10" />
+          <DateTime Value="2017-04-08T08:10:38" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="miquelpt" />
@@ -41,6 +41,12 @@
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Pirates of the Caribbean - Dead Man's Chest" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="24" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="F. 101-120" />
         </Facet>
         <Facet Name="L3ST languages: count">
           <Number Value="0" />

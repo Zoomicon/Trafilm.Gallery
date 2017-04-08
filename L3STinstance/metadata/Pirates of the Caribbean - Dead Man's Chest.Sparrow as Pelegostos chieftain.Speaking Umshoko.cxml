@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Collection SchemaVersion="1.0" Name="Sparrow as Pelegostos chieftain" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+  <FacetCategories>
+    <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Conversation Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Conversation start time (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Conversation duration (sec)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Main (L1) language" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST language type" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST language" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST constructed based on" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST meant to be understood" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST message required for understanding" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST meaning decipherable" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Quality of L3ST speaker performance" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="L3ST mode, written/spoken, diegetic" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST merely represented" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST merely represented orally" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST represented: visual" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST functions" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Conversation features for L3ST-instance" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST sources" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3TT-instances: count" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Tags" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+  </FacetCategories>
+  <Items xmlns="">
+    <Item Id="Pirates of the Caribbean - Dead Man's Chest.Sparrow as Pelegostos chieftain.Speaking Umshoko" Name="Sparrow as Pelegostos chieftain" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Pirates of the Caribbean - Dead Man's Chest&amp;conversation=Pirates of the Caribbean - Dead Man's Chest.Sparrow as Pelegostos chieftain&amp;L3STinstance=Pirates of the Caribbean - Dead Man's Chest.Sparrow as Pelegostos chieftain.Speaking Umshoko">
+      <Description>Will Turner is captured by a cannibal Pelegostos tribe and finds out that Jack Sparrow is acting as the tribe chieftain. Sparrow discusses in Umshoko (the tribe language) with the cannibals on what to do with Will Turner.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Pirates of the Caribbean - Dead Man's Chest.Sparrow as Pelegostos chieftain.Speaking Umshoko" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="WILL TURNER: Jack! It's me! Will Turner!&#xD;&#xA;&#xD;&#xA;JACK SPARROW: Wa-say kohn. Een dah-lah. Eeseepi. &#xD;&#xA;&#xD;&#xA;CANNIBAL CROWD: Eeseepi.&#xD;&#xA;&#xD;&#xA;WILL TURNER: Tell 'em to let me down.&#xD;&#xA;&#xD;&#xA;JACK SPARROW: Kay-lay lam. Lam piki-piki. Lam eensy weensy. Lam say-say... eunuchy. Snip-snip. &#xD;&#xA;                           &#xD;&#xA;CANNIBAL CROWD: Ahhh... eunuchy!&#xD;&#xA;&#xD;&#xA;[Jack begins to walk away, as if disinterested, his Compass hangs from his waist]&#xD;&#xA; &#xD;&#xA;WILL TURNER: Jack! The Compass! That's all I need, Elizabeth is in danger. We were arrested &#xD;&#xA;    for trying to help you. She faces the gallows!&#xD;&#xA; &#xD;&#xA;[Jack halts, pauses, turns around and casually walks back]&#xD;&#xA;&#xD;&#xA;JACK SPARROW: Say-say lam shoop-shoop sha smalay-lama shoo-koo. Savvy? Ball licky-licky. Ball licky-licky.&#xD;&#xA;&#xD;&#xA;CANNIBAL CROWD: Ball licky-licky! Boom-shoo-boom, boom-shoo-boom, boom-shoo-boom..." />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-04-08T08:11:30" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-04-08T08:23:01" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="miquelpt" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Pirates of the Caribbean - Dead Man's Chest" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Pirates of the Caribbean - Dead Man's Chest.Sparrow as Pelegostos chieftain" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="24" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="F. 101-120" />
+        </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L3ST language type">
+          <String Value="Constructed (fictional)" />
+        </Facet>
+        <Facet Name="L3ST language">
+          <String Value="Umshoko (Pelegostos tribe)" />
+        </Facet>
+        <Facet Name="L3ST constructed based on">
+          <String Value="Gibberish" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Conversation can be followed regardless of meaning" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="Quality of L3ST speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3ST mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3ST merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
+        <Facet Name="L3ST functions">
+          <String Value="Stereotype" />
+          <String Value="Comedy / humour" />
+          <String Value="Signals otherness" />
+        </Facet>
+        <Facet Name="Conversation features for L3ST-instance">
+          <String Value="joke" />
+        </Facet>
+        <Facet Name="L3ST sources">
+          <String Value="Oral L3: different sources " />
+        </Facet>
+        <Facet Name="L3TT-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+  </Items>
+</Collection>
