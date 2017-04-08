@@ -31,7 +31,7 @@
   </FacetCategories>
   <Items xmlns="">
     <Item Id="Pirates of the Caribbean - Dead Man's Chest.Sparrow as Pelegostos chieftain.Speaking Umshoko" Name="Sparrow as Pelegostos chieftain" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Pirates of the Caribbean - Dead Man's Chest&amp;conversation=Pirates of the Caribbean - Dead Man's Chest.Sparrow as Pelegostos chieftain&amp;L3STinstance=Pirates of the Caribbean - Dead Man's Chest.Sparrow as Pelegostos chieftain.Speaking Umshoko">
-      <Description>Will Turner is captured by a cannibal Pelegostos tribe and finds out that Jack Sparrow is acting as the tribe chieftain. Sparrow discusses in Umshoko (the tribe language) with the cannibals on what to do with Will Turner.</Description>
+      <Description>Will Turner is captured by a cannibal tribe in Pelegostos and finds out that Jack Sparrow is acting as the tribe chieftain. Sparrow discusses in Umshoko (the tribe language) with the cannibals on what to do with Will Turner.</Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="Pirates of the Caribbean - Dead Man's Chest.Sparrow as Pelegostos chieftain.Speaking Umshoko" />
@@ -39,11 +39,14 @@
         <Facet Name="Transcription">
           <String Value="WILL TURNER: Jack! It's me! Will Turner!&#xD;&#xA;&#xD;&#xA;JACK SPARROW: Wa-say kohn. Een dah-lah. Eeseepi. &#xD;&#xA;&#xD;&#xA;CANNIBAL CROWD: Eeseepi.&#xD;&#xA;&#xD;&#xA;WILL TURNER: Tell 'em to let me down.&#xD;&#xA;&#xD;&#xA;JACK SPARROW: Kay-lay lam. Lam piki-piki. Lam eensy weensy. Lam say-say... eunuchy. Snip-snip. &#xD;&#xA;                           &#xD;&#xA;CANNIBAL CROWD: Ahhh... eunuchy!&#xD;&#xA;&#xD;&#xA;[Jack begins to walk away, as if disinterested, his Compass hangs from his waist]&#xD;&#xA; &#xD;&#xA;WILL TURNER: Jack! The Compass! That's all I need, Elizabeth is in danger. We were arrested &#xD;&#xA;    for trying to help you. She faces the gallows!&#xD;&#xA; &#xD;&#xA;[Jack halts, pauses, turns around and casually walks back]&#xD;&#xA;&#xD;&#xA;JACK SPARROW: Say-say lam shoop-shoop sha smalay-lama shoo-koo. Savvy? Ball licky-licky. Ball licky-licky.&#xD;&#xA;&#xD;&#xA;CANNIBAL CROWD: Ball licky-licky! Boom-shoo-boom, boom-shoo-boom, boom-shoo-boom..." />
         </Facet>
+        <Facet Name="Remarks">
+          <String Value="The invented language is based on onomatopoeic sounds.  " />
+        </Facet>
         <Facet Name="Info created">
           <DateTime Value="2017-04-08T08:11:30" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-04-08T08:23:01" />
+          <DateTime Value="2017-04-08T10:09:40" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="miquelpt" />
@@ -99,7 +102,7 @@
           <String Value="joke" />
         </Facet>
         <Facet Name="L3ST sources">
-          <String Value="Oral L3: different sources " />
+          <String Value="Respond interlingually: different sources " />
         </Facet>
         <Facet Name="L3TT-instances: count">
           <Number Value="0" />
