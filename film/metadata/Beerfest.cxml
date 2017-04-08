@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Zootopia" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Beerfest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film/Season title" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -24,58 +24,59 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Zootopia" Name="Zootopia" Img="https://upload.wikimedia.org/wikipedia/en/e/ea/Zootopia.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Zootopia">
-      <Description>In a city of anthropomorphic animals, a rookie bunny cop and a cynical con artist fox must work together to uncover a conspiracy.</Description>
+    <Item Id="Beerfest" Name="Beerfest" Img="https://upload.wikimedia.org/wikipedia/en/6/6f/Beerfest_poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Beerfest">
+      <Description>Two brothers travel to Germany for Oktoberfest, only to stumble upon a secret, centuries-old competition described as a "Fight Club" with beer games.</Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Zootopia" />
+          <String Value="Beerfest" />
         </Facet>
         <Facet Name="Info created">
-          <DateTime Value="2016-08-15T09:39:32" />
+          <DateTime Value="2017-04-08T05:28:13" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-04-08T05:00:57" />
+          <DateTime Value="2017-04-08T05:31:49" />
         </Facet>
         <Facet Name="Metadata Editors">
-          <String Value="George" />
-          <String Value="Stavroula" />
           <String Value="Guillermo" />
         </Facet>
         <Facet Name="Film/Season title">
-          <String Value="Zootopia" />
+          <String Value="Beerfest" />
         </Facet>
         <Facet Name="Type">
           <String Value="Feature film" />
         </Facet>
         <Facet Name="Duration (min)">
-          <Number Value="109" />
+          <Number Value="110" />
         </Facet>
         <Facet Name="Director(s)">
-          <String Value="Byron Howard" />
-          <String Value=" Rich Moore" />
+          <String Value="Jay Chandrasekhar" />
         </Facet>
         <Facet Name="Scriptwriter(s)">
-          <String Value="Jared Bush" />
-          <String Value=" Phil Johnston" />
-        </Facet>
-        <Facet Name="Production countries">
-          <String Value="USA" />
+          <String Value="Jay Chandrasekhar" />
+          <String Value=" Kevin Heffernan" />
+          <String Value=" Steve Lemme" />
+          <String Value=" Paul Soter" />
+          <String Value=" Erik Stolhanske" />
         </Facet>
         <Facet Name="Production companies">
-          <String Value="Walt Disney Pictures" />
-          <String Value=" Walt Disney Animation Studios " />
+          <String Value="Warner Bros." />
+          <String Value=" Legendary Entertainment" />
+          <String Value=" Gerber Pictures" />
+          <String Value=" Cataland Films" />
+          <String Value=" Broken Lizard Industries" />
+          <String Value=" Adobe Pictures" />
+        </Facet>
+        <Facet Name="Blockbuster">
+          <String Value="NO, but commercially intended" />
         </Facet>
         <Facet Name="Year ST released">
-          <Number Value="2016" />
+          <Number Value="2006" />
         </Facet>
         <Facet Name="Main language (L1)">
           <String Value="English" />
         </Facet>
-        <Facet Name="L2-Dubbed languages">
-          <String Value="Spanish" />
-        </Facet>
         <Facet Name="Conversations: count">
-          <Number Value="1" />
+          <Number Value="0" />
         </Facet>
       </Facets>
     </Item>
