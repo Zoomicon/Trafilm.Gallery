@@ -6569,7 +6569,7 @@ And the wife and the aunt speak in English</Description>
       </Facets>
     </Item>
     <Item Id="Pirates of the Caribbean - Dead Man's Chest.Cannibals speaking in Umshoko" Name="Cannibals speaking in Umshoko" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Pirates of the Caribbean - Dead Man's Chest&amp;conversation=Pirates of the Caribbean - Dead Man's Chest.Cannibals speaking in Umshoko">
-      <Description>The Pelegostos cannibal tribe speak in Umshoko (their language) about Jack Sparrow's crew escaping. </Description>
+      <Description>The Pelegostos cannibals speak in Umshoko (their language) about Jack Sparrow's crew escaping. </Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="Pirates of the Caribbean - Dead Man's Chest.Cannibals speaking in Umshoko" />
@@ -6578,7 +6578,7 @@ And the wife and the aunt speak in English</Description>
           <DateTime Value="2017-04-09T03:30:10" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-04-09T03:31:36" />
+          <DateTime Value="2017-04-09T08:37:26" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="miquelpt" />
@@ -6596,13 +6596,19 @@ And the wife and the aunt speak in English</Description>
           <String Value="B. 21-40" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Umshoko (Pelegostos tribe)" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Constructed (fictional)" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>
