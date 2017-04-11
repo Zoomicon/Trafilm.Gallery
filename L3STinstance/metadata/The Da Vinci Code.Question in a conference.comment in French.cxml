@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Beerfest.Singing" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Question in a conference" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -30,35 +30,29 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Beerfest.Singing.DIS" Name="Beerfest.Singing" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Beerfest&amp;conversation=Beerfest.Singing&amp;L3STinstance=Beerfest.Singing.DIS">
-      <Description></Description>
+    <Item Id="The Da Vinci Code.Question in a conference.comment in French" Name="Question in a conference" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=The Da Vinci Code&amp;conversation=The Da Vinci Code.Question in a conference&amp;L3STinstance=The Da Vinci Code.Question in a conference.comment in French">
+      <Description>During a conference in Paris, Robert Langdon asks the audience about a symbol he is showing on the screen. He is given the answer in French and requires a translation into English.</Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Beerfest.Singing.DIS" />
-        </Facet>
-        <Facet Name="Transcription">
-          <String Value="[Unintelligible]" />
-        </Facet>
-        <Facet Name="Tags">
-          <String Value="DIS" />
+          <String Value="The Da Vinci Code.Question in a conference.comment in French" />
         </Facet>
         <Facet Name="Info created">
-          <DateTime Value="2017-04-08T06:33:17" />
+          <DateTime Value="2017-04-11T04:09:19" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-04-11T04:22:18" />
+          <DateTime Value="2017-04-11T04:13:36" />
         </Facet>
         <Facet Name="Metadata Editors">
-          <String Value="Guillermo" />
+          <String Value="miquelpt" />
         </Facet>
         <Facet Name="Film Reference Id">
-          <String Value="Beerfest" />
+          <String Value="The Da Vinci Code" />
         </Facet>
         <Facet Name="Conversation Reference Id">
-          <String Value="Beerfest.Singing" />
+          <String Value="The Da Vinci Code.Question in a conference" />
         </Facet>
         <Facet Name="Conversation start time (min)">
-          <Number Value="37" />
+          <Number Value="4" />
         </Facet>
         <Facet Name="Conversation duration (sec)">
           <String Value="A. 1-20" />
@@ -67,40 +61,41 @@
           <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
-          <String Value="Conditioned: slurred, stammer, muffled, mumble, rapid" />
+          <String Value="Real" />
         </Facet>
         <Facet Name="L3ST language">
-          <String Value="DIS" />
-        </Facet>
-        <Facet Name="L3ST constructed based on">
-          <String Value="Spanish" />
+          <String Value="French" />
         </Facet>
         <Facet Name="L3ST meant to be understood">
           <String Value="YES, the gist, the implications of what is happening" />
         </Facet>
         <Facet Name="L3ST message required for understanding">
-          <String Value="Conversation can be followed regardless of meaning" />
+          <String Value="Yes" />
         </Facet>
         <Facet Name="L3ST meaning decipherable">
           <String Value="YES, through translation or clear from picture" />
         </Facet>
         <Facet Name="Quality of L3ST speaker performance">
-          <String Value="clearly deficient or farcical" />
+          <String Value="native or proficient" />
         </Facet>
         <Facet Name="L3ST mode, written/spoken, diegetic">
           <String Value="Oral diegetic on-screen" />
         </Facet>
+        <Facet Name="L3ST merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
         <Facet Name="L3ST functions">
-          <String Value="Comedy / humour" />
+          <String Value="Metaphorical (e.g. communication barrier)" />
+          <String Value="Metalinguistic" />
         </Facet>
         <Facet Name="Conversation features for L3ST-instance">
-          <String Value="song" />
+          <String Value="question &amp; answer" />
         </Facet>
         <Facet Name="L3ST sources">
-          <String Value="Respond interlingually: different sources " />
+          <String Value="Rephrase interlingually: different sources" />
         </Facet>
         <Facet Name="L3TT-instances: count">
-          <Number Value="1" />
+          <Number Value="0" />
         </Facet>
       </Facets>
     </Item>
