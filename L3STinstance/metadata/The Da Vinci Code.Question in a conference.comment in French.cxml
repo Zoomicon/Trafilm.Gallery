@@ -36,11 +36,14 @@
         <Facet Name="Reference Id">
           <String Value="The Da Vinci Code.Question in a conference.comment in French" />
         </Facet>
+        <Facet Name="Transcription">
+          <String Value="LANGDON: Now, this symbol. Anyone?&#xD;&#xA;&#xD;&#xA;MAN: Evil!&#xD;&#xA;&#xD;&#xA;WOMAN: La forje du diable.&#xD;&#xA;&#xD;&#xA;LANGDON: In English please?&#xD;&#xA;&#xD;&#xA;MAN 2: Devil's fish fork.&#xD;&#xA;&#xD;&#xA;LANGDON: Poor, poor, Poseidon." />
+        </Facet>
         <Facet Name="Info created">
           <DateTime Value="2017-04-11T04:09:19" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-04-11T04:13:36" />
+          <DateTime Value="2017-04-11T04:54:11" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="miquelpt" />
@@ -86,7 +89,6 @@
         </Facet>
         <Facet Name="L3ST functions">
           <String Value="Metaphorical (e.g. communication barrier)" />
-          <String Value="Metalinguistic" />
         </Facet>
         <Facet Name="Conversation features for L3ST-instance">
           <String Value="question &amp; answer" />
@@ -95,7 +97,7 @@
           <String Value="Rephrase interlingually: different sources" />
         </Facet>
         <Facet Name="L3TT-instances: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>
