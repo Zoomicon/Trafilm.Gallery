@@ -2130,7 +2130,7 @@
           <DateTime Value="2017-04-08T06:56:36" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-05-18T09:37:40" />
+          <DateTime Value="2017-05-18T09:48:47" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Guillermo" />
@@ -2174,11 +2174,14 @@
         <Facet Name="L3ST functions">
           <String Value="Comedy / humour" />
         </Facet>
+        <Facet Name="Conversation features for L3ST-instance">
+          <String Value="flirt" />
+        </Facet>
         <Facet Name="L3ST sources">
           <String Value="Bilingual (L3&amp;main): same source " />
         </Facet>
         <Facet Name="L3TT-instances: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>
