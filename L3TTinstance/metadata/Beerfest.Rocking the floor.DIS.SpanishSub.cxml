@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Beerfest.Rocking the floor.DIS.SpanishDub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Beerfest.Rocking the floor.DIS.SpanishSub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -42,23 +42,26 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Beerfest.Rocking the floor.DIS.SpanishDub" Name="Beerfest.Rocking the floor.DIS.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Beerfest&amp;conversation=Beerfest.Rocking the floor&amp;L3STinstance=Beerfest.Rocking the floor.DIS&amp;L3TTinstance=Beerfest.Rocking the floor.DIS.SpanishDub">
+    <Item Id="Beerfest.Rocking the floor.DIS.SpanishSub" Name="Beerfest.Rocking the floor.DIS.SpanishSub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Beerfest&amp;conversation=Beerfest.Rocking the floor&amp;L3STinstance=Beerfest.Rocking the floor.DIS&amp;L3TTinstance=Beerfest.Rocking the floor.DIS.SpanishSub">
       <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Beerfest.Rocking the floor.DIS.SpanishDub" />
+          <String Value="Beerfest.Rocking the floor.DIS.SpanishSub" />
         </Facet>
         <Facet Name="Transcription">
-          <String Value="BARRY MOLÓN: [RUGE]&#xD;&#xA;CHICA: ¡Ah!&#xD;&#xA;BARRY MOLÓN: ¡Oh, jo, jo, jo! Hay que quitarte esa ropa mojada y darte un martini...&#xD;&#xA;CHICA: ¿Qué?&#xD;&#xA;BARRY BORRACHO:  [ININTELIGIBLE]... martini.&#xD;&#xA;CHICA: ¡Apártate de mí!&#xD;&#xA;BARRY MOLÓN: Está bien." />
+          <String Value="Tenemos que quitarte es ropa&#xD;&#xA;mojada y tomarnos un martini seco.&#xD;&#xA;&#xD;&#xA;- ¿Qué?&#xD;&#xA;- ¿Dije &quot;mojarnos un martini&quot;?&#xD;&#xA;&#xD;&#xA;- Aléjate de mí.&#xD;&#xA;- Vale." />
         </Facet>
         <Facet Name="Tags">
           <String Value="DIS" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="Subtitles are in Spanish, but a misunderstanding is introduced in place of the L3ST." />
         </Facet>
         <Facet Name="Info created">
           <DateTime Value="2017-05-18T09:40:08" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-05-22T11:17:30" />
+          <DateTime Value="2017-05-22T11:32:52" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Guillermo" />
@@ -79,7 +82,7 @@
           <String Value="Spanish" />
         </Facet>
         <Facet Name="L2 mode">
-          <String Value="Dubbed" />
+          <String Value="Subtitled" />
         </Facet>
         <Facet Name="Distribution countries (TT)">
           <String Value="Spain" />
@@ -103,10 +106,10 @@
           <String Value="Yes" />
         </Facet>
         <Facet Name="L3TT language type">
-          <String Value="Conditioned: slurred, stammer, muffled, mumble, rapid" />
+          <String Value="Real" />
         </Facet>
         <Facet Name="L3TT language">
-          <String Value="DIS" />
+          <String Value="Spanish" />
         </Facet>
         <Facet Name="L3TT meant to be understood">
           <String Value="YES, (almost) completely" />
@@ -118,10 +121,16 @@
           <String Value="YES, through translation or clear from picture" />
         </Facet>
         <Facet Name="Quality of L3TT speaker performance">
-          <String Value="clearly non-native or deficient" />
+          <String Value="clearly deficient or farcical" />
         </Facet>
         <Facet Name="L3TT mode, written/spoken, diegetic">
           <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3TT merely represented">
+          <String Value="YES: orally" />
+        </Facet>
+        <Facet Name="L3TT merely represented orally">
+          <String Value="L-main quirkiness or clue" />
         </Facet>
         <Facet Name="L3TT functions">
           <String Value="Comedy / humour" />
@@ -133,7 +142,8 @@
           <String Value="Respond interlingually: different sources " />
         </Facet>
         <Facet Name="L3 language type change">
-          <String Value="None" />
+          <String Value="- Conditioned: slurred, stammer, muffled, mumble, rapid" />
+          <String Value="+ Real" />
         </Facet>
         <Facet Name="L3 mode change">
           <String Value="None" />
@@ -145,8 +155,7 @@
           <String Value="None" />
         </Facet>
         <Facet Name="L3 sources change">
-          <String Value="- Bilingual (L3&amp;main): same source " />
-          <String Value="+ Respond interlingually: different sources " />
+          <String Value="None" />
         </Facet>
       </Facets>
     </Item>

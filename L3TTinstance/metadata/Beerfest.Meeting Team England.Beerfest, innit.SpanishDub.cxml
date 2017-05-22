@@ -48,17 +48,17 @@
         <Facet Name="Reference Id">
           <String Value="Beerfest.Meeting Team England.Beerfest, innit.SpanishDub" />
         </Facet>
+        <Facet Name="Transcription">
+          <String Value="Británico: Menudo polvo le echaba yo a esa, ¿eh? Yo soy Pim Scutney y este es mi colega Rog Gobshire, de Inglaterra.&#xD;&#xA;Estadounidense 1: Yo soy Jan Wolfhouse y este es mi hermano Todd Wolfhouse.&#xD;&#xA;Estadounidense 2: Oye, ¿qué es esto?&#xD;&#xA;B: El Beerfest, ¿qué va a ser si no, colega?&#xD;&#xA;E2: ¿Es parte del Oktoberfest?&#xD;&#xA;B: El Oktoberfest es para nenazas y maricones. El Beerfest es nuestra vida. La prueba de fuego para un buen bebedor de birra.&#xD;&#xA;E1: ¿Y el equipo americano?&#xD;&#xA;E2: Sí.&#xD;&#xA;[RÍEN]&#xD;&#xA;B: ¡Es para mearse encima!" />
+        </Facet>
         <Facet Name="Tags">
           <String Value="DIS" />
-        </Facet>
-        <Facet Name="Remarks">
-          <String Value="Británico: Menudo polvo le echaba yo a esa, ¿eh? Yo soy Pim Scutney y este es mi colega Rog Gobshire, de Inglaterra.&#xD;&#xA;Estadounidense 1: Yo soy Jan Wolfhouse y este es mi hermano Todd Wolfhouse.&#xD;&#xA;Estadounidense 2: Oye, ¿qué es esto?&#xD;&#xA;B: El Beerfest, ¿qué va a ser si no, colega?&#xD;&#xA;E2: ¿Es parte del Oktoberfest?&#xD;&#xA;B: El Oktoberfest es para nenazas y maricones. El Beerfest es nuestra vida. La prueba de fuego para un buen bebedor de birra.&#xD;&#xA;E1: ¿Y el equipo americano?&#xD;&#xA;E2: Sí.&#xD;&#xA;(RÍEN)&#xD;&#xA;B: ¡Es para mearse encima!" />
         </Facet>
         <Facet Name="Info created">
           <DateTime Value="2017-04-08T05:47:01" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-04-08T06:04:19" />
+          <DateTime Value="2017-05-22T11:14:59" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Guillermo" />
@@ -119,6 +119,7 @@
         </Facet>
         <Facet Name="Conversation features for L3-instance change">
           <String Value="- introduction" />
+          <String Value="- slang" />
           <String Value="- vulgar" />
         </Facet>
         <Facet Name="L3 sources change">
