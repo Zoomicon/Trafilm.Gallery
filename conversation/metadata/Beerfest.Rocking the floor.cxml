@@ -34,7 +34,7 @@
           <DateTime Value="2017-04-08T05:32:02" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-04-08T06:56:23" />
+          <DateTime Value="2017-05-22T10:38:30" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Guillermo" />
@@ -49,16 +49,22 @@
           <Number Value="52" />
         </Facet>
         <Facet Name="Duration (sec)">
-          <String Value="F. 101-120" />
+          <String Value="B. 21-40" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="DIS" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Conditioned: slurred, stammer, muffled, mumble, rapid" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="0" />
+          <Number Value="2" />
         </Facet>
       </Facets>
     </Item>
