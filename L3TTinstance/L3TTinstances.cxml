@@ -3829,6 +3829,9 @@
         <Facet Name="Reference Id">
           <String Value="Beerfest.Sex on the beach.DIS.SpanishDub" />
         </Facet>
+        <Facet Name="Transcription">
+          <String Value="PIVÓN: Dos chupitos, por favor. ¿Qué tal si echamos un polvo en la playa?&#xD;&#xA;BARRY MOLÓN: ¡Uh! Creo que mi casa está más cerca...&#xD;&#xA;[RÍEN Y GRUÑEN]&#xD;&#xA;BARRY MOLÓN: ¿Nos vamos de aquí?&#xD;&#xA;PIVÓN: ¿Quieres cachetes y cosquillitas?&#xD;&#xA;BARRY MOLÓN: Oh, sí... O algo parecido.&#xD;&#xA;[RÍEN]&#xD;&#xA;PIVÓN: Voy a pedir un taxi, guapo.&#xD;&#xA;BARRY MOLÓN: Vale. / ¿Sí?&#xD;&#xA;JAN: Barry, eh... ¿Qué haces?&#xD;&#xA;BARRY MOLÓN: ¿Estás de coña? ¡Está como un tren!&#xD;&#xA;BARRY BORRACHO: Quiero que me de &quot;cashetesh&quot; y &quot;coshquillitash&quot;.&#xD;&#xA;TODD: ¿Estás seguro? Estás... pedo.&#xD;&#xA;BARRY BORRACHO: Yo &quot;eshtoy&quot; pedo. Tú &quot;eshtásh&quot; pedo. ¡Todo el mundo &quot;eshtá&quot; pedo! [RÍE]" />
+        </Facet>
         <Facet Name="Tags">
           <String Value="DIS" />
         </Facet>
@@ -3836,7 +3839,7 @@
           <DateTime Value="2017-05-22T11:30:12" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-05-22T11:34:01" />
+          <DateTime Value="2017-05-22T11:55:12" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Guillermo" />
@@ -3921,6 +3924,88 @@
         </Facet>
         <Facet Name="L3 sources change">
           <String Value="None" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Beerfest.Sex on the beach.DIS.SpanishSub" Name="Beerfest.Sex on the beach.DIS.SpanishSub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Beerfest&amp;conversation=Beerfest.Sex on the beach&amp;L3STinstance=Beerfest.Sex on the beach.DIS&amp;L3TTinstance=Beerfest.Sex on the beach.DIS.SpanishSub">
+      <Description></Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Beerfest.Sex on the beach.DIS.SpanishSub" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Dos copas, por favor.&#xD;&#xA;&#xD;&#xA;¿Te apetece un poco&#xD;&#xA;de sexo en la playa?&#xD;&#xA;&#xD;&#xA;Creo que mi casa está más cerca.&#xD;&#xA;&#xD;&#xA;- ¿Quieres que nos vayamos de aquí?&#xD;&#xA;- ¿Quieres palmaditas y cosquillitas?&#xD;&#xA;&#xD;&#xA;Sí. Algo así.&#xD;&#xA;&#xD;&#xA;Voy a buscar un taxi, nene.&#xD;&#xA;&#xD;&#xA;Vale.&#xD;&#xA;&#xD;&#xA;- ¿Qué?&#xD;&#xA;- Barry, ¿qué estás haciendo?&#xD;&#xA;&#xD;&#xA;¿Bromeas?&#xD;&#xA;Está como un tren.&#xD;&#xA;&#xD;&#xA;Solo quiero algunas&#xD;&#xA;palmaditas y cosquillitas.&#xD;&#xA;&#xD;&#xA;¿Seguro que quieres hacerlo?&#xD;&#xA;Estás borracho.&#xD;&#xA;&#xD;&#xA;Estoy borracho. Tú estás borracho.&#xD;&#xA;¡Todos están borrachos!" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="DIS" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-05-22T11:30:12" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-05-22T11:53:51" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Guillermo" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Beerfest" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Beerfest.Sex on the beach" />
+        </Facet>
+        <Facet Name="L3ST-instance Reference Id">
+          <String Value="Beerfest.Sex on the beach.DIS" />
+        </Facet>
+        <Facet Name="Film Title TT">
+          <String Value="La fiesta de la cerveza: bebe hasta reventar" />
+        </Facet>
+        <Facet Name="L2 language">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L2 mode">
+          <String Value="Subtitled" />
+        </Facet>
+        <Facet Name="Distribution countries (TT)">
+          <String Value="Spain" />
+        </Facet>
+        <Facet Name="Year TT released">
+          <Number Value="2006" />
+        </Facet>
+        <Facet Name="Film TT Blockbuster">
+          <String Value="NO, but commercially intended" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="53" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="B. 21-40" />
+        </Facet>
+        <Facet Name="L2 same as L3ST">
+          <String Value="No" />
+        </Facet>
+        <Facet Name="L3ST conveyed as L3TT">
+          <String Value="No" />
+        </Facet>
+        <Facet Name="L3TT language type">
+          <String Value="No L3TT: L3-instance in L2" />
+        </Facet>
+        <Facet Name="L3 language type change">
+          <String Value="- Conditioned: slurred, stammer, muffled, mumble, rapid" />
+          <String Value="+ No L3TT: L3-instance in L2" />
+        </Facet>
+        <Facet Name="L3 mode change">
+          <String Value="- Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3 functions change">
+          <String Value="- Comedy / humour" />
+        </Facet>
+        <Facet Name="Conversation features for L3-instance change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 sources change">
+          <String Value="- Respond interlingually: different sources " />
+          <String Value="+ " />
         </Facet>
       </Facets>
     </Item>
