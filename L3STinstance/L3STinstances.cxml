@@ -30,23 +30,74 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="A Fish Called Wanda.Lingua-cultural misunderstandings.British vs American" Name="A Fish Called Wanda.Lingua-cultural misunderstandings.British vs American" Img="" Href="">
-      <Description></Description>
+    <Item Id="A Fish Called Wanda.Lingua-cultural misunderstandings.British vs American" Name="Lingua-cultural misunderstandings" Img="https://filmfork-cdn.s3.amazonaws.com/content/wanda.9.png" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=A Fish Called Wanda&amp;conversation=A Fish Called Wanda.Lingua-cultural misunderstandings&amp;L3STinstance=A Fish Called Wanda.Lingua-cultural misunderstandings.British vs American">
+      <Description>Upper class British lawyer Archie is in love with lovable American rogue, Wanda. Their conversation exchange, related to cultural misunderstandings between British and American people, is interrupted by Wanda's lover (and feigned brother), the American Otto. An altercation ensues, revealing their different social and linguistic backgrounds.</Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="A Fish Called Wanda.Lingua-cultural misunderstandings.British vs American" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Wanda: Oh, I love you, Archie. I have loved you ever&#xD;&#xA;since the first second I saw you.&#xD;&#xA;(They hear a noise.)&#xD;&#xA;Archie: What was that?&#xD;&#xA;Wanda: What?&#xD;&#xA;Archie: Your brother didn’t bring you this time, did he?&#xD;&#xA;Wanda: No.&#xD;&#xA;Archie: He has no idea?&#xD;&#xA;Wanda: He doesn’t have a clue.&#xD;&#xA;Archie: What?&#xD;&#xA;Wanda: He is so dumb.&#xD;&#xA;Archie: Really?&#xD;&#xA;Wanda: He thought that the Gettysburg Address was where&#xD;&#xA;Lincoln lived.&#xD;&#xA; (They laugh.)&#xD;&#xA;Archie: Oh, those terrible lies he told about the CIA. So&#xD;&#xA;painful!&#xD;&#xA;Wanda: And when he heard your daughter’s called Portia,&#xD;&#xA;he said “Why did they name her after a car?”&#xD;&#xA; (They laugh harder.)&#xD;&#xA;Wanda: I love the way you laugh.&#xD;&#xA;Archie: I love you. You’re funny. How come a girl as…&#xD;&#xA;Bright as you could have a brother so…&#xD;&#xA;Otto: Don’t call me stupid!&#xD;&#xA; (Archie and Wanda get scared and the men start fighting.)&#xD;&#xA;Archie: Jesus Christ!&#xD;&#xA;Otto (grabs Wanda): Come on! &#xD;&#xA;Wanda: Otto! Ouch!&#xD;&#xA;Otto: Come on!&#xD;&#xA;Wanda: Otto.&#xD;&#xA;Otto: Come on. I’ll deal with you later.&#xD;&#xA;Archie: What have you done with her?&#xD;&#xA;Otto: She’s all right.&#xD;&#xA;Wanda: Otto!&#xD;&#xA;Otto: Now, apologise.&#xD;&#xA;Archie: What?&#xD;&#xA;Otto: Apologise.&#xD;&#xA;Archie: Are you totally deranged?&#xD;&#xA;Otto: You pompous, stuck-up, snot-nosed, English,&#xD;&#xA;giant twerp, scumbag, fuck-face, dickhead, asshole!&#xD;&#xA;Archie: How very interesting. You’re a true vulgarian,&#xD;&#xA;aren’t you?&#xD;&#xA;Otto: You’re the vulgarian, you fuck! Now apologise!&#xD;&#xA;Archie: What? Me? To you?&#xD;&#xA;Otto: Apologise." />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="British English" />
+          <String Value=" American English" />
+          <String Value=" social varieties" />
         </Facet>
         <Facet Name="Info created">
           <DateTime Value="2017-05-24T04:08:35" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-05-24T04:08:35" />
+          <DateTime Value="2017-05-24T04:49:09" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="IreneRanzato" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="A Fish Called Wanda" />
         </Facet>
         <Facet Name="Conversation Reference Id">
           <String Value="A Fish Called Wanda.Lingua-cultural misunderstandings" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="I. 161-180" />
+        </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L3ST language type">
+          <String Value="L-main variety (e.g. dialect, sociolect, idiolect, slang)" />
+        </Facet>
+        <Facet Name="L3ST language">
+          <String Value="British English, American English" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="YES, (almost) completely" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3ST speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3ST mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3ST merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
+        <Facet Name="L3ST functions">
+          <String Value="Stereotype" />
+          <String Value="Comedy / humour" />
+          <String Value="Signals otherness" />
+        </Facet>
+        <Facet Name="Conversation features for L3ST-instance">
+          <String Value="quarrel" />
+          <String Value="threat" />
+          <String Value="vulgar" />
         </Facet>
         <Facet Name="L3TT-instances: count">
           <Number Value="0" />
