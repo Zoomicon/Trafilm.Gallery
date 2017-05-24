@@ -30,6 +30,107 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
+    <Item Id="A Fish Called Wanda.Lingua-cultural misunderstandings.British vs American" Name="A Fish Called Wanda.Lingua-cultural misunderstandings.British vs American" Img="" Href="">
+      <Description></Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="A Fish Called Wanda.Lingua-cultural misunderstandings.British vs American" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-05-24T04:08:35" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-05-24T04:08:35" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="A Fish Called Wanda" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="A Fish Called Wanda.Lingua-cultural misunderstandings" />
+        </Facet>
+        <Facet Name="L3TT-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="A Fish Called Wanda.Speaking Italian.Otto speaking Italian" Name="A Fish Called Wanda.Speaking Italian" Img="https://debravega.files.wordpress.com/2015/08/wanda10.png" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=A Fish Called Wanda&amp;conversation=A Fish Called Wanda.Speaking Italian&amp;L3STinstance=A Fish Called Wanda.Speaking Italian.Otto speaking Italian">
+      <Description>During this hilarious sex scene, Otto speaks stereotypical Italian in order to arouse Wanda.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="A Fish Called Wanda.Speaking Italian.Otto speaking Italian" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Wanda.: What have you found out?&#xD;&#xA;&#xD;&#xA;Otto.: Not a lot.&#xD;&#xA;&#xD;&#xA;W.: You realise he’s in court tomorrow?&#xD;&#xA;&#xD;&#xA;O.: I know. I know that!&#xD;&#xA;&#xD;&#xA;W.: So nothing, eh?&#xD;&#xA;&#xD;&#xA;O.: Nix. Zip. Diddly. Bupkas. Niente.&#xD;&#xA;&#xD;&#xA;P.: Oh, it’s too big.&#xD;&#xA;&#xD;&#xA;WE.: No, it isn’t, Portia.&#xD;&#xA;&#xD;&#xA;P.: It is. It’s enormous!&#xD;&#xA;&#xD;&#xA;WE.: No, it isn’t.&#xD;&#xA;&#xD;&#xA;P.: Oh, please, Mother!&#xD;&#xA;&#xD;&#xA;WE.: No, absolutely not.&#xD;&#xA;&#xD;&#xA;P.: I’m so miserable and you just don’t care!&#xD;&#xA;&#xD;&#xA;WE.: Do shut up, Portia! All I get all day is people complaining to me.&#xD;&#xA;&#xD;&#xA;A.: Oh, dear.&#xD;&#xA;&#xD;&#xA;O.: Ecco l’uomo.&#xD;&#xA;&#xD;&#xA;O.: Oh, le due cupole grandi della cattedrale di Milano.&#xD;&#xA;&#xD;&#xA;O.: Benito Mussolini!&#xD;&#xA;&#xD;&#xA;O.: Dov’è il Vaticano?&#xD;&#xA;&#xD;&#xA;O.: Oh, ecco Roma.&#xD;&#xA;&#xD;&#xA;O.: Volare, oh oh, e cantare, ohhh…&#xD;&#xA;&#xD;&#xA;WE.: Archie, I want you to speak to her about plastic surgery. Do listen. I want you to speak to Portia.&#xD;&#xA;&#xD;&#xA;A.: Right. I’ll have a word with her in the morning.&#xD;&#xA;&#xD;&#xA;WE.: Good night, Archie.&#xD;&#xA;&#xD;&#xA;A.: Good night, Wanda.&#xD;&#xA;&#xD;&#xA;WE.: Good night, who?&#xD;&#xA;&#xD;&#xA;A.: Oh, sorry, darling. Just a stupid case I’ve got tomorrow with some lousy old hag.&#xD;&#xA;" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="Italian" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="In the film, the selected scene is intercut by another one in which Archie talks to his wife. Although included in the transcription, it's only in the scene with Wanda that Otto starts speaking a rather stereotypical Italian." />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-05-24T04:26:00" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-05-24T04:39:47" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="IreneRanzato" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="A Fish Called Wanda" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="A Fish Called Wanda.Speaking Italian" />
+        </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L3ST language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST language">
+          <String Value="Italian" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="YES, the gist, the implications of what is happening" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Conversation can be followed regardless of meaning" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3ST speaker performance">
+          <String Value="clearly non-native or deficient" />
+        </Facet>
+        <Facet Name="L3ST mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3ST merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
+        <Facet Name="L3ST merely represented orally">
+          <String Value="Clearly non-native L-main" />
+          <String Value="Farcical L-main" />
+        </Facet>
+        <Facet Name="L3ST functions">
+          <String Value="Stereotype" />
+          <String Value="Comedy / humour" />
+        </Facet>
+        <Facet Name="Conversation features for L3ST-instance">
+          <String Value="courtship" />
+          <String Value="joke" />
+          <String Value="sex" />
+        </Facet>
+        <Facet Name="L3ST sources">
+          <String Value="Oral L3: single source" />
+        </Facet>
+        <Facet Name="L3TT-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="A Passage to India.Dialogue between Aunt and the doctor.Dialogue between Aunt and the doctor (Sahib)" Name="Dialogue between Aunt and the doctor (Sahib)" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=A Passage to India&amp;conversation=A Passage to India.Dialogue between Aunt and the doctor&amp;L3STinstance=A Passage to India.Dialogue between Aunt and the doctor.Dialogue between Aunt and the doctor (Sahib)">
       <Description>Doctor Aziz visits his aunt Mrs Begum Hamidullah because she is ill. Dr. Aziz, Mrs. Hamidullah and his husband are in auntie's bedroom and can hear the three of them speaking in English with a very strong accent, particularly the English spoken by Mr. Hamidullah.</Description>
       <Facets>

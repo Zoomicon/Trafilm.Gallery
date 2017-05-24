@@ -24,6 +24,63 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
+    <Item Id="A Fish Called Wanda" Name="A Fish Called Wanda" Img="http://www.imdb.com/title/tt0095159/mediaviewer/rm3900081408" Href="http://gallery.trafilm.net/film/metadata/?film=A Fish Called Wanda">
+      <Description>A group of American do a jewel robbery but the boss George is caught. His girlfriend Wanda aims to double cross him by stealing the diamonds so as to escape with her lover Otto. In order to find out where George has hidden the loot she tries to seduce his English lawyer Archie, but the not-so-brilliant Otto gets jealous and risks to mess up the plan.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="A Fish Called Wanda" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="Italian" />
+          <String Value=" Russian" />
+          <String Value=" American vs British" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="Function of language varieties in ST: Class differentiation, cultural differentiation, stereotypes " />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-05-24T03:42:08" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-05-24T03:57:58" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="IreneRanzato" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="A Fish Called Wanda" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="108" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Charles Crichton" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="John Cleese" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="UK" />
+          <String Value=" USA" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="Metro Goldwyn Mayer" />
+          <String Value=" Prominent Features" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="1988" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="A Passage to India" Name="A Passage to India" Img="https://upload.wikimedia.org/wikipedia/ca/7/7e/Passage_to_india2.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=A Passage to India">
       <Description>A British woman, Adela Quested, joins her fiancée, Ronnie Heaslop, in India where he works as a city magistrate for the government. Ronnie's mother, Mrs. Moore, accompanies Adela and they befriend an Indian doctor called Aziz H. Ahmed. Since they profess interest in seeing the real India, experiencing the countryside and meeting everyday Indians, Dr. Aziz offers them to lead an expedition to the Marabar Caves. Once back in Chandrapore, Aziz is arrested and charged with attempting to rape Adela, a charge on an accusation Adela herself made. The British Administration is against him and would like to see him declared guilty and so an uproar ensues between the Indians and the Colonials.</Description>
       <Facets>
