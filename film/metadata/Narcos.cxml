@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Narcos" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Narcos - Season 01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film/Season title" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -24,8 +24,8 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Narcos" Name="Narcos" Img="" Href="">
-      <Description></Description>
+    <Item Id="Narcos" Name="Narcos - Season 01" Img="https://upload.wikimedia.org/wikipedia/en/0/0a/Narcos_title_card.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Narcos">
+      <Description>Crime series narrated by Steve Murphy, an American DEA agent, who is relocated in Colombia to fight drug traffic. His main target is the Medellin cartel, led by Pablo Emilio Escobar Gaviria. </Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="Narcos" />
@@ -34,10 +34,37 @@
           <DateTime Value="2017-05-24T05:33:47" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-05-24T05:33:47" />
+          <DateTime Value="2017-05-24T05:46:33" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="roogarca" />
         </Facet>
         <Facet Name="Film/Season title">
+          <String Value="Narcos - Season 01" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="TV series season" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="57" />
+        </Facet>
+        <Facet Name="Series">
           <String Value="Narcos" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="José Padilha" />
+          <String Value=" Guillermo Navarro" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Carlo Bernard" />
+          <String Value=" Chris Brancato" />
+          <String Value=" Doug Miro" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2015" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
         </Facet>
         <Facet Name="Conversations: count">
           <Number Value="0" />
