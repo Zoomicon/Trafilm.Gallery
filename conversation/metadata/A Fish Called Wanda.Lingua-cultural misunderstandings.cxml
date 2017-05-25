@@ -32,11 +32,14 @@
           <String Value=" American English" />
           <String Value=" social varieties" />
         </Facet>
+        <Facet Name="Remarks">
+          <String Value="Various varieties of regional and social English, as well as registers, are at at play in this scene in which two American characters and a British character use lingua-cultural stereotypes during a lively altercation." />
+        </Facet>
         <Facet Name="Info created">
           <DateTime Value="2017-05-24T04:00:55" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-05-24T04:07:32" />
+          <DateTime Value="2017-05-25T02:22:14" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="IreneRanzato" />
@@ -51,13 +54,19 @@
           <String Value="I. 161-180" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="British English, American English" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="L-main variety (e.g. dialect, sociolect, idiolect, slang)" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>
