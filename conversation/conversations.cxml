@@ -39,7 +39,7 @@
           <DateTime Value="2017-05-24T04:00:55" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-05-25T02:22:14" />
+          <DateTime Value="2017-05-25T03:33:54" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="IreneRanzato" />
@@ -49,6 +49,9 @@
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="A Fish Called Wanda" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="57" />
         </Facet>
         <Facet Name="Duration (sec)">
           <String Value="I. 161-180" />
@@ -86,7 +89,7 @@
           <DateTime Value="2017-05-24T04:18:22" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-05-25T02:30:46" />
+          <DateTime Value="2017-05-25T03:34:12" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="IreneRanzato" />
@@ -96,6 +99,9 @@
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="A Fish Called Wanda" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="32" />
         </Facet>
         <Facet Name="Duration (sec)">
           <String Value="I. 161-180" />
@@ -127,11 +133,14 @@
           <String Value="Italian" />
           <String Value=" Russian" />
         </Facet>
+        <Facet Name="Remarks">
+          <String Value="Archie switches from Italian to English in order to sexually arouse Wanda." />
+        </Facet>
         <Facet Name="Info created">
           <DateTime Value="2017-05-24T04:18:31" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-05-24T04:22:34" />
+          <DateTime Value="2017-05-25T03:36:21" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="IreneRanzato" />
@@ -142,17 +151,26 @@
         <Facet Name="Film/Season title">
           <String Value="A Fish Called Wanda" />
         </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="70" />
+        </Facet>
         <Facet Name="Duration (sec)">
           <String Value="H. 141-160" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Italian, Russian " />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>
