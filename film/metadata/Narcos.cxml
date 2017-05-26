@@ -24,7 +24,7 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Narcos" Name="Narcos - Season 01" Img="https://sjme.de/v/narcos-trailer-deutsch.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Narcos">
+    <Item Id="Narcos" Name="Narcos - Season 01" Img="http://solopormega.com/wp-content/uploads/2015/09/narcos.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Narcos">
       <Description>Crime series narrated by Steve Murphy, an American DEA agent, who is relocated in Colombia to fight drug traffic. His main target is the Medellin cartel, led by Pablo Emilio Escobar Gaviria. </Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -34,7 +34,7 @@
           <DateTime Value="2017-05-24T05:33:47" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-05-25T06:10:33" />
+          <DateTime Value="2017-05-26T05:51:36" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="roogarca" />
