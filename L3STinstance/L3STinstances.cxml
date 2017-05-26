@@ -199,7 +199,7 @@
           <DateTime Value="2017-05-24T06:37:15" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-05-24T07:24:02" />
+          <DateTime Value="2017-05-26T10:40:36" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="IreneRanzato" />
@@ -209,6 +209,9 @@
         </Facet>
         <Facet Name="Conversation Reference Id">
           <String Value="A Fish Called Wanda.Speaking Russian" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="70" />
         </Facet>
         <Facet Name="Conversation duration (sec)">
           <String Value="H. 141-160" />
