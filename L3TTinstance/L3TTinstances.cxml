@@ -36281,7 +36281,7 @@ And the wife and the aunt speak in English</Description>
           <DateTime Value="2017-05-24T05:53:43" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-05-26T06:25:33" />
+          <DateTime Value="2017-05-27T05:38:44" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="roogarca" />
@@ -36295,11 +36295,20 @@ And the wife and the aunt speak in English</Description>
         <Facet Name="L3ST-instance Reference Id">
           <String Value="Narcos.Conversation with Suárez.Speaking Colombian Spanish" />
         </Facet>
+        <Facet Name="Film Title TT">
+          <String Value="Narcos" />
+        </Facet>
         <Facet Name="L2 language">
           <String Value="Spanish" />
         </Facet>
         <Facet Name="L2 mode">
           <String Value="Dubbed" />
+        </Facet>
+        <Facet Name="Year TT released">
+          <Number Value="2015" />
+        </Facet>
+        <Facet Name="Film TT Blockbuster">
+          <String Value="YES (top 20)" />
         </Facet>
         <Facet Name="Conversation start time (min)">
           <Number Value="12" />
@@ -36317,7 +36326,7 @@ And the wife and the aunt speak in English</Description>
           <String Value="L-main variety (e.g. dialect, sociolect, idiolect, slang)" />
         </Facet>
         <Facet Name="L3TT language">
-          <String Value="Colombian Spanish" />
+          <String Value="Spanish Colombia" />
         </Facet>
         <Facet Name="L3TT meant to be understood">
           <String Value="YES, (almost) completely" />
