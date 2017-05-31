@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Orange is the new Black.Piper meets the inmates.Piper speaks Spanish.Piper learns the rules." xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Orange is the new Black.Piper meets the inmates.Dayanara doesn't understand Spanish.SpanishDub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -42,23 +42,23 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Orange is the new Black.Piper meets the inmates.Piper speaks Spanish.Piper aprende las normas de la cárcel" Name="Orange is the new Black.Piper meets the inmates.Piper speaks Spanish.Piper learns the rules." Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Orange is the new Black&amp;conversation=Orange is the new Black.Piper meets the inmates&amp;L3STinstance=Orange is the new Black.Piper meets the inmates.Piper speaks Spanish&amp;L3TTinstance=Orange is the new Black.Piper meets the inmates.Piper speaks Spanish.Piper aprende las normas de la cárcel">
-      <Description>Gloria asks if Piper can speak Spanish.</Description>
+    <Item Id="Orange is the new Black.Piper meets the inmates.Dayanara doesn't understand Spanish.SpanishDub" Name="Orange is the new Black.Piper meets the inmates.Dayanara doesn't understand Spanish.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Orange is the new Black&amp;conversation=Orange is the new Black.Piper meets the inmates&amp;L3STinstance=Orange is the new Black.Piper meets the inmates.Dayanara doesn't understand Spanish&amp;L3TTinstance=Orange is the new Black.Piper meets the inmates.Dayanara doesn't understand Spanish.Dayanara doesn't understand Gloria">
+      <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Orange is the new Black.Piper meets the inmates.Piper speaks Spanish.Piper aprende las normas de la cárcel" />
+          <String Value="Orange is the new Black.Piper meets the inmates.Dayanara doesn't understand Spanish.SpanishDub" />
         </Facet>
         <Facet Name="Transcription">
-          <String Value="Gloria: Oídme Blanquita, ¿copiaste todo?&#xD;&#xA;Piper: Aún no, todavía no sé lo que puedo copiar.&#xD;&#xA;" />
+          <String Value="Gloria: Oídme no me sofoques. ¿Me copiaste chava?&#xD;&#xA;Dayanara: No te he entendido bien.&#xD;&#xA;Gloria: Qué vaina, no seas quille. ¿Es que tu mamita no te enseñó modales?" />
         </Facet>
         <Facet Name="Remarks">
-          <String Value="Gloria asks to Piper if she has written down all the new co-habitation rules." />
+          <String Value="Despite being Latina, Dayanara speaks a Spain Spanish variety." />
         </Facet>
         <Facet Name="Info created">
-          <DateTime Value="2017-05-31T11:37:33" />
+          <DateTime Value="2017-05-31T11:13:14" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-05-31T11:45:48" />
+          <DateTime Value="2017-05-31T11:27:59" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="AnnaGallardo" />
@@ -70,7 +70,7 @@
           <String Value="Orange is the new Black.Piper meets the inmates" />
         </Facet>
         <Facet Name="L3ST-instance Reference Id">
-          <String Value="Orange is the new Black.Piper meets the inmates.Piper speaks Spanish" />
+          <String Value="Orange is the new Black.Piper meets the inmates.Dayanara doesn't understand Spanish" />
         </Facet>
         <Facet Name="Film Title TT">
           <String Value="1.Piloto: No estaba preparada" />
@@ -90,38 +90,43 @@
         <Facet Name="Film TT Blockbuster">
           <String Value="YES (top 20)" />
         </Facet>
-        <Facet Name="Conversation start time (min)">
-          <Number Value="29" />
-        </Facet>
-        <Facet Name="Conversation duration (sec)">
-          <String Value="C. 41-60" />
-        </Facet>
         <Facet Name="L2 same as L3ST">
           <String Value="Yes" />
         </Facet>
         <Facet Name="L3ST conveyed as L3TT">
-          <String Value="No" />
+          <String Value="Yes" />
         </Facet>
         <Facet Name="L3TT language type">
-          <String Value="No L3TT: L3-instance omitted" />
+          <String Value="L-main variety (e.g. dialect, sociolect, idiolect, slang)" />
         </Facet>
-        <Facet Name="L3 language type change">
-          <String Value="- Real" />
-          <String Value="+ No L3TT: L3-instance omitted" />
+        <Facet Name="L3TT language">
+          <String Value="Latin American Spanish" />
         </Facet>
-        <Facet Name="L3 mode change">
-          <String Value="- Oral non-diegetic" />
+        <Facet Name="L3TT meant to be understood">
+          <String Value="YES, (almost) completely" />
         </Facet>
-        <Facet Name="L3 functions change">
-          <String Value="- Metaphorical (e.g. communication barrier)" />
-          <String Value="- Metalinguistic" />
+        <Facet Name="L3TT message required for understanding">
+          <String Value="Yes" />
         </Facet>
-        <Facet Name="Conversation features for L3-instance change">
-          <String Value="- announcement" />
+        <Facet Name="L3TT meaning decipherable">
+          <String Value="NO" />
         </Facet>
-        <Facet Name="L3 sources change">
-          <String Value="- Oral L3: different sources " />
-          <String Value="+ " />
+        <Facet Name="Quality of L3TT speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3TT mode, written/spoken, diegetic">
+          <String Value="Oral non-diegetic" />
+        </Facet>
+        <Facet Name="L3TT functions">
+          <String Value="Character portrayal" />
+          <String Value="Dramatic effect" />
+        </Facet>
+        <Facet Name="Conversation features for L3TT-instance">
+          <String Value="informal" />
+          <String Value="information" />
+        </Facet>
+        <Facet Name="L3TT sources">
+          <String Value="Oral L3: single source" />
         </Facet>
       </Facets>
     </Item>

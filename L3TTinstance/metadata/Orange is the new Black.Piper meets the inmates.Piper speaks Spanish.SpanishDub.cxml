@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Orange is the new Black.Piper meets the inmates.Piper speaks Spanish.Piper learns the rules." xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Orange is the new Black.Piper meets the inmates.Piper speaks Spanish.SpanishDub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -42,11 +42,11 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Orange is the new Black.Piper meets the inmates.Piper speaks Spanish.Piper aprende las normas de la cárcel" Name="Orange is the new Black.Piper meets the inmates.Piper speaks Spanish.Piper learns the rules." Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Orange is the new Black&amp;conversation=Orange is the new Black.Piper meets the inmates&amp;L3STinstance=Orange is the new Black.Piper meets the inmates.Piper speaks Spanish&amp;L3TTinstance=Orange is the new Black.Piper meets the inmates.Piper speaks Spanish.Piper aprende las normas de la cárcel">
-      <Description>Gloria asks if Piper can speak Spanish.</Description>
+    <Item Id="Orange is the new Black.Piper meets the inmates.Piper speaks Spanish.SpanishDub" Name="Orange is the new Black.Piper meets the inmates.Piper speaks Spanish.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Orange is the new Black&amp;conversation=Orange is the new Black.Piper meets the inmates&amp;L3STinstance=Orange is the new Black.Piper meets the inmates.Piper speaks Spanish&amp;L3TTinstance=Orange is the new Black.Piper meets the inmates.Piper speaks Spanish.Piper aprende las normas de la cárcel">
+      <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Orange is the new Black.Piper meets the inmates.Piper speaks Spanish.Piper aprende las normas de la cárcel" />
+          <String Value="Orange is the new Black.Piper meets the inmates.Piper speaks Spanish.SpanishDub" />
         </Facet>
         <Facet Name="Transcription">
           <String Value="Gloria: Oídme Blanquita, ¿copiaste todo?&#xD;&#xA;Piper: Aún no, todavía no sé lo que puedo copiar.&#xD;&#xA;" />
@@ -90,12 +90,6 @@
         <Facet Name="Film TT Blockbuster">
           <String Value="YES (top 20)" />
         </Facet>
-        <Facet Name="Conversation start time (min)">
-          <Number Value="29" />
-        </Facet>
-        <Facet Name="Conversation duration (sec)">
-          <String Value="C. 41-60" />
-        </Facet>
         <Facet Name="L2 same as L3ST">
           <String Value="Yes" />
         </Facet>
@@ -104,24 +98,6 @@
         </Facet>
         <Facet Name="L3TT language type">
           <String Value="No L3TT: L3-instance omitted" />
-        </Facet>
-        <Facet Name="L3 language type change">
-          <String Value="- Real" />
-          <String Value="+ No L3TT: L3-instance omitted" />
-        </Facet>
-        <Facet Name="L3 mode change">
-          <String Value="- Oral non-diegetic" />
-        </Facet>
-        <Facet Name="L3 functions change">
-          <String Value="- Metaphorical (e.g. communication barrier)" />
-          <String Value="- Metalinguistic" />
-        </Facet>
-        <Facet Name="Conversation features for L3-instance change">
-          <String Value="- announcement" />
-        </Facet>
-        <Facet Name="L3 sources change">
-          <String Value="- Oral L3: different sources " />
-          <String Value="+ " />
         </Facet>
       </Facets>
     </Item>
