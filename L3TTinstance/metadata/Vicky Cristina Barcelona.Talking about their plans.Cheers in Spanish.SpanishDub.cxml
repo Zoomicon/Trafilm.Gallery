@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Vicky Cristina Barcelona.Knowing each other.Speaking Chinese.SpanishDub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Vicky Cristina Barcelona.Talking about their plans.Cheers in Spanish.SpanishDub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -42,22 +42,23 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Vicky Cristina Barcelona.Knowing each other.Speaking Chinese.SpanishDub" Name="Vicky Cristina Barcelona.Knowing each other.Speaking Chinese.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Vicky Cristina Barcelona&amp;conversation=Vicky Cristina Barcelona.Knowing each other&amp;L3STinstance=Vicky Cristina Barcelona.Knowing each other.Speaking Chinese&amp;L3TTinstance=Vicky Cristina Barcelona.Knowing each other.Speaking Chinese.SpanishDub">
-      <Description>Cristina and Maria Elena get to know each other. </Description>
+    <Item Id="Vicky Cristina Barcelona.Talking about their plans.Cheers in Spanish.SpanishDub" Name="Vicky Cristina Barcelona.Talking about their plans.Cheers in Spanish.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Vicky Cristina Barcelona&amp;conversation=Vicky Cristina Barcelona.Talking about their plans&amp;L3STinstance=Vicky Cristina Barcelona.Talking about their plans.Cheers in Spanish&amp;L3TTinstance=Vicky Cristina Barcelona.Talking about their plans.Cheers in Spanish.SpanishDub">
+      <Description>Vicky and Cristina explain their trip to Barcelona. </Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Vicky Cristina Barcelona.Knowing each other.Speaking Chinese.SpanishDub" />
+          <String Value="Vicky Cristina Barcelona.Talking about their plans.Cheers in Spanish.SpanishDub" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="-Salud&#xD;&#xA;-Salud" />
         </Facet>
         <Facet Name="Tags">
-          <String Value="Conversation" />
-          <String Value=" languages" />
-          <String Value=" Chinese" />
+          <String Value="Spanish" />
         </Facet>
         <Facet Name="Info created">
-          <DateTime Value="2017-06-01T10:19:39" />
+          <DateTime Value="2017-06-01T11:13:49" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-06-01T11:39:02" />
+          <DateTime Value="2017-06-01T11:16:55" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="SoniaGonzalez" />
@@ -66,10 +67,10 @@
           <String Value="Vicky Cristina Barcelona" />
         </Facet>
         <Facet Name="Conversation Reference Id">
-          <String Value="Vicky Cristina Barcelona.Knowing each other" />
+          <String Value="Vicky Cristina Barcelona.Talking about their plans" />
         </Facet>
         <Facet Name="L3ST-instance Reference Id">
-          <String Value="Vicky Cristina Barcelona.Knowing each other.Speaking Chinese" />
+          <String Value="Vicky Cristina Barcelona.Talking about their plans.Cheers in Spanish" />
         </Facet>
         <Facet Name="Film Title TT">
           <String Value="Vicky Cristina Barcelona" />
@@ -90,7 +91,7 @@
           <String Value="A. 1-20" />
         </Facet>
         <Facet Name="L2 same as L3ST">
-          <String Value="No" />
+          <String Value="Yes" />
         </Facet>
         <Facet Name="L3ST conveyed as L3TT">
           <String Value="Yes" />
@@ -99,7 +100,7 @@
           <String Value="Real" />
         </Facet>
         <Facet Name="L3TT language">
-          <String Value="Chinese" />
+          <String Value="Spanish" />
         </Facet>
         <Facet Name="L3TT meant to be understood">
           <String Value="YES, (almost) completely" />
@@ -108,10 +109,10 @@
           <String Value="Conversation can be followed regardless of meaning" />
         </Facet>
         <Facet Name="L3TT meaning decipherable">
-          <String Value="NO" />
+          <String Value="YES, through translation or clear from picture" />
         </Facet>
         <Facet Name="Quality of L3TT speaker performance">
-          <String Value="clearly non-native or deficient" />
+          <String Value="native or proficient" />
         </Facet>
         <Facet Name="L3TT mode, written/spoken, diegetic">
           <String Value="Oral non-diegetic" />
@@ -120,14 +121,10 @@
           <String Value="YES: orally" />
         </Facet>
         <Facet Name="L3TT merely represented orally">
-          <String Value="Clearly non-native L-main" />
+          <String Value="L-main quirkiness or clue" />
         </Facet>
-        <Facet Name="L3TT functions">
-          <String Value="Character portrayal" />
-          <String Value="Metalinguistic" />
-        </Facet>
-        <Facet Name="Conversation features for L3TT-instance">
-          <String Value="information" />
+        <Facet Name="L3TT sources">
+          <String Value="Oral L3: different sources " />
         </Facet>
         <Facet Name="L3 language type change">
           <String Value="None" />
@@ -136,14 +133,13 @@
           <String Value="None" />
         </Facet>
         <Facet Name="L3 functions change">
-          <String Value="+ Character portrayal" />
-        </Facet>
-        <Facet Name="Conversation features for L3-instance change">
           <String Value="None" />
         </Facet>
+        <Facet Name="Conversation features for L3-instance change">
+          <String Value="- informal" />
+        </Facet>
         <Facet Name="L3 sources change">
-          <String Value="- Oral L3: single source" />
-          <String Value="+ " />
+          <String Value="None" />
         </Facet>
       </Facets>
     </Item>
