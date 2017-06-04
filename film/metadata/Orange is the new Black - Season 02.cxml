@@ -36,7 +36,7 @@
           <DateTime Value="2017-06-04T10:08:26" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-06-04T10:13:01" />
+          <DateTime Value="2017-06-04T12:28:09" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="AnnaGallardo" />
@@ -48,7 +48,7 @@
           <String Value="TV series season" />
         </Facet>
         <Facet Name="Duration (min)">
-          <Number Value="45" />
+          <Number Value="55" />
         </Facet>
         <Facet Name="Series">
           <String Value="Orange is the new Black" />
@@ -75,8 +75,11 @@
         <Facet Name="Main language (L1)">
           <String Value="English" />
         </Facet>
+        <Facet Name="L2-Dubbed languages">
+          <String Value="Spanish" />
+        </Facet>
         <Facet Name="Conversations: count">
-          <Number Value="0" />
+          <Number Value="2" />
         </Facet>
       </Facets>
     </Item>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Orange is the new Black.Katya talking with her mother.MentioningEnglish.SpanishDub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Orange is the new Black - Season 03.Doing a test.SpeakingSpanish.SpanishDub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -42,38 +42,35 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Orange is the new Black.Katya talking with her mother.MentioningEnglish.SpanishDub" Name="Orange is the new Black.Katya talking with her mother.MentioningEnglish.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Orange is the new Black&amp;conversation=Orange is the new Black.Katya talking with her mother&amp;L3STinstance=Orange is the new Black.Katya talking with her mother.MentioningEnglish&amp;L3TTinstance=Orange is the new Black.Katya talking with her mother.MentioningEnglish.SpanishDub">
-      <Description>Healey, his wife and her mother are having dinner. While Katya, the wife, is talking with her mother, Healey is confused beucase he is not understading anything and can't take part in the conversation.</Description>
+    <Item Id="Orange is the new Black - Season 03.Doing a test.SpeakingSpanish.SpanishDub" Name="Orange is the new Black - Season 03.Doing a test.SpeakingSpanish.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Orange is the new Black - Season 03&amp;conversation=Orange is the new Black - Season 03.Doing a test&amp;L3STinstance=Orange is the new Black - Season 03.Doing a test.SpeakingSpanish&amp;L3TTinstance=Orange is the new Black - Season 03.Doing a test.SpeakingSpanish.SpanishDub">
+      <Description>The inmates are doing a personality test. A police woman forces a Latina inmate to leave the exam without finishing it. </Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Orange is the new Black.Katya talking with her mother.MentioningEnglish.SpanishDub" />
+          <String Value="Orange is the new Black - Season 03.Doing a test.SpeakingSpanish.SpanishDub" />
         </Facet>
         <Facet Name="Transcription">
-          <String Value="Healy: ¿Podríamos no hablar más ruso en la mesa?" />
-        </Facet>
-        <Facet Name="Remarks">
-          <String Value="The transcription is the instance that utters Healey while her wife and her mother are talking in Russian." />
+          <String Value="Flaca: Mierda de prueba.&#xD;&#xA;Agente: Muy bien, haré como que he oído “Que tengas un buen día”.  " />
         </Facet>
         <Facet Name="Info created">
-          <DateTime Value="2017-06-04T11:34:44" />
+          <DateTime Value="2017-06-04T12:10:18" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-06-04T11:45:29" />
+          <DateTime Value="2017-06-04T12:13:57" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="AnnaGallardo" />
         </Facet>
         <Facet Name="Film Reference Id">
-          <String Value="Orange is the new Black" />
+          <String Value="Orange is the new Black - Season 03" />
         </Facet>
         <Facet Name="Conversation Reference Id">
-          <String Value="Orange is the new Black.Katya talking with her mother" />
+          <String Value="Orange is the new Black - Season 03.Doing a test" />
         </Facet>
         <Facet Name="L3ST-instance Reference Id">
-          <String Value="Orange is the new Black.Katya talking with her mother.MentioningEnglish" />
+          <String Value="Orange is the new Black - Season 03.Doing a test.SpeakingSpanish" />
         </Facet>
         <Facet Name="Film Title TT">
-          <String Value="7. Cómete los Donuts" />
+          <String Value="5. Fingir hasta que un poco más falsa" />
         </Facet>
         <Facet Name="L2 language">
           <String Value="Spanish" />
@@ -85,70 +82,44 @@
           <String Value="Spain" />
         </Facet>
         <Facet Name="Year TT released">
-          <Number Value="2013" />
+          <Number Value="2015" />
         </Facet>
         <Facet Name="Film TT Blockbuster">
           <String Value="YES (top 20)" />
         </Facet>
         <Facet Name="Conversation start time (min)">
-          <Number Value="20" />
+          <Number Value="28" />
         </Facet>
         <Facet Name="Conversation duration (sec)">
           <String Value="A. 1-20" />
         </Facet>
         <Facet Name="L2 same as L3ST">
-          <String Value="No" />
+          <String Value="Yes" />
         </Facet>
         <Facet Name="L3ST conveyed as L3TT">
-          <String Value="Yes" />
+          <String Value="No" />
         </Facet>
         <Facet Name="L3TT language type">
-          <String Value="Real" />
-        </Facet>
-        <Facet Name="L3TT language">
-          <String Value="Russian" />
-        </Facet>
-        <Facet Name="L3TT meant to be understood">
-          <String Value="YES, (almost) completely" />
-        </Facet>
-        <Facet Name="L3TT message required for understanding">
-          <String Value="Yes" />
-        </Facet>
-        <Facet Name="L3TT meaning decipherable">
-          <String Value="YES, through translation or clear from picture" />
-        </Facet>
-        <Facet Name="Quality of L3TT speaker performance">
-          <String Value="clearly non-native or deficient" />
-        </Facet>
-        <Facet Name="L3TT mode, written/spoken, diegetic">
-          <String Value="Oral non-diegetic" />
-        </Facet>
-        <Facet Name="L3TT merely represented">
-          <String Value="L3 mentioned, talked about" />
-        </Facet>
-        <Facet Name="L3TT functions">
-          <String Value="Plot (twist)" />
-        </Facet>
-        <Facet Name="Conversation features for L3TT-instance">
-          <String Value="domestic / family" />
-        </Facet>
-        <Facet Name="L3TT sources">
-          <String Value="Respond interlingually: different sources " />
+          <String Value="No L3TT: L3-instance omitted" />
         </Facet>
         <Facet Name="L3 language type change">
-          <String Value="None" />
+          <String Value="- Real" />
+          <String Value="+ No L3TT: L3-instance omitted" />
         </Facet>
         <Facet Name="L3 mode change">
-          <String Value="None" />
+          <String Value="- Oral non-diegetic" />
         </Facet>
         <Facet Name="L3 functions change">
-          <String Value="None" />
+          <String Value="- Plot (twist)" />
+          <String Value="- Comedy / humour" />
+          <String Value="- Signals the bad guy" />
         </Facet>
         <Facet Name="Conversation features for L3-instance change">
-          <String Value="None" />
+          <String Value="- quarrel" />
         </Facet>
         <Facet Name="L3 sources change">
-          <String Value="None" />
+          <String Value="- Fake/faulty translation: different source" />
+          <String Value="+ " />
         </Facet>
       </Facets>
     </Item>
