@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Orange is the new Black - Season 01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Orange is the new Black - Season 02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film/Season title" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -24,25 +24,25 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Orange is the new Black" Name="Orange is the new Black - Season 01" Img="http://msmagazine.com/blog/wp-content/uploads/2013/07/2521756.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Orange is the new Black">
+    <Item Id="Orange is the new Black - Season 02" Name="Orange is the new Black - Season 02" Img="http://msmagazine.com/blog/wp-content/uploads/2013/07/2521756.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Orange is the new Black - Season 02">
       <Description>Convicted of a decade old crime of transporting drug money to an ex-girlfriend, normally law abiding Piper Chapman is sentenced to a year and a half behind bars to face the reality of how life changing prison can really be.
 
 (By IMDB)</Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Orange is the new Black" />
+          <String Value="Orange is the new Black - Season 02" />
         </Facet>
         <Facet Name="Info created">
-          <DateTime Value="2017-05-31T10:04:03" />
+          <DateTime Value="2017-06-04T10:08:26" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-06-04T10:07:55" />
+          <DateTime Value="2017-06-04T10:13:01" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="AnnaGallardo" />
         </Facet>
         <Facet Name="Film/Season title">
-          <String Value="Orange is the new Black - Season 01" />
+          <String Value="Orange is the new Black - Season 02" />
         </Facet>
         <Facet Name="Type">
           <String Value="TV series season" />
@@ -70,16 +70,13 @@
           <String Value="YES (top 20)" />
         </Facet>
         <Facet Name="Year ST released">
-          <Number Value="2013" />
+          <Number Value="2014" />
         </Facet>
         <Facet Name="Main language (L1)">
           <String Value="English" />
         </Facet>
-        <Facet Name="L2-Dubbed languages">
-          <String Value="Spanish" />
-        </Facet>
         <Facet Name="Conversations: count">
-          <Number Value="3" />
+          <Number Value="0" />
         </Facet>
       </Facets>
     </Item>
