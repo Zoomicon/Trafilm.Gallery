@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Katya talking with a friend" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Katya talking with her mother" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="False" p:IsWordWheelVisible="False" />
@@ -21,35 +21,35 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Orange is the new Black - Season 02.Katya talking with a friend" Name="Katya talking with a friend" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Orange is the new Black - Season 02&amp;conversation=Orange is the new Black - Season 02.Katya talking with a friend">
-      <Description>Katya is speaking with a friends in Russian. They are talking in front of Healey, Katya’s husband, who doesn’t understand Russian very well.</Description>
+    <Item Id="Orange is the new Black.Katya talking with her mother" Name="Katya talking with her mother" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Orange is the new Black&amp;conversation=Orange is the new Black.Katya talking with her mother">
+      <Description>Healey, his wife and her mother are having dinner. While Katya, the wife, is talking with her mother, Healey is confused beucase he is not understading anything and can't take part in the conversation.</Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Orange is the new Black - Season 02.Katya talking with a friend" />
+          <String Value="Orange is the new Black.Katya talking with her mother" />
         </Facet>
         <Facet Name="Info created">
-          <DateTime Value="2017-06-04T10:35:56" />
+          <DateTime Value="2017-06-04T11:12:41" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-06-04T10:45:39" />
+          <DateTime Value="2017-06-04T11:16:47" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="AnnaGallardo" />
         </Facet>
         <Facet Name="Film Reference Id">
-          <String Value="Orange is the new Black - Season 02" />
+          <String Value="Orange is the new Black" />
         </Facet>
         <Facet Name="Film/Season title">
-          <String Value="Orange is the new Black - Season 02" />
+          <String Value="Orange is the new Black - Season 01" />
         </Facet>
         <Facet Name="Season episode name">
-          <String Value="5. Low Self Esteem City" />
+          <String Value="7. Blood Donut" />
         </Facet>
         <Facet Name="Start time (min)">
-          <Number Value="18" />
+          <Number Value="20" />
         </Facet>
         <Facet Name="Duration (sec)">
-          <String Value="B. 21-40" />
+          <String Value="A. 1-20" />
         </Facet>
         <Facet Name="L3ST languages: count">
           <Number Value="0" />
