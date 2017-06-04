@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Policeman speaking Spanish" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Blanca's punishment" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -30,20 +30,20 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Orange is the new Black - Season 04.Policeman speaking Spanish.Mixing Spanish and English" Name="Policeman speaking Spanish" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Orange is the new Black - Season 04&amp;conversation=Orange is the new Black - Season 04.Policeman speaking Spanish&amp;L3STinstance=Orange is the new Black - Season 04.Policeman speaking Spanish.Mixing Spanish and English">
-      <Description>Conversation between a policeman and a Latin boy who tries to scape after he has been noticed next to the policeman's car.</Description>
+    <Item Id="Orange is the new Black - Season 04.Blanca's punishment.Speaking Spanish" Name="Blanca's punishment" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Orange is the new Black - Season 04&amp;conversation=Orange is the new Black - Season 04.Blanca's punishment&amp;L3STinstance=Orange is the new Black - Season 04.Blanca's punishment.Speaking Spanish">
+      <Description>Conversation between a policeman and an inmate called Blanca. He punishes her by making her staying on a table without moving.</Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Orange is the new Black - Season 04.Policeman speaking Spanish.Mixing Spanish and English" />
+          <String Value="Orange is the new Black - Season 04.Blanca's punishment.Speaking Spanish" />
         </Facet>
         <Facet Name="Transcription">
-          <String Value="Policeman: You habla English?" />
+          <String Value="Blanca: Bueno pana, yo voy a estar aquí un buen rato.&#xD;&#xA;Policeman: Call me all the Spanish names you want mamma, but…&#xD;&#xA;" />
         </Facet>
         <Facet Name="Info created">
-          <DateTime Value="2017-06-04T12:37:52" />
+          <DateTime Value="2017-06-04T12:54:58" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-06-04T12:41:29" />
+          <DateTime Value="2017-06-04T01:01:53" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="AnnaGallardo" />
@@ -52,10 +52,10 @@
           <String Value="Orange is the new Black - Season 04" />
         </Facet>
         <Facet Name="Conversation Reference Id">
-          <String Value="Orange is the new Black - Season 04.Policeman speaking Spanish" />
+          <String Value="Orange is the new Black - Season 04.Blanca's punishment" />
         </Facet>
         <Facet Name="Conversation start time (min)">
-          <Number Value="48" />
+          <Number Value="50" />
         </Facet>
         <Facet Name="Conversation duration (sec)">
           <String Value="A. 1-20" />
@@ -79,25 +79,24 @@
           <String Value="YES, through translation or clear from picture" />
         </Facet>
         <Facet Name="Quality of L3ST speaker performance">
-          <String Value="clearly non-native or deficient" />
+          <String Value="native or proficient" />
         </Facet>
         <Facet Name="L3ST mode, written/spoken, diegetic">
           <String Value="Oral non-diegetic" />
         </Facet>
         <Facet Name="L3ST functions">
-          <String Value="Stereotype" />
-          <String Value="Suspense" />
-          <String Value="Metalinguistic" />
+          <String Value="Character portrayal" />
+          <String Value="Plot (twist)" />
+          <String Value="Comedy / humour" />
         </Facet>
         <Facet Name="Conversation features for L3ST-instance">
-          <String Value="small talk" />
-          <String Value="threat" />
+          <String Value="announcement" />
         </Facet>
         <Facet Name="L3ST sources">
-          <String Value="Respond interlingually: different sources " />
+          <String Value="Oral L3: single source" />
         </Facet>
         <Facet Name="L3TT-instances: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>

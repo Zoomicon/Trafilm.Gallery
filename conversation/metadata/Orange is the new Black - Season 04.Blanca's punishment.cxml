@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Doing a test" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Blanca's punishment" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="False" p:IsWordWheelVisible="False" />
@@ -21,50 +21,44 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Orange is the new Black - Season 03.Doing a test" Name="Doing a test" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Orange is the new Black - Season 03&amp;conversation=Orange is the new Black - Season 03.Doing a test">
-      <Description>The inmates are doing a personality test. A policewoman forces a Latina inmate to leave the exam without finishing it. </Description>
+    <Item Id="Orange is the new Black - Season 04.Blanca's punishment" Name="Blanca's punishment" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Orange is the new Black - Season 04&amp;conversation=Orange is the new Black - Season 04.Blanca's punishment">
+      <Description>Conversation between a policeman and an inmate called Blanca. He punishes her by making her staying on a table without moving.</Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Orange is the new Black - Season 03.Doing a test" />
+          <String Value="Orange is the new Black - Season 04.Blanca's punishment" />
         </Facet>
         <Facet Name="Info created">
-          <DateTime Value="2017-06-04T11:50:11" />
+          <DateTime Value="2017-06-04T12:48:34" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-06-04T12:47:02" />
+          <DateTime Value="2017-06-04T12:54:46" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="AnnaGallardo" />
         </Facet>
         <Facet Name="Film Reference Id">
-          <String Value="Orange is the new Black - Season 03" />
+          <String Value="Orange is the new Black - Season 04" />
         </Facet>
         <Facet Name="Film/Season title">
-          <String Value="Orange is the new Black - Season 03" />
+          <String Value="Orange is the new Black - Season 04" />
         </Facet>
         <Facet Name="Season episode name">
-          <String Value="5. Fake It Till You Fake It Some More" />
+          <String Value="9. Turn Table Turn" />
         </Facet>
         <Facet Name="Start time (min)">
-          <Number Value="28" />
+          <Number Value="50" />
         </Facet>
         <Facet Name="Duration (sec)">
           <String Value="A. 1-20" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="1" />
-        </Facet>
-        <Facet Name="L3ST languages">
-          <String Value="Spanish" />
+          <Number Value="0" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="1" />
-        </Facet>
-        <Facet Name="L3ST language types">
-          <String Value="Real" />
+          <Number Value="0" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="1" />
+          <Number Value="0" />
         </Facet>
       </Facets>
     </Item>
