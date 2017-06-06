@@ -16383,6 +16383,97 @@ And the wife and the aunt speak in English</Description>
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Narcos.Threatening a truck driver.Peña speaking Spanish" Name="Narcos.Threatening a truck driver.Peña speaking Spanish" Img="" Href="">
+      <Description></Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Narcos.Threatening a truck driver.Peña speaking Spanish" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-06-06T07:29:46" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-06-06T07:29:46" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Narcos" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Narcos.Threatening a truck driver" />
+        </Facet>
+        <Facet Name="L3TT-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Narcos.Threatening a truck driver.Steve speaking Spanish" Name="Threatening a truck driver" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Narcos&amp;conversation=Narcos.Threatening a truck driver&amp;L3STinstance=Narcos.Threatening a truck driver.Steve speaking Spanish">
+      <Description>Peña and Steve stop a truck that is entering in Escobar's prison illegally. The truck driver doesn't want them to put cameras on his truck and Steve threatens him.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Narcos.Threatening a truck driver.Steve speaking Spanish" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Truck driver: Si el patrón se llega a enterar que ustedes pusieron cámaras en el camión me va a mandar a quebrar.&#xD;&#xA;Steve: What did he say?&#xD;&#xA;Peña: He says if Pablo find out he'll kill him.&#xD;&#xA;Steve: Amigo. ¿Pablo, tu patron? Sí, sí. Yo soy tu patrón. ¿Sí?" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-06-06T07:30:22" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-06-06T07:37:15" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="roogarca" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Narcos" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Narcos.Threatening a truck driver" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="24" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L3ST language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST language">
+          <String Value="Spanish Colombia" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Conversation can be followed regardless of meaning" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3ST speaker performance">
+          <String Value="clearly non-native or deficient" />
+        </Facet>
+        <Facet Name="L3ST mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3ST functions">
+          <String Value="Dramatic effect" />
+        </Facet>
+        <Facet Name="Conversation features for L3ST-instance">
+          <String Value="threat" />
+        </Facet>
+        <Facet Name="L3ST sources">
+          <String Value="Bilingual (L3&amp;main): same source " />
+        </Facet>
+        <Facet Name="L3TT-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="OceansEleven.ExplainingThePlan.Chinese" Name="Explaining the plan - Chinese" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=OceansEleven&amp;conversation=OceansEleven.ExplainingThePlan&amp;L3STinstance=OceansEleven.ExplainingThePlan.Chinese">
       <Description></Description>
       <Facets>
