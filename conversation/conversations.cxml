@@ -6804,6 +6804,47 @@ And the wife and the aunt speak in English</Description>
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Narcos-Season 2.Talking to an informant" Name="Talking to an informant" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Narcos-Season 2&amp;conversation=Narcos-Season 2.Talking to an informant">
+      <Description>Trujillo and Steve speak with an informant. Steve thinks he wants money in return for information.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Narcos-Season 2.Talking to an informant" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-06-06T07:57:39" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-06-06T07:59:30" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="roogarca" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Narcos-Season 2" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Narcos - Season 02" />
+        </Facet>
+        <Facet Name="Season episode name">
+          <String Value="Nuestra finca" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="24" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Narcos.Conversation with Suárez" Name="Conversation with Suárez" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Narcos&amp;conversation=Narcos.Conversation with Suárez">
       <Description>Escobar’s hitmen have killed Steve’s cat. Steve and Peña meet Suárez, Peña’s informant, to convince him to catch the cat killer. </Description>
       <Facets>
@@ -6877,6 +6918,47 @@ And the wife and the aunt speak in English</Description>
         </Facet>
         <Facet Name="Start time (min)">
           <Number Value="24" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Narcos.Watching TV" Name="Watching TV" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Narcos&amp;conversation=Narcos.Watching TV">
+      <Description>Steve and his wife, Connie, are held at a Colombian airport. Connie turns on the television.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Narcos.Watching TV" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-06-06T08:15:17" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-06-06T08:18:25" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="roogarca" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Narcos" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Narcos - Season 01" />
+        </Facet>
+        <Facet Name="Season episode name">
+          <String Value="The Sword of Simón Bolivar" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="15" />
         </Facet>
         <Facet Name="Duration (sec)">
           <String Value="A. 1-20" />
