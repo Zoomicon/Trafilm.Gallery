@@ -24,7 +24,7 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Orange is the new Black - Season 03" Name="Orange is the new Black - Season 03" Img="http://gallery.trafilm.net/film/metadata/?film=Orange%20is%20the%20new%20Black" Href="http://gallery.trafilm.net/film/metadata/?film=Orange is the new Black - Season 03">
+    <Item Id="Orange is the new Black - Season 03" Name="Orange is the new Black - Season 03" Img="http://msmagazine.com/blog/wp-content/uploads/2013/07/2521756.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Orange is the new Black - Season 03">
       <Description>Convicted of a decade old crime of transporting drug money to an ex-girlfriend, normally law abiding Piper Chapman is sentenced to a year and a half behind bars to face the reality of how life changing prison can really be.
 
 (By IMDB)</Description>
@@ -36,7 +36,7 @@
           <DateTime Value="2017-06-04T11:47:25" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-06-04T12:27:59" />
+          <DateTime Value="2017-06-06T11:07:01" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="AnnaGallardo" />
@@ -68,6 +68,9 @@
         </Facet>
         <Facet Name="Blockbuster">
           <String Value="YES (top 20)" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2015" />
         </Facet>
         <Facet Name="L2-Dubbed languages">
           <String Value="Spanish" />
