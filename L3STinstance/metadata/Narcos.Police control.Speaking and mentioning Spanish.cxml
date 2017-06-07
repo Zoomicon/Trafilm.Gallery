@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Watching TV" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Police control" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -30,23 +30,20 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Narcos.Watching TV.Hearing Spanish" Name="Watching TV" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Narcos&amp;conversation=Narcos.Watching TV&amp;L3STinstance=Narcos.Watching TV.Hearing Spanish">
-      <Description>Steve and his wife, Connie, are held at a Colombian airport. Connie turns on the television.</Description>
+    <Item Id="Narcos.Police control.Speaking and mentioning Spanish" Name="Police control" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Narcos&amp;conversation=Narcos.Police control&amp;L3STinstance=Narcos.Police control.Speaking and mentioning Spanish">
+      <Description>Connie is leaving Medellin with a communist "guerrilla" that is trying to leave the country. On their way they have to pass a police control. The policeman speaks Spanish. </Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Narcos.Watching TV.Hearing Spanish" />
+          <String Value="Narcos.Police control.Speaking and mentioning Spanish" />
         </Facet>
         <Facet Name="Transcription">
-          <String Value="Steve: What are you doing?&#xD;&#xA;Connie: I'm practicing my Spanish" />
-        </Facet>
-        <Facet Name="Remarks">
-          <String Value="The specific L3ST-instance is the TV news in Spanish. " />
+          <String Value="Policeman: Buenos días, señoritas. ¿Hacia dónde se dirigen?&#xD;&#xA;Connie: I'm sorry, Sir. I am American. I don't speak Spanish.&#xD;&#xA;Policeman: ¿Usted habla español?" />
         </Facet>
         <Facet Name="Info created">
-          <DateTime Value="2017-06-06T08:19:10" />
+          <DateTime Value="2017-06-07T08:09:38" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-06-07T07:55:31" />
+          <DateTime Value="2017-06-07T08:15:11" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="roogarca" />
@@ -55,10 +52,10 @@
           <String Value="Narcos" />
         </Facet>
         <Facet Name="Conversation Reference Id">
-          <String Value="Narcos.Watching TV" />
+          <String Value="Narcos.Police control" />
         </Facet>
         <Facet Name="Conversation start time (min)">
-          <Number Value="15" />
+          <Number Value="9" />
         </Facet>
         <Facet Name="Conversation duration (sec)">
           <String Value="A. 1-20" />
@@ -70,13 +67,13 @@
           <String Value="Real" />
         </Facet>
         <Facet Name="L3ST language">
-          <String Value="Spanish Colombia" />
+          <String Value="Colombian Spanish" />
         </Facet>
         <Facet Name="L3ST meant to be understood">
           <String Value="NO" />
         </Facet>
         <Facet Name="L3ST message required for understanding">
-          <String Value="Conversation can be followed regardless of meaning" />
+          <String Value="Yes" />
         </Facet>
         <Facet Name="L3ST meaning decipherable">
           <String Value="YES, through translation or clear from picture" />
@@ -88,10 +85,11 @@
           <String Value="Oral diegetic on-screen" />
         </Facet>
         <Facet Name="L3ST functions">
-          <String Value="Plot (twist)" />
+          <String Value="Character portrayal" />
+          <String Value="Metalinguistic" />
         </Facet>
         <Facet Name="Conversation features for L3ST-instance">
-          <String Value="media (TV, radio etc.)" />
+          <String Value="interrogation / quizzing" />
         </Facet>
         <Facet Name="L3ST sources">
           <String Value="Non-diegetic translation" />

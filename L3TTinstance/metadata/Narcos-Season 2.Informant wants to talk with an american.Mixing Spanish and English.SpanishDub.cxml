@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Narcos.Watching TV.Hearing Spanish.SpanishDub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Narcos-Season 2.Informant wants to talk with an american.Mixing Spanish and English.SpanishDub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -42,32 +42,32 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Narcos.Watching TV.Hearing Spanish.SpanishDub" Name="Narcos.Watching TV.Hearing Spanish.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Narcos&amp;conversation=Narcos.Watching TV&amp;L3STinstance=Narcos.Watching TV.Hearing Spanish&amp;L3TTinstance=Narcos.Watching TV.Hearing Spanish.SpanishDub">
-      <Description>Steve and his wife, Connie, are held at a Colombian airport. Connie turns on the television.</Description>
+    <Item Id="Narcos-Season 2.Informant wants to talk with an american.Mixing Spanish and English.SpanishDub" Name="Narcos-Season 2.Informant wants to talk with an american.Mixing Spanish and English.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Narcos-Season 2&amp;conversation=Narcos-Season 2.Informant wants to talk with an american&amp;L3STinstance=Narcos-Season 2.Informant wants to talk with an american.Mixing Spanish and English&amp;L3TTinstance=Narcos-Season 2.Informant wants to talk with an american.Mixing Spanish and English.SpanishDub">
+      <Description>A woman calls the DEA to give information about a drug dealer. She wants to speak with an american. Trujillo picks up the phone and tells Peña and Steve.</Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Narcos.Watching TV.Hearing Spanish.SpanishDub" />
+          <String Value="Narcos-Season 2.Informant wants to talk with an american.Mixing Spanish and English.SpanishDub" />
         </Facet>
         <Facet Name="Transcription">
-          <String Value="Steve: ¿Qué haces?&#xD;&#xA;Connie: Poner la tele" />
+          <String Value="Trujillo: Hay una muchacha en la línea tres. Quiere hablar con un americano. ¿Nada? ¿Ahora solo cogéis el teléfono los americanos? ¡Murphy! ¿Qué pasa, compadre?" />
         </Facet>
         <Facet Name="Info created">
-          <DateTime Value="2017-06-06T08:25:50" />
+          <DateTime Value="2017-06-07T07:52:39" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-06-07T07:55:45" />
+          <DateTime Value="2017-06-07T07:54:48" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="roogarca" />
         </Facet>
         <Facet Name="Film Reference Id">
-          <String Value="Narcos" />
+          <String Value="Narcos-Season 2" />
         </Facet>
         <Facet Name="Conversation Reference Id">
-          <String Value="Narcos.Watching TV" />
+          <String Value="Narcos-Season 2.Informant wants to talk with an american" />
         </Facet>
         <Facet Name="L3ST-instance Reference Id">
-          <String Value="Narcos.Watching TV.Hearing Spanish" />
+          <String Value="Narcos-Season 2.Informant wants to talk with an american.Mixing Spanish and English" />
         </Facet>
         <Facet Name="Film Title TT">
           <String Value="Narcos" />
@@ -88,7 +88,7 @@
           <String Value="YES (top 20)" />
         </Facet>
         <Facet Name="Conversation start time (min)">
-          <Number Value="15" />
+          <Number Value="32" />
         </Facet>
         <Facet Name="Conversation duration (sec)">
           <String Value="A. 1-20" />
@@ -108,9 +108,6 @@
         <Facet Name="L3TT meant to be understood">
           <String Value="YES, (almost) completely" />
         </Facet>
-        <Facet Name="L3TT meaning decipherable">
-          <String Value="NO" />
-        </Facet>
         <Facet Name="Quality of L3TT speaker performance">
           <String Value="native or proficient" />
         </Facet>
@@ -118,10 +115,11 @@
           <String Value="Oral diegetic on-screen" />
         </Facet>
         <Facet Name="L3TT functions">
-          <String Value="Plot (twist)" />
+          <String Value="Character portrayal" />
         </Facet>
         <Facet Name="Conversation features for L3TT-instance">
-          <String Value="media (TV, radio etc.)" />
+          <String Value="information" />
+          <String Value="news" />
         </Facet>
         <Facet Name="L3TT sources">
           <String Value="Oral L3: single source" />
@@ -137,10 +135,10 @@
           <String Value="None" />
         </Facet>
         <Facet Name="Conversation features for L3-instance change">
-          <String Value="None" />
+          <String Value="+ information" />
         </Facet>
         <Facet Name="L3 sources change">
-          <String Value="- Non-diegetic translation" />
+          <String Value="- Bilingual (L3&amp;main): same source " />
           <String Value="+ Oral L3: single source" />
         </Facet>
       </Facets>
