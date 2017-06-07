@@ -16451,7 +16451,7 @@ And the wife and the aunt speak in English</Description>
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Narcos.Threatening a truck driver.Peña speaking Spanish" Name="Narcos.Threatening a truck driver.Peña speaking Spanish" Img="" Href="">
+    <Item Id="Narcos.Threatening a truck driver.Peña speaking Spanish" Name="" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Narcos&amp;conversation=Narcos.Threatening a truck driver&amp;L3STinstance=Narcos.Threatening a truck driver.Peña speaking Spanish">
       <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -16461,13 +16461,25 @@ And the wife and the aunt speak in English</Description>
           <DateTime Value="2017-06-06T07:29:46" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-06-06T07:29:46" />
+          <DateTime Value="2017-06-07T06:35:37" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="roogarca" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Narcos" />
         </Facet>
         <Facet Name="Conversation Reference Id">
           <String Value="Narcos.Threatening a truck driver" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="24" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="English" />
         </Facet>
         <Facet Name="L3TT-instances: count">
           <Number Value="0" />
