@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Police control" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Taking off" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="False" p:IsWordWheelVisible="False" />
@@ -21,50 +21,41 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Narcos.Police control" Name="Police control" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Narcos&amp;conversation=Narcos.Police control">
-      <Description>Connie is leaving Medellin with a communist "guerrilla" that is trying to leave the country. On their way they have to pass a police control. The policeman speaks Spanish. </Description>
+    <Item Id="Home Alone 2 Lost in New York.Taking off" Name="Taking off" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Home Alone 2 Lost in New York&amp;conversation=Home Alone 2 Lost in New York.Taking off">
+      <Description>Kevin starts a conversation with the man who is sitting next to him. </Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Narcos.Police control" />
+          <String Value="Home Alone 2 Lost in New York.Taking off" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="French" />
         </Facet>
         <Facet Name="Info created">
-          <DateTime Value="2017-06-07T08:01:25" />
+          <DateTime Value="2017-06-07T03:19:06" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-06-07T03:20:47" />
+          <DateTime Value="2017-06-07T03:22:56" />
         </Facet>
         <Facet Name="Metadata Editors">
-          <String Value="roogarca" />
+          <String Value="SoniaGonzalez" />
         </Facet>
         <Facet Name="Film Reference Id">
-          <String Value="Narcos" />
+          <String Value="Home Alone 2 Lost in New York" />
         </Facet>
         <Facet Name="Film/Season title">
-          <String Value="Narcos - Season 01" />
-        </Facet>
-        <Facet Name="Season episode name">
-          <String Value="Explosivos" />
-        </Facet>
-        <Facet Name="Start time (min)">
-          <Number Value="9" />
+          <String Value="Home Alone 2 Lost in New York" />
         </Facet>
         <Facet Name="Duration (sec)">
           <String Value="A. 1-20" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="1" />
-        </Facet>
-        <Facet Name="L3ST languages">
-          <String Value="Colombian Spanish" />
+          <Number Value="0" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="1" />
-        </Facet>
-        <Facet Name="L3ST language types">
-          <String Value="Real" />
+          <Number Value="0" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="1" />
+          <Number Value="0" />
         </Facet>
       </Facets>
     </Item>

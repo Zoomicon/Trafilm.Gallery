@@ -5369,6 +5369,44 @@
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Home Alone 2 Lost in New York.Taking off" Name="Taking off" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Home Alone 2 Lost in New York&amp;conversation=Home Alone 2 Lost in New York.Taking off">
+      <Description>Kevin starts a conversation with the man who is sitting next to him. </Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Home Alone 2 Lost in New York.Taking off" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="French" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-06-07T03:19:06" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-06-07T03:22:56" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="SoniaGonzalez" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Home Alone 2 Lost in New York" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Home Alone 2 Lost in New York" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Hôkago Midnighters.Meeting the merman" Name="Meeting the merman" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Hôkago Midnighters&amp;conversation=Hôkago Midnighters.Meeting the merman">
       <Description></Description>
       <Facets>
@@ -6949,7 +6987,7 @@ And the wife and the aunt speak in English</Description>
           <DateTime Value="2017-06-07T08:01:25" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-06-07T08:09:04" />
+          <DateTime Value="2017-06-07T03:20:47" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="roogarca" />
@@ -6961,7 +6999,7 @@ And the wife and the aunt speak in English</Description>
           <String Value="Narcos - Season 01" />
         </Facet>
         <Facet Name="Season episode name">
-          <String Value="Los Pepes" />
+          <String Value="Explosivos" />
         </Facet>
         <Facet Name="Start time (min)">
           <Number Value="9" />
@@ -6970,13 +7008,19 @@ And the wife and the aunt speak in English</Description>
           <String Value="A. 1-20" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Colombian Spanish" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>
