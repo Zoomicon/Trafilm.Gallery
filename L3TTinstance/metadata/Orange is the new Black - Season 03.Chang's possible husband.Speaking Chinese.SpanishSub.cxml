@@ -42,17 +42,23 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Orange is the new Black - Season 03.Chang's possible husband.Speaking Chinese.SpanishSub" Name="Orange is the new Black - Season 03.Chang's possible husband.Speaking Chinese.SpanishSub" Img="" Href="">
-      <Description></Description>
+    <Item Id="Orange is the new Black - Season 03.Chang's possible husband.Speaking Chinese.SpanishSub" Name="Orange is the new Black - Season 03.Chang's possible husband.Speaking Chinese.SpanishSub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Orange is the new Black - Season 03&amp;conversation=Orange is the new Black - Season 03.Chang's possible husband&amp;L3STinstance=Orange is the new Black - Season 03.Chang's possible husband.Speaking Chinese&amp;L3TTinstance=Orange is the new Black - Season 03.Chang's possible husband.Speaking Chinese.SpanishSub">
+      <Description>Chang's brother is trying to sell Chang as a wife because he can't maintain her.</Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="Orange is the new Black - Season 03.Chang's possible husband.Speaking Chinese.SpanishSub" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Chang: ¿Y si no me gusta?&#xD;&#xA;Hermano de Chang: Puedes volver a la provincia de Hebei a cultivar patatas. No digas estupideces. " />
         </Facet>
         <Facet Name="Info created">
           <DateTime Value="2017-06-23T02:36:08" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-06-23T02:36:08" />
+          <DateTime Value="2017-06-23T02:52:54" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="AnnaGallardo" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Orange is the new Black - Season 03" />
@@ -62,6 +68,83 @@
         </Facet>
         <Facet Name="L3ST-instance Reference Id">
           <String Value="Orange is the new Black - Season 03.Chang's possible husband.Speaking Chinese" />
+        </Facet>
+        <Facet Name="Film Title TT">
+          <String Value="6.Ching Chong Chang" />
+        </Facet>
+        <Facet Name="L2 language">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L2 mode">
+          <String Value="Dubbed" />
+        </Facet>
+        <Facet Name="Distribution countries (TT)">
+          <String Value="Spain" />
+        </Facet>
+        <Facet Name="Year TT released">
+          <Number Value="2015" />
+        </Facet>
+        <Facet Name="Film TT Blockbuster">
+          <String Value="YES (top 20)" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="5" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L2 same as L3ST">
+          <String Value="No" />
+        </Facet>
+        <Facet Name="L3ST conveyed as L3TT">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3TT language">
+          <String Value="Chinese" />
+        </Facet>
+        <Facet Name="L3TT meant to be understood">
+          <String Value="YES, (almost) completely" />
+        </Facet>
+        <Facet Name="L3TT message required for understanding">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3TT speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3TT mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3TT functions">
+          <String Value="Character portrayal" />
+          <String Value="Plot (twist)" />
+        </Facet>
+        <Facet Name="Conversation features for L3TT-instance">
+          <String Value="domestic / family" />
+          <String Value="question &amp; answer" />
+        </Facet>
+        <Facet Name="L3TT sources">
+          <String Value="Oral L3: different sources " />
+        </Facet>
+        <Facet Name="L3 language type change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 mode change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 functions change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="Conversation features for L3-instance change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 sources change">
+          <String Value="None" />
         </Facet>
       </Facets>
     </Item>
