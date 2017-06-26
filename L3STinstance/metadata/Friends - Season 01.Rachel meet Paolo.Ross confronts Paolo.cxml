@@ -30,20 +30,20 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Friends - Season 01.Rachel meet Paolo.Paolo speaking Italian" Name="Rachel meets Paolo" Img="https://s-media-cache-ak0.pinimg.com/736x/f1/33/9a/f1339a6b8069a99727f4417006e9bfe2.jpg" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Friends - Season 01&amp;conversation=Friends - Season 01.Rachel meet Paolo&amp;L3STinstance=Friends - Season 01.Rachel meet Paolo.Paolo speaking Italian">
-      <Description>Rachel introduces Paolo to her friends, but he doesn't speak much English </Description>
+    <Item Id="Friends - Season 01.Rachel meet Paolo.Ross confronts Paolo" Name="Rachel meets Paolo" Img="https://i.ytimg.com/vi/zv0WXhN-Bfw/maxresdefault.jpg" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Friends - Season 01&amp;conversation=Friends - Season 01.Rachel meet Paolo&amp;L3STinstance=Friends - Season 01.Rachel meet Paolo.Ross confronts Paolo">
+      <Description>Ross tries to confront Paolo about his feelings for Rachel, but the fact that the two men do not speak the same language create misunderstandings.</Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Friends - Season 01.Rachel meet Paolo.Paolo speaking Italian" />
+          <String Value="Friends - Season 01.Rachel meet Paolo.Ross confronts Paolo" />
         </Facet>
         <Facet Name="Transcription">
-          <String Value="Rachel: Hi!&#xD;&#xA;Paolo: Buona sera.&#xD;&#xA;Rachel: Oh, wow!&#xD;&#xA;&#xD;&#xA;Ross: Come on, lucky sixes.&#xD;&#xA;Rachel: Everybody? This is Paolo. Paolo, I want you to meet my friends. This is Monica. &#xD;&#xA;Monica: Hi.&#xD;&#xA;Rachel: And Joey.&#xD;&#xA;Monica: Hi!&#xD;&#xA;Rachel: And Ross.&#xD;&#xA;Monica: Hi!&#xD;&#xA;Paolo: Ragazze sono appena arrivato, vivo al piano di sotto quindi ci vedremo molto spesso.&#xD;&#xA;Rachel: He doesn’t speak much English.&#xD;&#xA;Paolo: Monopoly!&#xD;&#xA;Rachel: Look at that!&#xD;&#xA;Ross: So, Where did... uh, Paolo come from?&#xD;&#xA;Rachel: Uh, Italy, I think.&#xD;&#xA;Ross: No, I mean tonight, in the building. Suddenly into our lives&#xD;&#xA;Rachel: Well, that cat. That cat turned out to be Paolo’s cat. Isn’t that funny? &#xD;&#xA;Ross: Ha! That… that is funny and Rachel keeps touching him.&#xD;&#xA;Phoebe: Right, I looked all over the building and I couldn't find the kitty anywhere. &#xD;&#xA;Rachel: Oh I found him. It was Paolo's cat.&#xD;&#xA;Phoebe: Ah, well, there you go. Last to know again. And I'm guessing, since nobody told me, this is Paolo.&#xD;&#xA;Rachel: Oh, Paolo. This is Phoebe.&#xD;&#xA;Paolo: Phoebe, anche tu bellissima. Se siete tutte così belle mi trasferisco proprio qui. &#xD;&#xA;Phoebe: You betcha.&#xD;&#xA;" />
+          <String Value="Ross: Paolo, hi.&#xD;&#xA;Paolo: Ross.&#xD;&#xA;Ross: Listen, um, something you should know. Uh, Rachel and I are… We’re kind of a…kind of a thing.&#xD;&#xA;Paolo: Thing? &#xD;&#xA;Ross: Thing. Yes, thing. &#xD;&#xA;Paolo: You have the sex.&#xD;&#xA;Ross: No. No, no, um… Technically the, the sex is not being had, but that’s, uh…see, but that’s not the point. The point is, uh…well, Rachel and I should be, uh… Well, Rachel and I should be together, you know? And if you ge in the… uh&#xD;&#xA;Paolo: In bed.&#xD;&#xA;Ross: No. No, not where I was going. Uh, if you get in the way… way of us becoming a thing then I would be.. well, very sad. &#xD;&#xA;Paolo: Oh, oh...&#xD;&#xA;Ross: So do you, um… ceviche?&#xD;&#xA;Paolo: Si, si.&#xD;&#xA;Ross: Si?&#xD;&#xA;Paolo: Si.&#xD;&#xA;Ross: So you do know a little English.&#xD;&#xA;Paolo: Poco. Little. &#xD;&#xA;Ross: Do you know the word “crap weasel”?&#xD;&#xA;Paolo: No.&#xD;&#xA;Ross: No? That’s funny ‘cause you are a huge crap weasel&#xD;&#xA;Paolo: Grazie!&#xD;&#xA;" />
         </Facet>
         <Facet Name="Info created">
-          <DateTime Value="2017-06-26T08:37:41" />
+          <DateTime Value="2017-06-26T08:51:17" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-06-26T08:50:11" />
+          <DateTime Value="2017-06-26T08:58:42" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="IreneRanzato" />
@@ -64,10 +64,13 @@
           <String Value="Real" />
         </Facet>
         <Facet Name="L3ST language">
-          <String Value="Italian, Russian " />
+          <String Value="Italian" />
         </Facet>
         <Facet Name="L3ST meant to be understood">
           <String Value="YES, the gist, the implications of what is happening" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Yes" />
         </Facet>
         <Facet Name="L3ST meaning decipherable">
           <String Value="YES, through translation or clear from picture" />
@@ -90,7 +93,7 @@
         </Facet>
         <Facet Name="Conversation features for L3ST-instance">
           <String Value="cliché / hot air" />
-          <String Value="flirt" />
+          <String Value="embarassing" />
           <String Value="sex" />
         </Facet>
         <Facet Name="L3ST sources">

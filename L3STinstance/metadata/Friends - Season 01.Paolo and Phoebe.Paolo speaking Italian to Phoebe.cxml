@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Rachel meets Paolo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Paolo and Phoebe" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -30,20 +30,20 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Friends - Season 01.Rachel meet Paolo.Paolo speaking Italian" Name="Rachel meets Paolo" Img="https://s-media-cache-ak0.pinimg.com/736x/f1/33/9a/f1339a6b8069a99727f4417006e9bfe2.jpg" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Friends - Season 01&amp;conversation=Friends - Season 01.Rachel meet Paolo&amp;L3STinstance=Friends - Season 01.Rachel meet Paolo.Paolo speaking Italian">
-      <Description>Rachel introduces Paolo to her friends, but he doesn't speak much English </Description>
+    <Item Id="Friends - Season 01.Paolo and Phoebe.Paolo speaking Italian to Phoebe" Name="Paolo and Phoebe" Img="https://vignette4.wikia.nocookie.net/friends/images/4/4c/TOWTDozenLasagnas.png/revision/latest?cb=20080925104201" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Friends - Season 01&amp;conversation=Friends - Season 01.Paolo and Phoebe&amp;L3STinstance=Friends - Season 01.Paolo and Phoebe.Paolo speaking Italian to Phoebe">
+      <Description>Paolo asks Phoebe for a massage, but suddenly he crosses the line...</Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Friends - Season 01.Rachel meet Paolo.Paolo speaking Italian" />
+          <String Value="Friends - Season 01.Paolo and Phoebe.Paolo speaking Italian to Phoebe" />
         </Facet>
         <Facet Name="Transcription">
-          <String Value="Rachel: Hi!&#xD;&#xA;Paolo: Buona sera.&#xD;&#xA;Rachel: Oh, wow!&#xD;&#xA;&#xD;&#xA;Ross: Come on, lucky sixes.&#xD;&#xA;Rachel: Everybody? This is Paolo. Paolo, I want you to meet my friends. This is Monica. &#xD;&#xA;Monica: Hi.&#xD;&#xA;Rachel: And Joey.&#xD;&#xA;Monica: Hi!&#xD;&#xA;Rachel: And Ross.&#xD;&#xA;Monica: Hi!&#xD;&#xA;Paolo: Ragazze sono appena arrivato, vivo al piano di sotto quindi ci vedremo molto spesso.&#xD;&#xA;Rachel: He doesn’t speak much English.&#xD;&#xA;Paolo: Monopoly!&#xD;&#xA;Rachel: Look at that!&#xD;&#xA;Ross: So, Where did... uh, Paolo come from?&#xD;&#xA;Rachel: Uh, Italy, I think.&#xD;&#xA;Ross: No, I mean tonight, in the building. Suddenly into our lives&#xD;&#xA;Rachel: Well, that cat. That cat turned out to be Paolo’s cat. Isn’t that funny? &#xD;&#xA;Ross: Ha! That… that is funny and Rachel keeps touching him.&#xD;&#xA;Phoebe: Right, I looked all over the building and I couldn't find the kitty anywhere. &#xD;&#xA;Rachel: Oh I found him. It was Paolo's cat.&#xD;&#xA;Phoebe: Ah, well, there you go. Last to know again. And I'm guessing, since nobody told me, this is Paolo.&#xD;&#xA;Rachel: Oh, Paolo. This is Phoebe.&#xD;&#xA;Paolo: Phoebe, anche tu bellissima. Se siete tutte così belle mi trasferisco proprio qui. &#xD;&#xA;Phoebe: You betcha.&#xD;&#xA;" />
+          <String Value="Paolo: Buon giorno, bella Phoebe!&#xD;&#xA;Phoebe: Oh Paolo. Hi! What are you doing here?&#xD;&#xA;Paolo: Rachele tell me you massage.&#xD;&#xA;Phoebe: Well, Rachela's right. Yeah.&#xD;&#xA;Paolo: Mi son svegliato stamattina con un mal di schiena, un mal di spalle...&#xD;&#xA;Phoebe: Oh, okay. I don’t know what you just said. So let’s just start.&#xD;&#xA;Paolo: I am…uh.. being naked? &#xD;&#xA;Phoebe: That’s really your decision. I mean, some people prefer, you know, to take off…whoops. You’re being naked!" />
         </Facet>
         <Facet Name="Info created">
-          <DateTime Value="2017-06-26T08:37:41" />
+          <DateTime Value="2017-06-26T09:06:10" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-06-26T08:50:11" />
+          <DateTime Value="2017-06-26T09:17:49" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="IreneRanzato" />
@@ -52,10 +52,10 @@
           <String Value="Friends - Season 01" />
         </Facet>
         <Facet Name="Conversation Reference Id">
-          <String Value="Friends - Season 01.Rachel meet Paolo" />
+          <String Value="Friends - Season 01.Paolo and Phoebe" />
         </Facet>
         <Facet Name="Conversation duration (sec)">
-          <String Value="E. 81-100" />
+          <String Value="C. 41-60" />
         </Facet>
         <Facet Name="Main (L1) language">
           <String Value="English" />
@@ -64,10 +64,13 @@
           <String Value="Real" />
         </Facet>
         <Facet Name="L3ST language">
-          <String Value="Italian, Russian " />
+          <String Value="Italian" />
         </Facet>
         <Facet Name="L3ST meant to be understood">
           <String Value="YES, the gist, the implications of what is happening" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Yes" />
         </Facet>
         <Facet Name="L3ST meaning decipherable">
           <String Value="YES, through translation or clear from picture" />
@@ -82,16 +85,17 @@
           <String Value="YES: orally" />
         </Facet>
         <Facet Name="L3ST merely represented orally">
-          <String Value="Farcical L-main" />
+          <String Value="L-main quirkiness or clue" />
         </Facet>
         <Facet Name="L3ST functions">
           <String Value="Stereotype" />
+          <String Value="Plot (twist)" />
           <String Value="Comedy / humour" />
         </Facet>
         <Facet Name="Conversation features for L3ST-instance">
           <String Value="cliché / hot air" />
+          <String Value="embarassing" />
           <String Value="flirt" />
-          <String Value="sex" />
         </Facet>
         <Facet Name="L3ST sources">
           <String Value="Respond interlingually: different sources " />
