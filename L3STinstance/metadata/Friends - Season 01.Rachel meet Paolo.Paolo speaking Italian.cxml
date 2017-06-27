@@ -31,7 +31,7 @@
   </FacetCategories>
   <Items xmlns="">
     <Item Id="Friends - Season 01.Rachel meet Paolo.Paolo speaking Italian" Name="Rachel meets Paolo" Img="https://s-media-cache-ak0.pinimg.com/736x/f1/33/9a/f1339a6b8069a99727f4417006e9bfe2.jpg" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Friends - Season 01&amp;conversation=Friends - Season 01.Rachel meet Paolo&amp;L3STinstance=Friends - Season 01.Rachel meet Paolo.Paolo speaking Italian">
-      <Description>Rachel introduces Paolo to her friends, but he doesn't speak much English </Description>
+      <Description>Rachel introduces Paolo to her friends, but he doesn't speak much English.</Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="Friends - Season 01.Rachel meet Paolo.Paolo speaking Italian" />
@@ -43,7 +43,7 @@
           <DateTime Value="2017-06-26T08:37:41" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-06-26T08:50:11" />
+          <DateTime Value="2017-06-27T10:40:56" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="IreneRanzato" />
@@ -64,10 +64,13 @@
           <String Value="Real" />
         </Facet>
         <Facet Name="L3ST language">
-          <String Value="Italian, Russian " />
+          <String Value="Italian" />
         </Facet>
         <Facet Name="L3ST meant to be understood">
           <String Value="YES, the gist, the implications of what is happening" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Conversation can be followed regardless of meaning" />
         </Facet>
         <Facet Name="L3ST meaning decipherable">
           <String Value="YES, through translation or clear from picture" />
@@ -97,7 +100,7 @@
           <String Value="Respond interlingually: different sources " />
         </Facet>
         <Facet Name="L3TT-instances: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>

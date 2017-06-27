@@ -8068,8 +8068,83 @@ The episode opens up with Wes Wrench and his associate and translator Grady Numb
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Friends - Season 01.Paolo and Phoebe.Paolo speaking Italian to Phoebe" Name="Paolo and Phoebe" Img="https://vignette4.wikia.nocookie.net/friends/images/4/4c/TOWTDozenLasagnas.png/revision/latest?cb=20080925104201" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Friends - Season 01&amp;conversation=Friends - Season 01.Paolo and Phoebe&amp;L3STinstance=Friends - Season 01.Paolo and Phoebe.Paolo speaking Italian to Phoebe">
+      <Description>Paolo asks Phoebe for a massage, but suddenly he crosses the line...</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Friends - Season 01.Paolo and Phoebe.Paolo speaking Italian to Phoebe" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Paolo: Buon giorno, bella Phoebe!&#xD;&#xA;Phoebe: Oh Paolo. Hi! What are you doing here?&#xD;&#xA;Paolo: Rachele tell me you massage.&#xD;&#xA;Phoebe: Well, Rachela's right. Yeah.&#xD;&#xA;Paolo: Mi son svegliato stamattina con un mal di schiena, un mal di spalle...&#xD;&#xA;Phoebe: Oh, okay. I don’t know what you just said. So let’s just start.&#xD;&#xA;Paolo: I am…uh.. being naked? &#xD;&#xA;Phoebe: That’s really your decision. I mean, some people prefer, you know, to take off…whoops. You’re being naked!" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-06-26T09:06:10" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-06-26T09:17:49" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="IreneRanzato" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Friends - Season 01" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Friends - Season 01.Paolo and Phoebe" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="C. 41-60" />
+        </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L3ST language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST language">
+          <String Value="Italian" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="YES, the gist, the implications of what is happening" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3ST speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3ST mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3ST merely represented">
+          <String Value="YES: orally" />
+        </Facet>
+        <Facet Name="L3ST merely represented orally">
+          <String Value="L-main quirkiness or clue" />
+        </Facet>
+        <Facet Name="L3ST functions">
+          <String Value="Stereotype" />
+          <String Value="Plot (twist)" />
+          <String Value="Comedy / humour" />
+        </Facet>
+        <Facet Name="Conversation features for L3ST-instance">
+          <String Value="cliché / hot air" />
+          <String Value="embarassing" />
+          <String Value="flirt" />
+        </Facet>
+        <Facet Name="L3ST sources">
+          <String Value="Respond interlingually: different sources " />
+        </Facet>
+        <Facet Name="L3TT-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Friends - Season 01.Rachel meet Paolo.Paolo speaking Italian" Name="Rachel meets Paolo" Img="https://s-media-cache-ak0.pinimg.com/736x/f1/33/9a/f1339a6b8069a99727f4417006e9bfe2.jpg" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Friends - Season 01&amp;conversation=Friends - Season 01.Rachel meet Paolo&amp;L3STinstance=Friends - Season 01.Rachel meet Paolo.Paolo speaking Italian">
-      <Description>Rachel introduces Paolo to her friends, but he doesn't speak much English </Description>
+      <Description>Rachel introduces Paolo to her friends, but he doesn't speak much English.</Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="Friends - Season 01.Rachel meet Paolo.Paolo speaking Italian" />
@@ -8081,7 +8156,7 @@ The episode opens up with Wes Wrench and his associate and translator Grady Numb
           <DateTime Value="2017-06-26T08:37:41" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-06-26T08:50:11" />
+          <DateTime Value="2017-06-27T10:40:56" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="IreneRanzato" />
@@ -8102,10 +8177,13 @@ The episode opens up with Wes Wrench and his associate and translator Grady Numb
           <String Value="Real" />
         </Facet>
         <Facet Name="L3ST language">
-          <String Value="Italian, Russian " />
+          <String Value="Italian" />
         </Facet>
         <Facet Name="L3ST meant to be understood">
           <String Value="YES, the gist, the implications of what is happening" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Conversation can be followed regardless of meaning" />
         </Facet>
         <Facet Name="L3ST meaning decipherable">
           <String Value="YES, through translation or clear from picture" />
@@ -8135,12 +8213,12 @@ The episode opens up with Wes Wrench and his associate and translator Grady Numb
           <String Value="Respond interlingually: different sources " />
         </Facet>
         <Facet Name="L3TT-instances: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Friends - Season 01.Rachel meet Paolo.Ross confronts Paolo" Name="Rachel meets Paolo" Img="https://i.ytimg.com/vi/zv0WXhN-Bfw/maxresdefault.jpg" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Friends - Season 01&amp;conversation=Friends - Season 01.Rachel meet Paolo&amp;L3STinstance=Friends - Season 01.Rachel meet Paolo.Ross confronts Paolo">
-      <Description>Ross tries to confront Paolo about his feelings for Rachel, but the fact that the two men do not speak the same language create misunderstandings.</Description>
+    <Item Id="Friends - Season 01.Rachel meet Paolo.Ross confronts Paolo" Name="Ross confronts Paolo" Img="https://i.ytimg.com/vi/zv0WXhN-Bfw/maxresdefault.jpg" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Friends - Season 01&amp;conversation=Friends - Season 01.Rachel meet Paolo&amp;L3STinstance=Friends - Season 01.Rachel meet Paolo.Ross confronts Paolo">
+      <Description>Ross tries to confront Paolo about his feelings for Rachel, but the fact that the two men do not speak the same language creates misunderstandings.</Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="Friends - Season 01.Rachel meet Paolo.Ross confronts Paolo" />
@@ -8152,7 +8230,7 @@ The episode opens up with Wes Wrench and his associate and translator Grady Numb
           <DateTime Value="2017-06-26T08:51:17" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-06-26T08:58:42" />
+          <DateTime Value="2017-06-27T10:45:23" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="IreneRanzato" />
@@ -8209,7 +8287,7 @@ The episode opens up with Wes Wrench and his associate and translator Grady Numb
           <String Value="Respond interlingually: different sources " />
         </Facet>
         <Facet Name="L3TT-instances: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>

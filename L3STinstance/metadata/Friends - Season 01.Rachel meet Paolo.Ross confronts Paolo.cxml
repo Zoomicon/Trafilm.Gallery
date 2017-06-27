@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Rachel meets Paolo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Ross confronts Paolo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -30,8 +30,8 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Friends - Season 01.Rachel meet Paolo.Ross confronts Paolo" Name="Rachel meets Paolo" Img="https://i.ytimg.com/vi/zv0WXhN-Bfw/maxresdefault.jpg" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Friends - Season 01&amp;conversation=Friends - Season 01.Rachel meet Paolo&amp;L3STinstance=Friends - Season 01.Rachel meet Paolo.Ross confronts Paolo">
-      <Description>Ross tries to confront Paolo about his feelings for Rachel, but the fact that the two men do not speak the same language create misunderstandings.</Description>
+    <Item Id="Friends - Season 01.Rachel meet Paolo.Ross confronts Paolo" Name="Ross confronts Paolo" Img="https://i.ytimg.com/vi/zv0WXhN-Bfw/maxresdefault.jpg" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Friends - Season 01&amp;conversation=Friends - Season 01.Rachel meet Paolo&amp;L3STinstance=Friends - Season 01.Rachel meet Paolo.Ross confronts Paolo">
+      <Description>Ross tries to confront Paolo about his feelings for Rachel, but the fact that the two men do not speak the same language creates misunderstandings.</Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="Friends - Season 01.Rachel meet Paolo.Ross confronts Paolo" />
@@ -43,7 +43,7 @@
           <DateTime Value="2017-06-26T08:51:17" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-06-26T08:58:42" />
+          <DateTime Value="2017-06-27T10:45:23" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="IreneRanzato" />
@@ -100,7 +100,7 @@
           <String Value="Respond interlingually: different sources " />
         </Facet>
         <Facet Name="L3TT-instances: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>
