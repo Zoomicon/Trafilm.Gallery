@@ -1200,8 +1200,8 @@ Based on the homonym novel by Philip K. Dick.</Description>
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Friends" Name="Friends - Season 02" Img="https://img.yescdn.ru/2016/03/03/poster/4bdf04efbc50473c77ba299e12734242-friends-season-2.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Friends">
-      <Description>Friends follows the life of a group of six friends in their 30s - Rachel, Ross, Monica, Chandler, Phoebe and Joey - during a period of 10 years.</Description>
+    <Item Id="Friends" Name="Friends - Season 02" Img="" Href="http://gallery.trafilm.net/film/metadata/?film=Friends">
+      <Description></Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="Friends" />
@@ -1210,33 +1210,13 @@ Based on the homonym novel by Philip K. Dick.</Description>
           <DateTime Value="2017-06-26T03:20:55" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-06-26T04:08:33" />
+          <DateTime Value="2017-06-28T05:07:29" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="IreneRanzato" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Friends - Season 02" />
-        </Facet>
-        <Facet Name="Type">
-          <String Value="TV series season" />
-        </Facet>
-        <Facet Name="Director(s)">
-          <String Value=" Marta Kauffman" />
-          <String Value=" David Crane" />
-        </Facet>
-        <Facet Name="Production countries">
-          <String Value="USA" />
-        </Facet>
-        <Facet Name="Production companies">
-          <String Value="Bright/Kauffman/Crane Productions" />
-          <String Value=" Warner Bros Television" />
-        </Facet>
-        <Facet Name="Year ST released">
-          <Number Value="1995" />
-        </Facet>
-        <Facet Name="Main language (L1)">
-          <String Value="English" />
         </Facet>
         <Facet Name="Conversations: count">
           <Number Value="0" />
