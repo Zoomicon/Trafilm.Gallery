@@ -3510,6 +3510,58 @@ Based on the homonym novel by Philip K. Dick.</Description>
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Sophie's Choice" Name="Sophie's Choice" Img="https://pics.filmaffinity.com/sophie_s_choice-404175883-large.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Sophie's Choice">
+      <Description>After spending time with his new neighbors, an aspiring writer realizes they are harboring deep secrets that will forever change him.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Sophie's Choice" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-06-29T03:34:17" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-06-29T03:38:46" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="natalia.sanchez2594" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Sophie's Choice" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="157" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Alan J. Pakula" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Alan J Pakula" />
+          <String Value=" William Styron" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="United States" />
+          <String Value=" United Kingdom" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="Incorporated Television Company" />
+        </Facet>
+        <Facet Name="Blockbuster">
+          <String Value="NO, but commercially intended" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="1982" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Spanglish" Name="Spanglish" Img="https://upload.wikimedia.org/wikipedia/en/7/7f/Spanglish_poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Spanglish">
       <Description>The film is about a divorded woman from Mexico, Flor, who emigrates to Los Angeles with her daughter Cristina. Unexpectedly, she is given the job of housekeeper at the Clasky's family. Flor and the Clasky's don't understand each other since the Clasky's only speak English and Flor only speaks Spanish. Towards the end of the film Flor decides to break through the language barrier by learning some English.</Description>
       <Facets>
@@ -3609,6 +3661,58 @@ Based on the homonym novel by Philip K. Dick.</Description>
         </Facet>
         <Facet Name="Year ST released">
           <Number Value="1999" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="The Book Thief" Name="The Book Thief" Img="http://www.impawards.com/2013/posters/book_thief_xlg.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=The Book Thief">
+      <Description>While subjected to the horrors of World War II Germany, young Liesel finds solace by stealing books and sharing them with others. In the basement of her home, a Jewish refugee is being protected by her adoptive parents.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="The Book Thief" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-06-29T03:22:06" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-06-29T03:28:25" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="natalia.sanchez2594" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="The Book Thief" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="131" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Brian Percival" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Michael Petroni" />
+          <String Value=" Markus Zusak" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="United States" />
+          <String Value=" Germany" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="20th Century Fox" />
+        </Facet>
+        <Facet Name="Blockbuster">
+          <String Value="NO, but commercially intended" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2013" />
         </Facet>
         <Facet Name="Main language (L1)">
           <String Value="English" />
