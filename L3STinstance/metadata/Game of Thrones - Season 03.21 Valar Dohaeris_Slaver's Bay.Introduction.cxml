@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Game of Thrones - Season 03.21 Valar Dohaeris_Slaver's Bay.Introduction" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="21 Valar Dohaeris, Slaver's Bay, Introduction" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -30,23 +30,82 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Game of Thrones - Season 03.21 Valar Dohaeris_Slaver's Bay.Introduction" Name="Game of Thrones - Season 03.21 Valar Dohaeris_Slaver's Bay.Introduction" Img="" Href="">
-      <Description></Description>
+    <Item Id="Game of Thrones - Season 03.21 Valar Dohaeris_Slaver's Bay.Introduction" Name="21 Valar Dohaeris, Slaver's Bay, Introduction" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Game of Thrones - Season 03&amp;conversation=Game of Thrones - Season 03.21 Valar Dohaeris_Slaver's Bay&amp;L3STinstance=Game of Thrones - Season 03.21 Valar Dohaeris_Slaver's Bay.Introduction">
+      <Description>pre-negotiations between Daenerys and the slavers</Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="Game of Thrones - Season 03.21 Valar Dohaeris_Slaver's Bay.Introduction" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Kraznys: (L3, no subs)&#xD;&#xA;Missandei: (L1) The unsullied have stood here for a day and a night with no food or water.&#xD;&#xA;Kraznys: (L3, no subs)&#xD;&#xA;Missandei: (L1) They stand until they drop. &#xD;&#xA;Kraznys: (L3, no subs)&#xD;&#xA;Missandei: (L1) Such is their obedience." />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="Valyrian" />
+          <String Value=" negotiation" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="Transcription of L3 not available" />
         </Facet>
         <Facet Name="Info created">
           <DateTime Value="2017-07-11T08:25:54" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-07-11T08:25:54" />
+          <DateTime Value="2017-07-11T08:40:29" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="SIberg" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Game of Thrones - Season 03" />
         </Facet>
         <Facet Name="Conversation Reference Id">
           <String Value="Game of Thrones - Season 03.21 Valar Dohaeris_Slaver's Bay" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="44" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="B. 21-40" />
+        </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L3ST language type">
+          <String Value="Constructed (fictional)" />
+        </Facet>
+        <Facet Name="L3ST language">
+          <String Value="Valyrian" />
+        </Facet>
+        <Facet Name="L3ST constructed based on">
+          <String Value="historical" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3ST speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3ST mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3ST merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
+        <Facet Name="L3ST functions">
+          <String Value="Signals otherness" />
+        </Facet>
+        <Facet Name="Conversation features for L3ST-instance">
+          <String Value="information" />
+          <String Value="sales" />
+        </Facet>
+        <Facet Name="L3ST sources">
+          <String Value="Rephrase interlingually: different sources" />
         </Facet>
         <Facet Name="L3TT-instances: count">
           <Number Value="0" />
