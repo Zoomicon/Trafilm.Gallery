@@ -24,7 +24,7 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="The Departed" Name="The Departed" Img="https://en.wikipedia.org/wiki/File:Departed234.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=The Departed">
+    <Item Id="The Departed" Name="The Departed" Img="https://upload.wikimedia.org/wikipedia/en/5/50/Departed234.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=The Departed">
       <Description>In South Boston, the state police force is waging war on Irish-American organized crime. Young undercover cop Billy Costigan is assigned to infiltrate the mob syndicate run by gangland chief Frank Costello. While Billy quickly gains Costello's confidence, Colin Sullivan, a hardened young criminal who has infiltrated the state police as an informer for the syndicate is rising to a position of power in the Special Investigation Unit. Each man becomes deeply consumed by their double lives, gathering information about the plans and counter-plans of the operations they have penetrated. But when it becomes clear to both the mob and the police that there is a mole in their midst, Billy and Colin are suddenly in danger of being caught and exposed to the enemy - and each must race to uncover the identity of the other man in time to save themselves. But is either willing to turn on their friends and comrades they've made during their long stints undercover? </Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -34,10 +34,11 @@
           <DateTime Value="2017-08-01T02:38:41" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-08-01T02:51:21" />
+          <DateTime Value="2017-08-01T07:25:16" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="miquelpt" />
+          <String Value="PatrickZabalbeascoa" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="The Departed" />
@@ -73,8 +74,11 @@
         <Facet Name="Main language (L1)">
           <String Value="English" />
         </Facet>
+        <Facet Name="L2-Dubbed languages">
+          <String Value="Spanish" />
+        </Facet>
         <Facet Name="Conversations: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>

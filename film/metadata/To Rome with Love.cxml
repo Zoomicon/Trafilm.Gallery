@@ -24,7 +24,7 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="To Rome with Love" Name="To Rome with Love" Img="https://www.google.es/search?q=room+with+love&amp;client=opera&amp;site=webhp&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=0ahUKEwi0gtqS65zUAhWFiRoKHXmhCzsQ_AUIBigB&amp;biw=1242&amp;bih=598&amp;dpr=1.1#tbm=isch&amp;q=to+rome+with+love&amp;imgrc=sHmX-DmbUjFNKM:" Href="http://gallery.trafilm.net/film/metadata/?film=To Rome with Love">
+    <Item Id="To Rome with Love" Name="To Rome with Love" Img="https://en.wikipedia.org/wiki/To_Rome_with_Love_(film)#/media/File:To_rome_with_love_ver2.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=To Rome with Love">
       <Description>This film is about the lives of some visitors and residents of Rome and the romances, adventures and predicaments they get into.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -37,10 +37,11 @@
           <DateTime Value="2017-06-01T02:15:25" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-06-01T02:27:35" />
+          <DateTime Value="2017-08-01T07:28:27" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="SoniaGonzalez" />
+          <String Value="PatrickZabalbeascoa" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="To Rome with Love" />

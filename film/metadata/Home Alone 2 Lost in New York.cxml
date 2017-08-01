@@ -24,7 +24,7 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Home Alone 2 Lost in New York" Name="Home Alone 2 Lost in New York" Img="" Href="http://gallery.trafilm.net/film/metadata/?film=Home Alone 2 Lost in New York">
+    <Item Id="Home Alone 2 Lost in New York" Name="Home Alone 2 Lost in New York" Img="https://en.wikipedia.org/wiki/Home_Alone_2:_Lost_in_New_York#/media/File:Home_Alone_2.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Home Alone 2 Lost in New York">
       <Description>One year after Kevin was left home alone and had to defeat a pair of bumbling burglars, he accidentally finds himself in New York City, and the same criminals are not far behind. 
 (IMDb)</Description>
       <Facets>
@@ -35,10 +35,11 @@
           <DateTime Value="2017-06-07T03:14:53" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-06-07T03:17:48" />
+          <DateTime Value="2017-08-01T07:21:08" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="SoniaGonzalez" />
+          <String Value="PatrickZabalbeascoa" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Home Alone 2 Lost in New York" />
@@ -70,8 +71,11 @@
         <Facet Name="Main language (L1)">
           <String Value="English" />
         </Facet>
+        <Facet Name="L2-Dubbed languages">
+          <String Value="Spanish" />
+        </Facet>
         <Facet Name="Conversations: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>
