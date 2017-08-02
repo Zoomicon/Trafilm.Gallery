@@ -24044,13 +24044,13 @@ At the same time Mathis is on the phone</Description>
           <String Value="The Departed.Chinese deal.Closing the deal 2" />
         </Facet>
         <Facet Name="Transcription">
-          <String Value="&#xD;&#xA;COSTELLO: If these chinks want to nuke Taiwan any time in this century, you tell them they better shape up fast and show me one million dollars.&#xD;&#xA;&#xD;&#xA;The CHINESE TRANSLATOR translates.&#xD;&#xA;&#xD;&#xA;COSTELLO (CONT'D): What we generally do in this country is one guy shows up with the items, and the other guy pays him. No tickee...no laundry.&#xD;&#xA;&#xD;&#xA;CHINESE GANGSTER: Nay tiey ching chaw yut bok mon. [Make sure it’s real. It’s a million dollars.]." />
+          <String Value="&#xD;&#xA;COSTELLO: If these chinks want to nuke Taiwan any time in this century, they better shape up and show me one million dollars.&#xD;&#xA;&#xD;&#xA;The CHINESE TRANSLATOR translates.&#xD;&#xA;&#xD;&#xA;COSTELLO (CONT'D): What we generally do in this country is one guy brings the items, and the other guy pays him. No tickee...no laundry.&#xD;&#xA;&#xD;&#xA;CHINESE GANGSTER: Chin.&#xD;&#xA;&#xD;&#xA;COSTELLO: Go ahead, Fitzy.&#xD;&#xA;&#xD;&#xA;CHINESE GANGSTER: Wo fan ku lei an. Lei chaca chaca." />
         </Facet>
         <Facet Name="Info created">
           <DateTime Value="2017-08-01T02:57:02" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-08-02T11:51:32" />
+          <DateTime Value="2017-08-02T01:00:22" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="miquelpt" />
@@ -24077,10 +24077,10 @@ At the same time Mathis is on the phone</Description>
           <String Value="Chinese" />
         </Facet>
         <Facet Name="L3ST meant to be understood">
-          <String Value="YES, the gist, the implications of what is happening" />
+          <String Value="NO" />
         </Facet>
         <Facet Name="L3ST message required for understanding">
-          <String Value="Conversation can be followed regardless of meaning" />
+          <String Value="Yes" />
         </Facet>
         <Facet Name="L3ST meaning decipherable">
           <String Value="YES, through translation or clear from picture" />
@@ -24093,7 +24093,6 @@ At the same time Mathis is on the phone</Description>
         </Facet>
         <Facet Name="L3ST functions">
           <String Value="Stereotype" />
-          <String Value="Signals the bad guy" />
           <String Value="Signals otherness" />
         </Facet>
         <Facet Name="Conversation features for L3ST-instance">
@@ -24104,12 +24103,12 @@ At the same time Mathis is on the phone</Description>
           <String Value="Rephrase interlingually: different sources" />
         </Facet>
         <Facet Name="L3TT-instances: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>
     <Item Id="The Departed.Chinese deal.Closing the deal" Name="The Departed.Chinese deal.Closing the deal" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=The Departed&amp;conversation=The Departed.Chinese deal&amp;L3STinstance=The Departed.Chinese deal.Closing the deal">
-      <Description></Description>
+      <Description>Frank Costello sells microprocessors to a Chinese mafia group, whose leader speaks only Chinese. Costello counts on a Chinese interpreter to close the deal.</Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="The Departed.Chinese deal.Closing the deal" />
@@ -24121,7 +24120,7 @@ At the same time Mathis is on the phone</Description>
           <DateTime Value="2017-08-01T02:57:02" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-08-02T10:17:46" />
+          <DateTime Value="2017-08-02T12:47:13" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="miquelpt" />
@@ -24148,10 +24147,10 @@ At the same time Mathis is on the phone</Description>
           <String Value="Chinese" />
         </Facet>
         <Facet Name="L3ST meant to be understood">
-          <String Value="YES, the gist, the implications of what is happening" />
+          <String Value="NO" />
         </Facet>
         <Facet Name="L3ST message required for understanding">
-          <String Value="Conversation can be followed regardless of meaning" />
+          <String Value="Yes" />
         </Facet>
         <Facet Name="L3ST meaning decipherable">
           <String Value="YES, through translation or clear from picture" />
@@ -24162,12 +24161,8 @@ At the same time Mathis is on the phone</Description>
         <Facet Name="L3ST mode, written/spoken, diegetic">
           <String Value="Oral diegetic on-screen" />
         </Facet>
-        <Facet Name="L3ST merely represented">
-          <String Value="L3 mentioned, talked about" />
-        </Facet>
         <Facet Name="L3ST functions">
           <String Value="Stereotype" />
-          <String Value="Signals the bad guy" />
           <String Value="Signals otherness" />
         </Facet>
         <Facet Name="Conversation features for L3ST-instance">

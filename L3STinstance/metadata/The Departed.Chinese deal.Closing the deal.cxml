@@ -31,7 +31,7 @@
   </FacetCategories>
   <Items xmlns="">
     <Item Id="The Departed.Chinese deal.Closing the deal" Name="The Departed.Chinese deal.Closing the deal" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=The Departed&amp;conversation=The Departed.Chinese deal&amp;L3STinstance=The Departed.Chinese deal.Closing the deal">
-      <Description></Description>
+      <Description>Frank Costello sells microprocessors to a Chinese mafia group, whose leader speaks only Chinese. Costello counts on a Chinese interpreter to close the deal.</Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="The Departed.Chinese deal.Closing the deal" />
@@ -43,7 +43,7 @@
           <DateTime Value="2017-08-01T02:57:02" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-08-02T10:17:46" />
+          <DateTime Value="2017-08-02T12:47:13" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="miquelpt" />
@@ -70,10 +70,10 @@
           <String Value="Chinese" />
         </Facet>
         <Facet Name="L3ST meant to be understood">
-          <String Value="YES, the gist, the implications of what is happening" />
+          <String Value="NO" />
         </Facet>
         <Facet Name="L3ST message required for understanding">
-          <String Value="Conversation can be followed regardless of meaning" />
+          <String Value="Yes" />
         </Facet>
         <Facet Name="L3ST meaning decipherable">
           <String Value="YES, through translation or clear from picture" />
@@ -84,12 +84,8 @@
         <Facet Name="L3ST mode, written/spoken, diegetic">
           <String Value="Oral diegetic on-screen" />
         </Facet>
-        <Facet Name="L3ST merely represented">
-          <String Value="L3 mentioned, talked about" />
-        </Facet>
         <Facet Name="L3ST functions">
           <String Value="Stereotype" />
-          <String Value="Signals the bad guy" />
           <String Value="Signals otherness" />
         </Facet>
         <Facet Name="Conversation features for L3ST-instance">
