@@ -3436,7 +3436,7 @@
           <DateTime Value="2017-08-03T03:56:53" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-08-03T03:59:47" />
+          <DateTime Value="2017-08-03T04:01:12" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="SoniaGonzalez" />
@@ -65230,6 +65230,102 @@ Mikael Blomkvist's toast sounds as non-native Swedish</Description>
         </Facet>
         <Facet Name="L3 sources change">
           <String Value="None" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="To Rome with Love.Directing traffic.Speaking Italian.SpanishDub" Name="To Rome with Love.Directing traffic.Speaking Italian.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=To Rome with Love&amp;conversation=To Rome with Love.Directing traffic&amp;L3STinstance=To Rome with Love.Directing traffic.Speaking Italian&amp;L3TTinstance=To Rome with Love.Directing traffic.Speaking Italian.SpanishDub">
+      <Description>An Italian policeman is directing traffic in Rome.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="To Rome with Love.Directing traffic.Speaking Italian.SpanishDub" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-08-03T05:13:12" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-08-03T05:15:38" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="SoniaGonzalez" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="To Rome with Love" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="To Rome with Love.Directing traffic" />
+        </Facet>
+        <Facet Name="L3ST-instance Reference Id">
+          <String Value="To Rome with Love.Directing traffic.Speaking Italian" />
+        </Facet>
+        <Facet Name="Film Title TT">
+          <String Value="A Roma con amor" />
+        </Facet>
+        <Facet Name="L2 language">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L2 mode">
+          <String Value="Dubbed" />
+        </Facet>
+        <Facet Name="Distribution countries (TT)">
+          <String Value="Spain" />
+        </Facet>
+        <Facet Name="Year TT released">
+          <Number Value="2012" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L2 same as L3ST">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3ST conveyed as L3TT">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3TT language">
+          <String Value="Italian" />
+        </Facet>
+        <Facet Name="L3TT meant to be understood">
+          <String Value="YES, (almost) completely" />
+        </Facet>
+        <Facet Name="L3TT message required for understanding">
+          <String Value="Conversation can be followed regardless of meaning" />
+        </Facet>
+        <Facet Name="L3TT meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3TT speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3TT mode, written/spoken, diegetic">
+          <String Value="Oral non-diegetic" />
+        </Facet>
+        <Facet Name="L3TT merely represented orally">
+          <String Value="L-main quirkiness or clue" />
+        </Facet>
+        <Facet Name="L3TT functions">
+          <String Value="Stereotype" />
+        </Facet>
+        <Facet Name="Conversation features for L3TT-instance">
+          <String Value="vulgar" />
+        </Facet>
+        <Facet Name="L3 language type change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 mode change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 functions change">
+          <String Value="- Comedy / humour" />
+        </Facet>
+        <Facet Name="Conversation features for L3-instance change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 sources change">
+          <String Value="- Oral L3: single source" />
+          <String Value="+ " />
         </Facet>
       </Facets>
     </Item>
