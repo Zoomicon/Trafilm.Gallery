@@ -208,10 +208,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="collection\" />
-    <Folder Include="conversation\image\" />
-    <Folder Include="film\image\" />
-    <Folder Include="L3STinstance\image\" />
-    <Folder Include="L3TTinstance\image\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

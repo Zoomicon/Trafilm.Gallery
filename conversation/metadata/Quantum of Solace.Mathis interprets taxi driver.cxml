@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Quantum of Solace.Mathis interprets taxi driver" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Mathis interprets taxi driver" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="False" p:IsWordWheelVisible="False" />
@@ -21,7 +21,7 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Quantum of Solace.Mathis interprets taxi driver" Name="Quantum of Solace.Mathis interprets taxi driver" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Mathis interprets taxi driver">
+    <Item Id="Quantum of Solace.Mathis interprets taxi driver" Name="Mathis interprets taxi driver" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Quantum of Solace&amp;conversation=Quantum of Solace.Mathis interprets taxi driver">
       <Description>Mathis is on the phone while The taxi driver who takes him, Bond and agent Strawberry Fields is complaining about environmental issues, the government etc. Mathis acts as an interpreter for Bond
 </Description>
       <Facets>
@@ -35,10 +35,11 @@
           <DateTime Value="2017-01-11T07:09:40" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-01-11T09:46:33" />
+          <DateTime Value="2017-03-17T01:03:42" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Quantum of Solace" />
@@ -53,13 +54,19 @@
           <String Value="A. 1-20" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Latin American Spanish" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>

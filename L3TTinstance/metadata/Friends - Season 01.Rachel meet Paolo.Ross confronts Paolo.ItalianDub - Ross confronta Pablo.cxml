@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Collection SchemaVersion="1.0" Name="Friends - Season 01.Rachel meet Paolo.Ross confronts Paolo.ItalianDub - Ross confronta Pablo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+  <FacetCategories>
+    <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Conversation Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST-instance Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Film Title TT" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L2 language" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L2 mode" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Distribution countries (TT)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Year TT released" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Film TT Blockbuster" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Conversation start time (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Conversation duration (sec)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="L2 same as L3ST" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="L3ST conveyed as L3TT" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="L3TT language type" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3TT language" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3TT constructed based on" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3TT meant to be understood" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3TT message required for understanding" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3TT meaning decipherable" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Quality of L3TT speaker performance" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="L3TT mode, written/spoken, diegetic" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3TT merely represented" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3TT merely represented orally" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3TT represented: visual" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3TT functions" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Conversation features for L3TT-instance" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3TT sources" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3 language type change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3 mode change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3 functions change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Conversation features for L3-instance change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3 sources change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Tags" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+  </FacetCategories>
+  <Items xmlns="">
+    <Item Id="Friends - Season 01.Rachel meet Paolo.Ross confronts Paolo.ItalianDub - Ross confronta Pablo" Name="Friends - Season 01.Rachel meet Paolo.Ross confronts Paolo.ItalianDub - Ross confronta Pablo" Img="https://i.ytimg.com/vi/zv0WXhN-Bfw/maxresdefault.jpg" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Friends - Season 01&amp;conversation=Friends - Season 01.Rachel meet Paolo&amp;L3STinstance=Friends - Season 01.Rachel meet Paolo.Ross confronts Paolo&amp;L3TTinstance=Friends - Season 01.Rachel meet Paolo.Ross confronts Paolo.ItalianDub - Ross confronta Pablo">
+      <Description>Ross tries to confront Paolo about his feelings for Rachel, but the fact that the two men do not speak the same language creates misunderstandings.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Friends - Season 01.Rachel meet Paolo.Ross confronts Paolo.ItalianDub - Ross confronta Pablo" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Ross: Pablo, ciao.&#xD;&#xA;Pablo: Ross.&#xD;&#xA;Ross: Senti, c’è una cosa... c’è una cosa che tu dovresti sapere.Rachel ed io siamo… siamo come dire… una cosa sola.&#xD;&#xA;Pablo: Cosa?&#xD;&#xA;Ross: Cosa, si, cosa.&#xD;&#xA;Pablo: Voi fate sesso?&#xD;&#xA;Ross: No. no, no. Tecnicamente il sesso tra di noi non è stato ancora praticato. Ma questo non è il punto. Il punto è che io e Rachel ormai siamo come…ecco…siamo fatti l’uno per l’altra. E capisci se tu ti metterai in…&#xD;&#xA;Pablo: In letto.&#xD;&#xA;Ross: No. Letto non c’entra. Se tu ti metterai in mezzo impedendoci di diventare una cosa sola, io diventerò molto triste.&#xD;&#xA;Pablo: Oh...oh.&#xD;&#xA;Ross: Allora tu hai… comprende?&#xD;&#xA;Pablo: Si.&#xD;&#xA;Ross: Si, davvero?&#xD;&#xA;Pablo: Si.&#xD;&#xA;Ross: Grandioso! Allora tu capisci un po’ quello che dico?&#xD;&#xA;Pablo: Poquito.&#xD;&#xA;Ross: Allora tu sai cosa vuol dire verme schifoso?&#xD;&#xA;Pablo: No.&#xD;&#xA;Ross: Non lo sai? Che strano perché tu sei un grosso verme schifoso. &#xD;&#xA;Pablo: Gracias!&#xD;&#xA;Ross: Figurati.&#xD;&#xA;" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-06-26T09:42:36" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-06-27T10:46:27" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="IreneRanzato" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Friends - Season 01" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Friends - Season 01.Rachel meet Paolo" />
+        </Facet>
+        <Facet Name="L3ST-instance Reference Id">
+          <String Value="Friends - Season 01.Rachel meet Paolo.Ross confronts Paolo" />
+        </Facet>
+        <Facet Name="Film Title TT">
+          <String Value="Friends" />
+        </Facet>
+        <Facet Name="L2 language">
+          <String Value="Italian" />
+        </Facet>
+        <Facet Name="L2 mode">
+          <String Value="Dubbed" />
+        </Facet>
+        <Facet Name="Distribution countries (TT)">
+          <String Value="Italy" />
+        </Facet>
+        <Facet Name="Year TT released">
+          <Number Value="1997" />
+        </Facet>
+        <Facet Name="Film TT Blockbuster">
+          <String Value="YES (top 20)" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="E. 81-100" />
+        </Facet>
+        <Facet Name="L2 same as L3ST">
+          <String Value="No" />
+        </Facet>
+        <Facet Name="L3ST conveyed as L3TT">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3TT language">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L3TT meant to be understood">
+          <String Value="YES, the gist, the implications of what is happening" />
+        </Facet>
+        <Facet Name="L3TT message required for understanding">
+          <String Value="Conversation can be followed regardless of meaning" />
+        </Facet>
+        <Facet Name="L3TT meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3TT speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3TT mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3TT merely represented">
+          <String Value="YES: orally" />
+        </Facet>
+        <Facet Name="L3TT merely represented orally">
+          <String Value="Farcical L-main" />
+        </Facet>
+        <Facet Name="L3TT functions">
+          <String Value="Stereotype" />
+          <String Value="Plot (twist)" />
+          <String Value="Comedy / humour" />
+        </Facet>
+        <Facet Name="Conversation features for L3TT-instance">
+          <String Value="cliché / hot air" />
+          <String Value="embarassing" />
+        </Facet>
+        <Facet Name="L3TT sources">
+          <String Value="Bilingual (L3&amp;main): same source " />
+        </Facet>
+        <Facet Name="L3 language type change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 mode change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 functions change">
+          <String Value="+ Plot (twist)" />
+        </Facet>
+        <Facet Name="Conversation features for L3-instance change">
+          <String Value="- sex" />
+        </Facet>
+        <Facet Name="L3 sources change">
+          <String Value="- Respond interlingually: different sources " />
+          <String Value="+ Bilingual (L3&amp;main): same source " />
+        </Facet>
+      </Facets>
+    </Item>
+  </Items>
+</Collection>

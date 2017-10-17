@@ -1,4 +1,4 @@
-:: Version: 20161215
+:: Version: 20171017
 :: Author: George Birbilis (http://zoomicon.com)
 
 @echo off
@@ -6,6 +6,10 @@ call :process 2>&1 > update_GitHub.log
 goto :EOF
 
 :process
+
+ECHO ---- Deleting lock
+del ..\.git\index.lock
+ECHO.
 
 ECHO ---- Staging changes for addition to local repository
 git add .. 2>&1 || (goto Fail)

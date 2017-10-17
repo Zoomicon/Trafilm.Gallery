@@ -24,7 +24,7 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Raid on Rommel" Name="Raid on Rommel" Img="https://images-na.ssl-images-amazon.com/images/M/MV5BMTg1MzEyNTk1MF5BMl5BanBnXkFtZTcwNTIzNjQyMQ@@._V1_.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Raid on Rommel">
+    <Item Id="Raid on Rommel" Name="Raid on Rommel" Img="https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/Poster_of_the_movie_Raid_on_Rommel.jpg/220px-Poster_of_the_movie_Raid_on_Rommel.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Raid on Rommel">
       <Description>The film is set in North Africa during World War II. Several British commandos set out to destroy the heavy German artillery at Tobruk (Rommel and Nazi troops'shelter). In order to carry out this mission they are assigned the job of becoming prisoners of war and they are led by Captain Foster, an English Officer posing as a Nazi Officer. The mistress of an Italian general is also a prisoner who travels with them to Tobruk. Complications develop when Foster arrives at the rendezvous point and all he finds are genuine sick prisoners of war.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -43,10 +43,11 @@
           <DateTime Value="2016-11-20T05:48:27" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-11-29T11:52:29" />
+          <DateTime Value="2017-04-17T01:31:19" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="corrius" />
+          <String Value="Guillermo" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Raid on Rommel" />

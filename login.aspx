@@ -5,7 +5,7 @@
 <%--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: login.aspx
-Version: 20161024
+Version: 20170316
 --%>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -14,11 +14,18 @@ Version: 20161024
   <title>Trafilm Gallery | Login</title>
 
   <meta name="viewport" content="width=400, user-scalable=yes, initial-scale=1" />
+  
+  <link href="css/metadata.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
 
   <form id="form1" runat="server">
+
+    <div class="navigation">
+      <a href="http://trafilm.net" target="trafilm"><img src="http://trafilm.net/App_Themes/trafilm/img/logo.png" height="18" /></a>
+    </div>
+
     <div>
 
       <asp:Login ID="loginControl" runat="server" OnLoggedIn="loginControl_LoggedIn">
@@ -29,7 +36,7 @@ Version: 20161024
                 <table cellpadding="0">
                   <tr>
                     <td align="right">
-                      <asp:Label ID="UserNameLabel" runat="server" AssociatedControlID="UserName">User Name:</asp:Label>
+                      <asp:Label ID="UserNameLabel" runat="server" AssociatedControlID="UserName">User Name&nbsp;</asp:Label>
                     </td>
                     <td>
                       <asp:TextBox ID="UserName" runat="server" Columns="25" />
@@ -37,11 +44,14 @@ Version: 20161024
                     </td>
                   </tr>
                   <tr>
+                    <td style="height:5px;"></td>
+                  </tr>
+                  <tr>
                     <td align="right">
-                      <asp:Label ID="PasswordLabel" runat="server" AssociatedControlID="Password">Password:</asp:Label>
+                      <asp:Label ID="PasswordLabel" runat="server" AssociatedControlID="Password">Password&nbsp;</asp:Label>
                     </td>
                     <td>
-                      <asp:TextBox ID="Password" runat="server" TextMode="Password" Columns="25" />
+                      <asp:TextBox ID="Password" runat="server" TextMode="Password" Columns="26" />
                       <asp:RequiredFieldValidator ID="PasswordRequired" runat="server" ControlToValidate="Password" ErrorMessage="Password is required." ToolTip="Password is required." ValidationGroup="loginControl" ForeColor="red">*</asp:RequiredFieldValidator>
                     </td>
                   </tr>
@@ -59,7 +69,7 @@ Version: 20161024
                     <td align="left" colspan="2">
                       <asp:CheckBox ID="RememberMe" runat="server" Text="Remember me next time" />
                       &nbsp;&nbsp;
-                      <asp:Button ID="LoginButton" runat="server" CommandName="Login" Text="Log In" ValidationGroup="loginControl" style="text-align: left" />
+                      <asp:Button ID="LoginButton" runat="server" CommandName="Login" Text="Log In" ValidationGroup="loginControl" style="text-align: left" BackColor="#DA3402" ForeColor="GhostWhite" />
                     </td>
                   </tr>
                 </table>
@@ -74,17 +84,17 @@ Version: 20161024
     <br />
 
     <div>
-      You can register as new user or request password reset at <a href="http://trafilm.net/login.aspx" target="Trafilm">Trafilm main website</a>
+      You can register as new user or request password reset at the <a href="http://trafilm.net/login.aspx" target="Trafilm">Trafilm main website</a>
       <br />
       <br />
       To edit metadata you also need to be given respective access rights by the Trafilm.net admins,
     <br />
-      so after registering as a new user please <a href="http://www.trafilm.net/MonoX/Pages/Contact.aspx">contact us</a>, informing us of your user name and your request
+      so after registering as a new user, please <a href="http://www.trafilm.net/MonoX/Pages/Contact.aspx">contact us</a>, informing us of your user name and your request
     </div>
 
     <br />
 
-    <div>
+    <div style="font-style:italic">
       Logged-in users:
       <asp:Label ID="lblUserCount" runat="server" />
     </div>

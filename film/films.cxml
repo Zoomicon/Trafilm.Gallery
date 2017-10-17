@@ -24,6 +24,63 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
+    <Item Id="A Fish Called Wanda" Name="A Fish Called Wanda" Img="http://www.impawards.com/1988/posters/fish_called_wanda.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=A Fish Called Wanda">
+      <Description>Sexy American Wanda and her boyfriend Otto are in London to plot alongside George and Ken the robbery of a diamond collection. Wanda and Otto want the stolen diamonds for themselves, and inform the police about George not knowing that he has already moved the diamonds to another secret place. Wanda thinks the best way to find out is by getting close to George's lawyer – upper class British barrister Archie Leach.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="A Fish Called Wanda" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="Italian" />
+          <String Value=" Russian" />
+          <String Value=" American vs British" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="Function of language varieties in ST: Class differentiation, cultural differentiation, stereotypes " />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-05-24T03:42:08" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-05-26T07:39:33" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="IreneRanzato" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="A Fish Called Wanda" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="108" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Charles Crichton" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="John Cleese" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="UK" />
+          <String Value=" USA" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="Metro Goldwyn Mayer" />
+          <String Value=" Prominent Features" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="1988" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="3" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="A Passage to India" Name="A Passage to India" Img="https://upload.wikimedia.org/wikipedia/ca/7/7e/Passage_to_india2.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=A Passage to India">
       <Description>A British woman, Adela Quested, joins her fiancée, Ronnie Heaslop, in India where he works as a city magistrate for the government. Ronnie's mother, Mrs. Moore, accompanies Adela and they befriend an Indian doctor called Aziz H. Ahmed. Since they profess interest in seeing the real India, experiencing the countryside and meeting everyday Indians, Dr. Aziz offers them to lead an expedition to the Marabar Caves. Once back in Chandrapore, Aziz is arrested and charged with attempting to rape Adela, a charge on an accusation Adela herself made. The British Administration is against him and would like to see him declared guilty and so an uproar ensues between the Indians and the Colonials.</Description>
       <Facets>
@@ -270,12 +327,13 @@ Based on the homonym novel by Philip K. Dick.</Description>
           <DateTime Value="2016-10-07T12:30:57" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-19T02:53:04" />
+          <DateTime Value="2017-03-12T07:21:30" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Stavroula" />
           <String Value="PatrickZabalbeascoa" />
           <String Value="George" />
+          <String Value="corrius" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Avatar" />
@@ -314,7 +372,7 @@ Based on the homonym novel by Philip K. Dick.</Description>
           <String Value="Spanish" />
         </Facet>
         <Facet Name="Conversations: count">
-          <Number Value="1" />
+          <Number Value="2" />
         </Facet>
       </Facets>
     </Item>
@@ -434,6 +492,114 @@ Based on the homonym novel by Philip K. Dick.</Description>
         </Facet>
         <Facet Name="Conversations: count">
           <Number Value="2" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Because I said so" Name="Because I said so" Img="https://upload.wikimedia.org/wikipedia/en/e/e7/Because_I_Said_So_Poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Because I said so">
+      <Description>A meddling mother tries to set her daughter up with the right man so her kid won't follow in her footsteps.
+(IMDb)</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Because I said so" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-08-03T03:40:12" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-08-04T12:03:55" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="SoniaGonzalez" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Because I said so" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="102" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Michael Lehmann" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Karen Leigh Hopkins" />
+          <String Value=" Jessie Nelson" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="United States" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="Universal Pcitures" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2007" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L2-Dubbed languages">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Beerfest" Name="Beerfest" Img="https://upload.wikimedia.org/wikipedia/en/6/6f/Beerfest_poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Beerfest">
+      <Description>Two brothers travel to Germany for Oktoberfest, only to stumble upon a secret, centuries-old competition described as a "Fight Club" with beer games.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Beerfest" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-04-08T05:28:13" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-04-08T05:31:49" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Guillermo" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Beerfest" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="110" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Jay Chandrasekhar" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Jay Chandrasekhar" />
+          <String Value=" Kevin Heffernan" />
+          <String Value=" Steve Lemme" />
+          <String Value=" Paul Soter" />
+          <String Value=" Erik Stolhanske" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="Warner Bros." />
+          <String Value=" Legendary Entertainment" />
+          <String Value=" Gerber Pictures" />
+          <String Value=" Cataland Films" />
+          <String Value=" Broken Lizard Industries" />
+          <String Value=" Adobe Pictures" />
+        </Facet>
+        <Facet Name="Blockbuster">
+          <String Value="NO, but commercially intended" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2006" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="0" />
         </Facet>
       </Facets>
     </Item>
@@ -711,6 +877,124 @@ Based on the homonym novel by Philip K. Dick.</Description>
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Cars 2" Name="Cars 2" Img="https://upload.wikimedia.org/wikipedia/en/7/7f/Cars_2_Poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Cars 2">
+      <Description>Lightning McQueen lives a lot of adventures with his friend Mate in different the World Grand Prix races abroad while he gets involved in an international espionage adventure with spies and a criminal plan to stop the use of clean energies.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Cars 2" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-03-30T10:45:58" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-03-30T10:55:28" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Santamaria" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Cars 2" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="106" />
+        </Facet>
+        <Facet Name="Series">
+          <String Value="Cars, Cars 3" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value=" John Lasseter" />
+          <String Value=" Brad Lewis " />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="John Lasseter" />
+          <String Value=" Brad Lewis" />
+          <String Value=" Dan Fogelman" />
+          <String Value=" Ben Queen " />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="USA" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value=" Walt Disney Pictures" />
+          <String Value=" Pixar Animation Studios " />
+        </Facet>
+        <Facet Name="Blockbuster">
+          <String Value="YES (top 20)" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2011" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Casino Royale" Name="Casino Royale" Img="https://upload.wikimedia.org/wikipedia/en/1/15/Casino_Royale_2_-_UK_cinema_poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Casino Royale">
+      <Description>Recently promoted to 00 status, James Bond takes over his first mission, in which he faces a mysterious private banker to world terrorism and poker player, Le Chiffre. Along with a beautiful Treasury agent and the MI6 man in Montenegro, Bond takes part in a high stakes poker game set up by Le Chiffre in order to recover a huge sum of his clients' money he lost in a failed plot that the British spy took down. 007 will not only discover the threatening organization behind his enemy, but the worst of all truths: to not trust on anyone.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Casino Royale" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-08-09T01:25:44" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-09-21T10:44:00" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="miquelpt" />
+          <String Value="George" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Casino Royale" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="144" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Martin Campbell" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Neal Purvis" />
+          <String Value=" Robert Wade" />
+          <String Value=" Paul Haggis" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="United Kingdom" />
+          <String Value=" United States" />
+          <String Value=" Czech Republic" />
+          <String Value=" Germany" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="Sony Pictures Entertainment" />
+          <String Value=" EON Productions" />
+        </Facet>
+        <Facet Name="Blockbuster">
+          <String Value="YES (top 20)" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2006" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L2-Dubbed languages">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="3" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Chocolat" Name="Chocolat" Img="https://images-na.ssl-images-amazon.com/images/M/MV5BNDg3NjA5NzYtYzE2OS00NzZiLTg2YTUtMmJkZDFmYjg5NjgwXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_UX182_CR0,0,182,268_AL_.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Chocolat">
       <Description>The film is set in a rural French village where a woman (Vianne Rocher) and her daughter (Anouk) open a chocolate shop. At the beginning they are met with skepticism but soon they are accepted by villagers. </Description>
       <Facets>
@@ -761,6 +1045,69 @@ Based on the homonym novel by Philip K. Dick.</Description>
         </Facet>
         <Facet Name="Conversations: count">
           <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Despicable me" Name="Despicable me" Img="https://upload.wikimedia.org/wikipedia/en/d/db/Despicable_Me_Poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Despicable me">
+      <Description>In a happy suburban neighborhood surrounded by white picket fences with flowering rose bushes, sits a black house with a dead lawn. Unbeknownst to the neighbors, hidden beneath this home is a vast secret hideout. Surrounded by a small army of minions, we discover Gru, planning the biggest heist in the history of the world. He is going to steal the moon. Gru delights in all things wicked. Armed with his arsenal of shrink rays, freeze rays, and battle-ready vehicles for land and air, he vanquishes all who stand in his way. Until the day he encounters the immense will of three little orphaned girls who look at him and see something that no one else has ever seen: a potential Dad.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Despicable me" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="Constructed language" />
+          <String Value=" minion language" />
+          <String Value=" minionese" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-05-30T12:52:01" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-08-01T07:18:57" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="SoniaGonzalez" />
+          <String Value="PatrickZabalbeascoa" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Despicable me" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="95" />
+        </Facet>
+        <Facet Name="Series">
+          <String Value="Despicable Me" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Pierre Coffin" />
+          <String Value=" Chris Renaud" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Sergio Pablos" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="United States" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="Illumination Entertaiment" />
+        </Facet>
+        <Facet Name="Blockbuster">
+          <String Value="YES (top 20)" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2010" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L2-Dubbed languages">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>
@@ -816,6 +1163,65 @@ Based on the homonym novel by Philip K. Dick.</Description>
         </Facet>
         <Facet Name="Conversations: count">
           <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Eastern Promises" Name="Eastern Promises" Img="https://upload.wikimedia.org/wikipedia/en/3/3b/Eastern_Promises_poster.png" Href="http://gallery.trafilm.net/film/metadata/?film=Eastern Promises">
+      <Description>A Russian teenager living in London who dies during childbirth leaves clues to a midwife in her journal that could tie her child to a rape involving a violent Russian mob family.
+(IMDb)</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Eastern Promises" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="Both English and Russian can be considered as L1 in this film. " />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-08-04T12:43:04" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-08-04T12:49:26" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="SoniaGonzalez" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Eastern Promises" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="101" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="David Cronenberg" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Steve Knight" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="United Kingdom" />
+          <String Value=" Canada" />
+          <String Value=" United States" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="BBC Films" />
+          <String Value=" Astral Media" />
+          <String Value=" Corus Entertainment" />
+          <String Value=" Telefilm Canada" />
+          <String Value=" Kudos Pictures" />
+          <String Value=" Serendipity Point Films" />
+          <String Value=" Scion Films" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2007" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="0" />
         </Facet>
       </Facets>
     </Item>
@@ -922,6 +1328,100 @@ Based on the homonym novel by Philip K. Dick.</Description>
         </Facet>
         <Facet Name="Conversations: count">
           <Number Value="5" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Friends - Season 01" Name="Friends - Season 01" Img="http://toptvshows.me/images/tvimages/friends-all-season-tv-shows-poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Friends - Season 01">
+      <Description>Friends follows the life of a group of six friends in their 30s - Rachel, Ross, Monica, Chandler, Phoebe and Joey - during a period of 10 years. 
+</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Friends - Season 01" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-06-26T03:36:49" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-07-25T03:20:46" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="IreneRanzato" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Friends - Season 01" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="TV series season" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Marta Kauffman" />
+          <String Value=" David Crane (creators)" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="USA" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="Bright/Kauffman/Crane Productions" />
+          <String Value=" Warner Bros Television" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="1994" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L2-Dubbed languages">
+          <String Value="Italian" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="2" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Friends" Name="Friends - Season 02" Img="https://vignette1.wikia.nocookie.net/friends/images/5/57/Friends_s2.jpg/revision/latest?cb=20101007091807" Href="http://gallery.trafilm.net/film/metadata/?film=Friends">
+      <Description>Friends follows the life of a group of six friends in their 30s - Rachel, Ross, Monica, Chandler, Phoebe and Joey - during a period of 10 years. 
+</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Friends" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-06-26T03:20:55" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-07-03T08:26:31" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="IreneRanzato" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Friends - Season 02" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="TV series season" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Marta Kauffman" />
+          <String Value=" David Crane" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="USA" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="Bright/Kauffman/Crane Productions" />
+          <String Value=" Warner Bros Television" />
+        </Facet>
+        <Facet Name="Blockbuster">
+          <String Value="YES (top 20)" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="1995" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="0" />
         </Facet>
       </Facets>
     </Item>
@@ -1104,7 +1604,7 @@ Based on the homonym novel by Philip K. Dick.</Description>
           <DateTime Value="2016-06-16T08:02:01" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-19T02:27:17" />
+          <DateTime Value="2017-03-16T12:55:29" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="natalia.faja" />
@@ -1197,6 +1697,66 @@ Based on the homonym novel by Philip K. Dick.</Description>
         </Facet>
         <Facet Name="Conversations: count">
           <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Hangover Part III" Name="Hangover Part III" Img="https://upload.wikimedia.org/wikipedia/en/1/15/The_Hangover_Part_3.JPG" Href="http://gallery.trafilm.net/film/metadata/?film=Hangover Part III">
+      <Description>In the aftermath of the death of Alan's father, the Wolfpack decides to take Alan to get a treatment for his mental disorder. However, things start to go wrong on the way to the hospital as they are assaulted and Doug is kidnapped. Now they must look for Mr. Chow in order to save Doug from the gangnster who kidnapped him.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Hangover Part III" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-05-29T10:42:54" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-08-01T07:22:33" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="SoniaGonzalez" />
+          <String Value="PatrickZabalbeascoa" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Hangover Part III" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="100" />
+        </Facet>
+        <Facet Name="Series">
+          <String Value="The Hangover Trilogy" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Todd Philips" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Craig Mazin" />
+          <String Value=" Todd Philips" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="United States" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="Legendary Pictures" />
+          <String Value=" Green Hat Films" />
+          <String Value=" Benderspink" />
+        </Facet>
+        <Facet Name="Blockbuster">
+          <String Value="YES (top 20)" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2013" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L2-Dubbed languages">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>
@@ -1301,6 +1861,112 @@ Based on the homonym novel by Philip K. Dick.</Description>
         </Facet>
         <Facet Name="Year ST released">
           <Number Value="2010" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Home Alone 2 Lost in New York" Name="Home Alone 2 Lost in New York" Img="https://upload.wikimedia.org/wikipedia/en/5/50/Home_Alone_2.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Home Alone 2 Lost in New York">
+      <Description>One year after Kevin was left home alone and had to defeat a pair of bumbling burglars, he accidentally finds himself in New York City, and the same criminals are not far behind. 
+(IMDb)</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Home Alone 2 Lost in New York" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-06-07T03:14:53" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-08-03T03:25:10" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="PatrickZabalbeascoa" />
+          <String Value="SoniaGonzalez" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Home Alone 2 Lost in New York" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="120" />
+        </Facet>
+        <Facet Name="Series">
+          <String Value="Home Alone" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Chris Columbus" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="John Hughes" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="United States" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="Hughes Entertaiment" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="1992" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L2-Dubbed languages">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Home Alone" Name="Home Alone" Img="https://upload.wikimedia.org/wikipedia/en/7/76/Home_alone_poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Home Alone">
+      <Description>An eight-year-old trouble-maker must protect his home from a pair of burglars when he is accidentally left home alone by his family during Christmas vacation.
+(IMDb)</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Home Alone" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-08-08T04:56:38" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-08-09T10:29:02" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="SoniaGonzalez" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Home Alone" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="102" />
+        </Facet>
+        <Facet Name="Series">
+          <String Value="Home Alone" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Chris Columbus" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="John Hughes" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="United States" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="Hughes Entertaiment" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="1990" />
         </Facet>
         <Facet Name="Main language (L1)">
           <String Value="English" />
@@ -1605,22 +2271,29 @@ Based on the homonym novel by Philip K. Dick.</Description>
       </Facets>
     </Item>
     <Item Id="Lost in Translation" Name="Lost in Translation" Img="http://ia.media-imdb.com/images/M/MV5BMTI2NDI5ODk4N15BMl5BanBnXkFtZTYwMTI3NTE3._V1_.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Lost in Translation">
-      <Description>A faded movie star and a neglected young woman form an unlikely bond after crossing paths in Tokyo. </Description>
+      <Description>An American film star (Bob) goes to Tokyo to shoot a whiskey commercial. He stays in a luxury hotel where he meets Charlotte, a young woman who is visiting Tokyo with her husband, a photographer on assignment. Both Bob and Charlotte suffer confusion and hilaritydue to the language barrier and culture clash while they are both searching for the meaning of their lives. Since they share a feeling of intense isolation, they both need somebody to fill their gaps, so their relationship deepens.</Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="Lost in Translation" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="Japanese" />
+          <String Value=" Japanese accent" />
+          <String Value=" translation" />
+          <String Value=" cultural barrier" />
         </Facet>
         <Facet Name="Info created">
           <DateTime Value="2016-06-13T06:54:58" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-11-01T10:12:22" />
+          <DateTime Value="2017-03-12T07:31:54" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="natalia.faja" />
           <String Value="Stavroula" />
           <String Value="George" />
           <String Value="evaespasa" />
+          <String Value="corrius" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Lost in Translation" />
@@ -1656,8 +2329,11 @@ Based on the homonym novel by Philip K. Dick.</Description>
         <Facet Name="Main language (L1)">
           <String Value="English" />
         </Facet>
+        <Facet Name="L2-Dubbed languages">
+          <String Value="Spanish" />
+        </Facet>
         <Facet Name="Conversations: count">
-          <Number Value="0" />
+          <Number Value="2" />
         </Facet>
       </Facets>
     </Item>
@@ -2029,6 +2705,128 @@ Based on the homonym novel by Philip K. Dick.</Description>
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Narcos-Season 2" Name="Narcos - Season 2" Img="http://solopormega.com/wp-content/uploads/2015/09/narcos.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Narcos-Season 2">
+      <Description>Crime series narrated by Steve Murphy, an American DEA agent, who is relocated in Colombia to fight drug traffic. His main target is the Medellin cartel, led by Pablo Emilio Escobar Gaviria. </Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Narcos-Season 2" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-06-06T07:53:44" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-06-07T06:53:18" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="roogarca" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Narcos - Season 2" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="TV series season" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="57" />
+        </Facet>
+        <Facet Name="Series">
+          <String Value="Narcos" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="José Padilha" />
+          <String Value=" Guillermo Navarro" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Carlo Bernard" />
+          <String Value=" Chris Brancato" />
+          <String Value=" Doug Miro" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="United States" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value=" Dynamo" />
+          <String Value=" Gaumont International Television" />
+          <String Value=" Netflix" />
+        </Facet>
+        <Facet Name="Blockbuster">
+          <String Value="YES (top 20)" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2015" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L2-Dubbed languages">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Narcos" Name="Narcos - Season 01" Img="http://solopormega.com/wp-content/uploads/2015/09/narcos.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Narcos">
+      <Description>Crime series narrated by Steve Murphy, an American DEA agent, who is relocated in Colombia to fight drug traffic. His main target is the Medellin cartel, led by Pablo Emilio Escobar Gaviria. </Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Narcos" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-05-24T05:33:47" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-05-27T05:41:04" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="roogarca" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Narcos - Season 01" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="TV series season" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="57" />
+        </Facet>
+        <Facet Name="Series">
+          <String Value="Narcos" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="José Padilha" />
+          <String Value=" Guillermo Navarro" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Carlo Bernard" />
+          <String Value=" Chris Brancato" />
+          <String Value=" Doug Miro" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="United States" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value=" Dynamo" />
+          <String Value=" Gaumont International Television" />
+          <String Value=" Netflix" />
+        </Facet>
+        <Facet Name="Blockbuster">
+          <String Value="YES (top 20)" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2015" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L2-Dubbed languages">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="OceansEleven" Name="Ocean's Eleven" Img="https://upload.wikimedia.org/wikipedia/en/6/68/Ocean%27s_Eleven_2001_Poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=OceansEleven">
       <Description>Danny Ocean wants to score the biggest heist in history. He combines an eleven member team, including Frank Catton, Rusty Ryan and Linus Caldwell. Their target? The Bellagio, the Mirage and the MGM Grand. All casinos owned by Terry Benedict. It's not going to be easy, as they plan to get in secretly and out with $150 million.</Description>
       <Facets>
@@ -2080,6 +2878,236 @@ Based on the homonym novel by Philip K. Dick.</Description>
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Orange is the new Black - Season 02" Name="Orange is the new Black - Season 02" Img="http://msmagazine.com/blog/wp-content/uploads/2013/07/2521756.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Orange is the new Black - Season 02">
+      <Description>Convicted of a decade old crime of transporting drug money to an ex-girlfriend, normally law abiding Piper Chapman is sentenced to a year and a half behind bars to face the reality of how life changing prison can really be.
+
+(By IMDB)</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Orange is the new Black - Season 02" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-06-04T10:08:26" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-06-04T12:28:09" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="AnnaGallardo" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Orange is the new Black - Season 02" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="TV series season" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="55" />
+        </Facet>
+        <Facet Name="Series">
+          <String Value="Orange is the new Black" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Jenji Kohan" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Jenji Kohan" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="USA" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="Lionsgate Television" />
+          <String Value=" Tilted Productions" />
+        </Facet>
+        <Facet Name="Blockbuster">
+          <String Value="YES (top 20)" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2014" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L2-Dubbed languages">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="2" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Orange is the new Black - Season 03" Name="Orange is the new Black - Season 03" Img="http://msmagazine.com/blog/wp-content/uploads/2013/07/2521756.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Orange is the new Black - Season 03">
+      <Description>Convicted of a decade old crime of transporting drug money to an ex-girlfriend, normally law abiding Piper Chapman is sentenced to a year and a half behind bars to face the reality of how life changing prison can really be.
+
+(By IMDB)</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Orange is the new Black - Season 03" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-06-04T11:47:25" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-06-06T11:07:01" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="AnnaGallardo" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Orange is the new Black - Season 03" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="TV series season" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="55" />
+        </Facet>
+        <Facet Name="Series">
+          <String Value="Orange is the new Black" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Jenji Kohan" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Jenji Kohan" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="EUA" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="Lionsgate Television" />
+          <String Value=" Tilted Productions" />
+        </Facet>
+        <Facet Name="Blockbuster">
+          <String Value="YES (top 20)" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2015" />
+        </Facet>
+        <Facet Name="L2-Dubbed languages">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Orange is the new Black - Season 04" Name="Orange is the new Black - Season 04" Img="http://msmagazine.com/blog/wp-content/uploads/2013/07/2521756.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Orange is the new Black - Season 04">
+      <Description>Convicted of a decade old crime of transporting drug money to an ex-girlfriend, normally law abiding Piper Chapman is sentenced to a year and a half behind bars to face the reality of how life changing prison can really be.
+
+(By IMDB)</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Orange is the new Black - Season 04" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-06-04T12:15:13" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-06-04T12:31:54" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="AnnaGallardo" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Orange is the new Black - Season 04" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="TV series season" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="55" />
+        </Facet>
+        <Facet Name="Series">
+          <String Value="Orange is the new Black" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Jenji Kohan" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Jenji Kohan" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="USA" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="Lionsgate Television" />
+          <String Value=" Tilted Productions" />
+        </Facet>
+        <Facet Name="Blockbuster">
+          <String Value="YES (top 20)" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2016" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Orange is the new Black" Name="Orange is the new Black - Season 01" Img="http://msmagazine.com/blog/wp-content/uploads/2013/07/2521756.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Orange is the new Black">
+      <Description>Convicted of a decade old crime of transporting drug money to an ex-girlfriend, normally law abiding Piper Chapman is sentenced to a year and a half behind bars to face the reality of how life changing prison can really be.
+
+(By IMDB)</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Orange is the new Black" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-05-31T10:04:03" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-06-04T12:28:23" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="AnnaGallardo" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Orange is the new Black - Season 01" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="TV series season" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="55" />
+        </Facet>
+        <Facet Name="Series">
+          <String Value="Orange is the new Black" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Jenji Kohan" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Jenji Kohan" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="USA" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="Lionsgate Television" />
+          <String Value=" Tilted Productions" />
+        </Facet>
+        <Facet Name="Blockbuster">
+          <String Value="YES (top 20)" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2015" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L2-Dubbed languages">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="4" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Pearl Harbor" Name="Pearl Harbor" Img="https://upload.wikimedia.org/wikipedia/en/3/3c/Pearl_harbor_movie_poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Pearl Harbor">
       <Description>Pearl Harbor follows the story of two best friends, Rafe and Danny, and their love lives as they go off to join the war. </Description>
       <Facets>
@@ -2123,6 +3151,63 @@ Based on the homonym novel by Philip K. Dick.</Description>
         </Facet>
         <Facet Name="Conversations: count">
           <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Pirates of the Caribbean - Dead Man's Chest" Name="Pirates of the Caribbean - Dead Man's Chest" Img="https://upload.wikimedia.org/wikipedia/en/thumb/2/2d/Pirates_of_the_caribbean_2_poster_b.jpg/220px-Pirates_of_the_caribbean_2_poster_b.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Pirates of the Caribbean - Dead Man's Chest">
+      <Description>Thrown into the world of the supernatural, Captain Jack Sparrow finds out that he owes a blood debt to the legendary Davey Jones, Captain of the ghostly Flying Dutchman. With time running out, Jack must find a way out of his debt or else be doomed to eternal damnation and servitude in the afterlife. And as if this weren't enough, Will Turner and Elizabeth Swann are arrested and sentenced to death unless Will can get Lord Beckett Jack's compass, who are forced to join Jack on yet another misadventure. </Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Pirates of the Caribbean - Dead Man's Chest" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-03-14T03:05:44" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-04-17T01:29:06" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="miquelpt" />
+          <String Value="Guillermo" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Pirates of the Caribbean - Dead Man's Chest" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="151" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Gore Verbinski" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Ted Elliott" />
+          <String Value=" Terry Rossio" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="United States" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="Walt Disney Pictures" />
+          <String Value=" Jerry Bruckheimer Films" />
+          <String Value=" Second Mate Productions" />
+        </Facet>
+        <Facet Name="Blockbuster">
+          <String Value="YES (top 20)" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2006" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L2-Dubbed languages">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="8" />
         </Facet>
       </Facets>
     </Item>
@@ -2246,7 +3331,7 @@ Based on the homonym novel by Philip K. Dick.</Description>
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Quantum of Solace" Name="Quantum of Solace" Img="https://upload.wikimedia.org/wikipedia/en/2/2d/Quantum_of_Solace_-_UK_cinema_poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Quantum of Solace">
+    <Item Id="Quantum of Solace" Name="Quantum of Solace" Img="http://www.impawards.com/2008/posters/quantum_of_solace_ver4.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Quantum of Solace">
       <Description>James Bond seeks for revenge for his girlfriend's death and fights an unknown criminal organization.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -2256,11 +3341,12 @@ Based on the homonym novel by Philip K. Dick.</Description>
           <DateTime Value="2017-01-10T11:43:12" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-01-11T10:56:27" />
+          <DateTime Value="2017-04-17T01:33:16" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
           <String Value="George" />
+          <String Value="Guillermo" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Quantum of Solace" />
@@ -2315,7 +3401,7 @@ Based on the homonym novel by Philip K. Dick.</Description>
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Raid on Rommel" Name="Raid on Rommel" Img="https://images-na.ssl-images-amazon.com/images/M/MV5BMTg1MzEyNTk1MF5BMl5BanBnXkFtZTcwNTIzNjQyMQ@@._V1_.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Raid on Rommel">
+    <Item Id="Raid on Rommel" Name="Raid on Rommel" Img="https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/Poster_of_the_movie_Raid_on_Rommel.jpg/220px-Poster_of_the_movie_Raid_on_Rommel.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Raid on Rommel">
       <Description>The film is set in North Africa during World War II. Several British commandos set out to destroy the heavy German artillery at Tobruk (Rommel and Nazi troops'shelter). In order to carry out this mission they are assigned the job of becoming prisoners of war and they are led by Captain Foster, an English Officer posing as a Nazi Officer. The mistress of an Italian general is also a prisoner who travels with them to Tobruk. Complications develop when Foster arrives at the rendezvous point and all he finds are genuine sick prisoners of war.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -2334,10 +3420,11 @@ Based on the homonym novel by Philip K. Dick.</Description>
           <DateTime Value="2016-11-20T05:48:27" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-11-29T11:52:29" />
+          <DateTime Value="2017-04-17T01:31:19" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="corrius" />
+          <String Value="Guillermo" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Raid on Rommel" />
@@ -2505,7 +3592,7 @@ Based on the homonym novel by Philip K. Dick.</Description>
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Sherlock Holmes" Name="Sherlock Holmes" Img="https://upload.wikimedia.org/wikipedia/en/e/e0/Sherlock_holmes_ver5.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Sherlock Holmes">
+    <Item Id="Sherlock Holmes" Name="Sherlock Holmes" Img="http://www.impawards.com/2009/posters/sherlock_holmes_ver5.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Sherlock Holmes">
       <Description>Irene Adler, a former adversary of Holmes asks him to find a missing man named Luke Reordan. Luke Reordan's body is found by Holmes and Watson in Blackwood's tomb, a man who has been hanged and whose death was certified by Watson. While trying to solve this enigma they are able to save England from Blackwood's threat.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -2515,10 +3602,11 @@ Based on the homonym novel by Philip K. Dick.</Description>
           <DateTime Value="2017-02-13T12:34:27" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-02-13T07:37:19" />
+          <DateTime Value="2017-04-17T01:30:25" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
+          <String Value="Guillermo" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Sherlock Holmes" />
@@ -2559,8 +3647,14 @@ Based on the homonym novel by Philip K. Dick.</Description>
         <Facet Name="Main language (L1)">
           <String Value="English" />
         </Facet>
+        <Facet Name="L2-Dubbed languages">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L2-Subtitled languages">
+          <String Value="Spanish" />
+        </Facet>
         <Facet Name="Conversations: count">
-          <Number Value="0" />
+          <Number Value="3" />
         </Facet>
       </Facets>
     </Item>
@@ -2677,6 +3771,58 @@ Based on the homonym novel by Philip K. Dick.</Description>
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Sophie's Choice" Name="Sophie's Choice" Img="https://pics.filmaffinity.com/sophie_s_choice-404175883-large.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Sophie's Choice">
+      <Description>After spending time with his new neighbors, an aspiring writer realizes they are harboring deep secrets that will forever change him.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Sophie's Choice" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-06-29T03:34:17" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-06-29T03:38:46" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="natalia.sanchez2594" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Sophie's Choice" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="157" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Alan J. Pakula" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Alan J Pakula" />
+          <String Value=" William Styron" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="United States" />
+          <String Value=" United Kingdom" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="Incorporated Television Company" />
+        </Facet>
+        <Facet Name="Blockbuster">
+          <String Value="NO, but commercially intended" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="1982" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Spanglish" Name="Spanglish" Img="https://upload.wikimedia.org/wikipedia/en/7/7f/Spanglish_poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Spanglish">
       <Description>The film is about a divorded woman from Mexico, Flor, who emigrates to Los Angeles with her daughter Cristina. Unexpectedly, she is given the job of housekeeper at the Clasky's family. Flor and the Clasky's don't understand each other since the Clasky's only speak English and Flor only speaks Spanish. Towards the end of the film Flor decides to break through the language barrier by learning some English.</Description>
       <Facets>
@@ -2739,6 +3885,64 @@ Based on the homonym novel by Philip K. Dick.</Description>
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Spiderman 3" Name="Spider-man 3" Img="https://upload.wikimedia.org/wikipedia/en/7/7a/Spider-Man_3%2C_International_Poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Spiderman 3">
+      <Description>Peter Parker has finally managed to piece together the once-broken parts of his life, maintaining a balance between his relationship with Mary-Jane and his responsibility as Spider-Man. But more challenges arise for our young hero. Peter's old friend Harry Osborn has set out for revenge against Peter; taking up the mantle of his late father's persona as The New Goblin, and Peter must also capture Uncle Ben's real killer, Flint Marko, who has been transformed into his toughest foe yet, the Sandman. All hope seems lost when suddenly Peter's suit turns jet-black and greatly amplifies his powers. But it also begins to greatly amplify the much darker qualities of Peter's personality that he begins to lose himself to. Peter has to reach deep inside himself to free the compassionate hero he used to be if he is to ever conquer the darkness within and face not only his greatest enemies, but also... himself. </Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Spiderman 3" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-08-10T02:22:27" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-09-21T10:44:54" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="miquelpt" />
+          <String Value="George" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Spider-man 3" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="139" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Sam Raimi" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Sam Raimi" />
+          <String Value=" Ivan Raimi" />
+          <String Value=" Alvin Sargent" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="United States" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="Columbia Pictures" />
+          <String Value=" Marvel Entertainment" />
+          <String Value=" Laura Ziskin Productions" />
+        </Facet>
+        <Facet Name="Blockbuster">
+          <String Value="YES (top 20)" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2007" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L2-Dubbed languages">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Stigmata" Name="Stigmata" Img="https://upload.wikimedia.org/wikipedia/en/8/8e/Stigmata_film.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Stigmata">
       <Description>When a young woman becomes afflicted by stigmata, a priest is sent to investigate her case, which may have severe ramifications for his faith and for the Catholic Church itself. </Description>
       <Facets>
@@ -2782,6 +3986,232 @@ Based on the homonym novel by Philip K. Dick.</Description>
         </Facet>
         <Facet Name="Conversations: count">
           <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="The Book Thief" Name="The Book Thief" Img="http://www.impawards.com/2013/posters/book_thief_xlg.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=The Book Thief">
+      <Description>While subjected to the horrors of World War II Germany, young Liesel finds solace by stealing books and sharing them with others. In the basement of her home, a Jewish refugee is being protected by her adoptive parents.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="The Book Thief" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-06-29T03:22:06" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-06-29T03:28:25" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="natalia.sanchez2594" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="The Book Thief" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="131" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Brian Percival" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Michael Petroni" />
+          <String Value=" Markus Zusak" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="United States" />
+          <String Value=" Germany" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="20th Century Fox" />
+        </Facet>
+        <Facet Name="Blockbuster">
+          <String Value="NO, but commercially intended" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2013" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="The Chronicles of Narnia" Name="The Chronicles of Narnia: The Lion, the Witch and the Wardrobe" Img="https://upload.wikimedia.org/wikipedia/en/1/10/The_Chronicles_of_Narnia_-_The_Lion%2C_the_Witch_and_the_Wardrobe.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=The Chronicles of Narnia">
+      <Description>Four children from the same family have to leave their town because of the bombings of WWII. A women and a professor take the children to their house. While playing a game of hide-and-seek, the youngest member of the family, Lucy, finds a wardrobe to hide in. She travels back and back into the wardrobe and finds a place named Narnia. After going in twice, the four children go in together for the last time. They battle wolves, meet talking animals, encounter an evil white witch and meet a magnificent lion named Aslan.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="The Chronicles of Narnia" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-08-07T04:19:02" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-09-21T10:42:47" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="miquelpt" />
+          <String Value="George" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="The Chronicles of Narnia: The Lion, the Witch and the Wardrobe" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="143" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Andrew Adamson" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Ann Peacock" />
+          <String Value=" Andrew Adamson" />
+          <String Value=" Christopher Markus" />
+          <String Value=" Stephen McFeely" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="United Kingdom" />
+          <String Value=" United States" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="Walt Disney Pictures" />
+          <String Value=" Walden Media" />
+        </Facet>
+        <Facet Name="Blockbuster">
+          <String Value="YES (top 20)" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2005" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L2-Dubbed languages">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="The Da Vinci Code" Name="The Da Vinci Code" Img="https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/The_da_vinci_code_final.jpg/220px-The_da_vinci_code_final.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=The Da Vinci Code">
+      <Description>While in Paris on business, Harvard symbologist Robert Langdon is informed that the elderly curator of the Louvre has been murdered inside the museum. Near the body, police have found a baffling cipher. Solving the enigmatic riddle, Langdon is stunned to discover it leads to a trail of clues hidden in the works of Da Vinci - clues visible for all to see, and yet ingeniously disguised by the painter. Langdon joins forces with a gifted French cryptologist, Sophie Neveu, and learns the late curator was involved in the Priory of Sion - an actual secret society. In a breathless race through Paris, London and beyond, Langdon and Neveu match wits with a faceless power broker who appears to work for Opus Dei - a clandestine, Vatican-sanctioned Catholic organization believed to have long plotted to seize the Priory's secret. Unless Langdon and Neveu can decipher the labyrinthine puzzle in time, the Priory's secret - and a stunning historical truth - will be lost forever. </Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="The Da Vinci Code" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-04-10T04:41:33" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-04-17T01:31:56" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="miquelpt" />
+          <String Value="Guillermo" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="The Da Vinci Code" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="149" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Ron Howard" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Akiva Goldsman" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="United States" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="Imagine Entertainment" />
+          <String Value="  Rainmaker Digital Effects" />
+          <String Value=" Skylark Productions" />
+          <String Value=" Columbia Pictures" />
+        </Facet>
+        <Facet Name="Blockbuster">
+          <String Value="YES (top 20)" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2006" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L2-Dubbed languages">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="The Departed" Name="The Departed" Img="https://upload.wikimedia.org/wikipedia/en/5/50/Departed234.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=The Departed">
+      <Description>In South Boston, the state police force is waging war on Irish-American organized crime. Young undercover cop Billy Costigan is assigned to infiltrate the mob syndicate run by gangland chief Frank Costello. While Billy quickly gains Costello's confidence, Colin Sullivan, a hardened young criminal who has infiltrated the state police as an informer for the syndicate is rising to a position of power in the Special Investigation Unit. Each man becomes deeply consumed by their double lives, gathering information about the plans and counter-plans of the operations they have penetrated. But when it becomes clear to both the mob and the police that there is a mole in their midst, Billy and Colin are suddenly in danger of being caught and exposed to the enemy - and each must race to uncover the identity of the other man in time to save themselves. But is either willing to turn on their friends and comrades they've made during their long stints undercover? </Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="The Departed" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-08-01T02:38:41" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-08-01T07:25:16" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="miquelpt" />
+          <String Value="PatrickZabalbeascoa" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="The Departed" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="151" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Martin Scorsese" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="William Monahan" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="United States" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="Warner Bros" />
+          <String Value=" Plan B Entertainment" />
+          <String Value=" Initial Entertainment Group" />
+          <String Value=" Vertigo Entertainment" />
+          <String Value=" Media Asia Films" />
+        </Facet>
+        <Facet Name="Blockbuster">
+          <String Value="YES (top 20)" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2006" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L2-Dubbed languages">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>
@@ -2845,6 +4275,59 @@ Based on the homonym novel by Philip K. Dick.</Description>
         </Facet>
       </Facets>
     </Item>
+    <Item Id="The Iceman" Name="The Iceman" Img="https://upload.wikimedia.org/wikipedia/en/6/6c/TheIceman2011Poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=The Iceman">
+      <Description>The film tells the story of Richard Kuklinski, the notorious contract killer and family man. When finally arrested in 1986, neither his wife nor daughters had any clue about his real profession.
+(IMDb)</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="The Iceman" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-08-03T08:06:48" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-08-04T12:09:35" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="SoniaGonzalez" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="The Iceman" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="105" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Ariel Vromen" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Ariel Vromen" />
+          <String Value=" Morgan Land" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="United States" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="Bleiberg Entertaiment" />
+          <String Value=" Rabbit Bandini Productions" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2012" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L2-Dubbed languages">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="The Last Samurai" Name="The Last Samurai" Img="https://upload.wikimedia.org/wikipedia/en/c/c6/The_Last_Samurai.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=The Last Samurai">
       <Description>An American military advisor embraces the Samurai culture he was hired to destroy after he is captured in battle. </Description>
       <Facets>
@@ -2884,6 +4367,62 @@ Based on the homonym novel by Philip K. Dick.</Description>
         </Facet>
         <Facet Name="Year ST released">
           <Number Value="2003" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="The Legend of Tarzan" Name="The Legend of Tarzan" Img="https://upload.wikimedia.org/wikipedia/en/e/e5/The_Legend_of_Tarzan_poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=The Legend of Tarzan">
+      <Description>Tarzan, having acclimated to life in London, is called back to his former home in the jungle to investigate the activities at a mining encampment.
+(IMDb)</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="The Legend of Tarzan" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="This film contains full conversations in Lingala, a bantu language spoken in some parts of the Democratic Republic of the Congo, the Republic of the Congo, Angola and the Central African Republic." />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-08-09T10:48:15" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-08-09T10:55:27" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="SoniaGonzalez" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="The Legend of Tarzan" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="110" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="David Yates" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Craig Brewer" />
+          <String Value=" Adam Cozad" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="United States" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="Village Roadshow Pictures" />
+          <String Value=" RatPac-Dune Entertainment" />
+          <String Value=" Jerry Weintraub Productions" />
+          <String Value=" Riche/Ludwig Productions" />
+          <String Value=" Beaglepug Productions" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2016" />
         </Facet>
         <Facet Name="Main language (L1)">
           <String Value="English" />
@@ -3131,6 +4670,63 @@ Based on the homonym novel by Philip K. Dick.</Description>
         </Facet>
       </Facets>
     </Item>
+    <Item Id="To Rome with Love" Name="To Rome with Love" Img="https://upload.wikimedia.org/wikipedia/en/0/04/To_rome_with_love_ver2.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=To Rome with Love">
+      <Description>This film is about the lives of some visitors and residents of Rome and the romances, adventures and predicaments they get into.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="To Rome with Love" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="Both English and Italian could be considered L1. " />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-06-01T02:15:25" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-08-04T12:06:41" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="PatrickZabalbeascoa" />
+          <String Value="SoniaGonzalez" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="To Rome with Love" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="112" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Woody Allen" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Woody Allen" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="Italy" />
+          <String Value=" United States" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="Medusa Film" />
+          <String Value=" Gravier Productions" />
+          <String Value=" Perdido Production" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2012" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L2-Dubbed languages">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="ToyStory3" Name="Toy Story 3" Img="https://upload.wikimedia.org/wikipedia/en/6/69/Toy_Story_3_poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=ToyStory3">
       <Description>The toys are mistakenly delivered to a day-care center instead of the attic right before Andy leaves for college, and it's up to Woody to convince the other toys that they weren't abandoned and to return home.</Description>
       <Facets>
@@ -3310,6 +4906,55 @@ Based on the homonym novel by Philip K. Dick.</Description>
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Under the Tuscan Sun" Name="Under the Tuscan Sun" Img="https://upload.wikimedia.org/wikipedia/en/8/8e/Under_the_tuscan_sun_poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Under the Tuscan Sun">
+      <Description>A writer impulsively buys a villa in Tuscany in order to change her life.
+(IMDb)</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Under the Tuscan Sun" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-08-12T08:13:19" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-08-12T08:16:56" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="SoniaGonzalez" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Under the Tuscan Sun" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="113" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Audrey Wells" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Audrey Wells" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="United States" />
+          <String Value=" Italy" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="&#x9; Touchstone Pictures" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2003" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Valkyrie" Name="Valkyrie" Img="https://upload.wikimedia.org/wikipedia/en/b/b8/Valkyrie_poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Valkyrie">
       <Description>A group of German senior officers and politicians in 1944 plot to assassinate Hitler to stop the horror and dishonor the II World War has caused to Germany</Description>
       <Facets>
@@ -3374,7 +5019,59 @@ Based on the homonym novel by Philip K. Dick.</Description>
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Zootopia" Name="Zootopia" Img="https://upload.wikimedia.org/wikipedia/en/thumb/e/ea/Zootopia.jpg/220px-Zootopia.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Zootopia">
+    <Item Id="Vicky Cristina Barcelona" Name="Vicky Cristina Barcelona" Img="https://upload.wikimedia.org/wikipedia/en/2/28/Vicky_cristina_barcelona.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Vicky Cristina Barcelona">
+      <Description>Two American women, Vicky and Cristina, travel to Spain where they meet a Spanish artist, who is attracted to both of them while still enamored of his mentally and emotionally unstable ex-wife.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Vicky Cristina Barcelona" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-06-01T09:57:45" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-08-01T07:26:31" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="SoniaGonzalez" />
+          <String Value="PatrickZabalbeascoa" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Vicky Cristina Barcelona" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="97" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Woody Allen" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Woody Allen" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="United States" />
+          <String Value=" Spain" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="Mediapro" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2008" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L2-Dubbed languages">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="4" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Zootopia" Name="Zootopia" Img="https://upload.wikimedia.org/wikipedia/en/e/ea/Zootopia.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Zootopia">
       <Description>In a city of anthropomorphic animals, a rookie bunny cop and a cynical con artist fox must work together to uncover a conspiracy.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -3384,12 +5081,12 @@ Based on the homonym novel by Philip K. Dick.</Description>
           <DateTime Value="2016-08-15T09:39:32" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-11-01T03:42:47" />
+          <DateTime Value="2017-04-08T05:00:57" />
         </Facet>
         <Facet Name="Metadata Editors">
-          <String Value="Guillermo" />
           <String Value="George" />
           <String Value="Stavroula" />
+          <String Value="Guillermo" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Zootopia" />
@@ -3421,8 +5118,11 @@ Based on the homonym novel by Philip K. Dick.</Description>
         <Facet Name="Main language (L1)">
           <String Value="English" />
         </Facet>
+        <Facet Name="L2-Dubbed languages">
+          <String Value="Spanish" />
+        </Facet>
         <Facet Name="Conversations: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>

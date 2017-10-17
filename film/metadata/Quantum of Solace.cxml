@@ -24,7 +24,7 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Quantum of Solace" Name="Quantum of Solace" Img="https://upload.wikimedia.org/wikipedia/en/2/2d/Quantum_of_Solace_-_UK_cinema_poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Quantum of Solace">
+    <Item Id="Quantum of Solace" Name="Quantum of Solace" Img="http://www.impawards.com/2008/posters/quantum_of_solace_ver4.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Quantum of Solace">
       <Description>James Bond seeks for revenge for his girlfriend's death and fights an unknown criminal organization.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -34,11 +34,12 @@
           <DateTime Value="2017-01-10T11:43:12" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-01-11T10:56:27" />
+          <DateTime Value="2017-04-17T01:33:16" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
           <String Value="George" />
+          <String Value="Guillermo" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Quantum of Solace" />
