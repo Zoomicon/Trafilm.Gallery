@@ -3436,7 +3436,7 @@
           <DateTime Value="2017-08-03T03:56:53" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-08-03T04:01:12" />
+          <DateTime Value="2017-08-03T08:29:19" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="SoniaGonzalez" />
@@ -3469,7 +3469,7 @@
           <String Value="A. 1-20" />
         </Facet>
         <Facet Name="L2 same as L3ST">
-          <String Value="Yes" />
+          <String Value="No" />
         </Facet>
         <Facet Name="L3ST conveyed as L3TT">
           <String Value="Yes" />
@@ -9573,6 +9573,460 @@
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Casino Royale.Bank transfer.French honorifics.Mocking_Chinese_SpanishDUB" Name="Casino Royale.Bank transfer.French honorifics.Mocking_Chinese_SpanishDUB" Img="" Href="">
+      <Description></Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Casino Royale.Bank transfer.French honorifics.Mocking_Chinese_SpanishDUB" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-08-09T02:54:06" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-08-09T02:54:06" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Casino Royale" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Casino Royale.Bank transfer" />
+        </Facet>
+        <Facet Name="L3ST-instance Reference Id">
+          <String Value="Casino Royale.Bank transfer.French honorifics" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Casino Royale.Bank transfer.French honorifics.SpanishDub" Name="Casino Royale.Bank transfer.French honorifics.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Casino Royale&amp;conversation=Casino Royale.Bank transfer&amp;L3STinstance=Casino Royale.Bank transfer.French honorifics&amp;L3TTinstance=Casino Royale.Bank transfer.French honorifics.SpanishDub">
+      <Description>A Swiss banker reaches Bond and Vesper at his place to fulfill the bank transfer of the money won at the casino.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Casino Royale.Bank transfer.French honorifics.SpanishDub" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Vesper: Ah, señor Mendel. ¿Qué tal todo por Suiza?&#xD;&#xA;Mendel: Discúlpenme, no quiero apremiarles, pero 120 millones es una elevada suma. &#xD;&#xA;Bond: Ya lo creo. ¿No me ha traído chocolate?&#xD;&#xA;" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="In the original, Vesper welcomes the banker with a French honorifics, but this is neutralised in the Spanish dubbed version. Instead, this Spanish dubbed version dubs the banker's voice into Spanish with a French accent.  " />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-08-09T02:54:16" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-08-09T03:30:27" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="miquelpt" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Casino Royale" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Casino Royale.Bank transfer" />
+        </Facet>
+        <Facet Name="L3ST-instance Reference Id">
+          <String Value="Casino Royale.Bank transfer.French honorifics" />
+        </Facet>
+        <Facet Name="Film Title TT">
+          <String Value="Casino Royale" />
+        </Facet>
+        <Facet Name="L2 language">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L2 mode">
+          <String Value="Dubbed" />
+        </Facet>
+        <Facet Name="Distribution countries (TT)">
+          <String Value="Spain" />
+        </Facet>
+        <Facet Name="Year TT released">
+          <Number Value="2006" />
+        </Facet>
+        <Facet Name="Film TT Blockbuster">
+          <String Value="YES (top 20)" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="117" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L2 same as L3ST">
+          <String Value="No" />
+        </Facet>
+        <Facet Name="L3ST conveyed as L3TT">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT language type">
+          <String Value="Conditioned: slurred, stammer, muffled, mumble, rapid" />
+        </Facet>
+        <Facet Name="L3TT language">
+          <String Value="French" />
+        </Facet>
+        <Facet Name="L3TT meant to be understood">
+          <String Value="YES, (almost) completely" />
+        </Facet>
+        <Facet Name="L3TT message required for understanding">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3TT speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3TT mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3TT functions">
+          <String Value="Character portrayal" />
+          <String Value="Signals otherness" />
+        </Facet>
+        <Facet Name="L3TT sources">
+          <String Value="Oral L3: single source" />
+        </Facet>
+        <Facet Name="L3 language type change">
+          <String Value="- Real" />
+          <String Value="+ Conditioned: slurred, stammer, muffled, mumble, rapid" />
+        </Facet>
+        <Facet Name="L3 mode change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 functions change">
+          <String Value="+ Character portrayal" />
+          <String Value="+ Signals otherness" />
+        </Facet>
+        <Facet Name="Conversation features for L3-instance change">
+          <String Value="- formal" />
+          <String Value="- salutation" />
+        </Facet>
+        <Facet Name="L3 sources change">
+          <String Value="None" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Casino Royale.Bank transfer.Goodbye in German.SpanishDub" Name="Casino Royale.Bank transfer.Goodbye in German.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Casino Royale&amp;conversation=Casino Royale.Bank transfer&amp;L3STinstance=Casino Royale.Bank transfer.Goodbye in German&amp;L3TTinstance=Casino Royale.Bank transfer.Goodbye in German.SpanishDub">
+      <Description>A Swiss banker reaches Bond and Vesper at his place to fulfill the bank transfer of the money won at the casino.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Casino Royale.Bank transfer.Goodbye in German.SpanishDub" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Mendel: Los fondos han sido transferidos. Siento haberles molestado. Auf wiedersehen.&#xD;&#xA;Bond: Auf wiedersehen, Herr Mendel.&#xD;&#xA;" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-08-09T03:11:54" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-08-09T03:16:20" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="miquelpt" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Casino Royale" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Casino Royale.Bank transfer" />
+        </Facet>
+        <Facet Name="L3ST-instance Reference Id">
+          <String Value="Casino Royale.Bank transfer.Goodbye in German" />
+        </Facet>
+        <Facet Name="Film Title TT">
+          <String Value="Casino Royale" />
+        </Facet>
+        <Facet Name="L2 language">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L2 mode">
+          <String Value="Dubbed" />
+        </Facet>
+        <Facet Name="Distribution countries (TT)">
+          <String Value="Spain" />
+        </Facet>
+        <Facet Name="Year TT released">
+          <Number Value="2006" />
+        </Facet>
+        <Facet Name="Film TT Blockbuster">
+          <String Value="YES (top 20)" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="117" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L2 same as L3ST">
+          <String Value="No" />
+        </Facet>
+        <Facet Name="L3ST conveyed as L3TT">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3TT language">
+          <String Value="German" />
+        </Facet>
+        <Facet Name="L3TT meant to be understood">
+          <String Value="YES, the gist, the implications of what is happening" />
+        </Facet>
+        <Facet Name="L3TT message required for understanding">
+          <String Value="Conversation can be followed regardless of meaning" />
+        </Facet>
+        <Facet Name="L3TT meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3TT speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3TT mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3TT merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
+        <Facet Name="L3TT functions">
+          <String Value="Character portrayal" />
+          <String Value="Signals otherness" />
+        </Facet>
+        <Facet Name="Conversation features for L3TT-instance">
+          <String Value="farewell" />
+          <String Value="formal" />
+        </Facet>
+        <Facet Name="L3TT sources">
+          <String Value="Oral L3: different sources " />
+        </Facet>
+        <Facet Name="L3 language type change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 mode change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 functions change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="Conversation features for L3-instance change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 sources change">
+          <String Value="None" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Casino Royale.Poker game 2.Addressing Bond.SpanishDub" Name="Casino Royale.Poker game 2.Addressing Bond.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Casino Royale&amp;conversation=Casino Royale.Poker game 2&amp;L3STinstance=Casino Royale.Poker game 2.Addressing Bond&amp;L3TTinstance=Casino Royale.Poker game 2.Addressing Bond.SpanishDub">
+      <Description>The poker game facing Bond against the antagonist Le Chiffre continues.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Casino Royale.Poker game 2.Addressing Bond.SpanishDub" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Dealer: Monsieur Bond." />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-08-09T02:31:44" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-08-09T02:36:33" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="miquelpt" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Casino Royale" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Casino Royale.Poker game 2" />
+        </Facet>
+        <Facet Name="L3ST-instance Reference Id">
+          <String Value="Casino Royale.Poker game 2.Addressing Bond" />
+        </Facet>
+        <Facet Name="Film Title TT">
+          <String Value="Casino Royale" />
+        </Facet>
+        <Facet Name="L2 language">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L2 mode">
+          <String Value="Dubbed" />
+        </Facet>
+        <Facet Name="Distribution countries (TT)">
+          <String Value="Spain" />
+        </Facet>
+        <Facet Name="Year TT released">
+          <Number Value="2006" />
+        </Facet>
+        <Facet Name="Film TT Blockbuster">
+          <String Value="YES (top 20)" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="87" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L2 same as L3ST">
+          <String Value="No" />
+        </Facet>
+        <Facet Name="L3ST conveyed as L3TT">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3TT language">
+          <String Value="French" />
+        </Facet>
+        <Facet Name="L3TT meant to be understood">
+          <String Value="YES, (almost) completely" />
+        </Facet>
+        <Facet Name="L3TT message required for understanding">
+          <String Value="Conversation can be followed regardless of meaning" />
+        </Facet>
+        <Facet Name="L3TT meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3TT speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3TT mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3TT merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
+        <Facet Name="L3TT functions">
+          <String Value="Theme" />
+        </Facet>
+        <Facet Name="Conversation features for L3TT-instance">
+          <String Value="formal" />
+        </Facet>
+        <Facet Name="L3TT sources">
+          <String Value="Oral L3: single source" />
+        </Facet>
+        <Facet Name="L3 language type change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 mode change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 functions change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="Conversation features for L3-instance change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 sources change">
+          <String Value="None" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Casino Royale.Poker game.Addressing Le Chiffre.SpanishDub" Name="Casino Royale.Poker game.Addressing Le Chiffre.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Casino Royale&amp;conversation=Casino Royale.Poker game&amp;L3STinstance=Casino Royale.Poker game.Addressing Le Chiffre&amp;L3TTinstance=Casino Royale.Poker game.Addressing Le Chiffre.SpanishDub">
+      <Description>Bond is playing a poker game against antagonist Le Chiffre. The dealer addresses the players using the French honorifics.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Casino Royale.Poker game.Addressing Le Chiffre.SpanishDub" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Dealer: Monsieur Le Chiffre." />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-08-09T02:19:35" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-08-09T02:21:37" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="miquelpt" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Casino Royale" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Casino Royale.Poker game" />
+        </Facet>
+        <Facet Name="L3ST-instance Reference Id">
+          <String Value="Casino Royale.Poker game.Addressing Le Chiffre" />
+        </Facet>
+        <Facet Name="Film Title TT">
+          <String Value="Casino Royale" />
+        </Facet>
+        <Facet Name="L2 language">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L2 mode">
+          <String Value="Dubbed" />
+        </Facet>
+        <Facet Name="Distribution countries (TT)">
+          <String Value="Spain" />
+        </Facet>
+        <Facet Name="Year TT released">
+          <Number Value="2006" />
+        </Facet>
+        <Facet Name="Film TT Blockbuster">
+          <String Value="YES (top 20)" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="72" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L2 same as L3ST">
+          <String Value="No" />
+        </Facet>
+        <Facet Name="L3ST conveyed as L3TT">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3TT language">
+          <String Value="French" />
+        </Facet>
+        <Facet Name="L3TT meant to be understood">
+          <String Value="YES, (almost) completely" />
+        </Facet>
+        <Facet Name="L3TT message required for understanding">
+          <String Value="Conversation can be followed regardless of meaning" />
+        </Facet>
+        <Facet Name="L3TT meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3TT speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3TT mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3TT merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
+        <Facet Name="L3TT functions">
+          <String Value="Theme" />
+        </Facet>
+        <Facet Name="Conversation features for L3TT-instance">
+          <String Value="formal" />
+        </Facet>
+        <Facet Name="L3TT sources">
+          <String Value="Oral L3: single source" />
+        </Facet>
+        <Facet Name="L3 language type change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 mode change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 functions change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="Conversation features for L3-instance change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 sources change">
+          <String Value="None" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Chocolat.narrator's introduction.French word.SpanishDub" Name="Chocolat.narrator's introduction.French word.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Chocolat&amp;conversation=Chocolat.narrator's introduction&amp;L3STinstance=Chocolat.narrator's introduction.French word&amp;L3TTinstance=Chocolat.narrator's introduction.French word.SpanishDub">
       <Description></Description>
       <Facets>
@@ -9933,6 +10387,277 @@
         <Facet Name="L3 sources change">
           <String Value="- Respond interlingually: different sources " />
           <String Value="+ Oral L3: different sources " />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Eastern Promises.At the chemist's.Speaking Gujurati.SpanishDub" Name="Eastern Promises.At the chemist's.Speaking Gujurati.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Eastern Promises&amp;conversation=Eastern Promises.At the chemist's&amp;L3STinstance=Eastern Promises.At the chemist's.Speaking Gujurati&amp;L3TTinstance=Eastern Promises.At the chemist's.Speaking Gujurati.SpanishDub">
+      <Description>Tatiana enters the chemist's shop asking for help. </Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Eastern Promises.At the chemist's.Speaking Gujurati.SpanishDub" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="The conversation is neither dubbed nor subtitled into Spanish. " />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-08-26T02:19:41" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-08-26T02:22:20" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="SoniaGonzalez" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Eastern Promises" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Eastern Promises.At the chemist's" />
+        </Facet>
+        <Facet Name="L3ST-instance Reference Id">
+          <String Value="Eastern Promises.At the chemist's.Speaking Gujurati" />
+        </Facet>
+        <Facet Name="Film Title TT">
+          <String Value="Promesas del Este" />
+        </Facet>
+        <Facet Name="L2 language">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L2 mode">
+          <String Value="Dubbed" />
+        </Facet>
+        <Facet Name="Distribution countries (TT)">
+          <String Value="Spain" />
+        </Facet>
+        <Facet Name="Year TT released">
+          <Number Value="2007" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L2 same as L3ST">
+          <String Value="No" />
+        </Facet>
+        <Facet Name="L3ST conveyed as L3TT">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3TT language">
+          <String Value="Gujurati" />
+        </Facet>
+        <Facet Name="L3TT meant to be understood">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="L3TT meaning decipherable">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="Quality of L3TT speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3TT functions">
+          <String Value="Other" />
+        </Facet>
+        <Facet Name="L3TT sources">
+          <String Value="Oral L3: different sources " />
+        </Facet>
+        <Facet Name="L3 language type change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 mode change">
+          <String Value="- Oral non-diegetic" />
+        </Facet>
+        <Facet Name="L3 functions change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="Conversation features for L3-instance change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 sources change">
+          <String Value="None" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Eastern Promises.Singing in Ukranian.Speaking Ukranian.SpanishDub" Name="Eastern Promises.Singing in Ukranian.Speaking Ukranian.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Eastern Promises&amp;conversation=Eastern Promises.Singing in Ukranian&amp;L3STinstance=Eastern Promises.Singing in Ukranian.Speaking Ukranian&amp;L3TTinstance=Eastern Promises.Singing in Ukranian.Speaking Ukranian.SpanishDub">
+      <Description>A girl starts singing in Ukranian after being raped. </Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Eastern Promises.Singing in Ukranian.Speaking Ukranian.SpanishDub" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="The words that the girl is singing are not translated. " />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-08-26T03:00:07" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-08-26T03:01:46" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="SoniaGonzalez" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Eastern Promises" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Eastern Promises.Singing in Ukranian" />
+        </Facet>
+        <Facet Name="L3ST-instance Reference Id">
+          <String Value="Eastern Promises.Singing in Ukranian.Speaking Ukranian" />
+        </Facet>
+        <Facet Name="Film Title TT">
+          <String Value="Promesas del Este" />
+        </Facet>
+        <Facet Name="L2 language">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L2 mode">
+          <String Value="Dubbed" />
+        </Facet>
+        <Facet Name="Distribution countries (TT)">
+          <String Value="Spain" />
+        </Facet>
+        <Facet Name="Year TT released">
+          <Number Value="2007" />
+        </Facet>
+        <Facet Name="L2 same as L3ST">
+          <String Value="No" />
+        </Facet>
+        <Facet Name="L3ST conveyed as L3TT">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3TT language">
+          <String Value="Ukranian" />
+        </Facet>
+        <Facet Name="L3TT meant to be understood">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="L3TT meaning decipherable">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="Quality of L3TT speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3TT functions">
+          <String Value="Dramatic effect" />
+        </Facet>
+        <Facet Name="L3 language type change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 mode change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 functions change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="Conversation features for L3-instance change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 sources change">
+          <String Value="- Oral L3: single source" />
+          <String Value="+ " />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Eastern Promises.Talking to the barber.Speaking Turkish.SpanishDub" Name="Eastern Promises.Talking to the barber.Speaking Turkish.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Eastern Promises&amp;conversation=Eastern Promises.Talking to the barber&amp;L3STinstance=Eastern Promises.Talking to the barber.Speaking Turkish&amp;L3TTinstance=Eastern Promises.Talking to the barber.Speaking Turkish.SpanishDub">
+      <Description>A Russian man is getting his hair cut at a Turkish Barber Shop. </Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Eastern Promises.Talking to the barber.Speaking Turkish.SpanishDub" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-08-08T06:39:57" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-08-08T06:42:00" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="SoniaGonzalez" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Eastern Promises" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Eastern Promises.Talking to the barber" />
+        </Facet>
+        <Facet Name="L3ST-instance Reference Id">
+          <String Value="Eastern Promises.Talking to the barber.Speaking Turkish" />
+        </Facet>
+        <Facet Name="Film Title TT">
+          <String Value="Promesas del Este" />
+        </Facet>
+        <Facet Name="L2 language">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L2 mode">
+          <String Value="Dubbed" />
+        </Facet>
+        <Facet Name="Distribution countries (TT)">
+          <String Value="Spain" />
+        </Facet>
+        <Facet Name="Year TT released">
+          <Number Value="2007" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L2 same as L3ST">
+          <String Value="No" />
+        </Facet>
+        <Facet Name="L3ST conveyed as L3TT">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3TT language">
+          <String Value="Turkish" />
+        </Facet>
+        <Facet Name="L3TT meant to be understood">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="L3TT message required for understanding">
+          <String Value="Conversation can be followed regardless of meaning" />
+        </Facet>
+        <Facet Name="L3TT meaning decipherable">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="Quality of L3TT speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3TT mode, written/spoken, diegetic">
+          <String Value="Oral non-diegetic" />
+        </Facet>
+        <Facet Name="L3TT merely represented orally">
+          <String Value="L-main quirkiness or clue" />
+        </Facet>
+        <Facet Name="L3TT functions">
+          <String Value="Character portrayal" />
+        </Facet>
+        <Facet Name="Conversation features for L3TT-instance">
+          <String Value="anecdote / story" />
+        </Facet>
+        <Facet Name="L3TT sources">
+          <String Value="Oral L3: single source" />
+        </Facet>
+        <Facet Name="L3 language type change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 mode change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 functions change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="Conversation features for L3-instance change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 sources change">
+          <String Value="None" />
         </Facet>
       </Facets>
     </Item>
@@ -15464,10 +16189,10 @@
           <DateTime Value="2016-12-11T08:15:16" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-12-12T11:58:50" />
+          <DateTime Value="2017-10-09T01:13:26" />
         </Facet>
         <Facet Name="Metadata Editors">
-          <String Value="Santamaria" />
+          <String Value="santamaria" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Gran Torino" />
@@ -15506,16 +16231,19 @@
           <String Value="Yes" />
         </Facet>
         <Facet Name="L3ST conveyed as L3TT">
-          <String Value="No" />
+          <String Value="Yes" />
         </Facet>
         <Facet Name="L3TT language type">
-          <String Value="No L3TT: L3-instance in L2" />
+          <String Value="L-main variety (e.g. dialect, sociolect, idiolect, slang)" />
         </Facet>
         <Facet Name="L3TT language">
-          <String Value="Spanish" />
+          <String Value="South American Spanish" />
         </Facet>
         <Facet Name="L3TT meant to be understood">
           <String Value="YES, (almost) completely" />
+        </Facet>
+        <Facet Name="L3TT message required for understanding">
+          <String Value="Conversation can be followed regardless of meaning" />
         </Facet>
         <Facet Name="L3TT meaning decipherable">
           <String Value="YES, through translation or clear from picture" />
@@ -15534,23 +16262,23 @@
         </Facet>
         <Facet Name="Conversation features for L3TT-instance">
           <String Value="threat" />
+          <String Value="vulgar" />
         </Facet>
         <Facet Name="L3TT sources">
           <String Value="Bilingual (L3&amp;main): same source " />
         </Facet>
         <Facet Name="L3 language type change">
           <String Value="- Real" />
-          <String Value="+ No L3TT: L3-instance in L2" />
+          <String Value="+ L-main variety (e.g. dialect, sociolect, idiolect, slang)" />
         </Facet>
         <Facet Name="L3 mode change">
           <String Value="None" />
         </Facet>
         <Facet Name="L3 functions change">
-          <String Value="+ Plot (twist)" />
-          <String Value="+ Signals the bad guy" />
+          <String Value="None" />
         </Facet>
         <Facet Name="Conversation features for L3-instance change">
-          <String Value="- vulgar" />
+          <String Value="None" />
         </Facet>
         <Facet Name="L3 sources change">
           <String Value="None" />
@@ -22893,6 +23621,107 @@
         </Facet>
         <Facet Name="L3 mode change">
           <String Value="None" />
+        </Facet>
+        <Facet Name="L3 functions change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="Conversation features for L3-instance change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 sources change">
+          <String Value="None" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Home Alone.Packing the suitcase.Speaking French.SpanishDub" Name="Home Alone.Packing the suitcase.Speaking French.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Home Alone&amp;conversation=Home Alone.Packing the suitcase&amp;L3STinstance=Home Alone.Packing the suitcase.Speaking French&amp;L3TTinstance=Home Alone.Packing the suitcase.Speaking French.SpanishDub">
+      <Description>Kevin doesn´t know how to pack his suitcase. </Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Home Alone.Packing the suitcase.Speaking French.SpanishDub" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Eres lo que los franceses llaman &quot;les incompétents&quot;. " />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-08-09T10:36:00" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-08-09T10:38:10" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="SoniaGonzalez" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Home Alone" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Home Alone.Packing the suitcase" />
+        </Facet>
+        <Facet Name="L3ST-instance Reference Id">
+          <String Value="Home Alone.Packing the suitcase.Speaking French" />
+        </Facet>
+        <Facet Name="Film Title TT">
+          <String Value="Solo en casa" />
+        </Facet>
+        <Facet Name="L2 language">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L2 mode">
+          <String Value="Dubbed" />
+        </Facet>
+        <Facet Name="Distribution countries (TT)">
+          <String Value="Spain" />
+        </Facet>
+        <Facet Name="Year TT released">
+          <Number Value="1990" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L2 same as L3ST">
+          <String Value="No" />
+        </Facet>
+        <Facet Name="L3ST conveyed as L3TT">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3TT language">
+          <String Value="French" />
+        </Facet>
+        <Facet Name="L3TT meant to be understood">
+          <String Value="YES, (almost) completely" />
+        </Facet>
+        <Facet Name="L3TT message required for understanding">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3TT speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3TT mode, written/spoken, diegetic">
+          <String Value="Oral non-diegetic" />
+        </Facet>
+        <Facet Name="L3TT merely represented orally">
+          <String Value="L-main quirkiness or clue" />
+        </Facet>
+        <Facet Name="L3TT functions">
+          <String Value="Comedy / humour" />
+        </Facet>
+        <Facet Name="Conversation features for L3TT-instance">
+          <String Value="joke" />
+        </Facet>
+        <Facet Name="L3TT sources">
+          <String Value="Oral L3: single source" />
+        </Facet>
+        <Facet Name="L3 language type change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 mode change">
+          <String Value="+ Oral non-diegetic" />
         </Facet>
         <Facet Name="L3 functions change">
           <String Value="None" />
@@ -58129,6 +58958,429 @@ At the same time Mathis is on the phone</Description>
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Spiderman 3.French restaurant.Expressions in French.SpanishDub" Name="Spiderman 3.French restaurant.Expressions in French.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Spiderman 3&amp;conversation=Spiderman 3.French restaurant&amp;L3STinstance=Spiderman 3.French restaurant.Expressions in French&amp;L3TTinstance=Spiderman 3.French restaurant.Expressions in French.SpanishDub">
+      <Description>Peter and the French restaurant owner include French expressions in their conversation in English.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Spiderman 3.French restaurant.Expressions in French.SpanishDub" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Peter Parker: Hm, quisiera pedirle algo. Va a venir mi novia y… tengo este anillo.&#xD;&#xA;Restaurant owner: Ah! [Observing the ring.] Olé. [To Peter] ¿Así que esta noche quiere pedirle la mano, eh?&#xD;&#xA;Peter Parker: Sí, y quiero hacer algo muy especial.&#xD;&#xA;Restaurant owner: Me encanta. Romance… Soy francés.&#xD;&#xA;Peter Parker: Cuando se lo indique, si trajera champán… con el anillo…&#xD;&#xA;Restaurant owner: … ¿en el fondo de la copa?&#xD;&#xA;Peter Parker: ¡Perfecto!&#xD;&#xA;Restaurant owner: ¡Magnifique!&#xD;&#xA;Peter Parker: Y también he pensado que, al mismo tiempo, si los músicos tocaran esta canción...&#xD;&#xA;Restaurant owner: Su favorita.&#xD;&#xA;Peter Parker: Y… cuide bien del anillo.&#xD;&#xA;Restaurant owner: Con mi vida, monsieur. S'il vous plait?&#xD;&#xA;Peter Parker: Oui.&#xD;&#xA;Restaurant owner: Usted me gusta.&#xD;&#xA;[The owner sees Peter to his table.]&#xD;&#xA;Peter Parker: Gracias.&#xD;&#xA;Restaurant owner: Bonne chance.&#xD;&#xA;Peter Parker: Bonne chance." />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-08-10T03:38:43" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-08-10T03:51:26" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="miquelpt" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Spiderman 3" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Spiderman 3.French restaurant" />
+        </Facet>
+        <Facet Name="L3ST-instance Reference Id">
+          <String Value="Spiderman 3.French restaurant.Expressions in French" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="52" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="F. 101-120" />
+        </Facet>
+        <Facet Name="L2 same as L3ST">
+          <String Value="No" />
+        </Facet>
+        <Facet Name="L3ST conveyed as L3TT">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3TT language">
+          <String Value="French" />
+        </Facet>
+        <Facet Name="L3TT meant to be understood">
+          <String Value="YES, the gist, the implications of what is happening" />
+        </Facet>
+        <Facet Name="L3TT message required for understanding">
+          <String Value="Conversation can be followed regardless of meaning" />
+        </Facet>
+        <Facet Name="L3TT meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3TT speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3TT mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3TT merely represented">
+          <String Value="YES: visually" />
+        </Facet>
+        <Facet Name="L3TT represented: visual">
+          <String Value="Gesture (movement / body language)" />
+        </Facet>
+        <Facet Name="L3TT functions">
+          <String Value="Stereotype" />
+          <String Value="Comedy / humour" />
+        </Facet>
+        <Facet Name="Conversation features for L3TT-instance">
+          <String Value="balanced exchange" />
+        </Facet>
+        <Facet Name="L3TT sources">
+          <String Value="Respond interlingually: different sources " />
+        </Facet>
+        <Facet Name="L3 language type change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 mode change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 functions change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="Conversation features for L3-instance change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 sources change">
+          <String Value="None" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Spiderman 3.French restaurant.Mispronouncing Parker.SpanishDub" Name="Spiderman 3.French restaurant.Mispronouncing Parker.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Spiderman 3&amp;conversation=Spiderman 3.French restaurant&amp;L3STinstance=Spiderman 3.French restaurant.Mispronouncing Parker&amp;L3TTinstance=Spiderman 3.French restaurant.Mispronouncing Parker.SpanishDub">
+      <Description>The restaurant owner mispronounces Peter's surname (Parker) because of his strong French accent when speaking English.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Spiderman 3.French restaurant.Mispronouncing Parker.SpanishDub" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Restaurant owner: Nombre , ¿por favor?&#xD;&#xA;Peter Parker: Parker, Peter.&#xD;&#xA;Restaurant owner: [Blows a whistle and someone brings him a pen]. Ah, aquí está. Mesa para dos. Pa-qué [mispronouncing Peter’s surname].&#xD;&#xA;Peter Parker: Parker.&#xD;&#xA;Restaurant owner: Eso es lo que he dicho. Pa-qué." />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-08-10T03:18:07" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-08-10T03:27:39" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="miquelpt" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Spiderman 3" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Spiderman 3.French restaurant" />
+        </Facet>
+        <Facet Name="L3ST-instance Reference Id">
+          <String Value="Spiderman 3.French restaurant.Mispronouncing Parker" />
+        </Facet>
+        <Facet Name="Film Title TT">
+          <String Value="Spider-man 3" />
+        </Facet>
+        <Facet Name="L2 language">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L2 mode">
+          <String Value="Dubbed" />
+        </Facet>
+        <Facet Name="Distribution countries (TT)">
+          <String Value="Spain" />
+        </Facet>
+        <Facet Name="Year TT released">
+          <Number Value="2007" />
+        </Facet>
+        <Facet Name="Film TT Blockbuster">
+          <String Value="YES (top 20)" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="52" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="F. 101-120" />
+        </Facet>
+        <Facet Name="L2 same as L3ST">
+          <String Value="No" />
+        </Facet>
+        <Facet Name="L3ST conveyed as L3TT">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT language type">
+          <String Value="Conditioned: slurred, stammer, muffled, mumble, rapid" />
+        </Facet>
+        <Facet Name="L3TT language">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L3TT meant to be understood">
+          <String Value="YES, the gist, the implications of what is happening" />
+        </Facet>
+        <Facet Name="L3TT message required for understanding">
+          <String Value="Conversation can be followed regardless of meaning" />
+        </Facet>
+        <Facet Name="L3TT meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3TT speaker performance">
+          <String Value="clearly non-native or deficient" />
+        </Facet>
+        <Facet Name="L3TT mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3TT merely represented">
+          <String Value="YES: orally" />
+        </Facet>
+        <Facet Name="L3TT merely represented orally">
+          <String Value="Clearly non-native L-main" />
+        </Facet>
+        <Facet Name="L3TT functions">
+          <String Value="Stereotype" />
+          <String Value="Comedy / humour" />
+          <String Value="Signals otherness" />
+        </Facet>
+        <Facet Name="Conversation features for L3TT-instance">
+          <String Value="embarassing" />
+        </Facet>
+        <Facet Name="L3TT sources">
+          <String Value="Oral L3: single source" />
+        </Facet>
+        <Facet Name="L3 language type change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 mode change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 functions change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="Conversation features for L3-instance change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 sources change">
+          <String Value="None" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Spiderman 3.French restaurant.Speaking French.SpanishDub" Name="Spiderman 3.French restaurant.Speaking French.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Spiderman 3&amp;conversation=Spiderman 3.French restaurant&amp;L3STinstance=Spiderman 3.French restaurant.Speaking French&amp;L3TTinstance=Spiderman 3.French restaurant.Speaking French.SpanishDub">
+      <Description>Peter arrives at a French restaurant were he intends to propose to Mary Jane.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Spiderman 3.French restaurant.Speaking French.SpanishDub" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Restaurant owner: Pardon. Bon soir. Le monsieur a-t-il une reservation?&#xD;&#xA;Peter Parker: Lo siento, no hablo…&#xD;&#xA;Restaurant owner: … pero está en un restaurante francés, ¿no?&#xD;&#xA;Peter Parker: Oui.&#xD;&#xA;Restaurant owner: Aha." />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-08-10T03:04:05" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-08-10T03:10:33" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="miquelpt" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Spiderman 3" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Spiderman 3.French restaurant" />
+        </Facet>
+        <Facet Name="L3ST-instance Reference Id">
+          <String Value="Spiderman 3.French restaurant.Speaking French" />
+        </Facet>
+        <Facet Name="Film Title TT">
+          <String Value="Spider-man 3" />
+        </Facet>
+        <Facet Name="L2 language">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L2 mode">
+          <String Value="Dubbed" />
+        </Facet>
+        <Facet Name="Distribution countries (TT)">
+          <String Value="Spain" />
+        </Facet>
+        <Facet Name="Year TT released">
+          <Number Value="2007" />
+        </Facet>
+        <Facet Name="Film TT Blockbuster">
+          <String Value="YES (top 20)" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="52" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="F. 101-120" />
+        </Facet>
+        <Facet Name="L2 same as L3ST">
+          <String Value="No" />
+        </Facet>
+        <Facet Name="L3ST conveyed as L3TT">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3TT language">
+          <String Value="French" />
+        </Facet>
+        <Facet Name="L3TT meant to be understood">
+          <String Value="YES, the gist, the implications of what is happening" />
+        </Facet>
+        <Facet Name="L3TT message required for understanding">
+          <String Value="Conversation can be followed regardless of meaning" />
+        </Facet>
+        <Facet Name="L3TT meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3TT speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3TT mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3TT merely represented">
+          <String Value="YES: visually" />
+          <String Value="L3 mentioned, talked about" />
+        </Facet>
+        <Facet Name="L3TT represented: visual">
+          <String Value="Gesture (movement / body language)" />
+          <String Value="Behaviour" />
+        </Facet>
+        <Facet Name="L3TT functions">
+          <String Value="Stereotype" />
+          <String Value="Comedy / humour" />
+        </Facet>
+        <Facet Name="Conversation features for L3TT-instance">
+          <String Value="balanced exchange" />
+        </Facet>
+        <Facet Name="L3TT sources">
+          <String Value="Respond interlingually: different sources " />
+        </Facet>
+        <Facet Name="L3 language type change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 mode change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 functions change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="Conversation features for L3-instance change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 sources change">
+          <String Value="None" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="The Chronicles of Narnia.Setting.German Pilots.SpanishDub" Name="The Chronicles of Narnia.Setting.German Pilots.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=The Chronicles of Narnia&amp;conversation=The Chronicles of Narnia.Setting&amp;L3STinstance=The Chronicles of Narnia.Setting.German Pilots&amp;L3TTinstance=The Chronicles of Narnia.Setting.German Pilots.SpanishDub">
+      <Description>The film starts with the German air bombing attack over London during Second World War.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="The Chronicles of Narnia.Setting.German Pilots.SpanishDub" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-08-08T10:53:36" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-08-08T10:56:24" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="miquelpt" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="The Chronicles of Narnia" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="The Chronicles of Narnia.Setting" />
+        </Facet>
+        <Facet Name="L3ST-instance Reference Id">
+          <String Value="The Chronicles of Narnia.Setting.German Pilots" />
+        </Facet>
+        <Facet Name="Film Title TT">
+          <String Value="Las crónicas de Narnia: el leon, la bruja y el armario" />
+        </Facet>
+        <Facet Name="L2 language">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L2 mode">
+          <String Value="Dubbed" />
+        </Facet>
+        <Facet Name="Distribution countries (TT)">
+          <String Value="Spain" />
+        </Facet>
+        <Facet Name="Year TT released">
+          <Number Value="2005" />
+        </Facet>
+        <Facet Name="Film TT Blockbuster">
+          <String Value="YES (top 20)" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="B. 21-40" />
+        </Facet>
+        <Facet Name="L2 same as L3ST">
+          <String Value="No" />
+        </Facet>
+        <Facet Name="L3ST conveyed as L3TT">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3TT language">
+          <String Value="German" />
+        </Facet>
+        <Facet Name="L3TT meant to be understood">
+          <String Value="YES, the gist, the implications of what is happening" />
+        </Facet>
+        <Facet Name="L3TT message required for understanding">
+          <String Value="Conversation can be followed regardless of meaning" />
+        </Facet>
+        <Facet Name="L3TT meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3TT speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3TT mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3TT merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
+        <Facet Name="L3TT functions">
+          <String Value="Theme" />
+        </Facet>
+        <Facet Name="Conversation features for L3TT-instance">
+          <String Value="instruction / training" />
+          <String Value="introduction" />
+        </Facet>
+        <Facet Name="L3TT sources">
+          <String Value="Oral L3: different sources " />
+        </Facet>
+        <Facet Name="L3 language type change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 mode change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 functions change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="Conversation features for L3-instance change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 sources change">
+          <String Value="None" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="The Da Vinci Code.Question in a conference.comment in French.SpanishDub" Name="The Da Vinci Code.Question in a conference.comment in French.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=The Da Vinci Code&amp;conversation=The Da Vinci Code.Question in a conference&amp;L3STinstance=The Da Vinci Code.Question in a conference.comment in French&amp;L3TTinstance=The Da Vinci Code.Question in a conference.comment in French.SpanishDub">
       <Description>During a conference in Paris, Robert Langdon asks the audience about a symbol he is showing on the screen. He is given the answer in French and requires a translation into English.</Description>
       <Facets>
@@ -59827,6 +61079,102 @@ Mikael Blomkvist's toast sounds as non-native Swedish</Description>
         <Facet Name="L3 sources change">
           <String Value="- " />
           <String Value="+ Oral L3: single source" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="The Iceman.Remembering his childhood.Speaking Polish.SpanishDub" Name="The Iceman.Remembering his childhood.Speaking Polish.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=The Iceman&amp;conversation=The Iceman.Remembering his childhood&amp;L3STinstance=The Iceman.Remembering his childhood.Speaking Polish&amp;L3TTinstance=The Iceman.Remembering his childhood.Speaking Polish.SpanishDub">
+      <Description>Kuklinski remembers how his father punished him using a whip. </Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="The Iceman.Remembering his childhood.Speaking Polish.SpanishDub" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-08-03T08:24:58" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-08-03T08:28:33" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="SoniaGonzalez" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="The Iceman" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="The Iceman.Remembering his childhood" />
+        </Facet>
+        <Facet Name="L3ST-instance Reference Id">
+          <String Value="The Iceman.Remembering his childhood.Speaking Polish" />
+        </Facet>
+        <Facet Name="Film Title TT">
+          <String Value="The Iceman (El hombre de hielo)" />
+        </Facet>
+        <Facet Name="L2 language">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L2 mode">
+          <String Value="Dubbed" />
+        </Facet>
+        <Facet Name="Distribution countries (TT)">
+          <String Value="Spain" />
+        </Facet>
+        <Facet Name="Year TT released">
+          <Number Value="2012" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L2 same as L3ST">
+          <String Value="No" />
+        </Facet>
+        <Facet Name="L3ST conveyed as L3TT">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3TT language">
+          <String Value="Polish" />
+        </Facet>
+        <Facet Name="L3TT meant to be understood">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="L3TT message required for understanding">
+          <String Value="Conversation can be followed regardless of meaning" />
+        </Facet>
+        <Facet Name="L3TT meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3TT speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3TT mode, written/spoken, diegetic">
+          <String Value="Oral non-diegetic" />
+        </Facet>
+        <Facet Name="L3TT merely represented orally">
+          <String Value="L-main quirkiness or clue" />
+        </Facet>
+        <Facet Name="L3TT functions">
+          <String Value="Dramatic effect" />
+        </Facet>
+        <Facet Name="Conversation features for L3TT-instance">
+          <String Value="domestic / family" />
+        </Facet>
+        <Facet Name="L3 language type change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 mode change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 functions change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="Conversation features for L3-instance change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 sources change">
+          <String Value="- Oral L3: single source" />
+          <String Value="+ " />
         </Facet>
       </Facets>
     </Item>
@@ -67051,6 +68399,203 @@ Mikael Blomkvist's toast sounds as non-native Swedish</Description>
         </Facet>
         <Facet Name="L3TT sources">
           <String Value="Non-diegetic translation" />
+        </Facet>
+        <Facet Name="L3 language type change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 mode change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 functions change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="Conversation features for L3-instance change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 sources change">
+          <String Value="None" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Under the Tuscan Sun.Doing works.Speaking Polish.SpanishDub" Name="Under the Tuscan Sun.Doing works.Speaking Polish.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Under the Tuscan Sun&amp;conversation=Under the Tuscan Sun.Doing works&amp;L3STinstance=Under the Tuscan Sun.Doing works.Speaking Polish&amp;L3TTinstance=Under the Tuscan Sun.Doing works.Speaking Polish.SpanishDub">
+      <Description>They fail when doing works inside the house. </Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Under the Tuscan Sun.Doing works.Speaking Polish.SpanishDub" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="-Kurwa mac!&#xD;&#xA;&quot;Kurwa mac&quot; significa &quot;me cago en la leche&quot; en polaco. " />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-08-12T08:39:25" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-08-12T08:42:04" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="SoniaGonzalez" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Under the Tuscan Sun" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Under the Tuscan Sun.Doing works" />
+        </Facet>
+        <Facet Name="L3ST-instance Reference Id">
+          <String Value="Under the Tuscan Sun.Doing works.Speaking Polish" />
+        </Facet>
+        <Facet Name="Film Title TT">
+          <String Value="Bajo el Sol de la Toscana" />
+        </Facet>
+        <Facet Name="L2 language">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L2 mode">
+          <String Value="Dubbed" />
+        </Facet>
+        <Facet Name="Distribution countries (TT)">
+          <String Value="Spain" />
+        </Facet>
+        <Facet Name="Year TT released">
+          <Number Value="2003" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L2 same as L3ST">
+          <String Value="No" />
+        </Facet>
+        <Facet Name="L3ST conveyed as L3TT">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3TT language">
+          <String Value="Polish" />
+        </Facet>
+        <Facet Name="L3TT meant to be understood">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="L3TT message required for understanding">
+          <String Value="Conversation can be followed regardless of meaning" />
+        </Facet>
+        <Facet Name="L3TT meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3TT speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3TT mode, written/spoken, diegetic">
+          <String Value="Oral non-diegetic" />
+        </Facet>
+        <Facet Name="L3TT merely represented orally">
+          <String Value="L-main quirkiness or clue" />
+        </Facet>
+        <Facet Name="L3TT functions">
+          <String Value="Character portrayal" />
+          <String Value="Comedy / humour" />
+        </Facet>
+        <Facet Name="Conversation features for L3TT-instance">
+          <String Value="vulgar" />
+        </Facet>
+        <Facet Name="L3TT sources">
+          <String Value="Oral L3: single source" />
+        </Facet>
+        <Facet Name="L3 language type change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 mode change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 functions change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="Conversation features for L3-instance change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 sources change">
+          <String Value="None" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Under the Tuscan Sun.Living in the Tuscany.Speaking Italian.SpanishDub" Name="Under the Tuscan Sun.Living in the Tuscany.Speaking Italian.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Under the Tuscan Sun&amp;conversation=Under the Tuscan Sun.Living in the Tuscany&amp;L3STinstance=Under the Tuscan Sun.Living in the Tuscany.Speaking Italian&amp;L3TTinstance=Under the Tuscan Sun.Living in the Tuscany.Speaking Italian.SpanishDub">
+      <Description>Frances starts living in her new house in the Tuscany. </Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Under the Tuscan Sun.Living in the Tuscany.Speaking Italian.SpanishDub" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="There are full conversations in Italian throughout the film. In the dubbed version, most conversions are subtitled into Spanish in order for the speakers to understand everything they say on screen." />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-08-15T11:12:15" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-08-15T11:15:06" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="SoniaGonzalez" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Under the Tuscan Sun" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Under the Tuscan Sun.Living in the Tuscany" />
+        </Facet>
+        <Facet Name="L3ST-instance Reference Id">
+          <String Value="Under the Tuscan Sun.Living in the Tuscany.Speaking Italian" />
+        </Facet>
+        <Facet Name="Film Title TT">
+          <String Value="Bajo el Sol de la Toscana" />
+        </Facet>
+        <Facet Name="L2 language">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L2 mode">
+          <String Value="Dubbed" />
+        </Facet>
+        <Facet Name="Distribution countries (TT)">
+          <String Value="Spain" />
+        </Facet>
+        <Facet Name="Year TT released">
+          <Number Value="2003" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L2 same as L3ST">
+          <String Value="No" />
+        </Facet>
+        <Facet Name="L3ST conveyed as L3TT">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3TT language">
+          <String Value="Italian" />
+        </Facet>
+        <Facet Name="L3TT meant to be understood">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="L3TT message required for understanding">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT meaning decipherable">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="Quality of L3TT speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3TT functions">
+          <String Value="Character portrayal" />
+        </Facet>
+        <Facet Name="Conversation features for L3TT-instance">
+          <String Value="domestic / family" />
+        </Facet>
+        <Facet Name="L3TT sources">
+          <String Value="Oral L3: different sources " />
         </Facet>
         <Facet Name="L3 language type change">
           <String Value="None" />

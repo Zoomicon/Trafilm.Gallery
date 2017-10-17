@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Elrond's farewell" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Singing in Ukranian" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="False" p:IsWordWheelVisible="False" />
@@ -21,47 +21,38 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="TheReturnOfTheKing.Elrond's farewell" Name="Elrond's farewell" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=TheReturnOfTheKing&amp;conversation=TheReturnOfTheKing.Elrond's farewell">
-      <Description>In the Grey Havens, Elrond says a final line in Elvish. </Description>
+    <Item Id="Eastern Promises.Singing in Ukranian" Name="Singing in Ukranian" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Eastern Promises&amp;conversation=Eastern Promises.Singing in Ukranian">
+      <Description>A girl starts singing in Ukranian after being raped. </Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="TheReturnOfTheKing.Elrond's farewell" />
+          <String Value="Eastern Promises.Singing in Ukranian" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="The song is not transcribed. " />
         </Facet>
         <Facet Name="Info created">
-          <DateTime Value="2016-12-18T12:03:06" />
+          <DateTime Value="2017-08-26T02:56:53" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-09-16T01:53:43" />
+          <DateTime Value="2017-08-26T02:57:54" />
         </Facet>
         <Facet Name="Metadata Editors">
-          <String Value="miquelpt" />
+          <String Value="SoniaGonzalez" />
         </Facet>
         <Facet Name="Film Reference Id">
-          <String Value="TheReturnOfTheKing" />
+          <String Value="Eastern Promises" />
         </Facet>
         <Facet Name="Film/Season title">
-          <String Value="The Lord of the Rings: The Return of the King" />
-        </Facet>
-        <Facet Name="Start time (min)">
-          <Number Value="224" />
-        </Facet>
-        <Facet Name="Duration (sec)">
-          <String Value="A. 1-20" />
+          <String Value="Eastern Promises" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="1" />
-        </Facet>
-        <Facet Name="L3ST languages">
-          <String Value="Elvish" />
+          <Number Value="0" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="1" />
-        </Facet>
-        <Facet Name="L3ST language types">
-          <String Value="Constructed (fictional)" />
+          <Number Value="0" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="1" />
+          <Number Value="0" />
         </Facet>
       </Facets>
     </Item>

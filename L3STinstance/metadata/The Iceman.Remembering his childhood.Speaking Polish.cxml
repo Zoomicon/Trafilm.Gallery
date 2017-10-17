@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Comment in Umshoko" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Remembering his childhood" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -30,32 +30,26 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Pirates of the Caribbean - Dead Man's Chest.Comment in Umshoko.Cannibal women about Jack Sparrow" Name="Comment in Umshoko" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Pirates of the Caribbean - Dead Man's Chest&amp;conversation=Pirates of the Caribbean - Dead Man's Chest.Comment in Umshoko&amp;L3STinstance=Pirates of the Caribbean - Dead Man's Chest.Comment in Umshoko.Cannibal women about Jack Sparrow">
-      <Description>Two cannibal women comment on Jack Sparrow's bizarre actions.</Description>
+    <Item Id="The Iceman.Remembering his childhood.Speaking Polish" Name="Remembering his childhood" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=The Iceman&amp;conversation=The Iceman.Remembering his childhood&amp;L3STinstance=The Iceman.Remembering his childhood.Speaking Polish">
+      <Description>Kuklinski remembers how his father punished him using a whip. </Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Pirates of the Caribbean - Dead Man's Chest.Comment in Umshoko.Cannibal women about Jack Sparrow" />
-        </Facet>
-        <Facet Name="Transcription">
-          <String Value="CANNIBAL WOMAN 1: A-geev-nee. &#xD;&#xA;&#xD;&#xA;CANNIBAL WOMAN 2: Uh-boogie?" />
+          <String Value="The Iceman.Remembering his childhood.Speaking Polish" />
         </Facet>
         <Facet Name="Info created">
-          <DateTime Value="2017-04-09T09:23:43" />
+          <DateTime Value="2017-08-03T08:21:46" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-09-12T04:26:26" />
+          <DateTime Value="2017-08-03T08:24:42" />
         </Facet>
         <Facet Name="Metadata Editors">
-          <String Value="miquelpt" />
+          <String Value="SoniaGonzalez" />
         </Facet>
         <Facet Name="Film Reference Id">
-          <String Value="Pirates of the Caribbean - Dead Man's Chest" />
+          <String Value="The Iceman" />
         </Facet>
         <Facet Name="Conversation Reference Id">
-          <String Value="Pirates of the Caribbean - Dead Man's Chest.Comment in Umshoko" />
-        </Facet>
-        <Facet Name="Conversation start time (min)">
-          <Number Value="42" />
+          <String Value="The Iceman.Remembering his childhood" />
         </Facet>
         <Facet Name="Conversation duration (sec)">
           <String Value="A. 1-20" />
@@ -64,16 +58,13 @@
           <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
-          <String Value="Constructed (fictional)" />
+          <String Value="Real" />
         </Facet>
         <Facet Name="L3ST language">
-          <String Value="Umshoko (Pelegostos tribe)" />
-        </Facet>
-        <Facet Name="L3ST constructed based on">
-          <String Value="Gibberish" />
+          <String Value="Polish" />
         </Facet>
         <Facet Name="L3ST meant to be understood">
-          <String Value="YES, the gist, the implications of what is happening" />
+          <String Value="NO" />
         </Facet>
         <Facet Name="L3ST message required for understanding">
           <String Value="Conversation can be followed regardless of meaning" />
@@ -85,23 +76,22 @@
           <String Value="native or proficient" />
         </Facet>
         <Facet Name="L3ST mode, written/spoken, diegetic">
-          <String Value="Oral diegetic on-screen" />
+          <String Value="Oral non-diegetic" />
         </Facet>
-        <Facet Name="L3ST merely represented">
-          <String Value="NO / Not applicable" />
+        <Facet Name="L3ST merely represented orally">
+          <String Value="L-main quirkiness or clue" />
         </Facet>
         <Facet Name="L3ST functions">
-          <String Value="Comedy / humour" />
-          <String Value="Signals otherness" />
+          <String Value="Dramatic effect" />
         </Facet>
         <Facet Name="Conversation features for L3ST-instance">
-          <String Value="debate" />
+          <String Value="domestic / family" />
         </Facet>
         <Facet Name="L3ST sources">
-          <String Value="Oral L3: different sources " />
+          <String Value="Oral L3: single source" />
         </Facet>
         <Facet Name="L3TT-instances: count">
-          <Number Value="1" />
+          <Number Value="0" />
         </Facet>
       </Facets>
     </Item>

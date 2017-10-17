@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Because I said so" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="The Iceman" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film/Season title" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -24,46 +24,47 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Because I said so" Name="Because I said so" Img="https://upload.wikimedia.org/wikipedia/en/e/e7/Because_I_Said_So_Poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Because I said so">
-      <Description>A meddling mother tries to set her daughter up with the right man so her kid won't follow in her footsteps.
+    <Item Id="The Iceman" Name="The Iceman" Img="https://upload.wikimedia.org/wikipedia/en/6/6c/TheIceman2011Poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=The Iceman">
+      <Description>The film tells the story of Richard Kuklinski, the notorious contract killer and family man. When finally arrested in 1986, neither his wife nor daughters had any clue about his real profession.
 (IMDb)</Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Because I said so" />
+          <String Value="The Iceman" />
         </Facet>
         <Facet Name="Info created">
-          <DateTime Value="2017-08-03T03:40:12" />
+          <DateTime Value="2017-08-03T08:06:48" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-08-04T12:03:55" />
+          <DateTime Value="2017-08-04T12:09:35" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="SoniaGonzalez" />
         </Facet>
         <Facet Name="Film/Season title">
-          <String Value="Because I said so" />
+          <String Value="The Iceman" />
         </Facet>
         <Facet Name="Type">
           <String Value="Feature film" />
         </Facet>
         <Facet Name="Duration (min)">
-          <Number Value="102" />
+          <Number Value="105" />
         </Facet>
         <Facet Name="Director(s)">
-          <String Value="Michael Lehmann" />
+          <String Value="Ariel Vromen" />
         </Facet>
         <Facet Name="Scriptwriter(s)">
-          <String Value="Karen Leigh Hopkins" />
-          <String Value=" Jessie Nelson" />
+          <String Value="Ariel Vromen" />
+          <String Value=" Morgan Land" />
         </Facet>
         <Facet Name="Production countries">
           <String Value="United States" />
         </Facet>
         <Facet Name="Production companies">
-          <String Value="Universal Pcitures" />
+          <String Value="Bleiberg Entertaiment" />
+          <String Value=" Rabbit Bandini Productions" />
         </Facet>
         <Facet Name="Year ST released">
-          <Number Value="2007" />
+          <Number Value="2012" />
         </Facet>
         <Facet Name="Main language (L1)">
           <String Value="English" />

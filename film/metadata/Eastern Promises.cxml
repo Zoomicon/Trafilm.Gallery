@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Because I said so" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Eastern Promises" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film/Season title" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -24,43 +24,53 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Because I said so" Name="Because I said so" Img="https://upload.wikimedia.org/wikipedia/en/e/e7/Because_I_Said_So_Poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Because I said so">
-      <Description>A meddling mother tries to set her daughter up with the right man so her kid won't follow in her footsteps.
+    <Item Id="Eastern Promises" Name="Eastern Promises" Img="https://upload.wikimedia.org/wikipedia/en/3/3b/Eastern_Promises_poster.png" Href="http://gallery.trafilm.net/film/metadata/?film=Eastern Promises">
+      <Description>A Russian teenager living in London who dies during childbirth leaves clues to a midwife in her journal that could tie her child to a rape involving a violent Russian mob family.
 (IMDb)</Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Because I said so" />
+          <String Value="Eastern Promises" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="Both English and Russian can be considered as L1 in this film. " />
         </Facet>
         <Facet Name="Info created">
-          <DateTime Value="2017-08-03T03:40:12" />
+          <DateTime Value="2017-08-04T12:43:04" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-08-04T12:03:55" />
+          <DateTime Value="2017-08-04T12:49:26" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="SoniaGonzalez" />
         </Facet>
         <Facet Name="Film/Season title">
-          <String Value="Because I said so" />
+          <String Value="Eastern Promises" />
         </Facet>
         <Facet Name="Type">
           <String Value="Feature film" />
         </Facet>
         <Facet Name="Duration (min)">
-          <Number Value="102" />
+          <Number Value="101" />
         </Facet>
         <Facet Name="Director(s)">
-          <String Value="Michael Lehmann" />
+          <String Value="David Cronenberg" />
         </Facet>
         <Facet Name="Scriptwriter(s)">
-          <String Value="Karen Leigh Hopkins" />
-          <String Value=" Jessie Nelson" />
+          <String Value="Steve Knight" />
         </Facet>
         <Facet Name="Production countries">
-          <String Value="United States" />
+          <String Value="United Kingdom" />
+          <String Value=" Canada" />
+          <String Value=" United States" />
         </Facet>
         <Facet Name="Production companies">
-          <String Value="Universal Pcitures" />
+          <String Value="BBC Films" />
+          <String Value=" Astral Media" />
+          <String Value=" Corus Entertainment" />
+          <String Value=" Telefilm Canada" />
+          <String Value=" Kudos Pictures" />
+          <String Value=" Serendipity Point Films" />
+          <String Value=" Scion Films" />
         </Facet>
         <Facet Name="Year ST released">
           <Number Value="2007" />
@@ -68,11 +78,8 @@
         <Facet Name="Main language (L1)">
           <String Value="English" />
         </Facet>
-        <Facet Name="L2-Dubbed languages">
-          <String Value="Spanish" />
-        </Facet>
         <Facet Name="Conversations: count">
-          <Number Value="1" />
+          <Number Value="0" />
         </Facet>
       </Facets>
     </Item>

@@ -55,10 +55,10 @@
           <DateTime Value="2016-12-11T08:15:16" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-12-12T11:58:50" />
+          <DateTime Value="2017-10-09T01:13:26" />
         </Facet>
         <Facet Name="Metadata Editors">
-          <String Value="Santamaria" />
+          <String Value="santamaria" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Gran Torino" />
@@ -97,16 +97,19 @@
           <String Value="Yes" />
         </Facet>
         <Facet Name="L3ST conveyed as L3TT">
-          <String Value="No" />
+          <String Value="Yes" />
         </Facet>
         <Facet Name="L3TT language type">
-          <String Value="No L3TT: L3-instance in L2" />
+          <String Value="L-main variety (e.g. dialect, sociolect, idiolect, slang)" />
         </Facet>
         <Facet Name="L3TT language">
-          <String Value="Spanish" />
+          <String Value="South American Spanish" />
         </Facet>
         <Facet Name="L3TT meant to be understood">
           <String Value="YES, (almost) completely" />
+        </Facet>
+        <Facet Name="L3TT message required for understanding">
+          <String Value="Conversation can be followed regardless of meaning" />
         </Facet>
         <Facet Name="L3TT meaning decipherable">
           <String Value="YES, through translation or clear from picture" />
@@ -125,23 +128,23 @@
         </Facet>
         <Facet Name="Conversation features for L3TT-instance">
           <String Value="threat" />
+          <String Value="vulgar" />
         </Facet>
         <Facet Name="L3TT sources">
           <String Value="Bilingual (L3&amp;main): same source " />
         </Facet>
         <Facet Name="L3 language type change">
           <String Value="- Real" />
-          <String Value="+ No L3TT: L3-instance in L2" />
+          <String Value="+ L-main variety (e.g. dialect, sociolect, idiolect, slang)" />
         </Facet>
         <Facet Name="L3 mode change">
           <String Value="None" />
         </Facet>
         <Facet Name="L3 functions change">
-          <String Value="+ Plot (twist)" />
-          <String Value="+ Signals the bad guy" />
+          <String Value="None" />
         </Facet>
         <Facet Name="Conversation features for L3-instance change">
-          <String Value="- vulgar" />
+          <String Value="None" />
         </Facet>
         <Facet Name="L3 sources change">
           <String Value="None" />

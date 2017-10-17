@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Because I said so.Receiving a massage.Speaking Chinese.SpanishDub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="The Iceman.Remembering his childhood.Speaking Polish.SpanishDub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -42,32 +42,32 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Because I said so.Receiving a massage.Speaking Chinese.SpanishDub" Name="Because I said so.Receiving a massage.Speaking Chinese.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Because I said so&amp;conversation=Because I said so.Receiving a massage&amp;L3STinstance=Because I said so.Receiving a massage.Speaking Chinese&amp;L3TTinstance=Because I said so.Receiving a massage.Speaking Chinese.SpanishDub">
-      <Description>The therapists speak Chinese</Description>
+    <Item Id="The Iceman.Remembering his childhood.Speaking Polish.SpanishDub" Name="The Iceman.Remembering his childhood.Speaking Polish.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=The Iceman&amp;conversation=The Iceman.Remembering his childhood&amp;L3STinstance=The Iceman.Remembering his childhood.Speaking Polish&amp;L3TTinstance=The Iceman.Remembering his childhood.Speaking Polish.SpanishDub">
+      <Description>Kuklinski remembers how his father punished him using a whip. </Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Because I said so.Receiving a massage.Speaking Chinese.SpanishDub" />
+          <String Value="The Iceman.Remembering his childhood.Speaking Polish.SpanishDub" />
         </Facet>
         <Facet Name="Info created">
-          <DateTime Value="2017-08-03T03:56:53" />
+          <DateTime Value="2017-08-03T08:24:58" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-08-03T08:29:19" />
+          <DateTime Value="2017-08-03T08:28:33" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="SoniaGonzalez" />
         </Facet>
         <Facet Name="Film Reference Id">
-          <String Value="Because I said so" />
+          <String Value="The Iceman" />
         </Facet>
         <Facet Name="Conversation Reference Id">
-          <String Value="Because I said so.Receiving a massage" />
+          <String Value="The Iceman.Remembering his childhood" />
         </Facet>
         <Facet Name="L3ST-instance Reference Id">
-          <String Value="Because I said so.Receiving a massage.Speaking Chinese" />
+          <String Value="The Iceman.Remembering his childhood.Speaking Polish" />
         </Facet>
         <Facet Name="Film Title TT">
-          <String Value="Porque lo digo yo" />
+          <String Value="The Iceman (El hombre de hielo)" />
         </Facet>
         <Facet Name="L2 language">
           <String Value="Spanish" />
@@ -79,7 +79,7 @@
           <String Value="Spain" />
         </Facet>
         <Facet Name="Year TT released">
-          <Number Value="2007" />
+          <Number Value="2012" />
         </Facet>
         <Facet Name="Conversation duration (sec)">
           <String Value="A. 1-20" />
@@ -94,16 +94,16 @@
           <String Value="Real" />
         </Facet>
         <Facet Name="L3TT language">
-          <String Value="Chinese" />
+          <String Value="Polish" />
         </Facet>
         <Facet Name="L3TT meant to be understood">
-          <String Value="YES, (almost) completely" />
+          <String Value="NO" />
         </Facet>
         <Facet Name="L3TT message required for understanding">
-          <String Value="Yes" />
+          <String Value="Conversation can be followed regardless of meaning" />
         </Facet>
         <Facet Name="L3TT meaning decipherable">
-          <String Value="NO" />
+          <String Value="YES, through translation or clear from picture" />
         </Facet>
         <Facet Name="Quality of L3TT speaker performance">
           <String Value="native or proficient" />
@@ -115,13 +115,10 @@
           <String Value="L-main quirkiness or clue" />
         </Facet>
         <Facet Name="L3TT functions">
-          <String Value="Comedy / humour" />
+          <String Value="Dramatic effect" />
         </Facet>
         <Facet Name="Conversation features for L3TT-instance">
-          <String Value="gossip" />
-        </Facet>
-        <Facet Name="L3TT sources">
-          <String Value="Oral L3: different sources " />
+          <String Value="domestic / family" />
         </Facet>
         <Facet Name="L3 language type change">
           <String Value="None" />
@@ -136,7 +133,8 @@
           <String Value="None" />
         </Facet>
         <Facet Name="L3 sources change">
-          <String Value="None" />
+          <String Value="- Oral L3: single source" />
+          <String Value="+ " />
         </Facet>
       </Facets>
     </Item>

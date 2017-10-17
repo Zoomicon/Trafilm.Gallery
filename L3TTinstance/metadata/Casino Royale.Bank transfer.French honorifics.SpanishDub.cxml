@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Because I said so.Receiving a massage.Speaking Chinese.SpanishDub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Casino Royale.Bank transfer.French honorifics.SpanishDub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -42,32 +42,38 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Because I said so.Receiving a massage.Speaking Chinese.SpanishDub" Name="Because I said so.Receiving a massage.Speaking Chinese.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Because I said so&amp;conversation=Because I said so.Receiving a massage&amp;L3STinstance=Because I said so.Receiving a massage.Speaking Chinese&amp;L3TTinstance=Because I said so.Receiving a massage.Speaking Chinese.SpanishDub">
-      <Description>The therapists speak Chinese</Description>
+    <Item Id="Casino Royale.Bank transfer.French honorifics.SpanishDub" Name="Casino Royale.Bank transfer.French honorifics.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Casino Royale&amp;conversation=Casino Royale.Bank transfer&amp;L3STinstance=Casino Royale.Bank transfer.French honorifics&amp;L3TTinstance=Casino Royale.Bank transfer.French honorifics.SpanishDub">
+      <Description>A Swiss banker reaches Bond and Vesper at his place to fulfill the bank transfer of the money won at the casino.</Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Because I said so.Receiving a massage.Speaking Chinese.SpanishDub" />
+          <String Value="Casino Royale.Bank transfer.French honorifics.SpanishDub" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Vesper: Ah, señor Mendel. ¿Qué tal todo por Suiza?&#xD;&#xA;Mendel: Discúlpenme, no quiero apremiarles, pero 120 millones es una elevada suma. &#xD;&#xA;Bond: Ya lo creo. ¿No me ha traído chocolate?&#xD;&#xA;" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="In the original, Vesper welcomes the banker with a French honorifics, but this is neutralised in the Spanish dubbed version. Instead, this Spanish dubbed version dubs the banker's voice into Spanish with a French accent.  " />
         </Facet>
         <Facet Name="Info created">
-          <DateTime Value="2017-08-03T03:56:53" />
+          <DateTime Value="2017-08-09T02:54:16" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-08-03T08:29:19" />
+          <DateTime Value="2017-08-09T03:30:27" />
         </Facet>
         <Facet Name="Metadata Editors">
-          <String Value="SoniaGonzalez" />
+          <String Value="miquelpt" />
         </Facet>
         <Facet Name="Film Reference Id">
-          <String Value="Because I said so" />
+          <String Value="Casino Royale" />
         </Facet>
         <Facet Name="Conversation Reference Id">
-          <String Value="Because I said so.Receiving a massage" />
+          <String Value="Casino Royale.Bank transfer" />
         </Facet>
         <Facet Name="L3ST-instance Reference Id">
-          <String Value="Because I said so.Receiving a massage.Speaking Chinese" />
+          <String Value="Casino Royale.Bank transfer.French honorifics" />
         </Facet>
         <Facet Name="Film Title TT">
-          <String Value="Porque lo digo yo" />
+          <String Value="Casino Royale" />
         </Facet>
         <Facet Name="L2 language">
           <String Value="Spanish" />
@@ -79,7 +85,13 @@
           <String Value="Spain" />
         </Facet>
         <Facet Name="Year TT released">
-          <Number Value="2007" />
+          <Number Value="2006" />
+        </Facet>
+        <Facet Name="Film TT Blockbuster">
+          <String Value="YES (top 20)" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="117" />
         </Facet>
         <Facet Name="Conversation duration (sec)">
           <String Value="A. 1-20" />
@@ -91,10 +103,10 @@
           <String Value="Yes" />
         </Facet>
         <Facet Name="L3TT language type">
-          <String Value="Real" />
+          <String Value="Conditioned: slurred, stammer, muffled, mumble, rapid" />
         </Facet>
         <Facet Name="L3TT language">
-          <String Value="Chinese" />
+          <String Value="French" />
         </Facet>
         <Facet Name="L3TT meant to be understood">
           <String Value="YES, (almost) completely" />
@@ -103,37 +115,35 @@
           <String Value="Yes" />
         </Facet>
         <Facet Name="L3TT meaning decipherable">
-          <String Value="NO" />
+          <String Value="YES, through translation or clear from picture" />
         </Facet>
         <Facet Name="Quality of L3TT speaker performance">
           <String Value="native or proficient" />
         </Facet>
         <Facet Name="L3TT mode, written/spoken, diegetic">
-          <String Value="Oral non-diegetic" />
-        </Facet>
-        <Facet Name="L3TT merely represented orally">
-          <String Value="L-main quirkiness or clue" />
+          <String Value="Oral diegetic on-screen" />
         </Facet>
         <Facet Name="L3TT functions">
-          <String Value="Comedy / humour" />
-        </Facet>
-        <Facet Name="Conversation features for L3TT-instance">
-          <String Value="gossip" />
+          <String Value="Character portrayal" />
+          <String Value="Signals otherness" />
         </Facet>
         <Facet Name="L3TT sources">
-          <String Value="Oral L3: different sources " />
+          <String Value="Oral L3: single source" />
         </Facet>
         <Facet Name="L3 language type change">
-          <String Value="None" />
+          <String Value="- Real" />
+          <String Value="+ Conditioned: slurred, stammer, muffled, mumble, rapid" />
         </Facet>
         <Facet Name="L3 mode change">
           <String Value="None" />
         </Facet>
         <Facet Name="L3 functions change">
-          <String Value="None" />
+          <String Value="+ Character portrayal" />
+          <String Value="+ Signals otherness" />
         </Facet>
         <Facet Name="Conversation features for L3-instance change">
-          <String Value="None" />
+          <String Value="- formal" />
+          <String Value="- salutation" />
         </Facet>
         <Facet Name="L3 sources change">
           <String Value="None" />

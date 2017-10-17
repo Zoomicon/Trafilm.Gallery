@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Because I said so.Receiving a massage.Speaking Chinese.SpanishDub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Spiderman 3.French restaurant.Mispronouncing Parker.SpanishDub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -42,32 +42,35 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Because I said so.Receiving a massage.Speaking Chinese.SpanishDub" Name="Because I said so.Receiving a massage.Speaking Chinese.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Because I said so&amp;conversation=Because I said so.Receiving a massage&amp;L3STinstance=Because I said so.Receiving a massage.Speaking Chinese&amp;L3TTinstance=Because I said so.Receiving a massage.Speaking Chinese.SpanishDub">
-      <Description>The therapists speak Chinese</Description>
+    <Item Id="Spiderman 3.French restaurant.Mispronouncing Parker.SpanishDub" Name="Spiderman 3.French restaurant.Mispronouncing Parker.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Spiderman 3&amp;conversation=Spiderman 3.French restaurant&amp;L3STinstance=Spiderman 3.French restaurant.Mispronouncing Parker&amp;L3TTinstance=Spiderman 3.French restaurant.Mispronouncing Parker.SpanishDub">
+      <Description>The restaurant owner mispronounces Peter's surname (Parker) because of his strong French accent when speaking English.</Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Because I said so.Receiving a massage.Speaking Chinese.SpanishDub" />
+          <String Value="Spiderman 3.French restaurant.Mispronouncing Parker.SpanishDub" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Restaurant owner: Nombre , ¿por favor?&#xD;&#xA;Peter Parker: Parker, Peter.&#xD;&#xA;Restaurant owner: [Blows a whistle and someone brings him a pen]. Ah, aquí está. Mesa para dos. Pa-qué [mispronouncing Peter’s surname].&#xD;&#xA;Peter Parker: Parker.&#xD;&#xA;Restaurant owner: Eso es lo que he dicho. Pa-qué." />
         </Facet>
         <Facet Name="Info created">
-          <DateTime Value="2017-08-03T03:56:53" />
+          <DateTime Value="2017-08-10T03:18:07" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-08-03T08:29:19" />
+          <DateTime Value="2017-08-10T03:27:39" />
         </Facet>
         <Facet Name="Metadata Editors">
-          <String Value="SoniaGonzalez" />
+          <String Value="miquelpt" />
         </Facet>
         <Facet Name="Film Reference Id">
-          <String Value="Because I said so" />
+          <String Value="Spiderman 3" />
         </Facet>
         <Facet Name="Conversation Reference Id">
-          <String Value="Because I said so.Receiving a massage" />
+          <String Value="Spiderman 3.French restaurant" />
         </Facet>
         <Facet Name="L3ST-instance Reference Id">
-          <String Value="Because I said so.Receiving a massage.Speaking Chinese" />
+          <String Value="Spiderman 3.French restaurant.Mispronouncing Parker" />
         </Facet>
         <Facet Name="Film Title TT">
-          <String Value="Porque lo digo yo" />
+          <String Value="Spider-man 3" />
         </Facet>
         <Facet Name="L2 language">
           <String Value="Spanish" />
@@ -81,8 +84,14 @@
         <Facet Name="Year TT released">
           <Number Value="2007" />
         </Facet>
+        <Facet Name="Film TT Blockbuster">
+          <String Value="YES (top 20)" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="52" />
+        </Facet>
         <Facet Name="Conversation duration (sec)">
-          <String Value="A. 1-20" />
+          <String Value="F. 101-120" />
         </Facet>
         <Facet Name="L2 same as L3ST">
           <String Value="No" />
@@ -91,37 +100,42 @@
           <String Value="Yes" />
         </Facet>
         <Facet Name="L3TT language type">
-          <String Value="Real" />
+          <String Value="Conditioned: slurred, stammer, muffled, mumble, rapid" />
         </Facet>
         <Facet Name="L3TT language">
-          <String Value="Chinese" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3TT meant to be understood">
-          <String Value="YES, (almost) completely" />
+          <String Value="YES, the gist, the implications of what is happening" />
         </Facet>
         <Facet Name="L3TT message required for understanding">
-          <String Value="Yes" />
+          <String Value="Conversation can be followed regardless of meaning" />
         </Facet>
         <Facet Name="L3TT meaning decipherable">
-          <String Value="NO" />
+          <String Value="YES, through translation or clear from picture" />
         </Facet>
         <Facet Name="Quality of L3TT speaker performance">
-          <String Value="native or proficient" />
+          <String Value="clearly non-native or deficient" />
         </Facet>
         <Facet Name="L3TT mode, written/spoken, diegetic">
-          <String Value="Oral non-diegetic" />
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3TT merely represented">
+          <String Value="YES: orally" />
         </Facet>
         <Facet Name="L3TT merely represented orally">
-          <String Value="L-main quirkiness or clue" />
+          <String Value="Clearly non-native L-main" />
         </Facet>
         <Facet Name="L3TT functions">
+          <String Value="Stereotype" />
           <String Value="Comedy / humour" />
+          <String Value="Signals otherness" />
         </Facet>
         <Facet Name="Conversation features for L3TT-instance">
-          <String Value="gossip" />
+          <String Value="embarassing" />
         </Facet>
         <Facet Name="L3TT sources">
-          <String Value="Oral L3: different sources " />
+          <String Value="Oral L3: single source" />
         </Facet>
         <Facet Name="L3 language type change">
           <String Value="None" />
