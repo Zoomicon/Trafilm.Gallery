@@ -935,7 +935,7 @@ Based on the homonym novel by Philip K. Dick.</Description>
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Casino Royale" Name="Casino Royale" Img="https://upload.wikimedia.org/wikipedia/en/1/15/Casino_Royale_2_-_UK_cinema_poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Casino Royale">
+    <Item Id="Casino Royale" Name="Casino Royale" Img="https://upload.wikimedia.org/wikipedia/hr/5/53/Casino_Royale_3.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Casino Royale">
       <Description>Recently promoted to 00 status, James Bond takes over his first mission, in which he faces a mysterious private banker to world terrorism and poker player, Le Chiffre. Along with a beautiful Treasury agent and the MI6 man in Montenegro, Bond takes part in a high stakes poker game set up by Le Chiffre in order to recover a huge sum of his clients' money he lost in a failed plot that the British spy took down. 007 will not only discover the threatening organization behind his enemy, but the worst of all truths: to not trust on anyone.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -945,7 +945,7 @@ Based on the homonym novel by Philip K. Dick.</Description>
           <DateTime Value="2017-08-09T01:25:44" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-09-21T10:44:00" />
+          <DateTime Value="2017-11-01T06:09:26" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="miquelpt" />
@@ -1378,7 +1378,7 @@ Based on the homonym novel by Philip K. Dick.</Description>
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Friends" Name="Friends - Season 02" Img="https://vignette1.wikia.nocookie.net/friends/images/5/57/Friends_s2.jpg/revision/latest?cb=20101007091807" Href="http://gallery.trafilm.net/film/metadata/?film=Friends">
+    <Item Id="Friends" Name="Friends - Season 02" Img="https://upload.wikimedia.org/wikipedia/en/a/a2/Friends_Season_2_DVD.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Friends">
       <Description>Friends follows the life of a group of six friends in their 30s - Rachel, Ross, Monica, Chandler, Phoebe and Joey - during a period of 10 years. 
 </Description>
       <Facets>
@@ -1389,10 +1389,11 @@ Based on the homonym novel by Philip K. Dick.</Description>
           <DateTime Value="2017-06-26T03:20:55" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-07-03T08:26:31" />
+          <DateTime Value="2017-11-01T06:16:12" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="IreneRanzato" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Friends - Season 02" />
@@ -1760,7 +1761,7 @@ Based on the homonym novel by Philip K. Dick.</Description>
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Harry Potter and the Deathly Hallows Part 2" Name="Harry Potter and the Deathly Hallows Part 2" Img="https://upload.wikimedia.org/wikipedia/en/d/df/Harry_Potter_and_the_Deathly_Hallows_%E2%80%93_Part_2.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Harry Potter and the Deathly Hallows Part 2">
+    <Item Id="Harry Potter and the Deathly Hallows Part 2" Name="Harry Potter and the Deathly Hallows Part 2" Img="https://upload.wikimedia.org/wikipedia/hr/8/88/Hp8.jpeg" Href="http://gallery.trafilm.net/film/metadata/?film=Harry Potter and the Deathly Hallows Part 2">
       <Description>Harry, Ron, and Hermione continue their quest of finding and destroying the Dark Lord's three remaining Horcruxes, the magical items responsible for his immortality. But as the mystical Deathly Hallows are uncovered, and Voldemort finds out about their mission, the biggest battle begins and life as they know it will never be the same again. (from IMDB)</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -1770,10 +1771,11 @@ Based on the homonym novel by Philip K. Dick.</Description>
           <DateTime Value="2016-10-30T02:08:52" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-30T02:20:27" />
+          <DateTime Value="2017-11-01T06:24:30" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Stavroula" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Harry Potter and the Deathly Hallows Part 2" />
@@ -1811,6 +1813,9 @@ Based on the homonym novel by Philip K. Dick.</Description>
         </Facet>
         <Facet Name="Main language (L1)">
           <String Value="English" />
+        </Facet>
+        <Facet Name="L2-Subtitled languages">
+          <String Value="Spanish" />
         </Facet>
         <Facet Name="Conversations: count">
           <Number Value="1" />
