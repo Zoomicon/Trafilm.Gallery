@@ -3054,6 +3054,53 @@
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Chocolat.Le comte to Madame Clairmont" Name="Le comte to Madame Clairmont" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Chocolat&amp;conversation=Chocolat.Le comte to Madame Clairmont">
+      <Description>Madame Clairmont omments about a letter to the editor that the Comte has written.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Chocolat.Le comte to Madame Clairmont" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="french" />
+          <String Value=" third language" />
+          <String Value=" multilngualism" />
+          <String Value=" french words" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="&quot;Madame&quot; and &quot;Monsieur&quot; are mentioned in this conversation" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-11-07T03:35:45" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-11-07T03:38:35" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="corrius" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Chocolat" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Chocolat" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="9" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Chocolat.narrator's introduction" Name="narrator's introduction" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Chocolat&amp;conversation=Chocolat.narrator's introduction">
       <Description></Description>
       <Facets>
@@ -3138,6 +3185,59 @@
         </Facet>
         <Facet Name="L3ST-instances: count">
           <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Chocolat.The Mayor of Lanquenet visiting the new villagers" Name="The Mayor of Lanquenet visiting the new villagers" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Chocolat&amp;conversation=Chocolat.The Mayor of Lanquenet visiting the new villagers">
+      <Description>The Mayor of Lanquenet visits the new villagers, Vianne and her daughter Anouk, welcomes them and invites them to worship on Sunday.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Chocolat.The Mayor of Lanquenet visiting the new villagers" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="french" />
+          <String Value=" third language" />
+          <String Value=" multilngualism" />
+          <String Value=" french words" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="In this conversation only a few French words such as &quot;monsieur&quot;, &quot;madame&quot; and &quot;mademoiselle&quot;. Other French reference is the title Comte: &quot;Comte de Reynaud&quot; or &quot;Comte de Monte Cristo&quot;. " />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-11-07T02:46:20" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-11-07T03:03:53" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="corrius" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Chocolat" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Chocolat" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="7" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="B. 21-40" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="French" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>

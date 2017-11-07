@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Collection SchemaVersion="1.0" Name="The Mayor of Lanquenet visiting the new villagers" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+  <FacetCategories>
+    <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Conversation Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Conversation start time (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Conversation duration (sec)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Main (L1) language" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST language type" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST language" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST constructed based on" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST meant to be understood" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST message required for understanding" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST meaning decipherable" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Quality of L3ST speaker performance" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="L3ST mode, written/spoken, diegetic" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST merely represented" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST merely represented orally" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST represented: visual" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST functions" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Conversation features for L3ST-instance" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST sources" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3TT-instances: count" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Tags" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+  </FacetCategories>
+  <Items xmlns="">
+    <Item Id="Chocolat.The Mayor of Lanquenet visiting the new villagers.Speaking French" Name="The Mayor of Lanquenet visiting the new villagers" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Chocolat&amp;conversation=Chocolat.The Mayor of Lanquenet visiting the new villagers&amp;L3STinstance=Chocolat.The Mayor of Lanquenet visiting the new villagers.Speaking French">
+      <Description>The Mayor of Lanquenet visits the new villagers, Vianne and her daughter Anouk, welcomes them and invites them to worship on Sunday.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Chocolat.The Mayor of Lanquenet visiting the new villagers.Speaking French" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Man: Forgive the intrusion!&#xD;&#xA;Vianne: It'a a pleasure!&#xD;&#xA;Anouk: Sorry monsieur, pirate attack!&#xD;&#xA;Man: Of course. What's your name?&#xD;&#xA;Anouk: Anouk. What's yours?&#xD;&#xA;Man: I'm the Comte de Reynaud, at your service.&#xD;&#xA;Anouk: A real one? Like the Comte de Monte Cristo?&#xD;&#xA;Man: Ahh! He was not a real one!&#xD;&#xA;Vianne: To what do we owe the honour of your visit?&#xD;&#xA;Man: As Mayor of Lansquenet, I want to welcome you to the community and to invite you to worship with us at Mass on Sunday.&#xD;&#xA;Vianne: That's very kind of you but actually we don't attend. We're glad to be so near the church though. We enjoy singing with the bells.&#xD;&#xA;Man: The bells are not intended as an entertainment &quot;madame&quot;. They are a solemn call to worship.&#xD;&#xA;Vianne: &quot;Mademoiselle&quot;!&#xD;&#xA;Man: i beg your pardon.&#xD;&#xA;Vianne: Mademoiselle. I've never been married but feel free to call me Vianne. I do hope you'll stop by, when I open for business next week.&#xD;&#xA;Man: Yes, yes, opening a &quot;patisserie&quot; during the Holy Lenten Fast. I couldn't imagine better timing!&#xD;&#xA;Vianne: But it's not a &quot;patisserie&quot;&#xD;&#xA;Man: Then, what do you intend to?&#xD;&#xA;Vianne: It's a surprise. It was sweet of you to drop by." />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="french" />
+          <String Value=" third language" />
+          <String Value=" multilngualism" />
+          <String Value=" french words" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-11-07T02:49:56" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-11-07T03:01:40" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="corrius" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Chocolat" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Chocolat.The Mayor of Lanquenet visiting the new villagers" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="7" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="B. 21-40" />
+        </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L3ST language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST language">
+          <String Value="French" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="YES, (almost) completely" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Conversation can be followed regardless of meaning" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3ST speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3ST mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3ST functions">
+          <String Value="Character portrayal" />
+          <String Value="Signals otherness" />
+        </Facet>
+        <Facet Name="Conversation features for L3ST-instance">
+          <String Value="introduction" />
+        </Facet>
+        <Facet Name="L3ST sources">
+          <String Value="Bilingual (L3&amp;main): same source " />
+        </Facet>
+        <Facet Name="L3TT-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+  </Items>
+</Collection>
