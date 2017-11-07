@@ -10027,6 +10027,85 @@
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Chocolat.A wheel bumps into a woman.Speaking French.SpanishDub" Name="Chocolat.A wheel bumps into a woman.Speaking French.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Chocolat&amp;conversation=Chocolat.A wheel bumps into a woman&amp;L3STinstance=Chocolat.A wheel bumps into a woman.Speaking French&amp;L3TTinstance=Chocolat.A wheel bumps into a woman.Speaking French.SpanishDub">
+      <Description>There is a woman walking in the street and suddenly a wheel from a boy bumps into her.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Chocolat.A wheel bumps into a woman.Speaking French.SpanishDub" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Señora: Oh! ¿No podéis tener más cuidado?&#xD;&#xA;Niño: Lo siento mucho señora" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="french" />
+          <String Value=" third language" />
+          <String Value=" multilngualism" />
+          <String Value=" french words" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="L3 has disappeared in the TT." />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-11-07T08:11:36" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-11-07T08:13:52" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="corrius" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Chocolat" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Chocolat.A wheel bumps into a woman" />
+        </Facet>
+        <Facet Name="L3ST-instance Reference Id">
+          <String Value="Chocolat.A wheel bumps into a woman.Speaking French" />
+        </Facet>
+        <Facet Name="Film Title TT">
+          <String Value="Chocolat" />
+        </Facet>
+        <Facet Name="L2 language">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L2 mode">
+          <String Value="Dubbed" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="12" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L2 same as L3ST">
+          <String Value="No" />
+        </Facet>
+        <Facet Name="L3ST conveyed as L3TT">
+          <String Value="No" />
+        </Facet>
+        <Facet Name="L3TT language type">
+          <String Value="No L3TT: L3-instance omitted" />
+        </Facet>
+        <Facet Name="L3 language type change">
+          <String Value="- Real" />
+          <String Value="+ No L3TT: L3-instance omitted" />
+        </Facet>
+        <Facet Name="L3 mode change">
+          <String Value="- Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3 functions change">
+          <String Value="- Signals otherness" />
+        </Facet>
+        <Facet Name="Conversation features for L3-instance change">
+          <String Value="- quarrel" />
+        </Facet>
+        <Facet Name="L3 sources change">
+          <String Value="- Bilingual (L3&amp;main): same source " />
+          <String Value="+ " />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Chocolat.Dialogue between Mr Le Comte and Ms Clairmont.Speaking French.SpanishDub" Name="Chocolat.Dialogue between Mr Le Comte and Ms Clairmont.Speaking French.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Chocolat&amp;conversation=Chocolat.Dialogue between Mr Le Comte and Ms Clairmont&amp;L3STinstance=Chocolat.Dialogue between Mr Le Comte and Ms Clairmont.Speaking French&amp;L3TTinstance=Chocolat.Dialogue between Mr Le Comte and Ms Clairmont.Speaking French.SpanishDub">
       <Description>Dialogue between Monsieu Le Comte and Madame Clairmont</Description>
       <Facets>
@@ -10174,6 +10253,85 @@
         </Facet>
         <Facet Name="Conversation features for L3-instance change">
           <String Value="- formal" />
+        </Facet>
+        <Facet Name="L3 sources change">
+          <String Value="- Bilingual (L3&amp;main): same source " />
+          <String Value="+ " />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Chocolat.Maid serving some tea to Monsieur Le Comte.Speaking French.SpanishDub" Name="Chocolat.Maid serving some tea to Monsieur Le Comte.Speaking French.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Chocolat&amp;conversation=Chocolat.Maid serving some tea to Monsieur Le Comte&amp;L3STinstance=Chocolat.Maid serving some tea to Monsieur Le Comte.Speaking French&amp;L3TTinstance=Chocolat.Maid serving some tea to Monsieur Le Comte.Speaking French.SpanishDub">
+      <Description>Monsieur Le Comte is at home and the maid is offering him some tea and food.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Chocolat.Maid serving some tea to Monsieur Le Comte.Speaking French.SpanishDub" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Criada: ¿No tiene hambre señor Conde?&#xD;&#xA;Sr. Conde: En Cuaresma se ayuna, Sra. Rivet&#xD;&#xA;Criada: Pero algo tiene que comer&#xD;&#xA;Sr. Conde: Está bien. Déjelo ahí" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="french" />
+          <String Value=" third language" />
+          <String Value=" multilngualism" />
+          <String Value=" french words" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="No L3 in the TT, even the French accent used by the maid in the ST has disappeared in the Spanish version." />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-11-07T08:21:21" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-11-07T08:23:43" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="corrius" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Chocolat" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Chocolat.Maid serving some tea to Monsieur Le Comte" />
+        </Facet>
+        <Facet Name="L3ST-instance Reference Id">
+          <String Value="Chocolat.Maid serving some tea to Monsieur Le Comte.Speaking French" />
+        </Facet>
+        <Facet Name="Film Title TT">
+          <String Value="Chocolat" />
+        </Facet>
+        <Facet Name="L2 language">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L2 mode">
+          <String Value="Dubbed" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="16" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L2 same as L3ST">
+          <String Value="No" />
+        </Facet>
+        <Facet Name="L3ST conveyed as L3TT">
+          <String Value="No" />
+        </Facet>
+        <Facet Name="L3TT language type">
+          <String Value="No L3TT: L3-instance omitted" />
+        </Facet>
+        <Facet Name="L3 language type change">
+          <String Value="- Real" />
+          <String Value="+ No L3TT: L3-instance omitted" />
+        </Facet>
+        <Facet Name="L3 mode change">
+          <String Value="- Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3 functions change">
+          <String Value="- Signals otherness" />
+        </Facet>
+        <Facet Name="Conversation features for L3-instance change">
+          <String Value="- domestic / family" />
         </Facet>
         <Facet Name="L3 sources change">
           <String Value="- Bilingual (L3&amp;main): same source " />
