@@ -3098,6 +3098,50 @@
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Chocolat.At the hairdresser's" Name="At the hairdresser's" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Chocolat&amp;conversation=Chocolat.At the hairdresser's">
+      <Description>There are a few women at the hairdresser's when Monsieu Le Comte enters and comments on the "Chocolaterie".</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Chocolat.At the hairdresser's" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="French" />
+          <String Value=" third language" />
+          <String Value=" French words" />
+          <String Value=" French Surnames" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-11-09T03:23:33" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-11-09T03:25:07" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="corrius" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Chocolat" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Chocolat" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="20" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Chocolat.Dialogue between Mr Le Comte and Ms Clairmont" Name="Dialogue between Mr Le Comte and Ms Clairmont" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Chocolat&amp;conversation=Chocolat.Dialogue between Mr Le Comte and Ms Clairmont">
       <Description>Dialogue between Monsieu Le Comte and Madame Clairmont</Description>
       <Facets>
@@ -3405,6 +3449,50 @@
         </Facet>
         <Facet Name="Start time (min)">
           <Number Value="6" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Chocolat.Women in black in the street" Name="Women in black in the street" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Chocolat&amp;conversation=Chocolat.Women in black in the street">
+      <Description>There are three women in the street looking at the "patisserie".</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Chocolat.Women in black in the street" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="French" />
+          <String Value=" third language" />
+          <String Value=" French words" />
+          <String Value=" French Surnames" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-11-09T03:12:00" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-11-09T03:13:17" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="corrius" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Chocolat" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Chocolat" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="18" />
         </Facet>
         <Facet Name="Duration (sec)">
           <String Value="A. 1-20" />

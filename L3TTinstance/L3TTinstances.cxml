@@ -10659,6 +10659,86 @@
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Chocolat.Women in black in the street.Speaking French.SpanishDub" Name="Chocolat.Women in black in the street.Speaking French.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Chocolat&amp;conversation=Chocolat.Women in black in the street&amp;L3STinstance=Chocolat.Women in black in the street.Speaking French&amp;L3TTinstance=Chocolat.Women in black in the street.Speaking French.SpanishDub">
+      <Description>There are three women in the street looking at the "patisserie".</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Chocolat.Women in black in the street.Speaking French.SpanishDub" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Sra. Audel: ¡Buenos días señor Blérot!&#xD;&#xA;Sr. Blérot: ¡Buenos días señora Audel!" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="French" />
+          <String Value=" third language" />
+          <String Value=" French words" />
+          <String Value=" French Surnames" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="No L3 in the TT" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-11-09T03:16:52" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-11-09T03:19:08" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="corrius" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Chocolat" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Chocolat.Women in black in the street" />
+        </Facet>
+        <Facet Name="L3ST-instance Reference Id">
+          <String Value="Chocolat.Women in black in the street.Speaking French" />
+        </Facet>
+        <Facet Name="Film Title TT">
+          <String Value="Chocolat" />
+        </Facet>
+        <Facet Name="L2 language">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L2 mode">
+          <String Value="Dubbed" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="18" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L2 same as L3ST">
+          <String Value="No" />
+        </Facet>
+        <Facet Name="L3ST conveyed as L3TT">
+          <String Value="No" />
+        </Facet>
+        <Facet Name="L3TT language type">
+          <String Value="No L3TT: L3-instance omitted" />
+        </Facet>
+        <Facet Name="L3 language type change">
+          <String Value="- Real" />
+          <String Value="+ No L3TT: L3-instance omitted" />
+        </Facet>
+        <Facet Name="L3 mode change">
+          <String Value="- Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3 functions change">
+          <String Value="- Character portrayal" />
+          <String Value="- Signals otherness" />
+        </Facet>
+        <Facet Name="Conversation features for L3-instance change">
+          <String Value="- salutation" />
+        </Facet>
+        <Facet Name="L3 sources change">
+          <String Value="- Oral L3: different sources " />
+          <String Value="+ " />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Despicable me.A meeting with the Minions.Minions speaking.SpanishDub" Name="Despicable me.A meeting with the Minions.Minions speaking.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Despicable me&amp;conversation=Despicable me.A meeting with the Minions&amp;L3STinstance=Despicable me.A meeting with the Minions.Minions speaking&amp;L3TTinstance=Despicable me.A meeting with the Minions.Minions speaking.SpanishDub">
       <Description>The Minions start calling each other to have a meeting with the villain. </Description>
       <Facets>

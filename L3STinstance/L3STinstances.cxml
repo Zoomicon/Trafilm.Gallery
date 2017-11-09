@@ -6469,6 +6469,81 @@
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Chocolat.At the hairdresser's.Speaking French" Name="At the hairdresser's" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Chocolat&amp;conversation=Chocolat.At the hairdresser's&amp;L3STinstance=Chocolat.At the hairdresser's.Speaking French">
+      <Description>There are a few women at the hairdresser's when Monsieu Le Comte enters and comments on the "Chocolaterie".</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Chocolat.At the hairdresser's.Speaking French" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Le Comte: Bonjour, mesdames!&#xD;&#xA;Women: Bonjour Monsieru Le Comte!&#xD;&#xA;Le Comte: I wish all my tenants were as reliable as you, Madame Drou.&#xD;&#xA;Hirdresser: How is the Comtesse? Enjoying Italy?&#xD;&#xA;Le Comte: She may be extending her trip.&#xD;&#xA;Hairdresser: Ahhh... very nice!&#xD;&#xA;Le Comte: Have either of you seen the new shop across the square?&#xD;&#xA;Woman: Oh, the chocolaterie? Yes&#xD;&#xA;Le Comte: Shameless, isn't it? The sheer nerve of the woman. Opening a &quot;Chocolaterie&quot; just in time for Lent. That woman is brazen. My heart goes out to that poor illegitimate child of hers. Bonjour, ladies!&#xD;&#xA;" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="French" />
+          <String Value=" third language" />
+          <String Value=" French words" />
+          <String Value=" French Surnames" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-11-09T03:25:19" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-11-09T03:34:12" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="corrius" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Chocolat" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Chocolat.At the hairdresser's" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="20" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L3ST language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST language">
+          <String Value="French" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="YES, the gist, the implications of what is happening" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3ST speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3ST mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3ST functions">
+          <String Value="Character portrayal" />
+          <String Value="Signals otherness" />
+        </Facet>
+        <Facet Name="Conversation features for L3ST-instance">
+          <String Value="gossip" />
+        </Facet>
+        <Facet Name="L3ST sources">
+          <String Value="Bilingual (L3&amp;main): same source " />
+        </Facet>
+        <Facet Name="L3TT-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Chocolat.Dialogue between Mr Le Comte and Ms Clairmont.Speaking French" Name="Dialogue between Mr Le Comte and Ms Clairmont" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Chocolat&amp;conversation=Chocolat.Dialogue between Mr Le Comte and Ms Clairmont&amp;L3STinstance=Chocolat.Dialogue between Mr Le Comte and Ms Clairmont.Speaking French">
       <Description>Dialogue between Monsieu Le Comte and Madame Clairmont</Description>
       <Facets>
@@ -6978,6 +7053,81 @@
         </Facet>
         <Facet Name="L3ST sources">
           <String Value="Bilingual (L3&amp;main): same source " />
+        </Facet>
+        <Facet Name="L3TT-instances: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Chocolat.Women in black in the street.Speaking French" Name="Women in black in the street" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Chocolat&amp;conversation=Chocolat.Women in black in the street&amp;L3STinstance=Chocolat.Women in black in the street.Speaking French">
+      <Description>There are three women in the street looking at the "patisserie".</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Chocolat.Women in black in the street.Speaking French" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Ms. Audel: Bonjour Monsieur Blérot!&#xD;&#xA;Mr. Blérot: Bonjour Madame Audel!" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="French" />
+          <String Value=" third language" />
+          <String Value=" French words" />
+          <String Value=" French Surnames" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-11-09T03:13:40" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-11-09T03:16:19" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="corrius" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Chocolat" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Chocolat.Women in black in the street" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="18" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L3ST language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST language">
+          <String Value="French" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="YES, (almost) completely" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Conversation can be followed regardless of meaning" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3ST speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3ST mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3ST functions">
+          <String Value="Character portrayal" />
+          <String Value="Signals otherness" />
+        </Facet>
+        <Facet Name="Conversation features for L3ST-instance">
+          <String Value="salutation" />
+        </Facet>
+        <Facet Name="L3ST sources">
+          <String Value="Oral L3: different sources " />
         </Facet>
         <Facet Name="L3TT-instances: count">
           <Number Value="0" />
