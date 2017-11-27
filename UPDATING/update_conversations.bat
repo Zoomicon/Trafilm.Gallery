@@ -1,4 +1,4 @@
-:: Version: 20170112
+:: Version: 20171127
 :: Author: George Birbilis (http://zoomicon.com)
 
 @echo off
@@ -28,7 +28,7 @@ ECHO ---- Deleting old DeepZoom assets (to release from IIS)
 rd /s/q ..\collection\%COLLECTION%_deepzoom 2>&1
 ECHO.
 
-ECHO --- Copying DeepZoom assets from temp folder, merging (overwriting already existing old ones)
+ECHO --- Copying DeepZoom assets from temp folder
 move /Y ..\collection\%COLLECTION%_TMP\%COLLECTION%_deepzoom ..\collection 2>&1
 ECHO.
 
@@ -36,7 +36,7 @@ ECHO --- Copying CXML file from temp folder, overwriting old one
 move /Y ..\collection\%COLLECTION%_TMP\%COLLECTION%.cxml ..\collection 2>&1
 ECHO.
 
-ECHO --- Removing empty temp folder
+ECHO --- Removing temp folder if empty
 :: not using /s/q parameters to see if indeed all contents were moved from the temp folder succesfully
 rd ..\collection\%COLLECTION%_TMP 2>&1
 ECHO.

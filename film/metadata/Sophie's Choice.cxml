@@ -24,7 +24,7 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Sophie's Choice" Name="Sophie's Choice" Img="https://pics.filmaffinity.com/sophie_s_choice-404175883-large.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Sophie's Choice">
+    <Item Id="Sophie's Choice" Name="Sophie's Choice" Img="https://upload.wikimedia.org/wikipedia/en/4/47/Sophie%27s_Choice1.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Sophie's Choice">
       <Description>After spending time with his new neighbors, an aspiring writer realizes they are harboring deep secrets that will forever change him.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -34,10 +34,11 @@
           <DateTime Value="2017-06-29T03:34:17" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-06-29T03:38:46" />
+          <DateTime Value="2017-11-27T07:19:18" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="natalia.sanchez2594" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Sophie's Choice" />
