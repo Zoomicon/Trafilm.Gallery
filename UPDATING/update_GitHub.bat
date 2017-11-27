@@ -1,8 +1,8 @@
-:: Version: 20171017
+:: Version: 20171127
 :: Author: George Birbilis (http://zoomicon.com)
 
 @echo off
-call :process 2>&1 > update_GitHub.log
+call :process 2>&1 > logs\update_GitHub.log
 goto :EOF
 
 :process

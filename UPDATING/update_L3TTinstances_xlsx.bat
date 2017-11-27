@@ -2,14 +2,14 @@
 :: Author: George Birbilis (http://zoomicon.com)
 
 @echo off
-call :process 2>&1 > logs\update_films_xlsx.log
+call :process 2>&1 > logs\update_L3TTinstances_xlsx.log
 goto :EOF
 
 
 :process
 setlocal
 set PAUTHOR=c:\programs\pauthor\pauthor.exe
-set SOURCE=film
+set SOURCE=L3TTinstance
 set COLLECTION=%SOURCE%s
 
 ECHO ---- Deleting old temp folder (in case it exists from previous failed attempt)
