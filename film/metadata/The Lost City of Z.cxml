@@ -24,7 +24,7 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="The Lost City of Z" Name="The Lost City of Z" Img="https://images-na.ssl-images-amazon.com/images/M/MV5BMjQzNTk3MTkyNF5BMl5BanBnXkFtZTgwMDA2MDQzMTI@._V1_SY1000_CR0,0,674,1000_AL_.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=The Lost City of Z">
+    <Item Id="The Lost City of Z" Name="The Lost City of Z" Img="https://upload.wikimedia.org/wikipedia/en/6/61/The_Lost_City_of_Z_%28film%29.png" Href="http://gallery.trafilm.net/film/metadata/?film=The Lost City of Z">
       <Description>A true-life drama, centering on British explorer Col. Percival Fawcett, who disappeared while searching for a mysterious city in the Amazon in the 1920s.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -40,10 +40,11 @@
           <DateTime Value="2017-11-27T08:29:29" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-11-27T08:35:36" />
+          <DateTime Value="2017-11-27T10:53:03" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="lorenahurtado-malillos" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="The Lost City of Z" />

@@ -24,7 +24,7 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Allied" Name="Allied" Img="http://sideonetrackone.com/wp-content/uploads/2016/11/A.jpeg" Href="http://gallery.trafilm.net/film/metadata/?film=Allied">
+    <Item Id="Allied" Name="Allied" Img="https://upload.wikimedia.org/wikipedia/en/4/43/Allied_%28film%29.png" Href="http://gallery.trafilm.net/film/metadata/?film=Allied">
       <Description>In 1942, a Canadian intelligence officer in North Africa encounters a female French Resistance fighter on a deadly mission behind enemy lines. When they reunite in London, their relationship is tested by the pressures of war.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -40,10 +40,11 @@
           <DateTime Value="2017-11-27T08:14:51" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-11-27T08:24:00" />
+          <DateTime Value="2017-11-27T10:50:29" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="lorenahurtado-malillos" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Allied" />
