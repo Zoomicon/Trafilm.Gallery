@@ -256,6 +256,57 @@ Based on the homonym novel by Philip K. Dick.</Description>
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Allied" Name="Allied" Img="http://sideonetrackone.com/wp-content/uploads/2016/11/A.jpeg" Href="http://gallery.trafilm.net/film/metadata/?film=Allied">
+      <Description>In 1942, a Canadian intelligence officer in North Africa encounters a female French Resistance fighter on a deadly mission behind enemy lines. When they reunite in London, their relationship is tested by the pressures of war.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Allied" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="multilingual" />
+          <String Value=" french" />
+          <String Value=" german" />
+          <String Value=" arabic" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-11-27T08:14:51" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-11-27T08:24:00" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="lorenahurtado-malillos" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Allied" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="124" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Robert Zemeckis" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Steven Knight" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="UK" />
+          <String Value=" USA" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2016" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="An American in Paris" Name="An American in Paris" Img="https://upload.wikimedia.org/wikipedia/en/5/59/An_American_in_Paris_poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=An American in Paris">
       <Description>Jerry Mulligan, a penniless American artist, tries to make a living in Paris as a painter. He is happy to be living and working in a small and cramped apartment above a sidewalk café in Montmatre. A rich American gallery owner, Milo Roberts, with an interest in more than Jerry's art, offers to support him. She hopes to win Jerry's heart by buying his paintings and promoting his career, but in a chance encounter in a club he meets Lise, a young French woman who works in a perfume shop, he is immediately captivated and attracted to her but unfortunately she is already engaged to Henri Baurel, an older man whom she feels indebted to for having saved her from the Nazis and for having raised her in his home.</Description>
       <Facets>
@@ -4425,6 +4476,56 @@ Based on the homonym novel by Philip K. Dick.</Description>
           <String Value=" Jerry Weintraub Productions" />
           <String Value=" Riche/Ludwig Productions" />
           <String Value=" Beaglepug Productions" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2016" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="The Lost City of Z" Name="The Lost City of Z" Img="https://images-na.ssl-images-amazon.com/images/M/MV5BMjQzNTk3MTkyNF5BMl5BanBnXkFtZTgwMDA2MDQzMTI@._V1_SY1000_CR0,0,674,1000_AL_.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=The Lost City of Z">
+      <Description>A true-life drama, centering on British explorer Col. Percival Fawcett, who disappeared while searching for a mysterious city in the Amazon in the 1920s.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="The Lost City of Z" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="multilingual" />
+          <String Value=" spanish" />
+          <String Value=" portuguese" />
+          <String Value=" german" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-11-27T08:29:29" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-11-27T08:35:36" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="lorenahurtado-malillos" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="The Lost City of Z" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="141" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="James Gray" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="James Gray" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="USA" />
         </Facet>
         <Facet Name="Year ST released">
           <Number Value="2016" />
