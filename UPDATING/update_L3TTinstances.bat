@@ -18,12 +18,12 @@ ECHO.
 ECHO ---- Generating collection and DeepZoom assets at temp folder
 cd ..\%SOURCE%
 %PAUTHOR% /source cxml %COLLECTION%.cxml /html-template template.html /target deepzoom ..\collection\%COLLECTION%_TMP\%COLLECTION%.cxml && (goto OK) || (goto Fail)
-ECHO.
 
 :: control flow should never reach this, but manually terminating (jumping to implicit end-of-file marker) just in case
 goto :EOF
 
 :OK
+ECHO.
 ECHO ---- Deleting old DeepZoom assets (to release from IIS)
 rd /s/q ..\collection\%COLLECTION%_deepzoom 2>&1
 ECHO.
