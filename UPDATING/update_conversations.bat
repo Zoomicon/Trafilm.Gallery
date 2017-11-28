@@ -1,4 +1,4 @@
-:: Version: 20171127
+:: Version: 20171128
 :: Author: George Birbilis (http://zoomicon.com)
 
 @echo off
@@ -9,7 +9,7 @@ goto :EOF
 setlocal
 set PAUTHOR=c:\programs\pauthor\pauthor.exe
 set SOURCE=conversation
-set COLLECTION=conversations
+set COLLECTION=%SOURCE%s
 
 ECHO ---- Deleting old temp folder (in case it exists from previous failed attempt)
 rd /s/q ..\TMP\%COLLECTION% 2>&1
