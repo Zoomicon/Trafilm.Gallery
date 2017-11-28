@@ -1,4 +1,4 @@
-:: Version: 20171127
+:: Version: 20171128
 :: Author: George Birbilis (http://zoomicon.com)
 
 @echo off
