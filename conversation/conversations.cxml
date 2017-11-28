@@ -2800,7 +2800,7 @@
           <DateTime Value="2017-03-30T01:21:23" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-11-28T02:43:58" />
+          <DateTime Value="2017-11-28T02:45:57" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
@@ -2848,10 +2848,11 @@
           <DateTime Value="2017-03-30T01:21:23" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-03-31T01:50:22" />
+          <DateTime Value="2017-11-28T02:46:25" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Cars 2" />
@@ -2866,13 +2867,19 @@
           <String Value="E. 81-100" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="English with Italian accent" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>
@@ -2886,10 +2893,11 @@
           <DateTime Value="2017-03-30T01:21:23" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-04-01T07:50:19" />
+          <DateTime Value="2017-11-28T02:46:33" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Cars 2" />
@@ -2904,10 +2912,16 @@
           <String Value="A. 1-20" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Japanese" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
         </Facet>
         <Facet Name="L3ST-instances: count">
           <Number Value="1" />
@@ -2927,10 +2941,11 @@
           <DateTime Value="2017-03-30T01:21:23" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-04-03T07:49:05" />
+          <DateTime Value="2017-11-28T02:46:41" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Cars 2" />
@@ -2945,13 +2960,19 @@
           <String Value="A. 1-20" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Spanish" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>
@@ -2965,10 +2986,11 @@
           <DateTime Value="2017-03-30T01:21:23" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-04-03T07:33:09" />
+          <DateTime Value="2017-11-28T02:46:48" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Cars 2" />
@@ -2983,13 +3005,19 @@
           <String Value="A. 1-20" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Italian" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="0" />
+          <Number Value="2" />
         </Facet>
       </Facets>
     </Item>
@@ -3003,10 +3031,11 @@
           <DateTime Value="2017-03-30T01:21:23" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-04-01T08:24:00" />
+          <DateTime Value="2017-11-28T02:46:55" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Cars 2" />
@@ -3021,10 +3050,16 @@
           <String Value="B. 21-40" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="French" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
         </Facet>
         <Facet Name="L3ST-instances: count">
           <Number Value="1" />
@@ -3044,10 +3079,11 @@
           <DateTime Value="2017-03-30T01:21:23" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-04-02T08:56:52" />
+          <DateTime Value="2017-11-28T02:47:30" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Cars 2" />
@@ -3062,13 +3098,19 @@
           <String Value="A. 1-20" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Italian" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="1" />
+          <Number Value="2" />
         </Facet>
       </Facets>
     </Item>
@@ -3085,10 +3127,11 @@
           <DateTime Value="2017-03-30T01:21:23" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-04-02T07:56:22" />
+          <DateTime Value="2017-11-28T02:47:39" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Cars 2" />
@@ -3132,10 +3175,11 @@
           <DateTime Value="2017-03-30T01:21:23" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-04-02T07:57:26" />
+          <DateTime Value="2017-11-28T02:47:48" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Cars 2" />
@@ -3150,13 +3194,19 @@
           <String Value="D. 61-80" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Italian" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>
@@ -3170,10 +3220,11 @@
           <DateTime Value="2017-03-30T01:21:23" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-04-02T08:50:16" />
+          <DateTime Value="2017-11-28T02:47:56" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Cars 2" />
@@ -3200,7 +3251,7 @@
           <String Value="Real" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="1" />
+          <Number Value="2" />
         </Facet>
       </Facets>
     </Item>
@@ -3214,10 +3265,11 @@
           <DateTime Value="2017-03-30T01:21:23" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-03-31T02:04:42" />
+          <DateTime Value="2017-11-28T02:48:04" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Cars 2" />
@@ -3232,13 +3284,19 @@
           <String Value="A. 1-20" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Japanese" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>
@@ -3252,10 +3310,11 @@
           <DateTime Value="2017-08-09T02:39:36" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-08-09T03:20:10" />
+          <DateTime Value="2017-11-28T02:48:18" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="miquelpt" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Casino Royale" />
@@ -3297,10 +3356,11 @@
           <DateTime Value="2017-08-09T02:22:28" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-08-09T02:23:28" />
+          <DateTime Value="2017-11-28T02:48:25" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="miquelpt" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Casino Royale" />
@@ -3315,13 +3375,19 @@
           <String Value="A. 1-20" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="French" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>
@@ -3335,10 +3401,11 @@
           <DateTime Value="2017-08-09T02:05:11" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-08-09T02:12:09" />
+          <DateTime Value="2017-11-28T02:48:32" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="miquelpt" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Casino Royale" />
@@ -3353,13 +3420,19 @@
           <String Value="A. 1-20" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="French" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>
@@ -3379,10 +3452,11 @@
           <DateTime Value="2017-11-07T08:06:57" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-11-07T08:08:29" />
+          <DateTime Value="2017-11-28T02:48:46" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="corrius" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Chocolat" />
@@ -3397,13 +3471,19 @@
           <String Value="A. 1-20" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Fench" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>
@@ -3423,10 +3503,11 @@
           <DateTime Value="2017-11-09T03:23:33" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-11-09T03:25:07" />
+          <DateTime Value="2017-11-28T02:48:51" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="corrius" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Chocolat" />
@@ -3441,13 +3522,19 @@
           <String Value="A. 1-20" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="French" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>
@@ -3467,10 +3554,11 @@
           <DateTime Value="2017-11-07T03:59:27" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-11-07T04:00:37" />
+          <DateTime Value="2017-11-28T02:49:01" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="corrius" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Chocolat" />
@@ -3485,13 +3573,19 @@
           <String Value="B. 21-40" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="French" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>
@@ -3514,10 +3608,11 @@
           <DateTime Value="2017-11-07T03:35:45" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-11-07T03:38:35" />
+          <DateTime Value="2017-11-28T02:49:08" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="corrius" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Chocolat" />
@@ -3532,13 +3627,19 @@
           <String Value="A. 1-20" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="French" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>
@@ -3558,10 +3659,11 @@
           <DateTime Value="2017-11-07T08:14:49" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-11-07T08:16:12" />
+          <DateTime Value="2017-11-28T02:49:15" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="corrius" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Chocolat" />
@@ -3576,13 +3678,19 @@
           <String Value="A. 1-20" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="French" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>
@@ -3602,10 +3710,11 @@
           <DateTime Value="2017-11-09T04:15:10" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-11-09T05:29:17" />
+          <DateTime Value="2017-11-28T02:49:21" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="corrius" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Chocolat" />
@@ -3620,13 +3729,19 @@
           <String Value="C. 41-60" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="French" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>
@@ -3644,10 +3759,11 @@
           <DateTime Value="2016-12-30T06:57:07" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-12-30T06:58:29" />
+          <DateTime Value="2017-11-28T02:49:30" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="corrius" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Chocolat" />
@@ -3662,13 +3778,19 @@
           <String Value="A. 1-20" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="French" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>
@@ -3688,10 +3810,11 @@
           <DateTime Value="2017-11-10T05:35:22" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-11-10T05:49:46" />
+          <DateTime Value="2017-11-28T02:49:38" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="corrius" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Chocolat" />
@@ -3706,13 +3829,19 @@
           <String Value="B. 21-40" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="French" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>
@@ -3733,10 +3862,11 @@
           <DateTime Value="2016-12-30T07:10:39" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-12-30T07:12:41" />
+          <DateTime Value="2017-11-28T02:49:45" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="corrius" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Chocolat" />
@@ -3751,13 +3881,19 @@
           <String Value="C. 41-60" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="French" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>
@@ -3780,10 +3916,11 @@
           <DateTime Value="2017-11-07T02:46:20" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-11-07T03:03:53" />
+          <DateTime Value="2017-11-28T02:49:53" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="corrius" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Chocolat" />
@@ -3833,10 +3970,11 @@
           <DateTime Value="2017-11-07T11:54:18" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-11-07T11:58:28" />
+          <DateTime Value="2017-11-28T02:50:00" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="corrius" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Chocolat" />
@@ -3851,13 +3989,19 @@
           <String Value="A. 1-20" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="French" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>
@@ -3877,10 +4021,11 @@
           <DateTime Value="2017-11-09T03:12:00" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-11-09T03:13:17" />
+          <DateTime Value="2017-11-28T02:50:14" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="corrius" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Chocolat" />
@@ -3895,13 +4040,19 @@
           <String Value="A. 1-20" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="French" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>
