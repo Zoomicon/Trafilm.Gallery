@@ -24,7 +24,7 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Friends" Name="Friends - Season 02" Img="https://vignette1.wikia.nocookie.net/friends/images/5/57/Friends_s2.jpg/revision/latest?cb=20101007091807" Href="http://gallery.trafilm.net/film/metadata/?film=Friends">
+    <Item Id="Friends" Name="Friends - Season 02" Img="https://upload.wikimedia.org/wikipedia/en/a/a2/Friends_Season_2_DVD.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Friends">
       <Description>Friends follows the life of a group of six friends in their 30s - Rachel, Ross, Monica, Chandler, Phoebe and Joey - during a period of 10 years. 
 </Description>
       <Facets>
@@ -35,10 +35,11 @@
           <DateTime Value="2017-06-26T03:20:55" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-07-03T08:26:31" />
+          <DateTime Value="2017-11-01T06:16:12" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="IreneRanzato" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Friends - Season 02" />

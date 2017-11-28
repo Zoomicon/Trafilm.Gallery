@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="The Book Thief" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Allied" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film/Season title" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -24,56 +24,55 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="The Book Thief" Name="The Book Thief" Img="https://upload.wikimedia.org/wikipedia/en/7/72/The-Book-Thief_poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=The Book Thief">
-      <Description>While subjected to the horrors of World War II Germany, young Liesel finds solace by stealing books and sharing them with others. In the basement of her home, a Jewish refugee is being protected by her adoptive parents.</Description>
+    <Item Id="Allied" Name="Allied" Img="https://upload.wikimedia.org/wikipedia/en/4/43/Allied_%28film%29.png" Href="http://gallery.trafilm.net/film/metadata/?film=Allied">
+      <Description>In 1942, a Canadian intelligence officer in North Africa encounters a female French Resistance fighter on a deadly mission behind enemy lines. When they reunite in London, their relationship is tested by the pressures of war.</Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="The Book Thief" />
+          <String Value="Allied" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="multilingual" />
+          <String Value=" french" />
+          <String Value=" german" />
+          <String Value=" arabic" />
         </Facet>
         <Facet Name="Info created">
-          <DateTime Value="2017-06-29T03:22:06" />
+          <DateTime Value="2017-11-27T08:14:51" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-11-27T07:22:18" />
+          <DateTime Value="2017-11-27T10:50:29" />
         </Facet>
         <Facet Name="Metadata Editors">
-          <String Value="natalia.sanchez2594" />
+          <String Value="lorenahurtado-malillos" />
           <String Value="George" />
         </Facet>
         <Facet Name="Film/Season title">
-          <String Value="The Book Thief" />
+          <String Value="Allied" />
         </Facet>
         <Facet Name="Type">
           <String Value="Feature film" />
         </Facet>
         <Facet Name="Duration (min)">
-          <Number Value="131" />
+          <Number Value="124" />
         </Facet>
         <Facet Name="Director(s)">
-          <String Value="Brian Percival" />
+          <String Value="Robert Zemeckis" />
         </Facet>
         <Facet Name="Scriptwriter(s)">
-          <String Value="Michael Petroni" />
-          <String Value=" Markus Zusak" />
+          <String Value="Steven Knight" />
         </Facet>
         <Facet Name="Production countries">
-          <String Value="United States" />
-          <String Value=" Germany" />
-        </Facet>
-        <Facet Name="Production companies">
-          <String Value="20th Century Fox" />
-        </Facet>
-        <Facet Name="Blockbuster">
-          <String Value="NO, but commercially intended" />
+          <String Value="UK" />
+          <String Value=" USA" />
         </Facet>
         <Facet Name="Year ST released">
-          <Number Value="2013" />
+          <Number Value="2016" />
         </Facet>
         <Facet Name="Main language (L1)">
           <String Value="English" />
         </Facet>
         <Facet Name="Conversations: count">
-          <Number Value="1" />
+          <Number Value="0" />
         </Facet>
       </Facets>
     </Item>

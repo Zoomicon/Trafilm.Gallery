@@ -256,6 +256,58 @@ Based on the homonym novel by Philip K. Dick.</Description>
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Allied" Name="Allied" Img="https://upload.wikimedia.org/wikipedia/en/4/43/Allied_%28film%29.png" Href="http://gallery.trafilm.net/film/metadata/?film=Allied">
+      <Description>In 1942, a Canadian intelligence officer in North Africa encounters a female French Resistance fighter on a deadly mission behind enemy lines. When they reunite in London, their relationship is tested by the pressures of war.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Allied" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="multilingual" />
+          <String Value=" french" />
+          <String Value=" german" />
+          <String Value=" arabic" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-11-27T08:14:51" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-11-27T10:50:29" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="lorenahurtado-malillos" />
+          <String Value="George" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Allied" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="124" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Robert Zemeckis" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Steven Knight" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="UK" />
+          <String Value=" USA" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2016" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="An American in Paris" Name="An American in Paris" Img="https://upload.wikimedia.org/wikipedia/en/5/59/An_American_in_Paris_poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=An American in Paris">
       <Description>Jerry Mulligan, a penniless American artist, tries to make a living in Paris as a painter. He is happy to be living and working in a small and cramped apartment above a sidewalk café in Montmatre. A rich American gallery owner, Milo Roberts, with an interest in more than Jerry's art, offers to support him. She hopes to win Jerry's heart by buying his paintings and promoting his career, but in a chance encounter in a club he meets Lise, a young French woman who works in a perfume shop, he is immediately captivated and attracted to her but unfortunately she is already engaged to Henri Baurel, an older man whom she feels indebted to for having saved her from the Nazis and for having raised her in his home.</Description>
       <Facets>
@@ -603,6 +655,53 @@ Based on the homonym novel by Philip K. Dick.</Description>
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Better Call Saul" Name="Better Call Saul" Img="https://images-na.ssl-images-amazon.com/images/M/MV5BODY2ODU0MTY5Nl5BMl5BanBnXkFtZTgwNjQ0OTc2MTI@._V1_SY1000_CR0,0,674,1000_AL_.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Better Call Saul">
+      <Description>The trials and tribulations of criminal lawyer, Jimmy McGill, in the time leading up to establishing his strip-mall law office in Albuquerque, New Mexico.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Better Call Saul" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="multilingual" />
+          <String Value=" spanish" />
+          <String Value=" vietnamese" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-11-27T08:36:55" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-11-27T08:41:11" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="lorenahurtado-malillos" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Better Call Saul" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="TV series season" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="46" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Vince Gilligan" />
+          <String Value=" Peter Gould" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="USA" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2015" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Black Swan" Name="Black Swan" Img="https://upload.wikimedia.org/wikipedia/en/6/68/Black_Swan_poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Black Swan">
       <Description>Nina Sayers is given the lead role to dance the Swan Lake by Tchaikovsky, but her character undergoes big changes with the pressure to be the best.</Description>
       <Facets>
@@ -935,7 +1034,7 @@ Based on the homonym novel by Philip K. Dick.</Description>
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Casino Royale" Name="Casino Royale" Img="https://upload.wikimedia.org/wikipedia/en/1/15/Casino_Royale_2_-_UK_cinema_poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Casino Royale">
+    <Item Id="Casino Royale" Name="Casino Royale" Img="https://upload.wikimedia.org/wikipedia/hr/5/53/Casino_Royale_3.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Casino Royale">
       <Description>Recently promoted to 00 status, James Bond takes over his first mission, in which he faces a mysterious private banker to world terrorism and poker player, Le Chiffre. Along with a beautiful Treasury agent and the MI6 man in Montenegro, Bond takes part in a high stakes poker game set up by Le Chiffre in order to recover a huge sum of his clients' money he lost in a failed plot that the British spy took down. 007 will not only discover the threatening organization behind his enemy, but the worst of all truths: to not trust on anyone.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -945,7 +1044,7 @@ Based on the homonym novel by Philip K. Dick.</Description>
           <DateTime Value="2017-08-09T01:25:44" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-09-21T10:44:00" />
+          <DateTime Value="2017-11-01T06:09:26" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="miquelpt" />
@@ -1378,7 +1477,7 @@ Based on the homonym novel by Philip K. Dick.</Description>
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Friends" Name="Friends - Season 02" Img="https://vignette1.wikia.nocookie.net/friends/images/5/57/Friends_s2.jpg/revision/latest?cb=20101007091807" Href="http://gallery.trafilm.net/film/metadata/?film=Friends">
+    <Item Id="Friends" Name="Friends - Season 02" Img="https://upload.wikimedia.org/wikipedia/en/a/a2/Friends_Season_2_DVD.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Friends">
       <Description>Friends follows the life of a group of six friends in their 30s - Rachel, Ross, Monica, Chandler, Phoebe and Joey - during a period of 10 years. 
 </Description>
       <Facets>
@@ -1389,10 +1488,11 @@ Based on the homonym novel by Philip K. Dick.</Description>
           <DateTime Value="2017-06-26T03:20:55" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-07-03T08:26:31" />
+          <DateTime Value="2017-11-01T06:16:12" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="IreneRanzato" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Friends - Season 02" />
@@ -1760,7 +1860,7 @@ Based on the homonym novel by Philip K. Dick.</Description>
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Harry Potter and the Deathly Hallows Part 2" Name="Harry Potter and the Deathly Hallows Part 2" Img="https://upload.wikimedia.org/wikipedia/en/d/df/Harry_Potter_and_the_Deathly_Hallows_%E2%80%93_Part_2.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Harry Potter and the Deathly Hallows Part 2">
+    <Item Id="Harry Potter and the Deathly Hallows Part 2" Name="Harry Potter and the Deathly Hallows Part 2" Img="https://upload.wikimedia.org/wikipedia/hr/8/88/Hp8.jpeg" Href="http://gallery.trafilm.net/film/metadata/?film=Harry Potter and the Deathly Hallows Part 2">
       <Description>Harry, Ron, and Hermione continue their quest of finding and destroying the Dark Lord's three remaining Horcruxes, the magical items responsible for his immortality. But as the mystical Deathly Hallows are uncovered, and Voldemort finds out about their mission, the biggest battle begins and life as they know it will never be the same again. (from IMDB)</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -1770,10 +1870,11 @@ Based on the homonym novel by Philip K. Dick.</Description>
           <DateTime Value="2016-10-30T02:08:52" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-30T02:20:27" />
+          <DateTime Value="2017-11-01T06:24:30" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Stavroula" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Harry Potter and the Deathly Hallows Part 2" />
@@ -1811,6 +1912,9 @@ Based on the homonym novel by Philip K. Dick.</Description>
         </Facet>
         <Facet Name="Main language (L1)">
           <String Value="English" />
+        </Facet>
+        <Facet Name="L2-Subtitled languages">
+          <String Value="Spanish" />
         </Facet>
         <Facet Name="Conversations: count">
           <Number Value="1" />
@@ -3771,7 +3875,7 @@ Based on the homonym novel by Philip K. Dick.</Description>
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Sophie's Choice" Name="Sophie's Choice" Img="https://pics.filmaffinity.com/sophie_s_choice-404175883-large.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Sophie's Choice">
+    <Item Id="Sophie's Choice" Name="Sophie's Choice" Img="https://upload.wikimedia.org/wikipedia/en/4/47/Sophie%27s_Choice1.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Sophie's Choice">
       <Description>After spending time with his new neighbors, an aspiring writer realizes they are harboring deep secrets that will forever change him.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -3781,10 +3885,11 @@ Based on the homonym novel by Philip K. Dick.</Description>
           <DateTime Value="2017-06-29T03:34:17" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-06-29T03:38:46" />
+          <DateTime Value="2017-11-27T07:19:18" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="natalia.sanchez2594" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Sophie's Choice" />
@@ -3989,7 +4094,7 @@ Based on the homonym novel by Philip K. Dick.</Description>
         </Facet>
       </Facets>
     </Item>
-    <Item Id="The Book Thief" Name="The Book Thief" Img="http://www.impawards.com/2013/posters/book_thief_xlg.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=The Book Thief">
+    <Item Id="The Book Thief" Name="The Book Thief" Img="https://upload.wikimedia.org/wikipedia/en/7/72/The-Book-Thief_poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=The Book Thief">
       <Description>While subjected to the horrors of World War II Germany, young Liesel finds solace by stealing books and sharing them with others. In the basement of her home, a Jewish refugee is being protected by her adoptive parents.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -3999,10 +4104,11 @@ Based on the homonym novel by Philip K. Dick.</Description>
           <DateTime Value="2017-06-29T03:22:06" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-06-29T03:28:25" />
+          <DateTime Value="2017-11-27T07:22:18" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="natalia.sanchez2594" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="The Book Thief" />
@@ -4037,7 +4143,7 @@ Based on the homonym novel by Philip K. Dick.</Description>
           <String Value="English" />
         </Facet>
         <Facet Name="Conversations: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>
@@ -4420,6 +4526,57 @@ Based on the homonym novel by Philip K. Dick.</Description>
           <String Value=" Jerry Weintraub Productions" />
           <String Value=" Riche/Ludwig Productions" />
           <String Value=" Beaglepug Productions" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2016" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="The Lost City of Z" Name="The Lost City of Z" Img="https://upload.wikimedia.org/wikipedia/en/6/61/The_Lost_City_of_Z_%28film%29.png" Href="http://gallery.trafilm.net/film/metadata/?film=The Lost City of Z">
+      <Description>A true-life drama, centering on British explorer Col. Percival Fawcett, who disappeared while searching for a mysterious city in the Amazon in the 1920s.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="The Lost City of Z" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="multilingual" />
+          <String Value=" spanish" />
+          <String Value=" portuguese" />
+          <String Value=" german" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-11-27T08:29:29" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-11-27T10:53:03" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="lorenahurtado-malillos" />
+          <String Value="George" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="The Lost City of Z" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="141" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="James Gray" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="James Gray" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="USA" />
         </Facet>
         <Facet Name="Year ST released">
           <Number Value="2016" />
