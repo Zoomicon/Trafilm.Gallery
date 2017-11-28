@@ -8,7 +8,7 @@ goto :EOF
 :process
 
 ECHO ---- Deleting lock
-del ..\.git\index.lock
+del ..\.git\index.lock 2>&1
 ECHO.
 
 ECHO ---- Staging changes for addition to local repository
