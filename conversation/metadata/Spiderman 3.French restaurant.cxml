@@ -31,10 +31,11 @@
           <DateTime Value="2017-08-10T02:38:35" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-08-10T02:41:06" />
+          <DateTime Value="2017-11-29T01:25:50" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="miquelpt" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Spiderman 3" />
@@ -49,13 +50,21 @@
           <String Value="F. 101-120" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="0" />
+          <Number Value="2" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="French" />
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="0" />
+          <Number Value="2" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
+          <String Value="Conditioned: slurred, stammer, muffled, mumble, rapid" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="0" />
+          <Number Value="3" />
         </Facet>
       </Facets>
     </Item>

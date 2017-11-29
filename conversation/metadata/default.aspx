@@ -29,7 +29,7 @@ Version: 20171129
 
     <%-- WEBFORM --%>
 
-    <form id="form1" defaultbutton="btnSave" runat="server">
+    <form id="form1" defaultbutton="btnSave" defaultfocus="listConversations" runat="server">
 
       <%-- STATUS MESSAGE --%>
 

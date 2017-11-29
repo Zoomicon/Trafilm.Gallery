@@ -31,10 +31,11 @@
           <DateTime Value="2016-11-06T11:31:13" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-11-06T11:31:58" />
+          <DateTime Value="2017-11-29T01:32:57" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="miquelpt" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="TheTwoTowers" />
@@ -49,13 +50,19 @@
           <String Value="C. 41-60" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Elvish" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Constructed (fictional)" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>

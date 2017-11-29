@@ -37,10 +37,11 @@
           <DateTime Value="2017-02-21T09:35:07" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-02-23T02:09:29" />
+          <DateTime Value="2017-11-29T01:24:13" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Rise of the Planet of the Apes" />
@@ -55,13 +56,19 @@
           <String Value="A. 1-20" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Sign language" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Constructed (fictional)" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="0" />
+          <Number Value="2" />
         </Facet>
       </Facets>
     </Item>

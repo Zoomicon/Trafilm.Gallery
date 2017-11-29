@@ -6,7 +6,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: L3STinstance\metadata\default.aspx
-Version: 20170316
+Version: 20171129
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -41,7 +41,7 @@ Version: 20170316
 
     <%-- WEBFORM --%>
 
-    <form id="form1" runat="server">
+    <form id="form1" defaultbutton="btnSave" defaultfocus="listL3STinstances" runat="server">
 
       <%-- STATUS MESSAGE --%>
 

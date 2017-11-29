@@ -31,10 +31,11 @@
           <DateTime Value="2017-04-08T08:09:57" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-04-08T08:10:38" />
+          <DateTime Value="2017-11-29T01:21:52" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="miquelpt" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Pirates of the Caribbean - Dead Man's Chest" />
@@ -49,13 +50,19 @@
           <String Value="F. 101-120" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Umshoko (Pelegostos tribe)" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Constructed (fictional)" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>

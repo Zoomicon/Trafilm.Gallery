@@ -21,7 +21,7 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Midnight in Paris.Gertrude Stein Second night" Name="Midnight in Paris.Gertrude Stein Second night" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Midnight in Paris&amp;conversation=Midnight in Paris.Stein and Picasso">
+    <Item Id="Midnight in Paris.Gertrude Stein Second night" Name="Midnight in Paris.Gertrude Stein Second night" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Midnight in Paris&amp;conversation=Midnight in Paris.Gertrude Stein Second night">
       <Description>Gil and Hemingway pay a visit to Stein who is with Picasso</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -31,12 +31,16 @@
           <DateTime Value="2017-02-18T07:22:14" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-02-19T02:17:23" />
+          <DateTime Value="2017-11-29T01:18:39" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
+          <String Value="Midnight in Paris" />
+        </Facet>
+        <Facet Name="Film/Season title">
           <String Value="Midnight in Paris" />
         </Facet>
         <Facet Name="Start time (min)">
