@@ -146,9 +146,29 @@ a {
   font-weight: bold;
 }
 
+/* --------------------------- */
+
 .tip {
   font-style: italic;
   text-align: justify;
   color: grey;
   margin-top: 0px;
+}
+
+/* --------------------------- */
+
+.help {
+  display: none;
+}
+
+.help:hover {
+  display: block;
+}
+
+a:target + .help {
+  display: block;
+}
+
+a:hover + .help {
+  display: block;
 }

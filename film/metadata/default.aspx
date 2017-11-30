@@ -34,10 +34,8 @@ Version: 20171130
 
       <%-- STATUS MESSAGE --%>
 
-      <asp:Panel runat="server" ID="panelStatus" Visible="false">
-        <div class="status">
-          <asp:Label ID="labelStatus" runat="server"/>
-        </div>
+      <asp:Panel runat="server" ID="panelStatus" CssClass="status" Visible="false">
+        <asp:Label ID="labelStatus" runat="server"/>
       </asp:Panel>
 
 
