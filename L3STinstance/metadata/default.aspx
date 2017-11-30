@@ -64,18 +64,19 @@ Version: 20171130
       </div>
 
 
+      <%-- LOGIN STATUS --%>
+
+      <div>
+        <asp:LoginName ID="loginName" runat="server" FormatString="Welcome {0}!" /> [<asp:LoginStatus ID="loginStatus" runat="server"/>]
+      </div>
+
       <%-- INSTRUCTIONS BOX --%>
 
-      <div class="instructions">
+      <asp:Panel ID="panelInstructions" runat="server" Visible="false" CssClass="instructions">
         Please fill in the following information for the L3ST-instance of your choice. Select it using the dropdown lists.<br />
         Try to fill the metadata as fully and accurately as possible, as they will be used for searching and filtering L3ST-instances.<br />
         Don't forget to press the SAVE METADATA button. Thank you!
-      </div>
-
-
-      <%-- LOGIN STATUS --%>
-
-      <asp:LoginName ID="loginName" runat="server" FormatString="Welcome {0}!" /> [<asp:LoginStatus ID="loginStatus" runat="server"/>]
+      </asp:Panel>
 
 
       <%-- INFO BOX --%>

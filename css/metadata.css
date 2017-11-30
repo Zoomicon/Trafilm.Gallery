@@ -48,6 +48,7 @@ a {
 .navigation .guide {
   padding-top: 0.4em;
   float: right;
+  color: khaki;
 }
 
 /* --------------------------- */
@@ -64,7 +65,7 @@ a {
 .instructions {
   border-style: dotted;
   border-width: 2px;
-  background-color: yellow;
+  background-color: khaki;
   padding: 5px;
 }
 

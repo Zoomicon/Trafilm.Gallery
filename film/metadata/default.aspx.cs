@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: film\metadata\default.aspx.cs
-//Version: 20170113
+//Version: 20171130
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -31,6 +31,7 @@ namespace Trafilm.Gallery
       }
 
       bool canSave = IsUserAllowedToSave("Film");
+      panelInstructions.Visible = canSave;
       panelMetadata.Enabled = canSave;
       panelAdd.Visible = canSave;
       panelSave.Visible = canSave; //stays hidden if its parent panelMetadata is not visible (i.e. nothing is selected)

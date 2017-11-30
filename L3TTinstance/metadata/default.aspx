@@ -68,18 +68,20 @@ Version: 20171130
       </div>
 
 
-      <%-- INSTRUCTIONS BOX --%>
+      <%-- LOGIN STATUS --%>
 
-      <div class="instructions">
-        Please fill in the following information for the L3TT-instance of your choice. Select it using the dropdown lists.<br />
-        Try to fill the metadata as fully and accurately as possible, as they will be used for searching and filtering L3TT-instances.<br />
-        Don't forget to press the SAVE METADATA button. Thank you!
+      <div>
+        <asp:LoginName ID="loginName" runat="server" FormatString="Welcome {0}!" /> [<asp:LoginStatus ID="loginStatus" runat="server"/>]
       </div>
 
 
-      <%-- LOGIN STATUS --%>
+      <%-- INSTRUCTIONS BOX --%>
 
-      <asp:LoginName ID="loginName" runat="server" FormatString="Welcome {0}!" /> [<asp:LoginStatus ID="loginStatus" runat="server"/>]
+      <asp:Panel ID="panelInstructions" runat="server" Visible="false" CssClass="instructions">
+        Please fill in the following information for the L3TT-instance of your choice. Select it using the dropdown lists.<br />
+        Try to fill the metadata as fully and accurately as possible, as they will be used for searching and filtering L3TT-instances.<br />
+        Don't forget to press the SAVE METADATA button. Thank you!
+      </asp:Panel>
 
 
       <%-- INFO BOX --%>
