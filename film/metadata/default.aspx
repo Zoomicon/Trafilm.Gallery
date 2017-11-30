@@ -101,13 +101,26 @@ Version: 20171130
           <div class="tip">
             Full official film title<br />
             For TV series enter series title and season number (e.g. Game of Thrones - Season 01)
+            <a href="#Title" class="openhelp">&#x26e8;</a>
+            <div class="help">
+              Select a title from the gallery to complete missing data for that title, OR, introduce a new film title. 
+              Type in the official title name for the new title as it appeared for the Source Text (e.g. Inglourious 
+Basterds). 
+              Copy from Imdb or similar source. Press the “add” button if you are adding a new Film or TV Title.
+            </div>
           </div>
           <asp:TextBox ID="txtTitle" runat="server" />
         </div>
 
         <div class="question" id="Description">
           <div class="label">2. Film Description</div>
-          <div class="tip">Synopsis and relevant information</div>
+          <div class="tip">
+            Synopsis and relevant information
+            <a id="Description_Help" href="#Description_Help" class="openhelp">&#x26e8;</a>
+            <div class="help">
+
+            </div>
+          </div>
           <asp:TextBox ID="txtDescription" runat="server" TextMode="MultiLine" Rows="5" />
         </div>
 
@@ -119,7 +132,13 @@ Version: 20171130
 
         <div class="question" id="PosterImage">
           <div class="label">3. Film Poster URL</div>
-          <div class="tip">Provide a link to an image for the film poster</div>
+          <div class="tip">
+            Provide a link to an image for the film poster
+            <a id="PosterImage_Help" href="#PosterImage_Help" class="openhelp">&#x26e8;</a>
+            <div class="help">
+
+            </div>
+          </div>
           <asp:TextBox ID="txtImageUrl" runat="server" />
         </div>
 
@@ -128,7 +147,13 @@ Version: 20171130
 
         <div class="question" id="Type">
           <div class="label">4. Type</div>
-          <div class="tip">Select type of "film" metadata item</div>
+          <div class="tip">
+            Select type of "film" metadata item
+            <a id="Type_Help" href="#Type_Help" class="openhelp">&#x26e8;</a>
+            <div class="help">
+
+            </div>
+          </div>
           <asp:Panel runat="server" ScrollBars="Auto">
             <asp:DropDownList ID="listType" runat="server"
               DataSourceID="xmlType" DataTextField="Value" DataValueField="Value"
@@ -142,6 +167,10 @@ Version: 20171130
           <div class="tip">
             How long does the film last? (in minutes)<br />
             When Type is "TV series season", enter duration of longest episode in that season            
+            <a id="Duration_Help" href="#Duration_Help" class="openhelp">&#x26e8;</a>
+            <div class="help">
+
+            </div>
           </div>
           <asp:TextBox ID="txtDuration" runat="server" />
         </div>
