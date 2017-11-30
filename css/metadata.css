@@ -1,7 +1,7 @@
 ﻿/*
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: metadata.css
-Version: 20170316
+Version: 20171130
 */
 
 div {
@@ -43,6 +43,11 @@ a {
 .navigation a:hover {
   text-decoration-color: ghostwhite;
   text-decoration: underline;
+}
+
+.navigation .guide {
+  padding-top: 0.4em;
+  float: right;
 }
 
 /* --------------------------- */
