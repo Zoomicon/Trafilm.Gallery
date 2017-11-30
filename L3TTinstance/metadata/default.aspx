@@ -5,7 +5,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: L3TTinstance\metadata\default.aspx
-Version: 20171129
+Version: 20171130
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -64,7 +64,7 @@ Version: 20171129
         <a href="../../conversation/metadata/?film=<%=listFilms.SelectedValue%>&conversation=<%=listConversations.SelectedValue%>">Conversations</a>
         <a href="../../L3STinstance/metadata/?film=<%=listFilms.SelectedValue%>&conversation=<%=listConversations.SelectedValue%>&L3STinstance=<%=listL3STinstances.SelectedValue%>">L3ST-instances</a>
         <a class="selected" href="../../L3TTinstance/metadata/">L3TT-instances</a>
-        <a href="https://repositori.upf.edu/handle/10230/28223" target="trafilm guide">Guide</a>
+        <a href="https://repositori.upf.edu/handle/10230/28223" target="trafilm guide" class="guide">Guide</a>
       </div>
 
 
