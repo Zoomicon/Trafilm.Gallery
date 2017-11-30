@@ -170,7 +170,7 @@ a {
   color: darkkhaki;
 }
 
-.question:target ~ .help {
+.question:target .help {
   display: block;
 }
 
