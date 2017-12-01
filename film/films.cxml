@@ -427,6 +427,60 @@ Based on the homonym novel by Philip K. Dick.</Description>
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Arthur (remake)" Name="Arthur (remake)" Img="https://upload.wikimedia.org/wikipedia/en/thumb/2/2a/Arthur_poster.jpg/220px-Arthur_poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Arthur (remake)">
+      <Description>A drunken playboy stands to lose a wealthy inheritance when he falls for a woman his family doesn't like.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Arthur (remake)" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-11-30T10:45:03" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-11-30T10:52:19" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Guillermo" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Arthur (remake)" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="110" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Jason Winer" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Peter Baynham" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="USA" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value=" Warner Bros." />
+          <String Value=" Morra" />
+          <String Value=" Brezner" />
+          <String Value=" Steinberg and Tenenbaum Entertainment (MBST)" />
+          <String Value=" BenderSpink" />
+        </Facet>
+        <Facet Name="Blockbuster">
+          <String Value="NO, but commercially intended" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2011" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Avatar" Name="Avatar" Img="http://www.movie-poster-artwork-finder.com/wp-content/uploads/2012/10/avatar-2009-poster-artwork-sam-worthington-zoe-saldana-stephen-lang.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Avatar">
       <Description>Epic science fiction film set in the mid-22nd century, when humans are colonizing Pandora, a lush habitable moon of a gas giant in the Alpha Centauri star system, in order to mine the mineral unobtanium, a room-temperature superconductor. The expansion of the mining colony threatens the continued existence of a local tribe of Na'vi – a humanoid species indigenous to Pandora. The film's title refers to a genetically engineered Na'vi body with the mind of a remotely located human that is used to interact with the natives of Pandora.</Description>
       <Facets>
@@ -2504,6 +2558,61 @@ Based on the homonym novel by Philip K. Dick.</Description>
         </Facet>
         <Facet Name="Conversations: count">
           <Number Value="2" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Leaving Las Vegas" Name="Leaving Las Vegas" Img="https://upload.wikimedia.org/wikipedia/en/thumb/3/39/Leaving_las_vegas_ver1.jpg/220px-Leaving_las_vegas_ver1.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Leaving Las Vegas">
+      <Description>Ben Sanderson, a Hollywood screenwriter who lost everything because of his alcoholism, arrives in Las Vegas to drink himself to death. There, he meets and forms an uneasy friendship and non-interference pact with prostitute Sera.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Leaving Las Vegas" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-11-30T11:31:20" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-11-30T11:34:06" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Guillermo" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Leaving Las Vegas" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="111" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Mike Figgis" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Mike Figgis" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="France" />
+          <String Value=" UK" />
+          <String Value=" USA" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="Lumiere Pictures" />
+          <String Value=" Lila Cazès Production" />
+          <String Value=" A" />
+          <String Value=" Initial Productions" />
+        </Facet>
+        <Facet Name="Blockbuster">
+          <String Value="NO, but commercially intended" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="1995" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="0" />
         </Facet>
       </Facets>
     </Item>

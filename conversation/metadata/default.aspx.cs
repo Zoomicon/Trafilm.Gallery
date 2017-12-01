@@ -1,6 +1,6 @@
 ﻿//Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 //Filename: conversation\metadata\default.aspx.cs
-//Version: 20171130
+//Version: 20171201
 
 using Metadata.CXML;
 using Trafilm.Metadata;
@@ -9,7 +9,6 @@ using Trafilm.Metadata.Utils;
 
 using System;
 using System.Globalization;
-using System.IO;
 using System.Linq;
 
 namespace Trafilm.Gallery
@@ -154,11 +153,11 @@ namespace Trafilm.Gallery
 
       //Calculated properties//
 
-      UI.Load(lblL3languagesCount, metadata.L3STlanguagesCount.ToString()); //don't need to display the count since there list of items is also shown
-      UI.LoadContent(listL3languages, metadata.L3STlanguages); //do not use Load, use LoadContent to add values, not select them
+      UI.Load(lblL3STlanguagesCount, metadata.L3STlanguagesCount.ToString()); //don't need to display the count since there list of items is also shown
+      UI.LoadContent(listL3STlanguages, metadata.L3STlanguages); //do not use Load, use LoadContent to add values, not select them
 
-      UI.Load(lblL3languageTypesCount, metadata.L3STlanguageTypesCount.ToString()); //don't need to display the count since there list of items is also shown
-      UI.LoadContent(listL3languageTypes, metadata.L3STlanguageTypes); //do not use Load, use LoadContent to add values, not select them
+      UI.Load(lblL3STlanguageTypesCount, metadata.L3STlanguageTypesCount.ToString()); //don't need to display the count since there list of items is also shown
+      UI.LoadContent(listL3STlanguageTypes, metadata.L3STlanguageTypes); //do not use Load, use LoadContent to add values, not select them
 
       UI.Load(lblL3STinstanceCount, metadata.L3STinstanceCount.ToString());
     }

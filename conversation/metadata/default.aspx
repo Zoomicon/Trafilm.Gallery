@@ -6,7 +6,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: conversation\metadata\default.aspx
-Version: 20171130
+Version: 20171201
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -102,11 +102,32 @@ Version: 20171130
 
         <div class="question" id="Title">
           <div class="label">1. Conversation Title</div>
+          <div class="tip">
+            <a href="#Title" class="openhelp">&#x26e8;</a>
+            <div class="help">
+              Free text. Provide a title for the Conversation to serve as a reference. For some cases, they are 
+              well known for the name of the scene, e.g. “the lake scene” in Love Actually. Notice that another 
+              key reference for Conversations is its Start Time. Although we allow for the possibility of two 
+              conversations starting at the same time, this is an infrequent case, so Start Time is actually a 
+              good reference for identifying each conversation. However, giving it a name can make it easier to 
+              remember, provides additional data when it is a descriptive title, and disambiguates the slim 
+              chance that two conversations start at the same time.
+            </div>
+          </div>
           <asp:TextBox ID="txtTitle" runat="server" />
         </div>
        
         <div class="question" id="Description">
           <div class="label">2. Conversation Description</div>
+          <div class="tip">
+            <a href="#Title" class="openhelp">&#x26e8;</a>
+            <div class="help">
+              Provide a few relevant words about the nature of the conversation to enable a better 
+              understanding of L3 instances, ST and TT. If you can “describe” the Conversation by means of 
+              keywords or tags you do not need to fill in the item “Conversation description”. You can go 
+              straight to “Conversation Tags”.
+            </div>
+          </div>
           <asp:TextBox ID="txtDescription" runat="server" TextMode="MultiLine" Rows="5" />
         </div>
 
@@ -134,20 +155,42 @@ Version: 20171130
 
         <div class="question" id="SeasonEpisodeName">
           <div class="label">3. Season episode name</div>
-          <div class="tip">For TV series seasons, enter episode number and name (preferrably as originally numbered)</div>
+          <div class="tip">
+            For TV series seasons, enter episode number and name (preferrably as originally numbered)
+            <a href="#SeasonEpisodeName" class="openhelp">&#x26e8;</a>
+            <div class="help">
+              Enter the title of the episode and or its number.
+            </div>
+          </div>
           <asp:TextBox ID="txtSeasonEpisodeName" runat="server" />
         </div>
 
-
         <div class="question" id="StartTime">
           <div class="label">4. Start time (min)</div>
-          <div class="tip">What part of the film is the Conversation in? (i.e. how many minutes from the start)</div>
+          <div class="tip">
+            What part of the film is the Conversation in? (i.e. how many minutes from the start)
+            <a href="#StartTime" class="openhelp">&#x26e8;</a>
+            <div class="help">
+              Start Time is calculated as the lapse of time from the beginning of the film to the beginning of the 
+              Conversation containing the L3-instance. Type in (as “free” text) up to 3 digits to show in minutes
+              the moment when the Conversation starts if you count from the beginning of the film. 
+            </div>
+          </div>
           <asp:TextBox ID="txtStartTime" runat="server" />
         </div>
 
         <div class="question" id="Duration">
           <div class="label">5. Duration (sec)</div>
-          <div class="tip">How long does the Conversation last? (if L3ST instances are interrupted by other speech, count total seconds from onset to end of final L3ST-instance)</div>
+          <div class="tip">
+            How long does the Conversation last? (if L3ST instances are interrupted by other speech, count total seconds from onset to end of final L3ST-instance)
+            <a href="#Duration" class="openhelp">&#x26e8;</a>
+            <div class="help">
+              A Conversation (3 min. max. = 180 sec.) is comprised of the L3-instance with or without other utterances 
+              in the main language or other L3s. Conversations and Clips for TraFilm cannot last longer than 3 minutes.
+              For conversations lasting longer than 3 minutes we encourage analysts to find a way of splitting the
+              conversation somehow, within reasonable parameters, of course.
+            </div>
+          </div>
           <asp:DropDownList
             ID="listDuration" runat="server"
             DataSourceID="xmlDuration" DataTextField="Title" DataValueField="Value"
@@ -168,44 +211,28 @@ Version: 20171130
 
         <%-- Calculated from L3STinstances --%>
 
-        <%-- //Count shown in parentheses next to title of respective list
-        <div class="calculated" id="L3STlanguageCount">
-          <div class="label">L3ST languages: count (Calculated from L3ST-instances)</div>
-          <div class="tip">Count of L3ST languages in Conversation</div>
-          <asp:Label ID="lblL3languagesCount" runat="server" />
-        </div>  
-        --%>
+        <%-- L3STlanguagesCount shown in parentheses next to title of respective list below --%>
 
         <div class="calculated" id="L3STlanguages">
-          <div class="label">L3ST languages (#<asp:Label ID="lblL3languagesCount" runat="server" /> - Calculated from L3ST-instances)</div>
+          <div class="label">L3ST languages (#<asp:Label ID="lblL3STlanguagesCount" runat="server" /> - Calculated from L3ST-instances)</div>
           <div class="tip">L3ST languages in Conversation</div>
           <asp:Panel runat="server" ScrollBars="Auto">
-            <asp:ListBox ID="listL3languages" runat="server" Enabled="false" />
+            <asp:ListBox ID="listL3STlanguages" runat="server" Enabled="false" />
           </asp:Panel>
         </div>    
 
-         <%-- //Count shown in parentheses next to title of respective list
-        <div class="calculated" id="L3STlanguageTypeCount">
-          <div class="label">L3ST language types: count (Calculated from L3ST-instances)</div>
-          <div class="tip">Count of L3ST language types in Conversation</div>
-          <asp:Label ID="lblL3languageTypesCount" runat="server" />
-        </div>
-        --%>
+         <%-- L3STlanguageTypesCount shown in parentheses next to title of respective list below --%>
         
         <div class="calculated" id="L3STlanguageTypes">
-          <div class="label">L3ST language types (# <asp:Label ID="lblL3languageTypesCount" runat="server" /> - Calculated from L3ST-instances)</div>
+          <div class="label">L3ST language types (# <asp:Label ID="lblL3STlanguageTypesCount" runat="server" /> - Calculated from L3ST-instances)</div>
           <div class="tip">L3ST language types in Conversation</div>
           <asp:Panel runat="server" ScrollBars="Auto">
-            <asp:ListBox ID="listL3languageTypes" runat="server" Enabled="false" />
+            <asp:ListBox ID="listL3STlanguageTypes" runat="server" Enabled="false" />
            </asp:Panel>
         </div>
 
-        <%-- //Count shown in parentheses next to title of respective list
-        <div class="calculated" id="L3STinstanceCount">
-          <div class="label">Count of L3ST-instances (Calculated)</div>
-          <asp:Label ID="lblL3STinstanceCount" runat="server" />
-        </div>
-        --%>
+        <%-- L3STinstanceCount shown in parentheses next to title of respective list below --%>
+
 
         <%-- ITrafilmMetadata --%>
 
@@ -219,13 +246,31 @@ Version: 20171130
 
         <div class="question" id="Tags">
           <div class="label">6. Tags</div>
-          <div class="tip">Keywords or other labels for filtering purposes , insert a comma (,) between different ones</div>
+          <div class="tip">
+            Keywords or other labels for filtering purposes , insert a comma (,) between different ones
+            <a href="#Tags" class="openhelp">&#x26e8;</a>
+            <div class="help">
+              This item is repeated in every form, and meant to be used by analysts to either
+              (i) signal special distinguishing features,
+                  especially those which are not picked up by the answers to all of the other items; or 
+              (ii) to personalise a researcher’s own special interest so that a “corpus” may be retrieved through certain keywords.
+            </div>
+          </div>
           <asp:TextBox ID="txtTags" runat="server" />
         </div>
 
         <div class="question" id="Remarks">
           <div class="label">7. Remarks </div>
-          <div class="tip">Issues concerning the analysis or the metadata form design</div>
+          <div class="tip">
+            Issues concerning the analysis or the metadata form design
+            <a href="#Remarks" class="openhelp">&#x26e8;</a>
+            <div class="help">
+              This item is repeated in every form, and meant to be used by analysts to either
+              (i) warn of alternatives for answering questions in the items that are not included among the options
+              provided in the dropdown menus or the checkbox lists (multiple choices); or 
+              (ii) alert of any issues in the system.
+            </div>
+          </div>
           <asp:TextBox ID="txtRemarks" runat="server" TextMode="MultiLine" Rows="5" />
         </div>
         

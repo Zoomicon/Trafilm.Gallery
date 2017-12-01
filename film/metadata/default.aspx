@@ -6,7 +6,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: film\metadata\default.aspx
-Version: 20171130
+Version: 20171201
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -331,15 +331,10 @@ Basterds).
 
         <%-- Calculated from Conversations --%>
         
-        <%-- //Count shown in parentheses next to title of respective list
-        <div class="calculated" id="ConversationCount">
-          <div class="label">Count of Conversations (Calculated)</div>
-          <asp:Label ID="lblConversationCount" runat="server" />
-        </div>
-        --%>
+        <%-- ConversationCount shown in parentheses next to title of respective list below --%>
+
 
         <%-- ITrafilmMetadata --%>
-
 
         <%-- //Film Transcription not available for copyright and for metadata size reasons
         <div class="question" id="Transcription">

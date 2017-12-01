@@ -233,15 +233,18 @@
         <Facet Name="Reference Id">
           <String Value="A Scanner Darkly.Barry Mocks Freck" />
         </Facet>
+        <Facet Name="Tags">
+          <String Value="DIS" />
+        </Facet>
         <Facet Name="Info created">
           <DateTime Value="2017-01-11T03:36:42" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-11-29T12:50:18" />
+          <DateTime Value="2017-12-01T01:06:02" />
         </Facet>
         <Facet Name="Metadata Editors">
-          <String Value="Guillermo" />
           <String Value="George" />
+          <String Value="Guillermo" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="A Scanner Darkly" />
@@ -1120,6 +1123,44 @@
         </Facet>
         <Facet Name="L3ST-instances: count">
           <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Bad Boys II.Captain" Name="Captain" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Bad Boys II&amp;conversation=Bad Boys II.Captain">
+      <Description></Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Bad Boys II.Captain" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-12-01T12:49:46" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-12-01T12:54:28" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Guillermo" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Bad Boys II" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Bad Boys II" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="102" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="D. 61-80" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
         </Facet>
       </Facets>
     </Item>
@@ -7364,6 +7405,44 @@
         </Facet>
         <Facet Name="L3ST-instances: count">
           <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Leaving Las Vegas.Tape recorder" Name="Tape recorder" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Leaving Las Vegas&amp;conversation=Leaving Las Vegas.Tape recorder">
+      <Description></Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Leaving Las Vegas.Tape recorder" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-11-30T11:35:16" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-11-30T11:42:16" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Guillermo" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Leaving Las Vegas" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Leaving Las Vegas" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="12" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="C. 41-60" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
         </Facet>
       </Facets>
     </Item>

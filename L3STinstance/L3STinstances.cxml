@@ -2066,6 +2066,85 @@
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Bad Boys II.Captain.DIS" Name="Captain" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Bad Boys II&amp;conversation=Bad Boys II.Captain&amp;L3STinstance=Bad Boys II.Captain.DIS">
+      <Description>Sound interjection</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Bad Boys II.Captain.DIS" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="DIS" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-12-01T12:55:07" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-12-01T01:30:19" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Guillermo" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Bad Boys II" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Bad Boys II.Captain" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="102" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="D. 61-80" />
+        </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L3ST language type">
+          <String Value="Conditioned: slurred, stammer, muffled, mumble, rapid" />
+        </Facet>
+        <Facet Name="L3ST language">
+          <String Value="DIS" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="YES, (almost) completely" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Conversation can be followed regardless of meaning" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3ST speaker performance">
+          <String Value="clearly deficient or farcical" />
+        </Facet>
+        <Facet Name="L3ST mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3ST merely represented">
+          <String Value="YES: orally" />
+          <String Value="YES: visually" />
+        </Facet>
+        <Facet Name="L3ST merely represented orally">
+          <String Value="Farcical L-main" />
+        </Facet>
+        <Facet Name="L3ST represented: visual">
+          <String Value="Gesture (movement / body language)" />
+        </Facet>
+        <Facet Name="L3ST functions">
+          <String Value="Comedy / humour" />
+        </Facet>
+        <Facet Name="Conversation features for L3ST-instance">
+          <String Value="embarassing" />
+          <String Value="salutation" />
+        </Facet>
+        <Facet Name="L3ST sources">
+          <String Value="Oral L3: single source" />
+        </Facet>
+        <Facet Name="L3TT-instances: count">
+          <Number Value="2" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Beauty and the Beast.The chef and his long hours.English with a French accent" Name="The chef and his long hours" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Beauty and the Beast&amp;conversation=Beauty and the Beast.The chef and his long hours&amp;L3STinstance=Beauty and the Beast.The chef and his long hours.English with a French accent">
       <Description></Description>
       <Facets>
@@ -14719,6 +14798,80 @@ The episode opens up with Wes Wrench and his associate and translator Grady Numb
         </Facet>
         <Facet Name="L3TT-instances: count">
           <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Leaving Las Vegas.Tape recorder.DIS" Name="Tape recorder" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Leaving Las Vegas&amp;conversation=Leaving Las Vegas.Tape recorder&amp;L3STinstance=Leaving Las Vegas.Tape recorder.DIS">
+      <Description>Consonant sound elongation (the*n*, tha*t*...).</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Leaving Las Vegas.Tape recorder.DIS" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-11-30T11:43:54" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-12-01T12:14:56" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Guillermo" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Leaving Las Vegas" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Leaving Las Vegas.Tape recorder" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="12" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="C. 41-60" />
+        </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L3ST language type">
+          <String Value="Conditioned: slurred, stammer, muffled, mumble, rapid" />
+        </Facet>
+        <Facet Name="L3ST language">
+          <String Value="DIS" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="YES, (almost) completely" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3ST speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3ST mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3ST merely represented">
+          <String Value="YES: orally" />
+        </Facet>
+        <Facet Name="L3ST merely represented orally">
+          <String Value="L-main quirkiness or clue" />
+        </Facet>
+        <Facet Name="L3ST functions">
+          <String Value="Character portrayal" />
+        </Facet>
+        <Facet Name="Conversation features for L3ST-instance">
+          <String Value="monologue" />
+          <String Value="sex" />
+          <String Value="taboo" />
+          <String Value="vulgar" />
+        </Facet>
+        <Facet Name="L3ST sources">
+          <String Value="Oral L3: single source" />
+        </Facet>
+        <Facet Name="L3TT-instances: count">
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>
