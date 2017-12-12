@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Midnight in Paris.Dali and Buñuel" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Dali and Buñuel" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="False" p:IsWordWheelVisible="False" />
@@ -21,7 +21,7 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Midnight in Paris.Dali and Buñuel" Name="Midnight in Paris.Dali and Buñuel" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Midnight in Paris&amp;conversation=Midnight in Paris.Dali and Buñuel">
+    <Item Id="Midnight in Paris.Dali and Buñuel" Name="Dali and Buñuel" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Midnight in Paris&amp;conversation=Midnight in Paris.Dali and Buñuel">
       <Description>Gil meets Dali and then Buñuel after Adriana left.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -31,7 +31,7 @@
           <DateTime Value="2017-02-18T07:22:14" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-11-29T01:18:37" />
+          <DateTime Value="2017-12-12T03:19:36" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
