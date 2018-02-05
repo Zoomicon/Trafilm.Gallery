@@ -6,7 +6,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: film\metadata\default.aspx
-Version: 20171201
+Version: 20180205
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -104,8 +104,7 @@ Version: 20171201
             <a href="#Title" class="openhelp">&#x26e8;</a>
             <div class="help">
               Select a title from the gallery to complete missing data for that title, OR, introduce a new film title. 
-              Type in the official title name for the new title as it appeared for the Source Text (e.g. Inglourious 
-Basterds). 
+              Type in the official title name for the new title as it appeared for the Source Text (e.g. Inglourious Basterds). 
               Copy from Imdb or similar source. Press the “add” button if you are adding a new Film or TV Title.
             </div>
           </div>
@@ -291,17 +290,16 @@ Basterds).
 
 
         <div class="question" id="L1language">
-          <div class="label">13. Main (L1) language</div>
+          <div class="label">13. Main language (L1)</div>
           <div class="tip">
             What is the main language of the film? (used as Source Text for Dubbing or Subtitling)
             <a href="#L1language" class="openhelp">&#x26e8;</a>
             <div class="help"> <!-- TODO: check again text -->
-              Choose from long list of languages. This item replicates “TT main language (L2)” from Form 4, to
-              enable a quick connection between L1 and its L2s. This item is thus the “parent” of every version 
-              of it according to different languages and AVT types (i.e. dubbing, subtitling, audio description, subtitling SDH).
-              When inserting a language, please specify in order of more general to more specific, in those cases that need
-              specifying; e.g. Spanish South American Chile, or English US Southern Georgia. Only be as specific as you need
-              to be and know for sure. 
+              Choose from list of languages. L1 is the main language of the ST and this item is “mirrored” in Form 4 as “L2 language, what language is L2 in?”,
+              asking for the main language of the TT, to enable a direct connection between L1 and the L2s of its corresponding translated versions. This item (L1)
+              is thus the “parent” of every version of it (each case of L2) according to how many different languages and AVT types (i.e. dubbing, subtitling, audio description, subtitling SDH)
+              are introduced into the database. When inserting a language, please specify in order of more general to more specific, in those cases that need specifying; e.g. Spanish South American Chile,
+              or English US Southern Georgia. Only be as specific as you need to be and know for sure. 
             </div>
           </div>
           <asp:Panel runat="server" ScrollBars="Auto">
@@ -350,7 +348,7 @@ Basterds).
             Keywords or other labels for filtering purposes, insert a comma (,) between different ones
             <a href="#Tags" class="openhelp">&#x26e8;</a>
             <div class="help">
-              This item is repeated in every form, and meant to be used by analysts to either
+              This item is repeated in every form, and is meant to be used by analysts to either
               (i) signal special distinguishing features,
                   especially those which are not picked up by the answers to all of the other items; or 
               (ii) to personalise a researcher’s own special interest so that a “corpus” may be retrieved through certain keywords.
@@ -367,7 +365,7 @@ Basterds).
             <div class="help">
               This item is repeated in every form, and meant to be used by analysts to either
               (i) warn of alternatives for answering questions in the items that are not included among the options
-              provided in the dropdown menus or the checkbox lists (multiple choices); or 
+              provided in the dropdown menus or checkbox lists (multiple choice); or 
               (ii) alert of any issues in the system.
             </div>
           </div>
