@@ -218,12 +218,14 @@ Version: 20180205
             Which language is L3ST?
             <a href="#L3STlanguage" class="openhelp">&#x26e8;</a>
             <div class="help">
-              Free text. Type in the language for this particular L3ST-instance, e.g. Swedish, Korean, Klingon, Elvish, Dothraki.
-              OR “unknown”. Type in a single word for the language, in English, with a capital first letter. If you cannot recognise
-              the language, then type in the word <i>unknown</i>. When inserting a language, please specify in order of more general to more
-              specific, in those cases that need specifying; e.g. Spanish South American Chile, or English US Southern Georgia.
-              Only be as specific as you need to be and know for sure. For sign language, write “English sign-language”, or more specifically,
-              “English US sign language”, or if you do not know, just: “sign language”.
+              <p>
+                Free text. Type in the language for this particular L3ST-instance, e.g. Swedish, Korean, Klingon, Elvish, Dothraki.
+                OR “unknown”. Type in a single word for the language, in English, with a capital first letter. If you cannot recognise
+                the language, then type in the word <b>unknown</b>. When inserting a language, please specify in order of more general to more
+                specific, in those cases that need specifying; e.g. Spanish South American Chile, or English US Southern Georgia.
+                Only be as specific as you need to be and know for sure. For sign language, write “English sign-language”, or more specifically,
+                “English US sign language”, or if you do not know, just: “sign language”.
+              </p>
               <p>This item is repeated in Form 4, for comparison.</p>
             </div>
           </div>
@@ -237,11 +239,13 @@ Version: 20180205
             If L3ST is “constructed”, is it based on any of the following options?
             <a href="#L3STconstructedBasedOn" class="openhelp">&#x26e8;</a>
             <div class="help">
-              Options include L1 and L2 combinations, and other relevant distinctions such as historical or pseudo-historical
-              (e.g. Lord of the Rings, Conan, or Game of Thrones-style L3 constructed languages, etc.).
-              Gibberish is for unintelligible speech, normally interpreted as deliberately unintelligible.
-              “From scratch” is for L3-constructed not based on any ‘real’ language (e.g. R2D2 in Star Wars).
-              If “Other” is selected, maybe it is interesting to add why and how, in the “Remarks for L3ST analysis” item.
+              <p>
+                Options include L1 and L2 combinations, and other relevant distinctions such as historical or pseudo-historical
+                (e.g. Lord of the Rings, Conan, or Game of Thrones-style L3 constructed languages, etc.).
+                Gibberish is for unintelligible speech, normally interpreted as deliberately unintelligible.
+                “From scratch” is for L3-constructed not based on any ‘real’ language (e.g. R2D2 in Star Wars).
+                If “Other” is selected, maybe it is interesting to add why and how, in the “Remarks for L3ST analysis” item.
+              </p>
               <p>This item is repeated in Form 4, for comparison.</p>
             </div>
           </div>

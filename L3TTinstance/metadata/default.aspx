@@ -183,7 +183,7 @@ Version: 20180205
             <a href="#L2language" class="openhelp">&#x26e8;</a>
             <div class="help">
               <p>
-                List of real languages, plus <i>Unintelligible</i> (e.g., gibberish), plus <i>Silent</i>, plus <i>Other</i>
+                List of real languages, plus <b>Unintelligible</b> (e.g., gibberish), plus <b>Silent</b>, plus <b>Other</b>
               </p>
               <p>
                 Select from a long list of options. If the option you need is not on the list select “Other”, and then type
@@ -314,7 +314,13 @@ Version: 20180205
             With L2 as main language (L-main), what type of language is L3TT?
             <a href="#L3TTlanguageType" class="openhelp">&#x26e8;</a>
             <div class="help">
-              <p>This item is to filter L3 searches, according to three large groups: (1) Real languages (e.g. Italian, Latin, Esperanto), with actual speakers, originally, outside the world of fiction. Languages like Esperanto are included in this category. (2) Constructed in fiction, made up, e.g. Star Trek Klingon). (3) A variety of the main language, by user (dialect) or by use (sociolect); importantly, for this analysis, clearly distinguishable from the main language, e.g. Cockney English, gangster slang, highly technical jargon. For one or a few characters only. (4) Conditioned: Real language production and/or perception is conditioned by cognitive, articulatory, hearing (or external factors e.g. speaking with mouth full, a hostage who has a gag), caused by extreme tiredness or under extreme pressure (nerves, overexcitement), or under the influence, mumbling, muttering, sobbing, etc. to come across as slurred speech, unclear, incoherent, as/or too fast/too slow: a transitory or permanent condition.</p>
+              This item is to filter L3 searches, according to three large groups:
+              <ol>
+                <li>Real languages (e.g. Italian, Latin, Esperanto), with actual speakers, originally, outside the world of fiction. Languages like Esperanto are included in this category.</li>
+                <li>Constructed in fiction, made up, e.g. Star Trek Klingon).</li>
+                <li>A variety of the main language, by user (dialect) or by use (sociolect); importantly, for this analysis, clearly distinguishable from the main language, e.g. Cockney English, gangster slang, highly technical jargon. For one or a few characters only.</li>
+                <li>(4) Conditioned: Real language production and/or perception is conditioned by cognitive, articulatory, hearing (or external factors e.g. speaking with mouth full, a hostage who has a gag), caused by extreme tiredness or under extreme pressure (nerves, overexcitement), or under the influence, mumbling, muttering, sobbing, etc. to come across as slurred speech, unclear, incoherent, as/or too fast/too slow: a transitory or permanent condition.</li>
+              </ol>
               <p>This item is repeated in Form 3, for comparison.</p>
             </div>
           </div>
@@ -329,7 +335,7 @@ Version: 20180205
             Which language is L3TT?
             <a href="#L3TTlanguage" class="openhelp">&#x26e8;</a>
             <div class="help">
-              <p>Free text, type in the language for this particular L3ST-instance, e.g. Swedish, Korean, Klingon, Elvish, Dothraki, OR “unknown”. Type in a single word for the language, in English, with a capital first letter. If you cannot recognise the language, then type in the word <i>unknown</i>.</p>
+              <p>Free text, type in the language for this particular L3ST-instance, e.g. Swedish, Korean, Klingon, Elvish, Dothraki, OR “unknown”. Type in a single word for the language, in English, with a capital first letter. If you cannot recognise the language, then type in the word <b>unknown</b>.</p>
               <p>This item is repeated in Form 3, for comparison.</p>
             </div>
           </div>
