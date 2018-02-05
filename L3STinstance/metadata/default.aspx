@@ -6,7 +6,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: L3STinstance\metadata\default.aspx
-Version: 20171130
+Version: 20180205
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -220,7 +220,7 @@ Version: 20171130
             <div class="help">
               Free text. Type in the language for this particular L3ST-instance, e.g. Swedish, Korean, Klingon, Elvish, Dothraki.
               OR “unknown”. Type in a single word for the language, in English, with a capital first letter. If you cannot recognise
-              the language, then type in the word unknown. When inserting a language, please specify in order of more general to more
+              the language, then type in the word <i>unknown</i>. When inserting a language, please specify in order of more general to more
               specific, in those cases that need specifying; e.g. Spanish South American Chile, or English US Southern Georgia.
               Only be as specific as you need to be and know for sure. For sign language, write “English sign-language”, or more specifically,
               “English US sign language”, or if you do not know, just: “sign language”.
