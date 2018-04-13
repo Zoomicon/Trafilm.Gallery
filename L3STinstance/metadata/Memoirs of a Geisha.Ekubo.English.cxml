@@ -22,9 +22,9 @@
     <FacetCategory Name="Conversation features for L3ST-instance" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3ST sources" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3TT-instances: count" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
-    <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Tags" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -37,7 +37,7 @@
           <String Value="Memoirs of a Geisha.Ekubo.English" />
         </Facet>
         <Facet Name="Transcription">
-          <String Value="Ekubo. At the right moment slip it to Nobu – discreetly.&#xD;&#xA;" />
+          <String Value="Ekubo. At the right moment slip it to Nobu – discreetly. He will know what it means.&#xD;&#xA;" />
         </Facet>
         <Facet Name="Tags">
           <String Value="gender" />
@@ -50,7 +50,7 @@
           <DateTime Value="2016-10-31T07:42:21" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-31T07:47:29" />
+          <DateTime Value="2018-04-13T03:42:55" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="evaespasa" />
@@ -104,7 +104,7 @@
           <String Value="Bilingual (L3&amp;main): same source " />
         </Facet>
         <Facet Name="L3TT-instances: count">
-          <Number Value="0" />
+          <Number Value="2" />
         </Facet>
       </Facets>
     </Item>
