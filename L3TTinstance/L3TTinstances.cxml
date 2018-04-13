@@ -27313,7 +27313,7 @@
           <String Value="Memoirs of a Geisha.Ekubo.English.SpanishAD" />
         </Facet>
         <Facet Name="Transcription">
-          <String Value="AD (female voice). De noche, Mameha le da una cajita.&#xD;&#xA;(Dialogue. Mameha: Ekubo. En el momento adecuado dáselo a Nobo, con discreción...)&#xD;&#xA;AD(female voice). Sayuri queda seria. Mameho le hace una seña. Con disimulo Sayuri saca el ekubo y bajo la mesa lo coloca en la pierna de Nobu.&#xD;&#xA;(...)&#xD;&#xA;(…)(Dialogue. Mameha: Y dale este al doctor Cangrejo.(the Word “Cangrejo” partially overlaps with the following AD unit).&#xD;&#xA;AD (female Voice). Le da el ekubo.&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;" />
+          <String Value="AD (female voice). De noche, Mameha le da una cajita.&#xD;&#xA;(Dubbed dialogue. Mameha: Ekubo. En el momento adecuado dáselo a Nobo, con discreción...)&#xD;&#xA;AD(female voice). Sayuri queda seria. Mameho le hace una seña. Con disimulo Sayuri saca el ekubo y bajo la mesa lo coloca en la pierna de Nobu.&#xD;&#xA;(...)&#xD;&#xA;(…)(Dubbed dialogue. Mameha: Y dale este al doctor Cangrejo.(the Word “Cangrejo” partially overlaps with the following AD unit).&#xD;&#xA;AD (female Voice). Le da el ekubo.&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;" />
         </Facet>
         <Facet Name="Tags">
           <String Value="gender" />
@@ -27326,7 +27326,7 @@
           <DateTime Value="2017-01-08T07:00:55" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-01-08T07:41:01" />
+          <DateTime Value="2018-04-13T03:47:14" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="evaespasa" />
@@ -27429,7 +27429,7 @@
           <String Value="Memoirs of a Geisha.Ekubo.English.SpanishDub" />
         </Facet>
         <Facet Name="Transcription">
-          <String Value="Ekubo. En el momento adecuado dáselo a Nobo, con discreción." />
+          <String Value="Ekubo. En el momento adecuado dáselo a Nobo, con discreción. Él sabrá lo que significa." />
         </Facet>
         <Facet Name="Tags">
           <String Value="gender" />
@@ -27439,7 +27439,7 @@
           <DateTime Value="2016-10-31T07:47:55" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-31T07:51:05" />
+          <DateTime Value="2018-04-13T04:14:17" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="evaespasa" />
@@ -27452,6 +27452,9 @@
         </Facet>
         <Facet Name="L3ST-instance Reference Id">
           <String Value="Memoirs of a Geisha.Ekubo.English" />
+        </Facet>
+        <Facet Name="Film Title TT">
+          <String Value="Memorias de una geisha" />
         </Facet>
         <Facet Name="L2 language">
           <String Value="Spanish" />
@@ -27487,10 +27490,13 @@
           <String Value="Spanish with individual Japanese words" />
         </Facet>
         <Facet Name="L3TT meant to be understood">
-          <String Value="YES, (almost) completely" />
+          <String Value="YES, the gist, the implications of what is happening" />
         </Facet>
         <Facet Name="L3TT message required for understanding">
           <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
         </Facet>
         <Facet Name="Quality of L3TT speaker performance">
           <String Value="native or proficient" />
@@ -27511,11 +27517,119 @@
           <String Value="Bilingual (L3&amp;main): same source " />
         </Facet>
         <Facet Name="L3 language type change">
-          <String Value="- Real" />
-          <String Value="+ L-main variety (e.g. dialect, sociolect, idiolect, slang)" />
+          <String Value="None" />
         </Facet>
         <Facet Name="L3 mode change">
           <String Value="None" />
+        </Facet>
+        <Facet Name="L3 functions change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="Conversation features for L3-instance change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 sources change">
+          <String Value="None" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Memoirs of a Geisha.Ekubo.English.SpanishSub" Name="Memoirs of a Geisha.Ekubo.English.SpanishSub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Memoirs of a Geisha&amp;conversation=Memoirs of a Geisha.Ekubo&amp;L3STinstance=Memoirs of a Geisha.Ekubo.English&amp;L3TTinstance=Memoirs of a Geisha.Ekubo.English.SpanishSub">
+      <Description>Mameha instructs Sayuri to give a sweet rice cake called Ekubo to an important man, without telling her why. The image of the Ekubo is shown on screen, not explained in the conversation.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Memoirs of a Geisha.Ekubo.English.SpanishSub" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="1.08.13. &#xD;&#xA;Ekubo.&#xD;&#xA;En el momento adecuado...&#xD;&#xA;1.08.15&#xD;&#xA;...dáselo discretamente a Nobu.&#xD;&#xA;1.08.20 &#xD;&#xA;Él sabrá lo que significa.&#xD;&#xA;" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="gender" />
+          <String Value=" visual L3" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2018-04-13T03:48:44" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2018-04-13T04:13:30" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="evaespasa" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Memoirs of a Geisha" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Memoirs of a Geisha.Ekubo" />
+        </Facet>
+        <Facet Name="L3ST-instance Reference Id">
+          <String Value="Memoirs of a Geisha.Ekubo.English" />
+        </Facet>
+        <Facet Name="Film Title TT">
+          <String Value="Memorias de una geisha" />
+        </Facet>
+        <Facet Name="L2 language">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L2 mode">
+          <String Value="Subtitled" />
+        </Facet>
+        <Facet Name="Distribution countries (TT)">
+          <String Value="Spain" />
+        </Facet>
+        <Facet Name="Year TT released">
+          <Number Value="2006" />
+        </Facet>
+        <Facet Name="Film TT Blockbuster">
+          <String Value="YES (top 20)" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="71" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="A. 1-20" />
+        </Facet>
+        <Facet Name="L2 same as L3ST">
+          <String Value="No" />
+        </Facet>
+        <Facet Name="L3ST conveyed as L3TT">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT language type">
+          <String Value="L-main variety (e.g. dialect, sociolect, idiolect, slang)" />
+        </Facet>
+        <Facet Name="L3TT language">
+          <String Value="Spanish with individual Japanese words" />
+        </Facet>
+        <Facet Name="L3TT meant to be understood">
+          <String Value="YES, the gist, the implications of what is happening" />
+        </Facet>
+        <Facet Name="L3TT message required for understanding">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3TT speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3TT mode, written/spoken, diegetic">
+          <String Value="Written diegetic" />
+        </Facet>
+        <Facet Name="L3TT functions">
+          <String Value="Theme" />
+        </Facet>
+        <Facet Name="Conversation features for L3TT-instance">
+          <String Value="in code" />
+        </Facet>
+        <Facet Name="L3TT sources">
+          <String Value="Bilingual (L3&amp;main): same source " />
+        </Facet>
+        <Facet Name="L3 language type change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 mode change">
+          <String Value="- Oral diegetic on-screen" />
+          <String Value="+ Written diegetic" />
         </Facet>
         <Facet Name="L3 functions change">
           <String Value="None" />
