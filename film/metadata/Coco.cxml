@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Madagascar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Coco" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film/Season title" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -24,46 +24,46 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Madagascar" Name="Madagascar" Img="https://i.pinimg.com/originals/98/d4/49/98d44971dcb5e5b129371e380ab75e4e.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Madagascar">
-      <Description>Spoiled by their upbringing and unaware of what wildlife really is, four animals from the New York Central Zoo escape, unwittingly assisted by four absconding penguins, and find themselves in Madagascar.</Description>
+    <Item Id="Coco" Name="Coco" Img="http://www.fotogramas.es/var/ezflow_site/storage/images/peliculas/coco/124332323-4-esl-ES/Coco.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Coco">
+      <Description>Aspiring musician Miguel, confronted with his family's ancestral ban on music, enters the Land of the Dead to find his great-great-grandfather, a legendary singer.</Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Madagascar" />
+          <String Value="Coco" />
         </Facet>
         <Facet Name="Tags">
           <String Value="children's film" />
         </Facet>
         <Facet Name="Remarks">
-          <String Value="L1+L3 (German), &quot;Sprechen Sie Englisch?&quot;&#xD;&#xA;L1+L3 (Spanish), &quot;Mi casa es su casa&quot;" />
+          <String Value="code-switching L1 English - L3 Spanish " />
         </Facet>
         <Facet Name="Info created">
-          <DateTime Value="2018-04-18T08:18:42" />
+          <DateTime Value="2018-04-18T09:24:30" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2018-04-18T09:28:59" />
+          <DateTime Value="2018-04-18T09:28:27" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="lorenahurtado-malillos" />
         </Facet>
         <Facet Name="Film/Season title">
-          <String Value="Madagascar" />
+          <String Value="Coco" />
         </Facet>
         <Facet Name="Type">
           <String Value="Feature film" />
         </Facet>
         <Facet Name="Director(s)">
-          <String Value="Eric Darnell" />
-          <String Value=" Tom McGrath" />
+          <String Value="Lee Unkrich" />
+          <String Value=" Adrian Molina " />
         </Facet>
         <Facet Name="Scriptwriter(s)">
-          <String Value="Mark Burton" />
-          <String Value=" Billy Frolick" />
+          <String Value="Lee Unkrich" />
+          <String Value=" Jason Katz " />
         </Facet>
         <Facet Name="Production countries">
           <String Value="USA" />
         </Facet>
         <Facet Name="Year ST released">
-          <Number Value="2005" />
+          <Number Value="2017" />
         </Facet>
         <Facet Name="Main language (L1)">
           <String Value="English" />

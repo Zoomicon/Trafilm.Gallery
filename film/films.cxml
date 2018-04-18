@@ -1452,6 +1452,55 @@ Based on the homonym novel by Philip K. Dick.</Description>
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Coco" Name="Coco" Img="http://www.fotogramas.es/var/ezflow_site/storage/images/peliculas/coco/124332323-4-esl-ES/Coco.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Coco">
+      <Description>Aspiring musician Miguel, confronted with his family's ancestral ban on music, enters the Land of the Dead to find his great-great-grandfather, a legendary singer.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Coco" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="children's film" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="code-switching L1 English - L3 Spanish " />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2018-04-18T09:24:30" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2018-04-18T09:28:27" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="lorenahurtado-malillos" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Coco" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Lee Unkrich" />
+          <String Value=" Adrian Molina " />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Lee Unkrich" />
+          <String Value=" Jason Katz " />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="USA" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2017" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Despicable me" Name="Despicable me" Img="https://upload.wikimedia.org/wikipedia/en/d/db/Despicable_Me_Poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Despicable me">
       <Description>In a happy suburban neighborhood surrounded by white picket fences with flowering rose bushes, sits a black house with a dead lawn. Unbeknownst to the neighbors, hidden beneath this home is a vast secret hideout. Surrounded by a small army of minions, we discover Gru, planning the biggest heist in the history of the world. He is going to steal the moon. Gru delights in all things wicked. Armed with his arsenal of shrink rays, freeze rays, and battle-ready vehicles for land and air, he vanquishes all who stand in his way. Until the day he encounters the immense will of three little orphaned girls who look at him and see something that no one else has ever seen: a potential Dad.</Description>
       <Facets>
@@ -2479,6 +2528,26 @@ Based on the homonym novel by Philip K. Dick.</Description>
         </Facet>
       </Facets>
     </Item>
+    <Item Id="i" Name="i" Img="" Href="">
+      <Description></Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="i" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2018-04-18T09:13:09" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2018-04-18T09:13:09" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="i" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Inglourious Basterds" Name="Inglourious Basterds" Img="https://furiousreviews.files.wordpress.com/2015/03/7736093674_2e8414a35c_o.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Inglourious Basterds">
       <Description>War film set in WWII about a Jewish-American comando, "The Basterds", on a mission to kill Nazis.</Description>
       <Facets>
@@ -2916,11 +2985,66 @@ Based on the homonym novel by Philip K. Dick.</Description>
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Madagascar III Europe's Most Wanted" Name="Madagascar III Europe's Most Wanted" Img="http://www.filmequals.com/wp-content/uploads/2012/05/MAD3-KeyArt-1.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Madagascar III Europe's Most Wanted">
+      <Description>Alex, Marty, Gloria and Melman are still fighting to get home to their beloved Big Apple. Their journey takes them through Europe where they find the perfect cover: a traveling circus, which they reinvent - Madagascar style.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Madagascar III Europe's Most Wanted" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="children's film" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="seal Stefano L3 italian recreated in english&#xD;&#xA;police inspector L3 french recreated in english&#xD;&#xA;penguin L3 spanish (-Tenemos un grande problema;-¿Qué grande problema?)&#xD;&#xA;" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2018-04-18T09:13:56" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2018-04-18T09:23:46" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="lorenahurtado-malillos" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Madagascar III Europe's Most Wanted" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Series">
+          <String Value="Madagascar" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value=" Eric Darnell" />
+          <String Value=" Tom McGrath" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value=" Eric Darnell" />
+          <String Value=" Noah Baumbach " />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="USA" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2012" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Madagascar" Name="Madagascar" Img="https://i.pinimg.com/originals/98/d4/49/98d44971dcb5e5b129371e380ab75e4e.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Madagascar">
       <Description>Spoiled by their upbringing and unaware of what wildlife really is, four animals from the New York Central Zoo escape, unwittingly assisted by four absconding penguins, and find themselves in Madagascar.</Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="Madagascar" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="children's film" />
         </Facet>
         <Facet Name="Remarks">
           <String Value="L1+L3 (German), &quot;Sprechen Sie Englisch?&quot;&#xD;&#xA;L1+L3 (Spanish), &quot;Mi casa es su casa&quot;" />
@@ -2929,7 +3053,7 @@ Based on the homonym novel by Philip K. Dick.</Description>
           <DateTime Value="2018-04-18T08:18:42" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2018-04-18T08:25:46" />
+          <DateTime Value="2018-04-18T09:28:59" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="lorenahurtado-malillos" />
