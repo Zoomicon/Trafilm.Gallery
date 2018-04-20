@@ -1,7 +1,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: default.html
-Version: 20180420
+Version: 20180421
 -->
 
 <html> <!-- do not use DOCTYPE statement -->
@@ -44,8 +44,16 @@ Version: 20180420
     pivotL3TTinstances = document.getElementById("frameL3TTinstances").contentDocument.getElementsByClassName("pivot_ajax_viewer")[0].pivotViewer;
     
     pivotFilms.addListener("finishedRearrange", function () {
-      console.log("films " + pivotFilms.activeItems);
+      var activeItems = pivotFilms.runFiltersWithout(null);
+      //activeItems.forEach(function (item) { console.log(item.id); });
+      pivotConversations.trigger("filterrequest", {
+                    facet: "Film/Season title",
+                    values: activeItems.each(function (item) {return item.id}),
+                    type: "string"
+                });
     });
+    
+    
   });
   </script>
 

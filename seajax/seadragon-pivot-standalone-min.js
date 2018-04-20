@@ -14143,11 +14143,10 @@ var PivotViewer = Pivot.PivotViewer = function (canvas, container, frontLayer, b
     /**
      * Get active items (can examine them at "finishedRearrange" event handler).
      * @method getActiveItems
-     * @return {array} the active items (All items filtered in)
+     * @return {array} the active items (all items filtered in)
      */
     this.getActiveItems = function() {
-      return activeItems;
-      //return runFiltersWithout(null);
+      return activeItemsArr; //runFiltersWithout(null);
     }
 
     /**
