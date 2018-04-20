@@ -448,11 +448,11 @@
           <DateTime Value="2017-01-11T03:40:32" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-01-26T01:09:30" />
+          <DateTime Value="2017-11-29T12:50:48" />
         </Facet>
         <Facet Name="Metadata Editors">
-          <String Value="George" />
           <String Value="Guillermo" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="A Scanner Darkly" />
@@ -520,10 +520,11 @@
           <DateTime Value="2017-01-11T03:40:32" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-01-26T01:09:11" />
+          <DateTime Value="2017-11-29T12:53:29" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Guillermo" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="A Scanner Darkly" />
@@ -597,10 +598,11 @@
           <DateTime Value="2017-01-11T03:40:32" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-01-26T01:09:20" />
+          <DateTime Value="2017-11-29T12:53:34" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Guillermo" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="A Scanner Darkly" />
@@ -2061,6 +2063,85 @@
         </Facet>
         <Facet Name="L3TT-instances: count">
           <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Bad Boys II.Captain.DIS" Name="Captain" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Bad Boys II&amp;conversation=Bad Boys II.Captain&amp;L3STinstance=Bad Boys II.Captain.DIS">
+      <Description>Sound interjection</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Bad Boys II.Captain.DIS" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="DIS" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-12-01T12:55:07" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-12-01T01:30:19" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Guillermo" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Bad Boys II" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Bad Boys II.Captain" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="102" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="D. 61-80" />
+        </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L3ST language type">
+          <String Value="Conditioned: slurred, stammer, muffled, mumble, rapid" />
+        </Facet>
+        <Facet Name="L3ST language">
+          <String Value="DIS" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="YES, (almost) completely" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Conversation can be followed regardless of meaning" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3ST speaker performance">
+          <String Value="clearly deficient or farcical" />
+        </Facet>
+        <Facet Name="L3ST mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3ST merely represented">
+          <String Value="YES: orally" />
+          <String Value="YES: visually" />
+        </Facet>
+        <Facet Name="L3ST merely represented orally">
+          <String Value="Farcical L-main" />
+        </Facet>
+        <Facet Name="L3ST represented: visual">
+          <String Value="Gesture (movement / body language)" />
+        </Facet>
+        <Facet Name="L3ST functions">
+          <String Value="Comedy / humour" />
+        </Facet>
+        <Facet Name="Conversation features for L3ST-instance">
+          <String Value="embarassing" />
+          <String Value="salutation" />
+        </Facet>
+        <Facet Name="L3ST sources">
+          <String Value="Oral L3: single source" />
+        </Facet>
+        <Facet Name="L3TT-instances: count">
+          <Number Value="2" />
         </Facet>
       </Facets>
     </Item>
@@ -9345,7 +9426,7 @@ The episode opens up with Wes Wrench and his associate and translator Grady Numb
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Friends - Season 01.Paolo and Phoebe.Paolo speaking Italian to Phoebe" Name="Paolo and Phoebe" Img="https://vignette4.wikia.nocookie.net/friends/images/4/4c/TOWTDozenLasagnas.png/revision/latest?cb=20080925104201" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Friends - Season 01&amp;conversation=Friends - Season 01.Paolo and Phoebe&amp;L3STinstance=Friends - Season 01.Paolo and Phoebe.Paolo speaking Italian to Phoebe">
+    <Item Id="Friends - Season 01.Paolo and Phoebe.Paolo speaking Italian to Phoebe" Name="Paolo and Phoebe" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Friends - Season 01&amp;conversation=Friends - Season 01.Paolo and Phoebe&amp;L3STinstance=Friends - Season 01.Paolo and Phoebe.Paolo speaking Italian to Phoebe">
       <Description>Paolo asks Phoebe for a massage, but suddenly he crosses the line...</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -9358,10 +9439,11 @@ The episode opens up with Wes Wrench and his associate and translator Grady Numb
           <DateTime Value="2017-06-26T09:06:10" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-06-26T09:17:49" />
+          <DateTime Value="2017-11-28T02:13:59" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="IreneRanzato" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Friends - Season 01" />
@@ -14719,6 +14801,80 @@ The episode opens up with Wes Wrench and his associate and translator Grady Numb
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Leaving Las Vegas.Tape recorder.DIS" Name="Tape recorder" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Leaving Las Vegas&amp;conversation=Leaving Las Vegas.Tape recorder&amp;L3STinstance=Leaving Las Vegas.Tape recorder.DIS">
+      <Description>Consonant sound elongation (the*n*, tha*t*...).</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Leaving Las Vegas.Tape recorder.DIS" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2017-11-30T11:43:54" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2017-12-01T12:14:56" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Guillermo" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Leaving Las Vegas" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Leaving Las Vegas.Tape recorder" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="12" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="C. 41-60" />
+        </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L3ST language type">
+          <String Value="Conditioned: slurred, stammer, muffled, mumble, rapid" />
+        </Facet>
+        <Facet Name="L3ST language">
+          <String Value="DIS" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="YES, (almost) completely" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3ST speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3ST mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3ST merely represented">
+          <String Value="YES: orally" />
+        </Facet>
+        <Facet Name="L3ST merely represented orally">
+          <String Value="L-main quirkiness or clue" />
+        </Facet>
+        <Facet Name="L3ST functions">
+          <String Value="Character portrayal" />
+        </Facet>
+        <Facet Name="Conversation features for L3ST-instance">
+          <String Value="monologue" />
+          <String Value="sex" />
+          <String Value="taboo" />
+          <String Value="vulgar" />
+        </Facet>
+        <Facet Name="L3ST sources">
+          <String Value="Oral L3: single source" />
+        </Facet>
+        <Facet Name="L3TT-instances: count">
+          <Number Value="1" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Lolita.Quilty disguised as Dr Zemph questioning.non-native grammar stereotype of German" Name="Quilty disguised as Dr Zemph questioning" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Lolita&amp;conversation=Lolita.Quilty disguised as Dr Zemph questioning&amp;L3STinstance=Lolita.Quilty disguised as Dr Zemph questioning.non-native grammar stereotype of German">
       <Description>Quilty (as Zemph) questions Humbert about Lolita</Description>
       <Facets>
@@ -15488,7 +15644,7 @@ The episode opens up with Wes Wrench and his associate and translator Grady Numb
           <String Value="Memoirs of a Geisha.Ekubo.English" />
         </Facet>
         <Facet Name="Transcription">
-          <String Value="Ekubo. At the right moment slip it to Nobu – discreetly.&#xD;&#xA;" />
+          <String Value="Ekubo. At the right moment slip it to Nobu – discreetly. He will know what it means.&#xD;&#xA;" />
         </Facet>
         <Facet Name="Tags">
           <String Value="gender" />
@@ -15501,7 +15657,7 @@ The episode opens up with Wes Wrench and his associate and translator Grady Numb
           <DateTime Value="2016-10-31T07:42:21" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-31T07:47:29" />
+          <DateTime Value="2018-04-13T04:07:23" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="evaespasa" />
@@ -15522,7 +15678,7 @@ The episode opens up with Wes Wrench and his associate and translator Grady Numb
           <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
-          <String Value="Real" />
+          <String Value="L-main variety (e.g. dialect, sociolect, idiolect, slang)" />
         </Facet>
         <Facet Name="L3ST language">
           <String Value="English with Japanese accent and invididual Japanese words" />
@@ -15555,7 +15711,7 @@ The episode opens up with Wes Wrench and his associate and translator Grady Numb
           <String Value="Bilingual (L3&amp;main): same source " />
         </Facet>
         <Facet Name="L3TT-instances: count">
-          <Number Value="0" />
+          <Number Value="3" />
         </Facet>
       </Facets>
     </Item>
@@ -17486,7 +17642,7 @@ The episode opens up with Wes Wrench and his associate and translator Grady Numb
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Monsoon Wedding.Conversation in the garden on the phone.Hindi" Name="Conversation in the garden on the phone - Hindi" Img="../L3STinstance/image/Monsoon Wedding.Conversation in the garden on the phone.Hindi.png" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Monsoon Wedding&amp;conversation=Monsoon Wedding.Conversation in the garden on the phone&amp;L3STinstance=Monsoon Wedding.Conversation in the garden on the phone.Hindi">
+    <Item Id="Monsoon Wedding.Conversation in the garden on the phone.Hindi" Name="Conversation in the garden on the phone - Hindi" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Monsoon Wedding&amp;conversation=Monsoon Wedding.Conversation in the garden on the phone&amp;L3STinstance=Monsoon Wedding.Conversation in the garden on the phone.Hindi">
       <Description>The father talks on the phone in Hindi. He is outside in the garden. 
 </Description>
       <Facets>
@@ -17500,11 +17656,11 @@ The episode opens up with Wes Wrench and his associate and translator Grady Numb
           <DateTime Value="2016-06-08T01:34:20" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-12-27T08:17:55" />
+          <DateTime Value="2017-11-28T02:25:15" />
         </Facet>
         <Facet Name="Metadata Editors">
-          <String Value="George" />
           <String Value="Santamaria" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Monsoon Wedding" />

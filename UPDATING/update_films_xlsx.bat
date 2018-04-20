@@ -18,7 +18,7 @@ ECHO.
 
 ECHO ---- Generating .xlsx file for collection at temp folder
 cd ..\%SOURCE%
-%PAUTHOR% /source cxml %COLLECTION%.cxml /target excel ..\TMP\%COLLECTION%_XLSX\%COLLECTION%.xlsx && (goto OK) || (goto Fail)
+%PAUTHOR% /source cxml %COLLECTION%.cxml /html-template template.html /target excel ..\TMP\%COLLECTION%_XLSX\%COLLECTION%.xlsx && (goto OK) || (goto Fail)
 
 :: control flow should never reach this, but manually terminating (jumping to implicit end-of-file marker) just in case
 goto :EOF

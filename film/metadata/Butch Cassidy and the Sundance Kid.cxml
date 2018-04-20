@@ -24,7 +24,7 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Butch Cassidy and the Sundance Kid" Name="Butch Cassidy and the Sundance Kid" Img="https://images-na.ssl-images-amazon.com/images/M/MV5BMTkyMTM2NDk5Nl5BMl5BanBnXkFtZTgwNzY1NzEyMDE@._V1_.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Butch Cassidy and the Sundance Kid">
+    <Item Id="Butch Cassidy and the Sundance Kid" Name="Butch Cassidy and the Sundance Kid" Img="https://upload.wikimedia.org/wikipedia/en/f/fd/Butch_sundance_poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Butch Cassidy and the Sundance Kid">
       <Description>The story is about two outlaws (Butch Cassidy and the Sundance Kid) who are members of the Hole-in-the-Wall gang. Butch is smart and Sundance is all action and skill. At the beginning of the film they rob banks but as the Wild West is becoming more and more tame they decide to rob trains and they try with th "Union Pacific". The first robbery goes well but the second goes wrong because apart from using to much dynamite another train arrives. The two outlaws are then pursued and so they decide to leave the country. Etta (Sundance's girlfriend) joins them and they make their way to Bolivia where they try to rob banks again, but in this case there's an added difficulty: they don't speak Spanish.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -39,10 +39,11 @@
           <DateTime Value="2016-11-20T06:58:48" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-11-20T07:46:30" />
+          <DateTime Value="2017-11-28T03:05:18" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="corrius" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Butch Cassidy and the Sundance Kid" />

@@ -34,10 +34,11 @@
           <DateTime Value="2016-12-20T09:35:48" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-12-20T09:39:16" />
+          <DateTime Value="2017-11-28T03:10:29" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Guillermo" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Hôkago Midnighters" />
@@ -71,8 +72,12 @@
         <Facet Name="Main language (L1)">
           <String Value="Japanese" />
         </Facet>
+        <Facet Name="L2-Subtitled languages">
+          <String Value="Catalan" />
+          <String Value="English" />
+        </Facet>
         <Facet Name="Conversations: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>

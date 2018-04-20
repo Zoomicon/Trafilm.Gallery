@@ -30,7 +30,7 @@
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Friends - Season 01.Paolo and Phoebe.Paolo speaking Italian to Phoebe" Name="Paolo and Phoebe" Img="https://vignette4.wikia.nocookie.net/friends/images/4/4c/TOWTDozenLasagnas.png/revision/latest?cb=20080925104201" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Friends - Season 01&amp;conversation=Friends - Season 01.Paolo and Phoebe&amp;L3STinstance=Friends - Season 01.Paolo and Phoebe.Paolo speaking Italian to Phoebe">
+    <Item Id="Friends - Season 01.Paolo and Phoebe.Paolo speaking Italian to Phoebe" Name="Paolo and Phoebe" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Friends - Season 01&amp;conversation=Friends - Season 01.Paolo and Phoebe&amp;L3STinstance=Friends - Season 01.Paolo and Phoebe.Paolo speaking Italian to Phoebe">
       <Description>Paolo asks Phoebe for a massage, but suddenly he crosses the line...</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -43,10 +43,11 @@
           <DateTime Value="2017-06-26T09:06:10" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-06-26T09:17:49" />
+          <DateTime Value="2017-11-28T02:13:59" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="IreneRanzato" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Friends - Season 01" />

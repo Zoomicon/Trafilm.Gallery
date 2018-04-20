@@ -1,7 +1,7 @@
 ﻿/*
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: metadata.css
-Version: 20170316
+Version: 20171130
 */
 
 div {
@@ -45,6 +45,12 @@ a {
   text-decoration: underline;
 }
 
+.navigation .guide {
+  padding-top: 0.4em;
+  float: right;
+  color: khaki;
+}
+
 /* --------------------------- */
 
 .status {
@@ -59,7 +65,7 @@ a {
 .instructions {
   border-style: dotted;
   border-width: 2px;
-  background-color: yellow;
+  background-color: khaki;
   padding: 5px;
 }
 
@@ -140,9 +146,34 @@ a {
   font-weight: bold;
 }
 
+/* --------------------------- */
+
 .tip {
   font-style: italic;
   text-align: justify;
   color: grey;
   margin-top: 0px;
+}
+
+/* --------------------------- */
+
+.help {
+  display: none;
+}
+
+.help:hover {
+  display: block;
+}
+
+.openhelp {
+  text-decoration: none;
+  color: darkkhaki;
+}
+
+.question:target .help {
+  display: block;
+}
+
+.openhelp:hover + .help {
+  display: block;
 }

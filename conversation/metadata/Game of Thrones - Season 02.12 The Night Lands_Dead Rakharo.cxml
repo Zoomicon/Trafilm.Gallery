@@ -31,10 +31,11 @@
           <DateTime Value="2016-12-02T10:08:24" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-12-02T10:16:36" />
+          <DateTime Value="2017-11-29T01:11:03" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="SIberg" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Game of Thrones - Season 02" />
@@ -52,13 +53,19 @@
           <String Value="C. 41-60" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Dothraki" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Constructed (fictional)" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>

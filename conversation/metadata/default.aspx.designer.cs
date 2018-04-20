@@ -67,6 +67,15 @@ namespace Trafilm.Gallery {
         protected global::System.Web.UI.WebControls.LoginStatus loginStatus;
         
         /// <summary>
+        /// panelInstructions control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel panelInstructions;
+        
+        /// <summary>
         /// listFilms control.
         /// </summary>
         /// <remarks>
@@ -211,40 +220,40 @@ namespace Trafilm.Gallery {
         protected global::System.Web.UI.WebControls.DropDownList listDuration;
         
         /// <summary>
-        /// lblL3languagesCount control.
+        /// lblL3STlanguagesCount control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblL3languagesCount;
+        protected global::System.Web.UI.WebControls.Label lblL3STlanguagesCount;
         
         /// <summary>
-        /// listL3languages control.
+        /// listL3STlanguages control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ListBox listL3languages;
+        protected global::System.Web.UI.WebControls.ListBox listL3STlanguages;
         
         /// <summary>
-        /// lblL3languageTypesCount control.
+        /// lblL3STlanguageTypesCount control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblL3languageTypesCount;
+        protected global::System.Web.UI.WebControls.Label lblL3STlanguageTypesCount;
         
         /// <summary>
-        /// listL3languageTypes control.
+        /// listL3STlanguageTypes control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ListBox listL3languageTypes;
+        protected global::System.Web.UI.WebControls.ListBox listL3STlanguageTypes;
         
         /// <summary>
         /// txtTags control.

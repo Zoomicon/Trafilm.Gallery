@@ -34,9 +34,9 @@
     <FacetCategory Name="L3 functions change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Conversation features for L3-instance change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3 sources change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Tags" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -49,7 +49,7 @@
           <String Value="Memoirs of a Geisha.Ekubo.English.SpanishDub" />
         </Facet>
         <Facet Name="Transcription">
-          <String Value="Ekubo. En el momento adecuado dáselo a Nobo, con discreción." />
+          <String Value="Ekubo. En el momento adecuado dáselo a Nobo, con discreción. Él sabrá lo que significa." />
         </Facet>
         <Facet Name="Tags">
           <String Value="gender" />
@@ -59,7 +59,7 @@
           <DateTime Value="2016-10-31T07:47:55" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-31T07:51:05" />
+          <DateTime Value="2018-04-13T04:14:17" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="evaespasa" />
@@ -72,6 +72,9 @@
         </Facet>
         <Facet Name="L3ST-instance Reference Id">
           <String Value="Memoirs of a Geisha.Ekubo.English" />
+        </Facet>
+        <Facet Name="Film Title TT">
+          <String Value="Memorias de una geisha" />
         </Facet>
         <Facet Name="L2 language">
           <String Value="Spanish" />
@@ -107,10 +110,13 @@
           <String Value="Spanish with individual Japanese words" />
         </Facet>
         <Facet Name="L3TT meant to be understood">
-          <String Value="YES, (almost) completely" />
+          <String Value="YES, the gist, the implications of what is happening" />
         </Facet>
         <Facet Name="L3TT message required for understanding">
           <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
         </Facet>
         <Facet Name="Quality of L3TT speaker performance">
           <String Value="native or proficient" />
@@ -131,8 +137,7 @@
           <String Value="Bilingual (L3&amp;main): same source " />
         </Facet>
         <Facet Name="L3 language type change">
-          <String Value="- Real" />
-          <String Value="+ L-main variety (e.g. dialect, sociolect, idiolect, slang)" />
+          <String Value="None" />
         </Facet>
         <Facet Name="L3 mode change">
           <String Value="None" />

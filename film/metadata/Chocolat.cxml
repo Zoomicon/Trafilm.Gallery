@@ -38,10 +38,11 @@
           <DateTime Value="2016-12-30T06:26:03" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-12-30T06:56:36" />
+          <DateTime Value="2017-11-28T03:06:36" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="corrius" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Chocolat" />
@@ -72,8 +73,11 @@
         <Facet Name="Main language (L1)">
           <String Value="English" />
         </Facet>
+        <Facet Name="L2-Dubbed languages">
+          <String Value="Spanish" />
+        </Facet>
         <Facet Name="Conversations: count">
-          <Number Value="0" />
+          <Number Value="12" />
         </Facet>
       </Facets>
     </Item>

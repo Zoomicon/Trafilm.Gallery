@@ -38,10 +38,11 @@ At the same time Mathis is on the phone</Description>
           <DateTime Value="2017-01-11T07:09:40" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-01-11T08:49:08" />
+          <DateTime Value="2017-11-29T01:23:29" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Santamaria" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Quantum of Solace" />
@@ -56,13 +57,19 @@ At the same time Mathis is on the phone</Description>
           <String Value="B. 21-40" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="Spanish" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>

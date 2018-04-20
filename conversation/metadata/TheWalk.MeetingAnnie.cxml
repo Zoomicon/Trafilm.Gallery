@@ -31,11 +31,11 @@
           <DateTime Value="2016-05-31T10:48:12" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-12-03T11:33:31" />
+          <DateTime Value="2017-11-29T01:33:31" />
         </Facet>
         <Facet Name="Metadata Editors">
-          <String Value="George" />
           <String Value="Guillermo" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="TheWalk" />
@@ -50,13 +50,21 @@
           <String Value="E. 81-100" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="0" />
+          <Number Value="2" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="French" />
+          <String Value="English US Southern Texas" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="0" />
+          <Number Value="2" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
+          <String Value="L-main variety (e.g. dialect, sociolect, idiolect, slang)" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="0" />
+          <Number Value="3" />
         </Facet>
       </Facets>
     </Item>
