@@ -30,23 +30,35 @@ Version: 20161025
     padding:0;
   }
   </style>
+  
+  <script type="text/javascript">
+  
+  var pivotFilms, pivotConversations, pivotL3STinstances, pivotL3TTinstances;
+  
+  addEventListener("load", function () {
+    pivotFilms = frameFilms.document.getElementsByClassName("pivot_ajax_viewer")[0].pivotViewer;
+    pivotConversations = frameFilms.document.getElementsByClassName("pivot_ajax_viewer")[0].pivotViewer;
+    pivotL3STinstances = frameFilms.document.getElementsByClassName("pivot_ajax_viewer")[0].pivotViewer;
+    pivotL3TTinstances = frameFilms.document.getElementsByClassName("pivot_ajax_viewer")[0].pivotViewer;
+  }
+  </script>
 
 </head>
 
 <body>
-  <iframe src="http://gallery.trafilm.net/film">
+  <iframe id="frameFilms" src="http://gallery.trafilm.net/film">
     <a href="http://gallery.trafilm.net/film">Trafilm Gallery | Films</a>
   </iframe>
 
-  <iframe src="http://gallery.trafilm.net/conversation">
+  <iframe id="frameConversations" src="http://gallery.trafilm.net/conversation">
     <a href="http://gallery.trafilm.net/conversation">Trafilm Gallery | Conversations</a>
   </iframe>
 
-  <iframe src="http://gallery.trafilm.net/L3STinstance">
+  <iframe id="frameL3STinstances" src="http://gallery.trafilm.net/L3STinstance">
     <a href="http://gallery.trafilm.net/L3STinstance">Trafilm Gallery | L3ST-instances</a>
   </iframe>
 
-  <iframe src="http://gallery.trafilm.net/L3TTinstance">
+  <iframe id="frameL3TTinstances" src="http://gallery.trafilm.net/L3TTinstance">
     <a href="http://gallery.trafilm.net/L3TTinstance">Trafilm Gallery | L3TT-instances</a>
   </iframe>
 </body>

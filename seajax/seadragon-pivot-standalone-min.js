@@ -13329,7 +13329,7 @@ var PivotViewer = Pivot.PivotViewer = function (canvas, container, frontLayer, b
                     onClick(undefined, 0, undefined, true);
                 }
             }
-            if (e.preventDefault) {
+            if (e.preventDefault) { //TODO: see SDEvent_cancel, also handles legacy & IE ways to do this
                 e.preventDefault();
             }
         }
@@ -15592,7 +15592,7 @@ var Pivot_init = Pivot.init = function (div, useHash) {
         searchForm = makeElement("form", null, filterPane);
         searchForm.onsubmit = function (e) {
             onSearch();
-            e.preventDefault();
+            e.preventDefault(); //TODO: see SDEvent_cancel, also handles legacy & IE ways to do this (else should at least use "if (event.preventDefault)")
         };
         searchBox = makeElement("input", "pivot_searchbox", searchForm);
         searchBox.type = "text";
