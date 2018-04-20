@@ -14582,7 +14582,7 @@ var Pivot_init = Pivot.init = function (div, useHash) {
     }
 
     // check whether the browser supports canvas
-    if (!makeElement("canvas").getContext) {
+    if (!makeElement("canvas").getContext) { //TODO: is Canvas required for Pivot only? For the DeepZoom imaging the code has non-Canvas support too I think
         addText(div, "Your browser doesn't support canvas! Get a better one.");
         return;
     }
@@ -14757,7 +14757,7 @@ var Pivot_init = Pivot.init = function (div, useHash) {
                             facetValDiv.onclick = function () {
                                 onClearAll(true);
                                 resetFilter(facet, values, type);
-                                refreshFilterPane();
+                                refreshFilterPane(); //TODO: check if "refreshFilterPane()" should be called after "viewer.filter()" like in the rest of the code
                                 viewer.filter();
                             };
                         }());
@@ -15207,7 +15207,7 @@ var Pivot_init = Pivot.init = function (div, useHash) {
         resetFilter(e.target.parentNode.name);
         viewer.filter();
         refreshFilterPane();
-        e.stopPropagation();
+        e.stopPropagation(); //TODO: SDEvent_stop has code to stop propagation IE using cancelBubble instead of stopPropagation. Is this applicable here too?
     }
 
     // From the Viewer's perspective, any filter is just a function that can be applied
@@ -15327,7 +15327,7 @@ var Pivot_init = Pivot.init = function (div, useHash) {
     // build a filter for the current contents of the search box,
     // and apply it in the viewer.
     function onSearch() {
-        var wasActive = !!activeSearch;
+        var wasActive = !!activeSearch; //TODO: what does !! do?
         activeSearch = searchBox.value;
         if (!wasActive) {
             viewer.addFilter(searchFilter);
