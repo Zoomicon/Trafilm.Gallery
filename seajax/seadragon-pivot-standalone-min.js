@@ -14139,6 +14139,16 @@ var PivotViewer = Pivot.PivotViewer = function (canvas, container, frontLayer, b
 
         self.filter();
     };
+    
+    /**
+     * Get active items (can examine them at "finishedRearrange" event handler).
+     * @method getActiveItems
+     * @return {array} the active items (All items filtered in)
+     */
+    this.getActiveItems = function() {
+      return activeItems;
+      //return runFiltersWithout(null);
+    }
 
     /**
      * Look up an item by its unique identifier.

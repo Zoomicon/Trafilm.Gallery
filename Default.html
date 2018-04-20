@@ -1,7 +1,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: default.html
-Version: 20161025
+Version: 20180420
 -->
 
 <html> <!-- do not use DOCTYPE statement -->
@@ -9,6 +9,8 @@ Version: 20161025
 <head>
   <title>Trafilm Gallery | The Translation of Multilingual Films in Spain</title>
 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=700, user-scalable=yes, initial-scale=0.6" />
 
   <link rel="shortcut icon" type="image/ico" href='/favicon.ico' />
@@ -33,14 +35,18 @@ Version: 20161025
   
   <script type="text/javascript">
   
-  var pivotFilms, pivotConversations, pivotL3STinstances, pivotL3TTinstances;
+  var pivotFilms, pivotConversations, pivotL3STinstances, pivotL3TTinstances; 
   
   addEventListener("load", function () {
-    pivotFilms = frameFilms.document.getElementsByClassName("pivot_ajax_viewer")[0].pivotViewer;
-    pivotConversations = frameFilms.document.getElementsByClassName("pivot_ajax_viewer")[0].pivotViewer;
-    pivotL3STinstances = frameFilms.document.getElementsByClassName("pivot_ajax_viewer")[0].pivotViewer;
-    pivotL3TTinstances = frameFilms.document.getElementsByClassName("pivot_ajax_viewer")[0].pivotViewer;
-  }
+    pivotFilms = document.getElementById("frameFilms").contentDocument.getElementsByClassName("pivot_ajax_viewer")[0].pivotViewer;
+    pivotConversations = document.getElementById("frameConversations").contentDocument.getElementsByClassName("pivot_ajax_viewer")[0].pivotViewer;
+    pivotL3STinstances = document.getElementById("frameL3STinstances").contentDocument.getElementsByClassName("pivot_ajax_viewer")[0].pivotViewer;
+    pivotL3TTinstances = document.getElementById("frameL3TTinstances").contentDocument.getElementsByClassName("pivot_ajax_viewer")[0].pivotViewer;
+    
+    pivotFilms.addListener("finishedRearrange", function () {
+      console.log("films " + pivotFilms.activeItems);
+    });
+  });
   </script>
 
 </head>
