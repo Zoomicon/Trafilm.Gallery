@@ -14193,7 +14193,7 @@ var PivotViewer = Pivot.PivotViewer = function (canvas, container, frontLayer, b
      */
     this.runFiltersWithout = function (filter) {
         this.removeFilter(filter);
-        var result = items.filter(function (item) {
+        var result = items.filter(function (item) { //according to https://stackoverflow.com/questions/4990175/array-select-in-javascript (points to https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) it may not be implemented in all browsers and may need to be defined (see answer from xinghua at SO) 
             return filters.every(function (filter2) {
                 return filter2(item);
             });
