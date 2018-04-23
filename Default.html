@@ -43,26 +43,32 @@ Version: 20180423
     pivotL3STinstances = document.getElementById("frameL3STinstances").contentDocument.getElementsByClassName("pivot_ajax_viewer")[0].pivotViewer;
     pivotL3TTinstances = document.getElementById("frameL3TTinstances").contentDocument.getElementsByClassName("pivot_ajax_viewer")[0].pivotViewer;
     
-    var helper = function(parentPivot, parentFacet, childPivot, childParentFacet) {
-      parentPivot.addListener("finishedRearrange", function () {
-        var activeItems = parentPivot.getActiveItems(); //runFiltersWithout(null); //TODO: without getActiveItems can use official seajax distro
-        
-        var activeValues = activeItems.map(function (item) { return (!parentFacet)?item.id:item.facets[parentFacet][0] });
-        if (activeValues.length===1) activeValues.push(activeValues[0]); //workarround for filterrequest's special handling of length===1
-        
-        /**/activeValues.forEach(function (value) { console.log(value); });
+    var bind = function(parentPivot, parentFacet, childPivot, childParentFacet) {
+      var bindOneWay = function(parentPivot, parentFacet, childPivot, childParentFacet) {
+        parentPivot.addListener("finishedRearrange", function () {
+          var activeItems = parentPivot.getActiveItems(); //runFiltersWithout(null); //TODO: without getActiveItems can use official seajax distro
+          
+          var activeValues = activeItems.map(function (item) { return (!parentFacet)?item.id:item.facets[parentFacet][0] });
+          if (activeValues.length===1) activeValues.push(activeValues[0]); //workarround for filterrequest's special handling of length===1
+          
+          //activeValues.forEach(function (value) { console.log(value); });
 
-        childPivot.trigger("filterrequest", {
-                      facet: childParentFacet,
-                      values: activeValues,
-                      type: "String"
+          childPivot.trigger("filterrequest", {
+                        facet: childParentFacet,
+                        values: activeValues,
+                        type: "String"
+          });
         });
-      });
-    };
+      };
         
-    helper(pivotFilms, /*"Reference Id"*/ "Film/Season title", pivotConversations, /*"Film Reference Id"*/ "Film/Season title");
-    helper(pivotConversations, "Reference Id", pivotL3STinstances, "Conversation Reference Id");
-    helper(pivotL3STinstances, "Reference Id", pivotL3TTinstances, "L3ST-instance Reference Id");   
+      bindOneWay(parentPivot, parentFacet, childPivot, childParentFacet); //propagate from parent to child
+      //bindOneWay(childPivot, childParentFacet, parentPivot, parentFacet); //propagate from child to parent
+    };
+     
+    //propagate pivot active items change
+    bind(pivotFilms, /*"Reference Id"*/ "Film/Season title", pivotConversations, /*"Film Reference Id"*/ "Film/Season title"); //TODO: fix Trafilm.Metadata to have Reference Id and "Film Reference Id" filterable
+    bind(pivotConversations, "Reference Id", pivotL3STinstances, "Conversation Reference Id");
+    bind(pivotL3STinstances, "Reference Id", pivotL3TTinstances, "L3ST-instance Reference Id");   
   });
   </script>
 
