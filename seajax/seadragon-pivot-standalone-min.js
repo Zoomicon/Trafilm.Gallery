@@ -14146,7 +14146,7 @@ var PivotViewer = Pivot.PivotViewer = function (canvas, container, frontLayer, b
      * @return {array} the active items (all items filtered in)
      */
     this.getActiveItems = function() {
-      return activeItemsArr; //runFiltersWithout(null);
+      return activeItemsArr; //could else return a copy of the array or even use runFiltersWithout(null)
     }
 
     /**
