@@ -62,11 +62,11 @@ Version: 20180423
       };
         
       bindOneWay(parentPivot, parentFacet, childPivot, childParentFacet); //propagate from parent to child
-      //bindOneWay(childPivot, childParentFacet, parentPivot, parentFacet); //propagate from child to parent
+      //bindOneWay(childPivot, childParentFacet, parentPivot, parentFacet); //propagate from child to parent //TODO: fix, seems to loop (could check at "filterRequest" if items differes from activeItems to propagate further via "filterrrequest"
     };
      
     //propagate pivot active items change
-    bind(pivotFilms, /*"Reference Id"*/ "Film/Season title", pivotConversations, /*"Film Reference Id"*/ "Film/Season title"); //TODO: fix Trafilm.Metadata to have Reference Id and "Film Reference Id" filterable
+    bind(pivotFilms, "Reference Id", pivotConversations, "Film Reference Id");
     bind(pivotConversations, "Reference Id", pivotL3STinstances, "Conversation Reference Id");
     bind(pivotL3STinstances, "Reference Id", pivotL3TTinstances, "L3ST-instance Reference Id");   
   });
