@@ -1,8 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Collection SchemaVersion="1.0" Name="Barry mocks Freck" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
-    <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="False" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Film/Season title" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Season episode name" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Start time (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
@@ -19,6 +17,8 @@
     <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
     <Item Id="A Scanner Darkly.Barry Mocks Freck" Name="Barry mocks Freck" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=A Scanner Darkly&amp;conversation=A Scanner Darkly.Barry Mocks Freck">
@@ -34,14 +34,11 @@
           <DateTime Value="2017-01-11T03:36:42" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-12-01T01:06:02" />
+          <DateTime Value="2018-04-23T05:00:11" />
         </Facet>
         <Facet Name="Metadata Editors">
-          <String Value="George" />
           <String Value="Guillermo" />
-        </Facet>
-        <Facet Name="Film Reference Id">
-          <String Value="A Scanner Darkly" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="A Scanner Darkly" />
@@ -63,6 +60,9 @@
         </Facet>
         <Facet Name="L3ST-instances: count">
           <Number Value="3" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="A Scanner Darkly" />
         </Facet>
       </Facets>
     </Item>

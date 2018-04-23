@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Collection SchemaVersion="1.0" Name="Trafilm Gallery: Films" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
-    <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film/Season title" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Type" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Duration (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
@@ -22,6 +21,7 @@
     <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
     <Item Id="A Fish Called Wanda" Name="A Fish Called Wanda" Img="http://www.impawards.com/1988/posters/fish_called_wanda.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=A Fish Called Wanda">
@@ -42,7 +42,7 @@
           <DateTime Value="2017-05-24T03:42:08" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-11-28T02:56:44" />
+          <DateTime Value="2018-04-23T04:58:07" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="IreneRanzato" />

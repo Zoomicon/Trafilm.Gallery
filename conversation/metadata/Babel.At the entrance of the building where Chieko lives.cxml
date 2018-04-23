@@ -1,8 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Collection SchemaVersion="1.0" Name="At the entrance of the building where Chieko lives" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
-    <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="False" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Film/Season title" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Season episode name" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Start time (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
@@ -19,6 +17,8 @@
     <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
     <Item Id="Babel.At the entrance of the building where Chieko lives" Name="At the entrance of the building where Chieko lives" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Babel&amp;conversation=Babel.At the entrance of the building where Chieko lives">
@@ -35,14 +35,11 @@
           <DateTime Value="2017-03-07T12:00:26" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-11-28T02:35:44" />
+          <DateTime Value="2018-04-23T05:01:40" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="corrius" />
           <String Value="George" />
-        </Facet>
-        <Facet Name="Film Reference Id">
-          <String Value="Babel" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Babel" />
@@ -67,6 +64,9 @@
         </Facet>
         <Facet Name="L3ST-instances: count">
           <Number Value="1" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Babel" />
         </Facet>
       </Facets>
     </Item>

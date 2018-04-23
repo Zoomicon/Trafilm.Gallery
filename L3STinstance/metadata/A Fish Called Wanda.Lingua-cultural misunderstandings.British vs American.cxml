@@ -1,9 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Collection SchemaVersion="1.0" Name="Lingua-cultural misunderstandings" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
-    <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="Conversation Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Conversation start time (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Conversation duration (sec)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Main (L1) language" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -28,6 +25,9 @@
     <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Conversation Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
     <Item Id="A Fish Called Wanda.Lingua-cultural misunderstandings.British vs American" Name="Lingua-cultural misunderstandings" Img="https://filmfork-cdn.s3.amazonaws.com/content/wanda.9.png" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=A Fish Called Wanda&amp;conversation=A Fish Called Wanda.Lingua-cultural misunderstandings&amp;L3STinstance=A Fish Called Wanda.Lingua-cultural misunderstandings.British vs American">
@@ -48,16 +48,11 @@
           <DateTime Value="2017-05-24T04:08:35" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-05-27T04:10:27" />
+          <DateTime Value="2018-04-23T04:58:33" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="IreneRanzato" />
-        </Facet>
-        <Facet Name="Film Reference Id">
-          <String Value="A Fish Called Wanda" />
-        </Facet>
-        <Facet Name="Conversation Reference Id">
-          <String Value="A Fish Called Wanda.Lingua-cultural misunderstandings" />
+          <String Value="George" />
         </Facet>
         <Facet Name="Conversation start time (min)">
           <Number Value="57" />
@@ -104,6 +99,12 @@
         </Facet>
         <Facet Name="L3TT-instances: count">
           <Number Value="0" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="A Fish Called Wanda" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="A Fish Called Wanda.Lingua-cultural misunderstandings" />
         </Facet>
       </Facets>
     </Item>
