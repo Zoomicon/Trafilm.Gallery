@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Collection SchemaVersion="1.0" Name="Stefan Zweig Farewell to Europe" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+  <FacetCategories>
+    <FacetCategory Name="Film/Season title" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Type" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Duration (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Series" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Director(s)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Scriptwriter(s)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Production countries" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Production companies" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Blockbuster" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Year ST released" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Main language (L1)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L2-Dubbed languages" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L2-Subtitled languages" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Conversations: count" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Tags" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+  </FacetCategories>
+  <Items xmlns="">
+    <Item Id="Stefan Zweig Farewell to Europe" Name="Stefan Zweig Farewell to Europe" Img="https://www.skip.at/media/_versions/filme/23159/poster_zoom.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Stefan Zweig Farewell to Europe">
+      <Description>In 1936, Stefan Zweig, the illustrious author of " 24 Hours of a Woman's Life" and "Letter from an Unknown Woman", leaves Austria for South America. Being Jewish and hating the inhumanity that prevails in Germany while threatening his native country, he has decided to escape the specter of Nazism. Brazil is his chosen country. He is immediately hailed at Rio de Janeiro's Jockey Club by the local jet set. But whereas expect him to take sides and to make a statement against Hitler and his clique, Zweig refuses to renounce his humanity and to indulge in over-simplification: he just cannot condemn Germany and its people. On the other hand, the great writer literally falls in love with Brazil and undertakes the writing of a new book about the country. Accompanied by Lotte, his second wife he explores different regions, including the most remote ones.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Stefan Zweig Farewell to Europe" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="L3: English, Brazilian Portuguese, French, Spanish" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2018-04-30T01:17:30" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2018-04-30T01:22:52" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="lorenahurtado-malillos" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Stefan Zweig Farewell to Europe" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Maria Schrader" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Maria Schrader" />
+          <String Value=" Jan Schomburg " />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="Austria" />
+          <String Value=" Germany" />
+          <String Value=" France" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2016" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="German" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+  </Items>
+</Collection>
