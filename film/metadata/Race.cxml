@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Collection SchemaVersion="1.0" Name="Race" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+  <FacetCategories>
+    <FacetCategory Name="Film/Season title" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Type" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Duration (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Series" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Director(s)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Scriptwriter(s)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Production countries" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Production companies" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Blockbuster" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Year ST released" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Main language (L1)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L2-Dubbed languages" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L2-Subtitled languages" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Conversations: count" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Tags" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+  </FacetCategories>
+  <Items xmlns="">
+    <Item Id="Race" Name="Race" Img="http://es.web.img3.acsta.net/pictures/16/03/11/12/50/322530.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Race">
+      <Description>Jesse Owens' quest to become the greatest track and field athlete in history thrusts him onto the world stage of the 1936 Olympics, where he faces off against Adolf Hitler's vision of Aryan supremacy.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Race" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="L3 German " />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2018-05-03T01:18:07" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2018-05-03T01:23:01" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="lorenahurtado-malillos" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Race" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Stephen Hopkins" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Joe Shrapnel" />
+          <String Value=" Anna Waterhouse" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="Canada" />
+          <String Value=" United States" />
+          <String Value=" France" />
+          <String Value=" Germany" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2016" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+  </Items>
+</Collection>
