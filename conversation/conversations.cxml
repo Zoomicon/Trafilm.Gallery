@@ -5,7 +5,6 @@
     <FacetCategory Name="Season episode name" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Start time (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Duration (sec)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
-    <FacetCategory Name="Language sources" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3ST languages: count" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="L3ST languages" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3ST language types: count" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
@@ -439,7 +438,7 @@
           <DateTime Value="2016-11-08T03:21:11" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2018-04-23T05:00:45" />
+          <DateTime Value="2018-05-10T11:27:20" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="corrius" />
