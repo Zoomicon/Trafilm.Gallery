@@ -1,10 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Collection SchemaVersion="1.0" Name="Hold that expression. Souviens-toi. manten esa cara" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
-    <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="Conversation Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="L3ST-instance Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Title TT" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L2 language" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L2 mode" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
@@ -34,12 +30,16 @@
     <FacetCategory Name="L3 functions change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Conversation features for L3-instance change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3 sources change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Tags" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Conversation Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST-instance Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
     <Item Id="Inglourious Basterds.Hold that expression.Souviens-toi.manten esa cara" Name="Hold that expression. Souviens-toi. manten esa cara" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Inglourious Basterds&amp;conversation=Inglourious Basterds.Hold that expression&amp;L3STinstance=Inglourious Basterds.Hold that expression.Souviens-toi&amp;L3TTinstance=Inglourious Basterds.Hold that expression.Souviens-toi.manten esa cara">
@@ -48,24 +48,19 @@
         <Facet Name="Reference Id">
           <String Value="Inglourious Basterds.Hold that expression.Souviens-toi.manten esa cara" />
         </Facet>
+        <Facet Name="Transcription">
+          <String Value="Mantén esa expresión." />
+        </Facet>
         <Facet Name="Info created">
           <DateTime Value="2016-10-26T12:22:24" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-11-03T04:11:29" />
+          <DateTime Value="2018-05-12T06:30:10" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="PatrickZabalbeascoa" />
           <String Value="George" />
-        </Facet>
-        <Facet Name="Film Reference Id">
-          <String Value="Inglourious Basterds" />
-        </Facet>
-        <Facet Name="Conversation Reference Id">
-          <String Value="Inglourious Basterds.Hold that expression" />
-        </Facet>
-        <Facet Name="L3ST-instance Reference Id">
-          <String Value="Inglourious Basterds.Hold that expression.Souviens-toi" />
+          <String Value="evaespasa" />
         </Facet>
         <Facet Name="Film Title TT">
           <String Value="Malditos bastardos" />
@@ -132,6 +127,15 @@
         <Facet Name="L3 sources change">
           <String Value="- Oral L3: different sources " />
           <String Value="+ " />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Inglourious Basterds" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Inglourious Basterds.Hold that expression" />
+        </Facet>
+        <Facet Name="L3ST-instance Reference Id">
+          <String Value="Inglourious Basterds.Hold that expression.Souviens-toi" />
         </Facet>
       </Facets>
     </Item>

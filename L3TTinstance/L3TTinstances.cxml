@@ -25331,15 +25331,19 @@
         <Facet Name="Reference Id">
           <String Value="Inglourious Basterds.Hold that expression.Souviens-toi.manten esa cara" />
         </Facet>
+        <Facet Name="Transcription">
+          <String Value="Mantén esa expresión." />
+        </Facet>
         <Facet Name="Info created">
           <DateTime Value="2016-10-26T12:22:24" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-11-03T04:11:29" />
+          <DateTime Value="2018-05-12T06:30:10" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="PatrickZabalbeascoa" />
           <String Value="George" />
+          <String Value="evaespasa" />
         </Facet>
         <Facet Name="Film Title TT">
           <String Value="Malditos bastardos" />
@@ -26720,11 +26724,11 @@
           <DateTime Value="2016-10-30T05:12:37" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-11-03T04:17:06" />
+          <DateTime Value="2018-05-12T08:59:38" />
         </Facet>
         <Facet Name="Metadata Editors">
-          <String Value="evaespasa" />
           <String Value="George" />
+          <String Value="evaespasa" />
         </Facet>
         <Facet Name="Film Title TT">
           <String Value="Love Actually" />
@@ -26774,6 +26778,7 @@
         <Facet Name="L3TT functions">
           <String Value="Character portrayal" />
           <String Value="Plot (twist)" />
+          <String Value="Dramatic effect" />
         </Facet>
         <Facet Name="Conversation features for L3TT-instance">
           <String Value="balanced exchange" />
@@ -26789,7 +26794,7 @@
           <String Value="+ Written non-diegetic" />
         </Facet>
         <Facet Name="L3 functions change">
-          <String Value="None" />
+          <String Value="+ Dramatic effect" />
         </Facet>
         <Facet Name="Conversation features for L3-instance change">
           <String Value="None" />
@@ -27658,7 +27663,7 @@
           <DateTime Value="2016-10-31T08:07:28" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-31T08:16:18" />
+          <DateTime Value="2018-05-12T06:29:58" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="evaespasa" />
@@ -27718,6 +27723,7 @@
           <String Value="NO / Not applicable" />
         </Facet>
         <Facet Name="L3TT functions">
+          <String Value="Character portrayal" />
           <String Value="Theme" />
         </Facet>
         <Facet Name="Conversation features for L3TT-instance">

@@ -15504,15 +15504,18 @@ The episode opens up with Wes Wrench and his associate and translator Grady Numb
           <DateTime Value="2016-10-30T05:07:41" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-11-03T03:52:56" />
+          <DateTime Value="2018-05-12T09:04:00" />
         </Facet>
         <Facet Name="Metadata Editors">
-          <String Value="evaespasa" />
           <String Value="Stavroula" />
           <String Value="George" />
+          <String Value="evaespasa" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="43" />
         </Facet>
         <Facet Name="Conversation duration (sec)">
-          <String Value="I. 161-180" />
+          <String Value="F. 101-120" />
         </Facet>
         <Facet Name="Main (L1) language">
           <String Value="English" />
@@ -15538,6 +15541,7 @@ The episode opens up with Wes Wrench and his associate and translator Grady Numb
         <Facet Name="L3ST functions">
           <String Value="Character portrayal" />
           <String Value="Plot (twist)" />
+          <String Value="Dramatic effect" />
         </Facet>
         <Facet Name="Conversation features for L3ST-instance">
           <String Value="balanced exchange" />
@@ -15760,6 +15764,29 @@ The episode opens up with Wes Wrench and his associate and translator Grady Numb
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Madagascar.SignalizationSprechenSie.Micasaestucasa" Name="Madagascar.SignalizationSprechenSie.Micasaestucasa" Img="" Href="">
+      <Description></Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Madagascar.SignalizationSprechenSie.Micasaestucasa" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2018-05-10T04:20:50" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2018-05-10T04:20:50" />
+        </Facet>
+        <Facet Name="L3TT-instances: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Madagascar" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Madagascar.SignalizationSprechenSie" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Madagascar.SignalizationSprechenSie.SprechenSieEnglishLanguagevariation" Name="Madagascar.SignalizationSprechenSie" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Madagascar&amp;conversation=Madagascar.SignalizationSprechenSie&amp;L3STinstance=Madagascar.SignalizationSprechenSie.SprechenSieEnglishLanguagevariation">
       <Description></Description>
       <Facets>
@@ -15886,7 +15913,7 @@ The episode opens up with Wes Wrench and his associate and translator Grady Numb
           <DateTime Value="2016-10-31T07:54:37" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-31T08:15:54" />
+          <DateTime Value="2018-05-12T06:29:35" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="evaespasa" />
@@ -15925,6 +15952,7 @@ The episode opens up with Wes Wrench and his associate and translator Grady Numb
           <String Value="NO / Not applicable" />
         </Facet>
         <Facet Name="L3ST functions">
+          <String Value="Character portrayal" />
           <String Value="Theme" />
         </Facet>
         <Facet Name="Conversation features for L3ST-instance">

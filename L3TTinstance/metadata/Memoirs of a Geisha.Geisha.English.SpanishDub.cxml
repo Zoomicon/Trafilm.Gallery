@@ -1,10 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Collection SchemaVersion="1.0" Name="Memoirs of a Geisha.Geisha.English.SpanishDub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
-    <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="Conversation Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="L3ST-instance Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film Title TT" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L2 language" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L2 mode" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
@@ -34,12 +30,16 @@
     <FacetCategory Name="L3 functions change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Conversation features for L3-instance change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="L3 sources change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Tags" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
-    <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Conversation Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST-instance Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
     <Item Id="Memoirs of a Geisha.Geisha.English.SpanishDub" Name="Memoirs of a Geisha.Geisha.English.SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Memoirs of a Geisha&amp;conversation=Memoirs of a Geisha.Geisha&amp;L3STinstance=Memoirs of a Geisha.Geisha.English&amp;L3TTinstance=Memoirs of a Geisha.Geisha.English.SpanishDub">
@@ -58,19 +58,10 @@
           <DateTime Value="2016-10-31T08:07:28" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-10-31T08:16:18" />
+          <DateTime Value="2018-05-12T06:29:58" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="evaespasa" />
-        </Facet>
-        <Facet Name="Film Reference Id">
-          <String Value="Memoirs of a Geisha" />
-        </Facet>
-        <Facet Name="Conversation Reference Id">
-          <String Value="Memoirs of a Geisha.Geisha" />
-        </Facet>
-        <Facet Name="L3ST-instance Reference Id">
-          <String Value="Memoirs of a Geisha.Geisha.English" />
         </Facet>
         <Facet Name="Film Title TT">
           <String Value="Memorias de una geisha" />
@@ -127,6 +118,7 @@
           <String Value="NO / Not applicable" />
         </Facet>
         <Facet Name="L3TT functions">
+          <String Value="Character portrayal" />
           <String Value="Theme" />
         </Facet>
         <Facet Name="Conversation features for L3TT-instance">
@@ -150,6 +142,15 @@
         </Facet>
         <Facet Name="L3 sources change">
           <String Value="None" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Memoirs of a Geisha" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Memoirs of a Geisha.Geisha" />
+        </Facet>
+        <Facet Name="L3ST-instance Reference Id">
+          <String Value="Memoirs of a Geisha.Geisha.English" />
         </Facet>
       </Facets>
     </Item>
