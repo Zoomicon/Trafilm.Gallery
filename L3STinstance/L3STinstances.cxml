@@ -7755,7 +7755,7 @@
           <DateTime Value="2017-01-28T06:15:21" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-05-25T03:44:50" />
+          <DateTime Value="2018-05-15T09:34:04" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Stavroula" />
@@ -18963,10 +18963,11 @@ And the wife and the aunt speak in English</Description>
           <DateTime Value="2017-06-04T10:47:04" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-06-04T11:06:20" />
+          <DateTime Value="2018-05-15T07:21:46" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="AnnaGallardo" />
+          <String Value="Stavroula" />
         </Facet>
         <Facet Name="Conversation start time (min)">
           <Number Value="18" />
@@ -18997,6 +18998,16 @@ And the wife and the aunt speak in English</Description>
         </Facet>
         <Facet Name="L3ST merely represented">
           <String Value="L3 mentioned, talked about" />
+        </Facet>
+        <Facet Name="L3ST functions">
+          <String Value="Character portrayal" />
+          <String Value="Plot (twist)" />
+        </Facet>
+        <Facet Name="Conversation features for L3ST-instance">
+          <String Value="quarrel" />
+        </Facet>
+        <Facet Name="L3ST sources">
+          <String Value="Respond interlingually: different sources " />
         </Facet>
         <Facet Name="L3TT-instances: count">
           <Number Value="1" />

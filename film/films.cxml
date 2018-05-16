@@ -1737,12 +1737,12 @@ Based on the homonym novel by Philip K. Dick.</Description>
           <DateTime Value="2017-01-27T12:45:29" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-11-28T03:08:04" />
+          <DateTime Value="2018-05-15T07:30:15" />
         </Facet>
         <Facet Name="Metadata Editors">
-          <String Value="Stavroula" />
           <String Value="PatrickZabalbeascoa" />
           <String Value="George" />
+          <String Value="Stavroula" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Fargo Season 1" />
@@ -1753,8 +1753,30 @@ Based on the homonym novel by Philip K. Dick.</Description>
         <Facet Name="Duration (min)">
           <Number Value="53" />
         </Facet>
+        <Facet Name="Series">
+          <String Value="Fargo Season 1" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value=" Adam Bernstein" />
+          <String Value=" Randall Einhorn" />
+          <String Value=" Colin Bucksey" />
+          <String Value=" Scott Winant" />
+          <String Value=" Matt Shakman" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Noah Hawley" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="USA" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="FX" />
+        </Facet>
         <Facet Name="Blockbuster">
           <String Value="YES (top 20)" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2014" />
         </Facet>
         <Facet Name="Main language (L1)">
           <String Value="English" />
