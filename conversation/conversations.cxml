@@ -4378,17 +4378,20 @@
           <DateTime Value="2017-01-27T12:51:32" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-11-29T01:06:22" />
+          <DateTime Value="2018-05-19T11:22:45" />
         </Facet>
         <Facet Name="Metadata Editors">
-          <String Value="Stavroula" />
           <String Value="George" />
+          <String Value="Stavroula" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Fargo Season 1" />
         </Facet>
         <Facet Name="Season episode name">
           <String Value="2" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="10" />
         </Facet>
         <Facet Name="Duration (sec)">
           <String Value="I. 161-180" />
@@ -7356,6 +7359,44 @@
         </Facet>
         <Facet Name="L3ST-instances: count">
           <Number Value="1" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Inglourious Basterds" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Inglourious Basterds.Odd accent" Name="Inglourious Basterds.Odd accent" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Inglourious Basterds&amp;conversation=Inglourious Basterds.Odd accent">
+      <Description>Bridget Hammersmark arranges to meet Hicox and the Basterds in the basement of a French tavern. Unbeknown to her, however, the night of the rendezvous is also the occasion of a German Staff Sergeant celebrating the birth of his son with his soldier comrades. One of the German soldiers present strikes up a conversation with Hicox and notices that his accent is "odd". </Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Inglourious Basterds.Odd accent" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2018-05-19T11:36:58" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2018-05-19T11:44:45" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Stavroula" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Inglourious Basterds" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="78" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="E. 81-100" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Inglourious Basterds" />
