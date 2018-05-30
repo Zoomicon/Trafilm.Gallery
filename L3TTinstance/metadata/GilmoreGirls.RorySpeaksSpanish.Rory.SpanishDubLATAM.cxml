@@ -43,7 +43,7 @@
   </FacetCategories>
   <Items xmlns="">
     <Item Id="GilmoreGirls.RorySpeaksSpanish.Rory.SpanishDubLATAM" Name="GilmoreGirls.RorySpeaksSpanish.Rory.SpanishDubLATAM" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=GilmoreGirls&amp;conversation=GilmoreGirls.RorySpeaksSpanish&amp;L3STinstance=GilmoreGirls.RorySpeaksSpanish.Rory&amp;L3TTinstance=GilmoreGirls.RorySpeaksSpanish.Rory.SpanishDubLATAM">
-      <Description></Description>
+      <Description>Rory is bored in her rich grandparents' house. She goes up to the Guatemalan maid and speaks to her in Spanish</Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="GilmoreGirls.RorySpeaksSpanish.Rory.SpanishDubLATAM" />
@@ -52,7 +52,7 @@
           <DateTime Value="2018-05-24T07:40:40" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2018-05-24T07:46:01" />
+          <DateTime Value="2018-05-29T01:37:36" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Stavroula" />
@@ -87,11 +87,15 @@
         <Facet Name="L3TT meaning decipherable">
           <String Value="NO" />
         </Facet>
+        <Facet Name="Quality of L3TT speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
         <Facet Name="L3TT mode, written/spoken, diegetic">
           <String Value="Oral diegetic on-screen" />
         </Facet>
         <Facet Name="Conversation features for L3TT-instance">
           <String Value="bonding" />
+          <String Value="small talk" />
         </Facet>
         <Facet Name="L3 language type change">
           <String Value="- Real" />

@@ -11501,7 +11501,7 @@ The episode opens up with Wes Wrench and his associate and translator Grady Numb
       </Facets>
     </Item>
     <Item Id="GilmoreGirls.RorySpeaksSpanish.Rory" Name="RorySpeaksSpanish" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=GilmoreGirls&amp;conversation=GilmoreGirls.RorySpeaksSpanish&amp;L3STinstance=GilmoreGirls.RorySpeaksSpanish.Rory">
-      <Description></Description>
+      <Description>Rory is bored in her rich grandparents' house. She goes up to the Guatemalan maid and speaks to her in Spanish</Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="GilmoreGirls.RorySpeaksSpanish.Rory" />
@@ -11510,13 +11510,16 @@ The episode opens up with Wes Wrench and his associate and translator Grady Numb
           <DateTime Value="2018-05-24T07:15:19" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2018-05-24T07:39:28" />
+          <DateTime Value="2018-05-29T01:36:21" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Stavroula" />
         </Facet>
         <Facet Name="Conversation start time (min)">
           <Number Value="14" />
+        </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="English" />
         </Facet>
         <Facet Name="L3ST language type">
           <String Value="Real" />
@@ -11545,12 +11548,13 @@ The episode opens up with Wes Wrench and his associate and translator Grady Numb
         </Facet>
         <Facet Name="Conversation features for L3ST-instance">
           <String Value="bonding" />
+          <String Value="small talk" />
         </Facet>
         <Facet Name="L3ST sources">
           <String Value="Oral L3: different sources " />
         </Facet>
         <Facet Name="L3TT-instances: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="GilmoreGirls" />
