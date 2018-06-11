@@ -4494,6 +4494,54 @@ Based on the homonym novel by Philip K. Dick.</Description>
         </Facet>
       </Facets>
     </Item>
+    <Item Id="Rio" Name="Rio" Img="http://cdn.collider.com/wp-content/uploads/rio_movie_poster_teaser_01.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Rio">
+      <Description>When Blu, a domesticated macaw from small-town Minnesota, meets the fiercely independent Jewel, he takes off on an adventure to Rio de Janeiro with the bird of his dreams.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Rio" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="L3 Portuguese, L3 Spanish Overcompensation in NO-L3 segments in some target countries." />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2018-06-10T09:58:51" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2018-06-10T10:03:44" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="lorenahurtado-malillos" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Rio" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Series">
+          <String Value="Rio " />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Carlos Saldanha" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Carlos Saldanha" />
+          <String Value=" Earl Richey Jones " />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="USA" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2011" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="Rise of the Planet of the Apes" Name="Rise of the Planet of the Apes" Img="https://upload.wikimedia.org/wikipedia/en/8/81/Rise_of_the_Planet_of_the_Apes_Poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Rise of the Planet of the Apes">
       <Description>Will Rodman, a scientist working in a San Francisco company is testing on chimpanzes a viral-based drug on chimpanzees to find a cure for Alzheimer's disease. The substance is given to a chimp named Bright Eyes, it increases her intelligence and the intelligence of her son, Cesar. Cesar eventually leads an ape uprising.</Description>
       <Facets>
@@ -5478,6 +5526,51 @@ Based on the homonym novel by Philip K. Dick.</Description>
         </Facet>
         <Facet Name="Conversations: count">
           <Number Value="5" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="The Goonies" Name="The Goonies" Img="https://i.pinimg.com/originals/41/48/7d/41487df3fa06847c73505ef5b636fb96.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=The Goonies">
+      <Description>Mikey Walsh and Brandon Walsh are brothers whose family is preparing to move because developers want to build a golf course in the place of their neighborhood -- unless enough money is raised to stop the construction of the golf course, and that's quite doubtful. But when Mikey stumbles upon a treasure map of the famed "One-Eyed" Willy's hidden fortune, Mikey, Brandon, and their friends Lawrence "Chunk" Cohen, Clark "Mouth" Devereaux, Andrea "Andy" Carmichael, Stefanie "Stef" Steinbrenner, and Richard "Data" Wang, calling themselves The Goonies, set out on a quest to find the treasure in hopes of saving their neighborhood. </Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="The Goonies" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="L3ST &quot;Rosita&quot; Latin American Spanish --&gt; L3TT &quot;Rosanna&quot; Italian " />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2018-06-10T09:51:26" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2018-06-10T09:57:47" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="lorenahurtado-malillos" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="The Goonies" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Richard Donner" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="Steven Spielberg (story)" />
+          <String Value=" Chris Columbus (screenplay)" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="USA" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="1985" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="0" />
         </Facet>
       </Facets>
     </Item>
