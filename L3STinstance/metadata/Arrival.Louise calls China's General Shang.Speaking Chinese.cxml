@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Collection SchemaVersion="1.0" Name="Arrival.Louise calls China's General Shang.Speaking Chinese" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+  <FacetCategories>
+    <FacetCategory Name="Conversation start time (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Conversation duration (sec)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Main (L1) language" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST language type" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST language" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST constructed based on" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST meant to be understood" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST message required for understanding" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST meaning decipherable" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Quality of L3ST speaker performance" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="L3ST mode, written/spoken, diegetic" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST merely represented" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST merely represented orally" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST represented: visual" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST functions" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Conversation features for L3ST-instance" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST sources" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3TT-instances: count" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Tags" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Conversation Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+  </FacetCategories>
+  <Items xmlns="">
+    <Item Id="Arrival.Louise calls China's General Shang.Speaking Chinese" Name="Arrival.Louise calls China's General Shang.Speaking Chinese" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Arrival&amp;conversation=Arrival.Louise calls China's General Shang&amp;L3STinstance=Arrival.Louise calls China's General Shang.Speaking Chinese">
+      <Description>Louise returns to the camp as it is being evacuated, and tells Ian that the alien language is the "tool"; those who master it are able to perceive the future and past. She has a premonition of a United Nations event, in which Shang thanks her for having convinced him to call off the attack by calling his private number and reciting his wife's dying words. *In the present, Louise steals a satellite phone, calls the number, and recites the words*. </Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Arrival.Louise calls China's General Shang.Speaking Chinese" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="To sway General Chang (Tzi Ma) from launching a ballistic attack on the alien ships, Louise drifts through space-time for answers. We see her flash forward to meet the general at a fancy gala, where he thanks her for reminding him of his wife's dying words. Then, back in the main timeline, she dials him on his personal cellphone while barricaded in a government base airlock and utters his wife's words back to him. The wisdom resonates enough for him to pull back his forces. The alien ships take off. Their work here is done. It's a bit mind-boggling, but the simple explanation is that, with the past, present, and future at her disposal, Louise is able to retrieve her answers from a timeline where she'd already delivered it.&#xD;&#xA;&#xD;&#xA;The sequence is even more challenging because we're never given the dialogue MacGuffin. Heisserer says Villeneuve debated whether or not to include subtitles for the line. The director opted to revel in the mystery. The writer wasn't as keen on keeping it a secret, and was happy to divulge. As he told the audience at Fantastic Fest, the line translates to: &quot;In war there are no winners, only widows.&quot; &#xD;&#xA;&#xD;&#xA;&quot;I worked so hard on the dialogue in Mandarin for Denis,&quot; Heisserer wrote on Reddit. &quot;Spent weeks crafting the lines that he finally approved! And then that scoundrel goes and doesn't use subtitles in that scene. I guess there's something to be said there about the nature of language. And I love Denis. But he's also a mischievous fox.&quot;&#xD;&#xA;&#xD;&#xA;https://www.thrillist.com/entertainment/nation/arrival-chinese-line-ending" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2018-06-27T10:38:38" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2018-06-27T10:52:26" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Stavroula" />
+        </Facet>
+        <Facet Name="Main (L1) language">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L3ST language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3ST language">
+          <String Value="Chinese" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Conversation can be followed regardless of meaning" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="Quality of L3ST speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3ST mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3ST merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
+        <Facet Name="L3ST functions">
+          <String Value="Plot (twist)" />
+        </Facet>
+        <Facet Name="Conversation features for L3ST-instance">
+          <String Value="information" />
+          <String Value="phone call / intercom / two-way radio" />
+          <String Value="warning" />
+        </Facet>
+        <Facet Name="L3ST sources">
+          <String Value="Oral L3: single source" />
+        </Facet>
+        <Facet Name="L3TT-instances: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Arrival" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Arrival.Louise calls China's General Shang" />
+        </Facet>
+      </Facets>
+    </Item>
+  </Items>
+</Collection>
