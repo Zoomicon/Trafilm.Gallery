@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Cell Block Tango" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Not Guilty" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Film/Season title" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Season episode name" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
@@ -20,23 +20,20 @@
     <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Chicago.Cell Block Tango" Name="Cell Block Tango" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Chicago&amp;conversation=Chicago.Cell Block Tango">
-      <Description>During this tango, several women explain their cases. Among these, Hungarian convict Hunyak, who speaks in Hungarian (see remarks below).
-
-
-</Description>
+    <Item Id="Chicago.Not Guilty" Name="Not Guilty" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Chicago&amp;conversation=Chicago.Not Guilty">
+      <Description>When Billy Flynn is passing by the cells, Hunyak starts speaking in Hungarian, intersected by the English words “not guilty” in English.</Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Chicago.Cell Block Tango" />
+          <String Value="Chicago.Not Guilty" />
         </Facet>
         <Facet Name="Remarks">
-          <String Value="During the song &quot;Cell Block Tango&quot; Hunyak speaks in Hungarian, but the actress is Russian and her accent makes the speech very difficult to understand even for native speakers of Hungarian.&#xD;&#xA;https://www.imdb.com/title/tt0299658/trivia?ref_=ttgf_ql_1&#xD;&#xA;" />
+          <String Value="According to imdb trivia, the final sentence of her intervention is in Russian. She says, &quot;Help, help me, please.&quot;&#xD;&#xA;https://www.imdb.com/registration/signin?u=%2Ftitle%2Ftt0299658%2Ftrivia%3Fref_%3Dttgf_ql_1&amp;ref_=tt_trv_vot&#xD;&#xA;" />
         </Facet>
         <Facet Name="Info created">
-          <DateTime Value="2018-08-09T11:00:54" />
+          <DateTime Value="2018-08-10T09:42:47" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2018-08-10T09:41:01" />
+          <DateTime Value="2018-08-10T09:48:00" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="evaespasa" />
@@ -45,25 +42,19 @@
           <String Value="Chicago" />
         </Facet>
         <Facet Name="Start time (min)">
-          <Number Value="27" />
+          <Number Value="36" />
         </Facet>
         <Facet Name="Duration (sec)">
-          <String Value="B. 21-40" />
+          <String Value="A. 1-20" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="1" />
-        </Facet>
-        <Facet Name="L3ST languages">
-          <String Value="Hungarian" />
+          <Number Value="0" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="1" />
-        </Facet>
-        <Facet Name="L3ST language types">
-          <String Value="Real" />
+          <Number Value="0" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="1" />
+          <Number Value="0" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Chicago" />

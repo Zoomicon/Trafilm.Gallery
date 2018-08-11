@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Collection SchemaVersion="1.0" Name="Chicago.Cell Block Tango.Hungarian" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+<Collection SchemaVersion="1.0" Name="Guilty" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
     <FacetCategory Name="Conversation start time (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Conversation duration (sec)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
@@ -30,35 +30,29 @@
     <FacetCategory Name="Conversation Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Chicago.Cell Block Tango.Hungarian" Name="Chicago.Cell Block Tango.Hungarian" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Chicago&amp;conversation=Chicago.Cell Block Tango&amp;L3STinstance=Chicago.Cell Block Tango.Hungarian">
-      <Description>During this song, Hungarian convict Hunyak explains her case in Hungarian, whilst speaking and dancing. At the very end, she speaks in English, in answer to Roxie`s question.
-During the Cell Block Tango, each girl does an imitation of her crime, each in session using a red silk bandanna to imitate where the blood would have been. However, when Hunyak is speaking, she pulls out a white bandanna, not a red one, indicating that, she is, in fact, innocent.
-https://www.imdb.com/title/tt0299658/trivia?ref_=ttgf_ql_1
-</Description>
+    <Item Id="Chicago.Guilty.Speaking Hungarian" Name="Guilty" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Chicago&amp;conversation=Chicago.Guilty&amp;L3STinstance=Chicago.Guilty.Speaking Hungarian">
+      <Description>In the prison, Velma and Roxie hear Hunyak shout in Hungarian. The word “guilty” can be heard. Velma tells Roxie that Hunyak lost her last appeal and that “next week, she’s gonna...”.</Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Chicago.Cell Block Tango.Hungarian" />
+          <String Value="Chicago.Guilty.Speaking Hungarian" />
         </Facet>
         <Facet Name="Transcription">
-          <String Value="&quot;Mit keresek én itt? Azt mondják, a híres lakóm lefogta a férjem, én meg lecsaptam a fejét. De nem igaz. Én ártatlan vagyok. Nem tudom, miért mondja Uncle Sam, hogy én voltam. Próbáltam a rendõrségen megmagyarázni, de nem értették meg.&quot;&#xD;&#xA;27:43 (Roxie.) Yeah, but did you do it? &#xD;&#xA;27.47. (Hunyak) Uh, uh, not guilty.&#xD;&#xA;---------&#xD;&#xA;The translated speech by Hunyak is: &quot;How did I find myself here? They say my famous lover (neighbor?) held down my husband and I cut his head off. But it's not true. I am innocent. I don't know why Uncle Sam says I did it. I tried to explain at the police station but they didn't understand.&quot; &#xD;&#xA;https://www.imdb.com/title/tt0299658/trivia?ref_=ttgf_ql_1&#xD;&#xA;" />
-        </Facet>
-        <Facet Name="Remarks">
-          <String Value="During the song &quot;Cell Block Tango&quot; Hunyak speaks in Hungarian, but the actress is Russian and her accent makes the speech very difficult to understand even for native speakers of Hungarian.&#xD;&#xA;https://www.imdb.com/title/tt0299658/trivia?ref_=ttgf_ql_1&#xD;&#xA;However, L3 is marked here (item 10) as native or proficient, according to its function in the film and its likely perception from most (non-Hungarian speaking) audiences.&#xD;&#xA;" />
+          <String Value="In the prison, Velma and Roxie hear Hunyak shout in Hungarian. The word “guilty” can be heard. " />
         </Facet>
         <Facet Name="Info created">
-          <DateTime Value="2018-08-09T11:06:03" />
+          <DateTime Value="2018-08-10T10:01:48" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2018-08-10T09:42:23" />
+          <DateTime Value="2018-08-10T10:07:26" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="evaespasa" />
         </Facet>
         <Facet Name="Conversation start time (min)">
-          <Number Value="27" />
+          <Number Value="75" />
         </Facet>
         <Facet Name="Conversation duration (sec)">
-          <String Value="B. 21-40" />
+          <String Value="A. 1-20" />
         </Facet>
         <Facet Name="Main (L1) language">
           <String Value="English" />
@@ -72,30 +66,26 @@ https://www.imdb.com/title/tt0299658/trivia?ref_=ttgf_ql_1
         <Facet Name="L3ST meant to be understood">
           <String Value="NO" />
         </Facet>
-        <Facet Name="L3ST message required for understanding">
-          <String Value="Conversation can be followed regardless of meaning" />
-        </Facet>
         <Facet Name="L3ST meaning decipherable">
-          <String Value="YES, through translation or clear from picture" />
+          <String Value="NO" />
         </Facet>
         <Facet Name="Quality of L3ST speaker performance">
           <String Value="native or proficient" />
         </Facet>
         <Facet Name="L3ST mode, written/spoken, diegetic">
-          <String Value="Oral diegetic on-screen" />
+          <String Value="Oral diegetic off-screen" />
         </Facet>
         <Facet Name="L3ST functions">
-          <String Value="Character portrayal" />
+          <String Value="Plot (twist)" />
           <String Value="Theme" />
           <String Value="Dramatic effect" />
           <String Value="Signals otherness" />
         </Facet>
         <Facet Name="Conversation features for L3ST-instance">
-          <String Value="announcement" />
-          <String Value="monologue" />
+          <String Value="persuasion" />
         </Facet>
         <Facet Name="L3ST sources">
-          <String Value="Oral L3: single source" />
+          <String Value="Bilingual (L3&amp;main): same source " />
         </Facet>
         <Facet Name="L3TT-instances: count">
           <Number Value="0" />
@@ -104,7 +94,7 @@ https://www.imdb.com/title/tt0299658/trivia?ref_=ttgf_ql_1
           <String Value="Chicago" />
         </Facet>
         <Facet Name="Conversation Reference Id">
-          <String Value="Chicago.Cell Block Tango" />
+          <String Value="Chicago.Guilty" />
         </Facet>
       </Facets>
     </Item>
