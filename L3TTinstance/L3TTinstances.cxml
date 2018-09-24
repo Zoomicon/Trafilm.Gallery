@@ -26637,21 +26637,25 @@
         </Facet>
       </Facets>
     </Item>
-    <Item Id="LoveActually.JamieProposesToAurelia.Aurelia's sister.SpanishSub" Name="Jamie proposes to Aurelia - Aurelia's sister - Spanish Sub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia&amp;L3STinstance=LoveActually.JamieProposesToAurelia.Aurelia's sister&amp;L3TTinstance=LoveActually.JamieProposesToAurelia.Aurelia's sister.SpanishSub">
+    <Item Id="LoveActually.JamieProposesToAurelia.Aurelia's sister.SpanishAD" Name="LoveActually.JamieProposesToAurelia.Aurelia's sister.SpanishAD" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia&amp;L3STinstance=LoveActually.JamieProposesToAurelia.Aurelia's sister&amp;L3TTinstance=LoveActually.JamieProposesToAurelia.Aurelia's sister.SpanishAD">
       <Description>Aurelia's sister intervenes in Jamie's proposal (humorous effect)</Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="LoveActually.JamieProposesToAurelia.Aurelia's sister.SpanishSub" />
+          <String Value="LoveActually.JamieProposesToAurelia.Aurelia's sister.SpanishAD" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="(Aurelia’s sister, audio in Portuguese. AST by female audiodescriber)&#xD;&#xA;&#xD;&#xA;Inglaterra, está claro (ST=AST)&#xD;&#xA;Igual conoces al príncipe Guillermo&#xD;&#xA;y te puedes casar con él. (ST=AST)&#xD;&#xA;(...)&#xD;&#xA;AD. La hermana niega. Aurelia se muerde el labio inferior.&#xD;&#xA;(Aurelia’s sister, audio in Portuguese)&#xD;&#xA;AST. ¡Por Dios, di  que sí, estúpida! (ST. ¡Por Dios, di “sí”, estúpida!)&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;" />
         </Facet>
         <Facet Name="Info created">
           <DateTime Value="2016-06-15T03:00:07" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-11-03T04:14:43" />
+          <DateTime Value="2018-09-23T05:05:57" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="Stavroula" />
           <String Value="George" />
+          <String Value="evaespasa" />
         </Facet>
         <Facet Name="Film Title TT">
           <String Value="Love Actually" />
@@ -26681,7 +26685,7 @@
           <String Value="No" />
         </Facet>
         <Facet Name="L3ST conveyed as L3TT">
-          <String Value="No" />
+          <String Value="Yes" />
         </Facet>
         <Facet Name="L3TT language type">
           <String Value="Real" />
@@ -26701,12 +26705,18 @@
         <Facet Name="Quality of L3TT speaker performance">
           <String Value="native or proficient" />
         </Facet>
+        <Facet Name="L3TT mode, written/spoken, diegetic">
+          <String Value="Oral non-diegetic" />
+        </Facet>
         <Facet Name="L3TT merely represented">
           <String Value="NO / Not applicable" />
         </Facet>
         <Facet Name="L3TT functions">
           <String Value="Character portrayal" />
           <String Value="Comedy / humour" />
+        </Facet>
+        <Facet Name="Conversation features for L3TT-instance">
+          <String Value="joke" />
         </Facet>
         <Facet Name="L3TT sources">
           <String Value="Non-diegetic translation" />
@@ -26716,12 +26726,13 @@
         </Facet>
         <Facet Name="L3 mode change">
           <String Value="- Oral diegetic on-screen" />
+          <String Value="+ Oral non-diegetic" />
         </Facet>
         <Facet Name="L3 functions change">
           <String Value="None" />
         </Facet>
         <Facet Name="Conversation features for L3-instance change">
-          <String Value="None" />
+          <String Value="+ joke" />
         </Facet>
         <Facet Name="L3 sources change">
           <String Value="None" />
@@ -26734,6 +26745,236 @@
         </Facet>
         <Facet Name="L3ST-instance Reference Id">
           <String Value="LoveActually.JamieProposesToAurelia.Aurelia's sister" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="LoveActually.JamieProposesToAurelia.Aurelia's sister.SpanishSub" Name="Jamie proposes to Aurelia - Aurelia's sister - Spanish Sub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia&amp;L3STinstance=LoveActually.JamieProposesToAurelia.Aurelia's sister&amp;L3TTinstance=LoveActually.JamieProposesToAurelia.Aurelia's sister.SpanishSub">
+      <Description>Aurelia's sister intervenes in Jamie's proposal (humorous effect)</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="LoveActually.JamieProposesToAurelia.Aurelia's sister.SpanishSub" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="&#xD;&#xA;Inglaterra, está claro.&#xD;&#xA;Igual conoces al príncipe Guillermo&#xD;&#xA;y te puedes casar con él. ¡Por Dios, di “sí”, estúpida!)&#xD;&#xA;&#xD;&#xA;" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-06-15T03:00:07" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2018-09-23T05:06:40" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="Stavroula" />
+          <String Value="George" />
+          <String Value="evaespasa" />
+        </Facet>
+        <Facet Name="Film Title TT">
+          <String Value="Love Actually" />
+        </Facet>
+        <Facet Name="L2 language">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L2 mode">
+          <String Value="Subtitled" />
+        </Facet>
+        <Facet Name="Distribution countries (TT)">
+          <String Value="Spain" />
+        </Facet>
+        <Facet Name="Year TT released">
+          <Number Value="2003" />
+        </Facet>
+        <Facet Name="Film TT Blockbuster">
+          <String Value="YES (top 20)" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="118" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="I. 161-180" />
+        </Facet>
+        <Facet Name="L2 same as L3ST">
+          <String Value="No" />
+        </Facet>
+        <Facet Name="L3ST conveyed as L3TT">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3TT language">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L3TT meant to be understood">
+          <String Value="YES, (almost) completely" />
+        </Facet>
+        <Facet Name="L3TT message required for understanding">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3TT speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3TT mode, written/spoken, diegetic">
+          <String Value="Oral non-diegetic" />
+          <String Value="Written non-diegetic" />
+        </Facet>
+        <Facet Name="L3TT merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
+        <Facet Name="L3TT functions">
+          <String Value="Character portrayal" />
+          <String Value="Comedy / humour" />
+        </Facet>
+        <Facet Name="Conversation features for L3TT-instance">
+          <String Value="joke" />
+        </Facet>
+        <Facet Name="L3TT sources">
+          <String Value="Non-diegetic translation" />
+        </Facet>
+        <Facet Name="L3 language type change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 mode change">
+          <String Value="- Oral diegetic on-screen" />
+          <String Value="+ Oral non-diegetic" />
+          <String Value="+ Written non-diegetic" />
+        </Facet>
+        <Facet Name="L3 functions change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="Conversation features for L3-instance change">
+          <String Value="+ joke" />
+        </Facet>
+        <Facet Name="L3 sources change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="LoveActually" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="LoveActually.JamieProposesToAurelia" />
+        </Facet>
+        <Facet Name="L3ST-instance Reference Id">
+          <String Value="LoveActually.JamieProposesToAurelia.Aurelia's sister" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="LoveActually.JamieProposesToAurelia.Jamie in Portuguese.SpanishAD" Name="LoveActually.JamieProposesToAurelia.Jamie in Portuguese.SpanishAD" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia&amp;L3STinstance=LoveActually.JamieProposesToAurelia.Jamie in Portuguese&amp;L3TTinstance=LoveActually.JamieProposesToAurelia.Jamie in Portuguese.SpanishAD">
+      <Description>Jamie proposes to Aurelia trying to speak in Portuguese but with many mistakes. It is clearly an effort to approach her by speaking her language. Until recently the story was based on the fact that they could not communicate due to language barriers (often a cause for comic effect)</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="LoveActually.JamieProposesToAurelia.Jamie in Portuguese.SpanishAD" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Jamie’s proposal is audiosubtitled (AST) by the same male voice talent that reads the main AD script (Antonio Vázquez). The audio subtitles are similar to, but not identical to the subtitles for the general Spanish audience (ST).&#xD;&#xA;&#xD;&#xA;Bonita Aurelia, (ST=AST)&#xD;&#xA;&#xD;&#xA;AST. He venido aquí para pedirte (ST. He venido aquí a pedirte)&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;que te cases conmigo. (ST=AST)&#xD;&#xA;&#xD;&#xA;Te pareceré un loco&#xD;&#xA;Porque apenas te conozco... (ST=AST)&#xD;&#xA;&#xD;&#xA;AST Pero a veces lo veo todo muy claro. (ST Pero a veces las cosas son muy claras)&#xD;&#xA;y no necesito pruebas. (ST=AST)&#xD;&#xA;&#xD;&#xA;AST Y viviré aquí/o puedes vivir conmigo en Inglaterra. &#xD;&#xA;(ST Yo viviré aquí/o puedes vivir tú conmigo en Inglaterra.)&#xD;&#xA;(...)&#xD;&#xA;Claro, yo saber que no eres/&#xD;&#xA;Tan loca como yo, (ST=AST)&#xD;&#xA;&#xD;&#xA;claro que yo pensar que tú dices “no”, (ST=AST)&#xD;&#xA;&#x9;&#xD;&#xA;pero es Navidad y sólo quería saber. (careful attention to pause. AD made to coincide with dialogue) (ST=AST)&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-30T09:00:27" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2018-09-23T05:02:44" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="George" />
+          <String Value="Stavroula" />
+          <String Value="evaespasa" />
+        </Facet>
+        <Facet Name="Film Title TT">
+          <String Value="Love Actually" />
+        </Facet>
+        <Facet Name="L2 language">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L2 mode">
+          <String Value="Subtitled" />
+        </Facet>
+        <Facet Name="Distribution countries (TT)">
+          <String Value="Spain" />
+        </Facet>
+        <Facet Name="Year TT released">
+          <Number Value="2003" />
+        </Facet>
+        <Facet Name="Film TT Blockbuster">
+          <String Value="YES (top 20)" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="118" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="I. 161-180" />
+        </Facet>
+        <Facet Name="L2 same as L3ST">
+          <String Value="No" />
+        </Facet>
+        <Facet Name="L3ST conveyed as L3TT">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT language type">
+          <String Value="L-main variety (e.g. dialect, sociolect, idiolect, slang)" />
+        </Facet>
+        <Facet Name="L3TT language">
+          <String Value="incorrect Spanish" />
+        </Facet>
+        <Facet Name="L3TT meant to be understood">
+          <String Value="YES, (almost) completely" />
+        </Facet>
+        <Facet Name="L3TT message required for understanding">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3TT speaker performance">
+          <String Value="clearly non-native or deficient" />
+        </Facet>
+        <Facet Name="L3TT mode, written/spoken, diegetic">
+          <String Value="Oral non-diegetic" />
+          <String Value="Written non-diegetic" />
+        </Facet>
+        <Facet Name="L3TT merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
+        <Facet Name="L3TT functions">
+          <String Value="Character portrayal" />
+          <String Value="Plot (twist)" />
+          <String Value="Dramatic effect" />
+        </Facet>
+        <Facet Name="Conversation features for L3TT-instance">
+          <String Value="courtship" />
+          <String Value="monologue" />
+        </Facet>
+        <Facet Name="L3TT sources">
+          <String Value="Non-diegetic translation" />
+        </Facet>
+        <Facet Name="L3 language type change">
+          <String Value="- Real" />
+          <String Value="+ L-main variety (e.g. dialect, sociolect, idiolect, slang)" />
+        </Facet>
+        <Facet Name="L3 mode change">
+          <String Value="- Oral diegetic on-screen" />
+          <String Value="+ Oral non-diegetic" />
+          <String Value="+ Written non-diegetic" />
+        </Facet>
+        <Facet Name="L3 functions change">
+          <String Value="+ Dramatic effect" />
+        </Facet>
+        <Facet Name="Conversation features for L3-instance change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 sources change">
+          <String Value="- Oral L3: single source" />
+          <String Value="+ Non-diegetic translation" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="LoveActually" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="LoveActually.JamieProposesToAurelia" />
+        </Facet>
+        <Facet Name="L3ST-instance Reference Id">
+          <String Value="LoveActually.JamieProposesToAurelia.Jamie in Portuguese" />
         </Facet>
       </Facets>
     </Item>
@@ -26973,20 +27214,72 @@
         </Facet>
       </Facets>
     </Item>
-    <Item Id="LoveActually.Lake Scene.After Lake.SpanishDub" Name="Lake Scene. After Lake. SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.Lake Scene&amp;L3STinstance=LoveActually.Lake Scene.After Lake&amp;L3TTinstance=LoveActually.Lake Scene.After Lake.SpanishDub">
+    <Item Id="LoveActually.JamieProposesToAurelia.TheyGreet.SpanishAD" Name="LoveActually.JamieProposesToAurelia.TheyGreet.SpanishAD" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.JamieProposesToAurelia&amp;L3STinstance=LoveActually.JamieProposesToAurelia.TheyGreet&amp;L3TTinstance=LoveActually.JamieProposesToAurelia.TheyGreet.SpanishAD">
+      <Description>Jamie arrives at the restaurant where Aurélia works in order to propose her. He speaks in Portuguese, a language he has been learning for this purpose. Aurélia accepts, in English, a language she has learnt in parallel.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="LoveActually.JamieProposesToAurelia.TheyGreet.SpanishAD" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="AD. Él le acaricia la mejilla y Aurelia el pecho. Se besan con ternura. Jamie le acaricia el pelo. La hermana le toca en el hombro y lo besa en la boca. El padre se acerca a él e imita a su hija. Jamie los mira divertido." />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2018-09-23T05:09:31" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2018-09-23T05:10:50" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="evaespasa" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="118" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="I. 161-180" />
+        </Facet>
+        <Facet Name="L3 language type change">
+          <String Value="- Real" />
+          <String Value="+ " />
+        </Facet>
+        <Facet Name="L3 mode change">
+          <String Value="- Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3 functions change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="Conversation features for L3-instance change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 sources change">
+          <String Value="- Oral L3: different sources " />
+          <String Value="+ " />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="LoveActually" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="LoveActually.JamieProposesToAurelia" />
+        </Facet>
+        <Facet Name="L3ST-instance Reference Id">
+          <String Value="LoveActually.JamieProposesToAurelia.TheyGreet" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="LoveActually.Lake Scene.After Lake.SpanishAD" Name="LoveActually.Lake Scene.After Lake.SpanishAD" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.Lake Scene&amp;L3STinstance=LoveActually.Lake Scene.After Lake&amp;L3TTinstance=LoveActually.Lake Scene.After Lake.SpanishAD">
       <Description>After the lake incident, Jamie and Aurelia discuss about Jamie's book, each in their native tongue and with non-verbal cues.</Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="LoveActually.Lake Scene.After Lake.SpanishDub" />
+          <String Value="LoveActually.Lake Scene.After Lake.SpanishAD" />
         </Facet>
         <Facet Name="Transcription">
-          <String Value="Jamie: Gracias, muchísimas gracias. Le pondré tu nombre a uno de mis personajes.&#xD;&#xA;&#xD;&#xA;Aurelia (ST) Podrías ponerle mi nombre&#xD;&#xA;a uno de los personajes.&#xD;&#xA;&#xD;&#xA;Aurelia (ST) O darme el 50% de los beneficios.&#xD;&#xA;&#xD;&#xA;Jamie: O podría darte el 5% de los beneficios.&#xD;&#xA;&#xD;&#xA;Aurelia (ST)¿Qué tipo de novela es?&#xD;&#xA;&#xD;&#xA;Aurelia (ST) - ¿Romántica?&#xD;&#xA;Jamie: Sí, es... (sounds and gestures)&#xD;&#xA;&#xD;&#xA;Aurelia (ST) Policiaca... De crimen...&#xD;&#xA;&#xD;&#xA;Jamie: Sí, sí, sí, sí, sí, crimen, crimen. Asesinatos.&#xD;&#xA;Aurelia (ST) ¿Aterradora?&#xD;&#xA;&#xD;&#xA;Jamie: ¿Miedo?  Sí, a veces da miedo. A veces no. Sobre todo lo que da miedo es lo malo que soy escribiendo. &#xD;&#xA;Aurelia (ST)  Vuelvo al trabajo.&#xD;&#xA;&#xD;&#xA;Aurelia (ST) ¿Luego me llevas a casa?&#xD;&#xA;&#xD;&#xA;Jamie: Claro. Es el momento más feliz del día, acompañarte a casa.&#xD;&#xA;Aurelia (ST)  Es el momento más triste del dia,&#xD;&#xA;cuando te dejo.&#xD;&#xA;" />
+          <String Value="AD provides visual clues: i. e. visual language replaces lack of common language and AD helps to convey this. There is a combination of AD narration and AST (Audio subtitles), mostly similar to subtitles for general audience.&#xD;&#xA;48.11. AD. Ya seco, Jamie lleva dos tazas al salón.&#xD;&#xA;Jamie: Gracias, muchísimas gracias. Le pondré tu nombre a uno de mis personajes.&#xD;&#xA;Aurelia (ST=AST) Podrías ponerle mi nombre/a uno de los personajes.&#xD;&#xA;Aurelia (ST=AST) O darme el 50% de los beneficios.&#xD;&#xA;Jamie: O podría darte el 5% de los beneficios.&#xD;&#xA;AD. Sonríen. &#xD;&#xA;48.34. Aurelia (AST)¿Qué tipo de libro es?(vs ST¿Qué tipo de novela es?)&#xD;&#xA;48.38. AD. Simula llorar.&#xD;&#xA;Aurelia  ¿Romántica? (ST=AST)&#xD;&#xA;Jamie: Sí, es... &#xD;&#xA;48.43. AD. Se pone una mano sobre el pecho y cierra los ojos.&#xD;&#xA;Aurelia (Portuguese dialogue, no ST or AST). Romance?&#xD;&#xA;48.48. AD. Simula clavarle un cuchillo y estrangularla&#xD;&#xA;Aurelia Policíaca... De crimen... (ST=AST)&#xD;&#xA;Jamie: Sí, sí, sí, sí, sí, crimen, crimen. Asesinatos.&#xD;&#xA;Aurelia (AST) ¿De miedo? (cf. ST ¿Aterradora?)&#xD;&#xA;Jamie: ¿Miedo?  Sí, a veces da miedo y a veces no. Sobre todo lo que da miedo es lo malo que soy escribiendo. &#xD;&#xA;AD. Ella se muerde el labio inferior y coge su taza. Sopla el líquido y bebe. La deja en la mesa. [While Jamie looks at her. NO AD on this look, but romantic music sets the mood for the scene.]&#xD;&#xA;Aurelia (AST)  Debería volver al trabajo. (ST  Vuelvo al trabajo).&#xD;&#xA;AD. Se levantan.&#xD;&#xA;Aurelia¿Luego me llevas a casa? (ST=AST)&#xD;&#xA;Jamie: Claro. &#xD;&#xA;49.28.AD. Se miran fijamente.&#xD;&#xA;Jamie. Es el momento más feliz del día, acompañarte a casa.&#xD;&#xA;Aurelia Es el momento más triste del dia,/cuando te dejo. (ST=AST)  &#xD;&#xA;49.44. AD. Se miran a los ojos. Los dos se obstaculizan al separarse. Jamie se aparta y la deja pasar. Aurelia se vuelve un instante y se marcha. (50.00)&#xD;&#xA;" />
         </Facet>
         <Facet Name="Info created">
           <DateTime Value="2016-10-30T05:12:37" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2018-05-12T08:59:38" />
+          <DateTime Value="2018-09-23T12:55:07" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="George" />
@@ -27007,8 +27300,120 @@
         <Facet Name="Film TT Blockbuster">
           <String Value="YES (top 20)" />
         </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="43" />
+        </Facet>
         <Facet Name="Conversation duration (sec)">
-          <String Value="I. 161-180" />
+          <String Value="F. 101-120" />
+        </Facet>
+        <Facet Name="L2 same as L3ST">
+          <String Value="No" />
+        </Facet>
+        <Facet Name="L3ST conveyed as L3TT">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3TT language">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L3TT meant to be understood">
+          <String Value="YES, (almost) completely" />
+        </Facet>
+        <Facet Name="L3TT message required for understanding">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3TT speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3TT mode, written/spoken, diegetic">
+          <String Value="Written non-diegetic" />
+        </Facet>
+        <Facet Name="L3TT merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
+        <Facet Name="L3TT functions">
+          <String Value="Character portrayal" />
+          <String Value="Plot (twist)" />
+          <String Value="Dramatic effect" />
+        </Facet>
+        <Facet Name="Conversation features for L3TT-instance">
+          <String Value="balanced exchange" />
+        </Facet>
+        <Facet Name="L3TT sources">
+          <String Value="Non-diegetic translation" />
+        </Facet>
+        <Facet Name="L3 language type change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 mode change">
+          <String Value="- Written diegetic" />
+          <String Value="+ Written non-diegetic" />
+        </Facet>
+        <Facet Name="L3 functions change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="Conversation features for L3-instance change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 sources change">
+          <String Value="- Oral L3: single source" />
+          <String Value="+ Non-diegetic translation" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="LoveActually" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="LoveActually.Lake Scene" />
+        </Facet>
+        <Facet Name="L3ST-instance Reference Id">
+          <String Value="LoveActually.Lake Scene.After Lake" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="LoveActually.Lake Scene.After Lake.SpanishDub" Name="Lake Scene. After Lake. SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.Lake Scene&amp;L3STinstance=LoveActually.Lake Scene.After Lake&amp;L3TTinstance=LoveActually.Lake Scene.After Lake.SpanishDub">
+      <Description>After the lake incident, Jamie and Aurelia discuss about Jamie's book, each in their native tongue and with non-verbal cues.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="LoveActually.Lake Scene.After Lake.SpanishDub" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="Jamie: Gracias, muchísimas gracias. Le pondré tu nombre a uno de mis personajes.&#xD;&#xA;&#xD;&#xA;Aurelia (ST) Podrías ponerle mi nombre&#xD;&#xA;a uno de los personajes.&#xD;&#xA;&#xD;&#xA;Aurelia (ST) O darme el 50% de los beneficios.&#xD;&#xA;&#xD;&#xA;Jamie: O podría darte el 5% de los beneficios.&#xD;&#xA;&#xD;&#xA;Aurelia (ST)¿Qué tipo de novela es?&#xD;&#xA;&#xD;&#xA;Aurelia (ST) - ¿Romántica?&#xD;&#xA;Jamie: Sí, es... (sounds and gestures)&#xD;&#xA;&#xD;&#xA;Aurelia (ST) Policiaca... De crimen...&#xD;&#xA;&#xD;&#xA;Jamie: Sí, sí, sí, sí, sí, crimen, crimen. Asesinatos.&#xD;&#xA;Aurelia (ST) ¿Aterradora?&#xD;&#xA;&#xD;&#xA;Jamie: ¿Miedo?  Sí, a veces da miedo. A veces no. Sobre todo lo que da miedo es lo malo que soy escribiendo. &#xD;&#xA;Aurelia (ST)  Vuelvo al trabajo.&#xD;&#xA;&#xD;&#xA;Aurelia (ST) ¿Luego me llevas a casa?&#xD;&#xA;&#xD;&#xA;Jamie: Claro. Es el momento más feliz del día, acompañarte a casa.&#xD;&#xA;Aurelia (ST)  Es el momento más triste del dia,&#xD;&#xA;cuando te dejo.&#xD;&#xA;" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-30T05:12:37" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2018-09-23T12:53:21" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="George" />
+          <String Value="evaespasa" />
+        </Facet>
+        <Facet Name="Film Title TT">
+          <String Value="Love Actually" />
+        </Facet>
+        <Facet Name="L2 language">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L2 mode">
+          <String Value="Dubbed" />
+        </Facet>
+        <Facet Name="Year TT released">
+          <Number Value="2003" />
+        </Facet>
+        <Facet Name="Film TT Blockbuster">
+          <String Value="YES (top 20)" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="43" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="F. 101-120" />
         </Facet>
         <Facet Name="L2 same as L3ST">
           <String Value="No" />
@@ -27056,7 +27461,7 @@
           <String Value="+ Written non-diegetic" />
         </Facet>
         <Facet Name="L3 functions change">
-          <String Value="+ Dramatic effect" />
+          <String Value="None" />
         </Facet>
         <Facet Name="Conversation features for L3-instance change">
           <String Value="None" />
@@ -27181,6 +27586,117 @@
         </Facet>
       </Facets>
     </Item>
+    <Item Id="LoveActually.Lake Scene.Parallel monologues.SpanishAD" Name="LoveActually.Lake Scene.Parallel monologues.SpanishAD" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.Lake Scene&amp;L3STinstance=LoveActually.Lake Scene.Parallel monologues&amp;L3TTinstance=LoveActually.Lake Scene.Parallel monologues.SpanishAD">
+      <Description>Jamie and Aurelia think aloud, in English and in Portuguese, respectively, about the incident in the lake.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="LoveActually.Lake Scene.Parallel monologues.SpanishAD" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="46.43. AD. Los folios vuelan hasta el agua. Ella corre a cogerlos.&#xD;&#xA; (AD partially overlaps with Aurelia’s and Jamie’s words expressing distress at flying sheets of paper.Aurelia’s initial words, in Portuguese, are not audio subtitled (AST).&#xD;&#xA;After that, dialogue is audiosubtitled after Aurelia jumps to the water. Audiosubtitles (AST)are nearly identical to the subtitles offered for general audiences (ST).&#xD;&#xA;&#xD;&#xA;47.27. &#xD;&#xA;A:¡Joder! ¡Está fría!  (versus ST ¡Joder! ¡Qué fría!)&#xD;&#xA;A: Más vale que esto sea bueno. (AST =ST)&#xD;&#xA;&#xD;&#xA;A: No quiero ahogarme salvando una mierda&#xD;&#xA;que podría haber escrito mi abuela. (AST =ST)&#xD;&#xA;A: ¿Qué idiota no hace copias? (AST =ST)&#xD;&#xA;A: No molestes a las anguilas. (AST =ST)&#xD;&#xA;48.06. AD. Se miran y sonríen. [Film image, medium shot shown briefly, but rightly considered important for the narrative in AD script.]&#xD;&#xA;" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2016-10-30T05:00:49" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2018-09-23T04:42:54" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="George" />
+          <String Value="evaespasa" />
+        </Facet>
+        <Facet Name="Film Title TT">
+          <String Value="Love Actually" />
+        </Facet>
+        <Facet Name="L2 language">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L2 mode">
+          <String Value="Subtitled" />
+        </Facet>
+        <Facet Name="Distribution countries (TT)">
+          <String Value="Spain" />
+        </Facet>
+        <Facet Name="Year TT released">
+          <Number Value="2003" />
+        </Facet>
+        <Facet Name="Film TT Blockbuster">
+          <String Value="YES (top 20)" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="43" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="F. 101-120" />
+        </Facet>
+        <Facet Name="L2 same as L3ST">
+          <String Value="No" />
+        </Facet>
+        <Facet Name="L3ST conveyed as L3TT">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3TT language">
+          <String Value="Spanish" />
+        </Facet>
+        <Facet Name="L3TT meant to be understood">
+          <String Value="YES, (almost) completely" />
+        </Facet>
+        <Facet Name="L3TT message required for understanding">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3TT speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3TT mode, written/spoken, diegetic">
+          <String Value="Written diegetic" />
+        </Facet>
+        <Facet Name="L3TT merely represented">
+          <String Value="NO / Not applicable" />
+        </Facet>
+        <Facet Name="L3TT functions">
+          <String Value="Character portrayal" />
+          <String Value="Plot (twist)" />
+          <String Value="Dramatic effect" />
+        </Facet>
+        <Facet Name="Conversation features for L3TT-instance">
+          <String Value="balanced exchange" />
+        </Facet>
+        <Facet Name="L3TT sources">
+          <String Value="Oral L3: single source" />
+        </Facet>
+        <Facet Name="L3 language type change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 mode change">
+          <String Value="- Oral diegetic on-screen" />
+          <String Value="+ Written diegetic" />
+        </Facet>
+        <Facet Name="L3 functions change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="Conversation features for L3-instance change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 sources change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="LoveActually" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="LoveActually.Lake Scene" />
+        </Facet>
+        <Facet Name="L3ST-instance Reference Id">
+          <String Value="LoveActually.Lake Scene.Parallel monologues" />
+        </Facet>
+      </Facets>
+    </Item>
     <Item Id="LoveActually.Lake Scene.Parallel monologues.SpanishDub" Name="Lake Scene. Parallel monologues. SpanishDub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=LoveActually&amp;conversation=LoveActually.Lake Scene&amp;L3STinstance=LoveActually.Lake Scene.Parallel monologues&amp;L3TTinstance=LoveActually.Lake Scene.Parallel monologues.SpanishDub">
       <Description>Jamie and Aurelia think aloud, in English and in Portuguese, respectively, about the incident in the lake.</Description>
       <Facets>
@@ -27297,11 +27813,11 @@
           <DateTime Value="2016-10-30T05:00:49" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-11-03T04:16:28" />
+          <DateTime Value="2018-09-23T12:40:33" />
         </Facet>
         <Facet Name="Metadata Editors">
-          <String Value="evaespasa" />
           <String Value="George" />
+          <String Value="evaespasa" />
         </Facet>
         <Facet Name="Film Title TT">
           <String Value="Love Actually" />
@@ -27321,8 +27837,11 @@
         <Facet Name="Film TT Blockbuster">
           <String Value="YES (top 20)" />
         </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="43" />
+        </Facet>
         <Facet Name="Conversation duration (sec)">
-          <String Value="I. 161-180" />
+          <String Value="F. 101-120" />
         </Facet>
         <Facet Name="L2 same as L3ST">
           <String Value="No" />

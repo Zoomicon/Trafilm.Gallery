@@ -55,7 +55,7 @@
           <DateTime Value="2016-10-30T05:12:37" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2018-05-12T08:59:38" />
+          <DateTime Value="2018-09-23T12:53:21" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="George" />
@@ -76,8 +76,11 @@
         <Facet Name="Film TT Blockbuster">
           <String Value="YES (top 20)" />
         </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="43" />
+        </Facet>
         <Facet Name="Conversation duration (sec)">
-          <String Value="I. 161-180" />
+          <String Value="F. 101-120" />
         </Facet>
         <Facet Name="L2 same as L3ST">
           <String Value="No" />
@@ -125,7 +128,7 @@
           <String Value="+ Written non-diegetic" />
         </Facet>
         <Facet Name="L3 functions change">
-          <String Value="+ Dramatic effect" />
+          <String Value="None" />
         </Facet>
         <Facet Name="Conversation features for L3-instance change">
           <String Value="None" />
