@@ -7457,10 +7457,11 @@ https://www.imdb.com/title/tt0299658/trivia?ref_=ttgf_ql_1
           <DateTime Value="2016-12-30T07:13:06" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2016-12-30T07:34:00" />
+          <DateTime Value="2019-03-28T05:25:19" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="corrius" />
+          <String Value="miquelpt" />
         </Facet>
         <Facet Name="Conversation start time (min)">
           <Number Value="4" />
@@ -7476,6 +7477,18 @@ https://www.imdb.com/title/tt0299658/trivia?ref_=ttgf_ql_1
         </Facet>
         <Facet Name="L3ST language">
           <String Value="French" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="YES, the gist, the implications of what is happening" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Conversation can be followed regardless of meaning" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3ST speaker performance">
+          <String Value="native or proficient" />
         </Facet>
         <Facet Name="L3ST mode, written/spoken, diegetic">
           <String Value="Oral non-diegetic" />
@@ -7732,13 +7745,23 @@ https://www.imdb.com/title/tt0299658/trivia?ref_=ttgf_ql_1
           <DateTime Value="2018-05-10T03:07:24" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2018-05-10T03:11:09" />
+          <DateTime Value="2019-03-28T05:24:49" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="lorenahurtado-malillos" />
+          <String Value="miquelpt" />
         </Facet>
         <Facet Name="Main (L1) language">
           <String Value="English" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="YES, the gist, the implications of what is happening" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Conversation can be followed regardless of meaning" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
         </Facet>
         <Facet Name="L3TT-instances: count">
           <Number Value="0" />
@@ -7761,13 +7784,23 @@ https://www.imdb.com/title/tt0299658/trivia?ref_=ttgf_ql_1
           <DateTime Value="2018-05-10T04:11:30" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2018-05-10T04:13:12" />
+          <DateTime Value="2019-03-28T05:28:43" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="lorenahurtado-malillos" />
+          <String Value="miquelpt" />
         </Facet>
         <Facet Name="Main (L1) language">
           <String Value="English" />
+        </Facet>
+        <Facet Name="L3ST meant to be understood">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="L3ST message required for understanding">
+          <String Value="Conversation can be followed regardless of meaning" />
+        </Facet>
+        <Facet Name="L3ST meaning decipherable">
+          <String Value="NO" />
         </Facet>
         <Facet Name="L3TT-instances: count">
           <Number Value="0" />
