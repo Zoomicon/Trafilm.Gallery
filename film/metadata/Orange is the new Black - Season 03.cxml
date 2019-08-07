@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Collection SchemaVersion="1.0" Name="Orange is the new Black - Season 03" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
-    <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film/Season title" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Type" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Duration (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
@@ -22,9 +21,10 @@
     <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Orange is the new Black - Season 03" Name="Orange is the new Black - Season 03" Img="http://msmagazine.com/blog/wp-content/uploads/2013/07/2521756.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Orange is the new Black - Season 03">
+    <Item Id="Orange is the new Black - Season 03" Name="Orange is the new Black - Season 03" Img="https://upload.wikimedia.org/wikipedia/en/4/41/Orange_Is_the_New_Black_Season_3.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Orange is the new Black - Season 03">
       <Description>Convicted of a decade old crime of transporting drug money to an ex-girlfriend, normally law abiding Piper Chapman is sentenced to a year and a half behind bars to face the reality of how life changing prison can really be.
 
 (By IMDB)</Description>
@@ -36,11 +36,12 @@
           <DateTime Value="2017-06-04T11:47:25" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2018-04-21T12:58:21" />
+          <DateTime Value="2019-08-07T09:46:00" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="AnnaGallardo" />
           <String Value="George" />
+          <String Value="stavroula" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Orange is the new Black - Season 03" />

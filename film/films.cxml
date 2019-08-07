@@ -593,7 +593,7 @@ During the evacuation of the camp, Ian expresses his love for Louise. They talk 
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Avatar" Name="Avatar" Img="http://www.movie-poster-artwork-finder.com/wp-content/uploads/2012/10/avatar-2009-poster-artwork-sam-worthington-zoe-saldana-stephen-lang.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Avatar">
+    <Item Id="Avatar" Name="Avatar" Img="https://upload.wikimedia.org/wikipedia/el/5/5f/Avatar_JamesCameron_poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Avatar">
       <Description>Epic science fiction film set in the mid-22nd century, when humans are colonizing Pandora, a lush habitable moon of a gas giant in the Alpha Centauri star system, in order to mine the mineral unobtanium, a room-temperature superconductor. The expansion of the mining colony threatens the continued existence of a local tribe of Na'vi – a humanoid species indigenous to Pandora. The film's title refers to a genetically engineered Na'vi body with the mind of a remotely located human that is used to interact with the natives of Pandora.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -609,13 +609,13 @@ During the evacuation of the camp, Ian expresses his love for Louise. They talk 
           <DateTime Value="2016-10-07T12:30:57" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-11-28T02:58:46" />
+          <DateTime Value="2019-08-07T09:32:18" />
         </Facet>
         <Facet Name="Metadata Editors">
-          <String Value="Stavroula" />
           <String Value="PatrickZabalbeascoa" />
           <String Value="corrius" />
           <String Value="George" />
+          <String Value="stavroula" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Avatar" />
@@ -658,7 +658,7 @@ During the evacuation of the camp, Ian expresses his love for Louise. They talk 
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Babel" Name="Babel" Img="https://images-na.ssl-images-amazon.com/images/M/MV5BMjEzMzg4NTIyOF5BMl5BanBnXkFtZTcwNjM3MzgzMQ@@._V1_UX182_CR0,0,182,268_AL_.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Babel">
+    <Item Id="Babel" Name="Babel" Img="https://upload.wikimedia.org/wikipedia/en/9/9e/Babel_poster.png" Href="http://gallery.trafilm.net/film/metadata/?film=Babel">
       <Description>A tragic accident in Morocco results in a series of events that will unite four groups of people, who are separated by cultural differences and big distances but who share a connecting destiny.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -677,11 +677,12 @@ During the evacuation of the camp, Ian expresses his love for Louise. They talk 
           <DateTime Value="2016-12-27T06:32:50" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-11-28T02:59:00" />
+          <DateTime Value="2019-08-07T09:32:36" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="corrius" />
           <String Value="George" />
+          <String Value="stavroula" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Babel" />
@@ -1220,7 +1221,7 @@ Source: https://www.imdb.com/title/tt0372784/?ref_=nv_sr_1</Description>
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Blade Runner" Name="Blade Runner" Img="https://upload.wikimedia.org/wikipedia/en/5/53/Blade_Runner_poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Blade Runner">
+    <Item Id="Blade Runner" Name="Blade Runner" Img="https://upload.wikimedia.org/wikipedia/en/9/9b/Blade_Runner_2049_poster.png" Href="http://gallery.trafilm.net/film/metadata/?film=Blade Runner">
       <Description>The story takes place in a futuristic society in L.A. in 2019. Rick Deckard becomes a "Blade Runner" (Blade Runners are people trained to destroy any Replicants in the Earth). </Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -1234,11 +1235,12 @@ Source: https://www.imdb.com/title/tt0372784/?ref_=nv_sr_1</Description>
           <DateTime Value="2016-11-29T10:50:36" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-11-28T02:59:54" />
+          <DateTime Value="2019-08-07T09:42:12" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="corrius" />
           <String Value="George" />
+          <String Value="stavroula" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Blade Runner" />
@@ -1677,7 +1679,7 @@ Source: https://www.imdb.com/title/tt0299658/</Description>
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Coco" Name="Coco" Img="http://www.fotogramas.es/var/ezflow_site/storage/images/peliculas/coco/124332323-4-esl-ES/Coco.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Coco">
+    <Item Id="Coco" Name="Coco" Img="https://upload.wikimedia.org/wikipedia/en/9/98/Coco_%282017_film%29_poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Coco">
       <Description>Aspiring musician Miguel, confronted with his family's ancestral ban on music, enters the Land of the Dead to find his great-great-grandfather, a legendary singer.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -1693,10 +1695,11 @@ Source: https://www.imdb.com/title/tt0299658/</Description>
           <DateTime Value="2018-04-18T09:24:30" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2018-04-18T09:28:27" />
+          <DateTime Value="2019-08-07T09:33:59" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="lorenahurtado-malillos" />
+          <String Value="stavroula" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Coco" />
@@ -1722,7 +1725,7 @@ Source: https://www.imdb.com/title/tt0299658/</Description>
           <String Value="English" />
         </Facet>
         <Facet Name="Conversations: count">
-          <Number Value="0" />
+          <Number Value="2" />
         </Facet>
       </Facets>
     </Item>
@@ -2409,10 +2412,10 @@ Source: https://www.imdb.com/title/tt0299658/</Description>
           <DateTime Value="2018-05-24T07:10:22" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2018-05-29T01:46:26" />
+          <DateTime Value="2019-08-07T09:49:13" />
         </Facet>
         <Facet Name="Metadata Editors">
-          <String Value="Stavroula" />
+          <String Value="stavroula" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Gilmore Girls - Season 6" />
@@ -2428,6 +2431,9 @@ Source: https://www.imdb.com/title/tt0299658/</Description>
         </Facet>
         <Facet Name="Blockbuster">
           <String Value="YES (top 20)" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2005" />
         </Facet>
         <Facet Name="Main language (L1)">
           <String Value="English" />
@@ -3573,7 +3579,7 @@ Source: https://www.imdb.com/title/tt0299658/</Description>
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Madagascar" Name="Madagascar" Img="https://i.pinimg.com/originals/98/d4/49/98d44971dcb5e5b129371e380ab75e4e.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Madagascar">
+    <Item Id="Madagascar" Name="Madagascar" Img="https://upload.wikimedia.org/wikipedia/en/3/36/Madagascar_Theatrical_Poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Madagascar">
       <Description>Spoiled by their upbringing and unaware of what wildlife really is, four animals from the New York Central Zoo escape, unwittingly assisted by four absconding penguins, and find themselves in Madagascar.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -3589,10 +3595,11 @@ Source: https://www.imdb.com/title/tt0299658/</Description>
           <DateTime Value="2018-04-18T08:18:42" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2018-04-18T09:28:59" />
+          <DateTime Value="2019-08-07T09:44:01" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="lorenahurtado-malillos" />
+          <String Value="stavroula" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Madagascar" />
@@ -3618,7 +3625,7 @@ Source: https://www.imdb.com/title/tt0299658/</Description>
           <String Value="English" />
         </Facet>
         <Facet Name="Conversations: count">
-          <Number Value="0" />
+          <Number Value="2" />
         </Facet>
       </Facets>
     </Item>
@@ -3989,7 +3996,7 @@ Source: https://www.imdb.com/title/tt0299658/</Description>
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Narcos-Season 2" Name="Narcos - Season 2" Img="http://solopormega.com/wp-content/uploads/2015/09/narcos.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Narcos-Season 2">
+    <Item Id="Narcos-Season 2" Name="Narcos - Season 2" Img="https://upload.wikimedia.org/wikipedia/en/0/01/Narcos_season_2.png" Href="http://gallery.trafilm.net/film/metadata/?film=Narcos-Season 2">
       <Description>Crime series narrated by Steve Murphy, an American DEA agent, who is relocated in Colombia to fight drug traffic. His main target is the Medellin cartel, led by Pablo Emilio Escobar Gaviria. </Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -3999,11 +4006,12 @@ Source: https://www.imdb.com/title/tt0299658/</Description>
           <DateTime Value="2017-06-06T07:53:44" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-11-28T03:11:40" />
+          <DateTime Value="2019-08-07T09:35:51" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="roogarca" />
           <String Value="George" />
+          <String Value="stavroula" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Narcos - Season 2" />
@@ -4051,7 +4059,7 @@ Source: https://www.imdb.com/title/tt0299658/</Description>
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Narcos" Name="Narcos - Season 01" Img="http://solopormega.com/wp-content/uploads/2015/09/narcos.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Narcos">
+    <Item Id="Narcos" Name="Narcos - Season 01" Img="https://upload.wikimedia.org/wikipedia/en/b/b9/Narcos_season_1.png" Href="http://gallery.trafilm.net/film/metadata/?film=Narcos">
       <Description>Crime series narrated by Steve Murphy, an American DEA agent, who is relocated in Colombia to fight drug traffic. His main target is the Medellin cartel, led by Pablo Emilio Escobar Gaviria. </Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -4061,11 +4069,12 @@ Source: https://www.imdb.com/title/tt0299658/</Description>
           <DateTime Value="2017-05-24T05:33:47" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-11-28T03:11:48" />
+          <DateTime Value="2019-08-07T09:35:05" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="roogarca" />
           <String Value="George" />
+          <String Value="stavroula" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Narcos - Season 01" />
@@ -4164,7 +4173,7 @@ Source: https://www.imdb.com/title/tt0299658/</Description>
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Orange is the new Black - Season 02" Name="Orange is the new Black - Season 02" Img="http://msmagazine.com/blog/wp-content/uploads/2013/07/2521756.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Orange is the new Black - Season 02">
+    <Item Id="Orange is the new Black - Season 02" Name="Orange is the new Black - Season 02" Img="https://upload.wikimedia.org/wikipedia/en/a/af/Orange_Is_the_New_Black_Season_2.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Orange is the new Black - Season 02">
       <Description>Convicted of a decade old crime of transporting drug money to an ex-girlfriend, normally law abiding Piper Chapman is sentenced to a year and a half behind bars to face the reality of how life changing prison can really be.
 
 (By IMDB)</Description>
@@ -4176,11 +4185,12 @@ Source: https://www.imdb.com/title/tt0299658/</Description>
           <DateTime Value="2017-06-04T10:08:26" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-11-28T03:12:00" />
+          <DateTime Value="2019-08-07T09:45:10" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="AnnaGallardo" />
           <String Value="George" />
+          <String Value="stavroula" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Orange is the new Black - Season 02" />
@@ -4224,7 +4234,7 @@ Source: https://www.imdb.com/title/tt0299658/</Description>
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Orange is the new Black - Season 03" Name="Orange is the new Black - Season 03" Img="http://msmagazine.com/blog/wp-content/uploads/2013/07/2521756.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Orange is the new Black - Season 03">
+    <Item Id="Orange is the new Black - Season 03" Name="Orange is the new Black - Season 03" Img="https://upload.wikimedia.org/wikipedia/en/4/41/Orange_Is_the_New_Black_Season_3.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Orange is the new Black - Season 03">
       <Description>Convicted of a decade old crime of transporting drug money to an ex-girlfriend, normally law abiding Piper Chapman is sentenced to a year and a half behind bars to face the reality of how life changing prison can really be.
 
 (By IMDB)</Description>
@@ -4236,11 +4246,12 @@ Source: https://www.imdb.com/title/tt0299658/</Description>
           <DateTime Value="2017-06-04T11:47:25" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2018-04-21T12:58:21" />
+          <DateTime Value="2019-08-07T09:46:00" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="AnnaGallardo" />
           <String Value="George" />
+          <String Value="stavroula" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Orange is the new Black - Season 03" />
@@ -4281,7 +4292,7 @@ Source: https://www.imdb.com/title/tt0299658/</Description>
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Orange is the new Black - Season 04" Name="Orange is the new Black - Season 04" Img="http://msmagazine.com/blog/wp-content/uploads/2013/07/2521756.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Orange is the new Black - Season 04">
+    <Item Id="Orange is the new Black - Season 04" Name="Orange is the new Black - Season 04" Img="https://upload.wikimedia.org/wikipedia/en/9/99/Orange_Is_the_New_Black_Season_4.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Orange is the new Black - Season 04">
       <Description>Convicted of a decade old crime of transporting drug money to an ex-girlfriend, normally law abiding Piper Chapman is sentenced to a year and a half behind bars to face the reality of how life changing prison can really be.
 
 (By IMDB)</Description>
@@ -4293,11 +4304,12 @@ Source: https://www.imdb.com/title/tt0299658/</Description>
           <DateTime Value="2017-06-04T12:15:13" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-11-28T03:12:14" />
+          <DateTime Value="2019-08-07T09:46:51" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="AnnaGallardo" />
           <String Value="George" />
+          <String Value="stavroula" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Orange is the new Black - Season 04" />
@@ -6970,27 +6982,7 @@ Source: https://www.imdb.com/title/tt0299658/</Description>
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Vikings - season 01" Name="Vikings - season 01" Img="" Href="">
-      <Description></Description>
-      <Facets>
-        <Facet Name="Reference Id">
-          <String Value="Vikings - season 01" />
-        </Facet>
-        <Facet Name="Info created">
-          <DateTime Value="2018-06-05T01:36:26" />
-        </Facet>
-        <Facet Name="Info updated">
-          <DateTime Value="2018-06-05T01:36:26" />
-        </Facet>
-        <Facet Name="Film/Season title">
-          <String Value="Vikings - season 01" />
-        </Facet>
-        <Facet Name="Conversations: count">
-          <Number Value="0" />
-        </Facet>
-      </Facets>
-    </Item>
-    <Item Id="Zootopia" Name="Zootopia" Img="https://upload.wikimedia.org/wikipedia/en/e/ea/Zootopia.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Zootopia">
+    <Item Id="Zootopia" Name="Zootopia" Img="https://upload.wikimedia.org/wikipedia/en/9/96/Zootopia_%28movie_poster%29.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Zootopia">
       <Description>In a city of anthropomorphic animals, a rookie bunny cop and a cynical con artist fox must work together to uncover a conspiracy.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -7000,12 +6992,12 @@ Source: https://www.imdb.com/title/tt0299658/</Description>
           <DateTime Value="2016-08-15T09:39:32" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2018-04-19T01:19:31" />
+          <DateTime Value="2019-08-07T09:39:49" />
         </Facet>
         <Facet Name="Metadata Editors">
-          <String Value="Stavroula" />
           <String Value="Guillermo" />
           <String Value="George" />
+          <String Value="stavroula" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Zootopia" />

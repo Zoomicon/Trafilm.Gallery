@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Collection SchemaVersion="1.0" Name="Blade Runner" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
-    <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film/Season title" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Type" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Duration (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
@@ -22,9 +21,10 @@
     <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Blade Runner" Name="Blade Runner" Img="https://upload.wikimedia.org/wikipedia/en/5/53/Blade_Runner_poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Blade Runner">
+    <Item Id="Blade Runner" Name="Blade Runner" Img="https://upload.wikimedia.org/wikipedia/en/9/9b/Blade_Runner_2049_poster.png" Href="http://gallery.trafilm.net/film/metadata/?film=Blade Runner">
       <Description>The story takes place in a futuristic society in L.A. in 2019. Rick Deckard becomes a "Blade Runner" (Blade Runners are people trained to destroy any Replicants in the Earth). </Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -38,11 +38,12 @@
           <DateTime Value="2016-11-29T10:50:36" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-11-28T02:59:54" />
+          <DateTime Value="2019-08-07T09:42:12" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="corrius" />
           <String Value="George" />
+          <String Value="stavroula" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Blade Runner" />

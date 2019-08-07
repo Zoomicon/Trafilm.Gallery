@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Collection SchemaVersion="1.0" Name="Babel" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
-    <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film/Season title" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Type" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Duration (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
@@ -22,9 +21,10 @@
     <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Babel" Name="Babel" Img="https://images-na.ssl-images-amazon.com/images/M/MV5BMjEzMzg4NTIyOF5BMl5BanBnXkFtZTcwNjM3MzgzMQ@@._V1_UX182_CR0,0,182,268_AL_.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Babel">
+    <Item Id="Babel" Name="Babel" Img="https://upload.wikimedia.org/wikipedia/en/9/9e/Babel_poster.png" Href="http://gallery.trafilm.net/film/metadata/?film=Babel">
       <Description>A tragic accident in Morocco results in a series of events that will unite four groups of people, who are separated by cultural differences and big distances but who share a connecting destiny.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -43,11 +43,12 @@
           <DateTime Value="2016-12-27T06:32:50" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-11-28T02:59:00" />
+          <DateTime Value="2019-08-07T09:32:36" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="corrius" />
           <String Value="George" />
+          <String Value="stavroula" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Babel" />

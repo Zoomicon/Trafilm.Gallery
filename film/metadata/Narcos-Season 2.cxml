@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Collection SchemaVersion="1.0" Name="Narcos - Season 2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
-    <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film/Season title" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Type" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Duration (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
@@ -22,9 +21,10 @@
     <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Narcos-Season 2" Name="Narcos - Season 2" Img="http://solopormega.com/wp-content/uploads/2015/09/narcos.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Narcos-Season 2">
+    <Item Id="Narcos-Season 2" Name="Narcos - Season 2" Img="https://upload.wikimedia.org/wikipedia/en/0/01/Narcos_season_2.png" Href="http://gallery.trafilm.net/film/metadata/?film=Narcos-Season 2">
       <Description>Crime series narrated by Steve Murphy, an American DEA agent, who is relocated in Colombia to fight drug traffic. His main target is the Medellin cartel, led by Pablo Emilio Escobar Gaviria. </Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -34,11 +34,12 @@
           <DateTime Value="2017-06-06T07:53:44" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-11-28T03:11:40" />
+          <DateTime Value="2019-08-07T09:35:51" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="roogarca" />
           <String Value="George" />
+          <String Value="stavroula" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Narcos - Season 2" />

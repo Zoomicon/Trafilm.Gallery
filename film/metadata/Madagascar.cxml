@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Collection SchemaVersion="1.0" Name="Madagascar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
-    <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film/Season title" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Type" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Duration (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
@@ -22,9 +21,10 @@
     <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Madagascar" Name="Madagascar" Img="https://i.pinimg.com/originals/98/d4/49/98d44971dcb5e5b129371e380ab75e4e.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Madagascar">
+    <Item Id="Madagascar" Name="Madagascar" Img="https://upload.wikimedia.org/wikipedia/en/3/36/Madagascar_Theatrical_Poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Madagascar">
       <Description>Spoiled by their upbringing and unaware of what wildlife really is, four animals from the New York Central Zoo escape, unwittingly assisted by four absconding penguins, and find themselves in Madagascar.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -40,10 +40,11 @@
           <DateTime Value="2018-04-18T08:18:42" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2018-04-18T09:28:59" />
+          <DateTime Value="2019-08-07T09:44:01" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="lorenahurtado-malillos" />
+          <String Value="stavroula" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Madagascar" />
@@ -69,7 +70,7 @@
           <String Value="English" />
         </Facet>
         <Facet Name="Conversations: count">
-          <Number Value="0" />
+          <Number Value="2" />
         </Facet>
       </Facets>
     </Item>
