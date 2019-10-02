@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Collection SchemaVersion="1.0" Name="Lethal Weapon 4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+  <FacetCategories>
+    <FacetCategory Name="Film/Season title" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Type" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Duration (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Series" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Director(s)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Scriptwriter(s)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Production countries" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Production companies" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Blockbuster" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Year ST released" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Main language (L1)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L2-Dubbed languages" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L2-Subtitled languages" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Conversations: count" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Tags" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+  </FacetCategories>
+  <Items xmlns="">
+    <Item Id="Lethal Weapon 4" Name="Lethal Weapon 4" Img="https://upload.wikimedia.org/wikipedia/en/a/a4/Lethal_Weapon_4_Poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Lethal Weapon 4">
+      <Description>Lorna Cole (Rene Russo) is pregnant with LAPD Sergeant Martin Riggs' baby; they are not married, but both are thinking about it. LAPD Sergeant Roger Murtaugh's daughter Rianne (Tracie Wolfe), is also pregnant. Due to issues with the department's insurance carrier over Riggs and Murtaugh's actions as sergeants, the Police Chief has Captain Murphy (Steve Kahan) promote them to captains.
+
+The officers along with Leo Getz (Joe Pesci) come upon a Chinese immigrant smuggling ring after running an ocean-going vessel aground, though the captain of the boat escapes. In the subsequent investigation, Murtaugh finds Hong (Eddy Ko) and his family hiding from US Immigration officers to avoid deportation. Murtaugh offers them shelter in his home, and their families, along with Riggs and Cole, quickly bond. Hong reveals he is looking for his uncle, a skilled engraver, who had paid for their passage to the United States. Riggs discovers through Lorna that Murtaugh's yet-to-be-born grandchild from Rianne is by Detective Lee Butters (Chris Rock), which Murtaugh cannot possibly tolerate as he did not want his daughter to marry a police officer, and that Murtaugh still does not know who the father is due to the family hiding it from him.
+
+Continued investigation of the smuggling ring leads the officers to "Uncle" Benny Chan, a crime boss operating from a Chinatown restaurant. There, they are introduced to high-ranking Triad negotiator Wah Sing Ku (Jet Li). Chan forces them out of his restaurant when the officers show no probable cause. Outside, Riggs spots the escaped captain and tries to give chase but fails to capture him. However, Ku later intercepts the captain and kills him as punishment for attracting the police's attention. Chan and Ku take steps to eliminate all those in on their plans.
+
+Hong is able to contact his uncle, but this leads the Triads to Murtaugh's house. Ku and the Triad thugs kidnap the Hongs, tie up Murtaugh, his family, Riggs and Cole and set the house ablaze. Ping, Hong's grandson, has evaded capture and helps to free the others in time. Though Riggs and Murtaugh chase down and kill some of the Triad members, Ku escapes. Ku brings Hong to his uncle at a warehouse, where he has been engraving plates for a counterfeiting operation for Ku and Chan in exchange for transit for his family. Ku kills Hong in front of his uncle to assure his continued work.
+
+The officers confront Chan at his dentist's office (using Getz as a distraction) to interogate him for more information but are unable to get any leads, and during which Riggs and Butters accidentally reveal (from inhaling the laughing gas they used to interogate Chan) that Butters is the father of Rianne's child. Later, as they discuss what they know with Detective Ng (Calvin Jung), who has worked on cases involving the Chinese government before, Ng recognizes that Ku must be trying to negotiate with a corrupt Chinese general for the release of the Four Fathers, high-ranking Triad members that include Ku's brother (Conan Lee). New information leads them to the abandoned warehouse where they find the bodies of Hong, his uncle, and Chan, the latter two killed by Ku after they served their usefulness. Knowing that Ku plans to use counterfeit money, the police intercept the exchange between Ku and the general, telling the general that the money is fake. The enraged general reacts by executing most of the Four Fathers before being shot and killed by the Triads, at which a firefight breaks out between the Triad, the general's private army and the police, and most of the Triad and army are killed. Ku attempts to escape with his brother, but his brother is shot and killed by Murtaugh (who was aiming at Ku). Riggs and Murtaugh pursue Ku to a pier where they engage him in a brutal fistfight. Murtaugh impales Ku through the stomach with a rebar before being knocked out by Ku, after which the pier collapses and sends Riggs and Ku into the water. Riggs is able to find a Kalashnikov assault rifle and finish off Ku, while Murtaugh recovers in time to rescue Riggs from a piece of concrete that had pinned him underwater.
+
+Later, Riggs visits his dead wife's grave and asks her for advice about his impending marriage with Lorna, about which he still has doubts; Getz arrives and offers a heartfelt childhood story (where in the process, he admits that Riggs and Murtaugh are like his family) that gives Riggs both a new light on the situation and a new perspective of Getz, himself. They soon discover Lorna is about to give birth and race to the hospital, where Riggs and Lorna are ceremonially married by a rabbi just before she enters labor. Their son and Rianne's daughter are born, and Murtaugh accepts Butters as his son-in-law (due to the latter having taken a bullet for him during the shootout). Murphy gives Riggs and Murtaugh their rank of Sergeant back since the city is insured again and Hong's family is granted asylum.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Lethal Weapon 4" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2019-10-01T09:34:22" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2019-10-01T09:37:42" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="stavroula" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Lethal Weapon 4" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="Feature film" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="127" />
+        </Facet>
+        <Facet Name="Series">
+          <String Value="Lethal Weapon" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="Richard Donner" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="USA" />
+        </Facet>
+        <Facet Name="Blockbuster">
+          <String Value="YES (top 20)" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="1998" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+  </Items>
+</Collection>
