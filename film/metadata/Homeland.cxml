@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Collection SchemaVersion="1.0" Name="Homeland Season 05" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+  <FacetCategories>
+    <FacetCategory Name="Film/Season title" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Type" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Duration (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Series" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Director(s)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Scriptwriter(s)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Production countries" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Production companies" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Blockbuster" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Year ST released" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Main language (L1)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L2-Dubbed languages" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L2-Subtitled languages" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Conversations: count" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Tags" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+  </FacetCategories>
+  <Items xmlns="">
+    <Item Id="Homeland" Name="Homeland Season 05" Img="https://upload.wikimedia.org/wikipedia/ca/0/03/Homelandposter.jpg?download" Href="http://gallery.trafilm.net/film/metadata/?film=Homeland">
+      <Description>Almost two years after the Embassy attack in Islamabad, Carrie is building a new life in Berlin. But her peace is threatened when a request from her boss forces her back into the dangerous world she left behind.
+Source: imdb
+https://www.imdb.com/title/tt1796960/episodes?season=5&amp;ref_=tt_eps_sn_5</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Homeland" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2020-01-22T03:47:04" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2020-01-22T07:06:34" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="evaespasa" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Homeland Season 05" />
+        </Facet>
+        <Facet Name="Type">
+          <String Value="TV series season" />
+        </Facet>
+        <Facet Name="Duration (min)">
+          <Number Value="58" />
+        </Facet>
+        <Facet Name="Series">
+          <String Value="Homeland" />
+        </Facet>
+        <Facet Name="Director(s)">
+          <String Value="5.1 Lesli Linka Glatter" />
+          <String Value=" 5.2 Lesli Linka Glatter" />
+          <String Value=" 5.3 Keith Gordon" />
+          <String Value=" 5.3 John Coles" />
+          <String Value=" 5.4 John Coles" />
+          <String Value=" 5.5 Michael Offer" />
+          <String Value=" 5.6 Alex Graves" />
+          <String Value=" 5.7 Lesli Linka Glatter" />
+          <String Value=" 5.8 Dan Attias" />
+          <String Value="  5.9 Tucker Gates" />
+          <String Value=" 5.10 Dan Attias" />
+          <String Value=" 5.11 Seith Mann" />
+          <String Value=" 5.12 Lesli Linka Glatter" />
+        </Facet>
+        <Facet Name="Scriptwriter(s)">
+          <String Value="5.1 Chip Hohannessen" />
+          <String Value=" Ted Mann" />
+          <String Value=" 5.2 Patrick Harbinson" />
+          <String Value=" 5.3 Alex Gansa" />
+          <String Value=" Meredith Stiehm 5.4 Ron Nyswaner" />
+          <String Value=" 5.5. Benjamin Cavell" />
+          <String Value=" Alex Gansa" />
+          <String Value=" 5.6 Chip Hohannessen" />
+          <String Value=" Ted Mann" />
+          <String Value=" 5.7 Alex Gansa" />
+          <String Value=" Patrick Harbinson" />
+          <String Value=" 5.8 Ron Nyswaner" />
+          <String Value=" 5.9 Howard Gordon" />
+          <String Value=" Patrick Harbinson" />
+          <String Value="  5.10 Meredith Stiehm" />
+          <String Value=" Charlotte Stoudt" />
+          <String Value=" 5.11 David Fury" />
+          <String Value=" 5.12 Liz Flahive" />
+          <String Value=" Alex Gansa" />
+          <String Value=" Ron Nyswaner" />
+        </Facet>
+        <Facet Name="Production countries">
+          <String Value="United States" />
+          <String Value=" Germany" />
+        </Facet>
+        <Facet Name="Production companies">
+          <String Value="Teakwood Lane Productions" />
+          <String Value=" Cherry Pie Productions" />
+          <String Value=" Keshet Broadcasting" />
+          <String Value=" Fox 21" />
+          <String Value=" Showtime Networks" />
+          <String Value=" German co-producer: Studio Babelsberg" />
+        </Facet>
+        <Facet Name="Year ST released">
+          <Number Value="2015" />
+        </Facet>
+        <Facet Name="Main language (L1)">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+  </Items>
+</Collection>
