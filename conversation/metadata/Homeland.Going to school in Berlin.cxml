@@ -33,7 +33,7 @@
           <DateTime Value="2020-01-22T07:07:10" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2020-01-22T07:09:08" />
+          <DateTime Value="2020-01-24T08:39:25" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="evaespasa" />
@@ -51,13 +51,19 @@
           <String Value="B. 21-40" />
         </Facet>
         <Facet Name="L3ST languages: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST languages">
+          <String Value="German" />
         </Facet>
         <Facet Name="L3ST language types: count">
-          <Number Value="0" />
+          <Number Value="1" />
+        </Facet>
+        <Facet Name="L3ST language types">
+          <String Value="Real" />
         </Facet>
         <Facet Name="L3ST-instances: count">
-          <Number Value="0" />
+          <Number Value="2" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Homeland" />

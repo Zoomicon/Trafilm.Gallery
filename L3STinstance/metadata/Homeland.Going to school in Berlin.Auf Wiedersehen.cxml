@@ -30,23 +30,23 @@
     <FacetCategory Name="Conversation Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Homeland.Going to school in Berlin.Fräulein" Name="Going to school in Berlin" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Homeland&amp;conversation=Homeland.Going to school in Berlin&amp;L3STinstance=Homeland.Going to school in Berlin.Fräulein">
-      <Description>Carrie takes Frannie to school riding a bycicle. Setting is provided through L3 use, the setting and some background (mostly unintelligible) conversations in German.</Description>
+    <Item Id="Homeland.Going to school in Berlin.Auf Wiedersehen" Name="Going to school in Berlin" Img="" Href="http://gallery.trafilm.net/L3STinstance/metadata/?film=Homeland&amp;conversation=Homeland.Going to school in Berlin&amp;L3STinstance=Homeland.Going to school in Berlin.Auf Wiedersehen">
+      <Description>Carrie takes her daughter, Frannie, to school in Berlin. </Description>
       <Facets>
         <Facet Name="Reference Id">
-          <String Value="Homeland.Going to school in Berlin.Fräulein" />
+          <String Value="Homeland.Going to school in Berlin.Auf Wiedersehen" />
         </Facet>
         <Facet Name="Transcription">
-          <String Value="Carrie:  All right, sweetie. You ready for school? Look, all your friends are here. See? Ilsa and JJ and Fräulein Schnee. And they're gonna be so excited to see you. 'Cause it's your birthday! " />
+          <String Value="Carrie:  All right, sweetie. You ready for school? Look, all your friends are here. See? Ilsa and JJ and Fräulein Schnee. And they're gonna be so excited to see you. 'Cause it's your birthday! What do we say? We say, &quot;Auf Wiedersehen,&quot; which means &quot;Till we see each other again”. Which will be really soon…&#xD;&#xA;Frannie:  I love you.&#xD;&#xA;Carrie:  …At your party. &#xD;&#xA;" />
         </Facet>
-        <Facet Name="Tags">
-          <String Value="setting" />
+        <Facet Name="Remarks">
+          <String Value="Auf Wiedersehen is fairly formal in German; it is unlikely to be used between close friends and family members. It is usually used only with people one would address as Sie, not with those one would address as du.&#xD;&#xA;https://en.wiktionary.org/wiki/auf_Wiedersehen&#xD;&#xA;Probably chosen because of its literal meaning &quot;Till we see each other again&quot;, and to the title and theme of the episode: &quot;Separation Anxiety&quot;.&#xD;&#xA;The word is also more known to non-German speaking audiences than the informal Tschüss.&#xD;&#xA;" />
         </Facet>
         <Facet Name="Info created">
-          <DateTime Value="2020-01-22T07:10:02" />
+          <DateTime Value="2020-01-24T08:20:59" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2020-01-24T08:20:00" />
+          <DateTime Value="2020-01-24T08:27:31" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="evaespasa" />
@@ -73,7 +73,7 @@
           <String Value="Conversation can be followed regardless of meaning" />
         </Facet>
         <Facet Name="L3ST meaning decipherable">
-          <String Value="NO" />
+          <String Value="YES, through translation or clear from picture" />
         </Facet>
         <Facet Name="Quality of L3ST speaker performance">
           <String Value="native or proficient" />
@@ -82,18 +82,17 @@
           <String Value="Oral diegetic on-screen" />
         </Facet>
         <Facet Name="L3ST functions">
-          <String Value="Character portrayal" />
-          <String Value="Signals otherness" />
-          <String Value="Other" />
+          <String Value="Theme" />
+          <String Value="Metalinguistic" />
         </Facet>
         <Facet Name="Conversation features for L3ST-instance">
-          <String Value="introduction" />
+          <String Value="farewell" />
         </Facet>
         <Facet Name="L3ST sources">
           <String Value="Bilingual (L3&amp;main): same source " />
         </Facet>
         <Facet Name="L3TT-instances: count">
-          <Number Value="2" />
+          <Number Value="0" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Homeland" />
