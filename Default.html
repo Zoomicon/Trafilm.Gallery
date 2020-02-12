@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<!--
+Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
+Filename: default_NoFrames.html
+Version: 20200212
+-->
+
+<html>
+
+<head>
+  <title>Trafilm Gallery | The Translation of Multilingual Films in Spain</title>
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=700, user-scalable=yes, initial-scale=0.6" />
+
+  <link rel="shortcut icon" type="image/ico" href='favicon.ico' />
+
+  <script src="seajax/seadragon-pivot-standalone-min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="seajax/css/PivotView.css" />
+  <link rel="stylesheet" type="text/css" href="css/gallery.css" />
+  
+  <script type="text/javascript">
+  
+  function ready(callback){ //see https://stackoverflow.com/a/7053197
+    // in case the document is already rendered
+    if (document.readyState!='loading') callback();
+    // modern browsers
+    else if (document.addEventListener) document.addEventListener('DOMContentLoaded', callback);
+    // IE <= 8
+    else document.attachEvent('onreadystatechange', function(){
+        if (document.readyState=='complete') callback();
+    });
+  }
+  
+  ////////////////////////////////
+
+  var pivotFilms, pivotConversations, pivotL3STinstances, pivotL3TTinstances; 
+  
+  var readyCallback = function(){
+    pivotFilms = document.getElementById("viewerFilms").pivotViewer;
+    pivotConversations = document.getElementById("viewerConversations").pivotViewer;
+    pivotL3STinstances = document.getElementById("viewerL3STinstances").pivotViewer;
+    pivotL3TTinstances = document.getElementById("viewerL3TTinstances").pivotViewer;
+  
+    if (pivotFilms === undefined ||
+        pivotConversations === undefined ||
+        pivotL3STinstances === undefined ||
+        pivotL3TTinstances === undefined)
+    {
+      setTimeout(function(){ ready(readyCallback); }, 100);
+      return;
+    }
+    
+    var bind = function(parentPivot, parentFacet, childPivot, childParentFacet) {
+      var bindOneWay = function(parentPivot, parentFacet, childPivot, childParentFacet) {
+        parentPivot.addListener("finishedRearrange", function () {
+          var activeItems = parentPivot.getActiveItems(); //runFiltersWithout(null); //TODO: without getActiveItems can use official seajax distro
+          
+          var activeValues = activeItems.map(function (item) { return (!parentFacet)?item.id:item.facets[parentFacet][0] });
+          if (activeValues.length===1) activeValues.push(activeValues[0]); //workarround for filterrequest's special handling of length===1
+          
+          //activeValues.forEach(function (value) { console.log(value); });
+
+          childPivot.trigger("filterrequest", {
+                        facet: childParentFacet,
+                        values: activeValues,
+                        type: "String"
+          });
+        });
+      };
+                      
+      bindOneWay(parentPivot, parentFacet, childPivot, childParentFacet); //propagate from parent to child
+      //bindOneWay(childPivot, childParentFacet, parentPivot, parentFacet); //propagate from child to parent //TODO: fix, seems to loop (could check at "filterRequest" if items differs from activeItems to propagate further via "filterrrequest"
+    };
+     
+    //propagate pivot active items change
+    bind(pivotFilms, "Reference Id", pivotConversations, "Film Reference Id");
+    bind(pivotConversations, "Reference Id", pivotL3STinstances, "Conversation Reference Id");
+    bind(pivotL3STinstances, "Reference Id", pivotL3TTinstances, "L3ST-instance Reference Id");   
+  }; //readyCallback
+
+  ready(readyCallback);
+  </script>  
+  
+</head>
+
+<body>
+  <div class="container">
+    <div id="viewerFilms" class="pivot_ajax_viewer" data-collection="collection/films.cxml" data-use-hash="false"></div>
+  </div>
+
+  <div class="container">
+    <div id="viewerConversations" class="pivot_ajax_viewer" data-collection="collection/conversations.cxml" data-use-hash="false"></div>
+  </div>
+
+  <div class="container">
+    <div id="viewerL3TTinstances" class="pivot_ajax_viewer" data-collection="collection/L3TTinstances.cxml" data-use-hash="false"></div>
+  </div>
+  
+  <div class="container">
+    <div id="viewerL3STinstances" class="pivot_ajax_viewer" data-collection="collection/L3STinstances.cxml" data-use-hash="false"></div>
+  </div>
+</body>
+
+</html>
