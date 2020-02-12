@@ -1,7 +1,7 @@
 <!--
 Project: Trafilm.Gallery (http://github.com/zoomicon/Trafilm.Gallery)
 Filename: default.html
-Version: 20180423
+Version: 20200212
 -->
 
 <html> <!-- do not use DOCTYPE statement -->
@@ -14,24 +14,8 @@ Version: 20180423
   <meta name="viewport" content="width=700, user-scalable=yes, initial-scale=0.6" />
 
   <link rel="shortcut icon" type="image/ico" href='favicon.ico' />
-
-  <style type="text/css">
-  body
-  {
-    margin:0;
-    padding:0;
-    overflow-y:auto;
-  }
   
-  iframe 
-  {
-    width:100%;
-    height:100%;
-    border:0;
-    margin:0;
-    padding:0;
-  }
-  </style>
+  <link rel="stylesheet" type="text/css" href="css/gallery.css" />
   
   <script type="text/javascript">
   
@@ -105,7 +89,7 @@ Version: 20180423
 
   var pivotFilms, pivotConversations, pivotL3STinstances, pivotL3TTinstances; 
   
-  ready(function(){
+  var readyCallback = function(){
     iFrameReady(document.getElementById("frameFilms"), function() {
       pivotFilms = document.getElementById("frameFilms").contentDocument.getElementsByClassName("pivot_ajax_viewer")[0].pivotViewer;
       
@@ -117,6 +101,15 @@ Version: 20180423
 
           iFrameReady(document.getElementById("frameL3TTinstances"), function() {
             pivotL3TTinstances = document.getElementById("frameL3TTinstances").contentDocument.getElementsByClassName("pivot_ajax_viewer")[0].pivotViewer;
+
+            if (pivotFilms === undefined ||
+                pivotConversations === undefined ||
+                pivotL3STinstances === undefined ||
+                pivotL3TTinstances === undefined)
+            {
+              setTimeout(function(){ ready(readyCallback); }, 100);
+              return;
+            }
     
             var bind = function(parentPivot, parentFacet, childPivot, childParentFacet) {
               var bindOneWay = function(parentPivot, parentFacet, childPivot, childParentFacet) {
@@ -137,7 +130,7 @@ Version: 20180423
               };
                       
               bindOneWay(parentPivot, parentFacet, childPivot, childParentFacet); //propagate from parent to child
-              //bindOneWay(childPivot, childParentFacet, parentPivot, parentFacet); //propagate from child to parent //TODO: fix, seems to loop (could check at "filterRequest" if items differes from activeItems to propagate further via "filterrrequest"
+              //bindOneWay(childPivot, childParentFacet, parentPivot, parentFacet); //propagate from child to parent //TODO: fix, seems to loop (could check at "filterRequest" if items differs from activeItems to propagate further via "filterrrequest"
             };
      
             //propagate pivot active items change
@@ -149,25 +142,27 @@ Version: 20180423
         }); //iFrameReady
       }); //iFrameReady
     }); //iFrameReady
-  }); //ready
+  }; //readyCallback
+  
+  ready(readyCallback);
   </script>
 
 </head>
 
 <body>
-  <iframe id="frameFilms" src="http://gallery.trafilm.net/film">
+  <iframe id="frameFilms" class="container" src="http://gallery.trafilm.net/film">
     <a href="http://gallery.trafilm.net/film">Trafilm Gallery | Films</a>
   </iframe>
 
-  <iframe id="frameConversations" src="http://gallery.trafilm.net/conversation">
+  <iframe id="frameConversations" class="container" src="http://gallery.trafilm.net/conversation">
     <a href="http://gallery.trafilm.net/conversation">Trafilm Gallery | Conversations</a>
   </iframe>
 
-  <iframe id="frameL3STinstances" src="http://gallery.trafilm.net/L3STinstance">
+  <iframe id="frameL3STinstances" class="container" src="http://gallery.trafilm.net/L3STinstance">
     <a href="http://gallery.trafilm.net/L3STinstance">Trafilm Gallery | L3ST-instances</a>
   </iframe>
 
-  <iframe id="frameL3TTinstances" src="http://gallery.trafilm.net/L3TTinstance">
+  <iframe id="frameL3TTinstances" class="container" src="http://gallery.trafilm.net/L3TTinstance">
     <a href="http://gallery.trafilm.net/L3TTinstance">Trafilm Gallery | L3TT-instances</a>
   </iframe>
 </body>
