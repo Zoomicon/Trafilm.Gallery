@@ -1729,7 +1729,27 @@ Source: https://www.imdb.com/title/tt0299658/</Description>
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Designated Survivor - Season 3" Name="Designated Survivor - Season 3" Img="https://en.wikipedia.org/wiki/File:Designated_Survivor_season_3_poster.png" Href="http://gallery.trafilm.net/film/metadata/?film=Designated Survivor - Season 3">
+    <Item Id="Daredevil" Name="Daredevil" Img="" Href="">
+      <Description></Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Daredevil" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2020-02-14T04:10:27" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2020-02-14T04:10:27" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Daredevil" />
+        </Facet>
+        <Facet Name="Conversations: count">
+          <Number Value="0" />
+        </Facet>
+      </Facets>
+    </Item>
+    <Item Id="Designated Survivor - Season 3" Name="Designated Survivor - Season 3" Img="https://upload.wikimedia.org/wikipedia/en/8/87/Designated_Survivor_season_3_poster.png" Href="http://gallery.trafilm.net/film/metadata/?film=Designated Survivor - Season 3">
       <Description>A low rank poltitician has to accept to become President of the US after a massive terrorist attack</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -1739,10 +1759,11 @@ Source: https://www.imdb.com/title/tt0299658/</Description>
           <DateTime Value="2020-02-14T10:11:10" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2020-02-14T10:40:20" />
+          <DateTime Value="2020-05-01T07:54:02" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="santamaria" />
+          <String Value="stavroula" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Designated Survivor - Season 3" />
@@ -1775,7 +1796,7 @@ Source: https://www.imdb.com/title/tt0299658/</Description>
           <String Value="English" />
         </Facet>
         <Facet Name="Conversations: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>
@@ -2154,7 +2175,7 @@ Source: https://www.imdb.com/title/tt0299658/</Description>
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Friends - Season 01" Name="Friends - Season 01" Img="http://toptvshows.me/images/tvimages/friends-all-season-tv-shows-poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Friends - Season 01">
+    <Item Id="Friends - Season 01" Name="Friends - Season 01" Img="https://upload.wikimedia.org/wikipedia/en/1/1c/Friends_Season_1_DVD.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Friends - Season 01">
       <Description>Friends follows the life of a group of six friends in their 30s - Rachel, Ross, Monica, Chandler, Phoebe and Joey - during a period of 10 years. 
 </Description>
       <Facets>
@@ -2165,11 +2186,12 @@ Source: https://www.imdb.com/title/tt0299658/</Description>
           <DateTime Value="2017-06-26T03:36:49" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-11-28T03:08:27" />
+          <DateTime Value="2020-05-01T07:53:07" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="IreneRanzato" />
           <String Value="George" />
+          <String Value="stavroula" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Friends - Season 01" />
@@ -3553,7 +3575,7 @@ Later, Riggs visits his dead wife's grave and asks her for advice about his impe
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Lolita" Name="Lolita" Img="https://upload.wikimedia.org/wikipedia/en/7/72/LolitaPoster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Lolita">
+    <Item Id="Lolita" Name="Lolita" Img="https://upload.wikimedia.org/wikipedia/commons/c/c1/Lolita_%281962_film_poster%29.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Lolita">
       <Description>Film adaptation of Nabokov's novel about a story of paedophilia</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -3563,11 +3585,12 @@ Later, Riggs visits his dead wife's grave and asks her for advice about his impe
           <DateTime Value="2016-11-18T08:36:12" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2018-04-20T11:45:40" />
+          <DateTime Value="2020-05-01T07:56:26" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="PatrickZabalbeascoa" />
           <String Value="George" />
+          <String Value="stavroula" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Lolita" />
@@ -3610,7 +3633,7 @@ Later, Riggs visits his dead wife's grave and asks her for advice about his impe
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Lost in Translation" Name="Lost in Translation" Img="http://ia.media-imdb.com/images/M/MV5BMTI2NDI5ODk4N15BMl5BanBnXkFtZTYwMTI3NTE3._V1_.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Lost in Translation">
+    <Item Id="Lost in Translation" Name="Lost in Translation" Img="https://upload.wikimedia.org/wikipedia/en/4/4c/Lost_in_Translation_poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Lost in Translation">
       <Description>An American film star (Bob) goes to Tokyo to shoot a whiskey commercial. He stays in a luxury hotel where he meets Charlotte, a young woman who is visiting Tokyo with her husband, a photographer on assignment. Both Bob and Charlotte suffer confusion and hilaritydue to the language barrier and culture clash while they are both searching for the meaning of their lives. Since they share a feeling of intense isolation, they both need somebody to fill their gaps, so their relationship deepens.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -3626,14 +3649,14 @@ Later, Riggs visits his dead wife's grave and asks her for advice about his impe
           <DateTime Value="2016-06-13T06:54:58" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-11-28T03:11:00" />
+          <DateTime Value="2020-05-01T07:57:11" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="natalia.faja" />
-          <String Value="Stavroula" />
           <String Value="evaespasa" />
           <String Value="corrius" />
           <String Value="George" />
+          <String Value="stavroula" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Lost in Translation" />
@@ -5036,7 +5059,7 @@ Later, Riggs visits his dead wife's grave and asks her for advice about his impe
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Rio" Name="Rio" Img="http://cdn.collider.com/wp-content/uploads/rio_movie_poster_teaser_01.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Rio">
+    <Item Id="Rio" Name="Rio" Img="https://upload.wikimedia.org/wikipedia/en/b/bb/Rio2011Poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Rio">
       <Description>When Blu, a domesticated macaw from small-town Minnesota, meets the fiercely independent Jewel, he takes off on an adventure to Rio de Janeiro with the bird of his dreams.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -5049,10 +5072,11 @@ Later, Riggs visits his dead wife's grave and asks her for advice about his impe
           <DateTime Value="2018-06-10T09:58:51" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2018-06-10T10:03:44" />
+          <DateTime Value="2020-05-01T07:59:04" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="lorenahurtado-malillos" />
+          <String Value="stavroula" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Rio" />
@@ -5344,7 +5368,7 @@ Later, Riggs visits his dead wife's grave and asks her for advice about his impe
         </Facet>
       </Facets>
     </Item>
-    <Item Id="Slumdog Millionaire" Name="Slumdog Millionaire" Img="https://upload.wikimedia.org/wikipedia/ca/2/2b/Slumdog_Millionaire.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Slumdog Millionaire">
+    <Item Id="Slumdog Millionaire" Name="Slumdog Millionaire" Img="https://upload.wikimedia.org/wikipedia/en/9/92/Slumdog_Millionaire_poster.png" Href="http://gallery.trafilm.net/film/metadata/?film=Slumdog Millionaire">
       <Description>A Mumbai teen reflects on his upbringing in the slums when he is accused of cheating on the Indian Version of "Who Wants to be a Millionaire?" </Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -5354,13 +5378,13 @@ Later, Riggs visits his dead wife's grave and asks her for advice about his impe
           <DateTime Value="2016-06-16T08:16:54" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-11-28T03:13:38" />
+          <DateTime Value="2020-05-01T08:00:30" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="natalia.faja" />
-          <String Value="Stavroula" />
           <String Value="Santamaria" />
           <String Value="George" />
+          <String Value="stavroula" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Slumdog Millionaire" />

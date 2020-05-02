@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Collection SchemaVersion="1.0" Name="Lost in Translation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
-    <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film/Season title" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Type" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Duration (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
@@ -22,9 +21,10 @@
     <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Lost in Translation" Name="Lost in Translation" Img="http://ia.media-imdb.com/images/M/MV5BMTI2NDI5ODk4N15BMl5BanBnXkFtZTYwMTI3NTE3._V1_.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Lost in Translation">
+    <Item Id="Lost in Translation" Name="Lost in Translation" Img="https://upload.wikimedia.org/wikipedia/en/4/4c/Lost_in_Translation_poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Lost in Translation">
       <Description>An American film star (Bob) goes to Tokyo to shoot a whiskey commercial. He stays in a luxury hotel where he meets Charlotte, a young woman who is visiting Tokyo with her husband, a photographer on assignment. Both Bob and Charlotte suffer confusion and hilaritydue to the language barrier and culture clash while they are both searching for the meaning of their lives. Since they share a feeling of intense isolation, they both need somebody to fill their gaps, so their relationship deepens.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -40,14 +40,14 @@
           <DateTime Value="2016-06-13T06:54:58" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-11-28T03:11:00" />
+          <DateTime Value="2020-05-01T07:57:11" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="natalia.faja" />
-          <String Value="Stavroula" />
           <String Value="evaespasa" />
           <String Value="corrius" />
           <String Value="George" />
+          <String Value="stavroula" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Lost in Translation" />

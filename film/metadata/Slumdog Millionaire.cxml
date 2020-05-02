@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Collection SchemaVersion="1.0" Name="Slumdog Millionaire" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
-    <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film/Season title" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Type" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Duration (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
@@ -22,9 +21,10 @@
     <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Slumdog Millionaire" Name="Slumdog Millionaire" Img="https://upload.wikimedia.org/wikipedia/ca/2/2b/Slumdog_Millionaire.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Slumdog Millionaire">
+    <Item Id="Slumdog Millionaire" Name="Slumdog Millionaire" Img="https://upload.wikimedia.org/wikipedia/en/9/92/Slumdog_Millionaire_poster.png" Href="http://gallery.trafilm.net/film/metadata/?film=Slumdog Millionaire">
       <Description>A Mumbai teen reflects on his upbringing in the slums when he is accused of cheating on the Indian Version of "Who Wants to be a Millionaire?" </Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -34,13 +34,13 @@
           <DateTime Value="2016-06-16T08:16:54" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2017-11-28T03:13:38" />
+          <DateTime Value="2020-05-01T08:00:30" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="natalia.faja" />
-          <String Value="Stavroula" />
           <String Value="Santamaria" />
           <String Value="George" />
+          <String Value="stavroula" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Slumdog Millionaire" />

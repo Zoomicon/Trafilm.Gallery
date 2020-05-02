@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Collection SchemaVersion="1.0" Name="Lolita" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
   <FacetCategories>
-    <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Film/Season title" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Type" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
     <FacetCategory Name="Duration (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
@@ -22,9 +21,10 @@
     <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
     <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Lolita" Name="Lolita" Img="https://upload.wikimedia.org/wikipedia/en/7/72/LolitaPoster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Lolita">
+    <Item Id="Lolita" Name="Lolita" Img="https://upload.wikimedia.org/wikipedia/commons/c/c1/Lolita_%281962_film_poster%29.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Lolita">
       <Description>Film adaptation of Nabokov's novel about a story of paedophilia</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -34,11 +34,12 @@
           <DateTime Value="2016-11-18T08:36:12" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2018-04-20T11:45:40" />
+          <DateTime Value="2020-05-01T07:56:26" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="PatrickZabalbeascoa" />
           <String Value="George" />
+          <String Value="stavroula" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Lolita" />

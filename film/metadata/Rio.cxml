@@ -24,7 +24,7 @@
     <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
   </FacetCategories>
   <Items xmlns="">
-    <Item Id="Rio" Name="Rio" Img="http://cdn.collider.com/wp-content/uploads/rio_movie_poster_teaser_01.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Rio">
+    <Item Id="Rio" Name="Rio" Img="https://upload.wikimedia.org/wikipedia/en/b/bb/Rio2011Poster.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Rio">
       <Description>When Blu, a domesticated macaw from small-town Minnesota, meets the fiercely independent Jewel, he takes off on an adventure to Rio de Janeiro with the bird of his dreams.</Description>
       <Facets>
         <Facet Name="Reference Id">
@@ -37,10 +37,11 @@
           <DateTime Value="2018-06-10T09:58:51" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2018-06-10T10:03:44" />
+          <DateTime Value="2020-05-01T07:59:04" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="lorenahurtado-malillos" />
+          <String Value="stavroula" />
         </Facet>
         <Facet Name="Film/Season title">
           <String Value="Rio" />
