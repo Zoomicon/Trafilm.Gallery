@@ -25,7 +25,7 @@
   </FacetCategories>
   <Items xmlns="">
     <Item Id="Shtisel" Name="Shtisel - Season 01" Img="https://en.wikipedia.org/wiki/Shtisel#/media/File:Shtisel.jpg" Href="http://gallery.trafilm.net/film/metadata/?film=Shtisel">
-      <Description>This story of an ultra-orthodox Jewish family in Jerusalem, Israel, follows the father, Shulem Shtisel, and his children: Akiva is the youngest son, a dreamer whose love interest is against his father's wishes; Giti, one of his daughters, who is secretly struggling when her husband flees; and Zvi Arie, the older son, who tries to solve the others' problems.</Description>
+      <Description>This story of an ultra-orthodox Jewish family in Jerusalem, Israel, follows the father, Shulem Shtisel, and his children: Akiva is the youngest son, a dreamer whose love interest is against his father's wishes; Giti, one of his daughters, who is secretly struggling when her husband abandons the family; and Zvi Arie, the older son, who tries to solve the others' problems.</Description>
       <Facets>
         <Facet Name="Reference Id">
           <String Value="Shtisel" />
@@ -41,7 +41,7 @@
           <DateTime Value="2020-06-01T01:28:02" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2020-06-01T02:54:58" />
+          <DateTime Value="2020-06-11T07:02:13" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="AmyDara" />
@@ -77,8 +77,12 @@
         <Facet Name="Main language (L1)">
           <String Value="Other" />
         </Facet>
+        <Facet Name="L2-Subtitled languages">
+          <String Value="English" />
+          <String Value="Spanish" />
+        </Facet>
         <Facet Name="Conversations: count">
-          <Number Value="0" />
+          <Number Value="1" />
         </Facet>
       </Facets>
     </Item>
