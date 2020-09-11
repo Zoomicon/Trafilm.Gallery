@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Collection SchemaVersion="1.0" Name="Shtisel.Israel's class schedule.Chumesh.EnglishSub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+  <FacetCategories>
+    <FacetCategory Name="Film Title TT" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L2 language" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L2 mode" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Distribution countries (TT)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Year TT released" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Film TT Blockbuster" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Conversation start time (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Conversation duration (sec)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="L2 same as L3ST" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="L3ST conveyed as L3TT" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="L3TT language type" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3TT language" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3TT constructed based on" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3TT meant to be understood" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3TT message required for understanding" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3TT meaning decipherable" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Quality of L3TT speaker performance" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="L3TT mode, written/spoken, diegetic" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3TT merely represented" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3TT merely represented orally" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3TT represented: visual" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3TT functions" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Conversation features for L3TT-instance" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3TT sources" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3 language type change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3 mode change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3 functions change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Conversation features for L3-instance change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3 sources change" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Tags" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Conversation Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST-instance Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+  </FacetCategories>
+  <Items xmlns="">
+    <Item Id="Shtisel.Israel's class schedule.Chumesh.EnglishSub" Name="Shtisel.Israel's class schedule.Chumesh.EnglishSub" Img="" Href="http://gallery.trafilm.net/L3TTinstance/metadata/?film=Shtisel&amp;conversation=Shtisel.Israel's class schedule&amp;L3STinstance=Shtisel.Israel's class schedule.Chumesh&amp;L3TTinstance=Shtisel.Israel's class schedule.Chumesh.EnglishSub">
+      <Description>Elisheva calls Akiva with the excuse that her son Israel, who is one of Akiva's students, lost his class schedule. </Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Shtisel.Israel's class schedule.Chumesh.EnglishSub" />
+        </Facet>
+        <Facet Name="Transcription">
+          <String Value="&quot;Hello?&quot;&#xD;&#xA;&quot;Hello, Rabbi Shtisel?&quot;&#xD;&#xA;&quot;Yes, who is this?&quot;&#xD;&#xA;&quot;It's Elisheva, Israel Rotstein's mother.&quot;&#xD;&#xA;&quot;Hello, Elisheva. How are you?&quot;&#xD;&#xA;&quot;Well, thank God. How are you?&quot;&#xD;&#xA;&quot;Well, thank God. Where are you?&quot;&#xD;&#xA;&quot;On Ethiopia Street. Doing some shopping.&quot;&#xD;&#xA;&quot;Yes?&quot;&#xD;&#xA;&quot;Israel lost his class schedule and...&quot;&#xD;&#xA;&quot;I see... I'm no longer his rabbi, didn't you know?&quot;&#xD;&#xA;&quot;No, I didn't. He must've forgotten to tell me.&quot;&#xD;&#xA;&quot;Rabbi Cheshin came back.&quot;&#xD;&#xA;&quot;Praise God.&quot;&#xD;&#xA;&quot;Praise God.&quot;&#xD;&#xA;&quot;Well, thanks anyways. Goodbye.&quot;&#xD;&#xA;&quot;Hold on. Elisheva?&quot;&#xD;&#xA;&quot;Yes?&quot;&#xD;&#xA;&quot;I remember his class schedule by heart, I can tell you what it is. Are you writing this down?&quot;&#xD;&#xA;&quot;Yes.&quot;&#xD;&#xA;&quot;Chumesh.&quot;&#xD;&#xA;&quot;Chumesh.&quot;&#xD;&#xA;&quot;Jewish laws.&quot;&#xD;&#xA;&quot;Jewish laws.&quot;&#xD;&#xA;&quot;Prophet.&quot;&#xD;&#xA;&quot;Prophet.&quot;&#xD;&#xA;&quot;Math and grammar.&quot;&#xD;&#xA;&quot;Math and grammar.&quot;&#xD;&#xA;&quot;Elisheva?&quot;&#xD;&#xA;&quot;Yes?&quot;&#xD;&#xA;&quot;Congratulations are in order. I got engaged tonight.&quot;&#xD;&#xA;&quot;Yes, I know. Mazal tov.&quot;&#xD;&#xA;&quot;Thank you.&quot;&#xD;&#xA;&quot;I'll make sure Israel doesn't lose his class schedule again.&quot;&#xD;&#xA;&quot;I'm glad I could help. Goodbye.&quot;&#xD;&#xA;&quot;Take care.&quot;" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="Yiddish" />
+          <String Value=" chumesh" />
+          <String Value=" mazal tov" />
+          <String Value=" mazel tov" />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="&quot;Mazal tov&quot; is Hebrew and &quot;mazel tov&quot; is Yiddish. Elisheva &amp; Akiva use the Hebrew variation to reflect the generational difference, as their generation speak Hebrew to one another even though they know Yiddish, which is spoken more among their parents' and mainly among their grandparents' generation.&#xD;&#xA;&#xD;&#xA;&quot;Chumesh&quot; is not a commonly known Yiddish word among non-orthodox Jews, unless they attended a Jewish school. It translates into the Christian English word &quot;Pentateuch,&quot; or the 5 books of Moses (Genesis, Exodus, Leviticus, Numbers, &amp; Deuteronomy). &quot;Chumesh&quot; probably posed a conundrum for the translator - &quot;5 Books of Moses&quot; wouldn't fit time wise, &amp; Jews would not say &quot;Pentateuch.&quot;" />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2020-09-10T02:06:22" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2020-09-10T03:59:39" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="AmyDara" />
+        </Facet>
+        <Facet Name="Film Title TT">
+          <String Value="Shtisel" />
+        </Facet>
+        <Facet Name="L2 language">
+          <String Value="English" />
+        </Facet>
+        <Facet Name="L2 mode">
+          <String Value="Subtitled" />
+        </Facet>
+        <Facet Name="Distribution countries (TT)">
+          <String Value="USA" />
+        </Facet>
+        <Facet Name="Year TT released">
+          <Number Value="2018" />
+        </Facet>
+        <Facet Name="Film TT Blockbuster">
+          <String Value="NO, but commercially intended" />
+        </Facet>
+        <Facet Name="Conversation start time (min)">
+          <Number Value="40" />
+        </Facet>
+        <Facet Name="Conversation duration (sec)">
+          <String Value="G. 121-140" />
+        </Facet>
+        <Facet Name="L2 same as L3ST">
+          <String Value="No" />
+        </Facet>
+        <Facet Name="L3ST conveyed as L3TT">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3TT language">
+          <String Value="Yiddish" />
+        </Facet>
+        <Facet Name="L3TT meant to be understood">
+          <String Value="YES, the gist, the implications of what is happening" />
+        </Facet>
+        <Facet Name="L3TT message required for understanding">
+          <String Value="Conversation can be followed regardless of meaning" />
+        </Facet>
+        <Facet Name="L3TT meaning decipherable">
+          <String Value="NO" />
+        </Facet>
+        <Facet Name="Quality of L3TT speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3TT mode, written/spoken, diegetic">
+          <String Value="Oral diegetic on-screen" />
+        </Facet>
+        <Facet Name="L3TT functions">
+          <String Value="Character portrayal" />
+        </Facet>
+        <Facet Name="Conversation features for L3TT-instance">
+          <String Value="information" />
+          <String Value="phone call / intercom / two-way radio" />
+          <String Value="religion" />
+        </Facet>
+        <Facet Name="L3TT sources">
+          <String Value="Respond interlingually: different sources " />
+        </Facet>
+        <Facet Name="L3 language type change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 mode change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 functions change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="Conversation features for L3-instance change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="L3 sources change">
+          <String Value="None" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Shtisel" />
+        </Facet>
+        <Facet Name="Conversation Reference Id">
+          <String Value="Shtisel.Israel's class schedule" />
+        </Facet>
+        <Facet Name="L3ST-instance Reference Id">
+          <String Value="Shtisel.Israel's class schedule.Chumesh" />
+        </Facet>
+      </Facets>
+    </Item>
+  </Items>
+</Collection>
