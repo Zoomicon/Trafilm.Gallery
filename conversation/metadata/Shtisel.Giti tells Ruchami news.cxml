@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Collection SchemaVersion="1.0" Name="Giti tells Ruchami news" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:p="http://schemas.microsoft.com/livelabs/pivot/collection/2009" xmlns="http://schemas.microsoft.com/collection/metadata/2009">
+  <FacetCategories>
+    <FacetCategory Name="Film/Season title" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Season episode name" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Start time (min)" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Duration (sec)" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="L3ST languages: count" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="L3ST languages" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST language types: count" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="L3ST language types" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="L3ST-instances: count" Type="Number" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Transcription" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Tags" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Remarks" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Info created" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="False" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Info updated" Type="DateTime" Format="yyyy-MM-ddThh:mm:ss" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="False" />
+    <FacetCategory Name="Metadata Editors" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+    <FacetCategory Name="Film Reference Id" Type="String" p:IsFilterVisible="True" p:IsMetadataVisible="True" p:IsWordWheelVisible="True" />
+  </FacetCategories>
+  <Items xmlns="">
+    <Item Id="Shtisel.Giti tells Ruchami news" Name="Giti tells Ruchami news" Img="" Href="http://gallery.trafilm.net/conversation/metadata/?film=Shtisel&amp;conversation=Shtisel.Giti tells Ruchami news">
+      <Description>Giti tells her daughter Ruchami that her father (Giti's husband) is returning home. Ruchami, angry that her father had abandoned the family and the faith and ran off with another woman, did not receive the news well.</Description>
+      <Facets>
+        <Facet Name="Reference Id">
+          <String Value="Shtisel.Giti tells Ruchami news" />
+        </Facet>
+        <Facet Name="Tags">
+          <String Value="Yiddish" />
+          <String Value=" shiksa " />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="The earlier example of the use of &quot;shiksa&quot; in the English version but &quot;goya&quot; in the Hebrew version is repeated in this instance." />
+        </Facet>
+        <Facet Name="Info created">
+          <DateTime Value="2020-10-19T06:05:22" />
+        </Facet>
+        <Facet Name="Info updated">
+          <DateTime Value="2020-10-19T06:17:21" />
+        </Facet>
+        <Facet Name="Metadata Editors">
+          <String Value="AmyDara" />
+        </Facet>
+        <Facet Name="Film/Season title">
+          <String Value="Shtisel - Season 01" />
+        </Facet>
+        <Facet Name="Season episode name">
+          <String Value="10" />
+        </Facet>
+        <Facet Name="Start time (min)">
+          <Number Value="11" />
+        </Facet>
+        <Facet Name="Duration (sec)">
+          <String Value="D. 61-80" />
+        </Facet>
+        <Facet Name="L3ST languages: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST language types: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="L3ST-instances: count">
+          <Number Value="0" />
+        </Facet>
+        <Facet Name="Film Reference Id">
+          <String Value="Shtisel" />
+        </Facet>
+      </Facets>
+    </Item>
+  </Items>
+</Collection>
