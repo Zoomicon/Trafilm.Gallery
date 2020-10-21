@@ -61087,7 +61087,7 @@ At the same time Mathis is on the phone</Description>
           <DateTime Value="2020-10-19T08:23:07" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2020-10-19T09:09:29" />
+          <DateTime Value="2020-10-20T07:21:00" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="AmyDara" />
@@ -61141,7 +61141,7 @@ At the same time Mathis is on the phone</Description>
           <String Value="native or proficient" />
         </Facet>
         <Facet Name="L3TT mode, written/spoken, diegetic">
-          <String Value="Oral diegetic on-screen" />
+          <String Value="Written diegetic" />
         </Facet>
         <Facet Name="L3TT functions">
           <String Value="Plot (twist)" />
@@ -61157,11 +61157,15 @@ At the same time Mathis is on the phone</Description>
           <String Value="taboo" />
           <String Value="vulgar" />
         </Facet>
+        <Facet Name="L3TT sources">
+          <String Value="Only written L3" />
+        </Facet>
         <Facet Name="L3 language type change">
           <String Value="None" />
         </Facet>
         <Facet Name="L3 mode change">
-          <String Value="None" />
+          <String Value="- Oral diegetic on-screen" />
+          <String Value="+ Written diegetic" />
         </Facet>
         <Facet Name="L3 functions change">
           <String Value="+ Plot (twist)" />
@@ -61171,7 +61175,7 @@ At the same time Mathis is on the phone</Description>
         </Facet>
         <Facet Name="L3 sources change">
           <String Value="- Oral L3: single source" />
-          <String Value="+ " />
+          <String Value="+ Only written L3" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Shtisel" />
@@ -61190,15 +61194,21 @@ At the same time Mathis is on the phone</Description>
         <Facet Name="Reference Id">
           <String Value="Shtisel.Giti tells Ruchami news.Shiksa.SpanishSub" />
         </Facet>
+        <Facet Name="Transcription">
+          <String Value="- Ruchami, tengo que contarte algo.&#xD;&#xA;- ¿Qué pasa?&#xD;&#xA;- No te preocupes, son buenas noticias. He hablado con tu padre hoy. Vuelve a casa la semana que viene. Es algo bueno, Ruchami. Volveremos a ser una familia normal.&#xD;&#xA;- Sí, ya, normal...&#xD;&#xA;- Sí, normal.&#xD;&#xA;- Lo que tú digas.&#xD;&#xA;- Tendrás que volver al cuarto de los niños, ¿vale? ¿Me estás eschuchando, Ruchami?&#xD;&#xA;- ¿Por qué le tengo que dar mi cama? Puede dormir en la calle con su shiksa.&#xD;&#xA;- Ruchami, no hables así, es tu padre. Cariño, inténtalo, por favor. Por mí, ¿vale? Te necesito a mi lado." />
+        </Facet>
         <Facet Name="Tags">
           <String Value="Yiddish" />
           <String Value=" shiksa " />
+        </Facet>
+        <Facet Name="Remarks">
+          <String Value="&quot;Shiksa&quot; appeared in the Spanish subtitles in italics and within the context to imply that Ruchami's father cheated on her mother." />
         </Facet>
         <Facet Name="Info created">
           <DateTime Value="2020-10-19T09:10:52" />
         </Facet>
         <Facet Name="Info updated">
-          <DateTime Value="2020-10-19T09:12:00" />
+          <DateTime Value="2020-10-20T07:19:05" />
         </Facet>
         <Facet Name="Metadata Editors">
           <String Value="AmyDara" />
@@ -61227,29 +61237,66 @@ At the same time Mathis is on the phone</Description>
         <Facet Name="Conversation duration (sec)">
           <String Value="D. 61-80" />
         </Facet>
+        <Facet Name="L2 same as L3ST">
+          <String Value="No" />
+        </Facet>
+        <Facet Name="L3ST conveyed as L3TT">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT language type">
+          <String Value="Real" />
+        </Facet>
+        <Facet Name="L3TT language">
+          <String Value="Yiddish" />
+        </Facet>
+        <Facet Name="L3TT meant to be understood">
+          <String Value="YES, the gist, the implications of what is happening" />
+        </Facet>
+        <Facet Name="L3TT message required for understanding">
+          <String Value="Yes" />
+        </Facet>
+        <Facet Name="L3TT meaning decipherable">
+          <String Value="YES, through translation or clear from picture" />
+        </Facet>
+        <Facet Name="Quality of L3TT speaker performance">
+          <String Value="native or proficient" />
+        </Facet>
+        <Facet Name="L3TT mode, written/spoken, diegetic">
+          <String Value="Written diegetic" />
+        </Facet>
+        <Facet Name="L3TT functions">
+          <String Value="Signals the bad guy" />
+          <String Value="Signals otherness" />
+        </Facet>
+        <Facet Name="Conversation features for L3TT-instance">
+          <String Value="announcement" />
+          <String Value="domestic / family" />
+          <String Value="information" />
+          <String Value="news" />
+          <String Value="religion" />
+          <String Value="taboo" />
+          <String Value="vulgar" />
+        </Facet>
+        <Facet Name="L3TT sources">
+          <String Value="Only written L3" />
+        </Facet>
         <Facet Name="L3 language type change">
-          <String Value="- Real" />
-          <String Value="+ " />
+          <String Value="None" />
         </Facet>
         <Facet Name="L3 mode change">
           <String Value="- Oral diegetic on-screen" />
+          <String Value="+ Written diegetic" />
         </Facet>
         <Facet Name="L3 functions change">
-          <String Value="- Signals the bad guy" />
-          <String Value="- Signals otherness" />
+          <String Value="None" />
         </Facet>
         <Facet Name="Conversation features for L3-instance change">
-          <String Value="- announcement" />
-          <String Value="- domestic / family" />
-          <String Value="- news" />
           <String Value="- persuasion" />
-          <String Value="- religion" />
-          <String Value="- taboo" />
-          <String Value="- vulgar" />
+          <String Value="+ information" />
         </Facet>
         <Facet Name="L3 sources change">
           <String Value="- Oral L3: single source" />
-          <String Value="+ " />
+          <String Value="+ Only written L3" />
         </Facet>
         <Facet Name="Film Reference Id">
           <String Value="Shtisel" />
